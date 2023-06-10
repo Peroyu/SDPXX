@@ -7,7 +7,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SWA
+		owner = CAM
 		buildings = {
 			infrastructure = 2
 		}
@@ -15,7 +15,7 @@ state={
 			4879 1
 		}
 		add_core_of = DOS
-		add_core_of = NMB
+		add_core_of = CAM
 	}
 
 	provinces={
