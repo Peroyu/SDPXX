@@ -6,7 +6,7 @@ state={
 		 4300 4374 4581 4638 7243 7486
 	}
 	history={
-		owner = TRU
+		owner = CAS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 		victory_points = { 
 			
 		}
-		add_core_of = TRU
+		add_core_of = CAS
 	}
 
 	manpower=80000

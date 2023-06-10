@@ -3,8 +3,8 @@ state={
 	name="塔尔迪库尔干"
 
 	history={
-		owner = TRU
-		add_core_of = TRU
+		owner = CAS
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
