@@ -1,0 +1,80 @@
+characters = {   
+	FRA_Alain_Lepp = {
+	    name = "FRA_Alain_Lepp" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_FRA_Alain_Lepp
+			}
+		}
+		advisor = {
+	        slot = political_advisor
+		    idea_token = Alain_Lepp
+		    ai_will_do = {
+		        factor = 0
+	        }
+			available = {always = yes}
+			allowed = {  }
+			cost = -1
+			remove_cost = -1
+        }
+	}
+	
+	FRA_Marcel_Edmund_Negren = {
+	    name = "FRA_Marcel_Edmund_Negren" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_FRA_Marcel_Edmund_Negren
+			}
+		}
+		advisor = {
+	        slot = political_advisor
+		    idea_token = Marcel_Edmund_Negren
+		    ai_will_do = {
+		        factor = 0
+	        }
+			allowed = { original_tag = FRA }
+			cost = -1
+			remove_cost = -1
+        }
+	}
+	
+	FRA_Jacques_Duclo = {
+	    name = "FRA_Jacques_Duclo" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_FRA_Jacques_Duclo
+				large = GFX_portrait_FRA_Jacques_Duclo
+			}
+		}
+		country_leader = {
+			ideology = Jacobinism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+		advisor = {
+	        slot = political_advisor
+		    idea_token = Jacques_Duclo
+		    ai_will_do = {
+		        factor = 0
+	        }
+			allowed = { original_tag = FRA }
+			cost = -1
+			remove_cost = -1
+        }
+	}
+	
+	FRA_Pierre_Samard = {
+	    name = "FRA_Pierre_Samard" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_Pierre_Samard
+			}
+		}
+		country_leader = {
+			ideology = parliamentary_communism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+		
+	}
+}

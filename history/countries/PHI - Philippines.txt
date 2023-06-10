@@ -1,0 +1,35 @@
+capital = 219
+
+set_research_slots = 4 
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = Liberalism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	Liberalism = 32
+	communism = 5
+    	moderate_socialism = 4
+	movement_communism = 28
+	conservatism = 11
+	reactionism = 9
+	nationalism = 11
+}
+
+
+create_country_leader = {
+	name = "曼努埃尔·阿库纳"
+	desc = "/"  
+	picture = "portrait_PHI_Manuel_Acuna"  
+	expire = "1952.7.10"  
+	ideology = trade_liberalism
+	traits = { 
+		
+	}
+}

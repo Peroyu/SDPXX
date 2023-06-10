@@ -1,0 +1,22 @@
+
+state={
+	id=851
+	name="STATE_851"
+	history={
+		owner = JIN
+		add_core_of = JIN
+		add_core_of = FNC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	state_category=rural
+	provinces={
+		1027 1438 10480 12432 
+	}
+	manpower=920000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

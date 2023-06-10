@@ -1,0 +1,206 @@
+division_template = {
+	name = "Tanke tuan"				# 
+	division_names_group = GNP_INF_01
+
+	regiments = {
+		category_tanks = { x = 0 y = 0 }	# 
+		category_tanks = { x = 0 y = 1 }
+		category_tanks = { x = 1 y = 0 }
+		category_tanks = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Jingbei Lü"	# 
+	division_names_group = GNP_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 } # 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Bubing Juntuán"				# Chinese Infantry Division
+	division_names_group = GNP_INF_01
+									# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		category_line_artillery = { x = 1 y = 2 }
+		category_line_artillery = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 } 
+	}
+}
+division_template = {
+	name = "Juntuán"				# 
+	division_names_group = GNP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Tanke tuan 1"
+		location = 1047
+		division_template = "Tanke tuan"	
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Tanke tuan 2"
+		location = 4092
+		division_template = "Tanke tuan"	
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bubingshi 5"
+		location = 1087
+		division_template = "Juntuán"	
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 8"
+		location = 1047
+		division_template = "Juntuán"	
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 6"
+		location = 1087
+		division_template = "Juntuán"	
+		start_experience_factor = 0.5			# 
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bubingshi 7"
+		location = 1087
+		division_template = "Juntuán"	
+		start_experience_factor = 0.5			# 
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bubingshi 7"
+		location = 10121
+		division_template = "Juntuán"	
+		start_experience_factor = 0.5			# 
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bubingshi 4"
+		location = 1047
+		division_template = "Juntuán"
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 3"
+		location = 1131
+		division_template = "Juntuán"	
+		start_experience_factor = 0.6			# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 1"
+		location = 11981
+		division_template = "Juntuán"
+		start_experience_factor = 0.7		# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 11"
+		location = 1187
+		division_template = "Juntuán"
+		start_experience_factor = 0.7		# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 12"
+		location = 1131
+		division_template = "Juntuán"
+		start_experience_factor = 0.7		# 
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		name = "Bubingshi 2"
+		location = 1047
+		division_template = "Juntuán"
+		start_experience_factor = 0.7		# 
+		start_equipment_factor = 0.8
+
+	}
+		division = {
+		name = "Jingbei 1"
+		location = 9938
+		division_template = "Jingbei Lü"
+		start_experience_factor = 0.4	# 
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		name = "Jingbei 2"
+		location = 9963
+		division_template = "Jingbei Lü"
+		start_experience_factor = 0.4	# 
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Jingbei 3"
+		location = 1047
+		division_template = "Jingbei Lü"
+		start_experience_factor = 0.4	# 
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "Jingbei 4"
+		location = 9970
+		division_template = "Jingbei Lü"
+		start_experience_factor = 0.4	# 
+		start_equipment_factor = 0.5
+
+	}
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "GNP"
+		}
+		requested_factories = 1
+		progress = 0.78
+		efficiency = 100
+	}
+}

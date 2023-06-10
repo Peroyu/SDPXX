@@ -1,0 +1,32 @@
+capital = 617 # 首都地块
+
+obb = "SIK_1947"  # 军队文件
+
+set_research_slots = 2 # 设定科研槽
+
+set_war_support = 0.4 # 设置战争支持度
+set_stability = 0.5 # 设置稳定度
+
+# 设置执政党以及选举
+
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	reactionism = 80
+	conservatism = 20
+}
+add_ideas = {
+SIK_Inconvenient_transportation
+}
+create_country_leader = {
+	name = "盛世才"  
+	desc = "SIK_Sheng_Shicai_desc"  
+	picture = "gfx\leaders\CHI\SIK_Sheng_Shicai.png"  # 人物头像
+	expire = "1985.1.1"  
+	ideology = despotism 
+	traits = {  }
+}

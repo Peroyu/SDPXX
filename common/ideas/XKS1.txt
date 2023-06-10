@@ -1,0 +1,48 @@
+ideas = {
+    country = {
+		
+	    XIk_The_legacy_of_the_Chairman = {     #委员长的遗产
+            name = XIk_The_legacy_of_the_Chairman
+			picture = /
+			desc = /
+			allowed = {
+				always = no
+			}
+			available = {
+				country_exists = XKS
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+	    Light_up_the_mountains = {    #点亮高山   
+           name = Light_up_the_mountains
+		   desc = /
+           picture = /
+		   allowed = {
+			   always = no
+		   }
+	       available = {
+			   country_exists = XKS
+		   }
+	       removal_cost = -1
+	       modifier = {
+				add_offsite_building = {
+					type = arms_factory
+					level = 1
+				}
+				add_offsite_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}	
+
+
+   

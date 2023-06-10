@@ -1,0 +1,27 @@
+
+state={
+	id=875
+	name="河内"
+	provinces={
+		  4075 10129 1185 12048
+	}
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		set_demilitarized_zone = yes
+		victory_points = { 
+			
+		}
+		add_core_of = VNN
+		add_core_of = VIN
+	}
+
+	manpower=20000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

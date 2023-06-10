@@ -1,0 +1,350 @@
+defined_text = {
+	name = Get_SDP_ita_state
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_1.id
+		}
+		localization_key = SDP_ita_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_2.id
+		}
+		localization_key = SDP_ita_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_3.id
+		}
+		localization_key = SDP_ita_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_4.id
+		}
+		localization_key = SDP_ita_4
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_5.id
+		}
+		localization_key = SDP_ita_5
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_6.id
+		}
+		localization_key = SDP_ita_6
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_7.id
+		}
+		localization_key = SDP_ita_7
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_8.id
+		}
+		localization_key = SDP_ita_8
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_9.id
+		}
+		localization_key = SDP_ita_9
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_10.id
+		}
+		localization_key = SDP_ita_10
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_11.id
+		}
+		localization_key = SDP_ita_11
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_12.id
+		}
+		localization_key = SDP_ita_12
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_13.id
+		}
+		localization_key = SDP_ita_13
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_14.id
+		}
+		localization_key = SDP_ita_14
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_ita_15.id
+		}
+		localization_key = SDP_ita_15
+	}
+}
+##########state#####################
+defined_text = {
+	name = GFX_SDP_ita_1
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_1_L value = SDP_ita_1 compare = greater_than }
+			check_variable = { var = SDP_ita_1_L value = SDP_ita_1_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_1_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_1_R value = SDP_ita_1 compare = greater_than }
+			check_variable = { var = SDP_ita_1_R value = SDP_ita_1_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_1_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_2
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_2_L value = SDP_ita_2 compare = greater_than }
+			check_variable = { var = SDP_ita_2_L value = SDP_ita_2_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_2_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_2_R value = SDP_ita_2 compare = greater_than }
+			check_variable = { var = SDP_ita_2_R value = SDP_ita_2_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_2_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_3
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_3_L value = SDP_ita_3 compare = greater_than }
+			check_variable = { var = SDP_ita_3_L value = SDP_ita_3_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_3_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_3_R value = SDP_ita_3 compare = greater_than }
+			check_variable = { var = SDP_ita_3_R value = SDP_ita_3_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_3_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_4
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_4_L value = SDP_ita_4 compare = greater_than }
+			check_variable = { var = SDP_ita_4_L value = SDP_ita_4_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_4_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_4_R value = SDP_ita_4 compare = greater_than }
+			check_variable = { var = SDP_ita_4_R value = SDP_ita_4_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_4_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_5
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_5_L value = SDP_ita_5 compare = greater_than }
+			check_variable = { var = SDP_ita_5_L value = SDP_ita_5_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_5_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_4_R value = SDP_ita_4 compare = greater_than }
+			check_variable = { var = SDP_ita_4_R value = SDP_ita_4_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_5_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_6
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_6_L value = SDP_ita_6 compare = greater_than }
+			check_variable = { var = SDP_ita_6_L value = SDP_ita_6_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_6_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_6_R value = SDP_ita_6 compare = greater_than }
+			check_variable = { var = SDP_ita_6_R value = SDP_ita_6_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_6_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_7
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_7_L value = SDP_ita_7 compare = greater_than }
+			check_variable = { var = SDP_ita_7_L value = SDP_ita_7_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_7_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_7_R value = SDP_ita_7 compare = greater_than }
+			check_variable = { var = SDP_ita_7_R value = SDP_ita_7_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_7_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_8
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_8_L value = SDP_ita_8 compare = greater_than }
+			check_variable = { var = SDP_ita_8_L value = SDP_ita_8_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_8_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_8_R value = SDP_ita_8 compare = greater_than }
+			check_variable = { var = SDP_ita_8_R value = SDP_ita_8_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_8_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_9
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_9_L value = SDP_ita_9 compare = greater_than }
+			check_variable = { var = SDP_ita_9_L value = SDP_ita_9_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_9_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_9_R value = SDP_ita_9 compare = greater_than }
+			check_variable = { var = SDP_ita_9_R value = SDP_ita_9_L compare = greater_than }
+		}
+     localization_key = GFX_SDP_ita_9_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_10
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_10_L value = SDP_ita_10 compare = greater_than }
+			check_variable = { var = SDP_ita_10_L value = SDP_ita_10_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_10_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_10_R value = SDP_ita_10 compare = greater_than }
+			check_variable = { var = SDP_ita_10_R value = SDP_ita_10_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_10_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_11
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_11_L value = SDP_ita_11 compare = greater_than }
+			check_variable = { var = SDP_ita_11_L value = SDP_ita_11_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_11_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_11_R value = SDP_ita_11 compare = greater_than }
+			check_variable = { var = SDP_ita_11_R value = SDP_ita_11_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_11_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_12
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_12_L value = SDP_ita_12 compare = greater_than }
+			check_variable = { var = SDP_ita_12_L value = SDP_ita_12_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_12_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_12_R value = SDP_ita_12 compare = greater_than }
+			check_variable = { var = SDP_ita_12_R value = SDP_ita_12_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_12_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_13
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_13_L value = SDP_ita_13 compare = greater_than }
+			check_variable = { var = SDP_ita_13_L value = SDP_ita_13_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_13_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_13_R value = SDP_ita_13 compare = greater_than }
+			check_variable = { var = SDP_ita_13_R value = SDP_ita_13_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_13_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_14
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_14_L value = SDP_ita_14 compare = greater_than }
+			check_variable = { var = SDP_ita_14_L value = SDP_ita_14_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_14_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_14_R value = SDP_ita_14 compare = greater_than }
+			check_variable = { var = SDP_ita_14_R value = SDP_ita_14_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_14_R
+	}
+}
+defined_text = {
+	name = GFX_SDP_ita_15
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_15_L value = SDP_ita_15 compare = greater_than }
+			check_variable = { var = SDP_ita_15_L value = SDP_ita_15_R compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_15_L
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_ita_15_R value = SDP_ita_15 compare = greater_than }
+			check_variable = { var = SDP_ita_15_R value = SDP_ita_15_L compare = greater_than }
+		}
+		localization_key = GFX_SDP_ita_15_R
+	}
+}
+

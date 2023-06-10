@@ -1,0 +1,34 @@
+capital = 323 # 
+
+obb = "NEP_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.4 # 
+set_stability = 0.3 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ reactionism = 50
+ restoratveism = 33
+ conservatism = 17
+}
+
+# 
+create_country_leader = {
+	name = "比兰德拉国王"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1976.4.30"  # 
+	ideology = reactionism # 
+	traits = {  # 
+		#
+	}
+}

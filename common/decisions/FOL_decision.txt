@@ -1,0 +1,68 @@
+FOL_decision_categories = {                               
+		FOL_FFF = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   debug = yes
+		  }
+		  cancel_trigger = {
+		   
+		  }
+          complete_effect = {
+		    CZE = {
+            remove_state_core = 9
+			remove_state_core = 74
+			remove_state_core = 69
+			remove_state_core = 72
+			remove_state_core = 75
+		    }
+			SLO = {
+			remove_state_core = 70
+			remove_state_core = 71
+			remove_state_core = 866
+			remove_state_core = 73
+			remove_state_core = 664
+			}
+		    AUS = {
+			transfer_state = 9
+			transfer_state = 74
+			transfer_state = 69
+			transfer_state = 72
+			transfer_state = 75
+			transfer_state = 70
+			transfer_state = 71
+			add_state_core = 9
+			add_state_core = 74
+			add_state_core = 69
+			add_state_core = 72
+			add_state_core = 75
+			add_state_core = 70
+			add_state_core = 71
+			add_state_core = 866
+			add_state_core = 73
+			add_state_core = 664
+		    }
+		    AUS = { set_cosmetic_tag = FOL }
+		    }
+        }
+		FOL_FF = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   debug = yes
+		  }
+		  cancel_trigger = {
+		   
+		  }
+          complete_effect = {
+		  AUS={
+		  recruit_character = FRA_Alain_Lepp
+		  add_ideas = Alain_Lepp
+		  }
+		  }
+		}
+    }

@@ -1,0 +1,383 @@
+﻿add_namespace = MMAlan
+add_namespace = MMA_gongshu
+add_namespace = MMA_gongye
+add_namespace = MMA_dip
+add_namespace = MMA_cpc
+country_event = {
+    id = MMA_gongye.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_gongye.1 FROM = [From.GetName]" }
+	title = MMA_gongye.1.t
+	desc = MMA_gongye.1.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMA_gongye.1.a
+		set_country_flag = MMA_gongye
+		set_variable = { var = MMA_gongye_jizhong value = 0 }
+		set_variable = { var = MMA_gongye_xiaolv value = 15 }
+		set_variable = { var = MMA_gongye_buman value = 0 }
+	}
+}
+country_event = {
+    id = MMA_gongshu.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_gongshu.1 FROM = [From.GetName]" }
+	title = MMA_gongshu.1.t
+	desc = MMA_gongshu.1.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMA_gongshu.1.a
+		set_country_flag = MMA_gongshu
+		set_variable = { var = MMA_gongshu value = 100 }
+		custom_effect_tooltip = MMA_war_in_unexistence
+		country_event = {
+		    id = MMA_gongshu.2
+			days = 130
+	    }
+	}
+}
+
+country_event = {
+    id = MMA_gongshu.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_gongshu.2 FROM = [From.GetName]" }
+	title = MMA_gongshu.2.t
+	desc = MMA_gongshu.2.d
+	picture = GFX_MMAlan2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMA_gongshu.2.a
+		trigger = {
+		   check_variable = {
+		    var = MMA_gongshu
+			value = 50
+			compare = greater_than_or_equals
+		    }
+		}	
+		set_country_flag = MMA_gongshu_over
+		clr_country_flag = MMA_gongshu
+		add_ideas = MMA_gongshu1
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMA_gongshu.2.b
+		trigger = {
+		   check_variable = {
+		    var = MMA_gongshu
+			value = 50
+			compare = less_than
+		    }
+		}	
+		set_country_flag = MMA_gongshu_over
+		clr_country_flag = MMA_gongshu
+		add_ideas = MMA_gongshu2
+	}
+}
+
+country_event = {
+    id = MMAlan.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.1 FROM = [From.GetName]" }
+	title = MMAlan.1.t
+	desc = MMAlan.1.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMAlan.1.a
+		country_event = {
+		    id = MMAlan.2
+			days = 1
+	    }
+		show_ideas_tooltip = Ma_Hongbin
+	}
+	
+}
+country_event = {
+    id = MMAlan.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.2 FROM = [From.GetName]" }
+	title = MMAlan.2.t
+	desc = MMAlan.2.d
+	picture = GFX_MMAlan2
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		name = MMAlan.2.a 
+		country_event = {
+		    id = MMAlan.3
+			days = 1
+	    }
+	}
+	option = {
+	   ai_chance = {
+	      base = 70
+		}
+		name = MMAlan.2.b
+		country_event = {
+		    id = MMAlan.4
+			days = 1
+	    }
+	}
+}
+country_event = {
+    id = MMAlan.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.3 FROM = [From.GetName]" }
+	title = MMAlan.3.t
+	desc = MMAlan.3.d
+	picture = GFX_MMAlan3
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMAlan.3.a 
+		country_event = {
+		    id = MMAlan.6
+			days = 1
+	    }
+	}
+}
+country_event = {
+    id = MMAlan.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.4 FROM = [From.GetName]" }
+	title = MMAlan.4.t
+	desc = MMAlan.4.d
+	picture = GFX_MMAlan4
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		name = MMAlan.4.a 
+		country_event = {
+		    id = MMAlan.6
+			days = 1
+	    }
+	}
+	option = {
+	   ai_chance = {
+	      base = 30
+		}
+		name = MMAlan.4.b
+		country_event = {
+		    id = MMAlan.5
+			days = 1
+	    }
+	}
+}
+country_event = {
+    id = MMAlan.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.5 FROM = [From.GetName]" }
+	title = MMAlan.5.t
+	desc = MMAlan.5.d
+	picture = GFX_MMAlan5
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMAlan.5.a
+        complete_national_focus = MMA_lanzhou		
+	}
+}
+country_event = {
+    id = MMAlan.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMAlan.6 FROM = [From.GetName]" }
+	title = MMAlan.6.t
+	desc = MMAlan.6.d
+	picture = GFX_MMAlan6
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMAlan.6.a
+		complete_national_focus = MMA_lanzhou
+		set_country_flag = LANZHOU_YIYE
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+
+country_event = {
+    id = MMA_dip.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_dip.1 FROM = [From.GetName]" }
+	title = MMA_dip.1.t
+	desc = MMA_dip.1.d
+	picture = GFX_MMA_dip
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		SHA = {
+				country_event = { id = SHA.1 days = 1 }
+			}
+		name = MMA_dip.1.a
+	}
+}
+country_event = {
+    id = MMA_dip.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_dip.2 FROM = [From.GetName]" }
+	title = MMA_dip.2.t
+	desc = MMA_dip.2.d
+	picture = GFX_MMA_dip
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		create_field_marshal = {
+			name = "MMA_Feng_Yuxiang"
+			portrait_path = "gportrait_SHA_Feng_YuXiang"
+			traits = {  }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		name = MMA_dip.2.a
+	}
+}
+country_event = {
+    id = MMA_cpc.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_cpc.1 FROM = [From.GetName]" }
+	title = MMA_cpc.1.t
+	desc = MMA_cpc.1.d
+	picture = GFX_MMA_dip
+	is_triggered_only = yes
+	
+	immediate = {
+		set_politics = { 
+			ruling_party = communism
+			last_election = "47.9.9.9" 
+			election_frequency = 48 
+			elections_allowed = no
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		load_focus_tree = {
+		        tree = MMA_CPCmao
+		        keep_completed = no
+		    }
+		name = MMA_cpc.1.a
+	}
+}
+country_event = {
+    id = MMA_cpc.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_cpc.2 FROM = [From.GetName]" }
+	title = MMA_cpc.2.t
+	desc = MMA_cpc.2.d
+	picture = GFX_MMA_dip
+	is_triggered_only = yes
+	
+	immediate = {
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		custom_effect_tooltip = MMA_Left_influence
+		name = MMA_cpc.2.a
+	}
+}

@@ -1,0 +1,42 @@
+capital = 272 
+
+obb = "ROF_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 
+set_stability = 0.4 
+
+
+set_politics = {
+	ruling_party = conservatism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ nationalism = 14
+ reactionism = 24
+ conservatism = 32
+ liberalism = 28
+ social_democracy = 2
+}
+set_variable = { var = FactionStatus value = 1 }
+create_country_leader = {
+	name = "ROF_Assemnlee_nationale"   
+	desc = "ROF_Assemnlee_nationale"  
+	picture = "gfx/leaders/EN/ROF_Assemnlee_nationale.png"   
+	expire = "1960.9.7"   
+	ideology = social_conservatism
+	traits = {  }
+}
+add_ideas = {
+	broken_entents
+	ROF_three_language_country
+	ROF_island_algeria
+	ROF_suddenly_military_victory
+	ROF_armed_camel
+	ROF_repulic_act
+	ROF_broken_entents
+}

@@ -1,0 +1,36 @@
+capital = 685 # 
+
+obb = "PAC_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.4 # 
+set_stability = 0.6 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ reactionism = 45
+ nationalism = 25
+ left_radicalism = 2
+ conservatism = 13
+ liberalism = 15
+}
+
+# 
+create_country_leader = {
+	name = "奥马尔·布莱德雷"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1981.4.8"  # 
+	ideology = reactionism # 
+	traits = {  # 
+		#
+	}
+}

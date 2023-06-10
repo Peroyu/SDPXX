@@ -1,0 +1,21 @@
+
+state={
+	id=921
+	name="赣南"
+	provinces={
+		 1099 4105 4173 7104 1171 11937
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	manpower=2551600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

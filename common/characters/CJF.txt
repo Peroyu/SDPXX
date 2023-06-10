@@ -1,0 +1,259 @@
+characters = {
+	CJF_li_zongren={
+		name = "CJF_li_zongren"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_li_zongren
+				large = GFX_portrait_CJF_li_zongren
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
+			skill=6
+			attack_skill=4
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	CJF_Wei_LiHuang={
+		name = "CJF_Wei_LiHuang"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Wei_LiHuang
+				large = GFX_portrait_CJF_Wei_LiHuang
+			}
+			civilian = {    
+				small = GFX_portrait_CJF_Wei_LiHuang_s
+			}
+		}
+		advisor = {  
+			slot = person_of_arm
+			idea_token = CJF_arm_Wei_LiHuang 
+            traits = { victorious_general }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = CJF }
+			ledger = civilian
+		}
+		field_marshal={
+			traits={ infantry_officer defensive_doctrine }
+			skill=5
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	CJF_Gu_ZhuTong={
+		name = "CJF_Gu_ZhuTong"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Gu_ZhuTong
+				large = GFX_portrait_CJF_Gu_ZhuTong
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=5
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	CJF_Hu_Lian={
+		name = "CJF_Hu_Lian"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Hu_Lian
+				large = GFX_portrait_CJF_Hu_Lian
+			}
+		}
+		corps_commander={
+			traits={ trickster war_hero }
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	CJF_Sun_Zhen={
+		name = "CJF_Sun_Zhen"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Sun_Zhen
+				large = GFX_portrait_CJF_Sun_Zhen
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	CJF_Lu_Hanliang={
+		name = "CJF_Lu_Hanliang"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Lu_Hanliang
+				large = GFX_portrait_CJF_Lu_Hanliang
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	CJF_Xiong_Shihui={
+		name = "CJF_Xiong_Shihui"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Xiong_Shihui
+				large = GFX_portrait_CJF_Xiong_Shihui
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_leader politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	CJF_Zhang_Zhizhong={
+		name = "CJF_Zhang_Zhizhong"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Zhang_Zhizhong
+				large = GFX_portrait_CJF_Zhang_Zhizhong
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	CJF_Li_Mingrui={
+		name = "CJF_Li_Mingrui"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Li_Mingrui
+				large = GFX_portrait_CJF_Li_Mingrui
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	CJF_Yu_ZuoYu={
+		name = "CJF_Yu_ZuoYu"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Yu_ZuoYu
+				large = GFX_portrait_CJF_Yu_ZuoYu
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CJF_wu_tiechen = {
+		name = "CJF_wu_tiechen"
+		portraits={
+			civilian = {    
+				small = GFX_portrait_wu_tiechen
+			}
+		}
+		advisor = {  
+			slot = political_advisor
+			idea_token = wu_tiechen 
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = CJF }
+			removal_cost = -1
+			cost = -1
+			ledger = civilian
+		}
+	}
+	CJF_yang_yongtai = {
+		name = CJF_yang_yongtai
+		portraits={
+			civilian = {    
+				small = "GFX_portrait_yang_yongtai"
+			}
+		}
+		advisor = {  
+			slot = person_of_eco
+			idea_token = yang_yongtai
+            traits = { KMT_brains }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = CJF }
+			ledger = civilian
+		}
+	}
+	CJF_Chen_Gongbo = {
+		name = CJF_Chen_Gongbo
+		portraits={
+			civilian = {    
+				small = "GFX_portrait_CJF_Chen_Gongbo_s"
+			}
+		}
+		advisor = {  
+			slot = person_of_dip
+			idea_token = CJF_Chen_Gongbo
+            traits = { Left_dip_officer }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = CJF }
+			ledger = civilian
+		}
+	}
+	CJF_Zhang_Qun = {
+		name = CJF_Zhang_Qun
+		portraits={
+			civilian = {    
+				small = "GFX_portrait_CJF_Zhang_Qun_s"
+			}
+		}
+		advisor = {  
+			slot = head_of_government
+			idea_token = CJF_Zhang_Qun
+            traits = { Left_dip_officer }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = CJF }
+			ledger = civilian
+		}
+	}
+}

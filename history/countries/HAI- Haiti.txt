@@ -1,0 +1,35 @@
+capital = 318 # 
+
+obb = "HAI_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.4 # 
+set_stability = 0.3 # 
+
+# 
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ conservatism = 43
+ liberalism = 33
+ social_democracy = 14
+ reactionism = 6
+}
+
+# 
+create_country_leader = {
+	name = "迪马瑟·埃斯蒂梅"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1956.6.6"  # 
+	ideology = conservatism # 
+	traits = {  # 
+		#
+	}
+}

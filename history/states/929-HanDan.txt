@@ -1,0 +1,21 @@
+
+state={
+	id=929
+	name="邯郸"
+	provinces={
+		1169 7092 4058 12062 1188
+	}
+	history={
+		owner = FNC
+		add_core_of = FNC
+		buildings = {
+			infrastructure = 3
+		}
+		industrial_complex = 1
+	}
+
+	manpower=12051600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

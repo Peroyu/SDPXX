@@ -1,0 +1,38 @@
+capital = 325 
+
+obb = "YUG_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.5
+set_stability = 0.3
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+victor_of_the_revolutionary_war
+}
+set_popularities = {
+	committee_communism = 23
+	communism = 31
+	moderate_socialism = 9
+	liberalism = 5
+	conservatism = 4
+	nationalism = 13
+	reactionism = 10
+	movement_communism = 5
+}
+
+ 
+create_country_leader = {
+	name = "巴尔干重建委员会"   
+	desc = "YUG_Balkan_R_C_desc"  
+	picture = "gfx/leaders/EU/YUG_Balkan_R_C.png"   
+	expire = "1956.9.7"   
+	ideology = United_Interim_Government
+	traits = {  }
+}

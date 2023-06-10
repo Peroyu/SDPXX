@@ -1,0 +1,16 @@
+
+state={
+	id=848
+	name="STATE_848"
+	history={
+		add_core_of = SUE
+		owner = SUE
+	}
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=150024
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=large_city
+}

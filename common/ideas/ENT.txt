@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		broken_entents = {
+		    name = broken_entents
+			picture = GFX_broken_entents
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.01
+				war_support_factor = -0.2
+			}
+		}
+		
+	}
+}	

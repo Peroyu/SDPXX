@@ -1,0 +1,29 @@
+capital = 219
+
+set_research_slots = 4 
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = Restorativeism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	Restorativeism = 100
+}
+
+
+create_country_leader = {
+	name = "南云忠一"
+	desc = "/"  
+	picture = "/"  
+	expire = "1952.7.10"  
+	ideology = military_system 
+	traits = { 
+		
+	}
+}

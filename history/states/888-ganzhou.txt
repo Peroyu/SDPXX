@@ -1,0 +1,27 @@
+
+state={
+	id=888
+	name="赣州"
+	provinces={
+		1053 4081 4183 7004 7199 9942 10112 11945 12030
+	}
+	history={
+		owner = RCR
+		
+		victory_points = {
+			9942 1 
+		}
+		set_demilitarized_zone = yes
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+
+	manpower=500000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

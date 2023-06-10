@@ -1,0 +1,213 @@
+ideas = {
+	country = {
+		GDC_Iron_Cage_1 = {
+		    name = GDC_Iron_Cage_1
+			picture = GDC_Iron_Cage
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_speed_factor = -0.15
+				experience_loss_factor = 0.1
+				global_building_slots_factor = -0.2
+				supply_consumption_factor = 0.2
+				attrition = 0.12
+				no_supply_grace = 48
+			}
+		}
+		GDC_Iron_Cage_2 = {
+		    name = GDC_Iron_Cage_2
+			picture = GDC_Iron_Cage
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_speed_factor = -0.05
+				supply_consumption_factor = 0.15
+				attrition = 0.1
+				no_supply_grace = 48
+			}
+		}
+		GDC_Rectification_Movement = {
+		    name = GDC_Rectification_Movement
+			picture = GDC_Rectification_Movement
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.2
+				army_org_factor = 0.05
+				Maoism_drift = 0.01
+			}
+		}
+		GDC_Red_Army_and_Red_Region = {
+		    name = GDC_Red_Army_and_Red_Region
+			picture = GDC_Red_Army_and_Red_Region
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_org_factor = -0.05
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.05
+				line_change_production_efficiency_factor = -0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+		GDC_Conflicts_with_Natives = {
+		    name = GDC_Conflicts_with_Natives
+			picture = GDC_Conflicts_with_Natives
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			stability_factor = -0.15 
+			industrial_capacity_factory = -0.1
+			political_power_gain = -0.03
+			}
+		}
+		GDC_KMT_CPC_A = {
+		    name = GDC_KMT_CPC_A
+			picture = GDC_KMT_CPC_A
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			stability_factor = -0.1
+			political_power_gain = -0.05
+			social_democracy_drift = 0.01
+			Liberalism_drift = 0.01
+			drift_defence_factor = -0.15
+			attrition = -0.05
+			}
+		}
+		GDC_KMT_CPC_B = {
+		    name = GDC_KMT_CPC_B
+			picture = GDC_KMT_CPC_B
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			stability_factor = 0.1
+			political_power_gain = 0.15
+			drift_defence_factor = 0.15
+			attrition = -0.15
+			}
+		}
+		GDC_KMT_CPC_G = {
+		    name = GDC_KMT_CPC_G
+			picture = GDC_KMT_CPC_G
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			drift_defence_factor = 0.25
+			}
+		}
+		GDC_KMT_CPC_X = {
+		    name = GDC_KMT_CPC_X
+			picture = GDC_KMT_CPC_X
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			political_power_gain = 0.05
+			drift_defence_factor = -0.15
+			industrial_capacity_factory = 0.05
+			committee_communism_drift = 0.01
+			communism_drift = 0.01
+			stability_factor = -0.1
+			}
+		}
+		GDC_KMT_CPC_Y = {
+		    name = GDC_KMT_CPC_Y
+			picture = GDC_KMT_CPC_Y
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			political_power_gain = 0.15
+			drift_defence_factor = 0.15
+			industrial_capacity_factory = 0.15
+			stability_factor = 0.1
+			}
+		}
+		GDC_KMT_CPC_Z = {
+		    name = GDC_KMT_CPC_Z
+			picture = GDC_KMT_CPC_Z
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			political_power_gain = 0.25
+			drift_defence_factor = 0.10
+			industrial_capacity_factory = 0.25
+			stability_factor = 0.1
+			production_factory_max_efficiency_factor = 0.15
+			production_factory_efficiency_gain_factor = 0.15
+			social_democracy_drift = -0.01
+			Liberalism_drift = -0.01
+			}
+		}
+		GDC_KMT_CPC_N = {
+		    name = GDC_KMT_CPC_N
+			picture = GDC_KMT_CPC_N
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			political_power_gain = 0.25
+			drift_defence_factor = -0.25
+			stability_factor = -0.1
+			army_core_attack_factor = 0.15
+			army_core_defence_factor = 0.15
+			}
+		}
+		GDC_none_pact_peace = {
+		    name = GDC_none_pact_peace
+			picture = GDC_none_pact_peace
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			stability_factor = 0.1
+			war_support_factor = -0.15
+			army_core_attack_factor = -0.25
+			army_core_defence_factor = 0.3
+			attrition = 0.2
+			ai_focus_aggressive_factor = -0.5
+			ai_focus_defense_factor = 0.5
+			}
+		}
+		GDC_hunger = {
+		    name = GDC_hunger
+			picture = GDC_hunger
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			stability_factor = -0.3
+			industrial_capacity_factory = -0.15
+			production_factory_efficiency_gain_factor = -0.5
+			production_factory_max_efficiency_factor = -0.25
+			monthly_population = -1.25
+			conscription_factor = -0.15
+			drift_defence_factor = -0.5
+			}
+		}
+	}
+}

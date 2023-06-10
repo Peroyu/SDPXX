@@ -1,0 +1,35 @@
+capital = 422
+
+set_research_slots = 2 
+
+set_war_support = 0.7
+set_stability = 0.2
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 6
+	Liberalism = 14
+	movement_communism = 20
+	conservatism = 40
+	reactionism = 10
+	nationalism = 4
+	restorativeism = 6
+}
+
+
+create_country_leader = {
+	name = "路易斯·蒙巴顿"
+	desc = "/"  
+	picture = "portrait_CYN_Louis_Mountbatten"  
+	expire = "1962.7.10"  
+	ideology = authoritarian_democracy 
+	traits = { 
+		
+	}
+}

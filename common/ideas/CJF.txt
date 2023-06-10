@@ -1,0 +1,222 @@
+ideas = {
+	country = {
+		CJF_unacknowlaged_power = {
+		    name = CJF_unacknowlaged_power
+			picture = CJF_unacknowlaged_power
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.25
+				war_support_factor = -0.1
+			}
+		}
+		CFJ_wreckage_of_NRA_1 = {
+		    name = CFJ_wreckage_of_NRA_1
+			picture = CFJ_wreckage_of_NRA
+			allowed = { always = no }
+			modifier = {
+				army_org_factor = -0.05
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1
+				training_time_army_factor = 0.1
+				stability_factor = -0.2
+				war_support_factor = -0.15
+				army_core_attack_factor = 0.02
+				army_speed_factor = 0.05
+			}
+		}
+		CJF_the_trade_of_opium = {
+		    name = CJF_the_trade_of_opium
+			picture = CJF_the_trade_of_opium
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		CJF_internal_industry = {
+		    name = CJF_internal_industry
+			picture = GFX_CJF_internal_industry 
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				political_power_cost = -0.1
+		    }
+		}
+		CJF_internal_industry_1 = {
+		    name = CJF_internal_industry_1
+			picture = GFX_CJF_internal_industry_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_country_flag = CJF_first_choice
+					}
+					
+					political_power_cost = -0.05
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CJF_second_choice
+					}
+					production_factory_max_efficiency_factor = -0.02
+					political_power_cost = -0.05
+				}
+		    }
+		}
+		CJF_internal_industry_2 = {
+		    name = CJF_internal_industry_2
+			picture = GFX_CJF_internal_industry_2
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_country_flag = CJF_first_choice
+					}
+					
+					political_power_cost = 0.05
+					production_speed_buildings_factor = 0.05
+					industrial_capacity_factory = 0.1
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CJF_second_choice
+					}
+					production_factory_max_efficiency_factor = 0.1
+					consumer_goods_factor = -0.05
+					stability_factor = 0.07
+				}
+		    }
+		}
+		CJF_internal_industry_3 = {
+		    name = CJF_internal_industry_3
+			picture = GFX_CJF_internal_industry_3
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				if = {
+					limit = {
+						has_country_flag = CJF_first_choice
+					}
+					
+					political_power_cost = 0.07
+					production_speed_buildings_factor = 0.1
+					industrial_capacity_factory = 0.13
+					production_speed_arms_factory_factor = 0.05
+				}
+				else_if = {
+					limit = {
+						has_country_flag = CJF_second_choice
+					}
+					production_factory_max_efficiency_factor = 0.15
+					consumer_goods_factor = -0.09
+					stability_factor = 0.1
+					production_factory_max_efficiency_factor = 0.05
+				}
+		    }
+		}
+		CJF_belongings = {
+		    name = CJF_belongings
+			picture = GFX_CJF_belongings
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.03
+		    }
+		}
+		CJF_belongings_1 = {
+		    name = CJF_belongings
+			picture = GFX_CJF_belongings
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.06
+				global_building_slots_factor = 0.05
+		    }
+		}
+		CJF_Land_Fund = {
+		    name = CJF_Land_Fund
+			picture = GFX_CJF_Land_Fund
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				global_building_slots_factor = 0.05
+				production_speed_infrastructure_factor = 0.15
+		    }
+		}
+		CJF_jialing = {
+		    name = CJF_jialing
+		    picture = CJF_jialing
+			allowed = {}
+			available = {}
+			modifier = {
+			army_core_defence_factor = 0.1
+			}
+		}
+		CJF_zhongliang = {
+		    name = CJF_zhongliang
+		    picture = CJF_zhongliang
+			allowed = {}
+			available = {}
+			modifier = {
+			army_infantry_attack_factor = 0.15
+			experience_loss_factor = 0.05
+			}
+		}
+		CJF_machenical = {
+		    name = CJF_machenical
+		    picture = CJF_machenical
+			allowed = {}
+			available = {}
+			modifier = {
+			industrial_capacity_factory = 0.05
+			}
+		}
+		CJF_sanmin = {
+		    name = CJF_sanmin
+		    picture = CJF_sanmin
+			allowed = {}
+			available = {}
+			modifier = {
+			social_democracy_drift = 0.01
+			political_power_gain = 0.2
+			stability_factor = 0.1
+			}
+		
+		}
+		CJF_CDNA = {
+		    name = CJF_CDNA
+		    picture = CJF_jialing
+			allowed = {}
+			available = {}
+			modifier = {
+			social_democracy_drift = 0.01
+			stability_factor = 0.05
+		    }
+		}
+    }
+}

@@ -1,0 +1,51 @@
+guiTypes ={
+    containerWindowType = {#主窗口
+		name = "SDP_social_window"
+		Orientation = CENTER_UP
+		position = { x =-660 y = 30 }
+		buttonType = { 
+			name = "enter_SDP_social_window_button"
+			position = { x = 400  y =400 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_empty_small_button"
+            pdx_tooltip = "SDP_social_window_button_tooltip"
+			clicksound = click_default
+		} 
+
+	}
+	containerWindowType = {#主窗口
+		name = "SDP_social_window_main"
+		position = { x = 0 y = 200 }
+		Orientation = CENTER_UP
+		verticalScrollbar = "right_vertical_slider"
+		size = { width = 500 height = 500 }
+		moveable = yes
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_SDP_tiled_plain"
+		}
+		buttonType = { 
+			name = "enter_SDP_social_window_close_button"
+			position = { x = 450 y =20 } 
+			quadTextureSprite = "GFX_cancel_transfer_button"
+			clicksound = click_default
+		} 
+		instantTextboxType = {
+			name = "SDP_social_window_intro"
+			position = { x = 0 y = 20 }
+			font = "hoi_36header"
+			text = "SDP_social_window_intro_text"
+			maxWidth = 500
+			maxHeight = 500
+			format = center
+	    }
+		instantTextboxType = {
+			name = "SDP_social_window"
+			position = { x = 20 y = 100 }
+			font = "hoi_24header"
+			text = "SDP_social_window_text"
+			maxWidth = 500
+			maxHeight = 900
+			format = left
+	    }
+	}
+}

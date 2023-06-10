@@ -1,0 +1,62 @@
+ideas = {
+    country = {
+        XKS_Con = {
+            name = XKS_Con
+            picture = XKS_Con
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = XKS
+			}
+            removal_cost = -1
+            modifier = {
+            production_speed_industrial_complex_factor = -0.99
+			production_speed_arms_factory_factor = -0.99
+			production_speed_infrastructure_factor = -0.99
+			}
+	    
+		}
+		XKS_The_legacy_of_the_Chairman1 = {     #委员长的遗产
+            name = XKS_The_legacy_of_the_Chairman1
+			picture = XKS_The_legacy_of_the_Chairman1
+			allowed = {
+				always = no
+			}
+			available = {
+				country_exists = XKS
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+	    XKS_The_legacy_of_the_Chairman2 = {    #点亮高山   
+           name = XKS_The_legacy_of_the_Chairman2
+           picture = XKS_The_legacy_of_the_Chairman
+		   allowed = {
+			   always = no
+		   }
+	       available = {
+			   country_exists = XKS
+		   }
+	       removal_cost = -1
+	       modifier = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+            add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+			}
+		}
+	}
+}	
+
+
+   

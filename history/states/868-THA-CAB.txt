@@ -1,0 +1,26 @@
+
+state={
+	id=868
+	name="北柬埔寨"
+	provinces={
+		1353 4302 4251 10134 10467 10177 12460
+	}
+	history={
+		owner = THA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = { 
+			
+		}
+		add_core_of = THA
+		add_core_of = CAB
+	}
+
+	manpower=120000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

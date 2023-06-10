@@ -1,0 +1,36 @@
+capital = 325 
+
+obb = "SWI_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.9 
+set_stability = 0.9 
+
+
+set_politics = {
+	ruling_party = movement_communism
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+onlooker_of_the_revolutionary_war
+}
+set_popularities = {
+ moderate_socialism = 12
+ conservatism = 16
+ liberalism = 24
+ movement_communism = 26
+ social_democracy = 14
+ reactionism = 8
+}
+
+create_country_leader = {
+	name = "联邦国会"  
+	desc = "SWI_Federal_Council_desc"  
+	picture = "gfx\leaders\EU\SWI_Federal_Council.png"  
+	expire = "1962.12.5"  
+	ideology = FFFFF_FFF 
+	traits = {  }
+}

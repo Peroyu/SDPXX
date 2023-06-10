@@ -1,0 +1,66 @@
+﻿capital = 744
+
+oob = "SHA_1947"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = SHA_Mitsuru_Ushijima
+
+
+1947.1.1 = {
+
+	add_political_power = 0
+	add_command_power = 50
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 2
+	movement_communism = 5
+	moderate_socialism = 3
+	social_democracy = 2
+	conservatism = 18
+	Liberalism = 7
+	reactionism = 40
+	nationalism = 18
+	restorativeism = 5
+}
+create_country_leader = {
+		name = "SHA_Mitsuru_Ushijima"   
+		desc = "SHA_Mitsuru_Ushijima_desc"  
+		picture = "portrait_SHA_Mitsuru_Ushijima"   
+		expire = "1959.4.5"   
+		ideology = despotism
+		traits = {  }
+	}
+create_country_leader = {
+		name = "SHA_Feng_YuXiang"   
+		desc = "SHA_Feng_YuXiang_desc"  
+		picture = "portrait_SHA_Feng_YuXiang"   
+		expire = "1962.4.5"   
+		ideology = Three_Principles_of_the_People
+		traits = {  }
+	}

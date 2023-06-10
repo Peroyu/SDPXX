@@ -1,0 +1,28 @@
+
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		2030 7240 
+	}
+	history={
+		owner = CJF
+		add_core_of = CJF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7240 10 
+		}
+		victory_points = {
+		   2030 5
+        }
+	}
+	manpower=20000000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = XKS
+		add_core_of = XKS
+		victory_points = {
+			1999 5 
+		}
+		buildings = {
+			infrastructure = 1
+			supply_node = 1
+			rail_way = 1
+
+		}
+
+	}
+
+	provinces={
+		1999 4999 8104 10726 12724 12837 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

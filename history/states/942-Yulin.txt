@@ -1,0 +1,23 @@
+
+state={
+	id=942
+	name="榆林"
+	provinces={
+		  1458 7314 7659 10880 12356 
+
+	}
+	history={
+		owner = SHA
+		add_core_of = KTR
+		buildings = {
+			infrastructure = 3
+		}
+		industrial_complex = 1
+		set_demilitarized_zone = yes
+	}
+
+	manpower=255500
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

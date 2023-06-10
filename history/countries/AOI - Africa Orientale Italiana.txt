@@ -1,0 +1,37 @@
+capital = 325 # 
+
+obb = "ROF_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = nationalism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ nationalism = 17
+ reactionism = 24
+ conservatism = 19
+ liberalism = 8
+ social_democracy = 2
+ restoratveism = 30
+}
+
+# 
+create_country_leader = {
+	name = "奥斯塔的埃蒙内"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1972.9.2"  # 
+	ideology = nationalism # 
+	traits = {  # 
+		#
+	}
+}

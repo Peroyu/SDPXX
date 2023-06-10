@@ -1,0 +1,38 @@
+capital = 325 # 
+
+obb = "AUT_1947"  # 
+
+set_research_slots = 4 # 
+
+set_war_support = 0.1 # 
+set_stability = 0.6 # 
+
+# 
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ liberalism = 34
+ conservatism = 24
+ reactionism = 2
+ social_democracy = 13
+ left_radicalism = 7
+}
+
+# 
+create_country_leader = {
+	name = "亚瑟·法登"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1956.3.9"  # 
+	ideology = liberalism # 
+	traits = {  # 
+		#
+	}
+}

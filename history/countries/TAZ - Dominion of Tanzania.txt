@@ -1,0 +1,38 @@
+capital = 325 # 
+
+obb = "TAN_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.2 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ reactionism = 24
+ nationalism = 26
+ liberalism = 13
+ conservatism = 17
+ restoratveism = 20
+}
+set_variable = { var = FactionStatus value = 1 }
+# 
+create_country_leader = {
+	name = "爱德华·诺塞"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1960.5.22"  # 
+	ideology = reactionism # 
+	traits = {  # 
+		#
+	}
+}

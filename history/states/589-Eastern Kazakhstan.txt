@@ -1,0 +1,34 @@
+state={
+	id=589
+	name="塔尔迪库尔干"
+
+	history={
+		owner = TRU
+		add_core_of = TRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = CAS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+
+			}
+
+		}
+		victory_points = {
+			1668 1
+		}
+	}
+
+	provinces={
+		 4651 7711 7784 7795 7856 10550 10619 10680 12529 12662 13148 13149 13197 
+	}
+	manpower=335191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=3.0 
+}

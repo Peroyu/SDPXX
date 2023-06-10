@@ -1,0 +1,68 @@
+characters = {
+		GER_Jon_Shell = {
+			name = "GER_Jon_Shell" 
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_Jon_Shell
+				}
+			}
+			country_leader = {
+				ideology = luxembourgism
+				trsits = {}
+				expire = "1967.1.1.1"
+			}
+		}
+		GER_William_peak = {
+			name = "GER_William_peak" 
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_William_peak
+				}
+			}
+			country_leader = {
+				ideology = moderate_socialist
+				trsits = {}
+				expire = "1967.1.1.1"
+			}
+		}
+		GER_bertha_thalheimer = {
+			name = "GER_bertha_thalheimer" 
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_bertha_thalheimer
+				}
+			}
+			country_leader = {
+				ideology = luxembourgism
+				trsits = {}
+				expire = "1967.1.1.1"
+			}
+		}
+		GER_Otto_Grotewohl = {
+			name = "GER_Otto_Grotewohl" 
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_Otto_Grotewohl
+				}
+			}
+			country_leader = {
+				ideology = Spartacus
+				trsits = {}
+				expire = "1967.1.1.1"
+			}
+		}
+		GER_Theodor_Liebknecht = {
+			name = "GER_Theodor_Liebknecht" 
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_Theodor_Liebknecht
+				}
+			}
+			country_leader = {
+				ideology = centrist_marxism
+				trsits = {}
+				expire = "1948.2.11.1"
+			}
+		}
+	
+}

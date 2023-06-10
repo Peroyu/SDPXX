@@ -1,0 +1,26 @@
+
+state={
+	id=897
+	name="咸镜北道"
+	provinces={
+		6922 11878 3803 3860 6822 959 898 6944
+	}
+	history={
+		owner = JAP
+		
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			
+		}
+		
+
+		
+	}
+
+	manpower=801600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,198 @@
+characters = {
+	MMA_Ma_Jiyuan = {
+		name = "MMA_Ma_Jiyuan" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ma_Jiyuan
+				small = GFX_portrait_Ma_Jiyuan
+			}
+			army={
+				small = GFX_portrait_Ma_Jiyuan_arm
+				large = GFX_portrait_Ma_Jiyuan_arm
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			trsits = {}
+			expire = "1999.1.1.1"
+		}
+		corps_commander={
+			traits={ brilliant_strategist cavalry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	MMA_Ma_Bufang = {
+		name = "MMA_Ma_Bufang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MMA_Ma_Bufang
+				small = GFX_portrait_MMA_Ma_Bufang
+			}
+			army={
+				small = GFX_portrait_MMA_Ma_Bufang
+				large = GFX_portrait_MMA_Ma_Bufang
+			}
+		}
+		country_leader = {
+			ideology = military_system
+			trsits = {}
+			expire = "1962.1.1.1"
+		}
+		field_marshal={
+			traits={ inflexible_strategist cavalry_officer }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	MMA_Gao_Gang = {
+		name = "MMA_Gao_Gang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MMA_Gao_Gang
+				small = GFX_portrait_MMA_Gao_Gang
+			}
+		}
+		country_leader = {
+			ideology = Bolshevism
+			trsits = {}
+			expire = "1962.1.1.1"
+		}
+		advisor = {
+	        slot = person_of_eco
+		    idea_token = MMA_Gao_Gang
+		    ai_will_do = {
+		        factor = 0
+	        }
+			allowed = { original_tag = MMA }
+			cost = -1
+			remove_cost = -1
+			ledger = civilian
+        }
+
+    }
+	MMA_Ma_Hongbin = {
+	    name = "MMA_Ma_Hongbin" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_Ma_Hongbin
+			}
+			army={
+				small = GFX_portrait_Ma_Hongbin_arm
+				large = GFX_portrait_Ma_Hongbin_arm
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+		advisor = {
+	        slot = person_of_arm
+		    idea_token = Ma_Hongbin
+		    ai_will_do = {
+		        factor = 0
+	        }
+			allowed = { original_tag = MMA }
+			cost = -1
+			remove_cost = -1
+			ledger = civilian
+        }
+	}
+	MMA_Ma_Yuanhai={
+		name = "MMA_Ma_Yuanhai"
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Ma_Yuanhai
+				large = GFX_portrait_MMA_Ma_Yuanhai
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	MMA_Ma_Buqing={
+		name = "MMA_Ma_Buqing"
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Ma_Buqing
+				large = GFX_portrait_MMA_Ma_Buqing
+			}
+		}
+		corps_commander={
+			traits={ politically_connected cavalry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	MMA_Zhao_Sui={
+		name = "MMA_Zhao_Sui"
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Zhao_Sui
+				large = GFX_portrait_MMA_Zhao_Sui
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+	MMA_Hu_ZongNan={
+		name = "MMA_Hu_ZongNan"
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Hu_ZongNan
+				large = GFX_portrait_MMA_Hu_ZongNan
+			}
+		}
+		field_marshal={
+			traits={ harsh_leader career_officer trait_cautious }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	MMA_Ma_Hongkui={
+		name = "MMA_Ma_Hongkui"
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Ma_Hongkui
+				large = GFX_portrait_MMA_Ma_Hongkui
+			}
+		}
+		field_marshal={
+			traits={ harsh_leader politically_connected cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+}

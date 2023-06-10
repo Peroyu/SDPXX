@@ -1,0 +1,13 @@
+focus_tree = {
+	id = HUN_SLO
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = HUN  
+		}	
+	}
+	default = no
+    shared_focus = HUN_Szakasits_tenure
+}
+

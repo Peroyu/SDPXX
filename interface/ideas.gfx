@@ -1,0 +1,392 @@
+spriteTypes = {
+    ##########MMA#######
+	spriteType = {
+		name = "GFX_idea_MMA_Northwest_Cavalry"
+		texturefile = "gfx/interface/ideas/MMA/idea_MMA_Northwest_Cavalry.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_MMA_Road_to_the_North"
+		texturefile = "gfx/interface/ideas/MMA/idea_MMA_Road_to_the_North.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_MMA_Mabufang"
+		texturefile = "gfx/interface/ideas/MMA/idea_MMA_Mabufang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMA_gongshu1"
+		texturefile = "gfx/interface/ideas/MMA/idea_MMA_gongshu1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMA_gongshu2"
+		texturefile = "gfx/interface/ideas/MMA/idea_MMA_gongshu2.dds"
+	}
+	spriteType = {
+	    name = "GFX_portrait_Ma_Hongbin"
+		texturefile = "gfx/interface/ideas/MMA/portrait_Ma_Hongbin.dds"
+	}
+    spriteType = {
+        name = "GFX_portrait_MMA_Gao_gang"	
+		texturefile = "gfx/interface/ideas/MMA/GFX_portrait_MMA_Gao_gang.dds"
+	}
+	##################重庆############
+	
+	spriteType = {
+        name = "GFX_idea_CMA_bushido"	
+		texturefile = "gfx/interface/ideas/CMA/idea_CMA_bushido.dds"
+	}
+	
+	spriteType = {
+        name = "GFX_idea_GNP_Hong_Kong"	
+		texturefile = "gfx/interface/ideas/CJF/GFX_GNP_Hong_Kong.png"
+	}
+	
+	############四川##################
+	spriteType = {
+	    name = "GFX_portrait_wu_tiechen"
+		texturefile = "gfx/interface/ideas/CJF/portrait_wu_tiechen.dds"
+	}
+	spriteType = {
+	    name = "GFX_portrait_yang_yongtai"
+		texturefile = "gfx/interface/ideas/CJF/portrait_yang_yongtai.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_CFJ_wreckage_of_NRA"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CFJ_wreckage_of_NRA.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_unacknowlaged_power"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_unacknowlaged_power.dds"
+	}spriteType = {
+        name = "GFX_idea_CJF_the_trade_of_opium"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_the_trade_of_opium.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_internal_industry"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_internal_industry.png"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_sanmin"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_sanmin.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_internal_industry_1"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_internal_industry_1.png"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_internal_industry_2"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_internal_industry_2.png"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_internal_industry_3"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_internal_industry_3.png"
+	}
+	
+	###DJF###
+	spriteType = {
+        name = "GFX_idea_DJF_Xi_Nan_Lian_Da"	
+		texturefile = "gfx/interface/ideas/CJF/DJF_Xi_Nan_Lian_Da.png"
+	}
+	
+	spriteType = {
+        name = "GFX_idea_DJF_Dian_Army"	
+		texturefile = "gfx/interface/ideas/CJF/DJF_idea_Dian_Army.png"
+	}
+	
+	spriteType = {
+        name = "GFX_idea_DJF_Opium_Trade"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_the_trade_of_opium.dds"
+	}
+	### CONSCRIPTION LAWS
+	spriteType = {
+		name = "GFX_idea_disarmed_nation"
+		texturefile = "gfx/interface/ideas/idea_disarmed_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteer_only"
+		texturefile = "gfx/interface/ideas/idea_volunteer_only.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_conscription"
+		texturefile = "gfx/interface/ideas/idea_limited_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extensive_conscription"
+		texturefile = "gfx/interface/ideas/idea_extensive_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_service_by_requirement"
+		texturefile = "gfx/interface/ideas/idea_service_by_requirement.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_all_adults_serve"
+		texturefile = "gfx/interface/ideas/idea_all_adults_serve.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_scraping_the_barrel"
+		texturefile = "gfx/interface/ideas/idea_scraping_the_barrel.dds"
+	}
+	
+	##################
+	spriteType = {
+		name = "GFX_idea_AUS_problem_of_nationality"
+		texturefile = "gfx/interface/ideas/AUS/aus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AUS_Tasu_River_Declaration"
+		texturefile = "gfx/interface/ideas/AUS/GFX_AUS_Tasu_River_Declaration.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AUS_memories_of_suffering"
+		texturefile = "gfx/interface/ideas/AUS/GFX_AUS_memories_of_suffering.png"
+	}
+	####TUR
+	spriteType = {
+		name = "GFX_idea_TUR_Ahmet_IV"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_Ahmet_IV.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TUR_kebabs"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_kebabs.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TUR_Ottoman_USA_pact"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_Ottoman_USA_pact.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TUR_Ottoman_honor"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_Ottoman_honor.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TUR_plan_of_cultural_revival"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_plan_of_cultural_revival.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_TUR_Sultan_army"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_Sultan_army.png"
+	}
+	### ECONOMY LAWS
+	spriteType = {
+		name = "GFX_idea_undisturbed_isolation"
+		texturefile = "gfx/interface/ideas/idea_undisturbed_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_isolation"
+		texturefile = "gfx/interface/ideas/idea_isolation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_civilian_economy"
+		texturefile = "gfx/interface/ideas/idea_civilian_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_low_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_low_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_partial_economic_mobilisation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_war_economy"
+		texturefile = "gfx/interface/ideas/idea_war_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"
+	}
+	### GENERIC economic ideas
+
+	spriteType = {
+		name = "GFX_idea_closed_economy"
+		texturefile = "gfx/interface/ideas/idea_generic_closed_economy.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_limited_exports"
+		texturefile = "gfx/interface/ideas/idea_generic_limited_exports.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_free_trade"
+		texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_export_focus"
+		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+	}
+###########IIIIIISSSSSSSSSSSUUUUUUUUUU########################
+    spriteType = {
+		name = "GFX_idea_victor_of_the_revolutionary_war"
+		texturefile = "gfx/interface/ideas/ISU/idea_victor_of_the_revolutionary_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_loser_of_the_revolutionary_war"
+		texturefile = "gfx/interface/ideas/ISU/idea_loser_of_the_revolutionary_war.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_onlooker_of_the_revolutionary_war"
+		texturefile = "gfx/interface/ideas/ISU/idea_onlooker_of_the_revolutionary_war.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_participant_of_the_revolutionary_war"
+		texturefile = "gfx/interface/ideas/ISU/idea_participant_of_the_revolutionary_war.png"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_main_committee_of_third_internationale"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_main_committee_of_third_internationale.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_dream_of_international"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_dream_of_international.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_all_eye_sights"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_all_eye_sights.png"
+	}
+############################SOV################################
+	spriteType = {
+		name = "GFX_idea_SOV_great_red_october"
+		texturefile = "gfx/interface/ideas/SOV/SOV_great_red_october.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_weakly_trasportation"
+		texturefile = "gfx/interface/ideas/SOV/SOV_weakly_trasportation.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_NPEC"
+		texturefile = "gfx/interface/ideas/SOV/SOV_NPEC.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_legacy_of_the_second_revolutionary_war"
+		texturefile = "gfx/interface/ideas/SOV/SOV_legacy_of_the_second_revolutionary_war.png"
+	}
+	##########################FRA##########################
+	spriteType = {
+		name = "GFX_idea_FRA_military_economy"
+		texturefile = "gfx/interface/ideas/FRA/GFX_FRA_military_economy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_wsr_scar"
+		texturefile = "gfx/interface/ideas/FRA/GFX_FRA_wsr_scar.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_pluviose_constitution"
+		texturefile = "gfx/interface/ideas/FRA/GFX_FRA_pluviose_constitution.png"
+	}
+	#########################GER###########################
+	spriteType = {
+		name = "GFX_idea_GER_threaten_from_Freikorps"
+		texturefile = "gfx/interface/ideas/GER/GFX_GER_threaten_from_Freikorps.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_country_in_ruins"
+		texturefile = "gfx/interface/ideas/GER/GFX_GER_country_in_ruins.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_split_of_politic"
+		texturefile = "gfx/interface/ideas/GER/GFX_GER_split_of_politic.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_rebuild_1"
+		texturefile = "gfx/interface/ideas/GER/GFX_GER_rebuild_1.png"
+	}
+	########################ENG################################
+	spriteType = {
+		name = "GFX_idea_ENG_debate_on_colony"
+		texturefile = "gfx/interface/ideas/ENG/GFX_ENG_debate_on_colony.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_fate_of_royal_house"
+		texturefile = "gfx/interface/ideas/ENG/GFX_ENG_fate_of_royal_house.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_not_determined_future"
+		texturefile = "gfx/interface/ideas/ENG/GFX_ENG_not_determined_future.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_autonomy_laws"
+		texturefile = "gfx/interface/ideas/ENG/GFX_ENG_autonomy_laws.png"
+	}
+	#######################ITA#################################
+	spriteType = {
+		name = "GFX_idea_ITA_hurt_of_Palermo"
+		texturefile = "gfx/interface/ideas/ITA/GFX_ITA_hurt_of_Palermo.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_broken_southern_regiion"
+		texturefile = "gfx/interface/ideas/ITA/GFX_ITA_broken_southern_regiion.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_PSI_politicy"
+		texturefile = "gfx/interface/ideas/ITA/GFX_ITA_PSI_politicy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_The_Enthusiasm_of_the_Second_Unification_Movement"
+		texturefile = "gfx/interface/ideas/ITA/GFX_ITA_The_Enthusiasm_of_the_Second_Unification_Movement.png"
+	}
+############################GDC################################
+	spriteType = {
+		name = "GFX_idea_GDC_Iron_Cage"
+		texturefile = "gfx/interface/ideas/GDC/GFX_GDC_Iron_Cage.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Rectification_Movement"
+		texturefile = "gfx/interface/ideas/GDC/GFX_GDC_Rectification_Movement.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Red_Army_and_Red_Region"
+		texturefile = "gfx/interface/ideas/GDC/GFX_GDC_Red_Army_and_Red_Region.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Conflicts_with_Natives"
+		texturefile = "gfx/interface/ideas/GDC/GFX_GDC_Conflicts_with_Natives.png"
+	}
+	
+####################HUN#########################
+
+	spriteType = {
+		name = "GFX_idea_HUN_glory_of_great_hungary"
+		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_glory_of_great_hungary.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HUN_dominion_name"
+		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_dominion_name.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HUN_protecter_in_balkan"
+		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_protecter_in_balkan.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HUN_SLO_problem"
+		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_SLO_problem.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_HUN_brocken_policy"
+		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_brocken_policy.png"
+	}
+}

@@ -1,0 +1,37 @@
+capital = 325 
+
+obb = "FIN_1947"  
+
+set_research_slots = 3 
+
+set_war_support = 0.5 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = moderate_socialism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+participant_of_the_revolutionary_war
+}
+set_popularities = {
+	communism = 2
+	committee_communism = 18
+ 	moderate_socialism = 35
+ 	social_democracy = 25
+	Liberalism = 12
+	movement_communism = 8
+}
+
+create_country_leader = {
+	name = "毛诺·佩卡拉"  
+	desc = "Mauno_Pekala_desc"  
+	picture = "gfx/leaders/EU/Mauno_Pekala.png"  
+	expire = "1967.4.23"  
+	ideology = left_social_democracy 
+	traits = { 
+		
+ 	}
+}

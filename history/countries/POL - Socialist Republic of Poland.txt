@@ -1,0 +1,35 @@
+capital = 325 
+
+obb = "POL_1947"   
+
+set_research_slots = 4 
+
+set_war_support = 0.5  
+set_stability = 0.7  
+
+set_politics = {
+	ruling_party = communism  
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no   
+}
+add_ideas = {
+loser_of_the_revolutionary_war
+}
+set_popularities = {
+	committee_communism = 16
+	communism = 20
+	moderate_socialism = 14
+	social_democracy = 16
+	Liberalism = 14
+	conservatism = 8
+	nationalism = 12
+}
+create_country_leader = {
+		name = "POL_Marceli_Nowotko"   
+		desc = "POL_Marceli_Nowotko_desc"  
+		picture = "gfx/leaders/EU/Marceli_Nowotko.png"   
+		expire = "1959.4.5"   
+		ideology = Bolshevism
+		traits = {  }
+	}

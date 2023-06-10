@@ -1,0 +1,42 @@
+capital = 325 
+
+oob = "DJF_1947"  
+
+set_research_slots = 
+
+set_war_support = 0.5 
+set_stability = 0.8 
+
+
+set_politics = {
+		ruling_party = conservatism # 执政党
+		last_election = "1947.1.1"
+		election_frequency = 48 # 选举间隔
+		elections_allowed = no  # 是否允许选举
+	}
+set_popularities = {
+		conservatism = 21
+		social_democracy = 20
+		Liberalism = 21
+		reactionism = 13
+		Nationalism = 15
+		moderate_socialism = 8
+		movement_communism = 2
+	}
+add_ideas = {
+		DJF_Xi_Nan_Lian_Da_1
+		DJF_Opium_Trade
+		DJF_Dian_Army
+		DJF_Influence_Of_Long_Yun
+	}
+create_country_leader = {
+		name = "DJF_Long_Yun" #领导人名字
+		desc = "DJF_Long_Yun_desc" #领导人介绍
+		picture = "gfx/leaders/DJF/portrait_DJF_Long_Yun.png" #领导人图片
+		expire = "1965.1.1" #领导人退休时间
+		ideology = authoritarian_democracy #领导人子意识形态
+		traits = { #领导人特质}
+	}
+recruit_character = DJF_Zhu_De
+	
+	

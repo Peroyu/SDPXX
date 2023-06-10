@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		ENG_autonomy_laws = {
+		    name = ENG_autonomy_laws
+			picture = GFX_ENG_autonomy_laws
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.01
+			}
+		}
+		
+		ENG_not_determined_future = {
+		    name = ENG_not_determined_future
+			picture = GFX_ENG_not_determined_future
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				mobilization_speed = -0.2
+				political_power_gain = -0.02
+			}
+		}
+		
+		ENG_fate_of_royal_house = {
+		    name = ENG_fate_of_royal_house
+			picture = GFX_ENG_fate_of_royal_house
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.01
+			}
+		}
+		
+		ENG_debate_on_colony = {
+		    name = ENG_debate_on_colony
+			picture = GFX_ENG_debate_on_colony
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+			}
+		}
+	}
+}	

@@ -1,0 +1,290 @@
+characters = {
+	GDC_Cheng_Qian={
+		name = "GDC_Cheng_Qian"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Cheng_Qian
+				large = GFX_portrait_GDC_Cheng_Qian
+			}
+		}
+		field_marshal={
+			traits={ organizer bearer_of_artillery defensive_doctrine }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Peng_Dehuai={
+		name = "GDC_Peng_Dehuai"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Peng_Dehuai
+				large = GFX_portrait_GDC_Peng_Dehuai
+			}
+		}
+		field_marshal={
+			traits={ organizer trait_reckless harsh_leader trickster }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Fang_Zhimin={
+		name = "GDC_Fang_Zhimin"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Fang_Zhimin
+				large = GFX_portrait_GDC_Fang_Zhimin
+			}
+		}
+		field_marshal={
+			traits={ organizer trickster }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_He_Long={
+		name = "GDC_He_Long"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_He_Long
+				large = GFX_portrait_GDC_He_Long
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Jiang_XianYun={
+		name = "GDC_Jiang_XianYun"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Jiang_XianYun
+				large = GFX_portrait_GDC_Jiang_XianYun
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Deng_YanDa={
+		name = "GDC_Deng_YanDa"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Deng_YanDa
+				large = GFX_portrait_GDC_Deng_YanDa
+			}
+		}
+		field_marshal={
+			traits={ organizer }
+			skill=4
+			attack_skill=5
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Lin_Biao={
+		name = "GDC_Lin_Biao"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Lin_Biao
+				large = GFX_portrait_GDC_Lin_Biao
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist infantry_officer}
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Chiang_Ching_Kuo={
+		name = "GDC_Chiang_Ching_Kuo"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Chiang_Ching_Kuo
+				large = GFX_portrait_GDC_Chiang_Ching_Kuo
+			}
+		}
+		corps_commander={
+			traits={ armor_officer politically_connected }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	GDC_Ye_Jianying={
+		name = "GDC_Ye_Jianying"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Ye_Jianying
+				large = GFX_portrait_GDC_Ye_Jianying
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	GDC_Zhang_Fakui={
+		name = "GDC_Zhang_Fakui"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Zhang_Fakui
+				large = GFX_portrait_GDC_Zhang_Fakui
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	GDC_Ye_Ting={
+		name = "GDC_Ye_Ting"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Ye_Ting
+				large = GFX_portrait_GDC_Ye_Ting
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer brilliant_strategist }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	GDC_Su_Yu={
+		name = "GDC_Su_Yu"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Su_Yu
+				large = GFX_portrait_GDC_Su_Yu
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist infantry_officer trickster}
+			skill=2
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
+		}
+	}
+	GDC_Mao_Zedong={
+		name = "GDC_Mao_Zedong"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Mao_Zedong
+				large = GFX_portrait_GDC_Mao_Zedong
+			}
+			civilian = {    
+				small = GFX_portrait_GDC_Mao_Zedong
+			}
+		}
+		advisor = {  
+			slot = person_of_eco
+			idea_token = GDC_Mao_Zedong
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = GDC }
+			cost = -1
+			removal_cost = -1
+			ledger = civilian
+		}
+		corps_commander={
+			traits={ brilliant_strategist infantry_officer trickster commando}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Xv_Xiangqian={
+		name = "GDC_Xv_Xiangqian"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Xv_Xiangqian
+				large = GFX_portrait_GDC_Xv_Xiangqian
+			}
+			civilian = {    
+				small = GFX_portrait_GDC_Xv_Xiangqian
+			}
+		}
+		advisor = {  
+			slot = person_of_arm
+			idea_token = GDC_Xv_Xiangqian
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = GDC }
+			cost = -1
+			removal_cost = -1
+			ledger = civilian
+		}
+		field_marshal={
+			traits={ brilliant_strategist }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Zhou_Enlai = {
+		name = GDC_Zhou_Enlai
+		portraits={
+			civilian = {    
+				small = "GFX_portrait_GDC_Zhou_Enlai"
+			}
+		}
+		advisor = {  
+			slot = person_of_dip
+			idea_token = GDC_Zhou_Enlai
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = GDC }
+			cost = -1
+			removal_cost = -1
+			ledger = civilian
+		}
+	}
+}

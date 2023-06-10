@@ -1,0 +1,24 @@
+
+state={
+	id=886
+	name="南平"
+	provinces={
+		1138 1193 4070 4113 10012 10042 10084
+	}
+	history={
+		owner = RCR
+		infrastructure = 2
+			industrial_complex = 1
+		
+		victory_points = { 
+				10042 2
+		}
+		add_core_of = RCR
+		set_demilitarized_zone = yes
+	}
+
+	manpower=130000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

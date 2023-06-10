@@ -1,0 +1,469 @@
+﻿add_namespace = CJF_op
+add_namespace = CJF_dh
+add_namespace = CJF_KMT_party
+add_namespace = CJF_chongqing
+add_namespace = CJF_kmtdebate
+add_namespace = CJF_industry
+country_event = {
+    id = CJF_op.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_op.1 FROM = [From.GetName]" }
+	title = CJF_op.1.t
+	desc = CJF_op.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = CJF_op.1.a 
+	}
+	
+}
+########################################
+country_event = {
+    id = CJF_chongqing.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chongqing.1 FROM = [From.GetName]" }
+	title = CJF_chongqing.1.t
+	desc = CJF_chongqing.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chongqing.1.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chongqing.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chongqing.2 FROM = [From.GetName]" }
+	title = CJF_chongqing.2.t
+	desc = CJF_chongqing.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_country_flag = CJF_has_owned_chongqing
+		name = CJF_chongqing.2.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chongqing.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chongqing.3 FROM = [From.GetName]" }
+	title = CJF_chongqing.3.t
+	desc = CJF_chongqing.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = CJF_chongqing.3.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chongqing.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chongqing.4 FROM = [From.GetName]" }
+	title = CJF_chongqing.4.t
+	desc = CJF_chongqing.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		annex_country = { target = CMA transfer_troops = no }
+		name = CJF_chongqing.4.a 
+	}
+	
+}
+##############################################
+country_event = {
+    id = CJF_dh.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.1 FROM = [From.GetName]" }
+	title = CJF_dh.1.t
+	desc = CJF_dh.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = CJF_dh.1.a 
+		add_political_power = 50
+		add_stability = 10
+	}
+	
+}
+country_event = {
+    id = CJF_dh.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.12FROM = [From.GetName]" }
+	title = CJF_dh.2.t
+	desc = CJF_dh.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.2.a 
+		add_political_power = 50
+	}
+	
+}
+country_event = {
+    id = CJF_dh.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.12FROM = [From.GetName]" }
+	title = CJF_dh.3.t
+	desc = CJF_dh.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.3.a 
+	}
+	
+}
+#######################################################
+country_event = {
+    id = CJF_KMT_party.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_KMT_party.1 FROM = [From.GetName]" }
+	title = CJF_KMT_party.1.t
+	desc = CJF_KMT_party.1.d
+	picture = GFX_GDCintro
+	fire_only_once = no
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { party_popularity@conservatism = party_popularity@reactionism }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		Not = {has_country_flag = CJF_KMT_party1}
+		  has_country_flag = CJF_KMT_party
+		    check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.3
+			compare = less_than_or_equals
+		    }
+		}	
+		name = CJF_KMT_party.1.a 
+        add_to_variable = { CJF_antipower = 15 }
+		country_event = { id = CJF_KMT_party.1 days = 30 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		Not = {has_country_flag = CJF_KMT_party1}
+		has_country_flag = CJF_KMT_party
+		   check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.3
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.6
+			compare = less_than_or_equals
+		    }
+		}	
+		name = CJF_KMT_party.1.b
+		add_to_variable = { CJF_antipower = 10 }
+		country_event = { id = CJF_KMT_party.1 days = 30 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		Not = {has_country_flag = CJF_KMT_party1}
+		has_country_flag = CJF_KMT_party
+		   check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.6
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.9
+			compare = less_than_or_equals
+		    }
+		}	
+		name = CJF_KMT_party.1.c
+		add_to_variable = { CJF_antipower = 5 }
+		country_event = { id = CJF_KMT_party.1 days = 30 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		  Not = {has_country_flag = CJF_KMT_party1}
+		  has_country_flag = CJF_KMT_party
+		   check_variable = {
+		    var = party_popularity@conservatism
+			value = 0.9
+			compare = greater_than
+		    }
+		}	
+		name = CJF_KMT_party.1.e
+		add_to_variable = { CJF_antipower = 0 }
+		country_event = { id = CJF_KMT_party.1 days = 30 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		has_country_flag = CJF_KMT_party1
+		}	
+		name = CJF_KMT_party.1.f
+		
+	}
+	
+}
+############################################################
+country_event = {
+    id = CJF_kmtdebate.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.1 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.1.t
+	desc = CJF_kmtdebate.1.d
+	picture = GFX_CJF_kmtdebate
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.1.a 
+	}
+	
+}
+##############################################################
+country_event = {
+    id = CJF_industry.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_industry.1 FROM = [From.GetName]" }
+	title = CJF_industry.1.t
+	desc = CJF_industry.1.d
+	picture = GFX_CJF_industry
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 35
+		}
+		set_country_flag = CJF_first_choice
+		name = CJF_industry.1.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 65
+		}
+		name = CJF_industry.1.b
+		set_country_flag = CJF_second_choice
+	}
+	
+}
+country_event = {
+    id = CJF_industry.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_industry.2 FROM = [From.GetName]" }
+	title = CJF_industry.2.t
+	desc = CJF_industry.2.d
+	picture = GFX_CJF_industry
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 35
+		}
+		name = CJF_industry.2.a 
+	}
+}
+country_event = {
+    id = CJF_industry.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_industry.3 FROM = [From.GetName]" }
+	title = CJF_industry.3.t
+	desc = CJF_industry.3.d
+	picture = GFX_CJF_industry
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 35
+		}
+		name = CJF_industry.3.a 
+	}
+}
+country_event = {
+    id = CJF_industry.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_industry.4 FROM = [From.GetName]" }
+	title = CJF_industry.4.t
+	desc = CJF_industry.4.d
+	picture = GFX_CJF_industry
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 35
+		}
+		name = CJF_industry.4.a 
+	}
+	
+}
+country_event = {
+    id = CJF_industry.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_industry.5 FROM = [From.GetName]" }
+	title = CJF_industry.5.t
+	desc = CJF_industry.5.d
+	picture = GFX_CJF_industry
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_industry.5.a 
+	}
+	
+}
+
+
+

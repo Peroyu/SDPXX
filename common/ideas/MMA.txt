@@ -1,0 +1,137 @@
+ideas = {
+    country = {
+        MMA_Northwest_Cavalry = {
+            name = MMA_Northwest_Cavalry
+            picture = MMA_Northwest_Cavalry
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+            army_morale_factor = 0.1 
+            army_core_attack_factor = 0.1
+			}
+	    
+		}
+		MMA_Road_to_the_North = {
+            
+            picture = MMA_Road_to_the_North
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+            
+			}
+	    
+		}
+		MMA_Mabufang = {
+            
+            picture = MMA_Mabufang
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+            
+			}
+	    
+		}
+		MMA_patriotic_enthusiaism_1 = {
+            
+            picture = MMA_patriotic_enthusiaism
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            modifier = {
+				mobilization_speed = 0.03
+				army_org_factor = 0.03
+			}
+	    
+		}
+		MMA_patriotic_enthusiaism_2 = {
+            
+            picture = MMA_patriotic_enthusiaism
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            modifier = {
+				mobilization_speed = 0.06
+				army_org_factor = 0.06
+				army_core_defence_factor = 0.1
+			}
+	    
+		}
+		MMA_gongshu1 = {
+            
+            picture = MMA_gongshu1
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+            stability_factor = 0.2
+			war_support_factor = 0.3
+			army_core_defence_factor = 0.1
+			army_core_attack_factor = 0.1
+			}
+	    
+		}
+		MMA_gongshu2 = {
+            
+            picture = MMA_gongshu2
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+			stability_factor = -0.1
+			war_support_factor = -0.1
+			army_core_defence_factor = -0.05
+			army_core_attack_factor = -0.05
+            
+			}
+	    
+		}
+		MMA_Hui_Han_Army = {
+            
+            picture = MMA_Hui_Han_Army
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            modifier = {
+				conscription_factor = 0.2
+				army_core_defence_factor = 0.05
+			}
+	    
+		}
+		
+	}
+}	
+
+
+   

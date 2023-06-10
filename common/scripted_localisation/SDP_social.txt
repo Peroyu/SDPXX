@@ -1,0 +1,529 @@
+defined_text = {
+	name = SDP_economic
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 50
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_economic_6_text
+	}
+}
+defined_text = {
+	name = SDP_education
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_education_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_education_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_education_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_education_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_education_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_education_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_education_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_education_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_education_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_education_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_education_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_education_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_education_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_education_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_education_5_text
+	}
+}
+defined_text = {
+	name = SDP_industry
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_industry_v
+			value = 50
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_industry_v
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_industry_6_text
+	}
+}
+defined_text = {
+	name = SDP_agriculture
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 50
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_agriculture_v
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_agriculture_6_text
+	}
+}
+defined_text = {
+	name = SDP_science
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_science_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_science_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_science_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_science_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_science_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_science_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_science_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_science_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_science_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_science_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_science_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_science_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_science_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_science_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_science_5_text
+	}
+}
+defined_text = {
+	name = SDP_politics
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_politics_v
+			value = 50
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_politics_v
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_politics_6_text
+	}
+  }
+}

@@ -1,0 +1,60 @@
+
+
+@OS_manu_Y = 300
+@OS_SD_X = 44
+@OS_SDT_X = 200   
+@OS_RSD_X = 1
+guiTypes = {
+	containerWindowType = {
+		name = "SDP_KMT_ui_window"
+		position = { x = -65 y = -300 }
+		size = { width = 60 height = 0 }
+		clipping = no
+ 
+
+
+
+		iconType = {
+			name = "OS_manu_state_btn_jungong"
+			position = { x = 0 y = -48 }
+			quadTextureSprite = "GFX_KMTprogresswaikuang" 
+		}
+
+		iconType = {
+			name = "KMT_jindu_1" 
+			position = { x = 3 y = -48}
+			quadTextureSprite = "GFX_KMTprogress" 
+		}
+		
+		iconType = {
+			name = "KMT_jindu_2"
+			position = { x = 77 y = -33 }
+			quadTextureSprite = "GFX_KMTprogress" 
+		}
+
+		iconType = {
+			name = "KMT_jindu_3" 
+			position = { x = 51 y = -46 }
+			quadTextureSprite = "GFX_KMTprogress" 
+		}
+
+
+		iconType = {
+			name = "KMT_jindu_4"
+			position = { x = 27 y = -33 }
+			quadTextureSprite = "GFX_KMTprogress" 
+		}
+
+		iconType = {
+			name = "KMT_jindu_5" 
+			position = { x = 97 y = -47 }
+			quadTextureSprite = "GFX_KMTprogress" 
+		}
+
+
+		
+
+	} 
+	
+	
+}

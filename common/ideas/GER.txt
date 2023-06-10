@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		GER_threaten_from_Freikorps = {
+		    name = GER_threaten_from_Freikorps
+			picture = GFX_GER_threaten_from_Freikorps
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.2
+				resistance_target = 0.2
+				required_garrison_factor = 0.15
+			}
+		}
+		GER_country_in_ruins = {
+		    name = GER_country_in_ruins
+			picture = GFX_GER_country_in_ruins
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				civilian_factory_use = 10
+				conscription_factor = -0.3
+				stability_factor = -0.15
+			}
+		}
+		GER_split_of_politic = {
+		    name = GER_split_of_politic
+			picture = GFX_GER_split_of_politic
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+		GER_rebuild_1 = {
+		    name = GER_rebuild_1
+			picture = GFX_GER_rebuild_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+	}
+}	

@@ -1,0 +1,52 @@
+﻿ capital = 754
+
+ oob = "MMA_1947"
+
+ set_research_slots = 2
+
+ set_war_support = 0.5
+ set_stability = 0.5
+ country_event = { id = MMAlan.1 days = 1}
+
+ add_ideas = {
+    Ma_Hongbin
+    MMA_Northwest_Cavalry
+	MMA_Road_to_the_North
+	MMA_Mabufang
+	
+    service_by_requirement
+	limited_exports
+	partial_economic_mobilisation
+ }
+set_variable = { var = MMA_national value = 5 }
+ set_politics = {
+	ruling_party = conservatism 
+	last_election = "1936.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+ }
+
+ set_popularities = {
+	conservatism = 60
+	communism = 14
+	Liberalism = 26
+ }
+recruit_character = MMA_Ma_Jiyuan
+recruit_character = MMA_Ma_Hongbin
+recruit_character = MMA_Ma_Bufang
+recruit_character = MMA_Ma_Yuanhai
+recruit_character = MMA_Ma_Buqing
+recruit_character = MMA_Zhao_Sui
+recruit_character = MMA_Hu_ZongNan
+recruit_character = MMA_Ma_Hongkui
+
+create_country_leader = {
+			name = "毛泽东"
+			desc = "Mao_Zedong_desc"  
+			picture = "Portrait_CPC_Mao_Zedong"  
+			expire = "1976.7.10"  
+			ideology = Mao_thought 
+			traits = { }
+		}
+
+

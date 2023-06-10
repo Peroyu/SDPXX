@@ -1,0 +1,62 @@
+capital = 325  
+
+obb = "AUS_1947"   
+
+set_research_slots = 3  
+
+set_war_support = 0.5  
+set_stability = 0.7 
+
+
+set_politics = {
+	ruling_party = moderate_socialism  
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+
+set_popularities = {
+	movement_communism = 5
+	communism = 12
+	committee_communism = 20
+	moderate_socialism = 26
+	Liberalism = 14
+	reactionism = 7 
+	nationalism = 2
+	social_democracy = 14
+}
+
+add_ideas = {
+	AUS_problem_of_nationality
+	victor_of_the_revolutionary_war
+	AUS_memories_of_suffering
+	AUS_Tasu_River_Declaration
+}
+
+create_country_leader = {
+		name = "AUS_Lucien_Laurat"   
+		desc = "AUS_Lucien_Laurat_desc"  
+		picture = "gfx/leaders/EU/Lucien_Laurat.png"   
+		expire = "1959.4.5"   
+		ideology = Austro_Marxism 
+		traits = {  }
+	}
+
+create_country_leader = {
+		name = "卡尔·伦纳"   
+		desc = "AUS_Luna_desc"  
+		picture = "gfx/leaders/EU/AUS_Luna.png"   
+		expire = "1959.4.5"   
+		ideology = social_reformism 
+		traits = {  }
+	}
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 25 }#60
+set_variable = { var = SDP_education_v value = 35 }#50
+set_variable = { var = SDP_industry_v value = 29 }#60
+set_variable = { var = SDP_agriculture_v value = 29 }#60
+set_variable = { var = SDP_science_v value = 40 }#50
+set_variable = { var = SDP_politics_v value = 39 }#60
+################

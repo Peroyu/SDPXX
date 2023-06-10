@@ -1,0 +1,36 @@
+capital = 315 # 
+
+obb = "CUB_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = liberalism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ conservatism = 34
+ liberalism = 37
+ social_democracy = 10
+ reactionism = 7
+ nationalism = 3
+}
+
+# 
+create_country_leader = {
+	name = "卡洛斯·普里奥·索卡拉斯"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1970.3.6"  # 
+	ideology = liberalism # 
+	traits = {  # 
+		#
+	}
+}

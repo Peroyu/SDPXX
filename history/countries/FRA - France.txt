@@ -1,0 +1,64 @@
+﻿capital = 16
+
+oob = "FRA_1947"
+
+set_technology = {
+	infantry_weapons = 3
+	tech_mountaineers = 3
+}
+set_war_support = 0.8
+
+set_stability = 0.8
+	
+set_politics = {
+	ruling_party = moderate_socialism
+	last_election = "1946.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	committee_communism = 25
+	communism = 23
+	moderate_socialism = 30
+	social_democracy = 8
+	Liberalism = 4
+	movement_communism = 2
+	reactionism = 3
+	nationalism = 5
+}
+set_variable = { var = FactionStatus value = 2}
+########################
+set_variable = { var = SDP_economic_v value = 25 }#60
+set_variable = { var = SDP_education_v value = 35 }#50
+set_variable = { var = SDP_industry_v value = 35 }#60
+set_variable = { var = SDP_agriculture_v value = 32 }#60
+set_variable = { var = SDP_science_v value = 32 }#50
+set_variable = { var = SDP_politics_v value = 48 }#60
+########################
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
+Alain_Lepp
+Marcel_Edmund_Negren
+Jacques_Duclo
+FRA_military_economy
+FRA_wsr_scar
+FRA_pluviose_constitution
+victor_of_the_revolutionary_war
+}
+create_country_leader = {
+	name = "FRA_Benoit_Frachan"  
+	desc = "FRA_Benoit_Frachan_desc"  
+	picture = "GFX_portrait_FRA_Benoit_Frachan"
+	expire = "1999.5.2"  
+	ideology = revolutionary_syndicalism  
+	traits = {  FRA_workers_leader
+	}
+}
+recruit_character = FRA_Alain_Lepp
+recruit_character = FRA_Marcel_Edmund_Negren
+recruit_character = FRA_Jacques_Duclo
+recruit_character = FRA_Pierre_Samard

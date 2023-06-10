@@ -1,0 +1,85 @@
+﻿capital = 594
+oob = "GDC_1947"
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+country_event = { id = GDCintro.1 days = 1 }
+	
+set_politics = {
+	ruling_party = communism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 18
+	committee_communism = 14
+	moderate_socialism = 17
+	social_democracy = 16
+	Liberalism = 12
+	conservatism = 6
+	movement_communism = 11
+	reactionism = 4
+	nationalism = 2
+}
+set_variable = { var = GDC_crop_gain value = 5 }
+set_variable = { var = GDC_crop_reserves value = 130 }
+set_variable = { var = GDC_crop_produce value = 32 }
+set_variable = { var = GDC_rural_hunger value = 70 }
+set_variable = { var = GDC_city_hunger value = 26 }
+set_variable = { var = GDC_rural_city_add value = 2 }
+set_variable = { var = GDC_rural_hunger_add value = 5 }
+add_ideas = {
+	tot_economic_mobilisation
+	limited_exports
+	all_adults_serve
+	######
+	GDC_Li_Jishen
+	GDC_Zhou_Enlai
+	GDC_Deng_YanDa
+	GDC_Yang_Baoan
+	#######
+	GDC_KMT_CPC_A
+	GDC_Iron_Cage_1
+	GDC_Rectification_Movement
+	GDC_Red_Army_and_Red_Region
+	GDC_Conflicts_with_Natives
+	GDC_hunger
+	GDC_none_pact_peace
+}
+create_country_leader = {
+		name = "GDC_Central_Council"   
+		desc = "GDC_Central_Council_desc"  
+		picture = "gfx/leaders/GDC/portrait_Central_Council.png"   
+		expire = "1950.1.1.1"   
+		ideology = leninism
+		traits = {  }
+	}
+recruit_character = GDC_Cheng_Qian
+recruit_character = GDC_Jiang_XianYun
+recruit_character = GDC_Peng_Dehuai
+recruit_character = GDC_He_Long
+recruit_character = GDC_Lin_Biao
+recruit_character = GDC_Su_Yu
+recruit_character = GDC_Mao_Zedong
+recruit_character = GDC_Zhou_Enlai
+recruit_character = GDC_Ye_Jianying
+recruit_character = GDC_Ye_Ting
+recruit_character = GDC_Zhang_Fakui
+recruit_character = GDC_Fang_Zhimin
+recruit_character = GDC_Chiang_Ching_Kuo
+	##############################################################
+	
+	
+	
+	
+	
+	
+	

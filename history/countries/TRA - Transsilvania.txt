@@ -1,0 +1,37 @@
+capital =  
+
+obb = "TRA_1947"  
+
+set_research_slots = 1 
+
+set_war_support = 0.3 
+set_stability = 0.4
+ 
+HUN = {
+	puppet = TRA
+}
+
+set_politics = {
+	ruling_party = committee_communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+participant_of_the_revolutionary_war
+}
+set_popularities = {
+ communism = 33
+ committee_communism = 34
+ conservatism = 33
+}
+
+
+create_country_leader = {
+	name = "安娜·波克尔"  
+	desc = "Ana_poker_desc"  
+	picture = "gfx\leaders\EU\Ana_poker.png"  
+	expire = "1952.3.16"  
+	ideology = Spartacus 
+	traits = {  }
+}

@@ -1,0 +1,73 @@
+﻿division_template = {               #
+	name = "Bianfangjun"				# 
+	division_names_group = XKS_INF_01
+									#	
+	regiments = {
+		infantry = { x = 0 y = 0 }	# 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {           # 另一个军队模板
+	name = "Zhongyangjun"				
+	division_names_group = XKS_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }      
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+
+units = {
+	##### 军队在地图上的部署 #####
+	division = {
+		name = "12旅"  # 
+		location = 4999             # 
+		division_template = "Bianfangjun"  # 
+		start_experience_factor = 0.3  # 
+		start_equipment_factor = 0.6   # 
+
+	}
+	division = {
+		name = "17旅"
+		location = 10726
+		division_template = "Bianfangjun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		name = "24师"
+		location = 10856
+		division_template = "Zhongyangjun"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+
+	}
+	division = { #  " 238师"
+	    name = "238 shi"
+		location = 10856
+		division_template = "Zhongyangjun"		
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.95
+
+
+##### STARTING PRODUCTION #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "XKS"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

@@ -1,0 +1,107 @@
+guiTypes ={
+	containerWindowType = {#主窗口
+		name = "SDP_ita_window_main"
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 600 }
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_SDP_ita_intro"
+		}
+		buttonType = { 
+			name = "SDP_ita_1"
+			position = { x = 0 y =8 } 
+			quadTextureSprite = "GFX_SDP_ita_1"
+		}
+		buttonType = { 
+			name = "SDP_ita_2"
+			position = { x = 27 y = 69 } 
+			quadTextureSprite = "GFX_SDP_ita_2"
+		}
+		buttonType = { 
+			name = "SDP_ita_3"
+			position = { x = 75 y =2 } 
+			quadTextureSprite = "GFX_SDP_ita_3"
+		}
+		buttonType = { 
+			name = "SDP_ita_4"
+			position = { x = 93 y = 56 } 
+			quadTextureSprite = "GFX_SDP_ita_4"
+		}
+		buttonType = { 
+			name = "SDP_ita_5"
+			position = { x = 138 y =26 } 
+			quadTextureSprite = "GFX_SDP_ita_5"
+		}
+		buttonType = { 
+			name = "SDP_ita_6"
+			position = { x = 110 y =91 } 
+			quadTextureSprite = "GFX_SDP_ita_6"
+		}
+		buttonType = { 
+			name = "SDP_ita_7"
+			position = { x = 191 y =4} 
+			quadTextureSprite = "GFX_SDP_ita_7"
+		}
+		buttonType = { 
+			name = "SDP_ita_8"
+			position = { x = 177 y = 123 } 
+			quadTextureSprite = "GFX_SDP_ita_8"
+		}
+		buttonType = { 
+			name = "SDP_ita_9"
+			position = { x = 200 y= 118 } 
+			quadTextureSprite = "GFX_SDP_ita_9"
+		}
+		buttonType = { 
+			name = "SDP_ita_10"
+			position = { x = 181 y =164 } 
+			quadTextureSprite = "GFX_SDP_ita_10"
+			pdx_tooltip = "SDP_ita_10"
+		}
+		buttonType = { 
+			name = "SDP_ita_11"
+			position = { x = 236 y =169 } 
+			quadTextureSprite = "GFX_SDP_ita_11"
+			pdx_tooltip = "SDP_ita_11"
+		}
+		buttonType = { 
+			name = "SDP_ita_12"
+			position = { x = 301 y =203} 
+			quadTextureSprite = "GFX_SDP_ita_12"
+			pdx_tooltip = "SDP_ita_12"
+		}
+		buttonType = { 
+			name = "SDP_ita_13"
+			position = { x = 262 y =219 } 
+			quadTextureSprite = "GFX_SDP_ita_13"
+			pdx_tooltip = "SDP_ita_13"
+		}
+		buttonType = { 
+			name = "SDP_ita_14"
+			position = { x = 330 y =251 } 
+			quadTextureSprite = "GFX_SDP_ita_14"
+			pdx_tooltip = "SDP_ita_14"
+		}
+		buttonType = { 
+			name = "SDP_ita_15"
+			position = { x = 63 y =231 } 
+			quadTextureSprite = "GFX_SDP_ita_15"
+			pdx_tooltip = "SDP_ita_15"
+		}
+		iconType = {
+			name = "SDP_ita_16"
+			spriteType = "GFX_SDP_ita_16"		
+			position = { x = 208  y = 350 }
+			pdx_tooltip = "SDP_ita_16"
+		}
+        instantTextboxType = {
+			name = "SDP_ita_intro"
+			position = { x = 0 y = 450 }
+			font = "hoi_18b"
+			text = "SDP_ita_intro"
+			maxWidth = 500
+			maxHeight = 500
+			format = center
+	    }		
+	}
+}

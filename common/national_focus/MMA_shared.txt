@@ -1,0 +1,800 @@
+shared_focus = {
+		id = MMA_lanzhou
+		icon = GFX_MMA_lanzhou
+		cost = -1
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		available = {
+				always = no
+				}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus 
+			MMA_lanzhou"
+			add_political_power = -50
+			hidden_effect = {
+			
+		    }
+		}
+	}
+shared_focus = {
+		id = Order_returns_to_Lanzhou
+		icon = GFX_Order_returns_to_Lanzhou
+		cost = 1
+		prerequisite = {
+			focus = MMA_lanzhou
+		}
+		x = 10
+		y = 1
+		allow_branch = {
+		has_country_flag = LANZHOU_YIYE
+	    }
+		completion_reward = {
+			remove_ideas = MMA_Mabufang
+			add_stability = 0.06
+			custom_effect_tooltip = MMA_threaten_is_gone
+		}
+
+	}
+shared_focus = {
+		id = For_the_motherland_father
+		icon = GFX_For_the_motherland_father
+		cost = 1
+		prerequisite = {
+			focus = Order_returns_to_Lanzhou
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_ideas = MMA_patriotic_enthusiaism_1
+		}
+		x = 10
+		y = 2
+
+	}
+shared_focus = {
+		id = Check_out_collaborators
+		icon = GFX_Check_out_collaborators
+		cost = 1
+		prerequisite = {
+			focus = For_the_motherland_father
+		}
+		completion_reward = {
+			add_political_power = 30
+			retire_field_marshal = MMA_Ma_Bufang
+			custom_effect_tooltip = MMA_check_collaborators
+		}
+		x = 8
+		y = 3
+
+	}
+shared_focus = {
+		id = Reorganized_Hui_Han_National_Army
+		icon = GFX_Reorganized_Hui_Han_National_Army
+		cost = 1
+		prerequisite = {
+			focus = For_the_motherland_father
+		}
+		completion_reward = {
+			add_ideas = MMA_Hui_Han_Army
+			division_template = {
+				name = "Hui Han Zhi Dui"
+				division_names_group = MMA_GAR_01
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+					infantry = { x = 0 y = 4 }
+				}
+				template_counter = 68
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hui Han Zhi Dui\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hui Han Zhi Dui\" start_experience_factor = 0.1"
+					owner = MMA
+					count = 2
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 242 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hui Han Zhi Dui\" start_experience_factor = 0.1"
+					owner = MMA
+					prioritize_location = 306
+				}
+			}
+		}
+		x = 10
+		y = 3
+
+	}
+shared_focus = {
+		id = from_the_south
+		icon = GFX_from_the_south
+		cost = 1
+		prerequisite = {
+			focus = For_the_motherland_father
+		}
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.1 }
+			country_event = { id = MMA_cpc.2 days = 1 }
+		}
+		x = 12
+		y = 3
+
+	}
+shared_focus = {
+		id = final_reckoning
+		icon = GFX_final_reckoning
+		cost = 2
+		prerequisite = {
+			focus = Check_out_collaborators
+		}
+		prerequisite = {
+			focus = Reorganized_Hui_Han_National_Army
+		}
+		prerequisite = {
+			focus = from_the_south
+		}
+		x = 10
+		y = 4
+        completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus 
+			final_reckoning"
+			unlock_decision_category_tooltip = MMA_gongshu_decision_categories
+			country_event = { id = MMA_gongshu.1 days = 1 }
+		}
+	}
+shared_focus = {
+		id = Healing_the_wounds_of_the_coup
+		icon = GFX_Healing_the_wounds_of_the_coup
+		cost = 1
+		prerequisite = {
+			focus = final_reckoning
+		}
+		completion_reward = {	
+			283 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes 
+				}
+			}
+		}
+		x = 9
+		y = 5
+
+	}
+shared_focus = {
+		id = The_place_of_return_for_the_displace
+		icon = The_place_of_return_for_the_displace
+		cost = 1
+		prerequisite = {
+			focus = final_reckoning
+		}
+		completion_reward = {
+			283 = {
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes 
+				}
+			}	
+		}
+		x = 11
+		y = 5
+
+	}
+shared_focus = {
+		id = The_Guardians_of_the_Northwest_are_still_here
+		icon = GFX_The_Guardians_of_the_Northwest_are_still_here
+		cost = 1
+		prerequisite = {
+			focus = Healing_the_wounds_of_the_coup
+		}
+		prerequisite = {
+			focus = The_place_of_return_for_the_displace
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = MMA_patriotic_enthusiaism_2
+				remove_idea = MMA_patriotic_enthusiaism_1
+			}
+			add_political_power = 50
+		}
+		x = 10
+		y = 6
+
+	}
+shared_focus = {
+		id = MMA_dawn_arrives
+		icon = GFX_MMA_dawn_arrives
+		cost = 1
+		prerequisite = {
+			focus = The_Guardians_of_the_Northwest_are_still_here
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+		   load_focus_tree = {
+		        tree = MMA_second
+		        keep_completed = no
+		    }
+			custom_effect_tooltip = MMA_new_stage
+			add_stability = 0.1
+		}
+
+	}
+################################################################
+#######0###0#####0###0#####00###################################
+######0#0#0#0###0#0#0#0###0000##################################
+#####0###0###0#0###0###0#0####0#################################
+################################################################
+	shared_focus = {
+		id = Before_the_war
+		icon = GFX_Before_the_war
+		cost = 2
+		x = 7
+		y = 0
+
+	}
+	shared_focus = {
+		id = Integrated_industry
+		icon = GFX_Integrated_industry
+		cost = 2.00
+		prerequisite = {
+			focus = Before_the_war
+		}
+		x = 3
+		y = 1
+
+	}
+	shared_focus = {
+		id = The_established_policy
+		icon = GFX_The_established_policy
+		cost = 0.00
+		prerequisite = {
+			focus = Integrated_industry
+		}
+		mutually_exclusive = {
+			focus = Konzern
+		}
+		x = 1
+		y = 2
+
+	}
+	shared_focus = {
+		id = Emerging_industries
+		icon = GFX_Emerging_industries
+		cost = 3.00
+		prerequisite = {
+			focus = The_established_policy
+		}
+		x = 1
+		y = 3
+
+	}
+	shared_focus = {
+		id = Mass_production
+		icon = GFX_Mass_production
+		cost = 3.00
+		prerequisite = {
+			focus = Emerging_industries
+		}
+		x = 1
+		y = 4
+
+	}
+	shared_focus = {
+		id = Militarized_traffic_lines
+		icon = GFX_Militarized_traffic_lines
+		cost = 3.00
+		prerequisite = {
+			focus = Mass_production
+		}
+		x = 1
+		y = 5
+
+	}
+	shared_focus = {
+		id = Fortressized_factories
+		icon = GFX_Fortressized_factories
+		cost = 2.00
+		prerequisite = {
+			focus = Militarized_traffic_lines 
+		}
+		x = 1
+		y = 6
+
+	}
+	shared_focus = {
+		id = Konzern
+		icon = GFX_Konzern
+		cost = 3.00
+		prerequisite = {
+			focus = Integrated_industry
+		}
+		mutually_exclusive = {
+			focus = The_established_policy
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			country_event = { id = MMA_gongye.1 days = 1 }
+		}
+		
+
+	}
+	shared_focus = {
+		id = Poor_imperialism
+		icon = GFX_Poor_imperialism
+		cost = 3.00
+		prerequisite = {
+			focus = Konzern
+		}
+		x = 5
+		y = 3
+
+	}
+	shared_focus = {
+		id = Concentrate_a_little_more
+		icon = GFX_Concentrate_a_little_more
+		cost = 3.00
+		prerequisite = {
+			focus = Poor_imperialism
+		}
+		x = 5
+		y = 4
+
+	}
+	shared_focus = {
+		id = It_works
+		icon = GFX_It_works
+		cost = 3.00
+		prerequisite = {
+			focus = Concentrate_a_little_more
+		}
+		x = 5
+		y = 5
+
+	}
+	shared_focus = {
+		id = Let_the_war_machine_start
+		icon = GFX_Let_the_war_machine_start
+		cost = 2.00
+		prerequisite = {
+			focus = It_works
+		}
+		x = 5
+		y = 6
+
+	}
+	shared_focus = {
+		id = Ready_or_not
+		icon = GFX_Ready_or_not
+		cost = 2.00
+		prerequisite = {
+			focus = Let_the_war_machine_start
+			focus = Fortressized_factories
+		}
+		x = 3
+		y = 7
+
+	}
+	shared_focus = {
+		id = More_friends
+		icon = GFX_More_friends
+		cost = 2.00
+		prerequisite = {
+			focus = Before_the_war
+		}
+		x = 11
+		y = 1
+
+	}
+	shared_focus = {
+		id = In_the_northern
+		icon = GFX_In_the_northern
+		cost = 3.00
+		prerequisite = {
+			focus = More_friends
+		}
+		x = 9
+		y = 2
+
+	}
+	shared_focus = {
+		id = In_the_southern
+		icon = GFX_In_the_southern
+		cost = 3.00
+		prerequisite = {
+			focus = More_friends
+		}
+		x = 11
+		y = 2
+
+	}
+	shared_focus = {
+		id = Distant_guests
+		icon = GFX_Distant_guests
+		cost = 3.00
+		prerequisite = {
+			focus = In_the_southern
+		}
+		prerequisite = {
+			focus = In_the_northern
+		}
+		completion_reward = {
+		    country_event = { id = MMA_dip.1 days = 1 }
+        }
+		x = 10
+		y = 3
+
+	}
+	shared_focus = {
+		id = A_successful_coup
+		icon = GFX_A_successful_coup
+		cost = 3.00
+		prerequisite = {
+			focus = Distant_guests
+		}
+		available = { 
+			has_country_flag = shaanxi_is_our_ally 
+		}
+		mutually_exclusive = {
+			focus = A_failed_attempt
+		}
+		x = 9
+		y = 4
+
+	}
+	shared_focus = {
+		id = Hold_firm
+		icon = GFX_Hold_firm
+		cost = 4.00
+		prerequisite = {
+			focus = A_successful_coup
+		}
+		x = 9
+		y = 5
+
+	}
+	shared_focus = {
+		id = A_failed_attempt
+		icon = GFX_A_failed_attempt
+		cost = 3.00
+		prerequisite = {
+			focus = Distant_guests
+		}
+		mutually_exclusive = {
+			focus = A_successful_coup
+		}
+		available = { 
+			has_country_flag = shaanxi_is_not_our_ally 
+		}
+		x = 11
+		y = 4
+
+	}
+	shared_focus = {
+		id = Strike_hard
+		icon = GFX_Strike_hard
+		cost = 4.00
+		prerequisite = {
+			focus = A_failed_attempt
+		}
+		completion_reward = {
+			declare_war_on = { target = SHA type = puppet_wargoal_focus }
+		    KTR = {
+				declare_war_on = { target = SHA type = puppet_wargoal_focus }
+			}
+			SHA = {
+				add_ideas = SHA_northwest_crisis
+			}
+		}
+		x = 11
+		y = 5
+
+	}
+	shared_focus = {
+		id = In_the_eastern
+		icon = GFX_In_the_eastern
+		cost = 3.00
+		prerequisite = {
+			focus = Strike_hard
+			focus = Hold_firm
+		}
+		x = 10
+		y = 6
+
+	}
+	shared_focus = {
+		id = Even_among_Enemies
+		icon = GFX_Even_among_Enemies
+		cost = 3.00
+		prerequisite = {
+			focus = More_friends
+		}
+		x = 13
+		y = 2
+
+	}
+	shared_focus = {
+		id = Unite
+		icon = GFX_Unite
+		cost = 5.00
+		prerequisite = {
+			focus = Even_among_Enemies
+		}
+		x = 13
+		y = 4
+
+	}
+	shared_focus = {
+		id = Special_means
+		icon = GFX_Special_means
+		cost = 3.00
+		prerequisite = {
+			focus = Unite
+		}
+		x = 13
+		y = 5
+
+	}
+	shared_focus = {
+		id = Total_showdown
+		icon = GFX_Total_showdown
+		cost = 7.00
+		prerequisite = {
+			focus = In_the_eastern
+		}
+		prerequisite = {
+			focus = Special_means
+		}
+		x = 11
+		y = 7
+
+	}
+	shared_focus = {
+		id = Then_it_began
+		icon = GFX_Then_it_began
+		cost = 1.00
+		prerequisite = {
+			focus = Ready_or_not
+		}
+		prerequisite = {
+			focus = Total_showdown
+		}
+		x = 7
+		y = 8
+
+	}
+#######################################################
+#########################################################
+###########MMA_CPC_Mao####################################
+shared_focus = {
+		id = MMA_CPC_huishi
+		icon = GFX_MMA_CPC_huishi
+		cost = 2
+		x = 6
+		y = 0
+
+	}
+shared_focus = {
+		id = MMA_CPC_united_local_party
+		icon = GFX_MMA_CPC_united_local_party
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_huishi
+		}
+		x = 5
+		y = 1
+
+	}
+shared_focus = {
+		id = MMA_CPC_relax_red_army
+		icon = GFX_MMA_CPC_relax_red_army
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_huishi
+		}
+		x = 7
+		y = 1
+
+	}
+shared_focus = {
+		id = MMA_CPC_politic_party_department
+		icon = GFX_MMA_CPC_politic_party_department
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_united_local_party
+		}
+		prerequisite = {
+			focus = MMA_CPC_relax_red_army
+		}
+		x = 6
+		y = 2
+
+	}
+shared_focus = {
+		id = MMA_CPC_rich_and_wealthy_condition
+		icon = GFX_MMA_CPC_rich_and_wealthy_condition
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_politic_party_department
+		}
+		x = 2
+		y = 3
+
+	}
+shared_focus = {
+		id = MMA_CPC_go_montain_and_country
+		icon = GFX_MMA_CPC_go_montain_and_country
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_rich_and_wealthy_condition
+		}
+		x = 2
+		y = 4
+
+	}
+shared_focus = {
+		id = MMA_CPC_cooperative_movement
+		icon = GFX_MMA_CPC_cooperative_movement
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_go_montain_and_country
+		}
+		x = 2
+		y = 5
+
+	}
+shared_focus = {
+		id = MMA_CPC_west_conquer
+		icon = GFX_MMA_CPC_west_conquer
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_politic_party_department
+		}
+		x = 6
+		y = 3
+
+	}
+shared_focus = {
+		id = MMA_CPC_receive_legacy_of_cartel
+		icon = GFX_MMA_CPC_receive_legacy_of_cartel
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_west_conquer
+		}
+		x = 5
+		y = 4
+
+	}
+shared_focus = {
+		id = MMA_CPC_seek_for_allies
+		icon = GFX_MMA_CPC_seek_for_allies
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_west_conquer
+		}
+		x = 7
+		y = 4
+
+	}
+shared_focus = {
+		id = MMA_CPC_west_north_government
+		icon = GFX_MMA_CPC_west_north_government
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_receive_legacy_of_cartel
+		}
+		prerequisite = {
+			focus = MMA_CPC_seek_for_allies
+		}
+		x = 6
+		y = 5
+
+	}
+shared_focus = {
+		id = MMA_CPC_relieve
+		icon = GFX_MMA_CPC_relieve
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_cooperative_movement
+		}
+		prerequisite = {
+			focus = MMA_CPC_west_north_government
+		}
+		x = 4
+		y = 6
+
+	}
+shared_focus = {
+		id = MMA_CPC_west_north_red_army_depatment
+		icon = GFX_MMA_CPC_west_north_red_army_depatment
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_politic_party_department
+		}
+		x = 10
+		y = 3
+
+	}
+shared_focus = {
+		id = MMA_CPC_political_problem
+		icon = GFX_MMA_CPC_political_problem
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_west_north_red_army_depatment
+		}
+		x = 9
+		y = 4
+
+	}
+shared_focus = {
+		id = MMA_CPC_experience_of_long_march
+		icon = GFX_MMA_CPC_experience_of_long_march
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_west_north_red_army_depatment
+		}
+		x = 11
+		y = 4
+
+	}
+shared_focus = {
+		id = MMA_CPC_debate_of_military
+		icon = GFX_MMA_CPC_debate_of_military
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_political_problem
+		}
+		prerequisite = {
+			focus = MMA_CPC_experience_of_long_march
+		}
+		x = 10
+		y = 5
+
+	}
+shared_focus = {
+		id = MMA_CPC_experience_in_north
+		icon = GFX_MMA_CPC_experience_in_north
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_debate_of_military
+		}
+		x = 9
+		y = 6
+		mutually_exclusive = {
+			focus = MMA_CPC_racitics_in_south
+		}
+
+	}
+shared_focus = {
+		id = MMA_CPC_racitics_in_south
+		icon = GFX_MMA_CPC_racitics_in_south
+		cost = 3.00
+		prerequisite = {
+			focus = MMA_CPC_debate_of_military
+		}
+		x = 11
+		y = 6
+		mutually_exclusive = {
+			focus = MMA_CPC_experience_in_north
+		}
+
+	}

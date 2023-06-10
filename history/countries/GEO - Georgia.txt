@@ -1,0 +1,37 @@
+capital = 231 # 
+
+obb = "GEO_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.5 # 
+set_stability = 0.6 # 
+
+# 
+set_politics = {
+	ruling_party = social_democracy # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+	communism = 10
+	social_democracy = 45
+	Liberalism = 15
+	movement_communism = 5
+	conservatism = 15
+	nationalism = 10
+}
+
+# 
+create_country_leader = {
+	name = "伊拉克里·策列铁里"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1952.3.16"  # 
+	ideology = social_reformism # 
+	traits = {  # 
+		#
+	}
+}

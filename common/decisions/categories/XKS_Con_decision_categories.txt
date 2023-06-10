@@ -1,0 +1,15 @@
+XKS_Con_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_XKS_Con_decision_categories
+		available = {
+	        
+		}
+		visible = {
+           
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { original_tag = XKS }
+    }

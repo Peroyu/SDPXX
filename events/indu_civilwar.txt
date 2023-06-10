@@ -1,0 +1,46 @@
+﻿add_namespace = indu_civilwar
+country_event = {
+    id = indu_civilwar.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.1 FROM = [From.GetName]" }
+	title = indu_civilwar.1.t
+	desc = indu_civilwar.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    RAJ = { set_cosmetic_tag = RIJ }
+			KAS = {
+				transfer_state = 441
+				transfer_state = 787
+			}
+			KAR = {
+				transfer_state = 444
+			}
+			PUN = {
+				transfer_state = 440
+			}
+			GUI = {
+				transfer_state = 428
+			}
+			BAG = {
+				transfer_state = 430
+			}
+			HYD = {
+				transfer_state = 427
+				transfer_state = 443
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = indu_civilwar.1.a
+	}
+	
+}

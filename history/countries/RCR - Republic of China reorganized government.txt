@@ -1,0 +1,72 @@
+﻿capital = 924
+
+oob = "RCR_1947"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = RCR_Pang_Bingxvn
+recruit_character = RCR_Rong_Zhen
+recruit_character = RCR_Ren_YuanDao
+recruit_character = RCR_Wang_YiTang
+recruit_character = RCR_Gao_Zongwu
+recruit_character = RCR_Qi_Xieyuan
+
+1947.1.1 = {
+
+	add_political_power = 0
+	add_command_power = 50
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+set_politics = {
+	ruling_party = Liberalism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
+RCR_Qi_Xieyuan
+RCR_Gao_Zongwu
+RCR_Wang_YiTang
+}
+set_popularities = {
+	communism = 1
+	movement_communism = 2
+	moderate_socialism = 2
+	conservatism = 34
+	Liberalism = 10
+	reactionism = 36
+	nationalism = 10
+	restorativeism = 5
+}
+
+create_country_leader = {
+	name = "傅筱庵"
+	desc = "/"  
+	picture = "portrait_GNP_FuXiaoAn"  
+	expire = "1962.7.10"  
+	ideology = trade_liberalism
+	traits = { 
+		
+	}
+}

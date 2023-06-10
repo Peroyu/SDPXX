@@ -1,0 +1,28 @@
+
+state={
+	id=899
+	name="梧州"
+	provinces={
+		4152 7210 7128 7044
+	}
+	history={
+		owner = GDC
+		
+		add_core_of = GDC 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			
+		}
+		
+
+		
+	}
+
+	manpower=1001600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+capital = 325 
+
+obb = "BUL_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.9 
+set_stability = 0.5 
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+victor_of_the_revolutionary_war
+}
+set_popularities = {
+ communism = 35
+ committee_communism = 5
+ moderate_socialism = 15
+ Liberalism = 10
+ movement_communism = 2
+ conservatism = 5
+ reactionism = 20
+ nationalism = 8
+}
+
+
+create_country_leader = {
+	name = "格奥尔基·季米特洛夫"  
+	desc = "BUL_Georgi_Dimitrov_desc"  
+	picture = "gfx\leaders\EU\Georgi_Dimitrov.png"  
+	expire = "1950.7.2"  
+	ideology = leninism 
+	traits = { }
+}

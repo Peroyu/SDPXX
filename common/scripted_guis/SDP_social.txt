@@ -1,0 +1,37 @@
+scripted_gui = {
+	SDP_social ={
+		window_name = "SDP_social_window"
+		context_type = Player_context
+		parent_window_token = politics_tab
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			enter_SDP_social_window_button_click = {
+				if = {
+				   limit = {
+				     NOT = { has_country_flag = open_SDP_social_window_main }
+					}
+					set_country_flag = open_SDP_social_window_main
+				}
+				else = {
+				    clr_country_flag = open_SDP_social_window_main
+				}
+			}
+		}
+	}
+	SDP_social_main ={
+		window_name = "SDP_social_window_main"
+		context_type = Player_context
+		visible = {
+			has_country_flag = open_SDP_social_window_main
+		}
+	
+	effects = {
+			enter_SDP_social_window_close_button_click = {
+				clr_country_flag = open_SDP_social_window_main
+			}
+	}
+   }
+}

@@ -1,0 +1,50 @@
+scripted_gui = {
+    SDP_KMT_scripted_gui = {
+        context_type = decision_category
+        window_name = "SDP_KMT_ui_window"
+
+
+
+        triggers = {
+            KMT_jindu_1_visible = {
+                OR = {
+                    has_idea = KMT_huifuxinxin_1
+                    has_idea = KMT_huifuxinxin_2
+                    has_idea = KMT_huifuxinxin_3
+                    has_idea = KMT_huifuxinxin_4
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+            KMT_jindu_2_visible = {
+                OR = {
+
+                    has_idea = KMT_huifuxinxin_2
+                    has_idea = KMT_huifuxinxin_3
+                    has_idea = KMT_huifuxinxin_4
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+            KMT_jindu_3_visible = {
+                OR = {
+
+                    has_idea = KMT_huifuxinxin_3
+                    has_idea = KMT_huifuxinxin_4
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+            KMT_jindu_4_visible = {
+                OR = {
+        
+                    has_idea = KMT_huifuxinxin_4
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+            KMT_jindu_5_visible = {
+                OR = {
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+        }
+    }
+     
+}

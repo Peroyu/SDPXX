@@ -1,0 +1,193 @@
+add_namespace = SDP_KMT
+
+country_event = {
+	id = SDP_KMT.5
+	title = SDP_KMT.5.t
+	desc = SDP_KMT.5.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = no
+	fire_only_once = no
+    immediate = {
+        set_variable = { CJF.KMT_huifuchengdu = 1 }
+        if = {
+            limit = {
+                has_idea = KMT_huifuxinxin_5
+            }
+            set_variable =  { CJF.KMT_huifuchengdu = 100 }
+            clamp_variable = {
+                var = CJF.KMT_huifuchengdu
+                min = 100
+                max = 100
+            }
+        }
+    }
+    trigger = {
+        NOT = {
+            has_variable = KMT_huifuxinxin_5
+        }
+		check_variable = { CJF.KMT_huifuchengdu > 99 }
+    }
+    mean_time_to_happen = {
+        hours = 0
+    }
+	option = { 
+		name = SDP_KMT.5.a 
+        if = {
+            limit = {   
+                has_idea=KMT_huifuxinxin_2
+            }
+            swap_ideas = {
+                add_idea=KMT_huifuxinxin_3
+                remove_idea=KMT_huifuxinxin_2
+            }
+        }
+		if = {
+            limit = {
+                has_idea = KMT_huifuxinxin_4
+            }
+            swap_ideas = {
+                add_idea = KMT_huifuxinxin_5
+                remove_idea = KMT_huifuxinxin_4
+            }
+        }
+        if = {
+            limit = {
+                has_idea = KMT_huifuxinxin_3
+            }
+            swap_ideas = {
+                add_idea = KMT_huifuxinxin_4
+                remove_idea = KMT_huifuxinxin_3
+            }
+        }
+        
+        if = {
+            limit = {
+                has_idea = KMT_huifuxinxin_1
+            }
+            swap_ideas = {
+                remove_idea = KMT_huifuxinxin_1
+                add_idea = KMT_huifuxinxin_2
+            }
+        }
+       
+       
+        
+        custom_effect_tooltip = KMT_chongzhi_buff
+	}
+}
+country_event = {
+	id = SDP_KMT.1  #西北军政变成功
+	title = SDP_KMT.1.t
+	desc = SDP_KMT.1.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = No
+	fire_only_once = yes
+    trigger = {
+		
+    }
+    mean_time_to_happen = {
+        hours = 0
+    }
+	option = { 
+		name = SDP_KMT.1.a 
+		set_variable = { CJF.KMT_huifuchengdu = 30 }
+        
+	}
+}
+
+country_event = {
+	id = SDP_KMT.2
+	title = SDP_KMT.2.t
+	desc = SDP_KMT.2.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = No
+	fire_only_once = yes
+    trigger = {
+		
+    }
+    mean_time_to_happen = {
+
+    }
+	option = { 
+		name = SDP_KMT.2.a 
+		
+        ai_chance = {
+			base = 
+		}
+	}
+}
+
+country_event = {
+	id = SDP_KMT.3
+	title = SDP_KMT.3.t
+	desc = SDP_KMT.3.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = No
+	fire_only_once = yes
+    trigger = {
+		
+    }
+    mean_time_to_happen = {
+
+    }
+	option = { 
+		name = SDP_KMT.3.a 
+		
+        ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
+	id = SDP_KMT.4
+	title = SDP_KMT.4.t
+	desc = SDP_KMT.4.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = No
+	fire_only_once = yes
+    trigger = {
+		
+    }
+    mean_time_to_happen = {
+
+    }
+	option = { 
+		name = SDP_KMT.4.a 
+		
+        ai_chance = {
+			base = 0
+		}
+	}
+}
+
+
+
+
+country_event = {
+	id = SDP_KMT.6
+	title = SDP_KMT.6.t
+	desc = SDP_KMT.6.d
+	picture = GFX_report_event_CJFnese_soldiers_fighting 
+	is_triggered_only = yes
+	fire_only_once = no
+    
+    immediate = {
+        hidden_effect = {
+            if= {
+                limit = {
+                    NOT = {
+                        has_variable = CJF.KMT_junguantuan_yingxiangli
+                    }
+                }
+                set_variable = { CJF.KMT_junguantuan_yingxiangli = 10 }
+            }
+        }
+    }
+	option = { 
+		name = SDP_KMT.4.a 
+		
+        custom_effect_tooltip = KMT_junguantuanyingxiangli_add_tt
+        #custom_effect_tooltip = KMT_junguantuanyingxiangli_mal_add_tt
+	}
+}

@@ -1,0 +1,44 @@
+characters = {   
+	ENG_James_Maxton = {
+	    name = "ENG_James_Maxton" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_James_Maxton
+			}
+		}
+		country_leader = {
+			ideology = reformed_socialism
+			trsits = {}
+			expire = "1949.7.23.5"
+		}
+		
+	}
+	ENG_Arthur_Horner = {
+	    name = "ENG_Arthur_Horner" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Arthur_Horner
+			}
+		}
+		country_leader = {
+			ideology = left_wing_communism
+			trsits = {}
+			expire = "1968.9.4.6"
+		}
+		
+	}
+	ENG_Archibald_Sinclair = {
+	    name = "ENG_Archibald_Sinclair" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Archibald_Sinclair
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			trsits = {}
+			expire = "1970.6.15.19"
+		}
+		
+	}
+}

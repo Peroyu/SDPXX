@@ -1,0 +1,34 @@
+capital = 841  
+
+oob = "empty"  
+
+set_research_slots = 2 
+
+set_war_support = 0.7 
+set_stability = 0.3 
+
+
+set_politics = {
+	ruling_party = reactionism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ conservatism = 33
+ reactionism = 33
+ nationalism = 34
+}
+
+
+create_country_leader = {
+	name = "唐生智"  # 领导人名称
+	desc = "Tang_Shengzhi_desc"  # 人物介绍
+	picture = "KGP_portrait_Tang_Shengzhi"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Three_Principles_of_the_People # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}

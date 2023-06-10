@@ -1,0 +1,28 @@
+
+state={
+	id=615
+	name="STATE_615"
+
+	history={
+		owner = JIN
+		add_core_of = JIN
+		victory_points = {
+			1519 20 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1034 1180 1203 1519 1531 1575 4074 4174 4469 4538 4634 7571 10367 10421 10507 12078 12300 12344 
+	}
+	manpower=11601000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

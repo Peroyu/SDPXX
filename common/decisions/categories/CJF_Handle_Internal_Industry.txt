@@ -1,0 +1,17 @@
+CJF_Handle_Internal_Industry = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_CJF_Handle_Internal_Industry
+		available = {
+	        has_completed_focus = CJF_want_to_be_their_best_work
+		}
+		visible = {
+           has_completed_focus = CJF_want_to_be_their_best_work
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 900
+		allowed = { 
+			original_tag = CJF 
+		}
+    }

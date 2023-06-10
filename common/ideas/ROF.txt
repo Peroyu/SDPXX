@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		ROF_three_language_country = {
+		    name = ROF_three_language_country
+			picture = ROF_three_language_country
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				compliance_growth = -0.2
+				required_garrison_factor =0.1
+				non_core_manpower = -0.5
+			}
+		}
+		ROF_island_algeria = {
+		    name = ROF_island_algeria
+			picture = ROF_island_algeria
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		ROF_suddenly_military_victory = {
+		    name = ROF_suddenly_military_victory
+			picture = ROF_suddenly_military_victory
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				command_power_gain = 0.5
+				army_chief_cost_factor = 0.15
+				navy_chief_cost_factor = 0.15
+				air_chief_cost_factor = 0.15
+				high_command_cost_factor = 0.15
+				max_command_power = 50
+				resistance_decay = 0.2
+				required_garrison_factor = -0.1
+			}
+		}
+		ROF_armed_camel = {
+		    name = ROF_armed_camel
+			picture = ROF_armed_camel
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				compliance_growth =  0.03
+				resistance_target =  0.1
+			}
+		}
+		ROF_repulic_act = {
+		    name = ROF_repulic_act
+			picture = ROF_repulic_act
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				compliance_growth =  0.15
+				global_building_slots_factor = 0.03
+				monthly_population = 0.05
+			}
+		}
+		ROF_broken_entents
+			name = ROF_broken_entents
+			picture = ROF_broken_entents
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				command_power_gain = -0.1
+			}
+		}
+	}
+}	

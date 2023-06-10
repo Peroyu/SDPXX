@@ -1,0 +1,264 @@
+    shared_focus = {
+		id = Light_up_the_mountains
+		icon = GFX_Light_up_the_mountains
+		cost = 1
+		x = 8
+		y = 2
+		completion_reward = {
+			country_event = { id = XKS.1 days = 1 }
+			add_political_power = 10
+			601 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+			        type = infrastructure
+			        level = 2
+			        instant_build = yes
+		           }
+			}
+		}
+	}
+	shared_focus = {
+		id = Chiang_Kai_Sheks_legacy
+		icon = GFX_Chiang_Kai_Sheks_legacy
+		cost = 2
+		prerequisite = {
+			focus = Light_up_the_mountains
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_to_variable = { XKS_xikang = 5 }
+			601 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+			        type = industrial_complex
+			        level = 1
+			        instant_build = yes
+		           }
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = CJF
+			}
+		}
+		x = 8
+		y = 3
+
+	}
+	shared_focus = {
+		id = Check_Chuankang_highway
+		icon = GFX_Check_Chuankang_highway
+		cost = 2
+		prerequisite = {
+			focus = Chiang_Kai_Sheks_legacy
+		}
+		completion_reward = {
+			country_event = { id = XKS.2 days = 1 }
+			add_to_variable = { XKS_cangdu = 5 }
+			add_to_variable = { XKS_xikang = 10 }
+			601 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+			        type = infrastructure
+			        level = 2
+			        instant_build = yes
+		           }
+			}
+			752 = {
+					add_building_construction = {
+			        type = infrastructure
+			        level = 1
+			        instant_build = yes
+		           }
+			}
+		}
+		x = 6
+		y = 4
+
+	}
+	shared_focus = {
+		id = Settle_the_refugees
+		icon = GFX_Settle_the_refugees
+		cost = 2
+		prerequisite = {
+			focus = Check_Chuankang_highway
+		}
+		completion_reward = {
+			country_event = { id = XKS.3 days = 1 }
+			add_to_variable = { XKS_people = -5 }
+			add_political_power = 10
+			add_manpower = 500
+		}
+		x = 6
+		y = 5
+
+	}
+	shared_focus = {
+		id = Control_poppy
+		icon = GFX_Control_poppy
+		cost = 2
+		prerequisite = {
+			focus = Settle_the_refugees
+		}
+		completion_reward = {
+			add_to_variable = { XKS_people = -5 }
+			swap_ideas = {
+				add_idea = XKS_the_trade_of_opium
+				remove_idea = CJF_the_trade_of_opium
+			}
+		}
+		x = 6
+		y = 6
+
+	}
+	shared_focus = {
+		id = March_into_Tibet
+		icon = GFX_March_into_Tibet
+		cost = 3
+		prerequisite = {
+			focus = Chiang_Kai_Sheks_legacy
+		}
+		completion_reward = {
+			country_event = { id = XKS.4 days = 1 }
+			add_political_power = 10
+		}
+		x = 8
+		y = 4
+
+	}
+	shared_focus = {
+		id = Preside_over_the_opening_ceremony
+		icon = GFX_Preside_over_the_opening_ceremony
+		cost = 2
+		prerequisite = {
+			focus = Chiang_Kai_Sheks_legacy
+		}
+		completion_reward = {
+			country_event = { id = XKS.5 days = 1 }
+			add_to_variable = { XKS_people = -5 }
+			add_political_power = 10
+			add_research_slot = 1
+			add_popularity = { ideology = Liberalism popularity = 5 }
+		}
+		x = 10
+		y = 4
+
+	}
+	shared_focus = {
+		id = give_speech_in_army
+		icon = GFX_give_speech_in_army
+		cost = 2
+		prerequisite = {
+			focus = Preside_over_the_opening_ceremony
+		}
+		completion_reward = {
+			country_event = { id = XKS.6 days = 1 }
+			army_experience = 50
+		}
+		x = 10
+		y = 5
+
+	}
+	shared_focus = {
+		id = Welcome_chairman_Zhang
+		icon = GFX_Welcome_chairman_Zhang
+		cost = 2
+		prerequisite = {
+			focus = give_speech_in_army
+		}
+		completion_reward = {
+			CJF = {
+			country_event = { id = XKS_sichuan.2 days = 1 }
+			}
+			add_political_power = 50
+			add_popularity = { ideology = movement_communism popularity = 10 }
+		}
+		x = 10
+		y = 6
+
+	}
+	shared_focus = {
+		id = The_border_becomes_the_hinterland
+		icon = GFX_The_border_becomes_the_hinterland
+		cost = 2
+		prerequisite = {
+			focus = Control_poppy
+		}
+		prerequisite = {
+			focus = Welcome_chairman_Zhang
+		}
+		completion_reward = {
+			add_to_variable = { XKS_cangdu = 5 }
+			add_to_variable = { XKS_xikang = 10 }
+			601 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+			        type = arms_factory
+			        level = 2
+			        instant_build = yes
+		           }
+					add_building_construction = {
+			        type = infrastructure
+			        level = 1
+			        instant_build = yes
+		           }
+			}
+			752 = {
+					add_building_construction = {
+			        type = infrastructure
+			        level = 1
+			        instant_build = yes
+		           }
+			}
+		}
+		x = 8
+		y = 7
+
+	}
+	shared_focus = {
+		id = resource_development
+		icon = GFX_resource_development
+		cost = 3
+		prerequisite = {
+			focus = The_border_becomes_the_hinterland
+		}
+		completion_reward = {
+			add_to_variable = { XKS_cangdu = 5 }
+			add_to_variable = { XKS_xikang = 5 }
+			752 = {
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+			601 = {
+				add_resource = {
+					type = chromium
+					amount = 16
+				}
+			}
+		}
+		x = 8
+		y = 8
+
+	}
+	shared_focus = {
+		id = Kang_Jun_enters_Sichuan
+		icon = GFX_Kang_Jun_enters_Sichuan
+		cost = 2
+		prerequisite = {
+			focus = resource_development
+		}
+		x = 8
+		y = 9
+        completion_reward = {
+		  custom_effect_tooltip = XKS_night_2
+		  CJF = {
+			change_tag_from = ROOT
+		  }
+		  CJF = {
+		    country_event = { id = XKS_sichuan.1 days = 2 }
+			}
+        }
+	}
+

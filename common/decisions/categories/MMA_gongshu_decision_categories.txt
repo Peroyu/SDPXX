@@ -1,0 +1,15 @@
+MMA_gongshu_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_MMA_gongshu
+		available = {
+	        has_country_flag = MMA_gongshu	
+		}
+		visible = {
+           has_country_flag = MMA_gongshu
+        }
+		cancel_trigger = {
+          has_country_flag = MMA_gongshu_over
+        }
+        priority = 1000
+		allowed = { original_tag = MMA }
+    }

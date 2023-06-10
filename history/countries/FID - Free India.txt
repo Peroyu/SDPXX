@@ -1,0 +1,38 @@
+capital = 431
+
+set_research_slots = 2 
+
+set_war_support = 0.7
+set_stability = 0.2
+
+set_politics = {
+	ruling_party = moderate_socialism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ communism = 14.2
+ committee_communism = 5.8
+ moderate_socialism = 28
+ social_democracy = 2
+ Liberalism = 15.5
+ movement_communism = 4.5
+ conservatism = 8
+ reactionism = 2
+ nationalism = 18.1
+ restorativeism = 1.9
+}
+
+
+create_country_leader = {
+	name = "苏巴斯·钱德拉·鲍斯"
+	desc = "/"  
+	picture = "portrait_FID_Bose"  
+	expire = "1962.7.10"  
+	ideology = reformed_socialism 
+	traits = { 
+		
+	}
+}

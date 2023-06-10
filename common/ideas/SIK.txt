@@ -1,0 +1,26 @@
+ ideas = {
+     country = {
+		#交通不便#
+		SIK_Inconvenient_transportation = {
+		 name = SIK_Inconvenient_transportation
+		 picture = GFX_SIK_Inconvenient_transportation
+         allowed = {
+			always = no
+		 }
+		 available = {
+			 country_exists = SIK
+		 }
+		 removal_cost = -1
+		 modifier = {
+			production_speed_arms_factory_factor = -0.25
+			production_speed_industrial_complex_factor = -0.25	
+	        production_speed_buildings_factor = -0.25
+			research_speed_factor = -0.3
+			attrition = 0.1
+			army_morale_factor = -0.3
+			army_speed_factor = -0.4
+
+		}
+	 }
+   }
+}

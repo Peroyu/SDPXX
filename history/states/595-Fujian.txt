@@ -1,0 +1,27 @@
+state= {
+	id=595
+	name="龙岩"
+	manpower = 11755600
+	state_category = city
+	history=
+	{
+		owner = RCR
+		add_core_of = CHI
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = { 
+			1006 1
+		}
+		
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		1006 4053 7099 7131 10010 10054 10093 11986 12057 12084 
+	}  
+
+	local_supplies=0.0 
+}

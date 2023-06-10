@@ -1,0 +1,51 @@
+capital = 325  
+
+obb = "FOI_1947"   
+
+set_research_slots = 3  
+
+set_war_support = 0.3  
+set_stability = 0.3  
+
+ 
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+participant_of_the_revolutionary_war
+}
+set_popularities = {
+	committee_communism = 10
+	communism = 5
+	moderate_socialism = 20
+	social_democracy = 25
+	liberalism = 11
+	conservatism = 9
+	nationalism = 5
+	reactionism = 3
+	restorativeism = 6
+	movement_communism = 6
+}
+
+ 
+create_country_leader = {
+	name = "FOI_Indalecio_Prieto"   
+	desc = "FOI_Indalecio_Prieto_desc"  
+	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
+	expire = "1970.1.9"   
+	ideology = social_reformism
+	traits = {  }
+}
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 21 }#60
+set_variable = { var = SDP_education_v value = 22 }#50
+set_variable = { var = SDP_industry_v value = 19 }#60
+set_variable = { var = SDP_agriculture_v value = 18 }#60
+set_variable = { var = SDP_science_v value = 23 }#50
+set_variable = { var = SDP_politics_v value = 30 }#60
+################

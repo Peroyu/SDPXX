@@ -1,0 +1,44 @@
+capital = 752 # 首都地块
+
+oob = "XKS_1947"  # 军队文件
+
+set_research_slots = 2 # 设定科研槽
+
+set_war_support = 0.5 # 设置战争支持度
+set_stability = 0.8 # 设置稳定度
+
+# 设置执政党以及选举
+set_politics = {
+	ruling_party = conservatism # 执政党
+	last_election = "1947.1.1"
+	election_frequency = 48 # 选举间隔
+	elections_allowed = no  # 是否允许选举
+}
+# 设置席位
+set_popularities = {
+	conservatism = 72
+	social_democracy = 20
+	Liberalism = 8
+}
+add_ideas = {
+low_economic_mobilisation
+volunteer_only
+limited_exports
+XKS_Con
+CJF_the_trade_of_opium
+}
+country_event = { id = XKS_op.1 days = 0}
+set_variable = { var = XKS_cangdu value = 15 }
+set_variable = { var = XKS_xikang value = 20 }
+set_variable = { var = XKS_people value = 5 }
+# 设置领导人
+create_country_leader = {
+	name = "刘文辉"  # 领导人名称
+	desc = "liu_wenhui_desc"  # 人物介绍
+	picture = "portrait_liu_wenhui.dds"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Three_Principles_of_the_People # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}

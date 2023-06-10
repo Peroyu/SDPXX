@@ -1,0 +1,44 @@
+spriteTypes = {
+	################CJF#####################
+    spriteType = {
+		name = "GFX_idea_CJF_Chen_Gongbo"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Chen_Gongbo_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CJF_Wei_LiHuang"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Wei_LiHuang_s.png"
+	}
+	###############GDC###################
+	spriteType = {
+		name = "GFX_idea_GDC_Li_Jishen"
+		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Li_Jishen_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Zhou_Enlai"
+		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Zhou_Enlai_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Deng_YanDa"
+		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Deng_YanDa_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Mao_Zedong"
+		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Mao_Zedong_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Yang_Baoan"
+		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Yang_Baoan_s.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GDC_Peng_Pai"
+		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Peng_Pai_s.png"
+	}
+	
+}
+

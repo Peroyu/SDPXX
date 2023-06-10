@@ -1,0 +1,37 @@
+focus_tree = {
+	id = MMA_frist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = MMA  
+		}	
+	}
+	default = no
+    shared_focus = MMA_lanzhou
+}
+focus_tree = {
+    id = MMA_second
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = MMA  
+		}	
+	}
+	default = no
+    shared_focus = Before_the_war
+}
+focus_tree = {
+    id = MMA_CPCmao
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = MMA  
+		}	
+	}
+	default = no
+    shared_focus = MMA_CPC_huishi
+}
+

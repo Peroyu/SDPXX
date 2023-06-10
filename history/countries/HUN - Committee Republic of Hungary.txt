@@ -1,0 +1,77 @@
+capital = 43 # 
+
+oob = "HUN_1947"  # 
+
+set_research_slots = 4 # 
+
+set_war_support = 0.5 # 
+set_stability = 0.6 # 
+
+# 
+set_politics = {
+	ruling_party = committee_communism # 
+	last_election = "1946.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ Liberalism = 5
+  Nationalism = 20
+  conservatism = 8
+  movement_communism = 2
+  ##Social Democrats##
+  social_democracy = 10
+  moderate_socialism = 20
+  ##commic##
+  committee_communism = 23
+  communism = 12
+}
+set_variable = { var = FactionStatus value = 2}
+########################
+set_variable = { var = SDP_economic_v value = 20 }#60
+set_variable = { var = SDP_education_v value = 25 }#50
+set_variable = { var = SDP_industry_v value = 28 }#60
+set_variable = { var = SDP_agriculture_v value = 22 }#60
+set_variable = { var = SDP_science_v value = 22 }#50
+set_variable = { var = SDP_politics_v value = 32 }#60
+########################
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+#########
+HUN_glory_of_great_hungary
+HUN_protecter_in_balkan
+HUN_dominion_name
+HUN_SLO_problem
+HUN_brocken_policy
+victor_of_the_revolutionary_war
+}
+create_country_leader = {
+	name = "阿尔帕德·萨卡希奇" 
+	desc = "HUN_Szakasits_desc" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
+	expire = "1999.5.3"  # 
+	ideology = democratic_socialism
+	traits = {  
+	}
+}
+create_country_leader = {
+	name = "纳吉·伊姆雷" 
+	desc = "" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
+	expire = "1999.5.3"  # 
+	ideology = left_social_democracy
+	traits = {  
+	}
+}
+create_country_leader = {
+	name = "伊姆雷·贝拉" 
+	desc = "" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
+	expire = "1999.5.3"  # 
+	ideology = Casselism
+	traits = {  
+	}
+}

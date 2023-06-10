@@ -1,0 +1,102 @@
+ideas = {
+    country = {
+        USA_gov_citizens_company = {
+            name = USA_gov_citizens_company
+            picture = GFX_USA_gov_citizens_company
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		USA_ghost_of_Jim_crow = {
+            name = USA_ghost_of_Jim_crow
+            picture = GFX_USA_ghost_of_Jim_crow
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	 
+		}
+		USA_brave_new_world = {
+            name = USA_brave_new_world
+            picture = GFX_USA_brave_new_world
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		USA_legacy_of_new_deal = {
+            name = USA_legacy_of_new_deal
+            picture = GFX_USA_legacy_of_new_deal
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		USA_monroe_doctrine = {
+            name = USA_monroe_doctrine
+            picture = GFX_USA_monroe_doctrine
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		USA_three_soildiers = {
+            name = USA_three_soildiers
+            picture = GFX_USA_three_soildiers
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		USA_TN_line = {
+            name = USA_TN_line
+            picture = GFX_USA_TN_line
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+	}
+}

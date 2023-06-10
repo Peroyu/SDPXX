@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Bubing Juntuán"				# Chinese Infantry Division
+	division_names_group = CJF_INF_01
+									# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Juntuán"				# 
+	division_names_group = CJF_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Yubei Juntuán"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = CJF_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Juntuán 1"
+		location = 7521
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.9		
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Wuhan Jingbei 1"
+		location = 1474
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Wuhan Jingbei 2"
+		location = 4480
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.4
+	}	
+	division = {
+		name = "Juntuan 2"
+		location = 10335
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.5
+	}	
+	division = {
+		name = "Juntuan 3"
+		location = 12017
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}	
+	division = {
+		name = "Bubing Juntuán 1"
+		location = 12017
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.95
+		start_equipment_factor = 0.5
+	}	
+	division = {
+		name = "Yubeidui"
+		location = 7521
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.3
+	}	
+}

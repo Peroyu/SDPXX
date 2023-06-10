@@ -1,0 +1,41 @@
+capital =  # 
+
+obb = "DZG_1947"  # 
+
+set_research_slots = 1 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 25 }#60
+set_variable = { var = SDP_education_v value = 35 }#50
+set_variable = { var = SDP_industry_v value = 40 }#60
+set_variable = { var = SDP_agriculture_v value = 32 }#60
+set_variable = { var = SDP_science_v value = 32 }#50
+set_variable = { var = SDP_politics_v value = 38 }#60
+################
+set_politics = {
+	ruling_party = communism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ communism = 100
+}
+add_ideas = {
+	participant_of_the_revolutionary_war
+}
+create_country_leader = {
+	name = "奥托·布劳恩"  # 
+	desc = "otto_desc"  # 
+	picture = "portrait_DZG_otto.dds"  # 
+	expire = "1999.3.16"  # 
+	ideology = military_socialism # 
+	traits = {  # 
+		#
+	}
+}

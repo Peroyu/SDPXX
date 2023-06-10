@@ -1,0 +1,60 @@
+capital = 325 # 
+
+obb = "CAN_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.1 # 
+set_stability = 0.1 # 
+
+create_faction = "协约国"
+add_to_faction = ROF
+add_to_faction = NAT
+add_to_faction = FWI
+add_to_faction = EWF
+add_to_faction = NIG
+add_to_faction = CAM
+add_to_faction = COG
+add_to_faction = RHO
+add_to_faction = SWA
+add_to_faction = DOS
+add_to_faction = TAZ
+add_to_faction = KEN
+add_to_faction = AST
+add_to_faction = NZL
+add_to_faction = CYN
+add_to_faction = OCE
+set_politics = {
+	ruling_party = conservatism 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ communism = 2
+ committee_communism = 4
+ moderate_socialism = 5
+ social_democracy = 10
+ Liberalism = 20
+ movement_communism = 22
+ conservatism = 20
+ reactionism = 8
+ nationalism = 5
+ restorativeism = 4
+}
+
+
+create_country_leader = {
+	name = "爱德华八世"  # 
+	desc = "CAN_Edward_VIII_desc"  # 
+	picture = "gfx\leaders\EN\CAN_Edward_VIII.png"  # 
+	expire = "1976.3.10"  # 
+	ideology = authoritarian_democracy # 
+	traits = {  # 
+		#
+	}
+}

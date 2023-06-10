@@ -1,0 +1,35 @@
+capital = 658 
+
+obb = "ALB_1947"  
+
+set_research_slots = 2 
+
+set_war_support = 0.2 
+set_stability = 0.3 
+
+set_politics = {
+	ruling_party = communism  
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+	loser_of_the_revolutionary_war
+}
+set_popularities = {
+	communism = 37
+	democracy_communism = 20
+	moderate_socialism = 9
+	social_democracy = 9
+	reactionism = 13
+	nationalism = 12
+}
+create_country_leader = {
+	name = "ALB_hoxha"  
+	desc = "ALB_hoxha_desc"  
+	picture = "gfx/leaders/EU/ALB_hoxha.png"
+	expire = "1985.6.6"  
+	ideology = leninism
+	traits = {  
+	}
+}

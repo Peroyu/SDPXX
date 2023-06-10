@@ -1,0 +1,38 @@
+capital = 325 # 
+
+obb = "CAM_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.1 # 
+set_stability = 0.1 # 
+
+# 
+set_politics = {
+	ruling_party = nationalism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ nationalism = 19
+ reactionism = 16
+ restoratveism = 56
+ conservatism = 9
+}
+
+# 
+create_country_leader = {
+	name = "赫尔曼·戈林"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1976.3.10"  # 
+	ideology = nationalism # 
+	traits = {  # 
+		#
+	}
+}

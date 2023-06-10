@@ -1,0 +1,29 @@
+GDC_milltary_reform = {                               
+		GDC_handle_the_logistics = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = yes
+		available = {
+			
+		}
+		allowed = {
+			original_tag = GDC
+		}
+		visible = {
+			has_war_with = GNP
+		}
+		cost = 30
+		days_remove = 14
+		
+		remove_effect = {
+			swap_ideas = {
+			add_idea = GDC_Iron_Cage_2
+			remove_idea = GDC_Iron_Cage_1
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+    }

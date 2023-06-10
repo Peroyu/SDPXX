@@ -1,0 +1,59 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decisions_MMA_gongshu"
+		texturefile = "gfx/interface/decisions/decisions_MMA_gongshu.dds"
+	}
+	spriteType = {
+		name = "GFX_decisions_GDC_hunger"
+		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
+	}
+	spriteType = {
+		name = "GFX_decisions_CJF_anti_japen_war"
+		texturefile = "gfx/interface/decisions/decisions_CJF_anti_japen_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decisions_XKS_Con_decision_categories"
+		texturefile = "gfx/interface/decisions/decisions_XKS_Con_decision_categories.dds"
+	}
+	spriteType = {
+		name = "GFX_MMA_gongshukmt"
+		texturefile = "gfx/interface/decisions/MMA_gongshukmt.dds"
+	}
+	spriteType = {
+		name = "decision_generic_political_discourse"
+		texturefile = "gfx/interface/decisions/decision_generic_political_discourse.dds"
+	}
+	spriteType = {
+		name = "GFX_decisions_CJF_KMT_party"
+		texturefile = "gfx/interface/decisions/decisions_CJF_KMT_party.dds"
+	}
+	spriteType = {
+		name = "GFX_CJF_Handle_Internal_Industry"
+		texturefile = "gfx/interface/decisions/GFX_CJF_Handle_Internal_Industry.png"
+	}
+	spriteType = {
+		name = "decision_eng_trade_unions_support"
+		texturefile = "gfx/interface/decisions/decision_eng_trade_unions_support.dds"
+	}
+	spriteType = {
+		name = "decision_generic_nationalism"
+		texturefile = "gfx/interface/decisions/decision_generic_nationalism.dds"
+	}
+	spriteType = {
+		name = "decision_generic_prepare_civil_war"
+		texturefile = "gfx/interface/decisions/decision_generic_prepare_civil_war.dds"
+	}
+	spriteType = {
+		name = "decision_generic_factory"
+		texturefile = "gfx/interface/decisions/decision_generic_factory.dds"
+	}
+	spriteType = {
+		name = "decision_generic_industry"
+		texturefile = "gfx/interface/decisions/decision_generic_industry.dds"
+	}
+	spriteType = {
+		name = "decision_hol_exchange_intelligence_data"
+		texturefile = "gfx/interface/decisions/decision_hol_exchange_intelligence_data.dds"
+	}
+
+}

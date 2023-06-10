@@ -1,0 +1,108 @@
+capital = 797
+
+oob = "TUR_1947"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+	set_technology = {
+		#doctrines
+		air_superiority = 1
+
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+
+
+set_politics = {
+	ruling_party = Liberalism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	Nationalism = 8
+	reactionism = 15
+	communism = 2
+	conservatism = 20
+	Liberalism = 35
+	social_democracy = 5
+	restorativeism = 12
+	movement_communism = 3
+}
+add_ideas = {
+	TUR_Ahmet_IV
+	TUR_Ottoman_honor
+	TUR_plan_of_cultural_revival
+	TUR_Sultan_army
+	TUR_Ottoman_USA_pact
+	TUR_kebabs
+}
+
+SAU = {
+	give_resource_rights = {
+		state = 944
+		receiver = TUR
+	}
+}
+
+
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 1 }#60
+set_variable = { var = SDP_education_v value = 9 }#50
+set_variable = { var = SDP_industry_v value = 22 }#60
+set_variable = { var = SDP_agriculture_v value = 3 }#60
+set_variable = { var = SDP_science_v value = 15 }#50
+set_variable = { var = SDP_politics_v value = 31 }#60
+################
+# 设置领导人
+create_country_leader = {
+	name = "艾哈迈德四世"  # 领导人名称
+	desc = "TUR_Ahmed_Nihad_desc"  # 人物介绍
+	picture = "gfx\leaders\East_Mediterranean\TUR_Ahmed_Nihad_Efendi.png"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = islam_progressive =  # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+create_country_leader = {
+	name = "伊斯麦特•伊诺努"  # 领导人名称
+	desc = ""  # 人物介绍
+	picture = "gfx\leaders\East_Mediterranean\.png"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Progressive_Conservatusm =  # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+

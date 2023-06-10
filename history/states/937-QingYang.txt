@@ -1,0 +1,22 @@
+
+state={
+	id=937
+	name="庆阳"
+	provinces={
+		  4939 517
+
+	}
+	history={
+		owner = MMA
+		add_core_of = MMA
+		buildings = {
+			infrastructure = 3
+		}
+		industrial_complex = 1
+	}
+
+	manpower=2111000
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

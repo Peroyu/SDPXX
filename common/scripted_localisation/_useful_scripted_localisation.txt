@@ -1,0 +1,178 @@
+defined_text = {
+    name = GetRulingIdeologySubtype
+	text = {
+		trigger = {
+			has_country_leader_ideology = Progressive_Conservatusm
+		}
+		localization_key = Progressive_Conservatusm
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = New_Three_Principles_of_the_People
+		}
+		localization_key = New_Three_Principles_of_the_People
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Three_Principles_of_the_People
+		}
+		localization_key = Three_Principles_of_the_People
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = leninism
+		}
+		localization_key = leninism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Bolshevism
+		}
+		localization_key = Bolshevism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = military_socialism
+		}
+		localization_key = military_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Jacobinism
+		}
+		localization_key = Jacobinism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = luxembourgism
+		}
+		localization_key = luxembourgism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = De_Leonism
+		}
+		localization_key = De_Leonism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Mao_thought
+		}
+		localization_key = Mao_thought
+    }
+	###################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = Austro_Marxism
+		}
+		localization_key = Austro_Marxism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = democratic_socialism
+		}
+		localization_key = democratic_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Spartacus
+		}
+		localization_key = Spartacus
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_wing_communism
+		}
+		localization_key = left_wing_communism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = parliamentary_communism
+		}
+		localization_key = parliamentary_communism
+    }
+	######################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = centrist_marxism
+		}
+		localization_key = centrist_marxism
+    }
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_syndicalism
+		}
+		localization_key = revolutionary_syndicalism
+    }
+	text = {
+		trigger = {
+			has_country_leader_ideology = reformed_socialism
+		}
+		localization_key = reformed_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_social_democracy
+		}
+		localization_key = left_social_democracy
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_social_democracy
+		}
+		localization_key = moderate_socialist
+    }
+	##########################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = FabianSocialism
+		}
+		localization_key = FabianSocialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_reformism
+		}
+		localization_key = social_reformism
+    }
+	
+	##############################################################
+	
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = United_Interim_Government
+		}
+		localization_key = United_Interim_Government
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Three_Principles_of_the_People_consititution
+		}
+		localization_key = Three_Principles_of_the_People_consititution
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = islam_progressive
+		}
+		localization_key = islam_progressive
+    }
+}

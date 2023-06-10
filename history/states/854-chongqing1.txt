@@ -1,0 +1,29 @@
+
+state={
+	id=854
+	name="STATE_854"
+	history={
+		owner = CMA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+            rail_way = 3
+		}
+		victory_points = {
+			4431 20 
+		}
+		victory_points ={
+		    1893 10
+		}
+		set_demilitarized_zone = yes
+
+	}
+	provinces={
+		1893 4141 4431 
+	}
+	manpower=500000
+	state_category=large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

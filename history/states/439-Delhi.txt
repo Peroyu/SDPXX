@@ -1,0 +1,27 @@
+
+state={
+	id=439
+	name="旁遮普"
+	manpower = 16136800
+	
+	state_category = city
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 4
+		}
+		victory_points = {
+			
+		}
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		1129 2076 3989 5157 7106 10729 12708 
+	}  
+
+	local_supplies=0.0 
+}

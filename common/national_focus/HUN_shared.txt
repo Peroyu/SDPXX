@@ -1,0 +1,85 @@
+shared_focus = {
+		id = HUN_Szakasits_tenure
+		icon = GFX_HUN_Szakasits_tenure
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 0
+	}
+shared_focus = {
+        id = HUN_SLO_s
+		icon = GFX_HUN_SLO_s
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 1
+		prerequisite = {
+		       focus = HUN_Szakasits_tenure
+	    }
+
+    }
+shared_focus = {
+        id = HUN_SLO_left
+		icon = GFX_HUN_SLO_left
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		prerequisite = {
+		    focus = HUN_SLO_s
+	    }
+
+    }
+shared_focus = {
+        id = HUN_SLO_right
+		icon = GFX_HUN_SLO_right
+		cost = 1
+		available_if_capitulated = no
+		x = 12
+		y = 2
+		prerequisite = {
+		       focus = HUN_SLO_s
+	    }
+
+    }
+shared_focus = {
+        id = HUN_preparation
+		icon = GFX_HUN_preparation
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		
+		prerequisite = {
+		       focus = HUN_SLO_right
+	    }
+		prerequisite = {
+		       focus = HUN_SLO_left
+	    }
+
+    }
+shared_focus = {
+        id = HUN_SLO_START
+		icon = GFX_HUN_SLO_START
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 4
+		select_effect = { 
+		news_event = {
+	       id = HUN_SLO.1   days = 1 
+		   }
+		news_event = {
+	       id = HUN_SLO.2   days = 7
+		   }
+		}
+		prerequisite = {
+		    focus = HUN_preparation
+	    }
+		prerequisite = {
+		    focus = HUN_SLO_right
+        }
+		prerequisite = {
+		    focus = HUN_SLO_left
+		}
+    }

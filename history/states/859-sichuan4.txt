@@ -1,0 +1,25 @@
+
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		5048 12274 
+	}
+	history={
+		owner = CJF
+		add_core_of = CJF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12274 5 
+		}
+	}
+	manpower=200000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=844
+	name="STATE_844"
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+		add_claim_by = TUR
+
+	}
+	provinces={
+		1544 1631 4440 
+	}
+	manpower=234010
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=wasteland
+}

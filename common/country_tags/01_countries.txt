@@ -1,0 +1,9 @@
+#################by仿生青瓦台################
+SNG = "countries/Southwest National Government.txt"
+FOL = "countries/Federation of Letania.txt"
+KSH = "countries/Xi Bei Jun.txt"
+RIJ = "countries/Mughal.txt"
+DSR = "countries/DDR.txt"
+DSR = "countries/DSR.txt"
+DCR = "countries/DCR.txt"
+SAB = "countries/Socialist Federal Republic of Yugoslavia.txt"

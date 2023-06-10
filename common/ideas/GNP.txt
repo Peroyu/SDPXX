@@ -1,0 +1,48 @@
+ideas = {
+	hidden_ideas = {
+		GNP_Japenese_millitary_assistance = {
+		    name = GNP_Japenese_millitary_assistance
+			picture = GFX_GNP_Japenese_millitary_assistance
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_infantry_attack_factor = 0.2
+				army_speed_factor = 0.15
+				breakthrough_factor = 0.15
+				ai_focus_aggressive_factor = 100
+			}
+		}
+		GNP_manchuria_industry_assistance = {
+		    name = GNP_manchuria_industry_assistance
+			picture = GFX_GNP_manchuria_industry_assistance
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = 0.15
+				infantry_equipment_reliability_factor = 0.15
+			}
+		}
+	}
+	country = {
+		GNP_Hong_Kong = {
+		    name = GNP_Hong_Kong
+			picture = GFX_GNP_Hong_Kong
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.06
+				global_building_slots_factor = 0.1
+				trade_opinion_factor = -0.5
+				min_export = 1
+			}
+		}
+	}
+}

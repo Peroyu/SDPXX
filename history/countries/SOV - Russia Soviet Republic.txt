@@ -1,0 +1,62 @@
+capital = 219 
+
+oob = "RUS_1947"  
+
+set_research_slots = 4
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+
+set_politics = {
+		ruling_party = communism  
+		last_election = "1925.6.1"
+		election_frequency = 48 
+		elections_allowed = no 
+	}
+
+set_popularities = {
+		communism = 36
+		committee_communism = 37
+		moderate_socialism = 16
+		social_democracy = 5
+		Liberalism = 3
+		conservatism = 1
+		reactionism = 2
+	}
+set_variable = { var = FactionStatus value = 2}
+########################
+set_variable = { var = SDP_economic_v value = 25 }#60
+set_variable = { var = SDP_education_v value = 35 }#50
+set_variable = { var = SDP_industry_v value = 35 }#60
+set_variable = { var = SDP_agriculture_v value = 32 }#60
+set_variable = { var = SDP_science_v value = 32 }#50
+set_variable = { var = SDP_politics_v value = 48 }#60
+########################
+ add_ideas = {
+		SOV_Malenkov
+		SOV_Molotov
+		SOV_Stalin
+		###########
+		SOV_legacy_of_the_second_revolutionary_war
+		SOV_great_red_october
+		SOV_weakly_trasportation
+		SOV_NPEC
+		victor_of_the_revolutionary_war
+	}
+create_country_leader = {
+		name = "SOV_Yakov_Sverdlov"   
+		desc = "SOV_Yakov_Sverdlov_desc"  
+		picture = "gfx/leaders/SOV/portrait_SOV_Yakov_Sverdlov.png"   
+		expire = "1952.7.10"   
+		ideology = leninism
+		traits = { soviet_officer }
+	}
+create_country_leader = {
+		name = "SOV_Malenkov"   
+		desc = "SOV_Malenkov_desc"  
+		picture = "gfx/leaders/SOV/SOV_Malenkov.png"   
+		expire = "1965.7.10"   
+		ideology = democratic_socialism
+		traits = {  }
+	}

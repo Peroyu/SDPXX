@@ -1,0 +1,118 @@
+﻿division_template = {
+	name = "Shituan"				# 
+	division_names_group = CMA_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Jia Shituan"				# 
+	division_names_group = CMA_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 } 
+	}	
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Shituan 1"
+		location = 7097
+		division_template = "Shituan"		# 
+		start_experience_factor = 0.8		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Shituan 2"
+		location = 10517
+		division_template = "Shituan"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Shituan 3"
+		location = 7101
+		division_template = "Shituan"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Shituan 4"
+		location = 1640
+		division_template = "Shituan"		# 
+		start_experience_factor = 0.9		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Jia Shituan 1"
+		location = 7101
+		division_template = "Jia Shituan"		# 
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "Jia Shituan 2"
+		location = 7502
+		division_template = "Jia Shituan"		# 
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "Jia Shituan 3"
+		location = 12310
+		division_template = "Jia Shituan"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "Jia Shituan 4"
+		location = 7279
+		division_template = "Jia Shituan"		# 
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "Jia Shituan 5"
+		location = 10006
+		division_template = "Jia Shituan"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}	
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CMA"
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 100
+	}
+}

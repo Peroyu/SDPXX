@@ -1,0 +1,22 @@
+
+state={
+	id=939
+	name="汉中"
+	provinces={
+		  2091 4295 10257
+
+	}
+	history={
+		owner = KTR
+		add_core_of = KTR
+		buildings = {
+			infrastructure = 3
+		}
+		industrial_complex = 1
+	}
+
+	manpower=1311000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

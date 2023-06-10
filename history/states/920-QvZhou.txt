@@ -1,0 +1,21 @@
+
+state={
+	id=920
+	name="衢州"
+	provinces={
+		 9944 7174 10086
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 5
+		}
+		
+	}
+
+	manpower=4051600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

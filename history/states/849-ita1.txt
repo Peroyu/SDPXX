@@ -1,0 +1,26 @@
+
+state={
+	id=849
+	name="STATE_849"
+	history={
+		owner = ITA
+		set_demilitarized_zone = yes
+		victory_points = {
+			12047 5 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = ITA
+
+	}
+	provinces={
+		1009 1156 3857 12047 
+	}
+	manpower=665540
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

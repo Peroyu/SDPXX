@@ -1,0 +1,35 @@
+capital = 658 # 
+
+obb = "EWF_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.2 # 
+set_stability = 0.3 # 
+
+ROF = {
+	puppet = EWF
+}
+set_politics = {
+	ruling_party = restoratveism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ restoratveism = 64
+ reactionism = 36
+}
+
+# 
+create_country_leader = {
+	name = "法属总督府"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1965.6.6"  # 
+	ideology = restoratveism # 
+	traits = {  # 
+		#
+	}
+}

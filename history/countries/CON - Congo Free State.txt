@@ -1,0 +1,38 @@
+capital = 325 # 
+
+obb = "CON_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ nationalism = 20
+ reactionism = 48
+ conservatism = 12
+ liberalism = 6
+ restoratveism = 14
+}
+set_variable = { var = FactionStatus value = 1 }
+# 
+create_country_leader = {
+	name = "亨利·德维亚尔"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1953.9.2"  # 
+	ideology = nationalism # 
+	traits = {  # 
+		#
+	}
+}

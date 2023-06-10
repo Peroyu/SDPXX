@@ -1,0 +1,41 @@
+capital = 605  
+
+oob = "JIN_1947"   
+
+set_research_slots = 2  
+
+set_war_support = 0.5  
+set_stability = 0.3 
+
+
+set_politics = {
+		ruling_party = reactionism 
+		last_election = "1944.12.8"
+		election_frequency = 48 
+		elections_allowed = no  
+	}
+
+set_popularities = {
+		reactionism = 40
+		social_democracy = 15
+		conservatism = 26
+		nationalism = 14
+		Liberalism = 5
+	}
+
+add_ideas = {
+		JIN_mountains_and_rivers
+		JIN_Opium_Trade
+		JIN_industry_of_shanxi
+		JIN_servive_ideal
+		JIN_village_capitalism
+	}
+create_country_leader = {
+		name = "JIN_Yan_Xi_Shan"   
+		desc = "JIN_Yan_Xi_Shan_desc"  
+		picture = "gfx/leaders/CHI/portrait_JIN_Yan_Xi_Shan.png"   
+		expire = "1966.7.10"  
+		ideology =military_system
+		traits = {  }
+	}
+

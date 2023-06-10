@@ -1,0 +1,774 @@
+    shared_focus = {
+		id = CJF_darkest_hour
+		icon = GFX_CJF_darkest_hour
+		cost = 1
+		x = 6
+		y = 0
+		completion_reward = {
+		    country_event = { id = CJF_dh.1 days = 1 }
+        }
+	}
+	shared_focus = {
+		id = CJF_By_the_Jialing_River
+		icon = GFX_CJF_By_the_Jialing_River
+		cost = 2
+		prerequisite = {
+			focus = CJF_darkest_hour
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+		    add_timed_idea = {
+			idea = CJF_jialing 
+			days = 30
+			}
+		}
+	}
+	shared_focus = {
+		id = CJF_Zhongliang_Mountain
+		icon = GFX_CJF_Zhongliang_Mountain
+		cost = 2
+		prerequisite = {
+			focus = CJF_By_the_Jialing_River
+		}
+		completion_reward = {
+		    add_timed_idea = {
+			idea = CJF_zhongliang
+			days = 30
+			}
+		}
+		x = 4
+		y = 2
+
+	}
+	shared_focus = {
+		id = CJF_stop_enemy
+		icon = GFX_CJF_stop_enemy
+		cost = 2
+		prerequisite = {
+			focus = CJF_darkest_hour
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+		    country_event = {
+               id = CJF_dh.2
+			   days = 1
+			}
+        }
+	}
+	shared_focus = {
+		id = CJF_gather_supplies
+		icon = GFX_CJF_gather_supplies
+		cost = 2
+		prerequisite = {
+			focus = CJF_darkest_hour
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+		    add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 800
+				producer = CJF
+			}
+        }
+	}
+	shared_focus = {
+		id = CJF_Regroup_the_remnants
+		icon = GFX_CJF_Regroup_the_remnants
+		cost = 2
+		prerequisite = {
+			focus = CJF_gather_supplies
+		}
+		completion_reward = {
+			army_experience = 50
+		}
+		x = 8
+		y = 2
+
+	}
+	shared_focus = {
+		id = CJF_KMT_emergency_congress
+		icon = GFX_CJF_KMT_emergency_congress
+		cost = 3
+		prerequisite = {
+			focus = CJF_stop_enemy
+		}
+		prerequisite = {
+			focus = CJF_Regroup_the_remnants
+		}
+		prerequisite = {
+			focus = CJF_Zhongliang_Mountain
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+		   set_capital = { state = 842 }
+		   country_event = {
+               id = CJF_dh.3
+			   days = 1
+			}
+			add_political_power = 50
+			load_focus_tree = {
+		        tree = CJF_second
+		        keep_completed = no
+		    }
+			custom_effect_tooltip = CJF_the_end_1
+		}
+	}
+##########################################################
+shared_focus = {
+		id = CJF_The_country_is_in_trouble
+		icon = GFX_CJF_The_country_is_in_trouble
+		cost = 1
+		x = 6
+		y = 0
+		completion_reward = {
+			add_state_core = 854
+			add_state_core = 855
+			custom_effect_tooltip = CJF_improve_ourselves
+		}
+	}
+shared_focus = {
+		id = CJF_want_to_be_their_best_work
+		icon = GFX_CJF_want_to_be_their_best_work
+		cost = 2
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = CJF_The_country_is_in_trouble
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
+		}
+	}
+shared_focus = {
+		id = CJF_sharpen_the_tools
+		icon = GFX_CJF_sharpen_the_tools
+		cost = 2
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = CJF_The_country_is_in_trouble
+		}
+	}
+shared_focus = {
+		id = CJF_purge_the_whole_party
+		icon = GFX_CJF_Reform_proposition
+		cost = 3
+		x = 3
+		y = 2
+		prerequisite = {
+			focus = CJF_want_to_be_their_best_work
+		}
+        completion_reward = {
+		    set_country_flag = CJF_KMT_party
+			set_variable = { var = CJF_antipower value = 50 }
+			set_variable = { var = CJF_KMT1 value = 1 }
+			set_variable = { var = CJF_KMT2 value = 1 }
+			set_variable = { var = CJF_lixiang value = 15 }
+			clamp_variable = {
+	            var = CJF_lixiang
+	            min = 0
+	            max = 50
+            }
+			set_variable = { var = CJF_zuzhi value = 0 }
+			set_variable = { var = CJF_taishi value = 0 }
+			country_event = {CJF_KMT_party.1 days = 1}
+		}
+	}
+shared_focus = {
+		id = CJF_flag_still_flying
+		icon = GFX_CJF_flag_still_flying
+		cost = 3
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = CJF_sharpen_the_tools
+		}
+	}
+shared_focus = {
+		id = CJF_check_thieves
+		icon = GFX_CJF_check_thieves
+		cost = 2
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = CJF_purge_the_whole_party
+		}
+	}
+shared_focus = {
+		id = CJF_rectify_the_intrnal_industry
+		icon = GFX_CJF_rectify_the_intrnal_industry
+		cost = 3
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = CJF_purge_the_whole_party
+		}
+		completion_reward = {
+			country_event = { id = CJF_industry.1 days = 1}
+			custom_effect_tooltip = CJF_its_time_to_choose_our_indusrty_ideas
+		}
+	}
+shared_focus = {
+		id = CJF_quartet_artillery_fire
+		icon = GFX_CJF_quartet_artillery_fire
+		cost = 3
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = CJF_flag_still_flying
+		}
+	}
+shared_focus = {
+		id = CJF_quartet_jackal
+		icon = GFX_CJF_quartet_jackal
+		cost = 3
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = CJF_flag_still_flying
+		}
+	}
+shared_focus = {
+		id = CJF_Sending_away_the_old_school
+		icon = GFX_CJF_Sending_away_the_old_school
+		cost = 3
+		x = 1
+		y = 4
+		prerequisite = {
+			focus = CJF_check_thieves
+		}
+	}
+shared_focus = {
+		id = CJF_meeting_beibei 
+		icon = GFX_CJF_Meeting_with_Lu_Zuofu
+		cost = 3
+		x = 5
+		y = 4
+		prerequisite = {
+			focus = CJF_rectify_the_intrnal_industry
+		}
+		completion_reward = {
+			country_event = { id = CJF_industry.2 days = 1}
+			custom_effect_tooltip = CJF_we_wil_go_to_beibei
+			unlock_decision_category_tooltip = CJF_rebuild_Tian_Fu
+		}
+	}
+shared_focus = {
+		id = CJF_no_step_back
+		icon = GFX_CJF_no_step_back
+		cost = 3
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = CJF_quartet_jackal
+		}
+        prerequisite = {
+			focus = CJF_quartet_artillery_fire
+		}
+	}
+shared_focus = {
+		id = CJF_welcome_newcomers
+		icon = GFX_CJF_welcome_newcomers
+		cost = 3
+		prerequisite = {
+			focus = CJF_Sending_away_the_old_school
+		}
+		x = 1
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_patriotic_industry
+		icon = GFX_CJF_Industry_to_save_the_country
+		cost = 4
+		prerequisite = {
+			focus = CJF_meeting_beibei
+		}
+		completion_reward = {
+			country_event = { id = CJF_industry.3 days = 1}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		x = 4
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_land_fund
+		icon = GFX_CJF_land_fund
+		cost = 4
+		prerequisite = {
+			focus = CJF_rectify_the_intrnal_industry
+		}
+		completion_reward = {
+			country_event = { id = CJF_industry.4 days = 1}
+			add_offsite_building = { type = industrial_complex level = 1 }
+			add_ideas = CJF_Land_Fund
+		}
+		x = 6
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_more_than_one_million_comrades
+		icon = GFX_CJF_more_than_one_million_comrades
+		cost = 3
+		prerequisite = {
+			focus = CJF_no_step_back
+		}
+		x = 8
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_sing_war_song_join_army
+		icon = GFX_CJF_sing_war_song_join_army
+		cost = 3
+		prerequisite = {
+			focus = CJF_no_step_back
+		}
+		x = 10
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_people_rights
+		icon = GFX_CJF_people_rights
+		cost = 4
+		prerequisite = {
+			focus = CJF_welcome_newcomers
+		}
+		x = 2
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_people_lives
+		icon = GFX_CJF_people_lives
+		cost = 4
+		prerequisite = {
+			focus = CJF_land_fund
+		}
+        prerequisite = {
+			focus = CJF_patriotic_industry
+		}
+		completion_reward = {
+			country_event = { id = CJF_industry.5 days = 1}
+			add_political_power = 50
+			add_research_slot = 1
+		}
+		x = 5
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_gun_on_shoulder
+		icon = GFX_CJF_gun_on_shoulder
+		cost = 3
+		prerequisite = {
+			focus = CJF_sing_war_song_join_army
+		}
+        prerequisite = {
+			focus = CJF_more_than_one_million_comrades
+		}
+		x = 8
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_knife_by_waist
+		icon = GFX_CJF_knife_by_waist
+		cost = 3
+		prerequisite = {
+			focus = CJF_sing_war_song_join_army
+		}
+        prerequisite = {
+			focus = CJF_more_than_one_million_comrades
+		}
+		x = 10
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_Prime_Ministers_Legacy
+		icon = GFX_CJF_Prime_Ministers_Legacy
+		cost = 3
+		prerequisite = {
+			focus = CJF_people_lives
+		}
+        prerequisite = {
+			focus = CJF_people_rights
+		}
+		x = 3
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_blood_is_like_frency
+		icon = GFX_CJF_blood_is_like_frency
+		cost = 3
+		prerequisite = {
+			focus = CJF_knife_by_waist
+		}
+        prerequisite = {
+			focus = CJF_gun_on_shoulder
+		}
+		x = 9
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_go_outside
+		icon = GFX_CJF_unite_as_one
+		cost = 5
+		prerequisite = {
+			focus = CJF_Prime_Ministers_Legacy
+		}
+        prerequisite = {
+			focus = CJF_blood_is_like_frency
+		}
+		x = 6
+		y = 8
+		completion_reward = {
+		   load_focus_tree = {
+		        tree = CJF_third
+		        keep_completed = no
+		    }
+		}
+	}
+################################################3
+shared_focus = {
+		id = CJF_The_time_has_come
+		icon = GFX_CJF_The_time_has_come
+		cost = 1
+		x = 6
+		y = 0
+	}
+shared_focus = {
+		id = CJF_trip_to_kunming
+		icon = GFX_CJF_trip_to_kunming
+		cost = 1
+		prerequisite = {
+			focus = CJF_The_time_has_come
+		}
+		x = 4
+		y = 1
+
+	}
+shared_focus = {
+		id = CJF_trip_to_guilin
+		icon = GFX_CJF_trip_to_guilin
+		cost = 1
+		prerequisite = {
+			focus = CJF_The_time_has_come
+		}
+		x = 8
+		y = 1
+
+	}
+shared_focus = {
+		id = CJF_reunite_the_front
+		icon = GFX_CJF_reunite_the_front
+		cost = 1
+		prerequisite = {
+			focus = CJF_trip_to_guilin
+		}
+		prerequisite = {
+			focus = CJF_trip_to_kunming
+		}
+		x = 6
+		y = 2
+
+	}
+shared_focus = {
+		id = CJF_reduce_tax
+		icon = GFX_CJF_reduce_tax
+		cost = 1
+		prerequisite = {
+			focus = CJF_reunite_the_front
+		}
+		x = 2
+		y = 3
+
+	}
+shared_focus = {
+		id = CJF_remind_unite
+		icon = GFX_CJF_remind_unite
+		cost = 1
+		prerequisite = {
+			focus = CJF_reunite_the_front
+		}
+		x = 6
+		y = 3
+
+	}
+shared_focus = {
+		id = CJF_activate_the_east_china_network
+		icon = GFX_CJF_activate_the_east_china_network
+		cost = 1
+		prerequisite = {
+			focus = CJF_reunite_the_front
+		}
+		x = 10
+		y = 3
+
+	}
+shared_focus = {
+		id = CJF_advice_of_zhangjingjiang
+		icon = GFX_CJF_advice_of_zhangjingjiang
+		cost = 1
+		prerequisite = {
+			focus = CJF_reduce_tax
+		}
+		x = 1
+		y = 4
+		mutually_exclusive = {
+			focus = CJF_advice_of_sunfo
+		}
+	}
+shared_focus = {
+		id = CJF_advice_of_sunfo
+		icon = GFX_CJF_advice_of_sunfo
+		cost = 1
+		prerequisite = {
+			focus = CJF_reduce_tax
+		}
+		mutually_exclusive = {
+			focus = CJF_advice_of_zhangjingjiang
+		}
+		x = 3
+		y = 4
+
+	}
+shared_focus = {
+		id = CJF_rebuild_international_connection
+		icon = GFX_CJF_rebuild_international_connection
+		cost = 1
+		prerequisite = {
+			focus = CJF_remind_unite
+		}
+		x = 6
+		y = 4
+
+	}
+shared_focus = {
+		id = CJF_exchange_information_with_CPC
+		icon = GFX_CJF_exchange_information_with_CPC
+		cost = 1
+		prerequisite = {
+			focus = CJF_activate_the_east_china_network
+		}
+		x = 9
+		y = 4
+
+	}
+shared_focus = {
+		id = CJF_lit_a_fire
+		icon = GFX_CJF_lit_a_fire
+		cost = 1
+		prerequisite = {
+			focus = CJF_activate_the_east_china_network
+		}
+		x = 11
+		y = 4
+
+	}
+shared_focus = {
+		id = CJF_guide_the_place
+		icon = GFX_CJF_guide_the_place
+		cost = 1
+		prerequisite = {
+			focus = CJF_advice_of_zhangjingjiang
+		}
+		x = 1
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_encourage_charity
+		icon = GFX_CJF_encourage_charity
+		cost = 1
+		prerequisite = {
+			focus = CJF_advice_of_sunfo
+		}
+		x = 3
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_to_mosecow
+		icon = GFX_CJF_to_mosecow
+		cost = 1
+		prerequisite = {
+			focus = CJF_rebuild_international_connection
+		}
+		x = 5
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_to_washington
+		icon = GFX_CJF_to_washington
+		cost = 1
+		prerequisite = {
+			focus = CJF_rebuild_international_connection
+		}
+		x = 7
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_old_hatred_still
+		icon = GFX_CJF_old_hatred_still
+		cost = 1
+		prerequisite = {
+			focus = CJF_lit_a_fire
+		}
+		prerequisite = {
+			focus = CJF_exchange_information_with_CPC
+		}
+		x = 9
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_nwe_hatred_are_there
+		icon = GFX_CJF_nwe_hatred_are_there
+		cost = 1
+		prerequisite = {
+			focus = CJF_lit_a_fire
+		}
+		prerequisite = {
+			focus = CJF_exchange_information_with_CPC
+		}
+		x = 11
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_set_professional_associations
+		icon = GFX_CJF_set_professional_associations
+		cost = 1
+		prerequisite = {
+			focus = CJF_guide_the_place
+		}
+		x = 1
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_preparation_of_provincial_advisory_bureau
+		icon = GFX_CJF_preparation_of_provincial_advisory_bureau
+		cost = 1
+		prerequisite = {
+			focus = CJF_encourage_charity
+		}
+		x = 3
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_total_showdown
+		icon = GFX_CJF_total_showdown
+		cost = 1
+		prerequisite = {
+			focus = CJF_to_washington
+		}
+		prerequisite = {
+			focus = CJF_to_mosecow
+		}
+		x = 6
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_unite_as_one
+		icon = GFX_CJF_unite_as_one_1
+		cost = 1
+		prerequisite = {
+			focus = CJF_nwe_hatred_are_there
+		}
+		prerequisite = {
+			focus = CJF_old_hatred_still
+		}
+		x = 10
+		y = 6
+
+	}
+shared_focus = {
+		id = CJF_stand_up
+		icon = GFX_CJF_stand_up
+		cost = 1
+		prerequisite = {
+			focus = CJF_unite_as_one
+		}
+		prerequisite = {
+			focus = CJF_total_showdown
+		}
+		x = 8
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_deepen_discipline
+		icon = GFX_CJF_deepen_discipline
+		cost = 1
+		prerequisite = {
+			focus = CJF_set_professional_associations
+		}
+		x = 1
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_diverse_national_revolution
+		icon = GFX_CJF_diverse_national_revolution
+		cost = 1
+		prerequisite = {
+			focus = CJF_preparation_of_provincial_advisory_bureau
+		}
+		x = 3
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_national_building_strategy
+		icon = GFX_CJF_national_building_strategy
+		cost = 1
+		prerequisite = {
+			focus = CJF_diverse_national_revolution
+			focus = CJF_deepen_discipline
+		}
+		x = 2
+		y = 8
+
+	}
+shared_focus = {
+		id = CJF_establish_acting_as_national_congress
+		icon = GFX_CJF_establish_acting_as_national_congress
+		cost = 1
+		prerequisite = {
+			focus = CJF_national_building_strategy
+		}
+		prerequisite = {
+			focus = CJF_stand_up
+		}
+		x = 5
+		y = 9
+
+	}

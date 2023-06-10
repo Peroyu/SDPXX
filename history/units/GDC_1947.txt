@@ -1,0 +1,137 @@
+division_template = {
+	name = "Bubing Juntuán"				# Chinese Infantry Division
+	division_names_group = GDC_INF_01
+									# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Juntuán"				# 
+	division_names_group = GDC_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Yubei Juntuán"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = GDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Yubei 1"
+		location = 10459
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8		
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Yubei 2"
+		location = 10459
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Yubei 3"
+		location = 7044
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "115师"
+		location = 7137
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.95
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "Bubing Juntuán2"
+		location = 7137
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.95
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "1 Juntuán"
+		location = 7095
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "2 Juntuán"
+		location = 7168
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "3 Juntuán"
+		location = 7210
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "4 Juntuán"
+		location = 7044
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "5 Juntuán"
+		location = 11983
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		name = "6 Juntuán"
+		location = 10105
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}	
+	
+}
+
+### STARTING PRODUCTION ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CJF"
+		}
+		requested_factories = 1
+		progress = 0.78
+		efficiency = 100
+	}
+}

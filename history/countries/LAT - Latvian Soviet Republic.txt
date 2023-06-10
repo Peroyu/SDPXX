@@ -1,0 +1,41 @@
+capital = 325 
+
+obb = "LAT_1947"  
+
+set_research_slots = 3 
+
+set_war_support = 0.6 
+set_stability = 0.8 
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
+victor_of_the_revolutionary_war
+}
+set_popularities = {
+ 	communism = 24
+ 	committee_communism = 20
+ 	moderate_socialism = 6
+ 	social_democracy = 13
+ 	reactionism = 20
+ 	nationalism = 17
+}
+
+
+create_country_leader = {
+	name = "扬·鲁祖塔克"  
+	desc = "LAT_Jan_Rudzutaks_desc"  
+	picture = "gfx/leaders/SOV/Jan_Rudzutaks.png"  
+	expire = "1957.6.3"  
+	ideology = leninism 
+	traits = {  }
+}

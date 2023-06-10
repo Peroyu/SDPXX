@@ -1,0 +1,50 @@
+capital = 893  
+
+oob = "empty"  
+
+set_research_slots = 3 
+
+set_war_support = 0.5
+set_stability = 0.9
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 16
+    moderate_socialism = 10
+	social_democracy = 6
+	conservatism = 32
+	reactionism = 3
+	Liberalism = 10
+	movement_communism = 13
+	nationalism = 10
+}
+
+
+create_country_leader = {
+	name = "吕运亨"   
+	desc = "/"   
+	picture = "/"   
+	expire = "1956.9.30"  
+	ideology = Bolshevism  
+	traits = {  
+		
+	}
+}
+
+create_country_leader = {
+	name = "金九"   
+	desc = "/"   
+	picture = "/"   
+	expire = "1950.9.30"  
+	ideology = authoritarian_democracy  
+	traits = {  
+		
+	}
+}

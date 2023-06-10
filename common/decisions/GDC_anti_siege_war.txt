@@ -1,0 +1,95 @@
+GDC_anti_siege_war_decision_categories = { 
+    defend_ourselves = { 
+	      icon = decision_generic_prepare_civil_war
+          available = {                           
+		    controls_state = 889
+          }
+		  visible = {
+		    has_war = yes
+		  }
+		  cancel_trigger = {
+			has_war = no
+		  }
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 100              
+          timeout_effect = {                      
+            white_peace = GNP 
+		  }
+          complete_effect = {                   
+            white_peace = GNP 
+          }
+	}  
+	defend_Wuzhou = { 
+	      icon = decision_generic_prepare_civil_war
+          available = {  
+				GNP = {
+					controls_state = 899
+					}
+          }
+		  visible = {
+		    has_war = yes
+		  }
+		  cancel_trigger = {
+			has_war = no
+		  }
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 40              
+          timeout_effect = {                      
+			set_country_flag = GDC_situation_is_smooth			
+		  }
+          complete_effect = { 
+			country_event = {
+				id = GDC_war.1 days = 1
+			}
+            set_country_flag = GDC_situation_is_critical
+          }
+	} 
+	attack_hainan = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+		   has_full_control_of_state = 591
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		visible = {
+		   has_war_with = GNP
+		}
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 60             
+        timeout_effect = { 
+		  
+		}
+        complete_effect = {                   
+            transfer_state = 591
+        }  
+    }
+	Stop_military_action = {
+		icon = decision_generic_prepare_civil_war
+		available = {
+		   has_country_flag = GDC_situation_is_smooth
+		}
+		cancel_trigger = {
+			has_war = no
+		}
+		visible = {
+		   has_country_flag = GDC_situation_is_smooth
+		}
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 60             
+        timeout_effect = { 
+		  
+		}
+        complete_effect = {   
+			country_event = {
+				id = GDC_war.2 days = 1
+			}  
+			white_peace = GNP 
+			
+        }  
+    }
+}

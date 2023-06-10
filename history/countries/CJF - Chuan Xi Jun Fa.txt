@@ -1,0 +1,121 @@
+﻿capital = 605
+
+oob = "CJF_1947" 
+
+set_research_slots = 3 
+
+set_war_support = 0.8 
+set_stability = 0.6
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+	else = {
+		set_technology = {
+			gwtank = 1
+		}
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+}
+country_event = { id = CJF_op.1 days = 1 }
+ set_politics = {
+	ruling_party = movement_communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+ }
+
+set_popularities = {
+	conservatism = 23
+	movement_communism = 33
+	social_democracy = 10
+	reactionism = 14
+	nationalism = 5
+	Liberalism = 5
+	moderate_socialism = 8
+	communism = 2
+}
+set_variable = { var = SDP_economic_v value = 12 }#60
+set_variable = { var = SDP_education_v value = 18 }#50
+set_variable = { var = SDP_industry_v value = 16 }#60
+set_variable = { var = SDP_agriculture_v value = 19 }#60
+set_variable = { var = SDP_science_v value = 18 }#50
+set_variable = { var = SDP_politics_v value = 31 }#60
+
+add_ideas = {
+ tot_economic_mobilisation
+ limited_exports
+ all_adults_serve
+ ######################
+ CJF_Xv_Chongzhi
+ CJF_Wei_LiHuang
+ CJF_yang_yongtai
+ CJF_Chen_Gongbo
+ CJF_unacknowlaged_power
+ CFJ_wreckage_of_NRA_1
+ CJF_the_trade_of_opium
+ CJF_internal_industry
+ 
+ }
+ create_country_leader = {
+	name = "CJF_Sun_Fo"
+	desc = "CJF_Sun_Fo_desc"
+	picture = portrait_CJF_Sun_Fo
+	expire = "1965.1.1"
+	ideology = Three_Principles_of_the_People_consititution
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "CJF_Li_Jishen"
+	desc = "CJF_Li_Jishen_desc"
+	picture = "portrait_Li_Jishen.dds"
+	expire = "1999.1.1"
+	ideology = New_Three_Principles_of_the_People
+	traits = {
+		
+	}
+}
+recruit_character = CJF_li_zongren
+recruit_character = CJF_Chen_Gongbo
+recruit_character = CJF_Wei_LiHuang
+recruit_character = CJF_Gu_ZhuTong
+recruit_character = CJF_Wei_LiHuang
+recruit_character = CJF_wu_tiechen
+recruit_character = CJF_yang_yongtai
+recruit_character = CJF_Hu_Lian
+recruit_character = CJF_Xiong_Shihui
+recruit_character = CJF_Zhang_Zhizhong
+recruit_character = CJF_Lu_Hanliang

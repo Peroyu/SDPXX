@@ -1,0 +1,42 @@
+capital = 325 
+
+obb = "NOR_1947"  
+
+set_research_slots = 3
+
+set_war_support = 0.7 
+set_stability = 0.5 
+
+
+set_politics = {
+	ruling_party =social_democracy 
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+	onlooker_of_the_revolutionary_war
+}
+set_popularities = {
+ moderate_socialism = 11
+ committee_communism = 9
+ communism = 5
+ nationalism = 10
+ reactionism = 10
+ conservatism = 9
+ movement_communism = 10
+ liberalism = 10
+ social_democracy = 26
+}
+
+
+create_country_leader = {
+	name = "DEN_Alsing_Andersen"  
+	desc = "DEN_Alsing_Andersen_desc"  
+	picture = "gfx/leaders/EU/Alsing_Andersen.png"  
+	expire = "1975.5.4"  
+	ideology = social_reformism 
+	traits = {   
+		
+	}
+}

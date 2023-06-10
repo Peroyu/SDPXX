@@ -1,0 +1,25 @@
+
+state={
+	id=728
+	name="韶关"
+
+	history={
+		owner = GNP
+		add_core_of = GNP
+		add_core_of = GDC
+		buildings = {
+			infrastructure = 2
+
+		}
+      set_demilitarized_zone = yes
+	}
+	
+
+	provinces={
+		9970 9997 10080 10121 12014 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

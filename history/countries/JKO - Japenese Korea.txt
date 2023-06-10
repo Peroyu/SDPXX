@@ -1,0 +1,37 @@
+capital = 890  
+
+oob = "empty"  
+
+set_research_slots = 3 
+
+set_war_support = 0.4
+set_stability = 0.3
+
+
+set_politics = {
+	ruling_party = reactionism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 2
+    moderate_socialism = 2
+	conservatism = 20
+	reactionism = 70
+	Liberalism = 6
+}
+
+
+create_country_leader = {
+	name = "岸信介"   
+	desc = "/"   
+	picture = "/"   
+	expire = "1956.9.30"  
+	ideology = military_system  
+	traits = {  
+		
+	}
+}
+

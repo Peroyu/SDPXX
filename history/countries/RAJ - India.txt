@@ -1,0 +1,37 @@
+capital = 219
+
+set_research_slots = 3
+set_war_support = 0.9
+set_stability = 0.2
+
+set_politics = {
+	ruling_party = moderate_socialism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 5
+	committee_communism = 1
+	social_democracy = 3
+	moderate_socialism = 28
+	Liberalism = 9
+	movement_communism =  11
+	conservatism = 16
+	reactionism = 4
+	nationalism = 11
+	restorativeism = 12
+}
+
+
+create_country_leader = {
+	name = "贾瓦拉哈尔·尼赫鲁"
+	desc = "nihelu_desc"  
+	picture = "RAJ_Portrait_Jawaharlal_Nehru"  
+	expire = "1952.7.10"  
+	ideology = left_wing_nationalism 
+	traits = { 
+		
+	}
+}

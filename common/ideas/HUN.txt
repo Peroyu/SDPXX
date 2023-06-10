@@ -1,0 +1,76 @@
+ideas = {
+    country = {
+        HUN_glory_of_great_hungary = {
+		    name = HUN_glory_of_great_hungary
+			picture = GFX_HUN_glory_of_great_hungary
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.1
+				custom_effect_tooltip = HUN_glory_of_great_hungary_map
+			}
+		}
+		HUN_dominion_name = {
+		    name = HUN_dominion_name
+			picture = GFX_HUN_dominion_name
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+				nationalism_drift = 0.01
+				autonomy_gain = -0.05
+				custom_effect_tooltip = HUN_dominion_name_ours
+			}
+		}
+		HUN_protecter_in_balkan = {
+		    name = HUN_protecter_in_balkan
+			picture = GFX_HUN_protecter_in_balkan
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.03
+				communism_drift = 0.01
+				committee_communism_drift = 0.01
+				moderate_socialism_drift = 0.01
+				autonomy_gain = -0.25
+				custom_effect_tooltip = HUN_hungarian_Balkan
+			}
+		}
+		HUN_SLO_problem = {
+		    name = HUN_SLO_problem
+			picture = GFX_HUN_SLO_problem
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.05
+				custom_effect_tooltip = HUN_SLO
+			}
+		}
+		HUN_brocken_policy = {
+		    name = HUN_brocken_policy
+			picture = GFX_HUN_brocken_policy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.25
+				custom_effect_tooltip = HUN_brocken_policy_A
+			}
+		}
+	}
+}	
+
+
+   

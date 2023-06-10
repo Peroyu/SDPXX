@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+		AUS_problem_of_nationality = {
+		    name = AUS_problem_of_nationality
+			picture = GFX_AUS_problem_of_nationality
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.01
+				war_support_factor = -0.1
+			}
+		}
+		AUS_Tasu_River_Declaration = {
+		    name = AUS_Tasu_River_Declaration
+			picture = GFX_AUS_Tasu_River_Declaration
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.02
+				HUN = {
+					opinion = 50
+					}
+				ITA = {
+					opinion = 50
+					}
+			}
+		}
+		AUS_memories_of_suffering = {
+		    name = AUS_memories_of_suffering
+			picture = GFX_AUS_memories_of_suffering
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+				war_support_factor = -0.1
+				civilian_factory_use = 3
+				custom_effect_tooltip = AUS_nationality_influence
+			}
+		}
+	}
+}	

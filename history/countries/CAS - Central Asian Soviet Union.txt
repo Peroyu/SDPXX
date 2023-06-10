@@ -1,0 +1,33 @@
+capital =  # 首都地块
+
+obb = "CAS_1947"  # 军队文件
+
+set_research_slots = 2 # 设定科研槽
+
+set_war_support = 0.5 # 设置战争支持度
+set_stability = 0.8 # 设置稳定度
+
+# 设置执政党以及选举
+set_politics = {
+	ruling_party = communism # 执政党
+	last_election = "1947.1.1"
+	election_frequency = 48 # 选举间隔
+	elections_allowed = no  # 是否允许选举
+}
+# 设置席位
+set_popularities = {
+	communism = 80
+	social_democracy = 20
+}
+
+# 设置领导人
+create_country_leader = {
+	name = "中亚苏维埃"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "/"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = communism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}

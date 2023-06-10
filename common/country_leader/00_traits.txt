@@ -1,0 +1,99 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+@experience_gain_low = 0.03
+@experience_gain_medium = 0.06
+@experience_gain_high = 0.08
+
+@chief_experience_gain_low = 0.20
+@chief_experience_gain_medium = 0.30
+@chief_experience_gain_high = 0.40
+
+###Todo remove commented advisor experience gains
+
+leader_traits = {
+	###EU########
+
+	party_officer = {
+		random = no
+		political_power_factor = 0.25
+	}
+
+	soviet_officer = {
+		random = no
+		political_power_factor = 0.25
+		stability_factor = 0.10
+	}
+	
+	####CJF#####
+
+	victorious_general = {
+		random = no
+		army_infantry_attack_factor = 0.02
+		stability_factor = 0.01
+		army_morale_factor = 0.02
+	}
+	
+	KMT_brains = {
+		random = no
+		global_building_slots_factor = 0.05
+		drift_defence_factor = 0.03
+	}
+	
+	Left_dip_officer = {
+		random = no
+		consumer_goods_factor = 0.01
+		opinion_gain_monthly_factor = 0.2
+	}
+	
+	Old_comrades = {
+		random = no
+		political_power_factor = 0.05
+		army_org_factor = 0.01
+	}
+	
+	#####GDC######
+	
+	LKMT_old_Comrades = {
+		random = no
+		political_power_factor = 0.03
+		war_support_factor = 0.03
+	}
+	
+	dip_master = {
+		random = no
+		subversive_activites_upkeep = -0.05
+		trade_opinion_factor = 0.1
+		opinion_gain_monthly_factor = 0.2
+	}
+	
+	wind_and_sky = {
+		random = no
+		army_chief_cost_factor = -0.02
+		high_command_cost_factor = -0.02
+		army_morale_factor = 0.05
+		org_loss_when_moving = -0.03
+	}
+	
+	culture_poineer = {
+		random = no
+		political_power_factor = -0.05
+		industrial_capacity_factory = 0.02
+		consumer_goods_factor = -0.01
+	}
+	
+	rural_movement = {
+		random = no
+		political_power_factor = 0.1
+		conscription_factor = 0.1
+		global_building_slots_factor = 0.05
+	}
+	
+	rural_radicals = {
+		random = no
+		political_power_factor = 0.05
+		global_building_slots_factor = 0.05
+	}
+
+}

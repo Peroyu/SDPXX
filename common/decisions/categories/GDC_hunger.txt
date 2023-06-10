@@ -1,0 +1,16 @@
+GDC_hunger = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_GDC_hunger 
+		available = {
+	          tag = GDC
+			  has_country_flag = NOT = { GDC_hunger_away }
+		}
+		visible = {
+             tag = GDC 
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 1000
+		allowed = { original_tag = GDC }
+    }

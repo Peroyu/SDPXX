@@ -1,0 +1,15 @@
+CJF_anti_japen_war_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_CJF_anti_japen_war
+		available = {
+	        has_war_with = CMA   
+		}
+		visible = {
+           has_war_with = CMA   
+        }
+		cancel_trigger = {
+          has_country_flag = MMA_CJF_anti_japen_war_over
+        }
+        priority = 1000
+		allowed = { original_tag = CJF }
+    }

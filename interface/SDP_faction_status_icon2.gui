@@ -1,0 +1,13 @@
+guiTypes ={
+	containerWindowType = {
+		name = "SDP_faction_isu_status_icon"
+		Orientation = CENTER_UP
+		position = { x =-660 y = 30 }
+		iconType = { 
+			name = "SDP_faction_isu_status"
+			position =  { x = 400  y =273}  
+			spriteType = "GFX_faction_isu"
+			
+		} 
+	}
+}

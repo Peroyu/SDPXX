@@ -1,0 +1,107 @@
+capital = 2  
+
+oob = "ITA_1947"  
+
+set_research_slots = 4  
+
+set_war_support = 0.5 
+set_stability = 0.8  
+
+ 
+set_politics = {
+	ruling_party = social_democracy  
+	last_election = "1946.1.1"
+	election_frequency = 48 
+	elections_allowed = no 
+}
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
+victor_of_the_revolutionary_war
+ITA_The_Enthusiasm_of_the_Second_Unification_Movement
+ITA_PSI_politicy
+ITA_broken_southern_regiion
+ITA_hurt_of_Palermo
+}
+set_popularities = {
+ ##Christdemokraten###
+  Liberalism = 5
+  Nationalism = 1
+  conservatism = 6
+  movement_communism = 15
+  ##Social Democrats##
+  social_democracy = 38
+  moderate_socialism = 15
+  ##commic##
+  committee_communism = 15
+  communism = 5
+}
+set_variable = { var = SDP_ita_1_L value = 45 }
+set_variable = { var = SDP_ita_2_L value = 47 }
+set_variable = { var = SDP_ita_3_L value = 41 }
+set_variable = { var = SDP_ita_4_L value = 40 }
+set_variable = { var = SDP_ita_5_L value = 45 }
+set_variable = { var = SDP_ita_6_L value = 40 }
+set_variable = { var = SDP_ita_7_L value = 43 }
+set_variable = { var = SDP_ita_8_L value = 33 }
+set_variable = { var = SDP_ita_9_L value = 40 }
+set_variable = { var = SDP_ita_10_L value = 40 }
+set_variable = { var = SDP_ita_11_L value = 38 }
+set_variable = { var = SDP_ita_12_L value = 34 }
+set_variable = { var = SDP_ita_13_L value = 25 }
+set_variable = { var = SDP_ita_14_L value = 36 }
+set_variable = { var = SDP_ita_15_L value = 38 }
+set_variable = { var = SDP_ita_1_R value = 12 }
+set_variable = { var = SDP_ita_2_R value = 18 }
+set_variable = { var = SDP_ita_3_R value = 20 }
+set_variable = { var = SDP_ita_4_R value = 8 }
+set_variable = { var = SDP_ita_5_R value = 22 }
+set_variable = { var = SDP_ita_6_R value = 14 }
+set_variable = { var = SDP_ita_7_R value = 23 }
+set_variable = { var = SDP_ita_8_R value = 32 }
+set_variable = { var = SDP_ita_9_R value = 24 }
+set_variable = { var = SDP_ita_10_R value = 38 }
+set_variable = { var = SDP_ita_11_R value = 44 }
+set_variable = { var = SDP_ita_12_R value = 58 }
+set_variable = { var = SDP_ita_13_R value = 65 }
+set_variable = { var = SDP_ita_14_R value = 52 }
+set_variable = { var = SDP_ita_15_R value = 50 }
+set_variable = { var = SDP_ita_1 value = 42 }
+set_variable = { var = SDP_ita_2 value = 35 }
+set_variable = { var = SDP_ita_3 value = 39 }
+set_variable = { var = SDP_ita_4 value = 52 }
+set_variable = { var = SDP_ita_5 value = 23 }
+set_variable = { var = SDP_ita_6 value = 46 }
+set_variable = { var = SDP_ita_7 value = 24 }
+set_variable = { var = SDP_ita_8 value = 30 }
+set_variable = { var = SDP_ita_9 value = 36 }
+set_variable = { var = SDP_ita_10 value = 38 }
+set_variable = { var = SDP_ita_11 value = 19 }
+set_variable = { var = SDP_ita_12 value = 8 }
+set_variable = { var = SDP_ita_13 value = 10 }
+set_variable = { var = SDP_ita_14 value = 12 }
+set_variable = { var = SDP_ita_15 value = 12 }
+
+create_country_leader = {
+	name = "吉亚科莫·马泰奥蒂"
+	desc = "Giacomo_Matteotti_desc"
+	picture = "gfx\leaders\EU\Giacomo_Matteotti.png"
+	expire = "1965.1.1"
+	ideology = social_reformism
+	traits = {
+		party_officer
+	}
+}
+recruit_character = ITA_Antonio_Gramsci
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 19 }#60
+set_variable = { var = SDP_education_v value = 29 }#50
+set_variable = { var = SDP_industry_v value = 32 }#60
+set_variable = { var = SDP_agriculture_v value = 16 }#60
+set_variable = { var = SDP_science_v value = 26 }#50
+set_variable = { var = SDP_politics_v value = 36 }#60
+################

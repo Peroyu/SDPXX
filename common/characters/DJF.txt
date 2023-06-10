@@ -1,0 +1,34 @@
+characters = {
+	DJF_Zhu_De={ 
+		name = "DJF_Zhu_De"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Zhu_De
+				large = GFX_portrait_GDC_Zhu_De
+			}
+			civilian = {    
+				small = GFX_portrait_GDC_Zhu_De
+			}
+		}
+		advisor = {  
+			slot = person_of_arm
+			idea_token = DJF_Zhu_De
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = DJF }
+			cost = -1
+			removal_cost = -1
+			ledger = civilian
+		}
+		field_marshal={
+			traits={ organizer war_hero career_officer }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

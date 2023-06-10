@@ -1,0 +1,26 @@
+
+state={
+	id=908
+	name="武汉"
+	provinces={
+		 12467 4619 7167 10462
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 3
+		}
+		victory_points = {
+			4619 20
+		}
+		
+	}
+
+	manpower=1001600
+	state_category=city
+	buildings_max_level_factor=2.000
+	local_supplies=0.000
+}

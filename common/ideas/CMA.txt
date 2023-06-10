@@ -1,0 +1,42 @@
+ideas = {
+    country = {
+        CMA_bushido = {
+            name = CMA_bushido
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+            surrender_limit = +0.99
+			max_surrender_limit_offset = +0.05
+			}
+	    
+		}
+		 CMA_brocken_logicity = {
+            name = CMA_brocken_logicity
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			attrition = 0.3
+			army_org_factor = -0.1
+			army_morale_factor = -0.15
+			supply_consumption_factor = 0.2
+			no_supply_grace = 240
+			}
+	    
+		}
+	}
+}	
+
+
+   

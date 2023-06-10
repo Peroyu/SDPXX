@@ -1,0 +1,35 @@
+capital = 325 
+
+obb = "SWE_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.6 
+set_stability = 0.8 
+
+
+set_politics = {
+	ruling_party = social_democracy  
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+set_popularities = {
+	social_democracy = 23
+	moderate_socialism = 5
+	Liberalism = 22
+	movement_communism = 26
+	conservatism = 14
+	reactionism = 10
+}
+add_ideas = {
+onlooker_of_the_revolutionary_war
+}
+create_country_leader = {
+	name = "SWE_Gustav_V"  
+	desc = "SWE_Gustav_V_desc"  
+	picture = "gfx\leaders\EU\SWE_Gustaf_V.png"  
+	expire = "1985.6.12"  
+	ideology = social_reformism 
+	traits = {  }
+}

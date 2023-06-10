@@ -1,0 +1,21 @@
+
+state={
+	id=923
+	name="凤阳"
+	provinces={
+		 4079 10040 10079 9937
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+
+	manpower=3051600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

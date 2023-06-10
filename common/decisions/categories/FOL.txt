@@ -1,0 +1,15 @@
+FOL_decision_categories = {
+	    icon = GFX_FOL_gongshukmt
+	    picture = GFX_FOL_decision_categories
+		available = {
+	        
+		}
+		visible = {
+          debug = yes 
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { original_tag = AUS }
+    }

@@ -1,0 +1,38 @@
+focus_tree = {
+	id = CJF_frist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = CJF
+		}	
+	}
+	default = no
+    shared_focus = CJF_darkest_hour
+}
+
+focus_tree = {
+	id = CJF_second
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = CJF 
+		}	
+	}
+	default = no
+    shared_focus = CJF_The_country_is_in_trouble
+}
+
+focus_tree = {
+	id = CJF_third
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = CJF 
+		}	
+	}
+	default = no
+    shared_focus = CJF_The_time_has_come
+}

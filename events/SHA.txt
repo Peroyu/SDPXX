@@ -1,0 +1,43 @@
+﻿add_namespace = SHA
+country_event = {
+    id = SHA.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SHA.1 FROM = [From.GetName]" }
+	title = SHA.1.t
+	desc = SHA.1.d
+	picture = GFX_SHA.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		MMA = {
+			set_country_flag = shaanxi_is_not_our_ally
+			country_event = { id = MMA_dip.2 days = 1 }
+			}
+		name = SHA.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		KTR = {
+			annex_country = { target = SHA transfer_troops = yes }
+			}
+		news_event = {
+			id = SHA_news.1
+			hours = 1 #延迟多少小时触发
+			days = 1 #延迟多少天触发
+			}
+		name = SHA.1.b
+	}
+	
+}

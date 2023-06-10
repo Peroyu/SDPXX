@@ -1,0 +1,21 @@
+
+state={
+	id=913
+	name="吉安"
+	provinces={
+		 10057 4156 12495 10501 11988
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+
+	manpower=1601600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

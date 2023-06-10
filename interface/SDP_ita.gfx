@@ -1,0 +1,222 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_SDP_ita_intro"
+		texturefile = "gfx/interface/ita/SDP_ita_intro.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_1"
+		texturefile = "gfx/interface/ita/SDP_ita_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_2"
+		texturefile = "gfx/interface/ita/SDP_ita_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_3"
+		texturefile = "gfx/interface/ita/SDP_ita_3.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_4"
+		texturefile = "gfx/interface/ita/SDP_ita_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_5"
+		texturefile = "gfx/interface/ita/SDP_ita_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_6"
+		texturefile = "gfx/interface/ita/SDP_ita_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_7"
+		texturefile = "gfx/interface/ita/SDP_ita_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_8"
+		texturefile = "gfx/interface/ita/SDP_ita_8.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_9"
+		texturefile = "gfx/interface/ita/SDP_ita_9.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_10"
+		texturefile = "gfx/interface/ita/SDP_ita_10.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_11"
+		texturefile = "gfx/interface/ita/SDP_ita_11.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_12"
+		texturefile = "gfx/interface/ita/SDP_ita_12.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_13"
+		texturefile = "gfx/interface/ita/SDP_ita_13.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_14"
+		texturefile = "gfx/interface/ita/SDP_ita_14.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_15"
+		texturefile = "gfx/interface/ita/SDP_ita_15.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_16"
+		texturefile = "gfx/interface/ita/SDP_ita_16.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_1_R"
+		texturefile = "gfx/interface/ita/SDP_ita_1_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_2_R"
+		texturefile = "gfx/interface/ita/SDP_ita_2_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_3_R"
+		texturefile = "gfx/interface/ita/SDP_ita_3_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_4_R"
+		texturefile = "gfx/interface/ita/SDP_ita_4_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_5_R"
+		texturefile = "gfx/interface/ita/SDP_ita_5_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_6_R"
+		texturefile = "gfx/interface/ita/SDP_ita_6_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_7_R"
+		texturefile = "gfx/interface/ita/SDP_ita_7_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_8_R"
+		texturefile = "gfx/interface/ita/SDP_ita_8_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_9_R"
+		texturefile = "gfx/interface/ita/SDP_ita_9_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_10_R"
+		texturefile = "gfx/interface/ita/SDP_ita_10_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_11_R"
+		texturefile = "gfx/interface/ita/SDP_ita_11_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_12_R"
+		texturefile = "gfx/interface/ita/SDP_ita_12_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_13_R"
+		texturefile = "gfx/interface/ita/SDP_ita_13_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_14_R"
+		texturefile = "gfx/interface/ita/SDP_ita_14_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_15_R"
+		texturefile = "gfx/interface/ita/SDP_ita_15_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_1_L"
+		texturefile = "gfx/interface/ita/SDP_ita_1_L.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_2_L"
+		texturefile = "gfx/interface/ita/SDP_ita_2_L.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_3_L"
+		texturefile = "gfx/interface/ita/SDP_ita_3_L.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_4_L"
+		texturefile = "gfx/interface/ita/SDP_ita_4_L.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_5_L"
+		texturefile = "gfx/interface/ita/SDP_ita_5_L.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_6_L"
+		texturefile = "gfx/interface/ita/SDP_ita_6_L.dds"
+		transparencecheck = yes
+	}
+		spriteType = {
+		name = "GFX_SDP_ita_7_L"
+		texturefile = "gfx/interface/ita/SDP_ita_7_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_8_L"
+		texturefile = "gfx/interface/ita/SDP_ita_8_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_9_L"
+		texturefile = "gfx/interface/ita/SDP_ita_9_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_10_L"
+		texturefile = "gfx/interface/ita/SDP_ita_10_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_11_L"
+		texturefile = "gfx/interface/ita/SDP_ita_11_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_12_L"
+		texturefile = "gfx/interface/ita/SDP_ita_12_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_13_L"
+		texturefile = "gfx/interface/ita/SDP_ita_13_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_14_L"
+		texturefile = "gfx/interface/ita/SDP_ita_14_R.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_ita_15_L"
+		texturefile = "gfx/interface/ita/SDP_ita_15_R.dds"
+		transparencecheck = yes
+	}
+	
+}

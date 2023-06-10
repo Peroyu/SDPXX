@@ -1,0 +1,39 @@
+capital = 325  
+
+oob = "UKR_1947"   
+
+set_research_slots = 3  
+
+set_war_support = 0.8  
+set_stability = 0.6  
+
+recruit_character = UKR_Yury_Pyatakov 
+set_politics = {
+	ruling_party = communism  
+	last_election = "1945.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+victor_of_the_revolutionary_war
+}
+set_popularities = {
+	communism = 37
+	committee_communism = 16
+	social_democracy = 4
+	moderate_socialism =3
+	Liberalism = 10
+	movement_communism = 1
+	conservatism = 2
+	reactionism = 7
+	nationalism = 20
+}
+
+create_country_leader = {
+		name = "UKR_Yury_Pyatakov"   
+		desc = "UKR_Yury_Pyatakov_desc"  
+		picture = "gfx/leaders/SOV/portrait_UKR_Yury_Pyatakov.png"   
+		expire = "1959.4.5"   
+		ideology = Bolshevism
+		traits = {  }
+	}

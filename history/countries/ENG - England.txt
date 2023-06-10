@@ -1,0 +1,60 @@
+capital = 219 
+
+oob = "ENG_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.1 
+set_stability = 0.3  
+
+
+set_politics = {
+	ruling_party = social_democracy 
+	last_election = "1925.6.1"
+	election_frequency = 48  
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 2
+	committee_communism = 13
+	moderate_socialism = 15
+	social_democracy = 20
+	Liberalism = 20
+	conservatism = 5
+	movement_communism = 14
+	reactionism = 5
+	nationalism = 6
+}
+
+add_ideas = {
+	participant_of_the_revolutionary_war
+	ENG_autonomy_laws
+	ENG_fate_of_royal_house
+	ENG_debate_on_colony
+	ENG_not_determined_future
+}
+create_country_leader = {
+	name = "ENG_Clement_Attlee"   
+	desc = "ENG_Clement_Attlee_desc" 
+	picture = "gfx/leaders/EU/portrait_ENG_Clement_Attlee.png"  
+	expire = "1967.10.8"   
+	ideology = FabianSocialism  
+	traits = {  
+		
+	}
+}
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 21 }#60
+set_variable = { var = SDP_education_v value = 30 }#50
+set_variable = { var = SDP_industry_v value = 42 }#60
+set_variable = { var = SDP_agriculture_v value = 33 }#60
+set_variable = { var = SDP_science_v value = 35 }#50
+set_variable = { var = SDP_politics_v value = 31 }#60
+################
+recruit_character = ENG_James_Maxton
+recruit_character = ENG_Archibald_Sinclair
+recruit_character = ENG_Arthur_Horner
+

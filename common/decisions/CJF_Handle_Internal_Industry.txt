@@ -1,0 +1,305 @@
+CJF_Handle_Internal_Industry = {  
+		CJF_fix_machine = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = no
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				}
+			cost = 10
+			days_remove = 14
+			days_re_enable = 42
+		
+			remove_effect = {
+				add_timed_idea = { idea = CJF_machenical days = 28 }
+					}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_check_belongings = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_check_thieves
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				}
+			cost = 30
+			days_remove = 21
+		
+			remove_effect = {
+				add_stability = -0.05
+				add_ideas = CJF_belongings
+				set_country_flag = CJF_we_have_finished
+					}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}						
+		CJF_confiscation_action = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_country_flag = CJF_we_have_finished
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				}
+			cost = 15
+			days_remove = 21
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_belongings
+					remove_idea = CJF_belongings_1
+					clr_country_flag = CJF_we_have_finished
+					}
+				}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_rebuild_Tian_Fu = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_meeting_beibei
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				}
+			cost = 50
+			days_remove = 28
+		
+			remove_effect = {
+				842 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+					instant_build = yes 
+					}
+				}
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_declare_condition = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_first_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_first_choice
+				}
+			cost = 30
+			days_remove = 7
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_1
+					remove_idea = CJF_internal_industry
+					}
+				}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_NRA_and_Industry = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_first_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_first_choice
+				}
+			cost = 25
+			days_remove = 21
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_2
+					remove_idea = CJF_internal_industry_1
+					}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_harden_a_controlled_eco = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_first_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_first_choice
+				}
+			cost = 30
+			days_remove = 42
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_3
+					remove_idea = CJF_internal_industry_2
+					}
+				add_political_power = 30
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_talk_with_enterpriser = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_second_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_second_choice
+				}
+			cost = 30
+			days_remove = 7
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_1
+					remove_idea = CJF_internal_industry
+					}
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_ban_the_officer = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_second_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_second_choice
+				}
+			cost = 25
+			days_remove = 21
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_2
+					remove_idea = CJF_internal_industry_1
+					}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+		CJF_open_and_for_the_war = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				has_completed_focus = CJF_rectify_the_intrnal_industry
+				has_country_flag = CJF_second_choice
+				}
+			allowed = {
+				original_tag = CJF
+				}
+			visible = {
+				has_country_flag = CJF_second_choice
+				}
+			cost = 30
+			days_remove = 42
+		
+			remove_effect = {
+				swap_ideas = {
+					add_idea = CJF_internal_industry_3
+					remove_idea = CJF_internal_industry_2
+					}
+				add_political_power = 30
+			}
+		
+			
+			ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
+		}
+			
+    }

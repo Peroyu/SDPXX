@@ -1,0 +1,55 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_HUN_SLO_1"
+		texturefile = "gfx/event_pictures/news/HUN_SLO_1.dds"
+	}
+	spriteType = {
+		name = "GFX_HUN_BAL_1"
+		texturefile = "gfx/event_pictures/news/GFX_HUN_BAL_1.png"
+	}
+	spriteType = {
+		name = "indu_1"
+		texturefile = "gfx/event_pictures/news/indu_1.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_1"
+		texturefile = "gfx/event_pictures/news/ISU_1.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_2"
+		texturefile = "gfx/event_pictures/news/ISU_2.png"
+	}
+    spriteType = {
+		name = "GFX_HUN_SLO_2"
+		texturefile = "gfx/event_pictures/news/HUN_SLO_2.dds"
+	}
+	spriteType = {
+		name = "GFX_GDCintro"
+		texturefile = "gfx/event_pictures/GDCintro.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan1"
+		texturefile = "gfx/event_pictures/MMAlan1.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan2"
+		texturefile = "gfx/event_pictures/MMAlan2.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan3"
+		texturefile = "gfx/event_pictures/MMAlan3.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan4"
+		texturefile = "gfx/event_pictures/MMAlan4.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan5"
+		texturefile = "gfx/event_pictures/MMAlan5.dds"
+	}
+	spriteType = {
+		name = "GFX_MMAlan6"
+		texturefile = "gfx/event_pictures/MMAlan6.dds"
+	}
+}
+

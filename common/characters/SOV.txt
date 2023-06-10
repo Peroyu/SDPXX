@@ -1,0 +1,64 @@
+characters = {
+	SOV_Malenkov = {
+		name = "SOV_Malenkov" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_Malenkov
+				small = GFX_portrait_SOV_Malenkov_1
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		    idea_token = SOV_Malenkov
+			ideology = democratic_socialism
+			expire = "1967.1.1.1"
+			allowed = { original_tag = SOV }
+			cost = 50
+			remove_cost = 50
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+	}
+	SOV_Molotov = {
+		name = "SOV_Molotov" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_SOV_Molotov
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		    idea_token = SOV_Molotov
+			ideology = leninism
+			expire = "1967.1.1.1"
+			allowed = { original_tag = SOV }
+			cost = 50
+			remove_cost = 50
+		}
+		country_leader = {
+			ideology = leninism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+	}
+	SOV_Stalin = {
+		name = "SOV_Stalin" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_SOV_Stalin
+			}
+		}
+		advisor = {
+			slot = political_advisor
+		    idea_token = SOV_Stalin
+			ideology = leninism
+			expire = "1955.1.1.1"
+			allowed = { original_tag = SOV }
+			cost = 50
+			remove_cost = 50
+		}
+	}
+}

@@ -1,0 +1,140 @@
+﻿###########################
+# News Events
+###########################
+add_namespace = HUN_SLO
+add_namespace = HUN_BAL
+add_namespace = SHA_news
+add_namespace = indu
+add_namespace = ISU
+news_event = {
+	id = HUN_SLO.1
+
+    picture = GFX_HUN_SLO_1
+    title = HUN_SLO.1.t
+    desc = HUN_SLO.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = HUN_SLO.1.a
+		trigger = {Not = {tag = HUN}}
+	}
+	option = {
+		name = HUN_SLO.1.b
+	}
+}
+news_event = {
+	id = HUN_SLO.2
+
+    picture = GFX_HUN_SLO_2
+    title = HUN_SLO.2.t
+    desc = HUN_SLO.2.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = HUN_SLO.2.a
+	}
+}
+news_event = {
+	id = HUN_BAL.1
+
+    picture = GFX_HUN_BAL_1
+    title = HUN_BAL.1.t
+    desc = HUN_BAL.1.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = HUN_BAL.1.a
+	}
+}
+
+news_event = {
+	id = SHA_news.1
+
+    picture = GFX_SHA_news
+    title = SHA_news.1.t
+    desc = SHA_news.1.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = SHA_news.1.a
+	}
+}
+news_event = {
+	id = indu.1
+
+    picture = indu_1
+    title = indu.1.t
+    desc = indu.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = indu.1.a
+	}
+}
+news_event = {
+	id = ISU.1
+
+    picture = GFX_ISU_1
+    title = ISU.1.t
+    desc = ISU.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.1.a
+	}
+}
+news_event = {
+	id = ISU.2
+
+    picture = GFX_ISU_2
+    title = ISU.2.t
+    desc = ISU.2.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.2.a
+	}
+}

@@ -1,0 +1,56 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_committee_communism_group"
+		texturefile = "gfx/interface/ideologies/committee_communism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_movement_communism_group"
+		texturefile = "gfx/interface/ideologies/movement_communism_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_moderate_socialism_group"
+		texturefile = "gfx/interface/ideologies/moderate_socialism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/social_democracy_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_Liberalism_group"
+		texturefile = "gfx/interface/ideologies/Liberalism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_reactionism_group"
+		texturefile = "gfx/interface/ideologies/reactionism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_Nationalism_group"
+		texturefile = "gfx/interface/ideologies/Nationalism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_Restorativeism_group"
+		texturefile = "gfx/interface/ideologies/Restorativeism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_Three_Principles_of_the_People"
+		texturefile = "gfx/interface/ideologies/Three_Principles_of_the_People.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_New_Three_Principles_of_the_People"
+		texturefile = "gfx/interface/ideologies/New_Three_Principles_of_the_People.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"
+	}
+	
+}

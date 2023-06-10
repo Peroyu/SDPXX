@@ -1,0 +1,242 @@
+characters = {
+	CMA_Ishihara_Kaner={
+		name = "石原莞尔"
+		portraits = {
+			army={
+				small = portrait_CMA_Ishihara_Kaner
+				large = portrait_CMA_Ishihara_Kaner
+			}
+		}
+		corps_commander={
+			traits={ career_officer harsh_leader }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	RCR_Qi_Xieyuan={
+		name = "齐燮元"
+		portraits = {
+			army={
+				small = portrait_RCR_Qi_Xieyuan
+				large = portrait_RCR_Qi_Xieyuan
+			}
+			civilian = {    
+				small = portrait_RCR_Qi_Xieyuan
+			}
+		}
+		advisor = {  
+			slot = person_of_arm
+			idea_token = RCR_Qi_Xieyuan 
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = RCR }
+			removal_cost = -1
+			cost = -1
+			ledger = civilian
+		}
+		field_marshal={
+			traits={ harsh_leader old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+	RCR_Gao_Zongwu={
+		name = "高宗武"
+		portraits = {
+			civilian = {    
+				small = portrait_RCR_Gao_Zongwu
+			}
+		}
+		advisor = {  
+			slot = person_of_dip
+			idea_token = RCR_Gao_Zongwu 
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = RCR }
+			removal_cost = -1
+			cost = -1
+			ledger = civilian
+		}
+	}
+	RCR_Wang_YiTang={
+		name = "王揖唐"
+		portraits = {
+			civilian = {    
+				small = portrait_RCR_Wang_YiTang
+			}
+		}
+		advisor = {  
+			slot = person_of_eco
+			idea_token = RCR_Wang_YiTang 
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = RCR }
+			removal_cost = -1
+			cost = -1
+			ledger = civilian
+		}
+	}
+	MAN_Bao_Wenyue={
+		name = "鲍文樾"
+		portraits = {
+			army={
+				small = portrait_MAN_Bao_Wenyue
+				large = portrait_MAN_Bao_Wenyue
+			}
+			civilian = {    
+				small = portrait_MAN_Bao_Wenyue
+			}
+		}
+		advisor = {  
+			slot = person_of_arm
+			idea_token = MAN_Bao_Wenyue 
+            traits = {  }
+			ai_will_do = {
+				factor = 0
+			}
+			allowed = { original_tag = MAN }
+			removal_cost = -1
+			cost = -1
+			ledger = civilian
+		}
+		field_marshal={
+			traits={ harsh_leader old_guard }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	FNC_Sun_Dianying={
+		name = "孙殿英"
+		portraits = {
+			army={
+				small = portrait_FNC_Sun_Dianying
+				large = portrait_FNC_Sun_Dianying
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	GNP_Yang_Liuxvm={
+		name = "杨毓珣"
+		portraits = {
+			army={
+				small = portrait_GNP_Yang_Liuxvm
+				large = portrait_GNP_Yang_Liuxvm
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	RCR_Ren_YuanDao={
+		name = "任援道"
+		portraits = {
+			army={
+				small = portrait_RCR_Ren_YuanDao
+				large = portrait_RCR_Ren_YuanDao
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	FNC_Sun_Liangcheng={
+		name = "孙良诚"
+		portraits = {
+			army={
+				small = portrait_FNC_Sun_Liangcheng
+				large = portrait_FNC_Sun_Liangcheng
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	RCR_Rong_Zhen={
+		name = "荣臻"
+		portraits = {
+			army={
+				small = portrait_RCR_Rong_Zhen
+				large = portrait_RCR_Rong_Zhen
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	RCR_Pang_Bingxvn={
+		name = "庞炳勋"
+		portraits = {
+			army={
+				small = portrait_RCR_Pang_Bingxvn
+				large = portrait_RCR_Pang_Bingxvn
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	SHA_Mitsuru_Ushijima={
+		name = "牛岛满"
+		portraits = {
+			army={
+				small = portrait_SHA_Mitsuru_Ushijima
+				large = portrait_SHA_Mitsuru_Ushijima
+			}
+		}
+		corps_commander={
+			traits={ skilled_staffer infantry_leader trait_reckless }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

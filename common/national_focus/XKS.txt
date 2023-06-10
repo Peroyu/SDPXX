@@ -1,0 +1,13 @@
+focus_tree = {
+	id = XKS_frist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = XKS  
+		}	
+	}
+	default = no
+    shared_focus = Light_up_the_mountains
+}
+

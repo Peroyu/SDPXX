@@ -1,0 +1,15 @@
+CJF_KMT_party_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_CJF_KMT_party
+		available = {
+	        has_country_flag = CJF_KMT_party
+		}
+		visible = {
+           has_country_flag = CJF_KMT_party
+        }
+		cancel_trigger = {
+          has_country_flag = CJF_KMT_party_over
+        }
+        priority = 10000
+		allowed = { original_tag = CJF }
+    }

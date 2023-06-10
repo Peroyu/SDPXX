@@ -1,0 +1,88 @@
+ideas = {
+	head_of_government = { ### Head of Government ###
+		CJF_Zhang_Qun = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Zhang_Qun"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		CJF_Xv_Chongzhi = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Xv_Chongzhi"
+			}
+			traits = {
+				head_of_government
+				Old_comrades
+			}
+		}
+
+	}
+	person_of_dip = { ### person of dip ###
+		CJF_Chen_Gongbo = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Chen_Gongbo"
+			}
+			traits = {
+				person_of_dip
+				Left_dip_officer
+			}
+		}
+
+	}
+	person_of_arm = { ### person of arm ###
+		CJF_Wei_LiHuang = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Wei_LiHuang"
+			}
+			traits = {
+				person_of_arm
+				victorious_general
+			}
+		}
+
+	}
+	person_of_eco = { ### person of eco ###
+		CJF_yang_yongtai = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_yang_yongtai"
+			}
+			traits = {
+				person_of_eco
+				KMT_brains
+			}
+		}
+
+	}
+}	

@@ -1,0 +1,57 @@
+﻿capital = 608
+
+oob = "FNC_1947"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = FNC_Sun_Dianying
+recruit_character = FNC_Sun_Liangcheng
+1947.1.1 = {
+
+	add_political_power = 0
+	add_command_power = 50
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 1
+	movement_communism = 15
+	Liberalism = 5
+	social_democracy = 7
+	conservatism = 9
+	reactionism = 20
+	nationalism = 23
+	restorativeism = 20
+}
+
+create_country_leader = {
+		name = "FNC_Wang_Yintai"   
+		desc = "FNC_Wang_Yintai_desc"  
+		picture = "gfx/leaders/CHI/portrait_FNC_Wang_Yintai.png"   
+		expire = "1959.4.5"   
+		ideology = despotism 
+		traits = {  }
+	}

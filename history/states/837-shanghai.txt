@@ -1,0 +1,30 @@
+
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		7014 12076 
+	}
+	history={
+		owner = RCR
+		add_core_of = RCR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			7014 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			7014 40 
+		}
+
+	}
+	manpower=523100
+	buildings_max_level_factor=2.000
+	local_supplies=1.000
+	state_category = megalopolis
+}

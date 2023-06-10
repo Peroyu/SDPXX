@@ -1,0 +1,34 @@
+capital = 293 # 
+
+obb = "YEM_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ reactionism = 33
+ restoratveism = 34
+ conservatism = 33
+}
+
+# 
+create_country_leader = {
+	name = "叶海亚·穆罕默德·哈米德丁"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1952.3.16"  # 
+	ideology = reactionism # 
+	traits = {  # 
+		#
+	}
+}

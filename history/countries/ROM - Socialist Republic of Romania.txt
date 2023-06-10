@@ -1,0 +1,38 @@
+capital = 325 
+
+obb = "ROM_1947"  
+
+set_research_slots = 3
+
+set_war_support = 0.9 
+set_stability = 0.5 
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+loser_of_the_revolutionary_war
+}
+set_popularities = {
+	committee_communism = 20
+	communism = 44
+	moderate_socialism = 14
+	liberalism = 5
+	conservatism = 4
+	nationalism = 3
+	reactionism = 5
+	movement_communism = 5
+}
+
+ 
+create_country_leader = {
+	name = "ROM_Gheorghe_Gheorghiu-Dej"   
+	desc = "ROM_Gheorghe_Gheorghiu-Dej_desc"  
+	picture = "gfx/leaders/EU/Gheorghe_Gheorghiu-Dej.png"   
+	expire = "1960.9.7"   
+	ideology = leninism
+	traits = {  }
+}

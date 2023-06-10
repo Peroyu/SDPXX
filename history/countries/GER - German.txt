@@ -1,0 +1,72 @@
+﻿capital = 64 
+
+oob = "GER_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.8  
+set_stability = 0.7  
+
+set_politics = {
+	ruling_party = Liberalism  
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 25 }#60
+set_variable = { var = SDP_education_v value = 35 }#50
+set_variable = { var = SDP_industry_v value = 40 }#60
+set_variable = { var = SDP_agriculture_v value = 32 }#60
+set_variable = { var = SDP_science_v value = 32 }#50
+set_variable = { var = SDP_politics_v value = 38 }#60
+################
+add_ideas={
+export_focus
+civilian_economy
+idea_volunteer_only
+#########
+loser_of_the_revolutionary_war
+GER_rebuild_1
+GER_threaten_from_Freikorps
+GER_split_of_politic
+GER_country_in_ruins
+}
+set_popularities = {
+	communism = 9
+	committee_communism = 20
+    	moderate_socialism = 21
+	social_democracy = 10
+	conservatism = 5
+	reactionism = 5
+	Liberalism =12
+	movement_communism = 8
+	nationalism = 10
+}
+
+create_country_leader = {
+	name = "GER_Council"
+	desc = "GER_Council_desc"
+	picture = "gfx/leaders/EU/GER_Council.png"
+	expire = "1955.1.1"
+	ideology = United_Interim_Government
+	traits = {
+		
+	}
+}
+recruit_character = GER_bertha_thalheimer
+recruit_character = GER_Otto_Grotewohl
+recruit_character = GER_William_peak
+
+create_country_leader = {
+	name = "GER_Kurt_Schumacher"
+	desc = "GER_Kurt_Schumacher_desc"
+	picture = "GFX_portrait_GER_Kurt_Schumacher"
+	expire = "1965.2.11.1"
+	ideology = Godesberge_Programm
+	traits = {
+		
+	}
+}

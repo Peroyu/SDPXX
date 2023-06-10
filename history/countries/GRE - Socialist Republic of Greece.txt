@@ -1,0 +1,37 @@
+capital = 325 
+
+obb = "GRE_1947"  
+
+set_research_slots = 4 
+
+set_war_support = 0.9 
+set_stability = 0.5 
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ communism = 21
+ committee_communism = 9
+ moderate_socialism = 15
+ Liberalism = 10
+ movement_communism = 15
+ conservatism =15
+ reactionism =9
+ nationalism =6
+}
+
+
+create_country_leader = {
+	name = "马科斯·瓦菲阿迪斯"  
+	desc = "GRE_Markos_Vafeiadis_desc"  
+	picture = "GRE_Markos"  
+	expire = "1992.5.1"  
+	ideology = military_socialism 
+	traits = {  	}
+}

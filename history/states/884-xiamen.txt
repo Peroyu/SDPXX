@@ -1,0 +1,28 @@
+
+state={
+	id=884
+	name="厦门"
+	provinces={
+		7071
+	}
+	history={
+		owner = RCR
+		infrastructure = 2
+			industrial_complex = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		
+		victory_points = { 
+				7071 3
+		}
+		add_core_of = RCR
+	}
+
+	manpower=50000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

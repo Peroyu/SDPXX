@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_faction_xieyue"
+		texturefile = "gfx/interface/factions/faction_xieyue.dds"
+	}
+	
+}
+spriteTypes = {
+    spriteType = {
+		name = "GFX_faction_isu"
+		texturefile = "gfx/interface/factions/faction_isu.dds"
+	}
+}

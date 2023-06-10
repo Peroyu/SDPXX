@@ -1,0 +1,187 @@
+﻿add_namespace = GDCintro
+add_namespace = GDC
+add_namespace = GDC_war
+add_namespace = GDC_link_mingan_conflict
+country_event = {
+    id = GDCintro.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCintro.1 FROM = [From.GetName]" }
+	title = GDCintro.1.t
+	desc = GDCintro.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDCintro.1.a 
+	}
+	
+}
+country_event = {
+    id = GDC.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDC.1 FROM = [From.GetName]" }
+	title = GDC.1.t
+	desc = GDC.1.d
+	picture = GFX_xiangnan
+	
+	is_triggered_only = yes
+	
+	immediate = {
+			hidden_effect = {
+				HNN = {
+				transfer_state = 602
+				transfer_state = 750
+				declare_war_on = { target = GDC type = annex_everything }
+				load_oob = HNN_collapse
+				}
+				KHN = {
+				transfer_state = 841
+				transfer_state = 840
+				add_state_core = 840
+				add_state_core = 841
+				declare_war_on = { target = HNN type = annex_everything }
+				load_oob = KHN_collapse
+				}
+			}
+	}
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDC.1.a 
+		GDC = {
+		    transfer_state = 838
+			add_state_core = 838
+		}
+		load_oob = GDC_xiangnan
+	}
+	
+}
+country_event = {
+	id = GDC.2
+    picture = GFX_xiangnan
+    title = GDC.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    trigger = {has_war_with = GNP}
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+			set_country_flag = GDC_anti_siega_war_began
+		}
+	}
+    option = { 
+        name = GDC.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		unlock_decision_category_tooltip = GDC_anti_siege_war_decision_categories
+		
+	}
+    
+}
+#################war##############################
+country_event = {
+	id = GDC_war.1
+    picture = GFX_xiangnan
+    title = GDC_war.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC_war.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+			clr_country_flag = GDC_situation_is_smooth
+		}
+	}
+    option = { 
+        name = GDC_war.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+	}
+    
+}
+country_event = {
+	id = GDC_war.2
+    picture = GFX_xiangnan
+    title = GDC_war.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC_war.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDC_war.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		army_experience = 50
+		custom_effect_tooltip = GDC_we_have_to_change
+	}
+    
+}
+#################minganconflict###################
+country_event = {
+	id = GDC_link_mingan_conflict.1
+    picture = GFX_xiangnan
+    title = GDC_link_mingan_conflict.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC_link_mingan_conflict.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+			set_demilitarized_zone = 728
+		}
+	}
+    option = { 
+        name = GDC_link_mingan_conflict.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		
+	}
+    
+}
+country_event = {
+	id = GDC_link_mingan_conflict.2
+    picture = GFX_xiangnan
+    title = GDC_link_mingan_conflict.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC_link_mingan_conflict.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+			
+		}
+	}
+    option = { 
+        name = GDC_link_mingan_conflict.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		
+	}
+    
+}
+
+

@@ -1,0 +1,31 @@
+﻿add_namespace = OIL
+country_event = {
+    id = OIL.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	OIL.1 FROM = [From.GetName]" }
+	title = OIL.1.t
+	desc = OIL.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		678 = {
+			add_resource = {
+				type = oil
+				amount = 320
+			}
+		}
+		name = OIL.1.a
+	}
+	
+}

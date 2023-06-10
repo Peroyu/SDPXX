@@ -1,0 +1,27 @@
+
+state={
+	id=890
+	name="京畿道"
+	provinces={
+		1100 9936 12040 7125 7221 10036
+	}
+	history={
+		owner = JAP
+		
+		victory_points = {
+			7125 3 
+		}
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+
+		}
+	}
+
+	manpower=1451600
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

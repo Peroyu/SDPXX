@@ -1,0 +1,122 @@
+﻿add_namespace = nuke
+add_namespace = GER
+add_namespace = HUN
+country_event = {
+    id = nuke.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	nuke.1 FROM = [From.GetName]" }
+	title = nuke.1.t
+	desc = nuke.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		GER={add_nuclear_bombs = 5}
+		FRA={add_nuclear_bombs = 5}
+		SOV={add_nuclear_bombs = 5}
+		ISU={add_nuclear_bombs = 5}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = nuke.1.a
+		
+	}
+}
+country_event = {
+    id = HUN.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.1 FROM = [From.GetName]" }
+	title = HUN.1.t
+	desc = HUN.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		YUG = { set_cosmetic_tag = SAB }
+		BOS = {
+			transfer_state = 104
+			transfer_state = 804
+		}
+		MOT = {
+			transfer_state = 105
+		}
+		BUL = {
+			transfer_state = 184
+		}
+		MAQ = {
+			transfer_state = 106
+			transfer_state = 731
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = HUN.1.a
+		
+	}
+}
+country_event = {
+    id = GER.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GER.1 FROM = [From.GetName]" }
+	title = GER.1.t
+	desc = GER.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			annex_country = { target = DZG transfer_troops = no }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GER.1.a
+		set_politics = {
+			ruling_party = communism
+			last_election = "1940.1.1" 
+			election_frequency = 48
+			elections_allowed = no
+		}
+		GER = { set_cosmetic_tag = DSR }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GER.1.b
+		set_politics = {
+			ruling_party = committee_communism
+			last_election = "1940.1.1" 
+			election_frequency = 48
+			elections_allowed = no
+		}
+		GER = { set_cosmetic_tag = DCR }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GER.1.c
+		set_politics = {
+			ruling_party = moderate_socialism
+			last_election = "1940.1.1" 
+			election_frequency = 48
+			elections_allowed = no
+		}
+		GER = { set_cosmetic_tag = DPR }
+	}
+}

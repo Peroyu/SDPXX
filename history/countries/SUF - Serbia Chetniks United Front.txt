@@ -1,0 +1,45 @@
+capital = 105 # 首都地块
+
+obb = "empty"  # 军队文件
+
+set_research_slots = 2
+ # 设定科研槽
+
+set_war_support = 0.74 # 设置战争支持度
+set_stability = 0.46 # 设置稳定度
+
+# 设置执政党以及选举
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ communism = 32.4
+ committee_communism = 10.6
+ moderate_socialism = 5.2
+ social_democracy = 4
+ Liberalism = 1.8
+ movement_communism = 1.2
+ conservatism = 4.8
+ reactionism = 17.5
+ nationalism = 18.5
+ restorativeism = 4
+}
+add_ideas = {
+
+}
+# 设置领导人
+create_country_leader = {
+	name = "亚历山大·兰科维奇"  # 领导人名称
+	desc = "SUF_Aleksandar_Rankovic_desc"  # 人物介绍
+	picture = "gfx/leaders/SUF/GFX_portrait_SUF_Aleksandar_Rankovic.png"  # 人物头像
+	expire = "1983.8.19"  # 逝世时间
+	ideology = leninism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+

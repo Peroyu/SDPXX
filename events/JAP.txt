@@ -1,0 +1,44 @@
+﻿add_namespace = JAP
+country_event = {
+    id = JAP.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.1 FROM = [From.GetName]" }
+	title = JAP.1.t
+	desc = JAP.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    KOR = {
+				transfer_state = 893
+				transfer_state = 892
+				declare_war_on = { target = JKR type = annex_everything }
+				load_oob = KOR_collapse
+				}
+			JKR = {
+				transfer_state = 890
+				transfer_state = 891
+				transfer_state = 894
+				transfer_state = 895
+				transfer_state = 896
+				transfer_state = 897
+				transfer_state = 525
+				transfer_state = 527
+				load_oob = JKR_collapse
+				add_ideas = JKR_Korea_war
+				add_to_faction = JAP
+				}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.1.a
+	}
+	
+}

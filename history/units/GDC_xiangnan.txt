@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Bubing Juntuán"				# Chinese Infantry Division
+	division_names_group = GDC_INF_01
+									# Normal Equipment and Training
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Yubei Juntuán"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = GDC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "xiangnan Yubei 1"
+		location = 1448
+		division_template = "Yubei Juntuán"		# 
+		start_experience_factor = 0.8		
+		start_equipment_factor = 0.
+	}
+	division = {
+		name = "qiongyazongdui"
+		location = 11990
+		division_template = "Yubei Juntuán"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "xiangnan Yubei 2"
+		location = 4125
+		division_template = "Yubei Juntuán"		# 
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.5
+	}	
+	division = {
+		name = "xiangnan army"
+		location = 7159
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.95
+		start_equipment_factor = 1
+	}	
+
+}

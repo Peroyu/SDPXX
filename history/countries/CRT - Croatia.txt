@@ -1,0 +1,35 @@
+capital = 293 # 
+
+obb = "CRT_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.4 # 
+
+# 
+set_politics = {
+	ruling_party = committee_communism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = { 
+ committee_communism = 30
+ communism = 29
+ social_democracy = 20
+ Liberalism = 10
+ reactionism = 8
+ nationalism = 3
+}
+
+# 
+create_country_leader = {
+	name = "YUG_Edvard_Kardelj"   
+	desc = "YUG_Edvard_Kardelj_desc"  
+	picture = "gfx/leaders/EU/Edvard_Kardelj.png"   
+	expire = "1956.9.7"   
+	ideology = democratic_socialism
+	traits = {  }
+}

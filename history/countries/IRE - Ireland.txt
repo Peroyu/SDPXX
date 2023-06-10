@@ -1,0 +1,37 @@
+capital = 325 
+
+obb = "IRE_1947"  
+
+set_research_slots = 3 
+
+set_war_support = 0.6 
+set_stability = 0.4 
+
+set_politics = {
+	ruling_party = liberalism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+set_popularities = {
+ 	communism = 2
+	committee_communism = 1
+	social_democracy = 7
+	moderate_socialism = 3
+	Liberalism = 31
+	movement_communism = 21
+	conservatism = 10
+	reactionism = 10
+	nationalism = 15
+}
+add_ideas = {
+participant_of_the_revolutionary_war
+}
+create_country_leader = {
+	name = "埃蒙·迪·华理拉"  
+	desc = "Eamonn_de_Valera_desc"  
+	picture = "gfx/leaders/IRE/Eamonn_de_Valera.png"  
+	expire = "1975.8.29"  
+	ideology = social_liberalism
+	traits = {  }
+}

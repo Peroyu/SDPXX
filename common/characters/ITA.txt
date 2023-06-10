@@ -1,0 +1,16 @@
+characters = {
+	ITA_Antonio_Gramsci = {
+		name = "ITA_Antonio_Gramsci" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Ma_Jiyuan
+			}
+		}
+		country_leader = {
+			ideology = left_wing_communism
+			trsits = {}
+			expire = "1954.1.1.1"
+		}
+
+    }
+}

@@ -1,0 +1,264 @@
+﻿add_namespace = XKS_op
+add_namespace = XKS
+add_namespace = XKS_sichuan
+country_event = {
+    id = XKS_op.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS_op.1 FROM = [From.GetName]" }
+	title = XKS_op.1.t
+	desc = XKS_op.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS_op.1.a
+	}
+	
+}
+country_event = {
+    id = XKS.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.1 FROM = [From.GetName]" }
+	title = XKS.1.t
+	desc = XKS.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.1.a
+		custom_effect_tooltip = XKS_night_1
+	}
+	
+}
+country_event = {
+    id = XKS.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.2 FROM = [From.GetName]" }
+	title = XKS.2.t
+	desc = XKS.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.2.a
+	}
+	
+}
+country_event = {
+    id = XKS.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.3 FROM = [From.GetName]" }
+	title = XKS.3.t
+	desc = XKS.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.3.a
+	}
+	
+}
+country_event = {
+    id = XKS.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.4 FROM = [From.GetName]" }
+	title = XKS.4.t
+	desc = XKS.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.4.a
+		TIB = {
+			country_event = { id = TIB.1 days = 1 }
+			}
+	}
+	
+}
+country_event = {
+    id = XKS.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.5 FROM = [From.GetName]" }
+	title = XKS.5.t
+	desc = XKS.5.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.5.a
+	}
+	
+}
+country_event = {
+    id = XKS.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS.6 FROM = [From.GetName]" }
+	title = XKS.6.t
+	desc = XKS.6.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS.6.a
+	}
+	
+}
+country_event = {
+    id = XKS_sichuan.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS_sichuan.1 FROM = [From.GetName]" }
+	title = XKS_sichuan.1.t
+	desc = XKS_sichuan.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS_sichuan.1.a
+		XKS = {
+		    remove_state_core = 601
+			remove_state_core = 752
+			add_state_claim = 601
+			add_state_claim = 752
+		}
+		CJF = {
+		    annex_country = { target = XKS transfer_troops = yes }
+			add_state_core = 601
+			add_state_core = 752
+		}
+		CJF = { set_cosmetic_tag = SNG }
+		
+	}
+	
+}
+country_event = {
+    id = XKS_sichuan.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS_sichuan.2 FROM = [From.GetName]" }
+	title = XKS_sichuan.2.t
+	desc = XKS_sichuan.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS_sichuan.2.a
+		XKS = {
+			country_event = { id = XKS_sichuan.3 days = 7 }
+			}
+	}
+	
+}
+country_event = {
+    id = XKS_sichuan.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS_sichuan.3 FROM = [From.GetName]" }
+	title = XKS_sichuan.3.t
+	desc = XKS_sichuan.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS_sichuan.3.a
+		add_political_power = 50
+	}
+	
+}

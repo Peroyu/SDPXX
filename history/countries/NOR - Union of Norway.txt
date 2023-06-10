@@ -1,0 +1,41 @@
+capital = 325 
+
+obb = "NOR_1947"  
+
+set_research_slots = 3
+
+set_war_support = 0.7 
+set_stability = 0.5 
+
+
+set_politics = {
+	ruling_party =social_democracy 
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+onlooker_of_the_revolutionary_war
+}
+set_popularities = {
+ moderate_socialism = 7
+ committee_communism = 3
+ communism = 1
+ nationalism = 14
+ reactionism = 16
+ conservatism = 19
+ liberalism = 14
+ social_democracy = 26
+}
+
+
+create_country_leader = {
+	name = "NOR_Haakon_VII"  
+	desc = "NOR_Haakon_VII_desc"  
+	picture = "gfx/leaders/EU/portrait_NOR_Haakon_VII.png"  
+	expire = "1980.5.4"  
+	ideology = social_reformism 
+	traits = {   
+		
+	}
+}

@@ -1,0 +1,72 @@
+ideas = {
+	country = {
+		JIN_mountains_and_rivers = {
+		    name = JIN_mountains_and_rivers
+			picture = JIN_mountains_and_rivers
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				max_dig_in_factor = 0.05
+				army_core_defence_factor = 0.1
+				ai_focus_defense_factor = 0.5
+				defensive_war_stability_factor = 0.1
+			}
+		}
+		JIN_Opium_Trade = {
+		    name = JIN_Opium_Trade
+			picture = JIN_Opium_Trade
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				army_org_factor = -0.15
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		JIN_industry_of_shanxi = {
+		    name = JIN_industry_of_shanxi
+			picture = JIN_industry_of_shanxi
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				industrial_concern_cost_factor = -0.15
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		JIN_servive_ideal = {
+		    name = JIN_servive_ideal
+			picture = JIN_servive_ideal
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				ai_focus_defense_factor = 0.5
+				ai_focus_aggressive_factor = -0.5
+				opinion_gain_monthly_factor = 0.5
+			}
+		}
+		JIN_village_capitalism = {
+		    name = JIN_village_capitalism
+			picture = JIN_village_capitalism
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.15
+				min_export = -0.25
+				global_building_slots_factor = 0.1
+			}
+		}
+	}
+}

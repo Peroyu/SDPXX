@@ -1,0 +1,39 @@
+capital = 325 # 
+
+obb = "RHO_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.4 # 
+set_stability = 0.5 # 
+
+CAN = {
+	puppet = RHO
+}
+set_politics = {
+	ruling_party = nationalism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ nationalism = 32
+ reactionism = 31
+ conservatism = 19
+ restoratveism = 18
+}
+
+# 
+create_country_leader = {
+	name = "温斯顿·丘吉尔"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1962.9.2"  # 
+	ideology = nationalism # 
+	traits = {  # 
+		#
+	}
+}

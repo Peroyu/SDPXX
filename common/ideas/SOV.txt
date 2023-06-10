@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		SOV_legacy_of_the_second_revolutionary_war = {
+		    name = SOV_legacy_of_the_second_revolutionary_war
+			picture = GFX_SOV_legacy_of_the_second_revolutionary_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_advisor_cost_factor = -0.15
+				political_power_gain = -0.03
+			}
+		}
+		SOV_great_red_october = {
+		    name = SOV_great_red_october
+			picture = GFX_idea_SOV_great_red_october
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				communism_drift = 0.02
+				committee_communism_drift = 0.01
+				moderate_socialism_drift = 0.01
+				political_power_gain = 0.05
+			}
+		}
+		SOV_weakly_trasportation = {
+		    name = SOV_weakly_trasportation
+			picture = GFX_idea_SOV_weakly_trasportation
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				attrition = 0.1
+				
+			}
+		}
+		SOV_NPEC = {
+		    name = SOV_NPEC
+			picture = GFX_idea_SOV_NPEC
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.12
+				global_building_slots_factor = 0.1
+				local_resources_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}

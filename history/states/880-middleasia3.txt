@@ -1,0 +1,26 @@
+
+state={
+	id=880
+	name="锡尔河口"
+	provinces={
+		 4300 4374 4581 4638 7243 7486
+	}
+	history={
+		owner = TRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+		victory_points = { 
+			
+		}
+		add_core_of = TRU
+	}
+
+	manpower=80000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,39 @@
+capital = 325 
+obb = "LIT_1947"  
+
+set_research_slots = 3 
+
+set_war_support = 0.8 
+set_stability = 0.8 
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+loser_of_the_revolutionary_war
+}
+set_popularities = {
+ 	moderate_socialism = 13
+ 	committee_communism = 14
+ 	communism = 23
+ 	conservatism = 12
+ 	nationalism = 17
+ 	reactionism = 11
+ 	Liberalism = 4
+ 	movement_communism = 2
+	social_democracy = 4
+}
+
+
+create_country_leader = {
+	name = "安塔纳斯·斯涅齐库斯"  
+	desc = "LIT_Antanas_Snieckus_desc"  
+	picture = "gfx/leaders/SOV/Antanas_Snieckus.png"  
+	expire = "1974.1.22"  
+	ideology = leninism 
+	traits = {  }
+}

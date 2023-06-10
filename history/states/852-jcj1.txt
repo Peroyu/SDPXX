@@ -1,0 +1,21 @@
+
+state={
+	id=852
+	name="STATE_852"
+	history={
+		owner = FNC
+		add_core_of = FNC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	state_category=rural
+	provinces={
+		4093 4208 6828 10053 12026 
+	}
+	manpower=354210
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

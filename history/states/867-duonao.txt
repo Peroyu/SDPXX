@@ -1,0 +1,28 @@
+
+state={
+	id=867
+	name="北多布罗加"
+	provinces={
+		9635 3076 687 
+	}
+	history={
+		owner = ROM
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		victory_points = { 
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+		add_claim_by = BUL
+
+	}
+
+	manpower=50000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

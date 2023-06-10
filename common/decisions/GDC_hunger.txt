@@ -1,0 +1,23 @@
+GDC_hunger = {                               
+    crop_decrase = { 
+	      icon = decision_generic_prepare_civil_war
+          available = {                           
+			Not = { has_country_flag = GDC_hunger_away }
+          }
+		  visible = {
+		   
+		  }
+		  cancel_trigger = {
+		   
+		  }
+          is_good = no    
+		  fire_only_once = no             
+          days_mission_timeout = 15              
+          timeout_effect = {     
+			
+		  }
+          complete_effect = {                   
+                
+          }
+        }
+    }

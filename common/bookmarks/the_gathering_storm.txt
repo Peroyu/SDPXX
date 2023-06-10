@@ -1,0 +1,103 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1947.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "MMA"
+		default = yes
+		
+		"MMA"={
+			history = "MMA_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			 MMA_Northwest_Cavalry
+	         MMA_Road_to_the_North
+	         MMA_Mabufang
+				
+			}
+			focuses = {
+			 
+			}
+		}
+		"DJF"={
+			history = "DJF_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			 DJF_Xi_Nan_Lian_Da_1
+			 DJF_Opium_Trade
+			 DJF_Dian_Army
+			}
+			focuses = {
+			}
+		}
+		"XKS"={
+			history = "XKS_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			 
+			 	
+			}
+			focuses = {
+			 Light_up_the_mountains
+			 Check_Chuankang_highway
+			}
+		}
+		"GDC"={
+			history = "GDC_GATHERING_STORM_DESC"
+			ideology = communism
+			available = {}
+			ideas = {
+			 GDC_Iron_Cage
+			 GDC_Rectification_Movement
+			 GDC_Red_Army_and_Red_Region
+			 GDC_Conflicts_with_Natives
+			}
+			focuses = {
+			 GDC_united_together
+			 GDC_make_ourself_the_wall_of_motherland
+			 GDC_develop_Liu_Zhou
+			}
+		}
+		"CJF"={
+			history = "CJF_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			 CJF_unacknowlaged_power
+	         CFJ_wreckage_of_NRA
+	         CJF_the_trade_of_opium
+			 	
+			}
+			focuses = {
+			 CJF_President_Li_Jishen
+			 CJF_KMT_emergency_congress
+			 CJF_President_Zhang_Qun
+			}
+		}
+		"RCR"={
+			history = "RCR_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = reactionism
+			available = {}
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+				"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

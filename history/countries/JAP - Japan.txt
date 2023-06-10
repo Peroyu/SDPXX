@@ -1,0 +1,49 @@
+﻿capital = 282
+
+oob = "JAP_1947"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+create_faction = "大东亚共荣圈"
+add_to_faction = RCR
+add_to_faction = FNC
+add_to_faction = MAN
+add_to_faction = MEN
+add_to_faction = VIN
+add_to_faction = CAB
+add_to_faction = IND
+add_to_faction = SHA
+add_to_faction = THA
+add_to_faction = BUR
+
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	reactionism = 12
+	nationalism = 25
+	restorativeism = 13
+	conservatism = 15
+	movement_communism = 20
+	Liberalism = 9
+	social_democracy = 6
+}
+create_country_leader = {
+		name = "JAP_Hirohito"   
+		desc = "JAP_Hirohito_desc"  
+		picture = "gfx/leaders/JAP/portrait_JAP_Hirohito.png"   
+		expire = "1989.1.7"   
+		ideology = state_capitalism 
+		traits = {  }
+	}
+

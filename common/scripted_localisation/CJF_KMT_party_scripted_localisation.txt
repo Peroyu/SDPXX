@@ -1,0 +1,43 @@
+defined_text = {
+	name = GetCJFKMT1
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT1 value = 1 compare = equals }
+		}
+		localization_key = CJF_KMT1_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT1 value = 2 compare = equals }
+		}
+		localization_key = CJF_KMT1_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT1 value = 3 compare = equals }
+		}
+		localization_key = CJF_KMT1_3_text
+	}
+}
+
+defined_text = {
+	name = GetCJFKMT2
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT2 value = 1 compare = equals }
+		}
+		localization_key = CJF_KMT2_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT2 value = 2 compare = equals }
+		}
+		localization_key = CJF_KMT2_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT2 value = 3 compare = equals }
+		}
+		localization_key = CJF_KMT2_3_text
+	}
+}

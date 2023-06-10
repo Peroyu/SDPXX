@@ -1,0 +1,34 @@
+capital = 100 # 
+
+obb = "NAT_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.5 # 
+set_stability = 0.3 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ reactionism = 50
+ conservatism = 25
+ liberal = 25
+}
+
+# 
+create_country_leader = {
+	name = "詹姆斯·范弗里特"  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1992.4.30"  # 
+	ideology = reactionism # 
+	traits = {  # 
+		#
+	}
+}

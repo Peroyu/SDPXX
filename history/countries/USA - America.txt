@@ -1,0 +1,79 @@
+capital = 361 # 首都地块
+
+obb = "empty"  # 军队文件
+
+set_research_slots = 4
+ # 设定科研槽
+
+set_war_support = 0.6 # 设置战争支持度
+set_stability = 0.8 # 设置稳定度
+
+# 设置执政党以及选举
+set_politics = {
+	ruling_party = movement_communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+ communism = 4
+ committee_communism = 5
+ moderate_socialism = 5
+ social_democracy = 10
+ Liberalism = 14
+ movement_communism = 30
+ conservatism = 13
+ reactionism = 8
+ nationalism = 7
+ restorativeism = 4
+}
+add_ideas = {
+	USA_gov_citizens_company
+	USA_ghost_of_Jim_crow
+	USA_brave_new_world
+	USA_legacy_of_new_deal
+	USA_monroe_doctrine
+	USA_three_soildiers
+}
+# 设置领导人
+create_country_leader = {
+	name = "哈里·S·杜鲁门"  # 领导人名称
+	desc = "USA_Truman_desc"  # 人物介绍
+	picture = "portrait_USA_Harry_Truman"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Progressive_Conservatusm # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+create_country_leader = {
+	name = "厄普顿·辛克莱尔"  # 领导人名称
+	desc = ""  # 人物介绍
+	picture = ""  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = parliamentary_communism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+create_country_leader = {
+	name = "埃尔默·本森"  # 领导人名称
+	desc = ""  # 人物介绍
+	picture = ""  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = left_social_democracy # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+create_country_leader = {
+	name = "托马斯·杜威"  # 领导人名称
+	desc = ""  # 人物介绍
+	picture = ""  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = liberal_democracy # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}

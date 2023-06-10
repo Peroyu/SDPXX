@@ -1,0 +1,103 @@
+ideas = {
+	head_of_government = { ### Head of Government ###
+		GDC_Li_Jishen = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Li_Jishen"
+			}
+			traits = {
+				head_of_government
+				LKMT_old_Comrades
+			}
+		}
+	}
+	person_of_dip = { ### person of dip ###
+		GDC_Zhou_Enlai = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Zhou_Enlai"
+			}
+			traits = {
+				person_of_dip
+				dip_master
+			}
+		}
+
+	}
+	person_of_arm = { ### person of arm ###
+		GDC_Deng_YanDa = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Deng_YanDa"
+			}
+			traits = {
+				person_of_arm
+				wind_and_sky
+			}
+		}
+
+	}
+	person_of_eco = { ### person of eco ###
+		GDC_Yang_Baoan = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Yang_Baoan"
+			}
+			traits = {
+				person_of_eco
+				culture_poineer
+			}
+		}
+		GDC_Mao_Zedong = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Mao_Zedong"
+			}
+			traits = {
+				person_of_eco
+				rural_movement
+			}
+		}
+		GDC_Peng_Pai = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Peng_Pai"
+			}
+			traits = {
+				person_of_eco
+				rural_radicals
+			}
+		}
+
+	}
+}	

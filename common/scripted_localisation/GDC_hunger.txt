@@ -1,0 +1,157 @@
+defined_text = {
+	name = GDC_hunger_rural
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_rural_hunger_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_rural_hunger_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_rural_hunger_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 60
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_rural_hunger_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_rural_hunger
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_rural_hunger_5
+	}
+}
+defined_text = {
+	name = GDC_hunger_city
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_city_hunger_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_city_hunger_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_city_hunger_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 60
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_city_hunger_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = GDC_city_hunger
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = GDC_city_hunger_5
+		}
+	}
+}

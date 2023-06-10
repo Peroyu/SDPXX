@@ -1,0 +1,31 @@
+capital = 219
+
+set_research_slots = 4 
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = Restorativeism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 67
+	democracy_communism = 21
+    left_radicalism = 12
+}
+
+
+create_country_leader = {
+	name = "保大皇帝"
+	desc = "/"  
+	picture = "/"  
+	expire = "1952.7.10"  
+	ideology = traditional_despotism 
+	traits = { 
+		
+	}
+}

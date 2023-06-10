@@ -1,0 +1,40 @@
+capital = 419 # 
+
+obb = "IRA_1947"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.3 # 
+
+# 
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ 	communism = 2
+	committee_communism = 1
+	moderate_socialism = 7
+	Liberalism = 3
+	movement_communism = 5
+	conservatism = 36
+	reactionism = 20
+	nationalism = 18
+	restorativeism = 10
+}
+
+# 
+create_country_leader = {
+	name = "礼萨·巴列维"  # 
+	desc = "/"  # 
+	picture = Reza_Pahlavi # 
+	expire = "1983.5.16"  # 
+	ideology = authoritarian_democracy # 
+	traits = {  # 
+		#
+	}
+}

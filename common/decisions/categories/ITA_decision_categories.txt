@@ -1,0 +1,15 @@
+ITA_decision_categories = {
+	    icon = GFX_MMA_gongshukm
+		available = {
+	       
+		}
+		visible = {
+           
+        }
+		cancel_trigger = {
+          
+        }
+		scripted_gui = SDP_ita
+        priority = 1000
+		allowed = { original_tag = ITA }
+    }

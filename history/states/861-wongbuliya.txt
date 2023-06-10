@@ -1,0 +1,25 @@
+
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = ITA
+		victory_points = {
+			3885 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		3885 9750 9879 
+	}
+	manpower=800000
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

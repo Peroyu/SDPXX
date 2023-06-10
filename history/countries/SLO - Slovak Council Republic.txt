@@ -1,0 +1,39 @@
+capital = 325 # 
+
+obb = "SLO_1947" 
+
+set_research_slots = 3 
+
+set_war_support = 0.4 
+set_stability = 0.7
+
+
+set_politics = {
+	ruling_party = moderate_socialism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+add_ideas = {
+participant_of_the_revolutionary_war
+}
+set_popularities = {
+ committee_communism = 5
+ communism = 12
+ moderate_socialism = 8
+ social_democracy = 6
+ Liberalism = 7
+ conservatism = 6
+ reactionism = 21 
+ nationalism = 35
+}
+
+
+create_country_leader = {
+	name = "斯洛伐克执政委员会"  
+	desc = "SLO_council_desc"  
+	picture = "gfx\leaders\EU\SLO_council.png"  
+	expire = "1963.8.3"  
+	ideology = reformed_socialism
+	traits = {  }
+}

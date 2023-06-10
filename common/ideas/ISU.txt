@@ -1,0 +1,132 @@
+ideas = {
+    country = {
+        victor_of_the_revolutionary_war = {
+            name = victor_of_the_revolutionary_war
+            picture = GFX_idea_victor_of_the_revolutionary_war
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.15
+				monthly_population = -0.2
+				war_support_factor = -0.2
+				mobilization_speed = -0.3
+			}
+	    
+		}
+	loser_of_the_revolutionary_war = {
+            name = loser_of_the_revolutionary_war
+            picture = GFX_idea_loser_of_the_revolutionary_war
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = -0.25
+				consumer_goods_factor = 0.2
+				conscription_factor = -0.2
+			}
+	    
+		}
+	onlooker_of_the_revolutionary_war = {
+            name = onlooker_of_the_revolutionary_war
+            picture = GFX_idea_onlooker_of_the_revolutionary_war
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = -0.1
+			}
+	    
+		}
+	participant_of_the_revolutionary_war = {
+            name = participant_of_the_revolutionary_war
+            picture = GFX_idea_participant_of_the_revolutionary_war
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.2
+			}
+	    
+		}
+	main_committee_of_third_internationale = {
+            name = main_committee_of_third_internationale
+            picture = GFX_idea_main_committee_of_third_internationale
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.03
+			}
+	    
+		}
+	dream_of_international = {
+            name = dream_of_international
+            picture = GFX_idea_dream_of_international
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = -0.05
+				political_power_gain = 0.01
+				opinion_gain_monthly_factor = 0.3
+			}
+	    
+		}
+	potstan_declaration = {
+            name = potstan_declaration
+            picture = GFX_idea_potstan_declaration
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				stability_factor = -0.05
+				opinion_gain_monthly_factor = 0.1
+				political_power_gain = -0.01
+			}
+	    
+		}
+	all_eye_sights = {
+            name = all_eye_sights
+            picture = GFX_idea_all_eye_sights
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				civilian_factory_use = 1
+				political_power_gain = 0.01
+			}
+	    
+		}
+	}
+}
+
+
+   

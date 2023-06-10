@@ -1,0 +1,36 @@
+capital = 611 # 首都地块
+
+obb = "MEN_1947"  # 军队文件
+
+set_research_slots = 2 # 设定科研槽
+
+set_war_support = 0.4 # 设置战争支持度
+set_stability = 0.5 # 设置稳定度
+
+# 设置执政党以及选举
+
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalism = 25
+	reactionism = 55
+	conservatism = 5
+	communism = 5
+	Liberalism = 5
+	restorativeism = 5
+}
+
+# 设置领导人
+create_country_leader = {
+	name = "徳穆楚克栋鲁普亲王"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "portrait_dewang"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = state_capitalism 
+	traits = { 
+	}
+}
