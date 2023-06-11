@@ -359,8 +359,20 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_A"
+		texturefile = "gfx/interface/ideas/GDC/GDC_KMT_CPC_A.png"
+	}
+	spriteType = {
 		name = "GFX_idea_GDC_Conflicts_with_Natives"
 		texturefile = "gfx/interface/ideas/GDC/GFX_GDC_Conflicts_with_Natives.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_hunger"
+		texturefile = "gfx/interface/ideas/GDC/GDC_hunger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_none_pact_peace"
+		texturefile = "gfx/interface/ideas/GDC/GDC_none_pact_peace.png"
 	}
 	
 ####################HUN#########################
@@ -388,5 +400,36 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_HUN_brocken_policy"
 		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_brocken_policy.png"
+	}
+	
+############USA
+	spriteType = {
+		name = "GFX_idea_USA_monroe_doctrine"
+		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_monroe_doctrine.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_gov_citizens_company"
+		texturefile = "gfx/interface/ideas/USA/GFX_USA_gov_citizens_company.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_brave_new_world"
+		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_brave_new_world.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_legacy_of_new_deal"
+		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_legacy_of_new_deal.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_three_soildiers"
+		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_three_soildiers.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_ghost_of_Jim_crow"
+		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_ghost_of_Jim_crow.png"
 	}
 }
