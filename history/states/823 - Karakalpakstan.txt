@@ -9,7 +9,7 @@ state = {
 			1614 1
 		}
 		
-		owner = KHO
+		owner = TRU
 		
 		buildings = {
 			infrastructure = 2
