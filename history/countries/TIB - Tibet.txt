@@ -22,7 +22,7 @@ create_country_leader = {
 	desc = "/"  
 	picture = "GFX_TIB_Namgyal"  
 	expire = "1985.1.1"  
-	ideology = tribalism 
+	ideology = Fundamentalism 
 	traits = {  
 		
 	}
