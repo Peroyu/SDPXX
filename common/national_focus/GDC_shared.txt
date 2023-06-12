@@ -9,7 +9,11 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-			
+			country_event = { 
+				days = 1  id = GDCintro.2
+				}
+			add_stability = 0.1
+			add_political_power = 10
 		}
     }
 shared_focus = {
@@ -20,6 +24,10 @@ shared_focus = {
 		x = 6
 		y = 1
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDCintro.4
+				}
+			army_experience = 20
 		}
 		prerequisite = {
 		       focus = GDC_ten_years_war
@@ -34,6 +42,11 @@ shared_focus = {
 		x = 6
 		y = 2
 		completion_reward = {
+			custom_effect_tooltip = GDC_NRA_the_first_costom
+			swap_ideas = {
+				add_idea = GDC_Iron_Cage_2
+				remove_idea = GDC_Iron_Cage_1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_enemy_in_front_of_us
@@ -48,6 +61,41 @@ shared_focus = {
 		x = 4
 		y = 3
 		completion_reward = {
+			add_ideas = GDC_liangguang_milltary_contrbute_1
+			division_template = {
+				name = "Qv Da Dui"
+				division_names_group = GDC_INF_01
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+				}
+				template_counter = 68
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
 		}
 		prerequisite = {
 		       focus = GDC_enemy_in_front_of_us
@@ -64,6 +112,7 @@ shared_focus = {
 		x = 4
 		y = 4
 		completion_reward = {
+				add_stability = 0.01
 		}
 		prerequisite = {
 		       focus = GDC_all_soldiers
@@ -78,6 +127,14 @@ shared_focus = {
 		x = 4
 		y = 5
 		completion_reward = {
+			army_experience = 20
+			country_event = { 
+				days = 1  id = GDCarm.1
+				}
+			swap_ideas = {
+				add_idea = GDC_liangguang_milltary_contrbute_2
+				remove_idea = GDC_liangguang_milltary_contrbute_1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_call_the_soldiers
@@ -107,6 +164,17 @@ shared_focus = {
 		x = 8
 		y = 3
 		completion_reward = {
+			add_command_power = 20
+			create_corps_commander = {
+				name = "GDC_BaiChongXi"
+				portrait_path = "gportrait_GDC_BaiChongXi"
+				traits = {  }
+				skill = 2
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
 		}
 		prerequisite = {
 		       focus = GDC_enemy_in_front_of_us
@@ -199,6 +267,11 @@ shared_focus = {
 		x = 14
 		y = 1
 		completion_reward = {
+			add_political_power = 20
+			country_event = { 
+				days = 1  id = GDCintro.3
+				}
+			unlock_decision_category_tooltip = GDC_hunger #解锁粮食危机
 		}
 		prerequisite = {
 		       focus = GDC_ten_years_war
@@ -213,6 +286,10 @@ shared_focus = {
 		x = 12
 		y = 2
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.1
+				}
+			set_country_flag = GDC_LKMT_tanpingshan_begin
 		}
 		prerequisite = {
 		       focus = GDC_disaster_in_front_of_us
@@ -232,6 +309,11 @@ shared_focus = {
 		x = 12
 		y = 4
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.4
+				}
+			add_political_power = -15
+			add_stability = 0.025
 		}
 		prerequisite = {
 		       focus = GDC_Zhang_Bojun_focus
@@ -246,6 +328,9 @@ shared_focus = {
 		x = 12
 		y = 6
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.6
+				}
 		}
 		prerequisite = {
 		       focus = GDC_system_aid
@@ -260,11 +345,15 @@ shared_focus = {
 shared_focus = {
         id = GDC_to_present_Sun
 		icon = GFX_GDC_to_present_Sun
-		cost = 5
+		cost = 0
 		available_if_capitulated = no
 		x = 11
 		y = 7
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.7
+				}
+			custom_effect_tooltip = GDC_Sun_call
 		}
 		prerequisite = {
 		       focus = GDC_call_the_phone
@@ -276,11 +365,15 @@ shared_focus = {
 shared_focus = {
         id = GDC_to_present_Chen
 		icon = GFX_GDC_to_present_Chen
-		cost = 5
+		cost = 0
 		available_if_capitulated = no
-		x = 11
+		x = 13
 		y = 7
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.8
+				}
+			custom_effect_tooltip = GDC_Chen_call
 		}
 		prerequisite = {
 		       focus = GDC_call_the_phone
@@ -297,6 +390,12 @@ shared_focus = {
 		x = 12
 		y = 9
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.9
+				}
+			add_political_power = 15
+			add_war_support = 0.05
+			add_stability = 0.05
 		}
 		prerequisite = {
 		       focus = GDC_to_present_Chen
@@ -312,6 +411,11 @@ shared_focus = {
 		x = 10
 		y = 3
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.2
+				}
+			add_political_power = 15
+			add_ideas = GDC_risen_money
 		}
 		prerequisite = {
 		       focus = GDC_Zhang_Bojun_focus
@@ -326,6 +430,10 @@ shared_focus = {
 		x = 10
 		y = 5
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.5
+				}
+			add_stability = 0.05
 		}
 		prerequisite = {
 		       focus = GDC_rise_money_in_coucil
@@ -340,6 +448,10 @@ shared_focus = {
 		x = 16
 		y = 2
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDCmcpc.1
+				}
+			set_country_flag = GDC_MCPC_chenyun_begin
 		}
 		prerequisite = {
 		       focus = GDC_disaster_in_front_of_us
@@ -359,6 +471,9 @@ shared_focus = {
 		x = 16
 		y = 4
 		completion_reward = {
+			custom_effect_tooltip = GDC_start_our_way
+			add_ideas = GDC_independent_ecnomy_1
+			add_stability = -0.15
 		}
 		prerequisite = {
 		       focus = GDC_Chen_Yun_focus
@@ -373,6 +488,23 @@ shared_focus = {
 		x = 16
 		y = 6
 		completion_reward = {
+			add_stability = -0.03
+			country_event = { 
+				days = 1  id = GDCmcpc.2
+				}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			swap_ideas = {
+				add_idea = GDC_independent_ecnomy_2
+				remove_idea = GDC_independent_ecnomy_1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_only_ourselves
@@ -387,6 +519,8 @@ shared_focus = {
 		x = 16
 		y = 8
 		completion_reward = {
+			add_ideas = GDC_voice_of_reformation_1
+			country_event = { days = 1 id = GDCmcpc.3 }
 		}
 		prerequisite = {
 		       focus = GDC_more_steps
@@ -404,6 +538,27 @@ shared_focus = {
 		x = 16
 		y = 9
 		completion_reward = {
+			add_political_power = 50
+			add_ideas = GDC_cage_bird_ecnomy_idea
+			remove_ideas = GDC_independent_ecnomy_3
+			remove_ideas = GDC_voice_of_reformation_2
+			custom_effect_tooltip = GDC_BIRD_FLY
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes 
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes 
+				}
+			}
 		}
 		prerequisite = {
 		       focus = GDC_egality_market
@@ -418,6 +573,11 @@ shared_focus = {
 		x = 14
 		y = 3
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClkmt.3
+				}
+			add_stability = 0.05
+			custom_effect_tooltip = GDC_buil_dams
 		}
 		prerequisite = {
 		       focus = GDC_Zhang_Bojun_focus
@@ -433,12 +593,29 @@ shared_focus = {
 		x = 14
 		y = 5
 		completion_reward = {
+			add_political_power = 15
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+					}
+				}		
+		
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+					}
+				}		
 		}
 		prerequisite = {
 		       focus = GDC_promote_dams
 	    }
-
-    }
+	}
 shared_focus = {
         id = GDC_knok_the_door
 		icon = GFX_GDC_knok_the_door
@@ -447,6 +624,11 @@ shared_focus = {
 		x = 14
 		y = 7
 		completion_reward = {
+			country_event = { days = 1 id = GDCmcpc.4 }
+			swap_ideas = {
+			add_idea = GDC_voice_of_reformation_2
+			remove_idea = GDC_voice_of_reformation_1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_organise_ferterlises
@@ -461,6 +643,29 @@ shared_focus = {
 		x = 18
 		y = 3
 		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+					}
+				}	
+			if = {
+				limit = {
+					has_country_flag = GDC_LKMT_pengpai_begin
+				}
+				add_stability = -0.05
+				add_political_power = -10
+			}
+			else_if = {
+				limit = {
+					has_country_flag = GDC_MCPC_chenyun_begin
+				}
+				add_stability = 0.05
+				add_political_power = -10
+			}
+			custom_effect_tooltip = GDC_ensure_ourrself_1
 		}
 		prerequisite = {
 		       focus = GDC_Peng_Pai_focus
@@ -476,6 +681,10 @@ shared_focus = {
 		x = 18
 		y = 5
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClcpc.3
+				}
+			add_stability = -0.025
 		}
 		prerequisite = {
 		       focus = GDC_broden_and_ensure
@@ -490,6 +699,13 @@ shared_focus = {
 		x = 18
 		y = 7
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClcpc.5
+				}
+			add_timed_idea = { 
+				idea = GDC_decreasing_rents_idea 
+				days = 180 
+				}
 		}
 		prerequisite = {
 		       focus = GDC_golden_drink_with_you
@@ -504,6 +720,10 @@ shared_focus = {
 		x = 20
 		y = 2
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDClcpc.1
+				}
+			set_country_flag = GDC_LKMT_pengpai_begin
 		}
 		prerequisite = {
 		       focus = GDC_disaster_in_front_of_us
@@ -523,6 +743,11 @@ shared_focus = {
 		x = 20
 		y = 4
 		completion_reward = {
+			add_ideas = GDC_cooperation_attemptation_1
+			country_event = { 
+				days = 1  
+				id = GDClcpc.2
+				}
 		}
 		prerequisite = {
 		       focus = GDC_Peng_Pai_focus
@@ -537,6 +762,8 @@ shared_focus = {
 		x = 20
 		y = 6
 		completion_reward = {
+			add_political_power = 20
+			custom_effect_tooltip = GDC_our_the_har_work
 		}
 		prerequisite = {
 		       focus = GDC_bolshve_farming_union
@@ -551,6 +778,7 @@ shared_focus = {
 		x = 20
 		y = 8
 		completion_reward = {
+			add_political_power = 20
 		}
 		prerequisite = {
 		       focus = GDC_land_revolution
@@ -565,6 +793,8 @@ shared_focus = {
 		x = 22
 		y = 3
 		completion_reward = {
+			add_stability = -0.05
+			add_political_power = -25
 		}
 		prerequisite = {
 		       focus = GDC_Peng_Pai_focus
@@ -579,6 +809,12 @@ shared_focus = {
 		x = 22
 		y = 5
 		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -25
+			country_event = { 
+				days = 1  id = GDClcpc.4
+				}
+			custom_effect_tooltip = GDC_destory_order_to_get_crops_costom
 		}
 		prerequisite = {
 		       focus = GDC_larger_farming_groups
@@ -593,6 +829,13 @@ shared_focus = {
 		x = 22
 		y = 7
 		completion_reward = {
+			add_timed_idea = { 
+				idea = GDC_moving_countryside 
+				days = 180 
+				}
+			remove_ideas = GDC_Conflicts_with_Natives
+			army_experience = -20
+			custom_effect_tooltip = GDC_NRA_faer
 		}
 		prerequisite = {
 		       focus = GDC_shoot_them_all
@@ -607,6 +850,12 @@ shared_focus = {
 		x = 20
 		y = 9
 		completion_reward = {
+			add_political_power = 25
+			swap_ideas = {
+				add_idea = GDC_cooperation_attemptation_2
+				remove_idea = GDC_cooperation_attemptation_1
+			}
+			custom_effect_tooltip = GDC_begin_the_experiment
 		}
 		prerequisite = {
 		       focus = GDC_farmers_had_lands
@@ -623,7 +872,16 @@ shared_focus = {
 		available_if_capitulated = no
 		x = 16
 		y = 10
+		available = {
+			has_country_flag = GDC_hunger_away
+		}
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDC.3
+				}
+			custom_effect_tooltip = GDC_statrt_the_route
+			remove_ideas = GDC_hunger
+			clr_country_flag = GDC_hunger_away
 		}
 		prerequisite = {
 		       focus = GDC_bird_in_cage
