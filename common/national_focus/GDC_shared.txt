@@ -88,14 +88,6 @@ shared_focus = {
 					owner = GDC
 				}
 			}
-			random_owned_controlled_state = {
-				prioritize = { 195 }
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
-					owner = GDC
-				}
-			}
 		}
 		prerequisite = {
 		       focus = GDC_enemy_in_front_of_us
@@ -149,6 +141,9 @@ shared_focus = {
 		x = 6
 		y = 4
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDCarm.2
+				}
 		}
 		prerequisite = {
 		       focus = GDC_all_soldiers
@@ -163,6 +158,11 @@ shared_focus = {
 		available_if_capitulated = no
 		x = 8
 		y = 3
+		available = {
+			has_country_flag = {
+				NOT = { GDC_LKMT_pengpai_begin }
+			} 
+		}
 		completion_reward = {
 			add_command_power = 20
 			create_corps_commander = {
@@ -175,6 +175,7 @@ shared_focus = {
 				planning_skill = 3
 				logistics_skill = 4
 			}
+			custom_effect_tooltip = GDC_giveway_to_Gui_league
 		}
 		prerequisite = {
 		       focus = GDC_enemy_in_front_of_us
@@ -191,6 +192,8 @@ shared_focus = {
 		x = 8
 		y = 4
 		completion_reward = {
+			add_war_support = 0.2
+			add_ideas = GDC_enthusiasm_national
 		}
 		prerequisite = {
 		       focus = GDC_feed_wolves
@@ -205,6 +208,35 @@ shared_focus = {
 		x = 8
 		y = 5
 		completion_reward = {
+			army_experience = 20
+			add_political_power = -15
+			country_event = { 
+				days = 1  id = GDCarm.3
+				}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Qv Da Dui"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
 		}
 		prerequisite = {
 		       focus = GDC_call_enthusiasm
@@ -219,13 +251,20 @@ shared_focus = {
 		x = 7
 		y = 7
 		completion_reward = {
+			custom_effect_tooltip = GDC_link_mingan_plan
+			country_event = { 
+				days = 1  id = GDCarm.4
+				}
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
 					state = 899
 					num_provinces = 10121
-					on_win = GDC_link_mingan_conflict.1
+					on_win =  GDC_link_mingan_conflict.1
+					
 					on_lose = GDC_link_mingan_conflict.2
+						
+					
 				}
 				defender = {
 					state = 728
@@ -253,6 +292,7 @@ shared_focus = {
 		x = 7
 		y = 9
 		completion_reward = {
+			custom_effect_tooltip = GDC_we_together
 		}
 		prerequisite = {
 		       focus = GDC_break_through_mingan
@@ -897,9 +937,10 @@ shared_focus = {
 		x = 10
 		y = 11
 		completion_reward = {
+			
 		}
 		allow_branch = {
-		has_war_with = GNP
+			has_war_with = GNP
 	    }
 		prerequisite = {
 			   focus = GDC_hard_risen_the_state
