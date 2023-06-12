@@ -136,7 +136,6 @@ country_event = {
 		    transfer_state = 838
 			add_state_core = 838
 		}
-		load_oob = GDC_xiangnan
 	}
 	
 }
@@ -181,6 +180,29 @@ country_event = {
 	}
     option = { 
         name = GDC.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		
+	}
+    
+}
+country_event = {
+	id = GDC.4 #广州城下的抉择
+    picture = GFX_xiangnan
+    title = GDC.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    trigger = {has_war_with = GNP}
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDC.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		trigger = {
 			 original_tag = GDC 
 		}
@@ -249,6 +271,79 @@ country_event = {
 	}
     option = { 
         name = GDCarm.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+	}
+    
+}
+country_event = {
+	id = GDCarm.2 #讨论干部队伍
+    picture = GFX_xiangnan
+    title = GDCarm.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCarm.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDCarm.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+	}
+    
+}
+country_event = {
+	id = GDCarm.3 #整编游击队伍
+    picture = GFX_xiangnan
+    title = GDCarm.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCarm.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDCarm.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+	}
+    
+}
+country_event = {
+	id = GDCarm.4 #闽赣战役
+    picture = GFX_xiangnan
+    title = GDCarm.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCarm.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDCarm.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+	}
+    
+}
+country_event = {
+	id = GDCarm.6 #总摊牌
+    picture = GFX_xiangnan
+    title = GDCarm.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCarm.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        declare_war_on = { target = GNP type = annex_everything }
+		name = GDCarm.6.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 	}
     
 }
@@ -630,6 +725,9 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			set_demilitarized_zone = 728
+			GDC = {
+			set_country_flag = GDC_WIN_BORDER
+			}
 		}
 	}
     option = { 
@@ -637,7 +735,6 @@ country_event = {
 		trigger = {
 			 original_tag = GDC 
 		}
-		
 	}
     
 }
@@ -651,7 +748,9 @@ country_event = {
 	hidden = no
 	immediate = {
 	    hidden_effect = {
-			
+			GDC = {
+			set_country_flag = GDC_LOSE_BORDER
+			}
 		}
 	}
     option = { 
@@ -659,7 +758,6 @@ country_event = {
 		trigger = {
 			 original_tag = GDC 
 		}
-		
 	}
     
 }
