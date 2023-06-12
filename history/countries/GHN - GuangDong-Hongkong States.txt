@@ -1,6 +1,6 @@
 ﻿capital = 889
 
-oob = "GNP_1947"
+oob = "empty"
 
 # Starting tech
 set_technology = {
@@ -10,7 +10,7 @@ set_technology = {
 set_war_support = 0.1
 set_stability = 0.8
 
-recruit_character = GNP_Yang_Liuxvm
+
 set_politics = {
 	ruling_party = Liberalism 
 	last_election = "1947.1.1"
@@ -25,14 +25,13 @@ set_popularities = {
 	Nationalism = 11
 }
 add_ideas = {
-GNP_Japenese_millitary_assistance
-GNP_manchuria_industry_assistance
 GNP_Hong_Kong
 }
+recruit_character = GNP_Yang_Liuxvm
 create_country_leader = {
-		name = "周佛海"   
+		name = "省港联合会"   
 		desc = "RCR_Zhou_Fohai_desc"  
-		picture = "gfx/leaders/CHI/portrait_RCR_Zhou_Fohai.png"   
+		picture = "shenggang_council"   
 		expire = "1989.1.7"   
 		ideology = trade_liberalism 
 		traits = {  }

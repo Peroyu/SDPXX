@@ -12,7 +12,7 @@ set_stability = 0.8
 country_event = { id = GDCintro.1 days = 1 }
 	
 set_politics = {
-	ruling_party = communism
+	ruling_party = social_democracy
 	last_election = "1947.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -48,8 +48,6 @@ add_ideas = {
 	#######
 	GDC_KMT_CPC_A
 	GDC_Iron_Cage_1
-	GDC_Rectification_Movement
-	GDC_Red_Army_and_Red_Region
 	GDC_Conflicts_with_Natives
 	GDC_hunger
 	GDC_none_pact_peace
@@ -60,6 +58,14 @@ create_country_leader = {
 		picture = "gfx/leaders/GDC/portrait_Central_Council.png"   
 		expire = "1950.1.1.1"   
 		ideology = leninism
+		traits = {  }
+	}
+create_country_leader = {
+		name = "李济深"   
+		desc = "POLITICS_LI_JISHEN_DESC"  
+		picture = "gfx/leaders/GDC/portrait_Li_Jishen.png"   
+		expire = "1960.1.1.1"   
+		ideology = New_Three_Principles_of_the_People
 		traits = {  }
 	}
 recruit_character = GDC_Cheng_Qian
