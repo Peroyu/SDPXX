@@ -342,7 +342,6 @@ country_event = {
 		}
 	}
     option = { 
-        declare_war_on = { target = GNP type = annex_everything }
 		name = GDCarm.6.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 	}
     
