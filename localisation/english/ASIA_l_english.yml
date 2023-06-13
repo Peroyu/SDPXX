@@ -79,7 +79,19 @@
  JAP_nationalism_party:0"大政翼赞会-军部系"
  JAP_restorativeism_party:0"大政翼赞会-少壮派"
  #决议
- 
+ ASIA_Southeast_asia_conference:"南洋峰会"
+ ASIA_Southeast_asia_conference_desc:"当协约国各国——大英帝国，法兰西共和国和德意志帝国等西方帝国主义在第二次大革命战争中土崩瓦解，许多人开始相信，亚洲诸民族的黎明已经到来。然而，在欧洲已经失败的协约国各国不会白白地向殖民地人民投降，日本作为亚洲最大军事国家则站在南洋大部分反抗者的身后，即将向仍然在南洋苟延残喘的殖民政府发起反抗掠夺的神圣战争。但毫无疑问，南洋战争的爆发只会让欧洲社会主义者得到机会，鉴于严峻的外交形式，美国总统哈里·杜鲁门致电南洋各国，希望能召开一次正式会议解决南洋问题。因此，作为会议的参与者，我们能够将向涉及南洋事务的各方发出邀请共商国是，以争取和平解决南洋问题的一线契机。\n目前的会议召开地为：§H万隆§!\n目前会议状态为：§H准备中§!\n目前加入南洋会议的国家有：\n\n\n"
+ ASIA_the_conference_begain:"南洋会议开始"
+ invite_OCE:"邀请荷兰政府"
+ invite_CAN:"邀请大英帝国国民政府"
+ invite_THA:"邀请暹罗王国政府"
+ invite_AST:"邀请澳大利亚自治领"
+ invite_BOR:"邀请缅甸"
+ invite_ROF:"邀请法兰西共和国国民政府"
+ invite_PHI:"邀请菲律宾共和国"
+ AISA_southasia_conferenceing:"南洋会议正在进行"
+ AISA_southasia_conferenceing_start:"南洋会议已经开始"
+ ASIA_attend_southasia_conference:"参与南洋会议"
  #event
  GNP_Hong_Kong:0"省港保护地"
  GNP_Hong_Kong_desc:0"省港保护地总督部根据1946年大日本帝国颁行的《省港保护地条例》,从联合王国接管并保护香港,从中华民国接管并保护广州市，东莞县，宝安县,为大日本帝国面向南洋之重镇纽带。"
