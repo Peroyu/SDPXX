@@ -257,6 +257,32 @@ country_event = {
     
 }
 country_event = {
+	id = GDC_war.3
+    picture = GFX_xiangnan
+    title = GDC_war.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDC_war.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDC_war.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		load_focus_tree = {
+		        tree = GDC_return_canton
+		        keep_completed = no
+		    }
+	}
+    
+}
+#########################################################################
+country_event = {
 	id = GDCarm.1 #训练民兵
     picture = GFX_xiangnan
     title = GDCarm.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
