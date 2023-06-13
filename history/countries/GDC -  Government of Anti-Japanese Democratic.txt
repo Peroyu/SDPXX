@@ -32,8 +32,8 @@ set_popularities = {
 set_variable = { var = GDC_crop_gain value = 5 }
 set_variable = { var = GDC_crop_reserves value = 130 }
 set_variable = { var = GDC_crop_produce value = 32 }
-set_variable = { var = GDC_rural_hunger value = 70 }
-set_variable = { var = GDC_city_hunger value = 26 }
+set_variable = { var = GDC_rural_hunger_v value = 70 }
+set_variable = { var = GDC_city_hunger_v value = 26 }
 set_variable = { var = GDC_rural_city_add value = 2 }
 set_variable = { var = GDC_rural_hunger_add value = 5 }
 add_ideas = {
