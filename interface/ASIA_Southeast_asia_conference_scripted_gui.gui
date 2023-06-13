@@ -1,0 +1,96 @@
+guiTypes = {
+	containerWindowType = {
+		name = "ASIA_Southeast_asia_conference_ui_window"
+		position = { x = -65 y = -250 }
+		size = { width = 60 height = 40 }
+		clipping = no
+		
+		extendedScrollbarType = {
+		name = "flag_slider_pol"
+		position = { x = 0 y = 10 }
+		size = { width = 18 height = 28 }
+		tileSize = { width = 12 height = 12}
+		maxValue = 1
+		minValue = 0
+		stepSize = 0.01
+		startValue = 0
+		horizontal = yes
+		orientation = lower_left
+		origo = lower_left
+
+		slider = {
+			name = "Slider"
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = 0 y = -1 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track_horisontal"
+			position = { x = 480 y = 3 }
+			alwaystransparent = yes
+		}
+
+		decreaseButton = {
+			name = "Decrease"
+			quadTextureSprite = "GFX_scroll_left"
+			position = { x = 8 y = 1 }
+		}
+
+		increaseButton = {
+			name = "Increase"
+			quadTextureSprite = "GFX_scroll_right"
+			position = { x = 460 y = -27 }
+		}
+
+		
+	}
+		iconType = {
+			name = "JAP_FLAG" 
+			position = { x = 20 y = -35 }
+			quadTextureSprite = "GFX_JAP_FLAG"
+		}
+		iconType = {
+			name = "USA_FLAG" 
+			position = { x = 110 y = -35 }
+			quadTextureSprite = "GFX_USA_FLAG"
+		}
+		iconType = {
+			name = "RCR_FLAG" 
+			position = { x = 200 y = -35 }
+			quadTextureSprite = "GFX_RCR_FLAG"
+		}
+		iconType = {
+			name = "CAN_FLAG" 
+			position = { x = 290 y = -35 }
+			quadTextureSprite = "GFX_CAN_FLAG"
+		}
+		iconType = {
+			name = "OCE_FLAG" 
+			position = { x = 380 y = -35 }
+			quadTextureSprite = "GFX_OCE_FLAG"
+		}
+		iconType = {
+			name = "ROF_FLAG" 
+			position = { x = 470 y = -35 }
+			quadTextureSprite = "GFX_ROF_FLAG"
+		}
+		iconType = {
+			name = "AST_FLAG" 
+			position = { x = 560 y = -35 }
+			quadTextureSprite = "GFX_AST_FLAG"
+		}
+		iconType = {
+			name = "BOR_FLAG" 
+			position = { x = 650 y = -35 }
+			quadTextureSprite = "GFX_BOR_FLAG"
+		}
+		iconType = {
+			name = "PHI_FLAG" 
+			position = { x = 740 y = -35 }
+			quadTextureSprite = "GFX_PHI_FLAG"
+		}
+	} 
+	
+	
+}

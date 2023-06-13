@@ -4,8 +4,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decisions_MMA_gongshu.dds"
 	}
 	spriteType = {
+		name = "decision_category_hol_obtain_foreign_colonial_investments"
+		texturefile = "gfx/interface/decisions/categories/decision_category_hol_obtain_foreign_colonial_investments.dds"
+	}
+	spriteType = {
 		name = "decision_category_generic_economy"
 		texturefile = "gfx/interface/decisions/categories/decision_category_generic_economy.dds"
+	}
+	spriteType = {
+		name = "decision_category_SWI_absolute_neutrality"
+		texturefile = "gfx/interface/decisions/categories/decision_category_SWI_absolute_neutrality.dds"
 	}
 	spriteType = {
 		name = "GFX_decisions_GDC_hunger"
@@ -64,11 +72,59 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/politics/decision_revolt.dds"
 	}
 	spriteType = {
+		name = "decision_hol_war_on_pacifism"
+		texturefile = "gfx/interface/decisions/politics/decision_hol_war_on_pacifism.dds"
+	}
+	spriteType = {
+		name = "decision_SWI_elect_confederation_president"
+		texturefile = "gfx/interface/decisions/politics/decision_SWI_elect_confederation_president.dds"
+	}
+	spriteType = {
 		name = "decision_generic_fundraising"
 		texturefile = "gfx/interface/decisions/economy/decision_generic_fundraising.dds"
 	}
 	spriteType = {
 		name = "decision_generic_military"
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_military.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_soviet_comecon"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_soviet_comecon.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_FLAG"
+		texturefile = "gfx/interface/scripted_gui/JAP_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_USA_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_USA_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_RCR_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_RCR_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_CAN_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_CAN_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_OCE_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_OCE_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_ROF_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_ROF_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_AST_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_AST_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_BOR_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_BOR_FLAG.png"
+	}
+	spriteType = {
+		name = "GFX_PHI_FLAG"
+		texturefile = "gfx/interface/scripted_gui/GFX_PHI_FLAG.png"
 	}
 }
