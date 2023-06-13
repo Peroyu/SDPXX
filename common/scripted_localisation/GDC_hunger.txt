@@ -3,77 +3,77 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 0
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 20
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_rural_hunger_1
+		localization_key = GDC_rural_hunger_1_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 20
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 40
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_rural_hunger_2
+		localization_key = GDC_rural_hunger_2_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 40
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 60
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_rural_hunger_3
+		localization_key = GDC_rural_hunger_3_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 60
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 80
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_rural_hunger_4
+		localization_key = GDC_rural_hunger_4_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 80
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_rural_hunger
+		    var = GDC_rural_hunger_v
 			value = 100
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_rural_hunger_5
+		localization_key = GDC_rural_hunger_5_text
 	}
 }
 defined_text = {
@@ -81,77 +81,76 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 0
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 20
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_city_hunger_1
+		localization_key = GDC_city_hunger_1_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 20
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 40
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_city_hunger_2
+		localization_key = GDC_city_hunger_2_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 40
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 60
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_city_hunger_3
+		localization_key = GDC_city_hunger_3_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 60
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 80
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_city_hunger_4
+		localization_key = GDC_city_hunger_4_text
 	}
 	text = {
 		trigger = {
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 80
 			compare = greater_than
 		    }
 			check_variable = {
-		    var = GDC_city_hunger
+		    var = GDC_city_hunger_v
 			value = 100
 			compare = less_than_or_equals
 		    }
 		}
-		localization_key = GDC_city_hunger_5
+		localization_key = GDC_city_hunger_5_text
 		}
 	}
-}
