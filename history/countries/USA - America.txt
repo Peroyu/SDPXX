@@ -15,7 +15,8 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
+set_country_flag = ASIA_attend_southasia_conference
+set_global_flag = AISA_southasia_conferenceing
 set_popularities = {
  communism = 4
  committee_communism = 5
