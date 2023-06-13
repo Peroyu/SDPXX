@@ -92,6 +92,9 @@
 		id = CJF_KMT_emergency_congress
 		icon = GFX_CJF_KMT_emergency_congress
 		cost = 3
+		available = {
+			has_war = no
+		}
 		prerequisite = {
 			focus = CJF_stop_enemy
 		}
@@ -165,8 +168,9 @@ shared_focus = {
         completion_reward = {
 		    set_country_flag = CJF_KMT_party
 			set_variable = { var = CJF_antipower value = 50 }
-			set_variable = { var = CJF_KMT1 value = 1 }
-			set_variable = { var = CJF_KMT2 value = 1 }
+			set_variable = { var = CJF_KMT1 value = 3 }
+			set_variable = { var = CJF_KMT2 value = 2 }
+			set_variable = { var = CJF_KMT3 value = 2 }
 			set_variable = { var = CJF_lixiang value = 15 }
 			clamp_variable = {
 	            var = CJF_lixiang
@@ -176,6 +180,7 @@ shared_focus = {
 			set_variable = { var = CJF_zuzhi value = 0 }
 			set_variable = { var = CJF_taishi value = 0 }
 			country_event = {CJF_KMT_party.1 days = 1}
+			unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
 		}
 	}
 shared_focus = {
