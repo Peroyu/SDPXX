@@ -1,0 +1,140 @@
+shared_focus = {
+        id = GDC_on_the_yuexiu_mountain
+		icon = GFX_GDC_on_the_yuexiu_mountain
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 0
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+    }
+shared_focus = {
+		id = GDC_unabitious_wishes
+		icon = GFX_GDC_unabitious_wishes
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 4
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_unafinished_target
+		icon = GFX_GDC_unafinished_target
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_unaccomplished_dream
+		icon = GFX_GDC_unaccomplished_dream
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 12
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_our_mission
+		icon = GFX_GDC_our_mission
+		cost = 2
+		prerequisite = {
+			focus = GDC_unaccomplished_dream
+		}
+        prerequisite = {
+			focus = GDC_unafinished_target
+		}
+        prerequisite = {
+			focus = GDC_unabitious_wishes
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_running_industry
+		icon = GFX_GDC_running_industry
+		cost = 2
+		prerequisite = {
+			focus = GDC_our_mission
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_promise_to_people
+		icon = GFX_GDC_promise_to_people
+		cost = 2
+		prerequisite = {
+			focus = GDC_running_industry
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_use_laws
+		icon = GFX_GDC_use_laws
+		cost = 2
+		prerequisite = {
+			focus = GDC_our_mission
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_sit_down_in_turns
+		icon = GFX_GDC_sit_down_in_turns
+		cost = 2
+		prerequisite = {
+			focus = GDC_use_laws
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_fly_the_flag
+		icon = GFX_GDC_fly_the_flag
+		cost = 2
+		prerequisite = {
+			focus = GDC_promise_to_people
+		}
+        prerequisite = {
+			focus = GDC_sit_down_in_turns
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+
+		}
+	}

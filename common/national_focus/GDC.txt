@@ -11,6 +11,18 @@ focus_tree = {
     shared_focus = GDC_ten_years_war
 }
 focus_tree = {
+	id = GDC_return_canton
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = GDC  
+		}	
+	}
+	default = no
+    shared_focus = GDC_on_the_yuexiu_mountain
+}
+focus_tree = {
 	id = GDC_war
 	country = {
 		factor = 0
