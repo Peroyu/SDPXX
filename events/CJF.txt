@@ -104,31 +104,6 @@ country_event = {
 	}
 	
 }
-country_event = {
-    id = CJF_chongqing.4
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_chongqing.4 FROM = [From.GetName]" }
-	title = CJF_chongqing.4.t
-	desc = CJF_chongqing.4.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		annex_country = { target = CMA transfer_troops = no }
-		name = CJF_chongqing.4.a 
-	}
-	
-}
 ##############################################
 country_event = {
     id = CJF_dh.1
