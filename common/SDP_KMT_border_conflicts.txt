@@ -1,0 +1,296 @@
+
+@CJF_add_var_1 = 10
+SDP_KMT_army_reform = {
+	SDP_kmt_jiaqiangzhengzhijiaoyu = { #加强政治教育
+        icon = GFX_decision_generic_speech
+        cost = 50
+        visible = {   
+			
+        }
+        available = {
+            NOT = { has_country_flag = KMT_other_dec_not_complete }
+        }
+        fire_only_once = no
+        complete_effect = { 
+            set_country_flag = KMT_other_dec_not_complete
+			#custom_effect_tooltip = 
+        }
+        modifier = {
+            
+        }   
+        days_remove = 20
+        days_re_enable = 60
+        remove_effect = {
+            custom_effect_tooltip = CJF_KMT_zengjia_10
+			if =  {
+				limit = {
+					NOT = {
+						has_variable = CJF.KMT_huifuchengdu  
+					}
+				}
+				set_variable = { CJF.KMT_huifuchengdu = 10 }
+			}
+			else = {
+                set_temp_variable = { KMT.zengzhang_var = 10 }
+				add_to_variable = { CJF.KMT_huifuchengdu = KMT.zengzhang_var }
+			}
+            clr_country_flag = KMT_other_dec_not_complete
+        }
+		ai_will_do = {
+			factor = 10
+		}
+    } 
+ 
+
+	SDP_kmt_kaishixuanchuanyundong = { #开始宣传运动
+        icon = GFX_decision_eng_propaganda_campaigns
+        cost = 50
+        visible = {
+			
+        }
+        available = {
+            NOT = { has_country_flag = KMT_other_dec_not_complete }
+        }
+        fire_only_once = no
+        complete_effect = { 
+            set_country_flag = KMT_other_dec_not_complete
+        }
+        modifier = {
+            
+        }   
+        days_remove = 30
+        days_re_enable = 80
+        remove_effect = {
+            custom_effect_tooltip = CJF_KMT_zengjia_10
+            
+			if =  {
+				limit = {
+					NOT = {
+						has_variable = CJF.KMT_huifuchengdu 
+					}
+				}
+				set_variable = { CJF.KMT_huifuchengdu = 10 }
+			}
+			else = {
+				add_to_variable = { CJF.KMT_huifuchengdu = 10 }
+			}
+			random_list = {
+				50 = {
+
+				}
+				50 = {
+					country_event = { id = SDP_KMT.6 days = 0 }
+				}
+			}
+            clr_country_flag = KMT_other_dec_not_complete
+        }
+		ai_will_do = {
+			factor = 10
+		}
+    }  
+
+
+    SDP_kmt_bianjingchongtu_1 = {
+		icon = decision_infiltrate_state
+        cost = 100
+        
+		
+		allowed = {
+			tag = CJF
+		}
+        visible = {
+			tag = CJF
+		}
+		
+        target_root_trigger = {
+            tag = CJF
+		}
+        
+		target_trigger = {
+            
+			FROM = { 
+				is_neighbor_of = ROOT
+			}
+		}
+		fire_only_once = no
+        days_remove = 10
+        available = {
+            ROOT = {
+                OR = {
+                    has_idea = KMT_huifuxinxin_3
+                    has_idea = KMT_huifuxinxin_4
+                    has_idea = KMT_huifuxinxin_5
+                }
+            }
+            FROM = {
+                any_owned_state = {
+                    any_neighbor_state = {
+                        is_fully_controlled_by = ROOT
+                    } 
+                }
+                
+                
+            }
+		}
+        complete_effect = {
+            FROM = {
+                random_owned_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            is_fully_controlled_by = ROOT
+                        } 
+                    }
+                    set_variable = { FROM.defender_state_vs_@ROOT = id }
+                }
+            }
+            random_state = {
+                limit = {
+                    is_fully_controlled_by = ROOT
+                    any_neighbor_state = {  #该省份是上述变量id省份的临近省份
+						state = var:FROM.defender_state_vs_@ROOT   
+					}
+                }
+                set_variable = { FROM.attacker_state_vs_@ROOT = id }
+            }
+        }
+        remove_effect = {
+            start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = var:FROM.attacker_state_vs_@ROOT
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_attacker.1
+					on_lose = wtt_border_conflict_lost_attacker.1
+					on_cancel = wtt_border_conflict_canceled_attacker.1
+				}
+				
+				defender = {
+					state = var:FROM.defender_state_vs_@ROOT
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_defender.1
+					on_lose = wtt_border_conflict_lost_defender.1
+					on_cancel = wtt_border_conflict_canceled_defender.1
+				}
+			}
+
+        }
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+    SJF_junshichongtu_1 = { #本地化站标
+        icon = GFX_decision_generic_ignite_civil_war
+        cost = 50
+        visible = {
+            
+        }
+        available = {
+            ROOT = {
+                has_full_control_of_state = 855
+            }
+            855 = {
+                has_ROOT_at_least_1_div_in_current_state_scope = yes
+            }
+        }
+        fire_only_once = no
+        complete_effect = { 
+            
+        }
+        modifier = {
+            
+        }   
+        target_trigger = {
+            FROM = {
+                owns_state = 911
+            }
+            
+        }
+        days_remove = 15
+        days_re_enable = 0
+        fire_only_once = yes
+        remove_effect = {
+            start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 855
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_attacker.1
+					on_lose = wtt_border_conflict_lost_attacker.1
+					on_cancel = wtt_border_conflict_canceled_attacker.1
+				}
+				
+				defender = {
+					state = 911
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_defender.1
+					on_lose = wtt_border_conflict_lost_defender.1
+					on_cancel = wtt_border_conflict_canceled_defender.1
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+    } 
+
+    SJF_junshichongtu_2 = { #本地化站标
+        icon = GFX_decision_generic_ignite_civil_war
+        cost = 50
+        visible = {
+            
+        }
+        available = {
+            ROOT = {
+                has_full_control_of_state = 748
+            }
+            748 = {
+                has_ROOT_at_least_1_div_in_current_state_scope = yes
+            }
+        }
+        fire_only_once = no
+        complete_effect = { 
+            
+        }
+        modifier = {
+            
+        }   
+        target_trigger = {
+            FROM = {
+                owns_state = 750
+            }
+            
+        }
+        days_remove = 15
+        days_re_enable = 0
+        fire_only_once = yes
+        remove_effect = {
+            start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 748
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_attacker.1
+					on_lose = wtt_border_conflict_lost_attacker.1
+					on_cancel = wtt_border_conflict_canceled_attacker.1
+				}
+				
+				defender = {
+					state = 750
+					num_provinces = 4
+					on_win = wtt_border_conflict_won_defender.1
+					on_lose = wtt_border_conflict_lost_defender.1
+					on_cancel = wtt_border_conflict_canceled_defender.1
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+    } 
+
+	
+	
+
+}
+	

@@ -1,0 +1,140 @@
+GDC_hunger = {                               
+    crop_decrase = { 
+	      icon = decision_revolt
+          available = {                           
+			Not = { has_country_flag = GDC_hunger_away }
+          }
+		  visible = {
+		   
+		  }
+		  cancel_trigger = {
+		   
+		  }
+          is_good = no    
+		  fire_only_once = no             
+          days_mission_timeout = 15              
+          timeout_effect = {     
+            add_to_variable = { GDC_rural_hunger_v = [?GDC_rural_hunger_add] }
+				    add_to_variable = { GDC_city_hunger_v = [?GDC_rural_city_add] }
+            custom_effect_tooltip = GDC_crop_decrase
+		  }
+          complete_effect = {                   
+                
+          }
+        }
+    hunger_add_city_supply = {
+          icon = decision_generic_political_discourse
+          visible = {
+          }
+          custom_cost_text = GDC_crop_spend_more
+          available = {
+              check_variety = [?GDC_crop_reserve] ＞ 500 
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        } 
+    hunger_decrease_city_supply = {
+          icon = decision_generic_political_discourse
+          visible = {
+          }
+          cost = 10
+          available = {
+              
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        } 
+    hunger_add_rural_supply = {
+          icon = decision_generic_political_discourse
+          visible = {
+          }
+          custom_cost_text = GDC_crop_spend_more
+          available = {
+              check_variety = [?GDC_crop_reserve] ＞ 500
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        } 
+    hunger_decrease_rural_supply = {
+          icon = decision_generic_political_discourse
+          visible = {
+          }
+          cost = 10
+          available = {
+              
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        } 
+    organise_capital_arise = {
+          icon = decision_generic_fundraising
+          visible = {
+          }
+          cost = 20
+          available = {
+              has_government = social_democracy
+               has_government = Liberalism
+          }
+          complete_effect = {
+               
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        }
+    start_wealth_reorganise_plan = {
+          icon = decision_generic_fundraising
+          visible = {
+          }
+          cost = 20
+          available = {
+              has_government = communism
+              has_government = committee_communism
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        }
+    hunger_support_NRA = {
+          icon = decision_generic_military
+          visible = {
+          }
+          custom_cost_text = GDC_crop_spend_much
+          available = {
+              check_variety = { [?GDC_crop_reserve] ＞ 1000 }
+          }
+          complete_effect = {
+               
+          }
+          days_remove = 10
+          remove_effect = {
+              
+          }
+        }
+    }
