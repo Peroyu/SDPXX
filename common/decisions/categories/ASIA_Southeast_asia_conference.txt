@@ -1,0 +1,19 @@
+ASIA_Southeast_asia_conference = {
+	    icon = decision_category_hol_obtain_foreign_colonial_investments
+	    picture = GFX_decision_cat_picture_soviet_comecon
+		available = {
+	        has_global_flag = AISA_southasia_conferenceing
+		}
+		visible = {
+          has_global_flag = AISA_southasia_conferenceing
+          has_country_flag = ASIA_attend_southasia_conference
+        }
+        scripted_gui = ASIA_Southeast_asia_conference_scripted_gui
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { 
+            has_country_flag = ASIA_attend_southasia_conference 
+            }
+    }

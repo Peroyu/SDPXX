@@ -1,5 +1,5 @@
 CJF_KMT_party_decision_categories = {
-	    icon = GFX_MMA_gongshukmt
+	    icon = decision_category_SWI_absolute_neutrality
 	    picture = GFX_decisions_CJF_KMT_party
 		available = {
 	        has_country_flag = CJF_KMT_party
