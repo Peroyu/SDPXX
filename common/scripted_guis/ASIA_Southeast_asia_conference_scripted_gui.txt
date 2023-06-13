@@ -1,0 +1,58 @@
+scripted_gui = {
+    ASIA_Southeast_asia_conference_scripted_gui = {
+        context_type = decision_category
+        window_name = "ASIA_Southeast_asia_conference_ui_window"
+        triggers = {
+            JAP_FLAG_visible = {
+                OR = {
+                JAP = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            USA_FLAG_visible = {
+                OR = {
+                USA = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            RCR_FLAG_visible = {
+                OR = {
+                RCR = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            CAN_FLAG_visible = {
+                OR = {
+                CAN = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            OCE_FLAG_visible = {
+                OR = {
+                OCE = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            ROF_FLAG_visible = {
+                OR = {
+                ROF = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            BOR_FLAG_visible = {
+                OR = {
+                BOR = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            AST_FLAG_visible = {
+                OR = {
+                AST = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            THA_FLAG_visible = {
+                OR = {
+                THA = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+            PHI_FLAG_visible = {
+                OR = {
+                PHI = {has_country_flag = ASIA_attend_southasia_conference}
+                }
+            }
+        }
+    }
+}
