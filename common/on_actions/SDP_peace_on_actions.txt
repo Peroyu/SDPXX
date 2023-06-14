@@ -99,6 +99,74 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # KHN beats HNN (Hunan attack) 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CJF
+								original_tag = KHN
+							}
+						}
+						ROOT = {
+							original_tag = HNN
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					KHN = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # GDC beats GNP (guangdong attack) 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = GDC
+								is_in_faction_with = GDC
+							}
+						}
+						ROOT = {
+							original_tag = GNP
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					GDC = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						load_focus_tree = {
+		        			tree = GDC_return_canton
+		        			keep_completed = yes
+		    			}
+					}
+					GHN = {
+						transfer_state = 889
+						transfer_state = 326
+						add_state_core = 889
+						add_state_core = 326
+					}
+					JAP = {
+						set_autonomy = {
+							target = GHN
+							autonomy_state = autonomy_colony
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}
