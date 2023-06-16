@@ -131,6 +131,10 @@ shared_focus = {
 			add_state_core = 854
 			add_state_core = 855
 			custom_effect_tooltip = CJF_improve_ourselves
+			country_event = {
+               id = CJF_dh.4
+			   days = 1
+			}
 		}
 	}
 shared_focus = {
@@ -450,10 +454,7 @@ shared_focus = {
 		x = 6
 		y = 8
 		completion_reward = {
-		   load_focus_tree = {
-		        tree = CJF_third
-		        keep_completed = no
-		    }
+		   
 		}
 	}
 ################################################3
