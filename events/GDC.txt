@@ -73,6 +73,18 @@ country_event = {
 		}
 		name = GDCintro.3.a 
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDCintro.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDCintro.3.c
+	}
 	
 }
 country_event = {
@@ -613,7 +625,9 @@ country_event = {
 ################LCPC##########################
 country_event = {
 	id = GDClcpc.1 #刀刃向内
-    picture = GFX_xiangnan
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.1 FROM = [From.GetName]" }
+    picture = GFX_decisions_GDC_hunger
     title = GDClcpc.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
@@ -625,6 +639,9 @@ country_event = {
 		}
 	}
     option = { 
+		ai_chance = {
+		   base = 100
+		}
         name = GDClcpc.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 	}
     
@@ -745,6 +762,9 @@ country_event = {
 		trigger = {
 			 original_tag = GDC 
 		}
+		ai_chance = {
+		   base = 100
+		}
 	}
     
 }
@@ -767,6 +787,9 @@ country_event = {
         name = GDC_link_mingan_conflict.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		trigger = {
 			 original_tag = GDC 
+		}
+		ai_chance = {
+		   base = 100
 		}
 	}
     
