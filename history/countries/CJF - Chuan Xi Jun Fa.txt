@@ -99,9 +99,29 @@ add_ideas = {
 	}
 }
 create_country_leader = {
-	name = "CJF_Li_Jishen"
-	desc = "CJF_Li_Jishen_desc"
-	picture = "portrait_Li_Jishen.dds"
+	name = "CJF_Xv_ChongZhi"
+	desc = "CJF_Xv_ChongZhi_desc"
+	picture = "portrait_CJF_Xv_ChongZhi.dds"
+	expire = "1999.1.1"
+	ideology = military_system
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "CJF_Dai_JiTao"
+	desc = "CJF_Dai_JiTao_desc"
+	picture = "portrait_CJF_Dai_JiTao.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "CJF_Chen_GongBo"
+	desc = "CJF_Chen_GongBo_desc"
+	picture = "portrait_CJF_Chen_GongBo"
 	expire = "1999.1.1"
 	ideology = New_Three_Principles_of_the_People
 	traits = {

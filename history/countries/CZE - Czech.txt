@@ -13,7 +13,7 @@ set_stability = 0.8
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = Liberalism
 	last_election = "1947.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -36,6 +36,6 @@ create_country_leader = {
 	desc = "CZE_Committee_desc"   
 	picture = "gfx/leaders/EU/CZE_Committee.png"   
 	expire = "1956.6.6"  
-	ideology = military_socialism 
+	ideology = United_Interim_Government 
 	traits = {  }
 }
