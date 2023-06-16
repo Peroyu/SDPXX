@@ -71,6 +71,11 @@ spriteTypes = {
 		name = "portrait_CJF_Sun_Fo"
 		texturefile = "gfx/leaders/CJF/portrait_CJF_Sun_Fo.png"		
 	}
+
+	spriteType = {
+		name = "portrait_CJF_Chen_GongBo"
+		texturefile = "gfx/leaders/CJF/portrait_CJF_Chen_Gongbo.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_CJF_Zhang_Zhizhong"
