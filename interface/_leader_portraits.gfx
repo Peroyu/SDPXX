@@ -37,7 +37,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_portrait_MMA_Hu_ZongNan"
-		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Hu_ZongNan.png"		
+		texturefile = "gfx/leaders/CJF/GFX_portrait_Hu_ZongNan.png"		
 	}
 	
 	spriteType = {
@@ -67,6 +67,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_GNP_FuXiaoAn.png"		
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_Hu_ZongNan"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_Hu_ZongNan.png"		
+	}
+
 	spriteType = {
 		name = "portrait_CJF_Sun_Fo"
 		texturefile = "gfx/leaders/CJF/portrait_CJF_Sun_Fo.png"		
