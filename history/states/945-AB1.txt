@@ -1,8 +1,7 @@
 
 state={
-	id=678
-	name="STATE_678"
-
+	id=945
+	name="STATE_945"
 	history={
 		owner = SAU
 		buildings = {
@@ -13,11 +12,10 @@ state={
 		add_claim_by = TUR
 
 	}
-
 	provinces={
-		5093 7995 8004 8060 10923 12727 12813 12870 
+		8030 10870 12768 
 	}
-	manpower=4200
+	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	local_supplies=0.000

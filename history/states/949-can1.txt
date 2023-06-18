@@ -1,11 +1,7 @@
 
 state={
-	id=683
-	name="STATE_683"
-	resources={
-		aluminium=7.000
-	}
-
+	id=949
+	name="STATE_949"
 	history={
 		owner = CAN
 		buildings = {
@@ -15,12 +11,11 @@ state={
 		add_core_of = CAN
 
 	}
-
 	provinces={
-		2947 5239 6728 7185 7782 8962 10585 10605 10721 13182 13188 13190 13191 
+		7683 7807 7810 10534 10715 12600 
 	}
-	manpower=46135
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 	local_supplies=0.000
+	state_category=rural
 }

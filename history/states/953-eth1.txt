@@ -1,0 +1,17 @@
+
+state={
+	id=953
+	name="STATE_953"
+	history={
+		owner = ETA
+		add_core_of = ETA
+
+	}
+	provinces={
+		2072 5041 5097 7944 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}
