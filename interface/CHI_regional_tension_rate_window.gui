@@ -1,0 +1,67 @@
+guiTypes ={
+	containerWindowType = {#主窗口
+		name = "CHI_regional_tension_rate_button_regions"
+		position = { x = 0 y = 0 }
+		size = { width = 300 height = 300 }
+		iconType = {#图片窗口，无效果
+			name = "CHI_regional_tension_rate_other_Regions"
+			spriteType = "CHI_regional_tension_rate_other_Regions"		
+			position = { x = 174 y = -20  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "CHI_regional_tension_rate_other_Regions_desc"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_DongBei"
+			position = { x = 390 y = 3 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_DongBei"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_DongBei_text"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_HuaBei"
+			position = { x = 349 y = 76 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_HuaBei"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_HuaBei_text"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_XiBei"
+			position = { x = 165 y = 23 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_XiBei"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_XiBei_text"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_Huanan"
+			position = { x = 311 y = 174 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_Huanan"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_Huanan_text"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_XiNan"
+			position = { x = 254 y = 132 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_XiNan"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_XiNan_text"
+		}
+		buttonType = { 
+			name = "CHI_regional_tension_rate_button_regions_HuaZhong"
+			position = { x = 347 y = 122 } 
+			quadTextureSprite = "CHI_regional_tension_rate_button_regions_HuaZhong"
+			clicksound = click_default
+			pdx_tooltip = "CHI_regional_tension_rate_button_regions_HuaZhong_text"
+		}
+
+		
+
+		instantTextboxType = {
+			name = "CHI_regional_tension_rate_desc_gui"
+			position = { x = 10  y = -15 }#你的文本位置（相对于窗口）
+			font = "hoi_1header"
+			text = "CHI_regional_tension_rate_desc_gui_desc"
+			maxWidth = 150
+			maxHeight = 300
+			format = left 
+		}
+	}
+}

@@ -9,6 +9,22 @@ spriteTypes = {
 		name = "GFX_idea_CJF_Wei_LiHuang"
 		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Wei_LiHuang_s.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Yu_Youren"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Yu_Youren_s.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Li_Huang"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_Li_Huang_s.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Zou_Lu"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Zou_Lu_s.png"
+	}
+
 	###############GDC###################
 	spriteType = {
 		name = "GFX_idea_GDC_Li_Jishen"

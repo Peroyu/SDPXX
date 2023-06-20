@@ -1,0 +1,37 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_DongBei"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_DongBei.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_HuaBei"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_HuaBei.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_XiBei"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_XiBei.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_Huanan"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_Huanan.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_XiNan"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_XiNan.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_button_regions_HuaZhong"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_button_regions_HuaZhong.png"		
+	}
+
+    spriteType = {
+		name = "CHI_regional_tension_rate_other_Regions"
+		texturefile = "gfx/interface/scripted_gui/GFX_CHI_regional_tension_rate_other_Regions.png"		
+	}
+}

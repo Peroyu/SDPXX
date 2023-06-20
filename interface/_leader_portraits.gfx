@@ -147,6 +147,11 @@ spriteTypes = {
 		name = "GFX_portrait_liu_wenhui"
 		texturefile = "gfx/leaders/XKS/portrait_liu_wenhui.dds"		
 	}
+
+	spriteType = {
+		name = "KGP_portrait_Gu_ZhengGang"
+		texturefile = "gfx/leaders/CJF/KGP_portrait_Gu_ZhengGang.png"		
+	}
 	
 	spriteType = {
 		name = "KGP_portrait_Tang_Shengzhi"
@@ -360,6 +365,10 @@ spriteTypes = {
 	spriteType = {
 		name = "LAB_Duro_Pucar-Stari"
 		texturefile = "gfx\leaders\LAB\Duro Pucar-Stari.png"		
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_Choibarsan"
+		texturefile = "gfx\leaders\SOV\MON_Choibarsan.png"		
 	}
 	#####################JAP##############################
 	spriteType = {
