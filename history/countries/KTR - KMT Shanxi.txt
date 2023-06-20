@@ -1,6 +1,6 @@
 capital = 267 # 
 
-obb = "AFG_1947"  # 
+obb = "KTR_1947"  # 
 
 set_research_slots = 2 # 
 
@@ -9,25 +9,24 @@ set_stability = 0.3 #
 
 # 
 set_politics = {
-	ruling_party = restoratveism # 
+	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
- restoratveism = 56
- reactionism = 24
- nationalism = 26
+ reactionism = 70
+ nationalism = 30
 }
 
-# 
+recruit_character = MMA_Hu_ZongNan
 create_country_leader = {
-	name = "穆罕默德·查希尔沙"  # 
+	name = "胡宗南"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_Hu_ZongNan"  # 
 	expire = "1952.4.30"  # 
-	ideology = reactionism # 
+	ideology = military_system # 
 	traits = {  # 
 		#
 	}

@@ -37,7 +37,6 @@ recruit_character = MMA_Ma_Bufang
 recruit_character = MMA_Ma_Yuanhai
 recruit_character = MMA_Ma_Buqing
 recruit_character = MMA_Zhao_Sui
-recruit_character = MMA_Hu_ZongNan
 recruit_character = MMA_Ma_Hongkui
 
 create_country_leader = {

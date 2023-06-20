@@ -7,19 +7,18 @@ set_research_slots = 2 # 设定科研槽
 set_war_support = 0.5 # 设置战争支持度
 set_stability = 0.8 # 设置稳定度
 
-# 设置执政党以及选举
 set_politics = {
-	ruling_party = conservatism # 执政党
-	last_election = "1947.1.1"
-	election_frequency = 48 # 选举间隔
-	elections_allowed = no  # 是否允许选举
+	ruling_party = movement_communism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
 }
 CJF = {
 	puppet = KGP
 }
-# 设置席位
 set_popularities = {
-	conservatism = 72
+	conservatism = 42
+	movement_communism = 30
 	social_democracy = 20
 	Liberalism = 8
 }
@@ -27,15 +26,14 @@ add_ideas = {
 low_economic_mobilisation
 volunteer_only
 limited_exports
-
 }
-# 设置领导人
+
 create_country_leader = {
-	name = "何应钦"  # 领导人名称
-	desc = "HeYingQin_desc"  # 人物介绍
-	picture = "KGP_portrait_HeYingQin"  # 人物头像
+	name = "谷正纲"  # 领导人名称
+	desc = "KGP_Gu_ZhengGang_desc"  # 人物介绍
+	picture = "KGP_portrait_Gu_ZhengGang"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = Three_Principles_of_the_People # 意识形态
+	ideology = Three_Principles_of_the_People_consititution # 意识形态
 	traits = {  # 人物特性
 		#
 	}

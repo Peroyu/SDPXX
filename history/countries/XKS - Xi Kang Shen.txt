@@ -35,7 +35,7 @@ set_variable = { var = XKS_people value = 5 }
 create_country_leader = {
 	name = "刘文辉"  # 领导人名称
 	desc = "liu_wenhui_desc"  # 人物介绍
-	picture = "portrait_liu_wenhui.dds"  # 人物头像
+	picture = "GFX_portrait_liu_wenhui"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
 	ideology = Three_Principles_of_the_People # 意识形态
 	traits = {  # 人物特性

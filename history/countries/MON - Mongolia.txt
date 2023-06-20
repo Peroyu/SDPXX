@@ -18,19 +18,19 @@ set_politics = {
 set_popularities = {
  reactionism = 36
  nationalism = 23
- restoratveism = 21
+ restorativeism = 21
  conservatism = 11
- liberalism = 5
- left_radicalism = 4
+ Liberalism = 5
+ moderate_socialism = 4
 }
 
 # 
 create_country_leader = {
-	name = "默罕默德五世"  # 
+	name = "霍尔洛·乔巴山"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_MON_Choibarsan"  # 
 	expire = "1961.2.13"  # 
-	ideology = reactionism # 
+	ideology = leninism # 
 	traits = {  # 
 		#
 	}

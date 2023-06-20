@@ -72,15 +72,22 @@ set_variable = { var = SDP_industry_v value = 16 }#60
 set_variable = { var = SDP_agriculture_v value = 19 }#60
 set_variable = { var = SDP_science_v value = 18 }#50
 set_variable = { var = SDP_politics_v value = 31 }#60
-
+########################################################
+set_variable = { var = CHI_dongbei_regional_tension value = 12 }#60
+set_variable = { var = CHI_huabei_regional_tension value = 18 }#50
+set_variable = { var = CHI_xibei_regional_tension value = 16 }#60
+set_variable = { var = CHI_huanan_regional_tension value = 19 }#60
+set_variable = { var = CHI_xinan_regional_tension value = 30 }#50
+set_variable = { var = CHI_huazhong_regional_tension value = 11 }#60
+#########################################################
 add_ideas = {
  tot_economic_mobilisation
  limited_exports
  all_adults_serve
  ######################
- CJF_Xv_Chongzhi
- CJF_Wei_LiHuang
- CJF_yang_yongtai
+ CJF_Zou_Lu
+ CJF_Yu_Youren
+ CJF_Li_Huang
  CJF_Chen_Gongbo
  CJF_unacknowlaged_power
  CFJ_wreckage_of_NRA_1
