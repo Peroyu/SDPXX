@@ -1,0 +1,63 @@
+CHI_regional_tension_rate = {                               
+	CHI_war_is_coming = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+		   has_war_with = JAP
+		}
+		cancel_trigger = {
+			check_variable = {
+    				CHI_dongbei_regional_tension ＜＝ 50
+				}
+				check_variable = {
+    				CHI_huabei_regional_tension ＜＝ 50
+				}
+				check_variable = {
+    				CHI_xibei_regional_tension ＜＝ 50
+				}
+				check_variable = {
+    				CHI_huanan_regional_tension ＜＝ 50
+				}
+				check_variable = {
+    				CHI_xinan_regional_tension ＜＝ 50
+				}
+				check_variable = {
+    				CHI_huazhong_regional_tension ＜＝ 50
+				}
+		}
+		visible = {
+		   OR = {
+		   		check_variable = {
+    				CHI_dongbei_regional_tension > 50
+				}
+				check_variable = {
+    				CHI_huabei_regional_tension > 50
+				}
+				check_variable = {
+    				CHI_xibei_regional_tension > 50
+				}
+				check_variable = {
+    				CHI_huanan_regional_tension > 50
+				}
+				check_variable = {
+    				CHI_xinan_regional_tension > 50
+				}
+				check_variable = {
+    				CHI_huazhong_regional_tension > 50
+				}
+			}
+		}
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 30              
+        timeout_effect = { 
+		  country_event = {
+                id = CHIwar.1
+                days = 1			
+            	} 
+                
+		}
+        complete_effect = {                   
+            
+            }
+        }
+    }
