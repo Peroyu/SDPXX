@@ -19,25 +19,7 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		MMA = {
-			set_country_flag = CHIwaranxi_is_not_our_ally
-			country_event = { id = MMA_dip.2 days = 1 }
-			}
 		name = CHIwar.1.a
-	}
-	option = { 
-	    ai_chance = {
-		   base = 50
-		}
-		KTR = {
-			annex_country = { target = CHIwar transfer_troops = yes }
-			}
-		news_event = {
-			id = CHIwar_news.1
-			hours = 1 #延迟多少小时触发
-			days = 1 #延迟多少天触发
-			}
-		name = CHIwar.1.b
 	}
 	
 }

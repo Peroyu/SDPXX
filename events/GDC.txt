@@ -111,46 +111,6 @@ country_event = {
 	
 }
 country_event = {
-    id = GDC.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDC.1 FROM = [From.GetName]" }
-	title = GDC.1.t
-	desc = GDC.1.d
-	picture = GFX_xiangnan
-	
-	is_triggered_only = yes
-	
-	immediate = {
-			hidden_effect = {
-				HNN = {
-					transfer_state = 602
-					transfer_state = 750
-					declare_war_on = { target = GDC type = annex_everything }
-				}
-				KHN = {
-					transfer_state = 841
-					transfer_state = 840
-					add_state_core = 840
-					add_state_core = 841
-					declare_war_on = { target = HNN type = annex_everything }
-				}
-				GDC = {
-		    		transfer_state = 838
-					add_state_core = 838
-				}
-			}
-	}
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = GDC.1.a 
-		
-	}
-	
-}
-country_event = {
     id = GDCintro.5 
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDCintro.5 FROM = [From.GetName]" }
@@ -162,7 +122,15 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			
+			888 = { set_demilitarized_zone = no }
+			595 = { set_demilitarized_zone = no }
+			GDC = {
+				transfer_state = 888
+				transfer_state = 595
+				add_state_core = 888
+				add_state_core = 595
+				load_oob = "GDC_xiangnan"
+			}
 		}
     }
 	
@@ -199,6 +167,8 @@ country_event = {
 		}
 		name = GDCintro.6.a 
 		declare_war_on = { target = GNP type = annex_everything }
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+		add_to_variable = { CHI_huanan_regional_tension = 10 }
 	}
 	
 }
@@ -210,6 +180,7 @@ country_event = {
 	desc = GDCintro.7.d
 	picture = GFX_GDCintro
 	trigger = {
+		tag = GDC
 		NOT = { country_exists = GNP }
 		}
 	is_triggered_only = yes
@@ -218,15 +189,68 @@ country_event = {
 	    hidden_effect = {
 		}
     }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDCintro.7.b
+		custom_effect_tooltip = CHI_v_regional_tension_decrease
+		add_to_variable = { CHI_huanan_regional_tension = -5 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 10
+		}
+		name = GDCintro.7.a 
+		country_event = { 
+				days = 5  id = GDCintro.8
+				}
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+		add_to_variable = { CHI_huanan_regional_tension = 30 }
+	}
+	
+}
+country_event = {
+    id = GDCintro.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCintro.5 FROM = [From.GetName]" }
+	title = GDCintro.8.t
+	desc = GDCintro.8.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			hidden_effect = {
+				HNN = {
+					transfer_state = 602
+					transfer_state = 750
+					declare_war_on = { target = GDC type = annex_everything }
+					load_oob = HNN_collapse
+				}
+				KHN = {
+					transfer_state = 841
+					transfer_state = 840
+					add_state_core = 840
+					add_state_core = 841
+					declare_war_on = { target = HNN type = annex_everything }
+					load_oob = KHN_collapse
+				}
+				GDC = {
+		    		transfer_state = 838
+					add_state_core = 838
+				}
+			}
+		}
+    }
 	
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		name = GDCintro.7.a 
-		country_event = { 
-				days = 5  id = GDC.1
-				}
+		name = GDCintro.8.a 
+		
 	}
 	
 }
@@ -252,29 +276,6 @@ country_event = {
 			 original_tag = GDC 
 		}
 		
-	}
-    
-}
-#################war##############################
-country_event = {
-	id = GDC_war.1
-    picture = GFX_xiangnan
-    title = GDC_war.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDC_war.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
-	immediate = {
-	    hidden_effect = {
-			clr_country_flag = GDC_situation_is_smooth
-		}
-	}
-    option = { 
-        name = GDC_war.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		trigger = {
-			 original_tag = GDC 
-		}
 	}
     
 }
@@ -330,42 +331,6 @@ country_event = {
 	}
     option = { 
         name = GDCarm.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-	}
-    
-}
-country_event = {
-	id = GDCarm.4 #闽赣战役
-    picture = GFX_xiangnan
-    title = GDCarm.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDCarm.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
-	immediate = {
-	    hidden_effect = {
-		}
-	}
-    option = { 
-        name = GDCarm.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-	}
-    
-}
-country_event = {
-	id = GDCarm.6 #总摊牌
-    picture = GFX_xiangnan
-    title = GDCarm.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDCarm.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
-	immediate = {
-	    hidden_effect = {
-		}
-	}
-    option = { 
-		name = GDCarm.6.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 	}
     
 }

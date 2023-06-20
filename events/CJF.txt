@@ -75,6 +75,8 @@ country_event = {
 		   base = 100
 		}
 		set_country_flag = CJF_has_owned_chongqing
+		custom_effect_tooltip = CHI_v_regional_tension_increase
+		add_to_variable = { CHI_xinan_regional_tension = 5 }
 		name = CJF_chongqing.2.a 
 	}
 	
@@ -129,6 +131,8 @@ country_event = {
 		name = CJF_dh.1.a 
 		add_political_power = 50
 		add_stability = 10
+		custom_effect_tooltip = CHI_v_regional_tension_increase
+		add_to_variable = { CHI_xinan_regional_tension = 5 }
 	}
 	
 }
@@ -178,6 +182,8 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_dh.3.a 
+		custom_effect_tooltip = CHI_v_regional_tension_decrease_plus
+		add_to_variable = { CHI_xinan_regional_tension = -30 }
 	}
 	
 }
