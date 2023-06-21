@@ -445,4 +445,14 @@ spriteTypes = {
 		name = "portrait_FID_Bose"
 		texturefile = "gfx/leaders/INDIA/portrait_FID_Bose.png"		
 	}
+
+	spriteType = {
+		name = "GFX_BRA_portrait_Getulio_Vargas"
+		texturefile = "gfx/leaders/Latin_America/BRA_portrait_Getulio_Vargas.png"		
+	}
+
+	spriteType = {
+		name = "CUB_portrait_Fulgencio_Batista"
+		texturefile = "gfx/leaders/Latin_America/CUB_portrait_Fulgencio_Batista.png"		
+	}
 }

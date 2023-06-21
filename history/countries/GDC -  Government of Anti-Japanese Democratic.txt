@@ -48,7 +48,6 @@ add_ideas = {
 	#######
 	GDC_KMT_CPC_A
 	GDC_Iron_Cage_1
-	GDC_Conflicts_with_Natives
 	GDC_hunger
 	GDC_none_pact_peace
 }
@@ -57,7 +56,7 @@ create_country_leader = {
 		desc = "GDC_Li_Lisan_desc"  
 		picture = "gfx/leaders/GDC/portrait_GDC_Li_Lisan.png"   
 		expire = "1950.1.1.1"   
-		ideology = leninism
+		ideology = Spartacus
 		traits = {  }
 	}
 create_country_leader = {
@@ -65,7 +64,7 @@ create_country_leader = {
 		desc = "GDC_Yang_Paoan_desc"  
 		picture = "gfx/leaders/GDC/portrait_GDC_Yang_Paoan.png"   
 		expire = "1950.1.1.1"   
-		ideology = Spartacus
+		ideology = leninism
 		traits = {  }
 	}
 create_country_leader = {
