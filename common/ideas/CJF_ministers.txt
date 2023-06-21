@@ -114,4 +114,21 @@ ideas = {
 			}
 		}
 	}
+	chief_of_staff = {
+		CJF_Xv_Chongzhi = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Xv_Chongzhi"
+			}
+			traits = {
+				chief_of_staff
+				army_chief
+			}
+		}
+	}
 }	
