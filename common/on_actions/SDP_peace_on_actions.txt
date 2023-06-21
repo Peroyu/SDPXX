@@ -167,6 +167,68 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # JAP beats CHI (China lost GAW) 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = JAP
+								is_in_faction_with = JAP
+							}
+						}
+						ROOT = {
+							original_tag = CJF
+							is_in_faction_with = CJF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					MMA = {
+						if = {
+						limit = {
+							country_exists = GDC
+							}
+						annex_country = { target = GDC transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = CJF
+							}
+						annex_country = { target = CJF transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = DJF
+							}
+						annex_country = { target = DJF transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = KHN
+							}
+						annex_country = { target = KHN transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = SIK
+							}
+						annex_country = { target = SIK transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = KTR
+							}
+						annex_country = { target = KTR transfer_troops = yes }
+						}
+						set_cosmetic_tag = FCH
+					}
+
+
+
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}

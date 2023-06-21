@@ -34,7 +34,7 @@ ideas = {
 		}
 
 	}
-	person_of_arm = { ### person of arm ###
+	chief_of_staff = {
 		GDC_Deng_YanDa = {
 			allowed = { original_tag = GDC }
 			available = {
@@ -46,13 +46,13 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea GDC_Deng_YanDa"
 			}
 			traits = {
-				person_of_arm
+				chief_of_staff
 				wind_and_sky
 			}
 		}
-
 	}
-	person_of_eco = { ### person of eco ###
+	person_of_arm = { ### 内政部长 ###
+		
 		GDC_Yang_Baoan = {
 			allowed = { original_tag = GDC }
 			available = {
@@ -64,10 +64,14 @@ ideas = {
 				log = "[GetDateText]: [Root.GetName]: add idea GDC_Yang_Baoan"
 			}
 			traits = {
-				person_of_eco
+				person_of_arm
 				culture_poineer
 			}
 		}
+
+	}
+	person_of_eco = { ### person of eco ###
+		
 		GDC_Mao_Zedong = {
 			allowed = { original_tag = GDC }
 			available = {

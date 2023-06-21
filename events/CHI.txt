@@ -11,7 +11,23 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    CJF = {
+				create_faction = 抗日民族统一战线
+				add_to_faction = GDC
+				add_to_faction = DJF
+				add_to_faction = MMA
+				add_to_faction = SIK
+				add_to_faction = KTR
+				if = {
+						limit = {
+							country_exists = KHN
+							}
+						add_to_faction = KHN
+						}
+			}
+			JAP = {
+				declare_war_on = { target = CJF type = puppet_wargoal_focus }
+			}
 		}
     }
 	

@@ -151,6 +151,7 @@ ideologies = {
 			Guild_Socialism = { can_be_randomly_selected = no }
 			New_Three_Principles_of_the_People = {can_be_randomly_selected = no}
 			Godesberge_Programm = {can_be_randomly_selected = no}
+			New_nation_system = {can_be_randomly_selected = no}
 			
 		}
 
@@ -237,7 +238,7 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
-	movement_communism = {
+	movement_communism = { #政治保守主义
 	
 		types = {		
 			FFFFF_FFF = { can_be_randomly_selected = no }
@@ -417,7 +418,7 @@ ideologies = {
 	
 	restorativeism = {
 		types = {		
-			traditional despotism = { can_be_randomly_selected = no }			
+			traditional_despotism = { can_be_randomly_selected = no }			
 			Fundamentalism = { can_be_randomly_selected = no }			
 			tribalism = { can_be_randomly_selected = no }			
 		}
