@@ -113,7 +113,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_official_army
-		icon = GFX_GDC_official_army
+		icon = GFX_GDC_training_militias
 		cost = 2
 		available_if_capitulated = no
 		x = 4
@@ -286,7 +286,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_the_tails_of_QINGPING
-		icon = GFX_GDC_the_tails_of_QINGPING
+		icon = GFX_GDC_information_net_in_North_Canton
 		cost = 3
 		available_if_capitulated = no
 		x = 7
@@ -816,7 +816,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_farmers_had_lands
-		icon = GFX_GDC_farmers_had_lands
+		icon = GFX_GDC_enough_grain
 		cost = 5
 		available_if_capitulated = no
 		x = 20
@@ -888,7 +888,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_experiment_coperation
-		icon = GFX_GDC_experiment_coperation
+		icon = GFX_GDC_develop_Liu_Zhou
 		cost = 5
 		available_if_capitulated = no
 		x = 20
@@ -954,261 +954,3 @@ shared_focus = {
 	    }
     }
 #####################################################################################################################
-shared_focus = {
-		id = GDC_lunchijiuzhan
-		icon = GFX_GDC_lunchijiuzhan
-		cost = 3
-		available_if_capitulated = no
-		x = 8
-		y = 0
-		completion_reward = {
-			add_political_power = 10
-			add_manpower = 500
-			army_experience = 30
-		}
-	}
-shared_focus = {
-        id = GDC_seeing_head_and_tail
-		icon = GFX_GDC_seeing_head_and_tail
-		cost = 5
-		available_if_capitulated = no
-		x = 5
-		y = 1
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_lunchijiuzhan
-	    }
-
-    }
-shared_focus = {
-        id = GDC_set_up_transport_line
-		icon = GFX_GDC_set_up_transport_line
-		cost = 5
-		available_if_capitulated = no
-		x = 11
-		y = 1
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_lunchijiuzhan
-	    }
-
-    }
-shared_focus = {
-        id = GDC_united_together
-		icon = GFX_GDC_united_together
-		cost = 5
-		available_if_capitulated = no
-		x = 11
-		y = 2
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_set_up_transport_line
-	    }
-
-    }
-shared_focus = {
-        id = GDC_defend_like_iron
-		icon = GFX_GDC_defend_like_iron
-		cost = 5
-		available_if_capitulated = no
-		x = 3
-		y = 2
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_seeing_head_and_tail
-	    }
-
-    }
-shared_focus = {
-        id = GDC_fortilise_Wu_zhou
-		icon = GFX_GDC_fortilise_Wu_zhou
-		cost = 5
-		available_if_capitulated = no
-		x = 6
-		y = 2
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_seeing_head_and_tail
-	    }
-
-    }
-shared_focus = {
-        id = GDC_broad_basement
-		icon = GFX_GDC_broad_basement
-		cost = 5
-		available_if_capitulated = no
-		x = 3
-		y = 3
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_defend_like_iron
-	    }
-
-    }
-shared_focus = {
-        id = GDC_organise_Xijiang_Zongdui
-		icon = GFX_GDC_organise_Xijiang_Zongdui
-		cost = 5
-		available_if_capitulated = no
-		x = 6
-		y = 3
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_fortilise_Wu_zhou
-	    }
-
-    }
-shared_focus = {
-        id = GDC_recclaim_Nan_Ning
-		icon = GFX_GDC_recclaim_Nan_Ning
-		cost = 5
-		available_if_capitulated = no
-		x = 9
-		y = 3
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_united_together
-	    }
-		prerequisite = {
-		       focus = GDC_fortilise_Wu_zhou
-	    }
-    }
-shared_focus = {
-        id = GDC_develop_Liu_Zhou
-		icon = GFX_GDC_develop_Liu_Zhou
-		cost = 5
-		available_if_capitulated = no
-		x = 11
-		y = 3
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_united_together
-	    }
-
-    }
-shared_focus = {
-        id = GDC_defend_north_bay_line
-		icon = GFX_GDC_defend_north_bay_line
-		cost = 5
-		available_if_capitulated = no
-		x = 13
-		y = 3
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_united_together
-	    }
-
-    }
-shared_focus = {
-        id = GDC_training_militias
-		icon = GFX_GDC_training_militias
-		cost = 5
-		available_if_capitulated = no
-		x = 4
-		y = 4
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_broad_basement
-	    }
-
-    }
-shared_focus = {
-        id = GDC_information_net_in_North_Canton
-		icon = GFX_GDC_information_net_in_North_Canton
-		cost = 5
-		available_if_capitulated = no
-		x = 6
-		y = 4
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_organise_Xijiang_Zongdui
-	    }
-
-    }
-shared_focus = {
-        id = GDC_repaire_paths
-		icon = GFX_GDC_repaire_paths
-		cost = 5
-		available_if_capitulated = no
-		x = 8
-		y = 4
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_recclaim_Nan_Ning
-	    }
-
-    }
-shared_focus = {
-        id = GDC_contact_Yun_Nan
-		icon = GFX_GDC_contact_Yun_Nan
-		cost = 5
-		available_if_capitulated = no
-		x = 14
-		y = 4
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_defend_north_bay_line
-	    }
-
-    }
-shared_focus = {
-        id = GDC_elite_army
-		icon = GFX_GDC_elite_army
-		cost = 5
-		available_if_capitulated = no
-		x = 6
-		y = 5
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_training_militias
-			   focus = GDC_repaire_paths
-			   focus = GDC_information_net_in_North_Canton
-	    }
-    }
-shared_focus = {
-        id = GDC_enough_grain
-		icon = GFX_GDC_enough_grain
-		cost = 5
-		available_if_capitulated = no
-		x = 11
-		y = 5
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_contact_Yun_Nan
-			   focus = GDC_repaire_paths
-	    }
-
-    }
-shared_focus = {
-        id = GDC_make_ourself_the_wall_of_motherland
-		icon = GFX_GDC_make_ourself_the_wall_of_motherland
-		cost = 5
-		available_if_capitulated = no
-		x = 9
-		y = 6
-		completion_reward = {
-		}
-		prerequisite = {
-		       focus = GDC_enough_grain
-	    }
-		prerequisite = {
-		       focus = GDC_elite_army
-	    }
-    }
-#####################################

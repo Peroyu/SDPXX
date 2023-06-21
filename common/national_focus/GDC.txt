@@ -30,7 +30,7 @@ focus_tree = {
 			add = 10
 		    tag = GDC  
 		}	
-	}
+	}				
 	default = no
     shared_focus = GDC_lunchijiuzhan
 }
