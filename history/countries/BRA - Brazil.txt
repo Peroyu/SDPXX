@@ -1,0 +1,38 @@
+capital = 500 # 
+
+obb = "BRA_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.5 # 
+
+# 
+set_politics = {
+	ruling_party = social_democracy # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ communism = 2
+ committee_communism = 3
+ moderate_socialism = 12
+ social_democracy = 23
+ Liberalism = 7
+ movement_communism = 6
+ conservatism = 26
+ reactionism = 13
+ nationalism = 8
+}
+# 
+create_country_leader = {
+	name = "热图利奥·瓦加斯"  # 
+	desc = "BRA_Getulio_Vargas_desc"  # 
+	picture = "GFX_BRA_portrait_Getulio_Vargas"  # 
+	expire = "1956.6.6"  # 
+	ideology =  New_nation_system 
+	traits = {  # 
+	}
+}

@@ -89,6 +89,7 @@ add_ideas = {
  CJF_Yu_Youren
  CJF_Li_Huang
  CJF_Chen_Gongbo
+ CJF_Xv_Chongzhi
  CJF_unacknowlaged_power
  CFJ_wreckage_of_NRA_1
  CJF_the_trade_of_opium
