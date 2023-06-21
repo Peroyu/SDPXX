@@ -1,4 +1,15 @@
-
+focus_tree = {
+	id = GDC_first
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = GDC  
+		}	
+	}
+	default = no
+    shared_focus = GDC_ten_years_war
+}
 focus_tree = {
 	id = GDC_return_canton
 	country = {
