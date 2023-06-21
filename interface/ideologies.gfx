@@ -45,6 +45,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/Three_Principles_of_the_People.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_Three_Principles_of_the_People_consititution"
+		texturefile = "gfx/interface/ideologies/Three_Principles_of_the_People.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_New_Three_Principles_of_the_People"
 		texturefile = "gfx/interface/ideologies/New_Three_Principles_of_the_People.dds"
 	}

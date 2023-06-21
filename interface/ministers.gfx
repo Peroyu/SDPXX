@@ -25,6 +25,11 @@ spriteTypes = {
 		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Zou_Lu_s.png"
 	}
 
+	spriteType = {
+		name = "GFX_idea_CJF_Xv_Chongzhi"
+		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Xv_Chongzhi_s.png"
+	}
+
 	###############GDC###################
 	spriteType = {
 		name = "GFX_idea_GDC_Li_Jishen"
