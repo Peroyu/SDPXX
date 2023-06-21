@@ -665,7 +665,7 @@ shared_focus = {
 		icon = GFX_GDC_knok_the_door
 		cost = 5
 		available_if_capitulated = no
-		x = 14
+		x = 15
 		y = 7
 		completion_reward = {
 			country_event = { days = 1 id = GDCmcpc.4 }
