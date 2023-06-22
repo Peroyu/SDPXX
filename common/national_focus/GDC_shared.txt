@@ -293,9 +293,6 @@ shared_focus = {
 		y = 9
 		completion_reward = {
 			custom_effect_tooltip = GDC_we_together
-			country_event = { 
-				days = 1  id = GDCintro.5
-				}
 
 		}
 		prerequisite = {
@@ -941,11 +938,10 @@ shared_focus = {
 		x = 10
 		y = 11
 		completion_reward = {
-			
+			country_event = { 
+				days = 1  id = GDCintro.6 
+				}
 		}
-		allow_branch = {
-			has_war_with = GNP
-	    }
 		prerequisite = {
 			   focus = GDC_hard_risen_the_state
 	    }
@@ -1212,3 +1208,830 @@ shared_focus = {
 	    }
     }
 #####################################
+shared_focus = {
+        id = GDC_on_the_yuexiu_mountain
+		icon = GFX_GDC_on_the_yuexiu_mountain
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 0
+		available = {
+			
+		}
+		completion_reward = {
+			set_capital = { state = 889 }
+		}
+    }
+shared_focus = {
+		id = GDC_unabitious_wishes
+		icon = GFX_GDC_unabitious_wishes
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 4
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_unafinished_target
+		icon = GFX_GDC_unafinished_target
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 8
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_unaccomplished_dream
+		icon = GFX_GDC_unaccomplished_dream
+		cost = 2
+		prerequisite = {
+			focus = GDC_on_the_yuexiu_mountain
+		}
+		x = 12
+		y = 1
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_our_mission
+		icon = GFX_GDC_our_mission
+		cost = 2
+		prerequisite = {
+			focus = GDC_unaccomplished_dream
+		}
+        prerequisite = {
+			focus = GDC_unafinished_target
+		}
+        prerequisite = {
+			focus = GDC_unabitious_wishes
+		}
+		x = 8
+		y = 2
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_running_industry
+		icon = GFX_GDC_running_industry
+		cost = 2
+		prerequisite = {
+			focus = GDC_our_mission
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_promise_to_people
+		icon = GFX_GDC_promise_to_people
+		cost = 2
+		prerequisite = {
+			focus = GDC_running_industry
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_use_laws
+		icon = GFX_GDC_use_laws
+		cost = 2
+		prerequisite = {
+			focus = GDC_our_mission
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_sit_down_in_turns
+		icon = GFX_GDC_sit_down_in_turns
+		cost = 2
+		prerequisite = {
+			focus = GDC_use_laws
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+		id = GDC_fly_the_flag
+		icon = GFX_GDC_fly_the_flag
+		cost = 2
+		prerequisite = {
+			focus = GDC_promise_to_people
+		}
+        prerequisite = {
+			focus = GDC_sit_down_in_turns
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+			if = {
+				limit = {
+					has_country_leader = { ruling_only = yes name = "李济深" }
+					}
+				load_focus_tree = {
+		        		tree = GDC_Li_Jishen_national_focus_tree
+		        		keep_completed = no
+		    		}
+				}
+			else_if = {
+				limit = {
+					has_country_leader = { ruling_only = yes name = "何香凝" }
+				}
+				
+			}
+			else_if = {
+				limit = {
+					has_country_leader = { ruling_only = yes name = "李立三" }
+				}
+				
+			}
+		}
+	}
+###############################################################################################################################################################333
+shared_focus = {
+        id = GDC_The_rule_of_permanence
+		icon = GFX_GDC_The_rule_of_permanence
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 0
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+	}
+shared_focus = {
+        id = GDC_unification_in_party
+		icon = GFX_GDC_unification_in_party
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 1
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_The_rule_of_permanence
+		}
+	}
+shared_focus = {
+        id = GDC_communication_out_party
+		icon = GFX_GDC_communication_out_party
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_unification_in_party
+		}
+	}
+shared_focus = {
+        id = GDC_practice_Wang_idea
+		icon = GFX_GDC_practice_Wang_idea
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 3
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_communication_out_party
+		}
+	}
+shared_focus = {
+        id = GDC_recapture_Min_Quan
+		icon = GFX_GDC_recapture_Min_Quan
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 4
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_practice_Wang_idea
+		}
+	}
+shared_focus = {
+        id = GDC_strenthen_Min_Sheng
+		icon = GFX_GDC_strenthen_Min_Sheng
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 4
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_practice_Wang_idea
+		}
+	}
+shared_focus = {
+        id = GDC_core_of_freedom
+		icon = GFX_GDC_core_of_freedom
+		cost = 2
+		available_if_capitulated = no
+		x = 3
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		mutually_exclusive = {
+			focus = GDC_Multi_party_discipline
+		}
+		prerequisite = {
+			focus = GDC_recapture_Min_Quan
+		}
+	}
+shared_focus = {
+        id = GDC_independent_news_area
+		icon = GFX_GDC_independent_news_area
+		cost = 2
+		available_if_capitulated = no
+		x = 3
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_core_of_freedom
+		}
+	}
+shared_focus = {
+        id = GDC_refine_democracy
+		icon = GFX_GDC_refine_democracy
+		cost = 2
+		available_if_capitulated = no
+		x = 3
+		y = 7
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_independent_news_area
+		}
+	}
+shared_focus = {
+        id = GDC_Multi_party_discipline
+		icon = GFX_GDC_Multi_party_discipline
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		mutually_exclusive = {
+			focus = GDC_core_of_freedom
+		}
+		prerequisite = {
+			focus = GDC_recapture_Min_Quan
+		}
+	}
+shared_focus = {
+        id = GDC_merge_clubs
+		icon = GFX_GDC_merge_clubs
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Multi_party_discipline
+		}
+	}
+shared_focus = {
+        id = GDC_recuit_parliament_members
+		icon = GFX_GDC_recuit_parliament_members
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 7
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_merge_clubs
+		}
+	}
+shared_focus = {
+        id = GDC_spread_national_education
+		icon = GFX_GDC_spread_national_education
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 8
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_recuit_parliament_members
+			focus = GDC_refine_democracy
+		}
+		prerequisite = {
+			focus = GDC_focus_constructions_in_WeiFu
+		}
+	}
+shared_focus = {
+        id = GDC_implement_tax_decrase
+		icon = GFX_GDC_implement_tax_decrase
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_strenthen_Min_Sheng
+		}
+	}
+shared_focus = {
+        id = GDC_encourage_indsutry_patriotism
+		icon = GFX_GDC_encourage_indsutry_patriotism
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_implement_tax_decrase
+		}
+	}
+shared_focus = {
+        id = GDC_focus_constructions_in_WeiFu
+		icon = GFX_GDC_focus_constructions_in_WeiFu
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 7
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_encourage_indsutry_patriotism
+		}
+	}
+shared_focus = {   #第二阶段开始
+        id = GDC_Three_People_principle_education_outline
+		icon = GFX_GDC_Three_People_principle_education_outline
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 9
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_spread_national_education
+		}
+	}
+shared_focus = {   
+        id = GDC_remenmber_Zhong_Xiao
+		icon = GFX_GDC_remenmber_Zhong_Xiao
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 10
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Three_People_principle_education_outline
+		}
+	}
+shared_focus = {   
+        id = GDC_instill_democracy_and_republism
+		icon = GFX_GDC_instill_democracy_and_republism
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 10
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Three_People_principle_education_outline
+		}
+	}
+shared_focus = {   
+        id = GDC_integrate_West_and_East
+		icon = GFX_GDC_integrate_West_and_East
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 11
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_instill_democracy_and_republism
+		}
+		prerequisite = {
+			focus = GDC_remenmber_Zhong_Xiao
+		}
+	}
+shared_focus = {   
+        id = GDC_wash_national_disgrace
+		icon = GFX_GDC_wash_national_disgrace
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 12
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_integrate_West_and_East
+		}
+	}
+shared_focus = {   
+        id = GDC_voyage_to_Chengdu_in_the_night
+		icon = GFX_GDC_voyage_to_Chengdu_in_the_night
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 13
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_wash_national_disgrace
+		}
+	}
+shared_focus = {   
+        id = GDC_obey_central_government
+		icon = GFX_GDC_obey_central_government
+		cost = 2
+		available_if_capitulated = no
+		x = 9
+		y = 14
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		mutually_exclusive = {
+			focus = GDC_not_comrades
+		}
+		prerequisite = {
+			focus = GDC_voyage_to_Chengdu_in_the_night
+		}
+	}
+shared_focus = {   
+        id = GDC_uni_warfront
+		icon = GFX_GDC_uni_warfront
+		cost = 2
+		available_if_capitulated = no
+		x = 9
+		y = 15
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_obey_central_government
+		}
+	}
+shared_focus = {   
+        id = GDC_help_each_other
+		icon = GFX_GDC_help_each_other
+		cost = 2
+		available_if_capitulated = no
+		x = 9
+		y = 16
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_uni_warfront
+		}
+	}
+shared_focus = {   
+        id = GDC_not_comrades
+		icon = GFX_GDC_not_comrades
+		cost = 2
+		available_if_capitulated = no
+		x = 13
+		y = 14
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		mutually_exclusive = {
+			focus = GDC_obey_central_government
+		}
+		prerequisite = {
+			focus = GDC_voyage_to_Chengdu_in_the_night
+		}
+	}
+shared_focus = {   
+        id = GDC_temporary_allies
+		icon = GFX_GDC_temporary_allies
+		cost = 2
+		available_if_capitulated = no
+		x = 13
+		y = 15
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_not_comrades
+		}
+	}
+shared_focus = {   
+        id = GDC_exchange_in_equality
+		icon = GFX_GDC_exchange_in_equality
+		cost = 2
+		available_if_capitulated = no
+		x = 13
+		y = 16
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_temporary_allies
+		}
+	}
+shared_focus = {   
+        id = GDC_call_Xiang_Gan_comrades
+		icon = GFX_GDC_call_Xiang_Gan_comrades
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 17
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_exchange_in_equality
+			focus = GDC_help_each_other
+		}
+	}
+shared_focus = {   
+        id = GDC_united_Fu_Jian_army
+		icon = GFX_GDC_united_Fu_Jian_army
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 18
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_call_Xiang_Gan_comrades
+		}
+	}
+shared_focus = {   
+        id = GDC_rebuild_Huang_Pu
+		icon = GFX_GDC_rebuild_Huang_Pu
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 13
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_wash_national_disgrace
+		}
+	}
+shared_focus = {   
+        id = GDC_update_weapons
+		icon = GFX_GDC_update_weapons
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 14
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_rebuild_Huang_Pu
+		}
+	}
+shared_focus = {   
+        id = GDC_create_elite_army
+		icon = GFX_GDC_create_elite_army
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 15
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_update_weapons
+		}
+	}
+shared_focus = {   
+        id = GDC_recognise_milltary_committee
+		icon = GFX_GDC_recognise_milltary_committee
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 16
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_update_weapons
+		}
+	}
+shared_focus = {   
+        id = GDC_establish_Absolute_authority
+		icon = GFX_GDC_establish_Absolute_authority
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 17
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_recognise_milltary_committee
+		}
+	}
+shared_focus = {   
+        id = GDC_laern_developed_tactics
+		icon = GFX_GDC_laern_developed_tactics
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 18
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_establish_Absolute_authority
+		}
+	}
+shared_focus = {   
+        id = GDC_beginning_The_whole_nation_resisted_the_war
+		icon = GFX_GDC_beginning_The_whole_nation_resisted_the_war
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 19
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_laern_developed_tactics
+		}
+		prerequisite = {
+			focus = GDC_united_Fu_Jian_army
+		}
+	}
+shared_focus = {   
+        id = GDC_Hold_up_longbow
+		icon = GFX_GDC_Hold_up_longbow
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 20
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_beginning_The_whole_nation_resisted_the_war
+		}
+	}

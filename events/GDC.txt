@@ -139,9 +139,6 @@ country_event = {
 		   base = 100
 		}
 		name = GDCintro.5.a 
-		country_event = { 
-				days = 20  id = GDCintro.6 
-				}
 		
 	}
 	
@@ -168,7 +165,7 @@ country_event = {
 		name = GDCintro.6.a 
 		declare_war_on = { target = GNP type = annex_everything }
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		add_to_variable = { CHI_huanan_regional_tension = 10 }
+		add_to_variable = { CHI_huanan_regional_tension = 30 }
 	}
 	
 }

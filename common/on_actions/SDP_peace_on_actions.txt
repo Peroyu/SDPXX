@@ -153,9 +153,7 @@ on_actions = {
 		    			}
 					}
 					GHN = {
-						transfer_state = 889
 						transfer_state = 326
-						add_state_core = 889
 						add_state_core = 326
 					}
 					JAP = {
