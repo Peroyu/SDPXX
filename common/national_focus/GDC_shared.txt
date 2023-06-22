@@ -113,7 +113,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_official_army
-		icon = GFX_GDC_official_army
+		icon = GFX_GDC_training_militias
 		cost = 2
 		available_if_capitulated = no
 		x = 4
@@ -135,7 +135,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_make_sure_officers
-		icon = GFX_GDC_make_sure_officers
+		icon = GFX_GDC_elite_army
 		cost = 2
 		available_if_capitulated = no
 		x = 6
@@ -286,7 +286,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_the_tails_of_QINGPING
-		icon = GFX_GDC_the_tails_of_QINGPING
+		icon = GFX_GDC_information_net_in_North_Canton
 		cost = 3
 		available_if_capitulated = no
 		x = 7
@@ -681,7 +681,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_broden_and_ensure
-		icon = GFX_GDC_broden_and_ensure
+		icon = GFX_GDC_enough_grain
 		cost = 5
 		available_if_capitulated = no
 		x = 18
@@ -888,7 +888,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_experiment_coperation
-		icon = GFX_GDC_experiment_coperation
+		icon = GFX_GDC_develop_Liu_Zhou
 		cost = 5
 		available_if_capitulated = no
 		x = 20
@@ -935,7 +935,7 @@ shared_focus = {
     }
 shared_focus = {
         id = GDC_return_old_capital
-		icon = GFX_GDC_return_old_capital
+		icon = GFX_GDC_make_ourself_the_wall_of_motherland
 		cost = 5
 		available_if_capitulated = no
 		x = 10

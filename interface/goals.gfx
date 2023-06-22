@@ -51,6 +51,11 @@ spriteTypes = {
 	name = "GFX_GDC_develop_Liu_Zhou"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_develop_Liu_Zhou.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_GDC_promote_dams"
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_promote_dams.png"			
+	}
 	
 	SpriteType = {
 	name = "GFX_GDC_make_ourself_the_wall_of_motherland"
@@ -89,7 +94,7 @@ spriteTypes = {
 	
 	SpriteType = {
 	name = "GFX_GDC_ten_years_war"
-	texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war.png"			
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war.dds"			
 	}
 	
 	SpriteType = {
