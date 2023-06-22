@@ -101,7 +101,7 @@ add_ideas = {
 	desc = "CJF_Sun_Fo_desc"
 	picture = portrait_CJF_Sun_Fo
 	expire = "1965.1.1"
-	ideology = Three_Principles_of_the_People_consititution
+	ideology = Patriarchal_conservatism
 	traits = {
 		
 	}

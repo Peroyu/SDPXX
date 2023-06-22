@@ -80,7 +80,7 @@ create_country_leader = {
 		desc = "POLITICS_LI_JISHEN_DESC"  
 		picture = "gfx/leaders/GDC/portrait_Li_Jishen.png"   
 		expire = "1960.1.1.1"   
-		ideology = New_Three_Principles_of_the_People
+		ideology = Left_Nationalism
 		traits = {  }
 	}
 recruit_character = GDC_Cheng_Qian

@@ -151,6 +151,13 @@ defined_text = {
 		}
 		localization_key = social_reformism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Left_Nationalism
+		}
+		localization_key = Left_Nationalism
+    }
 	
 	##############################################################
 	
@@ -167,6 +174,13 @@ defined_text = {
 			has_country_leader_ideology = Three_Principles_of_the_People_consititution
 		}
 		localization_key = Three_Principles_of_the_People_consititution
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Patriarchal_conservatism
+		}
+		localization_key = Patriarchal_conservatism
     }
 	
 	text = {

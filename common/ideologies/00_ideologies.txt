@@ -152,6 +152,7 @@ ideologies = {
 			New_Three_Principles_of_the_People = {can_be_randomly_selected = no}
 			Godesberge_Programm = {can_be_randomly_selected = no}
 			New_nation_system = {can_be_randomly_selected = no}
+			Left_Nationalism = {can_be_randomly_selected = no}
 			
 		}
 
@@ -244,6 +245,7 @@ ideologies = {
 			FFFFF_FFF = { can_be_randomly_selected = no }
 			Three_Principles_of_the_People_consititution = { can_be_randomly_selected = no }
 			Progressive_Conservatusm = { can_be_randomly_selected = no }
+			Patriarchal_conservatism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
