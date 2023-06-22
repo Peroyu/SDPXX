@@ -132,7 +132,7 @@ shared_focus = {
 			add_state_core = 855
 			custom_effect_tooltip = CJF_improve_ourselves
 			country_event = {
-               id = CJF_dh.4
+               id = CJF_Cp.1
 			   days = 1
 			}
 		}
@@ -158,6 +158,9 @@ shared_focus = {
 		y = 1
 		prerequisite = {
 			focus = CJF_The_country_is_in_trouble
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = SDP_KMT_decision_categories
 		}
 	}
 shared_focus = {

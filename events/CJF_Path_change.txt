@@ -1,0 +1,509 @@
+add_namespace = CJF_Cp
+country_event = {
+    id = CJF_Cp.1  #戴季陶提议总结
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.1 FROM = [From.GetName]" }
+	title = CJF_Cp.1.t
+	desc = CJF_Cp.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            55 = { 
+                country_event = { id = CJF_Cp.3 days = 10 }
+                } 
+            45 = { 
+                country_event = { id = CJF_Cp.4 days = 10 }
+                } 
+            }
+		name = CJF_Cp.1.a #提议通过
+	}
+
+    option = { 
+	    ai_chance = {
+		   base = 100
+		}
+        random_list = { 
+            60 = { 
+                add_political_power = 10
+                } 
+            40 = { 
+                country_event = { id = CJF_Cp.2 days = 10 }
+                } 
+            }
+		name = CJF_Cp.1.b #提议被否决
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.2   #陈公博拜访宋庆龄，宋庆龄答应出席
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.2 FROM = [From.GetName]" }
+	title = CJF_Cp.2.t
+	desc = CJF_Cp.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = conservatism 
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.2
+		}
+		name = CJF_Cp.2.a #政变成功
+	}
+
+    option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = reactionism 
+		}
+		add_popularity = {
+			ideology = reactionism
+			popularity = 0.2
+		}
+		name = CJF_Cp.2.b #许崇智平定风波
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.3  #陈公博拜访宋庆龄，宋庆龄答应出席
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.3 FROM = [From.GetName]" }
+	title = CJF_Cp.3.t
+	desc = CJF_Cp.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.5 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.6 days = 10 }
+                } 
+            }
+		name = CJF_Cp.3.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.5  #张君励答应说服孙科
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.5 FROM = [From.GetName]" }
+	title = CJF_Cp.5.t
+	desc = CJF_Cp.5.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.9 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.10 days = 10 }
+                } 
+            }
+		name = CJF_Cp.5.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.9  #孙科交棒陈公博
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.9 FROM = [From.GetName]" }
+	title = CJF_Cp.9.t
+	desc = CJF_Cp.9.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = social_democracy 
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.2
+		}
+		name = CJF_Cp.9.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.10  #孙科拒绝交权
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.10 FROM = [From.GetName]" }
+	title = CJF_Cp.10.t
+	desc = CJF_Cp.10.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.12 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.11 days = 10 }
+                } 
+            }
+		name = CJF_Cp.10.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.11  #孙科交棒陈公博
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.11 FROM = [From.GetName]" }
+	title = CJF_Cp.11.t
+	desc = CJF_Cp.11.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = social_democracy 
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.2
+		}
+		name = CJF_Cp.11.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.12  #渔翁得利
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.12 FROM = [From.GetName]" }
+	title = CJF_Cp.12.t
+	desc = CJF_Cp.12.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = conservatism 
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.2
+		}
+		name = CJF_Cp.12.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.6  #张君励认为应当以大局为重
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.6 FROM = [From.GetName]" }
+	title = CJF_Cp.6.t
+	desc = CJF_Cp.6.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Cp.6.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.4  #陈公博拜访宋庆龄，宋庆龄不愿出席
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.4 FROM = [From.GetName]" }
+	title = CJF_Cp.4.t
+	desc = CJF_Cp.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.7 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.8 days = 10 }
+                } 
+            }
+		name = CJF_Cp.4.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.7  #陈公博支持孙科
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.7 FROM = [From.GetName]" }
+	title = CJF_Cp.7.t
+	desc = CJF_Cp.7.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Cp.7.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.8  #陈公博和戴季陶合作倒孙
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.8 FROM = [From.GetName]" }
+	title = CJF_Cp.8.t
+	desc = CJF_Cp.8.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.13 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.14 days = 10 }
+                } 
+            }
+		name = CJF_Cp.8.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.13  #孙科劝说许崇智成功
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.13 FROM = [From.GetName]" }
+	title = CJF_Cp.13.t
+	desc = CJF_Cp.13.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Cp.13.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.14  #孙科劝说许崇智失败
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.14 FROM = [From.GetName]" }
+	title = CJF_Cp.14.t
+	desc = CJF_Cp.14.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_list = { 
+            50 = { 
+                country_event = { id = CJF_Cp.15 days = 10 } 
+                } 
+            50 = { 
+                country_event = { id = CJF_Cp.16 days = 10 }
+                } 
+            }
+		name = CJF_Cp.14.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.15  #孙科稳住宋庆龄
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.15 FROM = [From.GetName]" }
+	title = CJF_Cp.15.t
+	desc = CJF_Cp.15.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Cp.15.a #
+	}
+	
+}
+country_event = {
+    id = CJF_Cp.16  #孙科没有稳住宋庆龄
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Cp.16 FROM = [From.GetName]" }
+	title = CJF_Cp.16.t
+	desc = CJF_Cp.16.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = conservatism 
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CJF_Cp.16.a #
+	}
+	
+}
