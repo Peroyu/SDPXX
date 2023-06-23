@@ -56,6 +56,11 @@ spriteTypes = {
 	name = "GFX_GDC_promote_dams"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_promote_dams.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_GDC_larger_farming_groups"
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_larger_farming_groups.png"			
+	}
 	
 	SpriteType = {
 	name = "GFX_GDC_make_ourself_the_wall_of_motherland"
