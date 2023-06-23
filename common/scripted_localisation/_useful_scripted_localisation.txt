@@ -189,4 +189,11 @@ defined_text = {
 		}
 		localization_key = islam_progressive
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_nationalism
+		}
+		localization_key = revolutionary_nationalism
+    }
 }

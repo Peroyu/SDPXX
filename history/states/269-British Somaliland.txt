@@ -13,7 +13,7 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = SUO
+		owner = ETA
 		add_core_of = SUO
 		buildings = {
 			infrastructure = 2

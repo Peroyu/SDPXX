@@ -108,4 +108,16 @@ leader_traits = {
 		global_building_slots_factor = 0.05
 	}
 
+	Birdcage_economy = {
+		random = no
+		political_power_factor = 0.02
+		industrial_capacity_factory = -0.01
+	}
+
+	The_art_of_compromise = {
+		random = no
+		trade_opinion_factor = 0.2
+		global_building_slots_factor = 0.01
+	}
+
 }

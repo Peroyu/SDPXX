@@ -288,6 +288,7 @@ ideologies = {
 			social_conservatism = { can_be_randomly_selected = no }			
 			authoritarian_democracy = { can_be_randomly_selected = no }
 			Three_Principles_of_the_People = { can_be_randomly_selected = no }
+			revolutionary_nationalism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

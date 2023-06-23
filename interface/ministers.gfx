@@ -60,6 +60,16 @@ spriteTypes = {
 		name = "GFX_idea_GDC_Peng_Pai"
 		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Peng_Pai_s.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_GDC_Zhang_Bo_Jun"
+		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Zhang_Bo_Jun_s.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GDC_Chen_Yun"
+		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Chen_Yun_s.png"
+	}
 	
 }
 

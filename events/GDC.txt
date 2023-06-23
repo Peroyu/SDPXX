@@ -29,30 +29,7 @@ country_event = {
 		name = GDCintro.1.a 
 	}
 	
-}
-country_event = {
-    id = GDCintro.2 #新年贺词
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDCintro.2 FROM = [From.GetName]" }
-	title = GDCintro.2.t
-	desc = GDCintro.2.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = GDCintro.2.a 
-	}
-	
-}
+}	
 country_event = {
     id = GDCintro.3 #改革之声
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -72,19 +49,25 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		name = GDCintro.3.a 
+		name = GDCintro.3.a
+		complete_national_focus =  GDC_Peng_Pai_focus
+		add_ideas = GDC_Peng_Pai
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
 		name = GDCintro.3.b
+		complete_national_focus =  GDC_Chen_Yun_focus 
+		add_ideas = GDC_Chen_Yun
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
 		name = GDCintro.3.c
+		complete_national_focus =  GDC_Zhang_Bojun_focus
+		add_ideas = GDC_Zhang_Bo_Jun
 	}
 	
 }
@@ -202,6 +185,29 @@ country_event = {
 	
 }
 country_event = {
+    id = GDC.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDC.2 FROM = [From.GetName]" }
+	title = GDC.2.t
+	desc = GDC.2.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDC.2.a
+	}
+	
+}
+
+country_event = {
 	id = GDC.3 #多难兴邦
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDC.4 FROM = [From.GetName]" }
@@ -301,22 +307,27 @@ country_event = {
     
 }
 country_event = {
-	id = GDClkmt.2 #李主席的募捐箱
-    picture = GFX_xiangnan
-    title = GDClkmt.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDClkmt.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+    id = GDClkmt.2 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.2 FROM = [From.GetName]" }
+	title = GDClkmt.2.t
+	desc = GDClkmt.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
 	immediate = {
 	    hidden_effect = {
 		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDClkmt.2.a 
 	}
-    option = { 
-        name = GDClkmt.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-	}
-    
+	
 }
 country_event = {
 	id = GDClkmt.3 #修渠

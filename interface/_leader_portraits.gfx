@@ -78,6 +78,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "portrait_CJF_Dai_JiTao"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Dai_Jitao.png"		
+	}
+
+	spriteType = {
 		name = "portrait_CJF_Chen_GongBo"
 		texturefile = "gfx/leaders/CJF/portrait_CJF_Chen_Gongbo.png"		
 	}
@@ -432,6 +437,11 @@ spriteTypes = {
 	spriteType = {
 		name = "Reza_Pahlavi"
 		texturefile = "gfx/leaders/East_Mediterranean/PER_Reza_Pahlavi.png"		
+	}
+
+	spriteType = {
+		name = "ETA_portrait_Haile_Selassie"
+		texturefile = "gfx/leaders/East_Mediterranean/ETA_portrait_Haile_Selassie.png"		
 	}
 
 #####################india#################################

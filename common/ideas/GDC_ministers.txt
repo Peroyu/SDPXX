@@ -102,6 +102,36 @@ ideas = {
 				rural_radicals
 			}
 		}
+		GDC_Zhang_Bo_Jun = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Zhang_Bo_Jun"
+			}
+			traits = {
+				person_of_eco
+				The_art_of_compromise
+			}
+		}
+		GDC_Chen_Yun = {
+			allowed = { original_tag = GDC }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GDC_Chen_Yun"
+			}
+			traits = {
+				person_of_eco
+				Birdcage_economy
+			}
+		}
 
 	}
 }	

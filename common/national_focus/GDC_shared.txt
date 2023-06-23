@@ -10,7 +10,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			country_event = { 
-				days = 1  id = GDCintro.2
+				days = 1  id = GDCintro.1
 				}
 			add_stability = 0.1
 			add_political_power = 10
@@ -303,7 +303,7 @@ shared_focus = {
 shared_focus = {
         id = GDC_disaster_in_front_of_us
 		icon = GFX_GDC_disaster_in_front_of_us
-		cost = 5
+		cost = 2
 		available_if_capitulated = no
 		x = 14
 		y = 1
@@ -322,7 +322,7 @@ shared_focus = {
 shared_focus = {
         id = GDC_Zhang_Bojun_focus
 		icon = GFX_GDC_Zhang_Bojun_focus
-		cost = 5
+		cost = 2
 		available_if_capitulated = no
 		x = 12
 		y = 2
@@ -345,7 +345,7 @@ shared_focus = {
 shared_focus = {
         id = GDC_system_aid
 		icon = GFX_GDC_system_aid
-		cost = 5
+		cost = 2
 		available_if_capitulated = no
 		x = 12
 		y = 4
@@ -364,7 +364,7 @@ shared_focus = {
 shared_focus = {
         id = GDC_call_the_phone
 		icon = GFX_GDC_call_the_phone
-		cost = 5
+		cost = 2
 		available_if_capitulated = no
 		x = 12
 		y = 6
@@ -897,6 +897,10 @@ shared_focus = {
 				remove_idea = GDC_cooperation_attemptation_1
 			}
 			custom_effect_tooltip = GDC_begin_the_experiment
+			country_event = {
+               			id = GDC.2
+			   	days = 1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_farmers_had_lands
