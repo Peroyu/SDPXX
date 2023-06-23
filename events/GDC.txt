@@ -5,6 +5,7 @@ add_namespace = GDCmcpc
 add_namespace = GDClcpc
 add_namespace = GDC_war
 add_namespace = GDCarm
+add_namespace = GDCcp
 add_namespace = GDC_link_mingan_conflict
 country_event = {
     id = GDCintro.1
@@ -705,5 +706,140 @@ country_event = {
 	}
     
 }
-
+############################################################################
+country_event = {
+    id = GDCcp.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCcp.1 FROM = [From.GetName]" }
+	title = GDCcp.1.t
+	desc = GDCcp.1.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.07
+		}
+		name = GDCcp.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.07
+		}
+		name = GDCcp.1.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		name = GDCcp.1.c
+	}
+	
+}
+country_event = {
+    id = GDCcp.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCcp.2 FROM = [From.GetName]" }
+	title = GDCcp.2.t
+	desc = GDCcp.2.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.07
+		}
+		name = GDCcp.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.07
+		}
+		name = GDCcp.2.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		name = GDCcp.2.c
+	}
+	
+}
+country_event = {
+    id = GDCcp.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCcp.3 FROM = [From.GetName]" }
+	title = GDCcp.3.t
+	desc = GDCcp.3.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.07
+		}
+		name = GDCcp.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.07
+		}
+		name = GDCcp.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		name = GDCcp.3.c
+	}
+	
+}
 

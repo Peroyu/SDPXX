@@ -1232,7 +1232,7 @@ shared_focus = {
 		x = 4
 		y = 1
 		completion_reward = {
-
+			country_event = { days = 1 id = GDCcp.1 }
 		}
 	}
 shared_focus = {
@@ -1245,7 +1245,7 @@ shared_focus = {
 		x = 8
 		y = 1
 		completion_reward = {
-
+			country_event = { days = 1 id = GDCcp.2 }
 		}
 	}
 shared_focus = {
@@ -1258,7 +1258,7 @@ shared_focus = {
 		x = 12
 		y = 1
 		completion_reward = {
-
+			country_event = { days = 1 id = GDCcp.3 }
 		}
 	}
 shared_focus = {
@@ -1277,7 +1277,30 @@ shared_focus = {
 		x = 8
 		y = 2
 		completion_reward = {
-
+			if = {
+				limit = {
+					moderate_socialism ＞0.3
+				}
+				set_politics = { 
+					ruling_party = moderate_socialism 
+				}
+			}
+			else_if = {
+				limit = {
+					social_democracy ＞0.3
+				}
+				set_politics = { 
+					ruling_party = social_democracy 
+				}
+			}
+			else_if = {
+				limit = {
+					committee_communism ＞0.3
+				}
+				set_politics = { 
+					ruling_party = committee_communism 
+				}
+			}
 		}
 	}
 shared_focus = {
@@ -1329,7 +1352,7 @@ shared_focus = {
 		x = 10
 		y = 4
 		completion_reward = {
-
+			
 		}
 	}
 shared_focus = {

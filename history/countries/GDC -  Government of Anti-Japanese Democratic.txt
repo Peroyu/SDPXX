@@ -19,13 +19,13 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 18
-	committee_communism = 14
+	communism = 15
+	committee_communism = 17
 	moderate_socialism = 17
-	social_democracy = 16
+	social_democracy = 22
 	Liberalism = 12
 	conservatism = 6
-	movement_communism = 11
+	movement_communism = 5
 	reactionism = 4
 	nationalism = 2
 }
@@ -54,7 +54,7 @@ add_ideas = {
 create_country_leader = {
 		name = "李立三"   
 		desc = "GDC_Li_Lisan_desc"  
-		picture = "gfx/leaders/GDC/portrait_GDC_Li_Lisan.png"   
+		picture = "gfx/leaders/GDC/GFX_portrait_GDC_Li_Lisan.png"   
 		expire = "1950.1.1.1"   
 		ideology = Spartacus
 		traits = {  }
@@ -69,8 +69,8 @@ create_country_leader = {
 	}
 create_country_leader = {
 		name = "何香凝"   
-		desc = "GDC_Hw_Xiangning_desc"  
-		picture = "gfx/leaders/GDC/portrait_GDC_Hw_Xiangning.png"   
+		desc = "GDC_He_Xiangning_desc"  
+		picture = "gfx/leaders/GDC/GFX_portrait_GDC_He_Xiangning.png"   
 		expire = "1950.1.1.1"   
 		ideology = moderate_socialist
 		traits = {  }
