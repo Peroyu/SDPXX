@@ -1207,7 +1207,7 @@ shared_focus = {
 		       focus = GDC_elite_army
 	    }
     }
-#####################################
+###################################################################################################################
 shared_focus = {
         id = GDC_on_the_yuexiu_mountain
 		icon = GFX_GDC_on_the_yuexiu_mountain
@@ -1358,7 +1358,10 @@ shared_focus = {
 				limit = {
 					has_country_leader = { ruling_only = yes name = "何香凝" }
 				}
-				
+				load_focus_tree = {
+		        		tree = GDC_He_Xiangning_national_focus_tree
+		        		keep_completed = no
+		    		}
 			}
 			else_if = {
 				limit = {
@@ -2033,5 +2036,585 @@ shared_focus = {
 		}
 		prerequisite = {
 			focus = GDC_beginning_The_whole_nation_resisted_the_war
+		}
+	}
+######################################################################################################################333
+shared_focus = {
+        id = GDC_Stephens_widow
+		icon = GFX_GDC_Stephens_widow
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 0
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+	}
+shared_focus = {   
+        id = GDC_league_of_revolutioners
+		icon = GFX_GDC_league_of_revolutioners
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 1
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Stephens_widow
+		}
+	}
+shared_focus = {   
+        id = GDC_root_of_three_people_principle
+		icon = GFX_GDC_root_of_three_people_principle
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_league_of_revolutioners
+		}
+	}
+shared_focus = {   
+        id = GDC_spread_coutryside_revolution
+		icon = GFX_GDC_spread_coutryside_revolution
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 3
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_root_of_three_people_principle
+		}
+	}
+shared_focus = {   
+        id = GDC_strengthen_front_toward_enemy
+		icon = GFX_GDC_strengthen_front_toward_enemy
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_root_of_three_people_principle
+		}
+	}
+shared_focus = {   
+        id = GDC_decrase_tax_and_interest
+		icon = GFX_GDC_decrase_tax_and_interest
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 4
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_spread_coutryside_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_dredge_vasculature
+		icon = GFX_GDC_dredge_vasculature
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_decrase_tax_and_interest
+		}
+	}
+shared_focus = {   
+        id = GDC_reorganise_farmers_asscociation
+		icon = GFX_GDC_reorganise_farmers_asscociation
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_dredge_vasculature
+		}
+	}
+shared_focus = {   
+        id = GDC_differentiate_enemy_and_allies
+		icon = GFX_GDC_differentiate_enemy_and_allies
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 4
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_strengthen_front_toward_enemy
+		}
+		prerequisite = {
+			focus = GDC_spread_coutryside_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_Average_land_rights_experiment
+		icon = GFX_GDC_Average_land_rights_experiment
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_differentiate_enemy_and_allies
+		}
+	}
+shared_focus = {   
+        id = GDC_limit_representative_proportion
+		icon = GFX_GDC_limit_representative_proportion
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Average_land_rights_experiment
+		}
+	}
+shared_focus = {   
+        id = GDC_beautiful_new_countryside
+		icon = GFX_GDC_beautiful_new_countryside
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 7
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_limit_representative_proportion
+		}
+		prerequisite = {
+			focus = GDC_reorganise_farmers_asscociation
+		}
+	}
+shared_focus = {   
+        id = GDC_exterminate_illiterate
+		icon = GFX_GDC_exterminate_illiterate
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 4
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_strengthen_front_toward_enemy
+		}
+	}
+shared_focus = {   
+        id = GDC_revolution_education
+		icon = GFX_GDC_revolution_education
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 5
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_exterminate_illiterate
+		}
+	}
+shared_focus = {   
+        id = GDC_anti_impralism_advocacy
+		icon = GFX_GDC_anti_impralism_advocacy
+		cost = 2
+		available_if_capitulated = no
+		x = 11
+		y = 6
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_revolution_education
+		}
+	}
+shared_focus = {   
+        id = GDC_basement_of_war
+		icon = GFX_GDC_basement_of_war
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 7
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_limit_representative_proportion
+		}
+		prerequisite = {
+			focus = GDC_anti_impralism_advocacy
+		}
+	}
+shared_focus = {   
+        id = GDC_Convene_a_provincial_meeting
+		icon = GFX_GDC_Convene_a_provincial_meeting
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 8
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_beautiful_new_countryside
+		}
+		prerequisite = {
+			focus = GDC_basement_of_war
+		}
+	}
+shared_focus = {   
+        id = GDC_Granting_lloans
+		icon = GFX_GDC_Granting_lloans
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 9
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Convene_a_provincial_meeting
+		}
+	}
+shared_focus = {   
+        id = GDC_spread_state_industry
+		icon = GFX_GDC_spread_state_industry
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 10
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Granting_lloans
+		}
+	}
+shared_focus = {   
+        id = GDC_develop_propritary
+		icon = GFX_GDC_develop_propritary
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 10
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Granting_lloans
+		}
+	}
+shared_focus = {   
+        id = GDC_free_labour_union
+		icon = GFX_GDC_free_labour_union
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 11
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_develop_propritary
+		}
+		prerequisite = {
+			focus = GDC_spread_state_industry
+		}
+	}
+shared_focus = {   
+        id = GDC_comrade_of_national_revolution
+		icon = GFX_GDC_comrade_of_national_revolution
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 12
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_free_labour_union
+		}
+	}
+shared_focus = {   
+        id = GDC_contact_behind_enemy_line
+		icon = GFX_GDC_contact_behind_enemy_line
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 13
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_comrade_of_national_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_Reversion_party
+		icon = GFX_GDC_Reversion_party
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 13
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_comrade_of_national_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_brothers_of_world_revolution
+		icon = GFX_GDC_free_labour_union
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 14
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_Reversion_party
+		}
+		prerequisite = {
+			focus = GDC_contact_behind_enemy_line
+		}
+	}
+shared_focus = {   
+        id = GDC_assistance_from_france_and_russia
+		icon = GFX_GDC_assistance_from_france_and_russia
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 15
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_brothers_of_world_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_envoy_from_the_intrnationale
+		icon = GFX_GDC_envoy_from_the_intrnationale
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 15
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_brothers_of_world_revolution
+		}
+	}
+shared_focus = {   
+        id = GDC_exalt_sprit_of_Huang_Pu
+		icon = GFX_GDC_exalt_sprit_of_Huang_Pu
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 16
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_assistance_from_france_and_russia
+		}
+		prerequisite = {
+			focus = GDC_envoy_from_the_intrnationale
+		}
+	}
+shared_focus = {   
+        id = GDC_renewal_democratic_army_construction
+		icon = GFX_GDC_renewal_democratic_army_construction
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 17
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_exalt_sprit_of_Huang_Pu
+		}
+	}
+shared_focus = {   
+        id = GDC_expand_revolution_comrades_association
+		icon = GFX_GDC_expand_revolution_comrades_association
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 18
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_renewal_democratic_army_construction
+		}
+	}
+shared_focus = {   
+        id = GDC_recuit_pioneer
+		icon = GFX_GDC_recuit_pioneer
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 19
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_expand_revolution_comrades_association
+		}
+	}
+shared_focus = {   
+        id = GDC_prepare_war_of_counterattack
+		icon = GFX_GDC_prepare_war_of_counterattack
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 20
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_expand_revolution_comrades_association
+		}
+	}
+shared_focus = {   
+        id = GDC_revolt_japen
+		icon = GFX_GDC_revolt_japen
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 21
+		available = {
+			
+		}
+		completion_reward = {
+
+		}
+		prerequisite = {
+			focus = GDC_prepare_war_of_counterattack
 		}
 	}

@@ -176,78 +176,27 @@ country_event = {
 	title = GDCintro.7.t
 	desc = GDCintro.7.d
 	picture = GFX_GDCintro
-	trigger = {
-		tag = GDC
-		NOT = { country_exists = GNP }
-		}
 	is_triggered_only = yes
 	
 	immediate = {
 	    hidden_effect = {
+			set_politics = { 
+				ruling_party = Liberalism
+			}
+			set_party_name = { 
+				ideology = Liberalism 
+				long_name = GDC_Liberalism_party_1_long
+				name = GDC_Liberalism_party_1 
+				}
 		}
     }
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		name = GDCintro.7.b
+		name = GDCintro.7.a
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
 		add_to_variable = { CHI_huanan_regional_tension = -5 }
-	}
-	option = { 
-	    ai_chance = {
-		   base = 10
-		}
-		name = GDCintro.7.a 
-		country_event = { 
-				days = 5  id = GDCintro.8
-				}
-		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		add_to_variable = { CHI_huanan_regional_tension = 30 }
-	}
-	
-}
-country_event = {
-    id = GDCintro.8
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDCintro.5 FROM = [From.GetName]" }
-	title = GDCintro.8.t
-	desc = GDCintro.8.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-			hidden_effect = {
-				HNN = {
-					transfer_state = 602
-					transfer_state = 750
-					declare_war_on = { target = GDC type = annex_everything }
-					load_oob = HNN_collapse
-				}
-				KHN = {
-					transfer_state = 841
-					transfer_state = 840
-					add_state_core = 840
-					add_state_core = 841
-					declare_war_on = { target = HNN type = annex_everything }
-					load_oob = KHN_collapse
-				}
-				GDC = {
-		    		transfer_state = 838
-					add_state_core = 838
-				}
-			}
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = GDCintro.8.a 
-		
 	}
 	
 }

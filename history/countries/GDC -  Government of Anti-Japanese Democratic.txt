@@ -83,6 +83,14 @@ create_country_leader = {
 		ideology = Left_Nationalism
 		traits = {  }
 	}
+create_country_leader = {
+		name = "两广立法会执行委员会"   
+		desc = "POLITICS_council_GDC_DESC"  
+		picture = "gfx/leaders/GDC/portrait_Central_Council.png"   
+		expire = "1960.1.1.1"   
+		ideology = social_liberalism
+		traits = {  }
+	}
 recruit_character = GDC_Cheng_Qian
 recruit_character = GDC_Jiang_XianYun
 recruit_character = GDC_Peng_Dehuai

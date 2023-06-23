@@ -46,4 +46,16 @@ focus_tree = {
 	default = no
     shared_focus = GDC_The_rule_of_permanence
 }
+focus_tree = {
+	id = GDC_He_Xiangning_national_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = GDC  
+		}	
+	}
+	default = no
+    shared_focus = GDC_Stephens_widow
+}
 

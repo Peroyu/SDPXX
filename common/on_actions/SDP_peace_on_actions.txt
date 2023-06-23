@@ -151,6 +151,9 @@ on_actions = {
 		        			tree = GDC_return_canton
 		        			keep_completed = yes
 		    			}
+						country_event = { 
+							days = 1  id = GDCintro.7 
+							}
 					}
 					GHN = {
 						transfer_state = 326
