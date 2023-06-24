@@ -1,0 +1,219 @@
+﻿
+division_template = {
+	name = "India Millitas"		# Represents: two-division infantry corps (generally poorly-equipped militias),
+	division_names_group = CJF_INF_01								#	and local militia groups.
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+division_template = {
+	name = "India Guards"	# Represents three-division infantry corps (generally poorly-equipped militias)
+	division_names_group = CJF_INF_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "India tanks"	# Represents three-division infantry corps (generally poorly-equipped militias)
+	division_names_group = CJF_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Millita 1"
+		location = 12137
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 2"
+		location = 12137
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 3"
+		location = 9975
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 4"
+		location = 7205
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 5"
+		location = 11993
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 6"
+		location = 11993
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 7"
+		location = 11952
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 8"
+		location = 8076
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 9"
+		location = 7430
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 10"
+		location = 10872
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 11"
+		location = 1061
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 12"
+		location = 12886
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 13"
+		location = 2086
+		division_template = "India Millitas"	
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6	# 
+	}
+	division = {
+		name = "Millita 14"
+		location = 10729
+		division_template = "India Millitas"	
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6	# 
+	}
+	division = {
+		name = "Millita 15"
+		location = 12786
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 16"
+		location = 2005
+		division_template = "India Millitas"	
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6	# 
+	}
+	division = {
+		name = "Millita 17"
+		location = 10401
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Millita 18"
+		location = 4883
+		division_template = "India Millitas"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+
+	division = {
+		name = "Guards 1"
+		location = 4187
+		division_template = "India Guards"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Guards 2"
+		location = 10030
+		division_template = "India Guards"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Guards 3"
+		location = 10816
+		division_template = "India Guards"	
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6	# 
+	}
+	division = {
+		name = "Guards 4"
+		location = 11993
+		division_template = "India Guards"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "Guards 5"
+		location = 12781
+		division_template = "India Guards"	
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6	# 
+	}
+	division = {
+		name = "Guards 6"
+		location = 7430
+		division_template = "India Guards"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+
+	division = {
+		name = "India tanks 1"
+		location = 9975
+		division_template = "India tanks"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+	division = {
+		name = "India tanks 2"
+		location = 9973
+		division_template = "India tanks"
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6		# 
+	}
+}

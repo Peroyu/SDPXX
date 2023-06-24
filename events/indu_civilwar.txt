@@ -12,26 +12,6 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		    RAJ = { set_cosmetic_tag = RIJ }
-			KAS = {
-				transfer_state = 441
-				transfer_state = 787
-			}
-			KAR = {
-				transfer_state = 444
-			}
-			PUN = {
-				transfer_state = 440
-			}
-			GUI = {
-				transfer_state = 428
-			}
-			BAG = {
-				transfer_state = 430
-			}
-			HYD = {
-				transfer_state = 427
-				transfer_state = 443
-			}
 		}
     }
 	
@@ -39,8 +19,63 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		News_event = {
+			id = indu.1 days = 1
+		}
 		name = indu_civilwar.1.a
+	}
+	
+}
+country_event = {
+    id = indu_civilwar.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.2 FROM = [From.GetName]" }
+	title = indu_civilwar.2.t
+	desc = indu_civilwar.2.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 80
+		}
+		if = {
+				limit = { tag = HYD }
+		CYN = {
+			set_autonomy = {
+				target = HYD
+				autonomy_state = autonomy_puppet
+			}
+		}
+		declare_war_on = { target = FID type = take_state }
+		declare_war_on = { target = RAJ type = take_state }
+		}
+		name = indu_civilwar.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 20
+		}
+		if = {
+				limit = { tag = HYD }
+		RAJ = {
+			set_autonomy = {
+				target = HYD
+				autonomy_state = autonomy_puppet
+			}
+		}
+		HYD = {
+			set_cosmetic_tag = HYD_NC
+		}
+		}
+		name = indu_civilwar.2.b
 	}
 	
 }

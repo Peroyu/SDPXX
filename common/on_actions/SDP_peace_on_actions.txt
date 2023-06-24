@@ -230,6 +230,213 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+
+				###### INDIA_civilwar #######
+				if = { # RAJ beat HYD
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = RAJ
+							}
+						}
+						ROOT = {
+							original_tag = HYD
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+					}
+
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # FID beat HYD
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = FID
+							}
+						}
+						ROOT = {
+							original_tag = HYD
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+					}
+
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # FID OR RAJ beat CYN
+					limit = {
+						CYN = {
+							NOT = { controls_state = 429}
+							NOT = { controls_state = 425}
+							NOT = { controls_state = 424}
+							NOT = { controls_state = 423}
+						}
+						FROM = {
+							OR = {
+								original_tag = RAJ
+								original_tag = FID
+							}
+						}
+						ROOT = {
+							original_tag = CYN
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					RAJ = {
+						transfer_state = 429
+						transfer_state = 425
+					}
+					FID = {
+						transfer_state = 424
+						transfer_state = 423
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # AFG beat RAJ
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AFG
+								is_in_faction_with = AFG
+							}
+						}
+						ROOT = {
+							original_tag = RAJ
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+					}
+					RAJ = {
+						set_cosmetic_tag = RIJ
+						if = {
+							limit = {
+							has_war_with = HYD
+							}
+							white_peace = HYD
+						}
+						if = {
+							limit = {
+							has_war_with = CYN
+							}
+							white_peace = CYN
+						}
+					}
+					GUI = {
+						transfer_state = 428
+						add_state_core = 428
+					}
+					AFG = {
+						create_faction = 南亚伊斯兰联盟
+						add_to_faction = GUI
+						add_to_faction = RAJ
+					}
+
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # AFG beat FID
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AFG
+								is_in_faction_with = AFG
+							}
+						}
+						ROOT = {
+							original_tag = FID
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+					}
+					BAG = {
+						transfer_state = 430
+						transfer_state = 431
+						transfer_state = 432
+						transfer_state = 434
+					}
+					RAJ = {
+						transfer_state = 435
+						country_event = { 
+							days = 1  id = indu_civilwar.1
+							}
+					}
+					ORI = {
+						transfer_state = 426
+					}
+					AFG = {
+						add_to_faction = BAG
+						add_to_faction = ORI
+					}
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = RAJ
+							}
+						}
+						ROOT = {
+							original_tag = FID
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+					}
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat AFG
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = RAJ
+
+							}
+						}
+						ROOT = {
+							original_tag = PUN
+							original_tag = KAR
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex = ROOT
+						white_peace = AFG
+					}
+					
+
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}

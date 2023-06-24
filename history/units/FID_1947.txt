@@ -1,0 +1,127 @@
+﻿division_template = {
+	name = "Free India Millta"				# 
+	division_names_group = CJF_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Free India division"				# 
+	division_names_group = CJF_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Free India Millta 1"
+		location = 4237
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 2"
+		location = 7428
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 3"
+		location = 10001
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 4"
+		location = 9946
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 5"
+		location = 4513
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 6"
+		location = 4571
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 7"
+		location = 4516
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 8"
+		location = 11929
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India Millta 9"
+		location = 997
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}	
+	division = {
+		name = "Free India Millta 10"
+		location = 10751
+		division_template = "Free India Millta"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Free India division 1"
+		location = 997
+		division_template = "Free India division"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India division 2"
+		location = 10171
+		division_template = "Free India division"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India division 3"
+		location = 9946
+		division_template = "Free India division"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Free India division 4"
+		location = 7372
+		division_template = "Free India division"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+}

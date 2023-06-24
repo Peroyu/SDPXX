@@ -83,7 +83,7 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.7
 	}	
-	
+}
 ### STARTING PRODUCTION ###
 instant_effect = {
 	add_equipment_production = {

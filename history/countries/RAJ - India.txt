@@ -1,5 +1,5 @@
 capital = 219
-
+oob = "RAJ_1947" 
 set_research_slots = 3
 set_war_support = 0.9
 set_stability = 0.2
@@ -10,7 +10,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
+set_country_flag = INDIA_civilwar_participants
 set_popularities = {
 	communism = 5
 	committee_communism = 1
@@ -24,7 +24,14 @@ set_popularities = {
 	restorativeism = 12
 }
 
-
+add_ideas = {
+ tot_economic_mobilisation
+ limited_exports
+ all_adults_serve
+ ######################
+ INDIA_no_allies
+ 
+ }
 create_country_leader = {
 	name = "贾瓦拉哈尔·尼赫鲁"
 	desc = "nihelu_desc"  

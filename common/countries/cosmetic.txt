@@ -1,0 +1,8 @@
+HYD_NC = {
+ color = rgb { 143 172 39 }
+ color_ui = rgb { 143 172 39 }
+}
+RIJ = {
+ color = rgb { 71 100 59 }
+ color_ui = rgb { 71 100 59 }
+}

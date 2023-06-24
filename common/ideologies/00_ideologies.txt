@@ -338,6 +338,7 @@ ideologies = {
 		  Bonapartism ={can_be_randomly_selected = no }						
 		  military_system = { can_be_randomly_selected = no }			
 		  state_capitalism = { can_be_randomly_selected = no }
+		  Peronismo = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

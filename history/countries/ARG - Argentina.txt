@@ -1,0 +1,38 @@
+capital = 278 # 
+
+obb = "empty"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.3 # 
+set_stability = 0.5 # 
+
+# 
+set_politics = {
+	ruling_party = reactionism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+ communism = 2
+ committee_communism = 3
+ moderate_socialism = 2
+ social_democracy = 11
+ Liberalism = 17
+ movement_communism = 6
+ conservatism = 29
+ reactionism = 23
+ nationalism = 7
+}
+# 
+create_country_leader = {
+	name = "胡安·庇隆"  # 
+	desc = "ARG_Juan_Peron_desc"  # 
+	picture = "GFX_ARG_portrait_Juan_Peron"  # 
+	expire = "1974.6.6"  # 
+	ideology =  Peronismo 
+	traits = {  # 
+	}
+}

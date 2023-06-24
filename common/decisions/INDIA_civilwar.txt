@@ -1,0 +1,97 @@
+INDIA_civilwar = {
+    INDIA_threat_hydrabad = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			tag = RAJ
+            OR = {
+                FID = {
+                    controls_state = 429
+                }
+                RAJ = {
+                    controls_state = 424
+                }
+            }
+		}
+        allowed = {
+			original_tag = RAJ
+		}
+        cost = 0
+        complete_effect = {
+			HYD = {
+                country_event = { 
+				days = 1  id = indu_civilwar.2
+				}
+            }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_AFG_invade = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			tag = AFG
+            OR = {
+            RAJ = {
+                has_war_with = FID
+            }
+            date > 1948.1.1
+            }
+		}
+        allowed = {
+			original_tag = AFG
+		}
+        visible = {
+			tag = AFG
+		}
+        cost = 0
+        days_remove = 20
+        war_with_on_complete = RAJ
+        war_with_on_complete = FID
+        remove_effect = {
+			 AFG = {
+                declare_war_on = { target = RAJ type = annex_everything }
+                 declare_war_on = { target = FID type = annex_everything }
+             }
+            PUN = {
+                declare_war_on = { target = RAJ type = annex_everything }
+                declare_war_on = { target = FID type = annex_everything }
+             }
+             KAS = {
+                declare_war_on = { target = RAJ type = annex_everything }
+                declare_war_on = { target = FID type = annex_everything }
+             }
+             KAR = {
+                declare_war_on = { target = RAJ type = annex_everything }
+                declare_war_on = { target = FID type = annex_everything }
+             }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_strike_first = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			OR = {
+                NOT = { has_war_with = CYN }
+                date > 1948.6.1
+            }
+		}
+        allowed = {
+			original_tag = FID
+		}
+        visible = {
+			tag = FID
+		}
+        cost = 0
+        days_remove = 20
+        war_with_on_remove = RAJ
+        remove_effect = {
+			declare_war_on = { target = RAJ type = annex_everything }
+		}
+    }
+}

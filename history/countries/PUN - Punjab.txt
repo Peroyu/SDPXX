@@ -1,13 +1,13 @@
 capital = 319 # 
 
-obb = "empty"  # 
+oob = "PUN_1947"  # 
 
 set_research_slots = 2 # 
 
 set_war_support = 0.3 # 
 set_stability = 0.5 # 
 
-# 
+set_country_flag = INDIA_civilwar_participants
 set_politics = {
 	ruling_party = conservatism # 
 	last_election = "1947.1.1"

@@ -1,0 +1,4 @@
+ORI = {
+ color = rgb { 143 172 39 }
+ color_ui = rgb { 143 172 39 }
+}

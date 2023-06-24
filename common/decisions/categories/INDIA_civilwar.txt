@@ -1,0 +1,16 @@
+INDIA_civilwar = {
+	    icon = GFX_MMA_gongshukmt
+		picture = 
+		available = {
+		}
+		visible = {
+			has_country_flag = INDIA_civilwar_participants
+        }
+		cancel_trigger = {
+          	has_global_flag = INDIA_uni
+        }
+        priority = 10000
+		allowed = { 
+			has_country_flag = INDIA_civilwar_participants
+            }
+    }

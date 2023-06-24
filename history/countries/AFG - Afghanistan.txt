@@ -1,20 +1,24 @@
 capital = 267 # 
 
-obb = "AFG_1947"  # 
+oob = "AFG_1947"  # 
 
 set_research_slots = 2 # 
 
 set_war_support = 0.7 # 
 set_stability = 0.3 # 
 
-# 
+AFG = {
+	puppet = PUN
+	puppet = KAR
+	puppet = KAS
+}
 set_politics = {
-	ruling_party = restoratveism # 
+	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+set_country_flag = INDIA_civilwar_participants
 set_popularities = {
  restoratveism = 56
  reactionism = 24
@@ -27,7 +31,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = "/"  # 
 	expire = "1952.4.30"  # 
-	ideology = reactionism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

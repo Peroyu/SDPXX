@@ -1,17 +1,17 @@
 capital = 431
-
+oob = "FID_1947" 
 set_research_slots = 2 
 
 set_war_support = 0.7
 set_stability = 0.2
 
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = social_democracy
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
+set_country_flag = INDIA_civilwar_participants
 set_popularities = {
  communism = 14.2
  committee_communism = 5.8
@@ -24,7 +24,14 @@ set_popularities = {
  nationalism = 18.1
  restorativeism = 1.9
 }
-
+add_ideas = {
+ tot_economic_mobilisation
+ limited_exports
+ all_adults_serve
+ ######################
+ INDIA_no_allies
+ 
+ }
 
 create_country_leader = {
 	name = "苏巴斯·钱德拉·鲍斯"

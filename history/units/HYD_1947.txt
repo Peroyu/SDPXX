@@ -1,0 +1,67 @@
+﻿division_template = {
+	name = "india infantry hydrabad"				# 
+	division_names_group = CJF_INF_01
+									# 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "india calvery hydrabad"				# 
+	division_names_group = CJF_INF_01
+									# 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "hydrabad 1"
+		location = 5019
+		division_template = "india infantry hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "hydrabad 2"
+		location = 10511
+		division_template = "india infantry hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "hydrabad 3"
+		location = 10311
+		division_template = "india infantry hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "hydrabad 4"
+		location = 8087
+		division_template = "india infantry hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "hydrabad 5"
+		location = 5104
+		division_template = "india calvery hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "hydrabad 6"
+		location = 11950
+		division_template = "india calvery hydrabad"		# 
+		start_experience_factor = 1		
+		start_equipment_factor = 1
+	}
+}

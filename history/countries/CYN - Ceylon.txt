@@ -2,6 +2,8 @@ capital = 422
 
 set_research_slots = 2 
 
+oob = "CYN_1947"
+
 set_war_support = 0.7
 set_stability = 0.2
 
@@ -11,7 +13,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
+set_country_flag = INDIA_civilwar_participants
 set_popularities = {
 	communism = 6
 	Liberalism = 14
@@ -21,8 +23,22 @@ set_popularities = {
 	nationalism = 4
 	restorativeism = 6
 }
-
-
+add_ideas = {
+ tot_economic_mobilisation
+ limited_exports
+ all_adults_serve
+ ######################
+ INDIA_no_allies
+ 
+ }
+declare_war_on = {
+		target = FID
+		type = annex_everything
+	}
+declare_war_on = {
+		target = RAJ
+		type = annex_everything
+	}
 create_country_leader = {
 	name = "路易斯·蒙巴顿"
 	desc = "/"  
