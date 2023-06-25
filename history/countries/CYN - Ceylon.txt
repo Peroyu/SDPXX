@@ -13,7 +13,8 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
-set_country_flag = INDIA_civilwar_participants
+
+
 set_popularities = {
 	communism = 6
 	Liberalism = 14
@@ -31,14 +32,8 @@ add_ideas = {
  INDIA_no_allies
  
  }
-declare_war_on = {
-		target = FID
-		type = annex_everything
-	}
-declare_war_on = {
-		target = RAJ
-		type = annex_everything
-	}
+
+set_country_flag = INDIA_civilwar_participants
 create_country_leader = {
 	name = "路易斯·蒙巴顿"
 	desc = "/"  

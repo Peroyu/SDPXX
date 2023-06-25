@@ -23,7 +23,10 @@ set_popularities = {
 	nationalism = 11
 	restorativeism = 12
 }
-
+declare_war_on = {
+		target = CYN
+		type = annex_everything
+	}
 add_ideas = {
  tot_economic_mobilisation
  limited_exports

@@ -12,6 +12,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/indu_1.png"
 	}
 	spriteType = {
+		name = "indu_2"
+		texturefile = "gfx/event_pictures/news/GFX_India_Nihero_uni.png"
+	}
+	spriteType = {
+		name = "indu_3"
+		texturefile = "gfx/event_pictures/news/GFX_India_Bose_uni.png"
+	}
+	spriteType = {
+		name = "indu_4"
+		texturefile = "gfx/event_pictures/news/GFX_honor_peace_uni.png"
+	}
+	spriteType = {
 		name = "GFX_ISU_1"
 		texturefile = "gfx/event_pictures/news/ISU_1.png"
 	}

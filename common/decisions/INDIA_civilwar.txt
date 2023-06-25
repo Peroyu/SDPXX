@@ -6,11 +6,17 @@ INDIA_civilwar = {
 			tag = RAJ
             OR = {
                 FID = {
-                    controls_state = 429
+                    controls_state = 424
+                    has_country_flag = INDIA_civilwar_participants
                 }
                 RAJ = {
-                    controls_state = 424
+                    controls_state = 429
+                    has_country_flag = INDIA_civilwar_participants
                 }
+            }
+            country_exists = HYD
+            HYD = {
+                is_subject = no
             }
 		}
         allowed = {
@@ -28,14 +34,45 @@ INDIA_civilwar = {
 			base = 100#ai点选这个决议的意愿
 		}
     }
+     INDIA_core_hydrabad = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			tag = RAJ
+            country_exists = HYD
+            RAJ = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+            HYD = {
+                is_subject_of = RAJ
+            }
+		}
+        allowed = {
+			original_tag = RAJ
+		}
+        cost = 50
+        days_remove = 35
+        complete_effect = {
+			RAJ = {
+                annex_country = { target = HYD transfer_troops = yes }
+                }
+            }
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
     INDIA_AFG_invade = {
         icon = 
         fire_only_once = yes
         available = {
 			tag = AFG
+            AFG = {
+                has_country_flag = INDIA_civilwar_participants
+            }
             OR = {
             RAJ = {
                 has_war_with = FID
+                has_country_flag = INDIA_civilwar_participants
             }
             date > 1948.1.1
             }
@@ -92,6 +129,229 @@ INDIA_civilwar = {
         war_with_on_remove = RAJ
         remove_effect = {
 			declare_war_on = { target = RAJ type = annex_everything }
+        }
+    }
+    INDIA_peace_conferrence_CYN = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			CYN = {
+					NOT = { controls_state = 429}
+					NOT = { controls_state = 425}
+					NOT = { controls_state = 424}
+					NOT = { controls_state = 423}
+                    NOT = { controls_state = 320}
+					}
+		}
+        allowed = {
+            original_tag = RAJ
+		}
+        visible = {
+            tag = RAJ
+		}
+        cost = 10
+        days_remove = 20
+        remove_effect = {
+			country_event = { 
+							days = 1  id = indu_civilwar.1
+							}
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_RAJ_anounce_uni = {
+        icon = 
+        fire_only_once = yes
+        available = {
+            RAJ = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+			NOT = { country_exists = HYD }
+            NOT = { country_exists = KAR }
+            NOT = { country_exists = PUN }
+            NOT = { country_exists = FID }
+            CYN = {
+						NOT = { owns_state = 429}
+							NOT = { owns_state = 425}
+							NOT = { owns_state = 424}
+							NOT = { owns_state = 423}
+                            NOT = { owns_state = 320}
+						}
+		}
+        allowed = {
+            original_tag = RAJ
+		}
+        visible = {
+            tag = RAJ
+		}
+        cost = 0
+        remove_effect = {
+			news_event = {
+                id = indu.2
+                days = 1
+            }
+            clr_country_flag = INDIA_civilwar_participants
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_FID_anounce_uni = {
+        icon = 
+        fire_only_once = yes
+        available = {
+            FID = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+			NOT = { country_exists = HYD }
+            NOT = { country_exists = KAR }
+            NOT = { country_exists = PUN }
+            NOT = { country_exists = RAJ }
+            CYN = {
+						NOT = { owns_state = 429}
+							NOT = { owns_state = 425}
+							NOT = { owns_state = 424}
+							NOT = { owns_state = 423}
+                            NOT = { owns_state = 320}
+						}
+		}
+        allowed = {
+            original_tag = FID
+		}
+        visible = {
+            tag = FID
+		}
+        cost = 0
+        remove_effect = {
+			news_event = {
+                id = indu.3
+                days = 1
+            }
+            clr_country_flag = INDIA_civilwar_participants
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_RIJ_anounce_uni = {
+        icon = 
+        fire_only_once = yes
+        available = {
+            CYN = {
+						NOT = { owns_state = 429}
+							NOT = { owns_state = 425}
+							NOT = { owns_state = 424}
+							NOT = { owns_state = 423}
+                            NOT = { owns_state = 320}
+						}
+            NOT = { country_exists = FID }
+		}
+        allowed = {
+            original_tag = RAJ
+            RAJ = {
+                is_subject_of = AFG
+            }
+		}
+        visible = {
+            tag = RAJ
+            RAJ = {
+                is_subject_of = AFG
+            }
+		}
+        cost = 0
+        remove_effect = {
+			news_event = {
+                id = indu.1
+                days = 1
+            }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_PEACE_anounce_uni = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			NOT = { country_exists = FID }
+            CYN = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+		}
+        allowed = {
+            original_tag = AFG
+		}
+        visible = {
+            tag = AFG
+		}
+        cost = 0
+        remove_effect = {
+			country_event = { 
+							days = 1  id = indu_civilwar.3
+							}
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_PEACE_anounce_RAJ_AFG = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			RAJ = {
+                controls_state = 440
+                controls_state = 443
+            }
+		}
+        allowed = {
+            original_tag = RAJ
+		}
+        visible = {
+            tag = RAJ
+		}
+        cost = 0
+        remove_effect = {
+            AFG = {
+			country_event = { 
+							days = 1  id = indu_civilwar.4
+							}
+            }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_RAJ_annex_FID = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			has_war = no
+            NOT = { country_exists = PUN }
+            NOT = { country_exists = KAR }
+            AFG = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+            CYN = {
+                NOT = {
+                    has_country_flag = INDIA_civilwar_participants
+                }
+            }
+		}
+        allowed = {
+            original_tag = RAJ
+		}
+        visible = {
+            tag = RAJ
+		}
+        war_with_on_remove = FID
+        cost = 0
+        remove_effect = {
+            declare_war_on = { target = FID type = annex_everything }
+		}
+        days_remove = 20
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
 		}
     }
 }

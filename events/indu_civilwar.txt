@@ -11,7 +11,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    RAJ = { set_cosmetic_tag = RIJ }
+		    
 		}
     }
 	
@@ -19,10 +19,25 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		News_event = {
-			id = indu.1 days = 1
-		}
 		name = indu_civilwar.1.a
+		RAJ = {
+						transfer_state = 429
+						transfer_state = 425
+						white_peace = CYN
+					}
+		FID = {
+						transfer_state = 424
+						transfer_state = 423
+						transfer_state = 320
+						white_peace = CYN
+					}
+		CYN = { clr_country_flag = INDIA_civilwar_participants }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		name = indu_civilwar.1.b
 	}
 	
 }
@@ -38,7 +53,9 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    CYN = {
+				clr_country_flag = INDIA_civilwar_participants
+			}
 		}
     }
 	
@@ -76,6 +93,79 @@ country_event = {
 		}
 		}
 		name = indu_civilwar.2.b
+	}
+	
+}
+country_event = {
+    id = indu_civilwar.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.3 FROM = [From.GetName]" }
+	title = indu_civilwar.3.t
+	desc = indu_civilwar.3.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 90
+		}
+		news_event = {
+                id = indu.4
+                days = 1
+            }
+		name = indu_civilwar.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 00
+		}
+		CYN = {
+			declare_war_on = { target = RAJ type = take_state }
+		}
+		name = indu_civilwar.3.b
+	}
+	
+}
+country_event = {
+    id = indu_civilwar.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.4 FROM = [From.GetName]" }
+	title = indu_civilwar.4.t
+	desc = indu_civilwar.4.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 90
+		}
+		white_peace = RAJ
+		RAJ = {
+			annex_country = { target = KAR transfer_troops = no }
+			annex_country = { target = PUN transfer_troops = no }
+
+		}
+		name = indu_civilwar.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 90
+		}
+		name = indu_civilwar.3.b
 	}
 	
 }
