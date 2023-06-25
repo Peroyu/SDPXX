@@ -33,7 +33,7 @@ add_ideas = {
  
  }
 
-set_country_flag = INDIA_civilwar_participants
+ set_country_flag = INDIA_civilwar_participants
 create_country_leader = {
 	name = "路易斯·蒙巴顿"
 	desc = "/"  
