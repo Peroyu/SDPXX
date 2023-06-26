@@ -31,6 +31,15 @@
  DJF_Influence_Of_Long_Yun:0"云南王"
  DJF_Influence_Of_Long_Yun_desc:0"作为国民政府任命的云南省主席，龙云已经统治云南整整二十年，在他任期之内，滇军实力得到了恢复，云南的经济得到了长足发展，社会治安也大幅好转，云南也迎来了即蔡锷之后最稳定繁荣富强的一段时间，不过随着抗日战争的发展，云南也将迎来最后也是最为关键的一次选择。"
  #决议
- 
+ DJF_diplomacy_scrambal:"云南局势变化"
+ DJF_diplomacy_scrambal_desc:"位于中国大陆西南边陲的云南省，地势险要，而从辛亥革命以来便以其对革命事业的忠诚而闻名，护法战争，讨袁战争，几乎近代中国进步的每一个脚步都有云南人的影子，时至今日，随着国立西南联合大学在抗战之初迁滇，以及原云南省省主席金汉鼎的即将离任，这块西南边陲的富饶之地似乎又再一次陷入了革命和保守之间的斗争，而来自全国各地的激进学生，社会主义者和共产党人和当地与国民革命军中的保守势力之间的对抗也正在加剧，一些观察家认为，云南省的形势，从某种角度上可以体现目前正在战斗的中国被重庆和广州两个中心牵引的现状。\n\n云南省选举亲广州省主席的可能性为：§Y[?DJF_GDC_possiblity]§!\b云南省选举亲重庆省主席的可能性为：§Y[?DJF_CJF_possiblity]§!"
+ DJF_election_is_coming:"云南省省主席选举"
+ DJF_diplomacy_decsions_generic:"投资宣传"
+ DJF_diplomacy_decsions_1_CJF:"投资地方实力派"
+ DJF_diplomacy_decsions_2_CJF:"扩大国民党云南省党部"
+ DJF_diplomacy_decsions_3_CJF:"部署国民革命军"
+ DJF_diplomacy_decsions_1_GDC:"激进革命宣传"
+ DJF_diplomacy_decsions_2_GDC:"发展中共云南省委"
+ DJF_diplomacy_decsions_3_GDC:"发动声援罢工"
  #event
  

@@ -29,6 +29,7 @@ add_ideas = {
 		DJF_Dian_Army
 		DJF_Influence_Of_Long_Yun
 	}
+#########################################################
 create_country_leader = {
 		name = "DJF_Jin_HanDing" #领导人名字
 		desc = "DJF_Jin_HanDing_desc" #领导人介绍

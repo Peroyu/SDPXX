@@ -3,10 +3,11 @@ GDC_hunger = {
 	    picture = GFX_decisions_GDC_hunger 
 		available = {
 	          tag = GDC
-			
+			has_country_flag = GDC_hunger_on_going
 		}
 		visible = {
              tag = GDC 
+		has_country_flag = GDC_hunger_on_going
         }
 		cancel_trigger = {
           

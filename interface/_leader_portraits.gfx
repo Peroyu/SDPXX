@@ -146,6 +146,21 @@
 		name = "GFX_portrait_CJF_Yu_ZuoYu"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Yu_ZuoYu.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Chen_Cheng"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Chen_Cheng.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Sun_Li_Ren"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Sun_Li_Ren.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Du_Yuming"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Du_Yuming.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -243,6 +258,21 @@
 	spriteType = {
 		name = "GFX_portrait_GDC_Ye_Ting"
 		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Ye_Ting.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GDC_Chen_Geng"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Chen_Geng.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GDC_Xve_Yue"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Xve_Yue.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GDC_Chen_Mingshu"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Chen_Mingshu.png"		
 	}
 	
 	###############################################################
@@ -469,5 +499,12 @@
 	spriteType = {
 		name = "CUB_portrait_Fulgencio_Batista"
 		texturefile = "gfx/leaders/Latin_America/CUB_portrait_Fulgencio_Batista.png"		
+	}
+
+	##################################Triple Entente########################################
+
+	spriteType = {
+		name = "CAM_portrait_Friedrich_William_III"
+		texturefile = "gfx/leaders/EN/CAM_portrait_Friedrich_William_III.png"		
 	}
 }

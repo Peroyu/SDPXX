@@ -2,6 +2,7 @@ INDIA_civilwar = {
 	    icon = GFX_MMA_gongshukmt
 		picture = 
 		available = {
+			has_country_flag = INDIA_civilwar_participants
 		}
 		visible = {
 			has_country_flag = INDIA_civilwar_participants

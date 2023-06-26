@@ -50,6 +50,57 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	GDC_Chen_Mingshu={
+		name = "GDC_Chen_Mingshu"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Chen_Mingshu
+				large = GFX_portrait_GDC_Chen_Mingshu
+			}
+		}
+		field_marshal={
+			traits={ organizer old_guard }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	GDC_Chen_Geng={
+		name = "GDC_Chen_Geng"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Chen_Geng
+				large = GFX_portrait_GDC_Chen_Geng
+			}
+		}
+		corps_commander={
+			traits={ organizer trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	GDC_Xve_Yue={
+		name = "GDC_Xve_Yue"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Xve_Yue
+				large = GFX_portrait_GDC_Xve_Yue
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=4
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 	GDC_He_Long={
 		name = "GDC_He_Long"
 		portraits = {

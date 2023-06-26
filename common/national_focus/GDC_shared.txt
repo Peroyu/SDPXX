@@ -292,7 +292,7 @@ shared_focus = {
 		x = 7
 		y = 9
 		available = {
-			NOT = { has_idea = GDC_hunger }
+			NOT = { has_country_flag = GDC_hunger_on_going }
 		}
 		completion_reward = {
 			custom_effect_tooltip = GDC_we_together
@@ -467,6 +467,7 @@ shared_focus = {
 			country_event = { 
 				days = 1  id = GDClkmt.2
 				}
+			add_to_variable = { var = GDC.GDC_crop_reserves value = 25 }
 			add_political_power = 15
 			add_ideas = GDC_risen_money
 		}
@@ -530,6 +531,7 @@ shared_focus = {
 			custom_effect_tooltip = GDC_start_our_way
 			add_ideas = GDC_independent_ecnomy_1
 			add_stability = -0.15
+			add_to_variable = { var = GDC.GDC_crop_gain value = 7 }
 		}
 		prerequisite = {
 		       focus = GDC_Chen_Yun_focus
@@ -594,6 +596,7 @@ shared_focus = {
 		x = 16
 		y = 9
 		completion_reward = {
+			add_to_variable = { var = GDC.GDC_crop_gain value = 4 }
 			add_political_power = 50
 			add_ideas = GDC_cage_bird_ecnomy_idea
 			remove_ideas = GDC_independent_ecnomy_3
@@ -649,6 +652,9 @@ shared_focus = {
 		x = 14
 		y = 5
 		completion_reward = {
+			add_to_variable = { var = GDC.GDC_crop_gain value = -4 }
+			add_to_variable = { var = GDC.GDC_rural_hunger_add value = -1 }
+			add_to_variable = { var = GDC.GDC_rural_city_add value = -3 }
 			add_political_power = 15
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
@@ -699,6 +705,10 @@ shared_focus = {
 		x = 18
 		y = 3
 		completion_reward = {
+			add_to_variable = { var = GDC.GDC_crop_reserves value = -75 }
+			add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+			add_to_variable = { var = GDC.GDC_rural_hunger_add value = -2 }
+			add_to_variable = { var = GDC.GDC_rural_city_add value = -5 }
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -823,6 +833,9 @@ shared_focus = {
 		completion_reward = {
 			add_political_power = 20
 			custom_effect_tooltip = GDC_our_the_har_work
+			add_to_variable = { var = GDC.GDC_rural_city_add value = 2 }
+			add_to_variable = { var = GDC.GDC_crop_gain value = -4 }
+			add_to_variable = { var = GDC.GDC_rural_hunger_add value = -1 }
 		}
 		prerequisite = {
 		       focus = GDC_bolshve_farming_union
@@ -888,6 +901,7 @@ shared_focus = {
 		x = 22
 		y = 7
 		completion_reward = {
+			add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
 			add_timed_idea = { 
 				idea = GDC_moving_countryside 
 				days = 180 
@@ -936,7 +950,7 @@ shared_focus = {
 		x = 16
 		y = 10
 		available = {
-			has_country_flag = GDC_hunger_away
+			NOT = { has_country_flag = GDC_hunger_on_going }
 		}
 		completion_reward = {
 			country_event = { 
@@ -944,7 +958,6 @@ shared_focus = {
 				}
 			custom_effect_tooltip = GDC_statrt_the_route
 			remove_ideas = GDC_hunger
-			clr_country_flag = GDC_hunger_away
 		}
 		prerequisite = {
 		       focus = GDC_bird_in_cage

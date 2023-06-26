@@ -6,3 +6,7 @@ RIJ = {
  color = rgb { 71 100 59 }
  color_ui = rgb { 71 100 59 }
 }
+RAJ_INDIA = {
+ color = rgb { 143 172 39 }
+ color_ui = rgb { 143 172 39 }
+}

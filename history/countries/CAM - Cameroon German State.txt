@@ -21,17 +21,19 @@ broken_entents
 set_popularities = {
  nationalism = 19
  reactionism = 16
- restoratveism = 56
+ restoratveism = 36
  conservatism = 9
+ Liberalism = 10
+ movement_communism = 10
 }
 
 # 
 create_country_leader = {
-	name = "赫尔曼·戈林"  # 
+	name = "弗雷德里希·威廉三世"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "CAM_portrait_Friedrich_William_III"  # 
 	expire = "1976.3.10"  # 
-	ideology = nationalism # 
+	ideology = Casselism # 
 	traits = {  # 
 		#
 	}

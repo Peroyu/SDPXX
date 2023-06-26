@@ -149,7 +149,7 @@ country_event = {
 		name = GDCintro.6.a 
 		declare_war_on = { target = GNP type = annex_everything }
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		add_to_variable = { CHI_huanan_regional_tension = 30 }
+		add_to_variable = { global.CHI_huanan_regional_tension = 30 }
 	}
 	
 }
@@ -180,7 +180,7 @@ country_event = {
 		}
 		name = GDCintro.7.a
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
-		add_to_variable = { CHI_huanan_regional_tension = -5 }
+		add_to_variable = { global.CHI_huanan_regional_tension = -5 }
 	}
 	
 }
@@ -290,10 +290,12 @@ country_event = {
 ###################LKMT##############################
 country_event = {
 	id = GDClkmt.1 #峥嵘岁月
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.1 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
+   
     fire_only_once = yes #事件是否仅触发一次，默认为no）
     
 	hidden = no
@@ -331,6 +333,8 @@ country_event = {
 }
 country_event = {
 	id = GDClkmt.3 #修渠
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.3 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -343,15 +347,24 @@ country_event = {
 		}
 	}
     option = { 
+		trigger = {
+			check_variable = { GDC.GDC_crop_reserves > 100 }
+		}
         name = GDClkmt.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = -200 }
+		add_to_variable = { var = GDC.GDC_crop_produce value = 12 }
+		add_to_variable = { var = GDC.GDC_hunger_rural value = -10 }
 	}
 	option = { 
         name = GDClkmt.3.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_hunger_rural value = 2 }
 	}
     
 }
 country_event = {
 	id = GDClkmt.4 #参议会表决:社会福利法
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.4 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -365,14 +378,22 @@ country_event = {
 	}
     option = { 
         name = GDClkmt.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {}
+		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+		add_to_variable = { var = GDC.GDC_hunger_city value = -1 }
+		add_to_variable = { var = GDC.GDC_hunger_rural value = -1 }
 	}
 	option = { 
         name = GDClkmt.4.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {}
+
 	}
     
 }
 country_event = {
 	id = GDClkmt.5 #赤脚医生的故事
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.5 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -386,14 +407,16 @@ country_event = {
 	}
     option = { 
         name = GDClkmt.5.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-	}
-	option = { 
-        name = GDClkmt.5.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = -50 }
+		add_to_variable = { var = GDC.GDC_crop_gain value = -10 }
+		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -5 }
 	}
     
 }
 country_event = {
 	id = GDClkmt.6 #打给谁？
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.6 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -417,6 +440,8 @@ country_event = {
 }
 country_event = {
 	id = GDClkmt.7 #谈判？
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.7 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.7.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.7.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -430,12 +455,14 @@ country_event = {
 	}
     option = { 
         name = GDClkmt.7.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 100 }
 	}
     
 }
 country_event = {
 	id = GDClkmt.8 #与陈公博的通话
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.8 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.8.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.8.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -449,12 +476,14 @@ country_event = {
 	}
     option = { 
         name = GDClkmt.8.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		
+		add_to_variable = { var = GDC.GDC_crop_reserves value = -50 }
 	}
     
 }
 country_event = {
 	id = GDClkmt.9 #民族之未来
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.9 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClkmt.9.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.9.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -475,6 +504,8 @@ country_event = {
 #################MCP##############################
 country_event = {
 	id = GDCmcpc.1 #不唯上，不唯书，只唯实
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.1 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCmcpc.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -493,10 +524,12 @@ country_event = {
 }
 country_event = {
 	id = GDCmcpc.2 #进一步土改
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.2 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCmcpc.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
+   
     fire_only_once = yes #事件是否仅触发一次，默认为no）
     
 	hidden = no
@@ -506,11 +539,15 @@ country_event = {
 	}
     option = { 
         name = GDCmcpc.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_produce value = 5 }
+		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
 	}
     
 }
 country_event = {
 	id = GDCmcpc.3 #市场更公平，人民越……
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.3 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCmcpc.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -524,15 +561,20 @@ country_event = {
 	}
     option = { 
         name = GDCmcpc.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
+		add_to_variable = { var = GDC.GDC_rural_hunger_add value = 1 }
+		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
 	}
     
 }
 country_event = {
 	id = GDCmcpc.4 #考察报告
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.4 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCmcpc.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
+   
     fire_only_once = yes #事件是否仅触发一次，默认为no）
     
 	hidden = no
@@ -542,6 +584,7 @@ country_event = {
 	}
     option = { 
         name = GDCmcpc.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 75 }
 	}
     
 }
@@ -571,6 +614,8 @@ country_event = {
 }
 country_event = {
 	id = GDClcpc.2 #今天你加入合作社了吗
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.2 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClcpc.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -589,6 +634,8 @@ country_event = {
 }
 country_event = {
 	id = GDClcpc.3 #杯酒释粮权
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.3 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClcpc.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -602,11 +649,15 @@ country_event = {
 	}
     option = { 
         name = GDClcpc.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
+		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
 	}
     
 }
 country_event = {
 	id = GDClcpc.4 #你有钱袋子，我有枪杆子
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.4 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClcpc.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -620,11 +671,14 @@ country_event = {
 	}
     option = { 
         name = GDClcpc.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 75 }
 	}
     
 }
 country_event = {
 	id = GDClcpc.5 #减免地租
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.5 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDClcpc.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -638,6 +692,8 @@ country_event = {
 	}
     option = { 
         name = GDClcpc.5.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
 	}
     
 }

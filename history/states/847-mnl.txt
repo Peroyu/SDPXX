@@ -4,7 +4,7 @@ state={
 	name="STATE_847"
 	state_category=rural
 	history={
-		owner = MNL
+		owner = SHN
 		victory_points = {
 			12144 1 
 		}
@@ -13,7 +13,7 @@ state={
 
 		}
 		add_core_of = MLY
-		add_core_of = MNL
+		add_core_of = SHN
 
 	}
 	provinces={

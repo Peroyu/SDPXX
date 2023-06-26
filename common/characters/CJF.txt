@@ -16,6 +16,23 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	CJF_Du_Yuming={
+		name = "CJF_Du_Yuming"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Du_Yuming
+				large = GFX_portrait_CJF_Du_Yuming
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious harsh_leader}
+			skill=5
+			attack_skill=4
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
 	CJF_Wei_LiHuang={
 		name = "CJF_Wei_LiHuang"
 		portraits = {
@@ -97,6 +114,23 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	CJF_Chen_Cheng={
+		name = "CJF_Chen_Cheng"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Chen_Cheng
+				large = GFX_portrait_CJF_Chen_Cheng
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
 	CJF_Lu_Hanliang={
 		name = "CJF_Lu_Hanliang"
 		portraits = {
@@ -107,7 +141,7 @@ characters = {
 		}
 		corps_commander={
 			traits={ }
-			skill=2
+			skill=3
 			attack_skill=3
 			defense_skill=2
 			planning_skill=2
@@ -144,6 +178,23 @@ characters = {
 			skill=3
 			attack_skill=3
 			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	CJF_Sun_Li_Ren={
+		name = "CJF_Sun_Li_Ren"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Sun_Li_Ren
+				large = GFX_portrait_CJF_Sun_Li_Ren
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=3
 		}

@@ -159,6 +159,9 @@ country_event = {
 			annex_country = { target = PUN transfer_troops = no }
 
 		}
+		AFG = {
+			clr_country_flag = INDIA_civilwar_participants
+		}
 		name = indu_civilwar.3.a
 	}
 	option = { 

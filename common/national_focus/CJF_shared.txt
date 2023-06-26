@@ -130,6 +130,8 @@ shared_focus = {
 		completion_reward = {
 			add_state_core = 854
 			add_state_core = 855
+			add_state_core = 603
+			add_state_core = 748
 			custom_effect_tooltip = CJF_improve_ourselves
 			country_event = {
                id = CJF_Cp.1
@@ -147,6 +149,7 @@ shared_focus = {
 			focus = CJF_The_country_is_in_trouble
 		}
 		completion_reward = {
+			
 			unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
 		}
 	}

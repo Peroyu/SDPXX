@@ -1,0 +1,26 @@
+focus_tree = {
+	id = generic
+	country = {
+		factor = 0
+		modifier = {
+			add = 10 
+		}	
+	}
+	default = no
+   	focus = {
+        id = THRER_IS_NOT_NATIONAL_FOCUS
+		icon = GFX_THRER_IS_NOT_NATIONAL_FOCUS
+		cost = 10000
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		available = {
+			has_country_flag = I_HAVE_NATIONAL_FOCUS
+		}
+		visible = {
+			has_country_flag = I_HAVE_NATIONAL_FOCUS
+		}
+		completion_reward = {
+		}
+    }
+}

@@ -26,6 +26,7 @@ set_variable = { var = MMA_national value = 5 }
 	elections_allowed = no  
  }
 
+#########################################################
  set_popularities = {
 	conservatism = 60
 	communism = 14

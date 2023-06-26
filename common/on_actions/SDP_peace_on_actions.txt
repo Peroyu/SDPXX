@@ -387,7 +387,13 @@ on_actions = {
 					}
 
 					FROM = {
-						annex = ROOT
+						white_peace = ROOT
+					}
+					RAJ = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
 					}
 					FID = {
 						clr_country_flag = INDIA_civilwar_participants

@@ -1,0 +1,40 @@
+﻿add_namespace = DJF
+country_event = {
+    id = DJF.1
+	title = {
+		title = DJF.1.t
+		trigger = { tag = DJF } #显示此标题的触发器，满足触发器条件的作用域会显示该标题，而不满足条件的则展示另外的标题（如果有的话）
+	}
+	desc = {
+		text = desc = DJF.1.d
+		trigger = { tag = DJF } ##显示此介绍的触发器，满足触发器条件的作用域会显示该介绍
+	}
+	trigger = {
+        date > 1948.2.5
+		original_tag = DJF
+	}
+	picture = GFX_DJF.1
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		DJF = {
+        set_country_flag = DJF_election_doing 
+        add_to_variable = { var = DJF_GDC_possiblity value = 10 }
+        add_to_variable = { var = DJF_CJF_possiblity value = 20 }
+		}
+		trigger = { tag = DJF }
+		name = DJF.1.a
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+}

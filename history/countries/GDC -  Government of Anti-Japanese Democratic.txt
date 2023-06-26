@@ -28,13 +28,14 @@ set_popularities = {
 	reactionism = 4
 	nationalism = 2
 }
-set_variable = { var = GDC_crop_gain value = 5 }
-set_variable = { var = GDC_crop_reserves value = 130 }
-set_variable = { var = GDC_crop_produce value = 32 }
-set_variable = { var = GDC_rural_hunger_v value = 70 }
-set_variable = { var = GDC_city_hunger_v value = 26 }
-set_variable = { var = GDC_rural_city_add value = 2 }
-set_variable = { var = GDC_rural_hunger_add value = 5 }
+set_variable = { var = GDC.GDC_crop_gain value = 5 }
+set_variable = { var = GDC.GDC_crop_reserves value = 130 }
+set_variable = { var = GDC.GDC_crop_produce value = 32 }
+set_variable = { var = GDC.GDC_rural_hunger_v value = 70 }
+set_variable = { var = GDC.GDC_city_hunger_v value = 26 }
+set_variable = { var = GDC.GDC_rural_city_add value = 2 }
+set_variable = { var = GDC.GDC_rural_hunger_add value = 5 }
+set_country_flag = GDC_hunger_on_going
 add_ideas = {
 	tot_economic_mobilisation
 	limited_exports
@@ -50,6 +51,7 @@ add_ideas = {
 	GDC_hunger
 	GDC_none_pact_peace
 }
+#########################################################
 create_country_leader = {
 		name = "李立三"   
 		desc = "GDC_Li_Lisan_desc"  
@@ -103,6 +105,11 @@ recruit_character = GDC_Ye_Ting
 recruit_character = GDC_Zhang_Fakui
 recruit_character = GDC_Fang_Zhimin
 recruit_character = GDC_Chiang_Ching_Kuo
+recruit_character = CJF_Yu_ZuoYu
+recruit_character = GDC_Chen_Mingshu
+recruit_character = GDC_Chen_Geng
+recruit_character = GDC_Xve_Yue
+recruit_character = CJF_Li_Mingrui
 	##############################################################
 
 	

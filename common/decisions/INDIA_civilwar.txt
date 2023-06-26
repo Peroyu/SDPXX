@@ -192,6 +192,7 @@ INDIA_civilwar = {
                 days = 1
             }
             clr_country_flag = INDIA_civilwar_participants
+            set_cosmetic_tag = RAJ_INDIA
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
