@@ -1,21 +1,23 @@
 GDC_hunger = {                               
     crop_decrase = { 
 	      icon = decision_revolt
-          available = {                           
-			Not = { has_country_flag = GDC_hunger_away }
+          available = { 
+            has_country_flag = GDC_hunger_away
           }
 		  visible = {
-		   
+		   tag = GDC
 		  }
 		  cancel_trigger = {
 		   
 		  }
           is_good = no    
 		  fire_only_once = no             
-          days_mission_timeout = 15              
+          days_mission_timeout = 30           
           timeout_effect = {     
-            add_to_variable = { GDC_rural_hunger_v = [?GDC_rural_hunger_add] }
-				    add_to_variable = { GDC_city_hunger_v = [?GDC_rural_city_add] }
+            add_to_variable = { var = GDC_rural_hunger_v value = [?GDC_rural_hunger_add] }
+				    add_to_variable = { var = GDC_city_hunger_v value = [?GDC_rural_city_add] }
+            add_to_variable = { var = GDC_crop_reserves value = [?GDC_crop_produce] }
+            add_to_variable = { var = GDC_crop_reserves value = [?GDC_crop_gain] }
             custom_effect_tooltip = GDC_crop_decrase
 		  }
           complete_effect = {                   
@@ -25,54 +27,67 @@ GDC_hunger = {
     hunger_add_city_supply = {
           icon = decision_generic_political_discourse
           visible = {
+            tag = GDC
           }
-          custom_cost_text = GDC_crop_spend_more
           available = {
-              check_variety = [?GDC_crop_reserve] ＞ 500 
+              check_variable = { #检查变量大小
+	              var = GDC_crop_reserves
+	              value = 50
+	              compare = greater_than
+              }
           }
           complete_effect = {
                
           }
           days_remove = 10
           remove_effect = {
-              
+              subtract_from_variable = {
+                var = GDC_crop_reserve 
+                value = 50
+              }
           }
         } 
     hunger_decrease_city_supply = {
           icon = decision_generic_political_discourse
           visible = {
+           
           }
           cost = 10
           available = {
-              
           }
           complete_effect = {
                
           }
           days_remove = 10
           remove_effect = {
-              
           }
         } 
     hunger_add_rural_supply = {
           icon = decision_generic_political_discourse
           visible = {
+            tag = GDC
           }
-          custom_cost_text = GDC_crop_spend_more
           available = {
-              check_variety = [?GDC_crop_reserve] ＞ 500
+             check_variable = { #检查变量大小
+	              var = GDC_crop_reserves
+	              value = 50
+	              compare = greater_than
+              }
           }
           complete_effect = {
                
           }
           days_remove = 10
           remove_effect = {
-              
+              subtract_from_variable = {
+                var = GDC_crop_reserve value = 50
+              }
           }
         } 
     hunger_decrease_rural_supply = {
           icon = decision_generic_political_discourse
           visible = {
+            tag = GDC
           }
           cost = 10
           available = {
@@ -89,11 +104,14 @@ GDC_hunger = {
     organise_capital_arise = {
           icon = decision_generic_fundraising
           visible = {
+            tag = GDC
           }
           cost = 20
           available = {
+            OR = {
               has_government = social_democracy
                has_government = Liberalism
+            }
           }
           complete_effect = {
                
@@ -107,11 +125,14 @@ GDC_hunger = {
     start_wealth_reorganise_plan = {
           icon = decision_generic_fundraising
           visible = {
+            tag = GDC
           }
           cost = 20
           available = {
+            OR = {
               has_government = communism
               has_government = committee_communism
+            }
           }
           complete_effect = {
                
@@ -124,17 +145,24 @@ GDC_hunger = {
     hunger_support_NRA = {
           icon = decision_generic_military
           visible = {
+            tag = GDC
           }
           custom_cost_text = GDC_crop_spend_much
           available = {
-              check_variety = { [?GDC_crop_reserve] ＞ 1000 }
+          check_variable = { #检查变量大小
+	              var = GDC_crop_reserves
+	              value = 100
+	              compare = greater_than
+              }
           }
           complete_effect = {
                
           }
           days_remove = 10
           remove_effect = {
-              
+              subtract_from_variable = {
+                var = GDC_crop_reserve value = 100
+              }
           }
         }
     }

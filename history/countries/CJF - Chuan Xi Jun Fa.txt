@@ -73,12 +73,12 @@ set_variable = { var = SDP_agriculture_v value = 19 }#60
 set_variable = { var = SDP_science_v value = 18 }#50
 set_variable = { var = SDP_politics_v value = 31 }#60
 ########################################################
-set_variable = { var = CHI_dongbei_regional_tension value = 12 }#60
-set_variable = { var = CHI_huabei_regional_tension value = 18 }#50
-set_variable = { var = CHI_xibei_regional_tension value = 16 }#60
-set_variable = { var = CHI_huanan_regional_tension value = 19 }#60
-set_variable = { var = CHI_xinan_regional_tension value = 30 }#50
-set_variable = { var = CHI_huazhong_regional_tension value = 11 }#60
+set_variable = { var = CHI_dongbei_regional_tension value = 12 }
+    set_variable = { var = CHI_huabei_regional_tension value = 18 }
+    set_variable = { var = CHI_xibei_regional_tension value = 16 }
+    set_variable = { var = CHI_huanan_regional_tension value = 19 }
+    set_variable = { var = CHI_xinan_regional_tension value = 30 }
+    set_variable = { var = CHI_huazhong_regional_tension value = 11 }
 #########################################################
 add_ideas = {
  tot_economic_mobilisation
