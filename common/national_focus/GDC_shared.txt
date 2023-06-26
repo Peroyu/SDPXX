@@ -169,9 +169,7 @@ shared_focus = {
 		x = 8
 		y = 3
 		available = {
-			has_country_flag = {
-				NOT = { GDC_LKMT_pengpai_begin }
-			} 
+			
 		}
 		completion_reward = {
 			add_command_power = 20

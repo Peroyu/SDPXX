@@ -26,6 +26,11 @@ spriteTypes = {
 	name = "GFX_GDC_organise_ferterlises"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_organise_ferterlises.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_GDC_call_the_soldiers"
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_call_the_soldiers.png"			
+	}
 	
 	SpriteType = {
 	name = "GFX_GDC_knok_the_door"
