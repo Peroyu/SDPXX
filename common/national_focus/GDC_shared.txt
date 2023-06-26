@@ -105,6 +105,10 @@ shared_focus = {
 		y = 4
 		completion_reward = {
 				add_stability = 0.01
+				swap_ideas = {
+			add_idea = GDC_liangguang_milltary_contrbute_2
+			remove_idea = GDC_liangguang_milltary_contrbute_1
+		}
 		}
 		prerequisite = {
 		       focus = GDC_all_soldiers
@@ -124,8 +128,13 @@ shared_focus = {
 				days = 1  id = GDCarm.1
 				}
 			swap_ideas = {
-				add_idea = GDC_liangguang_milltary_contrbute_2
-				remove_idea = GDC_liangguang_milltary_contrbute_1
+				add_idea = GDC_liangguang_milltary_contrbute_3
+				remove_idea = GDC_liangguang_milltary_contrbute_2
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3000
+				producer = GDC
 			}
 		}
 		prerequisite = {
@@ -144,6 +153,7 @@ shared_focus = {
 			country_event = { 
 				days = 1  id = GDCarm.2
 				}
+			add_ideas = GDC_politic_representative_idea
 		}
 		prerequisite = {
 		       focus = GDC_all_soldiers
@@ -251,6 +261,7 @@ shared_focus = {
 		x = 7
 		y = 7
 		completion_reward = {
+			
 			custom_effect_tooltip = GDC_link_mingan_plan
 			country_event = { 
 				days = 1  id = GDCarm.4
@@ -296,7 +307,38 @@ shared_focus = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = GDC_we_together
-
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
 		}
 		prerequisite = {
 		       focus = GDC_break_through_mingan
@@ -976,6 +1018,7 @@ shared_focus = {
 			country_event = { 
 				days = 1  id = GDCintro.6 
 				}
+			custom_effect_tooltip = GDC_Before_the_uni_1
 		}
 		prerequisite = {
 			   focus = GDC_hard_risen_the_state

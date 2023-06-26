@@ -4,13 +4,13 @@ SDP_KMT_army_reform = {
 	picture = GFX_decision_cat_picture_chi_infiltration
 	scripted_gui = SDP_KMT_scripted_gui
 	allowed = {
-		tag = CHI
+		tag = CJF
 	}
 	available = {
 	        has_completed_focus = CJF_want_to_be_their_best_work  
 		}
 	visible = {
-		always = yes
+		has_completed_focus = CJF_want_to_be_their_best_work
 	} 
 }
 

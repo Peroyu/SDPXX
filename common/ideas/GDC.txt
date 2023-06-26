@@ -30,6 +30,18 @@ ideas = {
 				no_supply_grace = 48
 			}
 		}
+		GDC_Iron_Cage_3 = {
+		    name = GDC_Iron_Cage_3
+			picture = GDC_Iron_Cage
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				supply_consumption_factor = 0.1
+				attrition = 0.05
+			}
+		}
 		GDC_Rectification_Movement = {
 		    name = GDC_Rectification_Movement
 			picture = GDC_Rectification_Movement
@@ -359,7 +371,7 @@ ideas = {
 		}
 		GDC_liangguang_milltary_contrbute_1= {
 		    name = GDC_liangguang_milltary_contrbute_1
-			picture = GDC_liangguang_milltary_contrbute_1
+			picture = GDC_liangguang_milltary_contrbute
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -370,7 +382,7 @@ ideas = {
 		}
 		GDC_liangguang_milltary_contrbute_2= {
 		    name = GDC_liangguang_milltary_contrbute_1
-			picture = GDC_liangguang_milltary_contrbute_2
+			picture = GDC_liangguang_milltary_contrbute
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -379,6 +391,33 @@ ideas = {
 				army_core_defence_factor = 0.05
 				army_org_factor = 0.05
 				monthly_population = 0.05
+			}
+		}
+		GDC_liangguang_milltary_contrbute_3= {
+		    name = GDC_liangguang_milltary_contrbute_1
+			picture = GDC_liangguang_milltary_contrbute
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_org_factor = 0.1
+				monthly_population = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+		GDC_politic_representative_idea= {
+		    name = GDC_politic_representative_idea
+			picture = GDC_politic_representative_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_org_factor = 0.1
+				army_core_attack_factor = 0.1
+				org_loss_when_moving = -0.05
 			}
 		}
 	}

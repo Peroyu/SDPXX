@@ -131,7 +131,7 @@
  GDC_kill_them_all_desc:0"革命事业就必须要流血，彭湃开始向全广西地区公告，当地的土豪劣绅不遵从参议会的各项法律的，由农民自行组织审判，各驻地国民革命军即刻动员前往各乡维持秩序，既要保证开明，遵纪守法的绅士们不能受侵害，又必须将邪恶的剥削家绳之于法！"
  GDC_experiment_coperation_desc:0"现在各乡都已成立了互助组，在互助组的基础上可以进一步升级成合作社了。广西省总农协宣布，现在的合作化试验仍采取自愿原则，各互助组自愿进行合并，但合作社可以获得县政府以及省政府的种粮，农具，彭湃相信这会大大的鼓励农民们进行互助组和合作化的积极性。"
  GDC_hard_risen_the_state_desc:0"广西的天气十分恶劣，一年一小灾，五年一大灾。然而正是这种多灾多难铸就了广西人民坚毅的品格和雄壮的广西狼兵，转眼间，我们已告别灾荒，重现昔年之繁荣景象。大家都相信，这个灾年是民族复兴的前奏，而我们已熬过了最黑暗的时刻，是时候该做好反攻的准备了。"
-
+ GDC_return_old_capital:"还于旧都"
  
  GDC_on_the_yuexiu_mountain:"越秀山上"
  GDC_unabitious_wishes:"先烈未弘之愿……"
@@ -302,6 +302,7 @@
  GDC_revolt_japen_desc:""
 
  #idea
+ GDC_politic_representative_idea:"军队政治建设"
  GDC_liangguang_milltary_contrbute_1:"两广军事建设"
  GDC_moving_countryside:"乡村动荡"
  GDC_decreasing_rents_idea:"减租减息"
@@ -366,8 +367,10 @@
  GDC_giveway_to_Gui_league:"这或许意味着我们将向本土军事力量妥协……"
  GDC_link_mingan_plan:"为了切断两广与湖南的联系，我们将向粤汉线发起进攻以打通同福建与江西抵抗力量的陆地联系"
  GDC_we_together:"§R召集盟友，同舟共济§!"
+ GDC_Before_the_uni_1:"前进，收复国民革命的源地!"
  GDC_WIN_BORDER:"我们切断了粤汉铁路！"
  GDC_LOSE_BORDER:"我们未能切断粤汉铁路！"
+ GDC_Iron_Cage_3:"大为改善的后勤"
  #决议
  GDC_milltary_reform:"军事改革的步伐"
  GDC_milltary_reform_desc:""
@@ -405,6 +408,7 @@
  organise_capital_arise:"组织社会募捐"
  start_wealth_reorganise_plan:"组织社会支援"
  hunger_support_NRA:"调集资源予国民革命军"
+ annouce_hunger_crisis_stop_desc:"完成这一决议需要：\n城市供应紧张度优于§Y供应短缺§!\n农村供应紧张度优于§Y供应短缺§!"
  #GUI
  GDC_revolution_enthusiaism_GUI_desc:0"从1927年那场轰轰烈烈的国民大革命遭遇背叛，我们终于理解到完全发动群众，独立掌握自己命运重要性和关键性，在接下来的日子里，我们发起了起义，掌握了武装，发动了广大的人民群众，召开了自己的政治局会议，在李立三和张太雷等同志的领导下与胡汉民和孙科的反革命政权进行了持续数年的顽强斗争。而后也以全心全力投入到对日本帝国主义的全民族抗战之中。\n而在抗战初期的艰难岁月里，五人团和毛泽东同志让我们从对帝国主义的失败中走出，从农村和乡间找到了一条革命的新路，并在这十年沿着这条群众路线不断前行，我们党的根基和力量在群众，我们的一切都依靠着群众。而在抗战的关键时刻，我们只有坚定不移走群众路线，才能领导人民群众走出黑暗，迎来光明。"
  #event

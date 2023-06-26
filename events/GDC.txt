@@ -95,39 +95,6 @@ country_event = {
 	
 }
 country_event = {
-    id = GDCintro.5 
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDCintro.5 FROM = [From.GetName]" }
-	title = GDCintro.5.t
-	desc = GDCintro.5.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-			888 = { set_demilitarized_zone = no }
-			595 = { set_demilitarized_zone = no }
-			GDC = {
-				transfer_state = 888
-				transfer_state = 595
-				add_state_core = 888
-				add_state_core = 595
-				load_oob = "GDC_xiangnan"
-			}
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = GDCintro.5.a 
-		
-	}
-	
-}
-country_event = {
     id = GDCintro.6 
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDCintro.6 FROM = [From.GetName]" }
@@ -414,29 +381,37 @@ country_event = {
     
 }
 country_event = {
-	id = GDClkmt.6 #打给谁？
-	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+    id = GDClkmt.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDClkmt.6 FROM = [From.GetName]" }
-    picture = GFX_xiangnan
-    title = GDClkmt.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDClkmt.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+	title = GDClkmt.6.t
+	desc = GDClkmt.6.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
 	immediate = {
 	    hidden_effect = {
 		}
-	}
-    option = { 
-        name = GDClkmt.6.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDClkmt.6.a
 		completed_focus = GDC_to_present_Sun
+ 
 	}
 	option = { 
-        name = GDClkmt.6.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDClkmt.6.b
 		completed_focus = GDC_to_present_Chen
+ 
 	}
-    
+	
 }
 country_event = {
 	id = GDClkmt.7 #谈判？
@@ -454,6 +429,9 @@ country_event = {
 		}
 	}
     option = { 
+		ai_chance = {
+		   base = 100
+		}
         name = GDClkmt.7.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 100 }
 	}
@@ -475,6 +453,9 @@ country_event = {
 		}
 	}
     option = { 
+		ai_chance = {
+		   base = 100
+		}
         name = GDClkmt.8.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = -50 }
 	}
@@ -721,57 +702,53 @@ country_event = {
 }
 #################minganconflict###################
 country_event = {
-	id = GDC_link_mingan_conflict.1
-    picture = GFX_xiangnan
-    title = GDC_link_mingan_conflict.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDC_link_mingan_conflict.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+    id = GDC_link_mingan_conflict.1 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDC_link_mingan_conflict.1 FROM = [From.GetName]" }
+	title = GDC_link_mingan_conflict.1.t
+	desc = GDC_link_mingan_conflict.1.d
+	picture = GFX_GDC_link_mingan_conflict
+	
+	is_triggered_only = yes
+	
 	immediate = {
-	    hidden_effect = {
-			set_demilitarized_zone = 728
-			GDC = {
-			set_country_flag = GDC_WIN_BORDER
-			}
-		}
-	}
-    option = { 
-        name = GDC_link_mingan_conflict.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		trigger = {
-			 original_tag = GDC 
-		}
-		ai_chance = {
+    }
+	
+	option = { 
+	    ai_chance = {
 		   base = 100
 		}
+		name = GDCintro.1.a 
+		remove_ideas = GDC_Iron_Cage_2
+		
 	}
-    
+	
 }
 country_event = {
-	id = GDC_link_mingan_conflict.2
-    picture = GFX_xiangnan
-    title = GDC_link_mingan_conflict.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDC_link_mingan_conflict.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+    id = GDC_link_mingan_conflict.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDC_link_mingan_conflict.2 FROM = [From.GetName]" }
+	title = GDC_link_mingan_conflict.2.t
+	desc = GDC_link_mingan_conflict.2.d
+	picture = GFX_GDC_link_mingan_conflict
+	
+	is_triggered_only = yes
+	
 	immediate = {
-	    hidden_effect = {
-			GDC = {
-			set_country_flag = GDC_LOSE_BORDER
-			}
-		}
-	}
-    option = { 
-        name = GDC_link_mingan_conflict.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		trigger = {
-			 original_tag = GDC 
-		}
-		ai_chance = {
+    }
+	
+	option = { 
+	    ai_chance = {
 		   base = 100
 		}
+		name = GDCintro.2.a 
+		swap_ideas = {
+			add_idea = GDC_Iron_Cage_3
+			remove_idea = GDC_Iron_Cage_2
+		}
+		
 	}
-    
+	
 }
 ############################################################################
 country_event = {
