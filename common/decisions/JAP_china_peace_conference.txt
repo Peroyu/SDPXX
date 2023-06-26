@@ -1,0 +1,89 @@
+JAP_china_peace_conference = {                               
+		JAP_china_peace_conference_1 = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				NOT = { country_exists = FNC }
+				
+			}
+			allowed = {
+				original_tag = JAP
+			}
+			visible = {
+			}
+			cost = 0
+		
+			complete_effect = {
+				CJF = {
+					country_event = {
+						id = CHIpeace.1
+						days = 1
+					}
+				}
+			}
+		
+			ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+			}
+		}
+		JAP_china_peace_conference_2 = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				NOT = { country_exists = FNC }
+				NOT = { country_exists = MAN }
+				NOT = { country_exists = MEN }
+			}
+			allowed = {
+				original_tag = JAP
+			}
+			visible = {
+			}
+			cost = 0
+		
+			complete_effect = {
+				CJF = {
+					country_event = {
+						id = CHIpeace.2
+						days = 1
+					}
+				}
+			}
+		
+			ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+			}
+		}
+		JAP_china_peace_conference_3 = {
+
+			icon = decision_generic_political_discourse
+			fire_only_once = yes
+			available = {
+				NOT = { country_exists = FNC }
+				NOT = { country_exists = MAN }
+				NOT = { country_exists = MEN }
+				NOT = { country_exists = JKR }
+			}
+			allowed = {
+				original_tag = JAP
+			}
+			visible = {
+			}
+			cost = 0
+		
+			complete_effect = {
+				CJF = {
+					country_event = {
+						id = CHIpeace.3
+						days = 1
+					}
+				}
+			}
+		
+			ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+			}
+		}
+    }

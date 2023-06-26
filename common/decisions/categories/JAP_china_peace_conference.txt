@@ -1,17 +1,17 @@
-GDC_milltary_reform = {
+JAP_china_peace_conference = {
 	    icon = GFX_MMA_gongshukmt
 	    picture = GFX_GDC_milltary_reform
 		available = {
-			has_country_flag = GDC_necessary_of_reformation
+			NOT = { country_exists = FNC }
 		}
 		visible = {
-           
+           		NOT = { country_exists = FNCA }
         }
 		cancel_trigger = {
           
         }
         priority = 10000
 		allowed = { 
-			original_tag = GDC 
+			original_tag = JAP 
 		}
     }

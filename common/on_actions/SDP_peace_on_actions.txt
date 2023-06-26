@@ -225,9 +225,77 @@ on_actions = {
 						}
 						set_cosmetic_tag = FCH
 					}
-
-
-
+					
+					JAP = {
+						set_autonomy = {
+							target = CJF
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = GDC
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = DJF
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = GNP
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = KGP
+							autonomy_state = autonomy_puppet
+						}
+					}
+					CJF = {
+						set_cosmetic_tag = CJF_japen
+						transfer_state = 753
+						transfer_state = 751
+						transfer_state = 605
+						transfer_state = 857
+						transfer_state = 856
+						transfer_state = 859
+						transfer_state = 858
+						transfer_state = 842
+						transfer_state = 854
+						transfer_state = 855
+						transfer_state = 752
+					}
+					GDC = {
+						set_cosmetic_tag = GDC_japen
+						transfer_state = 839
+						transfer_state = 899
+						transfer_state = 599
+						transfer_state = 898
+						transfer_state = 594
+					}
+					DJF = {
+						set_cosmetic_tag = DJF_japen
+						transfer_state = 325
+						transfer_state = 747
+						transfer_state = 901
+					}
+					KGP = {
+						set_cosmetic_tag = KGP_japen
+						transfer_state = 748
+						transfer_state = 603
+					}
+					TIB = {
+						transfer_state = 601
+						transfer_state = 604
+					}
+					SHA = {
+						transfer_state = 938
+						transfer_state = 939
+					}
+					GNP = {
+						transfer_state = 889
+						transfer_state = 592
+						transfer_state = 728
+						transfer_state = 593
+						transfer_state = 591
+					}
 					set_global_flag = skip_default_capitulation
 				}
 

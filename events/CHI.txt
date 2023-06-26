@@ -1,4 +1,5 @@
 ﻿add_namespace = CHIwar
+add_namespace = CHIpeace
 country_event = {
     id = CHIwar.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -36,6 +37,360 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.1.a
+	}
+	
+}
+country_event = {
+    id = CHIwar.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.2 FROM = [From.GetName]" }
+	title = CHIwar.2.t
+	desc = CHIwar.2.d
+	picture = GFX_CHIwar.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		   MMA = {
+						if = {
+						limit = {
+							country_exists = GDC
+							}
+						annex_country = { target = GDC transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = CJF
+							}
+						annex_country = { target = CJF transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = DJF
+							}
+						annex_country = { target = DJF transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = KHN
+							}
+						annex_country = { target = KHN transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = SIK
+							}
+						annex_country = { target = SIK transfer_troops = yes }
+						}
+						if = {
+						limit = {
+							country_exists = KTR
+							}
+						annex_country = { target = KTR transfer_troops = yes }
+						}
+						set_cosmetic_tag = FCH
+					}
+					
+					JAP = {
+						set_autonomy = {
+							target = CJF
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = GDC
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = DJF
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = GNP
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = KGP
+							autonomy_state = autonomy_puppet
+						}
+					}
+					CJF = {
+						set_cosmetic_tag = CJF_japen
+						transfer_state = 753
+						transfer_state = 751
+						transfer_state = 605
+						transfer_state = 857
+						transfer_state = 856
+						transfer_state = 859
+						transfer_state = 858
+						transfer_state = 842
+						transfer_state = 854
+						transfer_state = 855
+						transfer_state = 752
+					}
+					GDC = {
+						set_cosmetic_tag = GDC_japen
+						transfer_state = 839
+						transfer_state = 899
+						transfer_state = 599
+						transfer_state = 898
+						transfer_state = 594
+					}
+					DJF = {
+						set_cosmetic_tag = DJF_japen
+						transfer_state = 325
+						transfer_state = 747
+						transfer_state = 901
+					}
+					KGP = {
+						set_cosmetic_tag = KGP_japen
+						transfer_state = 748
+						transfer_state = 603
+					}
+					TIB = {
+						transfer_state = 601
+						transfer_state = 604
+					}
+					SHA = {
+						transfer_state = 938
+						transfer_state = 939
+					}
+					GNP = {
+						transfer_state = 889
+						transfer_state = 592
+						transfer_state = 728
+						transfer_state = 593
+						transfer_state = 591
+					}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = CHIwar.1.a
+	}
+	
+}
+country_event = {
+    id = CHIpeace.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIpeace.1 FROM = [From.GetName]" }
+	title = CHIpeace.1.t
+	desc = CHIpeace.1.d
+	picture = GFX_CHIwar.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		hidden_effect = {
+			CJF = {
+				set_cosmetic_tag = CJF_kmt
+				add_to_faction = RCR
+			}
+			RCR = {
+				set_cosmetic_tag = RCR_kmt
+				annex_country = { target = FNC transfer_troops = no  }
+			}
+			KTR = {
+				annex_country = { target = SHA transfer_troops = no  }
+				set_cosmetic_tag = KTR_kmt
+			}
+			JIN = {
+				set_cosmetic_tag = JIN_kmt
+			}
+			MMA = {
+				transfer_state = 746
+				transfer_state = 621
+			}
+						FROM = {
+							OR = {
+								original_tag = JAP
+								is_in_faction_with = JAP
+							}
+						}
+						ROOT = {
+							original_tag = CJF
+							is_in_faction_with = CJF
+						}
+					
+
+					FROM = {
+						white_peace = ROOT
+					}
+			
+			
+		}
+		name = CHIpeace.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = CHIpeace.1.b
+		hidden_effect = {
+		JAP = {
+			country_event = {
+				id = JAP.1
+				days = 1
+			}
+		}
+		}
+	}
+	
+}
+country_event = {
+    id = CHIpeace.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIpeace.2 FROM = [From.GetName]" }
+	title = CHIpeace.2.t
+	desc = CHIpeace.2.d
+	picture = GFX_CHIwar.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		hidden_effect = {
+			CJF = {
+				set_cosmetic_tag = CJF_kmt
+				add_to_faction = RCR
+				add_to_faction = MEN
+			}
+			RCR = {
+				set_cosmetic_tag = RCR_kmt
+				annex_country = { target = FNC transfer_troops = no  }
+				annex_country = { target = MAN transfer_troops = no  }
+			}
+			KTR = {
+				annex_country = { target = SHA transfer_troops = no  }
+			}
+			MEN = {
+				set_cosmetic_tag = MEN_kmt
+			}
+			JIN = {
+				set_cosmetic_tag = JIN_kmt
+			}
+			
+						FROM = {
+							OR = {
+								original_tag = JAP
+								is_in_faction_with = JAP
+							}
+						}
+						ROOT = {
+							original_tag = CJF
+							is_in_faction_with = CJF
+						}
+					
+
+					FROM = {
+						white_peace = ROOT
+					}
+			
+			
+		}
+		name = CHIpeace.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = CHIpeace.2.b
+	}
+	
+}
+country_event = {
+    id = CHIpeace.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIpeace.3 FROM = [From.GetName]" }
+	title = CHIpeace.3.t
+	desc = CHIpeace.3.d
+	picture = GFX_CHIwar.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		hidden_effect = {
+			CJF = {
+				set_cosmetic_tag = CJF_kmt
+				add_to_faction = RCR
+				add_to_faction = MEN
+			}
+			RCR = {
+				set_cosmetic_tag = RCR_kmt
+				annex_country = { target = FNC transfer_troops = no  }
+				annex_country = { target = MAN transfer_troops = no  }
+			}
+			KTR = {
+				annex_country = { target = SHA transfer_troops = no  }
+			}
+			MEN = {
+				set_cosmetic_tag = MEN_kmt
+			}
+			JIN = {
+				set_cosmetic_tag = JIN_kmt
+			}
+			if = {
+				limit = {
+					country_exists = KOR
+				}
+					KOR = {
+						annex_country = { target = JKO transfer_troops = no }
+					}
+				}
+			else_if = {
+				limit = {
+					NOT = { country_exists = KOR }
+				}
+					KOR = {
+						annex_country = { target = JKO transfer_troops = no }
+					}
+				}
+			
+						FROM = {
+							OR = {
+								original_tag = JAP
+								is_in_faction_with = JAP
+							}
+						}
+						ROOT = {
+							original_tag = CJF
+							is_in_faction_with = CJF
+						}
+					
+
+					FROM = {
+						white_peace = ROOT
+					}
+			
+			
+		}
+		name = CHIpeace.3.a
 	}
 	
 }

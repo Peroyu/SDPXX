@@ -19,47 +19,46 @@ CHI_regional_tension_rate = {
           activation = {                          # 在这种情况下，任务被激活并开始倒计时：
                OR = {
 		   		check_variable = {
-    				CHI_dongbei_regional_tension > 50
+    				global.CHI_dongbei_regional_tension > 50
 				}
 				check_variable = {
-    				CHI_huabei_regional_tension > 50
+    				global.CHI_huabei_regional_tension > 50
 				}
 				check_variable = {
-    				CHI_xibei_regional_tension > 50
+    				global.CHI_xibei_regional_tension > 50
 				}
 				check_variable = {
-    				CHI_huanan_regional_tension > 50
+    				global.CHI_huanan_regional_tension > 50
 				}
 				check_variable = {
-    				CHI_xinan_regional_tension > 50
+    				global.CHI_xinan_regional_tension > 50
 				}
 				check_variable = {
-    				CHI_huazhong_regional_tension > 50
+    				global.CHI_huazhong_regional_tension > 50
 				}
 			}                      # 与德国交战
           }
 		  cancel_trigger = {
 			check_variable = {
-    				CHI_dongbei_regional_tension ＜＝ 50
+    				global.CHI_dongbei_regional_tension ＜＝ 50
 				}
 				check_variable = {
-    				CHI_huabei_regional_tension ＜＝ 50
+    				global.CHI_huabei_regional_tension ＜＝ 50
 				}
 				check_variable = {
-    				CHI_xibei_regional_tension ＜＝ 50
+    				global.CHI_xibei_regional_tension ＜＝ 50
 				}
 				check_variable = {
-    				CHI_huanan_regional_tension ＜＝ 50
+    				global.CHI_huanan_regional_tension ＜＝ 50
 				}
 				check_variable = {
-    				CHI_xinan_regional_tension ＜＝ 50
+    				global.CHI_xinan_regional_tension ＜＝ 50
 				}
 				check_variable = {
-    				CHI_huazhong_regional_tension ＜＝ 50
+    				global.CHI_huazhong_regional_tension ＜＝ 50
 				}
 		}
-          is_good = no                           # 这个任务的颜色编码是有益事情（非危机）
-          selectable_mission = no                # 这个任务将在玩家点选任务时完成，而非自动完成
+          is_good = no                          # 这个任务将在玩家点选任务时完成，而非自动完成
           days_mission_timeout = 150              # 距离任务失败前有多少天？
           timeout_effect = {                      # 当任务失败时会发生什么？
                 country_event = {

@@ -27,9 +27,14 @@ country_event = {
 				transfer_state = 525
 				transfer_state = 527
 				load_oob = JKR_collapse
-				add_ideas = JKR_Korea_war
 				add_to_faction = JAP
 				}
+			JAP = {
+				set_autonomy = {
+					target = JKR
+					autonomy_state = autonomy_colony
+				}
+			}
 		}
     }
 	
