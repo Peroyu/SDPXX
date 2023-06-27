@@ -6,24 +6,28 @@ set_war_support = 0.8
 set_stability = 0.7 
 
 set_politics = {
-	ruling_party = Restorativeism
+	ruling_party = conservatism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
 set_popularities = {
-	Restorativeism = 100
+	communism = 6
+	Liberalism = 30
+	movement_communism = 12
+	conservatism = 32
+	reactionism = 10
+	nationalism = 4
+	restorativeism = 6
 }
-
-
 create_country_leader = {
-	name = "山下奉文"
+	name = "路易斯·蒙巴顿"
 	desc = "/"  
-	picture = "/"  
-	expire = "1952.7.10"  
-	ideology = military_system 
+	picture = portrait_CAN_Louis_Mountbatten  
+	expire = "1965.1.1.1"  
+	ideology = authoritarian_democracy
 	traits = { 
 		
 	}
 }
+

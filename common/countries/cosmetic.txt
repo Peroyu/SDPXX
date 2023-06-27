@@ -11,20 +11,20 @@ RAJ_INDIA = {
  color_ui = rgb { 143 172 39 }
 }
 CJF_japen = {
- color = rgb { 255 186 66 }
- color_ui = rgb { 255 186 66 }
+ color = rgb { 205 152 123 }
+ color_ui = rgb { 205 152 123 }
 }
 GDC_japen = {
- color = rgb { 255 186 66 }
- color_ui = rgb { 255 186 66 }
+ color = rgb { 175 122 93 }
+ color_ui = rgb { 175 122 93 }
 }
 DJF_japen = {
- color = rgb { 255 186 66 }
- color_ui = rgb { 255 186 66 }
+ color = rgb { 192 161 144 }
+ color_ui = rgb { 192 161 144}
 }
 KGP_japen = {
- color = rgb { 255 186 66 }
- color_ui = rgb { 255 186 66 }
+ color = rgb { 206 160 135 }
+ color_ui = rgb { 206 160 135 }
 }
 RCR_kmt = {
  color = rgb { 100 149 155 }

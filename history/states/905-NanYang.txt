@@ -6,8 +6,8 @@ state={
 		 4519 12012 7459 4547 7508
 	}
 	history={
-		owner = RCR
-		add_core_of = RCR
+		owner = FNC
+		add_core_of = FNC
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 2

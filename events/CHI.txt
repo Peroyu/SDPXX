@@ -169,6 +169,10 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		news_event = {
+			id = chi_news.4
+			days = 1
+		}
 		name = CHIwar.1.a
 	}
 	
@@ -192,6 +196,10 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		news_event = {
+			id = chi_news.2
+			days = 1
+		}
 		hidden_effect = {
 			CJF = {
 				set_cosmetic_tag = CJF_kmt
@@ -200,6 +208,7 @@ country_event = {
 			RCR = {
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
+				transfer_state = 743
 			}
 			KTR = {
 				annex_country = { target = SHA transfer_troops = no  }
@@ -211,6 +220,9 @@ country_event = {
 			MMA = {
 				transfer_state = 746
 				transfer_state = 621
+			}
+			GDC = {
+				annex_country = { target = GHN transfer_troops = no  }
 			}
 						FROM = {
 							OR = {
@@ -267,6 +279,10 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		news_event = {
+			id = chi_news.3
+			days = 1
+		}
 		hidden_effect = {
 			CJF = {
 				set_cosmetic_tag = CJF_kmt
@@ -277,6 +293,8 @@ country_event = {
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
 				annex_country = { target = MAN transfer_troops = no  }
+				transfer_state = 743
+				transfer_state = 745
 			}
 			KTR = {
 				annex_country = { target = SHA transfer_troops = no  }
@@ -286,6 +304,9 @@ country_event = {
 			}
 			JIN = {
 				set_cosmetic_tag = JIN_kmt
+			}
+			GDC = {
+				annex_country = { target = GHN transfer_troops = no  }
 			}
 			
 						FROM = {
@@ -335,6 +356,10 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		news_event = {
+			id = chi_news.3
+			days = 1
+		}
 		hidden_effect = {
 			CJF = {
 				set_cosmetic_tag = CJF_kmt
@@ -345,6 +370,8 @@ country_event = {
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
 				annex_country = { target = MAN transfer_troops = no  }
+				transfer_state = 743
+				transfer_state = 745
 			}
 			KTR = {
 				annex_country = { target = SHA transfer_troops = no  }
@@ -354,6 +381,9 @@ country_event = {
 			}
 			JIN = {
 				set_cosmetic_tag = JIN_kmt
+			}
+			GDC = {
+				annex_country = { target = GHN transfer_troops = no  }
 			}
 			if = {
 				limit = {

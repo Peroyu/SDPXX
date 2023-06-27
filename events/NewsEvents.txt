@@ -3,7 +3,7 @@
 ###########################
 add_namespace = HUN_SLO
 add_namespace = HUN_BAL
-add_namespace = SHA_news
+add_namespace = chi_news
 add_namespace = indu
 add_namespace = ISU
 news_event = {
@@ -65,11 +65,11 @@ news_event = {
 }
 
 news_event = {
-	id = SHA_news.1
+	id = chi_news.1
 
     picture = GFX_SHA_news
-    title = SHA_news.1.t
-    desc = SHA_news.1.d
+    title = chi_news.1.t
+    desc = chi_news.1.d
     
     is_triggered_only = yes
  
@@ -78,7 +78,67 @@ news_event = {
     major = yes
 
 	option = {
-		name = SHA_news.1.a
+		name = chi_news.1.a
+	}
+}
+news_event = {
+	id = chi_news.2
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	chi_news.2 FROM = [From.GetName]" }
+    picture = GFX_chi_vic_1
+    title = chi_news.2.t
+    desc = chi_news.2.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = chi_news.2.a
+	}
+}
+news_event = {
+	id = chi_news.3
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	chi_news.3 FROM = [From.GetName]" }
+    picture = GFX_chi_vic_2
+    title = chi_news.3.t
+    desc = chi_news.3.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = chi_news.3.a
+	}
+}
+news_event = {
+	id = chi_news.4
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	chi_news.4 FROM = [From.GetName]" }
+    picture = GFX_jap_vic_1
+    title = chi_news.4.t
+    desc = chi_news.4.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = chi_news.4.a
 	}
 }
 news_event = {

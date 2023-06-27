@@ -443,8 +443,8 @@
 	}
 	
 	spriteType = {
-		name = "portrait_CYN_Louis_Mountbatten"
-		texturefile = "gfx/leaders/ASIA/CYN_Louis_Mountbatten.png"		
+		name = "portrait_CAN_Louis_Mountbatten"
+		texturefile = "gfx/leaders/EN/CAN_Louis_Mountbatten.png"		
 	}
 	
 	
@@ -472,6 +472,11 @@
 	spriteType = {
 		name = "ETA_portrait_Haile_Selassie"
 		texturefile = "gfx/leaders/East_Mediterranean/ETA_portrait_Haile_Selassie.png"		
+	}
+
+	spriteType = {
+		name = "GEO_portrait_Tsereteli"
+		texturefile = "gfx/leaders/East_Mediterranean/GEO_portrait_Tsereteli.png"		
 	}
 
 #####################india#################################
@@ -506,5 +511,10 @@
 	spriteType = {
 		name = "CAM_portrait_Friedrich_William_III"
 		texturefile = "gfx/leaders/EN/CAM_portrait_Friedrich_William_III.png"		
+	}
+
+	spriteType = {
+		name = "portrait_CAN_chillchil"
+		texturefile = "gfx/leaders/EN/portrait_CAN_chillchil.png"		
 	}
 }

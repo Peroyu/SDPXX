@@ -1,0 +1,26 @@
+characters = {
+	ENT_Louis_Mountbatten={ 
+		name = "路易斯·蒙巴顿"
+		portraits = {
+			army={
+				large = portrait_CAN_Louis_Mountbatten
+			}
+			civilian = {    
+				large = portrait_CAN_Louis_Mountbatten
+			}
+		}
+		field_marshal={
+			traits={ organizer war_hero career_officer }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+		country_leader={ 
+			ideology= authoritarian_democracy
+			traits={ }
+			expire="1965.1.1.1"
+		}
+	}
+}

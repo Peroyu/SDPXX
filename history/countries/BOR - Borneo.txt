@@ -6,24 +6,21 @@ set_war_support = 0.8
 set_stability = 0.7 
 
 set_politics = {
-	ruling_party = Restorativeism
+	ruling_party = conservatism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 
 set_popularities = {
-	Restorativeism = 100
+	communism = 6
+	Liberalism = 10
+	movement_communism = 10
+	conservatism = 44
+	reactionism = 20
+	nationalism = 4
+	restorativeism = 6
 }
 
+recruit_character = ENT_Louis_Mountbatten
 
-create_country_leader = {
-	name = "南云忠一"
-	desc = "/"  
-	picture = "/"  
-	expire = "1952.7.10"  
-	ideology = military_system 
-	traits = { 
-		
-	}
-}

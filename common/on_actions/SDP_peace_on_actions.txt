@@ -12,9 +12,29 @@ on_actions = {
 	# XOXO - Grestin
 	# Somtimes I wonder if this system is even worth the pain - Bernie
 	# Make sure to space stuff out properly and keep everything neat - Bernie
-
-	on_capitulation = {
+	on_startup = {
 		effect = {
+			if = {
+				limit = {
+					has_start_date < 1947.1.2
+					has_start_date > 1946.12.31
+				}
+				set_global_flag = scriptpeaceconference_warsummary
+			}
+		}
+	}
+	on_capitulation = {
+		
+		effect = {
+			if = {
+				limit = {
+					has_global_flag = scriptpeaceconference_warsummary
+				}
+				set_global_flag = sp_warpeace_show_gui
+				FROM = { save_global_event_target_as = winning_country }
+				ROOT = { save_global_event_target_as = losing_country }
+				add_to_variable = { global.sp_warpeace_dirty = 1 }
+			}
 			if = {
 				limit = {
 					NOT = {
@@ -295,6 +315,10 @@ on_actions = {
 						transfer_state = 728
 						transfer_state = 593
 						transfer_state = 591
+					}
+					news_event = {
+						id = chi_news.4
+						days = 1
 					}
 					set_global_flag = skip_default_capitulation
 				}

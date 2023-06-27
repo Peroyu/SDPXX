@@ -1,0 +1,82 @@
+defined_text = { #战争总结
+	name = Getwarpeacec
+	text = {
+		trigger = {
+			OR = {
+				#任何有特殊战争总结的都要在里面写NOT = { original_tag = xxx }，注意胜方败方是谁
+				event_target:winning_country = {
+					NOT = { original_tag = CJF }
+					NOT = { original_tag = GDC }
+				}
+				event_target:losing_country = {
+					NOT = { original_tag = CMA }
+					NOT = { original_tag = GNP }
+				}
+			}
+		}
+		localization_key = SDP_WARPEACE_DEFAULT
+	}
+	text = { # CJF beat CMA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = CJF
+			}
+			event_target:losing_country = {
+				original_tag = CMA
+			}
+		}
+		localization_key = SDP_peace_CJF_CMA_D
+	}
+	text = { # GDC beat GNP
+		trigger = {
+			event_target:winning_country = {
+				original_tag = GDC
+			}
+			event_target:losing_country = {
+				original_tag = GNP
+			}
+		}
+		localization_key = SDP_peace_GDC_GNP_D
+	}
+}
+defined_text = { #战争结语
+	name = Getwarpeacet
+	text = {
+		trigger = {
+			OR = {
+				#任何有特殊战争结语的都要在里面写NOT = { original_tag = xxx }，注意胜方败方是谁
+				event_target:winning_country = {
+					NOT = { original_tag = CJF }
+					NOT = { original_tag = GDC }
+				}
+				event_target:losing_country = {
+					NOT = { original_tag = CMA }
+					NOT = { original_tag = GNP }
+				}
+			}
+		}
+		localization_key = SDP_WARPEACE_DEFAULT_T
+	}
+	text = { # CJF beat CMA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = CJF
+			}
+			event_target:losing_country = {
+				original_tag = CMA
+			}
+		}
+		localization_key = SDP_peace_CJF_CMA_T
+	}
+	text = { # GDC beat GNP
+		trigger = {
+			event_target:winning_country = {
+				original_tag = GDC
+			}
+			event_target:losing_country = {
+				original_tag = GNP
+			}
+		}
+		localization_key = SDP_peace_GDC_GNP_T
+	}
+}

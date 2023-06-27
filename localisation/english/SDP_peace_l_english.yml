@@ -1,0 +1,13 @@
+﻿l_english:
+ sp_wapeace_title:0 "国际局势变化"
+ sp_wapeace_description:0 "[Getwarpeacec]"
+ sp_wapeace_description_t:0 "[Getwarpeacet]"
+ sp_warpeace_close:0 "确认"
+ ###战争总结###
+ SDP_WARPEACE_DEFAULT:0"在刚刚结束的一场战争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!"
+ SDP_peace_CJF_CMA_D:0"在刚刚结束的重庆围攻战中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n将日本帝国的军事存在驱逐出西南中国"
+ SDP_peace_GDC_GNP_D:0"在刚刚结束的两广战争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n广州回到了他原本的主人手中"
+ ###战争结语###
+ SDP_WARPEACE_DEFAULT_T:0"战争即地狱"
+ SDP_peace_CJF_CMA_T:0"来者死无葬身之地"
+ SDP_peace_GDC_GNP_T:0"故国民处此战争之时，尤宜急起而反抗暴政"

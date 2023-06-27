@@ -12,7 +12,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_democracy
+			ideology = Patriarchal_conservatism
 			trsits = {}
 			expire = "1999.1.1.1"
 		}
