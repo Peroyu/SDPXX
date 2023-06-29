@@ -1,0 +1,134 @@
+DJF_dip_decision_categories =      {                               
+    DJF_dip_timing = { 
+        priority = 10000	
+	    icon = decision_generic_prepare_civil_war
+		
+		available = { always = no }
+        is_good = no    
+		fire_only_once = yes               
+        days_mission_timeout = 150             
+        timeout_effect = {                      
+			country_event = {
+			id = DJF_dip.1 days = 1
+		    }  
+		}
+    }
+	DJF_dip_touzi = {
+        allowed = { Not = { has_country_flag = DJF_dip_on } }
+		priority = 1000
+
+		icon = decision_generic_political_discourse
+        ai_will_do = {
+			factor = 100
+		}
+		modifier = { set_country_flag = DJF_dip_on }
+		remove_effect = {
+		add_to_variable = { DJF_dip_chongqing = 10 }
+        }
+        cost = 20
+		days_remove = 35
+	}
+	DJF_dip_jijing = {
+        allowed = { Not = { has_country_flag = DJF_dip_on } }
+		modifier = { set_country_flag = DJF_dip_on }
+		priority = 999
+
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 80
+		}
+		remove_effect = {
+		add_to_variable = { DJF_dip_guangzhou = 10 }
+        }
+        cost = 20
+		days_remove = 35
+	}
+	DJF_dip_KMT_yunnan = {
+        allowed = { Not = { has_country_flag = DJF_dip_on } }
+		modifier = { set_country_flag = DJF_dip_on }
+		priority = 998
+
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 100
+		}
+		remove_effect = {
+		add_to_variable = { DJF_dip_chongqing = 15 }
+        }
+        cost = 30
+		days_remove = 35
+	}
+	DJF_dip_cpc_yunnan = {
+        allowed = { Not = { has_country_flag = DJF_dip_on } }
+		modifier = { set_country_flag = DJF_dip_on }
+		priority = 997
+
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 82
+		}
+		remove_effect = {
+		add_to_variable = { DJF_dip_guangzhou = 15 }
+        }
+        cost = 30
+		days_remove = 35
+	}
+	
+	DJF_dip_xuanchuan = {
+        allowed = { Not = { has_country_flag = DJF_dip_on } }
+		modifier = { set_country_flag = DJF_dip_on }
+		priority = 996
+
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 95
+		}
+		remove_effect = {
+		add_to_variable = { DJF_dip_guangzhou = 5 }
+		add_to_variable = { DJF_dip_chongqing = 5 }
+        }
+        cost = 10
+		days_remove = 25
+	}
+	
+	DJF_dip_NRA = {
+       
+		priority = 995
+        available = {
+		  check_variable = {  
+		    var = DJF_dip_chongqing
+			value = 70
+			compare = greater_than }	
+		}
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 99
+		}
+		complete_effect = {
+		add_to_variable = { DJF_dip_chongqing = 30 }
+        }
+        cost = 50
+	}
+	
+	DJF_dip_strike = {
+        
+		
+		priority = 994
+        available = {
+		  check_variable = { 
+		    var = DJF_dip_guangzhou
+			value = 70
+			compare = greater_than }	
+		}
+		icon = decision_generic_political_discourse
+		ai_will_do = {
+			factor = 99
+		}
+		complete_effect = {
+		add_to_variable = { DJF_dip_guangzhou = 30 }
+        }
+        cost = 50
+	}
+	
+	
+}
