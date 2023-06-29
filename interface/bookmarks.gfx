@@ -1,0 +1,13 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_bookmarks_SDP_South_Asia"
+		texturefile = "gfx/interface/bookmarks/GFX_bookmarks_SDP_South_Asia.png"
+	}
+
+    spriteType = {
+		name = "GFX_bookmark_SDP_East_Asia"
+		texturefile = "gfx/interface/bookmarks/GFX_bookmark_SDP_East_Asia.png"
+	}
+	
+}

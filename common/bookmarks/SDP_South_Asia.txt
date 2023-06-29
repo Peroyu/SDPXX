@@ -1,0 +1,50 @@
+bookmarks = {
+	bookmark = {
+		name = "SDP_South_Asia"
+		desc = "SDP_South_Asia_DESC"
+		date = 1947.1.1.12
+		picture = "GFX_bookmarks_SDP_South_Asia"
+		default_country = "RAJ"
+		default = yes
+		
+		"RAJ"={
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+				
+			}
+			focuses = {
+			 
+			}
+		}
+		"FID"={
+			history = "FID_GATHERING_STORM_DESC"
+			ideology = communism
+			available = {}
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AFG"={
+			history = "AFG_GATHERING_STORM_DESC"
+			ideology = conservatism
+			available = {}
+			ideas = {
+			 	
+			}
+			focuses = {
+			}
+		}
+		"CYN"={
+			history = "CYN_GATHERING_STORM_DESC"
+			ideology = reactionism
+			available = {}
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	}
+}

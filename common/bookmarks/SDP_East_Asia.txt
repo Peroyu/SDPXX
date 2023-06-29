@@ -1,10 +1,10 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "SDP_East_Asia"
+		desc = "SDP_East_Asia_DESC"
 		date = 1947.1.1.12
-		picture = "GFX_select_date_1936"
-		default_country = "MMA"
+		picture = "GFX_bookmark_SDP_East_Asia"
+		default_country = "CJF"
 		default = yes
 		
 		"MMA"={
@@ -19,31 +19,6 @@ bookmarks = {
 			}
 			focuses = {
 			 
-			}
-		}
-		"DJF"={
-			history = "DJF_GATHERING_STORM_DESC"
-			ideology = conservatism
-			available = {}
-			ideas = {
-			 DJF_Xi_Nan_Lian_Da_1
-			 DJF_Opium_Trade
-			 DJF_Dian_Army
-			}
-			focuses = {
-			}
-		}
-		"XKS"={
-			history = "XKS_GATHERING_STORM_DESC"
-			ideology = conservatism
-			available = {}
-			ideas = {
-			 
-			 	
-			}
-			focuses = {
-			 Light_up_the_mountains
-			 Check_Chuankang_highway
 			}
 		}
 		"GDC"={
@@ -78,15 +53,6 @@ bookmarks = {
 			 CJF_President_Zhang_Qun
 			}
 		}
-		"RCR"={
-			history = "RCR_GATHERING_STORM_DESC"
-			ideology = conservatism
-			available = {}
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = reactionism
@@ -96,8 +62,16 @@ bookmarks = {
 			focuses = {
 			}
 		}
-				"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"XKS"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			 Light_up_the_mountains
+			 Check_Chuankang_highway
+			}
 		}
 	}
 }

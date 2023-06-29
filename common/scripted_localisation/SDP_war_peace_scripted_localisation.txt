@@ -145,10 +145,21 @@ defined_text = { #战争结语
 				original_tag = RAJ
 			}
 			event_target:losing_country = {
-				original_tag = FID
+				original_tag = AFG
 			}
 		}
 		localization_key = SDP_peace_RAJ_AFG_T
+	}
+	text = { # AFG beat RAJ
+		trigger = {
+			event_target:winning_country = {
+				original_tag = AFG
+			}
+			event_target:losing_country = {
+				original_tag = RAJ
+			}
+		}
+		localization_key = SDP_peace_AFG_RAJ_T
 	}
 	text = { # FID beat RAJ
 		trigger = {
