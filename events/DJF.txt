@@ -1,40 +1,87 @@
-﻿add_namespace = DJF
+﻿add_namespace = DJF_dip
+add_namespace = DJF
 country_event = {
     id = DJF.1
-	title = {
-		title = DJF.1.t
-		trigger = { tag = DJF } #显示此标题的触发器，满足触发器条件的作用域会显示该标题，而不满足条件的则展示另外的标题（如果有的话）
-	}
-	desc = {
-		text = desc = DJF.1.d
-		trigger = { tag = DJF } ##显示此介绍的触发器，满足触发器条件的作用域会显示该介绍
-	}
-	trigger = {
-        date > 1948.2.5
-		original_tag = DJF
-	}
-	picture = GFX_DJF.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	DJF.1 FROM = [From.GetName]" }
+	title = DJF.1.t
+	desc = DJF.1.d
+	picture = gFx_JAP.1
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	
 	immediate = {
-		hidden_effect = {
+	    hidden_effect = {
+		 set_variable = { var = DJF_dip_guangzhou value = 30 }
+         set_variable = { var = DJF_dip_chongqing value = 50 }
+         clamp_variabe = {
+         var = DJF_dip_chongqing
+         min = 0
+         max = 100
+         }
+         clamp_variabe = {
+         var = DJF_dip_guangzhou
+         min = 0
+         max = 100
+         }
 		}
-	}
+    }
 	
 	option = { 
 	    ai_chance = {
-		   base = 50
+		   base = 100
 		}
-		DJF = {
-        set_country_flag = DJF_election_doing 
-        add_to_variable = { var = DJF_GDC_possiblity value = 10 }
-        add_to_variable = { var = DJF_CJF_possiblity value = 20 }
-		}
-		trigger = { tag = DJF }
+		
 		name = DJF.1.a
 	}
-	mean_time_to_happen = {
-		days = 1
+}
+country_event = {
+    id = DJF_dip.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	DJF_dip.1 FROM = [From.GetName]" }
+	title = DJF_dip.1.t
+	desc = DJF_dip.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    trigger = {
+		check_variable = { DJF_dip_guangzhou > DJF_dip_chongqing }
+		}
+	    ai_chance = {
+		   base = 100
+		}
+		CDG = {
+			change_tag_from = ROOT
+		  }
+		CDG = {annex_country = { 
+			target = DJF
+			transfer_troops = yes}
+		}
+		name = DJF_dip.1.a
 	}
+	option = { 
+	    trigger = {
+		check_variable = { DJF_dip_guangzhou < DJF_dip_chongqing }
+		}
+	    ai_chance = {
+		   base = 100
+		}
+		CJF = {
+			change_tag_from = ROOT
+		  }
+		CJF = {annex_country = { 
+			target = DJF
+			transfer_troops = yes}
+		}
+		name = DJF_dip.1.b
+	}
+	
+	
 }
