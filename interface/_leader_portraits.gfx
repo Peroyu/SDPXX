@@ -502,6 +502,11 @@
 	}
 
 	spriteType = {
+		name = "AFG_portrait_Zahir_Shah"
+		texturefile = "gfx/leaders/INDIA/AFG_portrait_Zahir_Shah.png"		
+	}
+
+	spriteType = {
 		name = "GFX_ARG_portrait_Juan_Peron"
 		texturefile = "gfx/leaders/Latin_America/ARG_portrait_Juan_Peron.png"		
 	}

@@ -18,7 +18,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-			 
+			 Reorganized_Hui_Han_National_Army
+			Healing_the_wounds_of_the_coup
+			The_Guardians_of_the_Northwest_are_still_here
 			}
 		}
 		"GDC"={
@@ -43,14 +45,14 @@ bookmarks = {
 			available = {}
 			ideas = {
 			 CJF_unacknowlaged_power
-	         CFJ_wreckage_of_NRA
+	         CFJ_wreckage_of_NRA_1
 	         CJF_the_trade_of_opium
 			 	
 			}
 			focuses = {
-			 CJF_President_Li_Jishen
 			 CJF_KMT_emergency_congress
-			 CJF_President_Zhang_Qun
+			CJF_darkest_hour
+			CJF_The_country_is_in_trouble
 			}
 		}
 		"JAP"={
@@ -71,6 +73,7 @@ bookmarks = {
 			focuses = {
 			 Light_up_the_mountains
 			 Check_Chuankang_highway
+			Control_poppy
 			}
 		}
 	}
