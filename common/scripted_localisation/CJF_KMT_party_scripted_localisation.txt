@@ -41,3 +41,47 @@ defined_text = {
 		localization_key = CJF_KMT2_3_text
 	}
 }
+
+defined_text = {
+	name = GetCJFKMT3
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT3 value = 1 compare = equals }
+		}
+		localization_key = CJF_KMT3_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT2 value = 2 compare = equals }
+		}
+		localization_key = CJF_KMT3_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT2 value = 3 compare = equals }
+		}
+		localization_key = CJF_KMT3_3_text
+	}
+}
+
+defined_text = {
+	name = GetCJFKMT4
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT4 value = 1 compare = equals }
+		}
+		localization_key = CJF_KMT4_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT4 value = 2 compare = equals }
+		}
+		localization_key = CJF_KMT4_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { var = CJF_KMT4 value = 3 compare = equals }
+		}
+		localization_key = CJF_KMT4_3_text
+	}
+}

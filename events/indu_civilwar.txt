@@ -53,9 +53,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    CYN = {
-				clr_country_flag = INDIA_civilwar_participants
-			}
+
 		}
     }
 	

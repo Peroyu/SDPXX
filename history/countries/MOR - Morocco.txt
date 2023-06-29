@@ -20,17 +20,16 @@ set_popularities = {
  nationalism = 23
  restoratveism = 21
  conservatism = 11
- liberalism = 5
- left_radicalism = 4
+ Liberalism = 5
 }
 
 # 
 create_country_leader = {
-	name = "默罕默德五世"  # 
+	name = "阿卜杜·克里姆"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = MOR_portrait_Abd_Karim  # 
 	expire = "1961.2.13"  # 
-	ideology = reactionism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

@@ -7,7 +7,12 @@
  SDP_WARPEACE_DEFAULT:0"在刚刚结束的一场战争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!"
  SDP_peace_CJF_CMA_D:0"在刚刚结束的重庆围攻战中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n将日本帝国的军事存在驱逐出西南中国"
  SDP_peace_GDC_GNP_D:0"在刚刚结束的两广战争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n广州回到了他原本的主人手中"
+ SDP_peace_india_D:0"在争夺印度次大陆命运的斗争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!"
  ###战争结语###
  SDP_WARPEACE_DEFAULT_T:0"战争即地狱"
  SDP_peace_CJF_CMA_T:0"来者死无葬身之地"
- SDP_peace_GDC_GNP_T:0"故国民处此战争之时，尤宜急起而反抗暴政"
+ SDP_peace_GDC_GNP_T:0"故国民处此战争之时，尤宜急起而反抗暴政。——《国民革命军北伐宣言》"
+ SDP_peace_RAJ_AFG_T:0"他将消除他们心中的愤怒，他将接受所意欲的人的悔过。安拉是全知的，明哲的。——《古兰经》9.15"
+ SDP_peace_FID_RAJ_T:0"把你的生命交给我，我会给你带来自由！—— 苏巴斯·钱德拉·鲍斯"
+ SDP_peace_RAJ_FID_T:0"一个人能在战场上制胜千军，但只有战胜自己才是最伟大的胜利者。——尼赫鲁"
+ 

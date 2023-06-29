@@ -7,10 +7,18 @@ defined_text = { #战争总结
 				event_target:winning_country = {
 					NOT = { original_tag = CJF }
 					NOT = { original_tag = GDC }
+					NOT = { original_tag = AFG }
+					NOT = { original_tag = RAJ }
+					NOT = { original_tag = FID }
+					NOT = { original_tag = CYN }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
 					NOT = { original_tag = GNP }
+					NOT = { original_tag = AFG }
+					NOT = { original_tag = RAJ }
+					NOT = { original_tag = FID }
+					NOT = { original_tag = CYN }
 				}
 			}
 		}
@@ -38,6 +46,50 @@ defined_text = { #战争总结
 		}
 		localization_key = SDP_peace_GDC_GNP_D
 	}
+	text = { # INDIA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = AFG
+			}
+			event_target:losing_country = {
+				original_tag = RAJ
+			}
+		}
+		localization_key = SDP_peace_india_D
+	}
+	text = { # INDIA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = AFG
+			}
+			event_target:losing_country = {
+				original_tag = FID
+			}
+		}
+		localization_key = SDP_peace_india_D
+	}
+	text = { # INDIA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RAJ
+			}
+			event_target:losing_country = {
+				original_tag = FID
+			}
+		}
+		localization_key = SDP_peace_india_D
+	}
+	text = { # INDIA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = FID
+			}
+			event_target:losing_country = {
+				original_tag = RAJ
+			}
+		}
+		localization_key = SDP_peace_india_D
+	}
 }
 defined_text = { #战争结语
 	name = Getwarpeacet
@@ -48,10 +100,18 @@ defined_text = { #战争结语
 				event_target:winning_country = {
 					NOT = { original_tag = CJF }
 					NOT = { original_tag = GDC }
+					NOT = { original_tag = AFG }
+					NOT = { original_tag = RAJ }
+					NOT = { original_tag = FID }
+					NOT = { original_tag = CYN }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
 					NOT = { original_tag = GNP }
+					NOT = { original_tag = AFG }
+					NOT = { original_tag = RAJ }
+					NOT = { original_tag = FID }
+					NOT = { original_tag = CYN }
 				}
 			}
 		}
@@ -78,5 +138,38 @@ defined_text = { #战争结语
 			}
 		}
 		localization_key = SDP_peace_GDC_GNP_T
+	}
+	text = { # RAJ beat AFG
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RAJ
+			}
+			event_target:losing_country = {
+				original_tag = FID
+			}
+		}
+		localization_key = SDP_peace_RAJ_AFG_T
+	}
+	text = { # FID beat RAJ
+		trigger = {
+			event_target:winning_country = {
+				original_tag = FID
+			}
+			event_target:losing_country = {
+				original_tag = RAJ
+			}
+		}
+		localization_key = SDP_peace_FID_RAJ_T
+	}
+	text = { # RAJ beat FID
+		trigger = {
+			event_target:winning_country = {
+				original_tag = RAJ
+			}
+			event_target:losing_country = {
+				original_tag = FID
+			}
+		}
+		localization_key = SDP_peace_RAJ_FID_T
 	}
 }

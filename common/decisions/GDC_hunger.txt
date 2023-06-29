@@ -46,6 +46,9 @@ GDC_hunger = {
             add_to_variable = { var = GDC.GDC_hunger_city value = -2 }
                
           }
+          ai_will_do = {
+					base = 10#ai点选这个决议的意愿
+					}
         } 
     hunger_decrease_city_supply = {
           icon = decision_generic_political_discourse
@@ -63,6 +66,9 @@ GDC_hunger = {
               
               add_to_variable = { var = GDC.GDC_hunger_city value = 4 }
           }
+          ai_will_do = {
+					base = 10#ai点选这个决议的意愿
+					}
         } 
     hunger_add_rural_supply = {
           icon = decision_generic_political_discourse
@@ -84,6 +90,9 @@ GDC_hunger = {
             add_to_variable = { var = GDC.GDC_hunger_rural value = -2 }
               
           }
+          ai_will_do = {
+					base = 10#ai点选这个决议的意愿
+					}
         } 
     hunger_decrease_rural_supply = {
           icon = decision_generic_political_discourse
@@ -102,6 +111,9 @@ GDC_hunger = {
           remove_effect = {
               
           }
+          ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
         } 
     organise_capital_arise = {
           icon = decision_generic_fundraising
@@ -123,6 +135,9 @@ GDC_hunger = {
           remove_effect = {
               add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
           }
+          ai_will_do = {
+					base = 20#ai点选这个决议的意愿
+					}
         }
     start_wealth_reorganise_plan = {
           icon = decision_generic_fundraising
@@ -143,6 +158,9 @@ GDC_hunger = {
           remove_effect = {
               add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
           }
+          ai_will_do = {
+					base = 20#ai点选这个决议的意愿
+					}
         }
     hunger_support_NRA = {
           icon = decision_generic_military
@@ -164,6 +182,9 @@ GDC_hunger = {
           remove_effect = {
               
           }
+          ai_will_do = {
+					base = 10#ai点选这个决议的意愿
+					}
         }
       annouce_hunger_crisis_stop = {
           icon = decision_generic_military
@@ -186,5 +207,8 @@ GDC_hunger = {
           complete_effect = {
                clr_country_flag = GDC_hunger_on_going
           }
+          ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
         }
     }

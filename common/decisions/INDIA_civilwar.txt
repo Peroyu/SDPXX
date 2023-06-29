@@ -22,7 +22,7 @@ INDIA_civilwar = {
         allowed = {
 			original_tag = RAJ
 		}
-        cost = 0
+        cost = 10
         complete_effect = {
 			HYD = {
                 country_event = { 
@@ -34,10 +34,35 @@ INDIA_civilwar = {
 			base = 100#ai点选这个决议的意愿
 		}
     }
+    INDIA_strike_first = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			tag = FID
+         
+
+             CYN = {
+                    NOT = { has_country_flag = INDIA_civilwar_participants }
+                }
+            
+            }
+		
+        allowed = {
+			original_tag = FID
+		}
+        cost = 10
+        complete_effect = {
+            declare_war_on = { target = RAJ type = annex_everything }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
      INDIA_core_hydrabad = {
         icon = 
         fire_only_once = yes
         available = {
+        
 			tag = RAJ
             country_exists = HYD
             RAJ = {
@@ -52,7 +77,7 @@ INDIA_civilwar = {
 		}
         cost = 50
         days_remove = 35
-        complete_effect = {
+        remove_effect = {
 			RAJ = {
                 annex_country = { target = HYD transfer_troops = yes }
                 }
@@ -108,28 +133,6 @@ INDIA_civilwar = {
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
 		}
-    }
-    INDIA_strike_first = {
-        icon = 
-        fire_only_once = yes
-        available = {
-			OR = {
-                NOT = { has_war_with = CYN }
-                date > 1948.6.1
-            }
-		}
-        allowed = {
-			original_tag = FID
-		}
-        visible = {
-			tag = FID
-		}
-        cost = 0
-        days_remove = 20
-        war_with_on_remove = RAJ
-        remove_effect = {
-			declare_war_on = { target = RAJ type = annex_everything }
-        }
     }
     INDIA_peace_conferrence_CYN = {
         icon = 

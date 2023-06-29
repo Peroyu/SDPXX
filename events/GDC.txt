@@ -414,73 +414,93 @@ country_event = {
 	
 }
 country_event = {
-	id = GDClkmt.7 #谈判？
-	 immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDClkmt.7 FROM = [From.GetName]" }
-    picture = GFX_xiangnan
-    title = GDClkmt.7.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDClkmt.7.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+    id = GDClkmt.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.6 FROM = [From.GetName]" }
+	title = GDClkmt.6.t
+	desc = GDClkmt.6.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
 	immediate = {
-	    hidden_effect = {
-		}
-	}
-    option = { 
-		ai_chance = {
+    }
+	option = { 
+	    ai_chance = {
 		   base = 100
 		}
-        name = GDClkmt.7.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		add_to_variable = { var = GDC.GDC_crop_reserves value = 100 }
+		name = GDClkmt.6.a
+		completed_focus = GDC_to_present_Sun
+ 
 	}
-    
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDClkmt.6.b
+		completed_focus = GDC_to_present_Chen
+ 
+	}
+	
 }
 country_event = {
-	id = GDClkmt.8 #与陈公博的通话
-	 immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDClkmt.8 FROM = [From.GetName]" }
-    picture = GFX_xiangnan
-    title = GDClkmt.8.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDClkmt.8.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+    id = GDClkmt.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.7 FROM = [From.GetName]" }
+	title = GDClkmt.7.t
+	desc = GDClkmt.7.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
 	immediate = {
-	    hidden_effect = {
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
 		}
+		name = GDClkmt.7.a
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 100 }
 	}
-    option = { 
+	
+}
+country_event = {
+    id = GDClkmt.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClkmt.8 FROM = [From.GetName]" }
+	title = GDClkmt.8.t
+	desc = GDClkmt.8.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+    }
+	option = { 
 		ai_chance = {
 		   base = 100
 		}
         name = GDClkmt.8.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = -50 }
 	}
-    
+	
 }
+
 country_event = {
-	id = GDClkmt.9 #民族之未来
+    id = GDClkmt.9
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDClkmt.9 FROM = [From.GetName]" }
-    picture = GFX_xiangnan
-    title = GDClkmt.9.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
-    desc = GDClkmt.9.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
-	hidden = no
+	title = GDClkmt.9.t
+	desc = GDClkmt.9.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
 	immediate = {
-	    hidden_effect = {
+    }
+	option = { 
+		ai_chance = {
+		   base = 100
 		}
+        name = GDClkmt.9.a   
 	}
-    option = { 
-        name = GDClkmt.9.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		
-	}
-    
+	
 }
 #################MCP##############################
 country_event = {

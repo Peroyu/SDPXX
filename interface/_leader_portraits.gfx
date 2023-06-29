@@ -479,6 +479,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/GEO_portrait_Tsereteli.png"		
 	}
 
+	spriteType = {
+		name = "MOR_portrait_Abd_Karim"
+		texturefile = "gfx/leaders/East_Mediterranean/MOR_portrait_Abd_Karim.png"		
+	}
+
 #####################india#################################
 
 	spriteType = {
