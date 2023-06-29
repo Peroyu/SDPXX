@@ -1,0 +1,12 @@
+DJF_dip_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+	    picture = GFX_decisions_CJF_KMT_party
+		available = {
+	        
+		}
+		visible = {
+           
+        }
+        priority = 10000
+		allowed = { original_tag = DJF }
+    }
