@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 1.00
 		x = 8
 		y = 0
-
+		completion_reward = { 
+			 
+			}
 	}
 	focus = {
 		id = JAP_Continental_operations_resumed
@@ -25,21 +27,27 @@ focus_tree = {
 		available = {
 			has_global_flag = CHI_continental_operation_began
 		}
+		completion_reward = { 
+			 
+			}
 	}
 	focus = {
 		id = JAP_base_camp_celebration
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_base_camp_celebration
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_1947_meeting
 		}
+		completion_reward = { 
+			 
+			}
 		x = 8
 		y = 1
 
 	}
 	focus = {
 		id = JAP_future_target
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_future_target
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_base_camp_celebration
@@ -50,7 +58,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_to_the_west
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_to_the_west
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_future_target
@@ -61,7 +69,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_the_east_wall
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_the_east_wall
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_to_the_west
@@ -72,7 +80,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_establish_federation_base
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_establish_federation_base
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_to_the_west
@@ -83,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_to_the_South
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_to_the_South
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_future_target
@@ -94,7 +102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_increase_vietnam
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_increase_vietnam
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_to_the_South
@@ -105,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Unique_economic_circle
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Unique_economic_circle
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_increase_vietnam
@@ -119,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_the_national_problem
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_the_national_problem
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_base_camp_celebration

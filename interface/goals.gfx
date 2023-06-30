@@ -410,6 +410,46 @@ spriteTypes = {
 	name = "GFX_JAP_Continental_operations_resumed"
 	texturefile = "gfx/interface/goals/JAP/GFX_JAP_Continental_operations_resumed.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_JAP_base_camp_celebration"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_base_camp_celebration.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_future_target"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_future_target.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_to_the_west"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_to_the_west.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_the_east_wall"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_the_east_wall.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_establish_federation_base"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_establish_federation_base.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_to_the_South"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_to_the_South.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_increase_vietnam"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_increase_vietnam.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_Unique_economic_circle"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_Unique_economic_circle.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_focus_generic_air_defense"
