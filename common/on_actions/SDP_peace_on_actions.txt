@@ -188,6 +188,48 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # MMA beats SHA (Shaanxi attack) 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MMA
+								is_in_faction_with = MMA
+							}
+						}
+						ROOT = {
+							original_tag = SHA
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					KTR = {
+							every_unit_leader = {
+								set_nationality = MMA
+							}
+						}
+					MMA = {
+						annex_country = {
+							target = SHA
+							transfer_troops = no
+						}
+						annex_country = {
+							target = KTR
+							transfer_troops = yes
+						}
+						add_state_core = 942
+						add_state_core = 622
+						add_state_core = 941
+						add_state_core = 940
+						add_state_core = 744
+						add_state_core = 938
+						add_state_core = 939
+						set_cosmetic_tag = MMA_wng
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # JAP beats CHI (China lost GAW) 
 					limit = {
 						FROM = {

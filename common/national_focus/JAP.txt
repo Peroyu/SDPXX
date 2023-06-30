@@ -1,0 +1,480 @@
+focus_tree = {
+	id = JAP_focus_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	default = no
+	focus = {
+		id = JAP_1947_meeting
+		icon = GFX_JAP_1947_meeting
+		cost = 1.00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = JAP_Continental_operations_resumed
+		icon = GFX_JAP_Continental_operations_resumed
+		cost = 6.00
+		x = 23
+		y = 0
+		available = {
+			has_global_flag = CHI_continental_operation_began
+		}
+	}
+	focus = {
+		id = JAP_base_camp_celebration
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_1947_meeting
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = JAP_future_target
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_base_camp_celebration
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = JAP_to_the_west
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_future_target
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = JAP_the_east_wall
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_to_the_west
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = JAP_establish_federation_base
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_to_the_west
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = JAP_to_the_South
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_future_target
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = JAP_increase_vietnam
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_to_the_South
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = JAP_Unique_economic_circle
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_increase_vietnam
+		}
+		prerequisite = {
+			focus = JAP_establish_federation_base
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = JAP_the_national_problem
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_base_camp_celebration
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = JAP_the_failed_army
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_the_national_problem
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = JAP_reconstruce_balance
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_the_failed_army
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = JAP_decrease_millta_influence
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_the_failed_army
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = JAP_party_s_policy
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_decrease_millta_influence
+		}
+		prerequisite = {
+			focus = JAP_reconstruce_balance
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = JAP_imperal_parliament_restart
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_party_s_policy
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = JAP_limit_Taisei_yokusankai
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_party_s_policy
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = JAP_coperate_with_Rikkenminseito
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_imperal_parliament_restart
+		}
+		prerequisite = {
+			focus = JAP_limit_Taisei_yokusankai
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = JAP_navy_resourse
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_party_s_policy
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = JAP_yamato
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_navy_resourse
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = JAP_assault_war
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Continental_operations_resumed
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = JAP_remoblization
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_assault_war
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = JAP_authorized_base_camp
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_assault_war
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = JAP_Deep_ditch_high_barrier
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Continental_operations_resumed
+		}
+		x = 25
+		y = 1
+
+	}
+	focus = {
+		id = JAP_armed_chinese_leagues
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_Deep_ditch_high_barrier
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = JAP_strengthen_regional_milltery
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = JAP_the_east_wall
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = JAP_concern_amercia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = JAP_Unique_economic_circle
+		}
+		prerequisite = {
+			focus = JAP_strengthen_regional_milltery
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = JAP_to_south_ocean
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = JAP_concern_amercia
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = JAP_Showa_Demokurashi
+		icon = GFX_JAP_Showa_Demokurashi
+		cost = 5.00
+		prerequisite = {
+			focus = JAP_coperate_with_Rikkenminseito
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = JAP_call_america
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_Deep_ditch_high_barrier
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = JAP_Stuc_in_quagmire
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_armed_chinese_leagues
+		}
+		prerequisite = {
+			focus = JAP_authorized_base_camp
+		}
+		prerequisite = {
+			focus = JAP_call_america
+		}
+		prerequisite = {
+			focus = JAP_remoblization
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = JAP_china_Dispatch_troops
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Stuc_in_quagmire
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = JAP_Three_Light_Policy
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_china_Dispatch_troops
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = JAP_bombers
+		icon = GFX_goal_unknown
+		cost = 7.00
+		prerequisite = {
+			focus = JAP_china_Dispatch_troops
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = JAP_Close_eyes_and_listen
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_bombers
+		}
+		prerequisite = {
+			focus = JAP_Three_Light_Policy
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = JAP_Authorized_US_Air_Corps
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = JAP_Close_eyes_and_listen
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = JAP_No_mercy
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Close_eyes_and_listen
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = JAP_Terror_policy
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Close_eyes_and_listen
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = JAP_Necessary_evil
+		icon = GFX_goal_unknown
+		cost = 8.00
+		prerequisite = {
+			focus = JAP_Close_eyes_and_listen
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = JAP_crazy_soldiers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = JAP_No_mercy
+		}
+		prerequisite = {
+			focus = JAP_Authorized_US_Air_Corps
+		}
+		prerequisite = {
+			focus = JAP_Terror_policy
+		}
+		prerequisite = {
+			focus = JAP_Necessary_evil
+		}
+		x = 23
+		y = 8
+
+	}
+}

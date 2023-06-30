@@ -1,0 +1,68 @@
+ideas = {
+	country = {
+		JKR_Korea_war = {
+		    name = JKR_Korea_war
+			picture = JKR_Korea_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				compliance_growth = -0.2
+				resistance_target = 0.2
+			}
+		}
+		JAP_Victory_in_the_bubble = {
+		    name = JAP_Victory_in_the_bubble
+			picture = GFX_JAP_Victory_in_the_bubble
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = -0.1
+				effect_tooltip = JAP_01
+			}
+		}
+		JAP_Rival_services_N = {
+		    name = JAP_Rival_services_N
+			picture = GFX_JAP_Rival_services_N
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				war_support_factor = -0.05
+				attrition = 0.1
+				supply_consumption_factor = 0.1
+				mobilization_speed = -0.15
+				navy_org_factor = 0.15
+			}
+		}
+		JAP_pan_Asia_dream = {
+		    name = JAP_pan_Asia_dream
+			picture = GFX_JAP_pan_Asia_dream
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				non_core_manpower = 0.05
+			}
+		}
+		JAP_politic_warn = {
+		    name = JAP_politic_warn
+			picture = GFX_JAP_politic_warn
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.25
+			}
+		}
+	}
+}	

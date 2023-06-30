@@ -1,6 +1,7 @@
 ﻿add_namespace = MMAlan
 add_namespace = MMA_gongshu
 add_namespace = MMA_gongye
+add_namespace = MMA_border_conflict
 add_namespace = MMA_dip
 add_namespace = MMA_cpc
 country_event = {
@@ -320,17 +321,47 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		create_field_marshal = {
-			name = "MMA_Feng_Yuxiang"
-			portrait_path = "gportrait_SHA_Feng_YuXiang"
-			traits = {  }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 5
-			logistics_skill = 5
-		}
+		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+		declare_war_on = { target = SHA type = puppet_wargoal_focus }
+		    KTR = {
+				declare_war_on = { target = SHA type = puppet_wargoal_focus }
+			}
+			SHA = {
+				add_ideas = SHA_northwest_crisis
+			}
+		
 		name = MMA_dip.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = MMA_dip.2.b
+	}
+}
+country_event = {
+    id = MMA_dip.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_dip.3 FROM = [From.GetName]" }
+	title = MMA_dip.3.t
+	desc = MMA_dip.3.d
+	picture = GFX_MMA_dip
+	is_triggered_only = yes
+	
+	immediate = {
+	 hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase
+		name = MMA_dip.3.a
 	}
 }
 country_event = {
@@ -380,5 +411,52 @@ country_event = {
 		}
 		custom_effect_tooltip = MMA_Left_influence
 		name = MMA_cpc.2.a
+	}
+}
+country_event = {
+    id = MMA_border_conflict.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_border_conflict.1 FROM = [From.GetName]" }
+	title = MMA_border_conflict.1.t
+	desc = MMA_border_conflict.1.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			transfer_state = 746
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase
+		name = MMA_border_conflict.1.a
+	}
+}
+country_event = {
+    id = MMA_border_conflict.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA_border_conflict.2 FROM = [From.GetName]" }
+	title = MMA_border_conflict.2.t
+	desc = MMA_border_conflict.2.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase
+		name = MMA_border_conflict.2.a
 	}
 }

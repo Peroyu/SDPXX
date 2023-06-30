@@ -234,6 +234,8 @@ shared_focus = {
 		        keep_completed = no
 		    }
 			custom_effect_tooltip = MMA_new_stage
+			add_to_variable = { global.CHI_xibei_regional_tension = -10 }
+			custom_effect_tooltip = CHI_v_regional_tension_decrease
 			add_stability = 0.1
 		}
 
@@ -439,6 +441,27 @@ shared_focus = {
 		}
 		completion_reward = {
 		    country_event = { id = MMA_dip.1 days = 1 }
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 616
+					num_provinces = 8081
+					on_win =  MMA_border_conflict.1
+					
+					on_lose = MMA_border_conflict.2
+						
+					
+				}
+				defender = {
+					state = 746
+					num_provinces = 10854
+				}
+				
+			}
+			create_faction = 西北国防阵线
+			MMA = {
+				add_to_faction = KTR
+			}
         }
 		x = 10
 		y = 3
@@ -452,11 +475,19 @@ shared_focus = {
 			focus = Distant_guests
 		}
 		available = { 
-			has_country_flag = shaanxi_is_our_ally 
+			SHA = {
+				has_country_flag = MMA_win
+			}
 		}
 		mutually_exclusive = {
 			focus = A_failed_attempt
 		}
+		completion_reward = {
+		   
+			SHA = {
+				clr_country_flag = MMA_win
+			}
+        }
 		x = 9
 		y = 4
 
@@ -468,6 +499,10 @@ shared_focus = {
 		prerequisite = {
 			focus = A_successful_coup
 		}
+		completion_reward = {
+		   
+		
+        }
 		x = 9
 		y = 5
 
@@ -483,8 +518,16 @@ shared_focus = {
 			focus = A_successful_coup
 		}
 		available = { 
-			has_country_flag = shaanxi_is_not_our_ally 
+			SHA = {
+				has_country_flag = MMA_lose
+			}
 		}
+		completion_reward = {
+		   
+			SHA = {
+				clr_country_flag = MMA_lose
+			}
+        }
 		x = 11
 		y = 4
 
@@ -497,13 +540,61 @@ shared_focus = {
 			focus = A_failed_attempt
 		}
 		completion_reward = {
-			declare_war_on = { target = SHA type = puppet_wargoal_focus }
-		    KTR = {
+			if = {
+				limit = {
+					has_war = no
+					}
+				add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+				custom_effect_tooltip = CHI_v_regional_tension_increase
 				declare_war_on = { target = SHA type = puppet_wargoal_focus }
+		    	KTR = {
+					declare_war_on = { target = SHA type = puppet_wargoal_focus }
+				}
+				SHA = {
+					add_ideas = SHA_northwest_crisis
+				}
 			}
-			SHA = {
-				add_ideas = SHA_northwest_crisis
+			else_if = {
+			limit = {
+				has_war = yes
 			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+					count = 2
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 242 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+					prioritize_location = 306
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 242 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+					prioritize_location = 306
+				}
+			}
+		}
+			
 		}
 		x = 11
 		y = 5

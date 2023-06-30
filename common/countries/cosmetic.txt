@@ -46,3 +46,7 @@ MEN_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
+MMA_wng = {
+ color = rgb { 100 149 155 }
+ color_ui = rgb { 100 149 155 }
+}

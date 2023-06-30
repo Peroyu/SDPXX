@@ -40,6 +40,18 @@ set_popularities = {
 	Liberalism = 9
 	social_democracy = 6
 }
+add_ideas = {
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
+	######
+
+	#######
+	JAP_Victory_in_the_bubble
+	JAP_Rival_services_N
+	JAP_pan_Asia_dream
+	JAP_politic_warn
+}
 create_country_leader = {
 		name = "JAP_Hirohito"   
 		desc = "JAP_Hirohito_desc"  

@@ -1,6 +1,6 @@
-capital = 267 # 
+capital = 939 # 
 
-obb = "KTR_1947"  # 
+oob = "KTR_1947"  # 
 
 set_research_slots = 2 # 
 

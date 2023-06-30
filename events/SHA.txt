@@ -1,11 +1,11 @@
-﻿add_namespace = CHIwar
+﻿add_namespace = SHA
 country_event = {
-    id = CHIwar.1
+    id = SHA.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CHIwar.1 FROM = [From.GetName]" }
-	title = CHIwar.1.t
-	desc = CHIwar.1.d
-	picture = GFX_CHIwar.1
+	SHA.1 FROM = [From.GetName]" }
+	title = SHA.1.t
+	desc = SHA.1.d
+	picture = GFX_SHA.1
 	
 	is_triggered_only = yes
 	
@@ -20,24 +20,48 @@ country_event = {
 		   base = 50
 		}
 		MMA = {
-			set_country_flag = CHIwaranxi_is_not_our_ally
 			country_event = { id = MMA_dip.2 days = 1 }
 			}
-		name = CHIwar.1.a
+		set_country_flag = MMA_lose
+		name = SHA.1.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 50
 		}
 		KTR = {
-			annex_country = { target = CHIwar transfer_troops = yes }
+			transfer_state = 941
+			declare_war_on = puppet_wargoal_focus
 			}
-		news_event = {
-			id = CHIwar_news.1
-			hours = 1 #延迟多少小时触发
-			days = 1 #延迟多少天触发
+		MMA = {
+			declare_war_on = { target = SHA type = puppet_wargoal_focus }
+			transfer_state = 942
+			transfer_state = 622
+		}
+		MMA = {
+			country_event = { id = MMA_dip.3 days = 1 }
 			}
-		name = CHIwar.1.b
+		SHA = {
+				add_ideas = SHA_northwest_crisis
+			}
+		set_country_flag = MMA_win
+		10733 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+					owner = KTR
+				}
+			}
+		12156 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+					owner = KTR
+				}
+			}
+		name = SHA.1.b
 	}
 	
 }

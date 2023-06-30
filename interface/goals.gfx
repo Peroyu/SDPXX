@@ -392,7 +392,24 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_HUN_SLO_START"
 	texturefile = "gfx/interface/goals/HUN/HUN_SLO_START.dds"			
+	}
+
+
+	####################333JAP##########################
+	SpriteType = {
+	name = "GFX_JAP_1947_meeting"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_1947_meeting.png"			
 	}	
+
+	SpriteType = {
+	name = "GFX_JAP_Showa_Demokurashi"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_Showa_Demokurashi.png"			
+	}	
+
+	SpriteType = {
+	name = "GFX_JAP_Continental_operations_resumed"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_Continental_operations_resumed.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_focus_generic_air_defense"

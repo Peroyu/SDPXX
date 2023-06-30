@@ -60,8 +60,14 @@ bookmarks = {
 			ideology = reactionism
 			available = {}
 			ideas = {
+			JAP_Victory_in_the_bubble
+			JAP_Rival_services_N
+			JAP_politic_warn
 			}
 			focuses = {
+			JAP_Showa_Demokurashi
+			JAP_1947_meeting
+			JAP_Continental_operations_resumed
 			}
 		}
 		"XKS"={
