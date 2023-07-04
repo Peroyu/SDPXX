@@ -17,9 +17,6 @@ focus_tree = {
 		available = {
 			has_country_flag = I_HAVE_NATIONAL_FOCUS
 		}
-		allow_branch = {
-		has_country_flag = I_HAVE_NATIONAL_FOCUS
-	    }
 		completion_reward = {
 		}
     }
