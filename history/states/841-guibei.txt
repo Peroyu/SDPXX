@@ -4,9 +4,8 @@ state={
 	name="怀化"
 	state_category=town
 	history={
-		owner = RCR
-		add_core_of = CHI
-		add_core_of = RCR
+		owner = KGP
+		add_core_of = KGP
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -20,7 +19,7 @@ state={
 
 	}
 	provinces={
-		1474 7521 7549 7577 10039 10431 
+		1474 7521 7549 7577 
 	}
 	manpower=552610
 	buildings_max_level_factor=1.000

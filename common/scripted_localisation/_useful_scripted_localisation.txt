@@ -137,6 +137,13 @@ defined_text = {
 		}
 		localization_key = moderate_socialist
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarchism
+		}
+		localization_key = anarchism
+    }
 	##########################################################
 	text = {
 		trigger = {

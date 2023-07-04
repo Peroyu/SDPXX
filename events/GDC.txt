@@ -720,6 +720,49 @@ country_event = {
 	}
     
 }
+country_event = {
+    id = GDClcpc.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.7 FROM = [From.GetName]" }
+	title = GDClcpc.7.t
+	desc = GDClcpc.7.d
+	picture = GFX_GDCintro
+	is_triggered_only = yes
+	
+	immediate = {
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDClcpc.7.a
+		random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+		random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+		random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán"\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+	}
+	
+}
 #################minganconflict###################
 country_event = {
     id = GDC_link_mingan_conflict.1 

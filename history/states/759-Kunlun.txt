@@ -9,7 +9,6 @@ state={
 	state_category = wasteland
 	history={
 		owner = SIK
-		set_demilitarized_zone = yes
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC

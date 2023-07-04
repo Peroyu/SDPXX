@@ -105,6 +105,7 @@ ideologies = {
 			left_wing_nationalism = { can_be_randomly_selected = no } 
 			Austro_Marxism = { can_be_randomly_selected = no }
 			moderate_socialist = { can_be_randomly_selected = no }
+			anarchism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

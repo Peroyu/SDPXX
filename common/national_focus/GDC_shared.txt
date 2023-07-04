@@ -907,6 +907,10 @@ shared_focus = {
 		completion_reward = {
 			add_stability = -0.05
 			add_political_power = -25
+			country_event = {
+				id = GDClcpc.7
+				days = 1
+			}
 		}
 		prerequisite = {
 		       focus = GDC_Peng_Pai_focus

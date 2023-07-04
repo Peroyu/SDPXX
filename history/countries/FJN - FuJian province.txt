@@ -1,0 +1,42 @@
+capital = 325 # 
+
+obb = "empty"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.8 # 
+set_stability = 0.2 # 
+
+# 
+set_politics = {
+	ruling_party = moderate_socialism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+
+}
+set_popularities = {
+ communism = 34
+ moderate_socialism = 24
+ social_democracy = 2
+ Liberalism = 13
+ movement_communism = 7
+ conservatism
+ reactionism
+ nationalism
+ restorativeism
+}
+
+# 
+create_country_leader = {
+	name = ""  # 
+	desc = "/"  # 
+	picture = "/"  # 
+	expire = "1956.3.9"  # 
+	ideology = anarchism # 
+	traits = {  # 
+		#
+	}
+}
