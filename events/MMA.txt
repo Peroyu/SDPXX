@@ -4,6 +4,7 @@ add_namespace = MMA_gongye
 add_namespace = MMA_border_conflict
 add_namespace = MMA_dip
 add_namespace = MMA_cpc
+add_namespace = MMA
 country_event = {
     id = MMA_gongye.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -29,6 +30,34 @@ country_event = {
 		set_variable = { var = MMA_gongye_jizhong value = 0 }
 		set_variable = { var = MMA_gongye_xiaolv value = 15 }
 		set_variable = { var = MMA_gongye_buman value = 0 }
+	}
+}
+country_event = {
+    id = MMA.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA.2 FROM = [From.GetName]" }
+	title = MMA.2.t
+	desc = MMA.2.d
+	picture = GFX_MMAlan1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = MMA.2.a
+		annex_country = {
+			 target = KTR 
+			 transfer_troops = yes
+		}
+		set_cosmetic_tag = MMA_wng
 	}
 }
 country_event = {

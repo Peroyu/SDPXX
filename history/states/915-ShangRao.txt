@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		
+		set_state_flag = CHI_Jiang_Xi_Province
 	}
 
 	manpower=3001600

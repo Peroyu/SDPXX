@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
 	}
 	spriteType = {
+		name = "decision_cat_picture_generic_border_conflicts"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_generic_border_conflicts.png"
+	}
+	spriteType = {
 		name = "GFX_decisions_CJF_anti_japen_war"
 		texturefile = "gfx/interface/decisions/decisions_CJF_anti_japen_war.dds"
 	}
@@ -38,6 +42,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_MMA_gongshukmt"
 		texturefile = "gfx/interface/decisions/MMA_gongshukmt.dds"
+	}
+	spriteType = {
+		name = "decision_generic_form_nation"
+		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
 	}
 	spriteType = {
 		name = "decision_generic_political_discourse"

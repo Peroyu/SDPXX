@@ -17,6 +17,7 @@ state={
 		victory_points = {
 			7101 10 
 		}
+		set_state_flag = CHI_Hu_Nan_Province
 
 	}
 

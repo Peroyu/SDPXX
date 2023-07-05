@@ -11,6 +11,8 @@ defined_text = { #战争总结
 					NOT = { original_tag = RAJ }
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
+					NOT = { original_tag = KTR }
+					NOT = { original_tag = MMA }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -19,6 +21,7 @@ defined_text = { #战争总结
 					NOT = { original_tag = RAJ }
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
+					NOT = { original_tag = SHA }
 				}
 			}
 		}
@@ -45,6 +48,18 @@ defined_text = { #战争总结
 			}
 		}
 		localization_key = SDP_peace_GDC_GNP_D
+	}
+	text = { # KTR beat SHA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = KTR
+				is_in_faction_with = KTR
+			}
+			event_target:losing_country = {
+				original_tag = SHA
+			}
+		}
+		localization_key = SDP_peace_MMA_SHA_D
 	}
 	text = { # INDIA
 		trigger = {
@@ -104,6 +119,8 @@ defined_text = { #战争结语
 					NOT = { original_tag = RAJ }
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
+					NOT = { original_tag = MMA }
+					NOT = { original_tag = KTR }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -112,6 +129,7 @@ defined_text = { #战争结语
 					NOT = { original_tag = RAJ }
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
+					NOT = { original_tag = SHA }
 				}
 			}
 		}
@@ -138,6 +156,18 @@ defined_text = { #战争结语
 			}
 		}
 		localization_key = SDP_peace_GDC_GNP_T
+	}
+	text = { # KTR beat SHA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = KTR
+				is_in_faction_with = KTR
+			}
+			event_target:losing_country = {
+				original_tag = SHA
+			}
+		}
+		localization_key = SDP_peace_MMA_SHA_T
 	}
 	text = { # RAJ beat AFG
 		trigger = {

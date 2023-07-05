@@ -1,0 +1,17 @@
+GDC_guerrilla_area = {
+	icon = decision_category_jap_intervene_in_china
+	picture = decision_cat_picture_generic_border_conflicts
+	visible = {
+		OR = {
+			tag = GDC
+			tag = CJF
+			tag = RCR
+			tag = JAP
+			}
+		GDC = {
+			owns_state = 889
+		}
+		}
+	priority = 1000
+	allowed = { original_tag = GDC }
+}

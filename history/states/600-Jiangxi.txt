@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			3992 3 
 		}
-
+		set_state_flag = CHI_Jiang_Xi_Province
 	}
 
 	provinces={

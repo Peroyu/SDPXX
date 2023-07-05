@@ -16,7 +16,7 @@ state= {
 		victory_points = { 
 			1006 1
 		}
-		
+		set_state_flag = CHI_Fu_Jian_Province
 		set_demilitarized_zone = yes
 	}
 	provinces={

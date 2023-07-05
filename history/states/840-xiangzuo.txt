@@ -17,7 +17,7 @@ state={
 			10335 5 
 		}
 		set_demilitarized_zone = yes
-
+		set_state_flag = CHI_Hu_Nan_Province
 	}
 
 	provinces={

@@ -1,72 +1,60 @@
 CHI_regional_tension_rate = {                               
-	CHI_war_is_coming = {                           # 这是我们的任务id
-          allowed = { 
-			tag = GDC
-			tag = CJF
-			tag = XKS
-			tag = RCR
-			tag = DJF
-			tag = JAP
-			tag = SIK
-			tag = MEN
-			tag = MAN
-			tag = GNP
-			tag = FNC 
-			}                 # 这项任务只允许在波兰进行。其他国家将无法看到它或激活它
-          available = {                           # 这里的Available和goal中的一样，因为:
-               has_war_with = JAP                  # 只有控制了64号省份（柏林），我们才能完成这个任务
-          }
-          activation = {                          # 在这种情况下，任务被激活并开始倒计时：
-               OR = {
+	CHI_war_is_coming = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+		   or = {
 		   		check_variable = {
-    				global.CHI_dongbei_regional_tension > 50
+					var = global.CHI_dongbei_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
 				check_variable = {
-    				global.CHI_huabei_regional_tension > 50
+					var = global.CHI_huabei_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
 				check_variable = {
-    				global.CHI_xibei_regional_tension > 50
+					var = global.CHI_xibei_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
 				check_variable = {
-    				global.CHI_huanan_regional_tension > 50
+					var = global.CHI_huanan_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
 				check_variable = {
-    				global.CHI_xinan_regional_tension > 50
+					var = global.CHI_xinan_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
 				check_variable = {
-    				global.CHI_huazhong_regional_tension > 50
+					var = global.CHI_huazhong_regional_tension
+					value = 50
+					compare = greater_than_or_equals
 				}
-			}                      # 与德国交战
-          }
-		  cancel_trigger = {
-			check_variable = {
-    				global.CHI_dongbei_regional_tension ＜＝ 50
-				}
-				check_variable = {
-    				global.CHI_huabei_regional_tension ＜＝ 50
-				}
-				check_variable = {
-    				global.CHI_xibei_regional_tension ＜＝ 50
-				}
-				check_variable = {
-    				global.CHI_huanan_regional_tension ＜＝ 50
-				}
-				check_variable = {
-    				global.CHI_xinan_regional_tension ＜＝ 50
-				}
-				check_variable = {
-    				global.CHI_huazhong_regional_tension ＜＝ 50
-				}
+			}    
 		}
-          is_good = no                          # 这个任务将在玩家点选任务时完成，而非自动完成
-          days_mission_timeout = 150              # 距离任务失败前有多少天？
-          timeout_effect = {                      # 当任务失败时会发生什么？
-                country_event = {
+		cancel_trigger = {
+		}
+		visible = {
+				has_global_flag = WAR
+		}
+          is_good = no    
+		  fire_only_once = yes               
+          days_mission_timeout = 5000              
+        timeout_effect = { 
+		  country_event = {
                 id = CHIwar.1
                 days = 1			
-            	}               # 失去50点政治点数
-          }
-          complete_effect = {                         # 获得50点政治点数
-          }
-     }
-    }
+            	}	 
+                
+		}
+        complete_effect = {                   
+            country_event = {
+                id = CHIwar.1
+                days = 1			
+            	}
+        }
+	}
+}

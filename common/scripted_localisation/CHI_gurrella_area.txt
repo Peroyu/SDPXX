@@ -1,0 +1,144 @@
+defined_text = {
+	name = Hu_Nan_control_state
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 25
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 25
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 75
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 75
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Hu_Nan_control
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_3
+	}
+}
+defined_text = {
+	name = Jiang_Xi_control_state
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 25
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 25
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 75
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 75
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Jiang_Xi_control
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_3
+	}
+}
+defined_text = {
+	name = Fu_Jian_control_state
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 25
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 25
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 75
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 75
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CHI_Fu_Jian_control
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CHI_guerrilla_area_state_3
+	}
+}

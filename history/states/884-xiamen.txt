@@ -19,6 +19,7 @@ state={
 				7071 3
 		}
 		add_core_of = RCR
+		set_state_flag = CHI_Fu_Jian_Province
 	}
 
 	manpower=50000

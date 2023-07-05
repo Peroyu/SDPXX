@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = RCR
 		set_demilitarized_zone = yes
+		set_state_flag = CHI_Fu_Jian_Province
 	}
 
 	manpower=130000

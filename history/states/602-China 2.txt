@@ -16,6 +16,7 @@ state={
 			arms_factory = 2
 
 		}
+		set_state_flag = CHI_Hu_Nan_Province
 		victory_points = {
 			7097 5 
 		}

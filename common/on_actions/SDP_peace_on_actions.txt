@@ -185,37 +185,6 @@ on_actions = {
 							autonomy_state = autonomy_colony
 						}
 					}
-					FJN = {
-						transfer_state = 595
-						transfer_state = 886
-						add_state_core = 595
-						add_state_core = 886
-					}
-					KHN = {
-						transfer_state = 840
-						transfer_state = 838
-						add_state_core = 840
-						add_state_core = 838
-					}
-					HNN = {
-						transfer_state = 602
-						transfer_state = 750
-					}
-					595 = {
-						set_demilitarized_zone = no
-					}
-					886 = {
-						set_demilitarized_zone = no
-					}
-					840 = {
-						set_demilitarized_zone = no
-					}
-					838 = {
-						set_demilitarized_zone = no
-					}
-					884 = {
-						set_demilitarized_zone = yes
-					}
 
 					set_global_flag = skip_default_capitulation
 				}
@@ -236,27 +205,16 @@ on_actions = {
 						white_peace = ROOT
 					}
 					KTR = {
-							every_unit_leader = {
-								set_nationality = MMA
-							}
-						}
-					MMA = {
 						annex_country = {
-							target = SHA
+							target = ROOT
 							transfer_troops = no
 						}
-						annex_country = {
-							target = KTR
-							transfer_troops = yes
+					}
+					MMA = {
+						country_event = {
+							id = MMA.2
+							days = 1
 						}
-						add_state_core = 942
-						add_state_core = 622
-						add_state_core = 941
-						add_state_core = 940
-						add_state_core = 744
-						add_state_core = 938
-						add_state_core = 939
-						set_cosmetic_tag = MMA_wng
 					}
 
 					set_global_flag = skip_default_capitulation

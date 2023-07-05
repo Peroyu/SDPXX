@@ -167,6 +167,56 @@ spriteTypes = {
 	name = "GFX_final_reckoning"
 	texturefile = "gfx/interface/goals/MMA/final_reckoning.dds"			
 	}	
+
+	SpriteType = {
+	name = "GFX_Integrated_industry"
+	texturefile = "gfx/interface/goals/MMA/GFX_Integrated_industry.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Emerging_industries"
+	texturefile = "gfx/interface/goals/MMA/GFX_Emerging_industries.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Let_the_war_machine_start"
+	texturefile = "gfx/interface/goals/MMA/GFX_Let_the_war_machine_start.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Konzern"
+	texturefile = "gfx/interface/goals/MMA/GFX_Konzern.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Poor_imperialism"
+	texturefile = "gfx/interface/goals/MMA/GFX_Poor_imperialism.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Concentrate_a_little_more"
+	texturefile = "gfx/interface/goals/MMA/GFX_Concentrate_a_little_more.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Ready_or_not"
+	texturefile = "gfx/interface/goals/MMA/GFX_Ready_or_not.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_It_works"
+	texturefile = "gfx/interface/goals/MMA/GFX_It_works.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Mass_production"
+	texturefile = "gfx/interface/goals/MMA/GFX_Mass_production.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_Militarized_traffic_lines"
+	texturefile = "gfx/interface/goals/MMA/GFX_Militarized_traffic_lines.png"			
+	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
 	SpriteType = {
@@ -203,6 +253,8 @@ spriteTypes = {
 	name = "GFX_MMA_CPC_politic_party_department"
 	texturefile = "gfx/interface/goals/MMA/GFX_MMA_CPC_politic_party_department.png"			
 	}
+
+	
 #################CJF1👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇###############
 	SpriteType = {
 	name = "GFX_CJF_darkest_hour"

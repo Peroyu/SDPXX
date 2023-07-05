@@ -15,19 +15,8 @@ country_event = {
 		    CJF = {
 				create_faction = 抗日民族统一战线
 				add_to_faction = GDC
-				add_to_faction = DJF
 				add_to_faction = MMA
 				add_to_faction = SIK
-				add_to_faction = KTR
-				if = {
-						limit = {
-							country_exists = KHN
-							}
-						add_to_faction = KHN
-						}
-			}
-			JAP = {
-				declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			}
 		}
     }
@@ -37,6 +26,29 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.1.a
+		if = {
+			limit = {
+				tag = CJF
+			}
+			JAP = {
+				country_event = {
+					id = CHIwar.2
+					days = 100
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MMA
+			}
+			custom_effect_tooltip = CHIwar_100days
+		}
+		else_if = {
+			limit = {
+				tag = GDC	
+			}
+			custom_effect_tooltip = CHIwar_100days
+		}
 	}
 	
 }
@@ -46,6 +58,31 @@ country_event = {
 	CHIwar.2 FROM = [From.GetName]" }
 	title = CHIwar.2.t
 	desc = CHIwar.2.d
+	picture = GFX_CHIwar.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = CHIwar.2.a
+		declare_war_on = { target = CJF type = puppet_wargoal_focus }
+	}
+	
+}
+country_event = {
+    id = CHIwar.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.3 FROM = [From.GetName]" }
+	title = CHIwar.3.t
+	desc = CHIwar.3.d
 	picture = GFX_CHIwar.1
 	
 	is_triggered_only = yes
@@ -173,7 +210,7 @@ country_event = {
 			id = chi_news.4
 			days = 1
 		}
-		name = CHIwar.1.a
+		name = CHIwar.3.a
 	}
 	
 }

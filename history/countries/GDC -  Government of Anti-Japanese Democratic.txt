@@ -51,6 +51,9 @@ add_ideas = {
 	GDC_hunger
 	GDC_none_pact_peace
 }
+set_variable = { var = global.CHI_Jiang_Xi_control value = 35 }
+set_variable = { var = global.CHI_Fu_Jian_control value = 78 }
+set_variable = { var = global.CHI_Hu_Nan_control value = 62 }
 #########################################################
 create_country_leader = {
 		name = "李立三"   
