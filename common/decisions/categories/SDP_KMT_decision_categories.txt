@@ -7,10 +7,10 @@ SDP_KMT_army_reform = {
 		tag = CJF
 	}
 	available = {
-	        has_completed_focus = CJF_want_to_be_their_best_work  
+	        has_completed_focus = CJF_sharpen_the_tools 
 		}
 	visible = {
-		has_completed_focus = CJF_want_to_be_their_best_work
+		has_completed_focus = CJF_sharpen_the_tools
 	} 
 }
 

@@ -217,6 +217,11 @@ spriteTypes = {
 	name = "GFX_Militarized_traffic_lines"
 	texturefile = "gfx/interface/goals/MMA/GFX_Militarized_traffic_lines.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_The_established_policy"
+	texturefile = "gfx/interface/goals/MMA/GFX_The_established_policy.png"			
+	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
 	SpriteType = {

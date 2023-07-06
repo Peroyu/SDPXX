@@ -29,16 +29,39 @@ ideas = {
 			}
 		}
 		CJF_the_trade_of_opium = {
-		    name = CJF_the_trade_of_opium
+		    name = CJF_drug_trade
 			picture = CJF_the_trade_of_opium
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				political_power_gain = -0.1
-				stability_factor = -0.1
-				consumer_goods_factor = -0.1
+				if = {
+					limit = {
+						check_variable = { #检查变量大小
+	                		var = CJF_drug_amount
+	                		value = 75
+	                		compare = greater_than
+                		}
+					}
+					political_power_gain = -0.25
+					stability_factor = -0.04
+					consumer_goods_factor = -0.03
+					industrial_capacity_factory = -0.05
+					monthly_population = -0.001
+					conscription_factor = -0.25
+				}
+				else_if = {
+					limit = {
+						check_variable = { #检查变量大小
+	                		var = CJF_drug_amount
+	                		value = 75
+	                		compare = less_than_or_equals
+                		}
+					}
+					political_power_gain = 0.15
+					consumer_goods_factor = -0.02
+				}
 			}
 		}
 		CJF_internal_industry = {

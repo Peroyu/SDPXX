@@ -16,6 +16,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_SWI_absolute_neutrality.dds"
 	}
 	spriteType = {
+		name = "decision_category_hol_bernhard"
+		texturefile = "gfx/interface/decisions/categories/decision_category_hol_bernhard.dds"
+	}
+	spriteType = {
 		name = "decision_category_jap_intervene_in_china"
 		texturefile = "gfx/interface/decisions/categories/decision_category_jap_intervene_in_china.dds"
 	}
@@ -30,6 +34,10 @@ spriteTypes = {
 	spriteType = {
 		name = "decision_cat_picture_generic_border_conflicts"
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_generic_border_conflicts.png"
+	}
+	spriteType = {
+		name = "decision_cat_generic_mefo_bills"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_generic_mefo_bills.png"
 	}
 	spriteType = {
 		name = "GFX_decisions_CJF_anti_japen_war"
@@ -100,8 +108,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/economy/decision_generic_fundraising.dds"
 	}
 	spriteType = {
+		name = "decision_generic_factory"
+		texturefile = "gfx/interface/decisions/economy/decision_generic_factory.dds"
+	}
+	spriteType = {
+		name = "decision_eng_trade_unions_demand"
+		texturefile = "gfx/interface/decisions/economy/decision_eng_trade_unions_demand.dds"
+	}
+	spriteType = {
+		name = "decision_hol_drain_water_lines"
+		texturefile = "gfx/interface/decisions/economy/decision_hol_drain_water_lines.dds"
+	}
+	spriteType = {
 		name = "decision_generic_military"
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_military.dds"
+	}
+	spriteType = {
+		name = "decision_generic_trucks"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_trucks.dds"
+	}
+	spriteType = {
+		name = "decision_generic_operation"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_operation.dds"
 	}
 	spriteType = {
 		name = "GFX_decision_cat_picture_soviet_comecon"
