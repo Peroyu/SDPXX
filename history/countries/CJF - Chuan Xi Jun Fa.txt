@@ -79,6 +79,7 @@ set_variable = { var = global.CHI_dongbei_regional_tension value = 12 }
     set_variable = { var = global.CHI_huanan_regional_tension value = 19 }
     set_variable = { var = global.CHI_xinan_regional_tension value = 30 }
     set_variable = { var = global.CHI_huazhong_regional_tension value = 11 }
+set_variable = { var = CJF_drug_amount value = 30 }
 #########################################################
 add_ideas = {
  tot_economic_mobilisation

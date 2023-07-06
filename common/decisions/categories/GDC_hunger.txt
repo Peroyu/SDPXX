@@ -1,16 +1,17 @@
-GDC_hunger = {
+CJF_drug_trade = {
 	    icon = decision_category_generic_economy
-	    picture = GFX_decisions_GDC_hunger 
+	    picture = GFX_decisions_CJF_drug_trade
 		available = {
-	          tag = GDC
-			has_country_flag = GDC_hunger_on_going
+	         NOT = { has_global_flag = CHI_continental_operation_began }
 		}
 		visible = {
-		has_country_flag = GDC_hunger_on_going
+			tag = CJF
+			has_completed_focus = CJF_patriotic_industry
+			has_idea = CJF_the_trade_of_opium
         }
 		cancel_trigger = {
-         NOT = {has_country_flag = GDC_hunger_on_going}
+         	has_global_flag = CHI_continental_operation_began 
         }
         priority = 1000
-		allowed = { original_tag = GDC }
+		allowed = { original_tag = CJF }
     }

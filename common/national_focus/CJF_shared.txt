@@ -297,6 +297,7 @@ shared_focus = {
 			focus = CJF_meeting_beibei
 		}
 		completion_reward = {
+			set_variable = { var = CJF_drug_added_amount value = 5 }
 			country_event = { id = CJF_industry.3 days = 1}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 3

@@ -35,6 +35,21 @@ ideas = {
 			}
 	    
 		}
+		 RCR_drugs_too_much = {
+            name = RCR_drugs_too_much
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+            modifier = {
+			political_power_gain = -0.2
+			stability_factor = -0.04
+			war_support_factor = -0.04
+			industrial_capacity_factory = -0.05
+			monthly_population = -0.001
+			}
+	    
+		}
 	}
 }	
 
