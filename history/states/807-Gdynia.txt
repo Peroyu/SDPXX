@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = POL
-		victory_points = {
-			9263 5 
-		}
+		
 		victory_points = {
 			3295 5 
 		}
@@ -19,10 +17,7 @@ state={
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 2
-			9263 = {
-				naval_base = 1
-
-			}
+			
 
 		}
 		add_core_of = POL

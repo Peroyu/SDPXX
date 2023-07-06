@@ -5,7 +5,7 @@ state={
 
 	history={
 		victory_points = {
-			8066 1 
+			5043 1 
 		}
 		owner = KAR
 		buildings = {
