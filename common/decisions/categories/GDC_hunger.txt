@@ -6,11 +6,10 @@ GDC_hunger = {
 			has_country_flag = GDC_hunger_on_going
 		}
 		visible = {
-             tag = GDC 
 		has_country_flag = GDC_hunger_on_going
         }
 		cancel_trigger = {
-          
+         NOT = {has_country_flag = GDC_hunger_on_going}
         }
         priority = 1000
 		allowed = { original_tag = GDC }

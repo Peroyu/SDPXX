@@ -64,5 +64,303 @@ ideas = {
 				political_power_factor = -0.25
 			}
 		}
+		JAP_continental_war = {
+		    name = JAP_continental_war
+			picture = GFX_JAP_continental_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				defend_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = MMA
+				defend_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = GDC
+				defend_bonus_against = 0.03
+				}
+		}
+		JAP_continental_war_1 = {
+		    name = JAP_continental_war
+			picture = GFX_JAP_continental_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				attack_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = MMA
+				attack_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = GDC
+				attack_bonus_against = 0.03
+				}
+		}
+		JAP_continental_war_2 = {
+		    name = JAP_continental_war
+			picture = GFX_JAP_continental_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = MMA
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.03
+				}
+			targeted_modifier = {
+				tag = GDC
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.03
+				}
+		}
+		JAP_continental_war_3 = {
+		    name = JAP_continental_war
+			picture = GFX_JAP_continental_war
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.06
+				}
+			targeted_modifier = {
+				tag = MMA
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.06
+				}
+			targeted_modifier = {
+				tag = GDC
+				attack_bonus_against = 0.03
+				defend_bonus_against = 0.06
+				}
+		}
+		JAP_continental_war_4 = {
+		    name = JAP_continental_war_4
+			picture = GFX_JAP_continental_war_4
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				attack_bonus_against = -0.03
+				defend_bonus_against = -0.03
+				}
+			targeted_modifier = {
+				tag = MMA
+				attack_bonus_against = -0.03
+				defend_bonus_against = -0.03
+				}
+			targeted_modifier = {
+				tag = GDC
+				attack_bonus_against = -0.03
+				defend_bonus_against = -0.03
+				}
+		}
+		JAP_dispatch_troops = {
+		    name = JAP_dispatch_troops
+			picture = GFX_JAP_dispatch_troops
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				nationalism_drift = 0.02
+				reactionism_drift = 0.02
+				breakthrough_factor = 0.03
+				army_morale_factor = 0.03
+				}
+		}
+		JAP_Three_Light_Policy_idea = {
+		    name = JAP_Three_Light_Policy_idea
+			picture = GFX_JAP_Three_Light_Policy_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				resistance_target = -0.2
+				required_garrison_factor = 0.3
+				attrition = 0.1
+				}
+		}
+		JAP_Three_Light_Policy_idea_1 = {
+		    name = JAP_Three_Light_Policy_idea
+			picture = GFX_JAP_Three_Light_Policy_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				resistance_target = -0.3
+				required_garrison_factor = 0.4
+				attrition = 0.1
+				compliance_starting_value = -0.5
+				}
+		}
+		JAP_Three_Light_Policy_idea_2 = {
+		    name = JAP_Three_Light_Policy_idea
+			picture = GFX_JAP_Three_Light_Policy_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				resistance_target = -0.5
+				required_garrison_factor = 0.6
+				attrition = 0.3
+				compliance_starting_value = -0.7
+				}
+		}
+		JAP_america_bombers = {
+		    name = JAP_america_bombers
+			picture = GFX_JAP_america_bombers
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				air_cas_efficiency = 0.12
+				air_strategic_bomber_bombing_factor = 0.1
+				air_cas_present_factor = 0.1
+				army_bonus_air_superiority_factor = 0.2
+				}
+		}
+		JAP_america_bombers_1 = {
+		    name = JAP_america_bombers
+			picture = GFX_JAP_america_bombers
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				air_cas_efficiency = 0.2
+				air_strategic_bomber_bombing_factor = 0.2
+				air_cas_present_factor = 0.2
+				army_bonus_air_superiority_factor = 0.25
+				}
+		}
+		JAP_america_bombers_2 = {
+		    name = JAP_america_bombers
+			picture = GFX_JAP_america_bombers
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				air_cas_efficiency = 0.3
+				air_strategic_bomber_bombing_factor = 0.3
+				air_cas_present_factor = 0.3
+				army_bonus_air_superiority_factor = 0.4
+				}
+		}
+		RCR_JAPEN_chief = {
+		    name = RCR_JAPEN_chief
+			picture = GFX_RCR_JAPEN_chief
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			targeted_modifier = {
+				tag = CJF
+				attack_bonus_against = 0.01
+				defend_bonus_against = 0.01
+				}
+			targeted_modifier = {
+				tag = MMA
+				attack_bonus_against = 0.01
+				defend_bonus_against = 0.01
+				}
+			targeted_modifier = {
+				tag = GDC
+				attack_bonus_against = 0.01
+				defend_bonus_against = 0.01
+				}
+		}
+		JAP_South_Plan = {
+		    name = JAP_South_Plan
+			picture = GFX_JAP_South_Plan
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.2
+				}
+			
+		}
+		JAP_South_Plan_1 = {
+		    name = JAP_South_Plan
+			picture = GFX_JAP_South_Plan
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				local_resources_factor = 0.2
+				consumer_goods_factor = -0.5
+				non_core_manpower = 0.1
+				}
+			
+		}
+		JAP_South_Plan_2 = {
+		    name = JAP_South_Plan
+			picture = GFX_JAP_South_Plan
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				local_resources_factor = 0.3
+				consumer_goods_factor = -0.7
+				non_core_manpower = 0.2
+				}
+			
+		}
+		JAP_party_politic_revival = {
+		    name = JAP_party_politic_revival
+			picture = GFX_JAP_party_politic_revival
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				mobilization_laws_cost_factor = 0.3
+				political_advisor_cost_factor = -0.1
+				movement_communism_drift = 0.01
+				}
+			
+		}
+		JAP_navy_investment = {
+		    name = JAP_navy_investment
+			picture = GFX_JAP_navy_investment
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				repair_speed_factor = 0.1
+				navy_org_factor = 0.1
+				refit_speed = 0.1
+				}
+			
+		}
 	}
 }	

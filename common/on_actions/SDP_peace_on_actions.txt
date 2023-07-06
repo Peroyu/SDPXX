@@ -204,6 +204,7 @@ on_actions = {
 					FROM = {
 						white_peace = ROOT
 					}
+
 					KTR = {
 						annex_country = {
 							target = ROOT

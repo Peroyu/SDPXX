@@ -2,13 +2,17 @@ GDC_anti_siege_war_decision_categories = {
 	    icon = GFX_MMA_gongshukmt
 	    picture = GFX_decisions_GDC_anti_siege_war
 		available = {
-	        has_war_with = GNP
+	        GDC = {
+			owns_state = 889
+		}
 		}
 		visible = {
-           has_war_with = GNP
+           GDC = {
+			owns_state = 889
+		}
         }
 		cancel_trigger = {
-           has_country_flag = GDC_anti_siega_war_over
+			has_global_flag = CHI_continental_operation_began
         }
         priority = 1000
 		allowed = { original_tag = GDC }

@@ -197,7 +197,7 @@ units = {
           is_name_ordered = yes
           name_order = 14
           }
-          location = 1474
+          location = 10006
           division_template = "Juntuán"
           start_experience_factor = 0.1
           start_equipment_factor = 1
