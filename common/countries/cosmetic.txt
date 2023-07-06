@@ -50,7 +50,3 @@ MMA_wng = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
-GDC_huanan = {
- color = rgb { 165 36 41 }
- color_ui = rgb { 165 36 41 }
-}

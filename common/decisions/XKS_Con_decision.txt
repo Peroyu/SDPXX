@@ -28,7 +28,7 @@ XKS_Con_decision_categories = {
 				}
 				35 = {
 				    add_manpower = -50
-					add_to_variable = { XKS_people = 10 }
+					add_to_variable = { XKS_people = 20 }
                 }
 				5 = {
 				  601 = {
@@ -41,7 +41,7 @@ XKS_Con_decision_categories = {
 				  }
 				  add_to_variable = { XKS_xikang = 30 }
 				  add_manpower = -10
-				  add_to_variable = { XKS_people = 5 }
+				  add_to_variable = { XKS_people = 15 }
 				}
 		    } 
           }
@@ -318,8 +318,8 @@ XKS_Con_decision_categories = {
 		    } 
         
 		  cost = 20
-		  days_re_enable = 7
-		  days_remove = 7
+		  days_re_enable = 14
+		  days_remove = 10
         }
 		xikang_people2 = { 
 	      icon = decision_hol_exchange_intelligence_data

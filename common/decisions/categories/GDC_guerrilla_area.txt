@@ -12,9 +12,6 @@ GDC_guerrilla_area = {
 			owns_state = 889
 		}
 		}
-	cancel_trigger = {
-			has_global_flag = CHI_continental_operation_began
-        }
 	priority = 1000
 	allowed = { original_tag = GDC }
 }
