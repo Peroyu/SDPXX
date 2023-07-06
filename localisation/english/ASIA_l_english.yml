@@ -68,16 +68,7 @@
  MAN_nationalism_party:0"满洲协和会"
  MAN_restorativeism_party:0"满洲协和会"
  
- JAP_communism_party:0"日本共产党"
- JAP_committee_communism_party:0"日本共产党"
- JAP_moderate_socialism_party:0"日本共产党"
- JAP_social_democracy_party:0"社会大众党"
- JAP_Liberalism_party:0"立宪政友会-保守本流"
- JAP_movement_communism_party:0"立宪政友会-主流派"
- JAP_conservatism_party:0"立宪政友会-保守滂流"
- JAP_reactionism_party:0"大政翼赞会-政治会"
- JAP_nationalism_party:0"大政翼赞会-军部系"
- JAP_restorativeism_party:0"大政翼赞会-少壮派"
+ 
  SHA_northwest_crisis:"西北危机紧急状态"
  #决议
  ASIA_Southeast_asia_conference:"南洋峰会"
@@ -125,7 +116,7 @@
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
- GDC_guerrilla_area_desc:"在晋绥的高原上，在川陕的山脉间，在湖广的辽阔农田中，埋伏着百万雄兵。这里是我们的天下，欢迎来到中国的乡村，欢迎来到敌后游击区。我们手中不止有信念与铁拳，我们紧握着我们的与敌人的武器；我们头顶不止有白云与青天，我们隐藏于盟友的与敌人的硝烟。武器上膛，部队就位，我们将会打响反抗的第一枪。为了光复，为了解放，我们终将让青天白日旗飘扬。\n目前，\n§Y湖南省§!的地区状态为[global.Hu_Nan_control_state]\n§Y江西省§!的地区状态为[global.Jiang_Xi_control_state]\n§Y福建省§!的地区状态为[global.Fu_Jian_control_state]"
+ GDC_guerrilla_area_desc:"在晋绥的高原上，在川陕的山脉间，在湖广的辽阔农田中，埋伏着百万雄兵。这里是我们的天下，欢迎来到中国的乡村，欢迎来到敌后游击区。我们手中不止有信念与铁拳，我们紧握着我们的与敌人的武器；我们头顶不止有白云与青天，我们隐藏于盟友的与敌人的硝烟。武器上膛，部队就位，我们将会打响反抗的第一枪。为了光复，为了解放，我们终将让青天白日旗飘扬。\n目前，\n§Y湖南省§!的地区状态为[global.Hu_Nan_control_state]\n§Y江西省§!的地区状态为[global.Jiang_Xi_control_state]\n§Y福建省§!的地区状态为[global.Fu_Jian_control_state]\n§Y浙江省§!的地区状态为[global.Zhe_Jiang_control_state]"
  CHI_guerrilla_area_desc_jap:"支那作战接近尾声，我们的战争机器业已陷入疲态，但是战斗还在继续，敌人控制着的大片农村还没有结束抵抗。武装好民团，组织好伪军，不要踏出城市一步，近卫首相已经昭告全国。我们必须从支那人手中解救支那，这是帝国对外方略的重要一步，大日本帝国万岁！"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
  CHI_v_control_guerrilla_area_increase:"§G我们对该地区控制能力升高§!"

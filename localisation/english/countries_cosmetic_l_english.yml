@@ -52,4 +52,7 @@
  MEN_kmt_ADJ:"内蒙古"
  MMA_wng:"西北国防政府"
  MMA_wng_ADJ:"西北"
- MMA_wng_DEF:"国民革命西北国防政府"
+ MMA_wng_DEF:"中华民国西北国防政府"
+ GDC_huanan:"华南民主政府"
+ GDC_huanan_ADJ:"华南"
+ GDC_huanan_DEF:"中华民国华南民主政府"
