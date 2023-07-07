@@ -507,6 +507,31 @@ spriteTypes = {
 	name = "GFX_JAP_Unique_economic_circle"
 	texturefile = "gfx/interface/goals/JAP/GFX_JAP_Unique_economic_circle.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_JAP_yamato"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_yamato.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_navy_resourse"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_navy_resourse.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_decrease_millta_influence"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_decrease_millta_influence.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_limit_Taisei_yokusankai"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_limit_Taisei_yokusankai.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_reconstruce_balance"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_reconstruce_balance.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_focus_generic_air_defense"

@@ -252,7 +252,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_reconstruce_balance
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_reconstruce_balance
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_the_failed_army
@@ -278,7 +278,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_decrease_millta_influence
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_decrease_millta_influence
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_the_failed_army
@@ -333,7 +333,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_limit_Taisei_yokusankai
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_limit_Taisei_yokusankai
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_party_s_policy
@@ -376,7 +376,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_navy_resourse
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_navy_resourse
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_party_s_policy
@@ -391,7 +391,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_yamato
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_yamato
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_navy_resourse
