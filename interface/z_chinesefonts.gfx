@@ -305,6 +305,42 @@ bitmapfonts = {
 		}			
 	languages = { "l_english" } 
 	}
+
+	bitmapfont_override = {
+		name = "vic_36_black"
+		fontfiles = {
+			"gfx/fonts/32"
+		}
+		color = 0xff000000
+		languages = { "l_english" } 
+	}
+
+	bitmapfont = {
+		name = "vic_22_black"
+		fontfiles = {
+			"gfx/fonts/22"
+		}
+		color = 0xff000000	
+		languages = { "l_english" } 
+	}
+
+	bitmapfont = {
+		name = "vic_29_black"
+		fontfiles = {
+			"gfx/fonts/22"
+		}
+		color = 0xff000000	
+		languages = { "l_english" } 
+	}
+
+	bitmapfont = {
+		name = "vic_18_black"
+		fontfiles = {
+			"gfx/fonts/14"
+		}
+		color = 0xff000000	
+		languages = { "l_english" } 
+	}
 	
 	bitmapfont_override = {
 		name = "tahoma_60"

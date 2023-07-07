@@ -1,0 +1,18 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_blank_background"
+		texturefile = "gfx/interface/SDP_super_event_bg.dds"
+	}
+
+    spriteType = {
+		name = "GFX_SDP_Super_Event_Close_Button"
+		texturefile = "gfx/interface/GFX_SDP_Super_Event_Close_Button.dds"
+	}
+	
+    #events#
+    spriteType = {
+		name = "GFX_SPEVENT_CHI_second_continent_war"
+		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_CHI_second_continent_war.dds"
+	}
+}

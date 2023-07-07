@@ -1,0 +1,131 @@
+bitmapfonts = {
+
+	bitmapfont_override = {
+		name = "ToolTip_Font"
+		fontfiles = { 
+			"gfx/fonts/garamond_16"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}	
+	
+	bitmapfont_override = {
+		name = "mapfont_small"
+		fontfiles = { 
+			"gfx/fonts/vic_22_bl"
+			"gfx/fonts/Arial_20"	
+		}
+	languages = { "l_english" } 
+	}	
+		
+	bitmapfont_override = {
+		name = "AnimatedMapText"
+		fontfiles = { 
+			"gfx/fonts/hoi_18"
+			"gfx/fonts/hoi_18_cryllic"	
+			"gfx/fonts/Arial_16"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "Main_24"
+		fontfiles = { 
+			"gfx/fonts/garamond_24"
+			"gfx/fonts/Arial_20"	
+		}
+	languages = { "l_english" } 
+	
+	bitmapfont_override = {
+		name = "messagelog"
+		fontfiles = { 
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+		
+	bitmapfont_override = {
+		name = "Main_16"
+		fontfiles = { 
+			"gfx/fonts/garamond_16_bold"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "Main_14"
+		fontfiles = { 
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "Main_14_black"
+		fontfiles = { 
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "Main_14_bold"
+		fontfiles = { 
+			"gfx/fonts/garamond_14_bold"
+			"gfx/fonts/Arial_14"	
+		}		
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "Main_14_eu"
+		fontfiles = { 
+			"gfx/fonts/garamond_14"
+			"gfx/fonts/Arial_14"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "vic_18"
+		fontfiles = { 
+			"gfx/fonts/vic_18"
+			"gfx/fonts/Arial_16"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "vic_18s"
+		fontfiles = { 
+			"gfx/fonts/vic_18s"
+			"gfx/fonts/Arial_16"	
+		}
+	languages = { "l_english" } 
+	}		
+	
+	bitmapfont_override = {
+		name = "vic_22"
+		fontfiles = { 
+			"gfx/fonts/vic_22"
+			"gfx/fonts/Arial_20"	
+		}
+	languages = { "l_english" } 
+	}
+			
+	bitmapfont_override = {
+		name = "vic_36"
+		fontfiles = { 
+			"gfx/fonts/vic_36"	
+			"gfx/fonts/Arial_26"		
+		}		
+	languages = { "l_english" } 
+	}		
+	
+	
+	
+	}

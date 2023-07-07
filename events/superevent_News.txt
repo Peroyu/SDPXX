@@ -1,0 +1,23 @@
+add_namespace = CHI_war
+news_event = {
+	id = CHI_war.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	CHI_war.1 FROM = [From.GetName]" }
+    picture = GFX_chi_vic_1
+    title = CHI_war.1.t
+    desc = CHI_war.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = CHI_war.1.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = CHI_second_continent_war_Super_Event_Visible
+	}
+}
