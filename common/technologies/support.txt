@@ -2091,9 +2091,9 @@ technologies = {
 	}
 
 	basic_diesel_locomotive = {
-		#enable_equipments = {
-		#	train_equipment_2
-		#}
+		enable_equipments = {
+			train_equipment_2
+		}
 
 		research_cost = 1.5
 		start_year = 1936
@@ -2118,9 +2118,9 @@ technologies = {
 	}
 
 	railway_gun = {
-		#enable_equipments = {
-		#	railway_gun_equipment_1
-		#}
+		enable_equipments = {
+			railway_gun_equipment_1
+		}
 
 		research_cost = 1.5
 		start_year = 1939
@@ -2142,9 +2142,9 @@ technologies = {
 	}
 
 	wartime_train = {
-		#enable_equipments = {
-		#	train_equipment_3
-		#}
+		enable_equipments = {
+			train_equipment_3
+		}
 
 		research_cost = 1.5
 		start_year = 1942
@@ -2168,9 +2168,9 @@ technologies = {
 	}
 
 	wartime_train_2 = {
-		#enable_equipments = {
-		#	train_equipment_4
-		#}
+		enable_equipments = {
+			train_equipment_4
+		}
 		path = {
 			leads_to_tech = electronic_train_1
 			research_cost_coeff = 1
@@ -2193,9 +2193,9 @@ technologies = {
 	}
 
 	electronic_train_1 = {
-		#enable_equipments = {
-		#	train_equipment_5
-		#}
+	enable_equipments = {
+			train_equipment_5
+	}
 		path = {
 			leads_to_tech = electronic_train_2
 			research_cost_coeff = 1
@@ -2218,7 +2218,9 @@ technologies = {
 	}
 
 	electronic_train_2 = {
-
+		enable_equipments = {
+			train_equipment_6
+		}
 		research_cost = 1.5
 		start_year = 1953
 		folder = {
@@ -2237,9 +2239,9 @@ technologies = {
 	}
 
 	armored_train = {
-		#enable_equipments = {
-		#	train_equipment_3
-		#}
+	enable_equipments = {
+			train_equipment_3
+		}
 
 		path = {
 			leads_to_tech = railway_gun

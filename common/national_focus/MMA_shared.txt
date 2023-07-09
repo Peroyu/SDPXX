@@ -20,7 +20,7 @@ shared_focus = {
 shared_focus = {
 		id = Order_returns_to_Lanzhou
 		icon = GFX_Order_returns_to_Lanzhou
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = MMA_lanzhou
 		}
@@ -39,7 +39,7 @@ shared_focus = {
 shared_focus = {
 		id = For_the_motherland_father
 		icon = GFX_For_the_motherland_father
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = Order_returns_to_Lanzhou
 		}
@@ -54,7 +54,7 @@ shared_focus = {
 shared_focus = {
 		id = Check_out_collaborators
 		icon = GFX_Check_out_collaborators
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = For_the_motherland_father
 		}
@@ -70,7 +70,7 @@ shared_focus = {
 shared_focus = {
 		id = Reorganized_Hui_Han_National_Army
 		icon = GFX_Reorganized_Hui_Han_National_Army
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = For_the_motherland_father
 		}
@@ -123,7 +123,7 @@ shared_focus = {
 shared_focus = {
 		id = from_the_south
 		icon = GFX_from_the_south
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = For_the_motherland_father
 		}
@@ -138,12 +138,9 @@ shared_focus = {
 shared_focus = {
 		id = final_reckoning
 		icon = GFX_final_reckoning
-		cost = 2
+		cost = 4
 		prerequisite = {
 			focus = Check_out_collaborators
-		}
-		prerequisite = {
-			focus = Reorganized_Hui_Han_National_Army
 		}
 		prerequisite = {
 			focus = from_the_south
@@ -160,7 +157,7 @@ shared_focus = {
 shared_focus = {
 		id = Healing_the_wounds_of_the_coup
 		icon = GFX_Healing_the_wounds_of_the_coup
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = final_reckoning
 		}
@@ -181,7 +178,7 @@ shared_focus = {
 shared_focus = {
 		id = The_place_of_return_for_the_displace
 		icon = The_place_of_return_for_the_displace
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = final_reckoning
 		}
@@ -201,7 +198,7 @@ shared_focus = {
 shared_focus = {
 		id = The_Guardians_of_the_Northwest_are_still_here
 		icon = GFX_The_Guardians_of_the_Northwest_are_still_here
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = Healing_the_wounds_of_the_coup
 		}
@@ -222,7 +219,7 @@ shared_focus = {
 shared_focus = {
 		id = MMA_dawn_arrives
 		icon = GFX_MMA_dawn_arrives
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = The_Guardians_of_the_Northwest_are_still_here
 		}
@@ -655,6 +652,12 @@ shared_focus = {
 		prerequisite = {
 			focus = Special_means
 		}
+		prerequisite = {
+			focus = MMA_continue_east_invade
+		}
+		prerequisite = {
+			focus = MMA_construct_hanzhong
+		}
 		x = 11
 		y = 7
 
@@ -671,6 +674,103 @@ shared_focus = {
 		}
 		x = 7
 		y = 8
+
+	}
+
+shared_focus = {
+		id = MMA_West_North_defence
+		icon = GFX_MMA_West_North_defence
+		cost = 4
+		x = 17
+		y = 0
+
+	}
+shared_focus = {
+		id = MMA_larger_millitas
+		icon = GFX_MMA_larger_millitas
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_West_North_defence
+		}
+		x = 17
+		y = 1
+
+	}
+shared_focus = {
+		id = MMA_buy_millitary_equippment
+		icon = GFX_MMA_buy_millitary_equippment
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_larger_millitas
+		}
+		x = 17
+		y = 3
+
+	}
+shared_focus = {
+		id = MMA_invite_soviet_mongolia
+		icon = GFX_MMA_invite_soviet_mongolia
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_buy_millitary_equippment
+		}
+		x = 17
+		y = 5
+
+	}
+shared_focus = {
+		id = MMA_continue_east_invade
+		icon = GFX_MMA_continue_east_invade
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_invite_soviet_mongolia
+		}
+		x = 17
+		y = 6
+
+	}
+shared_focus = {
+		id = MMA_reorganise_faileds
+		icon = GFX_MMA_reorganise_faileds
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_West_North_defence
+		}
+		x = 15
+		y = 1
+
+	}
+shared_focus = {
+		id = MMA_reorganise_logistics
+		icon = GFX_MMA_reorganise_logistics
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_reorganise_faileds
+		}
+		x = 15
+		y = 3
+
+	}
+shared_focus = {
+		id = MMA_logistic_line_through_dessert
+		icon = GFX_MMA_logistic_line_through_dessert
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_reorganise_logistics
+		}
+		x = 15
+		y = 5
+
+	}
+shared_focus = {
+		id = MMA_construct_hanzhong
+		icon = GFX_MMA_construct_hanzhong
+		cost = 5.00
+		prerequisite = {
+			focus = MMA_logistic_line_through_dessert
+		}
+		x = 15
+		y = 6
 
 	}
 #######################################################
@@ -889,3 +989,4 @@ shared_focus = {
 		}
 
 	}
+

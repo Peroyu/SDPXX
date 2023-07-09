@@ -17,10 +17,7 @@ technologies = {
 	basic_light_tank_chassis = { #Panzer I
 
 		enable_equipments = {
-			light_tank_chassis_1
-			light_tank_destroyer_chassis_1
-			light_tank_artillery_chassis_1
-			light_tank_aa_chassis_1
+			gw_tank_equipment
 		}
 		enable_subunits = {
 			light_armor
@@ -114,10 +111,7 @@ technologies = {
 	improved_light_tank_chassis = { #Panzer II
 
 		enable_equipments = {
-			light_tank_chassis_2
-			light_tank_destroyer_chassis_2
-			light_tank_artillery_chassis_2
-			light_tank_aa_chassis_2
+			light_tank_equipment_1
 		}
 
 		path = {
@@ -156,9 +150,11 @@ technologies = {
 	cavalry_tank = { #Panzer II
 
 		enable_equipments = {
-			
+			cavalry_tank_1
 		}
-
+		enable_subunits = {
+			cavalry_tank
+		}
 		path = {
 			leads_to_tech = improved_cavalry_tank
 			research_cost_coeff = 1
@@ -214,10 +210,7 @@ technologies = {
 	advanced_light_tank_chassis = { #Leopard
 
 		enable_equipments = {
-			light_tank_chassis_3
-			light_tank_destroyer_chassis_3
-			light_tank_artillery_chassis_3
-			light_tank_aa_chassis_3
+			light_tank_equipment_2 
 		}
 		path = {
 			leads_to_tech = afterwar_light_tank_chassis
@@ -244,10 +237,7 @@ technologies = {
 	afterwar_light_tank_chassis = { #Leopard
 
 		enable_equipments = {
-			light_tank_chassis_4
-			light_tank_destroyer_chassis_4
-			light_tank_artillery_chassis_4
-			light_tank_aa_chassis_4
+			light_tank_equipment_3
 		}
 		path = {
 			leads_to_tech = basic_light_tank_chassis_improve1
@@ -320,6 +310,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
 		}
 
 		categories = {
@@ -350,10 +341,7 @@ technologies = {
 	basic_medium_tank_chassis = { #Panzer III
 
 		enable_equipments = {
-			medium_tank_chassis_1
-			medium_tank_destroyer_chassis_1
-			medium_tank_artillery_chassis_1
-			medium_tank_aa_chassis_1
+			medium_tank_equipment_1 
 		}
 
 		enable_subunits = {
@@ -437,10 +425,7 @@ technologies = {
 	improved_medium_tank_chassis = { #Panzer IV
 
 		enable_equipments = {
-			medium_tank_chassis_2
-			medium_tank_destroyer_chassis_2
-			medium_tank_artillery_chassis_2
-			medium_tank_aa_chassis_2
+			medium_tank_equipment_2 
 		}
 
 		path = {
@@ -482,10 +467,7 @@ technologies = {
 	advanced_medium_tank_chassis = { #Panther
 
 		enable_equipments = {
-			medium_tank_chassis_3
-			medium_tank_destroyer_chassis_3
-			medium_tank_artillery_chassis_3
-			medium_tank_aa_chassis_3
+			medium_tank_equipment_3
 		}
 
 		path = {
@@ -524,10 +506,7 @@ technologies = {
 	war_medium_tank_chassis = { #Panther
 
 		enable_equipments = {
-			medium_tank_chassis_4
-			medium_tank_destroyer_chassis_4
-			medium_tank_artillery_chassis_4
-			medium_tank_aa_chassis_4
+			medium_tank_equipment_4
 		}
 		research_cost = 2
 		start_year = 1945
@@ -585,10 +564,7 @@ technologies = {
 	main_battle_tank_chassis = { #E-50
 
 		enable_equipments = {
-			modern_tank_chassis_1
-			modern_tank_destroyer_chassis_1
-			modern_tank_artillery_chassis_1
-			modern_tank_aa_chassis_1
+			modern_tank_equipment_1
 		}
 		enable_subunits = {
 			modern_armor
@@ -621,10 +597,7 @@ technologies = {
 	main_battle_tank_chassis2 = { #E-50
 
 		enable_equipments = {
-			modern_tank_chassis_2
-			modern_tank_destroyer_chassis_2
-			modern_tank_artillery_chassis_2
-			modern_tank_aa_chassis_2
+			modern_tank_equipment_2
 		}
 
 		path = {
@@ -701,10 +674,7 @@ technologies = {
 	60smain_battle_tank_chassis_improve = { #E-50
 
 		enable_equipments = {
-			modern_tank_chassis_3
-			modern_tank_destroyer_chassis_3
-			modern_tank_artillery_chassis_3
-			modern_tank_aa_chassis_3
+			modern_tank_equipment_3
 		}
 		research_cost = 5
 		start_year = 1960
@@ -728,10 +698,7 @@ technologies = {
 	basic_heavy_tank_chassis = { #Grosstraktor
 
 		enable_equipments = {
-			heavy_tank_chassis_1
-			heavy_tank_destroyer_chassis_1
-			heavy_tank_artillery_chassis_1
-			heavy_tank_aa_chassis_1
+			heavy_tank_equipment_1 
 		}
 
 		enable_subunits = {
@@ -818,10 +785,7 @@ technologies = {
 	improved_heavy_tank_chassis = { #Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_2
-			heavy_tank_destroyer_chassis_2
-			heavy_tank_artillery_chassis_2
-			heavy_tank_aa_chassis_2
+			heavy_tank_equipment_2
 		}
 
 		path = {
@@ -864,10 +828,7 @@ technologies = {
 	advanced_heavy_tank_chassis = { #King Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_3
-			heavy_tank_destroyer_chassis_3
-			heavy_tank_artillery_chassis_3
-			heavy_tank_aa_chassis_3
+			heavy_tank_equipment_3 
 		}
 
 		path = {
@@ -911,10 +872,7 @@ technologies = {
 	war_heavy_tank_chassis = { #King Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_4
-			heavy_tank_destroyer_chassis_4
-			heavy_tank_artillery_chassis_4
-			heavy_tank_aa_chassis_4
+			heavy_tank_equipment_4
 		}
 
 		research_cost = 2.5
@@ -1001,10 +959,7 @@ technologies = {
 	50s_heavy_tank_chassis = { #King Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_5
-			heavy_tank_destroyer_chassis_5
-			heavy_tank_artillery_chassis_5
-			heavy_tank_aa_chassis_5
+			heavy_tank_equipment_5
 		}
 
 		path = {
@@ -1067,10 +1022,7 @@ technologies = {
 	50s_heavy_tank_chassis = { #King Tiger
 
 		enable_equipments = {
-			heavy_tank_chassis_5
-			heavy_tank_destroyer_chassis_5
-			heavy_tank_artillery_chassis_5
-			heavy_tank_aa_chassis_5
+			heavy_tank_equipment_6
 		}
 
 		path = {
@@ -1102,10 +1054,7 @@ technologies = {
 	super_heavy_tank_chassis = { #Maus
 
 		enable_equipments = {
-			super_heavy_tank_chassis_1
-			super_heavy_tank_destroyer_chassis_1
-			super_heavy_tank_artillery_chassis_1
-			super_heavy_tank_aa_chassis_1
+			super_heavy_tank_equipment_1
 		}
 
 		enable_subunits = {
@@ -1165,10 +1114,7 @@ technologies = {
 	super_heavy_tank_chassis_improve = { #Maus
 
 		enable_equipments = {
-			super_heavy_tank_chassis_2
-			super_heavy_tank_destroyer_chassis_2
-			super_heavy_tank_artillery_chassis_2
-			super_heavy_tank_aa_chassis_2
+			super_heavy_tank_equipment_2
 		}
 		research_cost = 2.5
 		start_year = 1936
@@ -1210,225 +1156,6 @@ technologies = {
 		categories = {
 			armor
 			cat_heavy_armor
-		}
-	}
-
-	armor_tech_1 = {
-		enable_equipment_modules = {
-			tank_welded_armor
-		}
-
-		path = {
-			leads_to_tech = armor_tech_2
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_1_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
-		start_year = 1936
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1935 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_2 = {
-
-		enable_equipment_modules = {
-			armor_skirts
-		}
-		path = {
-			leads_to_tech = armor_tech_3
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_2_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1938 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_3 = {
-
-
-		path = {
-			leads_to_tech = armor_tech_4
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_3_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
-		start_year = 1941
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1941 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	armor_tech_4 = {
-
-		research_cost = 1
-		start_year = 1944
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 3 y = @1944 }
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = armor_tech_4_tt
-		}
-		show_effect_as_desc = yes
-
-		ai_will_do = {
-			factor = 1
-
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	engine_tech_1 = {
-
-
-		path = {
-			leads_to_tech = engine_tech_2
-			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_1_tt
-		}
-		show_effect_as_desc = yes
-		research_cost = 1
-		start_year = 1934
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1935 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	engine_tech_2 = {
-
-
-		path = {
-			leads_to_tech = engine_tech_3
-			research_cost_coeff = 1
-		}
-
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_2_tt
-		}
-		show_effect_as_desc = yes
-
-		research_cost = 1
-		start_year = 1938
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1938 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	engine_tech_3 = {
-
-
-		path = {
-			leads_to_tech = engine_tech_4
-			research_cost_coeff = 1
-		}
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_3_tt
-		}
-		show_effect_as_desc = yes
-		research_cost = 1
-		start_year = 1941
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
-		}
-	}
-
-	engine_tech_4 = {
-
-		research_cost = 1
-		start_year = 1944
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 2 y = @1944 }
-		}
-		on_research_complete = {
-			custom_effect_tooltip = engine_tech_4_tt
-		}
-		show_effect_as_desc = yes
-		ai_will_do = {
-			factor = 1
-		}
-
-		categories = {
-			armor
 		}
 	}
 
@@ -1789,16 +1516,11 @@ technologies = {
 	}
 
 	super_light_armor = {
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
-		}
 		enable_equipments = {
 			super_light_armor_1
 		}
-
-		enable_equipment_modules = {
-			tank_half_track_suspension
+		enable_subunits = {
+			super_light_armor
 		}
 
 		path = {
@@ -2144,6 +1866,10 @@ technologies = {
 
 		enable_equipments = {
 			equipment_IFV1
+		}
+		enable_subunits = {
+			IFV_armor
+			IFV_machine
 		}
 		path = {
 			leads_to_tech = IFV1_improve

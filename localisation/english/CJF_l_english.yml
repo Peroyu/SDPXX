@@ -54,6 +54,8 @@
  CJF_Regroup_the_remnants_desc:0"许多人看来，当陕西和湖北的防线崩溃，大批仓皇溃入四川盆地的军队极大影响了本土驻军的战斗力，而日军则在溃军身后无情地冲开中国军队孱弱的防线——随着嘉陵江畔的战线渐渐巩固，我们也终于得到喘息的机会以重新整顿那些在重庆崩溃后溃散的残兵，让那些逃兵回到军队之中——我们定能做到这一切。"
  CJF_KMT_emergency_congress:0"摆平波峰"
  CJF_KMT_emergency_congress_desc:0""
+
+
  CJF_The_country_is_in_trouble:0"国难当头"
  CJF_The_country_is_in_trouble_desc:0"最后一个堡垒被扫荡殆尽，最后一名日寇放下了武器，中华民国和国民革命暂且取得了胜利，但这不会是我们路程的终点——国难仍当，日寇和他们的走狗仍然在中华大地大江南北肆虐，而我们所要做的，则是告诉那些悲观的失败主义者和残暴的帝国主义者：中国不会亡！"
  CJF_want_to_be_their_best_work:0"工欲善其事……"
@@ -102,11 +104,13 @@
  CJF_blood_is_like_frency_desc:0""
  CJF_go_outside:0"出关"
  CJF_go_outside_desc:0""
+
+
  CJF_The_time_has_come:0"时机已至"
  CJF_The_time_has_come_desc:0""
  CJF_The_time_has_come:0"时机已至"
  CJF_trip_to_kunming:0"昆明之行"
- CJF_trip_to_guilin:0"南下桂林"
+ CJF_trip_to_guilin:0"南下广州"
  CJF_reunite_the_front:"重组阵线"
  CJF_reduce_tax:"二五减租"
  CJF_remind_unite:"重申团结"
@@ -114,7 +118,7 @@
  CJF_advice_of_zhangjingjiang:"张静江的建议"
  CJF_advice_of_sunfo:"孙科的设想"
  CJF_rebuild_international_connection:"重建国际联系"
- CJF_exchange_information_with_CPC:"桂林军事信息交换"
+ CJF_exchange_information_with_CPC:"广州军事信息交换"
  CJF_lit_a_fire:"点一把火"
  CJF_guide_the_place:"指导地方"
  CJF_encourage_charity:"鼓励慈善"
@@ -130,7 +134,7 @@
  CJF_deepen_discipline:"深化训政"
  CJF_diverse_national_revolution:"多元的国民革命"
  CJF_national_building_strategy:"建国方略"
- CJF_establish_acting_as_national_congress:"成立代行国大"
+ CJF_establish_acting_as_national_congress:"筹备代行国大"
  
  #idea
  CJF_belongings:"抄没所得"

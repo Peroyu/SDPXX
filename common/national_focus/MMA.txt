@@ -21,6 +21,7 @@ focus_tree = {
 	}
 	default = no
     shared_focus = Before_the_war
+	shared_focus = MMA_West_North_defence
 }
 focus_tree = {
     id = MMA_CPCmao

@@ -1040,7 +1040,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1942 }
+			position = { x = 3 y = @1942 }
 		}
 		
 		ai_will_do = {
@@ -1074,7 +1074,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1952 }
+			position = { x = 3 y = @1952 }
 		}
 		
 		ai_will_do = {
@@ -1094,7 +1094,7 @@ technologies = {
     advanced_submarine_big_1 = {
 
 		enable_equipments = { 
-			big_submarine_2
+			big_submarine_3
 		}
 		
 		
@@ -1104,7 +1104,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 2 y = @1962 }
+			position = { x = 3 y = @1962 }
 		}
 		
 		ai_will_do = {
