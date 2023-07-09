@@ -229,7 +229,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_the_failed_army
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_the_failed_army
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_the_national_problem
@@ -298,7 +298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_party_s_policy
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_party_s_policy
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_decrease_millta_influence
@@ -319,7 +319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_imperal_parliament_restart
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_imperal_parliament_restart
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_party_s_policy
@@ -355,7 +355,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_coperate_with_Rikkenminseito
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_coperate_with_Rikkenminseito
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_imperal_parliament_restart
@@ -519,7 +519,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_strengthen_regional_milltery
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_strengthen_regional_milltery
 		cost = 5.00
 		prerequisite = {
 			focus = JAP_the_east_wall
@@ -550,7 +550,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_concern_amercia
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_concern_amercia
 		cost = 5.00
 		prerequisite = {
 			focus = JAP_Unique_economic_circle
@@ -572,7 +572,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_to_south_ocean
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_to_south_ocean
 		cost = 5.00
 		prerequisite = {
 			focus = JAP_concern_amercia

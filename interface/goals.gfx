@@ -537,6 +537,41 @@ spriteTypes = {
 	name = "GFX_JAP_reconstruce_balance"
 	texturefile = "gfx/interface/goals/JAP/GFX_JAP_reconstruce_balance.png"			
 	}
+
+	SpriteType = {
+	name = "GFX_JAP_the_failed_army"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_the_failed_army.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_party_s_policy"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_party_s_policy.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_imperal_parliament_restart"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_imperal_parliament_restart.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_coperate_with_Rikkenminseito"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_coperate_with_Rikkenminseito.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_concern_amercia"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_concern_amercia.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_to_south_ocean"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_to_south_ocean.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_JAP_strengthen_regional_milltery"
+	texturefile = "gfx/interface/goals/JAP/GFX_JAP_strengthen_regional_milltery.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_focus_generic_air_defense"
