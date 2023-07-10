@@ -21,3 +21,7 @@
 
  specialists_folder:"特殊科技"
  specialists_folder_desc:"各式特殊科技"
+
+ air_techs_heavy:"重型飞机和中型飞机及其改型"
+ air_techs_light:"轻型飞机及其改型"
+ air_techs_scout:"侦察机"
