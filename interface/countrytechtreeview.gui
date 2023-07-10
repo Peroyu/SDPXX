@@ -1235,7 +1235,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 1239 height = 1390
+					width = 2100 height = 1390
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1264,7 +1264,7 @@ guiTypes = {
 					position = { x = 405 y = 460 }
 					textureFile = ""
 					font = "hoi_33"
-					borderSize = {x = -470 y = -450}
+					borderSize = {x = -580 y = -450}
 					text = "ARTILLERY_TITLE_ROCKET"
 					maxWidth = 210
 					maxHeight = 22
@@ -1274,7 +1274,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = 280 y = 4 }
+					position = { x = 200 y = 4 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1287,7 +1287,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = -430 y = 4 }
+					position = { x = -530 y = 4 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1539,23 +1539,23 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "gw_artillery_tree"
-				position = { x = -330 y = 172 }
-				size = { width = 80% height = 80% }
+				position = { x = 0 y = 172 }
+				size = { width = 48% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
 				name = "rocket_artillery_base_tree"
-				position = { x = -70 y = 172 }
-				size = { width = 80% height = 80% }
+				position = { x = 0 y = 172 }
+				size = { width = 72% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
 				name = "interwar_antitank_tree"
-				position = { x = 300 y = 172 }
+				position = { x = 345 y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1563,8 +1563,8 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "interwar_antiair_tree"
-				position = { x = 750 y = 172 }
-				size = { width = 80% height = 80% }
+				position = { x = 1620 y = 172 }
+				size = { width = 0% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
@@ -1611,6 +1611,14 @@ guiTypes = {
 				name = "nsb_armour_folder_tab"
 				position = { x = 200 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
+				frame = 1
+				clicksound = ui_research_tab_armor
+			}
+
+			buttonType = {
+				name = "automatrons_folder_tab"
+				position = { x = 289 y = 0 }
+				quadTextureSprite = "GFX_automatrons_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
 			}
