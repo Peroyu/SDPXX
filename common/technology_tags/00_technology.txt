@@ -112,19 +112,8 @@ technology_folders = {
 	support_folder = {
 		ledger = army
 	}
-	armour_folder = {
-		ledger = army
-		available = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-	}
 	nsb_armour_folder = {
 		ledger = army
-		available = {
-			has_dlc = "No Step Back"
-		}
 	}
 	artillery_folder = {
 		ledger = army
@@ -139,22 +128,10 @@ technology_folders = {
 		}
 		ledger = air
 	}
-	naval_folder = {
-		available = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		ledger = navy
+	specialists_folder = {
+		ledeger = special
 	}
 	mtgnavalfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
-		ledger = navy
-	}
-	mtgnavalsupportfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
 		ledger = navy
 	}
 	industry_folder = {

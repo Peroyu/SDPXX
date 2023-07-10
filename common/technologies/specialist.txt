@@ -1,0 +1,556 @@
+technologies = {
+    @1936 = 0
+	@1939 = 2
+	@1942 = 4
+	@1945 = 6
+	@1948 = 8
+	@1951 = 10
+	@1954 = 12
+	@1957 = 14
+
+    high_yield_bombs = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_1
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1936
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_1 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_2
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1939
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_2 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_3
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1942
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_3 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_4
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1945
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_4 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_5
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1948
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1948 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_5 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_6
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1951
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1951 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_6 = {
+		
+		path = {
+			leads_to_tech = high_yield_bombs_7
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1954
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1954 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    high_yield_bombs_7 = {
+		
+							
+		research_cost = 1.0
+		start_year = 1957
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1957 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_1
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1936
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_1 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_2
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1939
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_2 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_3
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1942
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_3 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_4
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1945
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_4 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_5
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1948
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1948 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_5 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_6
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1951
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1951 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_6 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_7
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1954
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1954 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    chemical_weapons_7 = {
+		
+		path = {
+			leads_to_tech = chemical_weapons_7
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1957
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1957 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_1
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1936
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_1 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_2
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1939
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1939 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_2 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_3
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1942
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1942 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_3 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_4
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1945
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_4 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_5
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1948
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1948 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_5 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_6
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1951
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1951 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+     anti_chemical_tech_6 = {
+		
+		path = {
+			leads_to_tech = anti_chemical_tech_7
+			research_cost_coeff = 1
+		}					
+		research_cost = 1.0
+		start_year = 1954
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1954 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+    anti_chemical_tech_7 = {
+		
+							
+		research_cost = 1.0
+		start_year = 1957
+		folder = {
+			name = specialists_folder
+			position = { x = 0 y = @1957 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+}
