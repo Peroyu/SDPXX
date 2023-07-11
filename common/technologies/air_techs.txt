@@ -1507,8 +1507,6 @@ technologies = {
 	}
 
 	heavy_fighter_improve = {
-
-		
 	
 		path = {
 			leads_to_tech = heavy_fighter2
@@ -1570,7 +1568,7 @@ technologies = {
 		
 		path = {
 			leads_to_tech = jet_heavy_fighter_improve
-			research_cost_coeff = 1.2
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -1599,7 +1597,7 @@ technologies = {
 		
 		path = {
 			leads_to_tech = jet_heavy_fighter1
-			research_cost_coeff = 1.2
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -1628,7 +1626,7 @@ technologies = {
 		
 		path = {
 			leads_to_tech = jet_heavy_fighter2
-			research_cost_coeff = 1.2
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2
@@ -1956,8 +1954,6 @@ technologies = {
 	}
 
 	tactical_bomber_improve = {
-
-		
 	
 		path = {
 			leads_to_tech = tactical_bomber2
@@ -2234,11 +2230,6 @@ technologies = {
 	}
 
 	strategic_bomber_improve = {
-
-		enable_equipments = {
-			strat_bomber_equipment_1
-			
-		}
 	
 		path = {
 			leads_to_tech = strategic_bomber2
