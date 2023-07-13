@@ -9,23 +9,25 @@ set_stability = 0.5 #
 
 set_country_flag = INDIA_civilwar_participants
 set_politics = {
-	ruling_party = conservatism # 
+	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+
 set_popularities = {
- conservatism = 80
- reactionism = 20
+ conservatism = 20
+ reactionism = 30
+ nationalism = 20
+ restorativeism = 30
 }
-# 
+
 create_country_leader = {
-	name = "君主会议"  # 
+	name = "穆罕默德·奥尔汗"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = portrait_TUR_Mehmed_Orhan
 	expire = "1956.6.6"  # 
-	ideology =  # 
+	ideology =  despotism
 	traits = {  # 
 	}
 }

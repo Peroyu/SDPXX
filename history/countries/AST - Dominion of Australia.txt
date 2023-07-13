@@ -9,7 +9,7 @@ set_stability = 0.6 #
 
 # 
 set_politics = {
-	ruling_party = conservatism # 
+	ruling_party = movement_communism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -18,21 +18,21 @@ add_ideas = {
 broken_entents
 }
 set_popularities = {
- liberalism = 34
- conservatism = 24
+ liberalism = 30
+ conservatism = 14
  reactionism = 2
  social_democracy = 13
- left_radicalism = 7
+ movement_communism = 37
+ moderate_socialism = 4
 }
 
 # 
 create_country_leader = {
-	name = "亚瑟·法登"  # 
-	desc = "/"  # 
-	picture = "/"  # 
-	expire = "1956.3.9"  # 
-	ideology = liberalism # 
-	traits = {  # 
-		#
+	name = "罗伯特·戈登·孟席斯"  
+	desc = "/"  
+	picture = portrait_AST_Robert_Gordon_Menzies 
+	expire = "1956.3.9"
+	ideology = Progressive_Conservatusm 
+	traits = {   
 	}
 }

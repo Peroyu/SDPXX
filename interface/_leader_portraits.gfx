@@ -161,6 +161,11 @@
 		name = "GFX_portrait_CJF_Du_Yuming"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Du_Yuming.png"		
 	}
+
+	spriteType = {
+		name = "portrait_CJF_Xv_ChongZhi"
+		texturefile = "gfx/leaders/CJF/portrait_CJF_Xv_ChongZhi.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -484,6 +489,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/MOR_portrait_Abd_Karim.png"		
 	}
 
+	spriteType = {
+		name = "portrait_TUR_Mehmed_Orhan"
+		texturefile = "gfx/leaders/East_Mediterranean/portrait_TUR_Mehmed_Orhan.png"		
+	}
+
 #####################india#################################
 
 	spriteType = {
@@ -516,6 +526,8 @@
 		texturefile = "gfx/leaders/Latin_America/CUB_portrait_Fulgencio_Batista.png"		
 	}
 
+	
+
 	##################################Triple Entente########################################
 
 	spriteType = {
@@ -526,5 +538,20 @@
 	spriteType = {
 		name = "portrait_CAN_chillchil"
 		texturefile = "gfx/leaders/EN/portrait_CAN_chillchil.png"		
+	}
+
+	spriteType = {
+		name = "HOL_portrait_Wilhelmina"
+		texturefile = "gfx/leaders/EN/HOL_portrait_Wilhelmina.png"		
+	}
+
+	spriteType = {
+		name = "portrait_AST_Robert_Gordon_Menzies"
+		texturefile = "gfx/leaders/EN/portrait_AST_Robert_Gordon_Menzies.png"		
+	}
+
+	spriteType = {
+		name = "portrait_NZL_Sidney_Holland"
+		texturefile = "gfx/leaders/EN/portrait_NZL_Sidney_Holland.png"		
 	}
 }
