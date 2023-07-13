@@ -372,7 +372,7 @@ technologies = {
 			tank_medium_howitzer_2
 		}
 		path = {
-			leads_to_tech = artillery5
+			leads_to_tech = artillery9
 			research_cost_coeff = 1
 		}
 
@@ -406,7 +406,7 @@ technologies = {
 
 	
 
-	artillery5 = {
+	artillery9 = {
 
 		enable_equipments = {
 			artillery_equipment_5

@@ -2012,7 +2012,10 @@ technologies = {
 	
 
 
-		
+		motorized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
 
 		on_research_complete_limit = {
 			NOT = {
@@ -2050,9 +2053,9 @@ technologies = {
 
 	motorised_infantry_2 = {
 
-		#enable_equipments = {
-		#	motorized_equipment_2
-		#}
+		enable_equipments = {
+			motorized_equipment_2
+		}
 
 		enable_equipment_modules = {
 			tank_half_track_suspension
@@ -2099,7 +2102,10 @@ technologies = {
 	}
 
 	improved_motorised_infantry_2 = {
-
+		motorized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = motorised_infantry_3
@@ -2129,9 +2135,9 @@ technologies = {
 	
 	motorised_infantry_3 = {
 
-		#enable_equipments = {
-		#	motorised_infantry_3
-		#}
+		enable_equipments = {
+			motorized_equipment_3
+		}
 		
 		path = {
 			leads_to_tech = improved_motorised_infantry_3
@@ -2158,7 +2164,10 @@ technologies = {
 
 	improved_motorised_infantry_3 = {
 
-		
+		motorized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
 		
 		path = {
 			leads_to_tech = motorised_infantry_4
@@ -2185,14 +2194,11 @@ technologies = {
 	
 	motorised_infantry_4 = {
 
-		#enable_equipments = {
-		#	motorised_infantry_4
-		#}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
+		enable_equipments = {
+			motorized_equipment_4
 		}
+
+		
 
 		research_cost = 3
 		start_year = 1957

@@ -180,9 +180,7 @@ technologies = {
 
 	improved_cavalry_tank = { #Panzer II
 
-		enable_equipments = {
-			
-		}
+		
 
 		path = {
 			leads_to_tech = advanced_light_tank_chassis
@@ -1113,9 +1111,7 @@ technologies = {
 
 	super_heavy_tank_chassis_improve = { #Maus
 
-		enable_equipments = {
-			super_heavy_tank_equipment_2
-		}
+		
 		research_cost = 2.5
 		start_year = 1936
 		folder = {
@@ -1138,7 +1134,9 @@ technologies = {
 
 	super_heavy_tank_chassis2 = { #Maus
 
-		
+		enable_equipments = {
+			super_heavy_tank_equipment_2
+		}
 		research_cost = 2.5
 		start_year = 1939
 		folder = {
@@ -1809,9 +1807,7 @@ technologies = {
 
 	armored_car4_improve1 = {
 
-		enable_equipments = {
-			armored_car_equipment_3
-		}
+		
 		path = {
 			leads_to_tech = rmored_car4_improve2
 			research_cost_coeff = 1

@@ -54,7 +54,7 @@ equipments = {
 	}
 
 	motorized_equipment_3 = {
-		year = 1939
+		year = 1945
 		maximum_speed = 20
 		reliability = 0.9
 		hardness = 0.2
@@ -66,7 +66,7 @@ equipments = {
 	}
 
 	motorized_equipment_4 = {
-		year = 1939
+		year = 1957
 		maximum_speed = 25
 		reliability = 0.9
 		hardness = 0.3
