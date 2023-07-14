@@ -499,6 +499,10 @@
 	}
 
 #####################india#################################
+spriteType = {
+	name = "portrait_THA_Phumiphon_Adunyadet"
+	texturefile = "gfx/leaders/ASIA/portrait_THA_Phumiphon_Adunyadet.png"		
+}
 
 	spriteType = {
 		name = "RAJ_Portrait_Jawaharlal_Nehru"
