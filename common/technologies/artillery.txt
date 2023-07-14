@@ -1373,7 +1373,7 @@ technologies = {
 
 	antiair5 = {
 		enable_equipments = {
-			anti_air_equipment_3
+			anti_air_equipment_4
 		}
 		anti_air = {
 			air_attack = 0.1
@@ -1528,7 +1528,7 @@ technologies = {
 
 		
 		enable_equipments = {
-			anti_air_equipment_4
+			anti_air_equipment_5
 		}
 
 		

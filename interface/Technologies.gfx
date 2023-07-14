@@ -208,22 +208,22 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry3.dds"
+		texturefile = "gfx/interface/technologies/GFX_advanced_infantry_weapons_medium.png"
 	}
 
 	SpriteType = {
 		name = "GFX_improved_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry2.dds"
+		texturefile = "gfx/interface/technologies/infantry3.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/infantry_equipment_0.dds"
+		texturefile = "gfx/interface/technologies/infantry1.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/infantry1.dds"
+		texturefile = "gfx/interface/technologies/infantry2.dds"
 	}	
 	
 	SpriteType = {
@@ -488,6 +488,31 @@ spriteTypes = {
 		name = "GFX_acclimatization_hot"
 		texturefile = "gfx/interface/technologies/acclimatization_hot.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_maintenance_company6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_maintenance_company7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_maintenance_company8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_maintenance_company9_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_maintenance_company5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_maintenance_company5_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_maintenance_company4_medium"
@@ -507,7 +532,32 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_maintenance_company_medium"
 		texturefile = "gfx/interface/technologies/tech_maintenance_company.dds"
-	}		
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_signal_company6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_signal_company6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_signal_company7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_signal_company7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_signal_company8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_signal_company8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_signal_company9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_signal_company9_medium.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_signal_company5_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_signal_company4_medium"
@@ -527,7 +577,32 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_signal_company_medium"
 		texturefile = "gfx/interface/technologies/tech_signal_company.dds"
-	}		
+	}	
+
+	SpriteType = {
+		name = "GFX_tech_military_police6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_military_police6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_military_police7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_military_police8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_military_police9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_military_police9_medium.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_military_police5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_military_police5_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_military_police4_medium"
@@ -547,7 +622,32 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_military_police_medium"
 		texturefile = "gfx/interface/technologies/tech_military_police.dds"
-	}		
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_logistics_company6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_logistics_company7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_logistics_company8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_logistics_company9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_logistics_company9_medium.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_logistics_company5_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_logistics_company4_medium"
@@ -568,6 +668,31 @@ spriteTypes = {
 		name = "GFX_tech_logistics_company_medium"
 		texturefile = "gfx/interface/technologies/tech_logistics_company.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_field_hospital6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_field_hospital7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_field_hospital8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_field_hospital9_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_field_hospital5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_field_hospital5_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_field_hospital4_medium"
@@ -595,6 +720,31 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+		name = "GFX_tech_recon5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_recon5_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_recon6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_recon7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_recon8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_recon9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_recon9_medium.png"
+	}
+
+	SpriteType = {
 		name = "GFX_tech_recon4_medium"
 		texturefile = "gfx/interface/technologies/recon4.dds"
 	}
@@ -613,6 +763,31 @@ spriteTypes = {
 		name = "GFX_tech_recon_medium"
 		texturefile = "gfx/interface/technologies/recon.dds"
 	}	
+
+	SpriteType = {
+		name = "GFX_tech_engineers9_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_engineers9_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers8_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_engineers8_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers7_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_engineers7_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers6_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_engineers6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_engineers5_medium"
+		texturefile = "gfx/interface/technologies/GFX_tech_engineers5_medium.png"
+	}
 
 	SpriteType = {
 		name = "GFX_tech_engineers4_medium"
@@ -2152,7 +2327,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_basic_light_tank_chassis_medium"
-		texturefile = "gfx/interface/technologies/gwtank.png"
+		texturefile = "gfx/interface/technologies/GFX_basic_light_tank_chassis_medium.png"
 	}
 
 	SpriteType = {
