@@ -11,7 +11,7 @@ CAN = {
 	puppet = RHO
 }
 set_politics = {
-	ruling_party = nationalism # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -20,19 +20,21 @@ add_ideas = {
 broken_entents
 }
 set_popularities = {
- nationalism = 32
- reactionism = 31
- conservatism = 19
- restoratveism = 18
+ Liberalism = 12
+ movement_communism = 16
+ conservatism = 29
+ reactionism = 23
+ nationalism = 10
+ restorativeism = 10
 }
 
 # 
 create_country_leader = {
-	name = "温斯顿·丘吉尔"  # 
+	name = "约翰·卢埃林"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = portrait_CAN_John_Llewellin
 	expire = "1962.9.2"  # 
-	ideology = nationalism # 
+	ideology = authoritarian_democracy # 
 	traits = {  # 
 		#
 	}

@@ -6,14 +6,21 @@ set_war_support = 0.8
 set_stability = 0.7 
 
 set_politics = {
-	ruling_party = Restorativeism
+	ruling_party = conservatism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 
 set_popularities = {
-	Restorativeism = 100
+	communism = 8
+	committee_communism = 10
+	Liberalism = 10
+	movement_communism = 8
+	conservatism = 23
+	reactionism = 17
+	nationalism = 12
+	restorativeism = 12
 }
 
 
@@ -22,7 +29,7 @@ create_country_leader = {
 	desc = "/"  
 	picture = portrait_THA_Phumiphon_Adunyadet  
 	expire = "1952.7.10"  
-	ideology = traditional_despotism
+	ideology = authoritarian_democracy
 	traits = { 
 		
 	}

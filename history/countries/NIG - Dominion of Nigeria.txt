@@ -21,17 +21,17 @@ set_popularities = {
  nationalism = 12
  reactionism = 34
  conservatism = 12
- liberalism = 19
+ Liberalism = 19
  restoratveism = 20
 }
 
 # 
 create_country_leader = {
-	name = "弗雷德里克·卢吉"  # 
+	name = "约翰·麦克弗森"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = portrait_CAN_John_Stuart_Macpherson 
 	expire = "1972.9.2"  # 
-	ideology = reactionism # 
+	ideology = despotism
 	traits = {  # 
 		#
 	}

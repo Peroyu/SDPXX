@@ -456,10 +456,25 @@
 		name = "portrait_DOS_jan_smuts"
 		texturefile = "gfx/leaders/EN/portrait_DOS_jan_smuts.png"		
 	}
+
+	spriteType = {
+		name = "portrait_CAN_John_Stuart_Macpherson"
+		texturefile = "gfx/leaders/EN/portrait_CAN_John_Stuart_Macpherson.png"		
+	}
+
+	spriteType = {
+		name = "portrait_CAN_John_Llewellin"
+		texturefile = "gfx/leaders/EN/portrait_CAN_John_Llewellin.png"		
+	}
+
+	spriteType = {
+		name = "portrait_BEL_Charles_Meinrad"
+		texturefile = "gfx/leaders/EN/portrait_BEL_Charles_Meinrad.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_Suez_Canal_Authority"
-		texturefile = "gfx/leaders/East_Mediterranean/portrait_Suez_Canal_Authority.png"		
+		texturefile = "gfx/leaders/EN/portrait_Suez_Canal_Authority.png"		
 	}
 ########################USA########################	
 	spriteType = {
@@ -534,7 +549,10 @@ spriteType = {
 		texturefile = "gfx/leaders/Latin_America/CUB_portrait_Fulgencio_Batista.png"		
 	}
 
-	
+	spriteType = {
+		name = "portrait_VIN_pao_dai_dei"
+		texturefile = "gfx/leaders/ASIA/portrait_VIN_pao_dai_dei.png"		
+	}
 
 	##################################Triple Entente########################################
 

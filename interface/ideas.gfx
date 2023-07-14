@@ -454,4 +454,9 @@ spriteTypes = {
 		name = "GFX_idea_JAP_politic_warn"
 		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_politic_warn.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_broken_entents"
+		texturefile = "gfx/interface/ideas/GFX_idea_broken_entents.png"
+	}
 }

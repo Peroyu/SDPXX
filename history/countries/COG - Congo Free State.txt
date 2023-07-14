@@ -7,9 +7,9 @@ set_research_slots = 3 #
 set_war_support = 0.3 # 
 set_stability = 0.4 # 
 
-# 
+
 set_politics = {
-	ruling_party = reactionism # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -21,17 +21,17 @@ set_popularities = {
  nationalism = 20
  reactionism = 48
  conservatism = 12
- liberalism = 6
- restoratveism = 14
+ Liberalism = 6
+ restorativeism = 14
 }
 set_variable = { var = FactionStatus value = 1 }
-# 
+
 create_country_leader = {
-	name = "亨利·德维亚尔"  # 
+	name = "夏尔·迈因拉德"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = portrait_BEL_Charles_Meinrad 
 	expire = "1953.9.2"  # 
-	ideology = nationalism # 
+	ideology = authoritarian_democracy # 
 	traits = {  # 
 		#
 	}
