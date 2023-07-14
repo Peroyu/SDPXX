@@ -5,6 +5,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/GFX_specialists_tab.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_CHI_zapaijun_medium"
+		texturefile = "gfx/interface/GFX_CHI_zapaijun_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_light_support_equipment_medium"
+		texturefile = "gfx/interface/GFX_CHI_zapaijun_medium.png"
+	}
+
 	### generic equipment archetypes ###
 
 	

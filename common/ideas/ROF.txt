@@ -1,83 +1,105 @@
 ideas = {
 	country = {
-		ROF_three_language_country = {
-		    name = ROF_three_language_country
-			picture = ROF_three_language_country
+		ROF_miserable_country = {
+		    name = ROF_miserable_country
+			picture = ROF_miserable_country
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				stability_factor = -0.15
-				compliance_growth = -0.2
-				required_garrison_factor =0.1
-				non_core_manpower = -0.5
+				political_power_gain = -0.5
+				political_power_factor = -0.15
+				stability_factor = -0.7
+				war_support_factor = -0.7
+				non_core_manpower = -0.05
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.05
+				industrial_capacity_factory = -0.05
+				line_change_production_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.05
 			}
 		}
-		ROF_island_algeria = {
-		    name = ROF_island_algeria
-			picture = ROF_island_algeria
+		ROF_army_special_place = {
+		    name = ROF_army_special_place
+			picture = ROF_army_special_place
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				stability_factor = -0.1
-				production_speed_infrastructure_factor = 0.1
+				political_power_gain = -0.05
+				political_power_factor = 0.06
+				experience_gain_army_unit_factor = 0.1
+				army_org_factor = 0.05
+			}
+			custom_modifier = {
+				ROF_army_special_place_modifier
 			}
 		}
-		ROF_suddenly_military_victory = {
-		    name = ROF_suddenly_military_victory
-			picture = ROF_suddenly_military_victory
+		ROF_mass_education_movement = {
+		    name = ROF_mass_education_movement
+			picture = ROF_mass_education_movement
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				command_power_gain = 0.5
-				army_chief_cost_factor = 0.15
-				navy_chief_cost_factor = 0.15
-				air_chief_cost_factor = 0.15
-				high_command_cost_factor = 0.15
-				max_command_power = 50
-				resistance_decay = 0.2
-				required_garrison_factor = -0.1
-			}
-		}
-		ROF_armed_camel = {
-		    name = ROF_armed_camel
-			picture = ROF_armed_camel
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				compliance_growth =  0.03
-				resistance_target =  0.1
-			}
-		}
-		ROF_repulic_act = {
-		    name = ROF_repulic_act
-			picture = ROF_repulic_act
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				compliance_growth =  0.15
-				global_building_slots_factor = 0.03
+				political_power_gain = -0.2
+				stability_factor = 0.05
 				monthly_population = 0.05
+				consumer_goods_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+				production_speed_industrial_complex_factor = 0.15
 			}
 		}
-		ROF_broken_entents
-			name = ROF_broken_entents
-			picture = ROF_broken_entents
+		ROF_republic_decree = {
+		    name = ROF_republic_decree
+			picture = ROF_republic_decree
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				command_power_gain = -0.1
+				conscription_factor = -0.1
+				stability_factor = 0.15
+				political_power_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		ROF_rebeline_in_desert = {
+		    name = ROF_rebeline_in_desert
+			picture = ROF_rebeline_in_desert
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		ROF_conspiracy = {
+		    name = ROF_conspiracy
+			picture = ROF_conspiracy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		ROF_attitude_to_islan_1 = {
+		    name = ROF_attitude_to_islan_1
+			picture = ROF_attitude_to_islan_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				resistance_growth = -0.05
+				compliance_growth = 0.05
 			}
 		}
 	}

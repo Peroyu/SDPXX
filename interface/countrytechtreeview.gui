@@ -1735,6 +1735,14 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "CHI_zapaijun_tree"
+				position = { x = 300 y = 172 }
+				size = { width = 31% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
 				name = "high_yield_bombs_tree"
 				position = { x = 0 y = 172 }
 				size = { width = 31% height = 80% }

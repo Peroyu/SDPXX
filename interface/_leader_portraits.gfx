@@ -452,6 +452,10 @@
 		texturefile = "gfx/leaders/EN/CAN_Louis_Mountbatten.png"		
 	}
 	
+	spriteType = {
+		name = "portrait_DOS_jan_smuts"
+		texturefile = "gfx/leaders/EN/portrait_DOS_jan_smuts.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_Suez_Canal_Authority"

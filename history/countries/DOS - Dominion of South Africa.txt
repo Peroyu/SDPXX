@@ -9,7 +9,7 @@ set_stability = 0.4 #
 
 
 set_politics = {
-	ruling_party = reactionism # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -18,21 +18,23 @@ add_ideas = {
 broken_entents
 }
 set_popularities = {
- reactionism = 27
- conservatism = 25
+ reactionism = 7
+ conservatism = 20
  nationalism = 14
- liberalism = 22
+ Liberalism = 30
  restorativeism = 5
  social_democracy = 7
+movement_communism = 15
+moderate_socialism = 2
 }
 set_variable = { var = FactionStatus value = 1 }
 # 
 create_country_leader = {
-	name = "爱德华八世"  # 
+	name = "扬·克里斯蒂安·史末资"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = portrait_DOS_jan_smuts
 	expire = "1948.5.2"  # 
-	ideology = nationalism # 
+	ideology = authoritarian_democracy
 	traits = {  # 
 		#
 	}

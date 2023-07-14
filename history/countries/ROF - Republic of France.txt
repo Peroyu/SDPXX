@@ -25,18 +25,19 @@ set_popularities = {
 set_variable = { var = FactionStatus value = 1 }
 create_country_leader = {
 	name = "ROF_Assemnlee_nationale"   
-	desc = "ROF_Assemnlee_nationale"  
+	desc = "ROF_Assemnlee_nationale_desc"  
 	picture = "gfx/leaders/EN/ROF_Assemnlee_nationale.png"   
 	expire = "1960.9.7"   
 	ideology = social_conservatism
-	traits = {  }
+	traits = { Penal_colony }
 }
 add_ideas = {
 	broken_entents
-	ROF_three_language_country
-	ROF_island_algeria
-	ROF_suddenly_military_victory
-	ROF_armed_camel
-	ROF_repulic_act
-	ROF_broken_entents
+	ROF_miserable_country
+	ROF_army_special_place
+	ROF_mass_education_movement
+	ROF_republic_decree
+	ROF_rebeline_in_desert
+	ROF_conspiracy
+	ROF_attitude_to_islan_1
 }
