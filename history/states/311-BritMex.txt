@@ -8,7 +8,7 @@ state=
 	history=
 	{
 		add_core_of = CAR
-		owner = CAR
+		owner = FWI
 		victory_points = {
 			2077 1 
 		}

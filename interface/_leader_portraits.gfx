@@ -580,4 +580,9 @@ spriteType = {
 		name = "portrait_NZL_Sidney_Holland"
 		texturefile = "gfx/leaders/EN/portrait_NZL_Sidney_Holland.png"		
 	}
+
+	spriteType = {
+		name = "portrait_FWI_india_concil"
+		texturefile = "gfx/leaders/EN/portrait_FWI_india_concil.png"		
+	}
 }
