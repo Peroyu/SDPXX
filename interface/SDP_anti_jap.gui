@@ -1,0 +1,210 @@
+guiTypes ={
+    containerWindowType = {#主窗口
+		name = "SDP_anti_jap_window"
+		Orientation = CENTER_UP
+		position = { x =-600 y = 30 }
+		buttonType = { 
+			name = "enter_SDP_anti_jap_window_button"
+			position = { x = 400  y =400 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "GFX_anti_jap_button"
+            pdx_tooltip = "SDP_anti_jap_window_button_tooltip"
+			clicksound = click_default
+		} 
+
+	}
+	containerWindowType = {#主窗口
+		name = "SDP_anti_jap_window_main"
+		position = { x = 0 y = 0 }
+		size = { width = 1200 height = 1000 }
+		moveable = yes
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_SDP_anti_jap_tiled_plain"
+		}
+		buttonType = { 
+			name = "enter_SDP_anti_jap_window_close_button"
+			position = { x = 1158 y = 10 } 
+			quadTextureSprite = "GFX_cancel_transfer_button"
+			clicksound = click_default
+		}
+        buttonType = { 
+			name = "SDP_anti_jap_1"
+			position = { x =397 y =302 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_1"
+		}
+        buttonType = { 
+			name = "SDP_anti_jap_2"
+			position = { x =328 y =328 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_2"
+		}
+        buttonType = { 
+			name = "SDP_anti_jap_3"
+			position = { x =302 y =321 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_3"
+		} 
+        buttonType = { 
+			name = "SDP_anti_jap_4"
+			position = { x =297 y =296 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_4"
+		}
+        buttonType = { 
+			name = "SDP_anti_jap_5"
+			position = { x =337 y =260 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_5"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_6"
+			position = { x =340 y =288 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_6"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_7"
+			position = { x =378 y =286 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_7"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_8"
+			position = { x =283 y =249 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_8"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_9"
+			position = { x =412 y =274 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_9"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_10"
+			position = { x =387 y =250 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_10"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_11"
+			position = { x =395 y =239 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_11"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_12"
+			position = { x =388 y =213 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_12"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_13"
+			position = { x =353 y =227 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_13"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_14"
+			position = { x =317 y =199 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_14"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_15"
+			position = { x =241 y =291 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_15"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_16"
+			position = { x =209 y =253 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_16"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_17"
+			position = { x =351 y =193 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_17"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_18"
+			position = { x =374 y =188 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_18"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_19"
+			position = { x =229 y =162 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_19"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_20"
+			position = { x =196 y =196 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_20"
+		}
+		iconType = {
+			name = "SDP_anti_jap_22"
+			position = { x = 105 y = 207 }
+			quadTextureSprite = GFX_SDP_anti_jap_22
+		}
+		iconType = {
+			name = "SDP_anti_jap_24"
+			position = { x = 222 y = 66 }
+			quadTextureSprite = GFX_SDP_anti_jap_24
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_21"
+			position = { x =77 y =95 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_21"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_23"
+			position = { x =267 y =166 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_23"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_25"
+			position = { x =311 y =163 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_25"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_26"
+			position = { x =349 y =131 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_26"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_27"
+			position = { x =387 y =144 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_27"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_28"
+			position = { x =407 y =131 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_28"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_29"
+			position = { x =434 y =102 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_29"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_30"
+			position = { x =435 y =323 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_30"
+		}
+		buttonType = { 
+			name = "SDP_anti_jap_31"
+			position = { x =383 y =72 } 
+			quadTextureSprite = "GFX_SDP_anti_jap_31"
+		}
+		iconType = {
+			name = "SDP_anti_jap_kmt"
+			position = { x = 780 y = 400 }
+			quadTextureSprite = GFX_SDP_anti_jap_kmt
+		}
+		iconType = {
+			name = "SDP_anti_jap_ssr"
+			position = { x = 500 y = 400 }
+			quadTextureSprite = GFX_SDP_anti_jap_ssr
+		}
+		iconType = {
+			name = "SDP_anti_jap_cpc"
+			position = { x = 200 y = 400 }
+			quadTextureSprite = GFX_SDP_anti_jap_cpc
+		}
+		instantTextboxType = {
+			name = "SDP_anti_jap_intro"
+			position = { x = 620 y = 150 }
+			font = "hoi_34b"
+			text = "SDP_anti_jap_intro"
+			maxWidth = 340
+			maxHeight = 500
+			format = centerleft
+	    }
+	}
+}

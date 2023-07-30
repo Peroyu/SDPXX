@@ -28,10 +28,10 @@ scripted_gui = {
 			has_country_flag = open_SDP_social_window_main
 		}
 	
-	effects = {
+	    effects = {
 			enter_SDP_social_window_close_button_click = {
 				clr_country_flag = open_SDP_social_window_main
 			}
-	}
+	    }
    }
 }

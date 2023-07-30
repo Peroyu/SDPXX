@@ -1,5 +1,5 @@
 scripted_gui = {
-    SDP_social ={
+    SDP_anti_jap_1 ={
 		window_name = "SDP_anti_jap_window"
 		context_type = Player_context
 		parent_window_token = politics_tab

@@ -1,0 +1,620 @@
+spriteTypes = {
+   spriteType = {
+		name = "GFX_empty_small_button"
+		texturefile = "gfx/interface/empty_small_button.dds"
+	}
+    spriteType = {
+		name = "GFX_anti_jap_button"
+		texturefile = "gfx/interface/anti_jap/anti_jap_button.dds"
+	}
+    spriteType = {
+		name = "GFX_SDP_anti_jap_tiled_plain"
+		texturefile = "gfx/interface/SDP_anti_jap_tiled_plain.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_22"
+		texturefile = "gfx/interface/anti_jap/22.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_24"
+		texturefile = "gfx/interface/anti_jap/24.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_kmt"
+		texturefile = "gfx/interface/anti_jap/SDP_anti_jap_kmt.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_ssr"
+		texturefile = "gfx/interface/anti_jap/SDP_anti_jap_ssr.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_cpc"
+		texturefile = "gfx/interface/anti_jap/SDP_anti_jap_cpc.dds"
+	}
+ #########################果脯###################################
+	spriteType = {
+		name = "GFX_SDP_anti_jap_1"
+		texturefile = "gfx/interface/anti_jap/101.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_2"
+		texturefile = "gfx/interface/anti_jap/201.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_3"
+		texturefile = "gfx/interface/anti_jap/301.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_4"
+		texturefile = "gfx/interface/anti_jap/401.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_5"
+		texturefile = "gfx/interface/anti_jap/501.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_6"
+		texturefile = "gfx/interface/anti_jap/601.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_7"
+		texturefile = "gfx/interface/anti_jap/701.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_8"
+		texturefile = "gfx/interface/anti_jap/801.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_9"
+		texturefile = "gfx/interface/anti_jap/901.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_10"
+		texturefile = "gfx/interface/anti_jap/1001.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_11"
+		texturefile = "gfx/interface/anti_jap/1101.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_12"
+		texturefile = "gfx/interface/anti_jap/1201.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_13"
+		texturefile = "gfx/interface/anti_jap/1301.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_14"
+		texturefile = "gfx/interface/anti_jap/1401.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_15"
+		texturefile = "gfx/interface/anti_jap/1501.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_16"
+		texturefile = "gfx/interface/anti_jap/1601.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_17"
+		texturefile = "gfx/interface/anti_jap/1701.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_18"
+		texturefile = "gfx/interface/anti_jap/1801.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_19"
+		texturefile = "gfx/interface/anti_jap/1901.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_20"
+		texturefile = "gfx/interface/anti_jap/2001.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_21"
+		texturefile = "gfx/interface/anti_jap/2101.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_23"
+		texturefile = "gfx/interface/anti_jap/2301.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_25"
+		texturefile = "gfx/interface/anti_jap/2501.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_26"
+		texturefile = "gfx/interface/anti_jap/2601.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_27"
+		texturefile = "gfx/interface/anti_jap/2701.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_28"
+		texturefile = "gfx/interface/anti_jap/2801.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_29"
+		texturefile = "gfx/interface/anti_jap/2901.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_30"
+		texturefile = "gfx/interface/anti_jap/3001.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_31"
+		texturefile = "gfx/interface/anti_jap/3101.dds"
+		transparencecheck = yes
+	}
+ ##########################日本###################################	
+	
+	spriteType = {
+		name = "GFX_SDP_anti_jap_1_R"
+		texturefile = "gfx/interface/anti_jap/102.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_2_R"
+		texturefile = "gfx/interface/anti_jap/202.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_3_R"
+		texturefile = "gfx/interface/anti_jap/302.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_4_R"
+		texturefile = "gfx/interface/anti_jap/402.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_5_R"
+		texturefile = "gfx/interface/anti_jap/502.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_6_R"
+		texturefile = "gfx/interface/anti_jap/602.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_7_R"
+		texturefile = "gfx/interface/anti_jap/702.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_8_R"
+		texturefile = "gfx/interface/anti_jap/802.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_9_R"
+		texturefile = "gfx/interface/anti_jap/902.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_10_R"
+		texturefile = "gfx/interface/anti_jap/1002.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_11_R"
+		texturefile = "gfx/interface/anti_jap/1102.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_12_R"
+		texturefile = "gfx/interface/anti_jap/1202.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_13_R"
+		texturefile = "gfx/interface/anti_jap/1302.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_14_R"
+		texturefile = "gfx/interface/anti_jap/1402.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_15_R"
+		texturefile = "gfx/interface/anti_jap/1502.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_16_R"
+		texturefile = "gfx/interface/anti_jap/1602.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_17_R"
+		texturefile = "gfx/interface/anti_jap/1702.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_18_R"
+		texturefile = "gfx/interface/anti_jap/1802.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_19_R"
+		texturefile = "gfx/interface/anti_jap/1902.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_20_R"
+		texturefile = "gfx/interface/anti_jap/2002.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_21_R"
+		texturefile = "gfx/interface/anti_jap/2102.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_23_R"
+		texturefile = "gfx/interface/anti_jap/2302.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_25_R"
+		texturefile = "gfx/interface/anti_jap/2502.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_26_R"
+		texturefile = "gfx/interface/anti_jap/2602.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_27_R"
+		texturefile = "gfx/interface/anti_jap/2702.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_28_R"
+		texturefile = "gfx/interface/anti_jap/2802.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_29_R"
+		texturefile = "gfx/interface/anti_jap/2902.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_30_R"
+		texturefile = "gfx/interface/anti_jap/3002.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_31_R"
+		texturefile = "gfx/interface/anti_jap/3102.dds"
+		transparencecheck = yes
+	}
+ #########################冷烤馒头##################################	
+	spriteType = {
+		name = "GFX_SDP_anti_jap_1_L"
+		texturefile = "gfx/interface/anti_jap/103.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_2_L"
+		texturefile = "gfx/interface/anti_jap/203.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_3_L"
+		texturefile = "gfx/interface/anti_jap/303.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_4_L"
+		texturefile = "gfx/interface/anti_jap/403.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_5_L"
+		texturefile = "gfx/interface/anti_jap/503.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_6_L"
+		texturefile = "gfx/interface/anti_jap/603.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_7_L"
+		texturefile = "gfx/interface/anti_jap/703.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_8_L"
+		texturefile = "gfx/interface/anti_jap/803.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_9_L"
+		texturefile = "gfx/interface/anti_jap/903.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_10_L"
+		texturefile = "gfx/interface/anti_jap/1003.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_11_L"
+		texturefile = "gfx/interface/anti_jap/1103.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_12_L"
+		texturefile = "gfx/interface/anti_jap/1203.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_13_L"
+		texturefile = "gfx/interface/anti_jap/1303.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_14_L"
+		texturefile = "gfx/interface/anti_jap/1403.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_15_L"
+		texturefile = "gfx/interface/anti_jap/1503.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_16_L"
+		texturefile = "gfx/interface/anti_jap/1603.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_17_L"
+		texturefile = "gfx/interface/anti_jap/1703.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_18_L"
+		texturefile = "gfx/interface/anti_jap/1803.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_19_L"
+		texturefile = "gfx/interface/anti_jap/1903.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_20_L"
+		texturefile = "gfx/interface/anti_jap/2003.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_21_L"
+		texturefile = "gfx/interface/anti_jap/2103.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_23_L"
+		texturefile = "gfx/interface/anti_jap/2303.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_25_L"
+		texturefile = "gfx/interface/anti_jap/2503.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_26_L"
+		texturefile = "gfx/interface/anti_jap/2603.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_27_L"
+		texturefile = "gfx/interface/anti_jap/2703.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_28_L"
+		texturefile = "gfx/interface/anti_jap/2803.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_29_L"
+		texturefile = "gfx/interface/anti_jap/2903.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_30_L"
+		texturefile = "gfx/interface/anti_jap/3003.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_31_L"
+		texturefile = "gfx/interface/anti_jap/3103.dds"
+		transparencecheck = yes
+	}
+###########################康###################################
+
+    spriteType = {
+		name = "GFX_SDP_anti_jap_1_C"
+		texturefile = "gfx/interface/anti_jap/104.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_2_C"
+		texturefile = "gfx/interface/anti_jap/204.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_3_C"
+		texturefile = "gfx/interface/anti_jap/304.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_4_C"
+		texturefile = "gfx/interface/anti_jap/404.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_5_C"
+		texturefile = "gfx/interface/anti_jap/504.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_6_C"
+		texturefile = "gfx/interface/anti_jap/604.dds"
+		transparencecheck = yes
+	}
+		spriteType = {
+		name = "GFX_SDP_anti_jap_7_C"
+		texturefile = "gfx/interface/anti_jap/704.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_8_C"
+		texturefile = "gfx/interface/anti_jap/804.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_9_C"
+		texturefile = "gfx/interface/anti_jap/904.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_10_C"
+		texturefile = "gfx/interface/anti_jap/1004.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_11_C"
+		texturefile = "gfx/interface/anti_jap/1104.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_12_C"
+		texturefile = "gfx/interface/anti_jap/1204.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_13_C"
+		texturefile = "gfx/interface/anti_jap/1304.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_14_C"
+		texturefile = "gfx/interface/anti_jap/1404.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_15_C"
+		texturefile = "gfx/interface/anti_jap/1504.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_16_C"
+		texturefile = "gfx/interface/anti_jap/1604.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_17_C"
+		texturefile = "gfx/interface/anti_jap/1704.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_18_C"
+		texturefile = "gfx/interface/anti_jap/1804.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_19_C"
+		texturefile = "gfx/interface/anti_jap/1904.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_20_C"
+		texturefile = "gfx/interface/anti_jap/2004.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_21_C"
+		texturefile = "gfx/interface/anti_jap/2104.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_23_C"
+		texturefile = "gfx/interface/anti_jap/2304.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_25_C"
+		texturefile = "gfx/interface/anti_jap/2504.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_26_C"
+		texturefile = "gfx/interface/anti_jap/2604.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_27_C"
+		texturefile = "gfx/interface/anti_jap/2704.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_28_C"
+		texturefile = "gfx/interface/anti_jap/2804.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_29_C"
+		texturefile = "gfx/interface/anti_jap/2904.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_30_C"
+		texturefile = "gfx/interface/anti_jap/3004.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_SDP_anti_jap_31_C"
+		texturefile = "gfx/interface/anti_jap/3104.dds"
+		transparencecheck = yes
+	}
+}
