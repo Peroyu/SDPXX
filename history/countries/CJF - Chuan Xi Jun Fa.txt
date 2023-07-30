@@ -16,38 +16,7 @@ set_technology = {
 	fleet_in_being = 1
 	basic_train = 1
 }
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-	}
-	else = {
-		set_technology = {
-			gwtank = 1
-		}
-	}
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_destroyer = 1
-		early_light_cruiser = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_torpedo = 1
-		coastal_defense_ships = 1
-	}
-}
+
 country_event = { id = CJF_op.1 days = 1 }
  set_politics = {
 	ruling_party = movement_communism
@@ -80,6 +49,120 @@ set_variable = { var = global.CHI_dongbei_regional_tension value = 12 }
     set_variable = { var = global.CHI_xinan_regional_tension value = 30 }
     set_variable = { var = global.CHI_huazhong_regional_tension value = 11 }
 #########################################################
+set_variable = { var = SDP_anti_jap_1 value = 0 }
+set_variable = { var = SDP_anti_jap_2 value = 0 }
+set_variable = { var = SDP_anti_jap_3 value = 1 }
+set_variable = { var = SDP_anti_jap_4 value = 1 }
+set_variable = { var = SDP_anti_jap_5 value = 0 }
+set_variable = { var = SDP_anti_jap_6 value = 0 }
+set_variable = { var = SDP_anti_jap_7 value = 0 }
+set_variable = { var = SDP_anti_jap_8 value = 1 }
+set_variable = { var = SDP_anti_jap_9 value = 0 }
+set_variable = { var = SDP_anti_jap_10 value = 0 }
+set_variable = { var = SDP_anti_jap_11 value = 0 }
+set_variable = { var = SDP_anti_jap_12 value = 0 }
+set_variable = { var = SDP_anti_jap_13 value = 0 }
+set_variable = { var = SDP_anti_jap_14 value = 0 }
+set_variable = { var = SDP_anti_jap_15 value = 1 }
+set_variable = { var = SDP_anti_jap_16 value = 1 }
+set_variable = { var = SDP_anti_jap_17 value = 0 }
+set_variable = { var = SDP_anti_jap_18 value = 0 }
+set_variable = { var = SDP_anti_jap_19 value = 1 }
+set_variable = { var = SDP_anti_jap_20 value = 1 }
+set_variable = { var = SDP_anti_jap_21 value = 1 }
+set_variable = { var = SDP_anti_jap_23 value = 1 }
+set_variable = { var = SDP_anti_jap_25 value = 0 }
+set_variable = { var = SDP_anti_jap_26 value = 0 }
+set_variable = { var = SDP_anti_jap_27 value = 0 }
+set_variable = { var = SDP_anti_jap_28 value = 0 }
+set_variable = { var = SDP_anti_jap_29 value = 0 }
+set_variable = { var = SDP_anti_jap_30 value = 0 }
+set_variable = { var = SDP_anti_jap_31 value = 0 }
+
+set_variable = { var = SDP_anti_jap_1_R value = 1 }
+set_variable = { var = SDP_anti_jap_2_R value = 1 }
+set_variable = { var = SDP_anti_jap_3_R value = 0 }
+set_variable = { var = SDP_anti_jap_4_R value = 0 }
+set_variable = { var = SDP_anti_jap_5_R value = 1 }
+set_variable = { var = SDP_anti_jap_6_R value = 1 }
+set_variable = { var = SDP_anti_jap_7_R value = 1 }
+set_variable = { var = SDP_anti_jap_8_R value = 0 }
+set_variable = { var = SDP_anti_jap_9_R value = 1 }
+set_variable = { var = SDP_anti_jap_10_R value = 1 }
+set_variable = { var = SDP_anti_jap_11_R value = 1 }
+set_variable = { var = SDP_anti_jap_12_R value = 1 }
+set_variable = { var = SDP_anti_jap_13_R value = 1 }
+set_variable = { var = SDP_anti_jap_14_R value = 1 }
+set_variable = { var = SDP_anti_jap_15_R value = 0 }
+set_variable = { var = SDP_anti_jap_16_R value = 0 }
+set_variable = { var = SDP_anti_jap_17_R value = 1 }
+set_variable = { var = SDP_anti_jap_18_R value = 1 }
+set_variable = { var = SDP_anti_jap_19_R value = 0 }
+set_variable = { var = SDP_anti_jap_20_R value = 0 }
+set_variable = { var = SDP_anti_jap_21_R value = 0 }
+set_variable = { var = SDP_anti_jap_23_R value = 0 }
+set_variable = { var = SDP_anti_jap_25_R value = 1 }
+set_variable = { var = SDP_anti_jap_26_R value = 1 }
+set_variable = { var = SDP_anti_jap_27_R value = 1 }
+set_variable = { var = SDP_anti_jap_28_R value = 1 }
+set_variable = { var = SDP_anti_jap_29_R value = 1 }
+set_variable = { var = SDP_anti_jap_30_R value = 1 }
+set_variable = { var = SDP_anti_jap_31_R value = 1 }
+
+set_variable = { var = SDP_anti_jap_1_L value = 0 }
+set_variable = { var = SDP_anti_jap_2_L value = 0 }
+set_variable = { var = SDP_anti_jap_3_L value = 0 }
+set_variable = { var = SDP_anti_jap_4_L value = 0 }
+set_variable = { var = SDP_anti_jap_5_L value = 0 }
+set_variable = { var = SDP_anti_jap_6_L value = 0 }
+set_variable = { var = SDP_anti_jap_7_L value = 0 }
+set_variable = { var = SDP_anti_jap_8_L value = 0 }
+set_variable = { var = SDP_anti_jap_9_L value = 0 }
+set_variable = { var = SDP_anti_jap_10_L value = 0 }
+set_variable = { var = SDP_anti_jap_11_L value = 0 }
+set_variable = { var = SDP_anti_jap_12_L value = 0 }
+set_variable = { var = SDP_anti_jap_13_L value = 0 }
+set_variable = { var = SDP_anti_jap_14_L value = 0 }
+set_variable = { var = SDP_anti_jap_15_L value = 0 }
+set_variable = { var = SDP_anti_jap_16_L value = 0 }
+set_variable = { var = SDP_anti_jap_17_L value = 0 }
+set_variable = { var = SDP_anti_jap_18_L value = 0 }
+set_variable = { var = SDP_anti_jap_19_L value = 0 }
+set_variable = { var = SDP_anti_jap_20_L value = 0 }
+set_variable = { var = SDP_anti_jap_21_L value = 0 }
+set_variable = { var = SDP_anti_jap_23_L value = 0 }
+set_variable = { var = SDP_anti_jap_25_L value = 0 }
+set_variable = { var = SDP_anti_jap_26_L value = 0 }
+set_variable = { var = SDP_anti_jap_27_L value = 0 }
+set_variable = { var = SDP_anti_jap_28_L value = 0 }
+set_variable = { var = SDP_anti_jap_29_L value = 0 }
+set_variable = { var = SDP_anti_jap_30_L value = 0 }
+set_variable = { var = SDP_anti_jap_31_L value = 0 }
+
+set_variable = { var = SDP_anti_jap_1_C value = 0 }
+set_variable = { var = SDP_anti_jap_2_C value = 0 }
+set_variable = { var = SDP_anti_jap_3_C value = 0 }
+set_variable = { var = SDP_anti_jap_4_C value = 0 }
+set_variable = { var = SDP_anti_jap_5_C value = 0 }
+set_variable = { var = SDP_anti_jap_6_C value = 0 }
+set_variable = { var = SDP_anti_jap_7_C value = 0 }
+set_variable = { var = SDP_anti_jap_8_C value = 0 }
+set_variable = { var = SDP_anti_jap_9_C value = 0 }
+set_variable = { var = SDP_anti_jap_10_C value = 0 }
+set_variable = { var = SDP_anti_jap_11_C value = 0 }
+set_variable = { var = SDP_anti_jap_12_C value = 0 }
+set_variable = { var = SDP_anti_jap_19_C value = 0 }
+set_variable = { var = SDP_anti_jap_20_C value = 0 }
+set_variable = { var = SDP_anti_jap_21_C value = 0 }
+set_variable = { var = SDP_anti_jap_23_C value = 0 }
+set_variable = { var = SDP_anti_jap_25_C value = 0 }
+set_variable = { var = SDP_anti_jap_26_C value = 0 }
+set_variable = { var = SDP_anti_jap_27_C value = 0 }
+set_variable = { var = SDP_anti_jap_28_C value = 0 }
+set_variable = { var = SDP_anti_jap_29_C value = 0 }
+set_variable = { var = SDP_anti_jap_30_C value = 0 }
+set_variable = { var = SDP_anti_jap_31_C value = 0 }
+#############################################################
 add_ideas = {
  tot_economic_mobilisation
  limited_exports
@@ -111,7 +194,7 @@ create_country_leader = {
 	desc = "CJF_Xv_ChongZhi_desc"
 	picture = portrait_CJF_Xv_ChongZhi
 	expire = "1999.1.1"
-	ideology = military_system
+	ideology = milanti_japry_system
 	traits = {
 		
 	}
