@@ -22,16 +22,16 @@ FOI_Gibraltar
 FOI_divisive_country
 }
 set_popularities = {
-	committee_communism = 10
-	communism = 5
-	moderate_socialism = 20
-	social_democracy = 25
-	liberalism = 11
-	conservatism = 9
-	nationalism = 5
-	reactionism = 3
-	restorativeism = 6
-	movement_communism = 6
+	committee_communism = 8
+	communism = 2
+	moderate_socialism = 6
+	social_democracy = 21
+	liberalism = 8
+	conservatism = 17
+	nationalism = 13
+	reactionism = 11
+	restorativeism = 5
+	movement_communism = 9
 }
 
  
@@ -41,6 +41,33 @@ create_country_leader = {
 	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
 	expire = "1970.1.9"   
 	ideology = social_reformism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "何塞·玛丽亚·希尔-罗夫雷斯"   
+	desc = "FOI_Indalecio_Prieto_desc"  
+	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
+	expire = "1970.1.9"   
+	ideology = authoritarian_democracy
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "赫苏斯·埃尔南德斯·托马斯"   
+	desc = "FOI_Indalecio_Prieto_desc"  
+	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
+	expire = "1970.1.9"   
+	ideology = parliamentary_communism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "何塞·安东尼奥·普里莫·德·里维拉"   
+	desc = "FOI_Indalecio_Prieto_desc"  
+	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
+	expire = "1970.1.9"   
+	ideology = Casselism
 	traits = {  }
 }
 ################
