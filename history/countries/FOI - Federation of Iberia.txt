@@ -15,7 +15,11 @@ set_politics = {
 	elections_allowed = no   
 }
 add_ideas = {
-participant_of_the_revolutionary_war
+onlooker_of_the_revolutionary_war
+FOI_army
+FOI_after_war
+FOI_Gibraltar
+FOI_divisive_country
 }
 set_popularities = {
 	committee_communism = 10
