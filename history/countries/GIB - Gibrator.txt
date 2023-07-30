@@ -1,0 +1,31 @@
+capital = 118 # 
+
+obb = "empty"  # 
+
+set_research_slots = 3 # 
+
+set_war_support = 0.5 # 
+set_stability = 0.3 # 
+
+# 
+set_politics = {
+	ruling_party = committee_communism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+	committee_communism = 100
+}
+
+
+create_country_leader = {
+	name = "直布罗陀管理委员会"  
+	desc = "GIB_commiitee_desc"  
+	picture = "GFX_portrait_Gibrator_Canal_Authority"  
+	expire = "1966.4.30"  
+	ideology = left_wing_communism 
+	traits = {  
+	}
+}

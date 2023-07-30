@@ -585,4 +585,9 @@ spriteType = {
 		name = "portrait_FWI_india_concil"
 		texturefile = "gfx/leaders/EN/portrait_FWI_india_concil.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_Gibrator_Canal_Authority"
+		texturefile = "gfx/leaders/EU/GFX_portrait_Gibrator_Canal_Authority.png"		
+	}
 }

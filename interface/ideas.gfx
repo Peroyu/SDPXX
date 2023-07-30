@@ -455,6 +455,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_politic_warn.png"
 	}
 
+	###################################################3
+
+	spriteType = {
+		name = "GFX_idea_FOI_army"
+		texturefile = "gfx/interface/ideas/FOI/GFX_idea_FOI_army.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FOI_after_war"
+		texturefile = "gfx/interface/ideas/FOI/GFX_idea_FOI_after_war.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FOI_Gibraltar"
+		texturefile = "gfx/interface/ideas/FOI/GFX_idea_FOI_Gibraltar.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FOI_divisive_country"
+		texturefile = "gfx/interface/ideas/FOI/GFX_idea_FOI_divisive_country.png"
+	}
+
 	spriteType = {
 		name = "GFX_idea_broken_entents"
 		texturefile = "gfx/interface/ideas/GFX_idea_broken_entents.png"
