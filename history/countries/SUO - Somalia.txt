@@ -1,6 +1,6 @@
 capital = 658 # 
 
-obb = "SUO_1947"  # 
+obb = "empty"  # 
 
 set_research_slots = 2 # 
 
@@ -9,24 +9,24 @@ set_stability = 0.3 #
 
 # 
 set_politics = {
-	ruling_party = restoratveism # 
+	ruling_party = restorativeism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
- restoratveism = 64
+ restorativeism = 64
  reactionism = 36
 }
 
 # 
 create_country_leader = {
-	name = "王公"  # 
+	name = "默罕默德·阿里·夏尔"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_SUO_Mohanmoud_Ali_Shaire"  # 
 	expire = "1965.6.6"  # 
-	ideology = restoratveism # 
+	ideology = traditional_despotism # 
 	traits = {  # 
 		#
 	}

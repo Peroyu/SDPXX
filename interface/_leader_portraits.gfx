@@ -357,6 +357,10 @@
 		texturefile = "gfx/leaders/EU/GFX_portrait_GER_William_peak.png"		
 	}
 	
+	spriteType = {
+		name = "portrait_CAS_Bolkov"
+		texturefile = "gfx/leaders/SOV/portrait_CAS_Bolkov.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_GER_bertha_thalheimer"
@@ -513,6 +517,16 @@
 		texturefile = "gfx/leaders/East_Mediterranean/portrait_TUR_Mehmed_Orhan.png"		
 	}
 
+	spriteType = {
+		name = "GFX_SUO_Mohanmoud_Ali_Shaire"
+		texturefile = "gfx/leaders/East_Mediterranean/GFX_SUO_Mohanmoud_Ali_Shaire.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AZB_sem"
+		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_AZB_sem.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"
@@ -532,6 +546,21 @@ spriteType = {
 	spriteType = {
 		name = "GFX_BRA_portrait_Getulio_Vargas"
 		texturefile = "gfx/leaders/Latin_America/BRA_portrait_Getulio_Vargas.png"		
+	}
+
+	spriteType = {
+		name = "portrait_HAI_Estime"
+		texturefile = "gfx/leaders/Latin_America/portrait_HAI_Estime.png"		
+	}
+
+	spriteType = {
+		name = "portrait_URG_Juan_Jose"
+		texturefile = "gfx/leaders/Latin_America/portrait_URG_Juan_Jose.png"		
+	}
+
+	spriteType = {
+		name = "portrait_ECU_Jose_Velasco"
+		texturefile = "gfx/leaders/Latin_America/portrait_ECU_Jose_Velasco.png"		
 	}
 
 	spriteType = {

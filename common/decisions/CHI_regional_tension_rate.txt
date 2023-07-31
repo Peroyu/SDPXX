@@ -38,7 +38,7 @@ CHI_regional_tension_rate = {
 		cancel_trigger = {
 		}
 		visible = {
-				has_global_flag = WAR
+				alway = no
 		}
           is_good = no    
 		  fire_only_once = yes               

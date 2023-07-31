@@ -17,7 +17,7 @@ set_politics = {
 # 
 set_popularities = {
  conservatism = 43
- liberalism = 33
+ Liberalism = 33
  social_democracy = 14
  reactionism = 6
 }
@@ -25,10 +25,10 @@ set_popularities = {
 # 
 create_country_leader = {
 	name = "迪马瑟·埃斯蒂梅"  # 
-	desc = "/"  # 
-	picture = "/"  # 
+	desc = ""  # 
+	picture = "portrait_HAI_Estime"  # 
 	expire = "1956.6.6"  # 
-	ideology = conservatism # 
+	ideology = authoritarian_democracy # 
 	traits = {  # 
 		#
 	}

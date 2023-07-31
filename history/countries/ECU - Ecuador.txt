@@ -13,9 +13,9 @@ set_popularities = {
 	communism = 3
 }
 create_country_leader = {
-	name = "胡安·阿梅萨加"  # 
+	name = "何塞·瓦伊拉"  # 
 	desc = ""  # 
-	picture = "portrait_URG_Juan_Jose"  # 
+	picture = "portrait_ECU_Jose_Velasco"  # 
 	expire = "1956.6.6"  # 
 	ideology = trade_liberalism # 
 	traits = {  # 
