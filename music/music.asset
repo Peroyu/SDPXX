@@ -52,7 +52,7 @@ music = {
 }
 music = {
 	name = "maintheme"
-	file = "maintheme.ogg"
+	file = "hoi4mainthemeallies.ogg"
 	volume = 0.65
 }
 music = {
