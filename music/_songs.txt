@@ -82,7 +82,7 @@ music = {
 	}
 }
 music = {
-	song = "maintheme"
+	song = "釣り落とした魚"
 	chance = {
 		modifier = {
 			factor = 0.5
