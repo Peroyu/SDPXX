@@ -78,6 +78,34 @@ country_event = {
 		custom_effect_tooltip = CHI_v_regional_tension_increase
 		add_to_variable = { global.CHI_xinan_regional_tension = 5 }
 		name = CJF_chongqing.2.a 
+		country_event = {
+			id = CJF_chongqing.10
+			days = 2
+		}
+	}
+	
+}
+country_event = {
+    id = CJF_chongqing.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chongqing.10 FROM = [From.GetName]" }
+	title = CJF_chongqing.10.t
+	desc = CJF_chongqing.10.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chongqing.10.a 
 	}
 	
 }

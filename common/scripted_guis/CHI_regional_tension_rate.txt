@@ -4,6 +4,7 @@ scripted_gui = {
 		context_type = decision_category
         window_name = "CHI_regional_tension_rate_button_regions"
 		visible = {
+			OR = {
 			tag = GDC
 			tag = CJF
 			tag = XKS
@@ -15,6 +16,7 @@ scripted_gui = {
 			tag = MAN
 			tag = GNP
 			tag = FNC
+			}
 		}
 		
 		effects = {

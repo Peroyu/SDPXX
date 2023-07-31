@@ -813,3 +813,370 @@ shared_focus = {
 		y = 9
 
 	}
+##########################milltary##############################################################3
+shared_focus = {
+	id = CJF_invade_5th_region
+	icon = GFX_CJF_invade_5th_region
+	cost = 1
+	x = 14
+	y = 0
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_invade_9th_region
+	icon = GFX_CJF_invade_9th_region
+	cost = 1
+	prerequisite = {
+		focus = CJF_invade_5th_region
+	}
+	x = 14
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_invade_10th_region
+	icon = GFX_CJF_invade_10th_region
+	cost = 1
+	prerequisite = {
+		focus = CJF_invade_9th_region
+	}
+	x = 14
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Shan_Chuan_E_mission
+	icon = GFX_CJF_Shan_Chuan_E_mission
+	cost = 1
+	prerequisite = {
+		focus = CJF_invade_10th_region
+	}
+	x = 14
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN37th_division
+	icon = GFX_CJF_MIN37th_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_Shan_Chuan_E_mission
+	}
+	x = 14
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN38th_shannan_division
+	icon = GFX_CJF_MIN38th_shannan_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_MIN37th_division
+	}
+	x = 14
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_invade_6th_region
+	icon = GFX_CJF_invade_6th_region
+	cost = 1
+	x = 20
+	y = 0
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_invade_7th_region
+	icon = GFX_CJF_invade_6th_region
+	cost = 1
+	x = 18
+	y = 0
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_reconstruct_Guilin_HQ
+	icon = GFX_CJF_reconstruct_Guilin_HQ
+	cost = 1
+	prerequisite = {
+		focus = CJF_invade_7th_region
+	}
+	prerequisite = {
+		focus = CJF_invade_6th_region
+	}
+	x = 18
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_reconstruct_Gannan_HQ
+	icon = GFX_CJF_reconstruct_Gannan_HQ
+	cost = 1
+	prerequisite = {
+		focus = CJF_reconstruct_Guilin_HQ
+	}
+	x = 16
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_reconstruct_Xianggui_HQ
+	icon = GFX_CJF_reconstruct_Xianggui_HQ
+	cost = 1
+	prerequisite = {
+		focus = CJF_reconstruct_Guilin_HQ
+	}
+	x = 18
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN37th_xianggui_division
+	icon = GFX_CJF_MIN37th_xianggui_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_reconstruct_Xianggui_HQ
+	}
+	x = 18
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN38th_xianggui_division
+	icon = GFX_CJF_MIN38th_xianggui_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_MIN37th_xianggui_division
+	}
+	x = 18
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN38th_chuanyu_division
+	icon = GFX_CJF_MIN38th_chuanyu_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_MIN38th_xianggui_division
+	}
+	x = 18
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_reconstruct_Chuanyu_HQ
+	icon = GFX_CJF_reconstruct_Chuanyu_HQ
+	cost = 1
+	prerequisite = {
+		focus = CJF_reconstruct_Guilin_HQ
+	}
+	x = 20
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN37th_Chuan_division
+	icon = GFX_CJF_MIN37th_Chuan_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_reconstruct_Chuanyu_HQ
+	}
+	x = 20
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_chuanbian_tacitics
+	icon = GFX_CJF_chuanbian_tacitics
+	cost = 1
+	x = 24
+	y = 0
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_guilin_conference
+	icon = GFX_CJF_guilin_conference
+	cost = 1
+	prerequisite = {
+		focus = CJF_chuanbian_tacitics
+	}
+	x = 24
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_huangpu_22nd
+	icon = GFX_CJF_huangpu_22nd
+	cost = 1
+	prerequisite = {
+		focus = CJF_guilin_conference
+	}
+	x = 24
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_huangpu_22nd_artrtllry
+	icon = GFX_CJF_huangpu_22nd_artrtllry
+	cost = 1
+	prerequisite = {
+		focus = CJF_huangpu_22nd
+	}
+	x = 22
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_huangpu_22nd_infantry
+	icon = GFX_CJF_huangpu_22nd_infantry
+	cost = 1
+	prerequisite = {
+		focus = CJF_huangpu_22nd
+	}
+	x = 24
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_huangpu_22nd_workers
+	icon = GFX_CJF_huangpu_22nd_workers
+	cost = 1
+	prerequisite = {
+		focus = CJF_huangpu_22nd
+	}
+	x = 26
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_chemical_defence
+	icon = GFX_CJF_chemical_defence
+	cost = 1
+	prerequisite = {
+		focus = CJF_huangpu_22nd_infantry
+	}
+	prerequisite = {
+		focus = CJF_huangpu_22nd_artrtllry
+	}
+	prerequisite = {
+		focus = CJF_huangpu_22nd_workers
+	}
+	x = 24
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Guangzhou_conference
+	icon = GFX_CJF_Guangzhou_conference
+	cost = 1
+	prerequisite = {
+		focus = CJF_chemical_defence
+	}
+	x = 24
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_attack_army_plan
+	icon = GFX_CJF_attack_army_plan
+	cost = 1
+	prerequisite = {
+		focus = CJF_Guangzhou_conference
+	}
+	x = 24
+	y = 6
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_huangpu_23th
+	icon = GFX_CJF_huangpu_23th
+	cost = 1
+	prerequisite = {
+		focus = CJF_attack_army_plan
+	}
+	x = 24
+	y = 7
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_milltery_replan
+	icon = GFX_CJF_milltery_replan
+	cost = 1
+	x = 20
+	y = 6
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN39th_armed_division
+	icon = GFX_CJF_MIN39th_armed_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_milltery_replan
+	}
+	x = 20
+	y = 7
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN39th_independ_division
+	icon = GFX_CJF_MIN39th_independ_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_MIN39th_armed_division
+	}
+	x = 20
+	y = 8
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN39th_attack_division
+	icon = GFX_CJF_MIN39th_attack_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_milltery_replan
+	}
+	x = 18
+	y = 7
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_MIN39th_death_division
+	icon = GFX_CJF_MIN39th_death_division
+	cost = 1
+	prerequisite = {
+		focus = CJF_MIN39th_attack_division
+	}
+	x = 18
+	y = 8
+	completion_reward = {
+	}
+}

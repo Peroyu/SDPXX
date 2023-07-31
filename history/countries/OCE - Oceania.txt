@@ -13,9 +13,14 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 67
-	democracy_communism = 21
-    left_radicalism = 12
+	reactionism = 12
+	nationalism = 18
+	conservatism = 22
+	movement_communism = 18
+	Liberalism = 15
+	social_democracy = 8
+	moderate_socialism = 6
+	communism = 1
 }
 
 

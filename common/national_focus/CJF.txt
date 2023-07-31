@@ -22,6 +22,11 @@ focus_tree = {
 	}
 	default = no
     shared_focus = CJF_The_country_is_in_trouble
+	shared_focus = CJF_invade_5th_region
+	shared_focus = CJF_invade_7th_region
+	shared_focus = CJF_invade_6th_region
+	shared_focus = CJF_chuanbian_tacitics
+	shared_focus = CJF_milltery_replan
 }
 
 focus_tree = {

@@ -4,7 +4,14 @@ scripted_gui = {
 		context_type = Player_context
 		parent_window_token = politics_tab
 		visible = {
-			tag = cjf
+		OR = {
+			tag = CJF
+			tag = MMA
+			tag = GDC
+			tag = SIK
+			tag = JAP
+			tag = RCR
+			}
 		}
 		
 		effects = {

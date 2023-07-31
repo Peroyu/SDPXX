@@ -194,7 +194,7 @@ create_country_leader = {
 	desc = "CJF_Xv_ChongZhi_desc"
 	picture = portrait_CJF_Xv_ChongZhi
 	expire = "1999.1.1"
-	ideology = milanti_japry_system
+	ideology = military_system
 	traits = {
 		
 	}
