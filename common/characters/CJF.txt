@@ -1,4 +1,21 @@
 characters = {
+	CJF_Xv_ChongZhi={
+		name = "CJF_Xv_ChongZhi"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Xv_ChongZhi_g
+				large = GFX_portrait_CJF_Xv_ChongZhi_g
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious defensive_doctrine }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
 	CJF_li_zongren={
 		name = "CJF_li_zongren"
 		portraits = {

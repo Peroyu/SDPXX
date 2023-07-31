@@ -166,6 +166,11 @@
 		name = "portrait_CJF_Xv_ChongZhi"
 		texturefile = "gfx/leaders/CJF/portrait_CJF_Xv_ChongZhi.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Xv_ChongZhi_g"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Xv_ChongZhi_g.png"		
+	}
 	###############################################
 	
 	spriteType = {
