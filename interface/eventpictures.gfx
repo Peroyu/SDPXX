@@ -75,5 +75,21 @@ spriteTypes = {
 		name = "GFX_MMAlan6"
 		texturefile = "gfx/event_pictures/MMAlan6.dds"
 	}
+	spriteType = {
+		name = "GFX_GDCguangzhou"
+		texturefile = "gfx/event_pictures/GDCcanton1.png"
+	}
+	spriteType = {
+		name = "GFX_GDC2"
+		texturefile = "gfx/event_pictures/GDCcanton2.png"
+	}
+	spriteType = {
+		name = "GFX_GDCintro33"
+		texturefile = "gfx/event_pictures/GDCcanton3.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcanton4"
+		texturefile = "gfx/event_pictures/GDCcanton4.png"
+	}
 }
 

@@ -100,7 +100,7 @@ country_event = {
 	GDCintro.6 FROM = [From.GetName]" }
 	title = GDCintro.6.t
 	desc = GDCintro.6.d
-	picture = GFX_GDCintro
+	picture = GFX_GDC2
 	
 	is_triggered_only = yes
 	
@@ -126,7 +126,7 @@ country_event = {
 	GDCintro.7 FROM = [From.GetName]" }
 	title = GDCintro.7.t
 	desc = GDCintro.7.d
-	picture = GFX_GDCintro
+	picture = GFX_GDCguangzhou
 	is_triggered_only = yes
 	
 	immediate = {
@@ -960,7 +960,7 @@ country_event = {
 	GDC_war.1 FROM = [From.GetName]" }
 	title = GDC_war.1.t
 	desc = GDC_war.1.d
-	picture = GFX_GDCintro
+	picture = GFX_GDCintro33
 	
 	is_triggered_only = yes
 	
@@ -983,7 +983,7 @@ country_event = {
 	GDC_war.2 FROM = [From.GetName]" }
 	title = GDC_war.2.t
 	desc = GDC_war.2.d
-	picture = GFX_GDCintro
+	picture = GFX_GDCcanton4
 	
 	is_triggered_only = yes
 	
