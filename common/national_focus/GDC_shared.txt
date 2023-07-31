@@ -872,6 +872,10 @@ shared_focus = {
 		x = 20
 		y = 6
 		completion_reward = {
+			country_event = {
+				id = GDClcpc.9
+				days = 10
+			}
 			add_political_power = 20
 			custom_effect_tooltip = GDC_our_the_har_work
 			add_to_variable = { var = GDC.GDC_rural_city_add value = 2 }
