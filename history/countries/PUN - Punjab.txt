@@ -21,9 +21,9 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "君主会议"  # 
+	name = "默罕默德·阿巴斯·汗·阿巴西"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_PUN_mohanmod"  # 
 	expire = "1956.6.6"  # 
 	ideology =  # 
 	traits = {  # 
