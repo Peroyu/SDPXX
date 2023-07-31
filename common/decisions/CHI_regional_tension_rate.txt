@@ -38,11 +38,10 @@ CHI_regional_tension_rate = {
 		cancel_trigger = {
 		}
 		visible = {
-				alway = no
+			
 		}
           is_good = no    
-		  fire_only_once = yes               
-          days_mission_timeout = 5000              
+		  fire_only_once = yes              
         timeout_effect = { 
 		  country_event = {
                 id = CHIwar.1
@@ -55,6 +54,56 @@ CHI_regional_tension_rate = {
                 id = CHIwar.1
                 days = 1			
             	}
+        }
+	}
+	GDC_go_to_yuebei = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+			controls_state = 728
+		}
+		cancel_trigger = {
+		}
+		visible = {
+			tag = GDC
+			GDC = {
+				has_war_with = GNP
+			}
+		}
+          is_good = no    
+		  fire_only_once = yes      
+        complete_effect = {  
+			GDC = {                 
+            country_event = {
+                id = GDC_war.1
+                days = 1			
+            	}
+				add_state_core = 593
+			}
+        }
+	}
+	GDC_go_to_zhusanjiao = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+			controls_state = 592
+		}
+		cancel_trigger = {
+		}
+		visible = {
+			tag = GDC
+			GDC = {
+				has_war_with = GNP
+			}
+		}
+          is_good = no    
+		  fire_only_once = yes      
+        complete_effect = {   
+			GDC = {                
+            country_event = {
+                id = GDC_war.2
+                days = 1			
+            	}
+				
+			}
         }
 	}
 }
