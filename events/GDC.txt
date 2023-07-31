@@ -151,6 +151,7 @@ country_event = {
 	}
 	
 }
+
 country_event = {
     id = GDC.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -177,12 +178,10 @@ country_event = {
 country_event = {
 	id = GDC.3 #多难兴邦
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDC.4 FROM = [From.GetName]" }
+	GDC.3 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDC.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDC.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDC.3 FROM = [From.GetName]" }
     fire_only_once = yes #事件是否仅触发一次，默认为no）
     
 	hidden = no
@@ -201,11 +200,12 @@ country_event = {
 }
 #########################################################################
 country_event = {
-	id = GDCarm.1 #训练民兵
+	id = GDCarm.1#多难兴邦
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCarm.1 FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCarm.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    
     fire_only_once = yes #事件是否仅触发一次，默认为no）
     
 	hidden = no
@@ -215,6 +215,10 @@ country_event = {
 	}
     option = { 
         name = GDCarm.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		trigger = {
+			 original_tag = GDC 
+		}
+		
 	}
     
 }
