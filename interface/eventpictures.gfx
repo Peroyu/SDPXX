@@ -91,5 +91,18 @@ spriteTypes = {
 		name = "GFX_GDCcanton4"
 		texturefile = "gfx/event_pictures/GDCcanton4.png"
 	}
+	spriteType = {
+		name = "GFX_CJFCP1"
+		texturefile = "gfx/event_pictures/GFX_CJFCP1.png"
+	}
+	spriteType = {
+		name = "GFX_CJFCP3"
+		texturefile = "gfx/event_pictures/GFX_CJFCP3.png"
+	}
+	spriteType = {
+		name = "GFX_CKFCP2"
+		texturefile = "gfx/event_pictures/GFX_CKFCP2.png"
+	}
+	
 }
 
