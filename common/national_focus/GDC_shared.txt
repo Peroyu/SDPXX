@@ -124,9 +124,7 @@ shared_focus = {
 		y = 5
 		completion_reward = {
 			army_experience = 20
-			country_event = { 
-				days = 1  id = GDCarm.1
-				}
+			
 			swap_ideas = {
 				add_idea = GDC_liangguang_milltary_contrbute_3
 				remove_idea = GDC_liangguang_milltary_contrbute_2
@@ -172,6 +170,9 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDCarm.1
+				}
 			add_command_power = 20
 			create_corps_commander = {
 				name = "GDC_BaiChongXi"
