@@ -5,7 +5,7 @@ country_event = {
 	CJF_Cp.1 FROM = [From.GetName]" }
 	title = CJF_Cp.1.t
 	desc = CJF_Cp.1.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFCP1
 	
 	is_triggered_only = yes
 	
@@ -52,7 +52,7 @@ country_event = {
 	CJF_Cp.2 FROM = [From.GetName]" }
 	title = CJF_Cp.2.t
 	desc = CJF_Cp.2.d
-	picture = GFX_GDCintro
+	picture = GFX_CKFCP2
 	
 	is_triggered_only = yes
 	
@@ -93,7 +93,7 @@ country_event = {
 	CJF_Cp.20 FROM = [From.GetName]" }
 	title = CJF_Cp.20.t
 	desc = CJF_Cp.20.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFCP3
 	
 	is_triggered_only = yes
 	
