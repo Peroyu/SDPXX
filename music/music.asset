@@ -20,8 +20,8 @@ music = {
 }
 
 music = {
-	name = "ラ・ヴィ・アン・ローズ（愛の花びら）"
-	file = "ラ・ヴィ・アン・ローズ（愛の花びら）.ogg"
+	name = "ラ・ヴィ・アン・ローズ"
+	file = "ラ・ヴィ・アン・ローズ.ogg"
 	volume = 0.65
 }
 music = {
@@ -52,7 +52,7 @@ music = {
 }
 music = {
 	name = "maintheme"
-	file = "釣り落とした魚.ogg"
+	file = "maintheme.ogg"
 	volume = 0.65
 }
 music = {
