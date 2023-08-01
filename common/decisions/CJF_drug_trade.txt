@@ -5,9 +5,14 @@ CJF_drug_trade = {
 			    NOT = { has_idea = CJF_the_trade_of_opium }
 		    }
             visible = {
+                tag = CJF
+                has_completed_focus = CJF_patriotic_industry
+                NOT = { has_global_flag = CHI_continental_operation_began }
 			    has_idea = CJF_the_trade_of_opium
 		    }
             activation = {
+                has_completed_focus = CJF_patriotic_industry
+                NOT = { has_global_flag = CHI_continental_operation_began }
 			    has_idea = CJF_the_trade_of_opium
 		    }
             days_mission_timeout = 30

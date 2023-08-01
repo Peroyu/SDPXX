@@ -21,6 +21,7 @@ add_to_faction = IND
 add_to_faction = SHA
 add_to_faction = THA
 add_to_faction = BUR
+add_to_faction = LAO
 
 set_politics = {
 	ruling_party = reactionism

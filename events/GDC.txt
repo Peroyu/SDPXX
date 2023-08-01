@@ -704,6 +704,60 @@ country_event = {
 	}
     option = { 
         name = GDClcpc.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		40 = { 
+			country_event = {
+				id = GDClcpc.14
+				days = 1
+			}
+		} 
+		60 = { 
+			country_event = {
+				id = GDClcpc.15
+				days = 1
+			}
+		 }
+	}
+    
+}
+country_event = {
+	id = GDClcpc.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.14 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDClcpc.14.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDClcpc.14.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDClcpc.14.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		
+	}
+    
+}
+country_event = {
+	id = GDClcpc.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.15 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDClcpc.15.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDClcpc.15.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDClcpc.15.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		
 	}
     
 }
@@ -724,6 +778,63 @@ country_event = {
 	}
     option = { 
         name = GDClcpc.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		random_list = { 
+			40 = { 
+				country_event = {
+					id = GDClcpc.12
+					days = 1
+				}
+			} 
+			60 = { 
+				country_event = {
+					id = GDClcpc.13
+					days = 1
+				}
+			 } 
+		}
+		
+	}
+    
+}
+country_event = {
+	id = GDClcpc.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.12 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDClcpc.12.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDClcpc.12.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDClcpc.12.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
+		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+	}
+    
+}
+country_event = {
+	id = GDClcpc.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDClcpc.13 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDClcpc.13.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDClcpc.13.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+    
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDClcpc.13.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
 	}

@@ -454,51 +454,22 @@ shared_focus = {
 		x = 6
 		y = 8
 		completion_reward = {
-		   	if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "CJF_Sun_Fo" }
-				}
-				load_focus_tree = {
-		        	tree =  CJF_third
-		        	keep_completed = no
-		    	}
+		   	country_event = {
+				id = CJF_kmtdebate.1
+				days = 1
+
 			}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "CJF_Xv_ChongZhi" }
-				}
-				load_focus_tree = {
-		        	tree = CJF_Xv
-		        	keep_completed = no
-		    	}
-			}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "CJF_Chen_GongBo" }
-				}
-				load_focus_tree = {
-		        	tree = CJF_Chen
-		        	keep_completed = no
-		    	}
-			}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "CJF_Dai_JiTao" }
-				}
-				load_focus_tree = {
-		        	tree = CJF_Dai
-		        	keep_completed = no
-		    	}
-			}
-		}
+		} 
 	}
-################################################################################################################3333
 shared_focus = {
 		id = CJF_The_time_has_come
 		icon = GFX_CJF_The_time_has_come
 		cost = 1
+		prerequisite = {
+			focus = CJF_go_outside
+		}
 		x = 6
-		y = 0
+		y = 9
 	}
 shared_focus = {
 		id = CJF_trip_to_kunming
@@ -508,7 +479,7 @@ shared_focus = {
 			focus = CJF_The_time_has_come
 		}
 		x = 4
-		y = 1
+		y = 10
 
 	}
 shared_focus = {
@@ -519,7 +490,7 @@ shared_focus = {
 			focus = CJF_The_time_has_come
 		}
 		x = 8
-		y = 1
+		y = 10
 
 	}
 shared_focus = {
@@ -533,7 +504,7 @@ shared_focus = {
 			focus = CJF_trip_to_kunming
 		}
 		x = 6
-		y = 2
+		y = 11
 
 	}
 shared_focus = {
@@ -544,7 +515,7 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		x = 2
-		y = 3
+		y = 12
 
 	}
 shared_focus = {
@@ -555,7 +526,7 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		x = 6
-		y = 3
+		y = 12
 
 	}
 shared_focus = {
@@ -566,7 +537,7 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		x = 10
-		y = 3
+		y = 12
 
 	}
 shared_focus = {
@@ -577,7 +548,7 @@ shared_focus = {
 			focus = CJF_reduce_tax
 		}
 		x = 1
-		y = 4
+		y = 13
 		mutually_exclusive = {
 			focus = CJF_advice_of_sunfo
 		}
@@ -593,7 +564,7 @@ shared_focus = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
 		x = 3
-		y = 4
+		y = 13
 
 	}
 shared_focus = {
@@ -604,7 +575,7 @@ shared_focus = {
 			focus = CJF_remind_unite
 		}
 		x = 6
-		y = 4
+		y = 13
 
 	}
 shared_focus = {
@@ -615,7 +586,7 @@ shared_focus = {
 			focus = CJF_activate_the_east_china_network
 		}
 		x = 9
-		y = 4
+		y = 13
 
 	}
 shared_focus = {
@@ -626,7 +597,7 @@ shared_focus = {
 			focus = CJF_activate_the_east_china_network
 		}
 		x = 11
-		y = 4
+		y = 13
 
 	}
 shared_focus = {
@@ -637,7 +608,7 @@ shared_focus = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
 		x = 1
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -648,7 +619,7 @@ shared_focus = {
 			focus = CJF_advice_of_sunfo
 		}
 		x = 3
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -659,7 +630,7 @@ shared_focus = {
 			focus = CJF_rebuild_international_connection
 		}
 		x = 5
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -670,7 +641,7 @@ shared_focus = {
 			focus = CJF_rebuild_international_connection
 		}
 		x = 7
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -684,7 +655,7 @@ shared_focus = {
 			focus = CJF_exchange_information_with_CPC
 		}
 		x = 9
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -698,7 +669,7 @@ shared_focus = {
 			focus = CJF_exchange_information_with_CPC
 		}
 		x = 11
-		y = 5
+		y = 14
 
 	}
 shared_focus = {
@@ -709,7 +680,7 @@ shared_focus = {
 			focus = CJF_guide_the_place
 		}
 		x = 1
-		y = 6
+		y = 15
 
 	}
 shared_focus = {
@@ -720,7 +691,7 @@ shared_focus = {
 			focus = CJF_encourage_charity
 		}
 		x = 3
-		y = 6
+		y = 15
 
 	}
 shared_focus = {
@@ -734,7 +705,7 @@ shared_focus = {
 			focus = CJF_to_mosecow
 		}
 		x = 6
-		y = 6
+		y = 15
 
 	}
 shared_focus = {
@@ -748,7 +719,7 @@ shared_focus = {
 			focus = CJF_old_hatred_still
 		}
 		x = 10
-		y = 6
+		y = 15
 
 	}
 shared_focus = {
@@ -762,7 +733,7 @@ shared_focus = {
 			focus = CJF_total_showdown
 		}
 		x = 8
-		y = 7
+		y = 16
 
 	}
 shared_focus = {
@@ -773,7 +744,7 @@ shared_focus = {
 			focus = CJF_set_professional_associations
 		}
 		x = 1
-		y = 7
+		y = 16
 
 	}
 shared_focus = {
@@ -784,7 +755,7 @@ shared_focus = {
 			focus = CJF_preparation_of_provincial_advisory_bureau
 		}
 		x = 3
-		y = 7
+		y = 16
 
 	}
 shared_focus = {
@@ -796,7 +767,7 @@ shared_focus = {
 			focus = CJF_deepen_discipline
 		}
 		x = 2
-		y = 8
+		y = 17
 
 	}
 shared_focus = {
@@ -810,7 +781,7 @@ shared_focus = {
 			focus = CJF_stand_up
 		}
 		x = 5
-		y = 9
+		y = 18
 
 	}
 ##########################milltary##############################################################3

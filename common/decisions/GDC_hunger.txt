@@ -8,7 +8,11 @@ GDC_hunger = {
 		  visible = {
 		   tag = GDC
        has_country_flag = GDC_hunger_on_going
+       has_idea = GDC_hunger
 		  }
+      activation = {
+        has_idea = GDC_hunger
+      }
 		  cancel_trigger = {
 		   
 		  }
