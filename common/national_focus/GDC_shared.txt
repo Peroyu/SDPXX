@@ -1056,6 +1056,7 @@ shared_focus = {
 			add_political_power = 10
 			add_manpower = 500
 			army_experience = 30
+			
 		}
 	}
 shared_focus = {
@@ -1315,6 +1316,9 @@ shared_focus = {
 		}
 		completion_reward = {
 			set_capital = { state = 889 }
+			remove_idea = GDC_none_pact_peace
+			add_political_power = 50
+			country_event = { days = 1 id = GDCcp.0 }
 		}
     }
 shared_focus = {
@@ -1327,7 +1331,7 @@ shared_focus = {
 		x = 4
 		y = 1
 		completion_reward = {
-			country_event = { days = 1 id = GDCcp.1 }
+			
 		}
 	}
 shared_focus = {
@@ -1340,7 +1344,7 @@ shared_focus = {
 		x = 8
 		y = 1
 		completion_reward = {
-			country_event = { days = 1 id = GDCcp.2 }
+			
 		}
 	}
 shared_focus = {
@@ -1353,7 +1357,7 @@ shared_focus = {
 		x = 12
 		y = 1
 		completion_reward = {
-			country_event = { days = 1 id = GDCcp.3 }
+			
 		}
 	}
 shared_focus = {
