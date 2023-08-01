@@ -15,11 +15,8 @@ state={
 
 		}
 		victory_points = {
-			7240 10 
+			7240 1 
 		}
-		victory_points = {
-		   2030 5
-        }
 	}
 	manpower=20000000
 	state_category=city

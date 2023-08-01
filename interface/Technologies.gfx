@@ -3,6 +3,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_specialists_tab"
 		texturefile = "gfx/interface/GFX_specialists_tab.dds"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 
 	SpriteType = {

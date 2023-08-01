@@ -720,26 +720,7 @@ guiTypes = {
 				Orientation = "LOWER_LEFT"
 			}
 
-			buttonType = {
-				name = "back_button"
-				position = { x = 24 y = -48 }
-				clicksound = click_close
-				quadTextureSprite ="GFX_button_221x34"
-				buttonFont = "hoi_16mbs"
-				Orientation = "LOWER_LEFT"
-				buttonText = "OPEN_COUNTRY_LIST"
-				clicksound = click_close
-			}
-
-			buttonType = {
-				name = "logistics_button"
-				position = { x = 296 y = -48 }
-				quadTextureSprite ="GFX_button_221x34"
-				buttonFont = "hoi_16mbs"
-				Orientation = "LOWER_LEFT"
-				buttonText = "OPEN_COUNTRY_LOGISTICS"
-				clicksound = click_close
-			}
+			
 
 		}
 
@@ -841,25 +822,7 @@ guiTypes = {
 					spriteType ="GFX_diplo_countrylist_binding"
 				}
 
-				buttonType = {
-					name = "sort_alphabetical"
-					quadTextureSprite ="GFX_sort_button_202x29"
-					font = "hoi_18mbs"
-					text = "COUNTRYLIST_LABEL"
-					position = { x= 10 y = 2 }
-				}
-
-				buttonType = {
-					name = "opinion_flag1"
-					quadTextureSprite ="GFX_flag_small"
-					position = { x= 245 y = 4 }
-				}
-
-				buttonType = {
-					name = "opinion_flag2"
-					quadTextureSprite ="GFX_flag_small"
-					position = { x= 307 y = 4 }
-				}
+				
 
 				iconType ={
 					name ="our_opinion_icon"
@@ -943,13 +906,13 @@ guiTypes = {
 		}
 	}
 
-	containerWindowType = {
+	containerWindowType = { #################################################################################################################
 		name = "diplomacy_action_entry"
 		position = { x=0 y=0}
 		size = { width = 228 height = 28 }
 		clipping = no
 
-		buttonType = {
+		iconType = {
 			name = "diplo_actions_entry_bg"
 			quadTextureSprite ="GFX_diplo_actions_bg"
 			position = { x = 2 y = 0 }
@@ -970,23 +933,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		instantTextboxType = {
-			name = "cost"
-			position = { x = 125 y = 5 }
-			textureFile = ""
-			font = "hoi_16mbs"
-			borderSize = { x = 0 y = 0 }
-			text = ""
-			maxWidth = 100
-			maxHeight = 20
-			format = right
-		}
-
-		iconType = {
-			name = "accept_icon"
-			position = { x = 204 y = 4 }
-			spriteType ="GFX_accept_decline_icon"
-		}
+		
 	}
 
 	containerWindowType = {

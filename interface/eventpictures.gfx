@@ -103,6 +103,10 @@ spriteTypes = {
 		name = "GFX_CKFCP2"
 		texturefile = "gfx/event_pictures/GFX_CKFCP2.png"
 	}
+	spriteType = {
+		name = "GFX_CJF_yunnanguifu"
+		texturefile = "gfx/event_pictures/GFX_CJF_yunnanguifu.png"
+	}
 	
 }
 

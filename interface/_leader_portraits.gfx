@@ -564,6 +564,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "GFX_KAR_portrait_Mir_Ahmadzai"
+		texturefile = "gfx/leaders/INDIA/GFX_KAR_portrait_Mir_Ahmadzai.png"		
+	}
+
+	spriteType = {
 		name = "GFX_BRA_portrait_Getulio_Vargas"
 		texturefile = "gfx/leaders/Latin_America/BRA_portrait_Getulio_Vargas.png"		
 	}

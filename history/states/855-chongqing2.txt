@@ -10,7 +10,7 @@ state={
             rail_way = 2
 		}
 		victory_points = {
-			11865 10
+			11865 2
 		}
 		set_demilitarized_zone = yes
 

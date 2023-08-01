@@ -76,9 +76,11 @@ country_event = {
 		CJF = {
 			change_tag_from = ROOT
 		  }
-		CJF = {annex_country = { 
-			target = DJF
-			transfer_troops = yes}
+		CJF = {
+			country_event = {
+				id = CJF_kmtdebate.2
+				days = 1
+			}
 		}
 		name = DJF_dip.1.b
 	}

@@ -15,10 +15,10 @@ state={
 
 		}
 		victory_points = {
-			1367 5 
+			1367 1 
 		}
 		victory_points = {
-		   10132 5
+		   10132 1
         }
 	}
 	state_category=large_town

@@ -11,12 +11,8 @@ state={
             rail_way = 3
 		}
 		victory_points = {
-			4431 20 
+			4431 1 
 		}
-		victory_points ={
-		    1893 10
-		}
-		set_demilitarized_zone = yes
 
 	}
 	provinces={
