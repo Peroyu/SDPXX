@@ -6,7 +6,7 @@ country_event = {
 	CHIwar.1 FROM = [From.GetName]" }
 	title = CHIwar.1.t
 	desc = CHIwar.1.d
-	picture = GFX_CHIwar.1
+	picture = GFX_CHIwar1
 	
 	is_triggered_only = yes
 	
@@ -33,7 +33,7 @@ country_event = {
 			JAP = {
 				country_event = {
 					id = CHIwar.2
-					days = 100
+					days = 10
 				}
 			}
 		}
@@ -58,7 +58,7 @@ country_event = {
 	CHIwar.2 FROM = [From.GetName]" }
 	title = CHIwar.2.t
 	desc = CHIwar.2.d
-	picture = GFX_CHIwar.1
+	picture = GFX_CHIwar2
 	
 	is_triggered_only = yes
 	
@@ -73,6 +73,10 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.2.a
+		news_event = {
+			id = CHI_war.1
+			days = 1
+		}
 		declare_war_on = { target = CJF type = puppet_wargoal_focus }
 	}
 	

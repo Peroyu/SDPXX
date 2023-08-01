@@ -107,6 +107,13 @@ spriteTypes = {
 		name = "GFX_CJF_yunnanguifu"
 		texturefile = "gfx/event_pictures/GFX_CJF_yunnanguifu.png"
 	}
-	
+	spriteType = {
+		name = "GFX_CHIwar1"
+		texturefile = "gfx/event_pictures/GFX_CHIwar1.png"
+	}
+	spriteType = {
+		name = "GFX_CHIwar2"
+		texturefile = "gfx/event_pictures/GFX_CHIwar2.png"
+	}
 }
 
