@@ -325,10 +325,13 @@ country_event = {
 		add_to_variable = { var = GDC.GDC_crop_reserves value = -200 }
 		add_to_variable = { var = GDC.GDC_crop_produce value = 12 }
 		add_to_variable = { var = GDC.GDC_hunger_rural value = -10 }
+		custom_effect_tooltip = GDC_hunger_relive_1
+		custom_effect_tooltip = GDC_hunger_relive_4
 	}
 	option = { 
         name = GDClkmt.3.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_hunger_rural value = 2 }
+		custom_effect_tooltip = GDC_hunger_relive_1
 	}
     
 }
@@ -353,6 +356,8 @@ country_event = {
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
 		add_to_variable = { var = GDC.GDC_hunger_city value = -1 }
 		add_to_variable = { var = GDC.GDC_hunger_rural value = -1 }
+		custom_effect_tooltip = GDC_hunger_relive_1
+		custom_effect_tooltip = GDC_hunger_relive_2
 	}
 	option = { 
         name = GDClkmt.4.b   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
@@ -381,6 +386,7 @@ country_event = {
 		add_to_variable = { var = GDC.GDC_crop_reserves value = -50 }
 		add_to_variable = { var = GDC.GDC_crop_gain value = -10 }
 		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -5 }
+		custom_effect_tooltip = GDC_hunger_relive_1
 	}
     
 }
@@ -463,6 +469,7 @@ country_event = {
 		}
 		name = GDClkmt.7.a
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 100 }
+		custom_effect_tooltip = GDC_hunger_relive_3
 	}
 	
 }
@@ -546,6 +553,8 @@ country_event = {
         name = GDCmcpc.2.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_produce value = 5 }
 		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
+		custom_effect_tooltip = GDC_hunger_relive_4
+		custom_effect_tooltip = GDC_hunger_relive_1
 	}
     
 }
@@ -569,6 +578,8 @@ country_event = {
 		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
 		add_to_variable = { var = GDC.GDC_rural_hunger_add value = 1 }
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+		custom_effect_tooltip = GDC_hunger_relive_1
+		custom_effect_tooltip = GDC_hunger_relive_2
 	}
     
 }
@@ -815,6 +826,7 @@ country_event = {
         name = GDClcpc.12.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+		custom_effect_tooltip = GDC_hunger_relive_3
 	}
     
 }
@@ -837,6 +849,7 @@ country_event = {
         name = GDClcpc.13.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
+		custom_effect_tooltip = GDC_hunger_relive_3
 	}
     
 }
@@ -858,6 +871,7 @@ country_event = {
     option = { 
         name = GDClcpc.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 75 }
+		custom_effect_tooltip = GDC_hunger_relive_3
 	}
     
 }
@@ -880,6 +894,7 @@ country_event = {
         name = GDClcpc.5.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_gain value = -5 }
 		add_to_variable = { var = GDC.GDC_rural_hunger_add value = -3 }
+		custom_effect_tooltip = GDC_hunger_relive_1
 	}
     
 }

@@ -48,7 +48,7 @@ GDC_hunger = {
           days_remove = 10
           remove_effect = {
             add_to_variable = { var = GDC.GDC_hunger_city value = -2 }
-               
+            custom_effect_tooltip = GDC_hunger_relive_1
           }
           ai_will_do = {
 					base = 10#ai点选这个决议的意愿
@@ -67,7 +67,7 @@ GDC_hunger = {
           }
           days_remove = 10
           remove_effect = {
-              
+            custom_effect_tooltip = GDC_hunger_relive_3
               add_to_variable = { var = GDC.GDC_hunger_city value = 4 }
           }
           ai_will_do = {
@@ -92,7 +92,7 @@ GDC_hunger = {
           days_remove = 10
           remove_effect = {
             add_to_variable = { var = GDC.GDC_hunger_rural value = -2 }
-              
+            custom_effect_tooltip = GDC_hunger_relive_2
           }
           ai_will_do = {
 					base = 10#ai点选这个决议的意愿
@@ -110,6 +110,7 @@ GDC_hunger = {
           complete_effect = {
                add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
               add_to_variable = { var = GDC.GDC_hunger_rural value = 4 }
+              custom_effect_tooltip = GDC_hunger_relive_3
           }
           days_remove = 10
           remove_effect = {
@@ -138,6 +139,7 @@ GDC_hunger = {
           days_remove = 10
           remove_effect = {
               add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
+              custom_effect_tooltip = GDC_hunger_relive_3
           }
           ai_will_do = {
 					base = 20#ai点选这个决议的意愿
@@ -161,6 +163,7 @@ GDC_hunger = {
           days_remove = 10
           remove_effect = {
               add_to_variable = { var = GDC.GDC_crop_reserves value = 50 }
+              custom_effect_tooltip = GDC_hunger_relive_3
           }
           ai_will_do = {
 					base = 20#ai点选这个决议的意愿

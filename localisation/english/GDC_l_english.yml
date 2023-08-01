@@ -417,6 +417,10 @@
  start_wealth_reorganise_plan:"组织社会支援"
  hunger_support_NRA:"调集资源予国民革命军"
  annouce_hunger_crisis_stop_desc:"完成这一决议需要：\n城市供应紧张度优于§Y供应短缺§!\n农村供应紧张度优于§Y供应短缺§!"
+ GDC_hunger_relive_1:"§G城市粮食供应状况将缓解……§!"
+ GDC_hunger_relive_2:"§G农村粮食供应状况将缓解……§!"
+ GDC_hunger_relive_3:"§G这将增加我们的粮食存量§!"
+ GDC_hunger_relive_4:"§G这将增加我们的粮食供给§!"
 
  GDC_anti_infultrate:"反渗透策略"
  GDC_anti_infultrate_desc:"敌人当然不是傻子，他们也有特务和汉奸，他们也会有渗透行动。但是我们可以通过搜捕与检举的形式来抓住他们，就像他们做的那样。"
