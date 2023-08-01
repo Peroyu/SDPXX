@@ -341,7 +341,7 @@ country_event = {
     desc = GDClkmt.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
     fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
+    9
 	hidden = no
 	immediate = {
 	    hidden_effect = {

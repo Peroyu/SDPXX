@@ -1,4 +1,4 @@
-capital = 685 # 
+capital = 304 # 
 
 obb = "PAC_1947"  # 
 
@@ -16,20 +16,21 @@ set_politics = {
 }
 # 
 set_popularities = {
- reactionism = 45
+ reactionism = 25
+ conservatism = 20
  nationalism = 25
- left_radicalism = 2
- conservatism = 13
- liberalism = 15
+ moderate_socialism = 2
+ movement_communism = 13
+ Liberalism = 15
 }
 
 # 
 create_country_leader = {
-	name = "奥马尔·布莱德雷"  # 
+	name = "巴拿马临时政府"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_PAC_temprorey_gov"  # 
 	expire = "1981.4.8"  # 
-	ideology = reactionism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

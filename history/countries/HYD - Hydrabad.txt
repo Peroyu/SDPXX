@@ -16,8 +16,12 @@ set_politics = {
 }
 # 
 set_popularities = {
- conservatism = 80
- reactionism = 20
+ conservatism = 36
+ reactionism = 24
+ moderate_socialism = 6
+ Liberalism = 14
+ movement_communism = 10
+ restorativeism = 10
 }
 add_ideas = {
  tot_economic_mobilisation
@@ -28,11 +32,11 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "君主会议"  # 
+	name = "阿萨夫·贾赫七世"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_HYD_portrait_Ahmadzai"  # 
 	expire = "1956.6.6"  # 
-	ideology =  # 
+	ideology =  authoritarian_democracy# 
 	traits = {  # 
 	}
 }

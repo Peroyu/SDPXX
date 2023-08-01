@@ -9,8 +9,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Liberalism = 97
+	Liberalism = 27
 	communism = 3
+	social_democracy = 10
+	movement_communism = 20
+	conservatism = 20
+	reactionism = 20
 }
 create_country_leader = {
 	name = "何塞·瓦伊拉"  # 

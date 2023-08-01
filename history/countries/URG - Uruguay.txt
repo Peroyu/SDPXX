@@ -9,7 +9,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Liberalism = 97
+	Liberalism = 26
+	reactionism = 21
+	conservatism = 20
+	movement_communism = 16
+	social_democracy = 14
 	communism = 3
 }
 create_country_leader = {

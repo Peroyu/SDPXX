@@ -532,6 +532,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_AZB_sem.png"		
 	}
 
+	spriteType = {
+		name = "GFX_portrait_TUN_Bourguiba"
+		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_TUN_Bourguiba.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"
@@ -546,6 +551,11 @@ spriteType = {
 	spriteType = {
 		name = "portrait_FID_Bose"
 		texturefile = "gfx/leaders/INDIA/portrait_FID_Bose.png"		
+	}
+
+	spriteType = {
+		name = "GFX_HYD_portrait_Ahmadzai"
+		texturefile = "gfx/leaders/INDIA/GFX_HYD_portrait_Ahmadzai.png"		
 	}
 
 	spriteType = {
@@ -571,6 +581,16 @@ spriteType = {
 	spriteType = {
 		name = "portrait_ECU_Jose_Velasco"
 		texturefile = "gfx/leaders/Latin_America/portrait_ECU_Jose_Velasco.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PAC_temprorey_gov"
+		texturefile = "gfx/leaders/Latin_America/GFX_portrait_PAC_temprorey_gov.png"		
+	}
+
+	spriteType = {
+		name = "GFX_CAR_portrait_parliament"
+		texturefile = "gfx/leaders/Latin_America/GFX_CAR_portrait_parliament.png"		
 	}
 
 	spriteType = {

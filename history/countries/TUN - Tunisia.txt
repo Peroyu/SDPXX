@@ -16,21 +16,21 @@ set_politics = {
 }
 # 
 set_popularities = {
- reactionism = 25
+	reactionism = 25
  nationalism = 24
- restoratveism = 16
- left_radicalism = 14
+ restorativeism = 16
+ Liberalism = 14
  conservatism = 12
- democratic_communism = 8
+ movement_communism = 9
 }
 
 # 
 create_country_leader = {
-	name = "默罕默德八世·艾敏"  # 
+	name = "哈比卜·布尔吉巴"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_TUN_Bourguiba"  # 
 	expire = "1953.4.30"  # 
-	ideology = reactionism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}
