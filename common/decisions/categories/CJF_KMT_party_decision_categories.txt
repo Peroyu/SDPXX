@@ -12,4 +12,5 @@ CJF_KMT_party_decision_categories = {
         }
         priority = 10000
 		allowed = { original_tag = CJF }
+	visible_when_empty = yes
     }

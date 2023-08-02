@@ -49,6 +49,12 @@ country_event = {
 			}
 			custom_effect_tooltip = CHIwar_100days
 		}
+		else_if = {
+			limit = {
+				tag = SIK	
+			}
+			custom_effect_tooltip = CHIwar_100days
+		}
 	}
 	
 }

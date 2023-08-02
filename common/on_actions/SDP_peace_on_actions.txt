@@ -200,9 +200,11 @@ on_actions = {
 							original_tag = SHA
 						}
 					}
-
+					every_country = {
+						limit = { has_war_with = SHA }
+						white_peace = SHA
+					}
 					FROM = {
-						white_peace = ROOT
 
 						KTR = {
 							annex_country = {

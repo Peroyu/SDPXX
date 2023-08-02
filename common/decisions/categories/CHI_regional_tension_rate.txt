@@ -4,18 +4,24 @@ CHI_regional_tension_rate = {
 	picture = 
 
 	visible = {
+		OR = {
 			tag = GDC
 			tag = CJF
-			tag = XKS
 			tag = RCR
-			tag = DJF
 			tag = JAP
+			tag = MMA
 			tag = SIK
-			tag = MEN
-			tag = MAN
-			tag = GNP
-			tag = FNC
+			}
 		}
+	allowed = {
+		OR = {
+			original_tag = GDC
+			original_tag = CJF
+			original_tag = MMA
+			original_tag = SIK
+			}
+		}
+	
 	priority = 1000
 
 	scripted_gui = CHI_regional_tension_rate
