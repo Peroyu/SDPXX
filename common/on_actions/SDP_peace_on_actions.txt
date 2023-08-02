@@ -193,7 +193,7 @@ on_actions = {
 						FROM = {
 							OR = {
 								original_tag = MMA
-								is_in_faction_with = MMA
+								original_tag = KTR
 							}
 						}
 						ROOT = {
@@ -203,20 +203,22 @@ on_actions = {
 
 					FROM = {
 						white_peace = ROOT
+
+						KTR = {
+							annex_country = {
+								target = ROOT
+								transfer_troops = no
+							}
+						}
+						MMA = {
+							country_event = {
+								id = MMA.2
+								days = 1
+							}
+						}
 					}
 
-					KTR = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-					}
-					MMA = {
-						country_event = {
-							id = MMA.2
-							days = 1
-						}
-					}
+					
 
 					set_global_flag = skip_default_capitulation
 				}

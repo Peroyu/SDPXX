@@ -24,11 +24,33 @@ INDIA_civilwar = {
 		}
         cost = 10
         complete_effect = {
+            declare_war_on = { target = HYD type = take_state }
 			HYD = {
                 country_event = { 
 				days = 1  id = indu_civilwar.2
 				}
             }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
+    INDIA_threat_hydrabad_2 = {
+        icon = 
+        fire_only_once = yes
+        available = {
+			tag = FID
+            country_exists = HYD
+            HYD = {
+                has_war = yes
+            }
+		}
+        allowed = {
+			original_tag = FID
+		}
+        cost = 10
+        complete_effect = {
+            declare_war_on = { target = HYD type = take_state }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿

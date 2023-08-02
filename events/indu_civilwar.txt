@@ -69,8 +69,6 @@ country_event = {
 				autonomy_state = autonomy_puppet
 			}
 		}
-		declare_war_on = { target = FID type = take_state }
-		declare_war_on = { target = RAJ type = take_state }
 		}
 		name = indu_civilwar.2.a
 	}

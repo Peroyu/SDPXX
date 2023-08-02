@@ -1520,7 +1520,7 @@ country_event = { #选举
 			has_country_flag = GDC_He_Xiangning_election
 			check_variable = { #检查变量大小
 			var = GDC_KMT_support_valve
-			value = [?GDC_CPC_support_valve]
+			value = GDC_CPC_support_valve
 			compare = greater_than
 		}
 		}
@@ -1538,7 +1538,7 @@ country_event = { #选举
 			has_country_flag = GDC_Li_Jishen_election
 			check_variable = { #检查变量大小
 			var = GDC_KMT_support_valve
-			value = [?GDC_CPC_support_valve]
+			value = GDC_CPC_support_valve
 			compare = greater_than
 		}
 		}
@@ -1556,7 +1556,7 @@ country_event = { #选举
 			has_country_flag = GDC_Li_lisan_election
 			check_variable = { #检查变量大小
 			var = GDC_KMT_support_valve
-			value = [?GDC_CPC_support_valve]
+			value = GDC_CPC_support_valve
 			compare = less_than
 		}
 		}
@@ -1570,7 +1570,7 @@ country_event = { #选举
 			has_country_flag = GDC_Yang_Paoan_election
 			check_variable = { #检查变量大小
 			var = GDC_KMT_support_valve
-			value = [?GDC_CPC_support_valve]
+			value = GDC_CPC_support_valve
 			compare = less_than
 		}
 		}

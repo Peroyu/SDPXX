@@ -119,9 +119,7 @@ country_event = {
 		   base = 100
 		}
 		name = XKS.4.a
-		TIB = {
-			country_event = { id = TIB.1 days = 1 }
-			}
+		
 	}
 	
 }
