@@ -965,7 +965,6 @@ shared_focus = {
 				idea = GDC_moving_countryside 
 				days = 180 
 				}
-			remove_ideas = GDC_Conflicts_with_Natives
 			army_experience = -20
 			custom_effect_tooltip = GDC_NRA_faer
 		}
@@ -1316,9 +1315,9 @@ shared_focus = {
 		}
 		completion_reward = {
 			set_capital = { state = 889 }
-			remove_idea = GDC_none_pact_peace
 			add_political_power = 50
-			country_event = { days = 1 id = GDCcp.0 }
+			country_event = { days = 1 id = GDCcp.8 }
+			
 		}
     }
 shared_focus = {
@@ -1337,6 +1336,7 @@ shared_focus = {
 				popularity = 0.02
 			}
 			custom_effect_tooltip = GDC_Chiang_1
+			country_event = { days = 1 id = GDCcp.9 }
 		}
 	}
 shared_focus = {
@@ -1350,7 +1350,7 @@ shared_focus = {
 		y = 1
 		completion_reward = {
 			add_political_power = 20
-			country_event = { days = 1 id = GDCcp.1 }
+			country_event = { days = 1 id = GDCcp.10 }
 		}
 	}
 shared_focus = {
@@ -1364,7 +1364,7 @@ shared_focus = {
 		y = 1
 		completion_reward = {
 			add_political_power = 20
-			country_event = { days = 1 id = GDCcp.2 }
+			country_event = { days = 1 id = GDCcp.11 }
 		}
 	}
 shared_focus = {
@@ -1385,10 +1385,7 @@ shared_focus = {
 		completion_reward = {
 			add_political_power = 20
 			add_research_slot = 1
-			country_event = { days = 14 id = GDCcp.3 } #广州选区
-			country_event = { days = 28 id = GDCcp.4 } #
-			country_event = { days = 42 id = GDCcp.5 } #
-			country_event = { days = 56 id = GDCcp.6 } #
+			country_event = { days = 1 id = GDCcp.0 }
 		}
 	}
 shared_focus = {
@@ -1402,22 +1399,11 @@ shared_focus = {
 		y = 3
 		completion_reward = {
 			add_ideas = GDC_running_industry_idea
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes 
-				}
+			country_event = {
+				id = GDCcp.4
+				days = 1
 			}
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes 
-				}
-			}
+			add_political_power = 20
 		}
 	}
 shared_focus = {
@@ -1432,6 +1418,10 @@ shared_focus = {
 		completion_reward = {
 			add_political_power = 20
 			add_stability = 0.07
+			country_event = {
+				id = GDCcp.6
+				days = 1
+			}
 			add_ideas = GDC_promise_people_idea
 		}
 	}
@@ -1476,48 +1466,23 @@ shared_focus = {
 shared_focus = {
 		id = GDC_fly_the_flag
 		icon = GFX_GDC_fly_the_flag
-		cost = 2
+		cost = 3
 		prerequisite = {
 			focus = GDC_promise_to_people
 		}
         prerequisite = {
 			focus = GDC_sit_down_in_turns
 		}
+		select_effect = {
+			country_event = { days = 14 id = GDCcp.2 }
+			country_event = { days = 7 id = GDCcp.1 }
+		}
 		x = 8
 		y = 5
 		completion_reward = {
 			custom_effect_tooltip = GDC_the_next_step_custom
 			add_political_power = 50
-			if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "李济深" }
-					}
-				load_focus_tree = {
-		        		tree = GDC_Li_Jishen_national_focus_tree
-		        		keep_completed = no
-		    		}
-				}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "何香凝" }
-				}
-				load_focus_tree = {
-		        		tree = GDC_He_Xiangning_national_focus_tree
-		        		keep_completed = no
-		    		}
-			}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "李立三" }
-				}
-				
-			}
-			else_if = {
-				limit = {
-					has_country_leader = { ruling_only = yes name = "杨匏安" }
-				}
-				
-			}
+			country_event = { days = 1 id = GDCcp.12 }
 		}
 	}
 ###############################################################################################################################################################333

@@ -195,7 +195,53 @@ country_event = {
 		   base = 100
 		}
 		add_manpower = -3
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.02
+		}
 		name = GDC.5.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_manpower = -45
+		add_popularity = {
+			ideology = communism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.02
+		}
+		name = GDC.5.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_manpower = -100
+		add_popularity = {
+			ideology = communism
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.04
+		}
+		name = GDC.5.c
 	}
 	
 }
@@ -1072,6 +1118,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_variable = { var = GDC_CPC_support_valve value = [?party_popularity@committee_communism|%0] }
 		}
     }
 	option = { 
@@ -1111,6 +1158,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_variable = { var = GDC_KMT_support_valve value = [?party_popularity@moderate_socialism|%0] }
 		}
     }
 	option = { 
@@ -1158,24 +1206,17 @@ country_event = {
 		   base = 100
 		}
 		
-		custom_effect_tooltip = GDC_LKMT_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_He_Xiangning_election
-				}
-			add_popularity = {
-					ideology = moderate_socialism
-					popularity = 0.04
-				}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes 
 			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Li_Jishen_election
-			}
-			add_popularity = {
-				ideology = social_democracy
-				popularity = 0.04
-			}
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
 		}
 		name = GDCcp.3.a
 	}
@@ -1183,24 +1224,17 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_MCPC_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_Li_lisan_election
-				}
-				add_popularity = {
-					ideology = committee_communism
-					popularity = 0.04
-				}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes 
 			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Yang_Paoan_election
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.04
-			}
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
 		}
 		name = GDCcp.3.b
 	}
@@ -1223,24 +1257,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_LKMT_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_He_Xiangning_election
-				}
-			add_popularity = {
-					ideology = moderate_socialism
-					popularity = 0.04
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Li_Jishen_election
-			}
-			add_popularity = {
-				ideology = social_democracy
-				popularity = 0.04
-			}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.04
 		}
 		name = GDCcp.4.a
 	}
@@ -1248,24 +1271,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_MCPC_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_Li_lisan_election
-				}
-				add_popularity = {
-					ideology = committee_communism
-					popularity = 0.04
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Yang_Paoan_election
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.04
-			}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.04
 		}
 		name = GDCcp.4.b
 	}
@@ -1288,24 +1300,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_LKMT_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_He_Xiangning_election
-				}
-			add_popularity = {
-					ideology = moderate_socialism
-					popularity = 0.04
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Li_Jishen_election
-			}
-			add_popularity = {
-				ideology = social_democracy
-				popularity = 0.04
-			}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.04
 		}
 		name = GDCcp.5.a
 	}
@@ -1313,24 +1314,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_MCPC_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_Li_lisan_election
-				}
-				add_popularity = {
-					ideology = committee_communism
-					popularity = 0.04
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Yang_Paoan_election
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.04
-			}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.04
 		}
 		name = GDCcp.5.b
 	}
@@ -1353,32 +1343,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_LKMT_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_He_Xiangning_election
-				}
-			add_popularity = {
-					ideology = moderate_socialism
-					popularity = 0.04
-				}
-				add_popularity = {
-					ideology = social_democracy
-					popularity = 0.01
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Li_Jishen_election
-			}
-			add_popularity = {
-				ideology = social_democracy
-				popularity = 0.04
-			}
-			add_popularity = {
-				ideology = moderate_socialism
-				popularity = 0.01
-			}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.04
 		}
 		name = GDCcp.6.a
 	}
@@ -1386,33 +1357,17 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		custom_effect_tooltip = GDC_MCPC_win_TT
-		if = {
-			limit = {
-				has_country_flag = GDC_Li_lisan_election
-				}
-				add_popularity = {
-					ideology = committee_communism
-					popularity = 0.04
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.01
-				}
-			}
-		else_if = {
-			limit = {
-				has_country_flag = GDC_Yang_Paoan_election
-			}
-			add_popularity = {
-				ideology = communism
-				popularity = 0.04
-			}
-			add_popularity = {
-				ideology = committee_communism
-				popularity = 0.01
-			}
+
+		
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
 		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.04
+		}
+		
 		name = GDCcp.6.b
 	}
 	
@@ -1428,59 +1383,204 @@ country_event = { #任命
 	immediate = {
 	    hidden_effect = {
 			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
+			
+		}
+    }
+	option = {
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.04
+		}
+			name = GDCcp.7.a
+		}
+	option = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.04
+		}
+			name = GDCcp.7.b
+		}
+		
+	}
+country_event = { #越秀山上
+	id = GDCcp.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.8 FROM = [From.GetName]"}
+	title = GDCcp.8.t
+	desc = GDCcp.8.d
+	picture = GFX_GDCcp8
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = {
+		add_command_power = 20
+		add_political_power = 20
+			name = GDCcp.8.a
+		}
+		
+	}
+country_event = { #先烈未宏之愿
+	id = GDCcp.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.9 FROM = [From.GetName]"}
+	title = GDCcp.9.t
+	desc = GDCcp.9.d
+	picture = GFX_GDCcp9
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = {
+		add_popularity = {
+			ideology = reactionism
+			popularity = 0.05
+		}
+			name = GDCcp.9.a
+		}
+		
+	}
+	country_event = { #先贤未述之志……
+	id = GDCcp.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.10 FROM = [From.GetName]"}
+	title = GDCcp.10.t
+	desc = GDCcp.10.d
+	picture = GFX_GDCcp8
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = {
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = moderate_socialism
+			popularity = 0.025
+		}
+			name = GDCcp.10.a
+		}
+		
+	}
+country_event = { #理想未成之憾……
+	id = GDCcp.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.11 FROM = [From.GetName]"}
+	title = GDCcp.11.t
+	desc = GDCcp.11.d
+	picture = GFX_GDCcp11
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	option = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.025
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.025
+		}
+			name = GDCcp.11.a
+		}
+		
+	}
+country_event = { #选举
+	id = GDCcp.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.12 FROM = [From.GetName]"}
+	title = GDCcp.12.t
+	desc = GDCcp.12.d
+	picture = GFX_GDCcp12
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
+			add_to_variable = { GDC_KMT_support_valve = [?party_popularity@social_democracy|%0] }
+			add_to_variable = { GDC_CPC_support_valve = [?party_popularity@communism|%0] }
 		}
     }
 	option = {
 		trigger = {
-				has_country_flag = GDC_He_Xiangning_election
-				moderate_socialism ＞ 0.3
-				}
-			set_politics = { 
-					ruling_party = moderate_socialism
-				}
-			load_focus_tree = {
-					tree = GDC_He_Xiangning_national_focus_tree
-					keep_completed = no
-				}
-			name = GDCcp.7.a
+			has_country_flag = GDC_He_Xiangning_election
+			check_variable = { #检查变量大小
+			var = GDC_KMT_support_valve
+			value = [?GDC_CPC_support_valve]
+			compare = greater_than
 		}
-	option = {
-			trigger = {
-				has_country_flag = GDC_Li_Jishen_election
-				social_democracy ＞ 0.3
-			}
-			set_politics = { 
-				ruling_party = social_democracy
-			}
-			load_focus_tree = {
-				tree = GDC_Li_Jishen_national_focus_tree
-				keep_completed = no
-			}
-			name = GDCcp.7.b
 		}
-	option = {
-			trigger = {
-				has_country_flag = GDC_Li_lisan_election
-				committee_communism ＞ 0.3
-			}
-			set_politics = { 
-				ruling_party = committee_communism
-			}
-			name = GDCcp.7.c
+		set_politics = {  
+			ruling_party = moderate_socialism
 		}
-		option = {
-			trigger = {
-				has_country_flag = GDC_Yang_Paoan_election
-				communism ＞ 0.3
-			}
-			set_politics = { 
-				ruling_party = communism
-			}
-			name = GDCcp.7.d
+		load_focus_tree = {
+			tree = GDC_He_Xiangning_national_focus_tree
+			keep_completed = no
 		}
-		
+		name = GDCcp.12.a
 	}
-
+	option = {
+		trigger = {
+			has_country_flag = GDC_Li_Jishen_election
+			check_variable = { #检查变量大小
+			var = GDC_KMT_support_valve
+			value = [?GDC_CPC_support_valve]
+			compare = greater_than
+		}
+		}
+		set_politics = {  
+			ruling_party = social_democracy
+		}
+		load_focus_tree = {
+			tree = GDC_Li_Jishen_national_focus_tree
+			keep_completed = no
+		}
+		name = GDCcp.12.b
+	}
+	option = {
+		trigger = {
+			has_country_flag = GDC_Li_lisan_election
+			check_variable = { #检查变量大小
+			var = GDC_KMT_support_valve
+			value = [?GDC_CPC_support_valve]
+			compare = less_than
+		}
+		}
+		set_politics = {  
+			ruling_party = committee_communism
+		}
+		name = GDCcp.12.c
+	}
+	option = {
+		trigger = {
+			has_country_flag = GDC_Yang_Paoan_election
+			check_variable = { #检查变量大小
+			var = GDC_KMT_support_valve
+			value = [?GDC_CPC_support_valve]
+			compare = less_than
+		}
+		}
+		set_politics = {  
+			ruling_party = communism
+		}
+		name = GDCcp.12.d
+	}
+		
+}
 ################################################################
 country_event = {
     id = GDC_war.1
