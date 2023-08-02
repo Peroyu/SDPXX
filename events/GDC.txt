@@ -1419,7 +1419,8 @@ country_event = {
 }
 country_event = {
     id = GDCcp.7
-	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCcp.7 FROM = [From.GetName]" }
 	title = GDCcp.7.t
 	desc = {
 		text = GDCcp.7.d.a
