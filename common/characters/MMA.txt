@@ -11,11 +11,7 @@ characters = {
 				large = GFX_portrait_Ma_Jiyuan_arm
 			}
 		}
-		country_leader = {
-			ideology = authoritarian_democracy
-			trsits = {}
-			expire = "1999.1.1.1"
-		}
+		
 		corps_commander={
 			traits={ brilliant_strategist cavalry_officer }
 			skill=3
@@ -193,6 +189,11 @@ characters = {
 			defense_skill=2
 			planning_skill=1
 			logistics_skill=3
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			trsits = {}
+			expire = "1999.1.1.1"
 		}
 	}
 }
