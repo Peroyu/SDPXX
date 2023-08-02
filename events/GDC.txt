@@ -1417,67 +1417,35 @@ country_event = {
 	}
 	
 }
-country_event = {
-    id = GDCcp.7
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	GDCcp.7 FROM = [From.GetName]" }
+country_event = { #任命
+	id = GDCcp.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.7 FROM = [From.GetName]"}
 	title = GDCcp.7.t
-	desc = {
-		text = GDCcp.7.d.a
-		trigger = {
-			has_country_flag = GDC_He_Xiangning_election
-				moderate_socialism ＞ 0.3
-		}
-	}
-	desc = {
-		text = GDCcp.7.d.b
-		trigger = {
-			has_country_flag = GDC_Li_Jishen_election
-				social_democracy ＞ 0.3
-		}
-	}
-	desc = {
-		text = GDCcp.7.d.c
-		trigger = {
-			has_country_flag = GDC_Li_lisan_election
-				committee_communism ＞ 0.3
-		}
-	}
-	desc = {
-		text = GDCcp.7.d.d
-		trigger = {
-			has_country_flag = GDC_Yang_Paoan_election
-				communism ＞ 0.3
-		}
-	}
+	desc = GDCcp.7.d
 	picture = GFX_GDCcp7
+	fire_only_once = yes
 	is_triggered_only = yes
-	
 	immediate = {
 	    hidden_effect = {
 			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
 		}
     }
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		
-		if = {
-			limit = {
+	option = {
+		trigger = {
 				has_country_flag = GDC_He_Xiangning_election
 				moderate_socialism ＞ 0.3
 				}
-				set_politics = { 
+			set_politics = { 
 					ruling_party = moderate_socialism
 				}
-				load_focus_tree = {
+			load_focus_tree = {
 					tree = GDC_He_Xiangning_national_focus_tree
 					keep_completed = no
 				}
-			}
-		else_if = {
-			limit = {
+			name = GDCcp.7.a
+		}
+	option = {
+			trigger = {
 				has_country_flag = GDC_Li_Jishen_election
 				social_democracy ＞ 0.3
 			}
@@ -1488,29 +1456,31 @@ country_event = {
 				tree = GDC_Li_Jishen_national_focus_tree
 				keep_completed = no
 			}
+			name = GDCcp.7.b
 		}
-		else_if = {
-			limit = {
+	option = {
+			trigger = {
 				has_country_flag = GDC_Li_lisan_election
 				committee_communism ＞ 0.3
 			}
 			set_politics = { 
 				ruling_party = committee_communism
 			}
+			name = GDCcp.7.c
 		}
-		else_if = {
-			limit = {
+		option = {
+			trigger = {
 				has_country_flag = GDC_Yang_Paoan_election
 				communism ＞ 0.3
 			}
 			set_politics = { 
 				ruling_party = communism
 			}
+			name = GDCcp.7.d
 		}
-		name = GDCcp.7.a
+		
 	}
-	
-}
+
 ################################################################
 country_event = {
     id = GDC_war.1
