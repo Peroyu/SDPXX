@@ -19,7 +19,7 @@ set_popularities = {
  conservatism = 43
  Liberalism = 33
  social_democracy = 14
- reactionism = 6
+ reactionism = 10
 }
 
 # 

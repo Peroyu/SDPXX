@@ -143,10 +143,7 @@
 			   days = 1
 			}
 			add_political_power = 50
-			load_focus_tree = {
-		        tree = CJF_second
-		        keep_completed = no
-		    }
+			
 			custom_effect_tooltip = CJF_the_end_1
 		}
 	}
@@ -822,6 +819,23 @@ shared_focus = {
 	x = 14
 	y = 0
 	completion_reward = {
+		854 = {
+			prioritize = { 195 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		855 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		add_war_support = 0.02
 	}
 }
 shared_focus = {
@@ -834,6 +848,23 @@ shared_focus = {
 	x = 14
 	y = 1
 	completion_reward = {
+		841 = {
+			prioritize = { 195 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		748 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		add_war_support = 0.02
 	}
 }
 shared_focus = {
@@ -846,6 +877,10 @@ shared_focus = {
 	x = 14
 	y = 2
 	completion_reward = {
+		annex_country = { target = KTR transfer_troops = yes }
+		add_war_support = 0.05
+		add_state_core = 938
+		add_state_core = 939
 	}
 }
 shared_focus = {
@@ -891,15 +926,97 @@ shared_focus = {
 	x = 20
 	y = 0
 	completion_reward = {
+		748 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		854 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		854 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		855 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		748 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		841 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		add_war_support = 0.05
 	}
 }
 shared_focus = {
 	id = CJF_invade_7th_region
-	icon = GFX_CJF_invade_6th_region
+	icon = GFX_CJF_invade_7th_region
 	cost = 1
 	x = 18
 	y = 0
 	completion_reward = {
+		603 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		842 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		603 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		841 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		
 	}
 }
 shared_focus = {

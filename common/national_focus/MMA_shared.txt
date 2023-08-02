@@ -455,10 +455,6 @@ shared_focus = {
 				}
 				
 			}
-			create_faction = 西北国防阵线
-			MMA = {
-				add_to_faction = KTR
-			}
         }
 		x = 10
 		y = 3

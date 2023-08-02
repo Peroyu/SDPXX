@@ -63,62 +63,6 @@ units = {
 
 	}
 	division = {
-		name = "Tanke tuan 2"
-		location = 4092
-		division_template = "Tanke tuan"	
-		start_experience_factor = 0.6			# 
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Bubingshi 5"
-		location = 1087
-		division_template = "Juntuán"	
-		start_experience_factor = 0.6			# 
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "Bubingshi 8"
-		location = 1047
-		division_template = "Juntuán"	
-		start_experience_factor = 0.6			# 
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "Bubingshi 6"
-		location = 1087
-		division_template = "Juntuán"	
-		start_experience_factor = 0.5			# 
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Bubingshi 7"
-		location = 1087
-		division_template = "Juntuán"	
-		start_experience_factor = 0.5			# 
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Bubingshi 7"
-		location = 10121
-		division_template = "Juntuán"	
-		start_experience_factor = 0.5			# 
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Bubingshi 4"
-		location = 1047
-		division_template = "Juntuán"
-		start_experience_factor = 0.6			# 
-		start_equipment_factor = 0.8
-
-	}
-	division = {
 		name = "Bubingshi 3"
 		location = 1131
 		division_template = "Juntuán"	
@@ -140,38 +84,6 @@ units = {
 		division_template = "Juntuán"
 		start_experience_factor = 0.7		# 
 		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "Bubingshi 12"
-		location = 1131
-		division_template = "Juntuán"
-		start_experience_factor = 0.7		# 
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "Bubingshi 2"
-		location = 1047
-		division_template = "Juntuán"
-		start_experience_factor = 0.7		# 
-		start_equipment_factor = 0.8
-
-	}
-		division = {
-		name = "Jingbei 1"
-		location = 9938
-		division_template = "Jingbei Lü"
-		start_experience_factor = 0.4	# 
-		start_equipment_factor = 0.5
-
-	}
-		division = {
-		name = "Jingbei 2"
-		location = 9963
-		division_template = "Jingbei Lü"
-		start_experience_factor = 0.4	# 
-		start_equipment_factor = 0.5
 
 	}
 	division = {

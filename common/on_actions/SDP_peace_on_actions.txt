@@ -191,10 +191,8 @@ on_actions = {
 				if = { # MMA beats SHA (Shaanxi attack) 
 					limit = {
 						FROM = {
-							OR = {
 								original_tag = MMA
-								original_tag = KTR
-							}
+							
 						}
 						ROOT = {
 							original_tag = SHA
@@ -206,18 +204,15 @@ on_actions = {
 					}
 					FROM = {
 
-						KTR = {
 							annex_country = {
 								target = ROOT
 								transfer_troops = no
 							}
-						}
-						MMA = {
 							country_event = {
 								id = MMA.2
 								days = 1
 							}
-						}
+						
 					}
 
 					

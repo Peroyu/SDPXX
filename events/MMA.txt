@@ -353,9 +353,6 @@ country_event = {
 		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
 		declare_war_on = { target = SHA type = puppet_wargoal_focus }
-		    KTR = {
-				declare_war_on = { target = SHA type = puppet_wargoal_focus }
-			}
 			SHA = {
 				add_ideas = SHA_northwest_crisis
 			}

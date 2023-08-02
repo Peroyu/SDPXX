@@ -29,28 +29,21 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		KTR = {
-			transfer_state = 941
-			declare_war_on = puppet_wargoal_focus
-			}
 		MMA = {
 			declare_war_on = { target = SHA type = puppet_wargoal_focus }
 			transfer_state = 942
 			transfer_state = 622
-		}
-		MMA = {
+			transfer_state = 941
 			country_event = { id = MMA_dip.3 days = 1 }
-			}
+		}
 		SHA = {
 				add_ideas = SHA_northwest_crisis
-			}
-		set_country_flag = MMA_win
-		10733 = {
+				10733 = {
 				prioritize = { 195 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
 					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
-					owner = KTR
+					owner = SHA
 				}
 			}
 		12156 = {
@@ -58,9 +51,12 @@ country_event = {
 				limit = { valid_state_for_spawning_friendly_unit = yes }
 				create_unit = {
 					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
-					owner = KTR
+					owner = SHA
 				}
 			}
+			}
+		set_country_flag = MMA_win
+		
 		name = SHA.1.b
 	}
 	
