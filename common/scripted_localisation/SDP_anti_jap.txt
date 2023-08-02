@@ -180,25 +180,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_1
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_1_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_1_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_1_C
 	}
@@ -207,25 +207,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_2
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_2_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_2_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_2_C
 	}
@@ -234,25 +234,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_3
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_3_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_3_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_3_C
 	}
@@ -261,25 +261,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_4
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_4_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_4_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_4_C
 	}
@@ -288,25 +288,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_5
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_5_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_5_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_5_C
 	}
@@ -315,25 +315,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_6
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_6_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_6_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_6_C
 	}
@@ -342,25 +342,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_7
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_7_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_7_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_7_C
 	}
@@ -369,25 +369,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_8
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_8_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_8_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_8_C
 	}
@@ -396,25 +396,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_9
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_9_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_9_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_9_C
 	}
@@ -423,25 +423,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_10
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_10_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_10_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_10_C
 	}
@@ -450,25 +450,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_11
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_L value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_11_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_L value = SDP_anti_jap_11_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_L value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_11_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_L value = global.SDP_anti_jap_11_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_11_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_11_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_11_C
 	}
@@ -477,25 +477,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_12
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_12_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_12_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_12_C
 	}
@@ -504,25 +504,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_13
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = global.SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = global.SDP_anti_jap_13_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = global.SDP_anti_jap_13_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_13_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_13_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_13_C
 	}
@@ -531,25 +531,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_14
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_14_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_14_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_14_C
 	}
@@ -558,25 +558,25 @@ defined_text = {
 	name = GFX_SDP_anti_jap_15
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_15_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15_C compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_15_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15_R compare = greater_than }
 		}
      localization_key = GFX_SDP_anti_jap_15_C
 	}
@@ -585,33 +585,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_16
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_16
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_16_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_16_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_16_C
 	}
@@ -620,33 +620,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_17
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_17
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_17_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_17_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_17_C
 	}
@@ -655,33 +655,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_18
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_18
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_18_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_18_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_18_C
 	}
@@ -690,33 +690,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_19
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_19
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_19_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_19_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_19_C
 	}
@@ -725,33 +725,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_20
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_20
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_20_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_20_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_20_C
 	}
@@ -760,33 +760,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_21
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_21
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_21_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_21_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_21_C
 	}
@@ -795,33 +795,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_23
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_23
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_23_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_23_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_23_C
 	}
@@ -830,33 +830,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_25
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_25
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_25_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_25_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_25_C
 	}
@@ -865,33 +865,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_26
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_26
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_26_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_26_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_26_C
 	}
@@ -900,33 +900,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_27
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_27
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_27_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_27_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_27_C
 	}
@@ -935,33 +935,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_28
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_28
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_28_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_28_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_28_C
 	}
@@ -970,33 +970,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_29
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_29
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_29_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_29_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_29_C
 	}
@@ -1005,33 +1005,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_30
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_30
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_30_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_30_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_30_C
 	}
@@ -1040,33 +1040,33 @@ defined_text = {
 	name = GFX_SDP_anti_jap_31
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_31
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_31_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_31_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31_R compare = greater_than }
 		}
 		localization_key = GFX_SDP_anti_jap_31_C
 	}
@@ -1076,33 +1076,33 @@ defined_text = {
 	name = W_anti_jap_1
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1 value = SDP_anti_jap_1_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1 value = SDP_anti_jap_1_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1 value = SDP_anti_jap_1_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1 value = global.SDP_anti_jap_1_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1 value = global.SDP_anti_jap_1_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1 value = global.SDP_anti_jap_1_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_1
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_R value = SDP_anti_jap_1_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_R value = global.SDP_anti_jap_1_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_1_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_L value = SDP_anti_jap_1_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_L value = global.SDP_anti_jap_1_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_1_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_1_C value = SDP_anti_jap_1_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_1_C value = global.SDP_anti_jap_1_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_1_C
 	}
@@ -1111,33 +1111,33 @@ defined_text = {
 	name = W_anti_jap_2
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2 value = SDP_anti_jap_2_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2 value = SDP_anti_jap_2_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2 value = SDP_anti_jap_2_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2 value = global.SDP_anti_jap_2_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2 value = global.SDP_anti_jap_2_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2 value = global.SDP_anti_jap_2_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_2
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_R value = SDP_anti_jap_2_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_R value = global.SDP_anti_jap_2_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_2_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_L value = SDP_anti_jap_2_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_L value = global.SDP_anti_jap_2_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_2_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_2_C value = SDP_anti_jap_2_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_2_C value = global.SDP_anti_jap_2_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_2_C
 	}
@@ -1146,33 +1146,33 @@ defined_text = {
 	name = W_anti_jap_3
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3 value = SDP_anti_jap_3_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3 value = SDP_anti_jap_3_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3 value = SDP_anti_jap_3_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3 value = global.SDP_anti_jap_3_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3 value = global.SDP_anti_jap_3_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3 value = global.SDP_anti_jap_3_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_3
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_R value = SDP_anti_jap_3_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_R value = global.SDP_anti_jap_3_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_3_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_L value = SDP_anti_jap_3_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_L value = global.SDP_anti_jap_3_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_3_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_3_C value = SDP_anti_jap_3_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_3_C value = global.SDP_anti_jap_3_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_3_C
 	}
@@ -1181,33 +1181,33 @@ defined_text = {
 	name = W_anti_jap_4
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4 value = SDP_anti_jap_4_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4 value = SDP_anti_jap_4_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4 value = SDP_anti_jap_4_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4 value = global.SDP_anti_jap_4_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4 value = global.SDP_anti_jap_4_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4 value = global.SDP_anti_jap_4_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_4
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_R value = SDP_anti_jap_4_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_R value = global.SDP_anti_jap_4_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_4_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_L value = SDP_anti_jap_4_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_L value = global.SDP_anti_jap_4_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_4_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_4_C value = SDP_anti_jap_4_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_4_C value = global.SDP_anti_jap_4_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_4_C
 	}
@@ -1216,33 +1216,33 @@ defined_text = {
 	name = W_anti_jap_5
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5 value = SDP_anti_jap_5_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5 value = SDP_anti_jap_5_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5 value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5 value = global.SDP_anti_jap_5_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5 value = global.SDP_anti_jap_5_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5 value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_5
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_R value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_R value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_5_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_L value = SDP_anti_jap_5_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_L value = global.SDP_anti_jap_5_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_5_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_5_C value = SDP_anti_jap_5 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_C value = SDP_anti_jap_5_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_5_C value = SDP_anti_jap_5_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_C value = global.SDP_anti_jap_5 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_C value = global.SDP_anti_jap_5_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_5_C value = global.SDP_anti_jap_5_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_5_C
 	}
@@ -1251,33 +1251,33 @@ defined_text = {
 	name = W_anti_jap_6
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6 value = SDP_anti_jap_6_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6 value = SDP_anti_jap_6_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6 value = SDP_anti_jap_6_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6 value = global.SDP_anti_jap_6_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6 value = global.SDP_anti_jap_6_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6 value = global.SDP_anti_jap_6_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_6
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_R value = SDP_anti_jap_6_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_R value = global.SDP_anti_jap_6_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_6_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_L value = SDP_anti_jap_6_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_L value = global.SDP_anti_jap_6_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_6_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_6_C value = SDP_anti_jap_6_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_6_C value = global.SDP_anti_jap_6_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_6_C
 	}
@@ -1286,33 +1286,33 @@ defined_text = {
 	name = W_anti_jap_7
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7 value = SDP_anti_jap_7_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7 value = SDP_anti_jap_7_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7 value = SDP_anti_jap_7_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7 value = global.SDP_anti_jap_7_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7 value = global.SDP_anti_jap_7_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7 value = global.SDP_anti_jap_7_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_7
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_R value = SDP_anti_jap_7_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_R value = global.SDP_anti_jap_7_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_7_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_L value = SDP_anti_jap_7_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_L value = global.SDP_anti_jap_7_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_7_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_7_C value = SDP_anti_jap_7_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_7_C value = global.SDP_anti_jap_7_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_7_C
 	}
@@ -1321,33 +1321,33 @@ defined_text = {
 	name = W_anti_jap_8
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8 value = SDP_anti_jap_8_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8 value = SDP_anti_jap_8_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8 value = SDP_anti_jap_8_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8 value = global.SDP_anti_jap_8_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8 value = global.SDP_anti_jap_8_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8 value = global.SDP_anti_jap_8_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_8
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_R value = SDP_anti_jap_8_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_R value = global.SDP_anti_jap_8_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_8_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_L value = SDP_anti_jap_8_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_L value = global.SDP_anti_jap_8_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_8_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_8_C value = SDP_anti_jap_8_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_8_C value = global.SDP_anti_jap_8_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_8_C
 	}
@@ -1356,33 +1356,33 @@ defined_text = {
 	name = W_anti_jap_9
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9 value = SDP_anti_jap_9_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9 value = SDP_anti_jap_9_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9 value = SDP_anti_jap_9_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9 value = global.SDP_anti_jap_9_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9 value = global.SDP_anti_jap_9_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9 value = global.SDP_anti_jap_9_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_9
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_R value = SDP_anti_jap_9_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_R value = global.SDP_anti_jap_9_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_9_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_L value = SDP_anti_jap_9_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_L value = global.SDP_anti_jap_9_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_9_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_9_C value = SDP_anti_jap_9_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_9_C value = global.SDP_anti_jap_9_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_9_C
 	}
@@ -1391,33 +1391,33 @@ defined_text = {
 	name = W_anti_jap_10
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10 value = SDP_anti_jap_10_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10 value = SDP_anti_jap_10_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10 value = SDP_anti_jap_10_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10 value = global.SDP_anti_jap_10_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10 value = global.SDP_anti_jap_10_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10 value = global.SDP_anti_jap_10_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_10
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_R value = SDP_anti_jap_10_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_R value = global.SDP_anti_jap_10_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_10_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_L value = SDP_anti_jap_10_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_L value = global.SDP_anti_jap_10_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_10_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_10_C value = SDP_anti_jap_10_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_10_C value = global.SDP_anti_jap_10_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_10_C
 	}
@@ -1426,33 +1426,33 @@ defined_text = {
 	name = W_anti_jap_11
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11 value = SDP_anti_jap_11_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11 value = SDP_anti_jap_11_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11 value = SDP_anti_jap_11_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11 value = global.SDP_anti_jap_11_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11 value = global.SDP_anti_jap_11_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11 value = global.SDP_anti_jap_11_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_11
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_R value = SDP_anti_jap_11_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_R value = global.SDP_anti_jap_11_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_11_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_L value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_L value = SDP_anti_jap_11_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_L value = SDP_anti_jap_11_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_L value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_L value = global.SDP_anti_jap_11_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_L value = global.SDP_anti_jap_11_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_11_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_11_C value = SDP_anti_jap_11_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_11_C value = global.SDP_anti_jap_11_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_11_C
 	}
@@ -1461,33 +1461,33 @@ defined_text = {
 	name = W_anti_jap_12
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12 value = SDP_anti_jap_12_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12 value = SDP_anti_jap_12_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12 value = SDP_anti_jap_12_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12 value = global.SDP_anti_jap_12_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12 value = global.SDP_anti_jap_12_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12 value = global.SDP_anti_jap_12_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_12
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_R value = SDP_anti_jap_12_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_R value = global.SDP_anti_jap_12_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_12_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_L value = SDP_anti_jap_12_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_L value = global.SDP_anti_jap_12_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_12_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_12_C value = SDP_anti_jap_12_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_12_C value = global.SDP_anti_jap_12_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_12_C
 	}
@@ -1496,33 +1496,33 @@ defined_text = {
 	name = W_anti_jap_13
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13 value = SDP_anti_jap_13_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13 value = SDP_anti_jap_13_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13 value = SDP_anti_jap_13_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13 value = global.SDP_anti_jap_13_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13 value = global.SDP_anti_jap_13_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13 value = global.SDP_anti_jap_13_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_13
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_R value = SDP_anti_jap_13_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_R value = global.SDP_anti_jap_13_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_13_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_L value = SDP_anti_jap_13_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = SDP_anti_jap_13_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_L value = SDP_anti_jap_13_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_13_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_13_C value = SDP_anti_jap_13_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_13_C value = global.SDP_anti_jap_13_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_13_C
 	}
@@ -1531,33 +1531,33 @@ defined_text = {
 	name = W_anti_jap_14
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_ value = SDP_anti_jap_14_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14 value = SDP_anti_jap_14_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14 value = SDP_anti_jap_14_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_ value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14 value = global.SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14 value = global.SDP_anti_jap_14_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_14
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_R value = SDP_anti_jap_14_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_R value = global.SDP_anti_jap_14_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_14_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_L value = SDP_anti_jap_14_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_14_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_14_C value = SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14_C value = global.SDP_anti_jap_14_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_14_C
 	}
@@ -1566,33 +1566,33 @@ defined_text = {
 	name = W_anti_jap_15
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15 value = SDP_anti_jap_15_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15 value = SDP_anti_jap_15_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15 value = SDP_anti_jap_15_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15 value = global.SDP_anti_jap_15_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15 value = global.SDP_anti_jap_15_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15 value = global.SDP_anti_jap_15_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_15
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_R value = SDP_anti_jap_15_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_R value = global.SDP_anti_jap_15_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_15_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_L value = SDP_anti_jap_15_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_L value = global.SDP_anti_jap_15_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_15_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_15_C value = SDP_anti_jap_15_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_15_C value = global.SDP_anti_jap_15_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_15_C
 	}
@@ -1601,33 +1601,33 @@ defined_text = {
 	name = W_anti_jap_16
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16 value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16 value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_16
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_R value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_R value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_16_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_L value = SDP_anti_jap_16_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_L value = global.SDP_anti_jap_16_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_16_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_16_C value = SDP_anti_jap_16_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_16_C value = global.SDP_anti_jap_16_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_16_C
 	}
@@ -1636,33 +1636,33 @@ defined_text = {
 	name = W_anti_jap_17
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17 value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17 value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_17
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_R value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_R value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_17_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_L value = SDP_anti_jap_17_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_L value = global.SDP_anti_jap_17_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_17_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_17_C value = SDP_anti_jap_17_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_17_C value = global.SDP_anti_jap_17_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_17_C
 	}
@@ -1671,33 +1671,33 @@ defined_text = {
 	name = W_anti_jap_18
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18 value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18 value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_18
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_R value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_R value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_18_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_L value = SDP_anti_jap_18_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_L value = global.SDP_anti_jap_18_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_18_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_18_C value = SDP_anti_jap_18_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_18_C value = global.SDP_anti_jap_18_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_18_C
 	}
@@ -1706,33 +1706,33 @@ defined_text = {
 	name = W_anti_jap_19
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19 value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19 value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_19
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_R value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_R value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_19_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_L value = SDP_anti_jap_19_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_L value = global.SDP_anti_jap_19_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_19_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_19_C value = SDP_anti_jap_19_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_19_C value = global.SDP_anti_jap_19_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_19_C
 	}
@@ -1741,33 +1741,33 @@ defined_text = {
 	name = W_anti_jap_20
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20 value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20 value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_20
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_R value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_R value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_20_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_L value = SDP_anti_jap_20_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_L value = global.SDP_anti_jap_20_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_20_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_20_C value = SDP_anti_jap_20_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_20_C value = global.SDP_anti_jap_20_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_20_C
 	}
@@ -1776,33 +1776,33 @@ defined_text = {
 	name = W_anti_jap_21
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21 value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21 value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_21
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_R value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_R value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_21_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_L value = SDP_anti_jap_21_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_L value = global.SDP_anti_jap_21_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_21_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_21_C value = SDP_anti_jap_21_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_21_C value = global.SDP_anti_jap_21_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_21_C
 	}
@@ -1811,33 +1811,33 @@ defined_text = {
 	name = W_anti_jap_23
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23 value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23 value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_23
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_R value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_R value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_23_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_L value = SDP_anti_jap_23_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_L value = global.SDP_anti_jap_23_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_23_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_23_C value = SDP_anti_jap_23_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_23_C value = global.SDP_anti_jap_23_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_23_C
 	}
@@ -1846,33 +1846,33 @@ defined_text = {
 	name = W_anti_jap_25
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25 value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25 value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_25
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_R value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_R value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_25_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_L value = SDP_anti_jap_25_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_L value = global.SDP_anti_jap_25_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_25_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_25_C value = SDP_anti_jap_25_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_25_C value = global.SDP_anti_jap_25_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_25_C
 	}
@@ -1881,33 +1881,33 @@ defined_text = {
 	name = W_anti_jap_26
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26 value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26 value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_26
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_R value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_R value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_26_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_L value = SDP_anti_jap_26_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_L value = global.SDP_anti_jap_26_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_26_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_26_C value = SDP_anti_jap_26_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_26_C value = global.SDP_anti_jap_26_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_26_C
 	}
@@ -1916,33 +1916,33 @@ defined_text = {
 	name = W_anti_jap_27
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27 value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27 value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_27
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_R value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_R value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_27_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_L value = SDP_anti_jap_27_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_L value = global.SDP_anti_jap_27_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_27_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_27_C value = SDP_anti_jap_27_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_27_C value = global.SDP_anti_jap_27_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_27_C
 	}
@@ -1951,33 +1951,33 @@ defined_text = {
 	name = W_anti_jap_28
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28 value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28 value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_28
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_R value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_R value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_28_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_L value = SDP_anti_jap_28_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_L value = global.SDP_anti_jap_28_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_28_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_28_C value = SDP_anti_jap_28_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_28_C value = global.SDP_anti_jap_28_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_28_C
 	}
@@ -1986,33 +1986,33 @@ defined_text = {
 	name = W_anti_jap_29
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29 value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29 value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_29
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_R value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_R value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_29_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_L value = SDP_anti_jap_29_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_L value = global.SDP_anti_jap_29_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_29_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_29_C value = SDP_anti_jap_29_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_29_C value = global.SDP_anti_jap_29_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_29_C
 	}
@@ -2021,33 +2021,33 @@ defined_text = {
 	name = W_anti_jap_30
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30 value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30 value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_30
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_R value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_R value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_30_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_L value = SDP_anti_jap_30_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_L value = global.SDP_anti_jap_30_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_30_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_30_C value = SDP_anti_jap_30_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_30_C value = global.SDP_anti_jap_30_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_30_C
 	}
@@ -2056,39 +2056,37 @@ defined_text = {
 	name = W_anti_jap_31
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31 value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31 value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_31
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_R value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_R value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_31_R
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31_R compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_L value = SDP_anti_jap_31_C compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_L value = global.SDP_anti_jap_31_C compare = greater_than }
 		}
 		localization_key = w_anti_jap_31_L
 	}
 	text = {
 		trigger = {
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31 compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31_L compare = greater_than }
-			check_variable = { var = SDP_anti_jap_31_C value = SDP_anti_jap_31_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31 compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_31_C value = global.SDP_anti_jap_31_R compare = greater_than }
 		}
 		localization_key = w_anti_jap_31_C
 	}
 }
-
-
 
 
 

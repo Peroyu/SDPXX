@@ -6,6 +6,7 @@ add_namespace = HUN_BAL
 add_namespace = chi_news
 add_namespace = indu
 add_namespace = ISU
+add_namespace = LaAme
 news_event = {
 	id = HUN_SLO.1
 
@@ -63,7 +64,40 @@ news_event = {
 		name = HUN_BAL.1.a
 	}
 }
+news_event = {
+	id = LaAme.1
 
+    picture = GFX_LaAme_1
+    title = LaAme.1.t
+    desc = LaAme.1.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+    immediate = {
+        hidden_effect = {
+            VEN = {
+                retire_country_leader = yes
+		set_party_name = { ideology = social_democracy name = VEN_social_democracy_party_1 }
+                create_country_leader = {
+                    name = "罗慕洛·加列戈斯"  # 
+                    desc = "/"  # 
+                    picture = "GFX_portrait_VEN_R_Gallegos"  # 
+                    expire = "1953.4.30"  # 
+                    ideology = Left_Nationalism # 
+                    traits = {  # 
+                        #
+                    }
+                }
+            }
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.1.a
+	}
+}
 news_event = {
 	id = chi_news.1
 

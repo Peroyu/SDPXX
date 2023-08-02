@@ -1384,7 +1384,6 @@ country_event = { #任命
 	is_triggered_only = yes
 	immediate = {
 	    hidden_effect = {
-			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
 			
 		}
     }
@@ -1397,6 +1396,9 @@ country_event = { #任命
 			ideology = moderate_socialism
 			popularity = 0.04
 		}
+		add_to_variable = { var = global.SDP_anti_jap_2_R value = -1 }
+		add_to_variable = { var = global.SDP_anti_jap_2 value = 1 }
+		custom_effect_tooltip = GDC_Canton_change_KMT
 			name = GDCcp.7.a
 		}
 	option = {
@@ -1408,6 +1410,9 @@ country_event = { #任命
 			ideology = committee_communism
 			popularity = 0.04
 		}
+		custom_effect_tooltip = GDC_Canton_change_CPC
+		add_to_variable = { var = global.SDP_anti_jap_2_R value = -1 }
+		add_to_variable = { var = global.SDP_anti_jap_2_C value = 1 }
 			name = GDCcp.7.b
 		}
 		
@@ -1515,6 +1520,8 @@ country_event = { #选举
 			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
 			add_to_variable = { GDC_KMT_support_valve = [?party_popularity@social_democracy|%0] }
 			add_to_variable = { GDC_CPC_support_valve = [?party_popularity@communism|%0] }
+			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
+
 		}
     }
 	option = {
