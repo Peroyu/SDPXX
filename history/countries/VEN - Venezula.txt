@@ -1,17 +1,32 @@
 ﻿capital = 307
 
-oob = "VEN_1947"
+oob = "empty"
 
 
 set_convoys = 10
 set_politics = {
-	ruling_party = fascism
+	ruling_party = social_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 80
-	communism = 15
+	communism = 5
+	Liberalism = 4
+	movement_communism = 6
+	conservatism = 30
+	social_democracy = 10
+	moderate_socialism = 15
+	reactionism = 22
+	nationalism = 8
+}
+create_country_leader = {
+	name = "罗慕洛·贝略"  # 
+	desc = "/"  # 
+	picture = "GFX_portrait_VEN_Romulo_Bello"  # 
+	expire = "1953.4.30"  # 
+	ideology = Left_Nationalism # 
+	traits = {  # 
+		#
+	}
 }

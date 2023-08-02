@@ -420,5 +420,29 @@ ideas = {
 				org_loss_when_moving = -0.05
 			}
 		}
+		GDC_running_industry_idea= {
+		    name = GDC_running_industry_idea
+			picture = GDC_running_industry_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.02
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		GDC_promise_people_idea= {
+		    name = GDC_promise_people_idea
+			picture = GDC_promise_people_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				subversive_activites_upkeep = 0.2
+				political_power_factor = 0.05
+			}
+		}
 	}
 }

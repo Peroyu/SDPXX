@@ -574,6 +574,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_VEN_Romulo_Bello"
+		texturefile = "gfx/leaders/Latin_America/GFX_portrait_VEN_Romulo_Bello.png"		
+	}
+
+	spriteType = {
 		name = "portrait_HAI_Estime"
 		texturefile = "gfx/leaders/Latin_America/portrait_HAI_Estime.png"		
 	}

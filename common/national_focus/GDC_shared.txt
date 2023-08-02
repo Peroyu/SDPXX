@@ -1331,7 +1331,12 @@ shared_focus = {
 		x = 4
 		y = 1
 		completion_reward = {
-			
+			add_war_support = 0.1
+			add_popularity = {
+				ideology = reactionism
+				popularity = 0.02
+			}
+			custom_effect_tooltip = GDC_Chiang_1
 		}
 	}
 shared_focus = {
@@ -1344,7 +1349,8 @@ shared_focus = {
 		x = 8
 		y = 1
 		completion_reward = {
-			
+			add_political_power = 20
+			country_event = { days = 1 id = GDCcp.1 }
 		}
 	}
 shared_focus = {
@@ -1357,7 +1363,8 @@ shared_focus = {
 		x = 12
 		y = 1
 		completion_reward = {
-			
+			add_political_power = 20
+			country_event = { days = 1 id = GDCcp.2 }
 		}
 	}
 shared_focus = {
@@ -1376,30 +1383,12 @@ shared_focus = {
 		x = 8
 		y = 2
 		completion_reward = {
-			if = {
-				limit = {
-					moderate_socialism ＞0.3
-				}
-				set_politics = { 
-					ruling_party = moderate_socialism 
-				}
-			}
-			else_if = {
-				limit = {
-					social_democracy ＞0.3
-				}
-				set_politics = { 
-					ruling_party = social_democracy 
-				}
-			}
-			else_if = {
-				limit = {
-					committee_communism ＞0.3
-				}
-				set_politics = { 
-					ruling_party = committee_communism 
-				}
-			}
+			add_political_power = 20
+			add_research_slot = 1
+			country_event = { days = 14 id = GDCcp.3 } #广州选区
+			country_event = { days = 28 id = GDCcp.4 } #
+			country_event = { days = 42 id = GDCcp.5 } #
+			country_event = { days = 56 id = GDCcp.6 } #
 		}
 	}
 shared_focus = {
@@ -1412,7 +1401,23 @@ shared_focus = {
 		x = 6
 		y = 3
 		completion_reward = {
-
+			add_ideas = GDC_running_industry_idea
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes 
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
 		}
 	}
 shared_focus = {
@@ -1425,7 +1430,9 @@ shared_focus = {
 		x = 6
 		y = 4
 		completion_reward = {
-
+			add_political_power = 20
+			add_stability = 0.07
+			add_ideas = GDC_promise_people_idea
 		}
 	}
 shared_focus = {
@@ -1438,9 +1445,17 @@ shared_focus = {
 		x = 10
 		y = 3
 		completion_reward = {
-
+			add_stability = 0.07
+			country_event = {
+				id = GDC.5
+				days = 1
+			}
+			add_popularity = {
+				ideology = reactionism
+				popularity = 0.02
+			}
 		}
-	}
+	} 
 shared_focus = {
 		id = GDC_sit_down_in_turns
 		icon = GFX_GDC_sit_down_in_turns
@@ -1451,7 +1466,11 @@ shared_focus = {
 		x = 10
 		y = 4
 		completion_reward = {
-			
+			add_stability = 0.02
+			country_event = {
+				id = GDCcp.7
+				days = 7
+			}		
 		}
 	}
 shared_focus = {
@@ -1467,6 +1486,8 @@ shared_focus = {
 		x = 8
 		y = 5
 		completion_reward = {
+			custom_effect_tooltip = GDC_the_next_step_custom
+			add_political_power = 50
 			if = {
 				limit = {
 					has_country_leader = { ruling_only = yes name = "李济深" }
@@ -1488,6 +1509,12 @@ shared_focus = {
 			else_if = {
 				limit = {
 					has_country_leader = { ruling_only = yes name = "李立三" }
+				}
+				
+			}
+			else_if = {
+				limit = {
+					has_country_leader = { ruling_only = yes name = "杨匏安" }
 				}
 				
 			}

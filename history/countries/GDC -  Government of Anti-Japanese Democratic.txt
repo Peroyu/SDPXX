@@ -1,6 +1,6 @@
 ﻿capital = 594
 oob = "GDC_1947"
-set_research_slots = 3
+set_research_slots = 2
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

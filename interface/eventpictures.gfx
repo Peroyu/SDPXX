@@ -115,5 +115,41 @@ spriteTypes = {
 		name = "GFX_CHIwar2"
 		texturefile = "gfx/event_pictures/GFX_CHIwar2.png"
 	}
+	spriteType = {
+		name = "GFX_GDCcp1"
+		texturefile = "gfx/event_pictures/GFX_GDCcp1.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp0"
+		texturefile = "gfx/event_pictures/GFX_GDCcp0.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp2"
+		texturefile = "gfx/event_pictures/GFX_GDCcp2.png"
+	}
+	spriteType = {
+		name = "GFX_GDChanjian"
+		texturefile = "gfx/event_pictures/GFX_GDChanjian.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp5"
+		texturefile = "gfx/event_pictures/GFX_GDCcp5.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp3"
+		texturefile = "gfx/event_pictures/GFX_GDCcp3.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp4"
+		texturefile = "gfx/event_pictures/GFX_GDCcp4.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp6"
+		texturefile = "gfx/event_pictures/GFX_GDCcp6.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp7"
+		texturefile = "gfx/event_pictures/GFX_GDCcp7.png"
+	}
 }
 
