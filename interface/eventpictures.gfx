@@ -52,6 +52,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_LaAme_1.png"
 	}
 	spriteType = {
+		name = "GFX_Balkan_war_2"
+		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_2.png"
+	}
+	spriteType = {
 		name = "GFX_GDCintro"
 		texturefile = "gfx/event_pictures/GDCintro.dds"
 	}

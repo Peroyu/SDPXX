@@ -15,6 +15,20 @@ scripted_gui = {
 			
 		}
 
+		triggers = {
+			Super_Event_Image_ISU_conference_Super_Event_Visible = {
+				has_global_flag = ISU_conference_Super_Event_Visible
+			}
+			
+		}
+
+		triggers = {
+			Super_Event_Image_Balkan_war_Super_Event_Visible = {
+				has_global_flag = Balkan_war_Super_Event_Visible
+			}
+			
+		}
+
 		properties = {
 			Super_Event_Image_Default = {
 				image = "[get_my_superevent_texture]"
@@ -29,10 +43,18 @@ scripted_gui = {
 					limit = {
 						
 							has_global_flag = CHI_second_continent_war_Super_Event_Visible
+
+							has_global_flag = ISU_conference_Super_Event_Visible
+
+							has_global_flag = Balkan_war_Super_Event_Visible
 							
 						
 					}
 					clr_global_flag = CHI_second_continent_war_Super_Event_Visible
+
+					clr_global_flag = ISU_conference_Super_Event_Visible
+
+					clr_global_flag = Balkan_war_Super_Event_Visible
 					
 				}
 			}

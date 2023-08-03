@@ -1,4 +1,6 @@
 add_namespace = CHI_war
+add_namespace = ISU
+add_namespace = Balkan
 news_event = {
 	id = CHI_war.1
     immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
@@ -19,5 +21,43 @@ news_event = {
 		name = CHI_war.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = CHI_second_continent_war_Super_Event_Visible
+	}
+}
+news_event = {
+	id = ISU.2
+
+    picture = GFX_ISU_2
+    title = ISU.2.t
+    desc = ISU.2.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	
+	
+
+	option = {
+		name = ISU.2.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = ISU_conference_Super_Event_Visible
+	}
+}
+news_event = {
+	id = Balkan.2
+
+    picture = GFX_Balkan_war_2
+    title = Balkan.2.t
+    desc = Balkan.2.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	
+	
+
+	option = {
+		name = Balkan.2.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Balkan_war_Super_Event_Visible
 	}
 }

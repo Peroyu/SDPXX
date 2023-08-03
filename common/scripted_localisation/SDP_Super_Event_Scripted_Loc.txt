@@ -7,6 +7,20 @@ defined_text = { #SUPER EVENT TITLES
         }
         localization_key = "CHI_second_continent_war_Super_Event_TITLE"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible
+        }
+        localization_key = "ISU_conference_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_Super_Event_TITLE"
+    }
    
 }
 
@@ -19,6 +33,21 @@ defined_text = { #SUPER EVENT QUOTES
         }
         localization_key = "CHI_second_continent_war_Super_Event_TEXT"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible
+        }
+        localization_key = "ISU_conference_Super_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_Super_Super_Event_TEXT"
+    }
+    
    
 }
 
@@ -31,6 +60,20 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "CHI_second_continent_war_Super_Event_BUTTON"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible
+        }
+        localization_key = "ISU_conference_Super_Event_BUTTON"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_Super_Event_BUTTON"
+    }
     
 }
 
@@ -42,6 +85,20 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = CHI_second_continent_war_Super_Event_Visible
         }
         localization_key = "CHI_second_continent_war_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible
+        }
+        localization_key = "ISU_conference_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_Super_Event_DESC"
     }
     
 }
