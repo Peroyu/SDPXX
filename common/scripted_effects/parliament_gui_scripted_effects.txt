@@ -1,16 +1,16 @@
-# The following scripted effect sets-up the parliament at game start.
+    # The following scripted effect sets-up the parliament at game start.
 parliament_gui_initial = {
-	# Put simply an array stores a list of things, used here to store the list of parties and list of seats.
-
-	# parliament_seat_array stores the list of seat numbers for each party
+	# 简单地说，一个数组存储一个事物列表，用于存储聚会列表和座位列表。
+    #parliament_seat_array存储每个政党的席位号码列表 
 	add_to_array = { parliament_seat_array = 20 } # Party A
 	add_to_array = { parliament_seat_array = 50 } # Party A
 	add_to_array = { parliament_seat_array = 45 } # Party B
 	add_to_array = { parliament_seat_array = 75 } # Party C
 	add_to_array = { parliament_seat_array = 10 } # Party D
 
-	# parliament_member_array stores the list of parties
-	# This basically assigns an id for each party, so Party A = 1, Party B = 2, etc. (must start from 1 and is in order)
+	# parliament member array存储参与方列表
+
+#这基本上为每一方分配一个id，因此甲方=1，乙方=2，等等（必须从1开始，并且是有序的）
 	
 	add_to_array = { parliament_member_array = 1 } # Party A
 	add_to_array = { parliament_member_array = 2 } # Party B
@@ -25,14 +25,16 @@ parliament_gui_initial = {
 	reload_parliament_gui = yes
 }
 
-# The following scripted effect does the main job of generating the gui, by adding the seats for each party in a grid.
-# This should be called every time you need to update the gui, when you add/subtract seats for example.
-# Read the comments if you're interested in how it works
+#下面的脚本效果完成了生成gui的主要工作，它为网格中的每一方添加了席位。
+
+#每次需要更新gui时，都应该调用此函数，例如添加/减少座位时。
+
+#如果你对它的工作原理感兴趣，请阅读评论
 reload_parliament_gui = {
-	# Clears what's currently on the gui, if there's anything there.
+	# C如果有任何内容，请查看gui上当前的内容。
 	clear_array = parliament_main_array
 
-	# The array temp_seat is duplicated from the array parliament_seat_array.
+	# 数组 temp_seat 与数组parliament_seat_array重复。
 	for_each_loop = {
 		array = parliament_seat_array
 
@@ -43,26 +45,30 @@ reload_parliament_gui = {
 	set_temp_variable = { temp_index_1 = 0 }
 	set_temp_variable = { temp_index_2 = 1 }
 
-	# Set temp_size as the highest index in the array, highest index is the highest value x in temp_array^x.
+	# 将temp_size设置为数组中的最高索引，最高索引为temp_array^x中的最高值x。
 	set_temp_variable = { temp_size = temp_seat^num }
 	subtract_from_temp_variable = { temp_size = 1 }
 
-	# What this does is loop through the temp_seat array, adding the current value to the next value on the list.
-	# temp_seat^0 is the first value on the list, temp_seat^1 is the next and so forth.
-	# the loop ends when temp_index_1 is equal to the size of the array - 1 (basically the max index).
+	# 这样做的目的是循环遍历temp_seat数组，将当前值添加到列表上的下一个值。
+
+    #temp_seat^0是列表中的第一个值，temp_seat^1是下一个值，依此类推。
+
+    #当temp_index1等于数组的大小-1（基本上是最大索引）时，循环结束。
 	while_loop_effect = {
 		limit = {
 			check_variable = { temp_index_1 < temp_size }
 		}
-		# The suprise tool starts out as temp_seat^0 and temp_seat^1 and then is incremented every loop , adding the current value to the next value on the list.
+		# suprise工具从temp_seat^0和temp_seat^1开始，然后在每个循环中递增，将当前值添加到列表上的下一个值。
 		add_to_variable = { temp_seat^temp_index_2 = temp_seat^temp_index_1 }
 		add_to_temp_variable = { temp_index_1 = 1 }
 		add_to_temp_variable = { temp_index_2 = 1 }
 	}
 
-	# resize_array fills the parliament_member_array with the id of the parliament member x amount of times where x is the number of seats the member has.
-	# so the array will look like this basically:
-	# 1,1,1,1,1,1,1,...(repeated 90 times),2,2,2,2,2,2,2(repeated 35 times),3,3,3.. etc.
+	# resize_array用议会成员的id填充parliament_member_array x次，其中x是该成员拥有的席位数。
+
+    #所以数组基本上是这样的：
+
+    #1,1,1,1,1,1，。。。（重复90次）、2,2,2,2,22,2,2（重复35次）、3,3,3等。
 	for_loop_effect = {
 		start = 0
 		end = temp_seat^num
@@ -70,15 +76,15 @@ reload_parliament_gui = {
 		resize_array = { array = parliament_main_array value = parliament_member_array^v size = temp_seat^v }
 	}
 
-	# Clear the temp_seat array used previously since it's not needed anymore.
+	#清除以前使用的temp_seat数组，因为不再需要它了。
 	clear_array = temp_seat
 }
 
-# Bonus code for adding/subtracting seats
+# 增加/减少座位的奖励代码
 modify_parliament_seat = {
 	subtract_from_temp_variable = { temp_member = 1 }
 
-	# check to see if result overflows
+	#检查结果是否溢出
 	set_temp_variable = { temp = parliament_seat_array^temp_member }
 	add_to_temp_variable = { temp = temp_seats }
 
@@ -97,7 +103,7 @@ modify_parliament_seat = {
 		subtract_from_temp_variable = { temp_seats = temp }
 	}
 
-	# adds all parties to temp_array
+	# 将所有参与方添加到temp_array
 	for_loop_effect = {
 		start = 0
 		end = parliament_seat_array^num
@@ -105,24 +111,24 @@ modify_parliament_seat = {
 		add_to_temp_array = { temp_array = v }
 	}
 
-	# remove from list of parties the party to be added/subtracted
+	# 从参与方列表中删除要添加/减去的参与方
 	remove_from_temp_array = { array = temp_array value = temp_member }
 
-	# give party new seat value
+	# 赋予政党新的席位价值
 	add_to_variable = { parliament_seat_array^temp_member = temp_seats }
 
-	# if its add
+	# 如果添加
 	if = {
 		limit = {
 			check_variable = { temp_seats > 0 }
 		}
-		# loop until seats to be added is 0
+		# 循环，直到要添加的座位为0
 		while_loop_effect = {
 			limit = {
 				check_variable = { temp_seats > 0 }
 			}
 
-			# loops through remaining parties, subtracting 1 seat each time
+			# 在剩余的政党中循环，每次减去1个席位
 			for_loop_effect = {
 				start = 0
 				end = temp_array^num
@@ -149,7 +155,7 @@ modify_parliament_seat = {
 				check_variable = { temp_seats < 0 }
 			}
 
-			# loops through remaining parties, adding 1 seat each time
+			# 循环浏览其余政党，每次增加1个席位
 			for_loop_effect = {
 				start = 0
 				end = temp_array^num
@@ -159,8 +165,8 @@ modify_parliament_seat = {
 						check_variable = { parliament_seat_array^temp_array^v < parliament_main_array^num } # party must have less than max seats to be added
 						check_variable = { temp_seats < 0 } # seats to be subtracted is less than 0 currently
 					}
-					add_to_variable = { parliament_seat_array^temp_array^v = 1 } # add to party 1 seat
-					add_to_temp_variable = { temp_seats = 1 } # add to seats to be subtracted
+					add_to_variable = { parliament_seat_array^temp_array^v = 1 } # 添加到第1方席位
+					add_to_temp_variable = { temp_seats = 1 } #添加到要减去的座位
 				}
 			}
 		}
@@ -180,9 +186,11 @@ clear_parliament_gui_arrays = {
 	clear_array = parliament_y_array
 }
 
-# parliament_x_array and parliament_y_array stores the list of x and y positions of the parliament dots in the grid, these are generated from this lovely tool by Flaxbeard:
-# https://github.com/Flaxbeard/hoi4-parliament-diagram
-# I'll be using 200 seats as an example only (you'd have to generate your own if you have a different number of seats)
+# parliament_x_array和parliament_y_array存储了网格中议会点的x和y位置列表，这些位置是由Flaxbeard从这个可爱的工具生成的：
+
+#https://github.com/Flaxbeard/hoi4-parliament-diagram
+
+#我将仅以200个座位为例（如果你有不同数量的座位，你必须自己生成）
 parliament_gui_positions = {
 	add_to_array = { parliament_x_array = 0 }
 	add_to_array = { parliament_y_array = 164 }
