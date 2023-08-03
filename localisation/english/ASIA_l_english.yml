@@ -107,6 +107,8 @@
  CHI_guerrilla_area_state_2:"§g正在争夺§!"
  CHI_guerrilla_area_state_3:"§C中国军队控制§!"
 
+ CHI_rural_baes_influce:"敌后游击"
+ CHI_rural_baes_influce_desc:"这一地区位于中国人民的敌后游击区中，日本和他的盟友在这一地区的军事行动将受到影响。"
  GDC_guerrilla_area:"敌后游击战"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"

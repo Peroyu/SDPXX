@@ -136,9 +136,14 @@ GDC_guerrilla_area = {
             NOT = {
                 has_country_flag = HASDONE
             }
+            check_variable = { #检查变量大小
+            var = global.CHI_Jiang_Xi_control
+            value = 50
+            compare = greater_than_or_equals
+            }
         }
         remove_effect = {
-			add_to_variable = { global.CHI_Jiang_Xi_control = 5 }
+			add_to_variable = { global.CHI_Jiang_Xi_control = 20 }
             clr_country_flag = HASDONE
             clamp_variable = {
                 var = global.CHI_Jiang_Xi_control
@@ -147,6 +152,15 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Jiang_Xi_rural_base
+            912 = {
+                set_demilitarized_zone = yes
+            }
+            913 = {
+                set_demilitarized_zone = yes
+            }
+            915 = {
+                set_demilitarized_zone = yes
+            }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
@@ -290,6 +304,11 @@ GDC_guerrilla_area = {
         available = {
             NOT = {
                 has_country_flag = HASDONE
+            }
+            check_variable = { #检查变量大小
+            var = global.CHI_Fu_Jian_control
+            value = 50
+            compare = greater_than_or_equals
             }
         }
         remove_effect = {
@@ -447,9 +466,14 @@ GDC_guerrilla_area = {
             NOT = {
                 has_country_flag = HASDONE
             }
+            check_variable = { #检查变量大小
+            var = global.CHI_Hu_Nan_control
+            value = 50
+            compare = greater_than_or_equals
+            }
         }
         remove_effect = {
-			add_to_variable = { global.CHI_Hu_Nan_control = 5 }
+			add_to_variable = { global.CHI_Hu_Nan_control = 20 }
             clr_country_flag = HASDONE
             clamp_variable = {
                 var = global.CHI_Hu_Nan_control
@@ -458,6 +482,9 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Hu_Nan_rural_base
+            750 = {
+                set_demilitarized_zone = yes
+            }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
@@ -601,9 +628,14 @@ GDC_guerrilla_area = {
             NOT = {
                 has_country_flag = HASDONE
             }
+            check_variable = { #检查变量大小
+            var = global.CHI_Zhe_Jiang_control
+            value = 50
+            compare = greater_than_or_equals
+            }
         }
         remove_effect = {
-			add_to_variable = { global.CHI_Zhe_Jiang_control = 5 }
+			add_to_variable = { global.CHI_Zhe_Jiang_control = 20 }
             clr_country_flag = HASDONE
             clamp_variable = {
                 var = global.CHI_Zhe_Jiang_control
@@ -612,6 +644,15 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Zhe_Jiang_rural_base
+            918 = {
+                set_demilitarized_zone = yes
+            }
+            919 = {
+                set_demilitarized_zone = yes
+            }
+            920 = {
+                set_demilitarized_zone = yes
+            }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
@@ -737,10 +778,13 @@ GDC_guerrilla_area = {
 			set_country_flag = HASDONE
 		}
         remove_effect = {
-			add_to_variable = { global.CHI_huanan_regional_tension = 10 }
-            add_to_variable = { global.CHI_huazhong_regional_tension = 10 }
+			add_to_variable = { global.CHI_huanan_regional_tension = 15 }
+            add_to_variable = { global.CHI_huazhong_regional_tension = 15 }
             custom_effect_tooltip = CHI_v_regional_tension_increase
-            
+            country_event = {
+                id = GDCintro.8
+                days = 1
+            }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿

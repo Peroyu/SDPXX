@@ -481,4 +481,10 @@ spriteTypes = {
 		name = "GFX_idea_broken_entents"
 		texturefile = "gfx/interface/ideas/GFX_idea_broken_entents.png"
 	}
+
+	#############################################
+	spriteType = {
+		name = "GFX_CHI_rural_baes_influce"
+		texturefile = "gfx/interface/dynamic_ideas/GFX_CHI_rural_baes_influce.png"
+	}
 }

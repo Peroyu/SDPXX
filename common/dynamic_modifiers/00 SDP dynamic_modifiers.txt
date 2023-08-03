@@ -1,0 +1,9 @@
+CHI_rural_baes_influce = {
+	enable = {
+		is_controlled_by = HNN
+	}
+	icon = GFX_CHI_rural_baes_influce
+	local_supplies_for_controller = -0.5
+	local_non_core_manpower = -1
+	army_speed_factor_for_controller = -0.3
+}
