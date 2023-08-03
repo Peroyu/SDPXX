@@ -1,4 +1,5 @@
 guiTypes = {
+	
 
 	containerWindowType = {
 		name = "countrypoliticsview"
@@ -70,6 +71,8 @@ guiTypes = {
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
 			}
+
+			
 		}
 
 		
@@ -149,11 +152,12 @@ guiTypes = {
 				maxWidth = 90
 				maxHeight = 20
 				format = centre				
-			}
-				
-		}
+			}		
+
+			
 		
-		
+	}
+			
 		
 		containerWindowType = {
 			name = "autonomy_progress_view"
@@ -381,8 +385,11 @@ guiTypes = {
 					max_slots_horizontal = 10
 					format = "UPPER_LEFT"
 				}
+
+				
 			}
 		}
+		
 		iconType = {
 			name = "leader"
 			position = { x = 13 y = 56 }
@@ -1660,5 +1667,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+	
 	
 }

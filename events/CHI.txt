@@ -83,6 +83,7 @@ country_event = {
 			id = CHI_war.1
 			days = 1
 		}
+		set_global_flag = ASIA_CHI_JAP_WAR
 		declare_war_on = { target = CJF type = puppet_wargoal_focus }
 	}
 	

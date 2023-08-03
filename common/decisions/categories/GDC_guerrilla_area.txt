@@ -1,4 +1,4 @@
-GDC_guerrilla_area = {
+CJF_South_China_Intelligence_Network = {
 	icon = decision_category_jap_intervene_in_china
 	picture = decision_cat_picture_generic_border_conflicts
 	visible = {
@@ -8,10 +8,8 @@ GDC_guerrilla_area = {
 			tag = RCR
 			tag = JAP
 			}
-		GDC = {
-			owns_state = 889
-		}
+		NOT = { country_exists = CMA }
 		}
 	priority = 1000
-	allowed = { original_tag = GDC }
+	allowed = { original_tag = CJF }
 }
