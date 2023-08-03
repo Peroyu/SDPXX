@@ -1129,6 +1129,9 @@ country_event = {
 			ideology = committee_communism
 			popularity = 0.02
 		}
+		set_temp_variable = { temp_member = 2 }
+		set_temp_variable = { temp_seats = 4 }
+		modify_parliament_seat = yes
 		set_country_flag = GDC_Li_lisan_election
 		custom_effect_tooltip = GDC_Li_lisan_election
 		name = GDCcp.1.a
@@ -1141,6 +1144,9 @@ country_event = {
 			ideology = communism
 			popularity = 0.02
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 4 }
+		modify_parliament_seat = yes
 		set_country_flag = GDC_Yang_Paoan_election
 		custom_effect_tooltip = GDC_Yang_Paoan_election
 		name = GDCcp.1.b
@@ -1169,6 +1175,9 @@ country_event = {
 			ideology = moderate_socialism
 			popularity = 0.02
 		}
+		set_temp_variable = { temp_member = 3 }
+		set_temp_variable = { temp_seats = 4 }
+		modify_parliament_seat = yes
 		set_country_flag = GDC_He_Xiangning_election
 		custom_effect_tooltip = GDC_He_Xiangning_election
 		name = GDCcp.2.a
@@ -1181,6 +1190,9 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.02
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 4 }
+		modify_parliament_seat = yes
 		set_country_flag = GDC_Li_Jishen_election
 		custom_effect_tooltip = GDC_Li_Jishen_election
 		set_party_name = { ideology = social_democracy long_name = GDC_social_democracy_party_long name = GDC_social_democracy_party_1 }
@@ -1211,6 +1223,9 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.3.a
 	}
 	option = { 
@@ -1222,6 +1237,9 @@ country_event = {
 			ideology = communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.3.b
 	}
 	
@@ -1247,10 +1265,16 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = moderate_socialism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 3 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -1269,10 +1293,16 @@ country_event = {
 			ideology = communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = committee_communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 2 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		random_owned_controlled_state = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -1306,10 +1336,16 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = moderate_socialism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 3 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.5.a
 	}
 	option = { 
@@ -1320,10 +1356,16 @@ country_event = {
 			ideology = communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = committee_communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 2 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.5.b
 	}
 	
@@ -1349,10 +1391,16 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = moderate_socialism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 3 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.6.a
 	}
 	option = { 
@@ -1365,11 +1413,16 @@ country_event = {
 			ideology = communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = committee_communism
 			popularity = 0.04
 		}
-		
+		set_temp_variable = { temp_member = 2 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		name = GDCcp.6.b
 	}
 	
@@ -1392,10 +1445,16 @@ country_event = { #任命
 			ideology = social_democracy
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 4 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = moderate_socialism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 3 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_to_variable = { var = global.SDP_anti_jap_2_R value = -1 }
 		add_to_variable = { var = global.SDP_anti_jap_2 value = 1 }
 		custom_effect_tooltip = GDC_Canton_change_KMT
@@ -1406,10 +1465,16 @@ country_event = { #任命
 			ideology = communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 1 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		add_popularity = {
 			ideology = committee_communism
 			popularity = 0.04
 		}
+		set_temp_variable = { temp_member = 2 }
+		set_temp_variable = { temp_seats = 8 }
+		modify_parliament_seat = yes
 		custom_effect_tooltip = GDC_Canton_change_CPC
 		add_to_variable = { var = global.SDP_anti_jap_2_R value = -1 }
 		add_to_variable = { var = global.SDP_anti_jap_2_C value = 1 }
