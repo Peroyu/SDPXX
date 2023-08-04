@@ -6,25 +6,28 @@ set_war_support = 0.2
 set_stability = 0.3
 
 set_politics = {
-	ruling_party = reactionism
+	ruling_party = conservatism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 
 set_popularities = {
-	reactionism = 50
-	nationalism = 16
-	restorativeism = 34
+	communism = 13
+	movement_communism = 20
+	reactionism = 30
+	Liberalism = 12
+	conservatism = 10
+	nationalism = 15
 }
 
 
 create_country_leader = {
-	name = "诺罗敦·西哈努克"
+	name = "加夫列尔·冈萨雷斯·魏地拉"
 	desc = "/"  
-	picture = "portrait_CAB_Sihanouk"  
+	picture = "portrait_CHL_Gabriel_Videla"  
 	expire = "1992.7.10"  
-	ideology = despotism
+	ideology = authoritarian_democracy
 	traits = { 
 		
 	}

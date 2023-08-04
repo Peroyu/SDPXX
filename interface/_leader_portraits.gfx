@@ -584,6 +584,16 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_CHL_Gabriel_Videla"
+		texturefile = "gfx/leaders/Latin_America/portrait_CHL_Gabriel_Videla.png"		
+	}
+
+	spriteType = {
+		name = "portrait_PAR_Higinio_Morínigo"
+		texturefile = "gfx/leaders/Latin_America/portrait_PAR_Higinio_Morínigo.png"		
+	}
+
+	spriteType = {
 		name = "portrait_HAI_Estime"
 		texturefile = "gfx/leaders/Latin_America/portrait_HAI_Estime.png"		
 	}

@@ -1,6 +1,41 @@
 ﻿add_namespace = nuke
 add_namespace = GER
 add_namespace = HUN
+add_namespace = ISU_event
+country_event = {
+    id = ISU_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.1 FROM = [From.GetName]" }
+	title = ISU_event.1.t
+	desc = ISU_event.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+			news_event = {
+				id = ISU.1
+				days = 1
+			}
+			news_event = {
+				id = ISU.2
+				days = 20
+			}
+		}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = nuke.1.a
+		
+	}
+}
 country_event = {
     id = nuke.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

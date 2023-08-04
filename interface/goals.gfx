@@ -390,6 +390,21 @@ spriteTypes = {
 		name = "GFX_CJF_invade_9th_region"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_invade_9th_region.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_Shan_Chuan_E_mission"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Shan_Chuan_E_mission.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_reconstruct_Guilin_HQ"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reconstruct_Guilin_HQ.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_reconstruct_Gannan_HQ"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reconstruct_Gannan_HQ.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
