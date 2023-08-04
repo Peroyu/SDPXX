@@ -1,5 +1,24 @@
 ideas = {
     country = {
+		MMA_zhongyang = {
+            name = MMA_zhongyang
+            picture = MMA_zhongyang
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				political_power_gain = -0.25
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				experience_gain_army_factor = 0.1
+				army_morale_factor = 0.03
+			}
+	    
+		}
         MMA_Northwest_Cavalry = {
             name = MMA_Northwest_Cavalry
             picture = MMA_Northwest_Cavalry

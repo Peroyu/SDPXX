@@ -30,6 +30,7 @@ add_ideas = {
 		JIN_servive_ideal
 		JIN_village_capitalism
 	}
+set_variable = { var = global.JIN_percent value = 10 }
 create_country_leader = {
 		name = "JIN_Yan_Xi_Shan"   
 		desc = "JIN_Yan_Xi_Shan_desc"  

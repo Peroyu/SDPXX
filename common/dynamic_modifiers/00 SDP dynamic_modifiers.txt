@@ -7,3 +7,18 @@ CHI_rural_baes_influce = {
 	local_non_core_manpower = -1
 	army_speed_factor_for_controller = -0.3
 }
+CHI_spy_center = {
+	enable = {
+		alway = yes
+	}
+	icon = GFX_CHI_spy_center
+	mobilization_speed = -0.3
+	resistance_growth = 0.3
+}
+CHI_spy_encourage_steams = {
+	enable = {
+		alway = yes
+	}
+	icon = GFX_CHI_spy_center
+	compliance_growth = 0.3
+}

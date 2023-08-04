@@ -162,6 +162,8 @@ set_variable = { var = global.SDP_anti_jap_28_C value = 0 }
 set_variable = { var = global.SDP_anti_jap_29_C value = 0 }
 set_variable = { var = global.SDP_anti_jap_30_C value = 0 }
 set_variable = { var = global.SDP_anti_jap_31_C value = 0 }
+
+set_variable = { var = global.CJF_intelligence_network_power value = 10 }
 #############################################################
 add_ideas = {
  tot_economic_mobilisation

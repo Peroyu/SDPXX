@@ -1,0 +1,509 @@
+CHI_international_bought = {
+	CJF_soildier_defend = {
+		icon = decision_hol_draw_up_staff_plans
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		available = {
+			NOT = { has_global_flag = CHI_have_soildiers_defend }
+			OR = {
+				tag = CJF
+				tag = MMA
+				}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 25
+		days_remove = 30
+		days_re_enable = 60
+		complete_effect = {
+			add_command_power = -25
+			set_global_flag = CHI_have_soildiers_defend
+
+		}
+		remove_effect = {
+			clr_country_flag = CHI_have_soildiers_defend
+		}
+	}  
+	CJF_xingxingxia = {
+		icon = decision_generic_trucks
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		fire_only_once = yes
+		available = {
+			NOT = { 
+				has_global_flag = CHI_xingxingxia
+				has_global_flag = I_DOING
+				 }
+			OR = {
+				tag = CJF
+				tag = MMA
+				}
+		}
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 756
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 25
+		days_remove = 30
+		complete_effect = {
+			add_command_power = -25
+			set_global_flag = I_DOING
+		}
+		remove_effect = {
+			set_global_flag = CHI_xingxingxia
+		}
+	}                               
+	CJF_buy_infantry_1 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 50
+		days_remove = 5
+		days_re_enable = 10
+		remove_effect = {
+			if = {
+				limit = {
+					has_global_flag = CHI_have_soildiers_defend
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = SOV
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_global_flag = CHI_have_soildiers_defend }
+				}
+				random_list = { 
+					40 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 500
+							producer = SOV
+						}
+					} 
+					45 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 480
+							producer = SOV
+						}
+					} 
+					15 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 450
+							producer = SOV
+						} 
+					} 
+				}
+			}
+		}
+	}
+	CJF_buy_infantry_2 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 100
+		days_remove = 10
+		days_re_enable = 10
+		remove_effect = {
+			if = {
+				limit = {
+					has_global_flag = CHI_have_soildiers_defend
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = SOV
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_global_flag = CHI_have_soildiers_defend }
+				}
+				random_list = { 
+					40 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 1000
+							producer = SOV
+						}
+					} 
+					45 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 975
+							producer = SOV
+						}
+					} 
+					15 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 940
+							producer = SOV
+						} 
+					} 
+				}
+			}
+		}
+	}
+	CJF_buy_infantry_3 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 250
+		days_remove = 15
+		days_re_enable = 20
+		remove_effect = {
+			if = {
+				limit = {
+					has_global_flag = CHI_have_soildiers_defend
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = SOV
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_global_flag = CHI_have_soildiers_defend }
+				}
+				random_list = { 
+					40 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 2500
+							producer = SOV
+						}
+					} 
+					45 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 2450
+							producer = SOV
+						}
+					} 
+					15 = { 
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 2400
+							producer = SOV
+						} 
+					} 
+				}
+			}
+		}
+	}
+	CJF_buy_infantry_support_1 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 75
+		days_remove = 15
+		days_re_enable = 30
+		remove_effect = {
+			if = {
+				limit = {
+					has_global_flag = CHI_have_soildiers_defend
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 50
+					producer = SOV
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_global_flag = CHI_have_soildiers_defend }
+				}
+				random_list = { 
+					40 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 50
+							producer = SOV
+						}
+					} 
+					45 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 47
+							producer = SOV
+						}
+					} 
+					15 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 45
+							producer = SOV
+						} 
+					} 
+				}
+			}
+		}
+	}
+	CJF_buy_infantry_support_2 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		cost = 150
+		days_remove = 15
+		days_re_enable = 45
+		remove_effect = {
+			if = {
+				limit = {
+					has_global_flag = CHI_have_soildiers_defend
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 100
+					producer = SOV
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_global_flag = CHI_have_soildiers_defend }
+				}
+				random_list = { 
+					40 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 100
+							producer = SOV
+						}
+					} 
+					45 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 95
+							producer = SOV
+						}
+					} 
+					15 = { 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 90
+							producer = SOV
+						} 
+					} 
+				}
+			}
+		}
+	}
+	CJF_buy_arterlly_1 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		available = {
+			has_global_flag = CHI_xingxingxia
+		}
+		cost = 50
+		days_remove = 15
+		days_re_enable = 30
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 10
+				producer = SOV
+			}
+		}
+	}
+	CJF_buy_arterlly_2 = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		available = {
+			has_global_flag = CHI_xingxingxia
+		}
+		cost = 150
+		days_remove = 15
+		days_re_enable = 45
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 30
+				producer = SOV
+			}
+		}
+	}
+	CJF_buy_car = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		available = {
+			has_global_flag = CHI_xingxingxia
+		}
+		cost = 60
+		days_remove = 15
+		days_re_enable = 30
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 10
+				producer = SOV
+			}
+		}
+	}
+	CJF_buy_at = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		available = {
+			has_global_flag = CHI_xingxingxia
+		}
+		cost = 100
+		days_remove = 15
+		days_re_enable = 30
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = anti_tank_equipment
+				amount = 25
+				producer = SOV
+			}
+		}
+	}
+	CJF_buy_aa = {
+		icon = decision_generic_prepare_civil_war
+		allowed = {
+			OR = {
+			original_tag = CJF
+			original_tag = MMA
+			}
+		}
+		visible = {
+			OR = {
+			tag = CJF
+			tag = MMA
+			}
+		}
+		available = {
+			has_global_flag = CHI_xingxingxia
+		}
+		cost = 100
+		days_remove = 15
+		days_re_enable = 30
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+				amount = 25
+				producer = SOV
+			}
+		}
+	}
+}

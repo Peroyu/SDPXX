@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_border_conflicts.dds"
 	}
 	spriteType = {
+		name = "decision_category_ITA_reggianes_exports"
+		texturefile = "gfx/interface/decisions/categories/decision_category_ITA_reggianes_exports.dds"
+	}
+	spriteType = {
 		name = "GFX_decisions_GDC_hunger"
 		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
 	}
@@ -38,6 +42,10 @@ spriteTypes = {
 	spriteType = {
 		name = "decision_cat_generic_mefo_bills"
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_generic_mefo_bills.png"
+	}
+	spriteType = {
+		name = "decision_cat_picture_spr_the_inevitable_civil_war"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_spr_the_inevitable_civil_war.png"
 	}
 	spriteType = {
 		name = "GFX_decisions_CJF_anti_japen_war"
@@ -56,8 +64,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
 	}
 	spriteType = {
-		name = "decision_generic_political_discourse"
-		texturefile = "gfx/interface/decisions/decision_generic_political_discourse.dds"
+		name = "decision_generic_form_nation"
+		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
+	}
+	spriteType = {
+		name = "decision_recruit_operative"
+		texturefile = "gfx/interface/decisions/decision_recruit_operative.dds"
 	}
 	spriteType = {
 		name = "GFX_decisions_CJF_KMT_party"
@@ -68,7 +80,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/GFX_CJF_Handle_Internal_Industry.png"
 	}
 	spriteType = {
-		name = "decision_eng_trade_unions_support"
+		name = "decision__unions_support"
 		texturefile = "gfx/interface/decisions/decision_eng_trade_unions_support.dds"
 	}
 	spriteType = {
@@ -124,6 +136,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_military.dds"
 	}
 	spriteType = {
+		name = "decision_hol_draw_up_staff_plans"
+		texturefile = "gfx/interface/decisions/milltary/decision_hol_draw_up_staff_plans.dds"
+	}
+	spriteType = {
+		name = "decision_generic_ignite_civil_war"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_ignite_civil_war.dds"
+	}
+	spriteType = {
 		name = "decision_generic_trucks"
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_trucks.dds"
 	}
@@ -134,6 +154,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_cat_picture_soviet_comecon"
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_soviet_comecon.dds"
+	}
+	spriteType = {
+		name = "decision_cat_picture_spr_civil_war_offensives"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_spr_civil_war_offensives.dds"
 	}
 	spriteType = {
 		name = "GFX_JAP_FLAG"

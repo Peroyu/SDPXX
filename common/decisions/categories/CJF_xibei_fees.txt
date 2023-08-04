@@ -1,0 +1,15 @@
+CJF_xibei_fees = {
+    icon = decision_category_hol_bernhard
+    picture = decision_cat_generic_mefo_bills
+    allowed = {
+		original_tag = CJF
+	}
+    visible = {
+		tag = CJF
+    NOT = { country_exists = CMA }
+	}
+    priority = {
+		base = 1
+		
+	}
+}

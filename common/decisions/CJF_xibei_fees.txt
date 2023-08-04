@@ -1,0 +1,95 @@
+CJF_xibei_fees = {                               
+	CJF_Xibei_fees_1 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 754
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+		visible = {
+			tag = CJF
+		}
+		cost = 50
+		days_remove = 5
+		days_re_enable = 25
+		remove_effect = {
+			MMA = {
+				add_political_power = 45
+				country_event = {
+					id = MMA.3
+					days = 1
+				}
+			}
+		}
+	}
+	CJF_Xibei_fees_2 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 754
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+		visible = {
+			tag = CJF
+		}
+		cost = 150
+		days_remove = 10
+		days_re_enable = 50
+		remove_effect = {
+			MMA = {
+				add_political_power = 135
+				country_event = {
+					id = MMA.3
+					days = 1
+				}
+			}
+		}
+	}
+	CJF_Xibei_fees_3 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+		on_map_mode = map_and_decisions_view
+		highlight_states = {
+			highlight_state_targets = {
+				state = 754
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+		visible = {
+			tag = CJF
+		}
+		cost = 50
+		days_remove = 30
+		days_re_enable = 150
+		complete_effect = {
+			add_command_power = -50
+		}
+		remove_effect = {
+			MMA = {
+				add_timed_idea = {
+					idea = MMA_zhongyang 
+					days = 120
+					}
+				country_event = {
+					id = MMA.4
+					days = 1
+				}
+			}
+		}
+	}
+}

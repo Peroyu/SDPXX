@@ -1,0 +1,374 @@
+CJF_South_China_Intelligence_Network = {
+        CJF_reset_intelligence_insititution = {
+            icon = decision_recruit_operative
+            available = {
+                tag = CJF
+                NOT = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                }
+		    }
+            visible = {
+                NOT = {
+                    has_country_flag = CJF_Intelligence_Network_has_begun
+                    }
+		    }
+           allowed = {
+			original_tag = CJF
+		    }
+            fire_only_once = yes
+            cost = 35
+            days_remove = 35
+            modifier = {
+                civilian_factory_use = 2
+            }
+            remove_effect = {
+                create_intelligence_agency = yes
+                set_country_flag = CJF_Intelligence_Network_has_begun
+            }
+        }
+	    CJF_train_intelligence_workers = {
+            icon = decision_recruit_operative
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                command_power > 10
+            }
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+            }
+            cost = 30
+            days_remove = 30
+            days_re_enable = 30
+            complete_effect = {
+                add_command_power = -10
+                add_manpower = -30
+            }
+            remove_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = 15 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+				custom_effect_tooltip = CJF_intelligence_power_added
+            }
+        }
+        CJF_expand_spy = {
+            icon = decision_recruit_operative
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 80
+                    compare = greater_than_or_equals
+            }
+            }
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+            }
+            cost = 100
+            days_remove = 150
+            days_re_enable = 150
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -80 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+                operative_slot = 1
+            }
+        }
+        CJF_set_Wuhan_center = {
+            icon = decision_recruit_operative
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 30
+                    compare = greater_than_or_equals
+                }
+            }
+            fire_only_once = yes
+            on_map_mode = map_and_decisions_view
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 908
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 30
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -30 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+                908 = {
+                    add_dynamic_modifier = {
+                        modifier =CHI_spy_center
+                    }
+                }
+                set_country_flag = CJF_Huazhong_intelligence_net
+            }
+        }
+        CJF_set_Beiping_center = {
+            icon = decision_recruit_operative
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 30
+                    compare = greater_than_or_equals
+                }
+            }
+            fire_only_once = yes
+            on_map_mode = map_and_decisions_view
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 608
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 30
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -30 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+                608 = {
+                    add_dynamic_modifier = {
+                        modifier =CHI_spy_center
+                    }
+                }
+                set_country_flag = CJF_Huabei_intelligence_net
+            }
+        }
+        CJF_set_Nanjing_center = {
+            icon = decision_recruit_operative
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 30
+                    compare = greater_than_or_equals
+                }
+            }
+            fire_only_once = yes
+            on_map_mode = map_and_decisions_view
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 924
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 30
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -30 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+                924 = {
+                    add_dynamic_modifier = {
+                        modifier =CHI_spy_center
+                    }
+                }
+                set_country_flag = CJF_Huadong_intelligence_net
+            }
+        }
+        CJF_contact_Huabei_teams = {
+            icon = decision_generic_ignite_civil_war
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 20
+                    compare = greater_than_or_equals
+                }
+                has_country_flag = CJF_Huabei_intelligence_net
+            }
+            on_map_mode = map_only
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 607
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 60
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -20 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+				add_command_power = -15
+            }
+            remove_effect = {
+                random_state = {
+					limit = { is_controlled_by = FNC }
+					add_dynamic_modifier = {
+						modifier = CHI_spy_encourage_steams
+						days = 45
+					}
+				}
+            }
+        }
+		CJF_ensure_jin_league = {
+            icon = decision_generic_military
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 20
+                    compare = greater_than_or_equals
+                }
+                has_country_flag = CJF_Huabei_intelligence_net
+            }
+            on_map_mode = map_only
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 615
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 40
+			days_re_enable = 40
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -20 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+                add_to_variable = { global.JIN_percent = 10 }
+            }
+        }
+		CJF_steel_Huazhong_weapons = {
+            icon = decision_eng_trade_unions_demand
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 30
+                    compare = greater_than_or_equals
+                }
+                has_country_flag = CJF_Huazhong_intelligence_net
+            }
+            on_map_mode = map_only
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 908
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 40
+			days_re_enable = 40
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -30 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+				add_command_power = -10
+            }
+            remove_effect = {
+                transfer_units_fraction= {
+					target = RCR
+					size = 0.1
+            	}
+        	}
+		}
+		CJF_talk_with_RCR = {
+            icon = decision_eng_trade_unions_support
+            available = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 30
+                    compare = greater_than_or_equals
+                }
+                has_country_flag = CJF_Huadong_intelligence_net
+            }
+            on_map_mode = map_only
+            visible = {
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                
+            }
+            highlight_states = {
+                highlight_state_targets = {
+                    state = 924
+                }
+                highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+                highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+            }
+            cost = 20
+            days_remove = 40
+			days_re_enable = 40
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -30 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+			modifier = {
+				RCR = {
+					army_intel_to_others = 10
+					civilian_intel_to_others = 10
+				}
+			}
+            remove_effect = {
+                
+        	}
+    	}
+}

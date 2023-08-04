@@ -1,0 +1,20 @@
+CHI_international_bought = {
+    icon = decision_category_ITA_reggianes_exports
+    picture = decision_cat_picture_spr_civil_war_offensives
+    allowed = {
+		OR = {
+		original_tag = CJF
+		original_tag = MMA
+		}
+	}
+    visible = {
+		OR = {
+			tag = MMA
+		tag = CJF
+		}
+	}
+    priority = {
+		base = 1
+		
+	}
+}

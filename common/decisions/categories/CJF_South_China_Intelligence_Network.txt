@@ -1,0 +1,15 @@
+CJF_South_China_Intelligence_Network = {
+	icon = GFX_MMA_gongshukmt
+	picture = decision_cat_picture_spr_the_inevitable_civil_war
+	visible = {
+		OR = {
+			tag = GDC
+			tag = CJF
+			tag = RCR
+			tag = JAP
+			}
+		NOT = { country_exists = CMA }
+		}
+	priority = 1000
+	allowed = { original_tag = CJF }
+}
