@@ -1,0 +1,11 @@
+on_startup = {
+		effect = {
+			every_country = {
+		        MMA = {
+		             add_dynamic_modifier = {
+			            modifier = MMA_gongye
+			        }  
+		        }
+		    }
+		}
+	}

@@ -22,13 +22,6 @@ on_actions = {
 				set_global_flag = scriptpeaceconference_warsummary
 			}
 
-		  every_country = {
-		    MMA = {
-		        add_dynamic_modifier = {
-			       modifier = MMA_gongye
-			    }  
-		    }
-		   }
 		}
 	}
 	on_capitulation = {
