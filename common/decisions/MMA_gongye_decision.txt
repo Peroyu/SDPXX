@@ -1,0 +1,23 @@
+MMA_gongye_decision_categories = {                               
+		xikang_people2 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }
+		  cancel_trigger = {
+		   
+		  }
+          is_good = yes                   
+          remove_effect = { 
+				add_to_variable = { XKS_people = -20 }
+				add_manpower = 20
+		    } 
+          	 
+		  cost = 30
+		  days_re_enable = 17
+		  days_remove = 7
+        }
+    }

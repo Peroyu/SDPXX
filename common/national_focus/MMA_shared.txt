@@ -230,6 +230,7 @@ shared_focus = {
 		        tree = MMA_second
 		        keep_completed = no
 		    }
+			set_country_flag = MMA_gongye
 			custom_effect_tooltip = MMA_new_stage
 			add_to_variable = { global.CHI_xibei_regional_tension = -10 }
 			custom_effect_tooltip = CHI_v_regional_tension_decrease
@@ -248,7 +249,12 @@ shared_focus = {
 		cost = 2
 		x = 7
 		y = 0
-
+		completion_reward = {
+		 set_country_flag = MMA_gongye
+         set_variable = { MMA_jizhongdu = 5}
+		 set_variable = { MMA_xiaolv = 5 }
+		 set_variable = { MMA_buman = 0 }
+		}
 	}
 	shared_focus = {
 		id = Integrated_industry
