@@ -14,7 +14,12 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+HUN = {
+	puppet = CRT
+}
+HUN = {
+	puppet = ROM
+}
 set_popularities = {
  Liberalism = 5
   Nationalism = 20

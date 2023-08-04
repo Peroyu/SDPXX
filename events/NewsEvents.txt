@@ -262,10 +262,36 @@ news_event = {
     title = ISU.1.t
     desc = ISU.1.d
     immediate = { 
-
+        hidden_effect = {
+            ISU = {
+                add_to_faction = SOV
+                add_to_faction = FRA
+                add_to_faction = ITA
+                add_to_faction = RCL
+                add_to_faction = GER
+                add_to_faction = AUS
+                add_to_faction = HUN
+                add_to_faction = POL
+                add_to_faction = UKR
+                add_to_faction = BLR
+                add_to_faction = EST
+                add_to_faction = GRE
+                add_to_faction = LIT
+                add_to_faction = LAT
+                add_to_faction = YUG
+                add_to_faction = CAS
+                add_to_faction = TRU
+                add_to_faction = MON
+                add_to_faction = BUL
+                add_to_faction = FIN
+                add_to_faction = CZE
+                add_to_faction = DZG
+                add_to_faction = SLO
+            }
+        }
 	}
     is_triggered_only = yes
- 
+    
     fire_only_once = yes
 
     major = yes

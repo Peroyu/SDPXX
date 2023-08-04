@@ -30,7 +30,8 @@ news_event = {
     title = ISU.2.t
     desc = ISU.2.d
     immediate = { 
-
+	
+		
 	}
     fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
 	is_triggered_only = yes
