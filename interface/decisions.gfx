@@ -195,4 +195,16 @@ spriteTypes = {
 		name = "GFX_PHI_FLAG"
 		texturefile = "gfx/interface/scripted_gui/GFX_PHI_FLAG.png"
 	}
+	spriteType = {
+		name = "GFX_SDP_chi_reuni_vic"
+		texturefile = "gfx/interface/scripted_gui/GFX_SDP_chi_reuni_vic.png"
+	}
+	spriteType = {
+		name = "GFX_SDP_chi_reuni_failvre"
+		texturefile = "gfx/interface/scripted_gui/GFX_SDP_chi_reuni_failvre.png"
+	}
+	spriteType = {
+		name = "GFX_SDP_chi_reuni_photo"
+		texturefile = "gfx/interface/scripted_gui/GFX_SDP_chi_reuni_photo.png"
+	}
 }

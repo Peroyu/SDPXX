@@ -343,6 +343,8 @@ country_event = {
 				annex_country = { target = MAN transfer_troops = no  }
 				transfer_state = 743
 				transfer_state = 745
+				set_country_flag = CHI_uni_temp_gov
+				set_variable = { chi_uni_nuon = 4 }
 			}
 			KTR = {
 				annex_country = { target = SHA transfer_troops = no  }
