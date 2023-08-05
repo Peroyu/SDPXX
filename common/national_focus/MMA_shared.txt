@@ -249,10 +249,32 @@ shared_focus = {
 		x = 7
 		y = 0
 		completion_reward = {
+		MMA = { add_dynamic_modifier = {modifier = MMA_gongye_dynamic_modifier }}
 		 set_country_flag = MMA_gongye
-         set_variable = { MMA_jizhongdu = 5}
-		 set_variable = { MMA_xiaolv = MMA_jizhongdu }
-		 set_variable = { MMA_buman = 0 }
+		 clamp_variable = {
+            var = MMA_buman
+            min = 0
+			max = 100
+            }
+		clamp_variable = {
+            var = MMA_jizhongdu
+            min = 0
+			max = 100
+            }
+		clamp_variable = {
+            var = MMA_jianzhu
+            min = 0
+			max = 0.5
+            }
+		clamp_variable = {
+            var = MMA_chanchu
+            min = 0
+			max = 0.5
+            }
+         set_variable = { MMA_jizhongdu = 1}
+		 set_variable = { MMA_jianzhu = 0.1 }
+		 set_variable = { MMA_chanchu = 0.1 }
+		 set_variable = { MMA_buman = 5 }
 		}
 	}
 	shared_focus = {

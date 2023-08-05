@@ -1,6 +1,6 @@
 MMA_gongye_decision_categories = {
 	    icon = GFX_MMA_gongshukmt
-	    picture = GFX_decisions_MMA_gongshu
+	    picture = GFX_decisions_XKS_Con_decision_categories
 		available = {
 	        has_country_flag = MMA_gongye	
 		}

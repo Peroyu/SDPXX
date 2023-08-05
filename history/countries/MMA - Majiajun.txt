@@ -18,7 +18,7 @@
 	limited_exports
 	partial_economic_mobilisation
  }
-set_variable = { var = MMA_national value = 5 }
+ set_variable = { var = MMA_national value = 5 }
  set_politics = {
 	ruling_party = conservatism 
 	last_election = "1936.1.1"

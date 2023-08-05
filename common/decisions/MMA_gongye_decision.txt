@@ -1,5 +1,5 @@
 MMA_gongye_decision_categories = {                               
-		xikang_people = { 
+		MMA_gongye_decision_1 = { 
 	      icon = decision_hol_exchange_intelligence_data
           available = {                           
 		
@@ -8,12 +8,137 @@ MMA_gongye_decision_categories = {
 		   
 		  }            
           remove_effect = { 
-				add_to_variable = { XKS_people = -20 }
-				add_manpower = 20
+			add_to_variable = { MMA_jizhongdu = 5 }
+			add_to_variable = { MMA_chanchu = 0.1 }
+			add_to_variable = { MMA_jianzhu = -0.05 }
+			add_stability = -0.025
 		    } 
           	 
-		  cost = 30
-		  days_re_enable = 17
-		  days_remove = 7
+		  cost = 5
+		  days_re_enable = 10
+		  days_remove = 10
+        }
+		MMA_gongye_decision_2 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }            
+          remove_effect = { 
+			add_to_variable = { MMA_jizhongdu = 10 }
+			add_to_variable = { MMA_chanchu = 0.1 }
+			add_to_variable = { MMA_jianzhu = -0.05 }
+			random_list = {
+			 25 = {
+			  745 ={
+			    add_building_construction = {
+				 type = industrial_complex 
+				 level = -1
+				 instant_build = yes 
+			      }
+				}
+			  }
+			 25 = {
+			  755 ={
+			    add_building_construction = {
+				 type = industrial_complex 
+				 level = -1
+				 instant_build = yes 
+			      }
+				}
+			  }
+             25 = {
+			  604 ={
+			    add_building_construction = {
+				 type = industrial_complex 
+				 level = -1
+				 instant_build = yes 
+			      }
+				}
+			  }
+             25 = {
+			  283 ={
+			    add_building_construction = {
+				 type = industrial_complex 
+				 level = -1
+				 instant_build = yes 
+			      }
+				}
+			  }			  
+		    }
+		  } 
+          	 
+		  cost = 20
+		  days_re_enable = 10
+		  days_remove = 15
+        }
+		MMA_gongye_decision_3 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }            
+          remove_effect = { 
+			add_to_variable = { MMA_jizhongdu = 10 }
+			add_to_variable = { MMA_chanchu = 0.15 }
+			add_to_variable = { MMA_jianzhu = 0.1 }
+			add_to_variable = { MMA_buman = 5 }
+		    } 
+          	 
+		  cost = 15
+		  days_re_enable = 10
+		  days_remove = 25
+        }
+		MMA_gongye_decision_4 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }            
+          remove_effect = { 
+			add_to_variable = { MMA_jizhongdu = 20 }
+			add_to_variable = { MMA_chanchu = 0.15 }
+			add_to_variable = { MMA_jianzhu = 0.1 }
+			add_to_variable = { MMA_buman = 25 }
+		    } 
+          fire_only_once = yes 	 
+		  cost = 15
+		  days_remove = 10
+        }
+		MMA_gongye_decision_5 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }            
+          remove_effect = { 
+			add_to_variable = { MMA_buman = -10 }
+		    } 
+          cost = 25
+		  days_re_enable = 15
+		  days_remove = 5
+        }
+		MMA_gongye_decision_6 = { 
+	      icon = decision_hol_exchange_intelligence_data
+          available = {                           
+		
+          }
+		  visible = {
+		   
+		  }            
+          remove_effect = { 
+			add_to_variable = { MMA_buman = -100 }
+		    } 
+          cost = 50
+          fire_only_once = yes
+		  days_remove = 5
         }
     }

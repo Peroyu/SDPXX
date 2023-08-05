@@ -24,11 +24,14 @@ CHI_spy_encourage_steams = {
 	compliance_growth = 0.3
 }
 
-MMA_gongye = {
+MMA_gongye_dynamic_modifier = {
     enable = { 
 	    always = yes 
 	}
     icon = GFX_CHI_spy_center
-	production_speed_buildings_factor = MMA_jizhongdu
+	production_speed_buildings_factor = MMA_jianzhu
+	research_speed_factor = MMA_yanjiu
+	industrial_capacity_factory = MMA_chanchu
+	
 }
 
