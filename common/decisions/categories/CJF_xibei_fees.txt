@@ -8,6 +8,11 @@ CJF_xibei_fees = {
 		tag = CJF
     NOT = { country_exists = CMA }
 	}
+	available = {
+		MMA = {
+			has_country_leader = { ruling_only = yes name = "MMA_Ma_Hongkui" }
+		}
+	}
     priority = {
 		base = 1
 		

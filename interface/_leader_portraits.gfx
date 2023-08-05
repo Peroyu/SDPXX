@@ -569,6 +569,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_NEP_Tribhuvan"
+		texturefile = "gfx/leaders/INDIA/Portrait_NEP_Tribhuvan.png"		
+	}
+
+	spriteType = {
 		name = "GFX_BRA_portrait_Getulio_Vargas"
 		texturefile = "gfx/leaders/Latin_America/BRA_portrait_Getulio_Vargas.png"		
 	}

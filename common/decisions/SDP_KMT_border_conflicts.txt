@@ -89,98 +89,8 @@ SDP_KMT_army_reform = {
 		}
     }  
 
-
-    SDP_kmt_bianjingchongtu_1 = {
-		icon = decision_infiltrate_state
-        cost = 100
-        
-		
-		allowed = {
-			tag = CJF
-		}
-        visible = {
-			tag = CJF
-		}
-		
-        target_root_trigger = {
-            tag = CJF
-		}
-        
-		target_trigger = {
-            
-			FROM = { 
-				is_neighbor_of = ROOT
-			}
-		}
-		fire_only_once = no
-        days_remove = 10
-        available = {
-            ROOT = {
-                OR = {
-                    has_idea = KMT_huifuxinxin_3
-                    has_idea = KMT_huifuxinxin_4
-                    has_idea = KMT_huifuxinxin_5
-                }
-            }
-            FROM = {
-                any_owned_state = {
-                    any_neighbor_state = {
-                        is_fully_controlled_by = ROOT
-                    } 
-                }
-                
-                
-            }
-		}
-        complete_effect = {
-            FROM = {
-                random_owned_state = {
-                    limit = {
-                        any_neighbor_state = {
-                            is_fully_controlled_by = ROOT
-                        } 
-                    }
-                    set_variable = { FROM.defender_state_vs_@ROOT = id }
-                }
-            }
-            random_state = {
-                limit = {
-                    is_fully_controlled_by = ROOT
-                    any_neighbor_state = {  #该省份是上述变量id省份的临近省份
-						state = var:FROM.defender_state_vs_@ROOT   
-					}
-                }
-                set_variable = { FROM.attacker_state_vs_@ROOT = id }
-            }
-        }
-        remove_effect = {
-            start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = var:FROM.attacker_state_vs_@ROOT
-					num_provinces = 4
-					on_win = wtt_border_conflict_won_attacker.1
-					on_lose = wtt_border_conflict_lost_attacker.1
-					on_cancel = wtt_border_conflict_canceled_attacker.1
-				}
-				
-				defender = {
-					state = var:FROM.defender_state_vs_@ROOT
-					num_provinces = 4
-					on_win = wtt_border_conflict_won_defender.1
-					on_lose = wtt_border_conflict_lost_defender.1
-					on_cancel = wtt_border_conflict_canceled_defender.1
-				}
-			}
-
-        }
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
     SJF_junshichongtu_1 = { #本地化站标
-        icon = GFX_decision_generic_ignite_civil_war
+        icon = decision_generic_ignite_civil_war
         cost = 50
         visible = {
             
@@ -235,7 +145,7 @@ SDP_KMT_army_reform = {
     } 
 
     SJF_junshichongtu_2 = { #本地化站标
-        icon = GFX_decision_generic_ignite_civil_war
+        icon = decision_generic_ignite_civil_war
         cost = 50
         visible = {
             

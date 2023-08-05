@@ -17,17 +17,17 @@ set_politics = {
 # 
 set_popularities = {
  reactionism = 50
- restoratveism = 33
+ restorativeism = 33
  conservatism = 17
 }
 
 # 
 create_country_leader = {
-	name = "比兰德拉国王"  # 
+	name = "特里布万·比尔·沙阿"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_NEP_Tribhuvan"  # 
 	expire = "1976.4.30"  # 
-	ideology = reactionism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

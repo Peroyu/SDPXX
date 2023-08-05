@@ -177,7 +177,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			
-			unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
+			
 		}
 	}
 shared_focus = {
@@ -190,7 +190,7 @@ shared_focus = {
 			focus = CJF_The_country_is_in_trouble
 		}
 		completion_reward = {
-			unlock_decision_category_tooltip = SDP_KMT_decision_categories
+			
 		}
 	}
 shared_focus = {

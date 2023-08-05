@@ -1,16 +1,18 @@
 SDP_KMT_army_reform = {
 	priority = 100
-	icon = GFX_decision_category_army_reform
-	picture = GFX_decision_cat_picture_chi_infiltration
+	icon = decision_category_military_operation
+	picture = decision_cat_picture_fatherland_front
 	scripted_gui = SDP_KMT_scripted_gui
 	allowed = {
-		tag = CJF
+		orignal_tag = CJF
 	}
 	available = {
-	        has_completed_focus = CJF_sharpen_the_tools 
+		tag = CJF
+		has_completed_focus = CJF_The_country_is_in_trouble
 		}
 	visible = {
-		has_completed_focus = CJF_sharpen_the_tools
+		tag = CJF
+		has_completed_focus = CJF_The_country_is_in_trouble
 	} 
 }
 
