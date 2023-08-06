@@ -28,8 +28,23 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-	name = "GFX_GDC_call_the_soldiers"
+	name = "GFX_GDC_all_soldiers"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_call_the_soldiers.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_call_the_soldiers"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war_2.dds"			
+		}
+
+	SpriteType = {
+		name = "GFX_GDC_rise_money_in_coucil"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_rise_money_in_coucil.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_kill_them_all"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_kill_them_all.dds"			
 	}
 	
 	SpriteType = {
@@ -104,8 +119,13 @@ spriteTypes = {
 	
 	SpriteType = {
 	name = "GFX_GDC_ten_years_war"
-	texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war.dds"			
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_ten_years_war"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_ten_years_war.png"			
+		}
 	
 	SpriteType = {
 	name = "GFX_GDC_NRA_first"
