@@ -26,6 +26,10 @@ country_event = {
 				id = ISU.2
 				days = 20
 			}
+			news_event = {
+				id = nuke.1
+				days = 450
+			}
 		}
 		}
     }
@@ -88,10 +92,19 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		GER={add_nuclear_bombs = 5}
-		FRA={add_nuclear_bombs = 5}
-		SOV={add_nuclear_bombs = 5}
-		ISU={add_nuclear_bombs = 5}
+			launch_nuke = {
+				province = 7350
+				state = 588
+				controller = CAS
+				use_nuke = yes
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = ISU.3
+					days = 1
+				}
+			}
 		}
     }
 	

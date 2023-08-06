@@ -300,4 +300,25 @@ news_event = {
 		name = ISU.1.a
 	}
 }
+news_event = {
+	id = ISU.3
+
+    picture = GFX_ISU_3
+    title = ISU.3.t
+    desc = ISU.3.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.3.a
+	}
+}
 

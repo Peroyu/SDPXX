@@ -818,7 +818,91 @@ country_event = {
 	}
     option = { 
         name = GDCmcpc.4.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		country_event = {
+			id = GDCmcpc.5
+			days = 1
+		}
+	}
+    
+}
+country_event = {
+	id = GDCmcpc.5 #交涉
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.5 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDCmcpc.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCmcpc.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+   
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+			random_list = { 
+				70 = { 
+					country_event = {
+						id = GDCmcpc.6
+						days = 1
+					}
+				} 
+				30 = { 
+					country_event = {
+						id = GDCmcpc.7
+						days = 1
+					}
+				} 
+			}
+		}
+	}
+    option = { 
+        name = GDCmcpc.5.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		
+	}
+    
+}
+country_event = {
+	id = GDCmcpc.6 #万事俱备
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.6 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDCmcpc.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCmcpc.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+   
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDCmcpc.6.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
 		add_to_variable = { var = GDC.GDC_crop_reserves value = 75 }
+		custom_effect_tooltip = GDC_hunger_relive_3
+	}
+    
+}
+country_event = {
+	id = GDCmcpc.7 #万事俱备
+	 immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCmcpc.7 FROM = [From.GetName]" }
+    picture = GFX_xiangnan
+    title = GDCmcpc.7.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
+    desc = GDCmcpc.7.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
+   
+    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    
+	hidden = no
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+    option = { 
+        name = GDCmcpc.7.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
+		add_manpower = -1
+		add_stability = -0.05
+		add_to_variable = { var = GDC.GDC_crop_reserves value = 75 }
+		custom_effect_tooltip = GDC_hunger_relive_3
 	}
     
 }
