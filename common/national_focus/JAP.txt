@@ -453,7 +453,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_assault_war
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_assault_war
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Continental_operations_resumed
@@ -471,7 +471,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_remoblization
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_remoblization
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_assault_war
@@ -490,7 +490,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_authorized_base_camp
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_authorized_base_camp
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_assault_war
@@ -515,7 +515,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Deep_ditch_high_barrier
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Deep_ditch_high_barrier
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Continental_operations_resumed
@@ -533,7 +533,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_armed_chinese_leagues
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_armed_chinese_leagues
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_Deep_ditch_high_barrier
@@ -658,7 +658,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_call_america
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_call_america
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_Deep_ditch_high_barrier
@@ -673,7 +673,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Stuc_in_quagmire
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Stuc_in_quagmire
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_armed_chinese_leagues
@@ -708,7 +708,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_china_Dispatch_troops
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_china_Dispatch_troops
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Stuc_in_quagmire
@@ -724,7 +724,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Three_Light_Policy
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Three_Light_Policy
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_china_Dispatch_troops
@@ -747,7 +747,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_bombers
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_bombers
 		cost = 7.00
 		prerequisite = {
 			focus = JAP_china_Dispatch_troops
@@ -768,7 +768,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Close_eyes_and_listen
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Close_eyes_and_listen
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_bombers
@@ -786,7 +786,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Authorized_US_Air_Corps
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Authorized_US_Air_Corps
 		cost = 6.00
 		prerequisite = {
 			focus = JAP_Close_eyes_and_listen
@@ -813,7 +813,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_No_mercy
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_No_mercy
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Close_eyes_and_listen
@@ -830,7 +830,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Terror_policy
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Terror_policy
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Close_eyes_and_listen
@@ -847,7 +847,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_Necessary_evil
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_Necessary_evil
 		cost = 8.00
 		prerequisite = {
 			focus = JAP_Close_eyes_and_listen
@@ -869,7 +869,7 @@ focus_tree = {
 	}
 	focus = {
 		id = JAP_crazy_soldiers
-		icon = GFX_goal_unknown
+		icon = GFX_JAP_crazy_soldiers
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_No_mercy

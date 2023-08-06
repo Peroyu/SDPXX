@@ -642,6 +642,91 @@ spriteTypes = {
 	name = "GFX_JAP_strengthen_regional_milltery"
 	texturefile = "gfx/interface/goals/JAP/GFX_JAP_strengthen_regional_milltery.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_JAP_the_national_problem"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_the_national_problem.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_remoblization"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_remoblization.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_assault_war"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_assault_war.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_authorized_base_camp"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_authorized_base_camp.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_armed_chinese_leagues"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_armed_chinese_leagues.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Deep_ditch_high_barrier"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Deep_ditch_high_barrier.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_call_america"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_call_america.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Stuc_in_quagmire"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Stuc_in_quagmire.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_china_Dispatch_troops"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_china_Dispatch_troops.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Three_Light_Policy"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Three_Light_Policy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_bombers"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_bombers.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Close_eyes_and_listen"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Close_eyes_and_listen.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Authorized_US_Air_Corps"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Authorized_US_Air_Corps.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Necessary_evil"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Necessary_evil.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_Terror_policy"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_Terror_policy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_No_mercy"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_No_mercy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_crazy_soldiers"
+		texturefile = "gfx/interface/goals/JAP/GFX_JAP_crazy_soldiers.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_focus_generic_air_defense"
