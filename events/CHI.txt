@@ -86,7 +86,9 @@ country_event = {
 		set_global_flag = ASIA_CHI_JAP_WAR
 		RCR = {
 			declare_war_on = { target = CJF type = puppet_wargoal_focus }
+			add_ideas = CHI_WAR_TENSION_condition
 		}
+		set_variable = { var = global.chi_uni_nuon value = 5 }
 	}
 	
 }
@@ -346,7 +348,6 @@ country_event = {
 				transfer_state = 743
 				transfer_state = 745
 				set_country_flag = CHI_uni_temp_gov
-				set_variable = { chi_uni_nuon = 4 }
 			}
 			KTR = {
 				annex_country = { target = SHA transfer_troops = no  }

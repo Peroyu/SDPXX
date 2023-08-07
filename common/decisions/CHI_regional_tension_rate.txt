@@ -12,7 +12,13 @@ CHI_regional_tension_rate = {
 		   owns_state = 622
 		   }
 		}
+		activation = {
+			MMA = {
+				has_war_with = SHA
+			}
+		}
 		visible = {
+			tag = SHA
 		 MMA = {
 			has_war_with = SHA
 			}

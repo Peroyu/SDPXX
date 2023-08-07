@@ -50,6 +50,18 @@ ideas = {
 			}
 	    
 		}
+		CHI_WAR_TENSION_condition = {
+            name = RCR_drugs_too_much
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+            modifier = {
+				ai_call_ally_desire_factor = -1000
+				ai_focus_aggressive_factor = -0.5
+			}
+	    
+		}
 	}
 }	
 

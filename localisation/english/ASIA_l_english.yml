@@ -67,7 +67,9 @@
  MAN_reactionism_party:0"满洲协和会"
  MAN_nationalism_party:0"满洲协和会"
  MAN_restorativeism_party:0"满洲协和会"
- 
+
+
+ SBA_communism_party:"中国共产党-西北局"
  
  SHA_northwest_crisis:"西北危机紧急状态"
  #决议
@@ -119,22 +121,30 @@
  CHI_guerrilla_area_desc_jap:"支那作战接近尾声，我们的战争机器业已陷入疲态，但是战斗还在继续，敌人控制着的大片农村还没有结束抵抗。武装好民团，组织好伪军，不要踏出城市一步，近卫首相已经昭告全国。我们必须从支那人手中解救支那，这是帝国对外方略的重要一步，大日本帝国万岁！"
  CHI_v_control_guerrilla_area_decrease:"§R我们对该地区控制能力降低§!"
  CHI_v_control_guerrilla_area_increase:"§G我们对该地区控制能力升高§!"
+ MMA_attack_shanxi:"中国在西北的失败"
+ CHI_WAR_TENSION_condition:"大陆危机紧急状态"
 
  CHI_reuni:"中日战争"
  CHI_reuni_desc:"处于这样无可避免的最后关头，我们当然只有牺牲，只有抗战！但我们的态度只是应战，而不是求战；应战，是应付最后关头，逼不得已的办法。我们全国国民必能信任政府已在整个的准备中，因为我们是弱国，又因为拥护和平是我们的国策，所以不可求战；我们固然是一个弱国，但不能不保持我们民族的生命，不能不负起祖宗先民所遗留给我们历史上的责任，所以到了必不得已时，我们不能不应战。至于战争既开之后，则因为我们是弱国，再没有妥协的机会，如果放弃尺寸土地与主权，便是中华民族的千古罪人！那时便只有拼民族的生命，求我们最后的胜利。"
  we_level_text_sdp_text:"目前的战争烈度为:"
  SDP_chi_reuni_failvre_text:"中国抗日民族统一战线"
  SDP_chi_reuni_vic_text:"大东亚共荣圈"
- SDP_chi_uni_1_tt:"陷入危机"
- SDP_chi_uni_2_tt:"正在崩溃"
- SDP_chi_uni_3_tt:"逐渐崩塌"
- SDP_chi_uni_4_tt:"事态恶化"
- SDP_chi_uni_5_tt:"无所作为"
- SDP_chi_uni_6_tt:"事态良好"
- SDP_chi_uni_7_tt:"逐渐正常"
- SDP_chi_uni_8_tt:"正在恢复"
- SDP_chi_uni_9_tt:"重建权威"
- SDP_chi_uni_10_tt:"重归一统"
+ SDP_chi_uni_1_tt:"小规模冲突"
+ SDP_chi_uni_2_tt:"小规模地区冲突"
+ SDP_chi_uni_3_tt:"范围性冲突"
+ SDP_chi_uni_4_tt:"地区性冲突"
+ SDP_chi_uni_5_tt:"大范围地区冲突"
+ SDP_chi_uni_6_tt:"大范围冲突"
+ SDP_chi_uni_7_tt:"小规模全面冲突"
+ SDP_chi_uni_8_tt:"大规模全面冲突"
+ SDP_chi_uni_9_tt:"全面战争"
+ SDP_chi_uni_10_tt:"决死战争"
+ CHI_war_added:"§R战争将升级……§!"
+ CHI_enter_china:"干涉大陆战事"
+ CHI_call_manchu:"请求满洲支援"
+ CHI_call_huabei:"请求华北支援"
+ CHI_attak_menggu:"进攻蒙古"
+ 
 
  CHI_war.1.t:"第二次抗日战争"
  CHI_war.1.d:"来自东方的消息，今日国民政府正式宣布中止中日两国之间的没有和约的停战状态，发起第二次抗日战争，广州自治政府，西北各族人民也随之通电响应，国民革命军开始向联邦政府发起全线进攻，社会主义国际、协约国和自由国家组织也开始调整自己在远东的部署，而日本帝国方面也开始调动位于海岸和水域沿线的军事力量向前线增援，日本大本营发言人表示，在日本帝国的支持下，联邦政府必将完成中国的统一。不过成都和广州都明确表示要彻底埋葬日本的野心，除非日本放弃在大陆上得到的一切，否则，战争绝不停止。"
@@ -145,3 +155,5 @@
  CHIwar.2.t:"箭在弦上"
  CHIwar.2.d:"五号作战一役，我军乘胜大破伪国民政府之军力，一度进占重庆，毁其要冲，然敌宵小，并未屈服于我帝国之天威之下，妄图更进一步，胡作非为，扰帝国万世之清净太平，此情此景，吾等作为军人，自问不能坐视旁观而令帝国大权旁落于无能之徒之手，现陈请天皇万世之明鉴，望外出兵清剿共荣大业之西敌，内清除妨碍帝国政务之患，此乃吾国千秋万载昌盛之策，东升之朝阳不倾之略也"
  CHIwar.2.a:"支那驻屯部队，荒木贞夫"
+
+ 

@@ -57,7 +57,7 @@ guiTypes ={
 		instantTextboxType = {
 			name = "CHI_regional_tension_rate_desc_gui"
 			position = { x = 10  y = -15 }#你的文本位置（相对于窗口）
-			font = "hoi_1header"
+			font = "hoi_20bs"
 			text = "CHI_regional_tension_rate_desc_gui_desc"
 			maxWidth = 150
 			maxHeight = 300

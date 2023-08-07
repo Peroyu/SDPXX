@@ -68,6 +68,12 @@ CHI_international_bought = {
 		complete_effect = {
 			add_command_power = -25
 			set_global_flag = I_DOING
+			hidden_effect = {
+				country_event = {
+					id = MMA_dip.1
+					days = 36
+				}
+			}
 		}
 		remove_effect = {
 			set_global_flag = CHI_xingxingxia

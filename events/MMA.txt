@@ -370,10 +370,28 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		SHA = {
-				country_event = { id = SHA.1 days = 1 }
-			}
+		
 		name = MMA_dip.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 616
+				num_provinces = 2
+				on_win = MMA_dip.2
+				on_lose = MMA_dip.3
+			}
+						
+			defender = {
+				state = 746
+				num_provinces = 2
+			}
+		}
+		name = MMA_dip.1.b
 	}
 }
 country_event = {
@@ -387,6 +405,8 @@ country_event = {
 	
 	immediate = {
 	 hidden_effect = {
+			transfer_state = 746
+			
 		}
     }
 	
@@ -394,22 +414,11 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
-		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		declare_war_on = { target = SHA type = puppet_wargoal_focus }
-			SHA = {
-				add_ideas = SHA_northwest_crisis
-			}
-		
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase
 		name = MMA_dip.2.a
 	}
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		
-		name = MMA_dip.2.b
-	}
+	
 }
 country_event = {
     id = MMA_dip.3
@@ -429,8 +438,6 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
-		custom_effect_tooltip = CHI_v_regional_tension_increase
 		name = MMA_dip.3.a
 	}
 }

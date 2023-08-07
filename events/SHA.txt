@@ -6,7 +6,7 @@ country_event = {
 	SBA.1 FROM = [From.GetName]" }
 	title = SBA.1.t
 	desc = SBA.1.d
-	picture = GFX_SHA.1
+	picture = GFX_SHA1
 	
 	is_triggered_only = yes
 	
@@ -42,7 +42,7 @@ country_event = {
 			declare_war_on = {target = SHA type = annex_everything }
 		}
 	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
-		add_to_variable = { global.CHI_huabei_regional_tension = 30 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
 		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
 	}
 	option = {
@@ -55,7 +55,7 @@ country_event = {
 		    id = SBA.2
 			days = 1
 	    }
-		add_to_variable = { global.CHI_huabei_regional_tension = 10 }
+		custom_effect_tooltip = CHI_v_regional_tension_increase
 		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
 	}
 }
@@ -73,10 +73,12 @@ country_event = {
 	    hidden_effect = {
 		set_nationality = SBA 
 		promote_leader = yes 
+		
         SHA = {
             remove_state_core = 958
             remove_state_core = 959
 			remove_state_core = 960
+			add_ideas = SHA_northwest_crisis
 		}
 		SBA = {
 		    transfer_state = 958
@@ -196,45 +198,64 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		MMA = {
-			country_event = { id = MMA_dip.2 days = 1 }
-			}
-		set_country_flag = MMA_lose
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 65
+                    compare = greater_than_or_equals
+            }
+		}
+		CJF = {
+			add_to_faction = JIN
+		}
 		name = SHA.1.a
+	}
+
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 30
+                    compare = greater_than_or_equals
+            }
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 65
+                    compare = less_than
+            }
+		}
+		name = SHA.1.b
+		random_list = { 
+			60 = { 
+				CJF = {
+					add_to_faction = JIN
+				}
+			} 
+			40 = { 
+				
+			} 
+		}
 	}
 	option = { 
 	    ai_chance = {
 		   base = 50
 		}
-		MMA = {
-			declare_war_on = { target = SHA type = puppet_wargoal_focus }
-			transfer_state = 942
-			transfer_state = 622
-			transfer_state = 941
-			country_event = { id = MMA_dip.3 days = 1 }
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 30
+                    compare = less_than
+            }
 		}
-		SHA = {
-				add_ideas = SHA_northwest_crisis
-				10733 = {
-				prioritize = { 195 }
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
-					owner = SHA
-				}
+		name = SHA.1.c
+		random_list = { 
+			JAP = {
+				add_to_faction = JIN
 			}
-		12156 = {
-				prioritize = { 195 }
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
-					owner = SHA
-				}
-			}
-			}
-		set_country_flag = MMA_win
-		
-		name = SHA.1.b
+		}
 	}
 	
 }
