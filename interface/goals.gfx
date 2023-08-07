@@ -131,6 +131,11 @@ spriteTypes = {
 	name = "GFX_GDC_NRA_first"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_NRA_first.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_enemy_in_front_of_us"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_enemy_in_front_of_us.png"			
+	}
 	
 ######################################################################
 	SpriteType = {
@@ -271,6 +276,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Distant_guests"
 		texturefile = "gfx/interface/goals/MMA/GFX_Distant_guests.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Even_among_Enemies"
+		texturefile = "gfx/interface/goals/MMA/GFX_Even_among_Enemies.png"			
 	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
