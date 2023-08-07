@@ -1,25 +1,18 @@
-
 state={
-	id=942
-	name="榆林"
-
+	id=959
+	name="STATE_959"
 	history={
 		owner = SHA
 		add_core_of = SHA
-		buildings = {
-			infrastructure = 3
-
-		}
 		industrial_complex = 1
 		set_demilitarized_zone = yes
 
 	}
-
-	provinces={
-		7314 7659 
-	}
-	manpower=150000
-	buildings_max_level_factor=1.000
 	state_category=rural
+	provinces={
+		12356 
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

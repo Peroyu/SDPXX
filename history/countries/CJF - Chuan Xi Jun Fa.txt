@@ -41,13 +41,13 @@ set_variable = { var = SDP_industry_v value = 16 }#60
 set_variable = { var = SDP_agriculture_v value = 19 }#60
 set_variable = { var = SDP_science_v value = 18 }#50
 set_variable = { var = SDP_politics_v value = 31 }#60
-########################################################
+###################👇大陆紧张度👇#####################################
 set_variable = { var = global.CHI_dongbei_regional_tension value = 12 }
-    set_variable = { var = global.CHI_huabei_regional_tension value = 18 }
-    set_variable = { var = global.CHI_xibei_regional_tension value = 16 }
-    set_variable = { var = global.CHI_huanan_regional_tension value = 19 }
-    set_variable = { var = global.CHI_xinan_regional_tension value = 30 }
-    set_variable = { var = global.CHI_huazhong_regional_tension value = 11 }
+set_variable = { var = global.CHI_huabei_regional_tension value = 18 }
+set_variable = { var = global.CHI_xibei_regional_tension value = 16 }
+set_variable = { var = global.CHI_huanan_regional_tension value = 19 }
+set_variable = { var = global.CHI_xinan_regional_tension value = 30 }
+set_variable = { var = global.CHI_huazhong_regional_tension value = 11 }
 #########################################################
 set_variable = { var = global.SDP_anti_jap_1 value = 0 }
 set_variable = { var = global.SDP_anti_jap_2 value = 0 }

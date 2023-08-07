@@ -1,4 +1,181 @@
 ﻿add_namespace = SHA
+add_namespace = SBA
+country_event = {
+    id = SBA.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.1 FROM = [From.GetName]" }
+	title = SBA.1.t
+	desc = SBA.1.d
+	picture = GFX_SHA.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+	option = {
+	    ai_chance = {
+		   base = 100
+		}
+		name = SBA.1.a
+		set_available = { MMA_xibei_choice = 1 }
+		SHA = {
+            remove_state_core = 958
+            remove_state_core = 959
+			remove_state_core = 960
+			remove_state_core = 942
+            add_state_claim = 958
+			add_state_claim = 959
+			add_state_claim = 960
+			add_state_claim = 942
+		}
+	    MMA = {
+		    transfer_state = 958
+			transfer_state = 959
+			transfer_state = 960
+			transfer_state = 942
+			add_state_core = 958
+			add_state_core = 959
+			add_state_core = 960
+			add_state_core = 942
+			declare_war_on = {target = SHA type = annex_everything }
+		}
+	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
+		add_to_variable = { global.CHI_huabei_regional_tension = 30 }
+		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
+	}
+	option = {
+	    ai_chance = {
+		   base = 0
+		}
+		name = SBA.1.b
+		set_available = { MMA_xibei_choice = 2 }
+		country_event = {
+		    id = SBA.2
+			days = 1
+	    }
+		add_to_variable = { global.CHI_huabei_regional_tension = 10 }
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+	}
+}
+country_event = {
+    id = SBA.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.2 FROM = [From.GetName]" }
+	title = SBA.2.t
+	desc = SBA.2.d
+	picture = GFX_SHA.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		set_nationality = SBA 
+		promote_leader = yes 
+        SHA = {
+            remove_state_core = 958
+            remove_state_core = 959
+			remove_state_core = 960
+		}
+		SBA = {
+		    transfer_state = 958
+			transfer_state = 959
+			transfer_state = 960
+			add_state_core = 958
+			add_state_core = 959
+			add_state_core = 960
+			load_oob = SBA
+		}
+		958 = {set_demilitarized_zone = no}
+		959 = {set_demilitarized_zone = no}
+		960 = {set_demilitarized_zone = no}
+		}
+		
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		MMA = {
+		declare_war_on = {target = SHA type = annex_everything }
+        }
+		SBA = {
+		declare_war_on = {target = SHA type = annex_everything }
+		}
+		name = SBA.2.a
+	}
+	option = {
+	    ai_chance = {
+		   base = 0
+		}
+		SBA = {
+		declare_war_on = {target = SHA type = annex_everything }
+		}
+		name = SBA.2.b
+	}	   
+}
+country_event = {
+    id = SBA.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.3 FROM = [From.GetName]" }
+	title = SBA.3.t
+	desc = SBA.3.d
+	picture = GFX_SHA.3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+	}
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+		   check_variable = {
+		    var = MMA_xibei_choice
+			value = 1
+			compare = equals
+		    }
+		}
+        set_variable = { var = global.SDP_anti_jap_14 value = 1 }
+        set_variable = { var = global.SDP_anti_jap_14_R value = 0 }
+        set_variable = { var = global.SDP_anti_jap_14_L value = 0 }
+        set_variable = { var = global.SDP_anti_jap_14_C value = 0 }		
+		name = SBA.3.a
+		custom_effect_tooltip = kmt_shanxi
+	}
+	option = {
+	    ai_chance = {
+		   base = 0
+		}
+		trigger = {
+		   check_variable = {
+		    var = MMA_xibei_choice
+			value = 2
+			compare = equals
+		    }
+		}
+		set_variable = { var = global.SDP_anti_jap_14 value = 0 }
+        set_variable = { var = global.SDP_anti_jap_14_R value = 0 }
+        set_variable = { var = global.SDP_anti_jap_14_L value = 0 }
+        set_variable = { var = global.SDP_anti_jap_14_C value = 1 }		
+		name = SBA.3.b
+		custom_effect_tooltip = cpc_shanxi
+	}	   
+}
+
+
+
+
+
+
+
+###########################old#################################
 country_event = {
     id = SHA.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

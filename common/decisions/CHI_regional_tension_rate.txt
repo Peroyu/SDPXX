@@ -1,4 +1,64 @@
-CHI_regional_tension_rate = {                               
+CHI_regional_tension_rate = {
+    MMA_attack_shanxi = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+		 MMA = {
+		   owns_state = 958
+		   owns_state = 959
+		   owns_state = 960
+		   owns_state = 942
+		   owns_state = 940
+		   owns_state = 941
+		   owns_state = 622
+		   }
+		}
+		visible = {
+		 MMA = {
+			has_war_with = SHA
+			}
+		}
+		cancel_trigger = {
+		  MMA = {
+		   owns_state = 958
+		   owns_state = 959
+		   owns_state = 960
+		   owns_state = 942
+		   owns_state = 940
+		   owns_state = 941
+		   owns_state = 622
+		   }
+		}
+        is_good = no    
+		fire_only_once = yes               
+        days_mission_timeout = 90              
+        timeout_effect = { 
+		 	 
+                
+		}
+        complete_effect = {  
+          MMA = {		
+            transfer_state = 958
+			transfer_state = 959
+			transfer_state = 960
+			transfer_state = 942
+			transfer_state = 622
+			transfer_state = 940
+			transfer_state = 941
+			add_state_core = 958
+			add_state_core = 959
+			add_state_core = 960
+			add_state_core = 942
+			add_state_core = 940
+			add_state_core = 941
+			add_state_core = 622
+			}
+            country_event = {
+            id = SBA.3
+            days = 1					
+            } 
+			
+        }
+    }                               
 	CHI_war_is_coming = {
 	    icon = decision_generic_prepare_civil_war
 		available = {
