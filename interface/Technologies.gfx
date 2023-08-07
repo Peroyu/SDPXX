@@ -7,15 +7,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 
-	SpriteType = {
-		name = "GFX_CHI_zapaijun_medium"
-		texturefile = "gfx/interface/GFX_CHI_zapaijun_medium.png"
-	}
-
-	SpriteType = {
-		name = "GFX_light_support_equipment_medium"
-		texturefile = "gfx/interface/GFX_CHI_zapaijun_medium.png"
-	}
+	
 
 	### generic equipment archetypes ###
 
@@ -3761,5 +3753,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/bba_tech_aircraft_construction.dds"
 	}
 
-		
+	##########special#############
+
+	SpriteType = {
+		name = "GFX_CHI_light_support_equipment_medium"
+		texturefile = "gfx/interface/technologies/GFX_CHI_zapaijun_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CHI_zapaijun_medium"
+		texturefile = "gfx/interface/technologies/GFX_CHI_zapaijun_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_1_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_2_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_2_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_3_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_3_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_4_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_4_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_5_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_5_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_6_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_6_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_high_yield_bombs_7_medium"
+		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_7_medium.png"
+	}
 }

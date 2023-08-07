@@ -9,6 +9,13 @@ technologies = {
 	@1957 = 14
 
 	CHI_zapaijun = {
+		allowed = {
+			orginal_tag = CJF
+			orginal_tag = GDC
+			orginal_tag = MMA
+			orginal_tag = XKS
+			orginal_tag = SIK
+		}
 		enable_subunits = {	
 			CHI_zapai_infantry_subunit
 			CHI_zapai_artillery_subunit
