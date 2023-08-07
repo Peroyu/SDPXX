@@ -36,7 +36,6 @@ CHI_international_bought = {
 		icon = decision_generic_trucks
 		allowed = {
 			OR = {
-			original_tag = CJF
 			original_tag = MMA
 			}
 		}
@@ -46,10 +45,8 @@ CHI_international_bought = {
 				has_global_flag = CHI_xingxingxia
 				has_global_flag = I_DOING
 				 }
-			OR = {
-				tag = CJF
 				tag = MMA
-				}
+				
 		}
 		on_map_mode = map_and_decisions_view
 		

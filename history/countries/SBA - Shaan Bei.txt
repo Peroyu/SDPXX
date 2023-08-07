@@ -1,0 +1,38 @@
+capital = 267 # 
+
+oob = "empty"  
+
+set_research_slots = 2 # 
+
+set_war_support = 0.7 # 
+set_stability = 0.3 # 
+
+
+set_politics = {
+	ruling_party = communism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+
+set_popularities = {
+	communism = 28
+	committee_communism = 12
+	moderate_socialism = 10
+	social_democracy = 5
+	conservatism = 18
+	reactionism = 17
+	nationalism = 10
+}
+
+# 
+create_country_leader = {
+	name = "高岗"  # 
+	desc = "/"  # 
+	picture = CHI_portrait_Gao_Gang  # 
+	expire = "1952.4.30"  # 
+	ideology = leninism # 
+	traits = {  # 
+		#
+	}
+}

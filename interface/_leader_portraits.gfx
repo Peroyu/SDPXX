@@ -56,7 +56,7 @@
 	}
 	
 	spriteType = {
-		name = "GFX_portrait_MMA_Gao_Gang"
+		name = "CHI_portrait_Gao_Gang"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Gao_Gang.png"		
 	}
 	

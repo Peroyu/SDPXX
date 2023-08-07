@@ -247,6 +247,31 @@ spriteTypes = {
 	name = "GFX_Fortressized_factories"
 	texturefile = "gfx/interface/goals/MMA/GFX_Fortressized_factories.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_Before_the_war"
+		texturefile = "gfx/interface/goals/MMA/GFX_Before_the_war.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_More_friends"
+		texturefile = "gfx/interface/goals/MMA/GFX_More_friends.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_In_the_northern"
+		texturefile = "gfx/interface/goals/MMA/GFX_In_the_northern.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_In_the_southern"
+		texturefile = "gfx/interface/goals/MMA/GFX_In_the_southern.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Distant_guests"
+		texturefile = "gfx/interface/goals/MMA/GFX_Distant_guests.png"			
+	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
 	SpriteType = {
@@ -260,7 +285,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_MMA_CPC_rich_and_wealthy_condition"
+	name = "GFX_MMA_larger_millitas"
 	texturefile = "gfx/interface/goals/MMA/GFX_MMA_CPC_rich_and_wealthy_condition.png"			
 	}
 	
@@ -275,7 +300,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_MMA_CPC_west_north_red_army_depatment"
+	name = "GFX_MMA_West_North_defence"
 	texturefile = "gfx/interface/goals/MMA/GFX_MMA_CPC_west_north_red_army_depatment.png"			
 	}
 	
