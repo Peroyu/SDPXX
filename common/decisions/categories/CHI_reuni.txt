@@ -4,11 +4,23 @@ CHI_reuni = {
 	picture = 
 
 	allowed = { 
+		OR = {
+		original_tag = CJF
+		original_tag = GDC
 		original_tag = RCR
+		original_tag = JAP
+		original_tag = MMA
+		}
 	}
 	visible = {
+		has_global_flag = ASIA_CHI_JAP_WAR
+		OR = {
+			tag = CJF
+			tag = GDC
 			tag = RCR
-			has_country_flag = CHI_uni_temp_gov
+			tag = JAP
+			tag = MMA
+			}
 		}
 	priority = 1000
 

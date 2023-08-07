@@ -28,7 +28,7 @@ country_event = {
 		name = CHIwar.1.a
 		if = {
 			limit = {
-				tag = CJF
+				tag = JAP
 			}
 			JAP = {
 				country_event = {
@@ -84,7 +84,9 @@ country_event = {
 			days = 1
 		}
 		set_global_flag = ASIA_CHI_JAP_WAR
-		declare_war_on = { target = CJF type = puppet_wargoal_focus }
+		RCR = {
+			declare_war_on = { target = CJF type = puppet_wargoal_focus }
+		}
 	}
 	
 }
