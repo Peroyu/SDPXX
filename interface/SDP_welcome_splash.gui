@@ -12,7 +12,7 @@ guiTypes = {
 		background = {
 			name = "SDP_logo"
 			spriteType = "GFX_SDP_splash_intro"
-			position = { x = 70 y = -200 }
+			position = { x = -130 y = -200 }
 		}
 
 		containerWindowType = {
