@@ -1,4 +1,87 @@
 ﻿add_namespace = RCR_drugs
+add_namespace = FNC
+country_event = {
+    id = FNC.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	FNC.1 FROM = [From.GetName]" }
+	title = FNC.1.t
+	desc = FNC.1.d
+	picture = GFX_SHA.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    HBA = {
+				transfer_state = 903
+				transfer_state = 905
+				transfer_state = 927
+				transfer_state = 931
+				
+			}
+			CJF = {
+				add_to_faction = HBA
+			}
+			add_to_variable = { var = global.chi_uni_nuon value = 1 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		declare_war_on = { target = HBA type = annex_everything }
+		name = FNC.1.a
+	}
+	
+}
+country_event = {
+    id = FNC.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	FNC.2 FROM = [From.GetName]" }
+	title = FNC.2.t
+	desc = FNC.2.d
+	picture = GFX_SHA.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    HBA = {
+				transfer_state = 903
+				transfer_state = 905
+				transfer_state = 927
+				transfer_state = 931
+				transfer_state = 923
+				transfer_state = 852
+				transfer_state = 905
+			}
+			CJF = {
+				add_to_faction = HBA
+			}
+			add_to_variable = { var = global.chi_uni_nuon value = 2 }
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = chi_news.5
+					days = 1
+				}
+			}
+
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		declare_war_on = { target = HBA type = annex_everything }
+		name = FNC.2.a
+	}
+	
+}
 country_event = {
     id = RCR_drugs.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

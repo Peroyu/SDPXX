@@ -162,6 +162,41 @@ CHI_reuni = {
 				custom_effect_tooltip = CHI_war_added
 				add_ideas = CHI_WAR_TENSION_condition
 			}
+			if = {
+				limit = {
+					check_variable = { #检查变量大小
+            			var = global.CHI_huabeifankang
+           			 	value = 50
+            			compare = greater_than_or_equals
+					}
+					check_variable = { #检查变量大小
+            			var = global.CHI_huabeifankang
+           			 	value = 100
+            			compare = less_than
+					}
+				}
+				FNC = {
+					country_event = {
+						id = FNC.1
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { #检查变量大小
+            			var = global.CHI_huabeifankang
+           			 	value = 100
+            			compare = greater_than_or_equals
+					}
+				}
+				FNC = {
+					country_event = {
+						id = FNC.2
+						days = 1
+					}
+				}
+			}
 		}
 	}
 

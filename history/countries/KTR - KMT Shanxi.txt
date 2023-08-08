@@ -22,9 +22,9 @@ set_popularities = {
 
 recruit_character = MMA_Hu_ZongNan
 create_country_leader = {
-	name = "胡宗南"  # 
+	name = "冯玉祥"  # 
 	desc = "/"  # 
-	picture = "GFX_portrait_Hu_ZongNan"  # 
+	picture = "GFX_portrait_Feng_yuxiang"  # 
 	expire = "1952.4.30"  # 
 	ideology = military_system # 
 	traits = {  # 

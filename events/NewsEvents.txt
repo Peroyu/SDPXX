@@ -176,6 +176,27 @@ news_event = {
 	}
 }
 news_event = {
+	id = chi_news.5
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	chi_news.5 FROM = [From.GetName]" }
+    picture = GFX_chi_news5
+    title = chi_news.5.t
+    desc = chi_news.5.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = chi_news.5.a
+        custom_effect_tooltip = CHI_war_added
+	}
+}
+news_event = {
 	id = indu.1
     immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
 	indu.1 FROM = [From.GetName]" }
