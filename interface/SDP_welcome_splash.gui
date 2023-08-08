@@ -12,7 +12,7 @@ guiTypes = {
 		background = {
 			name = "SDP_logo"
 			spriteType = "GFX_SDP_splash_intro"
-			position = { x = 70 y = 160 }
+			position = { x = 70 y = -200 }
 		}
 
 		containerWindowType = {
@@ -100,10 +100,10 @@ guiTypes = {
 
 				buttonType = {
 					name = "mod_options_button"
-					position = { x = 220 y = -58 }
+					position = { x = 200 y = -38 }
 					orientation = center_down
 
-					quadTextureSprite = "GFX_intro_screen_continue_button"
+					quadTextureSprite = "GFX_button_148x34"
 					buttonText = "mod_options_button_text"
 					buttonFont = "hoi_24header"
 					clicksound = click_default

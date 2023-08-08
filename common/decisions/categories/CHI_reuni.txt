@@ -1,6 +1,5 @@
 CHI_reuni = {
 	icon = decision_category_SWI_absolute_neutrality
-
 	picture = 
 
 	allowed = { 
