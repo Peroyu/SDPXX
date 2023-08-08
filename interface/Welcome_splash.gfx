@@ -19,5 +19,10 @@ spriteTypes = {
 		name = "GFX_GDC_intro"
 		texturefile = "gfx/interface/welcome_GUI/GFX_GDC_intro.png"
 	}
+
+	spriteType = {
+		name = "GFX_MMA_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_MMA_intro.png"
+	}
 	
 }
