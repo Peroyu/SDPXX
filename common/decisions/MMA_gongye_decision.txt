@@ -12,6 +12,7 @@ MMA_gongye_decision_categories = {
 			add_to_variable = { MMA_chanchu = 0.1 }
 			add_to_variable = { MMA_jianzhu = -0.05 }
 			add_stability = -0.025
+			custom_effect_tooltip = MMA_jizhong_improve_tt
 		    } 
           	 
 		  cost = 5
@@ -30,6 +31,7 @@ MMA_gongye_decision_categories = {
 			add_to_variable = { MMA_jizhongdu = 10 }
 			add_to_variable = { MMA_chanchu = 0.1 }
 			add_to_variable = { MMA_jianzhu = -0.05 }
+			custom_effect_tooltip = MMA_jizhong_improve_tt
 			random_list = {
 			 25 = {
 			  745 ={
@@ -87,6 +89,8 @@ MMA_gongye_decision_categories = {
 			add_to_variable = { MMA_chanchu = 0.15 }
 			add_to_variable = { MMA_jianzhu = 0.1 }
 			add_to_variable = { MMA_buman = 5 }
+			custom_effect_tooltip = MMA_jizhong_improve_tt
+			custom_effect_tooltip = MMA_buman_increase_tt
 		    } 
           	 
 		  cost = 15
@@ -106,6 +110,8 @@ MMA_gongye_decision_categories = {
 			add_to_variable = { MMA_chanchu = 0.15 }
 			add_to_variable = { MMA_jianzhu = 0.1 }
 			add_to_variable = { MMA_buman = 25 }
+			custom_effect_tooltip = MMA_jizhong_improve_tt
+			custom_effect_tooltip = MMA_buman_increase_tt
 		    } 
           fire_only_once = yes 	 
 		  cost = 15
@@ -121,6 +127,7 @@ MMA_gongye_decision_categories = {
 		  }            
           remove_effect = { 
 			add_to_variable = { MMA_buman = -10 }
+			custom_effect_tooltip = MMA_buman_decrease_tt
 		    } 
           cost = 25
 		  days_re_enable = 15
@@ -136,6 +143,7 @@ MMA_gongye_decision_categories = {
 		  }            
           remove_effect = { 
 			add_to_variable = { MMA_buman = -100 }
+			custom_effect_tooltip = MMA_buman_decrease_tt_plus
 		    } 
           cost = 50
           fire_only_once = yes

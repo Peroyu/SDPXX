@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_border_conflicts.dds"
 	}
 	spriteType = {
+		name = "decision_category_generic_arms_trade"
+		texturefile = "gfx/interface/decisions/categories/decision_category_generic_arms_trade.dds"
+	}
+	spriteType = {
 		name = "decision_category_ITA_reggianes_exports"
 		texturefile = "gfx/interface/decisions/categories/decision_category_ITA_reggianes_exports.dds"
 	}
@@ -78,6 +82,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_eng_propaganda_campaigns"
 		texturefile = "gfx/interface/decisions/politics/decision_eng_propaganda_campaigns.dds"
+	}
+	spriteType = {
+		name = "decision_ger_mefo_bills"
+		texturefile = "gfx/interface/decisions/economy/decision_ger_mefo_bills.dds"
 	}
 	spriteType = {
 		name = "decision_recruit_operative"

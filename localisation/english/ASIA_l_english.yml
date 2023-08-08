@@ -90,7 +90,7 @@
  GNP_Hong_Kong:0"省港保护地"
  GNP_Hong_Kong_desc:0"省港保护地总督部根据1946年大日本帝国颁行的《省港保护地条例》,从联合王国接管并保护香港,从中华民国接管并保护广州市，东莞县，宝安县,为大日本帝国面向南洋之重镇纽带。"
  CHI_war_is_coming:"战争即将爆发"
-
+ CHI_increase_huabeifankang:"这有可能加强华北地区的反抗力度……"
 
  CHI_regional_tension_rate:"大陆作战地区紧张度"
  CHI_regional_tension_rate_desc_gui_desc:"这是大陆作战地区紧张度指示面板，大陆地区被分为东北，华北，华中，华南，西南，西北六个区域，每一个区域都有自己独立的紧张度进展，请注意，如果紧张度过高，那么中国大陆作战将更快进入全面爆发阶段。"

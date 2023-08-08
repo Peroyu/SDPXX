@@ -1,0 +1,137 @@
+MMA_sold_weapon = {
+    MMA_trade_with_millras = {
+		icon = decision_generic_trucks
+		available = {
+			NOT = {
+				has_country_flag = DOING_TRADE
+			}
+		}
+		allowed = {
+			original_tag = MMA
+		}
+		days_remove = 35
+		days_re_enable = 30
+		complete_effect = {
+			set_country_flag = DOING_TRADE
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -200
+				producer = MMA
+			}
+		}
+		remove_effect = {
+			clr_country_flag = DOING_TRADE
+			add_political_power = 50
+		}
+	}
+	MMA_trade_with_gurallas = {
+		icon = decision_generic_trucks
+		available = {
+			NOT = {
+				has_country_flag = DOING_TRADE
+			}
+		}
+		allowed = {
+			original_tag = MMA
+		}
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 607
+			}
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
+		}
+		days_remove = 35
+		days_re_enable = 30
+		complete_effect = {
+			set_country_flag = DOING_TRADE
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -250
+				producer = MMA
+			}
+		}
+		remove_effect = {
+			clr_country_flag = DOING_TRADE
+			add_political_power = 50
+			custom_effect_tooltip = MMA_biebeifaxian
+			hidden_effect = {
+				custom_effect_tooltip = CHI_increase_huabeifankang
+				random_list = { 
+					70 = { 
+						add_to_variable = { global.CHI_huabeifankang = 5 }
+						custom_effect_tooltip = CHI_increase_huabeifankang
+					} 
+					30 = {
+						 country_event = {
+							id = MMA.7
+							days = 1
+						 }
+						} 
+					}
+			}
+		}
+	}
+	MMA_trade_with_xizang = {
+		icon = decision_generic_trucks
+		available = {
+			NOT = {
+				has_country_flag = DOING_TRADE
+			}
+		}
+		allowed = {
+			original_tag = MMA
+		}
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 757
+			}
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
+		}
+		days_remove = 35
+		days_re_enable = 30
+		complete_effect = {
+			set_country_flag = DOING_TRADE
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -250
+				producer = MMA
+			}
+		}
+		remove_effect = {
+			add_political_power = 50
+			TIB = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 250
+					producer = MMA
+				}
+			}
+		}
+	}
+	MMA_incrase_feew = {
+		icon = decision_ger_mefo_bills
+		available = {
+			NOT = {
+				has_country_flag = DOING_TRADE
+			}
+		}
+		allowed = {
+			original_tag = MMA
+		}
+		days_remove = 35
+		days_re_enable = 30
+		complete_effect = {
+			add_political_power = -50
+		}
+		remove_effect = {
+			add_to_variable = { MMA_buman = -15 }
+			custom_effect_tooltip = MMA_buman_decrease_tt
+		}
+	}
+}

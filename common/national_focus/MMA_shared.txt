@@ -250,7 +250,7 @@ shared_focus = {
 		y = 0
 		completion_reward = {
 		MMA = { add_dynamic_modifier = {modifier = MMA_gongye_dynamic_modifier }}
-		 set_country_flag = MMA_gongye
+
 		 clamp_variable = {
             var = MMA_buman
             min = 0
@@ -286,7 +286,11 @@ shared_focus = {
 		}
 		x = 3
 		y = 1
-
+		completion_reward = {
+			add_war_support = 0.1
+			custom_effect_tooltip = MMA_new_roads
+			add_stability = -0.05
+			}
 	}
 	shared_focus = {
 		id = The_established_policy
@@ -297,6 +301,11 @@ shared_focus = {
 		}
 		mutually_exclusive = {
 			focus = Konzern
+		}
+		completion_reward = {
+			custom_effect_tooltip = MMA_old_roads
+			add_ideas = MMA_industry_old_1
+			add_stability = 0.05
 		}
 		x = 1
 		y = 2
@@ -309,6 +318,21 @@ shared_focus = {
 		prerequisite = {
 			focus = The_established_policy
 		}
+		completion_reward = {
+			754 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				add_idea = MMA_industry_old_2
+				remove_idea = MMA_industry_old_1
+			}
+			add_political_power = -20
+		}
 		x = 1
 		y = 3
 
@@ -319,6 +343,13 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = Emerging_industries
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = MMA_industry_old_3
+				remove_idea = MMA_industry_old_2
+			}
+			add_war_support = 0.05
 		}
 		x = 1
 		y = 4
@@ -331,6 +362,12 @@ shared_focus = {
 		prerequisite = {
 			focus = Mass_production
 		}
+		completion_reward = {
+			add_war_support = 0.03
+			add_political_power = 35
+			add_ideas = MMA_idea_milltary_line
+			
+		}
 		x = 1
 		y = 5
 
@@ -341,6 +378,28 @@ shared_focus = {
 		cost = 2.00
 		prerequisite = {
 			focus = Militarized_traffic_lines 
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = MMA_industry_old_4
+				remove_idea = MMA_industry_old_3
+			}
+			754 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			283 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		x = 1
 		y = 6
@@ -359,7 +418,9 @@ shared_focus = {
 		x = 5
 		y = 2
 		completion_reward = {
+			unlock_decision_category_tooltip = MMA_gongye_decision_categories
 			country_event = { id = MMA_gongye.1 days = 1 }
+
 		}
 		
 
@@ -370,6 +431,11 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = Konzern
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = MMA_sold_weapon
+			add_political_power = 40
+			custom_effect_tooltip = MMA_threat
 		}
 		x = 5
 		y = 3
@@ -384,7 +450,10 @@ shared_focus = {
 		}
 		x = 5
 		y = 4
-
+		completion_reward = {
+			add_to_variable = { MMA_jizhongdu = 20 }
+			custom_effect_tooltip = MMA_jizhong_improve_tt
+		}
 	}
 	shared_focus = {
 		id = It_works
@@ -392,6 +461,11 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = Concentrate_a_little_more
+		}
+		completion_reward = {
+			add_to_variable = { MMA_buman = -15 }
+			custom_effect_tooltip = MMA_buman_decrease_tt
+			add_political_power = 20
 		}
 		x = 5
 		y = 5
@@ -403,6 +477,14 @@ shared_focus = {
 		cost = 2.00
 		prerequisite = {
 			focus = It_works
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_ideas = MMA_milltary_industry_build
+			swap_ideas = {
+				add_idea = war_economy
+				remove_idea = partial_economic_mobilisation
+			}
 		}
 		x = 5
 		y = 6
@@ -416,6 +498,14 @@ shared_focus = {
 			focus = Let_the_war_machine_start
 			focus = Fortressized_factories
 		}
+		completion_reward = {
+			custom_effect_tooltip = MMA_test_industry
+			country_event = {
+				id = MMA_gongye.2
+				days = 1
+			}
+
+		}
 		x = 3
 		y = 7
 
@@ -426,6 +516,11 @@ shared_focus = {
 		cost = 2.00
 		prerequisite = {
 			focus = Before_the_war
+		}
+		completion_reward = {
+			add_political_power = 20
+			add_to_variable =  { var = global.CHI_xibei_regional_tension value = 10 }
+			custom_effect_tooltip = CHI_v_regional_tension_increase
 		}
 		x = 11
 		y = 1
@@ -438,6 +533,14 @@ shared_focus = {
 		prerequisite = {
 			focus = More_friends
 		}
+		completion_reward = {
+			add_popularity = { 
+				ideology = communism 
+				popularity = 0.03 
+			}
+			custom_effect_tooltip = MMA_sov_1
+			
+		}
 		x = 9
 		y = 2
 
@@ -448,6 +551,14 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = More_friends
+		}
+		completion_reward = {
+			add_popularity = { 
+				ideology = movement_communism 
+				popularity = 0.03 
+			}
+			custom_effect_tooltip = MMA_sov_2
+
 		}
 		x = 11
 		y = 2
@@ -467,7 +578,7 @@ shared_focus = {
 			focus = In_the_northern
 		}
 		completion_reward = {
-		    
+		    custom_effect_tooltip = MMA_nongmin
         }
 		x = 10
 		y = 3
@@ -480,17 +591,15 @@ shared_focus = {
 		prerequisite = {
 			focus = Distant_guests
 		}
-		available = { 
-			SHA = {
-				has_country_flag = MMA_win
-			}
+		available = {
+			has_war = no
 		}
 		mutually_exclusive = {
 			focus = A_failed_attempt
 		}
 		completion_reward = {
-		   
-			
+		   custom_effect_tooltip = MMA_beipan
+			add_political_power = -100
         }
 		x = 9
 		y = 4
@@ -504,7 +613,32 @@ shared_focus = {
 			focus = A_successful_coup
 		}
 		completion_reward = {
-		   
+			283 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 7911
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 1933
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1647
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 517
+				}
+			}
 		
         }
 		x = 9
@@ -518,14 +652,16 @@ shared_focus = {
 		prerequisite = {
 			focus = Distant_guests
 		}
+		available = {
+			has_war = yes
+		}
 		mutually_exclusive = {
 			focus = A_successful_coup
 		}
-		available = { 
-			
-		}
 		completion_reward = {
-		   
+		   add_stability = 0.05
+		   add_war_support = 0.07
+		   custom_effect_tooltip = MMA_go_tt
 			
         }
 		x = 11
@@ -540,7 +676,13 @@ shared_focus = {
 			focus = A_failed_attempt
 		}
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = CJF_zhongliang
+				days = 30
+				}
+			add_war_support = 0.05
+			add_to_variable =  { var = global.CHI_xibei_regional_tension value = 5 }
+			custom_effect_tooltip = CHI_v_regional_tension_increase
 		}
 		x = 11
 		y = 5
@@ -554,6 +696,12 @@ shared_focus = {
 			focus = Strike_hard
 			focus = Hold_firm
 		}
+		completion_reward = {
+			add_to_variable = { global.CHI_huabeifankang = 5 }
+						custom_effect_tooltip = CHI_increase_huabeifankang
+						add_political_power = 50
+
+		}
 		x = 10
 		y = 6
 
@@ -564,6 +712,12 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = More_friends
+		}
+		completion_reward = {
+			add_to_variable = { global.CHI_huabeifankang = 5 }
+						custom_effect_tooltip = CHI_increase_huabeifankang
+						army_experience = 25
+
 		}
 		x = 13
 		y = 2
@@ -576,6 +730,15 @@ shared_focus = {
 		prerequisite = {
 			focus = Even_among_Enemies
 		}
+		completion_reward = {
+			add_stability = 0.1
+			country_event = {
+				id = MMA.2
+				days = 1
+			}
+			add_ideas = MMA_xibei_front
+			custom_effect_tooltip = MMA_unite
+		}
 		x = 13
 		y = 4
 
@@ -586,6 +749,13 @@ shared_focus = {
 		cost = 3.00
 		prerequisite = {
 			focus = Unite
+		}
+		completion_reward = {
+			add_to_variable = { global.CHI_huabeifankang = 5 }
+						custom_effect_tooltip = CHI_increase_huabeifankang
+						add_stability = 0.05
+						add_war_support = 0.03
+
 		}
 		x = 13
 		y = 5
@@ -607,6 +777,27 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_construct_hanzhong
 		}
+		completion_reward = {
+			country_event = {
+				id = MMA.5
+				days = 1
+			}
+			if = {
+				limit = {
+					JIN = {
+						is_in_faction = yes
+					}
+				}
+				
+			}
+			else_if = {
+				limit = {
+					JIN = {
+						is_in_faction = no
+					}
+				}
+			}
+		}
 		x = 11
 		y = 7
 
@@ -621,6 +812,10 @@ shared_focus = {
 		prerequisite = {
 			focus = Total_showdown
 		}
+		completion_reward = {
+			
+
+		}
 		x = 7
 		y = 8
 
@@ -632,7 +827,14 @@ shared_focus = {
 		cost = 4
 		x = 17
 		y = 0
-
+		completion_reward = {
+			custom_effect_tooltip = MMA_milltary_issue
+			add_war_support = 0.03
+			country_event = {
+				id = MMA.6
+				days = 1
+			}
+		}
 	}
 shared_focus = {
 		id = MMA_larger_millitas
@@ -640,6 +842,36 @@ shared_focus = {
 		cost = 5.00
 		prerequisite = {
 			focus = MMA_West_North_defence
+		}
+		completion_reward = {
+			army_experience = 20
+			division_template = {
+				name = "Min Tuan"
+				division_names_group = MMA_GAR_01
+				is_locked = yes
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+				}
+				template_counter = 68
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Min Tuan\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Min Tuan\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
 		}
 		x = 17
 		y = 1
@@ -652,6 +884,19 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_larger_millitas
 		}
+		completion_reward = {
+			add_political_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 10
+				producer = SOV
+			}
+		}
 		x = 17
 		y = 3
 
@@ -662,6 +907,20 @@ shared_focus = {
 		cost = 5.00
 		prerequisite = {
 			focus = MMA_buy_millitary_equippment
+		}
+		completion_reward = {
+			MON = {
+				country_event = {
+					id = SOVM.1
+					days = 1
+				}
+			}
+			SOV = {
+				country_event = {
+					id = SOVM.1
+					days = 1
+				}
+			}
 		}
 		x = 17
 		y = 5
@@ -674,6 +933,10 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_invite_soviet_mongolia
 		}
+		completion_reward = {
+			
+
+		}
 		x = 17
 		y = 6
 
@@ -684,6 +947,33 @@ shared_focus = {
 		cost = 5.00
 		prerequisite = {
 			focus = MMA_West_North_defence
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Bubing Shi\" start_experience_factor = 0.1"
+					owner = MMA
+				}
+			}
+			army_experience = 15
 		}
 		x = 15
 		y = 1
@@ -696,6 +986,10 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_reorganise_faileds
 		}
+		completion_reward = {
+			add_ideas = MMA_logistics_1
+			add_war_support = 0.03
+		}
 		x = 15
 		y = 3
 
@@ -707,6 +1001,14 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_reorganise_logistics
 		}
+		completion_reward = {
+			swap_ideas = {
+			add_idea = MMA_logistics_2
+			remove_idea = MMA_logistics_1
+			add_political_power = -20
+		}
+
+		}
 		x = 15
 		y = 5
 
@@ -717,6 +1019,28 @@ shared_focus = {
 		cost = 5.00
 		prerequisite = {
 			focus = MMA_logistic_line_through_dessert
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = KTR
+				}
+				annex_country = { target = KTR transfer_troops = yes }
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						country_exists = KTR
+					}
+				}
+				CJF = {
+					country_event = {
+						id = SOVM.4
+						days = 1 
+					}
+				}
+			}
+
 		}
 		x = 15
 		y = 6

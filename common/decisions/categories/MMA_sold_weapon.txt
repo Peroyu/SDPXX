@@ -1,0 +1,15 @@
+MMA_sold_weapon = {
+    icon = decision_category_generic_arms_trade
+	picture = decision_cat_picture_generic_border_conflicts
+	allowed = {
+		original_tag = MMA
+	}
+	visible = {
+		tag = MMA
+		has_completed_focus = Poor_imperialism
+	}
+	available = {
+		tag = MMA
+		has_completed_focus = Poor_imperialism
+	}
+}

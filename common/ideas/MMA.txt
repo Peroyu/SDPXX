@@ -50,6 +50,158 @@ ideas = {
 			}
 	    
 		}
+		MMA_industry_old_1 = {
+            name = MMA_industry_old
+            picture = MMA_industry_old
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				global_building_slots_factor = 0.05
+			}
+	    
+		}
+		MMA_industry_old_2 = {
+            name = MMA_industry_old
+            picture = MMA_industry_old
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				global_building_slots_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+	    
+		}
+		MMA_industry_old_3 = {
+            name = MMA_industry_old
+            picture = MMA_industry_old
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				global_building_slots_factor = 0.05
+				production_speed_buildings_factor = 0.07
+				production_speed_arms_factory_factor = 0.02
+				industrial_concern_cost_factor = -0.05
+			}
+	    
+		}
+		MMA_industry_old_4 = {
+            name = MMA_industry_old
+            picture = MMA_industry_old
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				global_building_slots_factor = 0.1
+				production_speed_buildings_factor = 0.1
+				production_speed_arms_factory_factor = 0.05
+				industrial_concern_cost_factor = -0.05
+				line_change_production_efficiency_factor = 0.03
+			}
+	    
+		}
+		MMA_idea_milltary_line = {
+            name = MMA_idea_milltary_line
+            picture = MMA_idea_milltary_line
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				production_speed_infrastructure_factor = 0.02
+				line_change_production_efficiency_factor = 0.12
+			}
+	    
+		}
+		MMA_logistics_1 = {
+            name = MMA_logistics
+            picture = MMA_logistics
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				org_loss_when_moving = -0.05
+				supply_consumption_factor = -0.1
+			}
+	    
+		}
+		MMA_logistics_2 = {
+            name = MMA_logistics
+            picture = MMA_logistics
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				org_loss_when_moving = -0.07
+				supply_consumption_factor = -0.15
+				army_morale_factor = 0.03
+			}
+	    
+		}
+		MMA_xibei_front = {
+            name = MMA_xibei_front
+            picture = MMA_xibei_front
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				army_core_attack_factor = 0.07
+				army_core_defence_factor = 0.07
+				mobilization_speed = 0.2
+				stability_factor = 0.03
+			}
+	    
+		}
+		MMA_milltary_industry_build = {
+            name = MMA_milltary_industry_build
+            picture = MMA_milltary_industry_build
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    country_exists = MMA
+			}
+            removal_cost = -1
+            modifier = {
+				production_speed_arms_factory_factor = 0.07
+				war_support_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+	    
+		}
 		MMA_Mabufang = {
             
             picture = MMA_Mabufang

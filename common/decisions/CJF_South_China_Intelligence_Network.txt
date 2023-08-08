@@ -238,6 +238,8 @@ CJF_South_China_Intelligence_Network = {
 				add_command_power = -15
             }
             remove_effect = {
+		add_to_variable = { global.CHI_huabeifankang = 5 }
+		custom_effect_tooltip = CHI_increase_huabeifankang
                 random_state = {
 					limit = { is_controlled_by = FNC }
 					add_dynamic_modifier = {
