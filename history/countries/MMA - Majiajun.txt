@@ -25,7 +25,7 @@
 	election_frequency = 48 
 	elections_allowed = no  
  }
-
+set_variable = { SDP_welcome_splash_variable = 1 }
 #########################################################
  set_popularities = {
 	conservatism = 60

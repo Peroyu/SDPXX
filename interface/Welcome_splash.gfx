@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SDP_splash_intro"
+		texturefile = "gfx/interface/GFX_SDP_splash_intro.png"
+	}
+
+	spriteType = {
+		name = "GFX_intro_screen_continue_button"
+		texturefile = "gfx/interface/GFX_intro_screen_continue_button.png"
+	}
+
+	spriteType = {
+		name = "GFX_CJF_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_CJF_intro.png"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_GDC_intro.png"
+	}
+	
+}

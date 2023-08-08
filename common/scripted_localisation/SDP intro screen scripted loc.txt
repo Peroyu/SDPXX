@@ -1,0 +1,51 @@
+defined_text = { #Any commented out GFX means the intro screen is ready but is waiting for GFX additions
+	name = GetCountryIntroBackground
+  
+	text = { trigger = { original_tag = CJF }  localization_key = "GFX_CJF_intro" }
+	text = { trigger = { original_tag = GDC }  localization_key = "GFX_GDC_intro" }
+	text = { trigger = { original_tag = MMA }  localization_key = "GFX_MMA_intro" }
+
+	text = { localization_key = "GFX_SDP_default_intro" }
+}
+
+defined_text = {
+	name = GetCountryIntroHeader
+
+  
+    
+	text = { trigger = { original_tag = GDC }  localization_key = GDC_country_intro_header }
+
+	
+	text = { trigger = { original_tag = CJF }  localization_key = CJF_country_intro_header }
+
+	
+	text = { trigger = { original_tag = MMA }  localization_key = MMA_country_intro_header }
+}
+
+defined_text = {
+	name = GetCountryIntroContent
+
+  
+
+  
+	text = { trigger = { original_tag = GDC }  localization_key = GDC_country_intro_content }
+
+	
+	text = { trigger = { original_tag = CJF }  localization_key = CJF_country_intro_content }
+
+	
+	text = { trigger = { original_tag = MMA }  localization_key = MMA_country_intro_content }
+
+	
+}
+
+defined_text = {
+	name = GetCountryGuide
+
+
+	text = { trigger = { original_tag = CJF }  localization_key = CJF_guide }
+	text = { trigger = { original_tag = MMA }  localization_key = MMA_guide }
+	text = { trigger = { original_tag = GDC }  localization_key = GDC_guide }
+	
+}
+

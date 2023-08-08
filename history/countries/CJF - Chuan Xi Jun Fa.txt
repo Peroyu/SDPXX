@@ -24,7 +24,7 @@ country_event = { id = CJF_op.1 days = 1 }
 	election_frequency = 48
 	elections_allowed = no
  }
-
+set_variable = { SDP_welcome_splash_variable = 1 }
 set_popularities = {
 	conservatism = 23
 	movement_communism = 33

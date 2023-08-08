@@ -23,6 +23,7 @@ add_to_faction = THA
 add_to_faction = BUR
 add_to_faction = LAO
 
+set_variable = { SDP_welcome_splash_variable = 1 }
 set_politics = {
 	ruling_party = reactionism
 	last_election = "1947.1.1"
