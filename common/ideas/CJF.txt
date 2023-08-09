@@ -1,5 +1,17 @@
 ideas = {
 	country = {
+		CJF_politic_problem_1 = {
+		    name = CJF_politic_problem
+			picture = CJF_politic_problem
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.1
+			}
+		}
 		CJF_unacknowlaged_power = {
 		    name = CJF_unacknowlaged_power
 			picture = CJF_unacknowlaged_power
@@ -11,6 +23,18 @@ ideas = {
 				political_power_gain = -0.25
 				stability_factor = -0.25
 				war_support_factor = -0.1
+			}
+		}
+		CJF_unacknowlaged_power_1 = {
+		    name = CJF_unacknowlaged_power_1
+			picture = CJF_unacknowlaged_power
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.05
+				war_support_factor = 0.03
 			}
 		}
 		CFJ_wreckage_of_NRA_1 = {
@@ -26,6 +50,76 @@ ideas = {
 				war_support_factor = -0.15
 				army_core_attack_factor = 0.02
 				army_speed_factor = 0.05
+			}
+		}
+		CFJ_wreckage_of_NRA_2 = {
+		    name = CFJ_wreckage_of_NRA_2
+			picture = CFJ_wreckage_of_NRA
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = -0.05
+				army_attack_factor = -0.05
+				stability_factor = -0.12
+				war_support_factor = -0.08
+			}
+		}
+		CFJ_wreckage_of_NRA_3 = {
+		    name = CFJ_wreckage_of_NRA_3
+			picture = CFJ_wreckage_of_NRA
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.02
+				stability_factor = -0.06
+				war_support_factor = -0.03
+			}
+		}
+		CFJ_wreckage_of_NRA_4 = {
+		    name = CFJ_wreckage_of_NRA_4
+			picture = CFJ_wreckage_of_NRA
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.07
+				stability_factor = -0.06
+				war_support_factor = -0.03
+			}
+		}
+		CFJ_wreckage_of_NRA_5 = {
+		    name = CFJ_wreckage_of_NRA_5
+			picture = CFJ_wreckage_of_NRA
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.1
+				war_support_factor = 0.03
+			}
+		}
+		CFJ_wreckage_of_NRA_6 = {
+		    name = CFJ_wreckage_of_NRA_6
+			picture = CFJ_wreckage_of_NRA_6
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.1
+				war_support_factor = 0.1
+				army_infantry_attack_factor = 0.03
+				army_speed_factor = 0.05
+			}
+		}
+		CJF_mobalisation_1 = {
+		    name = CJF_mobalisation
+			picture = CJF_mobalisation
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.03
+				mobilization_speed = 0.15
+			}
+		}
+		CJF_mobalisation_2 = {
+		    name = CJF_mobalisation
+			picture = CJF_mobalisation
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.05
+				mobilization_speed = 0.2
+				land_reinforce_rate = 0.06
 			}
 		}
 		CJF_the_trade_of_opium = {

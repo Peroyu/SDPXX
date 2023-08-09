@@ -176,7 +176,7 @@ shared_focus = {
 			focus = CJF_The_country_is_in_trouble
 		}
 		completion_reward = {
-			
+			add_political_power = 25
 			
 		}
 	}
@@ -190,7 +190,8 @@ shared_focus = {
 			focus = CJF_The_country_is_in_trouble
 		}
 		completion_reward = {
-			
+			army_experience = 25
+			unlock_decision_category_tooltip = SDP_KMT_army_reform
 		}
 	}
 shared_focus = {
@@ -203,14 +204,12 @@ shared_focus = {
 			focus = CJF_want_to_be_their_best_work
 		}
         completion_reward = {
-		    set_country_flag = CJF_KMT_party
-			set_variable = { var = CJF_antipower value = 50 }
-			set_variable = { var = CJF_KMT1 value = 3 }
-			set_variable = { var = CJF_KMT2 value = 2 }
-			set_variable = { var = CJF_KMT3 value = 2 }
-			set_variable = { var = CJF_KMT4 value = 2 }
-			country_event = {CJF_KMT_party.1 days = 1}
-			unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
+		    add_ideas = CJF_politic_problem_1
+			add_stability = -0.05
+			country_event = {
+				id = CJF_kmtdebate.1
+				days = 1
+			}
 		}
 	}
 shared_focus = {
@@ -222,6 +221,13 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_sharpen_the_tools
 		}
+		completion_reward = {
+			add_war_support = 0.07
+		    swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_2
+				remove_idea = CFJ_wreckage_of_NRA_1
+			}
+		}
 	}
 shared_focus = {
 		id = CJF_check_thieves
@@ -231,6 +237,11 @@ shared_focus = {
 		y = 3
 		prerequisite = {
 			focus = CJF_purge_the_whole_party
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.03
+			custom_effect_tooltip = CJF_checks
 		}
 	}
 shared_focus = {
@@ -256,6 +267,13 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_flag_still_flying
 		}
+		completion_reward = {
+			army_experience = 30
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_3
+				remove_idea = CFJ_wreckage_of_NRA_2
+			}
+		}
 	}
 shared_focus = {
 		id = CJF_quartet_jackal
@@ -266,6 +284,14 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_flag_still_flying
 		}
+		completion_reward = {
+			army_experience = 30
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+				producer = CJF
+			}
+		}
 	}
 shared_focus = {
 		id = CJF_Sending_away_the_old_school
@@ -275,6 +301,14 @@ shared_focus = {
 		y = 4
 		prerequisite = {
 			focus = CJF_check_thieves
+		}
+		completion_reward = {
+			add_stability = 0.06
+			
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.05
+			}
 		}
 	}
 shared_focus = {
@@ -304,6 +338,13 @@ shared_focus = {
         prerequisite = {
 			focus = CJF_quartet_artillery_fire
 		}
+		completion_reward = {
+			army_experience = 30
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_4
+				remove_idea = CFJ_wreckage_of_NRA_3
+			}
+		}
 	}
 shared_focus = {
 		id = CJF_welcome_newcomers
@@ -311,6 +352,13 @@ shared_focus = {
 		cost = 3
 		prerequisite = {
 			focus = CJF_Sending_away_the_old_school
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = movement_communism
+				popularity = 0.05
+			}
 		}
 		x = 1
 		y = 5
@@ -367,6 +415,11 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_no_step_back
 		}
+		completion_reward = {
+			add_manpower = 23000
+			add_ideas = CJF_mobalisation_1
+			country_event = { id = CJF_dh.4 days = 1}
+		}
 		x = 8
 		y = 5
 
@@ -378,6 +431,12 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_no_step_back
 		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = CJF_mobalisation_2
+				remove_idea = CJF_mobalisation_1
+			}
+		}
 		x = 10
 		y = 5
 
@@ -388,6 +447,21 @@ shared_focus = {
 		cost = 4
 		prerequisite = {
 			focus = CJF_welcome_newcomers
+		}
+		completion_reward = {
+			add_political_power = 30
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
+			country_event = {
+				id = CJF_kmtdebate.3
+				days = 1
+			}
 		}
 		x = 2
 		y = 6
@@ -422,6 +496,22 @@ shared_focus = {
         prerequisite = {
 			focus = CJF_more_than_one_million_comrades
 		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes 
+				}
+			}
+		}
 		x = 8
 		y = 6
 
@@ -435,6 +525,13 @@ shared_focus = {
 		}
         prerequisite = {
 			focus = CJF_more_than_one_million_comrades
+		}
+		completion_reward = {
+			army_experience = 30
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_5
+				remove_idea = CFJ_wreckage_of_NRA_4
+			}
 		}
 		x = 10
 		y = 6
@@ -450,6 +547,24 @@ shared_focus = {
         prerequisite = {
 			focus = CJF_people_rights
 		}
+		completion_reward = {
+			add_popularity = {
+				ideology = movement_communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.03
+			}
+			country_event = {
+				id = CJF_kmtdebate.4
+				days = 1
+			}
+		}
 		x = 3
 		y = 7
 
@@ -463,6 +578,16 @@ shared_focus = {
 		}
         prerequisite = {
 			focus = CJF_gun_on_shoulder
+		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_6
+				remove_idea = CFJ_wreckage_of_NRA_5
+			}
+			country_event = {
+				id = CJF_kmtdebate.4
+				days = 1
+			}
 		}
 		x = 9
 		y = 7
@@ -481,8 +606,9 @@ shared_focus = {
 		x = 6
 		y = 8
 		completion_reward = {
+			custom_effect_tooltip = CJF_diplomacy_tt
 		   	country_event = {
-				id = CJF_kmtdebate.1
+				id = CJF_dh.5
 				days = 1
 
 			}
@@ -495,6 +621,10 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_go_outside
 		}
+		completion_reward = {
+			add_political_power = 50
+			unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
+		} 
 		x = 6
 		y = 9
 	}
@@ -505,6 +635,12 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_The_time_has_come
 		}
+		completion_reward = {
+			country_event = {
+				id = CJF_kmtdebate.5
+				days = 1
+			}
+		} 
 		x = 4
 		y = 10
 
@@ -516,6 +652,13 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_The_time_has_come
 		}
+		completion_reward = {
+			add_stability = 0.03
+			country_event = {
+				id = CJF_kmtdebate.6
+				days = 1
+			}
+		} 
 		x = 8
 		y = 10
 
@@ -530,6 +673,10 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_trip_to_kunming
 		}
+		completion_reward = {
+			add_stability = 0.05
+			custom_effect_tooltip = CJF_unite_front_tt
+		} 
 		x = 6
 		y = 11
 
@@ -541,6 +688,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reunite_the_front
 		}
+		completion_reward = {
+			
+		} 
 		x = 2
 		y = 12
 
@@ -552,6 +702,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reunite_the_front
 		}
+		completion_reward = {
+			
+		} 
 		x = 6
 		y = 12
 
@@ -563,6 +716,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reunite_the_front
 		}
+		completion_reward = {
+			
+		} 
 		x = 10
 		y = 12
 
@@ -574,6 +730,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reduce_tax
 		}
+		completion_reward = {
+			
+		} 
 		x = 1
 		y = 13
 		mutually_exclusive = {
@@ -590,6 +749,9 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
+		completion_reward = {
+			
+		} 
 		x = 3
 		y = 13
 
@@ -601,6 +763,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_remind_unite
 		}
+		completion_reward = {
+			
+		} 
 		x = 6
 		y = 13
 
@@ -612,6 +777,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_activate_the_east_china_network
 		}
+		completion_reward = {
+			
+		} 
 		x = 9
 		y = 13
 
@@ -623,6 +791,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_activate_the_east_china_network
 		}
+		completion_reward = {
+			
+		} 
 		x = 11
 		y = 13
 
@@ -634,6 +805,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
+		completion_reward = {
+			
+		} 
 		x = 1
 		y = 14
 
@@ -645,6 +819,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_advice_of_sunfo
 		}
+		completion_reward = {
+			
+		} 
 		x = 3
 		y = 14
 
@@ -656,6 +833,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_rebuild_international_connection
 		}
+		completion_reward = {
+			
+		} 
 		x = 5
 		y = 14
 
@@ -667,6 +847,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_rebuild_international_connection
 		}
+		completion_reward = {
+			
+		} 
 		x = 7
 		y = 14
 
@@ -681,6 +864,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_exchange_information_with_CPC
 		}
+		completion_reward = {
+			
+		} 
 		x = 9
 		y = 14
 
@@ -695,6 +881,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_exchange_information_with_CPC
 		}
+		completion_reward = {
+			
+		} 
 		x = 11
 		y = 14
 
@@ -706,6 +895,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_guide_the_place
 		}
+		completion_reward = {
+			
+		} 
 		x = 1
 		y = 15
 
@@ -717,6 +909,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_encourage_charity
 		}
+		completion_reward = {
+			
+		} 
 		x = 3
 		y = 15
 
@@ -731,6 +926,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_to_mosecow
 		}
+		completion_reward = {
+			
+		} 
 		x = 6
 		y = 15
 
@@ -745,6 +943,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_old_hatred_still
 		}
+		completion_reward = {
+			
+		} 
 		x = 10
 		y = 15
 
@@ -759,6 +960,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_total_showdown
 		}
+		completion_reward = {
+			
+		} 
 		x = 8
 		y = 16
 
@@ -770,6 +974,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_set_professional_associations
 		}
+		completion_reward = {
+			
+		} 
 		x = 1
 		y = 16
 
@@ -781,6 +988,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_preparation_of_provincial_advisory_bureau
 		}
+		completion_reward = {
+			
+		} 
 		x = 3
 		y = 16
 
@@ -793,6 +1003,9 @@ shared_focus = {
 			focus = CJF_diverse_national_revolution
 			focus = CJF_deepen_discipline
 		}
+		completion_reward = {
+			
+		} 
 		x = 2
 		y = 17
 
@@ -807,6 +1020,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_stand_up
 		}
+		completion_reward = {
+			
+		} 
 		x = 5
 		y = 18
 

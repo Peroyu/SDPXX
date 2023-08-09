@@ -143,7 +143,7 @@ country_event = {
 country_event = {
     id = CJF_dh.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_dh.12FROM = [From.GetName]" }
+	CJF_dh.2 FROM = [From.GetName]" }
 	title = CJF_dh.2.t
 	desc = CJF_dh.2.d
 	picture = GFX_GDCintro
@@ -193,6 +193,54 @@ country_event = {
 		custom_effect_tooltip = CHI_v_regional_tension_decrease_plus
 		add_to_variable = { global.CHI_xinan_regional_tension = -30 }
 		annex_country = { target = KGP transfer_troops = yes }
+	}
+	
+}
+country_event = {
+    id = CJF_dh.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.4 FROM = [From.GetName]" }
+	title = CJF_dh.4.t
+	desc = CJF_dh.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.4.a 
+	}
+	
+}
+country_event = {
+    id = CJF_dh.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.5 FROM = [From.GetName]" }
+	title = CJF_dh.5.t
+	desc = CJF_dh.5.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.5.a 
 	}
 	
 }
@@ -351,6 +399,112 @@ country_event = {
 			target = DJF
 			transfer_troops = yes}
 		name = CJF_kmtdebate.2.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.3 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.3.t
+	desc = CJF_kmtdebate.3.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_stability = 0.06
+		swap_ideas = {
+			add_idea = CJF_unacknowlaged_power_1
+			remove_idea = CJF_unacknowlaged_power
+		}
+		custom_effect_tooltip = CJF_sunke_idea_tt
+		name = CJF_kmtdebate.3.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.4 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.4.t
+	desc = CJF_kmtdebate.4.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_stability = 0.06
+		add_political_power = 50
+		name = CJF_kmtdebate.4.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.5 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.5.t
+	desc = CJF_kmtdebate.5.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_ideas = DJF_Xi_Nan_Lian_Da_3
+		add_political_power = 50
+		name = CJF_kmtdebate.5.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.6 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.6.t
+	desc = CJF_kmtdebate.6.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.6.a 
 	}
 	
 }
