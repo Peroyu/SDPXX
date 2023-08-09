@@ -1,3 +1,28 @@
+defined_text = { #SUPER EVENT PICTURES
+    name = Getsupereventview
+    
+    text = { 
+        trigger = {
+            has_global_flag = CHI_second_continent_war_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_CHI_second_continent_war"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_ISU_conferrence"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_Balkan_war"
+    }
+   
+}
 defined_text = { #SUPER EVENT TITLES
     name = get_super_event_title
     

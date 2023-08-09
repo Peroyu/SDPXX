@@ -22,19 +22,10 @@ guiTypes = {
 		}
 		
         iconType = {
-			name ="Super_Event_Image_CHI_second_continent_war"
-			spriteType = "GFX_SPEVENT_CHI_second_continent_war"
+			name ="SDP_superevent_picture_icon"
 			position = { x = 380 y = 140 }
 			alwaystransparent = yes
 		}
-
-		iconType = {
-			name ="Super_Event_Image_ISU_conferrence"
-			spriteType = "GFX_SPEVENT_Super_Event_Image_ISU_conferrence"
-			position = { x = 380 y = 140 }
-			alwaystransparent = yes
-		}
-
 		
 
 		instantTextBoxType = {

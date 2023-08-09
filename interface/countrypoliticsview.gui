@@ -146,10 +146,10 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				#position = { x = 103 y = -45 }
-				position = { x =-13 y = 86 }
+				position = { x =-73 y = 86 }
 				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 90
+				maxWidth = 180
 				maxHeight = 20
 				format = centre				
 			}		

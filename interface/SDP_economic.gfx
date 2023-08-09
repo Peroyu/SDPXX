@@ -1,0 +1,22 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_empty_small_ecobutton"
+		texturefile = "gfx/interface/GFX_empty_small_ecobutton.png"
+	}
+
+	spriteType = {
+		name = "GFX_factories_bg"
+		texturefile = "gfx/interface/economic_sphere/GFX_factories_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_CHI_economic_sphere"
+		texturefile = "gfx/interface/economic_sphere/GFX_CHI_economic_sphere.png"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_economic_sphere"
+		texturefile = "gfx/interface/economic_sphere/GFX_JAP_economic_sphere.png"
+	}
+}

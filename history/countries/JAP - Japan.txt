@@ -16,13 +16,10 @@ add_to_faction = FNC
 add_to_faction = MAN
 add_to_faction = MEN
 add_to_faction = VIN
-add_to_faction = CAB
-add_to_faction = IND
 add_to_faction = SHA
-add_to_faction = THA
-add_to_faction = BUR
-add_to_faction = LAO
 
+
+set_country_flag = JAP_economic_sphere
 set_variable = { SDP_welcome_splash_variable = 1 }
 set_politics = {
 	ruling_party = reactionism

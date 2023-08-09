@@ -18,6 +18,7 @@
 	limited_exports
 	partial_economic_mobilisation
  }
+ set_country_flag = CHI_economic_sphere
  set_variable = { var = MMA_national value = 5 }
  set_politics = {
 	ruling_party = conservatism 

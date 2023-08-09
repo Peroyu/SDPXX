@@ -1,0 +1,44 @@
+defined_text = {
+	name = GeteconomicsphereBackground
+
+  
+    
+	text = { 
+		trigger = { 
+			has_country_flag = CHI_economic_sphere
+		}  
+		localization_key = "GFX_CHI_economic_sphere"
+	}
+
+	text = { 
+		trigger = { 
+			has_country_flag = JAP_economic_sphere
+		}  
+		localization_key = "GFX_JAP_economic_sphere" 
+	}
+
+	
+}
+
+defined_text = {
+	name = get_economic_sphere_title
+
+  
+    
+	text = { 
+		trigger = { 
+			has_country_flag = CHI_economic_sphere
+		}  
+		localization_key = CHI_economic_sphere_title 
+	}
+
+	text = { 
+		trigger = { 
+			has_country_flag = JAP_economic_sphere
+		}  
+		localization_key = JAP_economic_sphere_title 
+	}
+
+	
+}
+

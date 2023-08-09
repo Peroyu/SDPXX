@@ -14,6 +14,7 @@ set_politics = {
 		election_frequency = 48 # 选举间隔
 		elections_allowed = no  # 是否允许选举
 	}
+set_country_flag = CHI_economic_sphere
 set_popularities = {
 		conservatism = 11
 		social_democracy = 10
