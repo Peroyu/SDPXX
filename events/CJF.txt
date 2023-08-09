@@ -197,7 +197,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_dh.4
+    id = CJF_dh.4 #体现参军热情，人们纷纷报名参加军队抗战
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_dh.4 FROM = [From.GetName]" }
 	title = CJF_dh.4.t
@@ -632,7 +632,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.7  #重组阵线
+    id = CJF_kmtdebate.7  #一则有关团结抗日的报纸呼吁/可以参考西安事变时期的新闻
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.7 FROM = [From.GetName]" }
 	title = CJF_kmtdebate.7.t
