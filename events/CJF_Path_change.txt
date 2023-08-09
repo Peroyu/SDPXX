@@ -82,7 +82,7 @@ country_event = {
 		   base = 100
 		}
 		
-		country_event = { id = CJF_Cp.20 days = 10 }
+		#country_event = { id = CJF_Cp.20 days = 10 }
 		name = CJF_Cp.2.b #许崇智平定风波
 	}
 	
