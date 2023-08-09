@@ -689,7 +689,13 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		completion_reward = {
-			
+			add_ideas = CJF_redux_tax_idea
+			custom_effect_tooltip = CJF_reduce_choice_tt
+			add_stability = 0.03
+			country_event = {
+				id = CJF_kmtdebate.8
+				days = 1
+			}
 		} 
 		x = 2
 		y = 12
@@ -703,7 +709,22 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		completion_reward = {
-			
+			country_event = {
+				id = 
+				days = 1
+			}
+			add_opinion_modifier = {
+				target = GDC
+				modifier = CHI_united_front_valve
+			}
+			add_opinion_modifier = {
+				target = MMA
+				modifier = CHI_united_front_valve
+			}
+			add_opinion_modifier = {
+				target = SIK
+				modifier = CHI_united_front_valve
+			}
 		} 
 		x = 6
 		y = 12
@@ -717,7 +738,12 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		completion_reward = {
-			
+			add_to_variable = { global.CJF_intelligence_network_power = 15 }
+			custom_effect_tooltip = CJF_intelligence_power_added
+			country_event = {
+				id = CJF_dh.6
+				days = 1
+			}
 		} 
 		x = 10
 		y = 12
@@ -730,9 +756,9 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reduce_tax
 		}
-		completion_reward = {
-			
-		} 
+		available = {
+			always = no
+		}
 		x = 1
 		y = 13
 		mutually_exclusive = {
@@ -746,12 +772,12 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_reduce_tax
 		}
+		available = {
+			always = no
+		}
 		mutually_exclusive = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
-		completion_reward = {
-			
-		} 
 		x = 3
 		y = 13
 
@@ -764,7 +790,8 @@ shared_focus = {
 			focus = CJF_remind_unite
 		}
 		completion_reward = {
-			
+			#更换外交部长
+			add_political_power = 50
 		} 
 		x = 6
 		y = 13
@@ -778,7 +805,11 @@ shared_focus = {
 			focus = CJF_activate_the_east_china_network
 		}
 		completion_reward = {
-			
+			army_experience = 50
+			country_event = {
+				id = CJF_dh.7
+				days = 1
+			}
 		} 
 		x = 9
 		y = 13
@@ -792,7 +823,13 @@ shared_focus = {
 			focus = CJF_activate_the_east_china_network
 		}
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = CJF
+			}
+			add_to_variable = { global.CHI_huabeifankang = 10 }
+			custom_effect_tooltip = CHI_increase_huabeifankang
 		} 
 		x = 11
 		y = 13
@@ -806,7 +843,8 @@ shared_focus = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
 		completion_reward = {
-			
+			add_political_power = 50
+			add_stability = -0.03
 		} 
 		x = 1
 		y = 14
@@ -820,6 +858,7 @@ shared_focus = {
 			focus = CJF_advice_of_sunfo
 		}
 		completion_reward = {
+			add_ideas = CJF_charity
 			
 		} 
 		x = 3
@@ -834,7 +873,10 @@ shared_focus = {
 			focus = CJF_rebuild_international_connection
 		}
 		completion_reward = {
-			
+			add_opinion_modifier = {
+				target = SOV
+				modifier = general_intersted
+			}
 		} 
 		x = 5
 		y = 14
@@ -848,7 +890,10 @@ shared_focus = {
 			focus = CJF_rebuild_international_connection
 		}
 		completion_reward = {
-			
+			add_opinion_modifier = {
+				target = USA
+				modifier = general_intersted
+			}
 		} 
 		x = 7
 		y = 14
@@ -865,7 +910,11 @@ shared_focus = {
 			focus = CJF_exchange_information_with_CPC
 		}
 		completion_reward = {
-			
+			army_experience = 50
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_7
+				remove_idea = CFJ_wreckage_of_NRA_6
+			}
 		} 
 		x = 9
 		y = 14
@@ -882,7 +931,10 @@ shared_focus = {
 			focus = CJF_exchange_information_with_CPC
 		}
 		completion_reward = {
-			
+			every_army_leader = {
+				add_skill_level = 1		
+			}
+			add_war_support = 0.07
 		} 
 		x = 11
 		y = 14
@@ -896,7 +948,15 @@ shared_focus = {
 			focus = CJF_guide_the_place
 		}
 		completion_reward = {
-			
+			add_political_power = 50
+			country_event = {
+				id = CJF_dh.9
+				days = 1
+			}
+			swap_ideas = {
+				add_idea = CJF_redux_tax_idea_1
+				remove_idea = CJF_redux_tax_idea
+			}
 		} 
 		x = 1
 		y = 15
@@ -910,7 +970,15 @@ shared_focus = {
 			focus = CJF_encourage_charity
 		}
 		completion_reward = {
-			
+			custom_effect_tooltip = CJF_gurantee_tt
+			swap_ideas = {
+				add_idea = CJF_redux_tax_idea_2
+				remove_idea = CJF_redux_tax_idea_1
+			}
+			country_event = {
+				id = CJF_dh.11
+				days = 1
+			}
 		} 
 		x = 3
 		y = 15
@@ -923,11 +991,20 @@ shared_focus = {
 		prerequisite = {
 			focus = CJF_to_washington
 		}
+		bypass = {
+			has_war = yes
+			has_completed_focus = CJF_to_washington
+			has_completed_focus = CJF_to_mosecow
+		}
 		prerequisite = {
 			focus = CJF_to_mosecow
 		}
 		completion_reward = {
-			
+			custom_effect_tooltip = CJF_total_shutdown_tt
+			country_event = {
+				id = CJF_dh.8
+				days = 1
+			}
 		} 
 		x = 6
 		y = 15
@@ -935,7 +1012,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = CJF_unite_as_one
-		icon = GFX_CJF_unite_as_one_1
+		icon = GFX_CJF_unite_as_one
 		cost = 1
 		prerequisite = {
 			focus = CJF_nwe_hatred_are_there
@@ -944,7 +1021,8 @@ shared_focus = {
 			focus = CJF_old_hatred_still
 		}
 		completion_reward = {
-			
+			add_war_support = 0.03
+			add_ideas = CJF_unit_as_one_idea
 		} 
 		x = 10
 		y = 15
@@ -961,7 +1039,15 @@ shared_focus = {
 			focus = CJF_total_showdown
 		}
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_war = no
+				}
+				add_to_variable = { global.CHI_huabeifankang = 10 }
+			custom_effect_tooltip = CHI_increase_huabeifankang
+			}
+			add_war_support = 0.07
+			add_manpower = 470000
 		} 
 		x = 8
 		y = 16
@@ -975,7 +1061,10 @@ shared_focus = {
 			focus = CJF_set_professional_associations
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				add_idea = CJF_unacknowlaged_power_3
+				remove_idea = CJF_unacknowlaged_power_1
+			}
 		} 
 		x = 1
 		y = 16
@@ -989,7 +1078,22 @@ shared_focus = {
 			focus = CJF_preparation_of_provincial_advisory_bureau
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = movement_communism
+				popularity = 0.07
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = reactionism
+				popularity = 0.04
+			}
 		} 
 		x = 3
 		y = 16
@@ -1003,6 +1107,9 @@ shared_focus = {
 			focus = CJF_diverse_national_revolution
 			focus = CJF_deepen_discipline
 		}
+		allow_branch = {
+			has_global_flag = ASIA_CHI_JAP_WAR
+			}
 		completion_reward = {
 			
 		} 

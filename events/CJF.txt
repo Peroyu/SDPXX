@@ -244,6 +244,129 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = CJF_dh.6 #康生在情报机关下令
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.6 FROM = [From.GetName]" }
+	title = CJF_dh.6.t
+	desc = CJF_dh.6.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.6.a 
+	}
+	
+}
+country_event = {
+    id = CJF_dh.7 #两广与四川情报机构的交流
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.7 FROM = [From.GetName]" }
+	title = CJF_dh.7.t
+	desc = CJF_dh.7.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.7.a 
+	}
+	
+}
+country_event = {
+    id = CJF_dh.8 #许崇智和高级军官商讨东出作战事宜
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.8 FROM = [From.GetName]" }
+	title = CJF_dh.8.t
+	desc = CJF_dh.8.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.8.a 
+		
+	}
+	
+}
+country_event = {
+    id = CJF_dh.9 #张静江出席地方专业协会剪彩仪式
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.9 FROM = [From.GetName]" }
+	title = CJF_dh.9.t
+	desc = CJF_dh.9.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.9.a 
+		
+	}
+	
+}
+country_event = {
+    id = CJF_dh.11 #地方咨议局开会决议支持抗战
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.11 FROM = [From.GetName]" }
+	title = CJF_dh.11.t
+	desc = CJF_dh.11.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_dh.11.a 
+		
+	}
+	
+}
 #######################################################
 country_event = {
     id = CJF_KMT_party.1
@@ -403,7 +526,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.3
+    id = CJF_kmtdebate.3 #政府高官承诺战后行宪
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.3 FROM = [From.GetName]" }
 	title = CJF_kmtdebate.3.t
@@ -433,7 +556,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.4
+    id = CJF_kmtdebate.4  #学生抗战演说，最后请缨从军
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.4 FROM = [From.GetName]" }
 	title = CJF_kmtdebate.4.t
@@ -459,7 +582,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.5
+    id = CJF_kmtdebate.5  #孙科访问西南联大
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.5 FROM = [From.GetName]" }
 	title = CJF_kmtdebate.5.t
@@ -485,7 +608,7 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.6
+    id = CJF_kmtdebate.6  #孙科访问桂林
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.6 FROM = [From.GetName]" }
 	title = CJF_kmtdebate.6.t
@@ -505,6 +628,63 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_kmtdebate.6.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.7  #重组阵线
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.7 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.7.t
+	desc = CJF_kmtdebate.7.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.7.a 
+	}
+	
+}
+country_event = {
+    id = CJF_kmtdebate.8  #党内争论，抗战时期的行政原则是否应该继续kmt训政
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.8 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.8.t
+	desc = CJF_kmtdebate.8.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.8.a 
+		complete_national_focus = CJF_advice_of_sunfo
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.8.b
+		complete_national_focus = CJF_advice_of_zhangjingjiang
+		custom_effect_tooltip = CJF_broke_my_idea
 	}
 	
 }

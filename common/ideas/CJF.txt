@@ -37,6 +37,32 @@ ideas = {
 				war_support_factor = 0.03
 			}
 		}
+		CJF_unacknowlaged_power_2 = {
+		    name = CJF_unacknowlaged_power_2
+			picture = CJF_unacknowlaged_power_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.15
+				war_support_factor = 0.03
+				conscription_factor = 0.05
+			}
+		}
+		CJF_unacknowlaged_power_3 = {
+		    name = CJF_unacknowlaged_power_3
+			picture = CJF_unacknowlaged_power
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_org_factor = 0.05
+				stability_factor = 0.07
+				political_power_factor = -0.05
+			}
+		}
 		CFJ_wreckage_of_NRA_1 = {
 		    name = CFJ_wreckage_of_NRA_1
 			picture = CFJ_wreckage_of_NRA
@@ -101,6 +127,62 @@ ideas = {
 				war_support_factor = 0.1
 				army_infantry_attack_factor = 0.03
 				army_speed_factor = 0.05
+			}
+		}
+		CFJ_wreckage_of_NRA_7 = {
+		    name = CFJ_wreckage_of_NRA_7
+			picture = CFJ_wreckage_of_NRA_7
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.15
+				war_support_factor = 0.15
+				army_infantry_attack_factor = 0.08
+				army_speed_factor = 0.1
+				max_planning = 0.05
+			}
+		}
+		CJF_unit_as_one_idea = {
+		    name = CJF_unit_as_one_idea
+			picture = CJF_unit_as_one_idea
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = 0.09
+				command_power_gain = 0.1
+				experience_loss_factor = 0.05
+				experience_gain_army_factor = 0.15
+			}
+		}
+		CJF_redux_tax_idea = {
+		    name = CJF_redux_tax_idea
+			picture = CJF_redux_tax_idea
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = 0.1
+				line_change_production_efficiency_factor = 0.03
+				consumer_goods_factor = 0.05
+			}
+		}
+		CJF_redux_tax_idea_1 = {
+		    name = CJF_redux_tax_idea
+			picture = CJF_redux_tax_idea
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.07
+				conscription_factor = 0.1
+				line_change_production_efficiency_factor = 0.07
+				consumer_goods_factor = 0.03
+				industrial_capacity_factory = 0.05
+			}
+		}
+		CJF_charity = {
+		    name = CJF_charity
+			picture = CJF_charity
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.07
+				war_support_factor = 0.07
+				consumer_goods_factor = 0.02
 			}
 		}
 		CJF_mobalisation_1 = {
