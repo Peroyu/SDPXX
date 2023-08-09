@@ -818,6 +818,11 @@ shared_focus = {
 	cost = 1
 	x = 14
 	y = 0
+	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
+	}
 	completion_reward = {
 		854 = {
 			prioritize = { 195 }
@@ -925,6 +930,11 @@ shared_focus = {
 	cost = 1
 	x = 20
 	y = 0
+	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
+	}
 	completion_reward = {
 		748 = {
 			prioritize = { 219 }
@@ -983,6 +993,11 @@ shared_focus = {
 	cost = 1
 	x = 18
 	y = 0
+	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
+	}
 	completion_reward = {
 		603 = {
 			prioritize = { 219 }
@@ -1124,6 +1139,11 @@ shared_focus = {
 	cost = 1
 	x = 24
 	y = 0
+	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
+	}
 	completion_reward = {
 	}
 }
@@ -1247,6 +1267,11 @@ shared_focus = {
 	cost = 1
 	x = 20
 	y = 6
+	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
+	}
 	completion_reward = {
 	}
 }

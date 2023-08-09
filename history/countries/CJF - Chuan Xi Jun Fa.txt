@@ -17,6 +17,7 @@ set_technology = {
 	basic_train = 1
 }
 set_country_flag = CHI_economic_sphere
+set_country_flag = CHI_politic_apart_condition
 country_event = { id = CJF_op.1 days = 1 }
  set_politics = {
 	ruling_party = movement_communism
