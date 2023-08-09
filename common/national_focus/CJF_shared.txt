@@ -147,6 +147,344 @@
 			custom_effect_tooltip = CJF_the_end_1
 		}
 	}
+###################chengongbo#####################
+shared_focus = {
+	id = CJF_Opvolg_Lente_en_Herfs
+	icon = GFX_CJF_Opvolg_Lente_en_Herfs
+	cost = 2
+	x = 6
+	y = 0
+	completion_reward = {
+		unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
+	}
+}
+shared_focus = {
+	id = CJF_Ancestors_of_the_fire
+	icon = GFX_CJF_Ancestors_of_the_fire
+	cost = 2
+	x = 6
+	y = 1
+	prerequisite = {
+		focus = CJF_Opvolg_Lente_en_Herfs
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Sparkling_green_phosphorus
+	icon = GFX_CJF_Sparkling_green_phosphorus
+	cost = 2
+	x = 6
+	y = 2
+	prerequisite = {
+		focus = CJF_Ancestors_of_the_fire
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_regorganise_party
+	icon = GFX_CJF_regorganise_party
+	cost = 5
+	x = 3
+	y = 3
+	prerequisite = {
+		focus = CJF_Sparkling_green_phosphorus
+	}
+	completion_reward = {
+		set_country_flag = CJF_KMT_party
+		unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
+		
+	}
+}
+shared_focus = {
+	id = CJF_Economic_control
+	icon = GFX_CJF_Economic_control
+	cost = 6
+	x = 9
+	y = 3
+	prerequisite = {
+		focus = CJF_Sparkling_green_phosphorus
+	}
+	completion_reward = {
+		unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
+		set_country_flag = CJF_first_choice
+	}
+}
+shared_focus = {
+	id = CJF_Tighten_your_lifeline
+	icon = GFX_CJF_Tighten_your_lifeline
+	cost = 6
+	x = 7
+	y = 4
+	prerequisite = {
+		focus = CJF_Economic_control
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_sweep_dogs
+	icon = GFX_CJF_sweep_dogs
+	cost = 6
+	x = 11
+	y = 4
+	prerequisite = {
+		focus = CJF_Economic_control
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Bring_a_tightening_hoop
+	icon = GFX_CJF_Bring_a_tightening_hoop
+	cost = 6
+	x = 9
+	y = 5
+	prerequisite = {
+		focus = CJF_Tighten_your_lifeline
+	}
+	prerequisite = {
+		focus = CJF_sweep_dogs
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_sword_and_farm
+	icon = GFX_CJF_sword_and_farm
+	cost = 6
+	x = 9
+	y = 6
+	prerequisite = {
+		focus = CJF_Bring_a_tightening_hoop
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Exhaust_creation
+	icon = GFX_CJF_Exhaust_creation
+	cost = 6
+	x = 7
+	y = 7
+	prerequisite = {
+		focus = CJF_sword_and_farm
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Battle_for_the_baht
+	icon = GFX_CJF_Battle_for_the_baht
+	cost = 6
+	x = 11
+	y = 7
+	prerequisite = {
+		focus = CJF_sword_and_farm
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_People_livelihood_has_been_stable
+	icon = GFX_CJF_People_livelihood_has_been_stable
+	cost = 6
+	x = 9
+	y = 8
+	prerequisite = {
+		focus = CJF_Exhaust_creation
+	}
+	prerequisite = {
+		focus = CJF_Battle_for_the_baht
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_return_to_remind
+	icon = GFX_CJF_return_to_remind
+	cost = 5
+	x = 3
+	y = 4
+	prerequisite = {
+		focus = CJF_regorganise_party
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_construct_CPC
+	icon = GFX_CJF_construct_CPC
+	cost = 5
+	x = 1
+	y = 5
+	prerequisite = {
+		focus = CJF_return_to_remind
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Weakening_of_the_Supervisory_Commission
+	icon = GFX_CJF_Weakening_of_the_Supervisory_Commission
+	cost = 5
+	x = 5
+	y = 5
+	prerequisite = {
+		focus = CJF_return_to_remind
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Renovate_party_affairs
+	icon = GFX_CJF_Renovate_party_affairs
+	cost = 5
+	x = 3
+	y = 6
+	prerequisite = {
+		focus = CJF_Weakening_of_the_Supervisory_Commission
+	}
+	prerequisite = {
+		focus = CJF_construct_CPC
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Who_are_we
+	icon = GFX_CJF_Who_are_we
+	cost = 5
+	x = 1
+	y = 7
+	prerequisite = {
+		focus = CJF_Renovate_party_affairs
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Who_are_enemy
+	icon = GFX_CJF_Who_are_enemy
+	cost = 5
+	x = 3
+	y = 7
+	prerequisite = {
+		focus = CJF_Renovate_party_affairs
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Who_are_we_depend
+	icon = GFX_CJF_Who_are_we_depend
+	cost = 5
+	x = 5
+	y = 7
+	prerequisite = {
+		focus = CJF_Renovate_party_affairs
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_revival_nation
+	icon = GFX_CJF_revival_nation
+	cost = 5
+	x = 3
+	y = 8
+	prerequisite = {
+		focus = CJF_Who_are_we
+	}
+	prerequisite = {
+		focus = CJF_Who_are_enemy
+	}
+	prerequisite = {
+		focus = CJF_Who_are_we_depend
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Commitment_to_civil_rights
+	icon = GFX_CJF_Commitment_to_civil_rights
+	cost = 4
+	x = 6
+	y = 9
+	prerequisite = {
+		focus = CJF_revival_nation
+	}
+	prerequisite = {
+		focus = CJF_People_livelihood_has_been_stable
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_The_whole_country_united_outside
+	icon = GFX_CJF_The_whole_country_united_outside
+	cost = 3
+	x = 6
+	y = 10
+	prerequisite = {
+		focus = CJF_Commitment_to_civil_rights
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Go_east
+	icon = GFX_CJF_Go_east
+	cost = 3
+	x = 6
+	y = 11
+	prerequisite = {
+		focus = CJF_The_whole_country_united_outside
+	}
+	completion_reward = {
+		
+		
+	}
+}
 ##########################################################
 shared_focus = {
 		id = CJF_The_country_is_in_trouble
@@ -709,10 +1047,6 @@ shared_focus = {
 			focus = CJF_reunite_the_front
 		}
 		completion_reward = {
-			country_event = {
-				id = 
-				days = 1
-			}
 			add_opinion_modifier = {
 				target = GDC
 				modifier = CHI_united_front_valve

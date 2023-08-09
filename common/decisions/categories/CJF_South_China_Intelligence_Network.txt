@@ -13,6 +13,7 @@ CJF_South_China_Intelligence_Network = {
 	available = {
 		OR = {
 		has_completed_focus = CJF_The_time_has_come
+		has_completed_focus = CJF_Opvolg_Lente_en_Herfs
 		}
 	}
 	priority = 1000

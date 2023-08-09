@@ -6,8 +6,11 @@ CJF_drug_trade = {
 	}
     visible = {
 		tag = CJF
+    OR = {
         has_completed_focus = CJF_patriotic_industry
-        NOT = { has_global_flag = CHI_continental_operation_began }
+        has_completed_focus = CJF_Economic_control
+    }
+        NOT = { has_global_flag = ASIA_CHI_JAP_WAR }
 	}
     priority = {
 		base = 1

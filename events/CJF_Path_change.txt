@@ -211,6 +211,10 @@ country_event = {
 			ideology = social_democracy
 			popularity = 0.2
 		}
+		load_focus_tree = {
+			tree = CJF_chen_gongbp
+			keep_completed = no
+		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.9.a #
 	}
@@ -274,6 +278,10 @@ country_event = {
 		add_popularity = {
 			ideology = social_democracy
 			popularity = 0.2
+		}
+		load_focus_tree = {
+			tree = CJF_chen_gongbp
+			keep_completed = no
 		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.11.a #

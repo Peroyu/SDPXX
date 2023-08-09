@@ -9,8 +9,11 @@ CJF_xibei_fees = {
     NOT = { country_exists = CMA }
 	}
 	available = {
+		NOT = {
+			has_country_flag = CHI_politic_apart_condition
+		}
 		MMA = {
-			has_country_leader = { ruling_only = yes name = "MMA_Ma_Hongkui" }
+			has_country_leader = { ruling_only = yes name = "马鸿逵" }
 		}
 	}
     priority = {
