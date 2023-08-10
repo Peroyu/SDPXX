@@ -156,6 +156,8 @@ shared_focus = {
 	y = 0
 	completion_reward = {
 		unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
+		add_stability = 0.03
+		add_political_power = 50
 	}
 }
 shared_focus = {
@@ -168,7 +170,7 @@ shared_focus = {
 		focus = CJF_Opvolg_Lente_en_Herfs
 	}
 	completion_reward = {
-		
+		add_stability = 0.03
 		
 	}
 }
@@ -182,7 +184,11 @@ shared_focus = {
 		focus = CJF_Ancestors_of_the_fire
 	}
 	completion_reward = {
-		
+		add_political_power = 30
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
 		
 	}
 }
@@ -196,7 +202,7 @@ shared_focus = {
 		focus = CJF_Sparkling_green_phosphorus
 	}
 	completion_reward = {
-		
+		add_political_power = 15
 		country_event = {
 			id = CJF_kmtdebate.4
 			days = 1
@@ -216,6 +222,12 @@ shared_focus = {
 	completion_reward = {
 		unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
 		set_country_flag = CJF_first_choice
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+		}
 	}
 }
 shared_focus = {
@@ -228,8 +240,20 @@ shared_focus = {
 		focus = CJF_Economic_control
 	}
 	completion_reward = {
-		
-		
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		854 = {
+			add_resource = {
+				type = steel
+				amount = 3
+			}
+		}
 	}
 }
 shared_focus = {
@@ -260,7 +284,6 @@ shared_focus = {
 	}
 	completion_reward = {
 		
-		
 	}
 }
 shared_focus = {
@@ -273,7 +296,13 @@ shared_focus = {
 		focus = CJF_Bring_a_tightening_hoop
 	}
 	completion_reward = {
-		
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+		}
+		add_offsite_building = { type = industrial_complex level = 1 }
 		
 	}
 }
