@@ -52,13 +52,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { var = CJF_KMT2 value = 2 compare = equals }
+			check_variable = { var = CJF_KMT3 value = 2 compare = equals }
 		}
 		localization_key = CJF_KMT3_2_text
 	}
 	text = {
 		trigger = {
-			check_variable = { var = CJF_KMT2 value = 3 compare = equals }
+			check_variable = { var = CJF_KMT3 value = 3 compare = equals }
 		}
 		localization_key = CJF_KMT3_3_text
 	}

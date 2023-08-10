@@ -486,7 +486,11 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    set_variable = { var = CJF_KMT1 value = 3 }
+			set_variable = { var = CJF_KMT2 value = 2 }
+			set_variable = { var = CJF_KMT3 value = 1 }
+			set_variable = { var = CJF_KMT4 value = 1 }
+			set_variable = { var = CJF_antipower value = 23 }
 		}
     }
 	
@@ -497,6 +501,7 @@ country_event = {
 		name = CJF_kmtdebate.1.a 
 		set_country_flag = CJF_KMT_party
 		unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
+		custom_effect_tooltip = CJF_politic_condition_update
 	}
 	
 }
@@ -557,32 +562,7 @@ country_event = {
 	}
 	
 }
-country_event = {
-    id = CJF_kmtdebate.4  #学生抗战演说，最后请缨从军
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_kmtdebate.4 FROM = [From.GetName]" }
-	title = CJF_kmtdebate.4.t
-	desc = CJF_kmtdebate.4.d
-	picture = GFX_CJF_yunnanguifu
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		add_stability = 0.06
-		add_political_power = 50
-		name = CJF_kmtdebate.4.a 
-	}
-	
-}
+
 country_event = {
     id = CJF_kmtdebate.5  #孙科访问西南联大
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -818,5 +798,36 @@ country_event = {
 	
 }
 
-
+###################################################################################################################################################
+country_event = {
+    id = CJF_kmtdebate.4  #陈公博发表演讲
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_kmtdebate.4 FROM = [From.GetName]" }
+	title = CJF_kmtdebate.4.t
+	desc = CJF_kmtdebate.4.d
+	picture = GFX_CJF_yunnanguifu
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    set_variable = { var = CJF_KMT1 value = 1 }
+			set_variable = { var = CJF_KMT2 value = 2 }
+			set_variable = { var = CJF_KMT4 value = 3 }
+			set_variable = { var = CJF_KMT4 value = 1 }
+			set_variable = { var = CJF_antipower value = 21 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_kmtdebate.4.a 
+		set_country_flag = CJF_KMT_party
+		unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
+		custom_effect_tooltip = CJF_politic_condition_update
+	}
+	
+}
 

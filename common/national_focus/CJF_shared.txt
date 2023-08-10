@@ -196,8 +196,11 @@ shared_focus = {
 		focus = CJF_Sparkling_green_phosphorus
 	}
 	completion_reward = {
-		set_country_flag = CJF_KMT_party
-		unlock_decision_category_tooltip = CJF_KMT_party_decision_categories
+		
+		country_event = {
+			id = CJF_kmtdebate.4
+			days = 1
+		}
 		
 	}
 }
