@@ -219,6 +219,7 @@
  CJF_unacknowlaged_power_1:"迟来的承诺"
  CJF_unacknowlaged_power_2:"正在践行的承诺"
  CJF_unacknowlaged_power_3:"被拖延的承诺"
+ CJF_unacknowlaged_power_4:"正统派回归"
  CJF_gurantee_tt:"这是我们兑现承诺的第一步……至少，我们有了行动"
  CJF_sunke_idea_tt:"我们将承诺实行宪政"
  CJF_unacknowlaged_power_desc:0"先总理曾以三步概括中华民国的建国程序，即为军政，训政，宪政。1929年，北伐战争的结束和中华民国正式在武汉建立结束了军政，进入了训政时代，但从那时以来，何时前进到宪政便成为国民党和中华民国各地津津乐道的话题，廖仲恺死后，孙科总裁以宪政为口号接过了国民革命的旗帜，但那寄予厚望的1936年宪法草案和国民大会却被日本帝国主义的残暴进攻所打断，十年过去，抗争成为中华民族的主旋律，而训政与宪政之辩，似乎又再次悄然蜂起……"
@@ -293,6 +294,7 @@
  CJF_zhengtong_laegue_support_tt:"§G我们将获得正统派的支持§!"
  CJF_junwei_laegue_support_tt:"§G我们将获得军委的支持§!"
  CJF_jiancha_laegue_support_tt:"§G我们将获得监察系的支持§!"
+ CJF_party_1:"党政集中度将加强……"
 
  CJF_South_China_Intelligence_Network:"华东情报网"
  CJF_South_China_Intelligence_Network_desc:"为了岌岌可危的国民革命，在结束了西南地区最后的日军威胁后，我们将重启华东地区的情报网络，将我们自己的人派到伪政府的控制区，他们将潜伏在地下，探听消息，联络我们的同情者，为西南地区的抗日军事行动提供有力的支援与帮助。\n目前，我们的情报网强度为§Y[?global.CJF_intelligence_network_power]§!，情报网强度是衡量我们情报工作的重要指标，我们能够消耗情报网强度执行诸如策反军队，联络抗日武装力量等等行动\n目前，晋系军阀的抗日倾向为§Y[?global.JIN_percent]§!，阎锡山经营山西多年，作为一个有实力的地方军阀，我们有必要拉拢他以保证他不会投向日本的怀抱，如果能够保持较高的抗日倾向，那么在最后的时刻，§Y山西§!将成为我们的盟友！" 

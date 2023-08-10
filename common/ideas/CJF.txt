@@ -63,6 +63,31 @@ ideas = {
 				political_power_factor = -0.05
 			}
 		}
+		CJF_unacknowlaged_power_4 = {
+		    name = CJF_unacknowlaged_power_4
+			picture = CJF_unacknowlaged_power_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.05
+				war_support_factor = 0.03
+			}
+		}
+		CJF_unacknowlaged_power_5 = {
+		    name = CJF_unacknowlaged_power_4
+			picture = CJF_unacknowlaged_power_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.05
+				war_support_factor = 0.05
+				stability_factor = 0.03
+			}
+		}
 		CFJ_wreckage_of_NRA_1 = {
 		    name = CFJ_wreckage_of_NRA_1
 			picture = CFJ_wreckage_of_NRA

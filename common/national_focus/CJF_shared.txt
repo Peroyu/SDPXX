@@ -171,7 +171,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_stability = 0.03
-		
+		swap_ideas = {
+			add_idea = CJF_unacknowlaged_power_4
+			remove_idea = CJF_unacknowlaged_power
+		}
 	}
 }
 shared_focus = {
@@ -316,7 +319,10 @@ shared_focus = {
 		focus = CJF_sword_and_farm
 	}
 	completion_reward = {
-		
+		swap_ideas = {
+			add_idea = closed_economy
+			remove_idea = limited_exports
+		}
 		
 	}
 }
@@ -347,7 +353,9 @@ shared_focus = {
 		focus = CJF_Battle_for_the_baht
 	}
 	completion_reward = {
-		
+		add_war_support = 0.04
+		add_stability = 0.06
+		add_research_slot = 1
 		
 	}
 }
@@ -361,7 +369,11 @@ shared_focus = {
 		focus = CJF_regorganise_party
 	}
 	completion_reward = {
-		
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		custom_effect_tooltip = CJF_Chen_1
 		
 	}
 }
@@ -375,7 +387,15 @@ shared_focus = {
 		focus = CJF_return_to_remind
 	}
 	completion_reward = {
-		
+		custom_effect_tooltip = CJF_increase_sopport
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = reactionism
+			popularity = -0.02
+		}
 		
 	}
 }
@@ -389,7 +409,11 @@ shared_focus = {
 		focus = CJF_return_to_remind
 	}
 	completion_reward = {
-		
+		custom_effect_tooltip = CJF_increase_sopport
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.03
+		}
 		
 	}
 }
@@ -406,7 +430,9 @@ shared_focus = {
 		focus = CJF_construct_CPC
 	}
 	completion_reward = {
-		
+		custom_effect_tooltip = CJF_party_1
+		add_political_power = 35
+		add_to_variable = { var = CJF_antipower value = 15 }
 		
 	}
 }
@@ -420,7 +446,10 @@ shared_focus = {
 		focus = CJF_Renovate_party_affairs
 	}
 	completion_reward = {
-		
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.03
+		}
 		
 	}
 }
@@ -434,7 +463,7 @@ shared_focus = {
 		focus = CJF_Renovate_party_affairs
 	}
 	completion_reward = {
-		
+		add_war_support = 0.06
 		
 	}
 }
@@ -448,7 +477,7 @@ shared_focus = {
 		focus = CJF_Renovate_party_affairs
 	}
 	completion_reward = {
-		
+		add_stability = 0.08
 		
 	}
 }
@@ -468,7 +497,7 @@ shared_focus = {
 		focus = CJF_Who_are_we_depend
 	}
 	completion_reward = {
-		
+		add_political_power = 100
 		
 	}
 }
@@ -485,7 +514,10 @@ shared_focus = {
 		focus = CJF_People_livelihood_has_been_stable
 	}
 	completion_reward = {
-		
+		swap_ideas = {
+			add_idea = CJF_unacknowlaged_power_5
+			remove_idea = CJF_unacknowlaged_power_4
+		}
 		
 	}
 }
@@ -499,7 +531,7 @@ shared_focus = {
 		focus = CJF_Commitment_to_civil_rights
 	}
 	completion_reward = {
-		
+		add_manpower = 160000
 		
 	}
 }
