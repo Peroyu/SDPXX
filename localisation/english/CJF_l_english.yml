@@ -289,6 +289,10 @@
  CJF_KMT_party_decision_categories:"党内风波"
  CJF_KMT_party_decision_categories_desc:"从1927年的大革命以及崭新的中华民国在武汉建立以来，这个以国民党和共产党的联盟为根基的政治体内便与稳定无缘，社会主义者，民族主义者，自由主义者和革命者们纷纷希望自己的力量能够主宰中华民国的巨轮，1930年代革命元老们纷纷离去之后，以孙科为首的宪政力量暂时掌握了疲惫的国家，然而，日本的重击骤然打断了中华民国渐渐稳定的脚步，一切又不得不重新开始，南方的两广自治政府已经站稳了脚跟成为第一大地方力量，国民革命军新尝败绩，此时此刻，迫在眉睫的五号作战终于被彻底粉碎，但四川盆地的上空，却再次聚集起隐隐的风暴。\n--------------------\n§C遗教系§!的支持度§Y[?party_popularity@movement_communism|%0]§!§C遗教系§!现在[GetCJFKMT1]我们 \n§H军委§!的支持度§Y[?party_popularity@reactionism|%0]§!§H军委§!现在[GetCJFKMT2]我们\n§O正统派§!的支持度§Y[?party_popularity@social_democracy|%0]§!§O正统派§!现在[GetCJFKMT3]我们\n§g监察系§!的支持度§Y[?party_popularity@conservatism|%0]§!§g监察系§!现在[GetCJFKMT4]我们\n--------------------\n组织集中度：§Y[?CJF_antipower]§!"
  CJF_politic_condition_update:"政治现状将更新……"
+ CJF_increase_sopport:"§G我们在党内的支持者将扩大……§!"
+ CJF_zhengtong_laegue_support_tt:"§G我们将获得正统派的支持§!"
+ CJF_junwei_laegue_support_tt:"§G我们将获得军委的支持§!"
+ CJF_jiancha_laegue_support_tt:"§G我们将获得监察系的支持§!"
 
  CJF_South_China_Intelligence_Network:"华东情报网"
  CJF_South_China_Intelligence_Network_desc:"为了岌岌可危的国民革命，在结束了西南地区最后的日军威胁后，我们将重启华东地区的情报网络，将我们自己的人派到伪政府的控制区，他们将潜伏在地下，探听消息，联络我们的同情者，为西南地区的抗日军事行动提供有力的支援与帮助。\n目前，我们的情报网强度为§Y[?global.CJF_intelligence_network_power]§!，情报网强度是衡量我们情报工作的重要指标，我们能够消耗情报网强度执行诸如策反军队，联络抗日武装力量等等行动\n目前，晋系军阀的抗日倾向为§Y[?global.JIN_percent]§!，阎锡山经营山西多年，作为一个有实力的地方军阀，我们有必要拉拢他以保证他不会投向日本的怀抱，如果能够保持较高的抗日倾向，那么在最后的时刻，§Y山西§!将成为我们的盟友！" 

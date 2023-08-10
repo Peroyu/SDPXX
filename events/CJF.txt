@@ -659,6 +659,8 @@ country_event = {
 		}
 		name = CJF_kmtdebate.8.a 
 		complete_national_focus = CJF_advice_of_sunfo
+		add_to_variable = { var = CJF_KMT3 value = 1 }
+			custom_effect_tooltip = CJF_zhengtong_laegue_support_tt
 	}
 	option = { 
 	    ai_chance = {
@@ -667,6 +669,8 @@ country_event = {
 		name = CJF_kmtdebate.8.b
 		complete_national_focus = CJF_advice_of_zhangjingjiang
 		custom_effect_tooltip = CJF_broke_my_idea
+		add_to_variable = { var = CJF_KMT4 value = 1 }
+			custom_effect_tooltip = CJF_jiancha_laegue_support_tt
 	}
 	
 }
