@@ -21,6 +21,11 @@ news_event = {
 		name = CHI_war.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = CHI_second_continent_war_Super_Event_Visible
+		hidden_effect = {
+			hidden_effect = {
+				sound_effect = "second_continent_war_voice"
+			}
+		}
 	}
 }
 news_event = {
@@ -41,6 +46,9 @@ news_event = {
 		name = ISU.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = ISU_conference_Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "ISU_conference_voice"
+		}
 	}
 }
 news_event = {
@@ -60,5 +68,8 @@ news_event = {
 		name = Balkan.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = Balkan_war_Super_Event_Visible
+		hidden_effect = {
+			sound_effect = "Balkan_war_voice"
+		}
 	}
 }

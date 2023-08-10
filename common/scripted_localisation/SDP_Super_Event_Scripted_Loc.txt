@@ -21,6 +21,13 @@ defined_text = { #SUPER EVENT PICTURES
         }
         localization_key = "GFX_SPEVENT_Super_Event_Image_Balkan_war"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Chen_Gobo_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_Chen_Gobo"
+    }
    
 }
 defined_text = { #SUPER EVENT TITLES
@@ -45,6 +52,13 @@ defined_text = { #SUPER EVENT TITLES
             has_global_flag = Balkan_war_Super_Event_Visible
         }
         localization_key = "Balkan_war_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Chen_Gobo_Super_Event_Visible
+        }
+        localization_key = "Chen_Gobo_Super_Event_TITLE"
     }
    
 }
@@ -71,6 +85,13 @@ defined_text = { #SUPER EVENT QUOTES
             has_global_flag = Balkan_war_Super_Event_Visible
         }
         localization_key = "Balkan_war_Super_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Chen_Gobo_Super_Event_Visible
+        }
+        localization_key = "Chen_Gobo_Super_Event_TEXT"
     }
     
    
@@ -99,6 +120,13 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "Balkan_war_Super_Event_BUTTON"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Chen_Gobo_Super_Event_Visible
+        }
+        localization_key = "Chen_Gobo_Super_Event_BUTTON"
+    }
     
 }
 
@@ -124,6 +152,13 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = Balkan_war_Super_Event_Visible
         }
         localization_key = "Balkan_war_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Chen_Gobo_Super_Event_Visible
+        }
+        localization_key = "Chen_Gobo_Super_Event_DESC"
     }
     
 }

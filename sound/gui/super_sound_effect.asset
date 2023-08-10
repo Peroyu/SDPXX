@@ -1,0 +1,27 @@
+@@ -1,355 +0,0 @@
+#####################
+# SUPER EVENT MUSIC #
+#####################
+soundeffect = {
+	name = second_continent_war_voice
+	volume = 0.5
+	sounds = {
+		sound = second_continent_war_voice
+	} 
+}
+
+soundeffect = {
+	name = ISU_conference_voice
+	volume = 0.5
+	sounds = {
+		sound = ISU_conference_voice
+	} 
+}
+
+soundeffect = {
+	name = Balkan_war_voice
+	volume = 0.5
+	sounds = {
+		sound = Balkan_war_voice
+	} 
+}
