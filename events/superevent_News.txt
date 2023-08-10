@@ -29,6 +29,60 @@ news_event = {
 	}
 }
 news_event = {
+	id = CHI_war.2
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	CHI_war.2 FROM = [From.GetName]" }
+    picture = GFX_chi_vic_1
+    title = CHI_war.2.t
+    desc = CHI_war.2.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = CHI_war.2.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Chen_Gobo_Super_Event_Visible
+		hidden_effect = {
+			hidden_effect = {
+				sound_effect = "Chen_Gongbo_voice"
+			}
+		}
+	}
+}
+news_event = {
+	id = CHI_war.3
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	CHI_war.3 FROM = [From.GetName]" }
+    picture = GFX_chi_vic_1
+    title = CHI_war.3.t
+    desc = CHI_war.3.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = CHI_war.3.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Sun_Fo_Super_Event_Visible
+		hidden_effect = {
+			hidden_effect = {
+				sound_effect = "Sun_Fo_voice"
+			}
+		}
+	}
+}
+news_event = {
 	id = ISU.2
 
     picture = GFX_ISU_2
