@@ -551,21 +551,41 @@ shared_focus = {
 		}
 	}
 shared_focus = {
-		id = CJF_flag_still_flying
-		icon = GFX_CJF_flag_still_flying
+		id = CJF_The_time_has_come
+		icon = GFX_CJF_The_time_has_come
 		cost = 3
-		x = 9
-		y = 2
 		prerequisite = {
 			focus = CJF_sharpen_the_tools
 		}
 		completion_reward = {
-			add_war_support = 0.07
-		    swap_ideas = {
+			add_political_power = 50
+			unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
+			swap_ideas = {
 				add_idea = CFJ_wreckage_of_NRA_2
 				remove_idea = CFJ_wreckage_of_NRA_1
 			}
+		} 
+		x = 9
+		y = 2
+	}
+	shared_focus = {
+		id = CJF_reunite_the_front
+		icon = GFX_CJF_reunite_the_front
+		cost = 1
+		prerequisite = {
+			focus = CJF_The_time_has_come
 		}
+		completion_reward = {
+			add_stability = 0.05
+			custom_effect_tooltip = CJF_unite_front_tt
+			country_event = {
+				id = CJF_kmtdebate.5
+				days = 1
+			}
+		} 
+		x = 9
+		y = 3
+
 	}
 shared_focus = {
 		id = CJF_check_thieves
@@ -597,39 +617,117 @@ shared_focus = {
 		}
 	}
 shared_focus = {
-		id = CJF_quartet_artillery_fire
-		icon = GFX_CJF_quartet_artillery_fire
+		id = CJF_remind_unite
+		icon = GFX_CJF_remind_unite
 		cost = 3
-		x = 8
-		y = 3
 		prerequisite = {
-			focus = CJF_flag_still_flying
+			focus = CJF_reunite_the_front
 		}
 		completion_reward = {
-			army_experience = 30
+			add_opinion_modifier = {
+				target = GDC
+				modifier = CHI_united_front_valve
+			}
+			add_opinion_modifier = {
+				target = MMA
+				modifier = CHI_united_front_valve
+			}
+			add_opinion_modifier = {
+				target = SIK
+				modifier = CHI_united_front_valve
+			}
 			swap_ideas = {
 				add_idea = CFJ_wreckage_of_NRA_3
 				remove_idea = CFJ_wreckage_of_NRA_2
 			}
-		}
+		} 
+		x = 8
+		y = 4
+
 	}
-shared_focus = {
-		id = CJF_quartet_jackal
-		icon = GFX_CJF_quartet_jackal
+	shared_focus = {
+		id = CJF_trip_to_guilin
+		icon = GFX_CJF_trip_to_guilin
 		cost = 3
-		x = 10
-		y = 3
 		prerequisite = {
-			focus = CJF_flag_still_flying
+			focus = CJF_remind_unite
 		}
 		completion_reward = {
-			army_experience = 30
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 500
-				producer = CJF
-			}
+			
+		} 
+		x = 8
+		y = 5
+
+	}
+	shared_focus = {
+		id = CJF_rebuild_international_connection
+		icon = GFX_CJF_rebuild_international_connection
+		cost = 3
+		prerequisite = {
+			focus = CJF_trip_to_guilin
 		}
+		completion_reward = {
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_4
+				remove_idea = CFJ_wreckage_of_NRA_3
+			}
+		} 
+		x = 8
+		y = 6
+
+	}
+	shared_focus = {
+		id = CJF_to_mosecow
+		icon = GFX_CJF_to_mosecow
+		cost = 3
+		prerequisite = {
+			focus = CJF_rebuild_international_connection
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = general_intersted
+			}
+		} 
+		x = 7
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_to_washington
+		icon = GFX_CJF_to_washington
+		cost = 3
+		prerequisite = {
+			focus = CJF_rebuild_international_connection
+		}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = general_intersted
+			}
+		} 
+		x = 9
+		y = 7
+
+	}
+shared_focus = {
+		id = CJF_activate_the_east_china_network
+		icon = GFX_CJF_activate_the_east_china_network
+		cost = 4
+		prerequisite = {
+			focus = CJF_reunite_the_front
+		}
+		completion_reward = {
+			add_to_variable = { global.CJF_intelligence_network_power = 15 }
+			custom_effect_tooltip = CJF_intelligence_power_added
+			country_event = {
+				id = CJF_dh.6
+				days = 1
+			}
+		} 
+		x = 10
+		y = 4
+
 	}
 shared_focus = {
 		id = CJF_Sending_away_the_old_school
@@ -664,25 +762,43 @@ shared_focus = {
 			unlock_decision_category_tooltip = CJF_rebuild_Tian_Fu
 		}
 	}
-shared_focus = {
-		id = CJF_no_step_back
-		icon = GFX_CJF_no_step_back
-		cost = 3
-		x = 9
-		y = 4
+	shared_focus = {
+		id = CJF_exchange_information_with_CPC
+		icon = GFX_CJF_exchange_information_with_CPC
+		cost = 2
 		prerequisite = {
-			focus = CJF_quartet_jackal
-		}
-        prerequisite = {
-			focus = CJF_quartet_artillery_fire
+			focus = CJF_activate_the_east_china_network
 		}
 		completion_reward = {
-			army_experience = 30
-			swap_ideas = {
-				add_idea = CFJ_wreckage_of_NRA_4
-				remove_idea = CFJ_wreckage_of_NRA_3
+			army_experience = 50
+			country_event = {
+				id = CJF_dh.7
+				days = 1
 			}
+		} 
+		x = 10
+		y = 5
+
+	}
+shared_focus = {
+		id = CJF_lit_a_fire
+		icon = GFX_CJF_lit_a_fire
+		cost = 4
+		prerequisite = {
+			focus = CJF_activate_the_east_china_network
 		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = CJF
+			}
+			add_to_variable = { global.CHI_huabeifankang = 10 }
+			custom_effect_tooltip = CHI_increase_huabeifankang
+		} 
+		x = 12
+		y = 5
+
 	}
 shared_focus = {
 		id = CJF_welcome_newcomers
@@ -746,37 +862,116 @@ shared_focus = {
 		y = 5
 
 	}
-shared_focus = {
-		id = CJF_more_than_one_million_comrades
-		icon = GFX_CJF_more_than_one_million_comrades
+	shared_focus = {
+		id = CJF_old_hatred_still
+		icon = GFX_CJF_old_hatred_still
 		cost = 3
 		prerequisite = {
-			focus = CJF_no_step_back
+			focus = CJF_lit_a_fire
+		}
+		prerequisite = {
+			focus = CJF_exchange_information_with_CPC
 		}
 		completion_reward = {
-			add_manpower = 23000
+			army_experience = 50
+			
 			add_ideas = CJF_mobalisation_1
 			country_event = { id = CJF_dh.4 days = 1}
-		}
-		x = 8
-		y = 5
+		} 
+		x = 11
+		y = 6
 
 	}
 shared_focus = {
-		id = CJF_sing_war_song_join_army
-		icon = GFX_CJF_sing_war_song_join_army
-		cost = 3
+		id = CJF_nwe_hatred_are_there
+		icon = GFX_CJF_nwe_hatred_are_there
+		cost = 4
 		prerequisite = {
-			focus = CJF_no_step_back
+			focus = CJF_old_hatred_still
 		}
 		completion_reward = {
+			every_army_leader = {
+				add_skill_level = 1		
+			}
+			add_war_support = 0.07
 			swap_ideas = {
 				add_idea = CJF_mobalisation_2
 				remove_idea = CJF_mobalisation_1
 			}
+		} 
+		x = 11
+		y = 7
+
+	}
+
+shared_focus = {
+		id = CJF_unite_as_one
+		icon = GFX_CJF_unitsws
+		cost = 4
+		prerequisite = {
+			focus = CJF_nwe_hatred_are_there
 		}
-		x = 10
-		y = 5
+		completion_reward = {
+			add_war_support = 0.03
+			add_ideas = CJF_unit_as_one_idea
+		} 
+		x = 11
+		y = 8
+
+	}
+	shared_focus = {
+		id = CJF_total_showdown
+		icon = GFX_CJF_total_showdown
+		cost = 1
+		prerequisite = {
+			focus = CJF_to_washington
+		}
+		prerequisite = {
+			focus = CJF_to_mosecow
+		}
+		completion_reward = {
+			custom_effect_tooltip = CJF_total_shutdown_tt
+			country_event = {
+				id = CJF_dh.8
+				days = 1
+			}
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_5
+				remove_idea = CFJ_wreckage_of_NRA_4
+			}
+		} 
+		x = 8
+		y = 8
+
+	}
+
+shared_focus = {
+		id = CJF_stand_up
+		icon = GFX_CJF_stand_up
+		cost = 3
+		prerequisite = {
+			focus = CJF_unite_as_one
+		}
+		prerequisite = {
+			focus = CJF_total_showdown
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_war = no
+				}
+				add_to_variable = { global.CHI_huabeifankang = 10 }
+			custom_effect_tooltip = CHI_increase_huabeifankang
+			}
+			add_war_support = 0.07
+			add_manpower = 470000
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_6
+				remove_idea = CFJ_wreckage_of_NRA_5
+			}
+		} 
+		x = 8
+		y = 9
 
 	}
 shared_focus = {
@@ -825,59 +1020,8 @@ shared_focus = {
 
 	}
 shared_focus = {
-		id = CJF_gun_on_shoulder
+		id = CJF_reduce_tax
 		icon = GFX_CJF_gun_on_shoulder
-		cost = 3
-		prerequisite = {
-			focus = CJF_sing_war_song_join_army
-		}
-        prerequisite = {
-			focus = CJF_more_than_one_million_comrades
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
-				category = industry
-			}
-			
-			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes 
-				}
-			}
-		}
-		x = 8
-		y = 6
-
-	}
-shared_focus = {
-		id = CJF_knife_by_waist
-		icon = GFX_CJF_knife_by_waist
-		cost = 3
-		prerequisite = {
-			focus = CJF_sing_war_song_join_army
-		}
-        prerequisite = {
-			focus = CJF_more_than_one_million_comrades
-		}
-		completion_reward = {
-			army_experience = 30
-			swap_ideas = {
-				add_idea = CFJ_wreckage_of_NRA_5
-				remove_idea = CFJ_wreckage_of_NRA_4
-			}
-		}
-		x = 10
-		y = 6
-
-	}
-shared_focus = {
-		id = CJF_Prime_Ministers_Legacy
-		icon = GFX_CJF_Prime_Ministers_Legacy
 		cost = 3
 		prerequisite = {
 			focus = CJF_people_lives
@@ -886,20 +1030,8 @@ shared_focus = {
 			focus = CJF_people_rights
 		}
 		completion_reward = {
-			add_popularity = {
-				ideology = movement_communism
-				popularity = 0.05
-			}
-			add_popularity = {
-				ideology = conservatism
-				popularity = 0.03
-			}
-			add_popularity = {
-				ideology = social_democracy
-				popularity = 0.03
-			}
 			country_event = {
-				id = CJF_kmtdebate.4
+				id = CJF_kmtdebate.8
 				days = 1
 			}
 		}
@@ -907,42 +1039,19 @@ shared_focus = {
 		y = 7
 
 	}
-shared_focus = {
-		id = CJF_blood_is_like_frency
-		icon = GFX_CJF_blood_is_like_frency
-		cost = 3
-		prerequisite = {
-			focus = CJF_knife_by_waist
-		}
-        prerequisite = {
-			focus = CJF_gun_on_shoulder
-		}
-		completion_reward = {
-			swap_ideas = {
-				add_idea = CFJ_wreckage_of_NRA_6
-				remove_idea = CFJ_wreckage_of_NRA_5
-			}
-			country_event = {
-				id = CJF_kmtdebate.4
-				days = 1
-			}
-		}
-		x = 9
-		y = 7
 
-	}
 shared_focus = {
 		id = CJF_go_outside
 		icon = GFX_CJF_unite_as_one
 		cost = 5
 		prerequisite = {
-			focus = CJF_Prime_Ministers_Legacy
+			focus = CJF_national_building_strategy
 		}
         prerequisite = {
-			focus = CJF_blood_is_like_frency
+			focus = CJF_stand_up
 		}
 		x = 6
-		y = 8
+		y = 13
 		completion_reward = {
 			custom_effect_tooltip = CJF_diplomacy_tt
 		   	country_event = {
@@ -950,139 +1059,18 @@ shared_focus = {
 				days = 1
 
 			}
-		} 
-	}
-shared_focus = {
-		id = CJF_The_time_has_come
-		icon = GFX_CJF_The_time_has_come
-		cost = 1
-		prerequisite = {
-			focus = CJF_go_outside
-		}
-		completion_reward = {
-			add_political_power = 50
-			unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
-		} 
-		x = 6
-		y = 9
-	}
-shared_focus = {
-		id = CJF_trip_to_kunming
-		icon = GFX_CJF_trip_to_kunming
-		cost = 1
-		prerequisite = {
-			focus = CJF_The_time_has_come
-		}
-		completion_reward = {
-			country_event = {
-				id = CJF_kmtdebate.5
-				days = 1
+			swap_ideas = {
+				add_idea = CFJ_wreckage_of_NRA_7
+				remove_idea = CFJ_wreckage_of_NRA_6
 			}
 		} 
-		x = 4
-		y = 10
+	}
 
-	}
-shared_focus = {
-		id = CJF_trip_to_guilin
-		icon = GFX_CJF_trip_to_guilin
-		cost = 1
-		prerequisite = {
-			focus = CJF_The_time_has_come
-		}
-		completion_reward = {
-			add_stability = 0.03
-			country_event = {
-				id = CJF_kmtdebate.6
-				days = 1
-			}
-		} 
-		x = 8
-		y = 10
 
-	}
-shared_focus = {
-		id = CJF_reunite_the_front
-		icon = GFX_CJF_reunite_the_front
-		cost = 1
-		prerequisite = {
-			focus = CJF_trip_to_guilin
-		}
-		prerequisite = {
-			focus = CJF_trip_to_kunming
-		}
-		completion_reward = {
-			add_stability = 0.05
-			custom_effect_tooltip = CJF_unite_front_tt
-		} 
-		x = 6
-		y = 11
 
-	}
-shared_focus = {
-		id = CJF_reduce_tax
-		icon = GFX_CJF_reduce_tax
-		cost = 1
-		prerequisite = {
-			focus = CJF_reunite_the_front
-		}
-		completion_reward = {
-			add_ideas = CJF_redux_tax_idea
-			custom_effect_tooltip = CJF_reduce_choice_tt
-			add_stability = 0.03
-			country_event = {
-				id = CJF_kmtdebate.8
-				days = 1
-			}
-		} 
-		x = 2
-		y = 12
 
-	}
-shared_focus = {
-		id = CJF_remind_unite
-		icon = GFX_CJF_remind_unite
-		cost = 1
-		prerequisite = {
-			focus = CJF_reunite_the_front
-		}
-		completion_reward = {
-			add_opinion_modifier = {
-				target = GDC
-				modifier = CHI_united_front_valve
-			}
-			add_opinion_modifier = {
-				target = MMA
-				modifier = CHI_united_front_valve
-			}
-			add_opinion_modifier = {
-				target = SIK
-				modifier = CHI_united_front_valve
-			}
-		} 
-		x = 6
-		y = 12
 
-	}
-shared_focus = {
-		id = CJF_activate_the_east_china_network
-		icon = GFX_CJF_activate_the_east_china_network
-		cost = 1
-		prerequisite = {
-			focus = CJF_reunite_the_front
-		}
-		completion_reward = {
-			add_to_variable = { global.CJF_intelligence_network_power = 15 }
-			custom_effect_tooltip = CJF_intelligence_power_added
-			country_event = {
-				id = CJF_dh.6
-				days = 1
-			}
-		} 
-		x = 10
-		y = 12
 
-	}
 shared_focus = {
 		id = CJF_advice_of_zhangjingjiang
 		icon = GFX_CJF_advice_of_zhangjingjiang
@@ -1094,7 +1082,7 @@ shared_focus = {
 			always = no
 		}
 		x = 1
-		y = 13
+		y = 8
 		mutually_exclusive = {
 			focus = CJF_advice_of_sunfo
 		}
@@ -1112,67 +1100,15 @@ shared_focus = {
 		mutually_exclusive = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
-		x = 3
-		y = 13
+		x = 5
+		y = 8
 
 	}
-shared_focus = {
-		id = CJF_rebuild_international_connection
-		icon = GFX_CJF_rebuild_international_connection
-		cost = 1
-		prerequisite = {
-			focus = CJF_remind_unite
-		}
-		completion_reward = {
-			#更换外交部长
-			add_political_power = 50
-		} 
-		x = 6
-		y = 13
 
-	}
-shared_focus = {
-		id = CJF_exchange_information_with_CPC
-		icon = GFX_CJF_exchange_information_with_CPC
-		cost = 1
-		prerequisite = {
-			focus = CJF_activate_the_east_china_network
-		}
-		completion_reward = {
-			army_experience = 50
-			country_event = {
-				id = CJF_dh.7
-				days = 1
-			}
-		} 
-		x = 9
-		y = 13
-
-	}
-shared_focus = {
-		id = CJF_lit_a_fire
-		icon = GFX_CJF_lit_a_fire
-		cost = 1
-		prerequisite = {
-			focus = CJF_activate_the_east_china_network
-		}
-		completion_reward = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -500
-				producer = CJF
-			}
-			add_to_variable = { global.CHI_huabeifankang = 10 }
-			custom_effect_tooltip = CHI_increase_huabeifankang
-		} 
-		x = 11
-		y = 13
-
-	}
 shared_focus = {
 		id = CJF_guide_the_place
 		icon = GFX_CJF_guide_the_place
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = CJF_advice_of_zhangjingjiang
 		}
@@ -1181,13 +1117,13 @@ shared_focus = {
 			add_stability = -0.03
 		} 
 		x = 1
-		y = 14
+		y = 9
 
 	}
 shared_focus = {
 		id = CJF_encourage_charity
 		icon = GFX_CJF_encourage_charity
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = CJF_advice_of_sunfo
 		}
@@ -1195,89 +1131,16 @@ shared_focus = {
 			add_ideas = CJF_charity
 			
 		} 
-		x = 3
-		y = 14
-
-	}
-shared_focus = {
-		id = CJF_to_mosecow
-		icon = GFX_CJF_to_mosecow
-		cost = 1
-		prerequisite = {
-			focus = CJF_rebuild_international_connection
-		}
-		completion_reward = {
-			add_opinion_modifier = {
-				target = SOV
-				modifier = general_intersted
-			}
-		} 
 		x = 5
-		y = 14
+		y = 9
 
 	}
-shared_focus = {
-		id = CJF_to_washington
-		icon = GFX_CJF_to_washington
-		cost = 1
-		prerequisite = {
-			focus = CJF_rebuild_international_connection
-		}
-		completion_reward = {
-			add_opinion_modifier = {
-				target = USA
-				modifier = general_intersted
-			}
-		} 
-		x = 7
-		y = 14
 
-	}
-shared_focus = {
-		id = CJF_old_hatred_still
-		icon = GFX_CJF_old_hatred_still
-		cost = 1
-		prerequisite = {
-			focus = CJF_lit_a_fire
-		}
-		prerequisite = {
-			focus = CJF_exchange_information_with_CPC
-		}
-		completion_reward = {
-			army_experience = 50
-			swap_ideas = {
-				add_idea = CFJ_wreckage_of_NRA_7
-				remove_idea = CFJ_wreckage_of_NRA_6
-			}
-		} 
-		x = 9
-		y = 14
 
-	}
-shared_focus = {
-		id = CJF_nwe_hatred_are_there
-		icon = GFX_CJF_nwe_hatred_are_there
-		cost = 1
-		prerequisite = {
-			focus = CJF_lit_a_fire
-		}
-		prerequisite = {
-			focus = CJF_exchange_information_with_CPC
-		}
-		completion_reward = {
-			every_army_leader = {
-				add_skill_level = 1		
-			}
-			add_war_support = 0.07
-		} 
-		x = 11
-		y = 14
-
-	}
 shared_focus = {
 		id = CJF_set_professional_associations
 		icon = GFX_CJF_set_professional_associations
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = CJF_guide_the_place
 		}
@@ -1293,104 +1156,36 @@ shared_focus = {
 			}
 		} 
 		x = 1
-		y = 15
+		y = 10
 
 	}
 shared_focus = {
 		id = CJF_preparation_of_provincial_advisory_bureau
 		icon = GFX_CJF_preparation_of_provincial_advisory_bureau
-		cost = 1
+		cost = 2
 		prerequisite = {
 			focus = CJF_encourage_charity
 		}
 		completion_reward = {
 			custom_effect_tooltip = CJF_gurantee_tt
 			swap_ideas = {
-				add_idea = CJF_redux_tax_idea_2
-				remove_idea = CJF_redux_tax_idea_1
+				add_idea = CJF_unacknowlaged_power_2
+				remove_idea = CJF_unacknowlaged_power_1
 			}
 			country_event = {
 				id = CJF_dh.11
 				days = 1
 			}
 		} 
-		x = 3
-		y = 15
+		x = 5
+		y = 10
 
 	}
-shared_focus = {
-		id = CJF_total_showdown
-		icon = GFX_CJF_total_showdown
-		cost = 1
-		prerequisite = {
-			focus = CJF_to_washington
-		}
-		bypass = {
-			has_war = yes
-			has_completed_focus = CJF_to_washington
-			has_completed_focus = CJF_to_mosecow
-		}
-		prerequisite = {
-			focus = CJF_to_mosecow
-		}
-		completion_reward = {
-			custom_effect_tooltip = CJF_total_shutdown_tt
-			country_event = {
-				id = CJF_dh.8
-				days = 1
-			}
-		} 
-		x = 6
-		y = 15
 
-	}
-shared_focus = {
-		id = CJF_unite_as_one
-		icon = GFX_CJF_unite_as_one
-		cost = 1
-		prerequisite = {
-			focus = CJF_nwe_hatred_are_there
-		}
-		prerequisite = {
-			focus = CJF_old_hatred_still
-		}
-		completion_reward = {
-			add_war_support = 0.03
-			add_ideas = CJF_unit_as_one_idea
-		} 
-		x = 10
-		y = 15
-
-	}
-shared_focus = {
-		id = CJF_stand_up
-		icon = GFX_CJF_stand_up
-		cost = 1
-		prerequisite = {
-			focus = CJF_unite_as_one
-		}
-		prerequisite = {
-			focus = CJF_total_showdown
-		}
-		completion_reward = {
-			if = {
-				limit = {
-					has_war = no
-				}
-				add_to_variable = { global.CHI_huabeifankang = 10 }
-			custom_effect_tooltip = CHI_increase_huabeifankang
-			}
-			add_war_support = 0.07
-			add_manpower = 470000
-		} 
-		x = 8
-		y = 16
-
-	}
 shared_focus = {
 		id = CJF_deepen_discipline
 		icon = GFX_CJF_deepen_discipline
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = CJF_set_professional_associations
 		}
@@ -1401,13 +1196,13 @@ shared_focus = {
 			}
 		} 
 		x = 1
-		y = 16
+		y = 11
 
 	}
 shared_focus = {
 		id = CJF_diverse_national_revolution
 		icon = GFX_CJF_diverse_national_revolution
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = CJF_preparation_of_provincial_advisory_bureau
 		}
@@ -1429,43 +1224,23 @@ shared_focus = {
 				popularity = 0.04
 			}
 		} 
-		x = 3
-		y = 16
+		x = 5
+		y = 11
 
 	}
 shared_focus = {
 		id = CJF_national_building_strategy
 		icon = GFX_CJF_national_building_strategy
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = CJF_diverse_national_revolution
 			focus = CJF_deepen_discipline
 		}
-		allow_branch = {
-			has_global_flag = ASIA_CHI_JAP_WAR
-			}
 		completion_reward = {
 			
 		} 
-		x = 2
-		y = 17
-
-	}
-shared_focus = {
-		id = CJF_establish_acting_as_national_congress
-		icon = GFX_CJF_establish_acting_as_national_congress
-		cost = 1
-		prerequisite = {
-			focus = CJF_national_building_strategy
-		}
-		prerequisite = {
-			focus = CJF_stand_up
-		}
-		completion_reward = {
-			
-		} 
-		x = 5
-		y = 18
+		x = 3
+		y = 12
 
 	}
 ##########################milltary##############################################################3
