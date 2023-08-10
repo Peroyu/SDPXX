@@ -35,6 +35,13 @@ defined_text = { #SUPER EVENT PICTURES
         }
         localization_key = "GFX_SPEVENT_Super_Event_Image_Sun_Fo"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Dai_Jitao_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_Dai_Jitao"
+    }
    
 }
 defined_text = { #SUPER EVENT TITLES
@@ -73,6 +80,13 @@ defined_text = { #SUPER EVENT TITLES
             has_global_flag = Sun_Fo_Super_Event_Visible
         }
         localization_key = "Sun_Fo_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Dai_Jitao_Super_Event_Visible
+        }
+        localization_key = "Dai_Jitao_Super_Event_TITLE"
     }
    
 }
@@ -114,6 +128,13 @@ defined_text = { #SUPER EVENT QUOTES
         }
         localization_key = "Sun_Fo_Super_Event_TEXT"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Dai_Jitao_Super_Event_Visible
+        }
+        localization_key = "Dai_Jitao_Super_Event_TEXT"
+    }
    
 }
 
@@ -154,6 +175,13 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "Sun_Fo_Super_Event_BUTTON"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Dai_Jitao_Super_Event_Visible
+        }
+        localization_key = "Dai_Jitao_Super_Event_BUTTON"
+    }
     
 }
 
@@ -193,6 +221,13 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = Sun_Fo_Super_Event_Visible
         }
         localization_key = "Sun_Fo_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Dai_Jitao_Super_Event_Visible
+        }
+        localization_key = "Dai_Jitao_Super_Event_DESC"
     }
     
 }
