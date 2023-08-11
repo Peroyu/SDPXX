@@ -116,6 +116,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_CKFCP2.png"
 	}
 	spriteType = {
+		name = "GFX_MMA_dip"
+		texturefile = "gfx/event_pictures/GFX_MMA_dip.png"
+	}
+	spriteType = {
 		name = "GFX_CJF_yunnanguifu"
 		texturefile = "gfx/event_pictures/GFX_CJF_yunnanguifu.png"
 	}

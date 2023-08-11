@@ -564,6 +564,16 @@ spriteTypes = {
 		name = "GFX_CJF_reconstruct_Xianggui_HQ"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reconstruct_Xianggui_HQ.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_sharpen_the_tools"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sharpen_the_tools.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_want_to_be_their_best_work"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_want_to_be_their_best_work.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

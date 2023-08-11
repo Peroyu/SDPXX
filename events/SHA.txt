@@ -154,41 +154,10 @@ country_event = {
 	}
 	option = {
 	    ai_chance = {
-		   base = 100
-		}
-		name = SBA.1.a
-		set_available = { MMA_xibei_choice = 1 }
-		SHA = {
-            remove_state_core = 958
-            remove_state_core = 959
-			remove_state_core = 960
-			remove_state_core = 942
-            add_state_claim = 958
-			add_state_claim = 959
-			add_state_claim = 960
-			add_state_claim = 942
-		}
-	    MMA = {
-		    transfer_state = 958
-			transfer_state = 959
-			transfer_state = 960
-			transfer_state = 942
-			add_state_core = 958
-			add_state_core = 959
-			add_state_core = 960
-			add_state_core = 942
-			declare_war_on = {target = SHA type = annex_everything }
-		}
-	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
-		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
-	}
-	option = {
-	    ai_chance = {
 		   base = 0
 		}
 		name = SBA.1.b
-		set_available = { MMA_xibei_choice = 2 }
+		
 		country_event = {
 		    id = SBA.2
 			days = 1
@@ -238,21 +207,38 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		MMA = {
-		declare_war_on = {target = SHA type = annex_everything }
-        }
-		SBA = {
-		declare_war_on = {target = SHA type = annex_everything }
+		set_available = { MMA_xibei_choice = 1 }
+		SHA = {
+            remove_state_core = 958
+            remove_state_core = 959
+			remove_state_core = 960
+			remove_state_core = 942
+            add_state_claim = 958
+			add_state_claim = 959
+			add_state_claim = 960
+			add_state_claim = 942
 		}
+	    MMA = {
+		    transfer_state = 958
+			transfer_state = 959
+			transfer_state = 960
+			transfer_state = 942
+			add_state_core = 958
+			add_state_core = 959
+			add_state_core = 960
+			add_state_core = 942
+			declare_war_on = {target = SHA type = annex_everything }
+		}
+	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
 		name = SBA.2.a
 	}
 	option = {
 	    ai_chance = {
 		   base = 0
 		}
-		SBA = {
-		declare_war_on = {target = SHA type = annex_everything }
-		}
+		set_available = { MMA_xibei_choice = 2 }
 		name = SBA.2.b
 	}	   
 }
