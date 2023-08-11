@@ -146,6 +146,11 @@ spriteTypes = {
 		name = "GFX_GDC_taking_shower"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_taking_shower.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_hard_risen_the_state"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_hard_risen_the_state.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
