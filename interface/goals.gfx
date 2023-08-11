@@ -136,6 +136,11 @@ spriteTypes = {
 		name = "GFX_GDC_enemy_in_front_of_us"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_enemy_in_front_of_us.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_shoot_them_all"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_shoot_them_all.png"			
+	}
 	
 ######################################################################
 	SpriteType = {
@@ -281,6 +286,71 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_Even_among_Enemies"
 		texturefile = "gfx/interface/goals/MMA/GFX_Even_among_Enemies.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Special_means"
+		texturefile = "gfx/interface/goals/MMA/GFX_Special_means.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Hold_firm"
+		texturefile = "gfx/interface/goals/MMA/GFX_Hold_firm.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_In_the_eastern"
+		texturefile = "gfx/interface/goals/MMA/GFX_In_the_eastern.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_A_failed_attempt"
+		texturefile = "gfx/interface/goals/MMA/GFX_A_failed_attempt.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_A_successful_coup"
+		texturefile = "gfx/interface/goals/MMA/GFX_A_successful_coup.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Strike_hard"
+		texturefile = "gfx/interface/goals/MMA/GFX_Strike_hard.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_buy_millitary_equippment"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_buy_millitary_equippment.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_invite_soviet_mongolia"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_invite_soviet_mongolia.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_continue_east_invade"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_continue_east_invade.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_reorganise_faileds"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_reorganise_faileds.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_reorganise_logistics"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_reorganise_logistics.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_construct_hanzhong"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_construct_hanzhong.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_MMA_logistic_line_through_dessert"
+		texturefile = "gfx/interface/goals/MMA/GFX_MMA_logistic_line_through_dessert.png"			
 	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
