@@ -812,8 +812,19 @@ shared_focus = {
 		prerequisite = {
 			focus = Total_showdown
 		}
+		available = {
+			OR = {
+				has_war_with = RCR
+				has_war_with = JAP
+				has_war_with = FNC
+			}
+		}
 		completion_reward = {
-			
+			load_focus_tree = {
+		        tree = MMA_third
+		        keep_completed = no
+		    }
+			custom_effect_tooltip = MMA_new_stage_2
 
 		}
 		x = 7

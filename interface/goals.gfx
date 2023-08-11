@@ -142,6 +142,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_shoot_them_all.png"			
 	}
 	
+	SpriteType = {
+		name = "GFX_GDC_taking_shower"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_taking_shower.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
@@ -351,6 +355,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_MMA_logistic_line_through_dessert"
 		texturefile = "gfx/interface/goals/MMA/GFX_MMA_logistic_line_through_dessert.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Then_it_began"
+		texturefile = "gfx/interface/goals/MMA/GFX_Then_it_began.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Total_showdown"
+		texturefile = "gfx/interface/goals/MMA/GFX_Total_showdown.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_Unite"
+		texturefile = "gfx/interface/goals/MMA/GFX_Unite.png"			
 	}
 #################👆👆👆👆👆👆👆MMA1👆👆👆👆👆👆##########################
 #################MMA_CPC################👇👇👇###########################
