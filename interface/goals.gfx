@@ -151,6 +151,56 @@ spriteTypes = {
 		name = "GFX_GDC_hard_risen_the_state"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_hard_risen_the_state.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_on_the_yuexiu_mountain"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_on_the_yuexiu_mountain.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_unabitious_wishes"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_unabitious_wishes.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_unafinished_target"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_unafinished_target.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_unaccomplished_dream"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_unaccomplished_dream.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_our_mission"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_our_mission.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_running_industry"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_running_industry.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_promise_to_people"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_promise_to_people.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_use_laws"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_use_laws.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_fly_the_flag"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_fly_the_flag.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_sit_down_in_turns"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_sit_down_in_turns.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
