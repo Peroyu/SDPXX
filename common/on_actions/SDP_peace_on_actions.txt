@@ -193,6 +193,7 @@ on_actions = {
 					limit = {
 						FROM = {
 								original_tag = MMA
+								is_in_faction_with = MMA
 							
 						}
 						ROOT = {

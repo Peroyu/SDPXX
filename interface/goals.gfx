@@ -624,6 +624,21 @@ spriteTypes = {
 		name = "GFX_CJF_want_to_be_their_best_work"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_want_to_be_their_best_work.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_people_rights"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_people_rights.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_people_lives"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_people_lives.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_rectify_the_intrnal_industry"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_rectify_the_intrnal_industry.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
