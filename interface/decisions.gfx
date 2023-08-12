@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/politics/decision_generic_speech.dds"
 	}
 	spriteType = {
+		name = "decision_generic_political_discourse"
+		texturefile = "gfx/interface/decisions/politics/decision_generic_political_discourse.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_eng_propaganda_campaigns"
 		texturefile = "gfx/interface/decisions/politics/decision_eng_propaganda_campaigns.dds"
 	}
