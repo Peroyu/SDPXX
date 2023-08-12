@@ -13,6 +13,7 @@ defined_text = { #战争总结
 					NOT = { original_tag = CYN }
 					NOT = { original_tag = KTR }
 					NOT = { original_tag = MMA }
+					NOT = { original_tag = SBA }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -22,6 +23,7 @@ defined_text = { #战争总结
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
 					NOT = { original_tag = SHA }
+
 				}
 			}
 		}
@@ -52,8 +54,10 @@ defined_text = { #战争总结
 	text = { # KTR beat SHA
 		trigger = {
 			event_target:winning_country = {
-				original_tag = KTR
-				is_in_faction_with = KTR
+				OR = {
+					original_tag = MMA
+					is_in_faction_with = MMA
+				}
 			}
 			event_target:losing_country = {
 				original_tag = SHA
@@ -121,6 +125,7 @@ defined_text = { #战争结语
 					NOT = { original_tag = CYN }
 					NOT = { original_tag = MMA }
 					NOT = { original_tag = KTR }
+					NOT = { original_tag = SBA }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -160,8 +165,10 @@ defined_text = { #战争结语
 	text = { # KTR beat SHA
 		trigger = {
 			event_target:winning_country = {
-				original_tag = KTR
-				is_in_faction_with = KTR
+				OR = {
+					original_tag = MMA
+					is_in_faction_with = MMA
+				}
 			}
 			event_target:losing_country = {
 				original_tag = SHA

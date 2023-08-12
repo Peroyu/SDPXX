@@ -189,35 +189,37 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
-				if = { # MMA beats SHA (Shaanxi attack) 
+				if = { # MMA beats SHA (Shaan Xi attack xibei crisis) 
 					limit = {
 						FROM = {
+							OR = {
 								original_tag = MMA
 								is_in_faction_with = MMA
-							
+							}
 						}
 						ROOT = {
 							original_tag = SHA
 						}
 					}
-					every_country = {
-						limit = { has_war_with = SHA }
-						white_peace = SHA
-					}
+
 					FROM = {
-
-							annex_country = {
-								target = ROOT
-								transfer_troops = no
-							}
-							country_event = {
-								id = MMA.2
-								days = 1
-							}
-						
+						white_peace = ROOT
 					}
 
-					
+					MMA = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						country_event = {
+							id = SBA.3
+							days = 1
+						}
+						set_autonomy = {
+							target = KTR
+							autonomy_state = autonomy_free
+						}
+					}
 
 					set_global_flag = skip_default_capitulation
 				}

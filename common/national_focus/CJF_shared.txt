@@ -1383,6 +1383,15 @@ shared_focus = {
 	}
 	x = 14
 	y = 2
+	bypass = {
+		NOT = {
+			country_exists = KTR
+		}
+	}
+	available = {
+		country_exists = KTR
+		has_global_flag = CHI_xibei_crisis_is_over
+	}
 	completion_reward = {
 		annex_country = { target = KTR transfer_troops = yes }
 		add_war_support = 0.05

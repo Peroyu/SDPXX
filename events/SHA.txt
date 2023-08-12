@@ -207,27 +207,21 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		complete_national_focus = A_failed_attempt
 		set_available = { MMA_xibei_choice = 1 }
-		SHA = {
-            remove_state_core = 958
-            remove_state_core = 959
-			remove_state_core = 960
-			remove_state_core = 942
-            add_state_claim = 958
-			add_state_claim = 959
-			add_state_claim = 960
-			add_state_claim = 942
+		SBA = {
+			declare_war_on = {target = SHA type = annex_everything }
 		}
 	    MMA = {
-		    transfer_state = 958
-			transfer_state = 959
-			transfer_state = 960
-			transfer_state = 942
-			add_state_core = 958
-			add_state_core = 959
-			add_state_core = 960
-			add_state_core = 942
 			declare_war_on = {target = SHA type = annex_everything }
+			set_autonomy = {
+				target = SBA
+				autonomy_state = autonomy_puppet
+			}
+			set_autonomy = {
+				target = KTR
+				autonomy_state = autonomy_puppet
+			}
 		}
 	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
@@ -237,6 +231,10 @@ country_event = {
 	option = {
 	    ai_chance = {
 		   base = 0
+		}
+		complete_national_focus = A_successful_coup
+		SBA = {
+			declare_war_on = {target = SHA type = annex_everything }
 		}
 		set_available = { MMA_xibei_choice = 2 }
 		name = SBA.2.b
@@ -254,6 +252,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			annex_country = { target = SBA transfer_troops = yes }
 		}
 	}
 	
@@ -268,12 +267,11 @@ country_event = {
 			compare = equals
 		    }
 		}
-        set_variable = { var = global.SDP_anti_jap_14 value = 1 }
-        set_variable = { var = global.SDP_anti_jap_14_R value = 0 }
-        set_variable = { var = global.SDP_anti_jap_14_L value = 0 }
-        set_variable = { var = global.SDP_anti_jap_14_C value = 0 }		
+        add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
+		add_to_variable = { var = global.SDP_anti_jap_14 value = 1 }
 		name = SBA.3.a
 		custom_effect_tooltip = kmt_shanxi
+		set_cosmetic_tag = MMA_wng
 	}
 	option = {
 	    ai_chance = {
@@ -286,12 +284,12 @@ country_event = {
 			compare = equals
 		    }
 		}
-		set_variable = { var = global.SDP_anti_jap_14 value = 0 }
-        set_variable = { var = global.SDP_anti_jap_14_R value = 0 }
-        set_variable = { var = global.SDP_anti_jap_14_L value = 0 }
-        set_variable = { var = global.SDP_anti_jap_14_C value = 1 }		
+		
+		add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
+		add_to_variable = { var = global.SDP_anti_jap_14_C value = 1 }		
 		name = SBA.3.b
 		custom_effect_tooltip = cpc_shanxi
+		set_cosmetic_tag = MMA_wng
 	}	   
 }
 

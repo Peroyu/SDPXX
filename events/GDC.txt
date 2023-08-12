@@ -1707,8 +1707,7 @@ country_event = { #任命
 		set_temp_variable = { temp_seats = 8 }
 		modify_parliament_seat = yes
 		custom_effect_tooltip = GDC_Canton_change_CPC
-		add_to_variable = { var = global.SDP_anti_jap_2_R value = -1 }
-		add_to_variable = { var = global.SDP_anti_jap_2_C value = 1 }
+		
 			name = GDCcp.7.b
 		}
 		

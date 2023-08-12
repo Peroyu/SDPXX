@@ -38,7 +38,12 @@ CHI_regional_tension_rate = {
 		fire_only_once = yes               
         days_mission_timeout = 90              
         timeout_effect = { 
-		 	 
+		 	 MMA = {
+				white_peace = SHA
+			 }
+			 SHA = {
+				remove_ideas = SHA_northwest_crisis
+			 }
                 
 		}
         complete_effect = {  
@@ -57,11 +62,8 @@ CHI_regional_tension_rate = {
 			add_state_core = 940
 			add_state_core = 941
 			add_state_core = 622
+			
 			}
-            country_event = {
-            id = SBA.3
-            days = 1					
-            } 
 			
         }
     }                               
@@ -175,6 +177,44 @@ CHI_regional_tension_rate = {
                 days = 1			
             	}
 				
+			}
+        }
+	}
+	MMA_inter_shaanxi = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+			check_variable = {
+				var = MMA_xibei_choice
+				value = 2
+				compare = equals
+				}
+			tag = MMA
+			SBA = {
+				has_war_with = SHA
+			}
+		}
+		visible = {
+			check_variable = {
+				var = MMA_xibei_choice
+				value = 2
+				compare = equals
+				}
+			tag = MMA
+			SBA = {
+				has_war_with = SHA
+			}
+		}
+		cost = 0
+		  fire_only_once = yes      
+        complete_effect = {   
+			declare_war_on = {target = SHA type = annex_everything }
+			set_autonomy = {
+				target = SBA
+				autonomy_state = autonomy_puppet
+			}
+			set_autonomy = {
+				target = KTR
+				autonomy_state = autonomy_puppet
 			}
         }
 	}
