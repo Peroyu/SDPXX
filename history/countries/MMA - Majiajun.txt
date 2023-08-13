@@ -7,7 +7,7 @@
  set_war_support = 0.5
  set_stability = 0.5
  country_event = { id = MMAlan.1 days = 1}
-
+ country_event = { id = SBA.1 days = 411}
  add_ideas = {
     Ma_Hongbin
     MMA_Northwest_Cavalry
