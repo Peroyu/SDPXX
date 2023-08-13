@@ -639,6 +639,26 @@ spriteTypes = {
 		name = "GFX_CJF_rectify_the_intrnal_industry"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_rectify_the_intrnal_industry.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_land_fund"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_land_fund.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_activate_the_east_china_network"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_activate_the_east_china_network.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_lit_a_fire"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_lit_a_fire.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_reunite_the_front"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reunite_the_front.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
