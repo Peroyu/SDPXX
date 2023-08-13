@@ -590,54 +590,6 @@ country_event = {
 	
 }
 country_event = {
-    id = CJF_kmtdebate.6  #孙科访问桂林
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_kmtdebate.6 FROM = [From.GetName]" }
-	title = CJF_kmtdebate.6.t
-	desc = CJF_kmtdebate.6.d
-	picture = GFX_CJF_yunnanguifu
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = CJF_kmtdebate.6.a 
-	}
-	
-}
-country_event = {
-    id = CJF_kmtdebate.7  #一则有关团结抗日的报纸呼吁/可以参考西安事变时期的新闻
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_kmtdebate.7 FROM = [From.GetName]" }
-	title = CJF_kmtdebate.7.t
-	desc = CJF_kmtdebate.7.d
-	picture = GFX_CJF_yunnanguifu
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = CJF_kmtdebate.7.a 
-	}
-	
-}
-country_event = {
     id = CJF_kmtdebate.8  #党内争论，抗战时期的行政原则是否应该继续kmt训政
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CJF_kmtdebate.8 FROM = [From.GetName]" }
