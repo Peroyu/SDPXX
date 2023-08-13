@@ -208,12 +208,51 @@ CHI_regional_tension_rate = {
 		  fire_only_once = yes      
         complete_effect = {   
 			declare_war_on = {target = SHA type = annex_everything }
+			custom_effect_tooltip = CHI_v_regional_tension_increase
+		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
 			set_autonomy = {
 				target = SBA
 				autonomy_state = autonomy_puppet
 			}
 			set_autonomy = {
 				target = KTR
+				autonomy_state = autonomy_puppet
+			}
+        }
+	}
+	GDC_hunan_millitary_action = {
+	    icon = decision_generic_prepare_civil_war
+		available = {
+			
+			tag = GDC
+			country_exists = HNN
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 602
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+		visible = {
+			
+			tag = GDC
+			country_exists = HNN
+		}
+		cost = 10
+		  fire_only_once = yes      
+        complete_effect = {   
+			HNN = {
+				add_ideas = CHI_sourthwest_crisis
+			}
+			KHN = {
+				declare_war_on = {target = HNN type = annex_everything }
+			}
+			declare_war_on = {target = HNN type = annex_everything }
+			custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+			add_to_variable = { global.CHI_huazhong_regional_tension = 20 }
+			set_autonomy = {
+				target = KHN
 				autonomy_state = autonomy_puppet
 			}
         }

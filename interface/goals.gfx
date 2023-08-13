@@ -201,6 +201,174 @@ spriteTypes = {
 		name = "GFX_GDC_sit_down_in_turns"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_sit_down_in_turns.png"			
 	}
+
+
+	SpriteType = {
+		name = "GFX_GDC_Stephens_widow"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Stephens_widow.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_GDC_league_of_revolutioners"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_league_of_revolutioners.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_GDC_root_of_three_people_principle"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_root_of_three_people_principle.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_spread_coutryside_revolution"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_spread_coutryside_revolution.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_strengthen_front_toward_enemy"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_strengthen_front_toward_enemy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_decrase_tax_and_interest"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_decrase_tax_and_interest.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_dredge_vasculature"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_dredge_vasculature.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_reorganise_farmers_asscociation"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_reorganise_farmers_asscociation.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Average_land_rights_experiment"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Average_land_rights_experiment.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_limit_representative_proportion"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_limit_representative_proportion.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_beautiful_new_countryside"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_beautiful_new_countryside.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_exterminate_illiterate"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_exterminate_illiterate.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_revolution_education"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_revolution_education.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_differentiate_enemy_and_allies"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_differentiate_enemy_and_allies.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_anti_impralism_advocacy"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_anti_impralism_advocacy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_basement_of_war"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_basement_of_war.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Convene_a_provincial_meeting"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Convene_a_provincial_meeting.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Granting_lloans"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Granting_lloans.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_spread_state_industry"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_spread_state_industry.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_develop_propritary"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_develop_propritary.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_free_labour_union"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_free_labour_union.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_comrade_of_national_revolution"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_comrade_of_national_revolution.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_contact_behind_enemy_line"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_contact_behind_enemy_line.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Reversion_party"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Reversion_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_brothers_of_world_revolution"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_brothers_of_world_revolution.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_assistance_from_france_and_russia"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_assistance_from_france_and_russia.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_envoy_from_the_intrnationale"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_envoy_from_the_intrnationale.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_exalt_sprit_of_Huang_Pu"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_exalt_sprit_of_Huang_Pu.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_renewal_democratic_army_construction"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_renewal_democratic_army_construction.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_expand_revolution_comrades_association"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_expand_revolution_comrades_association.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_recuit_pioneer"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_recuit_pioneer.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_prepare_war_of_counterattack"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_prepare_war_of_counterattack.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_revolt_japen"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_revolt_japen.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
@@ -658,6 +826,56 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_CJF_reunite_the_front"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reunite_the_front.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_The_time_has_come"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_time_has_come.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_remind_unite"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_remind_unite.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_to_mosecow"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_to_mosecow.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_to_washington"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_to_washington.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_rebuild_international_connection"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_rebuild_international_connection.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_trip_to_guilin"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_trip_to_guilin.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_exchange_information_with_CPC"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_exchange_information_with_CPC.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_old_hatred_still"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_old_hatred_still.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_nwe_hatred_are_there"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_nwe_hatred_are_there.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_reduce_tax"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reduce_tax.png"			
 	}
 #############################################
 	SpriteType = {

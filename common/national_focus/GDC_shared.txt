@@ -2576,7 +2576,7 @@ shared_focus = {
 	}
 shared_focus = {   
         id = GDC_brothers_of_world_revolution
-		icon = GFX_GDC_free_labour_union
+		icon = GFX_GDC_brothers_of_world_revolution
 		cost = 2
 		available_if_capitulated = no
 		x = 8

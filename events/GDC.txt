@@ -163,7 +163,9 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-
+			JAP = {
+				add_to_faction = HNN
+			}
 			HNN = {
 				transfer_state = 602
 			}
@@ -229,35 +231,7 @@ country_event = {
 					count = 2
 				}
 			}
-			602 = {
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Jia Shituan\" start_experience_factor = 0.6"
-					owner = HNN
-					count = 2
-				}
-			}
-			602 = {
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Shituan\" start_experience_factor = 0.6"
-					owner = HNN
-				}
-			}
-			602 = {
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Shituan\" start_experience_factor = 0.6"
-					owner = HNN
-				}
-			}
-			602 = {
-				limit = { valid_state_for_spawning_friendly_unit = yes }
-				create_unit = {
-					division = "division_template = \"Shituan\" start_experience_factor = 0.5"
-					owner = HNN
-				}
-			}
+			
 		}
     }
 	option = { 
@@ -1931,6 +1905,10 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		load_focus_tree = {
+			tree = GDC_He_Xiangning_national_focus_tree
+			keep_completed = no
 		}
 		name = GDC_war.1.a 
 	}

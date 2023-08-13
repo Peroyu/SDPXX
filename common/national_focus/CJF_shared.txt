@@ -1091,7 +1091,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = CJF_reduce_tax
-		icon = GFX_CJF_gun_on_shoulder
+		icon = GFX_CJF_reduce_tax
 		cost = 3
 		prerequisite = {
 			focus = CJF_people_lives

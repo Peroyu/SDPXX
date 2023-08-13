@@ -50,3 +50,7 @@ MMA_wng = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
+KHN_hunan = {
+ color = rgb { 241 134 135 }
+ color_ui = rgb { 241 134 135 }
+}

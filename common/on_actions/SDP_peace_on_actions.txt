@@ -121,30 +121,32 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 				if = { # KHN beats HNN (Hunan attack) 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = CJF
-								original_tag = KHN
-							}
-						}
-						ROOT = {
-							original_tag = HNN
-						}
-					}
-
+				limit = {
 					FROM = {
-						white_peace = ROOT
-					}
-
-					KHN = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
+						OR = {
+							original_tag = GDC
+							is_in_faction_with = GDC
 						}
 					}
+					ROOT = {
+						original_tag = HNN
+					}
+				}
 
-					set_global_flag = skip_default_capitulation
+				FROM = {
+					white_peace = ROOT
+				}
+
+				KHN = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					set_cosmetic_tag = KHN_hunan
+					set_capital = { state = 602 }
+				}
+
+				set_global_flag = skip_default_capitulation
 				}
 				if = { # GDC beats GNP (guangdong attack) 
 					limit = {
