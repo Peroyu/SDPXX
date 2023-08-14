@@ -1385,7 +1385,6 @@ shared_focus = {
 		y = 2
 		completion_reward = {
 			add_political_power = 20
-			add_research_slot = 1
 			country_event = { days = 1 id = GDCcp.0 }
 		}
 	}
@@ -1399,7 +1398,10 @@ shared_focus = {
 		x = 6
 		y = 3
 		completion_reward = {
-			add_ideas = GDC_running_industry_idea
+			swap_ideas = {
+				add_idea = GDC_running_industry_idea
+				remove_idea = GDC_more_is_better_idea
+			}
 			country_event = {
 				id = GDCcp.4
 				days = 1
@@ -1423,7 +1425,10 @@ shared_focus = {
 				id = GDCcp.6
 				days = 1
 			}
-			add_ideas = GDC_promise_people_idea
+			swap_ideas = {
+				add_idea = GDC_promise_people_idea
+				remove_idea = GDC_local_crisis_idea
+			}
 		}
 	}
 shared_focus = {

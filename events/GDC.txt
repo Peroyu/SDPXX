@@ -146,6 +146,30 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		add_ideas = GDC_Who_care_us_idea
+		add_ideas = GDC_more_is_better_idea
+		add_ideas = GDC_stuboened_army_idea
+		add_ideas = GDC_local_crisis_idea
+		if = {
+			limit = {
+				has_idea = GDC_liangguang_milltary_contrbute_3
+				
+			}
+			remove_ideas = GDC_liangguang_milltary_contrbute_3
+		}
+		if = {
+			limit = {
+				has_idea = GDC_Iron_Cage_3
+				
+			}
+			remove_ideas = GDC_Iron_Cage_3
+		}
+		else_if = {
+			limit = {
+				has_idea = GDC_Iron_Cage_2
+			}
+			remove_ideas = GDC_Iron_Cage_2
+		}
 		name = GDCintro.7.a
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
 		add_to_variable = { global.CHI_huanan_regional_tension = -5 }

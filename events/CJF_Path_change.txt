@@ -38,6 +38,22 @@ country_event = {
             45 = { 
                 add_political_power = 10
 		clr_country_flag = CHI_politic_apart_condition
+		swap_ideas = {
+			add_idea = CJF_Song_Ziwen
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Wu_Tiecheng
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Liu_Jiwen
+			remove_idea = CJF_Li_Huang
+		}
                 } 
             55 = { 
                 country_event = { id = CJF_Cp.2 days = 10 }
@@ -73,6 +89,22 @@ country_event = {
 		add_popularity = {
 			ideology = conservatism
 			popularity = 0.2
+		}
+		swap_ideas = {
+			add_idea = CJF_Zhu_Jiahua
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Li_Ling_si
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Guofu
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Cheng
+			remove_idea = CJF_Xv_Chongzhi
 		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.2.a #政变成功
@@ -215,6 +247,26 @@ country_event = {
 			tree = CJF_chen_gongbp
 			keep_completed = no
 		}
+		swap_ideas = {
+			add_idea = CJF_Gu_Mengyu
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Gan_Naiguang
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Xilian
+			remove_idea =  CJF_Xv_Chongzhi
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Shuren
+			remove_idea =  CJF_Li_Huang
+		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.9.a #
 	}
@@ -283,6 +335,26 @@ country_event = {
 			tree = CJF_chen_gongbp
 			keep_completed = no
 		}
+		swap_ideas = {
+			add_idea = CJF_Gu_Mengyu
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Gan_Naiguang
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Xilian
+			remove_idea =  CJF_Xv_Chongzhi
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Shuren
+			remove_idea =  CJF_Li_Huang
+		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.11.a #
 	}
@@ -339,6 +411,22 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Ziwen
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Wu_Tiecheng
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Liu_Jiwen
+			remove_idea = CJF_Li_Huang
 		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.6.a #
@@ -397,6 +485,22 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		swap_ideas = {
+			add_idea = CJF_Song_Ziwen
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Wu_Tiecheng
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Liu_Jiwen
+			remove_idea = CJF_Li_Huang
+		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.7.a #
 	}
@@ -453,6 +557,22 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Ziwen
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Wu_Tiecheng
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Liu_Jiwen
+			remove_idea = CJF_Li_Huang
 		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.13.a #
@@ -511,6 +631,22 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		swap_ideas = {
+			add_idea = CJF_Song_Ziwen
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Wu_Tiecheng
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Liu_Jiwen
+			remove_idea = CJF_Li_Huang
+		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.15.a #
 	}
@@ -546,6 +682,18 @@ country_event = {
 		add_popularity = {
 			ideology = social_democracy
 			popularity = 0.05
+		}
+		swap_ideas = {
+			add_idea = CJF_Zhu_Jiahua
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Guofu
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Cheng
+			remove_idea = CJF_Xv_Chongzhi
 		}
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.16.a #

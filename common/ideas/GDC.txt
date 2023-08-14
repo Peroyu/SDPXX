@@ -42,47 +42,6 @@ ideas = {
 				attrition = 0.05
 			}
 		}
-		GDC_Rectification_Movement = {
-		    name = GDC_Rectification_Movement
-			picture = GDC_Rectification_Movement
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.2
-				army_org_factor = 0.05
-				Maoism_drift = 0.01
-			}
-		}
-		GDC_Red_Army_and_Red_Region = {
-		    name = GDC_Red_Army_and_Red_Region
-			picture = GDC_Red_Army_and_Red_Region
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				army_org_factor = -0.05
-				army_core_defence_factor = 0.05
-				army_core_attack_factor = 0.05
-				line_change_production_efficiency_factor = -0.15
-				consumer_goods_factor = -0.05
-			}
-		}
-		GDC_Conflicts_with_Natives = {
-		    name = GDC_Conflicts_with_Natives
-			picture = GDC_Conflicts_with_Natives
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-			stability_factor = -0.15 
-			industrial_capacity_factory = -0.1
-			political_power_gain = -0.03
-			}
-		}
 		GDC_KMT_CPC_A = {
 		    name = GDC_KMT_CPC_A
 			picture = GDC_KMT_CPC_A
@@ -405,6 +364,59 @@ ideas = {
 				army_org_factor = 0.1
 				monthly_population = 0.05
 				army_core_attack_factor = 0.05
+			}
+		}
+		GDC_Who_care_us_idea= {
+		    name = GDC_Who_care_us_idea
+			picture = GDC_Who_care_us_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.06
+				war_support_factor = -0.15
+				consumer_goods_factor = 0.08
+			}
+		}
+		GDC_more_is_better_idea= {
+		    name = GDC_more_is_better_idea
+			picture = GDC_more_is_better_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.075
+				production_factory_efficiency_gain_factor = -0.2
+				global_building_slots_factor = -0.15
+				production_speed_buildings_factor = -0.07
+			}
+		}
+		GDC_stuboened_army_idea= {
+		    name = GDC_stuboened_army_idea
+			picture = GDC_stuboened_army_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				army_org_factor = -0.1
+				army_core_attack_factor = -0.1
+				org_loss_when_moving = -0.15
+			}
+		}
+		GDC_local_crisis_idea= {
+		    name = GDC_local_crisis_idea
+			picture = GDC_local_crisis_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				nationalism_drift = 0.01
+				monthly_population = -0.08
 			}
 		}
 		GDC_politic_representative_idea= {
