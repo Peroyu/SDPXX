@@ -300,6 +300,10 @@
 		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Fang_Zhimin.png"		
 	}
 	
+	spriteType = {
+		name = "Portrait_FJN_Qin_Wangshan"
+		texturefile = "gfx/leaders/GDC/Portrait_FJN_Qin_Wangshan.png"		
+	}
 	###############################################################
 	
 	spriteType = {
@@ -443,6 +447,11 @@
 	spriteType = {
 		name = "portrait_CMA_Ishihara_Kaner"
 		texturefile = "gfx/leaders/JAP/portrait_CMA_Ishihara_Kaner.png"		
+	}
+
+	spriteType = {
+		name = "portrait_JAP_Tanaka_Hisakazu"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_Tanaka_Hisakazu.png"		
 	}
 	#####################SouthEastAsia#######################
 	

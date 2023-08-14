@@ -30,9 +30,9 @@ GNP_manchuria_industry_assistance
 GNP_Hong_Kong
 }
 create_country_leader = {
-		name = "周佛海"   
-		desc = "RCR_Zhou_Fohai_desc"  
-		picture = "gfx/leaders/CHI/portrait_RCR_Zhou_Fohai.png"   
+		name = "彭东原"   
+		desc = "RCR_Peng_Dongyuan_desc"  
+		picture = "gfx/leaders/CHI/Portrait_GNP_Peng_Dongyuan.png"   
 		expire = "1989.1.7"   
 		ideology = trade_liberalism 
 		traits = {  }

@@ -106,6 +106,9 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			GNP = {
+				leave_faction = yes
+			}
 		}
     }
 	
@@ -114,6 +117,7 @@ country_event = {
 		   base = 100
 		}
 		name = GDCintro.6.a 
+		
 		remove_ideas = GDC_none_pact_peace
 		declare_war_on = { target = GNP type = annex_everything }
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus

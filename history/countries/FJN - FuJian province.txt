@@ -18,22 +18,22 @@ add_ideas = {
 
 }
 set_popularities = {
- communism = 34
- moderate_socialism = 24
- social_democracy = 2
+ communism = 2
+ moderate_socialism = 34
+ social_democracy = 12
  Liberalism = 13
  movement_communism = 7
- conservatism
- reactionism
- nationalism
- restorativeism
+ conservatism = 2
+ reactionism = 15
+ nationalism = 7
+ restorativeism = 8
 }
 
 # 
 create_country_leader = {
-	name = ""  # 
+	name = "秦望山"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_FJN_Qin_Wangshan"  # 
 	expire = "1956.3.9"  # 
 	ideology = anarchism # 
 	traits = {  # 
