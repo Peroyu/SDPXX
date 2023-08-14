@@ -9,26 +9,27 @@ set_stability = 0.5 #
 
 # 
 set_politics = {
-	ruling_party = liberalism # 
+	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
- conservatism = 20
- liberalism = 54
- social_democracy = 19
- reactionism = 7
+ conservatism = 26
+ liberalism = 10
+ movement_communism = 15
+ social_democracy = 5
+ reactionism = 44
 }
 
-# 
+
 create_country_leader = {
-	name = "拉斐尔·莫利纳"  # 
+	name = "拉斐尔·特鲁希略·莫利纳"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "portrait_DOM_Rafael_Trujillo_Molina"  # 
 	expire = "1956.6.6"  # 
-	ideology = liberalism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

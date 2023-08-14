@@ -2165,7 +2165,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
 		}
 	}
 shared_focus = {   
@@ -2179,7 +2179,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = 0.03
+			add_war_support = 0.05
 		}
 		prerequisite = {
 			focus = GDC_Stephens_widow
@@ -2196,6 +2197,11 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.04
+			}
+			add_political_power = 30
 
 		}
 		prerequisite = {
@@ -2213,7 +2219,13 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			
 		}
 		prerequisite = {
 			focus = GDC_root_of_three_people_principle
@@ -2230,7 +2242,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = 0.06
+			add_political_power = 50
 		}
 		prerequisite = {
 			focus = GDC_root_of_three_people_principle
@@ -2247,6 +2260,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
 
 		}
 		prerequisite = {
@@ -2264,7 +2281,30 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_decrase_tax_and_interest
@@ -2281,7 +2321,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.03
 		}
 		prerequisite = {
 			focus = GDC_dredge_vasculature
@@ -2298,7 +2339,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_war_support = 0.05
 		}
 		prerequisite = {
 			focus = GDC_strengthen_front_toward_enemy
@@ -2318,7 +2359,15 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.02
+			}
+			add_political_power = 30
 		}
 		prerequisite = {
 			focus = GDC_differentiate_enemy_and_allies
@@ -2335,7 +2384,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		prerequisite = {
 			focus = GDC_Average_land_rights_experiment
@@ -2352,7 +2401,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_limit_representative_proportion
@@ -2372,7 +2436,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		prerequisite = {
 			focus = GDC_strengthen_front_toward_enemy
@@ -2389,7 +2453,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 		prerequisite = {
 			focus = GDC_exterminate_illiterate
@@ -2406,7 +2470,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_war_support = 0.05
 		}
 		prerequisite = {
 			focus = GDC_revolution_education
@@ -2423,7 +2487,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_limit_representative_proportion
@@ -2443,7 +2522,12 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.03
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_beautiful_new_countryside
@@ -2463,7 +2547,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = 0.03
 		}
 		prerequisite = {
 			focus = GDC_Convene_a_provincial_meeting
@@ -2480,7 +2564,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_Granting_lloans
@@ -2497,7 +2596,18 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = 0.04
+			}
 		}
 		prerequisite = {
 			focus = GDC_Granting_lloans
@@ -2514,7 +2624,12 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.03
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.04
+			}
 		}
 		prerequisite = {
 			focus = GDC_develop_propritary
@@ -2551,7 +2666,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_opinion_modifier = {
+				target = CJF
+				modifier = CHI_united_front_valve
+			}
 		}
 		prerequisite = {
 			focus = GDC_comrade_of_national_revolution
@@ -2568,7 +2686,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			
 		}
 		prerequisite = {
 			focus = GDC_comrade_of_national_revolution
@@ -2585,7 +2703,45 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			if = {
+				limit = {
+					CJF = {
+						has_government = social_democracy
+					}
+				}
+				add_popularity = {
+					ideology = social_democracy
+					popularity = 0.02
+				}
+			}
+			else_if = {
+				limit = {
+					CJF = {
+						has_government = movement_communism
+					}
+				}
+				add_popularity = {
+					ideology = movement_communism
+					popularity = 0.02
+				}
+			}
+			else_if = {
+				limit = {
+					CJF = {
+						has_government = conservatism
+					}
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.02
+				}
+			}
+			else = {
+				add_popularity = {
+					ideology = movement_communism
+					popularity = 0.02
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_Reversion_party
@@ -2605,7 +2761,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			#add_offsite_building = { type = industrial_complex level = 1 }
 		}
 		prerequisite = {
 			focus = GDC_brothers_of_world_revolution
@@ -2622,7 +2778,15 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_war_support = 0.06
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_brothers_of_world_revolution
@@ -2639,7 +2803,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
 		}
 		prerequisite = {
 			focus = GDC_assistance_from_france_and_russia
@@ -2659,7 +2823,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			army_experience = 35
 		}
 		prerequisite = {
 			focus = GDC_exalt_sprit_of_Huang_Pu
@@ -2676,7 +2840,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			army_experience = 25
+			add_command_power = 30
 		}
 		prerequisite = {
 			focus = GDC_renewal_democratic_army_construction
@@ -2693,7 +2858,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_manpower = 100000
+			add_war_support = 0.06
 		}
 		prerequisite = {
 			focus = GDC_expand_revolution_comrades_association
@@ -2710,7 +2876,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_expand_revolution_comrades_association
@@ -2727,7 +2908,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+			add_to_variable = { global.CHI_huanan_regional_tension = 30 }
 		}
 		prerequisite = {
 			focus = GDC_prepare_war_of_counterattack

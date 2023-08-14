@@ -495,6 +495,11 @@
 		name = "GFX_portrait_Suez_Canal_Authority"
 		texturefile = "gfx/leaders/EN/portrait_Suez_Canal_Authority.png"		
 	}
+
+	spriteType = {
+		name = "portrait_LIB_William_Tubman"
+		texturefile = "gfx/leaders/EN/portrait_LIB_William_Tubman.png"		
+	}
 ########################USA########################	
 	spriteType = {
 		name = "portrait_USA_Harry_Truman"
@@ -616,6 +621,11 @@ spriteType = {
 	spriteType = {
 		name = "portrait_URG_Juan_Jose"
 		texturefile = "gfx/leaders/Latin_America/portrait_URG_Juan_Jose.png"		
+	}
+
+	spriteType = {
+		name = "portrait_DOM_Rafael_Trujillo_Molina"
+		texturefile = "gfx/leaders/Latin_America/portrait_DOM_Rafael_Trujillo_Molina.png"		
 	}
 
 	spriteType = {
