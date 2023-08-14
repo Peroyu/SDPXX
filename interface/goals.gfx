@@ -877,6 +877,66 @@ spriteTypes = {
 		name = "GFX_CJF_reduce_tax"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_reduce_tax.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_chuanbian_tacitics"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_chuanbian_tacitics.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_advice_of_sunfo"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_advice_of_sunfo.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_advice_of_zhangjingjiang"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_advice_of_zhangjingjiang.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_go_outside"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_go_outside.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_stand_up"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_stand_up.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_total_showdown"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_total_showdown.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_guide_the_place"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_guide_the_place.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_set_professional_associations"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_set_professional_associations.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_deepen_discipline"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_deepen_discipline.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_encourage_charity"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_encourage_charity.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_preparation_of_provincial_advisory_bureau"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_preparation_of_provincial_advisory_bureau.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_diverse_national_revolution"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_diverse_national_revolution.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

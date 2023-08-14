@@ -1112,7 +1112,7 @@ shared_focus = {
 
 shared_focus = {
 		id = CJF_go_outside
-		icon = GFX_CJF_unite_as_one
+		icon = GFX_CJF_go_outside
 		cost = 5
 		prerequisite = {
 			focus = CJF_national_building_strategy
@@ -1300,7 +1300,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = CJF_national_building_strategy
-		icon = GFX_CJF_national_building_strategy
+		icon = GFX_CJF_establish_acting_as_national_congress
 		cost = 3
 		prerequisite = {
 			focus = CJF_diverse_national_revolution
