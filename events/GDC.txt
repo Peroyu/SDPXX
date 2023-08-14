@@ -239,6 +239,9 @@ country_event = {
 		   base = 100
 		}
 		name = GDCintro.8.a
+		GDC = {
+			
+		}
 		if = {
 			limit = {
 				GDC = {

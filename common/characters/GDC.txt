@@ -67,6 +67,23 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	GDC_Tang_Shengzhi={
+		name = "GDC_Tang_Shengzhi"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Tang_Shengzhi
+				large = GFX_portrait_GDC_Tang_Shengzhi
+			}
+		}
+		corps_commander={
+			traits={ organizer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 	GDC_Chen_Geng={
 		name = "GDC_Chen_Geng"
 		portraits = {

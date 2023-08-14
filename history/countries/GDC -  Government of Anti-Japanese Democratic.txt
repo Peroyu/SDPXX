@@ -99,22 +99,20 @@ create_country_leader = {
 	}
 recruit_character = GDC_Cheng_Qian
 recruit_character = GDC_Jiang_XianYun
-recruit_character = GDC_Peng_Dehuai
 recruit_character = GDC_He_Long
 recruit_character = GDC_Lin_Biao
 recruit_character = GDC_Su_Yu
-recruit_character = GDC_Mao_Zedong
 recruit_character = GDC_Zhou_Enlai
 recruit_character = GDC_Ye_Jianying
 recruit_character = GDC_Ye_Ting
 recruit_character = GDC_Zhang_Fakui
-recruit_character = GDC_Fang_Zhimin
 recruit_character = GDC_Chiang_Ching_Kuo
 recruit_character = CJF_Yu_ZuoYu
 recruit_character = GDC_Chen_Mingshu
 recruit_character = GDC_Chen_Geng
 recruit_character = GDC_Xve_Yue
 recruit_character = CJF_Li_Mingrui
+recruit_character = GDC_Tang_Shengzhi
 	##############################################################
 
 	

@@ -9,25 +9,63 @@ set_stability = 0.3
 
 
 set_politics = {
-	ruling_party = reactionism 
+	ruling_party = social_democracy 
 	last_election = "1947.1.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 
 set_popularities = {
- conservatism = 33
- reactionism = 33
- nationalism = 34
+	moderate_socialism = 20
+	social_democracy = 18
+	conservatism = 22
+	Liberalism = 4
+	movement_communism = 16
+	committee_communism = 12
+	communism = 8
+}
+recruit_character = GDC_Mao_Zedong
+recruit_character = GDC_Fang_Zhimin
+recruit_character = GDC_Peng_Dehuai
+create_country_leader = {
+	name = "方志敏"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = leninism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
 }
 
+create_country_leader = {
+	name = "方志敏"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Spartacus # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
 
 create_country_leader = {
-	name = "唐生智"  # 领导人名称
-	desc = "Tang_Shengzhi_desc"  # 人物介绍
-	picture = "KGP_portrait_Tang_Shengzhi"  # 人物头像
+	name = "方志敏"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = Three_Principles_of_the_People # 意识形态
+	ideology = reformed_socialism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+
+create_country_leader = {
+	name = "方志敏"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = Left_Nationalism # 意识形态
 	traits = {  # 人物特性
 		#
 	}

@@ -28,8 +28,8 @@ add_ideas = {
 		DJF_Xi_Nan_Lian_Da_1
 		DJF_Opium_Trade
 		DJF_Dian_Army
-		DJF_Influence_Of_Long_Yun
 	}
+recruit_character = DJF_Zhu_De
 #########################################################
 create_country_leader = {
 		name = "DJF_Jin_HanDing" #领导人名字
@@ -47,6 +47,6 @@ create_country_leader = {
 		ideology = authoritarian_democracy #领导人子意识形态
 		traits = { #领导人特质}
 	}
-recruit_character = DJF_Zhu_De
+
 	
 	

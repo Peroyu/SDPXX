@@ -194,7 +194,7 @@
 	}
 	
 	spriteType = {
-		name = "KGP_portrait_Tang_Shengzhi"
+		name = "GFX_portrait_GDC_Tang_Shengzhi"
 		texturefile = "gfx/leaders/DJF/KGP_Tang_Shengzhi.png"		
 	}
 	
@@ -293,6 +293,11 @@
 	spriteType = {
 		name = "GFX_portrait_GDC_Chen_Mingshu"
 		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Chen_Mingshu.png"		
+	}
+
+	spriteType = {
+		name = "KHN_Fang_zhimin_portrait"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Fang_Zhimin.png"		
 	}
 	
 	###############################################################
