@@ -30,6 +30,93 @@ spriteTypes = {
 		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Xv_Chongzhi_s.png"
 	}
 
+	spriteType = {
+		name = "GFX_idea_CJF_Song_Ziwen"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Song_Ziwen.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Gu_Mengyu"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Gu_Mengyu.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Zhu_Jiahua"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Zhu_Jiahua.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Fu_Bingchang"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Fu_Bingchang.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Fu_Bingchang"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Fu_Bingchang.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Guo_Chuntao"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Guo_Chuntao.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Li_Ling_si"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Li_Ling_si.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Wu_Tiecheng"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Wu_Tiecheng.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Gan_Naiguang"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Gan_Naiguang.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Chen_Guofu"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Guofu.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Liu_Jiwen"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Liu_Jiwen.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Liu_Jiwen"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Liu_Jiwen.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Chen_Shuren"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Shuren.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Chen_Shuren"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Shuren.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Shi_Cuntong"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Shi_Cuntong.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Song_Xilian"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Song_Xilian.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CJF_Chen_Cheng"
+		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Cheng.png"
+	}
+
+	
+
 	###############GDC###################
 	spriteType = {
 		name = "GFX_idea_GDC_Li_Jishen"

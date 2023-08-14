@@ -45,6 +45,20 @@ leader_traits = {
 		random = no
 		stability_factor = 0.02
 	}
+
+	CJF_old_orthdoxists = {
+		random = no
+		industrial_capacity_factory = 0.01
+		production_speed_buildings_factor = 0.015
+		production_factory_efficiency_gain_factor = 0.005
+		political_power_gain = 0.05
+	}
+
+	CJF_economic_reform = {
+		random = no
+		stability_factor = 0.02
+		political_power_gain = 0.02
+	}
 	
 	KMT_brains = {
 		random = no

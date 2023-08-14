@@ -1,20 +1,6 @@
 
 ideas = {
 	head_of_government = { ### Head of Government ###
-		CJF_Zhang_Qun = {
-			allowed = { original_tag = CJF }
-			available = {
-				custom_trigger_tooltip = {
-					always = no
-				}
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea CJF_Zhang_Qun"
-			}
-			traits = {
-				head_of_government
-			}
-		}
 		CJF_Zou_Lu = {
 			allowed = { original_tag = CJF }
 			available = {
@@ -28,6 +14,51 @@ ideas = {
 			traits = {
 				head_of_government
 				Old_comrades
+			}
+		}
+		CJF_Song_Ziwen = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Song_Ziwen"
+			}
+			traits = {
+				head_of_government
+				CJF_economic_reform
+			}
+		}
+		CJF_Gu_Mengyu = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Gu_Mengyu"
+			}
+			traits = {
+				head_of_government
+				CJF_old_orthdoxists
+			}
+		}
+		CJF_Zhu_Jiahua = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Zhu_Jiahua"
+			}
+			traits = {
+				head_of_government
+				
 			}
 		}
 
@@ -48,10 +79,7 @@ ideas = {
 				Left_dip_officer
 			}
 		}
-
-	}
-	person_of_arm = { ### person of arm ###
-		CJF_Wei_LiHuang = {
+		CJF_Fu_Bingchang = {
 			allowed = { original_tag = CJF }
 			available = {
 				custom_trigger_tooltip = {
@@ -59,13 +87,45 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea CJF_Wei_LiHuang"
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Fu_Bingchang"
 			}
 			traits = {
-				person_of_arm
-				victorious_general
+				person_of_dip
+				
 			}
 		}
+		CJF_Guo_Chuntao = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Guo_Chuntao"
+			}
+			traits = {
+				person_of_dip
+				
+			}
+		}
+		CJF_Li_Ling_si = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Li_Ling_si"
+			}
+			traits = {
+				person_of_dip
+				
+			}
+		}
+	}
+	person_of_arm = { ### person of arm ###
 		CJF_Yu_Youren = {
 			allowed = { original_tag = CJF }
 			available = {
@@ -81,9 +141,7 @@ ideas = {
 				CJF_the_peaceful_Old_man
 			}
 		}
-	}
-	person_of_eco = { ### person of eco ###
-		CJF_yang_yongtai = {
+		CJF_Wu_Tiecheng = {
 			allowed = { original_tag = CJF }
 			available = {
 				custom_trigger_tooltip = {
@@ -91,11 +149,88 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea CJF_yang_yongtai"
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Wu_Tiecheng"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		CJF_Gan_Naiguang = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Gan_Naiguang"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		CJF_Chen_Guofu = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Chen_Guofu"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+	}
+	person_of_eco = { ### person of eco ###
+		CJF_Liu_Jiwen = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Liu_Jiwen"
 			}
 			traits = {
 				person_of_eco
-				KMT_brains
+				
+			}
+		}
+		CJF_Chen_Shuren = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Chen_Shuren"
+			}
+			traits = {
+				person_of_eco
+				
+			}
+		}
+		CJF_Shi_Cuntong = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Shi_Cuntong"
+			}
+			traits = {
+				person_of_eco
+				
 			}
 		}
 		CJF_Li_Huang = {
@@ -128,6 +263,36 @@ ideas = {
 			traits = {
 				chief_of_staff
 				army_chief
+			}
+		}
+		CJF_Song_Xilian = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Song_Xilian"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
+		CJF_Chen_Cheng = {
+			allowed = { original_tag = CJF }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CJF_Chen_Cheng"
+			}
+			traits = {
+				chief_of_staff
+				
 			}
 		}
 	}
