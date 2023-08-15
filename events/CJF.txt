@@ -367,6 +367,51 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = CJF_dh.12 #四川向两广送的贺电
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_dh.12 FROM = [From.GetName]" }
+	title = CJF_dh.12.t
+	desc = CJF_dh.12.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+	trigger = {
+		tag = CJF
+	}
+	GDC = {
+		country_event = {
+					id = CJF_dh.12
+					days = 7
+				}
+	}
+		name = CJF_dh.12.a 
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+	trigger = {
+		tag = GDC
+	}
+	add_political_power = 75
+		name = CJF_dh.12.b
+		
+	}
+	
+}
 #######################################################
 country_event = {
     id = CJF_KMT_party.1
