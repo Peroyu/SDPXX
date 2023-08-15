@@ -678,6 +678,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_COS_Michalski"
+		texturefile = "gfx/leaders/Latin_America/portrait_COS_Michalski.png"		
+	}
+
+	spriteType = {
 		name = "portrait_VIN_pao_dai_dei"
 		texturefile = "gfx/leaders/ASIA/portrait_VIN_pao_dai_dei.png"		
 	}
