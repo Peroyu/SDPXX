@@ -663,6 +663,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_MEX_Miguel_Valdes"
+		texturefile = "gfx/leaders/Latin_America/Portrait_MEX_Miguel_Valdes.png"		
+	}
+
+	spriteType = {
 		name = "GFX_ARG_portrait_Juan_Peron"
 		texturefile = "gfx/leaders/Latin_America/ARG_portrait_Juan_Peron.png"		
 	}

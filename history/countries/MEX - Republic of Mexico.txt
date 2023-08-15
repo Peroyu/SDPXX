@@ -1,6 +1,6 @@
-capital =  # 首都地块
+capital = 277 # 首都地块
 
-obb = "MEX_1947"  # 军队文件
+obb = "empty"  # 军队文件
 
 set_research_slots = 3
  # 设定科研槽
@@ -10,24 +10,29 @@ set_stability = 0.8 # 设置稳定度
 
 # 设置执政党以及选举
 set_politics = {
-	ruling_party = Liberalism # 执政党
+	ruling_party = conservatism # 执政党
 	last_election = "1947.1.1"
 	election_frequency = 48 # 选举间隔
 	elections_allowed = no  # 是否允许选举
 }
 # 设置席位
 set_popularities = {
-	Liberalism = 90
-	conservatism = 10
+	moderate_socialism = 10
+	social_democracy = 10
+	Liberalism = 14
+	conservatism = 33
+	movement_communism = 13
+	reactionism= 17
+	nationalism = 3
 }
 
 # 设置领导人
 create_country_leader = {
 	name = "米格尔·巴尔德斯"  # 领导人名称
 	desc = "/"  # 人物介绍
-	picture = "/"  # 人物头像
+	picture = "Portrait_MEX_Miguel_Valdes"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = Liberalism # 意识形态
+	ideology = system_revolutionism # 意识形态
 	traits = {  # 人物特性
 		#
 	}
