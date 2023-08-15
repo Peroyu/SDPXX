@@ -163,7 +163,7 @@ country_event = {
 			days = 1
 	    }
 		custom_effect_tooltip = CHI_v_regional_tension_increase
-		add_to_variable = { global.CHI_xibei_regional_tension = 10 }
+		add_to_variable = { global.CHI_xibei_regional_tension = 5 }
 	}
 }
 country_event = {
@@ -225,7 +225,7 @@ country_event = {
 		}
 	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
-		add_to_variable = { global.CHI_xibei_regional_tension = 30 }
+		add_to_variable = { global.CHI_xibei_regional_tension = 20 }
 		name = SBA.2.a
 	}
 	option = {
@@ -267,6 +267,8 @@ country_event = {
 			compare = equals
 		    }
 		}
+		custom_effect_tooltip = CHI_v_regional_tension_decrease
+		add_to_variable = { global.CHI_xinan_regional_tension = -10 }
         add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
 		add_to_variable = { var = global.SDP_anti_jap_14 value = 1 }
 		name = SBA.3.a
@@ -284,7 +286,8 @@ country_event = {
 			compare = equals
 		    }
 		}
-		
+		custom_effect_tooltip = CHI_v_regional_tension_decrease
+		add_to_variable = { global.CHI_xinan_regional_tension = -10 }
 		add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
 		add_to_variable = { var = global.SDP_anti_jap_14_C value = 1 }		
 		name = SBA.3.b
