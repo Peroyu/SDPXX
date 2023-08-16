@@ -394,6 +394,11 @@ spriteTypes = {
 		name = "GFX_GDC_bolshve_farming_union"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_bolshve_farming_union.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_land_revolution"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_land_revolution.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
