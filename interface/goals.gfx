@@ -369,6 +369,31 @@ spriteTypes = {
 		name = "GFX_GDC_revolt_japen"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_revolt_japen.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_all_soldiers"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_all_soldiers.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_make_teams_for_us"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_make_teams_for_us.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_farmers_had_lands"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_farmers_had_lands.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_egality_market"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_egality_market.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_bolshve_farming_union"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_bolshve_farming_union.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
