@@ -1,7 +1,7 @@
 spriteTypes = {
 	corneredTileSpriteType = {
 		name = "GFX_frontend_bg"
-		texturefile = "gfx/loadingscreens/load_3.dds"
+		texturefile = "gfx/loadingscreens/load_12.dds"
 		borderSize = { x=0 y=0 }
 		size = { x=1920 y=1440 }
 		tilingCenter = no
@@ -11,5 +11,20 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SDP_version_logo"
 		texturefile = "gfx/interface/GFX_SDP_version_logo.png"
+	}
+
+	spriteType = {
+		name = "bilibili"
+		texturefile = "gfx/interface/bilibili.png"
+	}
+
+	spriteType = {
+		name = "zhihu"
+		texturefile = "gfx/interface/zhihu.png"
+	}
+
+	spriteType = {
+		name = "zhihu"
+		texturefile = "gfx/interface/zhihu.png"
 	}
 }

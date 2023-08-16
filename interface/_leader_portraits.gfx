@@ -633,6 +633,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_BOL_Tomas_Monje"
+		texturefile = "gfx/leaders/Latin_America/portrait_BOL_Tomas_Monje.png"		
+	}
+
+	spriteType = {
 		name = "portrait_URG_Juan_Jose"
 		texturefile = "gfx/leaders/Latin_America/portrait_URG_Juan_Jose.png"		
 	}

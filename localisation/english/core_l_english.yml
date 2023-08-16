@@ -1,4 +1,7 @@
 ﻿l_english:
+ MENU_zhihu:"我们的知乎专栏"
+ MENU_bilibili:"我们的B站官方账号"
+ MENU_QQ:"我们的企鹅讨论群组"
  SEPARATION_LINE:0 "--------------\n"
  MENU_MESSAGES_DISABLE_ALL:0 "禁止所有"
  FILTER:0 "过滤"
