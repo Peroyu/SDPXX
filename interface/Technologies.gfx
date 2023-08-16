@@ -3912,4 +3912,24 @@ spriteTypes = {
 		name = "GFX_high_yield_bombs_7_medium"
 		texturefile = "gfx/interface/technologies/GFX_high_yield_bombs_7_medium.png"
 	}
+
+	spriteType = {
+		name = "GFX_CJF_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_MMA_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_XKS_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
 }
