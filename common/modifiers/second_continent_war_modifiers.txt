@@ -1,0 +1,6 @@
+CHI_war_escalation_5 = {
+	stability_factor = 0.05
+	war_support_factor = 0.08
+	army_core_attack_factor = 0.02
+	army_core_defence_factor = 0.04
+}

@@ -252,4 +252,76 @@ equipments = {
 		air_agility = 10
 		air_defence = 20
 	}
+
+	transport_plane_equipment_2 = {
+		year = 1933
+
+		archetype = transport_plane_equipment
+		active = yes
+		priority = 130
+
+		air_superiority = 0
+		
+		air_range = 1200
+		maximum_speed = 350
+		air_agility = 10
+		air_defence = 20
+		build_cost_ic = 25
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 2
+		}
+		
+		manpower = 80
+		fuel_consumption = 1.5
+	}
+
+	transport_plane_equipment_3 = {
+		year = 1933
+
+		archetype = transport_plane_equipment
+		active = yes
+		priority = 130
+
+		air_superiority = 0
+		
+		air_range = 2000
+		maximum_speed = 800
+		air_agility = 10
+		air_defence = 20
+		build_cost_ic = 50
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 2
+		}
+		
+		manpower = 80
+		fuel_consumption = 4
+	}
+
+	transport_plane_equipment_4 = {
+		year = 1933
+
+		archetype = transport_plane_equipment
+		active = yes
+		priority = 130
+
+		air_superiority = 0
+		
+		air_range = 4000
+		maximum_speed = 1000
+		air_agility = 10
+		air_defence = 20
+		build_cost_ic = 60
+		resources = {
+			#oil = 1
+			aluminium = 2
+			rubber = 2
+		}
+		
+		manpower = 80
+		fuel_consumption = 5
+	}
 }

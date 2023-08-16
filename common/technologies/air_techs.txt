@@ -452,6 +452,11 @@ technologies = {
 			leads_to_tech = jet_fighter1
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = jet_CAS1
+			research_cost_coeff = 1
+		}
 
 		dependencies = {
 			jet_engines = 1
@@ -790,7 +795,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_CAS_improve
+			leads_to_tech = jet_fighter_improve
 			research_cost_coeff = 1
 		}
 		
@@ -836,35 +841,7 @@ technologies = {
 		}
 	}
 
-	jet_CAS_improve = {
-			
-		path = {
-			leads_to_tech = jet_CAS1
-			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			jet_engines = 1
-		}
-		
-		research_cost = 2
-		start_year = 1948
-
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = @1948 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
+	
 
 	jet_CAS1 = {
 			
@@ -1216,7 +1193,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_naval_bomber_improve
+			leads_to_tech = jet_fighter_improve
 			research_cost_coeff = 1
 		}
 		
@@ -1304,138 +1281,6 @@ technologies = {
 				factor = 0
 				has_navy_size = { type = carrier size < 1 }# if nation has no carriers, don't bother
 			}
-		}
-	}
-
-	jet_naval_bomber_improve = {
-			
-		path = {
-			leads_to_tech = jet_naval_bomber1
-			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			jet_engines = 1
-		}
-		
-		research_cost = 2
-		start_year = 1948
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = @1948 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
-	jet_naval_bomber1 = {
-			
-		path = {
-			leads_to_tech = jet_naval_bomber2
-			research_cost_coeff = 1
-		}
-
-		enable_equipments = {
-			jet_naval_bomber_equipment_1
-		}
-		
-		research_cost = 2
-		start_year = 1951
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = @1951 }
-		}
-		sub_technologies = {
-			cv_jet_naval_bomber1
-		}
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
-	cv_jet_naval_bomber1 = {
-
-		enable_equipments = {
-			cv_jet_naval_bomber_equipment_1
-		}
-		
-		research_cost = 2
-		start_year = 1951
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
-	jet_naval_bomber2 = {
-
-		enable_equipments = {
-			jet_naval_bomber_equipment_2
-		}
-		sub_technologies = {
-			cv_jet_naval_bomber2
-		}
-		dependencies = {
-			jet_engines = 2
-		}
-		research_cost = 2
-		start_year = 1957
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = @1957 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
-	cv_jet_naval_bomber2 = {
-
-		enable_equipments = {
-			cv_jet_naval_bomber_equipment_2
-		}
-		
-		research_cost = 2
-		start_year = 1957
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			
 		}
 	}
 	
@@ -1600,6 +1445,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = jet_tactical_bomber1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1948
 		folder = {
@@ -1681,7 +1531,7 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = scout_plane2
+			leads_to_tech = scout_plane3
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -1719,38 +1569,14 @@ technologies = {
 			}
 		}
 	}
-	
-	scout_plane2 = {
+
+	scout_plane3 = {
 
 		enable_equipments = {
 			scout_plane_equipment_2
 		}
 		path = {
-			leads_to_tech = scout_plane3
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1936
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = @1936 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_scout_plane
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	scout_plane3 = {
-
-		
-		path = {
-			leads_to_tech = scout_plane4
+			leads_to_tech = scout_plane5
 			research_cost_coeff = 1
 		}
 		research_cost = 2
@@ -1770,36 +1596,10 @@ technologies = {
 			factor = 1
 		}
 	}
-	scout_plane4 = {
-
-		enable_equipments = {
-			scout_plane_equipment_3
-		}
-		path = {
-			leads_to_tech = scout_plane5
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = @1942 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_scout_plane
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	scout_plane5 = {
 
 		enable_equipments = {
-			scout_plane_equipment_4
+			scout_plane_equipment_3
 		}
 		path = {
 			leads_to_tech = scout_plane6
@@ -1849,7 +1649,7 @@ technologies = {
 	}
 	scout_plane7 = {
 		enable_equipments = {
-			scout_plane_equipment_5
+			scout_plane_equipment_4
 		}
 		
 		path = {
@@ -1875,7 +1675,7 @@ technologies = {
 	}
 	scout_plane8 = {
 		enable_equipments = {
-			scout_plane_equipment_6
+			scout_plane_equipment_5
 		}
 		dependencies = {
 			jet_engines = 2
@@ -2040,7 +1840,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_tactical_bomber_improve
+			leads_to_tech = jet_heavy_fighter_improve
 			research_cost_coeff = 1
 		}
 
@@ -2049,52 +1849,6 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = @1945 }
-		}
-		
-		categories = {
-			medium_air
-			tactical_bomber
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1944.1.1"
-			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1945.1.1"
-			}
-		}
-	}
-
-	jet_tactical_bomber_improve = {
-		dependencies = {
-			jet_engines = 1
-		}
-		
-		path = {
-			leads_to_tech = jet_tactical_bomber1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1948
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = @1948 }
 		}
 		
 		categories = {
@@ -2185,6 +1939,36 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+
+	transport_plane1 = {
+
+		enable_equipments = {
+			transport_plane_equipment
+			
+		}
+	
+		path = {
+			leads_to_tech = transport_plane2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @1936 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
 		}
 	}
 	
@@ -2303,6 +2087,8 @@ technologies = {
 			}
 		}
 	}
+
+	
 	
 	strategic_bomber3 = {
 
@@ -2315,6 +2101,8 @@ technologies = {
 			leads_to_tech = strategic_bomber_jet_improve
 			research_cost_coeff = 1
 		}
+
+		
 
 		research_cost = 2
 		start_year = 1945
@@ -2344,22 +2132,62 @@ technologies = {
 		}
 	}
 
+	transport_plane2 = {
+
+		enable_equipments = {
+			transport_plane_equipment_2
+			
+		}
+		
+		path = {
+			leads_to_tech = strategic_bomber_jet_improve
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = @1945 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		
+		}
+	}
+
 	strategic_bomber_jet_improve = {
 
 		
 		dependencies = {
 			jet_engines = 1
+
+
+		}
+
+		path = {
+			leads_to_tech = transport_plane3
+			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = jet_strategic_bomber1
 			research_cost_coeff = 1
 		}
 
+		
+
 		research_cost = 2
 		start_year = 1948
 		folder = {
 			name = air_techs_folder
-			position = { x = 2 y = @1948 }
+			position = { x = 4 y = @1948 }
 		}
 		
 		categories = {
@@ -2379,6 +2207,72 @@ technologies = {
 			modifier = {
 				factor = 5
 				tag = USA
+			}
+		}
+	}
+
+	transport_plane3 = {
+
+		enable_equipments = {
+			transport_plane_equipment_3
+		}
+		
+		research_cost = 2
+		start_year = 1951
+
+		
+		path = {
+			leads_to_tech = transport_plane4
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = @1951 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				
+				factor = 4.5
+			}
+		}
+	}
+
+	transport_plane4 = {
+
+		enable_equipments = {
+			transport_plane_equipment_4
+		}
+		dependencies = {
+			jet_engines = 2
+		}
+		research_cost = 2
+		start_year = 1957
+
+		
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = @1957 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				
+				factor = 4.5
 			}
 		}
 	}
@@ -2456,6 +2350,8 @@ technologies = {
 			}
 		}
 	}
+
+	
 
 	suicide_craft = {
 

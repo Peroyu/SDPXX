@@ -902,6 +902,8 @@ guiTypes = {
 				format = left
 				alwaystransparent = yes			
 			}
+
+			
 		}
 		
 		instantTextboxType = {
@@ -969,6 +971,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 18
 		}
+
+		
 	}
 	
 	containerWindowType = {
@@ -1118,6 +1122,8 @@ guiTypes = {
 			format = UPPER_LEFT
 		}
 	}
+
+	
 	
 	containerWindowType = {
 		name = "occupy_policy_entry"

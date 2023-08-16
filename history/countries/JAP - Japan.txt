@@ -27,7 +27,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_power_balance = {
+	id = JAP_army_force
+	left_side = JAP_navy # will keep the last set side if not specified
+	right_side = JAP_army # will keep the last set side if not specified
+	set_value = 0.2
+}
 #########################################################
 set_country_flag = ASIA_attend_southasia_conference
 set_popularities = {

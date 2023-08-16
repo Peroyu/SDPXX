@@ -2557,17 +2557,32 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_jet_fighter2_medium"
-		texturefile = "gfx/interface/technologies/jet_fighter2.dds"
+		texturefile = "gfx/interface/technologies/GFX_jet_fighter2_medium.png"
 	}	
 
 	SpriteType = {
 		name = "GFX_jet_fighter1_medium"
-		texturefile = "gfx/interface/technologies/jet_fighter1.dds"
+		texturefile = "gfx/interface/technologies/GFX_jet_fighter1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_jet_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_heavy_fighter1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_jet_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_heavy_fighter2_medium.png"
 	}
 	
 	SpriteType = {
 		name = "GFX_jet_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/jet_strategic_bomber1.dds"
+		texturefile = "gfx/interface/technologies/GFX_jet_strategic_bomber1_medium.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_strategic_bomber2_medium.png"
 	}	
 
 	SpriteType = {
@@ -2592,25 +2607,118 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_jet_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/jet_tactical_bomber2.dds"
+		texturefile = "gfx/interface/technologies/GFX_jet_tactical_bomber2_medium.png"
 	}	
 	
 	SpriteType = {
 		name = "GFX_jet_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/jet_tactical_bomber1.dds"
+		texturefile = "gfx/interface/technologies/GFX_jet_tactical_bomber1_medium.png"
 	}	
 	
 	SpriteType = {
 		name = "GFX_scout_plane1_medium"
-		texturefile = "gfx/interface/technologies/generic_scout_plane_1_1.dds"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane1_medium.png"
 	}		
 	
 	SpriteType = {
-		name = "GFX_scout_plane2_medium"
-		texturefile = "gfx/interface/technologies/generic_scout_plane_2_2.dds"
+		name = "GFX_scout_plane3_medium"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane3_medium.png"
 	}		
 
+	SpriteType = {
+		name = "GFX_scout_plane5_medium"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane5_medium.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_scout_plane7_medium"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane7_medium.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_scout_plane8_medium"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane8_medium.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_CAS1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_jet_CAS2_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_CAS2_medium.png"
+	}
 	
+	SpriteType = {
+		name = "GFX_transport_plane1_medium"
+		texturefile = "gfx/interface/technologies/GFX_transport_plane1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_transport_plane2_medium"
+		texturefile = "gfx/interface/technologies/GFX_transport_plane2_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_transport_plane3_medium"
+		texturefile = "gfx/interface/technologies/GFX_transport_plane3_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_transport_plane4_medium"
+		texturefile = "gfx/interface/technologies/GFX_transport_plane4_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_fighter1_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_fighter1_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CAS_improve1_medium"
+		texturefile = "gfx/interface/technologies/GFX_CAS_improve1_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_naval_bomber_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_naval_bomber_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_fighter_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_heavy_fighter_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_tactical_bomber_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_tactical_bomber_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_strategic_bomber_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_strategic_bomber_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_jet_fighter_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_fighter_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_jet_heavy_fighter_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_jet_heavy_fighter_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_strategic_bomber_jet_improve_medium"
+		texturefile = "gfx/interface/technologies/GFX_strategic_bomber_jet_improve_medium.png"
+	}
+
+	SpriteType = {
+		name = "GFX_scout_plane6_medium"
+		texturefile = "gfx/interface/technologies/GFX_scout_plane6_medium.png"
+	}
 		
 	### LAND DOCTRINES #############
 	SpriteType = {

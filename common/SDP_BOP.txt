@@ -1,0 +1,42 @@
+#scripted_gui = {
+	SDP_BOP ={
+		window_name = "power_balance_button"
+		context_type = Player_context
+		parent_window_token = politics_tab
+		visible = {
+			always = yes
+		}
+		properties = {
+			SDP_BOP_icon = {
+				image = "[ROOT.GetBOPbuttonview]"
+			}
+		}
+
+		effects = {
+			show_power_balance_click = {
+				if = {
+				   limit = {
+				     NOT = { has_country_flag = open_SDP_BOP_window_main }
+					}
+					set_country_flag = open_SDP_BOP_window_main
+				}
+				else = {
+				    clr_country_flag = open_SDP_BOP_window_main
+				}
+			}
+		}
+	}
+	SDP_BOP_main ={
+		window_name = "powerbalanceview"
+		context_type = Player_context
+		visible = {
+			has_country_flag = open_SDP_BOP_window_main
+		}
+	
+	    effects = {
+			close_click = {
+				clr_country_flag = open_SDP_BOP_window_main
+			}
+	    }
+   }
+}
