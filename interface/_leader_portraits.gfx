@@ -431,12 +431,12 @@
 		texturefile = "gfx/leaders/ASIA/BUR_Aung_San.png"		
 	}
 	spriteType = {
-		name = "LAB_Duro_Pucar-Stari"
-		texturefile = "gfx\leaders\LAB\Duro Pucar-Stari.png"		
+		name = "LAB_Duro_Pucar_Stari_portrait"
+		texturefile = "gfx/leaders/LAB/Duro_Pucar_Stari.png"		
 	}
 	spriteType = {
 		name = "GFX_portrait_MON_Choibarsan"
-		texturefile = "gfx\leaders\SOV\MON_Choibarsan.png"		
+		texturefile = "gfx/leaders/SOV/MON_Choibarsan.png"		
 	}
 	#####################JAP##############################
 	spriteType = {

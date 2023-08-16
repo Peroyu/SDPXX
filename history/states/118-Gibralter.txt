@@ -16,7 +16,7 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_core = GIB
+		add_core_of = GIB
 	}
 	provinces={
 		4135

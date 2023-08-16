@@ -11,6 +11,7 @@ ideologies = {
 			De_Leonism = { can_be_randomly_selected = no }
 			Mao_thought = { can_be_randomly_selected = no }
 			De_Leonism = { can_be_randomly_selected = no }
+			
 		}
 		
 		dynamic_faction_names = {

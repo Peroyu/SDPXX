@@ -2,117 +2,117 @@ spriteTypes = {
 	################CJF#####################
     spriteType = {
 		name = "GFX_idea_CJF_Chen_Gongbo"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Chen_Gongbo_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_CJF_Chen_Gongbo_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_CJF_Wei_LiHuang"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Wei_LiHuang_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_CJF_Wei_LiHuang_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Yu_Youren"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Yu_Youren_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_CJF_Yu_Youren_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Li_Huang"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_Li_Huang_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_Li_Huang_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Zou_Lu"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Zou_Lu_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_CJF_Zou_Lu_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Xv_Chongzhi"
-		texturefile = "gfx\interface\ministers\CJF\GFX_portrait_CJF_Xv_Chongzhi_s.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_portrait_CJF_Xv_Chongzhi_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Song_Ziwen"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Song_Ziwen.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Song_Ziwen.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Gu_Mengyu"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Gu_Mengyu.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Gu_Mengyu.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Zhu_Jiahua"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Zhu_Jiahua.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Zhu_Jiahua.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Fu_Bingchang"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Fu_Bingchang.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Fu_Bingchang.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Fu_Bingchang"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Fu_Bingchang.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Fu_Bingchang.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Guo_Chuntao"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Guo_Chuntao.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Guo_Chuntao.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Li_Ling_si"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Li_Ling_si.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Li_Ling_si.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Wu_Tiecheng"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Wu_Tiecheng.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Wu_Tiecheng.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Gan_Naiguang"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Gan_Naiguang.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Gan_Naiguang.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Chen_Guofu"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Guofu.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Chen_Guofu.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Liu_Jiwen"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Liu_Jiwen.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Liu_Jiwen.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Liu_Jiwen"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Liu_Jiwen.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Liu_Jiwen.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Chen_Shuren"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Shuren.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Chen_Shuren.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Chen_Shuren"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Shuren.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Chen_Shuren.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Shi_Cuntong"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Shi_Cuntong.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Shi_Cuntong.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Song_Xilian"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Song_Xilian.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Song_Xilian.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_CJF_Chen_Cheng"
-		texturefile = "gfx\interface\ministers\CJF\GFX_idea_CJF_Chen_Cheng.png"
+		texturefile = "gfx/interface/ministers/CJF/GFX_idea_CJF_Chen_Cheng.png"
 	}
 
 	
@@ -120,42 +120,42 @@ spriteTypes = {
 	###############GDC###################
 	spriteType = {
 		name = "GFX_idea_GDC_Li_Jishen"
-		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Li_Jishen_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_portrait_GDC_Li_Jishen_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_GDC_Zhou_Enlai"
-		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Zhou_Enlai_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_portrait_GDC_Zhou_Enlai_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_GDC_Deng_YanDa"
-		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Deng_YanDa_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_portrait_GDC_Deng_YanDa_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_GDC_Mao_Zedong"
-		texturefile = "gfx\interface\ministers\GDC\GFX_portrait_GDC_Mao_Zedong_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_portrait_GDC_Mao_Zedong_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_GDC_Yang_Baoan"
-		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Yang_Baoan_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_idea_GDC_Yang_Baoan_s.png"
 	}
 	
 	spriteType = {
 		name = "GFX_idea_GDC_Peng_Pai"
-		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Peng_Pai_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_idea_GDC_Peng_Pai_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_GDC_Zhang_Bo_Jun"
-		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Zhang_Bo_Jun_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_idea_GDC_Zhang_Bo_Jun_s.png"
 	}
 
 	spriteType = {
 		name = "GFX_idea_GDC_Chen_Yun"
-		texturefile = "gfx\interface\ministers\GDC\GFX_idea_GDC_Chen_Yun_s.png"
+		texturefile = "gfx/interface/ministers/GDC/GFX_idea_GDC_Chen_Yun_s.png"
 	}
 	
 }
