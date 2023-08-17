@@ -438,6 +438,26 @@ spriteTypes = {
 		name = "GFX_GDC_our_partner"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_our_partner.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_disaster_in_front_of_us"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_disaster_in_front_of_us.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_more_steps"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_more_steps.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_only_ourselves"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_only_ourselves.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_break_through_mingan"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_break_through_mingan.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"

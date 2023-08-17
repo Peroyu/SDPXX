@@ -4,6 +4,7 @@ GDC_hunger = {
 		available = {
 	          tag = GDC
 			has_country_flag = GDC_hunger_on_going
+			has_completed_focus = GDC_disaster_in_front_of_us
 		}
 		visible = {
              tag = GDC 
