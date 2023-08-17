@@ -643,6 +643,16 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_PRU_Jose_Rivero"
+		texturefile = "gfx/leaders/Latin_America/portrait_PRU_Jose_Rivero.png"		
+	}
+
+	spriteType = {
+		name = "portrait_COL_Mariano_Perez"
+		texturefile = "gfx/leaders/Latin_America/portrait_COL_Mariano_Perez.png"		
+	}
+
+	spriteType = {
 		name = "portrait_DOM_Rafael_Trujillo_Molina"
 		texturefile = "gfx/leaders/Latin_America/portrait_DOM_Rafael_Trujillo_Molina.png"		
 	}

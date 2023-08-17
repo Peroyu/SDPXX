@@ -1016,6 +1016,11 @@ spriteTypes = {
 		name = "GFX_CJF_Guangzhou_conference"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Guangzhou_conference.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_huangpu_22nd"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_22nd.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

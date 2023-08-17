@@ -1,0 +1,34 @@
+capital = 741
+
+set_research_slots = 2
+
+set_war_support = 0.2
+set_stability = 0.3
+
+set_politics = {
+	ruling_party = movement_communism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 10
+	movement_communism = 20
+	reactionism = 20
+	Liberalism = 15
+	conservatism = 20
+	nationalism = 15
+}
+
+
+create_country_leader = {
+	name = "何塞-里维罗"
+	desc = "/"  
+	picture = "portrait_PRU_Jose_Rivero"  
+	expire = "1992.7.10"  
+	ideology = FFFFF_FFF
+	traits = { 
+		
+	}
+}
