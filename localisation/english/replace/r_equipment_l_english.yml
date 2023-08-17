@@ -1,4 +1,29 @@
 ﻿l_english:
+ #CHI#
+ CJF_infantry_equipment_0:0 "汉阳造 八六式步枪"
+ GDC_infantry_equipment_0:0 "汉阳造 八六式步枪"
+ MMA_infantry_equipment_0:0 "汉阳造 八六式步枪"
+ XKS_infantry_equipment_0:0 "汉阳造 八六式步枪"
+
+ CJF_infantry_equipment_1:0 "金陵造 兆铭式步枪"
+ GDC_infantry_equipment_1:0 "金陵造 兆铭式步枪"
+ MMA_infantry_equipment_1:0 "金陵造 兆铭式步枪"
+ XKS_infantry_equipment_1:0 "金陵造 兆铭式步枪"
+
+ CJF_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
+ GDC_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
+ MMA_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
+ XKS_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
+
+ CJF_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
+ GDC_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
+ XKS_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
+ MMA_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
+
+ CJF_infantry_strike_force_1:0 "沪仿 沙捷里拉机关枪"
+
+ SOV_infantry_equipment_0:0 "莫辛-纳甘步枪"
+ MON_infantry_equipment_0:0 "莫辛-纳甘步枪"
  submarine:0 "潜艇"
  submarine_desc:0 "潜艇装备着隐蔽而强大的鱼雷，可以打击敌人的护航队。"
  both_cruisers_desc:0 "轻巡洋舰——轻型的屏卫舰。其主要功能是防护己方主力舰只免受敌方轻型军舰的攻击，不过轻巡洋舰同样也可以发射威力强大的鱼雷，足以对更大型的军舰造成伤害。\n\n重巡洋舰——装备着重型装甲并且极其灵活的大型巡洋舰。对于造不起更大型主力舰的国家来说，重巡洋舰是一个很好的选择。"
@@ -3514,3 +3539,6 @@
  TUR_heavy_tank_equipment_3_short:0 "河马"
  TUR_modern_tank_equipment_1:0 "TÜLOMSAŞ 奥尔巴伊I型"
  TUR_modern_tank_equipment_1_short:0 "奥尔巴伊"
+
+#demo#
+ 
