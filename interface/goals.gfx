@@ -403,6 +403,41 @@ spriteTypes = {
 		name = "GFX_GDC_land_revolution"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_land_revolution.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_feed_wolves"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_feed_wolves.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_feed_wolves"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_feed_wolves.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_call_enthusiasm"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_call_enthusiasm.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_system_aid"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_system_aid.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_to_present_Chen"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_to_present_Chen.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_golden_drink_with_you"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_golden_drink_with_you.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_our_partner"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_our_partner.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
