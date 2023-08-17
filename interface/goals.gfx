@@ -1,6 +1,10 @@
 spriteTypes = {	
 
 	#### Generic goal icons
+	SpriteType = {
+	name = "GFX_GDC_decrease_land_rent_fee"
+	texturefile = "gfx/interface/goals/GDC/GFX_GDC_decrease_land_rent_fee.png"			
+	}
 	
 	SpriteType = {
 	name = "GFX_GDC_Zhang_Bojun_focus"

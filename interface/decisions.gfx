@@ -1,4 +1,8 @@
 spriteTypes = {
+    spriteType = {
+		name = "GFX_decisions_MMA_discord"
+		texturefile = "gfx/interface/MMA/decisions_MMA_discord.png"
+	}
 	spriteType = {
 		name = "GFX_decisions_MMA_gongshu"
 		texturefile = "gfx/interface/decisions/decisions_MMA_gongshu.dds"
