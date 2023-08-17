@@ -1,26 +1,164 @@
 ﻿l_english:
  #CHI#
- CJF_infantry_equipment_0:0 "汉阳造 八六式步枪"
- GDC_infantry_equipment_0:0 "汉阳造 八六式步枪"
- MMA_infantry_equipment_0:0 "汉阳造 八六式步枪"
- XKS_infantry_equipment_0:0 "汉阳造 八六式步枪"
+ CJF_infantry_weapons:0 "汉阳造 八六式步枪"
+ GDC_infantry_weapons:0 "汉阳造 八六式步枪"
+ MMA_infantry_weapons:0 "汉阳造 八六式步枪"
+ XKS_infantry_weapons:0 "汉阳造 八六式步枪"
 
- CJF_infantry_equipment_1:0 "金陵造 兆铭式步枪"
- GDC_infantry_equipment_1:0 "金陵造 兆铭式步枪"
- MMA_infantry_equipment_1:0 "金陵造 兆铭式步枪"
- XKS_infantry_equipment_1:0 "金陵造 兆铭式步枪"
+ CJF_infantry_weapons1:0 "金陵造 兆铭式步枪"
+ GDC_infantry_weapons1:0 "金陵造 兆铭式步枪"
+ MMA_infantry_weapons1:0 "金陵造 兆铭式步枪"
+ XKS_infantry_weapons1:0 "金陵造 兆铭式步枪"
 
- CJF_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
- GDC_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
- MMA_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
- XKS_infantry_equipment_2:0 "川造 兆铭式乙型马步枪"
+ CJF_improved_infantry_weapons:0 "川造 兆铭式乙型马步枪"
+ GDC_improved_infantry_weapons:0 "川造 兆铭式乙型马步枪"
+ MMA_improved_infantry_weapons:0 "川造 兆铭式乙型马步枪"
+ XKS_improved_infantry_weapons:0 "川造 兆铭式乙型马步枪"
 
- CJF_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
- GDC_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
- XKS_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
- MMA_infantry_equipment_3:0 "汉阳造 五四式半自动步枪"
+ CJF_advanced_infantry_weapons:0 "汉阳造 五四式半自动步枪"
+ GDC_advanced_infantry_weapons:0 "汉阳造 五四式半自动步枪"
+ XKS_advanced_infantry_weapons:0 "汉阳造 五四式半自动步枪"
+ MMA_advanced_infantry_weapons:0 "汉阳造 五四式半自动步枪"
+
+ CJF_infantry_equipment_0:"汉阳造 八六式步枪"
+ GDC_infantry_equipment_0:"汉阳造 八六式步枪"
+ MMA_infantry_equipment_0:"汉阳造 八六式步枪"
+ XKS_infantry_equipment_0:"汉阳造 八六式步枪"
+
+ CJF_infantry_equipment_1:"金陵造 兆铭式步枪"
+ GDC_infantry_equipment_1:"金陵造 兆铭式步枪"
+ MMA_infantry_equipment_1:"金陵造 兆铭式步枪"
+ XKS_infantry_equipment_1:"金陵造 兆铭式步枪"
+
+ CJF_infantry_equipment_2:"川造 兆铭式乙型马步枪"
+ GDC_infantry_equipment_2:"川造 兆铭式乙型马步枪"
+ MMA_infantry_equipment_2:"川造 兆铭式乙型马步枪"
+ XKS_infantry_equipment_2:"川造 兆铭式乙型马步枪"
+
+ CJF_infantry_equipment_3:"汉阳造 五四式半自动步枪"
+ GDC_infantry_equipment_3:"汉阳造 五四式半自动步枪"
+ XKS_infantry_equipment_3:"汉阳造 五四式半自动步枪"
+ MMA_infantry_equipment_3:"汉阳造 五四式半自动步枪"
 
  CJF_infantry_strike_force_1:0 "沪仿 沙捷里拉机关枪"
+ GDC_infantry_strike_force_1:0 "沪仿 沙捷里拉机关枪"
+ MMA_infantry_strike_force_1:0 "沪仿 沙捷里拉机关枪"
+ XKS_infantry_strike_force_1:0 "沪仿 沙捷里拉机关枪"
+
+ CJF_infantry_strike_force_2:0 "法制 三八式冲锋枪"
+ GDC_infantry_strike_force_2:0 "法制 三八式冲锋枪"
+ MMA_infantry_strike_force_2:0 "法制 三八式冲锋枪"
+ XKS_infantry_strike_force_2:0 "法制 三八式冲锋枪"
+
+ CJF_infantry_at2:0 "苏制 四三式反坦克手榴弹"
+ GDC_infantry_at2:0 "苏制 四三式反坦克手榴弹"
+ MMA_infantry_at2:0 "苏制 四三式反坦克手榴弹"
+ XKS_infantry_at2:0 "苏制 四三式反坦克手榴弹"
+ 
+ CJF_infantry_strike_force_3:"苏制 四三式冲锋枪"
+ GDC_infantry_strike_force_3:"苏制 四三式冲锋枪"
+ MMA_infantry_strike_force_3:"苏制 四三式冲锋枪"
+ XKS_infantry_strike_force_3:"苏制 四三式冲锋枪"
+
+ CJF_infantry_at3:0 "民三十八式手榴弹"
+ GDC_infantry_at3:0 "民三十八式手榴弹"
+ MMA_infantry_at3:0 "民三十八式手榴弹"
+ XKS_infantry_at3:0 "民三十八式手榴弹"
+
+
+ CJF_infantry_strike_force_4:0 "民四十二式冲锋枪"
+ GDC_infantry_strike_force_4:0 "民四十二式冲锋枪"
+ MMA_infantry_strike_force_4:0 "民四十二式冲锋枪"
+ XKS_infantry_strike_force_4:0 "民四十二式冲锋枪"
+
+ CJF_infantry_heavy_weapens_1:"粤仿 哈乞开斯七毫米机关枪&施耐德六生五山炮"
+ GDC_infantry_heavy_weapens_1:"粤仿 哈乞开斯七毫米机关枪&施耐德六生五山炮"
+ MMA_infantry_heavy_weapens_1:"粤仿 哈乞开斯七毫米机关枪&施耐德六生五山炮"
+ XKS_infantry_heavy_weapens_1:"粤仿 哈乞开斯七毫米机关枪&施耐德六生五山炮"
+ 
+ 
+ CJF_infantry_heavy_weapens_2:"川造 三十节机关枪&施耐德七生五山炮"
+ GDC_infantry_heavy_weapens_2:"川造 三十节机关枪&施耐德七生五山炮"
+ MMA_infantry_heavy_weapens_2:"川造 三十节机关枪&施耐德七生五山炮"
+ XKS_infantry_heavy_weapens_2:"川造 三十节机关枪&施耐德七生五山炮"
+ 
+ CJF_infantry_heavy_weapens_3:"川造 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ GDC_infantry_heavy_weapens_3:"川造 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ MMA_infantry_heavy_weapens_3:"川造 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ XKS_infantry_heavy_weapens_3:"川造 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ 
+ CJF_infantry_heavy_weapens_4:"川仿 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ GDC_infantry_heavy_weapens_4:"川仿 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ MMA_infantry_heavy_weapens_4:"川仿 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+ XKS_infantry_heavy_weapens_4:"川仿 郭留诺夫七六机枪&苏制 ZIS-3七生六野炮"
+
+ CJF_infantry_heavy_weapens_5:"汉阳造 郭留诺夫七六机枪&渝造 七生六野炮"
+ GDC_infantry_heavy_weapens_5:"汉阳造 郭留诺夫七六机枪&渝造 七生六野炮"
+ MMA_infantry_heavy_weapens_5:"汉阳造 郭留诺夫七六机枪&渝造 七生六野炮"
+ XKS_infantry_heavy_weapens_5:"汉阳造 郭留诺夫七六机枪&渝造 七生六野炮"
+
+ CJF_support_weapons:"湘造 磁石电话"
+ GDC_support_weapons:"湘造 磁石电话"
+ MMA_support_weapons:"湘造 磁石电话"
+ XKS_support_weapons:"湘造 磁石电话"
+ 
+ CJF_support_weapons2:"央造 民二十四式电台"
+ GDC_support_weapons2:"央造 民二十四式电台"
+ MMA_support_weapons2:"央造 民二十四式电台"
+ XKS_support_weapons2:"央造 民二十四式电台"
+  
+ CJF_support_weapons3:"央仿 九二式电话&桂仿 苏制6-PK电台"
+ GDC_support_weapons3:"央仿 九二式电话&桂仿 苏制6-PK电台"
+ MMA_support_weapons3:"央仿 九二式电话&桂仿 苏制6-PK电台"
+ XKS_support_weapons3:"央仿 九二式电话&桂仿 苏制6-PK电台"
+   
+ CJF_support_weapons4:"央仿 苏制TAI-43电话&桂造 6-PK电台"
+ GDC_support_weapons4:"央仿 苏制TAI-43电话&桂造 6-PK电台"
+ MMA_support_weapons4:"央仿 苏制TAI-43电话&桂造 6-PK电台"
+ XKS_support_weapons4:"央仿 苏制TAI-43电话&桂造 6-PK电台"
+   
+ CJF_support_weapons5:"央制 TAI-43电话&桂造 6-PK电台"
+ GDC_support_weapons5:"央制 TAI-43电话&桂造 6-PK电台"
+ MMA_support_weapons5:"央制 TAI-43电话&桂造 6-PK电台"
+ XKS_support_weapons5:"央制 TAI-43电话&桂造 6-PK电台"
+   
+ CJF_support_weapons6:"民四二式步话机&桂造 6-PK电台"
+ GDC_support_weapons6:"民四二式步话机&桂造 6-PK电台"
+ MMA_support_weapons6:"民四二式步话机&桂造 6-PK电台"
+ XKS_support_weapons6:"民四二式步话机&桂造 6-PK电台"
+    
+ CJF_support_weapons7:"央制 四二乙型步话机&央制 6-PK电台"
+ GDC_support_weapons7:"央制 四二乙型步话机&央制 6-PK电台"
+ MMA_support_weapons7:"央制 四二乙型步话机&央制 6-PK电台"
+ XKS_support_weapons7:"央制 四二乙型步话机&央制 6-PK电台"
+     
+ CJF_support_weapons8:"央制 民四五式步话机&央制 6型电台"
+ GDC_support_weapons8:"央制 民四五式步话机&央制 6型电台"
+ MMA_support_weapons8:"央制 民四五式步话机&央制 6型电台"
+ XKS_support_weapons8:"央制 民四五式步话机&央制 6型电台"
+
+ motorised_infantry_improve:"摩托化改良I"
+ improved_motorised_infantry_2:"摩托化改良II"
+ improved_motorised_infantry_3:"摩托化改良III"
+ improved_infantry_weapons_3:"冷战步兵武器改良I"
+ improved_infantry_weapons_2_1:"冷战步兵武器改良II"
+ advanced_infantry_weapons_2:"冷战步兵武器改良III"
+ 
+ CJF_motorized_equipment_2:"苏产 吉斯5型卡车"
+ GDC_motorized_equipment_2:"苏产 吉斯5型卡车"
+ MMA_motorized_equipment_2:"苏产 吉斯5型卡车"
+ XKS_motorized_equipment_2:"苏产 吉斯5型卡车"
+ 
+ CJF_motorized_equipment_3:"苏产 吉斯6型卡车"
+ GDC_motorized_equipment_3:"苏产 吉斯6型卡车"
+ MMA_motorized_equipment_3:"苏产 吉斯6型卡车"
+ XKS_motorized_equipment_3:"苏产 吉斯6型卡车"
+ 
+ CJF_motorized_equipment_4:"辽造 民四十三式“民生”卡车"
+ GDC_motorized_equipment_4:"辽造 民四十三式“民生”卡车"
+ MMA_motorized_equipment_4:"辽造 民四十三式“民生”卡车"
+ XKS_motorized_equipment_4:"辽造 民四十三式“民生”卡车"
+
 
  SOV_infantry_equipment_0:0 "莫辛-纳甘步枪"
  MON_infantry_equipment_0:0 "莫辛-纳甘步枪"
