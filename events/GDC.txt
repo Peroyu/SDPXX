@@ -1381,7 +1381,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			set_variable = { var = GDC_CPC_support_valve value = [?party_popularity@committee_communism|%0] }
+			set_variable = { var = GDC_CPC_support_valve value = party_popularity@committee_communism }
 		}
     }
 	option = { 
@@ -1427,7 +1427,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			set_variable = { var = GDC_KMT_support_valve value = [?party_popularity@moderate_socialism|%0] }
+			set_variable = { var = GDC_KMT_support_valve value = party_popularity@moderate_socialism }
 		}
     }
 	option = { 
@@ -1845,8 +1845,8 @@ country_event = { #选举
 	immediate = {
 	    hidden_effect = {
 			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
-			add_to_variable = { GDC_KMT_support_valve = [?party_popularity@social_democracy|%0] }
-			add_to_variable = { GDC_CPC_support_valve = [?party_popularity@communism|%0] }
+			add_to_variable = { var = GDC_KMT_support_valve value = party_popularity@social_democracy }
+			add_to_variable = { var = GDC_CPC_support_valve value = party_popularity@communism }
 			set_party_name = { ideology = Liberalism long_name = GDC_Liberalism_party_long name = GDC_Liberalism_party }
 
 		}
@@ -1913,7 +1913,7 @@ country_event = { #选举
 		set_politics = {  
 			ruling_party = communism
 		}
-		name = GDCcp.12.d
+		name = GDCcp.12.e
 	}
 		
 }
@@ -1936,10 +1936,6 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
-		}
-		load_focus_tree = {
-			tree = GDC_He_Xiangning_national_focus_tree
-			keep_completed = no
 		}
 		name = GDC_war.1.a 
 	}
