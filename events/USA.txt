@@ -1,0 +1,84 @@
+add_namespace = USAelection
+
+country_event = {
+    id = USAelection.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	USAelection.1 FROM = [From.GetName]" }
+	title = USAelection.1.t
+	desc = USAelection.1.d
+	picture = GFX_USAelection
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = USA.1
+				days = 1
+			}
+		}
+		name = USAelection.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = USA.2
+				days = 1
+			}
+		}
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = Liberalism
+		}
+		name = USAelection.1.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 20
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = USA.3
+				days = 1
+			}
+		}
+		set_politics = {
+			ruling_party = social_democracy
+		}
+		retire_ideology_leader = social_democracy
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "亨利·华莱士"  # 领导人名称
+			desc = ""  # 人物介绍
+			picture = "portrait_USA_Henry_Wallace"  # 人物头像
+			expire = "1985.1.1"  # 逝世时间
+			ideology = social_reformism # 意识形态
+			traits = {  # 人物特性
+				#
+			}
+		}
+		name = USAelection.1.c
+	}
+	
+}

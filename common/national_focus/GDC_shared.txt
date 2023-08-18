@@ -738,6 +738,9 @@ shared_focus = {
 		available_if_capitulated = no
 		x = 15
 		y = 7
+		available = {
+			has_idea = GDC_Chen_Yun
+		}
 		completion_reward = {
 			country_event = { days = 1 id = GDCmcpc.4 }
 			swap_ideas = {

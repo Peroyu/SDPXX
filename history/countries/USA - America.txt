@@ -29,6 +29,10 @@ set_popularities = {
  nationalism = 7
  restorativeism = 4
 }
+country_event = {
+	id = USAelection.1
+	days = 733
+}
 add_ideas = {
 	USA_gov_citizens_company
 	USA_ghost_of_Jim_crow
@@ -71,10 +75,11 @@ create_country_leader = {
 create_country_leader = {
 	name = "托马斯·杜威"  # 领导人名称
 	desc = ""  # 人物介绍
-	picture = ""  # 人物头像
+	picture = "GFX_portrait_USA_Thomas_Dewey_SDP"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
 	ideology = liberal_democracy # 意识形态
 	traits = {  # 人物特性
 		#
 	}
 }
+

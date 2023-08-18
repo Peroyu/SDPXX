@@ -6,7 +6,65 @@ add_namespace = HUN_BAL
 add_namespace = chi_news
 add_namespace = indu
 add_namespace = ISU
+add_namespace = USA
 add_namespace = LaAme
+news_event = {
+	id = USA.1
+
+    picture = GFX_USA_1
+    title = USA.1.t
+    desc = USA.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = USA.1.a
+	}
+}
+news_event = {
+	id = USA.2
+
+    picture = GFX_USA_2
+    title = USA.2.t
+    desc = USA.2.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = USA.2.a
+	}
+}
+news_event = {
+	id = USA.3
+
+    picture = GFX_USA_3
+    title = USA.3.t
+    desc = USA.3.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = USA.3.a
+	}
+}
 news_event = {
 	id = HUN_SLO.1
 

@@ -519,6 +519,16 @@
 		name = "portrait_USA_Harry_Truman"
 		texturefile = "gfx/leaders/USA/USA_Harry_Truman.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_Thomas_Dewey_SDP"
+		texturefile = "gfx/leaders/USA/GFX_portrait_USA_Thomas_Dewey_SDP.png"		
+	}
+
+	spriteType = {
+		name = "portrait_USA_Henry_Wallace"
+		texturefile = "gfx/leaders/USA/portrait_USA_Henry_Wallace.png"		
+	}
 	
 ######################EastMediterranean################
 	spriteType = {
