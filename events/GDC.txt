@@ -176,7 +176,7 @@ country_event = {
 		}
 		name = GDCintro.7.a
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
-		add_to_variable = { global.CHI_huanan_regional_tension = -5 }
+		add_to_variable = { global.CHI_huanan_regional_tension = -20 }
 	}
 	
 }
