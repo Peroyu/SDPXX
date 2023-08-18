@@ -28,15 +28,14 @@ bookmarks = {
 			ideology = communism
 			available = {}
 			ideas = {
-			 GDC_Iron_Cage
-			 GDC_Rectification_Movement
-			 GDC_Red_Army_and_Red_Region
-			 GDC_Conflicts_with_Natives
+				GDC_none_pact_peace
+				GDC_KMT_CPC_A
+				GDC_hunger
 			}
 			focuses = {
-			 GDC_united_together
-			 GDC_make_ourself_the_wall_of_motherland
-			 GDC_develop_Liu_Zhou
+				GDC_hard_risen_the_state
+				GDC_ten_years_war
+				GDC_return_old_capital
 			}
 		}
 		"CJF"={

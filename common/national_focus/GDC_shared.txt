@@ -404,8 +404,11 @@ shared_focus = {
 			add_stability = 0.025
 		}
 		prerequisite = {
-		       focus = GDC_Zhang_Bojun_focus
+		       focus = GDC_rise_money_in_coucil
 	    }
+		prerequisite = {
+			focus = GDC_promote_dams
+	 }
 
     }
 shared_focus = {
@@ -421,11 +424,10 @@ shared_focus = {
 				}
 		}
 		prerequisite = {
-		       focus = GDC_system_aid
+		       focus = GDC_organise_ferterlises
 	    }
 		prerequisite = {
 		       focus = GDC_taking_shower
-			   focus = GDC_organise_ferterlises
 	    }
 		
 
@@ -532,7 +534,7 @@ shared_focus = {
 			add_stability = 0.05
 		}
 		prerequisite = {
-		       focus = GDC_rise_money_in_coucil
+		       focus = GDC_system_aid
 	    }
 
     }
@@ -577,8 +579,11 @@ shared_focus = {
 			custom_effect_tooltip = GDC_hunger_relive_4
 		}
 		prerequisite = {
-		       focus = GDC_Chen_Yun_focus
+		       focus = GDC_promote_dams
 	    }
+		prerequisite = {
+			focus = GDC_broden_and_ensure
+	 }
 
     }
 shared_focus = {
@@ -722,7 +727,8 @@ shared_focus = {
 				}		
 		}
 		prerequisite = {
-		       focus = GDC_promote_dams
+		       focus = GDC_system_aid
+			   focus = GDC_only_ourselves
 	    }
 	}
 shared_focus = {
@@ -804,6 +810,9 @@ shared_focus = {
 		prerequisite = {
 		       focus = GDC_broden_and_ensure
 	    }
+		mutually_exclusive = { 
+			focus = GDC_shoot_them_all 
+		}
 
     }
 shared_focus = {
@@ -821,6 +830,9 @@ shared_focus = {
 				idea = GDC_decreasing_rents_idea 
 				days = 180 
 				}
+		}
+		mutually_exclusive = { 
+			focus = GDC_shoot_them_all 
 		}
 		prerequisite = {
 		       focus = GDC_golden_drink_with_you
@@ -910,7 +922,10 @@ shared_focus = {
 		prerequisite = {
 		       focus = GDC_land_revolution
 	    }
-
+		prerequisite = {
+			focus = GDC_kill_them_all
+			focus = GDC_decrease_land_rent_fee
+	 }
     }
 shared_focus = {
         id = GDC_larger_farming_groups
@@ -947,6 +962,9 @@ shared_focus = {
 				}
 			custom_effect_tooltip = GDC_destory_order_to_get_crops_costom
 		}
+		mutually_exclusive = { 
+			focus = GDC_golden_drink_with_you 
+		}
 		prerequisite = {
 		       focus = GDC_larger_farming_groups
 	    }
@@ -972,7 +990,7 @@ shared_focus = {
 		prerequisite = {
 		       focus = GDC_shoot_them_all
 	    }
-
+		
     }
 shared_focus = {
         id = GDC_experiment_coperation
@@ -996,10 +1014,7 @@ shared_focus = {
 		prerequisite = {
 		       focus = GDC_farmers_had_lands
 	    }
-		prerequisite = {
-		       focus = GDC_kill_them_all
-			   focus = GDC_decrease_land_rent_fee
-	    }
+		
     }
 shared_focus = {
         id = GDC_hard_risen_the_state
