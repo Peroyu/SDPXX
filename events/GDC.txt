@@ -191,40 +191,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			JAP = {
-				add_to_faction = HNN
-			}
-			HNN = {
-				transfer_state = 602
-			}
 			
-			KHN = {
-				transfer_state = 840
-				transfer_state = 838
-				give_military_access = GDC
-			}
-			if = {
-				limit = {
-					GDC = {
-						has_country_flag = CHI_Hu_Nan_rural_base
-					}
-				}
-				KHN = {
-					transfer_state = 750
-				}
-			}
-			else_if = {
-				limit = {
-					GDC = {
-						NOT = {
-							has_country_flag = CHI_Hu_Nan_rural_base
-						}
-					}
-				}
-				HNN = {
-					transfer_state = 750
-				}
-			}
 			
 		}
     }
@@ -233,37 +200,7 @@ country_event = {
 		   base = 100
 		}
 		name = GDCintro.8.a
-		if = {
-			limit = {
-				GDC = {
-					has_country_flag = CHI_Hu_Nan_rural_base
-				}
-			}
-			602 = {
-				add_dynamic_modifier = {
-					modifier = CHI_rural_baes_influce
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				GDC = {
-					NOT = {
-						has_country_flag = CHI_Hu_Nan_rural_base
-					}
-				}
-			}
-			602 = {
-				add_dynamic_modifier = {
-					modifier = CHI_rural_baes_influce
-				}
-			}
-			750 = {
-				add_dynamic_modifier = {
-					modifier = CHI_rural_baes_influce
-				}
-			}
-		}
+		
 	}
 	
 }
