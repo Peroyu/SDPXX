@@ -94,12 +94,16 @@ CHI_reuni = {
             }
 			OR = {
 			NOT = {
-					RCR = {
-						controls_state = 908
+				any_country = {
+					limit = { 
+						OR = {
+							is_in_faction_with = RCR
+							original_tag = RCR 
+						}
 					}
-					RCR = {
-						controls_state = 596
-					}
+					controls_state = 908
+					controls_state = 596
+				}
 				
 			}
 		}
@@ -135,17 +139,16 @@ CHI_reuni = {
             }
 			
 			NOT = {
-				RCR = {
-					controls_state = 600
-				}
-				OR = {
-					RCR = {
-						controls_state = 602
+				any_country = {
+					limit = { 
+						OR = {
+							is_in_faction_with = RCR
+							original_tag = RCR 
+						}
 					}
-					HNN = {
-						controls_state = 602
-					}
+					controls_state = 602
 				}
+				
 			}
 		}
 		visible = {

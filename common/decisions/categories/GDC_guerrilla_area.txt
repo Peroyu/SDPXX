@@ -8,7 +8,12 @@ GDC_guerrilla_area = {
 			tag = RCR
 			tag = JAP
 			}
-		NOT = { country_exists = GNP }
+		NOT = { 
+			country_exists = GNP 
+		}
+		}
+		available = {
+			has_war = no
 		}
 	priority = 1000
 	allowed = { original_tag = GDC }

@@ -78,7 +78,7 @@ country_event = {
 					id = CHI_war.1
 					days = 1
 				}
-		}
+			}
 		}
     }
 	
@@ -89,8 +89,61 @@ country_event = {
 		name = CHIwar.2.a
 			declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			add_ideas = CHI_WAR_TENSION_condition
-		
+		GDC = {
+			country_event = {
+				id = CHIwar.4
+				days = 1
+			}
+		}
 		set_variable = { var = global.chi_uni_nuon value = 5 }
+	}
+	
+}
+country_event = {
+    id = CHIwar.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.4 FROM = [From.GetName]" }
+	title = CHIwar.4.t
+	desc = CHIwar.4.d
+	picture = GFX_CHIwar2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			if = {
+				limit = {
+					country_exists = FJN
+				}
+				annex_country = { target = FJN transfer_troops = yes }
+			}
+			else_if = {
+				limit = {
+					country_exists = KHN
+				}
+				annex_country = { target = KHN transfer_troops = yes }
+			}
+			else_if = {
+				limit = {
+					country_exists = JXP
+				}
+				annex_country = { target = JXP transfer_troops = yes }
+			}
+			else_if = {
+				limit = {
+					country_exists = HNN
+				}
+				declare_war_on = { target = HNN type = annex_everything }
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = CHIwar.4.a
+		set_cosmetic_tag = GDC_csg
 	}
 	
 }

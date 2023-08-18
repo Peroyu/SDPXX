@@ -5,10 +5,12 @@ MMA_sold_weapon = {
 		original_tag = MMA
 	}
 	visible = {
+		has_war = no
 		tag = MMA
 		has_completed_focus = Poor_imperialism
 	}
 	available = {
+		has_war = no
 		tag = MMA
 		has_completed_focus = Poor_imperialism
 	}
