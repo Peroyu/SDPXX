@@ -746,6 +746,51 @@ GDC_guerrilla_area = {
 			base = 100#ai点选这个决议的意愿
 		}
     }
+    GDC_contact_Jiang_Xi_comrades = {
+        icon = decision_generic_prepare_civil_war
+        fire_only_once = yes
+        highlight_states = {
+			highlight_state_targets = {
+				state = 912
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+        cost = 25
+        days_remove = 10
+        complete_effect = {
+			add_command_power = -10
+        }
+        available = {
+            
+            check_variable = { #检查变量大小
+	            var = global.CHI_Jiang_Xi_control
+	            value = 80
+	            compare = greater_than_or_equals
+            }
+        }
+        modifier = {
+			set_country_flag = HASDONE
+		}
+        remove_effect = {
+			add_to_variable = { global.CHI_huazhong_regional_tension = 10 }
+            custom_effect_tooltip = CHI_v_regional_tension_increase
+            888 = {
+                set_demilitarized_zone = no
+            }
+           JXP = {
+            transfer_state = 888
+            transfer_state = 913
+            transfer_state = 912
+            add_state_core = 888
+            add_state_core = 913
+            add_state_core = 912
+           }
+		}
+        ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+    }
     GDC_contact_Hu_Nan_comrades = {
         icon = decision_generic_prepare_civil_war
         fire_only_once = yes

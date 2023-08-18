@@ -1,0 +1,38 @@
+capital = 840  
+
+obb = "empty"  
+
+set_research_slots = 2 
+
+set_war_support = 0.7 
+set_stability = 0.3 
+
+
+set_politics = {
+	ruling_party = social_democracy 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	moderate_socialism = 20
+	social_democracy = 18
+	conservatism = 22
+	Liberalism = 4
+	movement_communism = 16
+	committee_communism = 12
+	communism = 8
+}
+
+create_country_leader = {
+	name = "陈毅"  # 领导人名称
+	desc = "/"  # 人物介绍
+	picture = "Portrait_CHI_Chen_Yi"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = reformed_socialism # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+

@@ -3,4 +3,4 @@
 graphical_culture = asian_gfx  # 文化组
 graphical_culture_2d = asian_2d # 兵模
 
-color = rgb { 241 134 135 } #  rgp色号
+color = rgb {  180 0 0  } #  rgp色号

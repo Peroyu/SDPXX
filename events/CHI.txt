@@ -18,10 +18,10 @@ country_event = {
 				add_to_faction = MMA
 				add_to_faction = SIK
 			}
-			JAP = {
+			RCR = {
 				country_event = {
 					id = CHIwar.2
-					days = 10
+					days = 30
 				}
 			}
 		}
@@ -34,9 +34,9 @@ country_event = {
 		name = CHIwar.1.a
 		if = {
 			limit = {
-				tag = JAP
+				tag = CJF
 			}
-			
+			custom_effect_tooltip = CHIwar_100days
 		}
 		else_if = {
 			limit = {
@@ -87,12 +87,9 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.2.a
-		
-		
-		RCR = {
 			declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			add_ideas = CHI_WAR_TENSION_condition
-		}
+		
 		set_variable = { var = global.chi_uni_nuon value = 5 }
 	}
 	

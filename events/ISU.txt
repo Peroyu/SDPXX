@@ -15,7 +15,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			create_faction = 社会主义国际
+			
 			every_country = {
 				limit = { is_ai = no }
 			news_event = {

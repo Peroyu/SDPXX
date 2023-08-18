@@ -223,7 +223,7 @@ CHI_regional_tension_rate = {
 	GDC_hunan_millitary_action = {
 	    icon = decision_generic_prepare_civil_war
 		available = {
-			
+			has_completed_focus = GDC_fly_the_flag
 			tag = GDC
 			country_exists = HNN
 		}
@@ -240,21 +240,26 @@ CHI_regional_tension_rate = {
 			country_exists = HNN
 		}
 		cost = 10
+		days_remove = 5
 		  fire_only_once = yes      
         complete_effect = {   
 			HNN = {
 				add_ideas = CHI_sourthwest_crisis
 			}
+			set_autonomy = {
+				target = KHN
+				autonomy_state = autonomy_puppet
+			}
+		}
+		remove_effect = {
 			KHN = {
 				declare_war_on = {target = HNN type = annex_everything }
 			}
 			declare_war_on = {target = HNN type = annex_everything }
 			custom_effect_tooltip = CHI_v_regional_tension_increase_plus
 			add_to_variable = { global.CHI_huazhong_regional_tension = 20 }
-			set_autonomy = {
-				target = KHN
-				autonomy_state = autonomy_puppet
-			}
+			
+			
         }
 	}
 }

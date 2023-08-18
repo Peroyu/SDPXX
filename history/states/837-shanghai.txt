@@ -1,7 +1,7 @@
 
 state={
 	id=837
-	name="STATE_837"
+	name="上海"
 	provinces={
 		7014 12076 
 	}
