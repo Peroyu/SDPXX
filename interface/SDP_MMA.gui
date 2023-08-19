@@ -1,0 +1,21 @@
+guiTypes ={
+	containerWindowType = {#主窗口
+		name = "SDP_MMA_discord_window_main"
+		position = { x = 0 y = 0 }
+		size = { width = 300 height = 300 }
+		iconType = {
+			name = "decisions_MMA_discord"
+			spriteType = "GFX_decisions_MMA_discord"		
+			position = { x = 170  y = 0 }
+		}
+        instantTextboxType = {
+			name = "SDP_MMA_discord_intro"
+			position = { x = 0 y = 0 }
+			font = "hoi_20b"
+			text = "SDP_MMA_discord_intro"
+			maxWidth = 300
+			maxHeight = 300
+			format = center
+	    }		
+	}
+}

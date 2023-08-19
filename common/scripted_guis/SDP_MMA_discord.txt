@@ -1,0 +1,9 @@
+scripted_gui = {
+	SDP_MMA_discord ={
+		window_name = "SDP_MMA_discord_window_main"
+		context_type = decision_category
+		visible = {
+			tag = MMA
+		}
+	}
+}
