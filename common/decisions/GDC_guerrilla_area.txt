@@ -715,7 +715,12 @@ GDC_guerrilla_area = {
 			add_command_power = -10
         }
         available = {
-            
+            OR = {
+                has_country_leader = { ruling_only = yes name = "李立三" }
+                has_country_leader = { ruling_only = yes name = "杨匏安" }
+                has_country_leader = { ruling_only = yes name = "何香凝" }
+                has_country_leader = { ruling_only = yes name = "李济深" }
+            }
             check_variable = { #检查变量大小
 	            var = global.CHI_Fu_Jian_control
 	            value = 80
@@ -759,7 +764,12 @@ GDC_guerrilla_area = {
 			add_command_power = -10
         }
         available = {
-            
+            OR = {
+                has_country_leader = { ruling_only = yes name = "李立三" }
+                has_country_leader = { ruling_only = yes name = "杨匏安" }
+                has_country_leader = { ruling_only = yes name = "何香凝" }
+                has_country_leader = { ruling_only = yes name = "李济深" }
+            }
             check_variable = { #检查变量大小
 	            var = global.CHI_Jiang_Xi_control
 	            value = 80
@@ -811,7 +821,12 @@ GDC_guerrilla_area = {
 	        }
         }
         available = {
-            
+            OR = {
+                has_country_leader = { ruling_only = yes name = "李立三" }
+                has_country_leader = { ruling_only = yes name = "杨匏安" }
+                has_country_leader = { ruling_only = yes name = "何香凝" }
+                has_country_leader = { ruling_only = yes name = "李济深" }
+            }
             check_variable = { #检查变量大小
 	            var = global.CHI_Fu_Jian_control
 	            value = 80

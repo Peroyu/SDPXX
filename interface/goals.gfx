@@ -1041,6 +1041,31 @@ spriteTypes = {
 		name = "GFX_CJF_huangpu_22nd"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_22nd.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_huangpu_22nd_artrtllry"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_22nd_artrtllry.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_huangpu_22nd_infantry"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_22nd_infantry.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_huangpu_22nd_workers"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_22nd_workers.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_attack_army_plan"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_attack_army_plan.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_huangpu_23th"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_23th.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

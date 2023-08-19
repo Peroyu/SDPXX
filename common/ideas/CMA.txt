@@ -27,11 +27,10 @@ ideas = {
 			}
             removal_cost = -1
             modifier = {
-			attrition = 0.3
-			army_org_factor = -0.1
-			army_morale_factor = -0.15
-			supply_consumption_factor = 0.2
-			no_supply_grace = 240
+			attrition = 0.7
+			army_org_factor = -0.3
+			army_morale_factor = -0.3
+			supply_consumption_factor = 0.8
 			}
 	    
 		}
