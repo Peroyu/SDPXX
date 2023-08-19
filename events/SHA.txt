@@ -360,7 +360,9 @@ country_event = {
 				}
 			} 
 			40 = { 
-				
+				JAP = {
+					add_to_faction = JIN
+				}
 			} 
 		}
 	}
@@ -375,12 +377,10 @@ country_event = {
                     compare = less_than
             }
 		}
-		name = SHA.1.c
-		random_list = { 
+		name = SHA.1.c 
 			JAP = {
 				add_to_faction = JIN
 			}
-		}
 	}
 	
 }

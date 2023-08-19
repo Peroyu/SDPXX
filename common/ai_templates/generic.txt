@@ -1,13 +1,6 @@
 armor_generic = {
 
-	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-	}
+	
 
 	roles = {
 		armor
@@ -367,14 +360,7 @@ armor_generic = {
 
 garrison_generic = {
 
-	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-	}
+	
 	
 	roles = {
 		garrison
@@ -785,14 +771,7 @@ infantry_big_generic = {
 
 mountaineers_generic = {
 
-	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-	}
+	
 
 	roles = {
 		mountaineers
@@ -803,9 +782,7 @@ mountaineers_generic = {
 
 		modifier = {
 			factor = 0
-			NOT = {
-				has_tech = tech_mountaineers
-			}
+			
 		}
 	}
 	
@@ -887,14 +864,7 @@ mountaineers_generic = {
 
 marines_generic = {
 
-	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-	}
+	
 
 	roles = {
 		marines
@@ -905,9 +875,7 @@ marines_generic = {
 
 		modifier = {
 			factor = 0
-			NOT = {
-				has_tech = marines
-			}
+			
 		}
 	}
 	
@@ -984,14 +952,7 @@ marines_generic = {
 
 paratrooper_generic = {
 
-	blocked_for = {
-		GER
-		JAP
-		ENG
-		USA
-		ITA
-		SOV
-	}
+	
 
 	roles = {
 		paratrooper
@@ -1002,9 +963,7 @@ paratrooper_generic = {
 
 		modifier = {
 			factor = 0
-			NOT = {
-				has_tech = paratroopers
-			}
+			
 		}
 	}
 	

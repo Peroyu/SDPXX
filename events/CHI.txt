@@ -169,6 +169,32 @@ country_event = {
 	
 }
 country_event = {
+    id = CHIwar.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.5 FROM = [From.GetName]" }
+	title = CHIwar.5.t
+	desc = CHIwar.5.d
+	picture = GFX_CHIwar1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		custom_effect_tooltip = Wu_Han_reget_tt
+		name = CHIwar.1.a
+		
+	}
+	
+}
+country_event = {
     id = CHIwar.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CHIwar.3 FROM = [From.GetName]" }

@@ -22,6 +22,8 @@ CHI_reuni = {
 		cost = 0
 		complete_effect = {
 			declare_war_on = { target = MEN type = puppet_wargoal_focus }
+			add_to_variable = { var = global.chi_uni_nuon value = 1 }
+				custom_effect_tooltip = CHI_war_added
 			hidden_effect = {
 				MEN = {
 					add_ideas = CHI_WAR_TENSION_condition
@@ -36,19 +38,15 @@ CHI_reuni = {
 				add_to_variable = { var = global.chi_uni_nuon value = 1 }
 				custom_effect_tooltip = CHI_war_added
 			}
-			else_if = {
-				limit = {
-					NOT = {
-						JIN = {
-							has_war = yes
-						}
-					}
-				}
+			else = {
 				JIN = {
 					country_event = SHA.1
 					days = 1
 				}
 			}
+		}
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
 		}
 	}
 	CHI_enter_china = {
@@ -61,7 +59,7 @@ CHI_reuni = {
 			tag = JAP
 			check_variable = { #检查变量大小
                     var = global.chi_uni_nuon
-                    value = 7
+                    value = 6
                     compare = greater_than_or_equals
             }
 		}
@@ -71,136 +69,16 @@ CHI_reuni = {
 				has_war = yes
 			}
 		}
-		cost = 0
+		cost = 1
 		complete_effect = {
 			declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			add_to_variable = { var = global.chi_uni_nuon value = 1 }
 			custom_effect_tooltip = CHI_war_added
-			add_ideas = CHI_WAR_TENSION_condition
+		}
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
 		}
 	}
-	CHI_call_manchu = {
-		icon = decision_generic_prepare_civil_war
-		fire_only_once = yes
-		allowed = {
-			original_tag = RCR
-		}
-		available = {
-			tag = RCR
-			check_variable = { #检查变量大小
-                    var = global.chi_uni_nuon
-                    value = 6
-                    compare = greater_than_or_equals
-            }
-			OR = {
-			NOT = {
-				any_country = {
-					limit = { 
-						OR = {
-							is_in_faction_with = RCR
-							original_tag = RCR 
-						}
-					}
-					controls_state = 908
-					controls_state = 596
-				}
-				
-			}
-		}
-		}
-		visible = {
-			tag = RCR
-			RCR = {
-				has_war = yes
-			}
-		}
-		cost = 0
-		complete_effect = {
-			MAN = {
-				declare_war_on = { target = CJF type = puppet_wargoal_focus }
-				add_to_variable = { var = global.chi_uni_nuon value = 1 }
-				custom_effect_tooltip = CHI_war_added
-				add_ideas = CHI_WAR_TENSION_condition
-			}
-		}
-	}
-	CHI_call_huabei = {
-		icon = decision_generic_prepare_civil_war
-		fire_only_once = yes
-		allowed = {
-			original_tag = RCR
-		}
-		available = {
-			tag = RCR
-			check_variable = { #检查变量大小
-                    var = global.chi_uni_nuon
-                    value = 5
-                    compare = greater_than_or_equals
-            }
-			
-			NOT = {
-				any_country = {
-					limit = { 
-						OR = {
-							is_in_faction_with = RCR
-							original_tag = RCR 
-						}
-					}
-					controls_state = 602
-				}
-				
-			}
-		}
-		visible = {
-			tag = RCR
-			RCR = {
-				has_war = yes
-			}
-		}
-		cost = 0
-		complete_effect = {
-			FNC = {
-				declare_war_on = { target = CJF type = puppet_wargoal_focus }
-				add_to_variable = { var = global.chi_uni_nuon value = 1 }
-				custom_effect_tooltip = CHI_war_added
-				add_ideas = CHI_WAR_TENSION_condition
-			}
-			if = {
-				limit = {
-					check_variable = { #检查变量大小
-            			var = global.CHI_huabeifankang
-           			 	value = 50
-            			compare = greater_than_or_equals
-					}
-					check_variable = { #检查变量大小
-            			var = global.CHI_huabeifankang
-           			 	value = 100
-            			compare = less_than
-					}
-				}
-				FNC = {
-					country_event = {
-						id = FNC.1
-						days = 1
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					check_variable = { #检查变量大小
-            			var = global.CHI_huabeifankang
-           			 	value = 100
-            			compare = greater_than_or_equals
-					}
-				}
-				FNC = {
-					country_event = {
-						id = FNC.2
-						days = 1
-					}
-				}
-			}
-		}
-	}
+
 
 }
