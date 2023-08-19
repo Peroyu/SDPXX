@@ -360,7 +360,7 @@ country_event = {
 				}
 			} 
 			40 = { 
-				JAP = {
+				NIP = {
 					add_to_faction = JIN
 				}
 			} 
@@ -378,7 +378,7 @@ country_event = {
             }
 		}
 		name = SHA.1.c 
-			JAP = {
+			NIP = {
 				add_to_faction = JIN
 			}
 	}

@@ -9,7 +9,7 @@ scripted_gui = {
 			tag = MMA
 			tag = GDC
 			tag = SIK
-			tag = JAP
+			tag = NIP
 			tag = RCR
 			}
 		}

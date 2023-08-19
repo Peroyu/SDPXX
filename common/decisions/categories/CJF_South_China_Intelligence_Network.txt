@@ -6,7 +6,7 @@ CJF_South_China_Intelligence_Network = {
 			tag = GDC
 			tag = CJF
 			tag = RCR
-			tag = JAP
+			tag = NIP
 			}
 		NOT = { 
 			country_exists = CMA 

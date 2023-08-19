@@ -53,10 +53,10 @@ CHI_reuni = {
 		icon = decision_generic_prepare_civil_war
 		fire_only_once = yes
 		allowed = {
-			original_tag = JAP
+			original_tag = NIP
 		}
 		available = {
-			tag = JAP
+			tag = NIP
 			check_variable = { #检查变量大小
                     var = global.chi_uni_nuon
                     value = 6
@@ -64,7 +64,7 @@ CHI_reuni = {
             }
 		}
 		visible = {
-			tag = JAP
+			tag = NIP
 			RCR = {
 				has_war = yes
 			}

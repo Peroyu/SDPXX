@@ -7,7 +7,7 @@ CHI_reuni = {
 		original_tag = CJF
 		original_tag = GDC
 		original_tag = RCR
-		original_tag = JAP
+		original_tag = NIP
 		original_tag = MMA
 		}
 	}
@@ -17,7 +17,7 @@ CHI_reuni = {
 			tag = CJF
 			tag = GDC
 			tag = RCR
-			tag = JAP
+			tag = NIP
 			tag = MMA
 			}
 		}

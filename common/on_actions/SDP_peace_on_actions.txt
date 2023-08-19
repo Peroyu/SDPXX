@@ -182,7 +182,7 @@ on_actions = {
 						transfer_state = 326
 						add_state_core = 326
 					}
-					JAP = {
+					NIP = {
 						set_autonomy = {
 							target = GHN
 							autonomy_state = autonomy_colony
@@ -229,8 +229,8 @@ on_actions = {
 					limit = {
 						FROM = {
 							OR = {
-								original_tag = JAP
-								is_in_faction_with = JAP
+								original_tag = NIP
+								is_in_faction_with = NIP
 							}
 						}
 						ROOT = {
@@ -283,7 +283,7 @@ on_actions = {
 						set_cosmetic_tag = FCH
 					}
 					
-					JAP = {
+					NIP = {
 						set_autonomy = {
 							target = CJF
 							autonomy_state = autonomy_puppet

@@ -433,26 +433,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_ghost_of_Jim_crow.png"
 	}
 
-	######################JAP#########################################3
+	######################NIP#########################################3
 
 	spriteType = {
-		name = "GFX_idea_JAP_Victory_in_the_bubble"
-		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_Victory_in_the_bubble.png"
+		name = "GFX_idea_NIP_Victory_in_the_bubble"
+		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_Victory_in_the_bubble.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_JAP_Rival_services_N"
-		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_Rival_services_N.png"
+		name = "GFX_idea_NIP_Rival_services_N"
+		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_Rival_services_N.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_JAP_pan_Asia_dream"
-		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_pan_Asia_dream.png"
+		name = "GFX_idea_NIP_pan_Asia_dream"
+		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_pan_Asia_dream.png"
 	}
 
 	spriteType = {
-		name = "GFX_idea_JAP_politic_warn"
-		texturefile = "gfx/interface/ideas/JAP/GFX_idea_JAP_politic_warn.png"
+		name = "GFX_idea_NIP_politic_warn"
+		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_politic_warn.png"
 	}
 
 	###################################################3

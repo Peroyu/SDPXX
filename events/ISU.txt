@@ -1,4 +1,4 @@
-﻿add_namespace = nuke
+﻿add_namespace = nukeEVENT
 add_namespace = GER
 add_namespace = HUN
 add_namespace = ISU_event
@@ -81,7 +81,7 @@ country_event = {
 	}
 }
 country_event = {
-    id = nuke.1
+    id = nukeEVENT.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	nuke.1 FROM = [From.GetName]" }
 	title = nuke.1.t
@@ -98,13 +98,7 @@ country_event = {
 				controller = CAS
 				use_nuke = yes
 			}
-			every_country = {
-				limit = { is_ai = no }
-				news_event = {
-					id = ISU.3
-					days = 1
-				}
-			}
+
 		}
     }
 	

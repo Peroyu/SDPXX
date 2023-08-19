@@ -71,7 +71,7 @@ CHI_regional_tension_rate = {
 	    icon = decision_generic_prepare_civil_war
 		available = {
 			CJF = {
-			has_war_with = JAP
+			has_war_with = NIP
 			}
 		}
 		activation = {

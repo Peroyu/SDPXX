@@ -54,19 +54,19 @@ bookmarks = {
 			CJF_The_country_is_in_trouble
 			}
 		}
-		"JAP"={
+		"NIP"={
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = reactionism
 			available = {}
 			ideas = {
-			JAP_Victory_in_the_bubble
-			JAP_Rival_services_N
-			JAP_politic_warn
+			NIP_Victory_in_the_bubble
+			NIP_Rival_services_N
+			NIP_politic_warn
 			}
 			focuses = {
-			JAP_Showa_Demokurashi
-			JAP_1947_meeting
-			JAP_Continental_operations_resumed
+			NIP_Showa_Demokurashi
+			NIP_1947_meeting
+			NIP_Continental_operations_resumed
 			}
 		}
 		"XKS"={
