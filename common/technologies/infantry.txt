@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1933
 		folder = {
 			name = infantry_folder
@@ -93,7 +93,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -121,7 +121,7 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -411,7 +411,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -470,7 +470,7 @@ technologies = {
 			ap_attack = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1945
 		folder = {
 			name = infantry_folder
@@ -532,7 +532,7 @@ technologies = {
 			ap_attack = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1953
 		folder = {
 			name = infantry_folder
@@ -840,7 +840,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1933
 		folder = {
 			name = infantry_folder
@@ -901,7 +901,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -963,7 +963,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -1019,7 +1019,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -1078,7 +1078,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1945
 		folder = {
 			name = infantry_folder
@@ -1137,7 +1137,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1948
 		folder = {
 			name = infantry_folder
@@ -1196,7 +1196,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1951
 		folder = {
 			name = infantry_folder
@@ -1255,7 +1255,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1954
 		folder = {
 			name = infantry_folder
@@ -1314,7 +1314,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		start_year = 1957
 		folder = {
 			name = infantry_folder

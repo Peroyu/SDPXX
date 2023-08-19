@@ -82,7 +82,7 @@ set_variable = { var = GDC.GDC_crop_produce value = 32 }
 set_variable = { var = GDC.GDC_rural_hunger_v value = 70 }
 set_variable = { var = GDC.GDC_city_hunger_v value = 26 }
 set_variable = { var = GDC.GDC_rural_city_add value = 2 }
-set_variable = { var = GDC.GDC_rural_hunger_add value = 5 }
+set_variable = { var = GDC.GDC_rural_hunger_add value = 3 }
 set_country_flag = GDC_hunger_on_going
 add_ideas = {
 	tot_economic_mobilisation
