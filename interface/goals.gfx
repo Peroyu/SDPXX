@@ -1066,6 +1066,11 @@ spriteTypes = {
 		name = "GFX_CJF_huangpu_23th"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_huangpu_23th.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_chemical_defence"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_chemical_defence.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
