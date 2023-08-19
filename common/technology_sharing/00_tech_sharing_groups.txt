@@ -1,0 +1,15 @@
+
+technology_sharing_group = { #Rikagaku Kenkyusho (Japan)
+	id = japan_research
+	name = japan_research_name
+	desc = japan_research_desc
+	picture = GFX_JAP_technology_sharing_default
+
+	research_sharing_per_country_bonus = 0.1
+
+	available = {
+		country_exists = JAP
+		NOT = { has_war_with = JAP }
+		
+	}
+}

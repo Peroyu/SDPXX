@@ -2,20 +2,11 @@
 
 oob = "CJF_1947" 
 
-set_research_slots = 3 
+set_research_slots = 2
 
 set_war_support = 0.8 
 set_stability = 0.6
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	mass_assault = 1
-	fleet_in_being = 1
-	basic_train = 1
-}
+
 set_country_flag = CHI_economic_sphere
 set_country_flag = CHI_politic_apart_condition
 country_event = { id = CJF_op.1 days = 1 }
@@ -35,6 +26,55 @@ set_popularities = {
 	Liberalism = 5
 	moderate_socialism = 8
 	communism = 2
+}
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons2 = 1
+	infantry_weapons1 = 1
+	infantry_strike_force_1 = 1
+	infantry_at = 1
+	infantry_heavy_weapens_1 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	motorised_infantry_0 = 1
+
+	#support#
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	#artillery#
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	Anti_Material_Weapon = 1
+
+	#armor#
+	basic_light_tank_chassis = 1
+	basic_light_tank_chassis_improve = 1
+	basic_medium_tank_chassis = 1
+	super_light_armor = 1
+
+	#air#
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+
+	#navy#
+	early_destroyer = 1
+
+	#techss#
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	
+	#industry#
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	fuel_silos = 1
 }
 set_variable = { var = SDP_economic_v value = 12 }#60
 set_variable = { var = SDP_education_v value = 18 }#50

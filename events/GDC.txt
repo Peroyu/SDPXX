@@ -347,6 +347,8 @@ country_event = {
 }
 country_event = {
 	id = GDCarm.2 #讨论干部队伍
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCarm.2  FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCarm.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -365,6 +367,8 @@ country_event = {
 }
 country_event = {
 	id = GDCarm.3 #整编游击队伍
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCarm.3  FROM = [From.GetName]" }
     picture = GFX_xiangnan
     title = GDCarm.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
@@ -390,7 +394,7 @@ country_event = {
     title = GDClkmt.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -433,8 +437,7 @@ country_event = {
     title = GDClkmt.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
+	is_triggered_only = yes
 	hidden = no
 	immediate = {
 	    hidden_effect = {
@@ -466,8 +469,7 @@ country_event = {
     title = GDClkmt.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    9
+    is_triggered_only = yes
 	hidden = no
 	immediate = {
 	    hidden_effect = {
@@ -497,7 +499,7 @@ country_event = {
     title = GDClkmt.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClkmt.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -645,8 +647,7 @@ country_event = {
     title = GDCmcpc.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
+    is_triggered_only = yes
 	hidden = no
 	immediate = {
 	    hidden_effect = {
@@ -665,7 +666,7 @@ country_event = {
     title = GDCmcpc.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -689,7 +690,7 @@ country_event = {
     title = GDCmcpc.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -714,7 +715,7 @@ country_event = {
     title = GDCmcpc.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -738,7 +739,7 @@ country_event = {
     title = GDCmcpc.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -773,7 +774,7 @@ country_event = {
     title = GDCmcpc.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -795,7 +796,7 @@ country_event = {
     title = GDCmcpc.7.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.7.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -824,7 +825,7 @@ country_event = {
     title = GDCmcpc.8.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCmcpc.8.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -847,7 +848,7 @@ country_event = {
     title = GDClcpc.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -870,7 +871,7 @@ country_event = {
     title = GDClcpc.9.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.9.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	
@@ -901,7 +902,7 @@ country_event = {
     title = GDClcpc.10.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.10.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	
@@ -919,7 +920,7 @@ country_event = {
     title = GDClcpc.11.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.11.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -940,7 +941,7 @@ country_event = {
     title = GDClcpc.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -972,8 +973,7 @@ country_event = {
     title = GDClcpc.14.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.14.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
-    
+	is_triggered_only = yes
 	hidden = no
 	immediate = {
 	    hidden_effect = {
@@ -993,7 +993,7 @@ country_event = {
     title = GDClcpc.15.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.15.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1014,7 +1014,7 @@ country_event = {
     title = GDClcpc.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1049,7 +1049,7 @@ country_event = {
     title = GDClcpc.12.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.12.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1072,7 +1072,7 @@ country_event = {
     title = GDClcpc.13.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.13.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1095,7 +1095,7 @@ country_event = {
     title = GDClcpc.4.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.4.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1117,7 +1117,7 @@ country_event = {
     title = GDClcpc.5.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.5.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1138,7 +1138,7 @@ country_event = {
     title = GDClcpc.6.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDClcpc.6.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+	is_triggered_only = yes
     
 	hidden = no
 	immediate = {

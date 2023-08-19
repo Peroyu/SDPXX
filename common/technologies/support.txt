@@ -1288,7 +1288,7 @@ technologies = {
 		}
 
 		dependencies = {
-			motorised_infantry = 1
+			motorised_infantry_0 = 1
 		}
 
 		research_cost = 2
@@ -1552,7 +1552,7 @@ technologies = {
 		}
 
 		dependencies = {
-			motorised_infantry = 1
+			motorised_infantry_0 = 1
 		}
 
 		research_cost = 2
@@ -1819,7 +1819,7 @@ technologies = {
 
 		dependencies = {
 			radio = 1
-			motorised_infantry = 1
+			motorised_infantry_0 = 1
 		}
 
 		research_cost = 2
