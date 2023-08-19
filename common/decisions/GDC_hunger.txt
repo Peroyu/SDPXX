@@ -30,6 +30,69 @@ GDC_hunger = {
                 
           }
         }
+      crop_crush = { 
+	      icon = decision_revolt
+          available = { 
+            MOT = { has_country_flag = GDC_hunger_on_going }
+           
+          }
+		  visible = {
+		   tag = GDC
+       has_country_flag = GDC_hunger_on_going
+       OR = {
+       check_variable = { #检查变量大小
+	              var = GDC.GDC_city_hunger_v
+	              value = 79
+	              compare = greater_than
+              }
+              check_variable = { #检查变量大小
+              var = GDC.GDC_city_hunger_v
+              value = 79
+              compare = greater_than
+            }
+            }
+		  }
+      activation = {
+        OR = {
+          check_variable = { #检查变量大小
+                   var = GDC.GDC_city_hunger_v
+                   value = 79
+                   compare = greater_than
+                 }
+                 check_variable = { #检查变量大小
+                 var = GDC.GDC_city_hunger_v
+                 value = 79
+                 compare = greater_than
+               }
+               }
+      }
+		  cancel_trigger = {
+		    OR = {
+          check_variable = { #检查变量大小
+                   var = GDC.GDC_city_hunger_v
+                   value = 79
+                   compare = less_than_or_equals
+                 }
+                 check_variable = { #检查变量大小
+                 var = GDC.GDC_city_hunger_v
+                 value = 79
+                 compare = less_than_or_equals
+               }
+               }
+		  }
+          is_good = no    
+		  fire_only_once = no             
+          days_mission_timeout = 15           
+          timeout_effect = {     
+            
+		        }
+          complete_effect = {                   
+                custom_effect_tooltip = GDC_hunger_crush
+                hidden_effect = {
+                  
+                }
+          }
+        }
     hunger_add_city_supply = {
           icon = decision_generic_political_discourse
           visible = {
