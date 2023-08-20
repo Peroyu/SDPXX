@@ -32,9 +32,7 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		CJF = {
-			set_major = yes
-		}
+		
 		name = CHIwar.1.a
 			custom_effect_tooltip = CHIwar_100days
 		
@@ -56,6 +54,18 @@ country_event = {
 			set_global_flag = ASIA_CHI_JAP_WAR
 			declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			every_country = {
+				limit = {
+					OR = {
+					original_tag = CJF
+					is_in_faction_with = CJF
+					}
+				}
+				country_event = {
+					id = CHIwar.4
+					days = 1
+				}
+			}
+			every_country = {
 				limit = { is_ai = no }
 				
 				news_event = {
@@ -71,18 +81,7 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.2.a
-		every_country = {
-			limit = {
-				OR = {
-				original_tag = CJF
-				is_in_faction_with = CJF
-				}
-			}
-			country_event = {
-				id = CHIwar.4
-				days = 1
-			}
-		}
+		
 		set_variable = { var = global.chi_uni_nuon value = 5 }
 	}
 	

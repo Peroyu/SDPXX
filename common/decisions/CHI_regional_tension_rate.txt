@@ -78,32 +78,32 @@ CHI_regional_tension_rate = {
 		   or = {
 		   		check_variable = {
 					var = global.CHI_dongbei_regional_tension
-					value = 70
+					value = 60
 					compare = greater_than_or_equals
 				}
 				check_variable = {
 					var = global.CHI_huabei_regional_tension
-					value = 70
+					value = 60
 					compare = greater_than_or_equals
 				}
 				check_variable = {
 					var = global.CHI_xibei_regional_tension
-					value = 70
+					value = 60
 					compare = greater_than_or_equals
 				}
 				check_variable = {
 					var = global.CHI_huanan_regional_tension
-					value = 70
+					value = 50
 					compare = greater_than_or_equals
 				}
 				check_variable = {
 					var = global.CHI_xinan_regional_tension
-					value = 70
+					value = 60
 					compare = greater_than_or_equals
 				}
 				check_variable = {
 					var = global.CHI_huazhong_regional_tension
-					value = 70
+					value = 60
 					compare = greater_than_or_equals
 				}
 			}    
@@ -117,6 +117,9 @@ CHI_regional_tension_rate = {
           is_good = no    
 		  fire_only_once = yes              
         timeout_effect = { 
+			CJF = {
+				set_major = yes
+			}
 		  country_event = {
                 id = CHIwar.1
                 days = 1			
