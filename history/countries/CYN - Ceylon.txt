@@ -2,7 +2,7 @@ capital = 422
 
 set_research_slots = 2 
 
-oob = "CYN_1947"
+set_oob = "CYN_1947"
 
 set_war_support = 0.7
 set_stability = 0.2

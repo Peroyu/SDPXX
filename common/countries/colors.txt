@@ -7,6 +7,18 @@ GDC = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
 }
+FJN = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 180 0 0 }
+}
+KHN = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 180 0 0 }
+}
+JXP = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 180 0 0 }
+}
 AFG = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }

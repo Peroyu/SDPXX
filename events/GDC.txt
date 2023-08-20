@@ -191,8 +191,8 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			set_nationality = KHN
-			set_nationality = HNN
+			set_nationality = KHN 
+		promote_leader = yes 
             
 			840 = {
                 set_demilitarized_zone = no
@@ -204,14 +204,8 @@ country_event = {
 				transfer_state = 840
 				transfer_state = 838
 				give_military_access = GDC
+				load_oob = KHN_1947
 			}
-			
-			NIP = {
-				add_to_faction = HNN
-			}
-			HNN = {
-				transfer_state = 602
-			} 
 		}
     }
 	option = { 
@@ -229,11 +223,6 @@ country_event = {
 			}
 			KHN = {
 
-				transfer_state = 750
-			}
-		}
-		else = {
-			HNN = {
 				transfer_state = 750
 			}
 		}

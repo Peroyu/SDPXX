@@ -1,5 +1,5 @@
 ﻿capital = 594
-oob = "GDC_1947"
+set_oob = "GDC_1947"
 set_research_slots = 2
 # Starting tech
 set_technology = {

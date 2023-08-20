@@ -1,6 +1,6 @@
 ﻿capital = 608
 
-oob = "FNC_1947"
+set_oob = "FNC_1947"
 
 # Starting tech
 set_technology = {

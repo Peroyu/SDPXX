@@ -13,12 +13,13 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		    CJF = {
-				create_faction = 抗日民族统一战线
+				create_faction = "抗日民族统一战线"
 				add_to_faction = GDC
 				add_to_faction = MMA
 				add_to_faction = SIK
 			}
 			RCR = {
+				set_major = yes
 				country_event = {
 					id = CHIwar.2
 					days = 30
@@ -31,31 +32,12 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		CJF = {
+			set_major = yes
+		}
 		name = CHIwar.1.a
-		if = {
-			limit = {
-				tag = CJF
-			}
 			custom_effect_tooltip = CHIwar_100days
-		}
-		else_if = {
-			limit = {
-				tag = MMA
-			}
-			custom_effect_tooltip = CHIwar_100days
-		}
-		else_if = {
-			limit = {
-				tag = GDC	
-			}
-			custom_effect_tooltip = CHIwar_100days
-		}
-		else_if = {
-			limit = {
-				tag = SIK	
-			}
-			custom_effect_tooltip = CHIwar_100days
-		}
+		
 	}
 	
 }
@@ -72,8 +54,10 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			set_global_flag = ASIA_CHI_JAP_WAR
+			declare_war_on = { target = CJF type = puppet_wargoal_focus }
 			every_country = {
 				limit = { is_ai = no }
+				
 				news_event = {
 					id = CHI_war.1
 					days = 1
@@ -87,12 +71,12 @@ country_event = {
 		   base = 50
 		}
 		name = CHIwar.2.a
-			declare_war_on = { target = CJF type = puppet_wargoal_focus }
-			add_ideas = CHI_WAR_TENSION_condition
 		every_country = {
 			limit = {
+				OR = {
 				original_tag = CJF
 				is_in_faction_with = CJF
+				}
 			}
 			country_event = {
 				id = CHIwar.4
@@ -126,12 +110,17 @@ country_event = {
 		}
 		trigger = {
 			NOT = {
+				OR = {
+				tag = CJF
 				tag = GDC
+				}
 			}
 		}
 		name = CHIwar.4.a
 		
 	}
+
+	
 	option = { 
 	    ai_chance = {
 		   base = 50
@@ -139,58 +128,32 @@ country_event = {
 		trigger = {
 			tag = GDC
 		}
-		name = CHIwar.4.a
+		name = CHIwar.4.b
 		if = {
 			limit = {
 				country_exists = FJN
 			}
 			annex_country = { target = FJN transfer_troops = yes }
 		}
-		else_if = {
+		if = {
 			limit = {
 				country_exists = KHN
 			}
 			annex_country = { target = KHN transfer_troops = yes }
 		}
-		else_if = {
+		if = {
 			limit = {
 				country_exists = JXP
 			}
 			annex_country = { target = JXP transfer_troops = yes }
 		}
-		else_if = {
+		if = {
 			limit = {
 				country_exists = HNN
 			}
 			declare_war_on = { target = HNN type = annex_everything }
 		}
 		set_cosmetic_tag = GDC_csg
-	}
-	
-}
-country_event = {
-    id = CHIwar.5
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CHIwar.5 FROM = [From.GetName]" }
-	title = CHIwar.5.t
-	desc = CHIwar.5.d
-	picture = GFX_CHIwar1
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 50
-		}
-		custom_effect_tooltip = Wu_Han_reget_tt
-		name = CHIwar.1.a
-		
 	}
 	
 }

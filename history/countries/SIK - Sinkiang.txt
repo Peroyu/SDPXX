@@ -1,6 +1,6 @@
 capital = 617 # 首都地块
 
-obb = "SIK_1947"  # 军队文件
+oob = "SIK_1947"  # 军队文件
 
 set_research_slots = 2 # 设定科研槽
 
@@ -20,7 +20,10 @@ set_popularities = {
 	conservatism = 20
 }
 add_ideas = {
-SIK_Inconvenient_transportation
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
 }
 create_country_leader = {
 	name = "盛世才"  

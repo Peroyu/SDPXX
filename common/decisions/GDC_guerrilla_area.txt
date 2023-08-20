@@ -745,7 +745,7 @@ GDC_guerrilla_area = {
     }
     GDC_contact_Jiang_Xi_comrades = {
         icon = decision_generic_prepare_civil_war
-       
+        fire_only_once = yes
         highlight_states = {
 			highlight_state_targets = {
 				state = 912

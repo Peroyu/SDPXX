@@ -1,6 +1,6 @@
 ﻿capital = 889
 
-oob = "GNP_1947"
+set_oob = "GNP_1947"
 
 # Starting tech
 set_technology = {

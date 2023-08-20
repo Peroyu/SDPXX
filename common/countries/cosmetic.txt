@@ -51,10 +51,10 @@ MMA_wng = {
  color_ui = rgb { 100 149 155 }
 }
 KHN_hunan = {
- color = rgb { 241 134 135 }
- color_ui = rgb { 241 134 135 }
-}
-GDC_csg = {
  color = rgb { 180 0 0 }
  color_ui = rgb { 180 0 0 }
+}
+GDC_csg = {
+ color = rgb {100 149 155 }
+ color_ui = rgb {100 149 155 }
 }

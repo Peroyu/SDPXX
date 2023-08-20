@@ -1,6 +1,6 @@
 capital = 325 
 
-oob = "DJF_1947"  
+set_oob = "DJF_1947"  
 
 set_research_slots = 2
 

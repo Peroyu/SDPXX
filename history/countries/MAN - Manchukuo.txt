@@ -1,6 +1,6 @@
 ﻿capital = 328
 
-oob = "MAN_1947"
+set_oob = "MAN_1947"
 
 # Starting tech
 set_technology = {
@@ -72,6 +72,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+export_focus
+civilian_economy
+idea_volunteer_only
+##########
+}
 set_popularities = {
 	communism = 2
 	Liberalism = 13

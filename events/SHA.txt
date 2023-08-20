@@ -232,8 +232,8 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			set_nationality = FJN
-            promote_leader = yes 
+			set_nationality = FJN 
+		promote_leader = yes 
             886 = {set_demilitarized_zone = no}
             595 = {set_demilitarized_zone = no }
             FJN = {
@@ -242,7 +242,7 @@ country_event = {
                 transfer_state = 886
                 add_state_core = 595
             }
-	}
+		}
     }
 	
 	option = { 

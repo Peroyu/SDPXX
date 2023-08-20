@@ -1,6 +1,6 @@
 ﻿capital = 744
 
-oob = "SHA_1947"
+set_oob = "SHA_1947"
 
 # Starting tech
 set_technology = {

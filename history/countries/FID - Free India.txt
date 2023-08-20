@@ -1,5 +1,5 @@
 capital = 431
-oob = "FID_1947" 
+set_oob = "FID_1947" 
 set_research_slots = 2 
 
 set_war_support = 0.7
