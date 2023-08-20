@@ -170,7 +170,7 @@ MMA_discord_decision_categories = {
 			tag = MMA
 		}
 		complete_effect = {
-			set_country_flag = MMA_Hui_Han_National_Army
+			complete_national_focus = Reorganized_Hui_Han_National_Army
 		}
 	}
 }
