@@ -715,6 +715,9 @@ GDC_guerrilla_area = {
 			add_command_power = -10
         }
         available = {
+            NOT = {
+                country_exists = FJN
+            }
             OR = {
                 has_country_leader = { ruling_only = yes name = "李立三" }
                 has_country_leader = { ruling_only = yes name = "杨匏安" }
@@ -764,6 +767,9 @@ GDC_guerrilla_area = {
 	        }
         }
         available = {
+            NOT = {
+                country_exists = JXP
+            }
             OR = {
                 has_country_leader = { ruling_only = yes name = "李立三" }
                 has_country_leader = { ruling_only = yes name = "杨匏安" }
@@ -812,6 +818,9 @@ GDC_guerrilla_area = {
 	        }
         }
         available = {
+            NOT = {
+                country_exists = KHN
+            }
             OR = {
                 has_country_leader = { ruling_only = yes name = "李立三" }
                 has_country_leader = { ruling_only = yes name = "杨匏安" }
