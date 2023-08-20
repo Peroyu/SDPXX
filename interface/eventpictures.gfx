@@ -216,6 +216,22 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_GDCcp7.png"
 	}
 	spriteType = {
+		name = "GFX_GDCcp9"
+		texturefile = "gfx/event_pictures/GFX_GDCcp9.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp10"
+		texturefile = "gfx/event_pictures/GFX_GDCcp10.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp11"
+		texturefile = "gfx/event_pictures/GFX_GDCcp11.png"
+	}
+	spriteType = {
+		name = "GFX_GDCcp7"
+		texturefile = "gfx/event_pictures/GFX_GDCcp7.png"
+	}
+	spriteType = {
 		name = "GFX_SHA1"
 		texturefile = "gfx/event_pictures/GFX_SHA1.png"
 	}

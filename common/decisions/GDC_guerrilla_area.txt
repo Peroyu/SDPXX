@@ -36,7 +36,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
 	GDC_infultrate_limit_Jiang_Xi = {
@@ -46,8 +46,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 912
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 15
         days_remove = 10
@@ -72,7 +72,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_infultrate_mass_Jiang_Xi = {
@@ -82,8 +82,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 912
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 10
@@ -108,7 +108,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
       GDC_rural_base_Jiang_Xi = {
@@ -118,8 +118,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 912
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 25
@@ -163,7 +163,7 @@ GDC_guerrilla_area = {
             }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_get_equipment_Jiang_Xi = {
@@ -173,8 +173,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 912
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 35
         days_remove = 5
@@ -204,7 +204,7 @@ GDC_guerrilla_area = {
 	        }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
 
@@ -215,8 +215,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 595
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 15
         days_remove = 10
@@ -241,7 +241,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_infultrate_mass_Fu_Jian = {
@@ -251,8 +251,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 595
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 10
@@ -277,7 +277,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_rural_base_Fu_Jian = {
@@ -287,8 +287,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 595
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 25
@@ -323,7 +323,7 @@ GDC_guerrilla_area = {
             set_country_flag = CHI_Fu_Jian_rural_base
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_get_equipment_Fu_Jian = {
@@ -333,8 +333,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 595
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 35
         days_remove = 5
@@ -364,7 +364,7 @@ GDC_guerrilla_area = {
 	        }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     
@@ -375,8 +375,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 602
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 15
         days_remove = 10
@@ -402,7 +402,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_infultrate_mass_Hu_Nan = {
@@ -412,8 +412,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 602
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         fire_only_once = yes
@@ -438,7 +438,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_rural_base_Hu_Nan = {
@@ -448,8 +448,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 602
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 25
@@ -497,8 +497,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 602
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 35
         days_remove = 5
@@ -528,7 +528,7 @@ GDC_guerrilla_area = {
 	        }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_infultrate_limit_Zhe_Jiang = {
@@ -538,8 +538,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 918
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 15
         days_remove = 10
@@ -564,7 +564,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_infultrate_mass_Zhe_Jiang = {
@@ -574,8 +574,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 918
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 10
@@ -600,7 +600,7 @@ GDC_guerrilla_area = {
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_rural_base_Zhe_Jiang = {
@@ -610,8 +610,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 918
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 25
@@ -655,7 +655,7 @@ GDC_guerrilla_area = {
             }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_get_equipment_Zhe_Jiang = {
@@ -665,8 +665,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 918
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 35
         days_remove = 5
@@ -696,7 +696,7 @@ GDC_guerrilla_area = {
 	        }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_contact_Fu_Jian_comrades = {
@@ -706,8 +706,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 595
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 10
@@ -733,19 +733,14 @@ GDC_guerrilla_area = {
         remove_effect = {
 			add_to_variable = { global.CHI_huanan_regional_tension = 10 }
             custom_effect_tooltip = CHI_v_regional_tension_increase
-            set_nationality = FJN
-            promote_leader = yes 
-            886 = {set_demilitarized_zone = no}
-            595 = {set_demilitarized_zone = no }
-            FJN = {
-                transfer_state = 595
-                add_state_core = 886
-                transfer_state = 886
-                add_state_core = 595
+            country_event = {
+                id = SBA.101
+                days = 1
             }
+           
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_contact_Jiang_Xi_comrades = {
@@ -755,13 +750,18 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 912
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 25
         days_remove = 10
         complete_effect = {
-			add_command_power = -10
+			add_command_power = -25
+            add_manpower = -2000
+            add_equipment_to_stockpile = {
+		        type = infantry_equipment
+		        amount = -200
+	        }
         }
         available = {
             OR = {
@@ -781,23 +781,14 @@ GDC_guerrilla_area = {
 		}
         remove_effect = {
 			add_to_variable = { global.CHI_huazhong_regional_tension = 10 }
-            custom_effect_tooltip = CHI_v_regional_tension_increase
-            set_nationality = JXP
-            promote_leader = yes 
-            888 = {
-                set_demilitarized_zone = no
+            custom_effect_tooltip = CHI_v_regional_tension_increase 
+            country_event = {
+                id = SBA.100
+                days = 1
             }
-           JXP = {
-            transfer_state = 888
-            transfer_state = 913
-            transfer_state = 912
-            add_state_core = 888
-            add_state_core = 913
-            add_state_core = 912
-           }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
     GDC_contact_Hu_Nan_comrades = {
@@ -807,8 +798,8 @@ GDC_guerrilla_area = {
 			highlight_state_targets = {
 				state = 602
 			}
-			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
-			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
 		}
         cost = 50
         days_remove = 10
@@ -844,25 +835,10 @@ GDC_guerrilla_area = {
                 id = GDCintro.8
                 days = 1
             }
-           
-            set_nationality = KHN
-         
-            
-			840 = {
-                set_demilitarized_zone = no
-            }
-            838 = {
-                set_demilitarized_zone = no
-            }
-			KHN = {
-				transfer_state = 840
-				transfer_state = 838
-				give_military_access = GDC
-			}
 			
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100 #ai点选这个决议的意愿
 		}
     }
 }

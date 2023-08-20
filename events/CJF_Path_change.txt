@@ -330,7 +330,7 @@ country_event = {
 	CJF_Cp.11 FROM = [From.GetName]" }
 	title = CJF_Cp.11.t
 	desc = CJF_Cp.11.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFCP9
 	
 	is_triggered_only = yes
 	

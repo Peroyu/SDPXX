@@ -167,6 +167,93 @@ country_event = {
 	}
 }
 country_event = {
+    id = SBA.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.100 FROM = [From.GetName]" }
+	title = SBA.100.t
+	desc = SBA.100.d
+	picture = GFX_SHA.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		set_nationality = JXP 
+		promote_leader = yes 
+		
+		888 = {
+			set_demilitarized_zone = no
+		}
+	   JXP = {
+		transfer_state = 888
+		add_state_core = 888
+	   }
+	}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = SBA.100.a
+		if = {
+			limit = {
+				GDC = {
+					has_country_flag = CHI_Jiang_Xi_rural_base
+				}
+			}
+			JXP = {
+				transfer_state = 912
+				add_state_core = 912
+				transfer_state = 913
+				add_state_core = 913
+			   }
+			912 = {
+                set_demilitarized_zone = no
+            }
+            913 = {
+                set_demilitarized_zone = no
+            }
+            915 = {
+                set_demilitarized_zone = no
+            }
+		}
+	}   
+}
+country_event = {
+    id = SBA.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.101 FROM = [From.GetName]" }
+	title = SBA.101.t
+	desc = SBA.101.d
+	picture = GFX_SHA.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_nationality = FJN
+            promote_leader = yes 
+            886 = {set_demilitarized_zone = no}
+            595 = {set_demilitarized_zone = no }
+            FJN = {
+                transfer_state = 595
+                add_state_core = 886
+                transfer_state = 886
+                add_state_core = 595
+            }
+	}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = SBA.101.a
+		
+	}   
+}
+country_event = {
     id = SBA.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	SBA.2 FROM = [From.GetName]" }

@@ -191,7 +191,21 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_nationality = KHN
 			set_nationality = HNN
+            
+			840 = {
+                set_demilitarized_zone = no
+            }
+            838 = {
+                set_demilitarized_zone = no
+            }
+			KHN = {
+				transfer_state = 840
+				transfer_state = 838
+				give_military_access = GDC
+			}
+			
 			NIP = {
 				add_to_faction = HNN
 			}
@@ -218,14 +232,7 @@ country_event = {
 				transfer_state = 750
 			}
 		}
-		else_if = {
-			limit = {
-				GDC = {
-					NOT = {
-						has_country_flag = CHI_Hu_Nan_rural_base
-					}
-				}
-			}
+		else = {
 			HNN = {
 				transfer_state = 750
 			}
@@ -1714,7 +1721,7 @@ country_event = { #先烈未宏之愿
 	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.10 FROM = [From.GetName]"}
 	title = GDCcp.10.t
 	desc = GDCcp.10.d
-	picture = GFX_GDCcp8
+	picture = GFX_GDCcp10
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
