@@ -6,7 +6,7 @@ state={
 		1100 9936 12040 7125 7221 10036
 	}
 	history={
-		owner = JAP
+		owner = NIP
 		
 		victory_points = {
 			7125 3 

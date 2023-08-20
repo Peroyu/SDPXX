@@ -8,7 +8,7 @@ JAP_china_peace_conference = {
 				
 			}
 			allowed = {
-				original_tag = JAP
+				original_tag = NIP
 			}
 			visible = {
 			}
@@ -37,7 +37,7 @@ JAP_china_peace_conference = {
 				NOT = { country_exists = MEN }
 			}
 			allowed = {
-				original_tag = JAP
+				original_tag = NIP
 			}
 			visible = {
 			}
@@ -67,7 +67,7 @@ JAP_china_peace_conference = {
 				NOT = { country_exists = JKR }
 			}
 			allowed = {
-				original_tag = JAP
+				original_tag = NIP
 			}
 			visible = {
 			}

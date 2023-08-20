@@ -134,7 +134,7 @@ GDC_hunger = {
               add_to_variable = { var = GDC.GDC_city_hunger_v value = 4 }
           }
           ai_will_do = {
-					base = 1
+					base = 0
 					}
         } 
     hunger_add_rural_supply = {
@@ -158,7 +158,7 @@ GDC_hunger = {
             custom_effect_tooltip = GDC_hunger_relive_2
           }
           ai_will_do = {
-					base = 100#ai点选这个决议的意愿
+					base = 5
 					}
         } 
     hunger_decrease_rural_supply = {

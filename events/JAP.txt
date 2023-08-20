@@ -1,4 +1,76 @@
 ﻿add_namespace = JAP
+add_namespace = ASIA_southeast_asia_conference
+country_event = {
+    id = ASIA_southeast_asia_conference.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ASIA_southeast_asia_conference.1 FROM = [From.GetName]" }
+	title = ASIA_southeast_asia_conference.1.t
+	desc = ASIA_southeast_asia_conference.1.d
+	picture = gFx_ASIA_southeast_asia_conference
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = ASIA_southeast_asia_conference.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_country_flag = ASIA_attend_southasia_conference
+		name = ASIA_southeast_asia_conference.1.a
+	}
+	
+}
+country_event = {
+    id = ASIA_southeast_asia_conference.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ASIA_southeast_asia_conference.2 FROM = [From.GetName]" }
+	title = ASIA_southeast_asia_conference.2.t
+	desc = ASIA_southeast_asia_conference.2.d
+	picture = gFx_ASIA_southeast_asia_conference.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = ASIA_southeast_asia_conference.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = ASIA_southeast_asia_conference.2.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = ASIA_southeast_asia_conference.2.c
+	}
+	
+}
 country_event = {
     id = JAP.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

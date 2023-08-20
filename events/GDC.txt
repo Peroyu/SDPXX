@@ -191,13 +191,51 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_nationality = KHN
+			set_nationality = HNN
+            
+			840 = {
+                set_demilitarized_zone = no
+            }
+            838 = {
+                set_demilitarized_zone = no
+            }
+			KHN = {
+				transfer_state = 840
+				transfer_state = 838
+				give_military_access = GDC
+			}
 			
-			
+			NIP = {
+				add_to_faction = HNN
+			}
+			HNN = {
+				transfer_state = 602
+			} 
 		}
     }
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		if = {
+			limit = {
+				GDC = {
+					has_country_flag = CHI_Hu_Nan_rural_base
+				}
+			}
+			750 = {
+				set_demilitarized_zone = no
+			}
+			KHN = {
+
+				transfer_state = 750
+			}
+		}
+		else = {
+			HNN = {
+				transfer_state = 750
+			}
 		}
 		name = GDCintro.8.a
 		
@@ -305,7 +343,7 @@ country_event = {
     picture = GFX_xiangnan
     title = GDC.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDC.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+   is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -314,9 +352,6 @@ country_event = {
 	}
     option = { 
         name = GDC.3.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		trigger = {
-			 original_tag = GDC 
-		}
 		
 	}
     
@@ -329,7 +364,7 @@ country_event = {
     picture = GFX_xiangnan
     title = GDCarm.1.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.1.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+   is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -338,9 +373,6 @@ country_event = {
 	}
     option = { 
         name = GDCarm.1.a   #事件前缀名.X（原版格式为 事件前缀名.X.a/b/c 如 germany.1.a germany.1.b germany.1.c ）
-		trigger = {
-			 original_tag = GDC 
-		}
 		
 	}
     
@@ -353,7 +385,7 @@ country_event = {
     title = GDCarm.2.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.2.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -373,7 +405,7 @@ country_event = {
     title = GDCarm.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     
-    fire_only_once = yes #事件是否仅触发一次，默认为no）
+    is_triggered_only = yes
     
 	hidden = no
 	immediate = {
@@ -1689,7 +1721,7 @@ country_event = { #先烈未宏之愿
 	immediate = { log = "[GetDateText]: [Root.GetName]: event GDCcp.10 FROM = [From.GetName]"}
 	title = GDCcp.10.t
 	desc = GDCcp.10.d
-	picture = GFX_GDCcp8
+	picture = GFX_GDCcp10
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {

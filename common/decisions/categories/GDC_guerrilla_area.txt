@@ -6,7 +6,7 @@ GDC_guerrilla_area = {
 			tag = GDC
 			tag = CJF
 			tag = RCR
-			tag = JAP
+			tag = NIP
 			}
 		NOT = { 
 			country_exists = GNP 

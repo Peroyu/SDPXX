@@ -6,7 +6,7 @@ state={
 		1003 4107 7070 11915 7155
 	}
 	history={
-		owner = JAP
+		owner = NIP
 		
 		add_core_of = KOR
 		buildings = {

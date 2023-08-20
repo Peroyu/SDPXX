@@ -1,75 +1,75 @@
 focus_tree = {
-	id = JAP_focus_0
+	id = NIP_focus_0
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = JAP
+			tag = NIP
 		}
 	}
 	default = no
 	focus = {
-		id = JAP_1947_meeting
-		icon = GFX_JAP_1947_meeting
+		id = NIP_1947_meeting
+		icon = GFX_NIP_1947_meeting
 		cost = 1.00
 		x = 8
 		y = 0
 		completion_reward = { 
 			add_political_power = 50
 			 country_event = {
-				id = JAP.7
+				id = NIP.7
 				days = 1
 			 }
 			}
 	}
 	focus = {
-		id = JAP_Continental_operations_resumed
-		icon = GFX_JAP_Continental_operations_resumed
+		id = NIP_Continental_operations_resumed
+		icon = GFX_NIP_Continental_operations_resumed
 		cost = 6.00
 		x = 23
 		y = 0
 		available = {
-			has_global_flag = ASIA_CHI_JAP_WAR
+			has_global_flag = ASIA_CHI_NIP_WAR
 		}
 		completion_reward = { 
-			 custom_effect_tooltip = JAP_01
-			 add_ideas = JAP_continental_war
+			 custom_effect_tooltip = NIP_01
+			 add_ideas = NIP_continental_war
 			 army_experience = 50
 			}
 	}
 	focus = {
-		id = JAP_base_camp_celebration
-		icon = GFX_JAP_base_camp_celebration
+		id = NIP_base_camp_celebration
+		icon = GFX_NIP_base_camp_celebration
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_1947_meeting
+			focus = NIP_1947_meeting
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			 country_event = {
-				id = JAP.2
+				id = NIP.2
 				days = 1
 			 }
-			 custom_effect_tooltip = JAP_02
+			 custom_effect_tooltip = NIP_02
 			}
 		x = 8
 		y = 1
 
 	}
 	focus = {
-		id = JAP_future_target
-		icon = GFX_JAP_future_target
+		id = NIP_future_target
+		icon = GFX_NIP_future_target
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_base_camp_celebration
+			focus = NIP_base_camp_celebration
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			 custom_effect_tooltip = JAP_03
+			 custom_effect_tooltip = NIP_03
 			 navy_experience = 30
 			 add_stability = 0.05
 			}
@@ -78,17 +78,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_to_the_west
-		icon = GFX_JAP_to_the_west
+		id = NIP_to_the_west
+		icon = GFX_NIP_to_the_west
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_future_target
+			focus = NIP_future_target
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			 custom_effect_tooltip = JAP_04
+			 custom_effect_tooltip = NIP_04
 			 RCR = {
 				random_owned_controlled_state = {
 					add_extra_state_shared_building_slots = 1
@@ -113,11 +113,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_the_east_wall
-		icon = GFX_JAP_the_east_wall
+		id = NIP_the_east_wall
+		icon = GFX_NIP_the_east_wall
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_to_the_west
+			focus = NIP_to_the_west
 		}
 		available = {
 			has_war = no
@@ -130,11 +130,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_establish_federation_base
-		icon = GFX_JAP_establish_federation_base
+		id = NIP_establish_federation_base
+		icon = GFX_NIP_establish_federation_base
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_to_the_west
+			focus = NIP_to_the_west
 		}
 		available = {
 			has_war = no
@@ -154,29 +154,29 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_to_the_South
-		icon = GFX_JAP_to_the_South
+		id = NIP_to_the_South
+		icon = GFX_NIP_to_the_South
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_future_target
+			focus = NIP_future_target
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			add_political_power = 50
-			add_ideas = JAP_South_Plan
+			add_ideas = NIP_South_Plan
 		}
 		x = 7
 		y = 3
 
 	}
 	focus = {
-		id = JAP_increase_vietnam
-		icon = GFX_JAP_increase_vietnam
+		id = NIP_increase_vietnam
+		icon = GFX_NIP_increase_vietnam
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_to_the_South
+			focus = NIP_to_the_South
 		}
 		available = {
 			has_war = no
@@ -206,38 +206,38 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Unique_economic_circle
-		icon = GFX_JAP_Unique_economic_circle
+		id = NIP_Unique_economic_circle
+		icon = GFX_NIP_Unique_economic_circle
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_increase_vietnam
+			focus = NIP_increase_vietnam
 		}
 		prerequisite = {
-			focus = JAP_establish_federation_base
+			focus = NIP_establish_federation_base
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			add_political_power = 50
-			add_ideas = JAP_South_Plan_1
+			add_ideas = NIP_South_Plan_1
 		}
 		x = 6
 		y = 5
 
 	}
 	focus = {
-		id = JAP_the_national_problem
-		icon = GFX_JAP_the_national_problem
+		id = NIP_the_national_problem
+		icon = GFX_NIP_the_national_problem
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_base_camp_celebration
+			focus = NIP_base_camp_celebration
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			custom_effect_tooltip = JAP_05
+			custom_effect_tooltip = NIP_05
 			add_political_power = 30
 			add_stability = -0.1
 		}
@@ -246,17 +246,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_the_failed_army
-		icon = GFX_JAP_the_failed_army
+		id = NIP_the_failed_army
+		icon = GFX_NIP_the_failed_army
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_the_national_problem
+			focus = NIP_the_national_problem
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			custom_effect_tooltip = JAP_06
+			custom_effect_tooltip = NIP_06
 			add_political_power = -30
 			add_popularity = { 
 				ideology = movement_communism 
@@ -272,19 +272,19 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_reconstruce_balance
-		icon = GFX_JAP_reconstruce_balance
+		id = NIP_reconstruce_balance
+		icon = GFX_NIP_reconstruce_balance
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_the_failed_army
+			focus = NIP_the_failed_army
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			custom_effect_tooltip = JAP_07
+			custom_effect_tooltip = NIP_07
 			country_event = {
-				id = JAP.3
+				id = NIP.3
 				days = 1
 			}
 			add_popularity = { 
@@ -301,18 +301,18 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_decrease_millta_influence
-		icon = GFX_JAP_decrease_millta_influence
+		id = NIP_decrease_millta_influence
+		icon = GFX_NIP_decrease_millta_influence
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_the_failed_army
+			focus = NIP_the_failed_army
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			country_event = {
-				id = JAP.4
+				id = NIP.4
 				days = 1
 			}
 			add_stability = 0.06
@@ -324,14 +324,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_party_s_policy
-		icon = GFX_JAP_party_s_policy
+		id = NIP_party_s_policy
+		icon = GFX_NIP_party_s_policy
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_decrease_millta_influence
+			focus = NIP_decrease_millta_influence
 		}
 		prerequisite = {
-			focus = JAP_reconstruce_balance
+			focus = NIP_reconstruce_balance
 		}
 		available = {
 			has_war = no
@@ -341,18 +341,18 @@ focus_tree = {
 				ideology = movement_communism 
 				popularity = 0.05
 				}
-			add_ideas = JAP_party_politic_revival
+			add_ideas = NIP_party_politic_revival
 		}
 		x = 11
 		y = 5
 
 	}
 	focus = {
-		id = JAP_imperal_parliament_restart
-		icon = GFX_JAP_imperal_parliament_restart
+		id = NIP_imperal_parliament_restart
+		icon = GFX_NIP_imperal_parliament_restart
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_party_s_policy
+			focus = NIP_party_s_policy
 		}
 		available = {
 			has_war = no
@@ -365,17 +365,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_limit_Taisei_yokusankai
-		icon = GFX_JAP_limit_Taisei_yokusankai
+		id = NIP_limit_Taisei_yokusankai
+		icon = GFX_NIP_limit_Taisei_yokusankai
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_party_s_policy
+			focus = NIP_party_s_policy
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			custom_effect_tooltip = JAP_09
+			custom_effect_tooltip = NIP_09
 			add_popularity = {
 				ideology = nationalism
 				popularity = -0.03
@@ -390,14 +390,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_coperate_with_Rikkenminseito
-		icon = GFX_JAP_coperate_with_Rikkenminseito
+		id = NIP_coperate_with_Rikkenminseito
+		icon = GFX_NIP_coperate_with_Rikkenminseito
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_imperal_parliament_restart
+			focus = NIP_imperal_parliament_restart
 		}
 		prerequisite = {
-			focus = JAP_limit_Taisei_yokusankai
+			focus = NIP_limit_Taisei_yokusankai
 		}
 		available = {
 			has_war = no
@@ -414,17 +414,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_navy_resourse
-		icon = GFX_JAP_navy_resourse
+		id = NIP_navy_resourse
+		icon = GFX_NIP_navy_resourse
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_party_s_policy
+			focus = NIP_party_s_policy
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
-			add_ideas = JAP_navy_investment
+			add_ideas = NIP_navy_investment
 			navy_experience = 60
 		}
 		x = 16
@@ -432,18 +432,18 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_yamato
-		icon = GFX_JAP_yamato
+		id = NIP_yamato
+		icon = GFX_NIP_yamato
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_navy_resourse
+			focus = NIP_navy_resourse
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			country_event = {
-				id = JAP.5
+				id = NIP.5
 				days = 1
 			}
 		}
@@ -452,17 +452,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_assault_war
-		icon = GFX_JAP_assault_war
+		id = NIP_assault_war
+		icon = GFX_NIP_assault_war
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Continental_operations_resumed
+			focus = NIP_Continental_operations_resumed
 		}
 		completion_reward = { 
 			army_experience = 30
 			swap_ideas = {
-				add_idea = JAP_continental_war_1
-				remove_idea = JAP_continental_war
+				add_idea = NIP_continental_war_1
+				remove_idea = NIP_continental_war
 			}
 		}
 		x = 21
@@ -470,11 +470,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_remoblization
-		icon = GFX_JAP_remoblization
+		id = NIP_remoblization
+		icon = GFX_NIP_remoblization
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_assault_war
+			focus = NIP_assault_war
 		}
 		
 		completion_reward = { 
@@ -489,11 +489,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_authorized_base_camp
-		icon = GFX_JAP_authorized_base_camp
+		id = NIP_authorized_base_camp
+		icon = GFX_NIP_authorized_base_camp
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_assault_war
+			focus = NIP_assault_war
 		}
 		completion_reward = { 
 			add_popularity = {
@@ -505,8 +505,8 @@ focus_tree = {
 				popularity = 0.02
 			}
 			swap_ideas = {
-				add_idea = JAP_continental_war_2
-				remove_idea = JAP_continental_war_1
+				add_idea = NIP_continental_war_2
+				remove_idea = NIP_continental_war_1
 			}
 		}
 		x = 22
@@ -514,17 +514,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Deep_ditch_high_barrier
-		icon = GFX_JAP_Deep_ditch_high_barrier
+		id = NIP_Deep_ditch_high_barrier
+		icon = GFX_NIP_Deep_ditch_high_barrier
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Continental_operations_resumed
+			focus = NIP_Continental_operations_resumed
 		}
 		completion_reward = { 
 			add_war_support = 0.1
 			swap_ideas = {
-				add_idea = JAP_continental_war_3
-				remove_idea = JAP_continental_war_2
+				add_idea = NIP_continental_war_3
+				remove_idea = NIP_continental_war_2
 			}
 		}
 		x = 25
@@ -532,15 +532,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_armed_chinese_leagues
-		icon = GFX_JAP_armed_chinese_leagues
+		id = NIP_armed_chinese_leagues
+		icon = GFX_NIP_armed_chinese_leagues
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_Deep_ditch_high_barrier
+			focus = NIP_Deep_ditch_high_barrier
 		}
 		completion_reward = { 
 			RCR = {
-				add_ideas = RCR_JAPEN_chief
+				add_ideas = RCR_NIPEN_chief
 				random_owned_controlled_state = {
 					prioritize = { 195 }
 					limit = { valid_state_for_spawning_friendly_unit = yes }
@@ -564,11 +564,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_strengthen_regional_milltery
-		icon = GFX_JAP_strengthen_regional_milltery
+		id = NIP_strengthen_regional_milltery
+		icon = GFX_NIP_strengthen_regional_milltery
 		cost = 5.00
 		prerequisite = {
-			focus = JAP_the_east_wall
+			focus = NIP_the_east_wall
 		}
 		available = {
 			has_war = no
@@ -578,14 +578,14 @@ focus_tree = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = 2000
-					producer = JAP
+					producer = NIP
 				}
 			}
 			MAN = {
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = 2000
-					producer = JAP
+					producer = NIP
 				}
 			}
 			add_equipment_to_stockpile = {
@@ -598,19 +598,19 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_concern_amercia
-		icon = GFX_JAP_concern_amercia
+		id = NIP_concern_amercia
+		icon = GFX_NIP_concern_amercia
 		cost = 5.00
 		prerequisite = {
-			focus = JAP_Unique_economic_circle
+			focus = NIP_Unique_economic_circle
 		}
 		prerequisite = {
-			focus = JAP_strengthen_regional_milltery
+			focus = NIP_strengthen_regional_milltery
 		}
 		completion_reward = { 
 			USA = {
 				country_event = {
-					id = JAP.5
+					id = NIP.5
 					days = 7
 				}
 			}
@@ -620,19 +620,19 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_to_south_ocean
-		icon = GFX_JAP_to_south_ocean
+		id = NIP_to_south_ocean
+		icon = GFX_NIP_to_south_ocean
 		cost = 5.00
 		prerequisite = {
-			focus = JAP_concern_amercia
+			focus = NIP_concern_amercia
 		}
 		available = {
 			has_war = no
 		}
 		completion_reward = { 
 			swap_ideas = {
-				add_idea = JAP_South_Plan_2
-				remove_idea = JAP_South_Plan_1
+				add_idea = NIP_South_Plan_2
+				remove_idea = NIP_South_Plan_1
 			}
 		}
 		x = 4
@@ -640,11 +640,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Showa_Demokurashi
-		icon = GFX_JAP_Showa_Demokurashi
+		id = NIP_Showa_Demokurashi
+		icon = GFX_NIP_Showa_Demokurashi
 		cost = 5.00
 		prerequisite = {
-			focus = JAP_coperate_with_Rikkenminseito
+			focus = NIP_coperate_with_Rikkenminseito
 		}
 		available = {
 			has_war = no
@@ -657,35 +657,35 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_call_america
-		icon = GFX_JAP_call_america
+		id = NIP_call_america
+		icon = GFX_NIP_call_america
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_Deep_ditch_high_barrier
+			focus = NIP_Deep_ditch_high_barrier
 		}
 		completion_reward = { 
 			air_experience = 30
-			add_ideas = JAP_america_bombers
+			add_ideas = NIP_america_bombers
 		}
 		x = 27
 		y = 2
 
 	}
 	focus = {
-		id = JAP_Stuc_in_quagmire
-		icon = GFX_JAP_Stuc_in_quagmire
+		id = NIP_Stuc_in_quagmire
+		icon = GFX_NIP_Stuc_in_quagmire
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_armed_chinese_leagues
+			focus = NIP_armed_chinese_leagues
 		}
 		prerequisite = {
-			focus = JAP_authorized_base_camp
+			focus = NIP_authorized_base_camp
 		}
 		prerequisite = {
-			focus = JAP_call_america
+			focus = NIP_call_america
 		}
 		prerequisite = {
-			focus = JAP_remoblization
+			focus = NIP_remoblization
 		}
 		completion_reward = { 
 			add_popularity = {
@@ -697,37 +697,37 @@ focus_tree = {
 				popularity = 0.1
 			}
 			swap_ideas = {
-				add_idea = JAP_continental_war_4
-				remove_idea = JAP_continental_war_3
+				add_idea = NIP_continental_war_4
+				remove_idea = NIP_continental_war_3
 				}
-			custom_effect_tooltip = JAP_08
+			custom_effect_tooltip = NIP_08
 		}
 		x = 23
 		y = 3
 
 	}
 	focus = {
-		id = JAP_china_Dispatch_troops
-		icon = GFX_JAP_china_Dispatch_troops
+		id = NIP_china_Dispatch_troops
+		icon = GFX_NIP_china_Dispatch_troops
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Stuc_in_quagmire
+			focus = NIP_Stuc_in_quagmire
 		}
 		completion_reward = { 
 			army_experience = 30
 			add_war_support = 0.2
-			add_ideas = JAP_dispatch_troops
+			add_ideas = NIP_dispatch_troops
 		}
 		x = 23
 		y = 4
 
 	}
 	focus = {
-		id = JAP_Three_Light_Policy
-		icon = GFX_JAP_Three_Light_Policy
+		id = NIP_Three_Light_Policy
+		icon = GFX_NIP_Three_Light_Policy
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_china_Dispatch_troops
+			focus = NIP_china_Dispatch_troops
 		}
 		completion_reward = { 
 			add_political_power = -50
@@ -739,27 +739,27 @@ focus_tree = {
 				ideology = reactionism 
 				popularity = 0.07
 			}
-			add_ideas = JAP_Three_Light_Policy_idea
+			add_ideas = NIP_Three_Light_Policy_idea
 		}
 		x = 21
 		y = 5
 
 	}
 	focus = {
-		id = JAP_bombers
-		icon = GFX_JAP_bombers
+		id = NIP_bombers
+		icon = GFX_NIP_bombers
 		cost = 7.00
 		prerequisite = {
-			focus = JAP_china_Dispatch_troops
+			focus = NIP_china_Dispatch_troops
 		}
 		completion_reward = { 
 			swap_ideas = {
-				add_idea = JAP_america_bombers_1
-				remove_idea = JAP_america_bombers
+				add_idea = NIP_america_bombers_1
+				remove_idea = NIP_america_bombers
 			}
 			set_party_name = { 
 				ideology = Liberalism 
-				name = JAP_Liberalism_party_USA 
+				name = NIP_Liberalism_party_USA 
 				}
 		}
 		x = 25
@@ -767,14 +767,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Close_eyes_and_listen
-		icon = GFX_JAP_Close_eyes_and_listen
+		id = NIP_Close_eyes_and_listen
+		icon = GFX_NIP_Close_eyes_and_listen
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_bombers
+			focus = NIP_bombers
 		}
 		prerequisite = {
-			focus = JAP_Three_Light_Policy
+			focus = NIP_Three_Light_Policy
 		}
 		completion_reward = { 
 			add_stability = 0.1
@@ -785,16 +785,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Authorized_US_Air_Corps
-		icon = GFX_JAP_Authorized_US_Air_Corps
+		id = NIP_Authorized_US_Air_Corps
+		icon = GFX_NIP_Authorized_US_Air_Corps
 		cost = 6.00
 		prerequisite = {
-			focus = JAP_Close_eyes_and_listen
+			focus = NIP_Close_eyes_and_listen
 		}
 		completion_reward = { 
 			swap_ideas = {
-				add_idea = JAP_america_bombers_2
-				remove_idea = JAP_america_bombers_1
+				add_idea = NIP_america_bombers_2
+				remove_idea = NIP_america_bombers_1
 			}
 			add_popularity = {
 				ideology = nationalism 
@@ -802,7 +802,7 @@ focus_tree = {
 			}
 			CJF = {
 				country_event = {
-					id = JAP.6
+					id = NIP.6
 					days = 10
 				}
 			}
@@ -812,16 +812,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_No_mercy
-		icon = GFX_JAP_No_mercy
+		id = NIP_No_mercy
+		icon = GFX_NIP_No_mercy
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Close_eyes_and_listen
+			focus = NIP_Close_eyes_and_listen
 		}
 		completion_reward = { 
 			swap_ideas = {
-				add_idea = JAP_Three_Light_Policy_idea_1
-				remove_idea = JAP_Three_Light_Policy_idea
+				add_idea = NIP_Three_Light_Policy_idea_1
+				remove_idea = NIP_Three_Light_Policy_idea
 			}
 		}
 		x = 24
@@ -829,16 +829,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Terror_policy
-		icon = GFX_JAP_Terror_policy
+		id = NIP_Terror_policy
+		icon = GFX_NIP_Terror_policy
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Close_eyes_and_listen
+			focus = NIP_Close_eyes_and_listen
 		}
 		completion_reward = { 
 			swap_ideas = {
-				add_idea = JAP_Three_Light_Policy_idea_2
-				remove_idea = JAP_Three_Light_Policy_idea_1
+				add_idea = NIP_Three_Light_Policy_idea_2
+				remove_idea = NIP_Three_Light_Policy_idea_1
 			}
 		}
 		x = 26
@@ -846,11 +846,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_Necessary_evil
-		icon = GFX_JAP_Necessary_evil
+		id = NIP_Necessary_evil
+		icon = GFX_NIP_Necessary_evil
 		cost = 8.00
 		prerequisite = {
-			focus = JAP_Close_eyes_and_listen
+			focus = NIP_Close_eyes_and_listen
 		}
 		completion_reward = {
 			add_popularity = {
@@ -868,23 +868,23 @@ focus_tree = {
 
 	}
 	focus = {
-		id = JAP_crazy_soldiers
-		icon = GFX_JAP_crazy_soldiers
+		id = NIP_crazy_soldiers
+		icon = GFX_NIP_crazy_soldiers
 		cost = 10.00
 		prerequisite = {
-			focus = JAP_No_mercy
+			focus = NIP_No_mercy
 		}
 		prerequisite = {
-			focus = JAP_Authorized_US_Air_Corps
+			focus = NIP_Authorized_US_Air_Corps
 		}
 		prerequisite = {
-			focus = JAP_Terror_policy
+			focus = NIP_Terror_policy
 		}
 		prerequisite = {
-			focus = JAP_Necessary_evil
+			focus = NIP_Necessary_evil
 		}
 		completion_reward = { 
-			custom_effect_tooltip = JAP_10
+			custom_effect_tooltip = NIP_10
 
 		}
 		x = 23

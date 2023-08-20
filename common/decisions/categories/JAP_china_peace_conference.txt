@@ -12,6 +12,6 @@ JAP_china_peace_conference = {
         }
         priority = 10000
 		allowed = { 
-			original_tag = JAP 
+			original_tag = NIP 
 		}
     }

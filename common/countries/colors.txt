@@ -219,7 +219,7 @@ IRE = {
 	color = rgb{ 0 160 16 } 
 	color_ui = rgb { 0 160 16 }
 }
-JAP = {
+NIP = {
 	color = rgb{ 255 183 150 } 
 	color_ui = rgb { 255 183 150 } 
 }

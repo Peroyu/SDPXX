@@ -12,9 +12,9 @@ ideas = {
 				resistance_target = 0.2
 			}
 		}
-		JAP_Victory_in_the_bubble = {
-		    name = JAP_Victory_in_the_bubble
-			picture = GFX_JAP_Victory_in_the_bubble
+		NIP_Victory_in_the_bubble = {
+		    name = NIP_Victory_in_the_bubble
+			picture = GFX_NIP_Victory_in_the_bubble
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -22,12 +22,12 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				political_power_factor = -0.1
-				effect_tooltip = JAP_01
+				effect_tooltip = NIP_01
 			}
 		}
-		JAP_Rival_services_N = {
-		    name = JAP_Rival_services_N
-			picture = GFX_JAP_Rival_services_N
+		NIP_Rival_services_N = {
+		    name = NIP_Rival_services_N
+			picture = GFX_NIP_Rival_services_N
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -40,9 +40,9 @@ ideas = {
 				navy_org_factor = 0.15
 			}
 		}
-		JAP_pan_Asia_dream = {
-		    name = JAP_pan_Asia_dream
-			picture = GFX_JAP_pan_Asia_dream
+		NIP_pan_Asia_dream = {
+		    name = NIP_pan_Asia_dream
+			picture = GFX_NIP_pan_Asia_dream
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -52,9 +52,9 @@ ideas = {
 				non_core_manpower = 0.05
 			}
 		}
-		JAP_politic_warn = {
-		    name = JAP_politic_warn
-			picture = GFX_JAP_politic_warn
+		NIP_politic_warn = {
+		    name = NIP_politic_warn
+			picture = GFX_NIP_politic_warn
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -64,9 +64,9 @@ ideas = {
 				political_power_factor = -0.25
 			}
 		}
-		JAP_continental_war = {
-		    name = JAP_continental_war
-			picture = GFX_JAP_continental_war
+		NIP_continental_war = {
+		    name = NIP_continental_war
+			picture = GFX_NIP_continental_war
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -84,9 +84,9 @@ ideas = {
 				defend_bonus_against = 0.03
 				}
 		}
-		JAP_continental_war_1 = {
-		    name = JAP_continental_war
-			picture = GFX_JAP_continental_war
+		NIP_continental_war_1 = {
+		    name = NIP_continental_war
+			picture = GFX_NIP_continental_war
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -104,9 +104,9 @@ ideas = {
 				attack_bonus_against = 0.03
 				}
 		}
-		JAP_continental_war_2 = {
-		    name = JAP_continental_war
-			picture = GFX_JAP_continental_war
+		NIP_continental_war_2 = {
+		    name = NIP_continental_war
+			picture = GFX_NIP_continental_war
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -127,9 +127,9 @@ ideas = {
 				defend_bonus_against = 0.03
 				}
 		}
-		JAP_continental_war_3 = {
-		    name = JAP_continental_war
-			picture = GFX_JAP_continental_war
+		NIP_continental_war_3 = {
+		    name = NIP_continental_war
+			picture = GFX_NIP_continental_war
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -150,9 +150,9 @@ ideas = {
 				defend_bonus_against = 0.06
 				}
 		}
-		JAP_continental_war_4 = {
-		    name = JAP_continental_war_4
-			picture = GFX_JAP_continental_war_4
+		NIP_continental_war_4 = {
+		    name = NIP_continental_war_4
+			picture = GFX_NIP_continental_war_4
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -173,9 +173,9 @@ ideas = {
 				defend_bonus_against = -0.03
 				}
 		}
-		JAP_dispatch_troops = {
-		    name = JAP_dispatch_troops
-			picture = GFX_JAP_dispatch_troops
+		NIP_dispatch_troops = {
+		    name = NIP_dispatch_troops
+			picture = GFX_NIP_dispatch_troops
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -187,9 +187,9 @@ ideas = {
 				army_morale_factor = 0.03
 				}
 		}
-		JAP_Three_Light_Policy_idea = {
-		    name = JAP_Three_Light_Policy_idea
-			picture = GFX_JAP_Three_Light_Policy_idea
+		NIP_Three_Light_Policy_idea = {
+		    name = NIP_Three_Light_Policy_idea
+			picture = GFX_NIP_Three_Light_Policy_idea
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -200,9 +200,9 @@ ideas = {
 				attrition = 0.1
 				}
 		}
-		JAP_Three_Light_Policy_idea_1 = {
-		    name = JAP_Three_Light_Policy_idea
-			picture = GFX_JAP_Three_Light_Policy_idea
+		NIP_Three_Light_Policy_idea_1 = {
+		    name = NIP_Three_Light_Policy_idea
+			picture = GFX_NIP_Three_Light_Policy_idea
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -214,9 +214,9 @@ ideas = {
 				compliance_starting_value = -0.5
 				}
 		}
-		JAP_Three_Light_Policy_idea_2 = {
-		    name = JAP_Three_Light_Policy_idea
-			picture = GFX_JAP_Three_Light_Policy_idea
+		NIP_Three_Light_Policy_idea_2 = {
+		    name = NIP_Three_Light_Policy_idea
+			picture = GFX_NIP_Three_Light_Policy_idea
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -228,9 +228,9 @@ ideas = {
 				compliance_starting_value = -0.7
 				}
 		}
-		JAP_america_bombers = {
-		    name = JAP_america_bombers
-			picture = GFX_JAP_america_bombers
+		NIP_america_bombers = {
+		    name = NIP_america_bombers
+			picture = GFX_NIP_america_bombers
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -242,9 +242,9 @@ ideas = {
 				army_bonus_air_superiority_factor = 0.2
 				}
 		}
-		JAP_america_bombers_1 = {
-		    name = JAP_america_bombers
-			picture = GFX_JAP_america_bombers
+		NIP_america_bombers_1 = {
+		    name = NIP_america_bombers
+			picture = GFX_NIP_america_bombers
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -256,9 +256,9 @@ ideas = {
 				army_bonus_air_superiority_factor = 0.25
 				}
 		}
-		JAP_america_bombers_2 = {
-		    name = JAP_america_bombers
-			picture = GFX_JAP_america_bombers
+		NIP_america_bombers_2 = {
+		    name = NIP_america_bombers
+			picture = GFX_NIP_america_bombers
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -270,9 +270,9 @@ ideas = {
 				army_bonus_air_superiority_factor = 0.4
 				}
 		}
-		RCR_JAPEN_chief = {
-		    name = RCR_JAPEN_chief
-			picture = GFX_RCR_JAPEN_chief
+		RCR_NIPEN_chief = {
+		    name = RCR_NIPEN_chief
+			picture = GFX_RCR_NIPEN_chief
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -293,9 +293,9 @@ ideas = {
 				defend_bonus_against = 0.01
 				}
 		}
-		JAP_South_Plan = {
-		    name = JAP_South_Plan
-			picture = GFX_JAP_South_Plan
+		NIP_South_Plan = {
+		    name = NIP_South_Plan
+			picture = GFX_NIP_South_Plan
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -306,9 +306,9 @@ ideas = {
 				}
 			
 		}
-		JAP_South_Plan_1 = {
-		    name = JAP_South_Plan
-			picture = GFX_JAP_South_Plan
+		NIP_South_Plan_1 = {
+		    name = NIP_South_Plan
+			picture = GFX_NIP_South_Plan
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -320,9 +320,9 @@ ideas = {
 				}
 			
 		}
-		JAP_South_Plan_2 = {
-		    name = JAP_South_Plan
-			picture = GFX_JAP_South_Plan
+		NIP_South_Plan_2 = {
+		    name = NIP_South_Plan
+			picture = GFX_NIP_South_Plan
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -334,9 +334,9 @@ ideas = {
 				}
 			
 		}
-		JAP_party_politic_revival = {
-		    name = JAP_party_politic_revival
-			picture = GFX_JAP_party_politic_revival
+		NIP_party_politic_revival = {
+		    name = NIP_party_politic_revival
+			picture = GFX_NIP_party_politic_revival
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -348,9 +348,9 @@ ideas = {
 				}
 			
 		}
-		JAP_navy_investment = {
-		    name = JAP_navy_investment
-			picture = GFX_JAP_navy_investment
+		NIP_navy_investment = {
+		    name = NIP_navy_investment
+			picture = GFX_NIP_navy_investment
 			allowed = { always = no }
 			available = {
 				is_subject = no

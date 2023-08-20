@@ -69,6 +69,17 @@ ideas = {
 				custom_effect_tooltip = HUN_brocken_policy_A
 			}
 		}
+		BUL_army_restrictions = {
+		    name =  BUL_army_restrictions
+			picture =  BUL_army_restrictions
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				
+			}
+		}
 	}
 }	
 

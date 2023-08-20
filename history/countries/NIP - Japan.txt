@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "JAP_1947"
+oob = "NIP_1947"
 set_research_slots = 3
 set_war_support = 0.1
 set_stability = 0.8
@@ -17,12 +17,12 @@ add_to_faction = GNP
 if = {
 	limit = { has_tech_sharing_feature = yes }
 	every_country = {
-		limit = { is_ally_with = JAP }
-		add_to_tech_sharing_group = japan_research
+		limit = { is_ally_with = NIP }
+		add_to_tech_sharing_group = NIPan_research
 	}
 }
 
-set_country_flag = JAP_economic_sphere
+set_country_flag = NIP_economic_sphere
 set_variable = { SDP_welcome_splash_variable = 1 }
 set_politics = {
 	ruling_party = reactionism
@@ -176,15 +176,15 @@ add_ideas = {
 	######
 
 	#######
-	JAP_Victory_in_the_bubble
-	JAP_Rival_services_N
-	JAP_pan_Asia_dream
-	JAP_politic_warn
+	NIP_Victory_in_the_bubble
+	NIP_Rival_services_N
+	NIP_pan_Asia_dream
+	NIP_politic_warn
 }
 create_country_leader = {
-		name = "JAP_Hirohito"   
-		desc = "JAP_Hirohito_desc"  
-		picture = "gfx/leaders/JAP/portrait_JAP_Hirohito.png"   
+		name = "NIP_Hirohito"   
+		desc = "NIP_Hirohito_desc"  
+		picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
 		expire = "1989.1.7"   
 		ideology = state_capitalism 
 		traits = {  }

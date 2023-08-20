@@ -8,7 +8,7 @@ CHI_regional_tension_rate = {
 			tag = GDC
 			tag = CJF
 			tag = RCR
-			tag = JAP
+			tag = NIP
 			tag = MMA
 			tag = SIK
 			}

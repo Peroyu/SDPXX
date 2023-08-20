@@ -14,7 +14,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 0 }
@@ -42,7 +42,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 1 }
@@ -70,7 +70,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 2 }
@@ -98,7 +98,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 3 }
@@ -126,7 +126,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 4 }
@@ -153,7 +153,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 5 }
@@ -180,7 +180,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 6 }
@@ -207,7 +207,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 7 }
@@ -234,7 +234,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 8 }
@@ -261,7 +261,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				tag = JAP
+				tag = NIP
 				tag = RCR
 			}
 			check_variable = { global.chi_uni_nuon > 9 }
