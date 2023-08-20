@@ -1321,7 +1321,7 @@ shared_focus = {
 		       focus = GDC_elite_army
 	    }
     }
-###################################################################################################################
+############################22222222222#######################################################################################
 shared_focus = {
         id = GDC_on_the_yuexiu_mountain
 		icon = GFX_GDC_on_the_yuexiu_mountain
@@ -1518,10 +1518,13 @@ shared_focus = {
 		x = 8
 		y = 0
 		available = {
-			
+		  
 		}
 		completion_reward = {
-
+          add_political_power = 80 
+		  add_stability = 0.1
+		  add_manpower = 100000
+		  add_war_support = 0.1
 		}
 	}
 shared_focus = {

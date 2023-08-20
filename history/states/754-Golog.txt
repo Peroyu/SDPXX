@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = MMA
+		set_demilitarized_zone = yes
 		add_core_of = MMA
 		victory_points = {
 			12732 3 

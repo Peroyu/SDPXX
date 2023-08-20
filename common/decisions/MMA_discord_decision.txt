@@ -1,0 +1,176 @@
+MMA_discord_decision_categories = {
+    MMA_discord_1 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  check_variable = { 
+		    var = MMA_qingma
+			value = 20
+			compare = less_than_or_equals 
+		  }
+		}
+        cost = 30
+        
+		fire_only_once = yes
+		
+		visible = {
+			tag = MMA
+		}
+		complete_effect = {
+			754 = { set_demilitarized_zone = no }
+			set_country_flag = MMA_754
+			add_cp = -15
+			add_to_variable = { MMA_qingma = -7 }
+		}
+	}
+	MMA_discord_2 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  check_variable = { 
+		    var = MMA_qingma
+			value = 20
+			compare = less_than_or_equals 
+		  }
+		}
+        cost = 30
+        
+		fire_only_once = yes
+		
+		visible = {
+			tag = MMA
+		}
+		complete_effect = {
+			755 = { set_demilitarized_zone = no }
+			set_country_flag = MMA_755
+			add_cp = -15
+			add_to_variable = { MMA_qingma = -7 }
+		}
+	}
+	MMA_discord_3 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  has_country_flag = MMA_754
+		  has_country_flag = MMA_755
+		  check_variable = { 
+		    var = MMA_qingma
+			value = 15
+			compare = less_than_or_equals 
+		  }
+		}
+        cost = 20
+        
+		fire_only_once = yes
+		
+		visible = {
+			tag = MMA
+		}
+		complete_effect = {
+			add_cp = -15
+			add_to_variable = { MMA_qingma = -7 }
+			604 = { set_demilitarized_zone = no }
+		}
+	}
+	MMA_discord_4 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  
+		}
+        cost = 15
+		
+		days_remove = 10
+        
+        day_re_enable = 25
+		
+		visible = {
+			tag = MMA
+		}
+		remove_effect = {
+			add_popularity = {
+			  ideology = conservatism
+			  popularity = 0.03
+			}
+			add_to_variable = { MMA_ningma = 3 }
+		}
+	}
+	MMA_discord_5 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  
+		}
+        cost = 15
+		
+		days_remove = 10
+        
+        day_re_enable = 25
+		
+		visible = {
+			tag = MMA
+		}
+		remove_effect = {
+			add_popularity = {
+			  ideology = movement_communism
+			  popularity = 0.03
+			}
+			add_to_variable = { MMA_ningma = 5 }
+		}
+	}
+	MMA_discord_6 = {
+
+		priority = 100
+
+		icon = decision_generic_political_discourse
+
+		available = {
+			
+		}
+        allowed = {
+		  check_variable = { 
+		    var = MMA_ningma
+			value = 60
+			compare = greater_than_or_equals 
+		  }
+		}
+        cost = 10
+		fire_only_once = yes
+		visible = {
+			tag = MMA
+		}
+		complete_effect = {
+			complete_national_focus = Reorganized_Hui_Han_National_Army
+		}
+	}
+}

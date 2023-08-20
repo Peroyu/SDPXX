@@ -1,0 +1,8 @@
+MMA_discord_decision_categories = {
+	    icon = GFX_MMA_gongshukmt
+
+		
+		priority = 1000
+        
+        scripted_gui = SDP_MMA_discord
+    }
