@@ -794,10 +794,7 @@ shared_focus = {
 		completion_reward = {
 			add_to_variable = { global.CJF_intelligence_network_power = 15 }
 			custom_effect_tooltip = CJF_intelligence_power_added
-			country_event = {
-				id = CJF_dh.6
-				days = 1
-			}
+			
 		} 
 		x = 10
 		y = 4
@@ -845,10 +842,6 @@ shared_focus = {
 		}
 		completion_reward = {
 			army_experience = 50
-			country_event = {
-				id = CJF_dh.7
-				days = 1
-			}
 		} 
 		x = 10
 		y = 5
@@ -903,7 +896,6 @@ shared_focus = {
 		}
 		completion_reward = {
 			set_variable = { var = CJF_drug_added_amount value = 5 }
-			country_event = { id = CJF_industry.3 days = 1}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {

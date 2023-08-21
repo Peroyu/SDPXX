@@ -168,7 +168,7 @@ country_event = {
 country_event = {
     id = CJF_dh.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_dh.12FROM = [From.GetName]" }
+	CJF_dh.3FROM = [From.GetName]" }
 	title = CJF_dh.3.t
 	desc = CJF_dh.3.d
 	picture = GFX_GDCintro
@@ -241,54 +241,6 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_dh.5.a 
-	}
-	
-}
-country_event = {
-    id = CJF_dh.6 #康生在情报机关下令
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_dh.6 FROM = [From.GetName]" }
-	title = CJF_dh.6.t
-	desc = CJF_dh.6.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = CJF_dh.6.a 
-	}
-	
-}
-country_event = {
-    id = CJF_dh.7 #两广与四川情报机构的交流
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_dh.7 FROM = [From.GetName]" }
-	title = CJF_dh.7.t
-	desc = CJF_dh.7.d
-	picture = GFX_GDCintro
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = CJF_dh.7.a 
 	}
 	
 }
@@ -725,29 +677,6 @@ country_event = {
 		   base = 35
 		}
 		name = CJF_industry.2.a 
-	}
-}
-country_event = {
-    id = CJF_industry.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CJF_industry.3 FROM = [From.GetName]" }
-	title = CJF_industry.3.t
-	desc = CJF_industry.3.d
-	picture = GFX_CJF_industry
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 35
-		}
-		name = CJF_industry.3.a 
 	}
 }
 country_event = {

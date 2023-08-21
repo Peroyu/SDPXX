@@ -30,7 +30,7 @@ country_event = {
 				days = 20
 			}
 			news_event = {
-				id = nuke.1
+				id = ISU.3
 				days = 450
 			}
 		}

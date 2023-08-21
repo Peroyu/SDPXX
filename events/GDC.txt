@@ -77,7 +77,7 @@ country_event = {
 	GDCintro.4 FROM = [From.GetName]" }
 	title = GDCintro.4.t
 	desc = GDCintro.4.d
-	picture = GFX_GDCintro
+	picture = GFX_GDCintro45
 	
 	is_triggered_only = yes
 	

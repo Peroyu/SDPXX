@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_news_event_001"
-		texturefile = "gfx/event_pictures/news/HUN_SLO_1.dds"
+		texturefile = "gfx/event_pictures/news/GFX_news_event_001.png"
 	}
 	spriteType = {
 		name = "GFX_report_event_001"
-		texturefile = "gfx/event_pictures/news/HUN_SLO_1.dds"
+		texturefile = "gfx/event_pictures/news/GFX_news_event_001.png"
 	}
     spriteType = {
 		name = "GFX_HUN_SLO_1"
@@ -242,6 +242,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SHA1"
 		texturefile = "gfx/event_pictures/GFX_SHA1.png"
+	}
+	spriteType = {
+		name = "GFX_GDCintro45"
+		texturefile = "gfx/event_pictures/GFX_GDCintro45.png"
 	}
 	spriteType = {
 		name = "GFX_chi_news5"
