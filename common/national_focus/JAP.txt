@@ -141,14 +141,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			add_political_power = 50
-			RCR = {
-				set_autonomy = {
-					target = FNC
-					autonomy_state = autonomy_dominion
-					}
-				}
-				add_stability = -0.1
-			}
+		}
 		x = 5
 		y = 4
 

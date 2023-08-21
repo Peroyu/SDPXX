@@ -117,6 +117,10 @@ CHI_regional_tension_rate = {
           is_good = no    
 		  fire_only_once = yes              
         timeout_effect = { 
+			RCR = {
+				set_major = yes
+				
+			}
 			CJF = {
 				set_major = yes
 			}

@@ -18,13 +18,6 @@ country_event = {
 				add_to_faction = MMA
 				add_to_faction = SIK
 			}
-			RCR = {
-				set_major = yes
-				country_event = {
-					id = CHIwar.2
-					days = 30
-				}
-			}
 		}
     }
 	
@@ -32,7 +25,28 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		trigger = {
+			NOT = {
+			tag = CJF
+			}
+		}
+		name = CHIwar.1.a
+			custom_effect_tooltip = CHIwar_100days
 		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			tag = CJF
+		}
+		hidden_effect = {
+			country_event = {
+				id = CHIwar.2
+				days = 30
+			}
+		}
 		name = CHIwar.1.a
 			custom_effect_tooltip = CHIwar_100days
 		
@@ -52,7 +66,9 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			set_global_flag = ASIA_CHI_JAP_WAR
-			declare_war_on = { target = CJF type = puppet_wargoal_focus }
+			add_ideas = CHI_sourthwest_crisis
+			set_variable = { var = global.chi_uni_nuon value = 5 }
+			declare_war_on = { target = CJF type = annex_everything }
 			every_country = {
 				limit = {
 					OR = {
@@ -82,7 +98,7 @@ country_event = {
 		}
 		name = CHIwar.2.a
 		
-		set_variable = { var = global.chi_uni_nuon value = 5 }
+	
 	}
 	
 }
@@ -109,10 +125,7 @@ country_event = {
 		}
 		trigger = {
 			NOT = {
-				OR = {
-				tag = CJF
 				tag = GDC
-				}
 			}
 		}
 		name = CHIwar.4.a

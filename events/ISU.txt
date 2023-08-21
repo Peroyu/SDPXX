@@ -15,7 +15,10 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			
+			country_event = {
+				id = nukeEVENT.1
+				days = 450
+			}
 			every_country = {
 				limit = { is_ai = no }
 			news_event = {
@@ -83,9 +86,9 @@ country_event = {
 country_event = {
     id = nukeEVENT.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	nuke.1 FROM = [From.GetName]" }
-	title = nuke.1.t
-	desc = nuke.1.d
+	nukeEVENT.1 FROM = [From.GetName]" }
+	title = nukeEVENT.1.t
+	desc = nukeEVENT.1.d
 	picture = GFX_GDCintro
 	
 	is_triggered_only = yes
