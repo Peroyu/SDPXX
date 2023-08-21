@@ -7,6 +7,9 @@ set_research_slots = 3
 set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 400
+set_naval_oob = "JAP_1939_naval_legacy"
+set_air_oob = "JAP_1936_air_legacy"
+set_oob = "JAP_1936"
 
 create_faction = "大东亚共荣圈"
 add_to_faction = RCR
