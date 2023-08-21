@@ -212,6 +212,9 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		add_to_variable = { global.CHI_huanan_regional_tension = 15 }
+            add_to_variable = { global.CHI_huazhong_regional_tension = 15 }
+            custom_effect_tooltip = CHI_v_regional_tension_increase
 		if = {
 			limit = {
 				GDC = {

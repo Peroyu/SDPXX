@@ -2365,6 +2365,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			country_event = {
+				id = SBA.101
+				days = 1
+			}
 			add_war_support = 0.05
 		}
 		prerequisite = {
@@ -2513,6 +2517,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			country_event = {
+				id = SBA.100
+				days = 1
+			}
 			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2692,6 +2700,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
+			country_event = {
+				id = GDCintro.8
+				days = 1
+			}
 			add_opinion_modifier = {
 				target = CJF
 				modifier = CHI_united_front_valve
