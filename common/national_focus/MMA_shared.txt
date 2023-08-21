@@ -1031,6 +1031,11 @@ shared_focus = {
 		prerequisite = {
 			focus = MMA_logistic_line_through_dessert
 		}
+		available = {
+			NOT = {
+				country_exists = SHA
+			}
+		}
 		completion_reward = {
 			if = {
 				limit = {
