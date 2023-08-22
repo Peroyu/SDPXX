@@ -390,10 +390,10 @@ country_event = {
     
 }
 country_event = {
-	id = GDCarm.3 #整编游击队伍
+	id = GDCarm.3 #唤起爱国热情
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDCarm.3  FROM = [From.GetName]" }
-    picture = GFX_xiangnan
+    picture = GFX_arm3
     title = GDCarm.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDCarm.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
     

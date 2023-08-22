@@ -56,6 +56,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_GFX_chi_vic_1_uni.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_4"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_4.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_5"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_5.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_6"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_6.png"
+	}
+	spriteType = {
 		name = "GFX_ISU_1"
 		texturefile = "gfx/event_pictures/news/ISU_1.png"
 	}
@@ -142,6 +154,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CJF_industry4"
 		texturefile = "gfx/event_pictures/GFX_CJF_industry4.png"
+	}
+	spriteType = {
+		name = "GFX_arm3"
+		texturefile = "gfx/event_pictures/GFX_arm3.png"
 	}
 	spriteType = {
 		name = "GFX_GDCxingbang"

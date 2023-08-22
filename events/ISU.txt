@@ -1,8 +1,69 @@
 ﻿add_namespace = nukeEVENT
 add_namespace = GER
 add_namespace = HUN
+add_namespace = BRI
 add_namespace = ISU_event
 add_namespace = FOB
+
+country_event = {
+    id = BRI.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	BRI.1 FROM = [From.GetName]" }
+	title = BRI.1.t
+	desc = BRI.1.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = ISU.6
+				days = 1
+			}
+		}
+		name = BRI.1.b
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = ISU.5
+				days = 1
+			}
+		}
+		name = BRI.1.c
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 20
+		}
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = ISU.4
+				days = 1
+			}
+		}
+		name = BRI.1.a
+		
+	}
+}
 country_event = {
     id = ISU_event.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

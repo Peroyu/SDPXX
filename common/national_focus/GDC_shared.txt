@@ -201,6 +201,9 @@ shared_focus = {
 		x = 8
 		y = 4
 		completion_reward = {
+			country_event = { 
+				days = 1  id = GDCarm.3
+				}
 			add_war_support = 0.2
 			add_ideas = GDC_enthusiasm_national
 		}
@@ -219,9 +222,7 @@ shared_focus = {
 		completion_reward = {
 			army_experience = 20
 			add_political_power = -15
-			country_event = { 
-				days = 1  id = GDCarm.3
-				}
+			
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }

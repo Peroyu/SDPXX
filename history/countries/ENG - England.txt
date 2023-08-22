@@ -15,6 +15,11 @@ set_politics = {
 	elections_allowed = no  
 }
 
+
+country_event = {
+	id = BRI.1
+	days = 60
+}
 set_popularities = {
 	communism = 2
 	committee_communism = 13
