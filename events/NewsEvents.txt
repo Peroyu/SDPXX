@@ -86,6 +86,25 @@ news_event = {
 	}
 }
 news_event = {
+	id = USA.4
+
+    picture = GFX_USA_4
+    title = USA.4.t
+    desc = USA.4.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = USA.4.a
+	}
+}
+news_event = {
 	id = HUN_SLO.1
 
     picture = GFX_HUN_SLO_1
