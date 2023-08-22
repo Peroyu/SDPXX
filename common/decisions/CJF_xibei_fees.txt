@@ -27,6 +27,9 @@ CJF_xibei_fees = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_Xibei_fees_2 = {
 		icon = decision_eng_trade_unions_demand
@@ -56,6 +59,9 @@ CJF_xibei_fees = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_Xibei_fees_3 = {
 		icon = decision_eng_trade_unions_demand
@@ -91,5 +97,8 @@ CJF_xibei_fees = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 }

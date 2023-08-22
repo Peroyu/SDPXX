@@ -25,6 +25,9 @@ CJF_South_China_Intelligence_Network = {
                 create_intelligence_agency = yes
                 set_country_flag = CJF_Intelligence_Network_has_begun
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
 	    CJF_train_intelligence_workers = {
             icon = decision_recruit_operative
@@ -51,6 +54,9 @@ CJF_South_China_Intelligence_Network = {
                 }
 				custom_effect_tooltip = CJF_intelligence_power_added
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
         CJF_expand_spy = {
             icon = decision_recruit_operative
@@ -79,6 +85,9 @@ CJF_South_China_Intelligence_Network = {
             remove_effect = {
                 operative_slot = 1
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
         CJF_set_Wuhan_center = {
             icon = decision_recruit_operative
@@ -120,6 +129,9 @@ CJF_South_China_Intelligence_Network = {
                 }
                 set_country_flag = CJF_Huazhong_intelligence_net
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
         CJF_set_Beiping_center = {
             icon = decision_recruit_operative
@@ -161,6 +173,9 @@ CJF_South_China_Intelligence_Network = {
                 }
                 set_country_flag = CJF_Huabei_intelligence_net
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
         CJF_set_Nanjing_center = {
             icon = decision_recruit_operative
@@ -202,6 +217,9 @@ CJF_South_China_Intelligence_Network = {
                 }
                 set_country_flag = CJF_Huadong_intelligence_net
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
         CJF_contact_Huabei_teams = {
             icon = decision_generic_ignite_civil_war
@@ -237,6 +255,9 @@ CJF_South_China_Intelligence_Network = {
                 }
 				add_command_power = -15
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
             remove_effect = {
 		add_to_variable = { global.CHI_huabeifankang = 5 }
 		custom_effect_tooltip = CHI_increase_huabeifankang
@@ -286,6 +307,9 @@ CJF_South_China_Intelligence_Network = {
             remove_effect = {
                 add_to_variable = { global.JIN_percent = 10 }
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
         }
 		CJF_steel_Huazhong_weapons = {
             icon = decision_eng_trade_unions_demand
@@ -322,6 +346,9 @@ CJF_South_China_Intelligence_Network = {
                 }
 				add_command_power = -10
             }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
             remove_effect = {
                 transfer_units_fraction= {
 					target = RCR
@@ -372,5 +399,8 @@ CJF_South_China_Intelligence_Network = {
             remove_effect = {
                 
         	}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
     	}
 }

@@ -31,6 +31,9 @@ CHI_international_bought = {
 		remove_effect = {
 			clr_country_flag = CHI_have_soildiers_defend
 		}
+		ai_will_do = {
+					base = 10#ai点选这个决议的意愿
+					}
 	}  
 	CJF_xingxingxia = {
 		icon = decision_generic_trucks
@@ -78,6 +81,9 @@ CHI_international_bought = {
 		remove_effect = {
 			set_global_flag = CHI_xingxingxia
 		}
+		ai_will_do = {
+					base = 100#ai点选这个决议的意愿
+					}
 	}                               
 	CJF_buy_infantry_1 = {
 		icon = decision_generic_prepare_civil_war
@@ -136,6 +142,9 @@ CHI_international_bought = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_infantry_2 = {
 		icon = decision_generic_prepare_civil_war
@@ -194,6 +203,9 @@ CHI_international_bought = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_infantry_3 = {
 		icon = decision_generic_prepare_civil_war
@@ -252,6 +264,9 @@ CHI_international_bought = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_infantry_support_1 = {
 		icon = decision_generic_prepare_civil_war
@@ -310,6 +325,9 @@ CHI_international_bought = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_infantry_support_2 = {
 		icon = decision_generic_prepare_civil_war
@@ -368,6 +386,9 @@ CHI_international_bought = {
 				}
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_arterlly_1 = {
 		icon = decision_generic_prepare_civil_war
@@ -396,6 +417,9 @@ CHI_international_bought = {
 				producer = SOV
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_arterlly_2 = {
 		icon = decision_generic_prepare_civil_war
@@ -424,6 +448,9 @@ CHI_international_bought = {
 				producer = SOV
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_car = {
 		icon = decision_generic_prepare_civil_war
@@ -452,6 +479,9 @@ CHI_international_bought = {
 				producer = SOV
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_at = {
 		icon = decision_generic_prepare_civil_war
@@ -480,6 +510,9 @@ CHI_international_bought = {
 				producer = SOV
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
 	CJF_buy_aa = {
 		icon = decision_generic_prepare_civil_war
@@ -508,5 +541,9 @@ CHI_international_bought = {
 				producer = SOV
 			}
 		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
 	}
+	
 }
