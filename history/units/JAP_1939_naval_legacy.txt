@@ -180,7 +180,7 @@ units = {
 		}
 		task_force = {
 			name = "Chinkai Kantai"
-			location = 4056  # Pusan
+			location = 1150  # Pusan
 			ship = { name = "Minekaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = NIP} } }
 			# 14 Kuchiku Sentai
 			ship = { name = "Asagao" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = NIP} } }
@@ -202,10 +202,10 @@ units = {
 	### China Area Fleet ###
 	fleet = {
 		name = "Chikogu Eira Kantai"			
-		naval_base = 7014	# Shanghai
+		naval_base = 1150	# Shanghai
 		task_force = {
 			name = "3 Kantai"		# CO: Koga
-			location = 1070	# Hainan
+			location = 10062	# Hainan
 			ship = { name = "Akagi" definition = carrier equipment = { carrier_1 = {amount = 1 owner = NIP version_name = "Akagi Class" } }
 				
 			}
@@ -245,7 +245,7 @@ units = {
 		}
 		task_force = {
 			name = "5 Kantai"
-			location = 7014	# Shanghai
+			location = 1150	# Shanghai
 			ship = { name = "Kaga" definition = carrier equipment = { carrier_1 = {amount = 1 owner = NIP version_name = "Akagi Class" } }
 				
 			}
@@ -270,7 +270,7 @@ units = {
 		}
 		task_force = {
 			name = "Shanghai Kantai"
-			location = 7014	# Shanghai
+			location = 1150	# Shanghai
 			ship = { name = "Izumo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP} } }
 			ship = { name = "Iwate" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP} } }
 			ship = { name = "Hirado" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP} } }

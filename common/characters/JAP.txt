@@ -1,0 +1,259 @@
+characters = {
+	 #GENERALS#
+	NIP_Hata_Shunroku = {
+		name = "NIP_Hata_Shunroku" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Hata_Shunroku
+				large = GFX_portrait_NIP_Hata_Shunroku
+			}
+		}
+		
+		field_marshal={
+			traits={ brilliant_strategist cavalry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Sugiyama_Hajime = {
+		name = "NIP_Sugiyama_Hajime" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Sugiyama_Hajime
+				large = GFX_portrait_NIP_Sugiyama_Hajime
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Terauchi_Hisaichi = {
+		name = "NIP_Terauchi_Hisaichi" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Terauchi_Hisaichi
+				large = GFX_portrait_NIP_Terauchi_Hisaichi
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Nashimotonomiya_Morimasao = {
+		name = "NIP_Nashimotonomiya_Morimasao" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Nashimotonomiya_Morimasao
+				large = GFX_portrait_NIP_Nashimotonomiya_Morimasao
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Araki_Sadao = {
+		name = "NIP_Araki_Sadao" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Araki_Sadao
+				large = GFX_portrait_NIP_Araki_Sadao
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Matsui_Iwane = {
+		name = "NIP_Matsui_Iwane" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Matsui_Iwane
+				large = GFX_portrait_NIP_Matsui_Iwane
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Kuribayashi_Tadamichi = {
+		name = "NIP_Kuribayashi_Tadamichi" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Kuribayashi_Tadamichi
+				large = GFX_portrait_NIP_Kuribayashi_Tadamichi
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Yamashita_Tomoyuki = {
+		name = "NIP_Yamashita_Tomoyuki" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Yamashita_Tomoyuki
+				large = GFX_portrait_NIP_Yamashita_Tomoyuki
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+	NIP_Okamura_Yasuji = {
+		name = "NIP_Okamura_Yasuji" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Okamura_Yasuji
+				large = GFX_portrait_NIP_Okamura_Yasuji
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
+
+    #navy#
+	NIP_Nagano_Osami = {
+		name = "NIP_Nagano_Osami" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Nagano_Osami
+				large = GFX_portrait_NIP_Nagano_Osami
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
+	NIP_Yamamoto_Isoroku = {
+		name = "NIP_Yamamoto_Isoroku" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Yamamoto_Isoroku
+				large = GFX_portrait_NIP_Yamamoto_Isoroku
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
+	NIP_Koga_Mineichi = {
+		name = "NIP_Koga_Mineichi" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Koga_Mineichi
+				large = GFX_portrait_NIP_Koga_Mineichi
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
+	NIP_Inoue_Shigeyoshi = {
+		name = "NIP_Inoue_Shigeyoshi" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Inoue_Shigeyoshi
+				large = GFX_portrait_NIP_Inoue_Shigeyoshi
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
+	NIP_Nagumo_Chuichi = {
+		name = "NIP_Nagumo_Chuichi" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Nagumo_Chuichi
+				large = GFX_portrait_NIP_Nagumo_Chuichi
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
+	
+}

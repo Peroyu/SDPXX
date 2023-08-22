@@ -8,8 +8,9 @@ set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 400
 set_naval_oob = "JAP_1939_naval_legacy"
-set_air_oob = "JAP_1936_air_legacy"
 set_oob = "JAP_1936"
+set_air_oob = "JAP_1936_air_legacy"
+
 
 create_faction = "大东亚共荣圈"
 add_to_faction = RCR
@@ -144,6 +145,8 @@ set_technology = {
 	basic_submarine = 1
 	improved_submarine = 1
 	improved_submarine_big = 1
+	transport = 1
+	landing_craft = 1
 
 	#techss#
 	electronic_mechanical_engineering = 1
@@ -195,3 +198,19 @@ create_country_leader = {
 		ideology = state_capitalism 
 		traits = {  }
 	}
+
+	recruit_character = NIP_Nagano_Osami
+	recruit_character = NIP_Koga_Mineichi
+	recruit_character = NIP_Yamamoto_Isoroku
+	recruit_character = NIP_Inoue_Shigeyoshi
+	recruit_character = NIP_Nagumo_Chuichi
+	#
+	recruit_character = NIP_Okamura_Yasuji
+	recruit_character = NIP_Yamashita_Tomoyuki
+	recruit_character = NIP_Hata_Shunroku
+	recruit_character = NIP_Sugiyama_Hajime
+	recruit_character = NIP_Terauchi_Hisaichi
+	recruit_character = NIP_Nashimotonomiya_Morimasao
+	recruit_character = NIP_Araki_Sadao
+	recruit_character = NIP_Matsui_Iwane
+	recruit_character = NIP_Kuribayashi_Tadamichi

@@ -1122,4 +1122,240 @@ technologies = {
 			ss_tech
 		}
 	}
+
+	transport = {
+
+		transport_capacity = -0.5
+		naval_invasion_capacity = 10
+		
+		path = {
+			leads_to_tech = landing_craft 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1921
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1921 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	landing_craft = {
+
+		invasion_preparation = -0.5
+		amphibious_invasion_defence = 0.15
+		naval_invasion_capacity = 40
+
+		path = {
+			leads_to_tech = tank_landing_craft 
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			floating_harbor_equipment_1
+		}
+
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
+		
+		research_cost = 2
+		start_year = 1939
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1938 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+
+			modifier = {
+				factor = 50
+				tag = JAP
+				OR = {
+					has_war_with = USA
+					CHI = {  
+						OR = { 
+							has_capitulated = yes 
+							exists = no
+		                    is_subject_of = JAP
+						}
+					}
+				}
+			}
+			
+			modifier = {
+				factor = 5
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				has_war_with = GER
+			}
+
+			modifier = {
+				factor = 10
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+				has_war_with = GER
+				GER = { has_war_with = SOV }
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	tank_landing_craft = {
+
+		amphibious_invasion = 0.25
+		amphibious_invasion_defence = 0.5
+		naval_invasion_capacity = 100
+
+		path = {
+			leads_to_tech = afterwar_landing_Craft 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1945 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+
+	afterwar_landing_Craft = {
+
+		amphibious_invasion = 0.5
+		amphibious_invasion_defence = 0.8
+		naval_invasion_capacity = 300
+
+		path = {
+			leads_to_tech = landing_Craft_Air_Cushion 
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1952
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+
+	landing_Craft_Air_Cushion = {
+
+		amphibious_invasion = 0.8
+		amphibious_invasion_defence = 1.5
+		naval_invasion_capacity = 500
+
+		research_cost = 2
+		start_year = 1958
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1958 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+			
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
 }

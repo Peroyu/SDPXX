@@ -552,7 +552,7 @@ technologies = {
 		start_year = 1957
 
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 
 		folder = {
@@ -1503,7 +1503,7 @@ technologies = {
 			jet_heavy_fighter_equipment_2
 		}
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 		
 		research_cost = 2
@@ -1678,7 +1678,7 @@ technologies = {
 			scout_plane_equipment_5
 		}
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 		research_cost = 2
 		start_year = 1957
@@ -1918,7 +1918,7 @@ technologies = {
 	
 	jet_tactical_bomber2 = {
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 		enable_equipments = {
 			jet_tac_bomber_equipment_2
@@ -2251,7 +2251,7 @@ technologies = {
 			transport_plane_equipment_4
 		}
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 		research_cost = 2
 		start_year = 1957
@@ -2321,7 +2321,7 @@ technologies = {
 			jet_strat_bomber_equipment_2
 		}
 		dependencies = {
-			jet_engines = 2
+			jet_engines_improve1 = 1
 		}
 		research_cost = 2
 		start_year = 1957
