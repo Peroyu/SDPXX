@@ -332,7 +332,7 @@ country_event = {
 	id = GDC.3 #多难兴邦
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	GDC.3 FROM = [From.GetName]" }
-    picture = GFX_xiangnan
+    picture = GFX_GDCxingbang
     title = GDC.3.t  #原版格式为 事件前缀名.X.t 如 germany.1.t ）
     desc = GDC.3.d  #原版格式为 事件前缀名.X.td如 germany.1.d ）
    is_triggered_only = yes
