@@ -132,6 +132,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_CJFCP3.png"
 	}
 	spriteType = {
+		name = "GFX_CJF_industry4"
+		texturefile = "gfx/event_pictures/GFX_CJF_industry4.png"
+	}
+	spriteType = {
+		name = "GFX_GDCxingbang"
+		texturefile = "gfx/event_pictures/GFX_GDCxingbang.png"
+	}
+	spriteType = {
+		name = "GFX_MMA5totalshodown"
+		texturefile = "gfx/event_pictures/GFX_MMA5totalshodown.png"
+	}
+	spriteType = {
 		name = "GFX_CKFCP2"
 		texturefile = "gfx/event_pictures/GFX_CKFCP2.png"
 	}

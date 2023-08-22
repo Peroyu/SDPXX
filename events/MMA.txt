@@ -132,7 +132,7 @@ country_event = {
 	MMA.5 FROM = [From.GetName]" }
 	title = MMA.5.t
 	desc = MMA.5.d
-	
+	picture = GFX_MMA5totalshodown
 	is_triggered_only = yes
 	
 	immediate = {
