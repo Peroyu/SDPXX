@@ -712,10 +712,12 @@ GDC_guerrilla_area = {
         cost = 25
         days_remove = 10
         complete_effect = {
+            set_country_flag = HASDONE
 			add_command_power = -10
         }
         available = {
             NOT = {
+                has_country_flag = HASDONE
                 country_exists = FJN
             }
             OR = {
@@ -731,9 +733,10 @@ GDC_guerrilla_area = {
             }
         }
         modifier = {
-			set_country_flag = HASDONE
+			
 		}
         remove_effect = {
+            clr_country_flag = HASDONE
 			add_to_variable = { global.CHI_huanan_regional_tension = 10 }
             custom_effect_tooltip = CHI_v_regional_tension_increase
             country_event = {
@@ -759,6 +762,7 @@ GDC_guerrilla_area = {
         cost = 25
         days_remove = 10
         complete_effect = {
+            set_country_flag = HASDONE
 			add_command_power = -25
             add_manpower = -2000
             add_equipment_to_stockpile = {
@@ -768,6 +772,7 @@ GDC_guerrilla_area = {
         }
         available = {
             NOT = {
+                has_country_flag = HASDONE
                 country_exists = JXP
             }
             OR = {
@@ -783,9 +788,10 @@ GDC_guerrilla_area = {
             }
         }
         modifier = {
-			set_country_flag = HASDONE
+			
 		}
         remove_effect = {
+            clr_country_flag = HASDONE
 			add_to_variable = { global.CHI_huazhong_regional_tension = 10 }
             custom_effect_tooltip = CHI_v_regional_tension_increase 
             country_event = {
@@ -812,13 +818,16 @@ GDC_guerrilla_area = {
         complete_effect = {
 			add_command_power = -25
             add_manpower = -2000
+            set_country_flag = HASDONE
             add_equipment_to_stockpile = {
 		        type = infantry_equipment
 		        amount = -200
 	        }
         }
         available = {
+           
             NOT = {
+                has_country_flag = HASDONE
                 country_exists = KHN
             }
             OR = {
@@ -834,9 +843,10 @@ GDC_guerrilla_area = {
             }
         }
         modifier = {
-			set_country_flag = HASDONE
+			
 		}
         remove_effect = {
+            clr_country_flag = HASDONE
 			add_to_variable = { global.CHI_huanan_regional_tension = 15 }
             add_to_variable = { global.CHI_huazhong_regional_tension = 15 }
             custom_effect_tooltip = CHI_v_regional_tension_increase

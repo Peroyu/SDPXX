@@ -10,12 +10,9 @@ state={
 		add_core_of = RCR
 		buildings = {
 			infrastructure = 2
+			
 		}
-		1055 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-			}
+		
 	}
 
 	manpower=151600

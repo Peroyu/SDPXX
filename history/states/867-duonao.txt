@@ -13,8 +13,6 @@ state={
 			industrial_complex = 3
 
 		}
-		victory_points = { 
-		}
 		add_core_of = ROM
 		add_core_of = TRA
 		add_claim_by = BUL

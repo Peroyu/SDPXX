@@ -4,7 +4,7 @@ state={
 	history={
 		owner = SHA
 		add_core_of = SHA
-		industrial_complex = 1
+		
 		set_demilitarized_zone = yes
 
 	}

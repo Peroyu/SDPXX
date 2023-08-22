@@ -9,9 +9,8 @@ state={
 		owner = FNC
 		add_core_of = FNC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 		}
-		industrial_complex = 1
 	}
 
 	manpower=25051600

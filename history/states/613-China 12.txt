@@ -5,22 +5,14 @@ state={
 
 	history={
 		owner = RCR
-		add_core_of = CHI
 		add_core_of = RCR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			dockyard = 1
-			7014 = {
-				naval_base = 6
-				coastal_bunker = 1
-				bunker = 1
-
-			}
+			
 
 		}
-		victory_points = {
-			7014 5 
-		}
+
 		victory_points = {
 			10076 3 
 		}

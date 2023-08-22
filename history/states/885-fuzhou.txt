@@ -7,14 +7,11 @@ state={
 	}
 	history={
 		owner = RCR
+		buildings = {
 		infrastructure = 2
 			industrial_complex = 1
-			4196 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-			}
-		
+			
+		}
 		victory_points = { 
 				4196 5
 		}
