@@ -38,7 +38,7 @@ country_event = {
 	MMA_gongye.2 FROM = [From.GetName]" }
 	title = MMA_gongye.2.t
 	desc = MMA_gongye.2.d
-	picture = GFX_MMAlan1
+	picture = GFX_MMAgongye2
 	
 	is_triggered_only = yes
 	
