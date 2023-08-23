@@ -17,6 +17,12 @@ ASIA_Southeast_asia_conference = {
                 }
                 country_event = { id = ASIA_southeast_asia_conference.2 days = 1 }
             }
+			OCE = {
+				country_event = {
+					id = ASIA_southeast_asia_conference.2
+					days = 10
+				}
+			}
 			every_country = {
 				limit = {
 					is_ai = no

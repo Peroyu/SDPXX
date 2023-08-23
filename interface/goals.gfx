@@ -1116,6 +1116,11 @@ spriteTypes = {
 		name = "GFX_CJF_MIN39th_armed_division"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN39th_armed_division.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_milltery_replan"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_milltery_replan.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
