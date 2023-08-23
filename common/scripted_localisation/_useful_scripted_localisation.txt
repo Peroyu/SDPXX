@@ -133,7 +133,7 @@ defined_text = {
 	
 	text = {
 		trigger = {
-			has_country_leader_ideology = left_social_democracy
+			has_country_leader_ideology = moderate_socialist
 		}
 		localization_key = moderate_socialist
     }

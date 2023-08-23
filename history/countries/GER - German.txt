@@ -1,4 +1,4 @@
-﻿capital = 64 
+﻿capital = 55 
 
 oob = "GER_1947"  
 
@@ -13,6 +13,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+country_event = { id = GER.1 days = 1211 }
 ################
 set_variable = { var = FactionStatus value = 2 }
 ################

@@ -18,7 +18,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-country_event = { id = ISU_event.3 days = 800 }
+country_event = { id = ISU_event.3 days = 990 }
 add_ideas = {
 	loser_of_the_revolutionary_war
 }
@@ -38,5 +38,23 @@ create_country_leader = {
 	picture = "gfx/leaders/EU/CZE_Committee.png"   
 	expire = "1956.6.6"  
 	ideology = United_Interim_Government 
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "兹德涅克·菲尔林格"  
+	desc = "CZE_Zdenek_Fierlinger_desc"   
+	picture = "GFX_portrait_CZE_Zdenek_Fierlinger"   
+	expire = "1956.6.6"  
+	ideology = Spartacus 
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "克莱门特·哥特瓦尔德"  
+	desc = "CZE_Klement_Gottwald_desc"   
+	picture = "GFX_portrait_Klement_Gottwald"   
+	expire = "1956.6.6"  
+	ideology = leninism 
 	traits = {  }
 }

@@ -14,7 +14,7 @@ add_ideas = {
 	all_eye_sights
 }
 country_event = { id = ISU_event.1 days = 1 }
-country_event = { id = ISU_event.2 days = 506 }
+country_event = { id = ISU_event.2 days = 600 }
 set_variable = { var = FactionStatus value = 2}
 ########################
 set_variable = { var = SDP_economic_v value = 40 }#60

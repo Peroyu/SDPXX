@@ -1,0 +1,41 @@
+capital = 319 # 
+
+set_oob = "empty"  # 
+
+set_research_slots = 3
+
+set_war_support = 0.3 # 
+set_stability = 0.5 # 
+
+set_politics = {
+	ruling_party = moderate_socialism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+# 
+set_popularities = {
+	Liberalism = 5
+	 Nationalism = 10
+	 conservatism = 18
+	 movement_communism = 22
+	 ##Social Democrats##
+	 social_democracy = 10
+	 moderate_socialism = 23
+	 ##commic##
+	 committee_communism = 10
+	 communism = 2
+   }
+add_ideas = {
+
+ 
+ }
+create_country_leader = {
+	name = "卡米耶·胡斯曼"  # 
+	desc = "/"  # 
+	picture = "GFX_BEL_Camille_Huysmans"  # 
+	expire = "1968.2.25"  # 
+	ideology =  centrist_marxism# 
+	traits = {  # 
+	}
+}

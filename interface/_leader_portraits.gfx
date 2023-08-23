@@ -425,6 +425,31 @@
 		name = "GRE_Markos"
 		texturefile = "gfx/leaders/EU/GRE_Markos.png"		
 	}
+
+	spriteType = {
+		name = "GFX_HOL_Willem_Drees"
+		texturefile = "gfx/leaders/EU/GFX_HOL_Willem_Drees.png"		
+	}
+
+	spriteType = {
+		name = "GFX_BEL_Camille_Huysmans"
+		texturefile = "gfx/leaders/EU/GFX_BEL_Camille_Huysmans.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Klement_Gottwald"
+		texturefile = "gfx/leaders/EU/GFX_portrait_Klement_Gottwald.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_Julien_Lahaut"
+		texturefile = "gfx/leaders/EU/GFX_portrait_BEL_Julien_Lahaut.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_Zdenek_Fierlinger"
+		texturefile = "gfx/leaders/EU/GFX_portrait_CZE_Zdenek_Fierlinger.png"		
+	}
 	
 	spriteType = {
 		name = "BUR_Aung_San"

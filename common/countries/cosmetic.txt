@@ -66,3 +66,7 @@ CZE_rep = {
 	color = rgb { 156 181 237 }
 	color_ui = rgb { 156 181 237 }
    }
+DPR = {
+	color = rgb { 198 67 67 }
+	color_ui = rgb { 198 67 67 }
+   }

@@ -184,7 +184,7 @@ country_event = {
 		}
 		BEL = {
 			set_cosmetic_tag = BEL_waas
-			
+			retire_country_leader = yes
 			transfer_state = 34
 			transfer_state = 8
 			
@@ -226,7 +226,7 @@ country_event = {
 		set_nationality = BEL
 		BEL = {
 			set_cosmetic_tag = BEL_waas
-			
+			retire_country_leader = yes
 			transfer_state = 34
 			transfer_state = 8
 			
@@ -289,12 +289,18 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		set_politics = { 
+			ruling_party = communism
+		}
 		name = ISU_event.3.a
 		
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		set_politics = { 
+			ruling_party = committee_communism
 		}
 		name = ISU_event.3.b
 		
@@ -426,6 +432,16 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.9
+					days = 1
+				}
+			}
 			annex_country = { target = DZG transfer_troops = no }
 		}
     }

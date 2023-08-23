@@ -1,7 +1,7 @@
 #reload countrycolors
 FRA = {
-	color = rgb { 205 40 40 }
-	color_ui = rgb { 205 40 40 }
+	color = rgb { 80 161 207 }
+	color_ui = rgb { 80 161 207 }
 }
 GDC = {
 	color = rgb { 180 0 0 }
