@@ -9,6 +9,21 @@ country_event = {
 	desc = FNC.1.d
 	picture = GFX_SHA.1
 	
+	trigger = {
+	 AND = {
+	  JIN = {is_in_faction_with = CJF}
+	  check_variable = {
+			var = global.CHI_huabeifankang
+			value = 40
+			compare = greater_than_or_equals
+		}
+	  check_variable = {
+			var = global.CHI_huabeifankang
+			value = 80
+			compare = less_than
+		}
+	  }
+	}
 	is_triggered_only = yes
 	
 	immediate = {
@@ -43,6 +58,17 @@ country_event = {
 	title = FNC.2.t
 	desc = FNC.2.d
 	picture = GFX_SHA.1
+	
+	trigger = {
+	  AND = {
+	  JIN = {is_in_faction_with = CJF}
+	  check_variable = {
+			var = global.CHI_huabeifankang
+			value = 80
+			compare = greater_than_or_equals
+		}
+	  }
+	}
 	
 	is_triggered_only = yes
 	

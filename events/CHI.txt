@@ -2,6 +2,221 @@
 add_namespace = CHIpeace
 
 country_event = {
+    id = CHIwar.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.1 FROM = [From.GetName]" }
+	title = CHIwar.1.t
+	desc = CHIwar.1.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	trigger = {
+	  or = {
+	       check_variable = {
+				var = global.CHI_dongbei_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = global.CHI_huabei_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = global.CHI_xibei_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = global.CHI_huanan_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = global.CHI_xinan_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = global.CHI_huazhong_regional_tension
+				value = 60
+				compare = greater_than_or_equals
+			}
+		}
+	}
+	immediate = {
+	    hidden_effect = {
+		  CJF = {
+		      create_faction = "抗日民族统一战线"
+		      add_to_faction = MMA
+			  add_to_faction = GDC
+			  add_to_faction = KTR 
+			  add_to_faction = SIK
+			}
+		  RCR = {
+		     add_ideas = CHI_sourthwest_crisis
+			}
+		  MAN = {
+		     add_ideas = CHI_sourthwest_crisis
+			}
+		  MEN = {
+		     add_ideas = CHI_sourthwest_crisis
+			}
+		  SHA = {
+		     add_ideas = CHI_sourthwest_crisis
+			}
+		  FNC = {
+		     add_ideas = CHI_sourthwest_crisis
+			}
+		  country_event = {
+		    id = CHIwar.2
+			days = 30
+		    }
+		}
+    }
+	option = { 
+	    name = CHIwar.1.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+#####rcr宣cjf#####
+country_event = {
+    id = CHIwar.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.2 FROM = [From.GetName]" }
+	title = CHIwar.2.t
+	desc = CHIwar.2.d
+	picture = GFX_CHIwar.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  RCR = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+		   set_variable = {global.chi_uni_nuon = 5}
+		   set_country_flag = ASIA_CHI_JAP_WAR
+		   CJF = {
+		      country_event = {
+		        id = CHIwar.4
+			    days = 1
+		      }
+			}
+		   GDC = {
+		      country_event = {
+		        id = CHIwar.4
+			    days = 1
+		      }
+			}
+			MMA = {
+		      country_event = {
+		        id = CHIwar.4
+			    days = 1
+		      }
+			}
+		}
+    }
+	option = { 
+	    name = CHIwar.2.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+#####man入#####
+country_event = {
+    id = CHIwar.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.3 FROM = [From.GetName]" }
+	title = CHIwar.3.t
+	desc = CHIwar.3.d
+	picture = GFX_CHIwar.3
+	
+	trigger = {
+	  RCR = {
+	   surrender_progress > 30
+	   }
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  MAN = {
+		    add_to_war = {
+		      targeted_alliance = RCR 
+		      enemy = CJF
+		      hostility_reason = annex_everything
+		      }   
+			}
+		   add_to_variable = {global.chi_uni_nuon = 1}
+		}
+    }
+	option = { 
+	    name = CHIwar.3.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+###########
+country_event = {
+    id = CHIwar.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.4 FROM = [From.GetName]" }
+	title = CHIwar.4.t
+	desc = CHIwar.4.d
+	picture = GFX_CHIwar.4
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  
+		}
+    }
+	option = { 
+	    name = CHIwar.4.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+##################
+country_event = {
+    id = CHIwar.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.5 FROM = [From.GetName]" }
+	title = CHIwar.5.t
+	desc = CHIwar.5.d
+	picture = GFX_CHIwar.5
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  
+		}
+    }
+	option = { 
+	    name = CHIwar.5.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+country_event = {
     id = CHIpeace.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CHIpeace.1 FROM = [From.GetName]" }

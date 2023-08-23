@@ -1,4 +1,52 @@
 CHI_reuni = {
-	
+	MMA_attack_MEN = { 
+	      icon = decision_hol_exchange_intelligence_data
+          allowed = {                           
+		   MMA = {
+		     has_war_with = {RCR}
+			}
+          }
+		  visible = {
+		   tag = MMA
+		  }
+		  fire_only_once = yes                  
+          remove_effect = { 
+			add_to_variable = { global.chi_uni_nuon = 1 }
+			MMA = {
+		     declare_war_on = {
+			   target = MEN
+			   type = annex_everything 
+		      }   
+			}
+		   } 
+          	 
+		  cost = 1
+		  days_remove = 10
+        }
+	NIP_add_war = {
+	      icon = decision_hol_exchange_intelligence_data
+          allowed = {                           
+		   check_variable = {
+				var = global.chi_uni_nuon
+				value = 7
+				compare = greater_than_or_equals
+			}
+          }
+		  visible = {
+		   tag = NIP
+		  }
+		  fire_only_once = yes                  
+          remove_effect = { 
+			JAP = {
+		     declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+		   } 
+          	 
+		  cost = 10
+		  days_remove = 10
+        }
 
 }
