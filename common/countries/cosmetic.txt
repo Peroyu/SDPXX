@@ -58,3 +58,11 @@ GDC_csg = {
  color = rgb {100 149 155 }
  color_ui = rgb {100 149 155 }
 }
+BEL_waas = {
+	color = rgb { 195 109 69 }
+	color_ui = rgb { 195 109 69 }
+   }
+CZE_rep = {
+	color = rgb { 156 181 237 }
+	color_ui = rgb { 156 181 237 }
+   }

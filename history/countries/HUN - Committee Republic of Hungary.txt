@@ -14,6 +14,7 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
+country_event = { id = HUN.1 days = 668 }
 HUN = {
 	puppet = CRT
 }

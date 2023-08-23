@@ -18,6 +18,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+country_event = { id = ISU_event.3 days = 800 }
 add_ideas = {
 	loser_of_the_revolutionary_war
 }

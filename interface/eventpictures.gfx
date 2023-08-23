@@ -104,6 +104,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_CHI_regional_news_1.png"
 	}
 	spriteType = {
+		name = "GFX_indu_0"
+		texturefile = "gfx/event_pictures/news/GFX_indu_0.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_7"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_7.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_8"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_8.png"
+	}
+	spriteType = {
 		name = "GFX_USA_4"
 		texturefile = "gfx/event_pictures/news/GFX_USA_4.png"
 	}

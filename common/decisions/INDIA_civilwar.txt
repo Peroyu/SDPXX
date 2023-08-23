@@ -135,6 +135,15 @@ INDIA_civilwar = {
         war_with_on_complete = RAJ
         war_with_on_complete = FID
         remove_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = indu.0
+                    days = 1
+                }
+            }
 			 AFG = {
                 declare_war_on = { target = RAJ type = annex_everything }
                  declare_war_on = { target = FID type = annex_everything }

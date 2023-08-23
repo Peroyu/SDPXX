@@ -66,12 +66,18 @@ shared_focus = {
 		x = 10
 		y = 4
 		select_effect = { 
+			news_event = {
+				id = HUN_SLO.1   days = 276 
+				}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+		
 		news_event = {
-	       id = HUN_SLO.1   days = 1 
+	       id = HUN_SLO.2   days = 288
 		   }
-		news_event = {
-	       id = HUN_SLO.2   days = 7
-		   }
+		}
 		}
 		prerequisite = {
 		    focus = HUN_preparation

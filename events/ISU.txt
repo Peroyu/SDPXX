@@ -82,6 +82,10 @@ country_event = {
 			}
 			every_country = {
 				limit = { is_ai = no }
+				news_event = {
+					id = LaAme.1
+					days = 444
+				}
 			news_event = {
 				id = ISU.1
 				days = 1
@@ -103,6 +107,196 @@ country_event = {
 		   base = 100
 		}
 		name = nuke.1.a
+		
+	}
+}
+country_event = {
+    id = ISU_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.2 FROM = [From.GetName]" }
+	title = ISU_event.2.t
+	desc = ISU_event.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.7
+					days = 1
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = BEL
+		set_nationality = HOL
+		BEL = {
+			transfer_state = 34
+			transfer_state = 6
+			transfer_state = 8
+			
+		}
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+		}
+		name = ISU_event.2.a
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = HOL
+		FRA = {
+			transfer_state = 34
+			transfer_state = 8
+		}
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+			transfer_state = 6
+		}
+		name = ISU_event.2.b
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = BEL
+		set_nationality = HOL
+		set_nationality = FLA
+		FLA = {
+			transfer_state = 6
+		}
+		BEL = {
+			set_cosmetic_tag = BEL_waas
+			
+			transfer_state = 34
+			transfer_state = 8
+			
+		}
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+		}
+		name = ISU_event.2.c
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = HOL
+		set_nationality = FLA
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+		}
+		FRA = {
+			transfer_state = 34
+			transfer_state = 8
+		}
+		FLA = {
+			transfer_state = 6
+		}
+		name = ISU_event.2.e
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = HOL
+		set_nationality = BEL
+		BEL = {
+			set_cosmetic_tag = BEL_waas
+			
+			transfer_state = 34
+			transfer_state = 8
+			
+		}
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+			transfer_state = 6
+		}
+		name = ISU_event.3.a
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_nationality = HOL
+		FRA = {
+			transfer_state = 34
+			transfer_state = 8
+			transfer_state = 6
+		}
+		HOL = {
+			transfer_state = 35
+			transfer_state = 36
+			transfer_state = 7
+			
+		}
+		name = ISU_event.3.b
+		
+	}
+}
+country_event = {
+    id = ISU_event.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.3 FROM = [From.GetName]" }
+	title = ISU_event.3.t
+	desc = ISU_event.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_cosmetic_tag = CZE_rep
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.8
+					days = 1
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.3.a
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.3.b
 		
 	}
 }
@@ -185,6 +379,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+
 		YUG = { set_cosmetic_tag = SAB }
 		BOS = {
 			transfer_state = 104
@@ -205,6 +400,15 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = HUN_BAL.1
+				days = 1
+			}
 		}
 		name = HUN.1.a
 		
