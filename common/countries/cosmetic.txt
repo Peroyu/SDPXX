@@ -70,3 +70,7 @@ DPR = {
 	color = rgb { 198 67 67 }
 	color_ui = rgb { 198 67 67 }
    }
+KAS_indu = {
+	color = rgb { 213 193 134 }
+	color_ui = rgb { 213 193 134 }
+   }

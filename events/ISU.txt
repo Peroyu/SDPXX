@@ -39,12 +39,16 @@ country_event = {
 	    ai_chance = {
 		   base = 30
 		}
+		set_politics = {
+				ruling_party = committee_communism
+			}
 		every_country = {
 			limit = { is_ai = no }
 			news_event = {
 				id = ISU.5
 				days = 1
 			}
+			
 		}
 		name = BRI.1.c
 		
@@ -53,12 +57,16 @@ country_event = {
 	    ai_chance = {
 		   base = 20
 		}
+		set_politics = {
+				ruling_party = Liberalism
+			}
 		every_country = {
 			limit = { is_ai = no }
 			news_event = {
 				id = ISU.4
 				days = 1
 			}
+			
 		}
 		name = BRI.1.a
 		

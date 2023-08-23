@@ -149,7 +149,16 @@ country_event = {
 	    ai_chance = {
 		   base = 90
 		}
-		white_peace = RAJ
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = indu.5
+				days = 1
+			}
+		}
+		white_peace = AFG
 		RAJ = {
 			annex_country = { target = KAR transfer_troops = no }
 			annex_country = { target = PUN transfer_troops = no }
@@ -158,13 +167,13 @@ country_event = {
 		AFG = {
 			clr_country_flag = INDIA_civilwar_participants
 		}
-		name = indu_civilwar.3.a
-	}
-	option = { 
-	    ai_chance = {
-		   base = 90
+		FID = {
+			white_peace = AFG
 		}
-		name = indu_civilwar.3.b
+		KAS = {
+			set_cosmetic_tag = KAS_indu
+		}
+		name = indu_civilwar.3.a
 	}
 	
 }

@@ -394,6 +394,26 @@ news_event = {
 	}
 }
 news_event = {
+	id = indu.5
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	indu.5 FROM = [From.GetName]" }
+    picture = GFX_indu_5
+    title = indu.5.t
+    desc = indu.5.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = indu.5.a
+	}
+}
+news_event = {
 	id = ISU.1
 
     picture = GFX_ISU_1

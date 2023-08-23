@@ -115,13 +115,14 @@ INDIA_civilwar = {
 			tag = AFG
             AFG = {
                 has_country_flag = INDIA_civilwar_participants
+                has_war = no
             }
             OR = {
-            RAJ = {
-                has_war_with = FID
-                has_country_flag = INDIA_civilwar_participants
-            }
-            date > 1948.1.1
+                RAJ = {
+                    has_war_with = FID
+                    has_country_flag = INDIA_civilwar_participants
+                }
+                date > 1948.1.1
             }
 		}
         allowed = {
@@ -334,20 +335,21 @@ INDIA_civilwar = {
         icon = 
         fire_only_once = yes
         available = {
+            tag = AFG
 			RAJ = {
                 controls_state = 440
                 controls_state = 443
             }
 		}
         allowed = {
-            original_tag = RAJ
+            original_tag = AFG
 		}
         visible = {
-            tag = RAJ
+            tag = AFG
 		}
         cost = 0
         remove_effect = {
-            AFG = {
+            RAJ = {
 			country_event = { 
 							days = 1  id = indu_civilwar.4
 							}

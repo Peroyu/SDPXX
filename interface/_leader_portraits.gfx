@@ -181,6 +181,11 @@
 		name = "CHI_portrait_Zhang_Zizhong"
 		texturefile = "gfx/leaders/CJF/CHI_portrait_Zhang_Zizhong.png"		
 	}
+
+	spriteType = {
+		name = "KGP_portrait_Gu_ZhengGang"
+		texturefile = "gfx/leaders/CJF/KGP_portrait_Gu_ZhengGang.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -449,6 +454,16 @@
 	spriteType = {
 		name = "GFX_portrait_CZE_Zdenek_Fierlinger"
 		texturefile = "gfx/leaders/EU/GFX_portrait_CZE_Zdenek_Fierlinger.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Archibald_Sinclair"
+		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Archibald_Sinclair.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Arthur_Horner"
+		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Arthur_Horner.png"		
 	}
 	
 	spriteType = {
