@@ -1071,6 +1071,51 @@ spriteTypes = {
 		name = "GFX_CJF_chemical_defence"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_chemical_defence.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN37th_Chuan_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN37th_Chuan_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN38th_shannan_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN38th_shannan_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN37th_xianggui_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN37th_xianggui_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN37th_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN37th_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN38th_xianggui_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN38th_xianggui_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN39th_death_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN39th_death_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN39th_independ_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN39th_independ_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN39th_attack_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN39th_attack_division.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_MIN39th_armed_division"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN39th_armed_division.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

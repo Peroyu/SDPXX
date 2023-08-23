@@ -122,6 +122,29 @@ country_event = {
 		declare_war_on = { target = GNP type = annex_everything }
 		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
 		add_to_variable = { global.CHI_huanan_regional_tension = 30 }
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+					OR = {
+						tag = CJF
+						tag = GDC
+						tag = MMA
+						tag = RCR
+						tag = NIP
+						tag = MAN
+						tag = SIK
+						tag = FNC
+						tag = MEN
+						tag = JIN
+					}
+				}
+				news_event = {
+					id = CHI_regional_news.1
+					days = 1
+				}
+			}
+		}
 	}
 	
 }
