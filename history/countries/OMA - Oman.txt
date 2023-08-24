@@ -16,8 +16,8 @@ set_politics = {
 }
 # 
 set_popularities = {
- reactionism = 33
- restoratveism = 34
+	reactionism = 33
+ restorativeism = 34
  conservatism = 33
 }
 
@@ -25,9 +25,9 @@ set_popularities = {
 create_country_leader = {
 	name = "赛义德·泰穆尔"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "GFX_portrait_saiyide_OMA"  # 
 	expire = "1952.3.16"  # 
-	ideology = reactionism # 
+	ideology = Peronismo # 
 	traits = {  # 
 		#
 	}

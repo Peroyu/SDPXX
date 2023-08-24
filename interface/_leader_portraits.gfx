@@ -616,6 +616,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_TUN_Bourguiba.png"		
 	}
 
+	spriteType = {
+		name = "GFX_portrait_saiyide_OMA"
+		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_saiyide_OMA.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"
