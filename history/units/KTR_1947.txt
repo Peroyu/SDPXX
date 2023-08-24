@@ -84,6 +84,20 @@ units = {
 		division_template = "Juntuán"		# 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Jingbei 3"
+		location = 10144
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Jingbei 4"
+		location = 10144
+		division_template = "Juntuán"		# 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
 	}	
 	
 }
