@@ -266,8 +266,23 @@ on_actions = {
 						}
 					}
 
-					FROM = {
-						white_peace = ROOT
+					every_country = {
+						limit = {
+							has_war_with = RCR
+						}
+						white_peace = RCR
+					}
+
+					if = {
+						limit = {
+							RCR = {
+									is_in_faction_with = NIP 
+								
+							}
+						}
+						RCR = {
+							leave_faction = yes
+						}
 					}
 
 					GDC = {
@@ -275,6 +290,24 @@ on_actions = {
 							target = ROOT
 							transfer_troops = no
 						}
+					}
+					CJF = {
+						transfer_state = 911
+						transfer_state = 907
+						transfer_state = 908
+						transfer_state = 620
+						transfer_state = 910
+						transfer_state = 909
+						transfer_state = 606
+						transfer_state = 749
+						transfer_state = 921
+						transfer_state = 922
+						transfer_state = 924
+						transfer_state = 613
+						transfer_state = 837
+						transfer_state = 625
+						transfer_state = 598
+						transfer_state = 931
 					}
 
 					set_global_flag = skip_default_capitulation
@@ -293,8 +326,11 @@ on_actions = {
 						}
 					}
 
-					FROM = {
-						white_peace = ROOT
+					every_country = {
+						limit = {
+							has_war_with = FNC
+						}
+						white_peace = FNC
 					}
 
 					CJF = {
@@ -319,18 +355,23 @@ on_actions = {
 							original_tag = MAN
 						}
 					}
-
-					FROM = {
-						white_peace = ROOT
+					every_country = {
+						limit = {
+							has_war_with = MAN
+						}
+						white_peace = MAN
 					}
 
+					MAN = {
+						set_cosmetic_tag = MAN_kmt
+						
+					}
 					CJF = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
+						set_autonomy = {
+							target = MAN
+							autonomy_state = autonomy_integrated_puppet
 						}
 					}
-
 					set_global_flag = skip_default_capitulation
 				}
 
@@ -347,8 +388,11 @@ on_actions = {
 						}
 					}
 
-					FROM = {
-						white_peace = ROOT
+					every_country = {
+						limit = {
+							has_war_with = MEN
+						}
+						white_peace = MEN
 					}
 
 					MMA = {
@@ -356,6 +400,37 @@ on_actions = {
 							target = ROOT
 							transfer_troops = no
 						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+
+				if = { # CHI beat JIN
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CJF
+								is_in_faction_with = CJF
+							}
+						}
+						ROOT = {
+							original_tag = MEN
+						}
+					}
+
+					every_country = {
+						limit = {
+							has_war_with = JIN
+						}
+						white_peace = JIN
+					}
+
+					JIN = {
+						set_cosmetic_tag = JIN_kmt
+					}
+
+					CJF = {
+						add_to_faction = JIN
 					}
 
 					set_global_flag = skip_default_capitulation

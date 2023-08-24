@@ -58,6 +58,10 @@ GDC_csg = {
  color = rgb {100 149 155 }
  color_ui = rgb {100 149 155 }
 }
+MAN_kmt = {
+ color = rgb {100 149 155 }
+ color_ui = rgb {100 149 155 }
+}
 BEL_waas = {
 	color = rgb { 195 109 69 }
 	color_ui = rgb { 195 109 69 }
