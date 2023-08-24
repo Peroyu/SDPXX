@@ -1,8 +1,8 @@
 CHI_reuni = {
 	MMA_attack_MEN = { 
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = { 
-          and = {
+          available = { 
+          AND = {
               tag = MMA		  
 		      MMA = {
 		        has_war_with = RCR
@@ -39,8 +39,8 @@ CHI_reuni = {
         }
 	NIP_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = {
-           and = {
+          available = {
+           AND = {
               tag = NIP		  
 		      check_variable = {
 				var = global.chi_uni_nuon
@@ -78,8 +78,8 @@ CHI_reuni = {
         }
 	MAN_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = {
-           and = {
+          available = {
+           AND = {
               tag = MAN		   
 		      RCR = {
 	           surrender_progress > 30
@@ -117,8 +117,8 @@ CHI_reuni = {
         }
 	FNC_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = {  
-          and = {
+          available = {  
+          AND = {
 		    tag = FNC
 		    or = {		  
 		      CJF = { controls_state = 908 }
@@ -128,7 +128,7 @@ CHI_reuni = {
 		   }
 		  }
 		  ai_will_do = {
-			factor = 100
+			factor = 10000
 		  }
 		  visible = {
 		   OR = {
