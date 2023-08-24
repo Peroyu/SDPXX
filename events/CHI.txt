@@ -71,7 +71,7 @@ country_event = {
 			}
 		  country_event = {
 		    id = CHIwar.2
-			days = 3
+			days = 30
 		    }
 		}
     }
@@ -95,6 +95,15 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = CHI_war.1
+					days = 1
+				}
+			}
 		  RCR = {
 		    declare_war_on = {
 			   target = CJF
@@ -146,7 +155,59 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  
+		  GDC = {
+			set_cosmetic_tag = GDC_csg
+			if = {
+				limit = {
+					country_exists = JXP
+				}
+				annex_country = { target = JXP transfer_troops = yes }
+				JXP = {
+					every_unit_leader = {
+						set_nationality = GDC
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = FJN
+				}
+				annex_country = { target = FJN transfer_troops = yes }
+				FJN = {
+					every_unit_leader = {
+						set_nationality = GDC
+					}
+				}
+			}
+			if = {
+				limit = {
+					country_exists = KHN
+				}
+				annex_country = { target = KHN transfer_troops = yes }
+				KHN = {
+					every_unit_leader = {
+						set_nationality = GDC
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = CHI_Zhe_Jiang_rural_base
+				}
+				918 = {
+					set_demilitarized_zone = yes
+				}
+				919 = {
+					set_demilitarized_zone = yes
+				}
+				920 = {
+					set_demilitarized_zone = yes
+				}
+				transfer_state = 918
+				transfer_state = 919
+				transfer_state = 920
+			}
+		  }
 		}
     }
 	option = { 
