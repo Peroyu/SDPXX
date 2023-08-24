@@ -9,6 +9,8 @@ CHI_reuni = {
 		original_tag = RCR
 		original_tag = NIP
 		original_tag = MMA
+		original_tag = MAN
+		original_tag = FNC
 		}
 	}
 	visible = {
@@ -19,6 +21,8 @@ CHI_reuni = {
 			tag = RCR
 			tag = NIP
 			tag = MMA
+			tag = MAN
+			tag = FNC
 			}
 		}
 	priority = 1000

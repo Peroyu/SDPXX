@@ -1,13 +1,27 @@
 CHI_reuni = {
 	MMA_attack_MEN = { 
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = {                           
-		   MMA = {
-		     has_war_with = {RCR}
+          allowed = { 
+          and = {
+              tag = MMA		  
+		      MMA = {
+		        has_war_with = RCR
+			   }
 			}
           }
+		  ai_will_do = {
+			factor = 100
+		  }
 		  visible = {
-		   tag = MMA
+		   OR = {
+			tag = CJF
+			tag = GDC
+			tag = RCR
+			tag = NIP
+			tag = MMA
+			tag = MAN
+			tag = FNC
+			}
 		  }
 		  fire_only_once = yes                  
           remove_effect = { 
@@ -25,15 +39,29 @@ CHI_reuni = {
         }
 	NIP_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
-          allowed = {                           
-		   check_variable = {
+          allowed = {
+           and = {
+              tag = NIP		  
+		      check_variable = {
 				var = global.chi_uni_nuon
 				value = 7
 				compare = greater_than_or_equals
+			   }
 			}
           }
+		  ai_will_do = {
+			factor = 100
+		  }
 		  visible = {
-		   tag = NIP
+		   OR = {
+			tag = CJF
+			tag = GDC
+			tag = RCR
+			tag = NIP
+			tag = MMA
+			tag = MAN
+			tag = FNC
+			}
 		  }
 		  fire_only_once = yes                  
           remove_effect = { 
@@ -45,8 +73,88 @@ CHI_reuni = {
 			}
 		   } 
           	 
-		  cost = 10
+		  cost = 1
 		  days_remove = 10
         }
+	MAN_add_war = {
+	      icon = decision_hol_exchange_intelligence_data
+          allowed = {
+           and = {
+              tag = MAN		   
+		      RCR = {
+	           surrender_progress > 30
+	          }
+			}
+          }
+		  ai_will_do = {
+			factor = 100
+		  }
+		  visible = {
+		   OR = {
+			tag = CJF
+			tag = GDC
+			tag = RCR
+			tag = NIP
+			tag = MMA
+			tag = MAN
+			tag = FNC
+			}
+		
+		  }
+		  fire_only_once = yes                  
+          remove_effect = { 
+			MAN = {
+		     declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			add_to_variable = {global.chi_uni_nuon = 1}
+		   } 
+          	 
+		  cost = 1
+		  days_remove = 10
+        }
+	FNC_add_war = {
+	      icon = decision_hol_exchange_intelligence_data
+          allowed = {  
+          and = {
+		    tag = FNC
+		    or = {		  
+		      CJF = { controls_state = 908 }
+		      GDC = { controls_state = 908 }
+			  MMA = { controls_state = 908 }
+            }
+		   }
+		  }
+		  ai_will_do = {
+			factor = 100
+		  }
+		  visible = {
+		   OR = {
+			tag = CJF
+			tag = GDC
+			tag = RCR
+			tag = NIP
+			tag = MMA
+			tag = MAN
+			tag = FNC
+			}
+		  }
+		  fire_only_once = yes                  
+          remove_effect = { 
+			FNC = {
+		     declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+		   } 
+          	 
+		  cost = 1
+		  days_remove = 10
+        }
+	
+		
 
 }

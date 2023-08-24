@@ -71,7 +71,7 @@ country_event = {
 			}
 		  country_event = {
 		    id = CHIwar.2
-			days = 30
+			days = 3
 		    }
 		}
     }
@@ -102,7 +102,7 @@ country_event = {
 		      }   
 			}
 		   set_variable = {global.chi_uni_nuon = 5}
-		   set_country_flag = ASIA_CHI_JAP_WAR
+		   set_global_flag = ASIA_CHI_JAP_WAR
 		   CJF = {
 		      country_event = {
 		        id = CHIwar.4
@@ -130,42 +130,7 @@ country_event = {
 		}
 	}
 }
-#####man入#####
-country_event = {
-    id = CHIwar.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	CHIwar.3 FROM = [From.GetName]" }
-	title = CHIwar.3.t
-	desc = CHIwar.3.d
-	picture = GFX_CHIwar.3
-	
-	trigger = {
-	  RCR = {
-	   surrender_progress > 30
-	   }
-	}
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		  MAN = {
-		    add_to_war = {
-		      targeted_alliance = RCR 
-		      enemy = CJF
-		      hostility_reason = annex_everything
-		      }   
-			}
-		   add_to_variable = {global.chi_uni_nuon = 1}
-		}
-    }
-	option = { 
-	    name = CHIwar.3.a
-	    ai_chance = {
-		   base = 100
-		}
-	}
-}
+
 ###########
 country_event = {
     id = CHIwar.4
