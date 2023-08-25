@@ -1,0 +1,38 @@
+spritetypes = {
+	SpriteType = {
+		name = "GFX_SL_state_book_button"
+		texturefile = "gfx/interface/state_lore/diplo_flag_frame.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SL_state_button_bg"
+		texturefile = "gfx/interface/state_lore/GFX_SL_state_button_bg.png"
+	}
+
+	SpriteType = {
+		name = "GFX_SL_title_underlay"
+		texturefile = "gfx/interface/state_lore/edittextbox_bg1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SL_grid_entry"
+		texturefile = "gfx/interface/state_lore/execute_button_ongoing_order.dds"
+	}
+
+	#####
+
+	spritetype = {
+		name = "GFX_state_lore_img_1"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_1.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_2"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_2.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_3"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_3.png"
+	}
+}

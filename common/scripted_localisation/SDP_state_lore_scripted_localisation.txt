@@ -1,0 +1,114 @@
+# Use useful_python_programs/scars_thingy.py for ease of usage.
+
+# TODO: (use CTRL + F to jump between these)
+# 1) TITLE
+# 2) INITIALS
+# 3) DESCRIPTION
+
+################
+### 1) TITLE ###
+################
+
+defined_text = {
+	name = Statelore_Get_Name
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 1 }
+		}
+		localization_key = state_lore_name.1
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 2 }
+		}
+		localization_key = state_lore_name.2
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 3 }
+		}
+		localization_key = state_lore_name.3
+	}
+	
+}
+
+###################
+### 2) INITIALS ###
+###################
+
+defined_text = {
+	name = Statelore_Get_Initials
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 1 }
+		}
+		localization_key = state_lore_initials.1
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 2 }
+		}
+		localization_key = state_lore_initials.2
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 3 }
+		}
+		localization_key = state_lore_initials.3
+	}
+	
+}
+
+######################
+### 3) DESCRIPTION ###
+######################
+defined_text = {
+	name = Statelore_Get_Desc
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 1 }
+		}
+		localization_key = state_lore_desc.1
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 2 }
+		}
+		localization_key = state_lore_desc.2
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 3 }
+		}
+		localization_key = state_lore_desc.3
+	}
+	
+}
+
+###########################
+### 4 ) IMAGES ############
+###########################
+defined_text = { #SUPER EVENT PICTURES
+    name = Statelore_Get_winter
+
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 1 }
+		}
+        localization_key = "GFX_state_lore_img_1"
+    }
+    
+    text = { 
+        trigger = {
+			check_variable = { selected_lore = 2 }
+		}
+        localization_key = "GFX_state_lore_img_2"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 3 }
+		}
+        localization_key = "GFX_state_lore_img_3"
+    }
+   
+}
