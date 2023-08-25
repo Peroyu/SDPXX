@@ -41,4 +41,18 @@ characters = {
 		}
 		
 	}
+	ENG_Clement_Davies = {
+	    name = "ENG_Clement_Davies" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Clement_Davies
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			trsits = {}
+			expire = "1970.6.15.19"
+		}
+		
+	}
 }

@@ -186,6 +186,16 @@
 		name = "KGP_portrait_Gu_ZhengGang"
 		texturefile = "gfx/leaders/CJF/KGP_portrait_Gu_ZhengGang.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_KOR_Yeo_Un_hyeong"
+		texturefile = "gfx/leaders/CJF/Portrait_KOR_Yeo_Un_hyeong.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_KOR_Gim_Gu"
+		texturefile = "gfx/leaders/CJF/Portrait_KOR_Gim_Gu.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -464,6 +474,11 @@
 	spriteType = {
 		name = "GFX_portrait_ENG_Arthur_Horner"
 		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Arthur_Horner.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Clement_Davies"
+		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Clement_Davies.png"		
 	}
 	
 	spriteType = {

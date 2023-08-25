@@ -149,6 +149,7 @@ country_event = {
 		set_nationality = BEL
 		set_nationality = HOL
 		BEL = {
+			retire_country_leader = yes
 			transfer_state = 34
 			transfer_state = 6
 			transfer_state = 8
@@ -164,7 +165,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 30
 		}
 		set_nationality = HOL
 		FRA = {
@@ -182,7 +183,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 70
 		}
 		set_nationality = BEL
 		set_nationality = HOL
@@ -192,7 +193,7 @@ country_event = {
 		}
 		BEL = {
 			set_cosmetic_tag = BEL_waas
-			retire_country_leader = yes
+			
 			transfer_state = 34
 			transfer_state = 8
 			
@@ -207,7 +208,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 30
 		}
 		set_nationality = HOL
 		set_nationality = FLA
@@ -228,13 +229,12 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 20
 		}
 		set_nationality = HOL
 		set_nationality = BEL
 		BEL = {
 			set_cosmetic_tag = BEL_waas
-			retire_country_leader = yes
 			transfer_state = 34
 			transfer_state = 8
 			
@@ -250,7 +250,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 10
 		}
 		set_nationality = HOL
 		FRA = {
