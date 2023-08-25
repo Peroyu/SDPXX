@@ -13,9 +13,6 @@ state={
 
 		}
 		
-		victory_points = { 
-			
-		}
 		add_core_of = CAS
 	}
 

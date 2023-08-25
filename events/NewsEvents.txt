@@ -29,6 +29,25 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.2 #豫山起义
+
+    picture = GFX_Pacific_2
+    title = Pacific.2.t
+    desc = Pacific.2.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.2.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1

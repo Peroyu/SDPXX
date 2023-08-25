@@ -12,9 +12,6 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = { 
-			
-		}
 		set_demilitarized_zone = yes
 		add_core_of = VNN
 		add_core_of = VIN

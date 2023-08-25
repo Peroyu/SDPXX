@@ -1,0 +1,76 @@
+﻿
+division_template = {
+	name = "Kihei Shidan" 			# Cavalry Division - 2 Cavalry Division regiments (3k men); 1 mounted artillery regiment
+	division_names_group = JAP_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Chuton-chi Shidan" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+	division_names_group = JAP_GAR_01
+										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+
+	
+	division = {
+		name = "한국 광복군 1"
+		location = 4056 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "한국 광복군 2"
+		location = 4126 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "한국 광복군 3"
+		location = 7121 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "한국 광복군 4"
+		location = 10085 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "한국 광복군 5"
+		location = 12089 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "한국 광복군 6"
+		location = 4056 #Osaka
+		division_template = "Kihei Shidan"
+	}
+
+}
+
+
+
+
+
+

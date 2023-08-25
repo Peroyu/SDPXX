@@ -83,11 +83,14 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_nationality = JKR
+			set_nationality = KOR
 		    KOR = {
 				transfer_state = 893
 				transfer_state = 892
 				declare_war_on = { target = JKR type = annex_everything }
-				load_oob = KOR_collapse
+				load_oob = "KOR_collapse"
+				declare_war_on = { target = JKR type = annex_everything }
 				}
 			JKR = {
 				transfer_state = 890
@@ -98,7 +101,7 @@ country_event = {
 				transfer_state = 897
 				transfer_state = 525
 				transfer_state = 527
-				load_oob = JKR_collapse
+				load_oob = "JKR_collapse"
 				add_to_faction = JAP
 				}
 			JAP = {
@@ -114,7 +117,15 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = Pacific.2
+				days = 1
+			}
+		}
 		name = JAP.1.a
 	}
 	

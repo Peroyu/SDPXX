@@ -78,3 +78,7 @@ KAS_indu = {
 	color = rgb { 213 193 134 }
 	color_ui = rgb { 213 193 134 }
    }
+KOR_temgov = {
+	color = rgb { 54 94 153 }
+	color_ui = rgb { 54 94 153 }
+   }

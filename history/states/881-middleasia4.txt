@@ -13,9 +13,7 @@ state={
 
 		}
 		set_demilitarized_zone = yes
-		victory_points = { 
-			
-		}
+		
 		add_core_of = SIK
 	}
 

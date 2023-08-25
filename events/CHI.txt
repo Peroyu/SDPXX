@@ -47,6 +47,14 @@ country_event = {
 	}
 	immediate = {
 	    hidden_effect = {
+			all_state = {
+				limit = {
+					is_demilitarized_zone = yes
+					is_owned_and_controlled_by = RCR
+				}
+				set_demilitarized_zone = no
+			}
+			
 		  CJF = {
 		      create_faction = "抗日民族统一战线"
 		      add_to_faction = MMA
@@ -73,6 +81,25 @@ country_event = {
 		    id = CHIwar.2
 			days = 30
 		    }
+			JIN = {
+				country_event = {
+					id = SHA.1
+					days = 20
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = CJF
+						original_tag = CJF
+					}
+
+				}
+				country_event = {
+					id = CHIwar.4
+					days = 28
+				  }
+			}
 		}
     }
 	option = { 
@@ -112,24 +139,6 @@ country_event = {
 			}
 		   set_variable = {global.chi_uni_nuon = 5}
 		   set_global_flag = ASIA_CHI_JAP_WAR
-		   CJF = {
-		      country_event = {
-		        id = CHIwar.4
-			    days = 1
-		      }
-			}
-		   GDC = {
-		      country_event = {
-		        id = CHIwar.4
-			    days = 1
-		      }
-			}
-			MMA = {
-		      country_event = {
-		        id = CHIwar.4
-			    days = 1
-		      }
-			}
 		}
     }
 	option = { 
@@ -194,20 +203,18 @@ country_event = {
 				limit = {
 					has_country_flag = CHI_Zhe_Jiang_rural_base
 				}
-				918 = {
-					set_demilitarized_zone = yes
-				}
-				919 = {
-					set_demilitarized_zone = yes
-				}
-				920 = {
-					set_demilitarized_zone = yes
-				}
 				transfer_state = 918
 				transfer_state = 919
 				transfer_state = 920
 			}
 		  }
+		  all_state = {
+			limit = {
+				is_demilitarized_zone = yes
+				is_owned_and_controlled_by = GDC
+			}
+			set_demilitarized_zone = no
+		}
 		}
     }
 	option = { 
@@ -259,18 +266,24 @@ country_event = {
 	
 	option = { 
 	    ai_chance = {
-		   base = 50
+		   base = 1
 		}
-		news_event = {
-			id = chi_news.2
-			days = 1
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = chi_news.2
+				days = 1
+			}
 		}
 		hidden_effect = {
 			CJF = {
-				set_cosmetic_tag = CJF_kmt
 				add_to_faction = RCR
+				add_to_faction = JIN
 			}
 			RCR = {
+				leave_faction = yes
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
 				transfer_state = 743
@@ -280,6 +293,12 @@ country_event = {
 				set_cosmetic_tag = KTR_kmt
 			}
 			JIN = {
+				if = {
+					limit = {
+						is_in_faction_with = NIP
+					}
+					leave_faction = yes
+				}
 				set_cosmetic_tag = JIN_kmt
 			}
 			MMA = {
@@ -344,17 +363,22 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		news_event = {
-			id = chi_news.3
-			days = 1
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = chi_news.3
+				days = 1
+			}
 		}
 		hidden_effect = {
 			CJF = {
-				set_cosmetic_tag = CJF_kmt
 				add_to_faction = RCR
 				add_to_faction = MEN
 			}
 			RCR = {
+				leave_faction = yes
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
 				annex_country = { target = MAN transfer_troops = no  }
@@ -366,9 +390,16 @@ country_event = {
 				annex_country = { target = SHA transfer_troops = no  }
 			}
 			MEN = {
+				leave_faction = yes
 				set_cosmetic_tag = MEN_kmt
 			}
 			JIN = {
+				if = {
+					limit = {
+						is_in_faction_with = NIP
+					}
+					leave_faction = yes
+				}
 				set_cosmetic_tag = JIN_kmt
 			}
 			GDC = {
@@ -422,17 +453,22 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		news_event = {
-			id = chi_news.3
-			days = 1
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = chi_news.3
+				days = 1
+			}
 		}
 		hidden_effect = {
 			CJF = {
-				set_cosmetic_tag = CJF_kmt
 				add_to_faction = RCR
 				add_to_faction = MEN
 			}
 			RCR = {
+				leave_faction = yes
 				set_cosmetic_tag = RCR_kmt
 				annex_country = { target = FNC transfer_troops = no  }
 				annex_country = { target = MAN transfer_troops = no  }
@@ -443,9 +479,16 @@ country_event = {
 				annex_country = { target = SHA transfer_troops = no  }
 			}
 			MEN = {
+				leave_faction = yes
 				set_cosmetic_tag = MEN_kmt
 			}
 			JIN = {
+				if = {
+					limit = {
+						is_in_faction_with = NIP
+					}
+					leave_faction = yes
+				}
 				set_cosmetic_tag = JIN_kmt
 			}
 			GDC = {

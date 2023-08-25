@@ -14,7 +14,7 @@ state={
 			air_base = 4
 		}
 		victory_points = {
-			1129 = 5
+			1129 5
 		}
 		set_demilitarized_zone = yes
 	}

@@ -1,6 +1,6 @@
 capital = 219 
 
-oob = "RUS_1947"  
+oob = "SOV_1947"  
 
 set_research_slots = 4
 

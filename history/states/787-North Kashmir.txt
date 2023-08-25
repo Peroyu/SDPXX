@@ -17,7 +17,6 @@ state={
 		add_core_of = RAJ
 
 	}
-	set_demilitarized_zone = yes
 	provinces={
 		1910 2041 2084 10821 
 	}
