@@ -88,9 +88,8 @@ country_event = {
 		    KOR = {
 				transfer_state = 893
 				transfer_state = 892
-				declare_war_on = { target = JKR type = annex_everything }
 				load_oob = "KOR_collapse"
-				declare_war_on = { target = JKR type = annex_everything }
+				
 				}
 			JKR = {
 				transfer_state = 890
@@ -103,6 +102,7 @@ country_event = {
 				transfer_state = 527
 				load_oob = "JKR_collapse"
 				add_to_faction = JAP
+				declare_war_on = { target = KOR type = annex_everything }
 				}
 			JAP = {
 				set_autonomy = {

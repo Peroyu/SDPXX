@@ -18,6 +18,10 @@ units = {
 			ship = { name = "Chikuma" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = NIP} } }
 			ship = { name = "Kitakami" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP version_name = "Kuma Class" } } }
 			ship = { name = "Oi" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP version_name = "Kuma Class" } } }
+			ship = { name = "Amagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = NIP version_name = "Amagi-gata" } } }
+			ship = { name = "Akagi" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = NIP version_name = "Amagi-gata" } } }
+			ship = { name = "Atago" definition = battle_cruiser equipment = { battle_cruiser_1 = {amount = 1 owner = NIP version_name = "Amagi-gata" } } }
+
 			# 8 Kuchiku Sentai
 			ship = { name = "Arashio" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = NIP} } }
 			ship = { name = "Asashio" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = NIP} } }
@@ -94,7 +98,6 @@ units = {
 			name = "2 Kantai"
 			location = 12068	# Taiwan
 			ship = { name = "Takao" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP version_name = "Myoko Class" } } }
-			ship = { name = "Atago" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP version_name = "Myoko Class" } } }
 			ship = { name = "Maya" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP version_name = "Myoko Class" } } }
 			ship = { name = "Chokai" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP version_name = "Myoko Class" } } }
 			ship = { name = "Haguro" definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = NIP version_name = "Myoko Class" } } }
@@ -206,9 +209,6 @@ units = {
 		task_force = {
 			name = "3 Kantai"		# CO: Koga
 			location = 10062	# Hainan
-			ship = { name = "Akagi" definition = carrier equipment = { carrier_1 = {amount = 1 owner = NIP version_name = "Akagi Class" } }
-				
-			}
 			ship = { name = "Sendai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP version_name = "Sendai Class" } } }
 			ship = { name = "Kinu" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP version_name = "Kuma Class" } } }
 			ship = { name = "Yura" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = NIP version_name = "Kuma Class" } } }
