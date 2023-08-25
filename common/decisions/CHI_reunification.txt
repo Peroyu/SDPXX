@@ -1,0 +1,83 @@
+CHI_reunification = {                               
+		attack_TIB = {
+			icon = 
+			fire_only_once = yes
+			available = {
+				country_exists = TIB
+				TIB = {
+					is_subject = no
+				}
+			}
+			allowed = {
+				OR = {
+					original_tag = CJF
+					original_tag = GDC
+				}
+			}
+			visible = {
+				country_exists = TIB
+			}
+			cost = 20
+			days_remove = 10
+			war_with_on_remove = TIB
+			complete_effect = {
+				TIB = {
+					country_event = {
+						id = XKS_op.0
+						days = 1
+					}
+				}
+			}
+			cancel_trigger = {
+				TIB = {
+					is_subject = yes
+				}
+			}
+			remove_effect = {
+				declare_war_on = { target = TIB type = annex_everything }
+			}
+		}
+		attack_kas = {
+			icon = 
+			fire_only_once = yes
+			available = {
+				KAS = {
+					owns_state = 881
+				}
+			}
+			allowed = {
+				OR = {
+					original_tag = CJF
+					original_tag = GDC
+				}
+			}
+			visible = {
+				KAS = {
+					owns_state = 881
+				}
+			}
+			cost = 20
+			days_remove = 10
+			war_with_on_remove = KAS
+			complete_effect = {
+				KAS = {
+					country_event = {
+						id = XKS_op.0
+						days = 1
+					}
+				}
+			}
+			cancel_trigger = {
+				NOT = {
+					KAS = {
+						owns_state = 881
+					}
+				}
+				
+			}
+			remove_effect = {
+				declare_war_on = { target = KAS type = annex_everything }
+			}
+		}
+		
+ }

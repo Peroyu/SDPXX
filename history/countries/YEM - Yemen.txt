@@ -1,6 +1,6 @@
 capital = 293 # 
 
-obb = "YEM_1947"  # 
+oob = "empty"  # 
 
 set_research_slots = 2 # 
 
@@ -16,18 +16,19 @@ set_politics = {
 }
 # 
 set_popularities = {
- reactionism = 33
- restoratveism = 34
- conservatism = 33
+ reactionism = 50
+ restorativeism = 25
+ conservatism = 15
+ nationalism = 10
 }
 
 # 
 create_country_leader = {
-	name = "叶海亚·穆罕默德·哈米德丁"  # 
+	name = "艾哈迈德·本·叶海亚"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Potrait_YEM_Ahmad_bin_Yahya"  # 
 	expire = "1952.3.16"  # 
-	ideology = reactionism # 
+	ideology = Peronismo # 
 	traits = {  # 
 		#
 	}

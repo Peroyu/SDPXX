@@ -463,6 +463,10 @@ on_actions = {
 						}
 						set_cosmetic_tag = KOR_temgov
 						set_capital = { state = 890 }
+						set_politics = { 
+							ruling_party = conservatism
+						}
+
 					}
 
 					set_global_flag = skip_default_capitulation

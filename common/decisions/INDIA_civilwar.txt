@@ -336,9 +336,14 @@ INDIA_civilwar = {
         fire_only_once = yes
         available = {
             tag = AFG
-			RAJ = {
-                controls_state = 440
-                controls_state = 443
+            OR = {
+                AFG = {
+                    surrender_progress > 0.3
+                }
+			    RAJ = {
+                    controls_state = 440
+                    controls_state = 443
+                }
             }
 		}
         allowed = {

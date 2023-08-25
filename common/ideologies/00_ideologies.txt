@@ -427,7 +427,8 @@ ideologies = {
 		types = {		
 			traditional_despotism = { can_be_randomly_selected = no }			
 			Fundamentalism = { can_be_randomly_selected = no }			
-			tribalism = { can_be_randomly_selected = no }			
+			tribalism = { can_be_randomly_selected = no }		
+			Wahhabiya = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

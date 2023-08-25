@@ -42,6 +42,13 @@ division_template = {
 
 ### OOB ###
 units = {
+	division = {
+		name = "Han'guk Kwangbokkun"
+		location = 4925
+		division_template = "Bubing Juntuán"		# 
+		start_experience_factor = 0.8		
+		start_equipment_factor = 0.9
+	}
 	### Provincial Forces ###
 	division = {
 		name = "Tianshui yubei 1"

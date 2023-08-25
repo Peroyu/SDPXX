@@ -450,7 +450,6 @@ country_event = {
 					days = 1
 				}
 			}
-			annex_country = { target = DZG transfer_troops = no }
 		}
     }
 	
@@ -492,5 +491,91 @@ country_event = {
 			elections_allowed = no
 		}
 		GER = { set_cosmetic_tag = DPR }
+	}
+}
+country_event = {
+    id = GER.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GER.2 FROM = [From.GetName]" }
+	title = GER.2.t
+	desc = GER.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = GER.3
+				days = 700
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+	
+	name = GER.2.a
+	add_popularity = {
+		ideology = social_democracy
+		popularity = 0.15
+	}
+	add_popularity = {
+		ideology = committee_communism
+		popularity = 0.2
+	}
+	add_popularity = {
+		ideology = moderate_socialism
+		popularity = 0.2
+	}
+	add_popularity = {
+		ideology = Liberalism
+		popularity = 0.1
+	}
+	add_popularity = {
+		ideology = movement_communism
+		popularity = 0.05
+	}
+	set_politics = { 
+		ruling_party = committee_communism
+		
+	}
+	}
+}
+country_event = {
+    id = GER.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GER.3 FROM = [From.GetName]" }
+	title = GER.3.t
+	desc = GER.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 10
+		}
+	POL = {
+		annex_country = { target = DZG transfer_troops = yes }
+	}
+	name = GER.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+	GER = {
+		annex_country = { target = DZG transfer_troops = yes }
+	}
+	name = GER.3.b
 	}
 }

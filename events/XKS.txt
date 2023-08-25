@@ -2,6 +2,59 @@
 add_namespace = XKS
 add_namespace = XKS_sichuan
 country_event = {
+    id = XKS_op.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	XKS_op.0 FROM = [From.GetName]" }
+	title = XKS_op.0.t
+	desc = XKS_op.0.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 10
+		}
+		trigger = {
+			tag = TIB
+		}
+		set_cosmetic_tag = TIB_kmt
+		CJF = {
+			set_autonomy = {
+				target = TIB
+				autonomy_state = autonomy_puppet
+			}
+		}
+		name = XKS_op.0.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 10
+		}
+		trigger = {
+			tag = KAS
+		}
+		SIK = {
+			transfer_state = 881
+			add_state_core = 881
+		}
+		name = XKS_op.0.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = XKS_op.0.b
+	}
+	
+}
+country_event = {
     id = XKS_op.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	XKS_op.1 FROM = [From.GetName]" }

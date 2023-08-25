@@ -59,6 +59,11 @@
 		name = "CHI_portrait_Gao_Gang"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Gao_Gang.png"		
 	}
+
+	spriteType = {
+		name = "CHI_portrait_liuzhidan"
+		texturefile = "gfx/leaders/MMA/CHI_portrait_liuzhidan.png"		
+	}
 	
 	#####################################################################
 	
@@ -480,6 +485,11 @@
 		name = "GFX_portrait_ENG_Clement_Davies"
 		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Clement_Davies.png"		
 	}
+
+	spriteType = {
+		name = "portrait_DZG_otto_afterwar"
+		texturefile = "gfx/leaders/EU/portrait_DZG_otto_afterwar.png"		
+	}
 	
 	spriteType = {
 		name = "BUR_Aung_San"
@@ -562,7 +572,7 @@
 	
 	spriteType = {
 		name = "GFX_portrait_Suez_Canal_Authority"
-		texturefile = "gfx/leaders/EN/portrait_Suez_Canal_Authority.png"		
+		texturefile = "gfx/leaders/East_Mediterranean/portrait_Suez_Canal_Authority.png"		
 	}
 
 	spriteType = {
@@ -636,6 +646,16 @@
 		texturefile = "gfx/leaders/East_Mediterranean/GFX_portrait_saiyide_OMA.png"		
 	}
 
+	spriteType = {
+		name = "Portrait_SAU_Abdel_Saud"
+		texturefile = "gfx/leaders/East_Mediterranean/Portrait_SAU_Abdel_Saud.png"		
+	}
+
+	spriteType = {
+		name = "Potrait_YEM_Ahmad_bin_Yahya"
+		texturefile = "gfx/leaders/East_Mediterranean/Potrait_YEM_Ahmad_bin_Yahya.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"
@@ -670,6 +690,16 @@ spriteType = {
 	spriteType = {
 		name = "Portrait_NEP_Tribhuvan"
 		texturefile = "gfx/leaders/INDIA/Portrait_NEP_Tribhuvan.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_BHU_jigemei_wangchk"
+		texturefile = "gfx/leaders/INDIA/Portrait_BHU_jigemei_wangchk.png"		
+	}
+
+	spriteType = {
+		name = "portrait_KAS_Sheikh_Abdullah"
+		texturefile = "gfx/leaders/INDIA/portrait_KAS_Sheikh_Abdullah.png"		
 	}
 
 	spriteType = {

@@ -25,9 +25,9 @@ set_popularities = {
 create_country_leader = {
 	name = "吉格梅·旺楚克"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_BHU_jigemei_wangchk"  # 
 	expire = "1952.3.16"  # 
-	ideology = reactionism # 
+	ideology = Peronismo # 
 	traits = {  # 
 		#
 	}

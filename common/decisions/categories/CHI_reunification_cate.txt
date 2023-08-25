@@ -1,0 +1,32 @@
+CHI_reunification = {
+	icon = decision_category_SWI_absolute_neutrality
+	picture = 
+
+	allowed = { 
+		OR = {
+		original_tag = CJF
+		original_tag = GDC
+		original_tag = MMA
+		}
+	}
+	available = {
+		NOT = {
+			has_global_flag = CHI_civilwar_began
+			country_exists = RCR
+		}
+	}
+	visible = {
+		NOT = {
+			country_exists = RCR
+		}
+		OR = {
+			tag = CJF
+			tag = GDC
+			tag = MMA
+			}
+		}
+	priority = 1000
+
+	scripted_gui = CHI_reunification_ui
+	visible_when_empty = yes
+}

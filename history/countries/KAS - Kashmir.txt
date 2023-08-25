@@ -23,11 +23,20 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "谢赫·阿卜杜拉"  # 
+	desc = "/"  # 
+	picture = portrait_KAS_Sheikh_Abdullah
+	expire = "1956.6.6"  # 
+	ideology =  despotism
+	traits = {  # 
+	}
+}
+create_country_leader = {
 	name = "穆罕默德·奥尔汗"  # 
 	desc = "/"  # 
 	picture = portrait_TUR_Mehmed_Orhan
 	expire = "1956.6.6"  # 
-	ideology =  despotism
+	ideology =  authoritarian_democracy
 	traits = {  # 
 	}
 }

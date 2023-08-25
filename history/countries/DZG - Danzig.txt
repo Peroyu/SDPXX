@@ -29,12 +29,26 @@ set_popularities = {
 add_ideas = {
 	participant_of_the_revolutionary_war
 }
+country_event = {
+	id = GER.2
+	days = 150
+}
 create_country_leader = {
 	name = "奥托·布劳恩"  # 
 	desc = "otto_desc"  # 
 	picture = "portrait_DZG_otto.dds"  # 
 	expire = "1999.3.16"  # 
 	ideology = military_socialism # 
+	traits = {  # 
+		#
+	}
+}
+create_country_leader = {
+	name = "奥托·布劳恩"  # 
+	desc = "otto_desc"  # 
+	picture = "portrait_DZG_otto_afterwar"  # 
+	expire = "1999.3.16"  # 
+	ideology = Spartacus # 
 	traits = {  # 
 		#
 	}

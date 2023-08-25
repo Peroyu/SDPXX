@@ -8,23 +8,27 @@ set_war_support = 0.3 #
 set_stability = 0.4 # 
 # 
 set_politics = {
-	ruling_party = restoratveism # 
+	ruling_party = restorativeism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
  }
 # 
 set_popularities = {
- restoratveism = 100
- }
+	restorativeism = 50
+	nationalism = 33
+	reactionism = 10
+	conservatism = 5
+	movement_communism = 2
+ } 
 
 # 
 create_country_leader = {
 	name = "伊本·沙特"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_SAU_Abdel_Saud"  # 
 	expire = "1952.3.16"  # 
-	ideology = tribalism # 
+	ideology = Wahhabiya # 
 	traits = {  # 
 		#
 	}
