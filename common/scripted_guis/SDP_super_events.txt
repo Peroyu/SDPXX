@@ -39,6 +39,22 @@ scripted_gui = {
 							has_global_flag = Sun_Fo_Super_Event_Visible
 
 							has_global_flag = Dai_Jitao_Super_Event_Visible
+
+							##video
+
+							has_global_flag = Video_1_Super_Event_Visible
+
+							has_global_flag = Video_2_Super_Event_Visible
+
+							has_global_flag = Video_3_Super_Event_Visible
+
+							has_global_flag = Video_4_Super_Event_Visible
+
+							has_global_flag = Video_5_Super_Event_Visible
+
+							has_global_flag = Video_6_Super_Event_Visible
+
+							has_global_flag = Video_7_Super_Event_Visible
 							
 						
 					}
@@ -53,7 +69,22 @@ scripted_gui = {
 					clr_global_flag = Sun_Fo_Super_Event_Visible
 
 					clr_global_flag = Dai_Jitao_Super_Event_Visible
+
+					##video
 					
+					clr_global_flag = Video_1_Super_Event_Visible
+
+					clr_global_flag = Video_2_Super_Event_Visible
+
+					clr_global_flag = Video_3_Super_Event_Visible
+
+					clr_global_flag = Video_4_Super_Event_Visible
+
+					clr_global_flag = Video_5_Super_Event_Visible
+
+					clr_global_flag = Video_6_Super_Event_Visible
+
+					clr_global_flag = Video_7_Super_Event_Visible
 				}
 			}
 		}
