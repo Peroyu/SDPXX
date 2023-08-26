@@ -1,4 +1,8 @@
 ﻿l_english:
+ polotic_Refugees_ROF:"法兰西流亡者"
+ polotic_Refugees_ROF_desc:"这个角色效忠于法兰西共和国政府"
+ polotic_Refugees_KOR:"韩国光复军"
+ polotic_Refugees_KOR_desc:"这个角色是韩国光复军的成员"
  party_officer:0"党政官僚"
  soviet_officer:0"苏维埃的大管家"
  victorious_general:0"常胜将军"

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_polotic_Refugees_ROF"
+		texturefile = "gfx/interface/traits/GFX_trait_polotic_Refugees_ROF.png"
+	}
+
+	spriteType = {
+		name = "GFX_trait_polotic_Refugees_KOR"
+		texturefile = "gfx/interface/traits/GFX_trait_polotic_Refugees_KOR.png"
+	}
+	
+}

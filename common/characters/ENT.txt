@@ -23,4 +23,20 @@ characters = {
 			expire="1965.1.1.1"
 		}
 	}
+	ROF_David_Galula ={ 
+		name = "大卫·加鲁拉"
+		portraits = {
+			army={
+				large = portrait_ROF_David_Galula
+			}
+		}
+		corps_commander={
+			traits={ polotic_Refugees_ROF }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
 }

@@ -266,6 +266,9 @@ create_country_leader = {
 	}
 }
 recruit_character = CJF_li_zongren
+recruit_character = KOR_Ji_Cheongcheon
+recruit_character = KOR_I_Beomseok
+recruit_character = ROF_David_Galula
 recruit_character = CJF_Chen_Gongbo
 recruit_character = CJF_Wei_LiHuang
 recruit_character = CJF_Gu_ZhuTong
