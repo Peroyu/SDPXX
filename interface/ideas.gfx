@@ -42,6 +42,54 @@ spriteTypes = {
 	
 	############四川##################
 	spriteType = {
+        name = "GFX_idea_CJF_redux_tax_idea"	
+		texturefile = "gfx/interface/ideas/CMA/idea_CJF_redux_tax_idea.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_charity"	
+		texturefile = "gfx/interface/ideas/CMA/idea_CJF_charity.dds"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_politic_problem"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_politic_problem.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_zhongliang"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_zhongliang.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CFJ_wreckage_of_NRA_7"
+		texturefile = "gfx/interface/ideas/CJF/idea_CFJ_wreckage_of_NRA_7.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CFJ_wreckage_of_NRA_4"
+		texturefile = "gfx/interface/ideas/CJF/idea_CFJ_wreckage_of_NRA_4.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_unacknowlaged_power_2"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_unacknowlaged_power_2.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_unacknowlaged_power_3"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_unacknowlaged_power_3.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_jialing"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_jialing.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CFJ_wreckage_of_NRA_5"
+		texturefile = "gfx/interface/ideas/CJF/idea_CFJ_wreckage_of_NRA_5.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_mobalisation"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_mobalisation.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_CJF_belongings"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_belongings.png"
+	}
+	spriteType = {
 	    name = "GFX_portrait_wu_tiechen"
 		texturefile = "gfx/interface/ideas/CJF/portrait_wu_tiechen.dds"
 	}
