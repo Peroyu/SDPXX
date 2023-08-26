@@ -15,10 +15,64 @@ on_actions = {
 				add_to_array = { lore_entries = 2 }
 			}
 
-			#wuhan
+			#Wuhan
 			908 = {
 				add_to_array = { global.state_with_lore = THIS.id }
 				add_to_array = { lore_entries = 3 }
+			}
+
+			#guangzhou
+			889 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 4 }
+			}
+
+			#chongqing
+			842 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 5 }
+			}
+
+			#nanjing
+			924 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 6 }
+			}
+
+			#peking
+			608 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 7 }
+			}
+
+			#dalian
+			745 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 8 }
+			}
+
+			#hongkong
+			324 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 9 }
+			}
+
+			#shanghai
+			837 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 10 }
+			}
+
+			#tianjin
+			835 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 11 }
+			}
+
+			#qingdao
+			743 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 12 }
 			}
 			
 		}

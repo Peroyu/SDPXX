@@ -29,6 +29,18 @@ defined_text = {
 		}
 		localization_key = state_lore_name.3
 	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 4 }
+		}
+		localization_key = state_lore_name.4
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 5 }
+		}
+		localization_key = state_lore_name.5
+	}
 	
 }
 
@@ -56,6 +68,18 @@ defined_text = {
 		}
 		localization_key = state_lore_initials.3
 	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 4 }
+		}
+		localization_key = state_lore_initials.4
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 5 }
+		}
+		localization_key = state_lore_initials.5
+	}
 	
 }
 
@@ -81,6 +105,18 @@ defined_text = {
 			check_variable = { selected_lore = 3 }
 		}
 		localization_key = state_lore_desc.3
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 4 }
+		}
+		localization_key = state_lore_desc.4
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 5 }
+		}
+		localization_key = state_lore_desc.5
 	}
 	
 }
@@ -109,6 +145,18 @@ defined_text = { #SUPER EVENT PICTURES
 			check_variable = { selected_lore = 3 }
 		}
         localization_key = "GFX_state_lore_img_3"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 4 }
+		}
+        localization_key = "GFX_state_lore_img_4"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 5 }
+		}
+        localization_key = "GFX_state_lore_img_5"
     }
    
 }
