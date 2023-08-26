@@ -2944,5 +2944,15 @@ leader_traits = {
 			boost_resistance_factor = 0.25
 		}
 	}
+
+	polotic_Refugees_ROF = {
+		type = land
+		trait_type = personality_trait
+	}
+
+	polotic_Refugees_KOR = {
+		type = land
+		trait_type = personality_trait
+	}
 }
 

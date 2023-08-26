@@ -1,0 +1,36 @@
+characters = {
+	KOR_Ji_Cheongcheon={
+		name = "池青天"
+		portraits = {
+			army={
+				small = GFX_portrait_KOR_Ji_Cheongcheon
+				large = GFX_portrait_KOR_Ji_Cheongcheon
+			}
+		}
+		corps_commander={
+			traits={ polotic_Refugees_KOR }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	KOR_I_Beomseok={
+		name = "李范奭"
+		portraits = {
+			army={
+				small = GFX_portrait_KOR_I_Beomseok
+				large = GFX_portrait_KOR_I_Beomseok
+			}
+		}
+		corps_commander={
+			traits={ polotic_Refugees_KOR }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

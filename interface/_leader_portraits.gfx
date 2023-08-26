@@ -201,6 +201,16 @@
 		name = "Portrait_KOR_Gim_Gu"
 		texturefile = "gfx/leaders/CJF/Portrait_KOR_Gim_Gu.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Ji_Cheongcheon"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_KOR_Ji_Cheongcheon.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_I_Beomseok"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_KOR_I_Beomseok.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -518,6 +528,16 @@
 		name = "portrait_JAP_Tanaka_Hisakazu"
 		texturefile = "gfx/leaders/JAP/portrait_JAP_Tanaka_Hisakazu.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Yamashita_Tomoyuki"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Yamashita_Tomoyuki.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Hata_Shunroku"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Hata_Shunroku.png"		
+	}
 	#####################SouthEastAsia#######################
 	
 	spriteType = {
@@ -832,6 +852,11 @@ spriteType = {
 	spriteType = {
 		name = "portrait_FWI_india_concil"
 		texturefile = "gfx/leaders/EN/portrait_FWI_india_concil.png"		
+	}
+
+	spriteType = {
+		name = "portrait_ROF_David_Galula"
+		texturefile = "gfx/leaders/EN/portrait_ROF_David_Galula.png"		
 	}
 
 	spriteType = {

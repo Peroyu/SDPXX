@@ -26,10 +26,10 @@ characters = {
 		}
 		field_marshal={
 			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
-			skill=6
-			attack_skill=4
-			defense_skill=6
-			planning_skill=4
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=3
 		}
 	}
@@ -43,10 +43,10 @@ characters = {
 		}
 		field_marshal={
 			traits={ trait_cautious harsh_leader}
-			skill=5
+			skill=4
 			attack_skill=4
-			defense_skill=6
-			planning_skill=4
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=3
 		}
 	}
@@ -73,7 +73,7 @@ characters = {
 		}
 		field_marshal={
 			traits={ infantry_officer defensive_doctrine }
-			skill=5
+			skill=3
 			attack_skill=2
 			defense_skill=1
 			planning_skill=3
@@ -90,7 +90,7 @@ characters = {
 		}
 		corps_commander={
 			traits={ organizer }
-			skill=5
+			skill=3
 			attack_skill=2
 			defense_skill=2
 			planning_skill=3
@@ -175,8 +175,8 @@ characters = {
 		}
 		corps_commander={
 			traits={ career_officer infantry_leader politically_connected }
-			skill=4
-			attack_skill=3
+			skill=3
+			attack_skill=2
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=3
@@ -193,8 +193,8 @@ characters = {
 		corps_commander={
 			traits={ career_officer infantry_leader }
 			skill=3
-			attack_skill=3
-			defense_skill=4
+			attack_skill=2
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=3
 		}
@@ -213,7 +213,7 @@ characters = {
 			attack_skill=3
 			defense_skill=2
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=1
 		}
 	}
 	CJF_Li_Mingrui={
@@ -245,7 +245,7 @@ characters = {
 			traits={ }
 			skill=2
 			attack_skill=2
-			defense_skill=1
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=2
 		}
