@@ -2414,6 +2414,11 @@ spriteTypes = {
 		name = "GFX_Pre_dreadnought_battleship_1_medium"
 		texturefile = "gfx/interface/technologies/GFX_Pre_dreadnought_battleship_1_medium.png"
 	}
+
+	SpriteType = {
+		name = "GFX_SSBN_1_medium"
+		texturefile = "gfx/interface/technologies/GFX_SSBN_1_medium.png"
+	}
 	
 	SpriteType = {
 		name = "GFX_fuel_medium"

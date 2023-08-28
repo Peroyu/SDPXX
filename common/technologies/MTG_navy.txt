@@ -296,7 +296,9 @@ technologies = {
 			missle_destroyer_1
 		}
 		
-		
+		dependencies = {
+			improved_rocket_engines_1 = 1
+		}
 		research_cost = 7
 
 		start_year = 1932
@@ -528,7 +530,9 @@ technologies = {
 		enable_equipments = { 
 			missle_Cruisers_1
 		}
-		
+		dependencies = {
+			improved_rocket_engines_1 = 1
+		}
 		
 		research_cost = 7
 
@@ -1282,7 +1286,9 @@ technologies = {
 		enable_equipments = { 
 			nuclear_submarine_1
 		}
-			
+		sub_technologies = {
+			SSBN
+		}
 			research_cost = 4
 	
 			start_year = 1962
@@ -1304,6 +1310,27 @@ technologies = {
 			categories = {
 				naval_equipment
 				ss_tech
+			}
+		}
+		SSBN = {
+
+			enable_equipments = {
+				SSBN_1
+			}
+			dependencies = {
+				improved_rocket_engines_1 = 1
+			}
+			research_cost = 6
+			start_year = 1933
+			
+			categories = {
+				naval_air
+				air_equipment
+			}
+			
+			ai_will_do = {
+				factor = 1.5
+				
 			}
 		}
     advanced_submarine_big_1 = {

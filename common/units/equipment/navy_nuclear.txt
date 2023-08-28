@@ -172,4 +172,62 @@ equipments = {
 		archetype = nuclear_battleship
 		priority = 70
 	}
+
+
+	SSBN = {
+		year = 1955
+
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		group_by = archetype
+		
+		interface_category = interface_category_other_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			sub_engine_upgrade
+			sub_stealth_upgrade
+			sub_torpedo_upgrade		
+		}
+		
+
+		ap_attack = 0
+		attack = 0 # Their main weapon is torpedo_attack.
+		fire_range = 1500
+		torpedo_attack = 0
+		
+		anti_air_attack = 0.5
+		
+		armor_value = 0
+		evasion = 25
+		
+		surface_detection = 1200
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 5
+		naval_speed = 35
+		reliability = 0.9
+		
+		naval_range = 25000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 2
+		
+		build_cost_ic = 10500
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 2000
+	}
+
+	SSBN_1 = {
+		year = 1955
+
+		archetype = SSBN
+		priority = 70
+	}
 }
