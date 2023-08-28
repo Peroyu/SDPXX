@@ -1,0 +1,59 @@
+equipments = {
+
+	Large_Cruisers = {
+		year = 1946
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 23
+		attack = 30
+		fire_range = 50
+		torpedo_attack = 0
+		shore_bombardment = 3
+		
+		anti_air_attack = 20
+		
+		armor_value = 16
+		evasion = 20
+		
+		surface_detection = 18
+		sub_detection = 10
+		surface_visibility = 30
+		naval_speed = 42
+		reliability = 0.80
+		
+		naval_range = 5000
+		
+		max_strength = 300
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 6000
+		resources = {
+			oil = 2
+			steel = 5
+		}
+		
+		manpower = 2500
+	}
+
+	Large_Cruisers_1 = {
+		year = 1946
+
+		archetype = Large_Cruisers
+		priority = 40
+		
+	}
+}

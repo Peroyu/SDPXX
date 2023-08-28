@@ -1,0 +1,175 @@
+equipments = {
+
+	carrier_nuclear = {
+		year = 1955
+
+		is_archetype = yes
+		is_buildable = no
+		type = carrier
+		sprite = carrier
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade			
+		}
+		
+		ap_attack = 0
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 0
+		carrier_size = 66
+		
+		anti_air_attack = 15
+		
+		armor_value = 20
+		evasion = 20
+		
+		surface_detection = 19
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 35
+		reliability = 0.70
+		
+		naval_range = 3000000
+		
+		max_strength = 250
+		
+		port_capacity_usage = 2
+
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 20000
+		resources = {
+			steel = 3
+			chromium = 1
+		}
+		
+		manpower = 3215
+	}
+
+	carrier_nuclear_1 = {
+		year = 1955
+
+		archetype = carrier_nuclear
+		priority = 70
+	}
+
+	nuclear_submarine = {
+		year = 1955
+
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		group_by = archetype
+		
+		interface_category = interface_category_other_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			sub_engine_upgrade
+			sub_stealth_upgrade
+			sub_torpedo_upgrade		
+		}
+		
+
+		ap_attack = 0
+		attack = 0 # Their main weapon is torpedo_attack.
+		fire_range = 6
+		torpedo_attack = 10
+		
+		anti_air_attack = 0.5
+		
+		armor_value = 0
+		evasion = 25
+		
+		surface_detection = 100
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 5
+		naval_speed = 32
+		reliability = 0.9
+		
+		naval_range = 20000
+		
+		max_strength = 10
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 3000
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 1500
+	}
+
+	nuclear_submarine_1 = {
+		year = 1955
+
+		archetype = nuclear_submarine
+		priority = 70
+	}
+
+	nuclear_battleship = {
+		year = 1955
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade			
+		}
+		
+		ap_attack = 80
+		attack = 50
+		fire_range = 50
+		torpedo_attack = 0
+		shore_bombardment = 20
+
+		anti_air_attack = 18
+		
+		armor_value = 68
+		evasion = 14
+		
+		surface_detection = 25
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 41
+		reliability = 0.90
+		
+		naval_range = 30000
+
+		max_strength = 800
+		
+		port_capacity_usage = 4
+		
+		build_cost_ic = 23000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 3
+		}
+		manpower = 12000
+	}
+
+	nuclear_battleship_1 = {
+		year = 1955
+
+		archetype = nuclear_battleship
+		priority = 70
+	}
+}

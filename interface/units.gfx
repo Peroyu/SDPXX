@@ -1,0 +1,228 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_unit_missle_destroyer_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_destroyer_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_missle_destroyer_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_destroyer_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_missle_destroyer_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_missle_destroyer_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_missle_destroyer_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_destroyer_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_missle_destroyer_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_destroyer_icon_medium_white.dds" 
+	}
+
+
+	##
+
+	spriteType = {
+		name = "GFX_unit_Large_Cruisers_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_Large_Cruisers_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Large_Cruisers_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Large_Cruisers_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_Large_Cruisers_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_Large_Cruisers_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Large_Cruisers_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_Large_Cruisers_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Large_Cruisers_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Large_Cruisers_icon_medium_white.dds" 
+	}
+
+	##
+
+	spriteType = {
+		name = "GFX_unit_carrier_nuclear_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_carrier_nuclear_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_carrier_nuclear_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_carrier_nuclear_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_carrier_nuclear_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_carrier_nuclear_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_carrier_nuclear_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_carrier_nuclear_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_carrier_nuclear_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_carrier_nuclear_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_missle_Cruisers_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_Cruisers_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_missle_Cruisers_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_Cruisers_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_missle_Cruisers_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_missle_Cruisers_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_missle_Cruisers_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_Cruisers_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_missle_Cruisers_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_missle_Cruisers_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_big_submarine_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_big_submarine_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_big_submarine_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_big_submarine_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_big_submarine_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_big_submarine_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_big_submarine_2_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_big_submarine_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_big_submarine_3_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_big_submarine_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_big_submarine_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_big_submarine_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_big_submarine_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_big_submarine_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_nuclear_submarine_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_submarine_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_nuclear_submarine_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_submarine_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_nuclear_submarine_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_nuclear_submarine_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_nuclear_submarine_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_submarine_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_nuclear_submarine_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_submarine_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_nuclear_battleship_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_battleship_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_nuclear_battleship_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_battleship_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_nuclear_battleship_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_nuclear_battleship_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_nuclear_battleship_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_battleship_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_nuclear_battleship_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_nuclear_battleship_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_Escort_carrier_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_Escort_carrier_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Escort_carrier_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Escort_carrier_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_CVF_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_CVF_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Escort_carrier_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_Escort_carrier_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Escort_carrier_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Escort_carrier_icon_medium_white.dds" 
+	}
+
+	###
+	
+	spriteType = {
+		name = "GFX_unit_Pre_dreadnought_battleship_icon_medium_black"
+		texturefile = "gfx/interface/subunit/GFX_unit_Pre_dreadnought_battleship_icon_medium_black.dds"
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Pre_dreadnought_battleship_icon_medium_black"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Pre_dreadnought_battleship_icon_medium_black.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_Pre_dreadnought_battleship_1_icon_medium"				
+		texturefile = "gfx/interface/subunit/ships/GFX_unit_Pre_dreadnought_battleship_1_icon_medium.dds"				
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Pre_dreadnought_battleship_icon_medium_white"							
+		texturefile = "gfx/interface/subunit/GFX_unit_Pre_dreadnought_battleship_icon_medium_white.dds" 
+	}
+	spriteType = { 
+		name = "GFX_unit_escort_Pre_dreadnought_battleship_icon_medium_white"					
+		texturefile = "gfx/interface/subunit/GFX_unit_Pre_dreadnought_battleship_icon_medium_white.dds" 
+	}
+
+}

@@ -16,4 +16,38 @@ sub_units = {
 		
 		hit_profile_mult = 1.0
 	}
+	big_submarine = {
+		sprite = big_submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { big_submarine = 1 }
+		
+		max_organisation = 60
+		
+		supply_consumption = 0.05
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed ballast_tanks_inoperable }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	nuclear_submarine = {
+		sprite = nuclear_submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { nuclear_submarine = 1 }
+		
+		max_organisation = 100
+		
+		supply_consumption = 0.03
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed ballast_tanks_inoperable }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
 }

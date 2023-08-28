@@ -140,13 +140,10 @@ set_technology = {
 	improved_battleship = 1
 	early_carrier = 1
 	basic_carrier = 1
-	improved_carrier = 1
 	early_submarine = 1
-	basic_submarine = 1
-	improved_submarine = 1
-	improved_submarine_big = 1
 	transport = 1
 	landing_craft = 1
+	Pre_dreadnought_battleship = 1
 
 	#techss#
 	electronic_mechanical_engineering = 1

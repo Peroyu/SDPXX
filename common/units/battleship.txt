@@ -24,4 +24,39 @@ sub_units = {
 		
 		hit_profile_mult = 1.0
 	}
+	Pre_dreadnought_battleship = {
+		sprite = Pre_dreadnought_battleship
+		map_icon_category = ship
+		priority = 5
+		active = yes
+		type = { capital_ship }
+		need_equipment = { Pre_dreadnought_battleship = 1 }
+		
+		max_organisation = 30
+
+		supply_consumption = 0.09
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
+	}
+	nuclear_battleship = {
+		sprite = nuclear_battleship
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { capital_ship }
+		need_equipment = { nuclear_battleship = 1 }
+		
+		max_organisation = 120
+
+		supply_consumption = 0.15
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
+	}
+	
 }

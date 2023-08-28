@@ -26,7 +26,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 4
 
 		start_year = 1921
 		
@@ -58,7 +58,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 5
 		
 		start_year = 1935
 
@@ -88,8 +88,13 @@ technologies = {
 			leads_to_tech = advanced_destroyer 
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = flag_destroyer 
+			research_cost_coeff = 1
+		}
 		
-		research_cost = 2
+		research_cost = 5
 
 		start_year = 1945
 		
@@ -109,17 +114,43 @@ technologies = {
 		}
 	}
 
+	flag_destroyer = {
+
+		enable_equipments = { 
+			destroyer_flag
+		}
+		
+		
+		research_cost = 5
+
+		start_year = 1945
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1945 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
     advanced_destroyer = {
 
 		enable_equipments = { 
 			destroyer_4
 		}
+		research_cost = 5
 		path = {
-			leads_to_tech = advanced_destroyer_1 
+			leads_to_tech = missle_destroyer 
 			research_cost_coeff = 1
 		}
-		research_cost = 2
-
 		start_year = 1955
 		
 		folder = {
@@ -142,32 +173,6 @@ technologies = {
 		}
 	}
 
-    advanced_destroyer_1 = {
-
-		enable_equipments = { 
-			destroyer_5
-		}
-		
-		research_cost = 2
-
-		start_year = 1962
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = @1962 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-		}
-		
-		categories = {
-			naval_equipment
-			dd_tech
-		}
-	}
-
 
     early_light_cruiser = {
 
@@ -179,13 +184,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		#path = {
-		#	leads_to_tech = early_heavy_cruiser
-		#	research_cost_coeff = 0.75
-		#}
 		
-		research_cost = 1.5
-
+		research_cost = 3
 		start_year = 1921
 		
 		folder = {
@@ -214,7 +214,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 4
 		
 		start_year = 1935
 		
@@ -244,7 +244,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 5
 
 		start_year = 1942
 		
@@ -269,12 +269,8 @@ technologies = {
 			light_cruiser_4
 		}
 		
-		path = {
-			leads_to_tech = advanced_light_cruiser_1 
-			research_cost_coeff = 0.75
-		}
-		
-		research_cost = 2
+
+		research_cost = 5
 
 		start_year = 1955
 		
@@ -293,19 +289,21 @@ technologies = {
 			cl_tech
 		}
 	}
-    advanced_light_cruiser_1 = {
+
+	missle_destroyer = {
 
 		enable_equipments = { 
-			light_cruiser_5
+			missle_destroyer_1
 		}
 		
-		research_cost = 2
+		
+		research_cost = 7
 
-		start_year = 1964
+		start_year = 1932
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1964 }
+			position = { x = 0 y = @1962 }
 		}
 		
 		ai_will_do = {
@@ -318,6 +316,7 @@ technologies = {
 			cl_tech
 		}
 	}
+    
 
 
     early_heavy_cruiser = {
@@ -332,7 +331,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 1.5
+		research_cost = 4
 
 		start_year = 1921
 		
@@ -362,7 +361,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 2
+		research_cost = 5
 		
 		start_year = 1935
 		
@@ -391,7 +390,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 6
 
 		start_year = 1942
 		
@@ -414,45 +413,18 @@ technologies = {
 		enable_equipments = { 
 			heavy_cruiser_4
 		}
-
 		path = {
-			leads_to_tech = advanced_heavy_cruiser_1 
+			leads_to_tech = missle_Cruisers 
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 6
 
 		start_year = 1952
 		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 1 y = @1952 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			naval_equipment
-			ca_tech
-		}
-	}
-
-    advanced_heavy_cruiser_1 = {
-
-		enable_equipments = { 
-			heavy_cruiser_5
-		}
-
-		
-		research_cost = 2
-
-		start_year = 1962
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 1 y = @1962 }
 		}
 		
 		ai_will_do = {
@@ -477,13 +449,13 @@ technologies = {
 		}
 		
 		
-		research_cost = 1.5
+		research_cost = 4
 
-		start_year = 1921
+		start_year = 1925
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = -1 y = @1921 }
+			position = { x = -1 y = @1925 }
 		}
 		
 		ai_will_do = {
@@ -495,20 +467,76 @@ technologies = {
 			bc_tech
 		}
 	}
-    basic_battlecruiser = {
+	basic_battlecruiser = {
 
 		enable_equipments = { 
 			battle_cruiser_2
 		}
 		
+		path = {
+			leads_to_tech = Large_Cruisers 
+			research_cost_coeff = 1
+		}
 		
-		research_cost = 2
+		
+		research_cost = 4
 
 		start_year = 1935
 		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = -1 y = @1935 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+    Large_Cruisers = {
+
+		enable_equipments = { 
+			Large_Cruisers_1
+		}
+		
+		
+		research_cost = 6
+
+		start_year = 1946
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	missle_Cruisers = {
+
+		enable_equipments = { 
+			missle_Cruisers_1
+		}
+		
+		
+		research_cost = 7
+
+		start_year = 1958
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1958 }
 		}
 		
 		ai_will_do = {
@@ -533,7 +561,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 1.5
+		research_cost = 3
 		start_year = 1921
 		
 		folder = {
@@ -562,7 +590,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 2
+		research_cost = 4
 		start_year = 1935
 		
 		folder = {
@@ -590,7 +618,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 5
 		start_year = 1945
 		
 		folder = {
@@ -618,8 +646,13 @@ technologies = {
 			leads_to_tech = heavy_battleship 
 			research_cost_coeff =1
 		}
+
+		path = {
+			leads_to_tech = nuclear_battleship_engine 
+			research_cost_coeff =1
+		}
 		
-		research_cost = 2
+		research_cost = 6
 		start_year = 1952
 		
 		folder = {
@@ -636,19 +669,21 @@ technologies = {
 			bb_tech
 		}
 	}
-    heavy_battleship = {
-
-		enable_equipments = { 
-			SH_battleship_1
+	nuclear_battleship_engine = {
+		dependencies = {
+			nuclear_reactor2 = 1
+		}
+		path = {
+			leads_to_tech = heavy_nuclear_battleship 
+			research_cost_coeff =1
 		}
 		
-		
-		research_cost = 2
-		start_year = 1964
+		research_cost = 6
+		start_year = 1952
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1964 }
+			position = { x = 6 y = @1952 }
 		}
 		
 		ai_will_do = {
@@ -657,9 +692,87 @@ technologies = {
 		
 		categories = {
 			naval_equipment
-			shbb_tech
+			bb_tech
 		}
 	}
+	heavy_nuclear_battleship = {
+
+		enable_equipments = { 
+			nuclear_battleship_1
+		}
+		
+		
+		
+		research_cost = 6
+		start_year = 1962
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1962 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	heavy_battleship = {
+
+		enable_equipments = { 
+			battleship_5
+		}
+		
+		path = {
+			leads_to_tech = heavy_battleship_1 
+			research_cost_coeff =1
+		}
+		
+		research_cost = 6
+		start_year = 1952
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	heavy_battleship_1 = {
+
+		enable_equipments = { 
+			battleship_6
+		}
+	
+		
+		research_cost = 6
+		start_year = 1958
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1958 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+    
 
 
     early_carrier = {
@@ -672,6 +785,11 @@ technologies = {
 			leads_to_tech = basic_carrier 
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = CVF 
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 
@@ -680,6 +798,31 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1921 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	CVF = {
+
+		enable_equipments = { 
+			CVF_1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1935
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1935 }
 		}
 		
 		ai_will_do = {
@@ -703,12 +846,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-		start_year = 1928
+		research_cost = 4
+		start_year = 1935
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1928 }
+			position = { x = 0 y = @1935 }
 		}
 		
 		ai_will_do = {
@@ -731,14 +874,93 @@ technologies = {
 			leads_to_tech = advanced_carrier 
 			research_cost_coeff = 1
 		}
-		
-		research_cost = 2
 
-		start_year = 1935
+		path = {
+			leads_to_tech = carrier_atomic_engine 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+
+		start_year = 1945
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = @1935 }
+			position = { x = 0 y = @1945 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	carrier_atomic_engine = {
+
+		
+
+		dependencies = {
+			nuclear_reactor2 = 1
+		}
+		
+		path = {
+			leads_to_tech = carrier_atomic 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+
+		start_year = 1946
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	carrier_atomic = {
+
+		enable_equipments = { 
+			carrier_nuclear_1
+		}
+		research_cost = 7
+
+		start_year = 1955
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1955 }
 		}
 		
 		ai_will_do = {
@@ -770,85 +992,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
-
-		start_year = 1945
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = @1945 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-     advanced_carrier_1 = {
-
-		enable_equipments = { 
-			carrier_5
-		}
-        path = {
-			leads_to_tech = advanced_carrier_2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
+		research_cost = 6
 
 		start_year = 1955
 		
 		folder = {
 			name = mtgnavalfolder
 			position = { x = 0 y = @1955 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-    advanced_carrier_2 = {
-
-		enable_equipments = { 
-			carrier_6
-		}
-		
-		research_cost = 2
-
-		start_year = 1962
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = @1962 }
 		}
 		
 		ai_will_do = {
@@ -878,7 +1028,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = basic_submarine 
+			leads_to_tech = basic_submarine_improve 
 			research_cost_coeff = 1
 		}
 		
@@ -901,11 +1051,7 @@ technologies = {
 			ss_tech
 		}
 	}
-    basic_submarine = {
-
-		enable_equipments = { 
-			submarine_2
-		}
+    basic_submarine_improve = {
 		
 		path = {
 			leads_to_tech = improved_submarine 
@@ -938,7 +1084,7 @@ technologies = {
     improved_submarine = {
 
 		enable_equipments = { 
-			submarine_3
+			submarine_2
 		}
 		
 		path = {
@@ -946,7 +1092,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 
 		start_year = 1942
 		
@@ -973,10 +1119,10 @@ technologies = {
     advanced_submarine = {
 
 		enable_equipments = { 
-			submarine_4
+			submarine_3
 		}
 		
-		research_cost = 2
+		research_cost = 3
         path = {
 			leads_to_tech = advanced_submarine_1
 			research_cost_coeff = 1
@@ -1001,10 +1147,10 @@ technologies = {
     advanced_submarine_1 = {
 
 		enable_equipments = { 
-			submarine_5
+			submarine_4
 		}
 		
-		research_cost = 2
+		research_cost = 3
         
 		start_year = 1962
 		
@@ -1035,7 +1181,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 4
 
 		start_year = 1942
 		
@@ -1068,8 +1214,13 @@ technologies = {
 			leads_to_tech = advanced_submarine_big_1
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = atomic_submarine_engine
+			research_cost_coeff = 1
+		}
 		
-		research_cost = 2
+		research_cost = 4
 
 		start_year = 1952
 		
@@ -1092,6 +1243,69 @@ technologies = {
 			ss_tech
 		}
 	}
+	atomic_submarine_engine = {
+
+	dependencies = {
+		nuclear_reactor2 = 1
+	}
+		
+		path = {
+			leads_to_tech = nuclear_submarine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+
+		start_year = 1952
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 9 y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	nuclear_submarine = {
+
+		enable_equipments = { 
+			nuclear_submarine_1
+		}
+			
+			research_cost = 4
+	
+			start_year = 1962
+			
+			folder = {
+				name = mtgnavalfolder
+				position = { x = 9 y = @1962 }
+			}
+			
+			ai_will_do = {
+				factor = 1
+				
+				modifier = {
+					factor = 5
+					tag = GER
+				}
+			}
+			
+			categories = {
+				naval_equipment
+				ss_tech
+			}
+		}
     advanced_submarine_big_1 = {
 
 		enable_equipments = { 
@@ -1099,7 +1313,7 @@ technologies = {
 		}
 		
 		
-		research_cost = 2
+		research_cost = 4
 
 		start_year = 1962
 		
@@ -1356,6 +1570,28 @@ technologies = {
 		categories = {
 			naval_equipment
 			tp_tech
+		}
+	}
+
+
+	Pre_dreadnought_battleship = {
+
+		enable_equipments = {
+			Pre_dreadnought_battleship_1
+		}
+
+		research_cost = 2
+		start_year = 1900
+		
+		ai_will_do = {
+			factor = 2
+			
+			
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
 		}
 	}
 }

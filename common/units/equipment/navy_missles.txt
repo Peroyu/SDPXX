@@ -1,0 +1,116 @@
+equipments = {
+
+	missle_Cruisers = {
+		year = 1958
+
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 60
+		attack = 100
+		fire_range = 200
+		torpedo_attack = 0
+		shore_bombardment = 3
+		
+		anti_air_attack = 50
+		
+		armor_value = 20
+		evasion = 32
+		
+		surface_detection = 18
+		sub_detection = 10
+		surface_visibility = 30
+		naval_speed = 42
+		reliability = 0.9
+		
+		naval_range = 6000
+		
+		max_strength = 300
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 12000
+		resources = {
+			oil = 2
+			steel = 5
+		}
+		
+		manpower = 2500
+	}
+
+	missle_Cruisers_1 = {
+		year = 1946
+
+		archetype = missle_Cruisers
+		priority = 40
+		
+	}
+
+	missle_destroyer = {
+		year = 1958
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		group_by = archetype
+		
+		interface_category = interface_category_screen_ships
+
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 32
+		attack = 40
+		fire_range = 80
+		torpedo_attack = 0
+		sub_attack = 40
+		
+		anti_air_attack = 30
+		
+		armor_value = 8
+		evasion = 75
+		
+		surface_detection = 90
+		sub_detection = 100
+		naval_speed = 36
+		reliability = 0.92
+
+		naval_range = 6000
+		
+		max_strength = 160
+		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 8000
+		resources = {
+			oil = 2
+			steel = 5
+		}
+		
+		manpower = 1500
+	}
+
+	missle_destroyer_1 = {
+		year = 1946
+
+		archetype = missle_destroyer
+		priority = 40
+		
+	}
+}
