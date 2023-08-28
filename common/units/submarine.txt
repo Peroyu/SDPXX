@@ -16,8 +16,8 @@ sub_units = {
 		
 		hit_profile_mult = 1.0
 	}
-	big_submarine = {
-		sprite = big_submarine
+	cruiser_submarine = {
+		sprite = cruiser_submarine
 		map_icon_category = ship
 		priority = 2
 		active = yes
