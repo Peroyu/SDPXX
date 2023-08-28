@@ -43,11 +43,19 @@ spriteTypes = {
 	############四川##################
 	spriteType = {
         name = "GFX_idea_CJF_redux_tax_idea"	
-		texturefile = "gfx/interface/ideas/CMA/idea_CJF_redux_tax_idea.dds"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_redux_tax_idea.png"
+	}
+	spriteType = {
+        name = "GFX_idea_DJF_Xi_Nan_Lian_Da"	
+		texturefile = "gfx/interface/ideas/CJF/DJF_Xi_Nan_Lian_Da.png"
 	}
 	spriteType = {
         name = "GFX_idea_CJF_charity"	
-		texturefile = "gfx/interface/ideas/CMA/idea_CJF_charity.dds"
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_charity.png"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_belongings"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_belongings.png"
 	}
 	spriteType = {
 	    name = "GFX_idea_CJF_politic_problem"
@@ -78,6 +86,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CJF/idea_CJF_jialing.png"
 	}
 	spriteType = {
+	    name = "GFX_idea_CJF_Land_Fund"
+		texturefile = "gfx/interface/ideas/CJF/GFX_idea_CJF_Land_Fund.png"
+	}
+	spriteType = {
 	    name = "GFX_idea_CFJ_wreckage_of_NRA_5"
 		texturefile = "gfx/interface/ideas/CJF/idea_CFJ_wreckage_of_NRA_5.png"
 	}
@@ -88,14 +100,6 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_idea_CJF_belongings"
 		texturefile = "gfx/interface/ideas/CJF/idea_CJF_belongings.png"
-	}
-	spriteType = {
-	    name = "GFX_portrait_wu_tiechen"
-		texturefile = "gfx/interface/ideas/CJF/portrait_wu_tiechen.dds"
-	}
-	spriteType = {
-	    name = "GFX_portrait_yang_yongtai"
-		texturefile = "gfx/interface/ideas/CJF/portrait_yang_yongtai.dds"
 	}
 	spriteType = {
         name = "GFX_idea_CFJ_wreckage_of_NRA"	

@@ -72,7 +72,7 @@ ideas = {
 		}
 		DJF_Xi_Nan_Lian_Da_2 = {
 		    name = DJF_Xi_Nan_Lian_Da_2
-			picture = GFX_DJF_Xi_Nan_Lian_Da
+			picture = DJF_Xi_Nan_Lian_Da
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -85,7 +85,7 @@ ideas = {
 		}
 		DJF_Xi_Nan_Lian_Da_3 = {
 		    name = DJF_Xi_Nan_Lian_Da_3
-			picture = GFX_DJF_Xi_Nan_Lian_Da
+			picture = DJF_Xi_Nan_Lian_Da
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -98,7 +98,7 @@ ideas = {
 		}
 		DJF_Xi_Nan_Lian_Da_4 = {
 		    name = DJF_Xi_Nan_Lian_Da_4
-			picture = GFX_DJF_Xi_Nan_Lian_Da
+			picture = DJF_Xi_Nan_Lian_Da
 			allowed = { always = no }
 			available = {
 				is_subject = no
