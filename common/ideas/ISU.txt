@@ -125,6 +125,21 @@ ideas = {
 			}
 	    
 		}
+	HUN_inflluence = {
+            name = HUN_inflluence
+            picture = GFX_idea_HUN_inflluence
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            modifier = {
+				autonomy_gain = -0.01
+				political_power_gain = 0.01
+			}
+	    
+		}
 	}
 }
 

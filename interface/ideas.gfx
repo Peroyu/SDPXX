@@ -180,6 +180,11 @@ spriteTypes = {
 	
 	##################
 	spriteType = {
+		name = "GFX_idea_HUN_inflluence"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_HUN_inflluence.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_AUS_problem_of_nationality"
 		texturefile = "gfx/interface/ideas/AUS/aus.dds"
 	}

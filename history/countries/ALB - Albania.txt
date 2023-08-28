@@ -15,6 +15,7 @@ set_politics = {
 }
 add_ideas = {
 	loser_of_the_revolutionary_war
+    HUN_inflluence
 }
 set_popularities = {
 	communism = 37

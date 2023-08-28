@@ -36,5 +36,5 @@ create_country_leader = {
 }
 
 add_ideas = {
-	loser_of_the_revolutionary_war
+	HUN_inflluence
 }
