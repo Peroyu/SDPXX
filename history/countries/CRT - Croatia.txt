@@ -33,3 +33,4 @@ create_country_leader = {
 	ideology = democratic_socialism
 	traits = {  }
 }
+add_ideas = {HUN_inflluence}
