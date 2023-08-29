@@ -18,7 +18,7 @@ add_ideas = {
 }
 set_popularities = {
 	communism = 37
-	democracy_communism = 20
+	committee_communism = 20
 	moderate_socialism = 9
 	social_democracy = 9
 	reactionism = 13

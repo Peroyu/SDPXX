@@ -405,6 +405,11 @@
 		name = "GFX_portrait_GER_Otto_Grotewohl"
 		texturefile = "gfx/leaders/EU/GFX_portrait_GER_Otto_Grotewohl.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_HUN_Hugo"
+		texturefile = "gfx/leaders/EU/Portrait_HUN_Hugo.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_GER_William_peak"
@@ -469,6 +474,26 @@
 	spriteType = {
 		name = "GFX_portrait_Klement_Gottwald"
 		texturefile = "gfx/leaders/EU/GFX_portrait_Klement_Gottwald.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_YUG_tito"
+		texturefile = "gfx/leaders/EU/Portrait_YUG_tito.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_YUG_gorgyki"
+		texturefile = "gfx/leaders/EU/Portrait_YUG_gorgyki.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_YUG_Milovan_Dilas"
+		texturefile = "gfx/leaders/EU/Portrait_YUG_Milovan_Dilas.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_MAQ_ANTONOV"
+		texturefile = "gfx/leaders/EU/Portrait_MAQ_ANTONOV.png"		
 	}
 
 	spriteType = {

@@ -1,4 +1,4 @@
-capital = 319 # 
+capital = 106 # 
 
 obb = "empty"  # 
 
@@ -16,16 +16,23 @@ set_politics = {
 }
 # 
 set_popularities = {
- conservatism = 80
- reactionism = 20
+	conservatism = 5
+	reactionism = 10
+	moderate_socialism = 10
+	communism = 28
+	Liberalism = 2
+	committee_communism = 10
+	social_democracy = 10
+	movement_communism = 3
+	   nationalism = 22
 }
 # 
 create_country_leader = {
-	name = "占领委员会"  # 
+	name = "安多诺夫-琴托法"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_MAQ_ANTONOV"  # 
 	expire = "1956.6.6"  # 
-	ideology =  # 
+	ideology =  Bolshevism # 
 	traits = {  # 
 	}
 }

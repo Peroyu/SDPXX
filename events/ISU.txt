@@ -394,7 +394,20 @@ country_event = {
 	
 	immediate = {
 
-		YUG = { set_cosmetic_tag = SAB }
+		YUG = { 
+			set_cosmetic_tag = SAB
+			set_politics = { 
+				ruling_party = conservatism
+			}
+			create_country_leader = {
+				name = "雨果·桑伊"   
+				desc = "HUN_hugo_desc"  
+				picture = "Portrait_HUN_Hugo"   
+				expire = "1956.9.7"   
+				ideology = system_revolutionism
+				traits = {  }
+			}
+		}
 		BOS = {
 			transfer_state = 104
 			transfer_state = 804

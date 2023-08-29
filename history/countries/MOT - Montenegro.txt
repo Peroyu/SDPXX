@@ -1,4 +1,4 @@
-capital = 319 # 
+capital = 105 # 
 
 obb = "empty"  # 
 
@@ -9,23 +9,30 @@ set_stability = 0.5 #
 
 # 
 set_politics = {
-	ruling_party = communism # 
+	ruling_party = moderate_socialism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
- conservatism = 80
- reactionism = 20
+	conservatism = 5
+	reactionism = 5
+	moderate_socialism = 10
+	communism = 8
+	Liberalism = 2
+	committee_communism = 28
+	social_democracy = 12
+	movement_communism = 9
+	nationalism = 21
 }
 # 
 create_country_leader = {
-	name = "占领委员会"  # 
+	name = "米洛万·吉拉斯"  # 
 	desc = "/"  # 
-	picture = "/"  # 
+	picture = "Portrait_YUG_Milovan_Dilas"  # 
 	expire = "1956.6.6"  # 
-	ideology =  # 
+	ideology =  moderate_socialist # 
 	traits = {  # 
 	}
 }
