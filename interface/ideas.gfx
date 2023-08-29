@@ -181,7 +181,7 @@ spriteTypes = {
 	##################
 	spriteType = {
 		name = "GFX_idea_HUN_inflluence"
-		texturefile = "gfx/interface/ideas/ISU/GFX_idea_HUN_inflluence.dds"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_HUN_inflluence.png"
 	}
 	
 	spriteType = {
