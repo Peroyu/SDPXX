@@ -36,7 +36,7 @@ create_country_leader = {
 		desc = "DJF_Jin_HanDing_desc" #领导人介绍
 		picture = "gfx/leaders/DJF/portrait_DJF_Jin_HanDing.png" #领导人图片
 		expire = "1965.1.1" #领导人退休时间
-		ideology = Three_Principles_of_the_People_consititution #领导人子意识形态
+		ideology = Patriarchal_conservatism #领导人子意识形态
 		traits = { #领导人特质}
 	}
 create_country_leader = {

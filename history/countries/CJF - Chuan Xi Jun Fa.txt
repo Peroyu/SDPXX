@@ -19,12 +19,12 @@ country_event = { id = CJF_op.1 days = 1 }
 set_variable = { SDP_welcome_splash_variable = 1 }
 set_popularities = {
 	conservatism = 23
-	movement_communism = 33
-	social_democracy = 10
-	reactionism = 14
+	movement_communism = 25
+	social_democracy = 14
+	reactionism = 18
 	nationalism = 5
-	Liberalism = 5
-	moderate_socialism = 8
+	Liberalism = 8
+	moderate_socialism = 5
 	communism = 2
 }
 set_technology = {

@@ -16,4 +16,24 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+
+	containerWindowType = {
+		name = "subideology_baller_diplo"
+		position = {
+			x = 254
+			y = 132
+		}
+		instantTextboxType = {
+			name = "subideology_boom_diplo"
+			position = { x = 9 y = 15 }
+			font = "hoi_16mbs"
+			text = "[GetRulingIdeologySubtype]"
+			pdx_tooltip = "[GetRulingIdeologySubtype]"
+			maxWidth = 155
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			alwaystransparent = yes
+		}
+	}
 }

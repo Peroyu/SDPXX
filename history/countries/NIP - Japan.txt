@@ -192,7 +192,7 @@ create_country_leader = {
 		desc = "NIP_Hirohito_desc"  
 		picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
 		expire = "1989.1.7"   
-		ideology = state_capitalism 
+		ideology = Zenkoku_isseini
 		traits = {  }
 	}
 

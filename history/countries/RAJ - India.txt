@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "nihelu_desc"  
 	picture = "RAJ_Portrait_Jawaharlal_Nehru"  
 	expire = "1952.7.10"  
-	ideology = left_wing_nationalism 
+	ideology = moderate_socialist
 	traits = { 
 		
 	}

@@ -33,7 +33,7 @@ create_country_leader = {
 	desc = "KGP_Gu_ZhengGang_desc"  # 人物介绍
 	picture = "KGP_portrait_Gu_ZhengGang"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = liberal_democracy
+	ideology = Patriarchal_conservatism
 	traits = {  # 人物特性
 		#
 	}
