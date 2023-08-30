@@ -68,13 +68,13 @@ add_ideas = {
 
 }
 set_popularities = {
- communism = 2
- moderate_socialism = 12
- social_democracy = 34
+ communism = 17
+ moderate_socialism = 17
+ social_democracy = 24
  Liberalism = 13
  movement_communism = 7
  conservatism = 2
- reactionism = 15
+ reactionism = 5
  nationalism = 7
  restorativeism = 8
 }
