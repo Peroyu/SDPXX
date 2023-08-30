@@ -44,7 +44,15 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    SHN = {
+				give_military_access = NIP
+			}
+			every_country = { 
+                limit = {
+                    is_ai = no
+                }
+                news_event = { id = Pacific.3 days = 1 }
+            }
 		}
     }
 	
@@ -52,21 +60,80 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_nationality = ATJ
+		set_nationality = KAI
+		set_nationality = JAV
+		set_nationality = SUL
+		OCE = {
+			puppet = JAV
+			puppet = SUL
+		}
+		ATJ = {
+			transfer_state = 672
+			add_state_core = 672
+			give_military_access = NIP
+		}
+		JAV = {
+			transfer_state = 335
+			add_state_core = 335
+			transfer_state = 667
+			add_state_core = 667
+			give_military_access = NIP
+		}
+		SUL = {
+			transfer_state = 673
+			add_state_core = 673
+			give_military_access = NIP
+		}
+		KAI = {
+			transfer_state = 334
+			add_state_core = 334
+			give_military_access = NIP
+		}
+		BOR = {
+			leave_faction = yes
+			set_cosmetic_tag = BOR_wenlai
+			give_military_access = NIP
+		}
 		name = ASIA_southeast_asia_conference.2.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_nationality = SUM
+		set_nationality = SUL
+		OCE = {
+			puppet = SUM
+			puppet = SUL
+		}
+		SUL = {
+			transfer_state = 673
+			add_state_core = 673
+			give_military_access = NIP
+		}
+		BOR = {
+			leave_faction = yes
+			set_cosmetic_tag = BOR_wenlai
+			give_military_access = NIP
+		}
+		OCE = {
+			give_military_access = NIP
+		}
+		SUM = {
+			transfer_state = 672
+			add_state_core = 672
+			give_military_access = NIP
+		}
 		name = ASIA_southeast_asia_conference.2.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		BOR = {
+			give_military_access = NIP
+		}
 		name = ASIA_southeast_asia_conference.2.c
 	}
 	

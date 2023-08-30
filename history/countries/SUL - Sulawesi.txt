@@ -1,0 +1,36 @@
+capital = 643
+
+set_research_slots = 2
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	reactionism = 12
+	nationalism = 18
+	conservatism = 32
+	movement_communism = 18
+	Liberalism = 5
+	social_democracy = 8
+	moderate_socialism = 6
+	communism = 1
+}
+
+
+create_country_leader = {
+	name = "威廉明娜女王"
+	desc = "/"  
+	picture = HOL_portrait_Wilhelmina
+	expire = "1952.7.10"  
+	ideology = despotism
+	traits = { 
+		
+	}
+}

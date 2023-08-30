@@ -11,16 +11,10 @@ ASIA_Southeast_asia_conference = {
         days_mission_timeout = 180    
         is_good = yes
         timeout_effect = {
-			every_country = { 
-                limit = {
-                    has_country_flag = ASIA_attend_southasia_conference
-                }
-                country_event = { id = ASIA_southeast_asia_conference.2 days = 1 }
-            }
 			OCE = {
 				country_event = {
 					id = ASIA_southeast_asia_conference.2
-					days = 10
+					days = 30
 				}
 			}
 			every_country = {

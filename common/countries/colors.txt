@@ -487,3 +487,23 @@ YEM = {
 	color = rgb{ 188 164 101 }
 	color_ui = rgb{ 188 164 101 }
 }
+SUM = {
+	color = rgb{  205 242 130  }
+	color_ui = rgb{  205 242 130  }
+}
+SUL = {
+	color = rgb{  205 242 130 }
+	color_ui = rgb{  205 242 130  }
+}
+JAV = {
+	color = rgb{  205 242 130 }
+	color_ui = rgb{  205 242 130  }
+}
+KAI = {
+	color = rgb{ 229 195 115 }
+	color_ui = rgb{  229 195 115  }
+}
+ATJ = {
+	color = rgb{  206 115 229 }
+	color_ui = rgb{  206 115 229  }
+}

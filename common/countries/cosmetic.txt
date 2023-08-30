@@ -82,3 +82,7 @@ KOR_temgov = {
 	color = rgb { 54 94 153 }
 	color_ui = rgb { 54 94 153 }
    }
+BOR_wenlai = {
+	color = rgb {115 202 229 }
+	color_ui = rgb {115 202 229 }
+   }
