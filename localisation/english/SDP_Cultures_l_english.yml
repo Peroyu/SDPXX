@@ -1,0 +1,6 @@
+﻿l_english:
+  culture_icon_container_culture_title_marker:"地区文化"
+  TNO_CULTURE_INFO: "§F这一地区的主要文化为§Y[This.GetNationality]§!.§!"
+
+  var_nationality.0: "待定"
+  var_nationality.1: "汉"

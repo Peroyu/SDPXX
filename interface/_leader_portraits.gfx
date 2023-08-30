@@ -364,6 +364,11 @@
 		name = "GFX_portrait_FJN_Qin_Wangshan"
 		texturefile = "gfx/leaders/GDC/Portrait_FJN_Qin_Wangshan.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_GDC_Zhou_Shidi"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_GDC_Zhou_Shidi.png"		
+	}
 	###############################################################
 	
 	spriteType = {

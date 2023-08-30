@@ -1,0 +1,88 @@
+
+on_actions = {
+	on_startup = {
+		effect = {
+			#han
+			set_variable = { 605.nationality = 1 }
+			set_variable = { 856.nationality = 1 }
+			set_variable = { 857.nationality = 1 }
+			set_variable = { 858.nationality = 1 }
+			set_variable = { 859.nationality = 1 }
+			set_variable = { 842.nationality = 1 }
+			set_variable = { 854.nationality = 1 }
+			set_variable = { 855.nationality = 1 }
+			set_variable = { 911.nationality = 1 }
+			set_variable = { 907.nationality = 1 }
+			set_variable = { 908.nationality = 1 }
+			set_variable = { 620.nationality = 1 }
+			set_variable = { 602.nationality = 1 }
+			set_variable = { 909.nationality = 1 }
+			set_variable = { 914.nationality = 1 }
+			set_variable = { 600.nationality = 1 }
+			set_variable = { 913.nationality = 1 }
+			set_variable = { 912.nationality = 1 }
+			set_variable = { 888.nationality = 1 }
+			set_variable = { 915.nationality = 1 }
+			set_variable = { 749.nationality = 1 }
+			set_variable = { 606.nationality = 1 }
+			set_variable = { 910.nationality = 1 }
+			set_variable = { 922.nationality = 1 }
+			set_variable = { 921.nationality = 1 }
+			set_variable = { 596.nationality = 1 }
+			set_variable = { 924.nationality = 1 }
+			set_variable = { 613.nationality = 1 }
+			set_variable = { 837.nationality = 1 }
+			set_variable = { 925.nationality = 1 }
+			set_variable = { 598.nationality = 1 }
+			set_variable = { 931.nationality = 1 }
+			set_variable = { 923.nationality = 1 }
+			set_variable = { 902.nationality = 1 }
+			set_variable = { 905.nationality = 1 }
+			set_variable = { 904.nationality = 1 }
+			set_variable = { 607.nationality = 1 }
+			set_variable = { 903.nationality = 1 }
+			set_variable = { 906.nationality = 1 }
+			set_variable = { 597.nationality = 1 }
+			set_variable = { 927.nationality = 1 }
+			set_variable = { 928.nationality = 1 }
+			set_variable = { 743.nationality = 1 }
+			set_variable = { 836.nationality = 1 }
+			set_variable = { 929.nationality = 1 }
+			set_variable = { 930.nationality = 1 }
+			set_variable = { 614.nationality = 1 }
+			set_variable = { 852.nationality = 1 }
+			set_variable = { 608.nationality = 1 }
+			set_variable = { 835.nationality = 1 }
+			set_variable = { 615.nationality = 1 }
+			set_variable = { 940.nationality = 1 }
+			set_variable = { 938.nationality = 1 }
+			set_variable = { 939.nationality = 1 }
+			set_variable = { 744.nationality = 1 }
+			set_variable = { 941.nationality = 1 }
+			set_variable = { 622.nationality = 1 }
+			set_variable = { 958.nationality = 1 }
+			set_variable = { 960.nationality = 1 }
+			set_variable = { 942.nationality = 1 }
+			set_variable = { 838.nationality = 1 }
+			set_variable = { 889.nationality = 1 }
+			set_variable = { 884.nationality = 1 }
+			set_variable = { 839.nationality = 1 }
+			set_variable = { 885.nationality = 1 }
+			set_variable = { 900.nationality = 1 }
+			set_variable = { 592.nationality = 1 }
+			set_variable = { 593.nationality = 1 }
+			set_variable = { 851.nationality = 1 }
+			set_variable = { 853.nationality = 1 }
+			set_variable = { 609.nationality = 1 }
+			set_variable = { 610.nationality = 1 }
+			set_variable = { 716.nationality = 1 }
+			set_variable = { 745.nationality = 1 }
+			set_variable = { 715.nationality = 1 }
+			set_variable = { 328.nationality = 1 }
+			set_variable = { 714.nationality = 1 }
+			set_variable = { 283.nationality = 1 }
+			set_variable = { 899.nationality = 1 }
+			set_variable = { 926.nationality = 1 }
+		}
+	}
+}

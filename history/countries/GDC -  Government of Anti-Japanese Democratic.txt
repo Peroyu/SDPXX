@@ -156,7 +156,7 @@ recruit_character = GDC_Chen_Mingshu
 recruit_character = GDC_Chen_Geng
 recruit_character = GDC_Xve_Yue
 recruit_character = CJF_Li_Mingrui
-
+recruit_character = GDC_Zhou_Shidi
 	##############################################################
 
 	

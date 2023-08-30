@@ -455,7 +455,9 @@ technologies = {
 		enable_equipments = {
 			basic_howitzer_equipment_1
 		}
-
+		enable_subunits = {
+			basic_howitzer_brigade
+		}
 		path = {
 			leads_to_tech = basic_howitzer_improve
 			research_cost_coeff = 1
