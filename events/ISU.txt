@@ -72,6 +72,7 @@ country_event = {
 		
 	}
 }
+
 country_event = {
     id = ISU_event.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -311,6 +312,39 @@ country_event = {
 			ruling_party = committee_communism
 		}
 		name = ISU_event.3.b
+		
+	}
+}
+country_event = {
+    id = ISU_event.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.4 FROM = [From.GetName]" }
+	title = ISU_event.4.t
+	desc = ISU_event.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			kill_country_leader = yes
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.10
+				days = 1
+			}
+		}
+		name = nuke.4.a
 		
 	}
 }

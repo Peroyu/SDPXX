@@ -114,6 +114,23 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	CJF_Tang_Enbo={
+		name = "CJF_Tang_Enbo"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Tang_Enbo
+				large = GFX_portrait_CJF_Tang_Enbo
+			}
+		}
+		corps_commander={
+			traits={ trickster  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
 	CJF_Sun_Zhen={
 		name = "CJF_Sun_Zhen"
 		portraits = {

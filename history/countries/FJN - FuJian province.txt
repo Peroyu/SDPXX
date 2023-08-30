@@ -59,7 +59,7 @@ set_technology = {
 }
 # 
 set_politics = {
-	ruling_party = moderate_socialism # 
+	ruling_party = social_democracy # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -69,8 +69,8 @@ add_ideas = {
 }
 set_popularities = {
  communism = 2
- moderate_socialism = 34
- social_democracy = 12
+ moderate_socialism = 12
+ social_democracy = 34
  Liberalism = 13
  movement_communism = 7
  conservatism = 2
@@ -78,14 +78,16 @@ set_popularities = {
  nationalism = 7
  restorativeism = 8
 }
-
-# 
+recruit_character = GDC_Chiang_Ching_Kuo
+recruit_character = FJN_Qin_Wangshan
+recruit_character = FJN_Chen_Zhaoli
+recruit_character = FJN_Ye_Feiying
 create_country_leader = {
-	name = "秦望山"  # 
+	name = "傅柏翠"  # 
 	desc = "/"  # 
-	picture = "Portrait_FJN_Qin_Wangshan"  # 
+	picture = "Portrait_FJN_Fu_Baicui"  # 
 	expire = "1956.3.9"  # 
-	ideology = anarchism # 
+	ideology = Tolstoyism # 
 	traits = {  # 
 		#
 	}

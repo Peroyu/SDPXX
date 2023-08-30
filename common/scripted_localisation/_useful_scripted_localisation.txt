@@ -180,6 +180,20 @@ defined_text = {
 		}
 		localization_key = Left_Nationalism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Tolstoyism
+		}
+		localization_key = Tolstoyism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_reformism
+		}
+		localization_key = radical_reformism
+    }
 	
 	##############################################################
 	
@@ -219,6 +233,13 @@ defined_text = {
 			has_country_leader_ideology = islam_progressive
 		}
 		localization_key = islam_progressive
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_liberalism
+		}
+		localization_key = radical_liberalism
     }
 	############################################
 	text = {

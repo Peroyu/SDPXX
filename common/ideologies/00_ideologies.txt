@@ -57,6 +57,7 @@ ideologies = {
 			Austro_Marxism = { can_be_randomly_selected = no }
 			left_wing_communism = { can_be_randomly_selected = no } 
 			republic_marxism = { can_be_randomly_selected = no } 
+			
 		}
 		
 		dynamic_faction_names = {
@@ -152,7 +153,8 @@ ideologies = {
 			Godesberge_Programm = {can_be_randomly_selected = no}
 			New_nation_system = {can_be_randomly_selected = no}
 			Left_Nationalism = {can_be_randomly_selected = no}
-			
+			Tolstoyism = { can_be_randomly_selected = no } 
+			radical_reformism = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
@@ -197,6 +199,7 @@ ideologies = {
 			trade_liberalism = { can_be_randomly_selected = no }
 			United_Interim_Government = { can_be_randomly_selected = no }
 			islam_progressive = { can_be_randomly_selected = no }
+			radical_liberalism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

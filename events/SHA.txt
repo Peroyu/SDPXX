@@ -184,7 +184,7 @@ country_event = {
 		888 = {
 			set_demilitarized_zone = no
 		}
-	   JXP = {
+	   FJN = {
 		transfer_state = 888
 		add_state_core = 888
 	   }
@@ -204,9 +204,14 @@ country_event = {
 					has_country_flag = CHI_Jiang_Xi_rural_base
 				}
 			}
-			JXP = {
+			FJN = {
 				transfer_state = 912
 				add_state_core = 912
+				transfer_state = 915
+				add_state_core = 915
+			   }
+			   KHN = {
+				
 				transfer_state = 913
 				add_state_core = 913
 			   }
@@ -254,7 +259,14 @@ country_event = {
 		add_to_variable = { global.CHI_huanan_regional_tension = 10 }
             custom_effect_tooltip = CHI_v_regional_tension_increase
 		name = SBA.101.a
-		
+		if = {
+			limit = {
+				GDC = {
+					has_country_flag = CHI_Fu_Jian_rural_base
+				}
+			}
+			
+		}
 	}   
 }
 country_event = {

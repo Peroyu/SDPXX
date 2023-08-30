@@ -6,6 +6,15 @@ characters = {
 				small = GFX_portrait_GDC_Cheng_Qian
 				large = GFX_portrait_GDC_Cheng_Qian
 			}
+			civilian = {
+				large = GFX_portrait_GDC_Cheng_Qian
+				small = GFX_portrait_GDC_Cheng_Qian
+			}
+		}
+		country_leader = {
+			ideology = radical_reformism
+			trsits = {}
+			expire = "1962.1.1.1"
 		}
 		field_marshal={
 			traits={ organizer bearer_of_artillery defensive_doctrine }
@@ -24,13 +33,13 @@ characters = {
 				large = GFX_portrait_GDC_Peng_Dehuai
 			}
 		}
-		field_marshal={
-			traits={ organizer trait_reckless harsh_leader trickster }
-			skill=5
-			attack_skill=5
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=3
+		corps_commander={
+			traits={  harsh_leader trickster }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
 		}
 	}
 	GDC_Fang_Zhimin={
@@ -217,6 +226,91 @@ characters = {
 			attack_skill=3
 			defense_skill=2
 			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	FJN_Ye_Feiying={
+		name = "FJN_Ye_Feiying"
+		portraits = {
+			army={
+				small = GFX_portrait_FJN_Ye_Feiying
+				large = GFX_portrait_FJN_Ye_Feiying
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	KHN_Huang_Ai={
+		name = "KHN_Huang_Ai"
+		portraits = {
+			army={
+				small = GFX_portrait_KHN_Huang_Ai
+				large = GFX_portrait_KHN_Huang_Ai
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	KHN_Chen_Mingren={
+		name = "KHN_Chen_Mingren"
+		portraits = {
+			army={
+				small = GFX_portrait_KHN_Chen_Mingren
+				large = GFX_portrait_KHN_Chen_Mingren
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	FJN_Chen_Zhaoli={
+		name = "FJN_Chen_Zhaoli"
+		portraits = {
+			army={
+				small = GFX_portrait_FJN_Chen_Zhaoli
+				large = GFX_portrait_FJN_Chen_Zhaoli
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	FJN_Qin_Wangshan={
+		name = "FJN_Qin_Wangshan"
+		portraits = {
+			army={
+				small = GFX_portrait_FJN_Qin_Wangshan
+				large = GFX_portrait_FJN_Qin_Wangshan
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
 			logistics_skill=2
 		}
 	}

@@ -716,6 +716,7 @@ GDC_guerrilla_area = {
 			add_command_power = -10
         }
         available = {
+            has_country_flag = CHI_Fu_Jian_rural_base
             NOT = {
                 has_country_flag = HASDONE
                 country_exists = FJN
@@ -771,6 +772,9 @@ GDC_guerrilla_area = {
 	        }
         }
         available = {
+            has_country_flag = CHI_Jiang_Xi_rural_base
+            country_exists = FJN
+            country_exists = KHN
             NOT = {
                 has_country_flag = HASDONE
                 country_exists = JXP
@@ -825,7 +829,7 @@ GDC_guerrilla_area = {
 	        }
         }
         available = {
-           
+            has_country_flag = CHI_Hu_Nan_rural_base
             NOT = {
                 has_country_flag = HASDONE
                 country_exists = KHN

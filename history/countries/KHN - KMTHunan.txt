@@ -66,10 +66,10 @@ set_politics = {
 }
 
 set_popularities = {
-	moderate_socialism = 20
+	moderate_socialism = 10
 	social_democracy = 18
-	conservatism = 22
-	Liberalism = 4
+	conservatism = 12
+	Liberalism = 24
 	movement_communism = 16
 	committee_communism = 12
 	communism = 8
@@ -77,46 +77,7 @@ set_popularities = {
 recruit_character = GDC_Mao_Zedong
 recruit_character = GDC_Fang_Zhimin
 recruit_character = GDC_Peng_Dehuai
-create_country_leader = {
-	name = "方志敏"  # 领导人名称
-	desc = "/"  # 人物介绍
-	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
-	expire = "1985.1.1"  # 逝世时间
-	ideology = leninism # 意识形态
-	traits = {  # 人物特性
-		#
-	}
-}
+recruit_character = KHN_Huang_Ai
+recruit_character = KHN_Chen_Mingren
+recruit_character = GDC_Cheng_Qian
 
-create_country_leader = {
-	name = "方志敏"  # 领导人名称
-	desc = "/"  # 人物介绍
-	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
-	expire = "1985.1.1"  # 逝世时间
-	ideology = Spartacus # 意识形态
-	traits = {  # 人物特性
-		#
-	}
-}
-
-create_country_leader = {
-	name = "方志敏"  # 领导人名称
-	desc = "/"  # 人物介绍
-	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
-	expire = "1985.1.1"  # 逝世时间
-	ideology = reformed_socialism # 意识形态
-	traits = {  # 人物特性
-		#
-	}
-}
-
-create_country_leader = {
-	name = "方志敏"  # 领导人名称
-	desc = "/"  # 人物介绍
-	picture = "KHN_Fang_zhimin_portrait"  # 人物头像
-	expire = "1985.1.1"  # 逝世时间
-	ideology = Left_Nationalism # 意识形态
-	traits = {  # 人物特性
-		#
-	}
-}

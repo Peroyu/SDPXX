@@ -144,7 +144,6 @@ create_country_leader = {
 		ideology = social_liberalism
 		traits = {  }
 	}
-recruit_character = GDC_Cheng_Qian
 recruit_character = GDC_Jiang_XianYun
 recruit_character = GDC_He_Long
 recruit_character = GDC_Lin_Biao
