@@ -263,6 +263,23 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	FJN_Chen_zukang={
+		name = "FJN_Chen_zukang"
+		portraits = {
+			army={
+				small = GFX_portrait_FJN_Chen_zukang
+				large = GFX_portrait_FJN_Chen_zukang
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 	KHN_Huang_Ai={
 		name = "KHN_Huang_Ai"
 		portraits = {

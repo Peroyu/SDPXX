@@ -79,6 +79,7 @@ set_popularities = {
  restorativeism = 8
 }
 recruit_character = GDC_Chiang_Ching_Kuo
+recruit_character = FJN_Chen_zukang
 recruit_character = FJN_Qin_Wangshan
 recruit_character = FJN_Chen_Zhaoli
 recruit_character = FJN_Ye_Feiying

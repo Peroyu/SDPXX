@@ -216,6 +216,11 @@
 		name = "GFX_portrait_CJF_Tang_Enbo"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Tang_Enbo.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Chen_Zhang"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Chen_Zhang.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -261,6 +266,11 @@
 	spriteType = {
 		name = "GFX_portrait_FJN_Chen_Zhaoli"
 		texturefile = "gfx/leaders/GDC/GFX_portrait_FJN_Chen_Zhaoli.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FJN_Chen_zukang"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_FJN_Chen_zukang.png"		
 	}
 	
 	###############################################

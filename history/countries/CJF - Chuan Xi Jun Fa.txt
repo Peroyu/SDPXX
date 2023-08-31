@@ -269,6 +269,7 @@ recruit_character = CJF_li_zongren
 recruit_character = GDC_Tang_Shengzhi
 recruit_character = GDC_Zhang_Fakui
 recruit_character = CJF_Tang_Enbo
+recruit_character = CJF_Chen_Zhang
 recruit_character = KOR_Ji_Cheongcheon
 recruit_character = KOR_I_Beomseok
 recruit_character = ROF_David_Galula
