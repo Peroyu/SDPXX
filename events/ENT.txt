@@ -1,0 +1,48 @@
+add_namespace = ENT
+
+country_event = {
+    id = ENT.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.1 FROM = [From.GetName]" }
+	title = ENT.1.t
+	desc = ENT.1.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		retire_country_leader = yes
+		leave_faction = yes
+		create_country_leader = {
+			name = "埃尼达尔·马兰"  # 领导人名称
+			desc = ""  # 人物介绍
+			picture = "portrait_DOS_malan"  # 人物头像
+			expire = "1985.1.1"  # 逝世时间
+			ideology = authoritarian_democracy # 意识形态
+			traits = {  # 人物特性
+				#
+			}
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = indu.6
+				days = 1
+			}
+		}
+		name = ENT.1.a
+	}
+	
+	
+}

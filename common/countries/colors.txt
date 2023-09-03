@@ -332,8 +332,8 @@ RCL = {
 	color_ui = rgb { 226 113 85 }
 }
 SUE = {
-	color = rgb { 191 227 100 }
-	color_ui = rgb  { 191 227 100 }
+	color = rgb { 236 185 75 }
+	color_ui = rgb  { 236 185 75 }
 }
 RCR = {
 	color = rgb { 219 203 100 }

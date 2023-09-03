@@ -27,6 +27,10 @@ set_popularities = {
 movement_communism = 15
 moderate_socialism = 2
 }
+country_event = {
+	id = ENT.1
+	days = 511
+}
 set_variable = { var = FactionStatus value = 1 }
 # 
 create_country_leader = {

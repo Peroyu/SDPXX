@@ -656,6 +656,11 @@
 	}
 
 	spriteType = {
+		name = "portrait_DOS_malan"
+		texturefile = "gfx/leaders/EN/portrait_DOS_malan.png"		
+	}
+
+	spriteType = {
 		name = "portrait_CAN_John_Llewellin"
 		texturefile = "gfx/leaders/EN/portrait_CAN_John_Llewellin.png"		
 	}
