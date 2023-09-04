@@ -262,7 +262,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_staff
-				army_chief
+				CJFtrait_xiaoxiong
 			}
 		}
 		CJF_Song_Xilian = {

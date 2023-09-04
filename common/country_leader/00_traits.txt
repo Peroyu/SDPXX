@@ -158,6 +158,14 @@ leader_traits = {
 		planning_speed = 0.03
 
 	}
+
+	CJFtrait_xiaoxiong = {
+		random = no
+		command_power_gain = 0.1
+		army_infantry_defence_factor = 0.03
+		max_planning = 0.05
+
+	}
 	
 	#####GDC######
 	
