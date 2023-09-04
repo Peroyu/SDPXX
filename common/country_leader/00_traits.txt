@@ -84,6 +84,80 @@ leader_traits = {
 		drift_defence_factor = 0.06
 	}
 	
+	CJFtrait_geography_pinoeer = {
+		random = no
+		global_building_slots_factor = 0.03
+		political_power_factor = 0.05
+	}
+
+	CJFtrait_peace_importance = {
+		random = no
+		opinion_gain_monthly_factor = 0.3
+		trade_opinion_factor = 0.1
+	}
+
+	CJFtrait_underground_citymaster = {
+		random = no
+		war_support_factor = 0.03
+		stability_factor = 0.02
+	}
+
+	CJFtrait_communication_pinoeer = {
+		random = no
+		war_support_factor = 0.03
+		opinion_gain_monthly_factor = 0.2
+	}
+
+	CJFtrait_zhengxve_imp = {
+		random = no
+		army_morale_factor = 0.01
+		economy_cost_factor = -0.05
+	}
+	
+	CJFtrait_reform_man = {
+		random = no
+		trade_laws_cost_factor  = -0.03
+		economy_cost_factor = -0.05
+	}
+
+	CJFtrait_jingchengaidang = {
+		random = no
+		drift_defence_factor = 0.05
+		stability_factor = 0.03
+	}
+
+	CJFtrait_ironic_policy = {
+		random = no
+		political_power_factor = 0.03
+		industrial_capacity_factory = 0.03
+	}
+
+	CJFtrait_outside_fisherman = {
+		random = no
+		global_building_slots_factor = 0.015
+		production_speed_infrastructure_factor = 0.02
+	}
+
+	CJFtrait_new_wave = {
+		random = no
+		global_building_slots_factor =0.03
+		production_speed_buildings_factor = 0.03
+
+	}
+
+	CJFtrait_light_of_huangpu = {
+		random = no
+		army_core_attack_factor = 0.02
+		max_planning = 0.03
+
+	}
+
+	CJFtrait_general_shisou = {
+		random = no
+		army_infantry_attack_factor = 0.02
+		planning_speed = 0.03
+
+	}
 	
 	#####GDC######
 	

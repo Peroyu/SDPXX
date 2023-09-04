@@ -40,4 +40,9 @@ spriteTypes = {
 		name = "GFX_SPEVENT_Super_Event_Image_Dai_Jitao"
 		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Super_Event_Image_Dai_Jitao.png"
 	}
+
+	spriteType = {
+		name = "GFX_SPEVENT_Super_Event_Image_Triple_entent_crush"
+		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Super_Event_Image_Triple_entent_crush.png"
+	}
 }

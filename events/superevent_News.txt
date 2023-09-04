@@ -1,6 +1,32 @@
 add_namespace = CHI_war
 add_namespace = ISU
 add_namespace = Balkan
+add_namespace = Triple_entent
+news_event = {
+	id = Triple_entent.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: nws_event
+	Triple_entent.1 FROM = [From.GetName]" }
+    picture = GFX_Triple_entent_1
+    title = Triple_entent.1.t
+    desc = Triple_entent.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Triple_entent.1.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Triple_entent_crush_Super_Event_Visible
+			#hidden_effect = {
+			#	sound_effect = "second_continent_war_voice"
+			#}
+	}
+}
 news_event = {
 	id = CHI_war.1
     immediate = {log = "[GetDateText]: [Root.GetName]: nws_event

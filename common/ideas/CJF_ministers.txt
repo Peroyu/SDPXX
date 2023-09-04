@@ -58,7 +58,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				
+				CJFtrait_geography_pinoeer
 			}
 		}
 
@@ -91,7 +91,7 @@ ideas = {
 			}
 			traits = {
 				person_of_dip
-				
+				CJFtrait_peace_importance
 			}
 		}
 		CJF_Guo_Chuntao = {
@@ -106,7 +106,7 @@ ideas = {
 			}
 			traits = {
 				person_of_dip
-				
+				CJFtrait_underground_citymaster
 			}
 		}
 		CJF_Li_Ling_si = {
@@ -121,7 +121,7 @@ ideas = {
 			}
 			traits = {
 				person_of_dip
-				
+				CJFtrait_communication_pinoeer
 			}
 		}
 	}
@@ -153,7 +153,7 @@ ideas = {
 			}
 			traits = {
 				person_of_arm
-				
+				CJFtrait_zhengxve_imp
 			}
 		}
 		CJF_Gan_Naiguang = {
@@ -168,7 +168,7 @@ ideas = {
 			}
 			traits = {
 				person_of_arm
-				
+				CJFtrait_reform_man
 			}
 		}
 		CJF_Chen_Guofu = {
@@ -183,7 +183,7 @@ ideas = {
 			}
 			traits = {
 				person_of_arm
-				
+				CJFtrait_jingchengaidang
 			}
 		}
 	}
@@ -200,7 +200,7 @@ ideas = {
 			}
 			traits = {
 				person_of_eco
-				
+				CJFtrait_ironic_policy
 			}
 		}
 		CJF_Chen_Shuren = {
@@ -215,7 +215,7 @@ ideas = {
 			}
 			traits = {
 				person_of_eco
-				
+				CJFtrait_outside_fisherman
 			}
 		}
 		CJF_Shi_Cuntong = {
@@ -230,7 +230,7 @@ ideas = {
 			}
 			traits = {
 				person_of_eco
-				
+				CJFtrait_new_wave
 			}
 		}
 		CJF_Li_Huang = {
@@ -277,7 +277,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_staff
-				
+				CJFtrait_light_of_huangpu
 			}
 		}
 		CJF_Chen_Cheng = {
@@ -292,7 +292,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_staff
-				
+				CJFtrait_general_shisou
 			}
 		}
 	}

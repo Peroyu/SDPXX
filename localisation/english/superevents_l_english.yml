@@ -6,6 +6,7 @@
  Chen_Gobo_Super_Event_TITLE:"中华再统一"
  Sun_Fo_Super_Event_TITLE:"中华再统一"
  Dai_Jitao_Super_Event_TITLE:"中华再统一"
+ Triple_entent_crush_Super_Event_TITLE:"协约国终结"
  #QUOTES
  CHI_second_continent_war_Super_Event_TEXT:"用我们的血肉筑起新的长城\n——田汉"
  ISU_conference_Super_Super_Event_TEXT:"无产者在这个革命中失去的只是锁链。他们获得的将是整个世界。\n——卡尔·马克思"
@@ -13,6 +14,7 @@
  Chen_Gobo_Super_Event_TEXT:"三民主义就是要唤起全中国的人民，反抗帝国主义殖民主义的侵略压迫，争取中国的独立生存，自由平等。——汪精卫"
  Sun_Fo_Super_Event_TEXT:"政治两字的意思，浅而言之。政就是众人的事，治就是管理，管理众人的事便是政治。——孙中山"
  Dai_Jitao_Super_Event_TEXT:""
+ Triple_entent_crush_Super_Event_TEXT:"我的葬礼上只需要必不可少的人来出席，也就是我。\n——乔治·克莱蒙梭"
  #BUTTONS
  CHI_second_continent_war_Super_Event_BUTTON:"起来！起来！"
  ISU_conference_Super_Event_BUTTON:"世界历史新的一页"
@@ -20,6 +22,7 @@
  Chen_Gobo_Super_Event_BUTTON:"孤飞终不倦，羞逐海鸥浮。"
  Sun_Fo_Super_Event_BUTTON:"革命尚未成功，同志仍需努力"
  Dai_Jitao_Super_Event_BUTTON:""
+ Triple_entent_crush_Super_Event_BUTTON:"流亡者的狂想无疾而终"
  #DESC
  CHI_second_continent_war_Super_Event_DESC:"五十七名战士，拒绝了我每人赏洋三十元的建议，他们齐向我大喊：我们的战斗目的，是要确保我们以及子孙不做日本帝国主义的奴隶，为了争取民族的生存，争取人类的光明，我们一定以必死的决心去执行战斗任务，钱要来干什么？……他们满挂着手榴弹，爬入城的西北角，城外，另有大军佯攻，居然凭他们的英勇，把敌人全部解决了！"
  ISU_conference_Super_Event_DESC:"我们的无产阶级革命已在一整个大洲获得成功。在这样的情况下，难道我们还要说自己过于软弱吗？我们的计划是彻底消灭私有制，谁也不能说这是乌托邦。我们深信，这已是最近将来的问题；难道我们还不敢建立真正的社会主义国际联盟，以替建立新的社会创造一种手段吗？……难道你们还要等待着世界各国完成各自的革命才采取行动吗？"
@@ -27,3 +30,4 @@
  Chen_Gobo_Super_Event_DESC:"总理在遗嘱上说：国民革命之目的，“在求中国之自由平等”。国民革命就是被压迫就是被帝国主义军阀及封建的残余势力的压迫的民众起来革命，这些民众是占最大多数的，可以代表全国民众，除少数的压迫之外，都要革命。中国的国民革命，不是四万万人都来参加，有很少数的人是站在反革命方面，大多数是站在革命方面的。"
  Sun_Fo_Super_Event_DESC:"今天日本投降了，一使我们的胜利实现，同时也使我们内乱的危机大大减少。人人在忧虑内乱，而内乱的危机是在反攻期间。而今日本投降，以后沦陷区的光复，使和平收复，自然大减内乱的危险。这最是此时国人所开心的。解决国家问题，民主宪政是一条坦途。国民党既决心还政于民，国民政府也准备结束训政，民主宪政的实现，应该是水到渠成的事了。"
  Dai_Jitao_Super_Event_DESC:""
+ Triple_entent_crush_Super_Event_DESC:"那些圆桌武士，十字车战士俱往矣,不仅遥远而且平淡无奇，这些年轻人，每天早晨都出去保卫他们的祖国和我们代表的一切，他们手中握着这些巨大的，毁灭性的武器。我们可以说，每一个早晨都带来一个难得的机会，每一个机会都会带来一位高贵的骑士，我们应该感谢所有勇敢的人，他们在很多的时候都准备好为他们的祖国献出生命和一切。"
