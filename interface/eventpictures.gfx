@@ -148,6 +148,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_Pacific_2.png"
 	}
 	spriteType = {
+		name = "GFX_chi_news6"
+		texturefile = "gfx/event_pictures/news/GFX_chi_news6.png"
+	}
+	spriteType = {
 		name = "GFX_GDCintro"
 		texturefile = "gfx/event_pictures/GDCintro.dds"
 	}
@@ -334,6 +338,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GDCintro45"
 		texturefile = "gfx/event_pictures/GFX_GDCintro45.png"
+	}
+	spriteType = {
+		name = "GFX_CHIpeace4"
+		texturefile = "gfx/event_pictures/GFX_CHIpeace4.png"
+	}
+	spriteType = {
+		name = "GFX_CHIpeace5"
+		texturefile = "gfx/event_pictures/GFX_CHIpeace5.png"
 	}
 	spriteType = {
 		name = "GFX_chi_news5"
