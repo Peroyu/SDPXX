@@ -1,42 +1,4 @@
 characters = {   
-	FRA_Alain_Lepp = {
-	    name = "FRA_Alain_Lepp" 
-		portraits = {
-			civilian = {
-				small = GFX_portrait_FRA_Alain_Lepp
-			}
-		}
-		advisor = {
-	        slot = political_advisor
-		    idea_token = Alain_Lepp
-		    ai_will_do = {
-		        factor = 0
-	        }
-			available = {always = yes}
-			allowed = {  }
-			cost = -1
-			remove_cost = -1
-        }
-	}
-	
-	FRA_Marcel_Edmund_Negren = {
-	    name = "FRA_Marcel_Edmund_Negren" 
-		portraits = {
-			civilian = {
-				small = GFX_portrait_FRA_Marcel_Edmund_Negren
-			}
-		}
-		advisor = {
-	        slot = political_advisor
-		    idea_token = Marcel_Edmund_Negren
-		    ai_will_do = {
-		        factor = 0
-	        }
-			allowed = { original_tag = FRA }
-			cost = -1
-			remove_cost = -1
-        }
-	}
 	
 	FRA_Jacques_Duclo = {
 	    name = "FRA_Jacques_Duclo" 
@@ -51,16 +13,51 @@ characters = {
 			trsits = {}
 			expire = "1967.1.1.1"
 		}
-		advisor = {
-	        slot = political_advisor
-		    idea_token = Jacques_Duclo
-		    ai_will_do = {
-		        factor = 0
-	        }
-			allowed = { original_tag = FRA }
-			cost = -1
-			remove_cost = -1
-        }
+	}
+
+	FRA_Marcel_Deat = {
+	    name = "FRA_Marcel_Deat" 
+		portraits = {
+			civilian = {
+				small = GFX_portrait_FRA_Marcel_Deat
+				large = GFX_portrait_FRA_Marcel_Deat
+			}
+		}
+		country_leader = {
+			ideology = neo_socialism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+	}
+
+	FRA_Paul_Ramadier = {
+	    name = "FRA_Paul_Ramadier" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_Paul_Ramadier
+			}
+		}
+		country_leader = {
+			ideology = republic_marxism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+		
+	}
+
+	FRA_Georges_Bidault = {
+	    name = "FRA_Georges_Bidault" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_FRA_Georges_Bidault
+			}
+		}
+		country_leader = {
+			ideology = social_reformism
+			trsits = {}
+			expire = "1967.1.1.1"
+		}
+		
 	}
 	
 	FRA_Pierre_Samard = {

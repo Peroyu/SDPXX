@@ -61,4 +61,6 @@ create_country_leader = {
 recruit_character = FRA_Alain_Lepp
 recruit_character = FRA_Marcel_Edmund_Negren
 recruit_character = FRA_Jacques_Duclo
-recruit_character = FRA_Pierre_Samard
+recruit_character = FRA_Georges_Bidault
+recruit_character = FRA_Marcel_Deat
+recruit_character = FRA_Paul_Ramadier

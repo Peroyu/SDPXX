@@ -342,6 +342,7 @@ ideologies = {
 		  Peronismo = { can_be_randomly_selected = no }
 		  Peronismo = { can_be_randomly_selected = no }
 		  Zenkoku_isseini = { can_be_randomly_selected = no }
+		  neo_socialism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

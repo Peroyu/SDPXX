@@ -575,6 +575,26 @@
 		name = "portrait_DZG_otto_afterwar"
 		texturefile = "gfx/leaders/EU/portrait_DZG_otto_afterwar.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Jacques_Duclo"
+		texturefile = "gfx/leaders/EU/GFX_portrait_FRA_Jacques_Duclo.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Marcel_Deat"
+		texturefile = "gfx/leaders/EU/GFX_portrait_FRA_Marcel_Deat.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Paul_Ramadier"
+		texturefile = "gfx/leaders/EU/GFX_portrait_FRA_Paul_Ramadier.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_Georges_Bidault"
+		texturefile = "gfx/leaders/EU/GFX_portrait_FRA_Georges_Bidault.png"		
+	}
 	
 	spriteType = {
 		name = "BUR_Aung_San"

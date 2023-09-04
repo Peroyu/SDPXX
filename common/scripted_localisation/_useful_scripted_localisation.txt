@@ -338,6 +338,13 @@ defined_text = {
 		localization_key = Zenkoku_isseini
     }
 
+	text = {
+		trigger = {
+			has_country_leader_ideology = neo_socialism
+		}
+		localization_key = neo_socialism
+    }
+
 	##########################################################
 
 	text = {
