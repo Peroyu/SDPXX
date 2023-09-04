@@ -294,6 +294,13 @@ defined_text = {
 		localization_key = system_revolutionism
     }
 
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_conservatism
+		}
+		localization_key = christian_conservatism
+    }
+
 	################################################
 
 	text = {

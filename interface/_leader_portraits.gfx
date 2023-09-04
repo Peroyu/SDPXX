@@ -595,6 +595,16 @@
 		name = "GFX_portrait_FRA_Georges_Bidault"
 		texturefile = "gfx/leaders/EU/GFX_portrait_FRA_Georges_Bidault.png"		
 	}
+
+	spriteType = {
+		name = "GFX_SPA_Jose_Maria_Gil_Robles"
+		texturefile = "gfx/leaders/EU/GFX_SPA_Jose_Maria_Gil_Robles.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_Emilio_Mola"
+		texturefile = "gfx/leaders/EU/GFX_portrait_SPA_Emilio_Mola.png"		
+	}
 	
 	spriteType = {
 		name = "BUR_Aung_San"

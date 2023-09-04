@@ -46,10 +46,19 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "何塞·玛丽亚·希尔-罗夫雷斯"   
-	desc = "FOI_Indalecio_Prieto_desc"  
-	picture = "gfx/leaders/EU/Indalecio_Prieto.png"   
+	desc = "SPA_Jose_Maria_Gil_Robles_desc"  
+	picture = "GFX_SPA_Jose_Maria_Gil_Robles"   
 	expire = "1970.1.9"   
-	ideology = authoritarian_democracy
+	ideology = christian_conservatism
+	traits = {  }
+}
+
+create_country_leader = {
+	name = "埃米利奥·莫拉"   
+	desc = "SPA_Emilio_Mola_desc"  
+	picture = "GFX_portrait_SPA_Emilio_Mola"   
+	expire = "1970.1.9"   
+	ideology = despotism
 	traits = {  }
 }
 

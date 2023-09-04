@@ -290,6 +290,7 @@ ideologies = {
 			authoritarian_democracy = { can_be_randomly_selected = no }
 			revolutionary_nationalism = { can_be_randomly_selected = no }
 			system_revolutionism = { can_be_randomly_selected = no }
+			christian_conservatism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
