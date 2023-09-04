@@ -5,7 +5,7 @@ country_event = {
 	OIL.1 FROM = [From.GetName]" }
 	title = OIL.1.t
 	desc = OIL.1.d
-	picture = gFx_JAP.1
+	picture = gFx_oil
 	
 	is_triggered_only = yes
 	
