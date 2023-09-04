@@ -12,7 +12,22 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    if = {
+				limit = {
+					NOT = {
+						has_global_flag = ENT_RUN
+					}
+				}
+				every_country = {
+					limit = { 
+						is_ai = no
+					}
+					news_event = {
+						id = Triple_entent.1
+						days = 60
+					}
+				}
+			}
 		}
     }
 	

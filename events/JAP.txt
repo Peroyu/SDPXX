@@ -99,7 +99,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 60
 		}
 		set_nationality = SUM
 		set_nationality = SUL
@@ -129,11 +129,12 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 30
 		}
 		BOR = {
 			give_military_access = NIP
 		}
+		set_global_flag = ENT_RUN
 		name = ASIA_southeast_asia_conference.2.c
 	}
 	

@@ -10,7 +10,16 @@ news_event = {
     title = Triple_entent.1.t
     desc = Triple_entent.1.d
     immediate = { 
+		hidden_effect = {
+			CAN = {
+				dismantle_faction = yes
+				puppet = NIG
+				puppet = RHO
+				puppet = AST
+				puppet = NZL
+			}
 
+		}
 	}
     is_triggered_only = yes
  
