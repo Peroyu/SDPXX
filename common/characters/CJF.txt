@@ -26,10 +26,27 @@ characters = {
 		}
 		field_marshal={
 			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
-			skill=4
+			skill=3
 			attack_skill=2
 			defense_skill=2
 			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	CJF_Song_Xilian={
+		name = "CJF_Song_Xilian"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Song_Xilian
+				large = GFX_portrait_CJF_Song_Xilian
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
 			logistics_skill=3
 		}
 	}

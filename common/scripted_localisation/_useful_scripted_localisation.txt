@@ -91,6 +91,13 @@ defined_text = {
 		}
 		localization_key = republic_marxism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Neo_Marxism
+		}
+		localization_key = Neo_Marxism
+    }
 	######################################################
 	text = {
 		trigger = {

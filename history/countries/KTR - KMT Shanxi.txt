@@ -27,13 +27,5 @@ set_popularities = {
 }
 
 recruit_character = MMA_Hu_ZongNan
-create_country_leader = {
-	name = "冯玉祥"  # 
-	desc = "/"  # 
-	picture = "GFX_portrait_Feng_yuxiang"  # 
-	expire = "1952.4.30"  # 
-	ideology = authoritarian_democracy # 
-	traits = {  # 
-		#
-	}
-}
+recruit_character = KTR_Feng_Yuxiang
+recruit_character = KTR_Tang_Shu

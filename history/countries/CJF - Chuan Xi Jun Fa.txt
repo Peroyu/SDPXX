@@ -287,4 +287,5 @@ recruit_character = CJF_Chen_Cheng
 recruit_character = CJF_Sun_Li_Ren
 recruit_character = CJF_Du_Yuming
 recruit_character = CJF_Xv_ChongZhi
+recruit_character = CJF_Song_Xilian
 

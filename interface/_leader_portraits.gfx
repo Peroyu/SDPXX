@@ -64,6 +64,11 @@
 		name = "CHI_portrait_liuzhidan"
 		texturefile = "gfx/leaders/MMA/CHI_portrait_liuzhidan.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Tang_Shu"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Tang_Shu.png"		
+	}
 	
 	#####################################################################
 	
@@ -221,6 +226,11 @@
 		name = "GFX_portrait_CJF_Chen_Zhang"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Chen_Zhang.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Song_Xilian"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Song_Xilian.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -271,6 +281,11 @@
 	spriteType = {
 		name = "GFX_portrait_FJN_Chen_zukang"
 		texturefile = "gfx/leaders/GDC/GFX_portrait_FJN_Chen_zukang.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KHN_Zhang_Zhen"
+		texturefile = "gfx/leaders/GDC/GFX_portrait_KHN_Zhang_Zhen.png"		
 	}
 	
 	###############################################
@@ -604,6 +619,11 @@
 	spriteType = {
 		name = "GFX_portrait_SPA_Emilio_Mola"
 		texturefile = "gfx/leaders/EU/GFX_portrait_SPA_Emilio_Mola.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_Antonio_Gramsci"
+		texturefile = "gfx/leaders/EU/GFX_portrait_ITA_Antonio_Gramsci.png"		
 	}
 	
 	spriteType = {

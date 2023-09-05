@@ -22,6 +22,25 @@ characters = {
 		}
 
     }
+	KTR_Tang_Shu = {
+		name = "KTR_Tang_Shu" 
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Tang_Shu
+				large = GFX_portrait_KTR_Tang_Shu
+			}
+		}
+		
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+
+    }
 	MMA_Ma_Bufang = {
 		name = "MMA_Ma_Bufang" 
 		portraits = {
@@ -41,11 +60,11 @@ characters = {
 		}
 		field_marshal={
 			traits={ inflexible_strategist cavalry_officer }
-			skill=5
-			attack_skill=4
-			defense_skill=2
+			skill=2
+			attack_skill=1
+			defense_skill=3
 			planning_skill=2
-			logistics_skill=3
+			logistics_skill=1
 		}
 
     }
@@ -62,17 +81,29 @@ characters = {
 			trsits = {}
 			expire = "1962.1.1.1"
 		}
-		advisor = {
-	        slot = person_of_eco
-		    idea_token = MMA_Gao_Gang
-		    ai_will_do = {
-		        factor = 0
-	        }
-			allowed = { original_tag = MMA }
-			cost = -1
-			remove_cost = -1
-			ledger = civilian
-        }
+
+    }
+	KTR_Feng_Yuxiang = {
+		name = "KTR_Feng_Yuxiang" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Feng_yuxiang
+				small = GFX_portrait_Feng_yuxiang
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democracy
+			trsits = {}
+			expire = "1962.1.1.1"
+		}
+		field_marshal={
+			traits={ inflexible_strategist }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
 
     }
 	MMA_Ma_Hongbin = {
@@ -94,17 +125,6 @@ characters = {
 			planning_skill=3
 			logistics_skill=2
 		}
-		advisor = {
-	        slot = person_of_arm
-		    idea_token = Ma_Hongbin
-		    ai_will_do = {
-		        factor = 0
-	        }
-			allowed = { original_tag = MMA }
-			cost = -1
-			remove_cost = -1
-			ledger = civilian
-        }
 	}
 	MMA_Ma_Yuanhai={
 		name = "MMA_Ma_Yuanhai"

@@ -3,11 +3,11 @@ characters = {
 		name = "ITA_Antonio_Gramsci" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_Ma_Jiyuan
+				large = GFX_portrait_ITA_Antonio_Gramsci
 			}
 		}
 		country_leader = {
-			ideology = left_wing_communism
+			ideology = Neo_Marxism
 			trsits = {}
 			expire = "1954.1.1.1"
 		}
