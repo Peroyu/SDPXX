@@ -185,13 +185,13 @@ characters = {
 				large = GFX_portrait_MMA_Hu_ZongNan
 			}
 		}
-		field_marshal={
-			traits={ harsh_leader career_officer trait_cautious }
-			skill=4
+		corps_commander={
+			traits={ career_officer }
+			skill=2
 			attack_skill=2
 			defense_skill=3
-			planning_skill=4
-			logistics_skill=3
+			planning_skill=1
+			logistics_skill=2
 		}
 	}
 	MMA_Ma_Hongkui={
