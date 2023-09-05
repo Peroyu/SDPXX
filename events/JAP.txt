@@ -92,8 +92,12 @@ country_event = {
 		}
 		BOR = {
 			leave_faction = yes
+			retire_country_leader = yes
 			set_cosmetic_tag = BOR_wenlai
 			give_military_access = NIP
+			set_politics = { 
+				ruling_party = reactionism
+			}
 		}
 		name = ASIA_southeast_asia_conference.2.a
 	}
@@ -116,6 +120,10 @@ country_event = {
 			leave_faction = yes
 			set_cosmetic_tag = BOR_wenlai
 			give_military_access = NIP
+			retire_country_leader = yes
+			set_politics = { 
+				ruling_party = reactionism
+			}
 		}
 		OCE = {
 			give_military_access = NIP
