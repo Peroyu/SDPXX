@@ -630,6 +630,12 @@
 		name = "BUR_Aung_San"
 		texturefile = "gfx/leaders/ASIA/BUR_Aung_San.png"		
 	}
+
+	spriteType = {
+		name = "GFX_KAI_portrait_Syarif_Hamid_II"
+		texturefile = "gfx/leaders/ASIA/GFX_KAI_portrait_Syarif_Hamid_II.png"		
+	}
+
 	spriteType = {
 		name = "GFX_portrait_BOR_sudan_aomor"
 		texturefile = "gfx/leaders/ASIA/GFX_portrait_BOR_sudan_aomor.png"		
