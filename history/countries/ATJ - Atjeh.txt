@@ -6,7 +6,7 @@ set_war_support = 0.8
 set_stability = 0.7 
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = reactionism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
@@ -25,9 +25,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "威廉明娜女王"
+	name = "端古·拉贾·易卜拉欣"
 	desc = "/"  
-	picture = HOL_portrait_Wilhelmina
+	picture = "GFX_portrait_Tuanku_Raja_Ibrahim"
 	expire = "1952.7.10"  
 	ideology = despotism
 	traits = { 

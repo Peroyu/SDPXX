@@ -637,6 +637,11 @@
 	}
 
 	spriteType = {
+		name = "GFX_portrait_Tuanku_Raja_Ibrahim"
+		texturefile = "gfx/leaders/ASIA/GFX_portrait_Tuanku_Raja_Ibrahim.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_BOR_sudan_aomor"
 		texturefile = "gfx/leaders/ASIA/GFX_portrait_BOR_sudan_aomor.png"		
 	}
