@@ -297,7 +297,7 @@ country_event = {
 			add_state_core = 958
 			add_state_core = 959
 			add_state_core = 960
-			load_oob = SBA
+			load_oob = "SBA_1947"
 		}
 		958 = {set_demilitarized_zone = no}
 		959 = {set_demilitarized_zone = no}
@@ -399,7 +399,7 @@ country_event = {
 		}
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
 		add_to_variable = { global.CHI_xinan_regional_tension = -10 }
-        add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
+        	add_to_variable = { var = global.SDP_anti_jap_14_R value = -1 }
 		add_to_variable = { var = global.SDP_anti_jap_14 value = 1 }
 		name = SBA.3.a
 		custom_effect_tooltip = kmt_shanxi
