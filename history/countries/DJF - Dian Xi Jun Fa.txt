@@ -32,7 +32,7 @@ add_ideas = {
 recruit_character = DJF_Zhu_De
 #########################################################
 create_country_leader = {
-		name = "DJF_Jin_HanDing" #领导人名字
+		name = "金汉鼎" #领导人名字
 		desc = "DJF_Jin_HanDing_desc" #领导人介绍
 		picture = "gfx/leaders/DJF/portrait_DJF_Jin_HanDing.png" #领导人图片
 		expire = "1965.1.1" #领导人退休时间

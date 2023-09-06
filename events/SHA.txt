@@ -312,9 +312,7 @@ country_event = {
 		}
 		complete_national_focus = A_failed_attempt
 		set_available = { MMA_xibei_choice = 1 }
-		SBA = {
-			declare_war_on = {target = SHA type = annex_everything }
-		}
+		
 	    MMA = {
 			declare_war_on = {target = SHA type = annex_everything }
 			set_autonomy = {
@@ -324,6 +322,12 @@ country_event = {
 			set_autonomy = {
 				target = KTR
 				autonomy_state = autonomy_puppet
+			}
+		}
+		SBA = {
+			declare_war_on = {target = SHA type = annex_everything }
+			set_politics = { 
+				ruling_party = communism 
 			}
 		}
 	    KTR = {declare_war_on = {target = SHA type = annex_everything }}
