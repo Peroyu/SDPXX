@@ -156,6 +156,30 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/gFx_oil.png"
 	}
 	spriteType = {
+		name = "GFX_dh11"
+		texturefile = "gfx/event_pictures/GFX_dh11.png"
+	}
+	spriteType = {
+		name = "GFX_cjfdh9"
+		texturefile = "gfx/event_pictures/GFX_cjfdh9.png"
+	}
+	spriteType = {
+		name = "GFX_dh8"
+		texturefile = "gfx/event_pictures/GFX_dh8.png"
+	}
+	spriteType = {
+		name = "GFX_CJF_industry5"
+		texturefile = "gfx/event_pictures/GFX_CJF_industry5.png"
+	}
+	spriteType = {
+		name = "GFX_CJF_kmtda8"
+		texturefile = "gfx/event_pictures/GFX_CJF_kmtda8.png"
+	}
+	spriteType = {
+		name = "GFX_CJF_kmtda3"
+		texturefile = "gfx/event_pictures/GFX_CJF_kmtda3.png"
+	}
+	spriteType = {
 		name = "GFX_GDCintro"
 		texturefile = "gfx/event_pictures/GDCintro.dds"
 	}
