@@ -1,0 +1,35 @@
+add_namespace = RUS
+
+country_event = {
+    id = RUS.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	RUS.1 FROM = [From.GetName]" }
+	title = RUS.1.t
+	desc = RUS.1.d
+	picture = GFX_RUSevent_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    retire_country_leader = yes
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.11
+				days = 1
+			}
+		}
+		name = RUS.1.a
+	}
+	
+}
