@@ -531,6 +531,14 @@ defined_text = {
 	name = GFX_SDP_anti_jap_14
 	text = {
 		trigger = {
+			check_variable = { var = global.SDP_anti_jap_14 value = global.SDP_anti_jap_14_L compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14 value = global.SDP_anti_jap_14_R compare = greater_than }
+			check_variable = { var = global.SDP_anti_jap_14 value = global.SDP_anti_jap_14_C compare = greater_than }
+		}
+		localization_key = GFX_SDP_anti_jap_14
+	}
+	text = {
+		trigger = {
 			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14 compare = greater_than }
 			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_R compare = greater_than }
 			check_variable = { var = global.SDP_anti_jap_14_L value = global.SDP_anti_jap_14_C compare = greater_than }

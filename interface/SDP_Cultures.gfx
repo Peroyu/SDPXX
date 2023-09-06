@@ -20,4 +20,24 @@ spriteTypes = {
 		name = "GFX_culture_1"
 		texturefile = "gfx/interface/culture/culture_han.png"
 	}
+	spriteType = {
+		name = "GFX_culture_2"
+		texturefile = "gfx/interface/culture/culture_hun.png"
+	}
+	spriteType = {
+		name = "GFX_culture_3"
+		texturefile = "gfx/interface/culture/culture_jap.png"
+	}
+	spriteType = {
+		name = "GFX_culture_4"
+		texturefile = "gfx/interface/culture/culture_slo.png"
+	}
+	spriteType = {
+		name = "GFX_culture_5"
+		texturefile = "gfx/interface/culture/culture_crt.png"
+	}
+	spriteType = {
+		name = "GFX_culture_6"
+		texturefile = "gfx/interface/culture/culture_hun_slo.png"
+	}
 }

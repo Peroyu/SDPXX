@@ -83,6 +83,15 @@ on_actions = {
 			set_variable = { 283.nationality = 1 }
 			set_variable = { 899.nationality = 1 }
 			set_variable = { 926.nationality = 1 }
+			set_variable = { 109.nationality = 5 }
+			set_variable = { 155.nationality = 2 }
+			set_variable = { 154.nationality = 2 }
+			set_variable = { 43.nationality = 2 }
+			set_variable = { 76.nationality = 2 }
+			set_variable = { 70.nationality = 4 }
+			set_variable = { 71.nationality = 4 }
+			set_variable = { 73.nationality = 4 }
+			set_variable = { 866.nationality = 6 }
 		}
 	}
 }

@@ -203,6 +203,7 @@ on_actions = {
 							OR = {
 								original_tag = MMA
 								is_in_faction_with = MMA
+								is_subject_of = MMA
 							}
 						}
 						ROOT = {
