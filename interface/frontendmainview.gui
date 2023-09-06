@@ -19,6 +19,12 @@ guiTypes = {
 			quadTextureSprite ="GFX_frontend_bg"
 			alwaystransparent = yes
 		}
+
+		iconType = {
+			name ="version_icon"
+			spriteType = "GFX_version_icon"
+			position = { x= 100 y = 100 }
+		}
 		
 	}
 
@@ -34,8 +40,8 @@ guiTypes = {
 		iconType =
 		{
 			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
+			spriteType = "GFX_pdx_dev_logo"
+			position = { x= 1450 y = 700 }
 		}
 		
 	}
@@ -77,7 +83,7 @@ guiTypes = {
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
+			position = { x= 15 y = -15 }
 		}
 		
 		iconType =
@@ -86,6 +92,7 @@ guiTypes = {
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= 135 y = 15 }
 		}	
+
 		
 		
 		

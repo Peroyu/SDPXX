@@ -27,4 +27,14 @@ spriteTypes = {
 		name = "zhihu"
 		texturefile = "gfx/interface/zhihu.png"
 	}
+
+	spriteType = {
+		name = "GFX_version_icon"
+		texturefile = "gfx/interface/005version.png"
+	}
+
+	spriteType = {
+		name = "GFX_pdx_dev_logo"
+		texturefile = "gfx/interface/SDPdev.png"
+	}
 }
