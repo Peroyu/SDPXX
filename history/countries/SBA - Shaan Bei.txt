@@ -14,7 +14,23 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-
+add_ideas = {
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	old_age_pension
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	collectivized_agriculture
+	militarized_police
+	public_health_insurance
+	national_supremacy
+}
 set_popularities = {
 	communism = 28
 	committee_communism = 12

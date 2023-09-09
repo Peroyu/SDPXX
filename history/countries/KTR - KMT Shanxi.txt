@@ -25,7 +25,23 @@ set_popularities = {
 	movement_communism = 13
 	nationalism = 10
 }
-
+add_ideas = {
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	wage_controls
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	freeholders
+	militarized_police
+	private_health_insurance
+	national_supremacy
+}
 recruit_character = MMA_Hu_ZongNan
 recruit_character = KTR_Feng_Yuxiang
 recruit_character = KTR_Tang_Shu

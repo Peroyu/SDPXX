@@ -1,0 +1,103 @@
+ideas = {
+	tax_laws = {
+		consumption_based_taxation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.50
+				stability_factor = 0.05
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		land_based_taxation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.30
+				stability_factor = 0.03
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+				production_speed_dockyard_factor = -0.2
+				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_mil_to_civ_factor = 0.2
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		per_capita_based_taxation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				political_power_gain = -0.1
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		proportional_taxation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.20
+				political_power_gain = -0.03
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		graduated_taxation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				political_power_gain = -0.06
+				stability_factor = 0.03
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

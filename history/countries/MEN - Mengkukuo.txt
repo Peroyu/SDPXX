@@ -58,7 +58,24 @@ set_technology = {
 	#industry#
 	basic_machine_tools = 1
 }
-# 设置领导人
+add_ideas = {
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	state_religion
+	national_militia
+	serfdom
+	secret_police
+	charitable_health_system
+	national_supremacy
+}
 create_country_leader = {
 	name = "徳穆楚克栋鲁普亲王"  # 领导人名称
 	desc = "/"  # 人物介绍

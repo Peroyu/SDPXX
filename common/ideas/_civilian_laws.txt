@@ -1,0 +1,87 @@
+ideas = {
+	civilian_laws = {
+		ethnostate = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.8
+				
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		national_supremacy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.5
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		racial_segregation = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.3
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		cultural_exclusion = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = -0.1
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		multicultural = {
+			allowed = {
+				always = yes
+			}
+			
+
+			modifier = {
+				non_core_manpower = 0.05
+				
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

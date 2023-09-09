@@ -74,6 +74,23 @@ set_popularities = {
 	}
 
 add_ideas = {
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	for_conscription
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
+	###
 		JIN_mountains_and_rivers
 		JIN_Opium_Trade
 		JIN_industry_of_shanxi

@@ -6,6 +6,23 @@ set_research_slots = 2 #
 
 set_war_support = 0.8 # 
 set_stability = 0.2 # 
+add_ideas = {
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	old_age_pension
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	collectivized_agriculture
+	militarized_police
+	public_health_insurance
+	national_supremacy
+}
 set_technology = {
 	### Infantry ###
 	infantry_weapons = 1

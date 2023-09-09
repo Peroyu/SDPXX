@@ -1,0 +1,103 @@
+ideas = {
+	mobilization_laws = {
+		peasant_levies = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.005
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		professional_army = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		national_militia = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		mass_conscription = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.025
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		for_conscription = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.028
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		great_conscription = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

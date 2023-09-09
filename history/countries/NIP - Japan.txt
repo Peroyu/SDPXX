@@ -176,9 +176,19 @@ set_popularities = {
 	social_democracy = 6
 }
 add_ideas = {
-	partial_economic_mobilisation
-	limited_exports
-	limited_conscription
+	wealth_voting
+	regulatory_bodies
+	women_own_property
+	isolationism
+	outlawed_dissent
+	wage_controls
+	public_schools
+	state_religion
+	national_militia
+	commercial_agriculture
+	secret_police
+	private_health_insurance
+	ethnostate
 	######
 
 	#######

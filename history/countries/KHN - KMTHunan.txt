@@ -74,6 +74,23 @@ set_popularities = {
 	committee_communism = 12
 	communism = 8
 }
+add_ideas = {
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	old_age_pension
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	collectivized_agriculture
+	militarized_police
+	public_health_insurance
+	national_supremacy
+}
 recruit_character = GDC_Mao_Zedong
 recruit_character = GDC_Fang_Zhimin
 recruit_character = GDC_Peng_Dehuai

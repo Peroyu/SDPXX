@@ -23,11 +23,12 @@ set_popularities = {
 }
 
 recruit_character = ENT_Louis_Mountbatten
+
 create_country_leader = {
 	name = "奥玛阿里赛尔夫汀三世"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_BOR_sudan_aomor"  # 
-	expire = "1952.3.16"  # 
+	expire = "1959.3.16"  # 
 	ideology = military_system # 
 	traits = {  # 
 		#

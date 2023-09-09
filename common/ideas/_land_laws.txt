@@ -1,0 +1,88 @@
+ideas = {
+	land_laws = {
+		serfdom = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.5
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		tenant_farmers = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = -0.2
+				political_power_gain = 0.02
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		commercial_agriculture = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.03
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		freeholders = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = 0.1
+				political_power_gain = 0.04
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		collectivized_agriculture = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				global_building_slots_factor = 0.2
+				political_power_gain = 0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

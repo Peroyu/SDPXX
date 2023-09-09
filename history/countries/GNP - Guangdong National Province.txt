@@ -70,9 +70,27 @@ set_technology = {
 	construction1 = 1
 }
 add_ideas = {
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	professional_army
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
+	###
 GNP_Japenese_millitary_assistance
 GNP_manchuria_industry_assistance
 GNP_Hong_Kong
+CHI_east_asia_league_movement
 }
 create_country_leader = {
 		name = "彭东原"   

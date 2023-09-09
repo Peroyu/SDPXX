@@ -1,0 +1,119 @@
+ideas = {
+	election_laws = {
+		autocracy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				defensive_war_stability_factor = -0.1
+				party_popularity_stability_factor = -0.1
+				political_power_gain = 0.2
+				war_stability_factor = 0.05
+				offensive_war_stability_factor = 0.02
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		oligarchy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		wealth_voting = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.07
+				political_power_cost = 0.05
+				defensive_war_stability_factor = 0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		universal_suffrage = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_cost = 0.07
+				defensive_war_stability_factor = 0.1
+				offensive_war_stability_factor = 0.02
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		single_party_state = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.12
+				political_power_cost = 0.1
+				defensive_war_stability_factor = 0.15
+				
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		technocracy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_cost = 0.1
+				defensive_war_stability_factor = 0.1
+				research_sharing_per_country_bonus = 0.03
+				research_speed_factor = 0.03
+				line_change_production_efficiency_factor = 0.02
+				consumer_goods_factor = -0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

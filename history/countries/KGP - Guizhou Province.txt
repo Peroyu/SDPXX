@@ -23,9 +23,21 @@ set_popularities = {
 	Liberalism = 8
 }
 add_ideas = {
-low_economic_mobilisation
-volunteer_only
-limited_exports
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	wage_controls
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	freeholders
+	militarized_police
+	private_health_insurance
+	national_supremacy
 }
 
 create_country_leader = {

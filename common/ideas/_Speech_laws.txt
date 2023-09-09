@@ -1,0 +1,76 @@
+ideas = {
+	Speech_laws = {
+		outlawed_dissent = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.06
+				drift_defence_factor = 0.05
+				political_power_factor = -0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		censorship = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.03
+				drift_defence_factor = 0.01
+				political_power_factor = -0.02
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		right_of_assembly = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				drift_defence_factor = -0.02
+				political_power_factor = -0.05
+
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+		protected_speech = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.08
+				drift_defence_factor = -0.05
+				political_power_factor = -0.05
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+}

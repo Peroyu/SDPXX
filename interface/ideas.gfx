@@ -1,4 +1,40 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_CHI_east_asia_league_movement"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_CHI_east_asia_league_movement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FNC_man_behind"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_man_behind.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FNC_neo_people_movement"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_neo_people_movement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_keep_safe_issue"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_MAN_keep_safe_issue.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_Kwantung_Army"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_MAN_Kwantung_Army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RCR_brocken_government"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_RCR_brocken_government.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FNC_chi_jap_ecocorperate"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_chi_jap_ecocorperate.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RCR_cultural_totalwar"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_RCR_cultural_totalwar.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_centralize_countryside"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_MAN_centralize_countryside.png"
+	}
     ##########MMA#######
 	spriteType = {
 		name = "GFX_idea_MMA_Northwest_Cavalry"
