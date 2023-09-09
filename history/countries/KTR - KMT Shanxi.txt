@@ -45,3 +45,6 @@ add_ideas = {
 recruit_character = MMA_Hu_ZongNan
 recruit_character = KTR_Feng_Yuxiang
 recruit_character = KTR_Tang_Shu
+recruit_character = CJF_Li_xingzhong
+recruit_character = CJF_Liu_Ruming
+

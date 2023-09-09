@@ -199,6 +199,40 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CJF_Li_xingzhong={
+		name = "CJF_Li_xingzhong"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Li_xingzhong
+				large = GFX_portrait_CJF_Li_xingzhong
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CJF_Liu_Ruming={
+		name = "CJF_Liu_Ruming"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Liu_Ruming
+				large = GFX_portrait_CJF_Liu_Ruming
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
 	CJF_Lu_Hanliang={
 		name = "CJF_Lu_Hanliang"
 		portraits = {

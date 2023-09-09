@@ -585,7 +585,7 @@ shared_focus = {
 	icon = GFX_CJF_meeting_rus
 	cost = 4
 	x = 4
-	y = 12
+	y = 13
 	prerequisite = {
 		focus = CJF_to_outside
 	}
@@ -599,7 +599,7 @@ shared_focus = {
 	icon = GFX_CJF_meeting_fra
 	cost = 4
 	x = 8
-	y = 12
+	y = 13
 	prerequisite = {
 		focus = CJF_to_outside
 	}
@@ -613,9 +613,9 @@ shared_focus = {
 	icon = GFX_CJF_The_whole_country_united_outside
 	cost = 3
 	x = 6
-	y = 13
+	y = 14
 	prerequisite = {
-		focus = CJF_to_outside
+		focus = CJF_meeting_rus
 	}
 	prerequisite = {
 		focus = CJF_meeting_fra
@@ -630,7 +630,7 @@ shared_focus = {
 	icon = GFX_CJF_Go_east
 	cost = 3
 	x = 6
-	y = 14
+	y = 15
 	prerequisite = {
 		focus = CJF_The_whole_country_united_outside
 	}

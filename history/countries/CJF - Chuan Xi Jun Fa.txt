@@ -272,7 +272,7 @@ create_country_leader = {
 	desc = "CJF_Chen_GongBo_desc"
 	picture = "portrait_CJF_Chen_GongBo"
 	expire = "1999.1.1"
-	ideology = New_Three_Principles_of_the_People
+	ideology = social_reformism
 	traits = {
 		
 	}

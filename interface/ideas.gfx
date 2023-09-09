@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_chi_jap_ecocorperate.png"
 	}
 	spriteType = {
+		name = "GFX_idea_RCR_central_china_company"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_chi_jap_ecocorperate.png"
+	}
+	spriteType = {
 		name = "GFX_idea_RCR_cultural_totalwar"
 		texturefile = "gfx/interface/ideas/CMA/GFX_idea_RCR_cultural_totalwar.png"
 	}
