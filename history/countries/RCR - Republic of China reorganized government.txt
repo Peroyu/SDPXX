@@ -26,14 +26,30 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
-export_focus
-civilian_economy
-idea_volunteer_only
-##########
-RCR_Qi_Xieyuan
-RCR_Gao_Zongwu
-RCR_Wang_YiTang
-}
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	professional_army
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
+	######################
+	CHI_east_asia_league_movement
+	RCR_cultural_totalwar
+	RCR_central_china_company
+	RCR_clear_countrside_movement
+	RCR_brocken_government
+	
+	}
 set_popularities = {
 	communism = 1
 	movement_communism = 22

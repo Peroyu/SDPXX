@@ -31,6 +31,24 @@ create_country_leader = {
 	traits = {  # 
 	}
 }
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }
 create_country_leader = {
 	name = "穆罕默德·奥尔汗"  # 
 	desc = "/"  # 

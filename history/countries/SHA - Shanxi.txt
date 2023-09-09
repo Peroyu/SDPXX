@@ -20,7 +20,24 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+add_ideas = {
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	for_conscription
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
+}
 set_popularities = {
 	communism = 2
 	movement_communism = 5

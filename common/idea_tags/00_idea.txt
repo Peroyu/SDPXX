@@ -22,13 +22,38 @@ idea_categories = {
 
 		ledger = hidden
 	}
-
-	government = {
+	
+	
+	government_politic = {
+		slot = election_laws
+		slot = civilian_laws
+		slot = religious_laws
 		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
-		removal_cost = -1
+		slot = Internal_laws
 
+		removal_cost = -1
+		ledger = civilian
+	}
+
+	government_social = {
+		slot = Speech_laws
+		slot = workers_laws
+		slot = children_laws
+		slot = women_laws
+		slot = social_laws
+
+		removal_cost = -1
+		ledger = civilian
+	}
+
+	government_eco = {
+		slot = land_laws
+		slot = tax_laws
+		slot = trade_laws
+		slot = school_laws
+		slot = Health_laws
+
+		removal_cost = -1
 		ledger = civilian
 	}
 

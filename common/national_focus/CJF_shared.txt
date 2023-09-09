@@ -378,6 +378,20 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = CJF_strengthen_central_party
+	icon = GFX_CJF_strengthen_central_party
+	cost = 5
+	x = 3
+	y = 5
+	prerequisite = {
+		focus = CJF_return_to_remind
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
 	id = CJF_construct_CPC
 	icon = GFX_CJF_construct_CPC
 	cost = 5
@@ -428,6 +442,9 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = CJF_construct_CPC
+	}
+	prerequisite = {
+		focus = CJF_strengthen_central_party
 	}
 	completion_reward = {
 		custom_effect_tooltip = CJF_party_1
@@ -502,8 +519,8 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = CJF_Commitment_to_civil_rights
-	icon = GFX_CJF_Commitment_to_civil_rights
+	id = CJF_education_people
+	icon = GFX_CJF_education_people
 	cost = 4
 	x = 6
 	y = 9
@@ -514,6 +531,34 @@ shared_focus = {
 		focus = CJF_People_livelihood_has_been_stable
 	}
 	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_constrcution_anti_japen_culture
+	icon = GFX_CJF_constrcution_anti_japen_culture
+	cost = 4
+	x = 6
+	y = 10
+	prerequisite = {
+		focus = CJF_education_people
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_Commitment_to_civil_rights
+	icon = GFX_CJF_Commitment_to_civil_rights
+	cost = 4
+	x = 6
+	y = 11
+	prerequisite = {
+		focus = CJF_constrcution_anti_japen_culture
+	}
+	completion_reward = {
 		swap_ideas = {
 			add_idea = CJF_unacknowlaged_power_5
 			remove_idea = CJF_unacknowlaged_power_4
@@ -522,13 +567,58 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = CJF_to_outside
+	icon = GFX_CJF_to_outside
+	cost = 4
+	x = 6
+	y = 12
+	prerequisite = {
+		focus = CJF_Commitment_to_civil_rights
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_meeting_rus
+	icon = GFX_CJF_meeting_rus
+	cost = 4
+	x = 4
+	y = 13
+	prerequisite = {
+		focus = CJF_to_outside
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
+	id = CJF_meeting_fra
+	icon = GFX_CJF_meeting_fra
+	cost = 4
+	x = 8
+	y = 13
+	prerequisite = {
+		focus = CJF_to_outside
+	}
+	completion_reward = {
+		
+		
+	}
+}
+shared_focus = {
 	id = CJF_The_whole_country_united_outside
 	icon = GFX_CJF_The_whole_country_united_outside
 	cost = 3
 	x = 6
-	y = 10
+	y = 14
 	prerequisite = {
-		focus = CJF_Commitment_to_civil_rights
+		focus = CJF_meeting_rus
+	}
+	prerequisite = {
+		focus = CJF_meeting_fra
 	}
 	completion_reward = {
 		add_manpower = 160000
@@ -540,7 +630,7 @@ shared_focus = {
 	icon = GFX_CJF_Go_east
 	cost = 3
 	x = 6
-	y = 11
+	y = 15
 	prerequisite = {
 		focus = CJF_The_whole_country_united_outside
 	}

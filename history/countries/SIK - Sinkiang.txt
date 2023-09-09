@@ -24,6 +24,21 @@ export_focus
 civilian_economy
 idea_volunteer_only
 ##########
+private_health_insurance
+	proportional_taxation
+	restricted_child_labor
+	universal_suffrage
+	poor_laws
+	women_in_the_workplace
+	censorship
+	wage_controls
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	tenant_farmers
+	militarized_police
+	private_health_insurance
+	national_supremacy
 }
 create_country_leader = {
 	name = "盛世才"  

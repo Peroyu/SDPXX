@@ -58,10 +58,22 @@
     MMA_Northwest_Cavalry
 	MMA_Road_to_the_North
 	MMA_Mabufang
-	
-    service_by_requirement
-	limited_exports
-	partial_economic_mobilisation
+	###
+    private_health_insurance
+	proportional_taxation
+	restricted_child_labor
+	universal_suffrage
+	poor_laws
+	women_in_the_workplace
+	censorship
+	wage_controls
+	public_schools
+	freedom_of_conscience
+	mass_conscription
+	tenant_farmers
+	militarized_police
+	private_health_insurance
+	national_supremacy
  }
  set_country_flag = CHI_economic_sphere
  set_variable = { var = MMA_national value = 5 }

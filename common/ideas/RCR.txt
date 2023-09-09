@@ -1,0 +1,189 @@
+ ideas = {
+     country = {
+		#东亚联盟运动#
+		CHI_east_asia_league_movement = {
+		 name = CHI_east_asia_league_movement
+		 picture = GFX_CHI_east_asia_league_movement
+         allowed = {
+			always = no
+		 }
+		 targeted_modifier = {
+			tag = NIP
+			extra_trade_to_target_factor = 0.5
+			}
+	 }
+	 #“背后有人”#
+	 FNC_man_behind = {
+		name = FNC_man_behind
+		picture = GFX_FNC_man_behind
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			political_power_factor = -0.3
+			stability_factor = -0.1
+			defensive_war_stability_factor = -0.3
+		   }
+	}
+	#新民运动#
+	FNC_neo_people_movement = {
+		name = FNC_neo_people_movement
+		picture = GFX_FNC_neo_people_movement
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			political_power_gain = 0.05
+			war_support_factor = -0.15
+		   }
+	}
+	#华北乡村合作社#
+	FNC_chi_jap_ecocorperate = {
+		name = FNC_chi_jap_ecocorperate
+		picture = GFX_FNC_chi_jap_ecocorperate
+		allowed = {
+		   always = no
+		}
+		targeted_modifier = {
+			tag = NIP
+			cic_to_target_factor = 0.5
+			}
+		modifier = {
+			stability_factor = -0.3
+			industrial_capacity_factory = -0.3
+			custom_modifier_tooltip = FNC_modifier_tt_1
+			}
+	}
+	#虚弱的乡村统治#
+	FNC_no_countryside = {
+		name = FNC_no_countryside
+		picture = GFX_FNC_no_countryside
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = -0.2
+			custom_modifier_tooltip = FNC_modifier_tt_2
+			}
+	}
+
+
+	#文化总力战#
+	RCR_cultural_totalwar = {
+		name = RCR_cultural_totalwar
+		picture = GFX_RCR_cultural_totalwar
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = 0.12
+			political_power_gain = -0.1
+			}
+		}
+	#华中国策公司#
+	RCR_central_china_company = {
+			name = RCR_central_china_company
+			picture = GFX_RCR_central_china_company
+			allowed = {
+			   always = no
+			}
+			modifier = {
+				industrial_capacity_factory = -0.03
+				consumer_goods_factor = 0.2
+
+				}
+				targeted_modifier = {
+					tag = JAP
+					cic_to_target_factor = 0.3
+					}
+	}
+	#清乡运动#
+	RCR_clear_countrside_movement = {
+		name = RCR_clear_countrside_movement
+		picture = GFX_RCR_clear_countrside_movement
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			political_power_factor = -0.24
+			army_core_defence_factor = -0.1
+			conscription_factor = -0.3
+
+			}
+	}
+	#四分五裂的政府#
+	RCR_brocken_government = {
+		name = RCR_brocken_government
+		picture = GFX_RCR_brocken_government
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = -0.1
+			army_core_attack_factor = -0.15
+			army_core_defence_factor = -0.15
+			consumer_goods_factor = 0.3
+			}
+	}
+
+
+	#《治安维持法》#
+	MAN_keep_safe_issue = {
+		name = MAN_keep_safe_issue
+		picture = GFX_MAN_keep_safe_issue
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = 0.03
+			custom_modifier_tooltip = MAN_modifier_tt_1
+			}
+	}
+	#集村并屯#
+	MAN_centralize_countryside = {
+		name = MAN_centralize_countryside
+		picture = GFX_MAN_centralize_countryside
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = 0.125
+			conscription_factor = -0.2
+			required_garrison_factor = 0.3
+			political_power_gain = -0.1
+			}
+	}
+	#帝国皇冠上的明珠#
+	MAN_pearl_of_japen = {
+		name = MAN_pearl_of_japen
+		picture = GFX_MAN_pearl_of_japen
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			custom_modifier_tooltip = MAN_modifier_tt_2
+			}
+		targeted_modifier = {
+				tag = NIP
+				cic_to_target_factor = 0.2
+				}
+				targeted_modifier = {
+					tag = NIP
+					mic_to_target_factor = 0.2
+				}
+	}
+	#关东军#
+	MAN_Kwantung_Army = {
+		name = MAN_Kwantung_Army
+		picture = GFX_MAN_Kwantung_Army
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			custom_modifier_tooltip = MAN_modifier_tt_3
+			required_garrison_factor = -0.1
+			political_power_factor = -0.1
+			}
+	}
+   }
+}

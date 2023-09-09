@@ -100,7 +100,7 @@
  SM_FULL_MAP_RES:0 "全渲染分辨率"
  RESTART_REQ:0 "需要重启游戏"
  RESTART_REQ_DESC:0 "需要重启游戏以使之生效。"
- NEVER:0 "没有"
+ NEVER:0 "事件选举"
  MONTHLY:0 "每月"
  HALFYEAR:0 "每半年"
  YEARLY:0 "每年"

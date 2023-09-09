@@ -208,6 +208,16 @@
 	}
 
 	spriteType = {
+		name = "GFX_portrait_CJF_Li_xingzhong"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Li_xingzhong.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Liu_Ruming"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Liu_Ruming.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_KOR_Ji_Cheongcheon"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_KOR_Ji_Cheongcheon.png"		
 	}

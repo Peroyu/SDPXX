@@ -73,10 +73,28 @@ set_politics = {
 }
 
 add_ideas = {
-export_focus
-civilian_economy
-idea_volunteer_only
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	professional_army
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
 ##########
+CHI_east_asia_league_movement
+MAN_pearl_of_japen
+MAN_Kwantung_Army
+MAN_keep_safe_issue
+MAN_centralize_countryside
 }
 set_popularities = {
 	communism = 2
