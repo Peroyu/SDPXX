@@ -272,7 +272,7 @@ create_country_leader = {
 	desc = "CJF_Chen_GongBo_desc"
 	picture = "portrait_CJF_Chen_GongBo"
 	expire = "1999.1.1"
-	ideology = social_reformism
+	ideology = Left_Nationalism
 	traits = {
 		
 	}
