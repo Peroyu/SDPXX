@@ -1,5 +1,298 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_idea_free_trade_policy"
+		texturefile = "gfx/interface/ideas/policy/free_trade.png"
+	}
+	spriteType = {
+		name = "GFX_idea_mercantilism"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_mercantilism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_protectionism"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_protectionism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_isolationism"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_isolationism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_no_womens_rights"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_womens_rights.png"
+	}
+	spriteType = {
+		name = "GFX_idea_women_own_property"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_women_own_property.png"
+	}
+	spriteType = {
+		name = "GFX_idea_women_in_the_workplace"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_women_in_the_workplace.png"
+	}
+	spriteType = {
+		name = "GFX_idea_womens_suffrage"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_womens_suffrage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_autocracy"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_autocracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_oligarchy"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_oligarchy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_wealth_voting"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_wealth_voting.png"
+	}
+	spriteType = {
+		name = "GFX_idea_universal_suffrage"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_universal_suffrage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_single_party_state"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_single_party_state.png"
+	}
+	spriteType = {
+		name = "GFX_idea_technocracy"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_technocracy.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_child_labor_allowed"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_child_labor_allowed.png"
+	}
+	spriteType = {
+		name = "GFX_idea_restricted_child_labor"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_restricted_child_labor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_compulsory_primary_school"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_compulsory_primary_school.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_consumption_based_taxation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_consumption_based_taxation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_land_based_taxation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_land_based_taxation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_per_capita_based_taxation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_per_capita_based_taxation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_proportional_taxation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_proportional_taxation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_graduated_taxation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_graduated_taxation.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_health_system"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_health_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_charitable_health_system"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_charitable_health_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_private_health_insurance"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_private_health_insurance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_public_health_insurance"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_public_health_insurance.png"
+	}
+	spriteType = {
+		name = "GFX_idea_free_health_insurance"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_free_health_insurance.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_serfdom"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_serfdom.png"
+	}
+	spriteType = {
+		name = "GFX_idea_tenant_farmers"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_tenant_farmers.png"
+	}
+	spriteType = {
+		name = "GFX_idea_commercial_agriculture"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_commercial_agriculture.png"
+	}
+	spriteType = {
+		name = "GFX_idea_freeholders"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_freeholders.png"
+	}
+	spriteType = {
+		name = "GFX_idea_collectivized_agriculture"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_collectivized_agriculture.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_outlawed_dissent"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_outlawed_dissent.png"
+	}
+	spriteType = {
+		name = "GFX_idea_censorship"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_censorship.png"
+	}
+	spriteType = {
+		name = "GFX_idea_right_of_assembly"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_right_of_assembly.png"
+	}
+	spriteType = {
+		name = "GFX_idea_protected_speech"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_protected_speech.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_schools"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_schools.png"
+	}
+	spriteType = {
+		name = "GFX_idea_religious_schools"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_religious_schools.png"
+	}
+	spriteType = {
+		name = "GFX_idea_private_schools"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_private_schools.png"
+	}
+	spriteType = {
+		name = "GFX_idea_public_schools"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_public_schools.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_state_religion"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_state_religion.png"
+	}
+	spriteType = {
+		name = "GFX_idea_total_separation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_total_separation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_freedom_of_conscience"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_freedom_of_conscience.png"
+	}
+	spriteType = {
+		name = "GFX_idea_state_atheism"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_state_atheism.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_workers_rights"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_workers_rights.png"
+	}
+	spriteType = {
+		name = "GFX_idea_regulatory_bodies"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_regulatory_bodies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_worker_protections"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_worker_protections.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cooperative_ownership"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_cooperative_ownership.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_home_affairs"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_home_affairs.png"
+	}
+	spriteType = {
+		name = "GFX_idea_national_guard"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_national_guard.png"
+	}
+	spriteType = {
+		name = "GFX_idea_militarized_police"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_militarized_police.png"
+	}
+	spriteType = {
+		name = "GFX_idea_secret_police"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_secret_police.png"
+	}
+	spriteType = {
+		name = "GFX_idea_guaranteed_liberties"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_guaranteed_liberties.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ethnostate"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_ethnostate.png"
+	}
+	spriteType = {
+		name = "GFX_idea_national_supremacy"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_national_supremacy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_racial_segregation"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_racial_segregation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_cultural_exclusion"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_cultural_exclusion.png"
+	}
+	spriteType = {
+		name = "GFX_idea_multicultural"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_multicultural.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_social_security"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_no_social_security.png"
+	}
+	spriteType = {
+		name = "GFX_idea_poor_laws"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_poor_laws.png"
+	}
+	spriteType = {
+		name = "GFX_idea_wage_controls"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_wage_controls.png"
+	}
+	spriteType = {
+		name = "GFX_idea_old_age_pension"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_old_age_pension.png"
+	}
+	spriteType = {
+		name = "GFX_idea_total_social_pension"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_total_social_pension.png"
+	}
+	spriteType = {
+		name = "GFX_idea_pension_country"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_pension_country.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_peasant_levies"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_peasant_levies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_professional_army"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_professional_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_national_militia"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_national_militia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_mass_conscription"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_mass_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_for_conscription"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_for_conscription.png"
+	}
+	spriteType = {
+		name = "GFX_idea_great_conscription"
+		texturefile = "gfx/interface/ideas/policy/GFX_idea_great_conscription.png"
+	}
+	########
+	spriteType = {
 		name = "GFX_idea_CHI_east_asia_league_movement"
 		texturefile = "gfx/interface/ideas/CMA/GFX_idea_CHI_east_asia_league_movement.png"
 	}
@@ -29,7 +322,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_RCR_central_china_company"
-		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_chi_jap_ecocorperate.png"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_RCR_central_china_company.png"
 	}
 	spriteType = {
 		name = "GFX_idea_RCR_cultural_totalwar"

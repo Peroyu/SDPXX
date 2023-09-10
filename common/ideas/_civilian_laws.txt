@@ -1,5 +1,7 @@
 ideas = {
 	civilian_laws = {
+		law = yes
+		use_list_view = yes
 		ethnostate = {
 			allowed = {
 				always = yes

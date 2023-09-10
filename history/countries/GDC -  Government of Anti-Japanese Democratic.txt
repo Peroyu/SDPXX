@@ -93,6 +93,7 @@ add_ideas = {
 	women_in_the_workplace
 	censorship
 	old_age_pension
+	protectionism
 	public_schools
 	freedom_of_conscience
 	for_conscription

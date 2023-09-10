@@ -724,4 +724,52 @@ news_event = {
 		name = ISU.11.a
 	}
 }
+news_event = {
+	id = ISU.12
 
+    picture = GFX_ISU_12
+    title = ISU.12.t
+    desc = ISU.12.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.12.a
+        trigger = {
+            OR = {
+                has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+            }
+        }
+	}
+    option = {
+		name = ISU.12.b
+        trigger = {
+        OR = {
+            has_government = restorativeism
+            has_government = conservatism
+            has_government = reactionism
+        }
+    }
+	}
+    option = {
+		name = ISU.12.c
+        trigger = {
+        OR = {
+            has_government = nationalism
+            has_government = movement_communism
+            has_government = Liberalism
+            has_government = social_democracy
+        }
+    }
+	}
+}

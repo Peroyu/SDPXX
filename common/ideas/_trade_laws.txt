@@ -1,5 +1,7 @@
 ideas = {
 	trade_laws = {
+		law = yes
+		use_list_view = yes
 		mercantilism = {
 			allowed = {
 				always = yes
@@ -43,7 +45,7 @@ ideas = {
 
 			cancel_if_invalid = no
 		}
-		free_trade = {
+		free_trade_policy = {
 			allowed = {
 				always = yes
 			}

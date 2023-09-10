@@ -33,6 +33,7 @@ add_ideas = {
 	freedom_of_conscience
 	for_conscription
 	freeholders
+	mercantilism
 	militarized_police
 	private_health_insurance
 	national_supremacy

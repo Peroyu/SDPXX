@@ -1,5 +1,7 @@
 ideas = {
 	women_laws = {
+		law = yes
+		use_list_view = yes
 		no_womens_rights = {
 			allowed = {
 				always = yes

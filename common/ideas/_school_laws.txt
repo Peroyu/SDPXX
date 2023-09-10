@@ -1,5 +1,7 @@
 ideas = {
 	school_laws = {
+		law = yes
+		use_list_view = yes
 		no_schools = {
 			allowed = {
 				always = yes

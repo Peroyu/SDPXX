@@ -1,5 +1,7 @@
 ideas = {
 	religious_laws = {
+		law = yes
+		use_list_view = yes
 		state_religion = {
 			allowed = {
 				always = yes

@@ -66,7 +66,9 @@
 	poor_laws
 	women_in_the_workplace
 	censorship
+	regulatory_bodies
 	wage_controls
+	protectionism
 	public_schools
 	freedom_of_conscience
 	mass_conscription
