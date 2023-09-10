@@ -332,6 +332,18 @@ spriteTypes = {
 		name = "GFX_idea_MAN_centralize_countryside"
 		texturefile = "gfx/interface/ideas/CMA/GFX_idea_MAN_centralize_countryside.png"
 	}
+	spriteType = {
+		name = "GFX_idea_FNC_no_countryside"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_FNC_no_countryside.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RCR_clear_countrside_movement"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_RCR_clear_countrside_movement.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MAN_pearl_of_japen"
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_MAN_pearl_of_japen.png"
+	}
     ##########MMA#######
 	spriteType = {
 		name = "GFX_idea_MMA_Northwest_Cavalry"
@@ -479,6 +491,11 @@ spriteTypes = {
 	
 	spriteType = {
         name = "GFX_idea_DJF_Opium_Trade"	
+		texturefile = "gfx/interface/ideas/CJF/idea_CJF_the_trade_of_opium.dds"
+	}
+
+	spriteType = {
+        name = "GFX_idea_JIN_Opium_Trade"	
 		texturefile = "gfx/interface/ideas/CJF/idea_CJF_the_trade_of_opium.dds"
 	}
 	### CONSCRIPTION LAWS
