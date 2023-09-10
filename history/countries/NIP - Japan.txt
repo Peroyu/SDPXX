@@ -192,7 +192,11 @@ add_ideas = {
 	private_health_insurance
 	ethnostate
 	######
-
+	NIP_Tokugawa_Iemasa
+	NIP_Yoshida_Shigeru
+	NIP_Kido_Koichi
+	NIP_Isao_Kawada
+	NIP_Ugaki_Kazushige
 	#######
 	NIP_Victory_in_the_bubble
 	NIP_Rival_services_N

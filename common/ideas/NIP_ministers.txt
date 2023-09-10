@@ -1,0 +1,91 @@
+
+ideas = {
+	head_of_government = { ### Head of Government ###
+		NIP_Tokugawa_Iemasa = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Tokugawa_Iemasa"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		
+
+	}
+	person_of_dip = { ### person of dip ###
+		NIP_Yoshida_Shigeru = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Yoshida_Shigeru"
+			}
+			traits = {
+				person_of_dip
+			}
+		}
+		
+	}
+	person_of_arm = { ### person of arm ###
+		NIP_Kido_Koichi = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Kido_Koichi"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		
+	}
+	person_of_eco = { ### person of eco ###
+		NIP_Isao_Kawada = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Isao_Kawada"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		
+	}
+	chief_of_staff = {
+		NIP_Ugaki_Kazushige = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Ugaki_Kazushige"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
+		
+	}
+}	
