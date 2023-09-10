@@ -11,8 +11,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_NIP_Kido_Koichi"
-		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Kido_Koichi.png"
+		name = "GFX_idea_NIP_Genki_Abe"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Genki_Abe.png"
 	}
 
 	spriteType = {

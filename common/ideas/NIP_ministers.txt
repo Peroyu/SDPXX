@@ -36,7 +36,7 @@ ideas = {
 		
 	}
 	person_of_arm = { ### person of arm ###
-		NIP_Kido_Koichi = {
+		NIP_Genki_Abe = {
 			allowed = { original_tag = NIP }
 			available = {
 				custom_trigger_tooltip = {
@@ -44,7 +44,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea NIP_Kido_Koichi"
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Genki_Abe"
 			}
 			traits = {
 				person_of_arm

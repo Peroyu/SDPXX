@@ -6,20 +6,17 @@ state={
 		owner = TUR
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 1
 			
 
 		}
-		victory_points = {
-			1955 5 
-		}
+		
 		add_core_of = SAU
 		add_claim_by = TUR
 
 	}
 	provinces={
-		1955 4968 5058 10791 10850 10892 12702 12749 
+		   1955 12702 10791
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = "Potrait_YEM_Ahmad_bin_Yahya"  # 
 	expire = "1952.3.16"  # 
-	ideology = Peronismo # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

@@ -194,7 +194,7 @@ add_ideas = {
 	######
 	NIP_Tokugawa_Iemasa
 	NIP_Yoshida_Shigeru
-	NIP_Kido_Koichi
+	NIP_Genki_Abe
 	NIP_Isao_Kawada
 	NIP_Ugaki_Kazushige
 	#######
