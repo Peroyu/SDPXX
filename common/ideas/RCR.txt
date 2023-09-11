@@ -185,5 +185,112 @@
 			political_power_factor = -0.1
 			}
 	}
+
+
+	#民族分歧#
+	MEN_nationality_struggle = {
+		name = MEN_nationality_struggle
+		picture = GFX_MEN_nationality_struggle
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			stability_factor = -0.05
+			army_core_attack_factor = -0.05
+	army_core_defence_factor = -0.05
+			}
+	}
+	
+	#善邻协会#
+	MEN_neighbor_association = {
+		name = MEN_neighbor_association
+		picture = GFX_MEN_neighbor_association
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			custom_modifier_tooltip = MEN_modifier_tt_1
+			}
+	}
+
+	#千里无人区#
+	MEN_dead_region = {
+		name = MEN_dead_region
+		picture = GFX_MEN_dead_region
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			custom_modifier_tooltip = MEN_modifier_tt_2
+			monthly_population = -0.2
+			conscription_factor = -0.2
+			}
+	}
+
+
+	#8604部队#
+	GNP_8604 = {
+		name = GNP_8604
+		picture = GFX_GNP_8604
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			monthly_population = -0.02
+
+			}
+	}
+	#局势混乱#
+	GNP_trouble_situation = {
+		name = GNP_trouble_situation
+		picture = GFX_GNP_trouble_situation
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			conscription_factor = -0.3
+			mobilization_speed = -0.5
+			stability_weekly = -0.0015
+			
+			}
+	}
+
+	#华北旱灾#
+	SHA_drought = {
+		name = SHA_drought
+		picture = GFX_SHA_drought
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			conscription_factor = -0.25
+			stability_factor = -0.15
+			}
+	}
+	#败军之军#
+	SHA_failed_army = {
+		name = SHA_failed_army
+		picture = GFX_SHA_failed_army
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			custom_modifier_tooltip = SHA_modifier_tt_1
+			war_support_factor = -0.15
+			required_garrison_factor = 0.3
+			}
+	}
+	#地方不稳#
+	SHA_regional_crisis = {
+		name = SHA_regional_crisis
+		picture = GFX_SHA_regional_crisis
+		allowed = {
+		   always = no
+		}
+		modifier = {
+			land_reinforce_rate = -0.1
+			experience_loss_factor = 0.2
+			}
+	}
    }
 }

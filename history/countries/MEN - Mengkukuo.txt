@@ -75,6 +75,11 @@ add_ideas = {
 	secret_police
 	charitable_health_system
 	national_supremacy
+	###
+	MEN_nationality_struggle
+	MEN_neighbor_association
+	MEN_dead_region
+	JIN_Opium_Trade
 }
 create_country_leader = {
 	name = "徳穆楚克栋鲁普亲王"  # 领导人名称
