@@ -9,6 +9,26 @@ add_namespace = ISU
 add_namespace = USA
 add_namespace = LaAme
 add_namespace = Pacific
+add_namespace = global
+news_event = {
+	id = global.1
+
+    picture = GFX_global_1
+    title = global.1.t
+    desc = global.1.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.1.a
+	}
+}
 news_event = {
 	id = Pacific.1
 

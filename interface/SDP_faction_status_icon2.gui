@@ -5,7 +5,7 @@ guiTypes ={
 		position = { x =-660 y = 30 }
 		iconType = { 
 			name = "SDP_faction_isu_status"
-			position =  { x = 400  y =273}  
+			position =  { x = 405  y =275}  
 			spriteType = "GFX_faction_isu"
 			
 		} 

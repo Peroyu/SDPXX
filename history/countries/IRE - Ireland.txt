@@ -27,6 +27,15 @@ set_popularities = {
 add_ideas = {
 participant_of_the_revolutionary_war
 }
+every_country = {
+	limit = {
+		is_ai = no
+	}
+	news_event = {
+		id = global.1
+		days = 390
+	}
+}
 create_country_leader = {
 	name = "埃蒙·迪·华理拉"  
 	desc = "Eamonn_de_Valera_desc"  
