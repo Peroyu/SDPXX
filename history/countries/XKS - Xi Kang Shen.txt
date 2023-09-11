@@ -9,15 +9,16 @@ set_stability = 0.8 # 设置稳定度
 
 # 设置执政党以及选举
 set_politics = {
-	ruling_party = conservatism # 执政党
+	ruling_party = movement_communism # 执政党
 	last_election = "1947.1.1"
 	election_frequency = 48 # 选举间隔
 	elections_allowed = no  # 是否允许选举
 }
 # 设置席位
 set_popularities = {
-	conservatism = 72
+	conservatism = 40
 	social_democracy = 20
+	movement_communism = 32
 	Liberalism = 8
 }
 add_ideas = {
