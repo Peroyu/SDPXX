@@ -139,6 +139,35 @@ on_actions = {
 			set_variable = { 169.nationality = 18 }
 			set_variable = { 173.nationality = 18}
 			set_variable = { 14.nationality = 19 }
+			set_variable = { 34.nationality = 20 }
+			set_variable = { 6.nationality = 21 }
+			set_variable = { 36.nationality = 22 }
+			set_variable = { 35.nationality = 22 }
+			set_variable = { 7.nationality = 22 }
+			set_variable = { 51.nationality = 23 }
+			set_variable = { 42.nationality = 23 }
+			set_variable = { 865.nationality = 23 }
+			set_variable = { 8.nationality = 23 }
+			set_variable = { 50.nationality = 24 }
+			set_variable = { 54.nationality = 25 }
+			set_variable = { 53.nationality = 25 }
+			set_variable = { 52.nationality = 25 }
+			set_variable = { 65.nationality = 26 }
+			set_variable = { 60.nationality = 26 }
+			set_variable = { 66.nationality = 27 }
+			set_variable = { 67.nationality = 27 }
+			set_variable = { 64.nationality = 28 }
+			set_variable = { 61.nationality = 28 }
+			set_variable = { 62.nationality = 28 }
+			set_variable = { 63.nationality = 28 }
+			set_variable = { 68.nationality = 28 }
+			set_variable = { 85.nationality = 28 }
+			set_variable = { 5.nationality = 28 }
+			set_variable = { 763.nationality = 28 }
+			set_variable = { 59.nationality = 29 }
+			set_variable = { 56.nationality = 29 }
+			set_variable = { 57.nationality = 29 }
+            set_variable = { 58.nationality = 31 }
 		}
 	}
 }
