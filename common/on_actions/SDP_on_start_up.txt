@@ -92,6 +92,53 @@ on_actions = {
 			set_variable = { 71.nationality = 4 }
 			set_variable = { 73.nationality = 4 }
 			set_variable = { 866.nationality = 6 }
+			set_variable = { 31.nationality = 7 }
+			set_variable = { 22.nationality = 7 }
+			set_variable = { 21.nationality = 7 }
+			set_variable = { 25.nationality = 7 }
+			set_variable = { 26.nationality = 7 }
+			set_variable = { 20.nationality = 7 }
+			set_variable = { 32.nationality = 7 }
+			set_variable = { 735.nationality = 8 }
+			set_variable = { 15.nationality = 9 }
+			set_variable = { 29.nationality = 9 }
+			set_variable = { 785.nationality = 9 }
+			set_variable = { 18.nationality = 9 }
+			set_variable = { 16.nationality = 9 }
+			set_variable = { 30.nationality = 9 }
+			set_variable = { 24.nationality = 9 }
+			set_variable = { 27.nationality = 9 }
+			set_variable = { 17.nationality = 9 }
+			set_variable = { 28.nationality = 9 }
+			set_variable = { 23.nationality = 9 }
+			set_variable = { 19.nationality = 9 }
+			set_variable = { 806.nationality = 10 }
+			set_variable = { 172.nationality = 10 }
+			set_variable = { 792.nationality = 10 }
+			set_variable = { 165.nationality = 11 }
+			set_variable = { 166.nationality = 12 }
+			set_variable = { 794.nationality = 12 }
+			set_variable = { 167.nationality = 12 }
+			set_variable = { 790.nationality = 13 }
+			set_variable = { 174.nationality = 14 }
+			set_variable = { 791.nationality = 15 }
+			set_variable = { 176.nationality = 15 }
+			set_variable = { 793.nationality = 15 }
+			set_variable = { 41.nationality = 15 }
+			set_variable = { 788.nationality = 15 }
+			set_variable = { 170.nationality = 15 }
+			set_variable = { 171.nationality = 16 }
+			set_variable = { 180.nationality = 17 }
+			set_variable = { 181.nationality = 17 }
+			set_variable = { 112.nationality = 17 }
+			set_variable = { 795.nationality = 17 }
+			set_variable = { 179.nationality = 17 }
+			set_variable = { 175.nationality = 18 }
+			set_variable = { 168.nationality = 18 }
+			set_variable = { 789.nationality = 18 }
+			set_variable = { 169.nationality = 18 }
+			set_variable = { 173.nationality = 18}
+			set_variable = { 14.nationality = 19 }
 		}
 	}
 }

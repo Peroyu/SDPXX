@@ -40,4 +40,56 @@ spriteTypes = {
 		name = "GFX_culture_6"
 		texturefile = "gfx/interface/culture/culture_hun_slo.png"
 	}
+	spriteType = {
+		name = "GFX_culture_7"
+		texturefile = "gfx/interface/culture/culture_aok.png"
+	}
+	spriteType = {
+		name = "GFX_culture_8"
+		texturefile = "gfx/interface/culture/culture_sfy.png"
+	}
+	spriteType = {
+		name = "GFX_culture_9"
+		texturefile = "gfx/interface/culture/culture_fra.png"
+	}
+	spriteType = {
+		name = "GFX_culture_10"
+		texturefile = "gfx/interface/culture/culture_bsk.png"
+	}
+	spriteType = {
+		name = "GFX_culture_11"
+		texturefile = "gfx/interface/culture/culture_gat.png"
+	}
+	spriteType = {
+		name = "GFX_culture_12"
+		texturefile = "gfx/interface/culture/culture_alg.png"
+	}
+	spriteType = {
+		name = "GFX_culture_13"
+		texturefile = "gfx/interface/culture/culture_ast.png"
+	}
+	spriteType = {
+		name = "GFX_culture_14"
+		texturefile = "gfx/interface/culture/culture_lio.png"
+	}
+	spriteType = {
+		name = "GFX_culture_15"
+		texturefile = "gfx/interface/culture/culture_ksd.png"
+	}
+	spriteType = {
+		name = "GFX_culture_16"
+		texturefile = "gfx/interface/culture/culture_jlx.png"
+	}
+	spriteType = {
+		name = "GFX_culture_17"
+		texturefile = "gfx/interface/culture/culture_pty.png"
+	}
+	spriteType = {
+		name = "GFX_culture_18"
+		texturefile = "gfx/interface/culture/culture_adl.png"
+	}
+	spriteType = {
+		name = "GFX_culture_19"
+		texturefile = "gfx/interface/culture/culture_blt.png"
+	}
 }
