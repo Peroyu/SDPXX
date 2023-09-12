@@ -25,7 +25,23 @@ set_popularities = {
 		movement_communism = 25
 	}
 add_ideas = {
-		DJF_Xi_Nan_Lian_Da_1
+	private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	wage_controls
+	protectionism
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	freeholders
+	militarized_police
+	private_health_insurance
+	national_supremacy
+	#####
 		DJF_Opium_Trade
 		DJF_Dian_Army
 	}

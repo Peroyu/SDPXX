@@ -37,6 +37,10 @@ add_ideas = {
 	secret_police
 	charitable_health_system
 	national_supremacy
+	###
+	SHA_drought
+	SHA_failed_army
+	SHA_regional_crisis
 }
 set_popularities = {
 	communism = 2

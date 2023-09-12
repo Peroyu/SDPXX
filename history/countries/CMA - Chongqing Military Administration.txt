@@ -75,9 +75,19 @@ set_politics = {
 	elections_allowed = no
 }
  add_ideas = {
- tot_economic_mobilisation
- limited_exports
- all_adults_serve
+ wealth_voting
+	regulatory_bodies
+	women_own_property
+	isolationism
+	outlawed_dissent
+	wage_controls
+	public_schools
+	state_religion
+	national_militia
+	commercial_agriculture
+	secret_police
+	private_health_insurance
+	ethnostate
  
  CMA_bushido
  CMA_brocken_logicity

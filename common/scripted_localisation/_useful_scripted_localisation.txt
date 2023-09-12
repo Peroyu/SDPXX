@@ -275,6 +275,443 @@ defined_text = {
 
 	text = {
 		trigger = {
+			has_country_leader_ideology = conservatism_revolutionarist
+		}
+		localization_key = conservatism_revolutionarist
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_nationalism
+		}
+		localization_key = revolutionary_nationalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_conservatism
+		}
+		localization_key = social_conservatism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = authoritarian_democracy
+		}
+		localization_key = authoritarian_democracy
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = system_revolutionism
+		}
+		localization_key = system_revolutionism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_conservatism
+		}
+		localization_key = christian_conservatism
+    }
+
+	################################################
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = despotism
+		}
+		localization_key = despotism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Bonapartism
+		}
+		localization_key = Bonapartism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = military_system
+		}
+		localization_key = military_system
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = state_capitalism
+		}
+		localization_key = state_capitalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Peronismo
+		}
+		localization_key = Peronismo
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Zenkoku_isseini
+		}
+		localization_key = Zenkoku_isseini
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = neo_socialism
+		}
+		localization_key = neo_socialism
+    }
+
+	##########################################################
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Casselism
+		}
+		localization_key = Casselism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = ultranationalism
+		}
+		localization_key = ultranationalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = recolonialism
+		}
+		localization_key = recolonialism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Churchillism
+		}
+		localization_key = Churchillism
+    }
+
+	################################################
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = traditional_despotism
+		}
+		localization_key = traditional_despotism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Fundamentalism
+		}
+		localization_key = Fundamentalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = tribalism
+		}
+		localization_key = tribalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Wahhabiya
+		}
+		localization_key = Wahhabiya
+    }
+}
+
+
+defined_text = {
+    name = GetRulingIdeologydescSubtype
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = leninism
+		}
+		localization_key = leninism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Bolshevism
+		}
+		localization_key = Bolshevism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = military_socialism
+		}
+		localization_key = military_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Jacobinism
+		}
+		localization_key = Jacobinism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = luxembourgism
+		}
+		localization_key = luxembourgism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = De_Leonism
+		}
+		localization_key = De_Leonism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Mao_thought
+		}
+		localization_key = Mao_thought
+    }
+	###################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = Austro_Marxism
+		}
+		localization_key = Austro_Marxism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = democratic_socialism
+		}
+		localization_key = democratic_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Spartacus
+		}
+		localization_key = Spartacus
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_wing_communism
+		}
+		localization_key = left_wing_communism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = parliamentary_communism
+		}
+		localization_key = parliamentary_communism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = republic_marxism
+		}
+		localization_key = republic_marxism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Neo_Marxism
+		}
+		localization_key = Neo_Marxism
+    }
+	######################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = centrist_marxism
+		}
+		localization_key = centrist_marxism
+    }
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_syndicalism
+		}
+		localization_key = revolutionary_syndicalism
+    }
+	text = {
+		trigger = {
+			has_country_leader_ideology = reformed_socialism
+		}
+		localization_key = reformed_socialism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_social_democracy
+		}
+		localization_key = left_social_democracy
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = moderate_socialist
+		}
+		localization_key = moderate_socialist
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = anarchism
+		}
+		localization_key = anarchism
+    }
+	##########################################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = FabianSocialism
+		}
+		localization_key = FabianSocialism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Folkhemmet
+		}
+		localization_key = Folkhemmet
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Guild_Socialism
+		}
+		localization_key = Guild_Socialism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Godesberge_Programm
+		}
+		localization_key = Godesberge_Programm
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = New_nation_system
+		}
+		localization_key = New_nation_system
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_reformism
+		}
+		localization_key = social_reformism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Left_Nationalism
+		}
+		localization_key = Left_Nationalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Tolstoyism
+		}
+		localization_key = Tolstoyism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_reformism
+		}
+		localization_key = radical_reformism
+    }
+	
+	##############################################################
+	
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = United_Interim_Government
+		}
+		localization_key = United_Interim_Government
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = liberal_democracy
+		}
+		localization_key = liberal_democracy
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = social_liberalism
+		}
+		localization_key = social_liberalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = trade_liberalism
+		}
+		localization_key = trade_liberalism
+
+
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = islam_progressive
+		}
+		localization_key = islam_progressive
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_liberalism
+		}
+		localization_key = radical_liberalism
+    }
+	############################################
+	text = {
+		trigger = {
+			has_country_leader_ideology = FFFFF_FFF
+		}
+		localization_key = FFFFF_FFF
+    }
+	
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Patriarchal_conservatism
+		}
+		localization_key = Patriarchal_conservatism
+    }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Progressive_Conservatusm
+		}
+		localization_key = Progressive_Conservatusm
+    }
+
+	##############################################
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = conservatism_revolutionarist
+		}
+		localization_key = conservatism_revolutionarist
+    }
+
+	text = {
+		trigger = {
 			has_country_leader_ideology = revolutionary_nationalism
 		}
 		localization_key = revolutionary_nationalism

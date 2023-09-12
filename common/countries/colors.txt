@@ -436,10 +436,14 @@ TIB = {
 	color_ui = rgb { 247 255 209 }
 }
 TUN = {
-	color = rgb{ 166 134 120 }
-	color_ui = rgb { 166 134 120 }
+	color = rgb { 70 170 186 }
+	color_ui = rgb  { 70 170 186 }
 }
 TUR = {
+	color = rgb { 191 227 100 }
+	color_ui = rgb { 191 227 100 }
+}
+RAS = {
 	color = rgb { 191 227 100 }
 	color_ui = rgb { 191 227 100 }
 }

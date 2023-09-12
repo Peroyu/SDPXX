@@ -184,13 +184,19 @@ add_ideas = {
 	wage_controls
 	public_schools
 	state_religion
+	restricted_child_labor
 	national_militia
 	commercial_agriculture
 	secret_police
+	per_capita_based_taxation
 	private_health_insurance
 	ethnostate
 	######
-
+	NIP_Tokugawa_Iemasa
+	NIP_Yoshida_Shigeru
+	NIP_Genki_Abe
+	NIP_Isao_Kawada
+	NIP_Ugaki_Kazushige
 	#######
 	NIP_Victory_in_the_bubble
 	NIP_Rival_services_N

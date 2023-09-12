@@ -1,5 +1,7 @@
 ideas = {
 	children_laws = {
+		law = yes
+		use_list_view = yes
 		child_labor_allowed = {
 			allowed = {
 				always = yes

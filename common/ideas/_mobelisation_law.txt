@@ -1,5 +1,7 @@
 ideas = {
 	mobilization_laws = {
+		law = yes
+		use_list_view = yes
 		peasant_levies = {
 			allowed = {
 				always = yes

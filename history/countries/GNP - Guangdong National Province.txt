@@ -91,6 +91,8 @@ GNP_Japenese_millitary_assistance
 GNP_manchuria_industry_assistance
 GNP_Hong_Kong
 CHI_east_asia_league_movement
+GNP_8604
+GNP_trouble_situation
 }
 create_country_leader = {
 		name = "彭东原"   

@@ -178,13 +178,87 @@ shared_focus = {
 	}
 }
 shared_focus = {
-	id = CJF_Sparkling_green_phosphorus
-	icon = GFX_CJF_Sparkling_green_phosphorus
+	id = CJF_Appease_troops
+	icon = GFX_CJF_Appease_troops
+	cost = 2
+	x = 3
+	y = 2
+	prerequisite = {
+		focus = CJF_Ancestors_of_the_fire
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Purge_partychengongbo
+	icon = GFX_CJF_Purge_partychengongbo
 	cost = 2
 	x = 6
 	y = 2
 	prerequisite = {
 		focus = CJF_Ancestors_of_the_fire
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Rewarding_allies
+	icon = GFX_CJF_Rewarding_allies
+	cost = 2
+	x = 9
+	y = 2
+	prerequisite = {
+		focus = CJF_Ancestors_of_the_fire
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_encourage_free_clubs
+	icon = GFX_CJF_encourage_free_clubs
+	cost = 2
+	x = 4
+	y = 3
+	prerequisite = {
+		focus = CJF_Purge_partychengongbo
+	}
+	prerequisite = {
+		focus = CJF_Appease_troops
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Consolidate_fundamental
+	icon = GFX_CJF_Consolidate_fundamental
+	cost = 2
+	x = 8
+	y = 3
+	prerequisite = {
+		focus = CJF_Purge_partychengongbo
+	}
+	prerequisite = {
+		focus = CJF_Rewarding_allies
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Sparkling_green_phosphorus
+	icon = GFX_CJF_Sparkling_green_phosphorus
+	cost = 2
+	x = 6
+	y = 4
+	prerequisite = {
+		focus = CJF_Consolidate_fundamental
+	}
+	prerequisite = {
+		focus = CJF_encourage_free_clubs
 	}
 	completion_reward = {
 		add_political_power = 30
@@ -200,7 +274,7 @@ shared_focus = {
 	icon = GFX_CJF_regorganise_party
 	cost = 5
 	x = 3
-	y = 3
+	y = 5
 	prerequisite = {
 		focus = CJF_Sparkling_green_phosphorus
 	}
@@ -218,7 +292,7 @@ shared_focus = {
 	icon = GFX_CJF_Economic_control
 	cost = 6
 	x = 9
-	y = 3
+	y = 5
 	prerequisite = {
 		focus = CJF_Sparkling_green_phosphorus
 	}
@@ -238,7 +312,7 @@ shared_focus = {
 	icon = GFX_CJF_Tighten_your_lifeline
 	cost = 6
 	x = 7
-	y = 4
+	y = 6
 	prerequisite = {
 		focus = CJF_Economic_control
 	}
@@ -264,7 +338,7 @@ shared_focus = {
 	icon = GFX_CJF_sweep_dogs
 	cost = 6
 	x = 11
-	y = 4
+	y = 6
 	prerequisite = {
 		focus = CJF_Economic_control
 	}
@@ -278,7 +352,7 @@ shared_focus = {
 	icon = GFX_CJF_Bring_a_tightening_hoop
 	cost = 6
 	x = 9
-	y = 5
+	y = 7
 	prerequisite = {
 		focus = CJF_Tighten_your_lifeline
 	}
@@ -294,7 +368,7 @@ shared_focus = {
 	icon = GFX_CJF_sword_and_farm
 	cost = 6
 	x = 9
-	y = 6
+	y = 8
 	prerequisite = {
 		focus = CJF_Bring_a_tightening_hoop
 	}
@@ -314,7 +388,7 @@ shared_focus = {
 	icon = GFX_CJF_Exhaust_creation
 	cost = 6
 	x = 7
-	y = 7
+	y = 9
 	prerequisite = {
 		focus = CJF_sword_and_farm
 	}
@@ -331,7 +405,7 @@ shared_focus = {
 	icon = GFX_CJF_Battle_for_the_baht
 	cost = 6
 	x = 11
-	y = 7
+	y = 9
 	prerequisite = {
 		focus = CJF_sword_and_farm
 	}
@@ -345,7 +419,7 @@ shared_focus = {
 	icon = GFX_CJF_People_livelihood_has_been_stable
 	cost = 6
 	x = 9
-	y = 8
+	y = 10
 	prerequisite = {
 		focus = CJF_Exhaust_creation
 	}
@@ -364,7 +438,7 @@ shared_focus = {
 	icon = GFX_CJF_return_to_remind
 	cost = 5
 	x = 3
-	y = 4
+	y = 6
 	prerequisite = {
 		focus = CJF_regorganise_party
 	}
@@ -382,7 +456,7 @@ shared_focus = {
 	icon = GFX_CJF_strengthen_central_party
 	cost = 5
 	x = 3
-	y = 5
+	y = 7
 	prerequisite = {
 		focus = CJF_return_to_remind
 	}
@@ -396,7 +470,7 @@ shared_focus = {
 	icon = GFX_CJF_construct_CPC
 	cost = 5
 	x = 1
-	y = 5
+	y = 7
 	prerequisite = {
 		focus = CJF_return_to_remind
 	}
@@ -418,7 +492,7 @@ shared_focus = {
 	icon = GFX_CJF_Weakening_of_the_Supervisory_Commission
 	cost = 5
 	x = 5
-	y = 5
+	y = 7
 	prerequisite = {
 		focus = CJF_return_to_remind
 	}
@@ -436,7 +510,7 @@ shared_focus = {
 	icon = GFX_CJF_Renovate_party_affairs
 	cost = 5
 	x = 3
-	y = 6
+	y = 8
 	prerequisite = {
 		focus = CJF_Weakening_of_the_Supervisory_Commission
 	}
@@ -458,7 +532,7 @@ shared_focus = {
 	icon = GFX_CJF_Who_are_we
 	cost = 5
 	x = 1
-	y = 7
+	y = 9
 	prerequisite = {
 		focus = CJF_Renovate_party_affairs
 	}
@@ -475,7 +549,7 @@ shared_focus = {
 	icon = GFX_CJF_Who_are_enemy
 	cost = 5
 	x = 3
-	y = 7
+	y = 9
 	prerequisite = {
 		focus = CJF_Renovate_party_affairs
 	}
@@ -489,7 +563,7 @@ shared_focus = {
 	icon = GFX_CJF_Who_are_we_depend
 	cost = 5
 	x = 5
-	y = 7
+	y = 9
 	prerequisite = {
 		focus = CJF_Renovate_party_affairs
 	}
@@ -503,7 +577,7 @@ shared_focus = {
 	icon = GFX_CJF_revival_nation
 	cost = 5
 	x = 3
-	y = 8
+	y = 10
 	prerequisite = {
 		focus = CJF_Who_are_we
 	}
@@ -523,7 +597,7 @@ shared_focus = {
 	icon = GFX_CJF_education_people
 	cost = 4
 	x = 6
-	y = 9
+	y = 11
 	prerequisite = {
 		focus = CJF_revival_nation
 	}
@@ -540,7 +614,7 @@ shared_focus = {
 	icon = GFX_CJF_constrcution_anti_japen_culture
 	cost = 4
 	x = 6
-	y = 10
+	y = 12
 	prerequisite = {
 		focus = CJF_education_people
 	}
@@ -554,7 +628,7 @@ shared_focus = {
 	icon = GFX_CJF_Commitment_to_civil_rights
 	cost = 4
 	x = 6
-	y = 11
+	y = 13
 	prerequisite = {
 		focus = CJF_constrcution_anti_japen_culture
 	}
@@ -571,7 +645,7 @@ shared_focus = {
 	icon = GFX_CJF_to_outside
 	cost = 4
 	x = 6
-	y = 12
+	y = 14
 	prerequisite = {
 		focus = CJF_Commitment_to_civil_rights
 	}
@@ -585,7 +659,7 @@ shared_focus = {
 	icon = GFX_CJF_meeting_rus
 	cost = 4
 	x = 4
-	y = 13
+	y = 15
 	prerequisite = {
 		focus = CJF_to_outside
 	}
@@ -599,7 +673,7 @@ shared_focus = {
 	icon = GFX_CJF_meeting_fra
 	cost = 4
 	x = 8
-	y = 13
+	y = 15
 	prerequisite = {
 		focus = CJF_to_outside
 	}
@@ -613,7 +687,7 @@ shared_focus = {
 	icon = GFX_CJF_The_whole_country_united_outside
 	cost = 3
 	x = 6
-	y = 14
+	y = 16
 	prerequisite = {
 		focus = CJF_meeting_rus
 	}
@@ -630,7 +704,7 @@ shared_focus = {
 	icon = GFX_CJF_Go_east
 	cost = 3
 	x = 6
-	y = 15
+	y = 17
 	prerequisite = {
 		focus = CJF_The_whole_country_united_outside
 	}

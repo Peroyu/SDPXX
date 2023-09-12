@@ -25,7 +25,16 @@ set_popularities = {
  social_democracy = 14
  reactionism = 8
 }
+every_country = {
+	limit = {
+		is_ai = no
 
+	}
+	news_event = {
+		id = global.1
+		days = 370
+	}
+}
 create_country_leader = {
 	name = "联邦国会"  
 	desc = "SWI_Federal_Council_desc"  

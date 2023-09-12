@@ -1,4 +1,29 @@
 spriteTypes = {
+	################JAP#####################
+	spriteType = {
+		name = "GFX_idea_NIP_Tokugawa_Iemasa"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Tokugawa_Iemasa.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Yoshida_Shigeru"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Yoshida_Shigeru.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Genki_Abe"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Genki_Abe.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Isao_Kawada"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Isao_Kawada.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Ugaki_Kazushige"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ugaki_Kazushige.png"
+	}
 	################CJF#####################
     spriteType = {
 		name = "GFX_idea_CJF_Chen_Gongbo"

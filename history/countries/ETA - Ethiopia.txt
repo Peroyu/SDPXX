@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "ETA_Haile_Selassie_I_desc"  # 
 	picture = ETA_portrait_Haile_Selassie  # 
 	expire = "1965.6.6"  # 
-	ideology = authoritarian_democracy # 
+	ideology = conservatism_revolutionarist # 
 	traits = {  # 
 		#
 	}

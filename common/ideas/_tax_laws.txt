@@ -1,5 +1,7 @@
 ideas = {
 	tax_laws = {
+		law = yes
+		use_list_view = yes
 		consumption_based_taxation = {
 			allowed = {
 				always = yes
