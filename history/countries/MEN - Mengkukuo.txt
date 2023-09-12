@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "/"  # 人物介绍
 	picture = "portrait_dewang"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = state_capitalism 
+	ideology = military_system
 	traits = { 
 	}
 }

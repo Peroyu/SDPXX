@@ -109,6 +109,6 @@ create_country_leader = {
 		desc = "MAN_Zhang_Jinghui_desc"  
 		picture = "gfx/leaders/CHI/portrait_MAN_Zhang_Jinghui.png"   
 		expire = "1989.1.7"   
-		ideology = military_system  
+		ideology = military_system 
 		traits = {  }
 	}

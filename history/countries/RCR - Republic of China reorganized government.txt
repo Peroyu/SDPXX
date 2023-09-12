@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "RCR_FuXiaoAn_desc"  
 	picture = "portrait_GNP_FuXiaoAn"  
 	expire = "1962.7.10"  
-	ideology = FFFFF_FFF
+	ideology = Patriarchal_conservatism
 	traits = { 
 		
 	}

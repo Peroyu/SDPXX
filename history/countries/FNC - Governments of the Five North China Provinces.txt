@@ -99,6 +99,6 @@ create_country_leader = {
 		desc = "FNC_Wang_Yintai_desc"  
 		picture = "gfx/leaders/CHI/portrait_FNC_Wang_Yintai.png"   
 		expire = "1959.4.5"   
-		ideology = despotism 
+		ideology = military_system
 		traits = {  }
 	}
