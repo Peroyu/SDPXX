@@ -1,0 +1,22 @@
+state={
+	id=961
+	name="STATE_961"
+	history={
+		owner = SHN
+		add_core_of = SHN
+		victory_points = {
+			10297 1 
+		}
+		resources={
+			rubber=62.000
+			aluminium=10.000
+		}
+	}
+	state_category=rural
+	provinces={
+		12215 1376 1364 4384 10297 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=962
+	name="STATE_962"
+	history={
+		owner = SHN
+		add_core_of = SHN
+		victory_points = {
+			7329 1 
+		}
+		resources={
+			tungsten=100.000
+		}
+	}
+	state_category=rural
+	provinces={
+		4310 7329 12199 10227 1348 4355
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

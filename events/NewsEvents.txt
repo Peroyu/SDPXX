@@ -91,6 +91,22 @@ news_event = {
     title = Pacific.4.t
     desc = Pacific.4.d
     immediate = { 
+        hidden_effect = {
+            MNL = {
+                transfer_state = 847
+                transfer_state = 961
+                add_state_core = 847
+                add_state_core = 961
+                declare_war_on = { target = MLY type = take_state }
+            }
+            MLY = {
+                transfer_state = 962
+                transfer_state = 963
+            }
+            SHN = {
+                set_cosmetic_tag = SHN_haixia
+            }
+        }
 
 	}
     is_triggered_only = yes

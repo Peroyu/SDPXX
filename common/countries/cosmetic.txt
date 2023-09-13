@@ -86,3 +86,7 @@ BOR_wenlai = {
 	color = rgb {115 202 229 }
 	color_ui = rgb {115 202 229 }
    }
+SHN_haixia = {
+	color = rgb  { 242 151 130 }
+	color_ui = rgb  { 242 151 130 }
+   }

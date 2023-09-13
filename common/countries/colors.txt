@@ -363,6 +363,10 @@ SHA = {
 	color = rgb  { 165 107 92 } 
 	color_ui = rgb  { 165 107 92 } 
 }
+MLY = {
+	color = rgb  { 165 107 92 } 
+	color_ui = rgb  { 165 107 92 } 
+}
 SHN = {
 	color = rgb  { 242 151 130 }
 	color_ui = rgb  { 242 151 130 }
