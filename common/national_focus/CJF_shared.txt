@@ -2000,3 +2000,164 @@ shared_focus = {
 	completion_reward = {
 	}
 }
+#############################################################
+shared_focus = {
+	id = CJF_Repression_begins
+	icon = GFX_CJF_Repression_begins
+	cost = 1
+	x = 6
+	y = 0
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Opposition_in_the_shadows
+	icon = GFX_CJF_Repression_begins
+	prerequisite = {
+		focus = CJF_Repression_begins
+	}
+	cost = 1
+	x = 4
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Spy_on_radicals
+	icon = GFX_CJF_Spy_on_radicals
+	prerequisite = {
+		focus = CJF_Opposition_in_the_shadows
+	}
+	mutually_exclusive = {
+	    focus = CJF_Repression_of_conservatives
+	}
+	cost = 1
+	x = 3
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Repression_of_conservatives
+	icon = GFX_CJF_Repression_of_conservatives
+	prerequisite = {
+		focus = CJF_Opposition_in_the_shadows
+	}
+	mutually_exclusive = {
+	    focus = CJF_Spy_on_radicals
+	}
+	cost = 1
+	x = 5
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Reward_loyalists
+	icon = GFX_CJF_Reward_loyalists
+	prerequisite = {
+		focus = CJF_Repression_of_conservatives
+		focus = CJF_Spy_on_radicals
+	}
+	cost = 1
+	x = 4
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Get_it_right
+	icon = GFX_CJF_Get_it_right
+	prerequisite = {
+		focus = CJF_Repression_begins
+	}
+	cost = 1
+	x = 8
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Hold_on_tightly
+	icon = GFX_CJF_Hold_on_tightly
+	prerequisite = {
+		focus = CJF_Get_it_right
+	}
+	cost = 1
+	x = 7
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Punch_hard
+	icon = GFX_CJF_Punch_hard
+	prerequisite = {
+		focus = CJF_Get_it_right
+	}
+	cost = 1
+	x = 9
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Calm_the_undercurrent
+	icon = GFX_CJF_Calm_the_undercurrent
+	prerequisite = {
+		focus = CJF_Punch_hard
+	}
+	prerequisite = {
+		focus = CJF_Hold_on_tightly
+	}
+	cost = 1
+	x = 8
+	y = 3
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_The_haze_cleared
+	icon = GFX_CJF_The_haze_cleared
+	prerequisite = {
+		focus = CJF_Calm_the_undercurrent
+	}
+	prerequisite = {
+	    focus = CJF_Reward_loyalists
+	}
+	cost = 1
+	x = 6
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_Set_in_one
+	icon = GFX_CJF_Set_in_one
+	prerequisite = {
+		focus = CJF_The_haze_cleared
+	}
+	mutually_exclusive = {
+	    focus = CJF_NSF
+	}
+	cost = 1
+	x = 5
+	y = 5
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = CJF_NSF
+	icon = GFX_CJF_NSF
+	prerequisite = {
+		focus = CJF_The_haze_cleared
+	}
+	mutually_exclusive = {
+	    focus = CJF_Set_in_one
+	}
+	cost = 1
+	x = 7
+	y = 5
+	completion_reward = {
+	}
+}

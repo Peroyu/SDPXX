@@ -46,3 +46,15 @@ focus_tree = {
 	shared_focus = CJF_chuanbian_tacitics
 	shared_focus = CJF_milltery_replan
 }
+focus_tree = {
+	id = CJF_Dai_Jitao_frist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = CJF 
+		}	
+	}
+	default = no
+    shared_focus = CJF_Repression_begins
+}
