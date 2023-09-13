@@ -1,4 +1,97 @@
 defined_text = {
+	name = SDP_economic
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 10
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 10
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 30
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 30
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 50
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = SDP_economic_v
+			value = 50
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = SDP_economic_v
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = SDP_social_6_text
+	}
+}
+defined_text = {
 	name = SDP_social
 	text = {
 		trigger = {

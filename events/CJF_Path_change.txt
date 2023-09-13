@@ -114,6 +114,7 @@ country_event = {
 			add_idea = CJF_Chen_Cheng
 			remove_idea = CJF_Xv_Chongzhi
 		}
+		load_focus_tree = CJF_Dai_Jitao_frist
 		clr_country_flag = CHI_politic_apart_condition
 		name = CJF_Cp.2.a #政变成功
 	}

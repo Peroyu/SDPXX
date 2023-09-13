@@ -35,7 +35,7 @@ DJF_dip_decision_categories =      {
 
 		icon = decision_generic_political_discourse
 		ai_will_do = {
-			factor = 80
+			factor = 10
 		}
 		remove_effect = {
 		add_to_variable = { DJF_dip_guangzhou = 10 }
@@ -65,7 +65,7 @@ DJF_dip_decision_categories =      {
 
 		icon = decision_generic_political_discourse
 		ai_will_do = {
-			factor = 82
+			factor = 0
 		}
 		remove_effect = {
 		add_to_variable = { DJF_dip_guangzhou = 15 }
@@ -81,7 +81,7 @@ DJF_dip_decision_categories =      {
 
 		icon = decision_generic_political_discourse
 		ai_will_do = {
-			factor = 95
+			factor = 50
 		}
 		remove_effect = {
 		add_to_variable = { DJF_dip_guangzhou = 5 }
@@ -97,12 +97,12 @@ DJF_dip_decision_categories =      {
         available = {
 		  check_variable = {  
 		    var = DJF_dip_chongqing
-			value = 70
+			value = 50
 			compare = greater_than }	
 		}
 		icon = decision_generic_political_discourse
 		ai_will_do = {
-			factor = 99
+			factor = 100
 		}
 		complete_effect = {
 		add_to_variable = { DJF_dip_chongqing = 30 }
@@ -122,7 +122,7 @@ DJF_dip_decision_categories =      {
 		}
 		icon = decision_generic_political_discourse
 		ai_will_do = {
-			factor = 99
+			factor = 0
 		}
 		complete_effect = {
 		add_to_variable = { DJF_dip_guangzhou = 30 }
