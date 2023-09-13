@@ -62,6 +62,18 @@ MAN_kmt = {
  color = rgb {100 149 155 }
  color_ui = rgb {100 149 155 }
 }
+MMA_nokmt = {
+	color = rgb {175 143 126 }
+	color_ui = rgb {175 143 126 }
+   }
+   SHA_federal = {
+	color = rgb {174 157 126 }
+	color_ui = rgb {174 157 126 }
+   }
+   SIK_1 = {
+	color = rgb {255 125 121}
+	color_ui = rgb {255 125 121 }
+   }
 BEL_waas = {
 	color = rgb { 195 109 69 }
 	color_ui = rgb { 195 109 69 }

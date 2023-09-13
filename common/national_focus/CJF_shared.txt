@@ -2134,6 +2134,9 @@ shared_focus = {
 shared_focus = {
 	id = CJF_Set_in_one
 	icon = GFX_CJF_Set_in_one
+	available = {
+		always = no
+	}
 	prerequisite = {
 		focus = CJF_The_haze_cleared
 	}
@@ -2149,6 +2152,9 @@ shared_focus = {
 shared_focus = {
 	id = CJF_NSF
 	icon = GFX_CJF_NSF
+	available = {
+		always = no
+	}
 	prerequisite = {
 		focus = CJF_The_haze_cleared
 	}
@@ -2159,5 +2165,9 @@ shared_focus = {
 	x = 7
 	y = 5
 	completion_reward = {
+		country_event = {
+			id = KMTcivilwar.1
+			days = 1
+		}
 	}
 }

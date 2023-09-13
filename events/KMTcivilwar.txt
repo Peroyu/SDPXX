@@ -1,0 +1,613 @@
+﻿add_namespace = KMTcivilwar
+
+country_event = {
+    id = KMTcivilwar.1 #救国阵线建立
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.1 FROM = [From.GetName]" }
+	title = KMTcivilwar.1.t
+	desc = KMTcivilwar.1.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		901 = { set_demilitarized_zone = yes}
+		325 = { set_demilitarized_zone = yes}
+		747 = { set_demilitarized_zone = yes}
+		603 = { set_demilitarized_zone = yes}
+		748 = { set_demilitarized_zone = yes}
+		841 = { set_demilitarized_zone = yes}
+		country_event = {
+			id = KMTcivilwar.2
+			days = 5
+		}
+		name = KMTcivilwar.1.a
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.2 #地方政权向戴季陶施压
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.2 FROM = [From.GetName]" }
+	title = KMTcivilwar.2.t
+	desc = KMTcivilwar.2.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.2.a #戴季陶下台
+		set_politics = { 
+			ruling_party = social_democracy 
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.2
+		}
+		load_focus_tree = {
+			tree = CJF_chen_gongbp
+			keep_completed = no
+		}
+		swap_ideas = {
+			add_idea = CJF_Gu_Mengyu
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Gan_Naiguang
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Xilian
+			remove_idea =  CJF_Xv_Chongzhi
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Shuren
+			remove_idea =  CJF_Li_Huang
+		}
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.2.b #戴季陶应战
+		GDC = {
+			country_event = {
+				id = KMTcivilwar.3
+				days = 3
+			}
+		}
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.3 #南方自立
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.3 FROM = [From.GetName]" }
+	title = KMTcivilwar.3.t
+	desc = KMTcivilwar.3.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.3.a
+		CJF = {
+			country_event = {
+				id = KMTcivilwar.4
+				days = 3
+			}
+		}
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.4 #国民党分裂，贵州投向广西
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.4 FROM = [From.GetName]" }
+	title = KMTcivilwar.4.t
+	desc = KMTcivilwar.4.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			GDC = {
+				transfer_state = 603
+				transfer_state = 748
+				transfer_state = 841
+				add_state_core = 603
+				add_state_core = 748
+				add_state_core = 841
+			}
+			country_event = {
+				id = KMTcivilwar.7
+				days = 20
+			}
+			country_event = {
+				id = KMTcivilwar.5
+				days = 5
+			}
+			country_event = {
+				id = KMTcivilwar.6
+				days = 15
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		603 = { set_demilitarized_zone = no}
+		748 = { set_demilitarized_zone = no}
+		841 = { set_demilitarized_zone = no}
+		name = KMTcivilwar.4.a
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.5 #昆明示威
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.5 FROM = [From.GetName]" }
+	title = KMTcivilwar.5.t
+	desc = KMTcivilwar.5.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.5.a #戴季陶赢下
+		set_variable = { CJF.RED = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.5.b
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.6 #遵义之战
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.6 FROM = [From.GetName]" }
+	title = KMTcivilwar.6.t
+	desc = KMTcivilwar.6.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.6.a #戴季陶守住
+		add_to_variable = { CJF.RED = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.6.b
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.7 #戴季陶寻求马家军
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.7 FROM = [From.GetName]" }
+	title = KMTcivilwar.7.t
+	desc = KMTcivilwar.7.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = KMTcivilwar.7.a
+		MMA = {
+			country_event = {
+				id = KMTcivilwar.8 
+				days = 2
+			}
+		}
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.8 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.8 FROM = [From.GetName]" }
+	title = KMTcivilwar.8.t
+	desc = KMTcivilwar.8.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = KMTcivilwar.8.a #马家军同意
+		add_to_variable = { CJF.RED = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		name = KMTcivilwar.8.b
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.9 FROM = [From.GetName]" }
+	title = KMTcivilwar.9.t
+	desc = KMTcivilwar.9.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = KMTcivilwar.10
+			days = 3
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+				var = CJF.RED
+				value = 0
+				compare = equals
+			}
+		}
+		name = KMTcivilwar.9.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = KMTcivilwar.11
+			days = 3
+		}
+		trigger = {
+			NOT = {
+				check_variable = { #检查变量大小
+					var = CJF.RED
+					value = 0
+					compare = equals
+				}
+			}
+		}
+		name = KMTcivilwar.9.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.10 FROM = [From.GetName]" }
+	title = KMTcivilwar.10.t
+	desc = KMTcivilwar.10.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = social_democracy 
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		load_focus_tree = {
+			tree = CJF_chen_gongbp
+			keep_completed = no
+		}
+		swap_ideas = {
+			add_idea = CJF_Gu_Mengyu
+			remove_idea = CJF_Zou_Lu
+		}
+		swap_ideas = {
+			add_idea = CJF_Gan_Naiguang
+			remove_idea = CJF_Yu_Youren
+		}
+		swap_ideas = {
+			add_idea = CJF_Fu_Bingchang
+			remove_idea = CJF_Chen_Gongbo
+		}
+		swap_ideas = {
+			add_idea = CJF_Song_Xilian
+			remove_idea =  CJF_Xv_Chongzhi
+		}
+		swap_ideas = {
+			add_idea = CJF_Chen_Shuren
+			remove_idea =  CJF_Li_Huang
+		}
+		name = KMTcivilwar.10.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.11 FROM = [From.GetName]" }
+	title = KMTcivilwar.11.t
+	desc = KMTcivilwar.11.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = KMTcivilwar.12
+				days = 12
+			}
+			
+			
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = CHI_war.5
+					days = 1
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+
+		name = KMTcivilwar.11.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.12 FROM = [From.GetName]" }
+	title = KMTcivilwar.12.t
+	desc = KMTcivilwar.12.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = KMTcivilwar.13
+				days = 12
+			}
+			TIB = {
+				transfer_state = 601
+				transfer_state = 604
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		SHA = {
+			transfer_state = 938
+			transfer_state = 939
+			set_cosmetic_tag = SHA_federal
+		}
+		name = KMTcivilwar.12.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.13 FROM = [From.GetName]" }
+	title = KMTcivilwar.13.t
+	desc = KMTcivilwar.13.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = KMTcivilwar.14
+				days = 12
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		KGP = {
+			set_cosmetic_tag = KGP_japen
+			transfer_state = 748
+			transfer_state = 603
+			transfer_state = 841
+		}
+		name = KMTcivilwar.13.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.14 FROM = [From.GetName]" }
+	title = KMTcivilwar.14.t
+	desc = KMTcivilwar.14.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			GNP = {
+				annex_country = { target = GDC transfer_troops = no }
+			}
+			country_event = {
+				id = KMTcivilwar.15
+				days = 12
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		GDC = {
+			set_cosmetic_tag = GDC_japen
+			transfer_state = 839
+			transfer_state = 899
+			transfer_state = 599
+			transfer_state = 898
+			transfer_state = 594
+			transfer_state = 957
+		}
+		MEN = {
+			transfer_state = 756
+			transfer_state = 616
+		}
+		MMA = {
+			set_cosmetic_tag = MMA_nokmt
+		}
+		name = KMTcivilwar.14.a 
+	}
+	
+}
+country_event = {
+    id = KMTcivilwar.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	KMTcivilwar.15 FROM = [From.GetName]" }
+	title = KMTcivilwar.15.t
+	desc = KMTcivilwar.15.d
+	picture = KMTcivilwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			RCR = {
+				annex_country = { target = CJF transfer_troops = no }
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		CJF = {
+			set_cosmetic_tag = CJF_japen
+			transfer_state = 753
+			transfer_state = 751
+			transfer_state = 605
+			transfer_state = 857
+			transfer_state = 856
+			transfer_state = 859
+			transfer_state = 858
+			transfer_state = 842
+			transfer_state = 854
+			transfer_state = 855
+			transfer_state = 752
+		}
+		
+		DJF = {
+			set_cosmetic_tag = DJF_japen
+			transfer_state = 325
+			transfer_state = 747
+			transfer_state = 901
+		}
+		SIK = {
+			set_cosmetic_tag = SIK_1
+		}
+		name = KMTcivilwar.15.a 
+	}
+	
+}

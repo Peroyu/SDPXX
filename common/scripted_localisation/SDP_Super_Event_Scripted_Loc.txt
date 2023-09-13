@@ -50,6 +50,13 @@ defined_text = { #SUPER EVENT PICTURES
         localization_key = "GFX_SPEVENT_Super_Event_Image_Triple_entent_crush"
     }
 
+    text = { 
+        trigger = {
+            has_global_flag = KMT_crush_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_KMT_crush"
+    }
+
     
    
 }
@@ -103,6 +110,13 @@ defined_text = { #SUPER EVENT TITLES
             has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
         localization_key = "Triple_entent_crush_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = KMT_crush_Super_Event_Visible
+        }
+        localization_key = "KMT_crush_Super_Event_TITLE"
     }
    
 }
@@ -158,6 +172,13 @@ defined_text = { #SUPER EVENT QUOTES
         }
         localization_key = "Triple_entent_crush_Super_Event_TEXT"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = KMT_crush_Super_Event_Visible
+        }
+        localization_key = "KMT_Super_Event_TEXT"
+    }
    
 }
 
@@ -212,6 +233,13 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "Triple_entent_crush_Super_Event_BUTTON"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = KMT_crush_Super_Event_Visible
+        }
+        localization_key = "KMT_crush_Super_Event_BUTTON"
+    }
     
 }
 
@@ -265,6 +293,13 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
         localization_key = "Triple_entent_crush_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = KMT_crush_Super_Event_Visible
+        }
+        localization_key = "KMT_crush_Super_Event_DESC"
     }
     
 }

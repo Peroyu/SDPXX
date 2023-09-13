@@ -10,14 +10,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Nationalism = 8
-	reactionism = 15
-	communism = 2
-	conservatism = 20
+	Nationalism = 2
+	reactionism = 10
+	conservatism = 18
 	Liberalism = 35
-	social_democracy = 5
-	restorativeism = 12
-	movement_communism = 3
+	social_democracy = 15
+	restorativeism = 1
+	movement_communism = 11
+	moderate_socialism = 8
 }
 add_ideas = {
 	TUR_Ahmet_IV

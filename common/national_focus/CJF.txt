@@ -57,4 +57,9 @@ focus_tree = {
 	}
 	default = no
     shared_focus = CJF_Repression_begins
+	shared_focus = CJF_invade_5th_region
+	shared_focus = CJF_invade_7th_region
+	shared_focus = CJF_invade_6th_region
+	shared_focus = CJF_chuanbian_tacitics
+	shared_focus = CJF_milltery_replan
 }

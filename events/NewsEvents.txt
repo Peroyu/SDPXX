@@ -97,11 +97,12 @@ news_event = {
                 transfer_state = 961
                 add_state_core = 847
                 add_state_core = 961
-                declare_war_on = { target = MLY type = take_state }
+                
             }
             MLY = {
                 transfer_state = 962
                 transfer_state = 963
+                declare_war_on = { target = MNL type = take_state }
             }
             SHN = {
                 set_cosmetic_tag = SHN_haixia

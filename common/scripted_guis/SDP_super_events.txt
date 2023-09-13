@@ -41,6 +41,8 @@ scripted_gui = {
 							has_global_flag = Dai_Jitao_Super_Event_Visible
 
 							has_global_flag = Triple_entent_crush_Super_Event_Visible
+
+							has_global_flag = KMT_crush_Super_Event_Visible
 							
 						
 					}
@@ -57,6 +59,8 @@ scripted_gui = {
 					clr_global_flag = Dai_Jitao_Super_Event_Visible
 
 					clr_global_flag = Triple_entent_crush_Super_Event_Visible
+
+					clr_global_flag = KMT_crush_Super_Event_Visible
 
 				}
 			}
