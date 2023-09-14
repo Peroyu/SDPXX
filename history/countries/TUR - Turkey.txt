@@ -27,7 +27,10 @@ add_ideas = {
 	TUR_Ottoman_USA_pact
 	TUR_kebabs
 }
-
+country_event = {
+	id = OIL.1
+	days = 600
+}
 SAU = {
 	give_resource_rights = {
 		state = 944

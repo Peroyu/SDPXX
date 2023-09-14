@@ -2171,3 +2171,515 @@ shared_focus = {
 		}
 	}
 }
+shared_focus = {
+	id = CJF_return_to_right_path
+	icon = GFX_CJF_return_to_right_path
+	prerequisite = {
+		focus = CJF_Set_in_one
+	}
+	allow_branch = {
+		has_completed_focus = CJF_Set_in_one
+	}
+	cost = 1
+	x = 5
+	y = 6
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_sure_leader_centralisation
+	icon = GFX_CJF_sure_leader_centralisation
+	prerequisite = {
+		focus = CJF_return_to_right_path
+	}
+	cost = 1
+	x = 5
+	y = 7
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_rebirth_of_party_nation
+	icon = GFX_CJF_rebirth_of_party_nation
+	prerequisite = {
+		focus = CJF_sure_leader_centralisation
+	}
+	cost = 1
+	x = 5
+	y = 8
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_revival_of_culture_movement
+	icon = GFX_CJF_revival_of_culture_movement
+	prerequisite = {
+		focus = CJF_rebirth_of_party_nation
+	}
+	cost = 1
+	x = 7
+	y = 9
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_establish_schools
+	icon = GFX_CJF_establish_schools
+	prerequisite = {
+		focus = CJF_revival_of_culture_movement
+	}
+	cost = 1
+	x = 5
+	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_countryside_laws
+	icon = GFX_CJF_countryside_laws
+	prerequisite = {
+		focus = CJF_revival_of_culture_movement
+	}
+	cost = 1
+	x = 9
+	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_broaden_feudal_ethics
+	icon = GFX_CJF_broaden_feudal_ethics
+	prerequisite = {
+		focus = CJF_countryside_laws
+	}
+	prerequisite = {
+		focus = CJF_establish_schools
+	}
+	cost = 1
+	x = 7
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Inherit_taos
+	icon = GFX_CJF_Inherit_taos
+	prerequisite = {
+		focus = CJF_broaden_feudal_ethics
+	}
+	cost = 1
+	x = 7
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_get_zhou_and_han_laws
+	icon = GFX_CJF_get_zhou_and_han_laws
+	prerequisite = {
+		focus = CJF_Inherit_taos
+	}
+	cost = 1
+	x = 5
+	y = 13
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_spring_of_traditional_works
+	icon = GFX_CJF_spring_of_traditional_works
+	prerequisite = {
+		focus = CJF_Inherit_taos
+	}
+	cost = 1
+	x = 9
+	y = 13
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_remenber_national_hates
+	icon = GFX_CJF_remenber_national_hates
+	prerequisite = {
+		focus = CJF_get_zhou_and_han_laws
+	}
+	prerequisite = {
+		focus = CJF_spring_of_traditional_works
+	}
+	cost = 1
+	x = 7
+	y = 14
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_recover_great_motherland
+	icon = GFX_CJF_recover_great_motherland
+	prerequisite = {
+		focus = CJF_rebirth_of_party_nation
+	}
+	cost = 1
+	x = 2
+	y = 9
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Almighty_government
+	icon = GFX_CJF_Almighty_government
+	prerequisite = {
+		focus = CJF_recover_great_motherland
+	}
+	cost = 1
+	x = 3
+	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_The_royal_road_swings
+	icon = GFX_CJF_The_royal_road_swings
+	prerequisite = {
+		focus = CJF_Almighty_government
+	}
+	cost = 1
+	x = 3
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_The_appellant_also
+	icon = GFX_CJF_The_appellant_also
+	prerequisite = {
+		focus = CJF_The_royal_road_swings
+	}
+	cost = 1
+	x = 3
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Practice_strategy
+	icon = GFX_CJF_Practice_strategy
+	prerequisite = {
+		focus = CJF_The_appellant_also
+	}
+	cost = 1
+	x = 3
+	y = 13
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_sage_politic
+	icon = GFX_CJF_sage_politic
+	prerequisite = {
+		focus = CJF_recover_great_motherland
+	}
+	cost = 1
+	x = 1
+	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_absorb_qingnian_party
+	icon = GFX_CJF_absorb_qingnian_party
+	prerequisite = {
+		focus = CJF_sage_politic
+	}
+	cost = 1
+	x = 1
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Wooing_traditional_people
+	icon = GFX_CJF_Wooing_traditional_people
+	prerequisite = {
+		focus = CJF_absorb_qingnian_party
+	}
+	cost = 1
+	x = 1
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_From_good_as_the_flow
+	icon = GFX_CJF_From_good_as_the_flow
+	prerequisite = {
+		focus = CJF_Wooing_traditional_people
+	}
+	cost = 1
+	x = 1
+	y = 13
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_truly_national_government
+	icon = GFX_CJF_truly_national_government
+	prerequisite = {
+		focus = CJF_From_good_as_the_flow
+	}
+	prerequisite = {
+		focus = CJF_Practice_strategy
+	}
+	cost = 1
+	x = 2
+	y = 14
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CJF_Awaken_Pure_Party
+	icon = GFX_CJF_Awaken_Pure_Party
+	prerequisite = {
+		focus = CJF_rebirth_of_party_nation
+	}
+	cost = 1
+	x = 12
+	y = 9
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Inventory_of_local_party_offices
+	icon = GFX_CJF_Inventory_of_local_party_offices
+	prerequisite = {
+		focus = CJF_Awaken_Pure_Party
+	}
+	cost = 1
+	x = 12
+	y = 10
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Leader_worship
+	icon = GFX_CJF_Leader_worship
+	prerequisite = {
+		focus = CJF_Inventory_of_local_party_offices
+	}
+	cost = 1
+	x = 11
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Dispatch_Temperance_Commissioners
+	icon = GFX_CJF_Dispatch_Temperance_Commissioners
+	prerequisite = {
+		focus = CJF_Leader_worship
+	}
+	cost = 1
+	x = 10
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Rectify_party_discipline
+	icon = GFX_CJF_Rectify_party_discipline
+	prerequisite = {
+		focus = CJF_Inventory_of_local_party_offices
+	}
+	cost = 1
+	x = 13
+	y = 11
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Training_elite_dry_cities
+	icon = GFX_CJF_Training_elite_dry_cities
+	prerequisite = {
+		focus = CJF_Rectify_party_discipline
+	}
+	cost = 1
+	x = 14
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Build_strong_faith
+	icon = GFX_CJF_Build_strong_faith
+	prerequisite = {
+		focus = CJF_Rectify_party_discipline
+	}
+	prerequisite = {
+		focus = CJF_Leader_worship
+	}
+	cost = 1
+	x = 12
+	y = 12
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_sanqing_party
+	icon = GFX_CJF_sanqing_party
+	prerequisite = {
+		focus = CJF_Dispatch_Temperance_Commissioners
+	}
+	prerequisite = {
+		focus = CJF_Training_elite_dry_cities
+	}
+	prerequisite = {
+		focus = CJF_Build_strong_faith
+	}
+	cost = 1
+	x = 12
+	y = 13
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Rule_by_the_party
+	icon = GFX_CJF_Rule_by_the_party
+	prerequisite = {
+		focus = CJF_sanqing_party
+	}
+	cost = 1
+	x = 12
+	y = 14
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_continue_revolution
+	icon = GFX_CJF_continue_revolution
+	prerequisite = {
+		focus = CJF_Rule_by_the_party
+	}
+	prerequisite = {
+		focus = CJF_remenber_national_hates
+	}
+	prerequisite = {
+		focus = CJF_truly_national_government
+	}
+	cost = 1
+	x = 7
+	y = 15
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_National_Salvation_and_Unity_Front
+	icon = GFX_CJF_National_Salvation_and_Unity_Front
+	prerequisite = {
+		focus = CJF_continue_revolution
+	}
+	cost = 1
+	x = 7
+	y = 16
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Duyuguan
+	icon = GFX_CJF_Duyuguan
+	prerequisite = {
+		focus = CJF_National_Salvation_and_Unity_Front
+	}
+	cost = 1
+	x = 5
+	y = 17
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_BieCangshan
+	icon = GFX_CJF_BieCangshan
+	prerequisite = {
+		focus = CJF_National_Salvation_and_Unity_Front
+	}
+	cost = 1
+	x = 9
+	y = 17
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_Spread_the_word_in_all_directions
+	icon = GFX_CJF_Spread_the_word_in_all_directions
+	prerequisite = {
+		focus = CJF_BieCangshan
+	}
+	prerequisite = {
+		focus = CJF_Duyuguan
+	}
+	cost = 1
+	x = 7
+	y = 18
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_The_meager_remuneration_of_the_trouser_man
+	icon = GFX_CJF_The_meager_remuneration_of_the_trouser_man
+	prerequisite = {
+		focus = CJF_Spread_the_word_in_all_directions
+	}
+	cost = 1
+	x = 7
+	y = 19
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	id = CJF_revival
+	icon = GFX_CJF_revival
+	prerequisite = {
+		focus = CJF_The_meager_remuneration_of_the_trouser_man
+	}
+	cost = 1
+	x = 7
+	y = 20
+	completion_reward = {
+		
+	}
+}

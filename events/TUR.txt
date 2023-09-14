@@ -19,10 +19,19 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		678 = {
+		944 = {
 			add_resource = {
 				type = oil
 				amount = 320
+			}
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = global.2
+				days = 1
 			}
 		}
 		name = OIL.1.a

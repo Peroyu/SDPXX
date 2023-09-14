@@ -168,8 +168,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_chi_failed.png"
 	}
 	spriteType = {
+		name = "GFX_global_2"
+		texturefile = "gfx/event_pictures/news/GFX_global_2.png"
+	}
+	spriteType = {
 		name = "gFx_oil"
 		texturefile = "gfx/event_pictures/gFx_oil.png"
+	}
+	spriteType = {
+		name = "GFX_dh12"
+		texturefile = "gfx/event_pictures/GFX_dh12.png"
 	}
 	spriteType = {
 		name = "GFX_dh11"
