@@ -440,6 +440,7 @@ characters = {
 			ledger = civilian
 		}
 		corps_commander={
+			desc = GDC_Mao_Zedong_desc
 			traits={ brilliant_strategist infantry_officer trickster commando}
 			skill=3
 			attack_skill=4
