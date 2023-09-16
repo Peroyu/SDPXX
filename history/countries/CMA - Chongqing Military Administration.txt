@@ -88,7 +88,8 @@ set_politics = {
 	secret_police
 	private_health_insurance
 	ethnostate
- 
+ CMA_without_path
+ CMA_without_commander
  CMA_bushido
  CMA_brocken_logicity
  }

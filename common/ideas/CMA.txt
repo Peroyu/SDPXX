@@ -27,10 +27,41 @@ ideas = {
 			}
             removal_cost = -1
             modifier = {
-			attrition = 0.7
-			army_org_factor = -0.3
+			attrition = 0.8
+			army_org_factor = -0.5
+			army_morale_factor = -0.5
+			supply_consumption_factor = 0.9
+			}
+	    
+		}
+		CMA_without_path = {
+            name = CMA_without_path
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
 			army_morale_factor = -0.3
-			supply_consumption_factor = 0.8
+			}
+	    
+		}
+		CMA_without_commander = {
+            name = CMA_without_commander
+            picture = CMA_bushido
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			max_planning = -0.3
+			disable_strategic_redeployment = no
 			}
 	    
 		}
@@ -58,6 +89,18 @@ ideas = {
             modifier = {
 				ai_call_ally_desire_factor = -1000
 				ai_focus_aggressive_factor = -0.5
+			}
+	    
+		}
+		NIP_nanyang_insititution = {
+            name = NIP_nanyang_insititution
+            picture = NIP_nanyang_insititution
+			allowed = { 
+			   always = no
+			}
+            modifier = {
+				custom_modifier_tooltip = Nanyang_tt_1
+				stability_factor = 0.03
 			}
 	    
 		}

@@ -74,7 +74,11 @@
  SBA_communism_party:"中国共产党-西北局"
  CHI_sourthwest_crisis:"华南危机紧急状态"
  SHA_northwest_crisis:"西北危机紧急状态"
-
+ CMA_without_path:"外路断绝"
+ CMA_without_commander:"指挥失灵"
+ NIP_nanyang_insititution:"南洋绥靖安防总监"
+ NIP_nanyang_insititution_desc:"南洋绥靖安防总监是1947年南洋万隆会议后由内务省、外务省、陆军省、海军省组织官僚及军人组成的军政一体机构。 于7月28日成立，该年12月开始办公。"
+ Nanyang_tt_1:"南洋绥靖安防总监作为日本帝国在南洋利益的直接代理人，将会在南洋地区扩大东京的影响力……"
  CMA_bushido:"日军军管区"
  CMA_brocken_logicity:"后勤崩溃"
  MEN_nationality_struggle:"民族分歧"

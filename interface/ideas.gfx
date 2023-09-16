@@ -384,11 +384,20 @@ spriteTypes = {
         name = "GFX_idea_GNP_Hong_Kong"	
 		texturefile = "gfx/interface/ideas/CJF/GFX_GNP_Hong_Kong.png"
 	}
+
+	spriteType = {
+        name = "GFX_idea_NIP_nanyang_insititution"	
+		texturefile = "gfx/interface/ideas/CMA/GFX_idea_NIP_nanyang_insititution.png"
+	}
 	
 	############四川##################
 	spriteType = {
         name = "GFX_idea_CJF_redux_tax_idea"	
 		texturefile = "gfx/interface/ideas/CJF/idea_CJF_redux_tax_idea.png"
+	}
+	spriteType = {
+        name = "GFX_idea_CJF_old_style_Army"	
+		texturefile = "gfx/interface/ideas/CJF/GFX_idea_CJF_old_style_Army.png"
 	}
 	spriteType = {
         name = "GFX_idea_DJF_Xi_Nan_Lian_Da"	

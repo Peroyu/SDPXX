@@ -236,7 +236,7 @@ add_ideas = {
  CFJ_wreckage_of_NRA_1
  CJF_the_trade_of_opium
  CJF_internal_industry
- 
+ CJF_old_style_Army
  }
  create_country_leader = {
 	name = "CJF_Sun_Fo"

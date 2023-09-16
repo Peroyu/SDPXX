@@ -67,11 +67,13 @@ country_event = {
 		OCE = {
 			puppet = JAV
 			puppet = SUL
+			
 		}
 		ATJ = {
 			transfer_state = 672
 			add_state_core = 672
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
 		}
 		JAV = {
 			transfer_state = 335
@@ -79,22 +81,29 @@ country_event = {
 			transfer_state = 667
 			add_state_core = 667
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
 		}
 		SUL = {
 			transfer_state = 673
 			add_state_core = 673
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
 		}
 		KAI = {
 			transfer_state = 334
 			add_state_core = 334
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
+		}
+		SHN = {
+			add_ideas = NIP_nanyang_insititution
 		}
 		BOR = {
 			leave_faction = yes
 			retire_country_leader = yes
 			set_cosmetic_tag = BOR_wenlai
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
 			set_politics = { 
 				ruling_party = reactionism
 			}
@@ -107,6 +116,9 @@ country_event = {
 		}
 		set_nationality = SUM
 		set_nationality = SUL
+		SHN = {
+			add_ideas = NIP_nanyang_insititution
+		}
 		OCE = {
 			puppet = SUM
 			puppet = SUL
@@ -114,6 +126,7 @@ country_event = {
 		SUL = {
 			transfer_state = 673
 			add_state_core = 673
+			add_ideas = NIP_nanyang_insititution
 			give_military_access = NIP
 		}
 		BOR = {
@@ -121,6 +134,7 @@ country_event = {
 			set_cosmetic_tag = BOR_wenlai
 			give_military_access = NIP
 			retire_country_leader = yes
+			add_ideas = NIP_nanyang_insititution
 			set_politics = { 
 				ruling_party = reactionism
 			}
@@ -131,6 +145,7 @@ country_event = {
 		SUM = {
 			transfer_state = 672
 			add_state_core = 672
+			add_ideas = NIP_nanyang_insititution
 			give_military_access = NIP
 		}
 		name = ASIA_southeast_asia_conference.2.b
@@ -141,6 +156,10 @@ country_event = {
 		}
 		BOR = {
 			give_military_access = NIP
+			add_ideas = NIP_nanyang_insititution
+		}
+		SHN = {
+			add_ideas = NIP_nanyang_insititution
 		}
 		set_global_flag = ENT_RUN
 		name = ASIA_southeast_asia_conference.2.c
