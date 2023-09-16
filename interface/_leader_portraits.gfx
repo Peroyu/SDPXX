@@ -836,6 +836,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/Potrait_YEM_Ahmad_bin_Yahya.png"		
 	}
 
+	spriteType = {
+		name = "Portrait_TUR_Sefik_Aker"
+		texturefile = "gfx/leaders/East_Mediterranean/Portrait_TUR_Sefik_Aker.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"

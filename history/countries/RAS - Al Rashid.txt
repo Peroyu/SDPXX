@@ -24,9 +24,9 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = ""  # 
+	name = "塞菲克·阿克尔"  # 
 	desc = "/"  # 
-	picture = ""  # 
+	picture = "Portrait_TUR_Sefik_Aker"  # 
 	expire = "1952.3.16"  # 
 	ideology = despotism # 
 	traits = {  # 
