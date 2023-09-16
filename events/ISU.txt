@@ -4,7 +4,31 @@ add_namespace = HUN
 add_namespace = BRI
 add_namespace = ISU_event
 add_namespace = FOB
-
+add_namespace = color
+country_event = {
+    id = color.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	color.1 FROM = [From.GetName]" }
+	title = color.1.t
+	desc = color.1.d
+	picture = GFX_color1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = color.1.a
+		
+	}
+}
 country_event = {
     id = BRI.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -37,24 +61,6 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 30
-		}
-		set_politics = {
-				ruling_party = committee_communism
-			}
-		every_country = {
-			limit = { is_ai = no }
-			news_event = {
-				id = ISU.5
-				days = 1
-			}
-			
-		}
-		name = BRI.1.c
-		
-	}
-	option = { 
-	    ai_chance = {
 		   base = 20
 		}
 		set_politics = {
@@ -67,6 +73,21 @@ country_event = {
 				days = 1
 			}
 			
+		}
+		random_list = { 
+			70 = { 
+				every_country = {
+					limit = { is_ai = no }
+					news_event = {
+						id = ISU.13
+						days = 400
+					}
+					
+				}
+			} 
+			30 = { 
+				
+			} 
 		}
 		name = BRI.1.a
 		

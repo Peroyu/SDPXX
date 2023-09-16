@@ -59,7 +59,9 @@ set_variable = { var = SDP_agriculture_v value = 33 }#60
 set_variable = { var = SDP_science_v value = 35 }#50
 set_variable = { var = SDP_politics_v value = 31 }#60
 ################
+recruit_character = ENG_Geoge_VI
 recruit_character = ENG_James_Maxton
+recruit_character = ENG_Geoge_VI
 recruit_character = ENG_Clement_Davies
 recruit_character = ENG_Arthur_Horner
 

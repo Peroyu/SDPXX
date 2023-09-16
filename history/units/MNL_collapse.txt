@@ -1,0 +1,75 @@
+﻿
+
+division_template = {
+	name = "Chuton-chi Shidan" 			# Garrison template - represents Imperial Manchukuo Army infantry divisions: 2 infantry regiments (3k men) -- militia (lowest equipment, experience)
+	division_names_group = JAP_GAR_01
+										# Also represents (over-sized) IJN Base Defense Unit (island, city and naval base garrisons): 2 infantry rgts (3k men), 1 field artillery rgt (abstracted), 1 engineering rgt
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+
+##### OOB #####
+units = {
+
+	
+	division = {
+		name = "Kihei Shidan 1"
+		location = 12144 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 2"
+		location = 10297 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 3"
+		location = 1364 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 4"
+		location = 7342 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 5"
+		location = 4384 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 6"
+		location = 4384 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 7"
+		location = 1376 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+	division = {
+		name = "Kihei Shidan 8"
+		location = 12215 #Osaka
+		division_template = "Chuton-chi Shidan"
+	}
+
+
+}
+
+
+
+
+
+

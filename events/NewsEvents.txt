@@ -49,6 +49,64 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.3
+
+    picture = GFX_global_3
+    title = global.3.t
+    desc = global.3.d
+    immediate = { 
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = global.4
+                    days = 132
+                }
+            }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.3.a
+	}
+}
+news_event = {
+	id = global.4
+
+    picture = GFX_global_4
+    title = global.4.t
+    desc = global.4.d
+    immediate = { 
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = Triple_entent.2
+                    days = 350
+                }
+            }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.4.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1
@@ -111,17 +169,24 @@ news_event = {
     desc = Pacific.4.d
     immediate = { 
         hidden_effect = {
+            set_nationality = MNL
+            set_nationality = MLY
             MNL = {
                 transfer_state = 847
                 transfer_state = 961
                 add_state_core = 847
                 add_state_core = 961
-                
+                add_state_core = 962
+                add_state_core = 963
+                load_oob = "MNL_collapse"
             }
             MLY = {
                 transfer_state = 962
                 transfer_state = 963
+                add_state_core = 962
+                add_state_core = 963
                 declare_war_on = { target = MNL type = take_state }
+                load_oob = "MLY_collapse"
             }
             SHN = {
                 set_cosmetic_tag = SHN_haixia
@@ -137,6 +202,155 @@ news_event = {
 
 	option = {
 		name = Pacific.4.a
+	}
+}
+news_event = {
+	id = Pacific.5
+    picture = GFX_Pacific_5
+    title = Pacific.5.t
+    desc = Pacific.5.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.5.a
+	}
+}
+news_event = {
+	id = Pacific.6
+    picture = GFX_Pacific_6
+    title = Pacific.6.t
+    desc = Pacific.6.d
+    immediate = { 
+        hidden_effect = {
+            random_list = { 
+                40 = { 
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = Pacific.7
+                            days = 105
+                        }
+                    }
+                } 
+                30 = { 
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = Pacific.8
+                            days = 105
+                        }
+                    }
+                } 
+                30 = { 
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = Pacific.9
+                            days = 155
+                        }
+                    }
+                } 
+            }
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.6.a
+	}
+}
+news_event = {
+	id = Pacific.7
+    picture = GFX_Pacific_7
+    title = Pacific.7.t
+    desc = Pacific.7.d
+    immediate = { 
+        hidden_effect = {
+            MNL = {
+                set_cosmetic_tag = MNL_TUMN
+            }
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.7.a
+	}
+}
+news_event = {
+	id = Pacific.8
+    picture = GFX_Pacific_8
+    title = Pacific.8.t
+    desc = Pacific.8.d
+    immediate = { 
+        hidden_effect = {
+            MNL = {
+                set_cosmetic_tag = MNL_rep
+            }
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.6.a
+	}
+}
+news_event = {
+	id = Pacific.9
+    picture = GFX_Pacific_9
+    title = Pacific.9.t
+    desc = Pacific.9.d
+    immediate = { 
+        hidden_effect = {
+            MNL = {
+                set_cosmetic_tag = MNL_TUMN
+            }
+            SHN = {
+                set_cosmetic_tag = SHN_rep
+                transfer_state = 336
+            }
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.9.a
 	}
 }
 news_event = {
@@ -845,5 +1059,45 @@ news_event = {
             has_government = social_democracy
         }
     }
+	}
+}
+news_event = {
+	id = ISU.13
+
+    picture = GFX_ISU_13
+    title = ISU.13.t
+    desc = ISU.13.d
+    immediate = { 
+        hidden_effect = {
+            ENG = {
+                set_cosmetic_tag = ENG_UK
+                retire_country_leader = yes
+            }
+            random_list = { 
+                40 = { 
+                    
+                } 
+                60 = { 
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = global.3
+                            days = 330
+                        }
+                    }
+                }  
+            }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.13.a
 	}
 }

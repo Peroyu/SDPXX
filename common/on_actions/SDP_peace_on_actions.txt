@@ -790,6 +790,118 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+
+
+				###south sea
+
+				if = { # MNL beat MLY
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MNL
+								is_in_faction_with = MNL
+							}
+						}
+						ROOT = {
+							original_tag = MLY
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					MNL = {
+						annex_country = {
+							target = MLY
+							transfer_troops = no
+						}
+						declare_war_on = { target = SHN type = take_state }
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # MNL beat SHN
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MNL
+								is_in_faction_with = MNL
+							}
+						}
+						ROOT = {
+							original_tag = SHN
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					MNL = {
+						annex_country = {
+							target = SHN
+							transfer_troops = no
+						}
+						set_cosmetic_tag = MNL_Malaya
+					}
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = Pacific.5
+							days = 1
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # MLY beat MNL
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MLY
+								is_in_faction_with = MLY
+							}
+						}
+						ROOT = {
+							original_tag = MNL
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					SHN = {
+						annex_country = {
+							target = MNL
+							transfer_troops = no
+						}
+						annex_country = {
+							target = MLY
+							transfer_troops = no
+						}
+						set_cosmetic_tag = MLY_2
+					}
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = Pacific.6
+							days = 1
+						}
+					}
+					CAN = {
+						set_autonomy = {
+							target = SHN
+							autonomy_state = autonomy_colony
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}

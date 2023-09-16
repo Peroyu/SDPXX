@@ -470,6 +470,11 @@
 		name = "GFX_portrait_GER_Jon_Shell"
 		texturefile = "gfx/leaders/GER/portrait_GER_Jon_Shell.dds"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_Geoge_VI"
+		texturefile = "gfx/leaders/EU/GFX_portrait_ENG_Geoge_VI.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_GER_Otto_Grotewohl"

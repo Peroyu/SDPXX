@@ -2,6 +2,15 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				country_event = {
+					id = color.1
+					days = 560
+				}
+			}
 			#han
 			set_variable = { 605.nationality = 1 }
 			set_variable = { 856.nationality = 1 }

@@ -8,6 +8,7 @@
  Dai_Jitao_Super_Event_TITLE:"中华再统一"
  Triple_entent_crush_Super_Event_TITLE:"协约国终结"
  KMT_crush_Super_Event_TITLE:"中华民国的崩溃"
+ UK_Super_Event_TITLE:"大英帝国重建"
  #QUOTES
  CHI_second_continent_war_Super_Event_TEXT:"用我们的血肉筑起新的长城\n——田汉"
  ISU_conference_Super_Super_Event_TEXT:"无产者在这个革命中失去的只是锁链。他们获得的将是整个世界。\n——卡尔·马克思"
@@ -17,6 +18,7 @@
  Dai_Jitao_Super_Event_TEXT:""
  Triple_entent_crush_Super_Event_TEXT:"我的葬礼上只需要必不可少的人来出席，也就是我。\n——乔治·克莱蒙梭"
  KMT_Super_Event_TEXT:"上则答乾灵授国之德，下则弘皇孙养正之心。然后兼六合以开都，掩八纮而为宇，不亦可乎！——神武天皇"
+ UK_Super_Event_TEXT:"我将成就不凡。\n——亚历山德丽娜·维多利亚"
  #BUTTONS
  CHI_second_continent_war_Super_Event_BUTTON:"起来！起来！"
  ISU_conference_Super_Event_BUTTON:"世界历史新的一页"
@@ -26,6 +28,7 @@
  Dai_Jitao_Super_Event_BUTTON:""
  Triple_entent_crush_Super_Event_BUTTON:"流亡者的狂想无疾而终"
  KMT_crush_Super_Event_BUTTON:"白日落下，长夜来临"
+ UK_Super_Event_BUTTON:"统治吧！不列颠尼亚！"
  #DESC
  CHI_second_continent_war_Super_Event_DESC:"五十七名战士，拒绝了我每人赏洋三十元的建议，他们齐向我大喊：我们的战斗目的，是要确保我们以及子孙不做日本帝国主义的奴隶，为了争取民族的生存，争取人类的光明，我们一定以必死的决心去执行战斗任务，钱要来干什么？……他们满挂着手榴弹，爬入城的西北角，城外，另有大军佯攻，居然凭他们的英勇，把敌人全部解决了！"
  ISU_conference_Super_Event_DESC:"我们的无产阶级革命已在一整个大洲获得成功。在这样的情况下，难道我们还要说自己过于软弱吗？我们的计划是彻底消灭私有制，谁也不能说这是乌托邦。我们深信，这已是最近将来的问题；难道我们还不敢建立真正的社会主义国际联盟，以替建立新的社会创造一种手段吗？……难道你们还要等待着世界各国完成各自的革命才采取行动吗？"
@@ -35,3 +38,4 @@
  Dai_Jitao_Super_Event_DESC:""
  Triple_entent_crush_Super_Event_DESC:"那些圆桌武士，十字车战士俱往矣,不仅遥远而且平淡无奇，这些年轻人，每天早晨都出去保卫他们的祖国和我们代表的一切，他们手中握着这些巨大的，毁灭性的武器。我们可以说，每一个早晨都带来一个难得的机会，每一个机会都会带来一位高贵的骑士，我们应该感谢所有勇敢的人，他们在很多的时候都准备好为他们的祖国献出生命和一切。"
  KMT_crush_Super_Event_DESC:"日支蒙三国在建设东亚新秩序理想之下，相互善邻而结合，以东亚和平之枢纽为共同目标\n日支蒙三国为相互尊重本然之特质，浑然相提携，以确保东亚之和平，而举善邻友好之事共起见，应全般的讲求互助连环及友好之手段。\n日支满三国为举动连环及共同防卫之实现，关于产业经济，基于长短相补有无相通之旨趣，以共同互惠为主旨。"
+ UK_Super_Event_DESC:"为了这一崇高目标，在此我要呼吁海内外的所有大英子民，万众一心，以此为己任。我恳请大家沉着冷静，坚定信念，在此危难之际团结一致。尽管此番任务困难重重，尽管前路乌云密布，而战争也将不再局限于战场。只有心怀正义，才能正确行事，我们在此向上帝虔诚祈祷。\n如果人人都能坚定信念，矢志不渝。在上帝的庇佑之下，我们必将取胜！"

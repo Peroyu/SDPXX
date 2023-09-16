@@ -41,6 +41,20 @@ characters = {
 		}
 		
 	}
+	ENG_Geoge_VI = {
+	    name = "ENG_Geoge_VI" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ENG_Geoge_VI
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			trsits = {}
+			expire = "1952.6.15.19"
+		}
+		
+	}
 	ENG_Clement_Davies = {
 	    name = "ENG_Clement_Davies" 
 		portraits = {

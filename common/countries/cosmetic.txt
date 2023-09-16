@@ -54,6 +54,22 @@ KHN_hunan = {
  color = rgb { 180 0 0 }
  color_ui = rgb { 180 0 0 }
 }
+MNL_rep = {
+	color = rgb { 230 147 137}
+	color_ui = rgb { 230 147 137 }
+   }
+   SHN_rep = {
+	color = rgb { 230 147 137}
+	color_ui = rgb { 230 147 137 }
+   }
+MNL_TUMN = {
+	color = rgb { 255 200 159 }
+	color_ui = rgb { 255 200 159 }
+   }
+MNL_Malaya = {
+	color = rgb {168 221 238 }
+	color_ui = rgb { 168 221 238  }
+   }
 GDC_csg = {
  color = rgb {100 149 155 }
  color_ui = rgb {100 149 155 }

@@ -9,6 +9,15 @@ news_event = {
     desc = Triple_entent.1.d
     immediate = { 
 		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.4
+					days = 39
+				}
+			}
 			CAN = {
 				dismantle_faction = yes
 				puppet = NIG
@@ -32,6 +41,31 @@ news_event = {
 		set_global_flag = Triple_entent_crush_Super_Event_Visible
 			#hidden_effect = {
 			#	sound_effect = "Triple_entent_crush_war_voice"
+			#}
+	}
+}
+news_event = {
+	id = Triple_entent.2
+    picture = GFX_Triple_entent_2
+    title = Triple_entent.2.t
+    desc = Triple_entent.2.d
+    immediate = { 
+		hidden_effect = {
+
+		}
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Triple_entent.2.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = The_UK_Super_Event_Visible
+			#hidden_effect = {
+			#	sound_effect = "The_UK_voice"
 			#}
 	}
 }
