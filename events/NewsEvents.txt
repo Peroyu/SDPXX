@@ -244,7 +244,7 @@ news_event = {
                         }
                     }
                 } 
-                30 = { 
+                60 = { 
                     every_country = {
                         limit = {
                             is_ai = no
@@ -252,17 +252,6 @@ news_event = {
                         news_event = {
                             id = Pacific.8
                             days = 105
-                        }
-                    }
-                } 
-                30 = { 
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = Pacific.9
-                            days = 155
                         }
                     }
                 } 
@@ -324,33 +313,6 @@ news_event = {
 
 	option = {
 		name = Pacific.6.a
-	}
-}
-news_event = {
-	id = Pacific.9
-    picture = GFX_Pacific_9
-    title = Pacific.9.t
-    desc = Pacific.9.d
-    immediate = { 
-        hidden_effect = {
-            MNL = {
-                set_cosmetic_tag = MNL_TUMN
-            }
-            SHN = {
-                set_cosmetic_tag = SHN_rep
-                transfer_state = 336
-            }
-        }
-
-	}
-    is_triggered_only = yes
- 
-    fire_only_once = yes
-
-    major = yes
-
-	option = {
-		name = Pacific.9.a
 	}
 }
 news_event = {

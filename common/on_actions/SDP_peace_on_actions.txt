@@ -126,6 +126,35 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # CMA beats CJF (Chong Qing attact) 
+					limit = {
+						FROM = {
+								original_tag = CMA
+							
+						}
+						ROOT = {
+							OR = {
+								original_tag = CJF
+								is_in_faction_with = CJF
+							}
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					CMA = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_cosmetic_tag = CMA_1
+						
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # KHN beats HNN (Hunan attack) 
 				limit = {
 					FROM = {
