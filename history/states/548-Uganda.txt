@@ -7,7 +7,7 @@ state={
 		rubber=3 # was: 4
 	}
 	history={
-		set_demilitarized_zone = yes
+		
 		owner = CAN
 		buildings = {
 			infrastructure = 2

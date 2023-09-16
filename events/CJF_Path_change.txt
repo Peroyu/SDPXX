@@ -460,7 +460,7 @@ country_event = {
 	CJF_Cp.4 FROM = [From.GetName]" }
 	title = CJF_Cp.4.t
 	desc = CJF_Cp.4.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp41
 	
 	is_triggered_only = yes
 	
@@ -496,7 +496,7 @@ country_event = {
 	CJF_Cp.7 FROM = [From.GetName]" }
 	title = CJF_Cp.7.t
 	desc = CJF_Cp.7.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp71
 	
 	is_triggered_only = yes
 	
@@ -573,7 +573,7 @@ country_event = {
 	CJF_Cp.13 FROM = [From.GetName]" }
 	title = CJF_Cp.13.t
 	desc = CJF_Cp.13.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp13
 	
 	is_triggered_only = yes
 	
@@ -614,7 +614,7 @@ country_event = {
 	CJF_Cp.14 FROM = [From.GetName]" }
 	title = CJF_Cp.14.t
 	desc = CJF_Cp.14.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp13
 	
 	is_triggered_only = yes
 	
@@ -651,7 +651,7 @@ country_event = {
 	CJF_Cp.15 FROM = [From.GetName]" }
 	title = CJF_Cp.15.t
 	desc = CJF_Cp.15.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp15
 	
 	is_triggered_only = yes
 	
@@ -692,7 +692,7 @@ country_event = {
 	CJF_Cp.16 FROM = [From.GetName]" }
 	title = CJF_Cp.16.t
 	desc = CJF_Cp.16.d
-	picture = GFX_GDCintro
+	picture = GFX_CJFcp16
 	
 	is_triggered_only = yes
 	

@@ -200,6 +200,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_Triple_entent_2.png"
 	}
 	spriteType = {
+		name = "GFX_Triple_entent_3"
+		texturefile = "gfx/event_pictures/news/GFX_Triple_entent_3.png"
+	}
+	spriteType = {
 		name = "gFx_oil"
 		texturefile = "gfx/event_pictures/gFx_oil.png"
 	}
@@ -222,6 +226,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_dh8"
 		texturefile = "gfx/event_pictures/GFX_dh8.png"
+	}
+	spriteType = {
+		name = "GFX_CJFcp41"
+		texturefile = "gfx/event_pictures/GFX_CJFcp41.png"
+	}
+	spriteType = {
+		name = "GFX_CJFcp71"
+		texturefile = "gfx/event_pictures/GFX_CJFcp71.png"
+	}
+	spriteType = {
+		name = "GFX_CJFcp13"
+		texturefile = "gfx/event_pictures/GFX_CJFcp13.png"
+	}
+	spriteType = {
+		name = "GFX_CJFcp15"
+		texturefile = "gfx/event_pictures/GFX_CJFcp15.png"
+	}
+	spriteType = {
+		name = "GFX_CJFcp16"
+		texturefile = "gfx/event_pictures/GFX_CJFcp16.png"
 	}
 	spriteType = {
 		name = "GFX_CJF_industry5"
