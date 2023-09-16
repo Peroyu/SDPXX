@@ -432,6 +432,7 @@ ideologies = {
 			Fundamentalism = { can_be_randomly_selected = no }			
 			tribalism = { can_be_randomly_selected = no }		
 			Wahhabiya = { can_be_randomly_selected = no }
+			Anarchy_social = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

@@ -3,6 +3,10 @@ FRA = {
 	color = rgb { 80 161 207 }
 	color_ui = rgb { 80 161 207 }
 }
+ANC = {
+	color = rgb { 0 0 0  }
+	color_ui = rgb { 0 0 0 }
+}
 GDC = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }

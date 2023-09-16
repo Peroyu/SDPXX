@@ -171,4 +171,4 @@ JAV = "countries/Java.txt"
 KAI = "countries/Kalimantan.txt"
 ATJ = "countries/Atjeh.txt"
 RAS = "countries/Al Rashid.txt"
-
+ANC = "countries/Anarchy.txt"

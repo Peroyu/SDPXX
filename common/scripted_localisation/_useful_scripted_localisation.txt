@@ -862,4 +862,11 @@ defined_text = {
 		}
 		localization_key = Wahhabiya
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Anarchy_social
+		}
+		localization_key = Anarchy_social
+    }
 }

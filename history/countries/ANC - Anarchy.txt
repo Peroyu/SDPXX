@@ -1,0 +1,29 @@
+capital = 267 # 
+
+set_oob = "empty"  # 
+
+set_research_slots = 0
+
+set_war_support = 0 
+set_stability = 0 
+
+
+set_politics = {
+	ruling_party = restorativeism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+set_popularities = {
+	restorativeism = 100
+   }
+create_country_leader = {
+	name = "无集权政府"  # 
+	desc = "/"  # 
+	picture = anarchy_Portrait_GFX  # 
+	expire = "1980.4.30"  # 
+	ideology = Anarchy_social # 
+	traits = {  # 
+		#
+	}
+}

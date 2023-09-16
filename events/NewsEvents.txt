@@ -19,45 +19,20 @@ news_event = {
     desc = Triple_entent.3.d
     immediate = { 
         hidden_effect = {
-            660 = {
-                set_demilitarized_zone = yes
+            ANC = {
+                transfer_state = 965
+                transfer_state = 660
+                transfer_state = 539
+                transfer_state = 772
+                transfer_state = 966
+                transfer_state = 538
+                transfer_state = 718
+                transfer_state = 967
+                transfer_state = 769
+                transfer_state = 768
+                transfer_state = 548
             }
-            539 = {
-                set_demilitarized_zone = yes
-            }
-            773 = {
-                set_demilitarized_zone = yes
-            }
-            772 = {
-                set_demilitarized_zone = yes
-            }
-            546 = {
-                set_demilitarized_zone = yes
-            }
-            265 = {
-                set_demilitarized_zone = yes
-            }
-            538 = {
-                set_demilitarized_zone = yes
-            }
-            718 = {
-                set_demilitarized_zone = yes
-            }
-            769 = {
-                set_demilitarized_zone = yes
-            }
-            768 = {
-                set_demilitarized_zone = yes
-            }
-            774 = {
-                set_demilitarized_zone = yes
-            }
-            548 = {
-                set_demilitarized_zone = yes
-            }
-            295 = {
-                set_demilitarized_zone = yes
-            }
+           
         }
 	}
     is_triggered_only = yes

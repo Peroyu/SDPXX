@@ -841,6 +841,11 @@
 		texturefile = "gfx/leaders/East_Mediterranean/Portrait_TUR_Sefik_Aker.png"		
 	}
 
+	spriteType = {
+		name = "anarchy_Portrait_GFX"
+		texturefile = "gfx/leaders/anarchy_Portrait_GFX.png"		
+	}
+
 #####################india#################################
 spriteType = {
 	name = "portrait_THA_Phumiphon_Adunyadet"
