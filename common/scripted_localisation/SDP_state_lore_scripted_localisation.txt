@@ -47,6 +47,42 @@ defined_text = {
 		}
 		localization_key = state_lore_name.6
 	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 7 }
+		}
+		localization_key = state_lore_name.7
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 8 }
+		}
+		localization_key = state_lore_name.8
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 9 }
+		}
+		localization_key = state_lore_name.9
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 10 }
+		}
+		localization_key = state_lore_name.10
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 11 }
+		}
+		localization_key = state_lore_name.11
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 12 }
+		}
+		localization_key = state_lore_name.12
+	}
 	
 }
 
@@ -92,6 +128,42 @@ defined_text = {
 		}
 		localization_key = state_lore_initials.6
 	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 7 }
+		}
+		localization_key = state_lore_initials.7
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 8 }
+		}
+		localization_key = state_lore_initials.8
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 9 }
+		}
+		localization_key = state_lore_initials.9
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 10 }
+		}
+		localization_key = state_lore_initials.10
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 11 }
+		}
+		localization_key = state_lore_initials.11
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 12 }
+		}
+		localization_key = state_lore_initials.12
+	}
 	
 }
 
@@ -135,6 +207,42 @@ defined_text = {
 			check_variable = { selected_lore = 6 }
 		}
 		localization_key = state_lore_desc.6
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 7 }
+		}
+		localization_key = state_lore_desc.7
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 8 }
+		}
+		localization_key = state_lore_desc.8
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 9 }
+		}
+		localization_key = state_lore_desc.9
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 10 }
+		}
+		localization_key = state_lore_desc.10
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 11 }
+		}
+		localization_key = state_lore_desc.11
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 12 }
+		}
+		localization_key = state_lore_desc.12
 	}
 	
 }
@@ -181,6 +289,42 @@ defined_text = { #SUPER EVENT PICTURES
 			check_variable = { selected_lore = 6 }
 		}
         localization_key = "GFX_state_lore_img_6"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 7 }
+		}
+        localization_key = "GFX_state_lore_img_7"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 8 }
+		}
+        localization_key = "GFX_state_lore_img_8"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 9 }
+		}
+        localization_key = "GFX_state_lore_img_9"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 10 }
+		}
+        localization_key = "GFX_state_lore_img_10"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 11 }
+		}
+        localization_key = "GFX_state_lore_img_11"
+    }
+	text = { 
+        trigger = {
+			check_variable = { selected_lore = 12 }
+		}
+        localization_key = "GFX_state_lore_img_12"
     }
    
 }

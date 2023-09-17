@@ -50,4 +50,35 @@ spritetypes = {
 		name = "GFX_state_lore_img_6"
 		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_6.png"
 	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_7"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_7.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_8"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_8.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_9"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_9.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_10"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_10.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_11"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_11.png"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_12"
+		texturefile = "gfx/interface/state_lore/images/GFX_state_lore_img_12.png"
+	}
+
 }
