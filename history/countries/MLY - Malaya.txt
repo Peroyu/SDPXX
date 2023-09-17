@@ -6,25 +6,27 @@ set_war_support = 0.8
 set_stability = 0.7 
 
 set_politics = {
-	ruling_party = Restorativeism
+	ruling_party = reactionism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 
 set_popularities = {
-	Restorativeism = 67
-	democracy_communism = 21
-    left_radicalism = 12
+	Liberalism = 10
+	conservatism = 25
+	movement_communism = 5
+	reactionism = 55
+	nationalism = 5
 }
 
 
 create_country_leader = {
-	name = ""
+	name = "寺内寿一"
 	desc = "/"  
-	picture = "/"  
+	picture = "GFX_Portrait_JAP_Hisaichi_Terauchi"  
 	expire = "1952.7.10"  
-	ideology = traditional_despotism 
+	ideology = military_system 
 	traits = { 
 		
 	}
