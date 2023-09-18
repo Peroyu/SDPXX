@@ -1126,6 +1126,11 @@ spriteTypes = {
 		name = "GFX_CJF_MIN38th_chuanyu_division"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_MIN38th_chuanyu_division.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_Opvolg_Lente_en_Herfs"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Opvolg_Lente_en_Herfs.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
