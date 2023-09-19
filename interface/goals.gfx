@@ -1131,6 +1131,51 @@ spriteTypes = {
 		name = "GFX_CJF_Opvolg_Lente_en_Herfs"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Opvolg_Lente_en_Herfs.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_sweep_dogs"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sweep_dogs.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_return_to_remind"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_return_to_remind.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Commitment_to_civil_rights"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Commitment_to_civil_rights.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Who_are_enemy"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Who_are_enemy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Sparkling_green_phosphorus"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Sparkling_green_phosphorus.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Appease_troops"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Appease_troops.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_meeting_fra"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_meeting_fra.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Renovate_party_affairs"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Renovate_party_affairs.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_meeting_rus"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_meeting_rus.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
