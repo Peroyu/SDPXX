@@ -458,6 +458,58 @@ spriteTypes = {
 		name = "GFX_GDC_break_through_mingan"
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_break_through_mingan.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_GDC_The_rule_of_permanence"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_The_rule_of_permanence.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_GDC_unification_in_party"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_unification_in_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_communication_out_party"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_communication_out_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_practice_Wang_idea"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_practice_Wang_idea.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_recapture_Min_Quan"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_recapture_Min_Quan.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_strenthen_Min_Sheng"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_strenthen_Min_Sheng.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_core_of_freedom"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_core_of_freedom.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_independent_news_area"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_independent_news_area.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_refine_democracy"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_refine_democracy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Multi_party_discipline"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Multi_party_discipline.png"			
+	}
+
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"
@@ -1186,6 +1238,28 @@ spriteTypes = {
 		name = "GFX_CJF_Set_in_one"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Set_in_one.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_education_people"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_education_people.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_regorganise_party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_regorganise_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_People_livelihood_has_been_stable"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_People_livelihood_has_been_stable.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_construct_CPC"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_construct_CPC.png"			
+	}
+
+
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
