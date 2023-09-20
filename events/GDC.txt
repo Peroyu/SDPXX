@@ -26,10 +26,6 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		load_focus_tree = {
-			tree = GDC_Li_Jishen_national_focus_tree
-			keep_completed = no
-		}
 		name = GDCintro.1.a 
 	}
 	
