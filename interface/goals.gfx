@@ -510,6 +510,145 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Multi_party_discipline.png"			
 	}
 
+	SpriteType = {
+		name = "GFX_GDC_merge_clubs"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_merge_clubs.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_recuit_parliament_members"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_recuit_parliament_members.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_spread_national_education"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_spread_national_education.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_implement_tax_decrase"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_implement_tax_decrase.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_encourage_indsutry_patriotism"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_encourage_indsutry_patriotism.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_focus_constructions_in_WeiFu"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_focus_constructions_in_WeiFu.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Three_People_principle_education_outline"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Three_People_principle_education_outline.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_remenmber_Zhong_Xiao"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_remenmber_Zhong_Xiao.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_instill_democracy_and_republism"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_instill_democracy_and_republism.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_integrate_West_and_East"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_integrate_West_and_East.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_voyage_to_Chengdu_in_the_night"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_voyage_to_Chengdu_in_the_night.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_wash_national_disgrace"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_wash_national_disgrace.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_beginning_The_whole_nation_resisted_the_war"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_beginning_The_whole_nation_resisted_the_war.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_Hold_up_longbow"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_Hold_up_longbow.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_obey_central_government"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_obey_central_government.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_uni_warfront"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_uni_warfront.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_help_each_other"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_help_each_other.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_temporary_allies"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_temporary_allies.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_rebuild_Huang_Pu"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_rebuild_Huang_Pu.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_update_weapons"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_update_weapons.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_create_elite_army"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_create_elite_army.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_recognise_milltary_committee"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_recognise_milltary_committee.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_establish_Absolute_authority"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_establish_Absolute_authority.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_laern_developed_tactics"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_laern_developed_tactics.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_not_comrades"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_not_comrades.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_exchange_in_equality"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_exchange_in_equality.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_call_Xiang_Gan_comrades"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_call_Xiang_Gan_comrades.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_united_Fu_Jian_army"
+		texturefile = "gfx/interface/goals/GDC/GFX_GDC_united_Fu_Jian_army.png"			
+	}
 ######################################################################
 	SpriteType = {
 	name = "GFX_MMA_lanzhou"

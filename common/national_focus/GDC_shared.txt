@@ -2106,7 +2106,7 @@ shared_focus = {
 
 		}
 		prerequisite = {
-			focus = GDC_update_weapons
+			focus = GDC_create_elite_army
 		}
 	}
 shared_focus = {   
