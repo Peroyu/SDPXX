@@ -1,6 +1,0 @@
-
-RUS_Smuta_Contenders_Setup = {
-	
-}
-
-

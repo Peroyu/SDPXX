@@ -1981,13 +1981,12 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = {
-					GDC_minzhu_idea
-					GDC_zhongxiao_idea
-				}
-				add_idea = GDC_zhongxi_idea
-			}
+			
+				remove_ideas = GDC_minzhu_idea
+					remove_ideas = GDC_zhongxiao_idea
+				
+				add_ideas = GDC_zhongxi_idea
+			
 		}
 		prerequisite = {
 			focus = GDC_instill_democracy_and_republism

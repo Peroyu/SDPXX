@@ -647,7 +647,8 @@ guiTypes = {
 			oversound = ui_menu_over
 			shortcut = "RETURN"
 		}			
-
+		
+		
 		containerWindowType = {
 			name ="countries"
 			position = { x = 15 y = 45 }
@@ -900,6 +901,22 @@ guiTypes = {
 			maxWidth = 380
 			maxHeight = 30	
 			format = left
+		}
+
+		iconType = { # UGLY AMERICAN NEW -- JAPA
+		name = "country_selection_new_ugly_jpn"
+		position = { x = 916 y = 49 }
+		spriteType = "GFX_country_selection_new_big_shine"
+		pdx_tooltip = "SDP_delayed_tooltip"
+		pdx_tooltip_delayed = "SDP_delayed_tooltip_tt"
+	}
+
+	iconType = { # UGLY AMERICAN NEW -- XKS
+			name = "country_selection_new_ugly_xks"
+			position = { x = 550 y = 335 }
+			spriteType = "GFX_country_selection_new_medium"
+			pdx_tooltip = "SDP_delayed_tooltip"
+			pdx_tooltip_delayed = "SDP_delayed_tooltip_tt"
 		}
 	}
 
