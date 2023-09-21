@@ -6,7 +6,17 @@ scripted_gui = {
 		visible = {
 			always = yes
 		}
-		
+		dynamic_lists = {
+
+			Contenders_List = {
+				array = KMT_economic_sphere
+				index = i
+				change_scope = yes
+
+				entry_container = diplomacy_country_list_country_entry
+			}
+
+		}
 		effects = {
 			enter_SDP_economic_window_button_click = {
 				if = {
@@ -21,6 +31,10 @@ scripted_gui = {
 			}
 		}
 	}
+	properties = {
+			Contenders_Entry_Flag = { image = "[This.GetFlag]" }
+
+		}
 	SDP_economic_main ={
 		window_name = "SDP_economic_window_main"
 		context_type = Player_context

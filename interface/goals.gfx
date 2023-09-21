@@ -1398,7 +1398,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_construct_CPC.png"			
 	}
 
+	SpriteType = {
+		name = "GFX_CJF_The_whole_country_united_outside"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_whole_country_united_outside.png"			
+	}
 
+	SpriteType = {
+		name = "GFX_CJF_constrcution_anti_japen_culture"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_constrcution_anti_japen_culture.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_revival_nation"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_revival_nation.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Rewarding_allies"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Rewarding_allies.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Economic_control"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Economic_control.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
