@@ -456,5 +456,106 @@ ideas = {
 				political_power_factor = 0.05
 			}
 		}
+		GDC_wang_idea= {
+		    name = GDC_wang_idea
+			picture = GDC_wang_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+		GDC_club_merged_idea= {
+		    name = GDC_club_merged_idea
+			picture = GDC_club_merged_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.03
+				stability_factor = 0.05
+			}
+		}
+		GDC_tax_reducing_idea= {
+		    name = GDC_tax_reducing_idea
+			picture = GDC_tax_reducing_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.03
+				stability_factor = 0.05
+				drift_defence_factor = 0.3
+			}
+		}
+		GDC_weisheng_idea= {
+		    name = GDC_weisheng_idea
+			picture = GDC_weisheng_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+		GDC_zhongxiao_idea= {
+		    name = GDC_zhongxiao_idea
+			picture = GDC_zhongxiao_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				war_support_factor = 0.07
+				political_power_factor = 0.05
+				drift_defence_factor = 0.1
+			}
+		}
+		GDC_minzhu_idea= {
+		    name = GDC_minzhu_idea
+			picture = GDC_minzhu_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.02
+				command_power_gain = 0.03
+				surrender_limit = 0.05
+			}
+		}
+		GDC_zhongxi_idea= {
+		    name = GDC_zhongxi_idea
+			picture = GDC_zhongxi_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.025
+				command_power_gain = 0.05
+				surrender_limit = 0.1
+				war_support_factor = 0.07
+				political_power_factor = 0.07
+				drift_defence_factor = 0.15
+			}
+		}
+		GDC_huangpu_idea= {
+		    name = GDC_huangpu_idea
+			picture = GDC_huangpu_idea
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				training_time_army_factor = -0.2
+				max_planning = 0.05
+			}
+		}
 	}
 }

@@ -1539,7 +1539,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = 0.12
+			add_political_power = 25
 		}
 		prerequisite = {
 			focus = GDC_The_rule_of_permanence
@@ -1556,7 +1557,26 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_popularity = {
+				ideology = communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = movement_communism
+				popularity = 0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_unification_in_party
@@ -1573,7 +1593,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_ideas = GDC_wang_idea
+			custom_effect_tooltip = GDC_lijishen_tt_1
 		}
 		prerequisite = {
 			focus = GDC_communication_out_party
@@ -1590,7 +1611,11 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 20
+			swap_ideas = {
+				add_idea = wealth_voting
+				remove_idea = universal_suffrage
+			}
 		}
 		prerequisite = {
 			focus = GDC_practice_Wang_idea
@@ -1607,7 +1632,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_practice_Wang_idea
@@ -1624,7 +1664,13 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = -0.02
+			add_political_power = 20
+			custom_effect_tooltip = GDC_lijishen_tt_2
+			swap_ideas = {
+				add_idea = universal_suffrage
+				remove_idea = wealth_voting
+			}
 		}
 		mutually_exclusive = {
 			focus = GDC_Multi_party_discipline
@@ -1644,7 +1690,10 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			swap_ideas = {
+				add_idea = right_of_assembly
+				remove_idea = censorship
+			}
 		}
 		prerequisite = {
 			focus = GDC_core_of_freedom
@@ -1661,7 +1710,26 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_popularity = {
+				ideology = communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = movement_communism
+				popularity = 0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_independent_news_area
@@ -1678,7 +1746,9 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			custom_effect_tooltip = GDC_lijishen_tt_3
+			
 		}
 		mutually_exclusive = {
 			focus = GDC_core_of_freedom
@@ -1698,7 +1768,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_ideas = GDC_club_merged_idea
 		}
 		prerequisite = {
 			focus = GDC_Multi_party_discipline
@@ -1715,7 +1785,26 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_popularity = {
+				ideology = communism
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = movement_communism
+				popularity = -0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_merge_clubs
@@ -1732,7 +1821,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_research_slot = 1
 		}
 		prerequisite = {
 			focus = GDC_recuit_parliament_members
@@ -1753,7 +1842,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			add_ideas = GDC_tax_reducing_idea
 		}
 		prerequisite = {
 			focus = GDC_strenthen_Min_Sheng
@@ -1770,7 +1860,22 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes 
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes 
+				}
+			}
 		}
 		prerequisite = {
 			focus = GDC_implement_tax_decrase
@@ -1787,7 +1892,17 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+			add_ideas = GDC_weisheng_idea
+			swap_ideas = {
+				add_idea = total_social_pension
+				remove_idea = old_age_pension
+			}
 		}
 		prerequisite = {
 			focus = GDC_encourage_indsutry_patriotism
@@ -1804,7 +1919,16 @@ shared_focus = {   #第二阶段开始
 			
 		}
 		completion_reward = {
-
+			add_political_power = 50
+			add_manpower = 10000
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.07
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = 0.02
+			}
 		}
 		prerequisite = {
 			focus = GDC_spread_national_education
@@ -1821,7 +1945,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_stability = 0.11
+			add_ideas = GDC_zhongxiao_idea
 		}
 		prerequisite = {
 			focus = GDC_Three_People_principle_education_outline
@@ -1838,7 +1963,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_ideas = GDC_minzhu_idea
+			add_political_power = 25
 		}
 		prerequisite = {
 			focus = GDC_Three_People_principle_education_outline
@@ -1855,7 +1981,13 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			swap_ideas = {
+				remove_idea = {
+					GDC_minzhu_idea
+					GDC_zhongxiao_idea
+				}
+				add_idea = GDC_zhongxi_idea
+			}
 		}
 		prerequisite = {
 			focus = GDC_instill_democracy_and_republism
@@ -1875,7 +2007,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = GDC_lijishen_tt_4
+			add_war_support = 0.05
 		}
 		prerequisite = {
 			focus = GDC_integrate_West_and_East
@@ -1892,7 +2025,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			#此处填写事件
+			custom_effect_tooltip = GDC_lijishen_tt_5
 		}
 		prerequisite = {
 			focus = GDC_wash_national_disgrace
@@ -1909,7 +2043,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = GDC_lijishen_tt_6
 		}
 		mutually_exclusive = {
 			focus = GDC_not_comrades
@@ -1929,7 +2063,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			army_experience = 25
+			add_war_support = 0.06
 		}
 		prerequisite = {
 			focus = GDC_obey_central_government
@@ -1963,7 +2098,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = GDC_lijishen_tt_7
 		}
 		mutually_exclusive = {
 			focus = GDC_obey_central_government
@@ -1983,7 +2118,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			army_experience = 25
+			add_war_support = 0.06
 		}
 		prerequisite = {
 			focus = GDC_not_comrades
@@ -2052,7 +2188,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_ideas = GDC_huangpu_idea
+			add_command_power = 30
 		}
 		prerequisite = {
 			focus = GDC_wash_national_disgrace
@@ -2069,7 +2206,16 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
 		}
 		prerequisite = {
 			focus = GDC_rebuild_Huang_Pu
@@ -2086,7 +2232,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			#换民族精神
+			army_experience = 30
 		}
 		prerequisite = {
 			focus = GDC_update_weapons
@@ -2103,7 +2250,12 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			every_army_leader = {
+				add_attack = 1
+			add_defense = 1
+			add_planning = 1
+			add_logistics = 1		
+			}
 		}
 		prerequisite = {
 			focus = GDC_create_elite_army
@@ -2120,7 +2272,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			#换民族精神
+			add_political_power = 25
 		}
 		prerequisite = {
 			focus = GDC_recognise_milltary_committee
@@ -2137,7 +2290,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			#给策略加速卡
 		}
 		prerequisite = {
 			focus = GDC_establish_Absolute_authority
@@ -2154,7 +2307,8 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = GDC_lijishen_tt_8
+			add_manpower = 100000
 		}
 		prerequisite = {
 			focus = GDC_laern_developed_tactics
@@ -2174,7 +2328,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-
+			custom_effect_tooltip = GDC_lijishen_tt_9
 		}
 		prerequisite = {
 			focus = GDC_beginning_The_whole_nation_resisted_the_war
