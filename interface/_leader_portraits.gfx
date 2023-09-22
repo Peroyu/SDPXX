@@ -241,6 +241,16 @@
 		name = "GFX_portrait_CJF_Song_Xilian"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Song_Xilian.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Lv_Chao"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Lv_Chao.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Cai_Shenxi"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Cai_Shenxi.png"		
+	}
 	###############################################
 	
 	spriteType = {

@@ -250,6 +250,40 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	CJF_Lv_Chao={
+		name = "CJF_Lv_Chao"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Lv_Chao
+				large = GFX_portrait_CJF_Lv_Chao
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	CJF_Cai_Shenxi={
+		name = "CJF_Cai_Shenxi"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Cai_Shenxi
+				large = GFX_portrait_CJF_Cai_Shenxi
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
 	CJF_Xiong_Shihui={
 		name = "CJF_Xiong_Shihui"
 		portraits = {
