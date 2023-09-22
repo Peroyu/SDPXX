@@ -1432,6 +1432,62 @@ spriteTypes = {
 		name = "GFX_CJF_Weakening_of_the_Supervisory_Commission"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Weakening_of_the_Supervisory_Commission.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_Bring_a_tightening_hoop"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Bring_a_tightening_hoop.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_sword_and_farm"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sword_and_farm.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Purge_partychengongbo"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Purge_partychengongbo.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Repression_begins"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Repression_begins.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Opposition_in_the_shadows"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Opposition_in_the_shadows.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Spy_on_radicals"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Spy_on_radicals.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Reward_loyalists"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Reward_loyalists.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Get_it_right"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Get_it_right.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Hold_on_tightly"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Hold_on_tightly.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Punch_hard"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Punch_hard.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Repression_of_conservatives"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Repression_of_conservatives.png"			
+	}
+
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"

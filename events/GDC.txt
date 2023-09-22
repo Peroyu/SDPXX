@@ -257,6 +257,28 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = GDCintro.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	GDCintro.9 FROM = [From.GetName]" }
+	title = GDCintro.9.t
+	desc = GDCintro.9.d
+	picture = GFX_GDCguangzhou
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = GDCintro.9.a
+	}
+	
+}
 
 country_event = {
     id = GDC.2 #合作化试验

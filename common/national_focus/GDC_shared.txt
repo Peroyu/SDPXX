@@ -307,6 +307,10 @@ shared_focus = {
 		}
 		completion_reward = {
 			custom_effect_tooltip = GDC_we_together
+			country_event = {
+				id = GDCintro.9
+				days = 1
+			}
 			random_owned_controlled_state = {
 				prioritize = { 195 }
 				limit = { valid_state_for_spawning_friendly_unit = yes }

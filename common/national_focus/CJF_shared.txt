@@ -170,6 +170,10 @@ shared_focus = {
 		focus = CJF_Opvolg_Lente_en_Herfs
 	}
 	completion_reward = {
+		country_event = {
+			id = CJF_chengongbo.1
+			days = 1
+		}
 		add_stability = 0.03
 		swap_ideas = {
 			add_idea = CJF_unacknowlaged_power_4
@@ -2012,7 +2016,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = CJF_Opposition_in_the_shadows
-	icon = GFX_CJF_Repression_begins
+	icon = GFX_CJF_Opposition_in_the_shadows
 	prerequisite = {
 		focus = CJF_Repression_begins
 	}
