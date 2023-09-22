@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = FID
+		add_core_of = FID
 		buildings = {
 			infrastructure = 1
 		}
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		1116 1996 10810 12322 12730 
+		12322 1116 
 	}
 
 	local_supplies=3.0 
