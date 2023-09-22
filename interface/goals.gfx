@@ -1422,6 +1422,16 @@ spriteTypes = {
 		name = "GFX_CJF_Economic_control"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Economic_control.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_strengthen_central_party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_strengthen_central_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Weakening_of_the_Supervisory_Commission"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Weakening_of_the_Supervisory_Commission.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
