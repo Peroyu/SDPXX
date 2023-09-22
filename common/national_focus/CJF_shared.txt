@@ -1826,6 +1826,8 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
+		army_experience = 30
+		unlock_decision_category_tooltip = CJF_border_problem
 	}
 }
 shared_focus = {

@@ -1,0 +1,29 @@
+CJF_border_problem = {
+	CHI_zangnan = { 
+	      icon = decision_hol_exchange_intelligence_data
+		  allowed = {
+			original_tag = CJF
+		  }
+          available = { 
+              tag = CJF		
+		        has_country_flag = available
+			}
+		  ai_will_do = {
+			factor = 100
+		  }
+		  visible = {
+		    tag = CJF	
+		  }
+		  fire_only_once = yes                  
+          remove_effect = { 
+			
+		   }
+          	 
+		  cost = 1
+		  days_remove = 10
+	}
+	
+	
+		
+
+}

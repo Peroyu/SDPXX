@@ -1,0 +1,16 @@
+CJF_border_problem = {
+    icon = decision_category_hol_bernhard
+    picture = decision_cat_generic_mefo_bills
+    allowed = {
+		original_tag = CJF
+	}
+    visible = {
+		tag = CJF
+        has_completed_focus = CJF_chuanbian_tacitics
+    
+	}
+    priority = {
+		base = 1
+		
+	}
+}
