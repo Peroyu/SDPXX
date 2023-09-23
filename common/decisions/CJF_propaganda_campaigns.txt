@@ -15,7 +15,7 @@ CJF_propaganda_campaigns = {
 		}
 
 		visible = {
-			always = yes
+			is_debug = yes
 		}
 
 		cost = 0
