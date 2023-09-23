@@ -162,9 +162,8 @@ CJF_propaganda_campaigns = {
 		cost = CJF_propaganda_motherland_calls_cost
 
 		modifier = {
-			weekly_manpower = 1000
-			training_time_factor = -0.1
-			minimum_training_level = -0.1
+			political_power_factor = 0.15
+			social_democracy_drift = 0.03
 		}
 
 		complete_effect = {
@@ -232,9 +231,9 @@ CJF_propaganda_campaigns = {
 		cost = SOV_propaganda_victory_at_hand_cost
 
 		modifier = {
-			army_attack_factor = 0.05
-			army_speed_factor = 0.1
-			org_loss_when_moving = -0.05
+			local_resources_factor = 0.05
+			production_speed_buildings_factor = 0.1
+			production_speed_infrastructure_factor = 0.3
 		}
 
 		complete_effect = {
@@ -308,7 +307,11 @@ CJF_propaganda_campaigns = {
 			
 			custom_effect_tooltip = SOV_propaganda_defend_moscow_state_modifier_tt
 		}
-
+		modifier = {
+			army_infantry_attack_factor = 0.15
+			army_infantry_defence_factor = 0.15
+			army_core_defence_factor = 0.07
+		}
 		remove_effect = {
 			
 
@@ -388,9 +391,10 @@ CJF_propaganda_campaigns = {
 		cost = SOV_propaganda_fight_to_the_last_cost
 
 		modifier = {
-			army_org_factor = 0.05
-			out_of_supply_factor = -0.1
-			no_supply_grace = 70
+			industrial_capacity_factory = 0.2
+			production_speed_arms_factory_factor = 0.15
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_buildings_factor = 0.05
 		}
 
 		complete_effect = {
@@ -457,8 +461,8 @@ CJF_propaganda_campaigns = {
 		cost = SOV_propaganda_hit_of_hammer_cost
 
 		modifier = {
-			industrial_capacity_factory = 0.05
-			industrial_capacity_dockyard = 0.05
+			army_artillery_attack_factor = 0.05
+			army_artillery_defence_factor = 0.05
 		}
 
 		complete_effect = {
@@ -475,7 +479,16 @@ CJF_propaganda_campaigns = {
 			SOV_increase_propaganda_campaign_cost_effect = yes
 			set_variable = { SOV_propaganda_hit_of_hammer_cost = SOV_propaganda_cost }
 			clear_variable = SOV_propaganda_cost
-
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 30
+				producer = SOV
+			}
 			custom_effect_tooltip = SOV_propaganda_campaign_cooldown_tt
 		}
 	}
@@ -523,9 +536,10 @@ CJF_propaganda_campaigns = {
 		cost = SOV_propaganda_transport_cost
 
 		modifier = {
-			production_speed_supply_node_factor = 0.15
-			production_speed_rail_way_factor = 0.15
-			supply_consumption_factor = -0.1
+			dig_in_speed_factor = 0.05
+			army_defence_factor = 0.1
+			army_infantry_attack_factor = 0.05
+			army_infantry_defence_factor = 0.2
 		}
 
 		complete_effect = {
@@ -542,7 +556,21 @@ CJF_propaganda_campaigns = {
 			SOV_increase_propaganda_campaign_cost_effect = yes
 			set_variable = { SOV_propaganda_transport_cost = SOV_propaganda_cost }
 			clear_variable = SOV_propaganda_cost
-
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = FRA
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 15
+				producer = FRA
+			}
+			add_equipment_to_stockpile = {
+				type = light_tank_equipment
+				amount = 30
+				producer = FRA
+			}
 			custom_effect_tooltip = SOV_propaganda_campaign_cooldown_tt
 		}
 	}
@@ -596,9 +624,8 @@ CJF_propaganda_campaigns = {
 		cost = SOV_propaganda_oil_for_the_motherland_cost
 
 		modifier = {
-			fuel_gain_factor = 0.1
-			army_fuel_consumption_factor = -0.1
-			air_fuel_consumption_factor = -0.1
+			war_support_weekly = 0.01
+			political_power_factor = 0.08
 		}
 
 		complete_effect = {
