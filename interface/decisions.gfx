@@ -20,6 +20,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_SWI_absolute_neutrality.dds"
 	}
 	spriteType = {
+		name = "decision_category_usa_intervention_mandate"
+		texturefile = "gfx/interface/decisions/categories/decision_category_usa_intervention_mandate.dds"
+	}
+	spriteType = {
 		name = "decision_category_hol_bernhard"
 		texturefile = "gfx/interface/decisions/categories/decision_category_hol_bernhard.dds"
 	}

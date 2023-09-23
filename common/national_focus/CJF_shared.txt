@@ -265,6 +265,10 @@ shared_focus = {
 		focus = CJF_encourage_free_clubs
 	}
 	completion_reward = {
+		unlock_decision_category_tooltip = CJF_propaganda_campaigns
+		set_variable = { SOV_default_propaganda_campaign_duration = 180 }
+			set_variable = { SOV_default_propaganda_campaign_cooldown = 90 }
+			set_variable = { SOV_default_propaganda_campaign_old_days = 150 }
 		add_political_power = 30
 		add_popularity = {
 			ideology = social_democracy

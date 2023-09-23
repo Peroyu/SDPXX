@@ -1,0 +1,20 @@
+
+CJF_propaganda_campaigns = {
+	priority = 100
+
+	icon = decision_category_usa_intervention_mandate
+
+	scripted_gui = sov_propaganda_campaigns_ui
+
+	allowed = {
+		original_tag = CJF
+	}
+
+	visible = {
+		tag = CJF
+		OR = {
+		has_completed_focus = CJF_Sparkling_green_phosphorus
+		is_debug = yes
+		}
+	}
+}
