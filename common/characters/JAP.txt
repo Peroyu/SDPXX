@@ -255,5 +255,23 @@ characters = {
 		}
 
     }
+	NIP_Takashi_Sakai = {
+		name = "NIP_Takashi_Sakai" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Takashi_Sakai
+				large = GFX_portrait_NIP_Takashi_Sakai
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+
+    }
 	
 }

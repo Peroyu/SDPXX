@@ -98,4 +98,5 @@ recruit_character = KHN_Huang_Ai
 recruit_character = KHN_Chen_Mingren
 recruit_character = GDC_Cheng_Qian
 recruit_character = KHN_Zhang_Zhen
+recruit_character = CJF_Cai_Shenxi
 

@@ -227,3 +227,4 @@ create_country_leader = {
 	recruit_character = NIP_Araki_Sadao
 	recruit_character = NIP_Matsui_Iwane
 	recruit_character = NIP_Kuribayashi_Tadamichi
+	recruit_character = NIP_Takashi_Sakai

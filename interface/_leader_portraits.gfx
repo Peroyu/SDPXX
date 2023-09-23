@@ -708,6 +708,11 @@
 		name = "GFX_Portrait_JAP_Hisaichi_Terauchi"
 		texturefile = "gfx/leaders/JAP/GFX_Portrait_JAP_Hisaichi_Terauchi.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Takashi_Sakai"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Takashi_Sakai.png"		
+	}
 	#####################SouthEastAsia#######################
 	
 	spriteType = {
