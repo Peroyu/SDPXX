@@ -1522,6 +1522,21 @@ spriteTypes = {
 		name = "GFX_CJF_NSF"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_NSF.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_to_outside"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_to_outside.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Consolidate_fundamental"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Consolidate_fundamental.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Battle_for_the_baht"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Battle_for_the_baht.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
