@@ -11,6 +11,7 @@ CJF_Handle_Internal_Industry = {
 			OR = {
 				has_completed_focus = CJF_want_to_be_their_best_work
 				has_completed_focus = CJF_Economic_control
+				has_completed_focus = CJF_return_to_right_path
 				}
         }
 		cancel_trigger = {

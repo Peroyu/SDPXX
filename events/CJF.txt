@@ -27,6 +27,572 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_chengongbo.1.a 
+		custom_effect_tooltip = CJF_increase_sopport
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.08
+		}
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.2 FROM = [From.GetName]" }
+	title = CJF_chengongbo.2.t
+	desc = CJF_chengongbo.2.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.2.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.3 FROM = [From.GetName]" }
+	title = CJF_chengongbo.3.t
+	desc = CJF_chengongbo.3.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { var = CJF_antipower value = 12 }
+		custom_effect_tooltip = CJF_party_1
+		name = CJF_chengongbo.3.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.4 FROM = [From.GetName]" }
+	title = CJF_chengongbo.4.t
+	desc = CJF_chengongbo.4.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.04
+		}
+		custom_effect_tooltip = CJF_increase_sopport
+		name = CJF_chengongbo.4.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.5 FROM = [From.GetName]" }
+	title = CJF_chengongbo.5.t
+	desc = CJF_chengongbo.5.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { var = CJF_KMT2 value = 1 }
+		custom_effect_tooltip = CJF_junwei_laegue_support_tt
+		name = CJF_chengongbo.5.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.6 FROM = [From.GetName]" }
+	title = CJF_chengongbo.6.t
+	desc = CJF_chengongbo.6.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.6.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.7 FROM = [From.GetName]" }
+	title = CJF_chengongbo.7.t
+	desc = CJF_chengongbo.7.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.7.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.8 FROM = [From.GetName]" }
+	title = CJF_chengongbo.8.t
+	desc = CJF_chengongbo.8.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = CJF_chengongbo.11
+			days = 9
+		}
+		name = CJF_chengongbo.8.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.9 FROM = [From.GetName]" }
+	title = CJF_chengongbo.9.t
+	desc = CJF_chengongbo.9.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = CJF_chengongbo.10
+			days = 14
+		}
+		custom_effect_tooltip = CJF_jiancha_laegue_support_tt1
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.03
+		}
+		add_to_variable = { var = CJF_KMT4 value = -1 }
+		add_political_power = -30
+		name = CJF_chengongbo.9.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.10 FROM = [From.GetName]" }
+	title = CJF_chengongbo.10.t
+	desc = CJF_chengongbo.10.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = -0.1
+		}
+		name = CJF_chengongbo.10.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.11 FROM = [From.GetName]" }
+	title = CJF_chengongbo.11.t
+	desc = CJF_chengongbo.11.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.11.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.12 FROM = [From.GetName]" }
+	title = CJF_chengongbo.12.t
+	desc = CJF_chengongbo.12.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.12.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.13 FROM = [From.GetName]" }
+	title = CJF_chengongbo.13.t
+	desc = CJF_chengongbo.13.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.13.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.14 FROM = [From.GetName]" }
+	title = CJF_chengongbo.14.t
+	desc = CJF_chengongbo.14.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.14.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.15 FROM = [From.GetName]" }
+	title = CJF_chengongbo.15.t
+	desc = CJF_chengongbo.15.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.15.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.16 FROM = [From.GetName]" }
+	title = CJF_chengongbo.16.t
+	desc = CJF_chengongbo.16.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.16.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.17 FROM = [From.GetName]" }
+	title = CJF_chengongbo.17.t
+	desc = CJF_chengongbo.17.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.17.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.18 FROM = [From.GetName]" }
+	title = CJF_chengongbo.18.t
+	desc = CJF_chengongbo.18.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.18.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.19 FROM = [From.GetName]" }
+	title = CJF_chengongbo.19.t
+	desc = CJF_chengongbo.19.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.19.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.20 FROM = [From.GetName]" }
+	title = CJF_chengongbo.20.t
+	desc = CJF_chengongbo.20.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.20.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.21 FROM = [From.GetName]" }
+	title = CJF_chengongbo.21.t
+	desc = CJF_chengongbo.21.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.21.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.22 FROM = [From.GetName]" }
+	title = CJF_chengongbo.22.t
+	desc = CJF_chengongbo.22.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_chengongbo.22.a 
+	}
+	
+}
+country_event = {
+    id = CJF_chengongbo.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.23 FROM = [From.GetName]" }
+	title = CJF_chengongbo.23.t
+	desc = CJF_chengongbo.23.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.07
+		}
+		custom_effect_tooltip = CJF_increase_sopport
+		name = CJF_chengongbo.23.a 
 	}
 	
 }

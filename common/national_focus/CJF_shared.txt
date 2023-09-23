@@ -155,7 +155,19 @@ shared_focus = {
 	x = 6
 	y = 0
 	completion_reward = {
-		unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
+		country_event = {
+			id = CJF_chengongbo.2
+			days = 1
+		}
+		custom_effect_tooltip = CJF_politic_condition_update
+		hidden_effect = {
+		set_country_flag = CJF_KMT_party
+		set_variable = { var = CJF_KMT1 value = 2 }
+			set_variable = { var = CJF_KMT2 value = 1 }
+			set_variable = { var = CJF_KMT3 value = 3 }
+			set_variable = { var = CJF_KMT4 value = 2 }
+			set_variable = { var = CJF_antipower value = 35 }
+		}
 		add_stability = 0.03
 		add_political_power = 50
 	}
@@ -191,7 +203,10 @@ shared_focus = {
 		focus = CJF_Ancestors_of_the_fire
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.5
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -204,7 +219,10 @@ shared_focus = {
 		focus = CJF_Ancestors_of_the_fire
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.3
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -217,7 +235,11 @@ shared_focus = {
 		focus = CJF_Ancestors_of_the_fire
 	}
 	completion_reward = {
-		
+		add_political_power = 50
+		country_event = {
+			id = CJF_chengongbo.4
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -233,7 +255,11 @@ shared_focus = {
 		focus = CJF_Appease_troops
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.6
+			days = 1
+		}
+		add_stability = 0.05
 	}
 }
 shared_focus = {
@@ -249,7 +275,18 @@ shared_focus = {
 		focus = CJF_Rewarding_allies
 	}
 	completion_reward = {
-		
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes 
+			}
+		}
+		country_event = {
+			id = CJF_chengongbo.7
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -265,6 +302,7 @@ shared_focus = {
 		focus = CJF_encourage_free_clubs
 	}
 	completion_reward = {
+		unlock_decision_category_tooltip = CJF_South_China_Intelligence_Network
 		unlock_decision_category_tooltip = CJF_propaganda_campaigns
 		set_variable = { SOV_default_propaganda_campaign_duration = 180 }
 			set_variable = { SOV_default_propaganda_campaign_cooldown = 90 }
@@ -289,7 +327,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 15
 		country_event = {
-			id = CJF_kmtdebate.4
+			id = CJF_chengongbo.23
 			days = 1
 		}
 		
@@ -305,6 +343,7 @@ shared_focus = {
 		focus = CJF_Sparkling_green_phosphorus
 	}
 	completion_reward = {
+
 		unlock_decision_category_tooltip = CJF_Handle_Internal_Industry
 		set_country_flag = CJF_first_choice
 		random_owned_controlled_state = {
@@ -351,7 +390,10 @@ shared_focus = {
 		focus = CJF_Economic_control
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.15
+			days = 1
+		}
 		
 	}
 }
@@ -368,7 +410,10 @@ shared_focus = {
 		focus = CJF_sweep_dogs
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.16
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -401,6 +446,7 @@ shared_focus = {
 		focus = CJF_sword_and_farm
 	}
 	completion_reward = {
+		custom_effect_tooltip = CJF_chengongbo_tt_1
 		swap_ideas = {
 			add_idea = closed_economy
 			remove_idea = limited_exports
@@ -418,7 +464,10 @@ shared_focus = {
 		focus = CJF_sword_and_farm
 	}
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_chengongbo.17
+			days = 1
+		}
 		
 	}
 }
@@ -451,12 +500,19 @@ shared_focus = {
 		focus = CJF_regorganise_party
 	}
 	completion_reward = {
+		country_event = {
+			id = CJF_chengongbo.8
+			days = 1
+		}
 		add_popularity = {
 			ideology = social_democracy
 			popularity = 0.04
 		}
 		custom_effect_tooltip = CJF_Chen_1
-		
+		add_popularity = {
+			ideology = movement_communism
+			popularity = -0.02
+		}
 	}
 }
 shared_focus = {
@@ -469,8 +525,14 @@ shared_focus = {
 		focus = CJF_return_to_remind
 	}
 	completion_reward = {
-		
-		
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.04
+		}
+		add_popularity = {
+			ideology = movement_communism
+			popularity = -0.04
+		}
 	}
 }
 shared_focus = {
@@ -492,7 +554,10 @@ shared_focus = {
 			ideology = reactionism
 			popularity = -0.02
 		}
-		
+		add_popularity = {
+			ideology = movement_communism
+			popularity = -0.04
+		}
 	}
 }
 shared_focus = {
@@ -505,6 +570,10 @@ shared_focus = {
 		focus = CJF_return_to_remind
 	}
 	completion_reward = {
+		country_event = {
+			id = CJF_chengongbo.9
+			days = 1
+		}
 		custom_effect_tooltip = CJF_increase_sopport
 		add_popularity = {
 			ideology = conservatism
@@ -549,7 +618,10 @@ shared_focus = {
 			ideology = social_democracy
 			popularity = 0.03
 		}
-		
+		country_event = {
+			id = CJF_chengongbo.13
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -563,7 +635,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_war_support = 0.06
-		
+		custom_effect_tooltip = CJF_chengongbo_tt_1
 	}
 }
 shared_focus = {
@@ -577,7 +649,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_stability = 0.08
-		
+		country_event = {
+			id = CJF_chengongbo.12
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -597,7 +672,11 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_political_power = 100
-		
+		custom_effect_tooltip = CJF_Chen_2
+		country_event = {
+			id = CJF_chengongbo.14
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -613,7 +692,12 @@ shared_focus = {
 		focus = CJF_People_livelihood_has_been_stable
 	}
 	completion_reward = {
-		
+		add_political_power = 50
+		add_research_slot = 1
+		country_event = {
+			id = CJF_chengongbo.18
+			days = 1
+		}
 		
 	}
 }
@@ -627,8 +711,12 @@ shared_focus = {
 		focus = CJF_education_people
 	}
 	completion_reward = {
-		
-		
+		custom_effect_tooltip = CJF_chengongbo_tt_1
+		add_political_power = 50
+		country_event = {
+			id = CJF_chengongbo.19
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -658,7 +746,15 @@ shared_focus = {
 		focus = CJF_Commitment_to_civil_rights
 	}
 	completion_reward = {
-		
+		add_opinion_modifier = {
+			target = FRA
+			modifier = general_intersted
+		}
+		add_opinion_modifier = {
+			target = SOV
+			modifier = general_intersted
+		}
+
 		
 	}
 }
@@ -672,8 +768,11 @@ shared_focus = {
 		focus = CJF_to_outside
 	}
 	completion_reward = {
-		
-		
+		custom_effect_tooltip = CJF_chengongbo_tt_1
+		country_event = {
+			id = CJF_chengongbo.20
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -686,8 +785,11 @@ shared_focus = {
 		focus = CJF_to_outside
 	}
 	completion_reward = {
-		
-		
+		custom_effect_tooltip = CJF_chengongbo_tt_1
+		country_event = {
+			id = CJF_chengongbo.21
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -704,7 +806,10 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_manpower = 160000
-		
+		country_event = {
+			id = CJF_chengongbo.22
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -717,7 +822,9 @@ shared_focus = {
 		focus = CJF_The_whole_country_united_outside
 	}
 	completion_reward = {
-		
+		custom_effect_tooltip = CJF_chengongbo_tt_2
+		custom_effect_tooltip = CHI_v_regional_tension_increase_plus
+		add_to_variable = { global.CHI_xinan_regional_tension = 30 }
 		
 	}
 }

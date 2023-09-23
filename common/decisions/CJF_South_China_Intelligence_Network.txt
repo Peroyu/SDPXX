@@ -29,6 +29,84 @@ CJF_South_China_Intelligence_Network = {
 					base = 50 #ai点选这个决议的意愿
 					}
         }
+        CJF_strengthen_huanan_party = {
+            icon = decision_recruit_operative
+            available = {
+                tag = CJF
+         
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                has_country_flag = CJF_Huazhong_intelligence_net
+                has_completed_focus = CJF_Who_are_enemy
+		    }
+            visible = {
+          
+                    has_country_flag = CJF_Intelligence_Network_has_begun
+                    
+                    has_completed_focus = CJF_Who_are_enemy
+		    }
+           allowed = {
+			original_tag = CJF
+		    }
+            cost = 10
+            days_remove = 10
+            days_re_enable = 30
+            modifier = {
+                
+            }
+            remove_effect = {
+              
+                add_to_variable = { global.CJF_intelligence_network_power = 15 }
+            }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
+        }
+        CJF_support_huanan_party = {
+            icon = decision_recruit_operative
+            available = {
+                tag = CJF
+                check_variable = { #检查变量大小
+                    var = global.CJF_intelligence_network_power
+                    value = 10
+                    compare = greater_than_or_equals
+                }
+                has_country_flag = CJF_Intelligence_Network_has_begun
+                has_country_flag = CJF_Huazhong_intelligence_net
+                has_completed_focus = CJF_Who_are_enemy
+		    }
+            visible = {
+          
+                    has_country_flag = CJF_Intelligence_Network_has_begun
+                    
+                    has_completed_focus = CJF_Who_are_enemy
+		    }
+           allowed = {
+			original_tag = CJF
+		    }
+            cost = 10
+            days_remove = 30
+            days_re_enable = 50
+            modifier = {
+                
+            }
+            complete_effect = {
+                add_to_variable = { global.CJF_intelligence_network_power = -10 }
+                clamp_variable = {
+                    var = global.CJF_intelligence_network_power
+                    min = 0
+                    max = 100
+                }
+            }
+            remove_effect = {
+              RCR = {
+                add_stability = -0.05
+              }
+                add_to_variable = { global.CJF_intelligence_network_power = 15 }
+            }
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
+        }
 	    CJF_train_intelligence_workers = {
             icon = decision_recruit_operative
             available = {
