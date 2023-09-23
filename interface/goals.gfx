@@ -1537,6 +1537,21 @@ spriteTypes = {
 		name = "GFX_CJF_Battle_for_the_baht"
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Battle_for_the_baht.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_CJF_Tighten_your_lifeline"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Tighten_your_lifeline.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Who_are_we_depend"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Who_are_we_depend.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Tighten_your_lifeline"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Tighten_your_lifeline.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
