@@ -1488,6 +1488,40 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Repression_of_conservatives.png"			
 	}
 
+	SpriteType = {
+		name = "GFX_CJF_Go_east"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Go_east.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Who_are_we"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Who_are_we.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_encourage_free_clubs"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_encourage_free_clubs.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Calm_the_undercurrent"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Calm_the_undercurrent.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_The_haze_cleared"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_haze_cleared.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Set_in_one"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Set_in_one.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_NSF"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_NSF.png"			
+	}
 #############################################
 	SpriteType = {
 	name = "GFX_Light_up_the_mountains"
