@@ -12,7 +12,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				
+				MMAnorthwest_first
 			}
 		}
 	}
@@ -29,7 +29,7 @@ ideas = {
 			}
 			traits = {
 				person_of_dip
-				
+				MMAlaw_master
 			}
 		}
 
@@ -47,7 +47,7 @@ ideas = {
 			}
 			traits = {
 				chief_of_staff
-				
+				MMApatriotic_general
 			}
 		}
 	}
@@ -65,7 +65,7 @@ ideas = {
 			}
 			traits = {
 				person_of_arm
-				
+				MMAnative_politician
 			}
 		}
 
@@ -84,7 +84,7 @@ ideas = {
 			}
 			traits = {
 				person_of_eco
-				
+				MMAclever_speaking
 			}
 		}
 
