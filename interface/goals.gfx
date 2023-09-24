@@ -1579,7 +1579,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CJF/GFX_CJF_countryside_laws.png"			
 	}
 
+	SpriteType = {
+		name = "GFX_CJF_return_to_right_path"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_return_to_right_path.png"			
+	}
 
+	SpriteType = {
+		name = "GFX_CJF_From_good_as_the_flow"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_From_good_as_the_flow.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_absorb_qingnian_party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_absorb_qingnian_party.png"			
+	}
 
 	SpriteType = {
 		name = "GFX_CJF_broaden_feudal_ethics"

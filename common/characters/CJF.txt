@@ -284,6 +284,23 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CJF_Zhao_Dengyu={
+		name = "CJF_Zhao_Dengyu"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Zhao_Dengyu
+				large = GFX_portrait_CJF_Zhao_Dengyu
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
 	CJF_Xiong_Shihui={
 		name = "CJF_Xiong_Shihui"
 		portraits = {
