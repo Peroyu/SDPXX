@@ -62,21 +62,10 @@ idea_categories = {
 		slot = person_of_dip
 		slot = person_of_arm
 		slot = person_of_eco
-
+		slot = chief_of_staff
 		ledger = civilian
 
 		removal_cost = -1 # works
-	}
-
-	military_staff = {
-		slot = chief_of_staff
-		slot = chief_of_army
-		slot = chief_of_navy
-		slot = chief_of_air_force
-
-		ledger = invalid # must be overridden
-
-		removal_cost = -1
 	}
 	
 	research_production = {

@@ -24,6 +24,31 @@ spriteTypes = {
 		name = "GFX_idea_NIP_Ugaki_Kazushige"
 		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ugaki_Kazushige.png"
 	}
+	##############MMA#########################
+	spriteType = {
+		name = "GFX_idea_MMA_Linjing"
+		texturefile = "gfx/interface/ministers/MMA/GFX_idea_MMA_Linjing.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MMA_Tian_Jiongjin"
+		texturefile = "gfx/interface/ministers/MMA/GFX_idea_MMA_Tian_Jiongjin.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MMA_Yang_Hucheng"
+		texturefile = "gfx/interface/ministers/MMA/GFX_idea_MMA_Yang_Hucheng.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MMA_Ma_hongbin"
+		texturefile = "gfx/interface/ministers/MMA/GFX_idea_MMA_Ma_hongbin.png"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMA_Sun_Yunrui"
+		texturefile = "gfx/interface/ministers/MMA/GFX_idea_MMA_Sun_Yunrui.png"
+	}
 	################CJF#####################
     spriteType = {
 		name = "GFX_idea_CJF_Chen_Gongbo"
