@@ -151,7 +151,7 @@ ideologies = {
 			Folkhemmet = { can_be_randomly_selected = no }
 			Guild_Socialism = { can_be_randomly_selected = no }
 			Godesberge_Programm = {can_be_randomly_selected = no}
-			New_nation_system = {can_be_randomly_selected = no}
+			
 			Left_Nationalism = {can_be_randomly_selected = no}
 			Tolstoyism = { can_be_randomly_selected = no } 
 			radical_reformism = { can_be_randomly_selected = no }
@@ -292,6 +292,7 @@ ideologies = {
 			system_revolutionism = { can_be_randomly_selected = no }
 			christian_conservatism = { can_be_randomly_selected = no }
 			conservatism_revolutionarist = { can_be_randomly_selected = no }
+			New_nation_system = {can_be_randomly_selected = no}
 		}
 		
 		dynamic_faction_names = {
