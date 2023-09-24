@@ -1549,8 +1549,183 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_CJF_Tighten_your_lifeline"
-		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Tighten_your_lifeline.png"			
+		name = "GFX_CJF_Ancestors_of_the_fire"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Ancestors_of_the_fire.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_CJF_sure_leader_centralisation"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sure_leader_centralisation.png"			
+	}
+	
+	SpriteType = {
+		name = "GFX_CJF_rebirth_of_party_nation"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_rebirth_of_party_nation.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_revival_of_culture_movement"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_revival_of_culture_movement.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_establish_schools"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_establish_schools.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_countryside_laws"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_countryside_laws.png"			
+	}
+
+
+
+	SpriteType = {
+		name = "GFX_CJF_broaden_feudal_ethics"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_broaden_feudal_ethics.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Inherit_taos"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Inherit_taos.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_get_zhou_and_han_laws"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_get_zhou_and_han_laws.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_spring_of_traditional_works"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_spring_of_traditional_works.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_remenber_national_hates"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_remenber_national_hates.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_recover_great_motherland"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_recover_great_motherland.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Almighty_government"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Almighty_government.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_The_royal_road_swings"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_royal_road_swings.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_The_appellant_also"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_appellant_also.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Practice_strategy"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Practice_strategy.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_sage_politic"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sage_politic.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Awaken_Pure_Party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Awaken_Pure_Party.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_CJF_Wooing_traditional_people"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Wooing_traditional_people.png"			
+	}
+
+
+	SpriteType = {
+		name = "GFX_CJF_truly_national_government"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_truly_national_government.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Inventory_of_local_party_offices"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Inventory_of_local_party_offices.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Leader_worship"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Leader_worship.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Dispatch_Temperance_Commissioners"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Dispatch_Temperance_Commissioners.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Rectify_party_discipline"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Rectify_party_discipline.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Training_elite_dry_cities"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Training_elite_dry_cities.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Build_strong_faith"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Build_strong_faith.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_sanqing_party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_sanqing_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Rule_by_the_party"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Rule_by_the_party.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_continue_revolution"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_continue_revolution.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_National_Salvation_and_Unity_Front"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_National_Salvation_and_Unity_Front.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Duyuguan"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Duyuguan.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_BieCangshan"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_BieCangshan.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_Spread_the_word_in_all_directions"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_Spread_the_word_in_all_directions.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_The_meager_remuneration_of_the_trouser_man"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_The_meager_remuneration_of_the_trouser_man.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_revival"
+		texturefile = "gfx/interface/goals/CJF/GFX_CJF_revival.png"			
 	}
 #############################################
 	SpriteType = {
