@@ -20,6 +20,11 @@ set_popularities = {
 	reactionism = 22
 	nationalism = 8
 }
+add_ideas = {
+VEN_af
+VEN_Democratic_Action_Party
+VEN_sas
+}
 create_country_leader = {
 	name = "罗慕洛·贝略"  # 
 	desc = "/"  # 

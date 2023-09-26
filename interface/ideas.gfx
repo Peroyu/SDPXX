@@ -1,4 +1,16 @@
 spriteTypes = {
+    spriteType = {
+		name = "GFX_idea_VEN_af"
+		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_af.png"
+	}
+	spriteType = {
+		name = "GFX_idea_VEN_Democratic_Action_Party"
+		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_Democratic_Action_Party.png"
+	}
+	spriteType = {
+		name = "GFX_idea_VEN_sas"
+		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_sas.png"
+	}
 	spriteType = {
 		name = "GFX_idea_free_trade_policy"
 		texturefile = "gfx/interface/ideas/policy/free_trade.png"

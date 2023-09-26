@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		VEN_af = {
+		    name = VEN_af
+			picture = VEN_af
+			available = {
+			}
+			modifier = {
+				air_doctrine_cost_factor = -0.2
+				air_ace_generation_chance_factor = 0.3
+				air_training_xp_gain_factor = 0.3
+				production_speed_air_base_factor = 0.5
+			}
+		}
+		VEN_Democratic_Action_Party = {
+		    name = VEN_Democratic_Action_Party
+			picture = VEN_Democratic_Action_Party
+			available = {	
+			}
+			modifier = {
+				political_power_gain = 0.05
+				social_democracy_drift = 0.05
+				moderate_socialism_drift = 0.05
+				communism_drift = 0.02
+				stability_factor = -0.1
+			}
+		}
+		VEN_sas = {
+		    name = VEN_sas
+			picture = VEN_sas
+			available = {
+			}
+			modifier = {
+			}
+		}
+	}
+}	
