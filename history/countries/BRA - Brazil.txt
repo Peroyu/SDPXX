@@ -9,22 +9,23 @@ set_stability = 0.5 #
 
 # 
 set_politics = {
-	ruling_party = social_democracy # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
- communism = 2
+ communism = 8
  committee_communism = 3
- moderate_socialism = 12
- social_democracy = 23
- Liberalism = 7
- movement_communism = 6
- conservatism = 26
- reactionism = 13
- nationalism = 8
+ moderate_socialism = 6
+ social_democracy = 5
+ Liberalism = 10
+ movement_communism = 15
+ conservatism = 25
+ reactionism = 14
+ nationalism = 6
+ restorativeism = 8
 }
 # 
 create_country_leader = {

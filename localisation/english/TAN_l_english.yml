@@ -1,16 +1,15 @@
 ﻿l_english:
- TAN_communism_party:0"外高加索共产党（布）"
- TAN_committee_communism_party:0"外高加索民主委员部"
- TAN_movement_communism_party:0""
- TAN_moderate_socialism_party:0"格鲁吉亚社会民主工党（孟）"
- TAN_social_democracy_party:0"亚美尼亚革命联盟"
- TAN_Liberalism_party:0"外高加索社会革命党"
- TAN_conservatism_party:0"穆萨瓦特党"
- TAN_reactionism_party:0"外高加索民主委员会"
- TAN_nationalism_party:0"民族委员会"
- TAN_restorativeism_party:0""
- TAN_Grigory_Arutinov:0"格里戈尔·阿秋鲁尼扬"
- TAN_Grigory_Arutinov_desc:0""
+ AFG_communism_party:0"外高加索共产党（布）"
+ AFG_committee_communism_party:0"外高加索民主委员部"
+ AFG_movement_communism_party:0""
+ AFG_moderate_socialism_party:0"格鲁吉亚社会民主工党（孟）"
+ AFG_social_democracy_party:0"亚美尼亚革命联盟"
+ AFG_Liberalism_party:0"外高加索社会革命党"
+ AFG_conservatism_party:0"穆萨瓦特党"
+ AFG_reactionism_party:0"外高加索民主委员会"
+ AFG_nationalism_party:0"民族委员会"
+ AFG_restorativeism_party:0""
+
  #国策
  
  #idea

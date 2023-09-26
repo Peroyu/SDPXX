@@ -1,0 +1,92 @@
+ideas = {
+	head_of_government = { ### Head of Government ###
+		MMA_Linjing = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MMA_Linjing"
+			}
+			traits = {
+				head_of_government
+				MMAnorthwest_first
+			}
+		}
+	}
+	person_of_dip = { ### person of dip ###
+		MMA_Tian_Jiongjin = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MMA_Tian_Jiongjin"
+			}
+			traits = {
+				person_of_dip
+				MMAlaw_master
+			}
+		}
+
+	}
+	chief_of_staff = {
+		MMA_Yang_Hucheng = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MMA_Yang_Hucheng"
+			}
+			traits = {
+				chief_of_staff
+				MMApatriotic_general
+			}
+		}
+	}
+	person_of_arm = { ### 内政部长 ###
+		
+		MMA_Ma_hongbin = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MMA_Ma_hongbin"
+			}
+			traits = {
+				person_of_arm
+				MMAnative_politician
+			}
+		}
+
+	}
+	person_of_eco = { ### person of eco ###
+		
+		MMA_Sun_Yunrui = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea MMA_Sun_Yunrui"
+			}
+			traits = {
+				person_of_eco
+				MMAclever_speaking
+			}
+		}
+
+	}
+}	

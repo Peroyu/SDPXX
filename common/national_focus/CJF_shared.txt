@@ -2408,9 +2408,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CJF_Set_in_one
 	}
-	allow_branch = {
-		has_completed_focus = CJF_Set_in_one
-	}
+	
 	cost = 1
 	x = 5
 	y = 6
