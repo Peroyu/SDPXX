@@ -460,7 +460,38 @@ ideas = {
 				    }
 
 		}
-		CJF_Xianggui_HQ
+		CJF_old_style_Army_1 = {
+		    name = CJF_old_style_Army_1
+		    picture = CJF_old_style_Army
+			allowed = {}
+			available = {}
+			modifier = {
+				army_org_factor = -0.05
+				army_morale_factor = -0.05
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				attrition = 0.1
+				war_support_factor = -0.02
+				land_night_attack = -0.1
+				    }
+
+		}
+		CJF_old_style_Army_2 = {
+		    name = CJF_old_style_Army_2
+		    picture = CJF_old_style_Army
+			allowed = {}
+			available = {}
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				attrition = 0.05
+				war_support_factor = -0.02
+				land_night_attack = -0.05
+				    }
+
+		}
+##########################近代军事👆###############################
+		CJF_Xianggui_HQ = {
 		    name = CJF_Xianggui_HQ
 		    picture = CJF_Xianggui_HQ
 			allowed = {}
@@ -476,7 +507,7 @@ ideas = {
 				    }
 
 		}
-		CJF_chuanyu_HQ
+		CJF_chuanyu_HQ = {
 		    name = CJF_chuanyu_HQ
 		    picture = CJF_chuanyu_HQ
 			allowed = {}
@@ -493,7 +524,7 @@ ideas = {
 				    }
 
 		}
-		CJF_chyanshan_HQ
+		CJF_chyanshan_HQ = {
 		    name = CJF_chyanshan_HQ
 		    picture = CJF_chyanshan_HQ
 			allowed = {}
@@ -507,8 +538,8 @@ ideas = {
 				    }
 
 		}
-##########################近代军事👆###############################
-		CJF_Guilin_HQ
+
+		CJF_Guilin_HQ = {
 		    name = CJF_Guilin_HQ
 		    picture = CJF_Guilin_HQ
 			allowed = {}
@@ -521,7 +552,7 @@ ideas = {
 				    }
 
 		}
-		CJF_Gannan_HQ
+		CJF_Gannan_HQ = {
 		    name = CJF_Gannan_HQ
 		    picture = CJF_Gannan_HQ
 			allowed = {}
