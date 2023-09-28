@@ -1,14 +1,16 @@
 ﻿l_english:
- VEN_communism_party:0""
- VEN_committee_communism_party:0""
- VEN_movement_communism_party:0""
+ VEN_communism_party:0"委内瑞拉共产党"
+ VEN_committee_communism_party:0"委内瑞拉共产党"
+ VEN_movement_communism_party:0"委内瑞拉基督教社会党"
  VEN_moderate_socialism_party:0"委内瑞拉民主行动党-左翼"
  VEN_social_democracy_party:0"委内瑞拉民主行动党"
- VEN_Liberalism_party:0""
- VEN_conservatism_party:0""
- VEN_reactionism_party:0""
- VEN_nationalism_party:0""
+ VEN_Liberalism_party:0"委内瑞拉基督教社会党"
+ VEN_conservatism_party:0"爱国军人同盟"
+ VEN_reactionism_party:0"爱国军人同盟"
+ VEN_nationalism_party:0"爱国军人同盟"
  VEN_restorativeism_party:0""
+ VEN_Romulo_Bello_desc:"罗慕洛·埃内斯托·贝坦科尔特·贝略\n----------------\n贝坦科尔特1908年出生于委内瑞拉米兰达州的瓜蒂雷，1927年进入委内瑞拉中央大学学习法律，1928年2月因发表反政府言论而造逮捕，后被驱逐出国。1931年3月在哥伦比亚成立革命左派小组，6月参加哥斯达黎加共产党的创建，1936年返回委内瑞拉并先后成立委内瑞拉组织运动和国家民主党，1939年因组织工会运动再遭迫害，第二次流亡，1941年2月回国，同年9月成立民主行动党，1944年当选为加拉加斯奥古斯丁教区众议员，1945年10月发动政变夺权，政变后任革命执政委员会主席。"
+ VEN_R_Gallegos_desc:""
 
  #国策
  
@@ -19,6 +21,8 @@
  VEN_Democratic_Action_Party_desc: "民主行动党信仰民主社会主义，主张维护民族权益和有效地保护国家自然资源。1945年10月，该党联合一批青年军官发动政变，成立了以贝坦库尔特为主席的革命执政委员会。贝坦科尔特等人在1945年10月18日发动政变，推翻了伊萨亚斯·梅迪纳·安加里塔政府，成立了由7人组成的革命执政委员会，贝坦科尔特担任执政委员会主席。"
  VEN_sas: "《巴兰基亚计划》"
  VEN_sas_desc: "1931年3月22日，贝坦科尔特同左派青年在哥伦比亚巴兰基亚成立了革命左派小组，起草了著名的《巴兰基亚计划》，这个计划的主要内容有：由文人管理公共事务，在立宪之前，不准任何军人参加政府机构；没收胡安·比森特·戈麦斯全家及其追随者的财产，惩办戈麦斯等政治犯；保障思想、言论和集会、结社自由；修改国家同本国及外国资本家签订的协议和租让活动，采取不乞求贷款的经济政策，实现石油资源国有化，由国家或市政当局控制公共服务业；在一年内召开立宪大会，选举临时政府，修改宪法和其他法律，并颁布必要的法令，以解决政治、经济和社会问题。\n现在，正是落实罗慕洛多年梦想的时刻"
+ VEN_Clean_up_corruption: "打击腐败"
+ VEN_Clean_up_corruption_desc: ""
  #决议
  
  #event

@@ -1,26 +1,27 @@
 
 state={
-	id=488
-	name="STATE_488"
+	id=977
+	name="STATE_977"
 
 	history={
 		owner = VEN
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
 		}
 		add_core_of = VEN
 		victory_points = {
-			10879 5 
+			8024 1 
 		}
 
 	}
 
 	provinces={
-		7915 10736 10849 10879 
+		8024 8080 
 	}
-	manpower=18000
+	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 	local_supplies=0.000
 }

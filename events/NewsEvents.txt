@@ -497,17 +497,23 @@ news_event = {
         hidden_effect = {
             VEN = {
                 retire_country_leader = yes
-		set_party_name = { ideology = social_democracy name = VEN_social_democracy_party_1 }
+		        set_party_name = { 
+		         ideology = social_democracy name = VEN_social_democracy_party_1 
+			    }
                 create_country_leader = {
                     name = "罗慕洛·加列戈斯"  # 
-                    desc = "/"  # 
+                    desc = "VEN_R_Gallegos_desc"  # 
                     picture = "GFX_portrait_VEN_R_Gallegos"  # 
-                    expire = "1953.4.30"  # 
+                    expire = "1980.4.30"  # 
                     ideology = Left_Nationalism # 
                     traits = {  # 
-                        #
+                        VEN_R_Gallegos#
                     }
                 }
+				country_event = {
+				    id = VLP.1
+					days = 40
+				}
             }
         }
     }

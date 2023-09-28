@@ -246,5 +246,8 @@ leader_traits = {
 		trade_opinion_factor = 0.2
 		global_building_slots_factor = 0.01
 	}
-
+############lam############
+    VEN_R_Gallegos = {
+	random = no
+	}
 }

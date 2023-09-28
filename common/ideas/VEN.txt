@@ -33,5 +33,17 @@ ideas = {
 			modifier = {
 			}
 		}
+		VEN_Clean_up_corruption = {
+		    name = VEN_Clean_up_corruption
+			picture = VEN_Clean_up_corruption
+			available = {
+			}
+			modifier = {
+			stability_factor = -0.3
+			political_power_gain = 0.5
+			local_resources_factor = 0.1
+			research_speed_factor = 0.1
+			}
+		}
 	}
 }	

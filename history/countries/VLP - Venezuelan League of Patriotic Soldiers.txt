@@ -1,0 +1,31 @@
+﻿capital = 307
+
+oob = "empty"
+
+set_war_support = 0.6 
+set_stability = 0.2
+set_convoys = 10
+set_politics = {
+	ruling_party = reactionism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	conservatism = 20
+	reactionism = 60
+	nationalism = 20
+}
+add_ideas = {
+
+}
+create_country_leader = {
+	name = "马科斯·希门尼斯"  # 
+	desc = "/"  # 
+	picture = "GFX_portrait_VEN_Marcos_Jiménez"  # 
+	expire = "1953.4.30"  # 
+	ideology = despotism # 
+	traits = {  # 
+		#
+	}
+}
