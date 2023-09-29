@@ -1,13 +1,13 @@
 ﻿l_english:
- BOR_communism_party:0""
- BOR_committee_communism_party:0""
+ BOR_communism_party:0"沙捞越共产党"
+ BOR_committee_communism_party:0"南洋共产党（沙捞越）"
  BOR_movement_communism_party:0""
  BOR_moderate_socialism_party:0""
  BOR_social_democracy_party:0""
  BOR_Liberalism_party:0""
- BOR_conservatism_party:0""
- BOR_reactionism_party:0""
- BOR_nationalism_party:0""
+ BOR_conservatism_party:0"英属北婆罗洲-沙捞越总督府"
+ BOR_reactionism_party:0"沙巴巫统"
+ BOR_nationalism_party:0"沙巴巫统"
  BOR_restorativeism_party:0""
 
  #国策

@@ -1,14 +1,14 @@
 ﻿l_english:
- EST_communism_party:0""
- EST_committee_communism_party:0""
- EST_movement_communism_party:0""
- EST_moderate_socialism_party:0""
- EST_social_democracy_party:0""
- EST_Liberalism_party:0""
- EST_conservatism_party:0""
- EST_reactionism_party:0""
- EST_nationalism_party:0""
- EST_restorativeism_party:0""
+ EST_communism_party:0"爱沙尼亚共产党（布尔什维克）"
+ EST_committee_communism_party:0"爱沙尼亚共产党（布尔什维克）"
+ EST_movement_communism_party:0"共和国党"
+ EST_moderate_socialism_party:0"爱沙尼亚共产党（布尔什维克）"
+ EST_social_democracy_party:0"爱沙尼亚社会工人党"
+ EST_Liberalism_party:0"爱沙尼亚社会工人党"
+ EST_conservatism_party:0"共和国党"
+ EST_reactionism_party:0"森林兄弟"
+ EST_nationalism_party:0"森林兄弟"
+ EST_restorativeism_party:0"森林兄弟"
 
  #国策
  
