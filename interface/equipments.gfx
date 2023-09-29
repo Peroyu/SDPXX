@@ -1,6 +1,250 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_gw_tank_equipment_medium"
+		texturefile = "gfx/interface/technologies/GFX_basic_light_tank_chassis_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_light_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/basic_light_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_cavalry_tank_1_medium"
+		texturefile = "gfx/interface/technologies/GFX_cavalry_tank_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_light_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/improved_light_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_light_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/advanced_light_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_medium_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_medium_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_medium_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_medium_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GFX_war_medium_tank_chassiss_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_modern_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/generic_modern_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_modern_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GFX_main_battle_tank_chassis2_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_modern_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/GFX_60smain_battle_tank_chassis_improve_medium.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/basic_heavy_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/advanced_heavy_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/advanced_heavy_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GFX_war_heavy_tank_chassis_medium.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_heavy_tank_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/GFX_50s_heavy_tank_chassis_medium.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_super_heavy_tank_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/GFX_generic_super_heavy_tank_medium.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_super_heavy_tank_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GFX_super_heavy_tank_chassis2_medium.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_mechanized_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GFX_mechanised_infantry4_medium.png"
+	}
+	spriteType = {
+		name = "GFX_mechanized_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/GFX_mechanised_infantry5_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_super_light_armor_1_medium"
+		texturefile = "gfx/interface/technologies/GFX_super_light_armor_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_super_light_armor_2_medium"
+		texturefile = "gfx/interface/technologies/GFX_super_light_armor_1_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_equipment_IFV1_medium"
+		texturefile = "gfx/interface/technologies/GFX_IFV1_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_equipment_IFV2_medium"
+		texturefile = "gfx/interface/technologies/GFX_IFV2_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_armored_car_at_equipment_medium"
+		texturefile = "gfx/interface/technologies/GFX_armored_car_at_upgrade_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_motorized_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/GFX_motorised_infantry_2_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/archetype_motorised_infantry_0.png"
+	}
+
+	spriteType = {
+		name = "GFX_motorized_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/GFX_motorised_infantry_3_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_motorized_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/GFX_motorised_infantry_4_medium.png"
+	}
 
 	
+	##########################################################
+
+	spriteType = {
+		name = "GFX_CJF_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/artillery_equipment.png"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/artillery_equipment.png"
+	}
+
+	spriteType = {
+		name = "GFX_MMA_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/artillery_equipment.png"
+	}
+
+	spriteType = {
+		name = "GFX_XKS_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/artillery_equipment.png"
+	}
+
+	spriteType = {
+		name = "GFX_CJF_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_MMA_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_XKS_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_0_medium.png"
+	}
+
+	spriteType = {
+		name = "GFX_CJF_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MMA_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_XKS_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CJF_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GDC_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_MMA_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_XKS_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JAP_technology_sharing_default"
+		texturefile = "gfx/interface/tech_sharing/GFX_JAP_technology_sharing_default.png"
+	}
 	
 	
 }
