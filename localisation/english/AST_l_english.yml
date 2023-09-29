@@ -1,14 +1,14 @@
 ﻿l_english:
- AST_communism_party:0""
- AST_committee_communism_party:0""
- AST_movement_communism_party:0""
- AST_moderate_socialism_party:0""
- AST_social_democracy_party:0""
- AST_Liberalism_party:0""
- AST_conservatism_party:0""
- AST_reactionism_party:0""
- AST_nationalism_party:0""
- AST_restorativeism_party:0""
+ AST_communism_party:0"澳大利亚共产党"
+ AST_committee_communism_party:0"澳大利亚共产党"
+ AST_movement_communism_party:0"自由国家联盟-乡村党"
+ AST_moderate_socialism_party:0"朗工党"
+ AST_social_democracy_party:0"澳大利亚工党"
+ AST_Liberalism_party:0"自由国家联盟-自由党"
+ AST_conservatism_party:0"澳大利亚总督府"
+ AST_reactionism_party:0"澳大利亚总督府"
+ AST_nationalism_party:0"自由国家联盟-国家派"
+ AST_restorativeism_party:0"澳大利亚总督府"
 
  #国策
  

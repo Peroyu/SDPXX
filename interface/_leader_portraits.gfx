@@ -676,6 +676,10 @@
 		texturefile = "gfx/leaders/ASIA/GFX_portrait_BOR_sudan_aomor.png"		
 	}
 	spriteType = {
+		name = "Portrait_MNL_Chen_Puung"
+		texturefile = "gfx/leaders/ASIA/Portrait_MNL_Chen_Puung.png"		
+	}
+	spriteType = {
 		name = "LAB_Duro_Pucar_Stari_portrait"
 		texturefile = "gfx/leaders/LAB/Duro_Pucar_Stari.png"		
 	}
