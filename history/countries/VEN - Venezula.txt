@@ -2,7 +2,8 @@
 
 oob = "empty"
 
-
+set_war_support = 0.6 
+set_stability = 0.8
 set_convoys = 10
 set_politics = {
 	ruling_party = social_democracy
@@ -26,10 +27,10 @@ VEN_Democratic_Action_Party
 VEN_sas
 }
 create_country_leader = {
-	name = "罗慕洛·贝略"  # 
-	desc = "/"  # 
+	name = "罗慕洛·贝坦科尔特"  # 
+	desc = "VEN_Romulo_Bello_desc"  # 
 	picture = "GFX_portrait_VEN_Romulo_Bello"  # 
-	expire = "1953.4.30"  # 
+	expire = "1980.4.30"  # 
 	ideology = Left_Nationalism # 
 	traits = {  # 
 		#

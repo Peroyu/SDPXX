@@ -513,14 +513,14 @@ ideas = {
 			allowed = {}
 			available = {}
 			modifier = {
-				army_org_factor = -0.05
-				army_morale_factor = -0.05
-				army_attack_factor = -0.10
-				army_defence_factor = -0.05
-				attrition = 0.15
-				war_support_factor = -0.07
-				land_night_attack = -0.2
-				experience_gain_army = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				army_attack_factor = 0.10
+				army_defence_factor = 0.02
+				attrition = -0.15
+				war_support_factor = 0.01
+				land_night_attack = 0.05
+				experience_gain_army = -0.05
 				    }
 
 		}
@@ -530,11 +530,11 @@ ideas = {
 			allowed = {}
 			available = {}
 			modifier = {
-				army_morale_factor = -0.05
-				attrition = 0.10
-				war_support_factor = -0.02
-				land_night_attack = -0.1
-				experience_gain_army = 0.05
+				army_morale_factor = 0.05
+				attrition = -0.10
+				war_support_factor = 0.02
+				land_night_attack = 0.1
+				experience_gain_army = -0.05
 				    }
 
 		}
@@ -545,10 +545,10 @@ ideas = {
 			allowed = {}
 			available = {}
 			modifier = {
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
-				war_support_factor = 0.1
-				land_night_attack = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				war_support_factor = 0.05
+				land_night_attack = 0.05
 				    }
 
 		}
@@ -558,9 +558,9 @@ ideas = {
 			allowed = {}
 			available = {}
 			modifier = {
-				attrition = -0.1
+				attrition = -0.05
 				army_org_factor = 0.05
-				army_morale_factor = 0.1
+				army_morale_factor = 0.05
 				    }
 
 		}

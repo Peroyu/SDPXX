@@ -935,7 +935,12 @@ spriteType = {
 		name = "GFX_portrait_VEN_R_Gallegos"
 		texturefile = "gfx/leaders/Latin_America/GFX_portrait_VEN_R_Gallegos.png"		
 	}
-
+    
+	spriteType = {
+		name = "GFX_portrait_VEN_Marcos_Jiménez"
+		texturefile = "gfx/leaders/Latin_America/GFX_portrait_VEN_Marcos_Jiménez.png"		
+	}
+	
 	spriteType = {
 		name = "portrait_CHL_Gabriel_Videla"
 		texturefile = "gfx/leaders/Latin_America/portrait_CHL_Gabriel_Videla.png"		

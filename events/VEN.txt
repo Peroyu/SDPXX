@@ -1,0 +1,58 @@
+﻿add_namespace = VLP
+country_event = {
+    id = VLP.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	VLP.1 FROM = [From.GetName]" }
+	title = VLP.1.t
+	desc = VLP.1.d
+	picture = GFX_VLP_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 307 = {set_demilitarized_zone = yes}   
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			country_event = VLP.2
+			days=5
+		}
+		name = VLP.1.a
+	}
+	
+}
+country_event = {
+    id = VLP.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	VLP.2 FROM = [From.GetName]" }
+	title = VLP.2.t
+	desc = VLP.2.d
+	picture = GFX_VLP_2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 307 = {set_demilitarized_zone = yes} 
+         978 = {set_demilitarized_zone = yes}		 
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			news_event = LaAme.2
+			days=5
+		}
+		name = VLP.2.a
+	}
+	
+}

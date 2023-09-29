@@ -12,6 +12,10 @@ on_actions = {
 					id = color.1
 					days = 560
 				}
+				news_event = {
+				    id = LaAme.1
+					days = 400
+				}
 			}
 			#han
 			set_variable = { 605.nationality = 1 }
