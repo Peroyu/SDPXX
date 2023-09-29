@@ -10,14 +10,17 @@ set_stability = 0.5 # 设置稳定度
 # 设置执政党以及选举
 
 set_politics = {
-	ruling_party = reactionism
+	ruling_party = movement_communism
 	last_election = "1947.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	reactionism = 80
+	moderate_socialism = 20
+	movement_communism = 30
+	reactionism = 10
 	conservatism = 20
+	nationalism = 20
 }
 add_ideas = {
 export_focus
@@ -45,6 +48,6 @@ create_country_leader = {
 	desc = "SIK_Sheng_Shicai_desc"  
 	picture = "gfx\leaders\CHI\SIK_Sheng_Shicai.png"  # 人物头像
 	expire = "1985.1.1"  
-	ideology = despotism 
+	ideology = Patriarchal_conservatism 
 	traits = {  }
 }

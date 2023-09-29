@@ -1,19 +1,19 @@
 ﻿l_english:
- VEM_communism_party:0""
- VEM_committee_communism_party:0""
- VEM_movement_communism_party:0""
- VEM_moderate_socialism_party:0""
- VEM_social_democracy_party:0""
- VEM_Liberalism_party:0""
- VEM_conservatism_party:0""
- VEM_reactionism_party:0""
- VEM_nationalism_party:0""
- VEM_restorativeism_party:0""
+ YEM_communism_party:0""
+ YEM_committee_communism_party:0""
+ YEM_movement_communism_party:0""
+ YEM_moderate_socialism_party:0""
+ YEM_social_democracy_party:0""
+ YEM_Liberalism_party:0""
+ YEM_conservatism_party:0""
+ YEM_reactionism_party:0""
+ YEM_nationalism_party:0""
+ YEM_restorativeism_party:0""
 
  #国策
  
  #idea
  #决议
  
- #eVEMt
+ #eYEMt
  
