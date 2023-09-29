@@ -1894,6 +1894,9 @@ shared_focus = {
 	prerequisite = {
 		focus = CJF_reconstruct_Xianggui_HQ
 	}
+	available = {
+		date > 1948.1.1
+	}
 	x = 18
 	y = 3
 	completion_reward = {
@@ -1916,6 +1919,9 @@ shared_focus = {
 	}
 	x = 18
 	y = 4
+	available = {
+		date > 1949.1.1
+	}
 	completion_reward = {
 	  748 = {
 			prioritize = { 219 }
@@ -1936,6 +1942,9 @@ shared_focus = {
 	}
 	x = 18
 	y = 5
+	available = {
+		date > 1949.1.1
+	}
 	completion_reward = {
 	 748 = {
 			prioritize = { 219 }
@@ -1969,6 +1978,9 @@ shared_focus = {
 	}
 	x = 20
 	y = 3
+	available = {
+		date > 1948.1.1
+	}
 	completion_reward = {
 	 859 = {
 			prioritize = { 219 }
@@ -2021,6 +2033,9 @@ shared_focus = {
 	}
 	x = 24
 	y = 2
+	available = {
+		date > 1948.1.1
+	}
 	completion_reward = {
 	 army_experience = 100
 	 add_command_power = 200
@@ -2162,6 +2177,9 @@ shared_focus = {
 	}
 	x = 24
 	y = 7
+	available = {
+		date > 1949.1.1
+	}
 	completion_reward = {
 	 add_war_support = 0.4
 	 add_stability = 0.3
@@ -2176,9 +2194,7 @@ shared_focus = {
 	x = 20
 	y = 6
 	available = {
-		NOT = {
-			has_country_flag = CHI_politic_apart_condition
-		}
+		has_full_control_of_state = 908
 	}
 	completion_reward = {
 	}
@@ -2189,6 +2205,9 @@ shared_focus = {
 	cost = 2
 	prerequisite = {
 		focus = CJF_milltery_replan
+	}
+	available = {
+		date > 1950.1.1
 	}
 	x = 20
 	y = 7
@@ -2202,6 +2221,9 @@ shared_focus = {
 	prerequisite = {
 		focus = CJF_MIN39th_armed_division
 	}
+	available = {
+		date > 1950.1.1
+	}
 	x = 20
 	y = 8
 	completion_reward = {
@@ -2214,6 +2236,9 @@ shared_focus = {
 	prerequisite = {
 		focus = CJF_milltery_replan
 	}
+	available = {
+		date > 1950.1.1
+	}
 	x = 18
 	y = 7
 	completion_reward = {
@@ -2225,6 +2250,9 @@ shared_focus = {
 	cost = 3
 	prerequisite = {
 		focus = CJF_MIN39th_attack_division
+	}
+	available = {
+		date > 1950.1.1
 	}
 	x = 18
 	y = 8
@@ -2408,7 +2436,9 @@ shared_focus = {
 	prerequisite = {
 		focus = CJF_Set_in_one
 	}
-	
+	allow_branch = {
+		has_complete_focus = CJF_Set_in_one
+	}
 	cost = 1
 	x = 5
 	y = 6

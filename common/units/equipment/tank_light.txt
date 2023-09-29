@@ -55,7 +55,7 @@ equipments = {
 		fuel_consumption = 2.4
 	}
 
-	 WW1 tank
+	 #WW1 tank
 	gw_tank_equipment = {
 		year = 1914
 	
