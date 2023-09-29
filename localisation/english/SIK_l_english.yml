@@ -1,14 +1,14 @@
 ﻿l_english:
- SIK_communism_party:0""
- SIK_committee_communism_party:0""
- SIK_movement_communism_party:0""
- SIK_moderate_socialism_party:0""
- SIK_social_democracy_party:0""
- SIK_Liberalism_party:0""
- SIK_conservatism_party:0""
- SIK_reactionism_party:0""
- SIK_nationalism_party:0""
- SIK_restorativeism_party:0""
+ SIK_communism_party:0"中国共产党-西北局"
+ SIK_committee_communism_party:0"中国共产党-西北局"
+ SIK_movement_communism_party:0"中国国民党"
+ SIK_moderate_socialism_party:0"中国国民党"
+ SIK_social_democracy_party:0"中国国民党"
+ SIK_Liberalism_party:0"中国国民党"
+ SIK_conservatism_party:0"中国国民党"
+ SIK_reactionism_party:0"东突厥斯坦运动"
+ SIK_nationalism_party:0"东突厥斯坦运动"
+ SIK_restorativeism_party:0"东突厥斯坦运动"
 
  #国策
  

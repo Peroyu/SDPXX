@@ -1,14 +1,14 @@
 ﻿l_english:
- THA_communism_party:0""
- THA_committee_communism_party:0""
- THA_movement_communism_party:0""
- THA_moderate_socialism_party:0""
- THA_social_democracy_party:0""
- THA_Liberalism_party:0""
- THA_conservatism_party:0""
- THA_reactionism_party:0""
- THA_nationalism_party:0""
- THA_restorativeism_party:0""
+ THA_communism_party:0"暹罗共产党"
+ THA_committee_communism_party:0"暹罗共产党"
+ THA_movement_communism_party:0"人民党"
+ THA_moderate_socialism_party:0"曼谷各业工人联合会"
+ THA_social_democracy_party:0"联合民主同盟"
+ THA_Liberalism_party:0"自由泰人运动"
+ THA_conservatism_party:0"人民党"
+ THA_reactionism_party:0"人民党/保王党"
+ THA_nationalism_party:0"人民党/保王党"
+ THA_restorativeism_party:0"保王党"
 
  #国策
  

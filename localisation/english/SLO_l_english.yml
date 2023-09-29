@@ -1,15 +1,15 @@
 ﻿l_english:
  SLO_council_desc:0"§Y成立日期§!:1944年11月7日\n-----------\n斯洛伐克人曾经在1939年以整个国家的背叛给予社会主义者们——特别是匈牙利的社会沙文主义者们以沉重的一击，在德意志帝国的援助下，斯洛伐克再一次从匈牙利的野蛮霸权中独立，并建立了属于斯洛伐克人自己的斯洛伐克共和国。\n然而，好景不长，1944年，匈牙利人随着社会主义者的国际联军的进军再一次回到了匈牙利大平原，社会主义者们在布拉迪斯拉发和斯洛伐克祖国外拉开大炮，而斯洛伐克人也已经与德意志帝国盟友做好了对抗赤潮的准备，但即便如此，他们仍然不敌从东西南三个方向向斯洛伐克发起围攻的联军，当德意志帝国总参谋部电告布拉迪斯拉发德军的撤退时，斯洛伐克人将自己民族的精华集结到了布拉迪斯拉发，发誓将在斯洛伐克人的首都把战争进行到最后一刻。\n但国际联军却向斯洛伐克伸出了橄榄枝——南方残酷的贝尔格莱德围城战向国际联军预示着他们强攻布拉迪斯拉发的后果，于是在极大的让步下，第三国际妥协了，斯洛伐克人的力量被和平解散，人们四散到乡村。第三国际则在回归的前斯洛伐克苏维埃共和国官员和投诚的斯洛伐克人间建立了一个联合政府，这就是斯洛伐克地区管理委员会。\n然而，随着布达佩斯的影响力卷土重来，每一个斯洛伐克人，都在警惕地注视着布拉迪斯拉发，和即将进行的南斯洛伐克民族自决公投……"
- SLO_communism_party:0""
- SLO_committee_communism_party:0""
- SLO_movement_communism_party:0""
+ SLO_communism_party:0"斯洛伐克匈牙利共产党"
+ SLO_committee_communism_party:0"斯洛伐克匈牙利共产党"
+ SLO_movement_communism_party:0"民主党"
  SLO_moderate_socialism_party:0"斯洛伐克地区管理委员会"
- SLO_social_democracy_party:0""
- SLO_Liberalism_party:0""
- SLO_conservatism_party:0""
- SLO_reactionism_party:0""
- SLO_nationalism_party:0""
- SLO_restorativeism_party:0"" 
+ SLO_social_democracy_party:0"斯洛伐克工人联盟"
+ SLO_Liberalism_party:0"民主党"
+ SLO_conservatism_party:0"民主党"
+ SLO_reactionism_party:0"赫林卡斯洛伐克人民党"
+ SLO_nationalism_party:0"赫林卡斯洛伐克人民党"
+ SLO_restorativeism_party:0"赫林卡斯洛伐克人民党" 
  #国策
  
  #idea

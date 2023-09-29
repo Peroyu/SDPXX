@@ -1,14 +1,14 @@
 ﻿l_english:
- SHN_communism_party:0""
- SHN_committee_communism_party:0""
- SHN_movement_communism_party:0""
- SHN_moderate_socialism_party:0""
- SHN_social_democracy_party:0""
- SHN_Liberalism_party:0""
- SHN_conservatism_party:0""
- SHN_reactionism_party:0""
- SHN_nationalism_party:0""
- SHN_restorativeism_party:0""
+ SHN_communism_party:0"马来亚共产党"
+ SHN_committee_communism_party:0"马来亚共产党"
+ SHN_movement_communism_party:0"马来亚马来国民党"
+ SHN_moderate_socialism_party:0"马来亚共产党"
+ SHN_social_democracy_party:0"马来亚民主同盟"
+ SHN_Liberalism_party:0"马来亚马来国民党"
+ SHN_conservatism_party:0"英属马来亚总督府"
+ SHN_reactionism_party:0"国家党"
+ SHN_nationalism_party:0"巫统"
+ SHN_restorativeism_party:0"泛马最高宗教理事会"
 
  #国策
  

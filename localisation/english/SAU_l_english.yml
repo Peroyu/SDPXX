@@ -1,14 +1,14 @@
 ﻿l_english:
- SAU_communism_party:0""
- SAU_committee_communism_party:0""
- SAU_movement_communism_party:0""
- SAU_moderate_socialism_party:0""
- SAU_social_democracy_party:0""
- SAU_Liberalism_party:0""
- SAU_conservatism_party:0""
- SAU_reactionism_party:0""
- SAU_nationalism_party:0""
- SAU_restorativeism_party:0""
+ SAU_communism_party:0"民族复兴阵线"
+ SAU_committee_communism_party:0"民族复兴阵线"
+ SAU_movement_communism_party:0"民族复兴阵线"
+ SAU_moderate_socialism_party:0"民族复兴阵线"
+ SAU_social_democracy_party:0"民族复兴阵线"
+ SAU_Liberalism_party:0"国王支持者"
+ SAU_conservatism_party:0"国王支持者"
+ SAU_reactionism_party:0"国王支持者"
+ SAU_nationalism_party:0"国王支持者"
+ SAU_restorativeism_party:0"国王支持者"
 
  #国策
  

@@ -1,13 +1,13 @@
 ﻿l_english:
- OCE_communism_party:0""
- OCE_committee_communism_party:0""
- OCE_movement_communism_party:0""
- OCE_moderate_socialism_party:0""
- OCE_social_democracy_party:0""
- OCE_Liberalism_party:0""
- OCE_conservatism_party:0""
- OCE_reactionism_party:0""
- OCE_nationalism_party:0""
+ OCE_communism_party:0"印度尼西亚共产党"
+ OCE_committee_communism_party:0"印度尼西亚共产党"
+ OCE_movement_communism_party:0"印度尼西亚民族党"
+ OCE_moderate_socialism_party:0"印度尼西亚共产党"
+ OCE_social_democracy_party:0"印度尼西亚民族党"
+ OCE_Liberalism_party:0"印度尼西亚民族党"
+ OCE_conservatism_party:0"荷兰反革命党"
+ OCE_reactionism_party:0"荷兰反革命党"
+ OCE_nationalism_party:0"印度尼西亚民族党"
  OCE_restorativeism_party:0""
 
  #国策
