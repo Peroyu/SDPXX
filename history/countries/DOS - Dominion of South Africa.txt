@@ -9,7 +9,7 @@ set_stability = 0.4 #
 
 
 set_politics = {
-	ruling_party = conservatism # 
+	ruling_party = movement_communism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = portrait_DOS_jan_smuts
 	expire = "1948.5.2"  # 
-	ideology = authoritarian_democracy
+	ideology = FFFFF_FFF
 	traits = {  # 
 		#
 	}

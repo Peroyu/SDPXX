@@ -1,4 +1,7 @@
 ﻿l_english:
+ has_proxy_war:"我们能够干涉这场战争"
+ no_proxy_war:"我们没有干涉这场战争"
+ SDP_Diplomacy_Block:"为保证游戏的正常运行，SDP已经关闭了除派出志愿军以外的所有手动外交功能"
  SDP_delayed_tooltip:"此国家相关内容将会在后续版本中发布"
  SDP_delayed_tooltip_tt:"§R敬请期待！§!"
  MENU_zhihu:"我们的知乎专栏"

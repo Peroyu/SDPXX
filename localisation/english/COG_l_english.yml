@@ -4,11 +4,11 @@
  COG_movement_communism_party:0""
  COG_moderate_socialism_party:0""
  COG_social_democracy_party:0""
- COG_Liberalism_party:0""
- COG_conservatism_party:0""
- COG_reactionism_party:0""
- COG_nationalism_party:0""
- COG_restorativeism_party:0""
+ COG_Liberalism_party:0"刚果德资"
+ COG_conservatism_party:0"比利时-德意志-刚果总督府"
+ COG_reactionism_party:0"比利时-德意志-刚果总督府"
+ COG_nationalism_party:0"刚果王酋"
+ COG_restorativeism_party:0"刚果王酋"
 
  #国策
  

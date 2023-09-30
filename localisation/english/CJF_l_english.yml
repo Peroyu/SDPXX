@@ -554,11 +554,14 @@
  CJF_strengthen_huanan_party:"强化东方地下党组织"
  CJF_support_huanan_party:"破坏联邦网络"
 
- CJF_xibei_fees:"西北国防经费"
- CJF_xibei_fees_desc:"西北战线乃是我们的抗日战争中不可或缺的一环，随着马鸿逵和国民党在同马步芳的斗争中取得胜利，这一地区也再一次暂时脱离了投降日本帝国的风险，也正因为如此，我们也必须向西北政府发放必要的经费以维持他们的战线，以及他们对于我们中央政府的支持"
+ CJF_xibei_fees:"中央国防经费"
+ CJF_xibei_fees_desc:"作为真正的中央政府，我们仍然负有支持地方政府以及地方力量的责任与义务，无论是为了在地方宣示中央政府的存在，抑或加强他们对于中央政府的向心力，我们都有必要向地方发放经费，并对地方政府的军事以及经济建设提供必要的财政和行政支持。"
  CJF_Xibei_fees_1:"向马家军输送资金"
  CJF_Xibei_fees_2:"向马家军输送大笔资金"
  CJF_Xibei_fees_3:"向马家军派出顾问"
+ CJF_huanan_fees_1:"向广西输送资金"
+ CJF_huanan_fees_2:"向广西输送大笔资金"
+ CJF_huanan_fees_3:"向广西派出顾问"
  
  CHI_xingxingxia:"星星峡通道已经打通"
  CHI_international_bought:"国际军火贸易"

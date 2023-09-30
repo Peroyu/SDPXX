@@ -1,14 +1,14 @@
 ﻿l_english:
  KAS_communism_party:0""
  KAS_committee_communism_party:0""
- KAS_movement_communism_party:0""
+ KAS_movement_communism_party:0"全印穆斯林人民党"
  KAS_moderate_socialism_party:0""
- KAS_social_democracy_party:0""
- KAS_Liberalism_party:0""
- KAS_conservatism_party:0""
- KAS_reactionism_party:0""
- KAS_nationalism_party:0""
- KAS_restorativeism_party:0""
+ KAS_social_democracy_party:0"全印穆斯林人民党"
+ KAS_Liberalism_party:0"全印穆斯林联盟"
+ KAS_conservatism_party:0"全印穆斯林联盟"
+ KAS_reactionism_party:0"克什米尔穆斯林联盟"
+ KAS_nationalism_party:0"克什米尔穆斯林联盟"
+ KAS_restorativeism_party:0"土邦君主"
 
  #国策
  

@@ -69,6 +69,18 @@ CHI_reuni = {
 			   target = CJF
 			   type = annex_everything 
 		      }   
+			  declare_war_on = {
+				target = GDC
+				type = annex_everything 
+			   }   
+			   declare_war_on = {
+				target = SIK
+				type = annex_everything 
+			   }   
+			   declare_war_on = {
+				target = MMA
+				type = annex_everything 
+			   }   
 		   } 
           	 
 		  cost = 1

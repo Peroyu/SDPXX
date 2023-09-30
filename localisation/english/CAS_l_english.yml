@@ -1,14 +1,14 @@
 ﻿l_english:
- CAS_communism_party:0""
- CAS_committee_communism_party:0""
+ CAS_communism_party:0"哈萨克斯坦共产党（布尔什维克）"
+ CAS_committee_communism_party:0"哈萨克斯坦共产党（布尔什维克）"
  CAS_movement_communism_party:0""
- CAS_moderate_socialism_party:0""
- CAS_social_democracy_party:0""
+ CAS_moderate_socialism_party:0"哈萨克斯坦共产党（布尔什维克）"
+ CAS_social_democracy_party:0"哈萨克斯坦共产党（布尔什维克）"
  CAS_Liberalism_party:0""
  CAS_conservatism_party:0""
- CAS_reactionism_party:0""
- CAS_nationalism_party:0""
- CAS_restorativeism_party:0""
+ CAS_reactionism_party:0"中亚巴斯玛奇运动"
+ CAS_nationalism_party:0"中亚巴斯玛奇运动"
+ CAS_restorativeism_party:0"中亚巴斯玛奇运动"
 
  #国策
  

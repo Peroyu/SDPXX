@@ -1,14 +1,14 @@
 ﻿l_english:
- URG_communism_party:0""
- URG_committee_communism_party:0""
- URG_movement_communism_party:0""
- URG_moderate_socialism_party:0""
- URG_social_democracy_party:0""
- URG_Liberalism_party:0""
- URG_conservatism_party:0""
- URG_reactionism_party:0""
- URG_nationalism_party:0""
- URG_restorativeism_party:0""
+ URG_communism_party:0"乌拉圭共产党"
+ URG_committee_communism_party:0"乌拉圭共产党"
+ URG_movement_communism_party:0"白党"
+ URG_moderate_socialism_party:0"红党"
+ URG_social_democracy_party:0"乌拉圭社会党"
+ URG_Liberalism_party:0"红党"
+ URG_conservatism_party:0"白党"
+ URG_reactionism_party:0"国家安全委员会"
+ URG_nationalism_party:0"国家安全委员会"
+ URG_restorativeism_party:0"国家安全委员会"
 
  #国策
  

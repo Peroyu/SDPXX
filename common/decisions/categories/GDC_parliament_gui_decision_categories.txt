@@ -2,7 +2,7 @@ parliament_gui_decision_category = {
 	icon = decision_category_SWI_absolute_neutrality
 
 	picture = 
-
+	priority = 10000
 	allowed = { 
 		original_tag = GDC
 	}

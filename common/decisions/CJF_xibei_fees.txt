@@ -101,4 +101,96 @@ CJF_xibei_fees = {
 					base = 50 #ai点选这个决议的意愿
 					}
 	}
+
+	CJF_huanan_fees_1 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+		
+		
+		visible = {
+			tag = CJF
+			GDC = {
+				has_war_with = GNP
+			}
+		}
+		cost = 50
+		days_remove = 5
+		days_re_enable = 25
+		remove_effect = {
+			GDC = {
+				add_political_power = 45
+				country_event = {
+					id = MMA.3
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
+	}
+	CJF_huanan_fees_2 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+		
+		visible = {
+			tag = CJF
+			GDC = {
+				has_war_with = GNP
+			}
+		}
+		cost = 150
+		days_remove = 10
+		days_re_enable = 50
+		remove_effect = {
+			GDC = {
+				add_political_power = 135
+				country_event = {
+					id = MMA.3
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
+	}
+	CJF_huanan_fees_3 = {
+		icon = decision_eng_trade_unions_demand
+		allowed = {
+			original_tag = CJF
+		}
+	
+		visible = {
+			tag = CJF
+			GDC = {
+				has_war_with = GNP
+			}
+		}
+		cost = 50
+		days_remove = 30
+		days_re_enable = 150
+		complete_effect = {
+			add_command_power = -50
+		}
+		remove_effect = {
+			GDC = {
+				add_timed_idea = {
+					idea = MMA_zhongyang 
+					days = 120
+					}
+				country_event = {
+					id = MMA.4
+					days = 1
+				}
+			}
+		}
+		ai_will_do = {
+					base = 50 #ai点选这个决议的意愿
+					}
+	}
 }

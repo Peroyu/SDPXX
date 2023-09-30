@@ -203,22 +203,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_CJF_infantry_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_GDC_infantry_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_MMA_infantry_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_2.dds"
 	}
 
 	spriteType = {
 		name = "GFX_XKS_infantry_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/equip/CHI/GFX_CJF_infantry_equipment_1_medium.dds"
+		texturefile = "gfx/interface/technologies/equip/CHI/SOV_infantry_equipment_2.dds"
 	}
 
 	spriteType = {

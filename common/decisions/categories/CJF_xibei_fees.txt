@@ -6,11 +6,15 @@ CJF_xibei_fees = {
 	}
     visible = {
 		tag = CJF
-    NOT = { country_exists = CMA }
+		NOT = {
+			country_exists = CMA
+		}
 	}
 	available = {
-		NOT = {
-			has_country_flag = CHI_politic_apart_condition
+		CJF = {
+			NOT = {
+				has_country_flag = CHI_politic_apart_condition
+			}
 		}
 		MMA = {
 			has_country_leader = { ruling_only = yes name = "马鸿逵" }
