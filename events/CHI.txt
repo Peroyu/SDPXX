@@ -109,6 +109,61 @@ country_event = {
 		}
 	}
 }
+country_event = {
+    id = CHIwar.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.100 FROM = [From.GetName]" }
+	title = CHIwar.1.t
+	desc = CHIwar.1.d
+	picture = GFX_CHIwar.1
+	
+
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			all_state = {
+				limit = {
+					is_demilitarized_zone = yes
+					is_owned_and_controlled_by = RCR
+				}
+				set_demilitarized_zone = no
+			}
+			
+		  CJF = {
+		      create_faction = "抗日民族统一战线"
+		      add_to_faction = MMA
+			  add_to_faction = GDC
+			  add_to_faction = KTR 
+			  add_to_faction = SIK
+			}
+			JIN = {
+				country_event = {
+					id = SHA.1
+					days = 20
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = CJF
+						original_tag = CJF
+					}
+
+				}
+				country_event = {
+					id = CHIwar.4
+					days = 28
+				  }
+			}
+		}
+    }
+	option = { 
+	    name = CHIwar.1.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
 #####rcr宣cjf#####
 country_event = {
     id = CHIwar.2

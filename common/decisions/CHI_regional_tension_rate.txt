@@ -216,4 +216,309 @@ CHI_regional_tension_rate = {
 			
         }
 	}
+	CHI_NIP_WAR_BEGION = {
+
+		icon = decision_generic_prepare_civil_war
+		##############################################################################
+		#决议图标的定义格式：														 #
+		#spriteType = {																 #
+		#	name = "GFX_decision_随便写即可"										 #
+		#	texturefile = "gfx/ak_decisions/decision_随便写即可.dds"				 #
+		#	legacy_lazy_load = no													 #
+		#}																			 #
+		#随便写的部分没什么硬性要求，但是在决议自己的icon页面一定要原封不动把它填进来#
+		#icon = <随便写即可>														 #
+		##############################################################################
+		
+		fire_only_once = yes
+
+		available = {
+			tag = NIP
+			is_ai = yes
+			date > 1952.1.1
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		priority = {
+			base = 3
+			modifier = {
+				add = 10
+				tag = PUM
+			}
+		}#该决议在整个大类中排序的权重，最高者居于此大类的第一位
+		
+
+		visible = {
+			tag = NIP
+		}
+		
+		cost = 1
+		days_remove = 30
+
+		
+
+		war_with_on_timeout = CJF 
+		war_with_on_timeout = GDC 
+		war_with_on_timeout = MMA # 警告ai将在决议到期时与TAG国家交战
+		
+		complete_effect = {
+			CJF = {
+				country_event = {
+					id = CHIwar.100
+					days = 1
+				}
+			}
+		}
+		
+		cancel_trigger = {
+			or = {
+				check_variable = {
+					 var = global.CHI_dongbei_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+				 check_variable = {
+					 var = global.CHI_huabei_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+				 check_variable = {
+					 var = global.CHI_xibei_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+				 check_variable = {
+					 var = global.CHI_huanan_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+				 check_variable = {
+					 var = global.CHI_xinan_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+				 check_variable = {
+					 var = global.CHI_huazhong_regional_tension
+					 value = 60
+					 compare = greater_than_or_equals
+				 }
+			 }
+		}
+		
+		cancel_effect = {
+			#决议被打断时触发的效果（这个效果与其他效果不同，它不会在鼠标悬停于决议上方时显示出来）
+		}
+
+		remove_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = CHI_war.1
+					days = 1
+				}
+			}
+		  NIP = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			NIP = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				NIP = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					NIP = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+		} 
+		RCR = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			RCR = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				RCR = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					RCR = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+						}
+	RCR = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			RCR = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				RCR = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					RCR = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+		}
+		FNC = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			FNC = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				FNC = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					FNC = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+		}
+		MAN = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			MAN = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				MAN = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					MAN = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+		}
+		MEN = {
+		    declare_war_on = {
+			   target = CJF
+			   type = annex_everything 
+		      }   
+			}
+			MEN = {
+				declare_war_on = {
+				   target = GDC
+				   type = annex_everything 
+				  }   
+				}
+				MEN = {
+					declare_war_on = {
+					   target = MMA
+					   type = annex_everything 
+					  }   
+					}
+					MEN = {
+						declare_war_on = {
+						   target = SIK
+						   type = annex_everything 
+						  }   
+						}
+		}
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				factor = 20
+				or = {
+					CJF = {
+						num_of_factories > 30
+					}
+					GDC = {
+						num_of_factories > 30
+					}
+					MMA = {
+						num_of_factories > 20
+					}
+				 }
+			}
+
+			modifier = {
+				factor = 80
+				or = {
+					CJF = {
+						has_army_manpower = {
+							size > 100000
+						}
+					}
+					GDC = {
+						has_army_manpower = {
+							size > 120000
+						}
+					}
+					MMA = {
+						has_army_manpower = {
+							size > 80000
+						}
+					}
+				 }
+			}
+			modifier = {
+				factor = 40
+				or = {
+					CJF = {
+						num_of_factories > 40
+					}
+					GDC = {
+						num_of_factories > 40
+					}
+					MMA = {
+						num_of_factories > 30
+					}
+				 }
+			}
+		}
+	}
 }
