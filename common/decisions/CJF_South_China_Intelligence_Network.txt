@@ -435,7 +435,7 @@ CJF_South_China_Intelligence_Network = {
         	}
 		}
 		CJF_talk_with_RCR = {
-            icon = decision_eng_trade_unions_support
+            icon = decision_recruit_operative
             available = {
                 has_country_flag = CJF_Intelligence_Network_has_begun
                 check_variable = { #检查变量大小
