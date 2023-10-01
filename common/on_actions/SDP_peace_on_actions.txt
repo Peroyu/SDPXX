@@ -780,6 +780,10 @@ on_actions = {
 						transfer_state = 432
 						transfer_state = 434
 						transfer_state = 435
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
 					}
 					ORI = {
 						transfer_state = 426

@@ -42,6 +42,9 @@ CHI_reuni = {
 			original_tag = NIP
 		  }
           available = {
+			NOT = {
+				has_war_with = CJF
+			}
               tag = NIP		  
 		      check_variable = {
 				var = global.chi_uni_nuon
@@ -92,6 +95,7 @@ CHI_reuni = {
 			original_tag = MAN
 		  }
           available = {
+			has_war = no
               tag = MAN		   
 		      RCR = {
 	           surrender_progress > 0.3
@@ -118,6 +122,18 @@ CHI_reuni = {
 			   target = CJF
 			   type = annex_everything 
 		      }   
+			  declare_war_on = {
+				target = MMA
+				type = annex_everything 
+			   } 
+			   declare_war_on = {
+				target = GDC
+				type = annex_everything 
+			   } 
+			   declare_war_on = {
+				target = SIK
+				type = annex_everything 
+			   } 
 			add_to_variable = {global.chi_uni_nuon = 1}
 		   } 
           	 
@@ -129,7 +145,8 @@ CHI_reuni = {
 		  allowed = {
 			original_tag = FNC
 		  }
-          available = {  
+          available = {
+			has_war = no  
 		    tag = FNC
 		    any_enemy_country = {		  
 		     	controls_state = 908 
@@ -156,6 +173,18 @@ CHI_reuni = {
 			   target = CJF
 			   type = annex_everything 
 		      }   
+			  declare_war_on = {
+				target = GDC
+				type = annex_everything 
+			   }  
+			   declare_war_on = {
+				target = SIK
+				type = annex_everything 
+			   }  
+			   declare_war_on = {
+				target = MMA
+				type = annex_everything 
+			   }  
 			}
 		   } 
           	 

@@ -191,6 +191,18 @@ country_event = {
 			   target = CJF
 			   type = annex_everything 
 		      }   
+			  declare_war_on = {
+				target = GDC
+				type = annex_everything 
+			   } 
+			   declare_war_on = {
+				target = SIK
+				type = annex_everything 
+			   } 
+			   declare_war_on = {
+				target = MMA
+				type = annex_everything 
+			   } 
 			}
 		   set_variable = {global.chi_uni_nuon = 5}
 		   set_global_flag = ASIA_CHI_JAP_WAR

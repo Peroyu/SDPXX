@@ -113,6 +113,12 @@ INDIA_civilwar = {
         fire_only_once = yes
         available = {
 			tag = AFG
+            RAJ = {
+                has_country_flag = INDIA_civilwar_participants
+            }
+            FID = {
+                has_country_flag = INDIA_civilwar_participants
+            }
             AFG = {
                 has_country_flag = INDIA_civilwar_participants
                 has_war = no
@@ -122,6 +128,7 @@ INDIA_civilwar = {
                     has_war_with = FID
                     has_country_flag = INDIA_civilwar_participants
                 }
+                
                 date > 1948.1.1
             }
 		}
