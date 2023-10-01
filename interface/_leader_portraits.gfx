@@ -70,6 +70,15 @@
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Tang_Shu.png"		
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_MMA_Yang_Hucheng"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Yang_Hucheng.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Wu_Zhonghao"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Wu_Zhonghao.png"		
+	}
 	#####################################################################
 	
 	spriteType = {
@@ -721,6 +730,11 @@
 	spriteType = {
 		name = "GFX_portrait_NIP_Takashi_Sakai"
 		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Takashi_Sakai.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Yamamoto_Isoroku"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Yamamoto_Isoroku.png"		
 	}
 	#####################SouthEastAsia#######################
 	

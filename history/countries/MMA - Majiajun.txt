@@ -106,14 +106,7 @@ recruit_character = MMA_Ma_Yuanhai
 recruit_character = MMA_Ma_Buqing
 recruit_character = MMA_Zhao_Sui
 recruit_character = MMA_Ma_Hongkui
+recruit_character = MMA_Yang_Hucheng
 
-create_country_leader = {
-			name = "毛泽东"
-			desc = "Mao_Zedong_desc"  
-			picture = "Portrait_CPC_Mao_Zedong"  
-			expire = "1976.7.10"  
-			ideology = Mao_thought 
-			traits = { }
-		}
 
 

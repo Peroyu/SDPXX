@@ -99,4 +99,4 @@ recruit_character = KHN_Chen_Mingren
 recruit_character = GDC_Cheng_Qian
 recruit_character = KHN_Zhang_Zhen
 recruit_character = CJF_Cai_Shenxi
-
+recruit_character = KTR_Wu_Zhonghao

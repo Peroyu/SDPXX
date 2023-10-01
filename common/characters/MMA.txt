@@ -22,6 +22,25 @@ characters = {
 		}
 
     }
+	MMA_Yang_Hucheng = {
+		name = "MMA_Yang_Hucheng" 
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Yang_Hucheng
+				large = GFX_portrait_MMA_Yang_Hucheng
+			}
+		}
+		
+		corps_commander={
+			traits={   }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+		}
+
+    }
 	KTR_Tang_Shu = {
 		name = "KTR_Tang_Shu" 
 		portraits = {
@@ -33,6 +52,25 @@ characters = {
 		
 		corps_commander={
 			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+
+    }
+	KTR_Wu_Zhonghao = {
+		name = "KTR_Wu_Zhonghao" 
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Wu_Zhonghao
+				large = GFX_portrait_KTR_Wu_Zhonghao
+			}
+		}
+		
+		corps_commander={
+			traits={  }
 			skill=2
 			attack_skill=2
 			defense_skill=1
