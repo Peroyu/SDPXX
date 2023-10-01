@@ -2059,7 +2059,7 @@ shared_focus = {
 	 add_tech_bonus = {
 			name = artillery_bonus 
 			bonus = 0.2 
-			uses = 50 
+			uses = 2 
 			category = artillery 
 		}
 	}
@@ -2077,7 +2077,7 @@ shared_focus = {
 	 add_tech_bonus = {
 			name = infantry_weapons_bonus 
 			bonus = 0.2 
-			uses = 50 
+			uses = 1 
 			category = infantry_weapons 
 		}
 	}
@@ -2095,13 +2095,13 @@ shared_focus = {
 	  add_tech_bonus = {
 			name = engineers_tech_bonus 
 			bonus = 1
-			uses = 50 
+			uses = 2 
 			category = engineers_tech 
 		}
 		add_tech_bonus = {
 			name = recon_tech_bonus 
 			bonus = 1
-			uses = 50 
+			uses = 2 
 			category = recon_tech 
 		}
 	}
@@ -2125,7 +2125,7 @@ shared_focus = {
 	 add_tech_bonus = {
 			name = hospital_tech_bonus 
 			bonus = 0.9
-			uses = 50 
+			uses = 2 
 			category = hospital_tech 
 		}
 	 army_experience = 50
@@ -2164,7 +2164,7 @@ shared_focus = {
 	 add_tech_bonus = {
 			name = infantry_tech_bonus 
 			bonus = 0.9
-			uses = 50 
+			uses = 2 
 			category = infantry_tech 
 		}
 	}
