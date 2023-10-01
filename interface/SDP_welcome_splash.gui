@@ -261,7 +261,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "SDP_welcome_splash_tab_4_content"
 			text = "SDP_welcome_splash_tab_4_content"
-			position = { x = -320 y = 178 }
+			position = { x = -320 y = 238 }
 			orientation = center_up
 			format = centre
 			font = "hoi_18b"
