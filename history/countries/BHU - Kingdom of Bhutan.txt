@@ -16,9 +16,9 @@ set_politics = {
 }
 # 
 set_popularities = {
- reactionism = 33
- restoratveism = 34
- conservatism = 33
+ reactionism = 40
+ restorativeism = 40
+ conservatism = 20
 }
 
 # 
@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = "Portrait_BHU_jigemei_wangchk"  # 
 	expire = "1952.3.16"  # 
-	ideology = Peronismo # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

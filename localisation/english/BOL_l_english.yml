@@ -5,9 +5,9 @@
  BOL_moderate_socialism_party:0""
  BOL_social_democracy_party:0""
  BOL_Liberalism_party:0""
- BOL_conservatism_party:0""
- BOL_reactionism_party:0""
- BOL_nationalism_party:0""
+ BOL_conservatism_party:0"祖国事业"
+ BOL_reactionism_party:0"祖国事业"
+ BOL_nationalism_party:0"祖国事业"
  BOL_restorativeism_party:0""
 
  #国策

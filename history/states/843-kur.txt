@@ -1,7 +1,7 @@
 
 state={
 	id=843
-	name="STATE_843"
+	name="埃尔比勒"
 
 	history={
 		owner = TUR
@@ -12,9 +12,7 @@ state={
 		victory_points = {
 			3916 3 
 		}
-		add_core_of = IRQ
-		add_core_of = KUR
-		add_claim_by = TUR
+		add_core_of = TUR
 
 	}
 

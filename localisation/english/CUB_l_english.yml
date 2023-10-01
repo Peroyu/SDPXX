@@ -1,14 +1,14 @@
 ﻿l_english:
- CUB_communism_party:0""
- CUB_committee_communism_party:0""
- CUB_movement_communism_party:0""
- CUB_moderate_socialism_party:0""
- CUB_social_democracy_party:0""
- CUB_Liberalism_party:0""
- CUB_conservatism_party:0""
- CUB_reactionism_party:0""
- CUB_nationalism_party:0""
- CUB_restorativeism_party:0""
+ CUB_communism_party:0"人民社会党"
+ CUB_committee_communism_party:0"人民社会党"
+ CUB_movement_communism_party:0"古巴革新党"
+ CUB_moderate_socialism_party:0"古巴革命党－真正"
+ CUB_social_democracy_party:0"古巴革命党－真正"
+ CUB_Liberalism_party:0"联盟阵线"
+ CUB_conservatism_party:0"民主社会主义联盟"
+ CUB_reactionism_party:0"民主社会主义联盟"
+ CUB_nationalism_party:0"民主社会主义联盟"
+ CUB_restorativeism_party:0"民主社会主义联盟"
 
  #国策
  

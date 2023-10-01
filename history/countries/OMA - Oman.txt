@@ -27,7 +27,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = "GFX_portrait_saiyide_OMA"  # 
 	expire = "1952.3.16"  # 
-	ideology = Peronismo # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

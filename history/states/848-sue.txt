@@ -1,7 +1,7 @@
 
 state={
 	id=848
-	name="STATE_848"
+	name="苏伊士运河区"
 	history={
 		add_core_of = SUE
 		owner = SUE

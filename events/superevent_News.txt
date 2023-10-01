@@ -39,9 +39,9 @@ news_event = {
 		name = Triple_entent.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = Triple_entent_crush_Super_Event_Visible
-			#hidden_effect = {
-			#	sound_effect = "Triple_entent_crush_war_voice"
-			#}
+			hidden_effect = {
+				sound_effect = "Triple_entent_crush_war_voice"
+			}
 	}
 }
 news_event = {
@@ -64,9 +64,9 @@ news_event = {
 		name = Triple_entent.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = The_UK_Super_Event_Visible
-			#hidden_effect = {
-			#	sound_effect = "The_UK_voice"
-			#}
+			hidden_effect = {
+				sound_effect = "The_UK_voice"
+			}
 	}
 }
 news_event = {
@@ -87,9 +87,9 @@ news_event = {
 		name = CHI_war.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = CHI_second_continent_war_Super_Event_Visible
-			#hidden_effect = {
-			#	sound_effect = "second_continent_war_voice"
-			#}
+		hidden_effect = {
+			sound_effect = "second_continent_war_voice"
+			}
 	}
 }
 news_event = {
@@ -208,9 +208,9 @@ news_event = {
 		name = ISU.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = ISU_conference_Super_Event_Visible
-		#hidden_effect = {
-		#	sound_effect = "ISU_conference_voice"
-		#}
+		hidden_effect = {
+		sound_effect = "ISU_conference_voice"
+		}
 	}
 }
 news_event = {

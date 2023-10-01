@@ -25,3 +25,19 @@ soundeffect = {
 		sound = Balkan_war_voice
 	} 
 }
+
+soundeffect = {
+	name = Triple_entent_crush_war_voice
+	volume = 0.5
+	sounds = {
+		sound = Triple_entent_crush_war_voice
+	} 
+}
+
+soundeffect = {
+	name = The_UK_voice
+	volume = 0.5
+	sounds = {
+		sound = The_UK_voice
+	} 
+}

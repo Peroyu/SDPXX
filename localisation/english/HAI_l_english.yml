@@ -1,14 +1,14 @@
 ﻿l_english:
- HAI_communism_party:0""
- HAI_committee_communism_party:0""
- HAI_movement_communism_party:0""
- HAI_moderate_socialism_party:0""
- HAI_social_democracy_party:0""
- HAI_Liberalism_party:0""
- HAI_conservatism_party:0""
- HAI_reactionism_party:0""
- HAI_nationalism_party:0""
- HAI_restorativeism_party:0""
+ HAI_communism_party:0"海地共产党"
+ HAI_committee_communism_party:0"海地共产党"
+ HAI_movement_communism_party:0"国民议会"
+ HAI_moderate_socialism_party:0"海地共产党"
+ HAI_social_democracy_party:0"海地共产党"
+ HAI_Liberalism_party:0"国民议会"
+ HAI_conservatism_party:0"国民议会"
+ HAI_reactionism_party:0"军事委员会"
+ HAI_nationalism_party:0"军事委员会"
+ HAI_restorativeism_party:0"军事委员会"
 
  #国策
  

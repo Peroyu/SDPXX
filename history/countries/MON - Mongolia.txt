@@ -50,10 +50,10 @@ set_technology = {
 	basic_machine_tools = 1
 }
 set_popularities = {
- reactionism = 36
+ communism = 36
  nationalism = 23
  restorativeism = 21
- conservatism = 11
+ moderate_socialism = 11
  Liberalism = 5
  moderate_socialism = 4
 }

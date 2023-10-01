@@ -13,10 +13,10 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 33
+	communism = 53
 	committee_communism = 17
 	moderate_socialism = 12
-	nationalism = 28
+	nationalism = 8
    	restorativeism = 10
 }
 

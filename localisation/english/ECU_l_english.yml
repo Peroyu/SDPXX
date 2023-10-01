@@ -1,14 +1,14 @@
 ﻿l_english:
- ECU_communism_party:0""
- ECU_committee_communism_party:0""
- ECU_movement_communism_party:0""
- ECU_moderate_socialism_party:0""
- ECU_social_democracy_party:0""
- ECU_Liberalism_party:0""
- ECU_conservatism_party:0""
- ECU_reactionism_party:0""
- ECU_nationalism_party:0""
- ECU_restorativeism_party:0""
+ ECU_communism_party:0"厄瓜多尔社会党"
+ ECU_committee_communism_party:0"厄瓜多尔社会党"
+ ECU_movement_communism_party:0"激进自由党"
+ ECU_moderate_socialism_party:0"厄瓜多尔社会党"
+ ECU_social_democracy_party:0"厄瓜多尔社会党"
+ ECU_Liberalism_party:0"激进自由党"
+ ECU_conservatism_party:0"保守党"
+ ECU_reactionism_party:0"军政府"
+ ECU_nationalism_party:0"厄瓜多尔至上"
+ ECU_restorativeism_party:0"厄瓜多尔至上"
 
  #国策
  

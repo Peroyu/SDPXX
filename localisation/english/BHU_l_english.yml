@@ -5,10 +5,10 @@
  BHU_moderate_socialism_party:0""
  BHU_social_democracy_party:0""
  BHU_Liberalism_party:0""
- BHU_conservatism_party:0""
- BHU_reactionism_party:0""
- BHU_nationalism_party:0""
- BHU_restorativeism_party:0""
+ BHU_conservatism_party:0"传统派"
+ BHU_reactionism_party:0"传统派"
+ BHU_nationalism_party:0"传统派"
+ BHU_restorativeism_party:0"传统派"
 
  #国策
  

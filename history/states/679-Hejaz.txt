@@ -8,7 +8,9 @@ state={
 		
 		add_core_of = NEJ
 		add_core_of = TUR
-
+		victory_points = {
+			7934 1 
+		}
 	}
 
 	provinces={
