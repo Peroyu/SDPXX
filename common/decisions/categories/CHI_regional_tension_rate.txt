@@ -19,6 +19,7 @@ CHI_regional_tension_rate = {
 			original_tag = CJF
 			original_tag = MMA
 			original_tag = SIK
+			original_tag = NIP
 			}
 		}
 	

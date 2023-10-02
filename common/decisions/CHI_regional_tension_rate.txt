@@ -219,16 +219,7 @@ CHI_regional_tension_rate = {
 	CHI_NIP_WAR_BEGION = {
 
 		icon = decision_generic_prepare_civil_war
-		##############################################################################
-		#决议图标的定义格式：														 #
-		#spriteType = {																 #
-		#	name = "GFX_decision_随便写即可"										 #
-		#	texturefile = "gfx/ak_decisions/decision_随便写即可.dds"				 #
-		#	legacy_lazy_load = no													 #
-		#}																			 #
-		#随便写的部分没什么硬性要求，但是在决议自己的icon页面一定要原封不动把它填进来#
-		#icon = <随便写即可>														 #
-		##############################################################################
+	
 		
 		fire_only_once = yes
 
@@ -242,13 +233,6 @@ CHI_regional_tension_rate = {
 			original_tag = NIP
 		}
 		
-		priority = {
-			base = 3
-			modifier = {
-				add = 10
-				tag = PUM
-			}
-		}#该决议在整个大类中排序的权重，最高者居于此大类的第一位
 		
 
 		visible = {
