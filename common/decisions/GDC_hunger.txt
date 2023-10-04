@@ -2,7 +2,7 @@ GDC_hunger = {
     crop_decrase = { 
 	      icon = decision_revolt
           available = { 
-            MOT = { has_country_flag = GDC_hunger_on_going }
+            NOT = { has_country_flag = GDC_hunger_on_going }
            
           }
 		  visible = {

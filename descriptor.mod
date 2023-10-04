@@ -1,4 +1,4 @@
-version="1.12.5"
+version="***"
 tags={
 	"Alternative History"
 }
@@ -28,6 +28,6 @@ replace_path="gfx/flags"
 replace_path="country_leader"
 replace_path="map/terrain"
 replace_path="music"
-name="SDPXX"
-supported_version="1.12.*"
-remote_file_id="3045216209"
+name="[SDP]Séparation Des Pouvoirs 三权分立"
+supported_version="1.12.14"
+remote_file_id="3044700427"
