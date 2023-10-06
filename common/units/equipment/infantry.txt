@@ -84,13 +84,13 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 28
-		breakthrough = 4
+		defense = 32
+		breakthrough = 6
 
 		#Offensive Abilities
-		soft_attack = 9
+		soft_attack = 10
 		hard_attack = 1.5
-		ap_attack = 5
+		ap_attack = 6
 		air_attack = 0
 		
 		build_cost_ic = 0.58
