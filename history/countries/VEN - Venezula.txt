@@ -25,6 +25,22 @@ add_ideas = {
 VEN_af
 VEN_Democratic_Action_Party
 VEN_sas
+#######
+single_party_state
+multicultural
+total_separation
+peasant_levies
+national_guard
+censorship
+regulatory_bodies
+compulsory_primary_school
+women_in_the_workplace
+poor_laws
+tenant_farmers
+land_based_taxation
+mercantilism
+private_schools
+private_health_insurance
 }
 create_country_leader = {
 	name = "罗慕洛·贝坦科尔特"  # 
