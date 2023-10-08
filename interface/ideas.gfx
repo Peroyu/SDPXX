@@ -1,5 +1,9 @@
 spriteTypes = {
     spriteType = {
+		name = "GFX_idea_VEN_oil_1"
+		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_oil_1.png"
+	}
+    spriteType = {
 		name = "GFX_idea_VEN_af"
 		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_af.png"
 	}
