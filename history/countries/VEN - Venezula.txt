@@ -25,6 +25,7 @@ add_ideas = {
 VEN_af
 VEN_Democratic_Action_Party
 VEN_sas
+VEN_oil_1
 #######
 single_party_state
 multicultural
