@@ -1,0 +1,17 @@
+SDP_debug = {
+	    icon = decision_category_hol_obtain_foreign_colonial_investments
+	    picture = GFX_decision_cat_picture_soviet_comecon
+		available = {
+	        is_debug = yes
+		}
+		visible = {
+          is_debug = yes
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { 
+            is_debug = yes
+            }
+    }

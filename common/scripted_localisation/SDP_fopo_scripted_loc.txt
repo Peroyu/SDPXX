@@ -27,7 +27,7 @@ defined_text = {
 
 	text = { # Orungu Conflict
 		trigger = {
-			check_variable = { conflict_id = token:GC_Orungu }
+			check_variable = {  = token:GC_Orungu }
 			has_global_flag = orungu_conflict_CAF
 		}
 		localization_key = GC_Orungu_CAF
@@ -157,7 +157,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = Get_TNO_fopo_conflict_guis
+	name = Get_SDP_fopo_conflict_guis
 	text = {
 		trigger = {
 			OR = {
@@ -166,88 +166,88 @@ defined_text = {
 			}
 			tag = USA
 		}
-		localization_key = "TNO_fopo_generic_conflict_topbar"
+		localization_key = "SDP_fopo_generic_conflict_topbar"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_IndonesiaCW } }
-		localization_key = "TNO_Indonesian_Civil_War_GUI"
+		localization_key = "SDP_Indonesian_Civil_War_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_JamaicanReferendum } }
-		localization_key = "TNO_Jamaican_Referendum_GUI"
+		localization_key = "SDP_Jamaican_Referendum_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_JamaicanCrisis } }
-		localization_key = "TNO_Jamaican_Crisis_GUI"
+		localization_key = "SDP_Jamaican_Crisis_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_TrinidadRev } }
-		localization_key = "TNO_Trinidad_BPR_GUI"
+		localization_key = "SDP_Trinidad_BPR_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_Turkestan } }
-		localization_key = "TNO_CA_Conference_Unification_1_GUI"
+		localization_key = "SDP_CA_Conference_Unification_1_GUI"
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } tag = JAP }
-		localization_key = "TNO_Philippines_Prep_GUI"
+		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } tag = NIP }
+		localization_key = "SDP_Philippines_Prep_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_SAWReconstruction } tag = USA }
-		localization_key = "TNO_SAF_US_Reconstruction_GUI"
+		localization_key = "SDP_SAF_US_Reconstruction_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesReconstruction } }
-		localization_key = "TNO_Philippines_Reconstruction_GUI"
+		localization_key = "SDP_Philippines_Reconstruction_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_SAWWithdrawal } }
-		localization_key = "TNO_SAW_Withdrawal_GUI"
+		localization_key = "SDP_SAW_Withdrawal_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_WACReconstruction } }
-		localization_key = "TNO_Free_France_Reconstruction_GUI"
+		localization_key = "SDP_Free_France_Reconstruction_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = USA }
-		localization_key = "TNO_Puerto_Plata_Invasion_GUI_USA"
+		localization_key = "SDP_Puerto_Plata_Invasion_GUI_USA"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = IBR }
-		localization_key = "TNO_Puerto_Plata_Invasion_GUI_IBR"
+		localization_key = "SDP_Puerto_Plata_Invasion_GUI_IBR"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = GER }
-		localization_key = "TNO_Puerto_Plata_Invasion_GUI_GER"
+		localization_key = "SDP_Puerto_Plata_Invasion_GUI_GER"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_FranceCW } }
-		localization_key = "TNO_FrenchReclamation_DecisionGUI"
+		localization_key = "SDP_FrenchReclamation_DecisionGUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_IcelandElections } }
-		localization_key = "TNO_Iceland_Congress_Mechanic"
+		localization_key = "SDP_Iceland_Congress_Mechanic"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_Haitian_Civil_War } tag = USA }
-		localization_key = "TNO_Haitian_War_GUI_USA"
+		localization_key = "SDP_Haitian_War_GUI_USA"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_MalagasyCW } }
-		localization_key = "TNO_Madagascar_GUI"
+		localization_key = "SDP_Madagascar_GUI"
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_ChannelCrisis } }
-		localization_key = "TNO_Channel_Crisis_GUI"
+		localization_key = "SDP_Channel_Crisis_GUI"
 	}
 	text = {
 		trigger = {
-			check_variable = { TNO_active_conflicts^num = 0 }
+			check_variable = { SDP_active_conflicts^num = 0 }
 		}
-		localization_key = "TNO_fopo_no_conflict"
+		localization_key = "SDP_fopo_no_conflict"
 	}
 	text = {
-		localization_key = "TNO_fopo_generic_conflict"
+		localization_key = "SDP_fopo_generic_conflict"
 	}
 }
 
@@ -268,19 +268,19 @@ defined_text = {
 defined_text = {
 	name = GetPPCeasefireTension
 	text = {
-		trigger = { check_variable = { global.TNO_PPI_ceasefire_tension > 74.99 } }
-		localization_key = "TNO_PPI_ceasefire_tension_critical"
+		trigger = { check_variable = { global.SDP_PPI_ceasefire_tension > 74.99 } }
+		localization_key = "SDP_PPI_ceasefire_tension_critical"
 	}
 	text = {
-		trigger = { check_variable = { global.TNO_PPI_ceasefire_tension > 49.99 } }
-		localization_key = "TNO_PPI_ceasefire_tension_tense"
+		trigger = { check_variable = { global.SDP_PPI_ceasefire_tension > 49.99 } }
+		localization_key = "SDP_PPI_ceasefire_tension_tense"
 	}
 	text = {
-		trigger = { check_variable = { global.TNO_PPI_ceasefire_tension > 24.99 } }
-		localization_key = "TNO_PPI_ceasefire_tension_stable"
+		trigger = { check_variable = { global.SDP_PPI_ceasefire_tension > 24.99 } }
+		localization_key = "SDP_PPI_ceasefire_tension_stable"
 	}
 	text = {
-		localization_key = "TNO_PPI_ceasefire_tension_relaxed"
+		localization_key = "SDP_PPI_ceasefire_tension_relaxed"
 	}
 }
 defined_text = {
@@ -325,7 +325,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { TNO_fopo_selected_front = 1 }
+			check_variable = { SDP_fopo_selected_front = 1 }
 			check_variable = { selected_conflict_id = token:GC_SAW }
 			tag = USA
 		}
@@ -333,7 +333,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { TNO_fopo_selected_front = 2 }
+			check_variable = { SDP_fopo_selected_front = 2 }
 			check_variable = { selected_conflict_id = token:GC_SAW }
 			tag = USA
 		}
@@ -372,7 +372,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_IndonesiaCW }
-		tag = JAP }
+		tag = NIP }
 		localization_key = JAP_ICW_desc
 	}
 	text = {
@@ -388,7 +388,7 @@ defined_text = {
 		localization_key = SGR_ircw_category_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = NIP }
 		localization_key = JAP_ircw_category_desc
 	}
 	text = {
@@ -396,7 +396,7 @@ defined_text = {
 		localization_key = USA_MLY_aid_category_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanCW } tag = NIP }
 		localization_key = JAP_SHO_aid_category_desc
 	}
 	text = {
@@ -408,7 +408,7 @@ defined_text = {
 		localization_key = OFN_congo_civil_war_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_CongoCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_CongoCW } tag = NIP }
 		localization_key = JAP_congo_civil_war_desc
 	}
 	text = {
@@ -416,7 +416,7 @@ defined_text = {
 		localization_key = GER_congo_civil_war_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_WAC } tag = USA check_variable = { TNO_fopo_selected_front = 2 } }
+		trigger = { check_variable = { selected_conflict_id = token:GC_WAC } tag = USA check_variable = { SDP_fopo_selected_front = 2 } }
 		localization_key = USA_wac_desc_homefront
 	}
 	text = {
@@ -428,7 +428,7 @@ defined_text = {
 		localization_key = USA_wac_desc_2
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_WAC } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_WAC } tag = NIP }
 		localization_key = JAP_wac_desc
 	}
 	text = {
@@ -436,7 +436,7 @@ defined_text = {
 		localization_key = USA_angola_civil_war_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_AngolaCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_AngolaCW } tag = NIP }
 		localization_key = JAP_angola_civil_war_desc
 	}
 	text = {
@@ -448,7 +448,7 @@ defined_text = {
 		localization_key = USA_oil_crisis_support_category_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_OilCrisis } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_OilCrisis } tag = NIP }
 		localization_key = JAP_oil_crisis_support_category_desc
 	}
 	text = {
@@ -460,7 +460,7 @@ defined_text = {
 		localization_key = USA_IBW_PW_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_IberianWars } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_IberianWars } tag = NIP }
 		localization_key = JAP_IBW_PW_desc
 	}
 	text = {
@@ -472,7 +472,7 @@ defined_text = {
 		localization_key = USA_GZCW_PW_desc_simango
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_MozambiqueCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_MozambiqueCW } tag = NIP }
 		localization_key = JAP_GZCW_PW_desc
 	}
 	text = {
@@ -480,7 +480,7 @@ defined_text = {
 		localization_key = USA_PHI_PW_1_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_BalintawakBlitz } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_BalintawakBlitz } tag = NIP }
 		localization_key = JAP_PHI_PW_1_desc
 	}
 	text = {
@@ -488,15 +488,15 @@ defined_text = {
 		localization_key = "Placeholder"
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanReconsturction } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanReconsturction } tag = NIP }
 		localization_key = "Placeholder"
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } has_global_flag = PHI_proxy_war_preparation tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } has_global_flag = PHI_proxy_war_preparation tag = NIP }
 		localization_key = JAP_PHI_PW_2_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } has_global_flag = PHI_landing_ongoing tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_PhilippinesWar } has_global_flag = PHI_landing_ongoing tag = NIP }
 		localization_key = JAP_PHI_PW_3_desc
 	}
 	text = {
@@ -504,7 +504,7 @@ defined_text = {
 		localization_key = USA_PHI_PW_2_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_Mengjiang } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_Mengjiang } tag = NIP }
 		localization_key = JAP_mengjiang_conflict_desc
 	}
 	text = {
@@ -523,7 +523,7 @@ defined_text = {
 		localization_key = USA_mano_campaign_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_ManoCamapign } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_ManoCamapign } tag = NIP }
 		localization_key = JAP_mano_campaign_desc
 	}
 	text = {
@@ -656,7 +656,7 @@ defined_text = {
 		localization_key = USA_CCW_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_ColombiaCW } tag = JAP }
+		trigger = { check_variable = { selected_conflict_id = token:GC_ColombiaCW } tag = NIP }
 		localization_key = JAP_CCW_desc
 	}
 	text = {
@@ -722,7 +722,7 @@ defined_text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } }
 		localization_key = "GFX_fopo_iran_sidebar"
 	}
-	text = { # Malayan Civil War
+	text = { # 大陆作战
 		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanCW } }
 		localization_key = "GFX_fopo_malaysia_sidebar"
 	}
@@ -892,12 +892,12 @@ defined_text = {
 		trigger = { check_variable = { conflict_id = token:GC_MalayanCW } tag = USA }
 		localization_key = "GFX_fopo_malaysia_civil_war_icon_us"
 	}
-	text = { # Malayan Civil War, Japan
-		trigger = { check_variable = { conflict_id = token:GC_MalayanCW } tag = JAP }
+	text = { # 大陆作战 War, Japan
+		trigger = { check_variable = { conflict_id = token:GC_MalayanCW } tag = NIP }
 		localization_key = "GFX_fopo_malaysia_civil_war_icon_jap"
 	}
 	text = { # Iran Civil War, USA post-coalition collapse
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = USA has_global_flag = TNO_IRA_collapsed_coalition }
+		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = USA has_global_flag = SDP_IRA_collapsed_coalition }
 		localization_key = "GFX_fopo_iran_civil_war_icon_us"
 	}
 	text = { # Iran Civil War, USA pre-coalition collapse
@@ -909,7 +909,7 @@ defined_text = {
 		localization_key = "GFX_fopo_iran_civil_war_icon_ger"
 	}
 	text = { # Iran Civil War, Japan
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = NIP }
 		localization_key = "GFX_fopo_iran_civil_war_icon_jap"
 	}
 	text = { # Jamaica Referendum
@@ -929,7 +929,7 @@ defined_text = {
 		localization_key = "GFX_fopo_indonesia_icon_us"
 	}
 	text = { # Indonesian Civil War, Japan
-		trigger = { check_variable = { conflict_id = token:GC_IndonesiaCW } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_IndonesiaCW } tag = NIP }
 		localization_key = "GFX_fopo_indonesia_icon_jap"
 	}
 	text = { # SAW, USA
@@ -983,11 +983,11 @@ defined_text = {
 		localization_key = "GFX_fopo_congo_icon_us"
 	}
 	text = { # COG, JAP with mandate collapse
-		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = JAP has_global_flag = congo_mandate_collapsed NOT = { has_global_flag = congo_PW_CAF_joined } }
+		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = NIP has_global_flag = congo_mandate_collapsed NOT = { has_global_flag = congo_PW_CAF_joined } }
 		localization_key = "GFX_fopo_congo_icon_jap_mzb"
 	}
 	text = { # COG, JAP without mandate collapse
-		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = JAP NOT = { has_global_flag = congo_PW_CAF_joined } }
+		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = NIP NOT = { has_global_flag = congo_PW_CAF_joined } }
 		localization_key = "GFX_fopo_congo_icon_jap"
 	}
 	text = { # COG, GER
@@ -1009,7 +1009,7 @@ defined_text = {
 		localization_key = "GFX_fopo_congo_icon_us_CAF"
 	}
 	text = { # COG, JAP with mandate collapse and CAF
-		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = JAP
+		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = NIP
 			AND = {
 				has_global_flag = congo_mandate_collapsed
 				has_global_flag = congo_PW_CAF_joined
@@ -1018,7 +1018,7 @@ defined_text = {
 		localization_key = "GFX_fopo_congo_icon_jap_mzb_CAF"
 	}
 	text = { # COG, JAP without mandate collapse and CAF
-		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = JAP has_global_flag = congo_PW_CAF_joined }
+		trigger = { check_variable = { conflict_id = token:GC_CongoCW } tag = NIP has_global_flag = congo_PW_CAF_joined }
 		localization_key = "GFX_fopo_congo_icon_jap_CAF"
 	}
 	text = { # COG, GER and CAF
@@ -1030,7 +1030,7 @@ defined_text = {
 		localization_key = "GFX_fopo_wac_icon_us_1"
 	}
 	text = { # WAC Scenario 1, JAP
-		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = JAP has_global_flag = WAC_scenario_1 }
+		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = NIP has_global_flag = WAC_scenario_1 }
 		localization_key = "GFX_fopo_wac_icon_jap_1"
 	}
 	text = { # WAC Scenario 2, USA
@@ -1038,7 +1038,7 @@ defined_text = {
 		localization_key = "GFX_fopo_wac_icon_us_2"
 	}
 	text = { # WAC Scenario 2, JAP
-		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = JAP has_global_flag = WAC_scenario_2 }
+		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = NIP has_global_flag = WAC_scenario_2 }
 		localization_key = "GFX_fopo_wac_icon_jap_2"
 	}
 	text = { # WAC Scenario 3, USA
@@ -1046,7 +1046,7 @@ defined_text = {
 		localization_key = "GFX_fopo_wac_icon_us_3"
 	}
 	text = { # WAC Scenario 3, JAP
-		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = JAP has_global_flag = WAC_scenario_3 }
+		trigger = { check_variable = { conflict_id = token:GC_WAC } tag = NIP has_global_flag = WAC_scenario_3 }
 		localization_key = "GFX_fopo_wac_icon_jap_3"
 	}
 	text = { # Angola Civil War, USA
@@ -1054,7 +1054,7 @@ defined_text = {
 		localization_key = "GFX_fopo_angola_civil_war_icon_us"
 	}
 	text = { # Angola Civil War, Japan
-		trigger = { check_variable = { conflict_id = token:GC_AngolaCW } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_AngolaCW } tag = NIP }
 		localization_key = "GFX_fopo_angola_civil_war_icon_jap"
 	}
 
@@ -1069,7 +1069,7 @@ defined_text = {
 			is_in_faction_with = ITA
 			OR = {
 				tag = USA
-				tag = JAP
+				tag = NIP
 			}
 		}
 		localization_key = GFX_fopo_oc_icon_proitaly_yemen
@@ -1084,7 +1084,7 @@ defined_text = {
 			is_in_faction_with = ITA
 			OR = {
 				tag = USA
-				tag = JAP
+				tag = NIP
 			}
 		}
 		localization_key = GFX_fopo_oc_icon_proitaly_yemen_oman
@@ -1098,7 +1098,7 @@ defined_text = {
 			is_in_faction_with = ITA
 			OR = {
 				tag = USA
-				tag = JAP
+				tag = NIP
 			}
 		}
 		localization_key = GFX_fopo_oc_icon_proitaly_no_egypt
@@ -1109,7 +1109,7 @@ defined_text = {
 			is_in_faction_with = ITA
 			OR = {
 				tag = USA
-				tag = JAP
+				tag = NIP
 			}
 		}
 		localization_key = GFX_fopo_oc_icon_proitaly_all
@@ -1134,7 +1134,7 @@ defined_text = {
 				has_global_flag = OC_Iraq_CW
 				has_global_flag = OC_Egypt_CW
 			}
-			tag = JAP
+			tag = NIP
 		}
 		localization_key = GFX_fopo_oc_icon_jap_only_yemen
 	}
@@ -1168,7 +1168,7 @@ defined_text = {
 				has_global_flag = OC_Iraq_CW
 				has_global_flag = OC_Egypt_CW
 			}
-			tag = JAP
+			tag = NIP
 		}
 		localization_key = GFX_fopo_oc_icon_jap_yemen_oman
 	}
@@ -1199,7 +1199,7 @@ defined_text = {
 			NOT = {
 				has_global_flag = OC_Egypt_CW
 			}
-			tag = JAP
+			tag = NIP
 		}
 		localization_key = GFX_fopo_oc_icon_jap_no_egypt
 	}
@@ -1223,7 +1223,7 @@ defined_text = {
 	text = { # Oil Crisis, JAP, no Egypt
 		trigger = {
 			check_variable = { conflict_id = token:GC_OilCrisis }
-			tag = JAP
+			tag = NIP
 		}
 		localization_key = GFX_fopo_oc_icon_jap
 	}
@@ -1243,7 +1243,7 @@ defined_text = {
 		localization_key = "GFX_fopo_IBW_usa_1_icon"
 	}
 	text = { # IBW, Japan
-		trigger = { check_variable = { conflict_id = token:GC_IberianWars } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_IberianWars } tag = NIP }
 		localization_key = "GFX_fopo_IBW_jap_1_icon"
 	}
 	text = { # Trinidad BPR
@@ -1260,7 +1260,7 @@ defined_text = {
 		localization_key = "GFX_fopo_turkes_kenes_icon_GER"
 	}
 	text = { # C.A Unification DC
-		trigger = { check_variable = { conflict_id = token:GC_Turkestan } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_Turkestan } tag = NIP }
 		localization_key = "GFX_fopo_turkes_kenes_icon_JAP"
 	}
 
@@ -1273,11 +1273,11 @@ defined_text = {
 		localization_key = GFX_fopo_mozambique_2_way_icon_USA
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_MozambiqueCW } tag = JAP USA = { has_country_flag = US_aid_mozambique_simango } }
+		trigger = { check_variable = { conflict_id = token:GC_MozambiqueCW } tag = NIP USA = { has_country_flag = US_aid_mozambique_simango } }
 		localization_key = GFX_fopo_mozambique_3_way_icon_JAP
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_MozambiqueCW } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_MozambiqueCW } tag = NIP }
 		localization_key = GFX_fopo_mozambique_2_way_icon_JAP
 	}
 
@@ -1287,7 +1287,7 @@ defined_text = {
 	}
 
 	text = { # Balintawak Blitz JAP
-		trigger = { check_variable = { conflict_id = token:GC_BalintawakBlitz } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_BalintawakBlitz } tag = NIP }
 		localization_key = "GFX_fopo_philippines_blitz_icon_jap"
 	}
 	text = { # Malayan Reconstruction - Operation Domino
@@ -1295,7 +1295,7 @@ defined_text = {
 		localization_key = "GFX_fopo_malaysia_civil_war_icon_us"
 	}
 	text = { # Malayan Reconstruction - Strengthening the Sphere
-		trigger = { check_variable = { conflict_id = token:GC_MalayanReconsturction } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_MalayanReconsturction } tag = NIP }
 		localization_key = "GFX_fopo_malayan_reconstruction_icon_jap"
 	}
 	text = { # The War for the Philippines - USA
@@ -1303,7 +1303,7 @@ defined_text = {
 		localization_key = "GFX_fopo_philippines_prep_us"
 	}
 	text = { # The War for the Philippines - JAP
-		trigger = { check_variable = { conflict_id = token:GC_PhilippinesWar } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_PhilippinesWar } tag = NIP }
 		localization_key = "GFX_fopo_philippines_prep_jap"
 	}
 
@@ -1319,12 +1319,12 @@ defined_text = {
 
 
 	text = { # The War for the Philippines - Landing - JAP
-		trigger = { check_variable = { conflict_id = token:GC_PhilippinesWar } tag = JAP has_global_flag = PHI_landing_ongoing }
+		trigger = { check_variable = { conflict_id = token:GC_PhilippinesWar } tag = NIP has_global_flag = PHI_landing_ongoing }
 		localization_key = "GFX_philippines_landing_jap"
 	}
 
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_Mengjiang } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_Mengjiang } tag = NIP }
 		localization_key = "GFX_fopo_mengjiang_conflict"
 	}
 
@@ -1337,7 +1337,7 @@ defined_text = {
 		localization_key = "GFX_fopo_mengjiang_conflict"
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_Mengjiang } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_Mengjiang } tag = NIP }
 		localization_key = "GFX_fopo_mengjiang_conflict"
 	}
 	text = {
@@ -1349,7 +1349,7 @@ defined_text = {
 		localization_key = "GFX_fopo_mandates_icon"
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_SAWReconstruction } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_SAWReconstruction } tag = NIP }
 		localization_key = "GFX_fopo_mandates_icon"
 	}
 	text = {
@@ -1361,7 +1361,7 @@ defined_text = {
 		localization_key = "GFX_fopo_madagascar_icon_ger"
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_MalagasyCW } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_MalagasyCW } tag = NIP }
 		localization_key = "GFX_fopo_madagascar_icon"
 	}
 	text = {
@@ -1369,7 +1369,7 @@ defined_text = {
 		localization_key = "GFX_fopo_philippines_reconstruction"
 	}
 	text = {
-		trigger = { check_variable = { conflict_id = token:GC_ManoCamapign } tag = JAP }
+		trigger = { check_variable = { conflict_id = token:GC_ManoCamapign } tag = NIP }
 		localization_key = "GFX_fopo_mano_campaign_jap"
 	}
 	text = {
@@ -1562,7 +1562,7 @@ defined_text = {
 defined_text = {
 	name = Get_fopo_seal
 	text = {
-		trigger = { tag = JAP }
+		trigger = { tag = NIP }
 		localization_key = "GFX_fopo_gaimusho_seal"
 	}
 	text = {
@@ -1663,44 +1663,44 @@ defined_text = {
 	name = GetPPStrengthIncreaseCAL
 	text = {
 		trigger = { tag = USA }
-		localization_key = TNO_PP_spy_strength_increase_CAL_USA_tt
+		localization_key = SDP_PP_spy_strength_increase_CAL_USA_tt
 	}
 	text = {
 		trigger = { tag = MEX }
-		localization_key = TNO_PP_spy_strength_increase_CAL_MEX_tt
+		localization_key = SDP_PP_spy_strength_increase_CAL_MEX_tt
 	}
 }
 defined_text = {
 	name = GetPPStrengthDecreaseCAL
 	text = {
 		trigger = { tag = USA }
-		localization_key = TNO_PP_spy_strength_decrease_CAL_USA_tt
+		localization_key = SDP_PP_spy_strength_decrease_CAL_USA_tt
 	}
 	text = {
 		trigger = { tag = MEX }
-		localization_key = TNO_PP_spy_strength_decrease_CAL_MEX_tt
+		localization_key = SDP_PP_spy_strength_decrease_CAL_MEX_tt
 	}
 }
 defined_text = {
 	name = GetPPStrengthIncreaseDOM
 	text = {
 		trigger = { tag = IBR }
-		localization_key = TNO_PP_spy_strength_increase_DOM_IBR_tt
+		localization_key = SDP_PP_spy_strength_increase_DOM_IBR_tt
 	}
 	text = {
 		trigger = { tag = GER }
-		localization_key = TNO_PP_spy_strength_increase_DOM_GER_tt
+		localization_key = SDP_PP_spy_strength_increase_DOM_GER_tt
 	}
 }
 defined_text = {
 	name = GetPPStrengthDecreaseDOM
 	text = {
 		trigger = { tag = IBR }
-		localization_key = TNO_PP_spy_strength_decrease_DOM_IBR_tt
+		localization_key = SDP_PP_spy_strength_decrease_DOM_IBR_tt
 	}
 	text = {
 		trigger = { tag = GER }
-		localization_key = TNO_PP_spy_strength_decrease_DOM_GER_tt
+		localization_key = SDP_PP_spy_strength_decrease_DOM_GER_tt
 	}
 }
 
@@ -1854,7 +1854,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			original_tag = JAP
+			original_tag = NIP
 		}
 		localization_key = JAP_Madagascar_desc
 	}
@@ -2071,7 +2071,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1864 = { is_controlled_by = MDG }
 				}
@@ -2089,7 +2089,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1864 = { is_controlled_by = MAD }
 				}
@@ -2117,7 +2117,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					AND = {
 						MDG = { controls_province = 16171 }
@@ -2143,7 +2143,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					AND = {
 						MAD = { controls_province = 16171 }
@@ -2183,7 +2183,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1971 = { is_controlled_by = MDG }
 				}
@@ -2201,7 +2201,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1971 = { is_controlled_by = MAD }
 				}
@@ -2229,7 +2229,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1972 = { is_controlled_by = MDG }
 				}
@@ -2247,7 +2247,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1972 = { is_controlled_by = MAD }
 				}
@@ -2275,7 +2275,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					AND = {
 						MDG = { controls_province = 15964 }
@@ -2299,7 +2299,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					AND = {
 						MAD = { controls_province = 15964 }
@@ -2336,7 +2336,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1857 = { is_controlled_by = MDG }
 				}
@@ -2354,7 +2354,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1857 = { is_controlled_by = MAD }
 				}
@@ -2382,7 +2382,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1969 = { is_controlled_by = MDG }
 				}
@@ -2400,7 +2400,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1969 = { is_controlled_by = MAD }
 				}
@@ -2428,7 +2428,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					944 = { is_controlled_by = MDG }
 				}
@@ -2446,7 +2446,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					944 = { is_controlled_by = MAD }
 				}
@@ -2474,7 +2474,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					945 = { is_controlled_by = MDG }
 				}
@@ -2492,7 +2492,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					945 = { is_controlled_by = MAD }
 				}
@@ -2520,7 +2520,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1970 = { is_controlled_by = MDG }
 				}
@@ -2538,7 +2538,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1970 = { is_controlled_by = MAD }
 				}
@@ -2566,7 +2566,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1974 = { is_controlled_by = MDG }
 				}
@@ -2584,7 +2584,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1974 = { is_controlled_by = MAD }
 				}
@@ -2612,7 +2612,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1975 = { is_controlled_by = MDG }
 				}
@@ -2630,7 +2630,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1975 = { is_controlled_by = MAD }
 				}
@@ -2658,7 +2658,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1860 = { is_controlled_by = MDG }
 				}
@@ -2676,7 +2676,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					1860 = { is_controlled_by = MAD }
 				}
@@ -2704,7 +2704,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					946 = { is_controlled_by = MDG }
 				}
@@ -2722,7 +2722,7 @@ defined_text = {
 				AND = {
 					OR = {
 						tag = USA
-						tag = JAP
+						tag = NIP
 					}
 					946 = { is_controlled_by = MAD }
 				}
@@ -2844,7 +2844,7 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = "TNO_HCW_Hinche_tt_occupation"
+		localization_key = "SDP_HCW_Hinche_tt_occupation"
 	}
 	text = {
 		trigger = {
@@ -2856,10 +2856,10 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = TNO_HCW_Hinche_tt_socialist
+		localization_key = SDP_HCW_Hinche_tt_socialist
 	}
 	text = {
-		localization_key = TNO_HCW_Hinche_tt_haiti
+		localization_key = SDP_HCW_Hinche_tt_haiti
 	}
 }
 
@@ -2878,7 +2878,7 @@ defined_text = {
 				has_government = fascism
 			}
 		}
-		localization_key = "TNO_HCW_Hinche_trujillo_delayed"
+		localization_key = "SDP_HCW_Hinche_trujillo_delayed"
 	}
 	text = {
 		trigger = {
@@ -2890,34 +2890,34 @@ defined_text = {
 				}
 			}
 		}
-		localization_key = TNO_HCW_Hinche_socialist_delayed
+		localization_key = SDP_HCW_Hinche_socialist_delayed
 	}
 	text = {
 		trigger = { DOM = { owns_state = 1706 } }
-		localization_key = TNO_HCW_Hinche_democratic_delayed
+		localization_key = SDP_HCW_Hinche_democratic_delayed
 	}
 	text = {
-		localization_key = TNO_HCW_Hinche_hinche_delayed
+		localization_key = SDP_HCW_Hinche_hinche_delayed
 	}
 }
 
 defined_text = {
 	name = GetHCWPhase
 	text = {
-		trigger = { TNO_HCW_Phase_Base = yes }
-		localization_key = TNO_HCW_Phase_title_Base
+		trigger = { SDP_HCW_Phase_Base = yes }
+		localization_key = SDP_HCW_Phase_title_Base
 	}
 	text = {
-		trigger = { TNO_HCW_Phase_Buildup = yes }
-		localization_key = TNO_HCW_Phase_title_Buildup
+		trigger = { SDP_HCW_Phase_Buildup = yes }
+		localization_key = SDP_HCW_Phase_title_Buildup
 	}
 	text = {
-		trigger = { TNO_HCW_Phase_Interventionism = yes }
-		localization_key = TNO_HCW_Phase_title_Interventionism
+		trigger = { SDP_HCW_Phase_Interventionism = yes }
+		localization_key = SDP_HCW_Phase_title_Interventionism
 	}
 	text = {
-		trigger = { TNO_HCW_Phase_Disengagement = yes }
-		localization_key = TNO_HCW_Phase_title_Disengagement
+		trigger = { SDP_HCW_Phase_Disengagement = yes }
+		localization_key = SDP_HCW_Phase_title_Disengagement
 	}
 }
 
@@ -2925,15 +2925,15 @@ defined_text = {
 	name = GetHAIConstructorLevel
 	text = {
 		trigger = { check_variable = { HAI_dev_program_strength = 0 } }
-		localization_key = TNO_HAICW_one_star
+		localization_key = SDP_HAICW_one_star
 	}
 	text = {
 		trigger = { check_variable = { HAI_dev_program_strength = 1 } }
-		localization_key = TNO_HAICW_two_star
+		localization_key = SDP_HAICW_two_star
 	}
 	text = {
 		trigger = { check_variable = { HAI_dev_program_strength = 2 } }
-		localization_key = TNO_HAICW_three_star
+		localization_key = SDP_HAICW_three_star
 	}
 }
 

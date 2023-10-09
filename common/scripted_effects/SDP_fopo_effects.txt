@@ -1,19 +1,19 @@
 
 # Adds 'conflict_id' to the list of active conflicts
-TNO_add_fopo_conflict_tab = {
-	custom_effect_tooltip = TNO_add_fopo_conflict_tab_tt
+SDP_add_fopo_conflict_tab = {
+	custom_effect_tooltip = SDP_add_fopo_conflict_tab_tt
 	if = {
-		limit = { NOT = { is_in_array = { TNO_active_conflicts = conflict_id } } }
-		add_to_array = { TNO_active_conflicts = conflict_id }
+		limit = { NOT = { is_in_array = { SDP_active_conflicts = conflict_id } } }
+		add_to_array = { SDP_active_conflicts = conflict_id }
 
 		set_variable = { selected_conflict_id = conflict_id }
 		clear_array = world_conflict_guis
 		add_to_array = { world_conflict_guis = selected_conflict_id }
 
-		set_variable = { TNO_fopo_selected_front = 1 }
+		set_variable = { SDP_fopo_selected_front = 1 }
 	}
 	set_temp_variable = { alert_id = token:Alert_Proxy_War_Active }
-	add_TNO_alert_unless_exists = yes
+	add_SDP_alert_unless_exists = yes
 	if = {
 		limit = {
 			check_variable = { NATIONAL_cp_gain_proxy = 0 }
@@ -24,11 +24,11 @@ TNO_add_fopo_conflict_tab = {
 }
 
 # Removes `conflict_id` from the list of active conflicts
-TNO_remove_fopo_conflict_tab = {
-	custom_effect_tooltip = TNO_remove_fopo_conflict_tab_tt
+SDP_remove_fopo_conflict_tab = {
+	custom_effect_tooltip = SDP_remove_fopo_conflict_tab_tt
 	if = {
-		limit = { is_in_array = { TNO_active_conflicts = conflict_id } }
-		remove_from_array = { array = TNO_active_conflicts value = conflict_id }
+		limit = { is_in_array = { SDP_active_conflicts = conflict_id } }
+		remove_from_array = { array = SDP_active_conflicts value = conflict_id }
 	}
 
 	if = {
@@ -37,11 +37,11 @@ TNO_remove_fopo_conflict_tab = {
 		set_variable = { selected_conflict_id = -1 }
 
 		if = {
-			limit = { check_variable = { TNO_active_conflicts^num > 0 } }
+			limit = { check_variable = { SDP_active_conflicts^num > 0 } }
 
-			set_temp_variable = { next_conflict_idx = TNO_active_conflicts^num }
+			set_temp_variable = { next_conflict_idx = SDP_active_conflicts^num }
 			subtract_from_temp_variable = { next_conflict_idx = 1 }
-			set_variable = { selected_conflict_id = TNO_active_conflicts^next_conflict_idx }
+			set_variable = { selected_conflict_id = SDP_active_conflicts^next_conflict_idx }
 
 			clear_array = world_conflict_guis
 			add_to_array = { world_conflict_guis = selected_conflict_id }
@@ -50,10 +50,10 @@ TNO_remove_fopo_conflict_tab = {
 
 	if = {
 		limit = {
-			check_variable = { TNO_active_conflicts^num = 0 }
+			check_variable = { SDP_active_conflicts^num = 0 }
 		}
 		set_temp_variable = { alert_id = token:Alert_Proxy_War_Active }
-		remove_TNO_alert = yes
+		remove_SDP_alert = yes
 	}
 	add_to_variable = { NATIONAL_cp_gain_proxy = -0.07 }
 	if = {
@@ -65,9 +65,9 @@ TNO_remove_fopo_conflict_tab = {
 }
 
 # Add/remove Indonesian Civil War
-TNO_fopo_add_indonesia_tab = {
+SDP_fopo_add_indonesia_tab = {
 	set_temp_variable = { conflict_id = token:GC_IndonesiaCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 	if = {
 		limit = { tag = USA }
 		hidden_effect = {
@@ -90,7 +90,7 @@ TNO_fopo_add_indonesia_tab = {
 		}
 	}
 	if = {
-		limit = { tag = JAP }
+		limit = { tag = NIP }
 		hidden_effect = {
 			INS = { give_military_access = JAP }
 			SRB = { give_military_access = JAP }
@@ -106,9 +106,9 @@ TNO_fopo_add_indonesia_tab = {
 		}
 	}
 }
-TNO_fopo_remove_indonesia_tab = {
+SDP_fopo_remove_indonesia_tab = {
 	set_temp_variable = { conflict_id = token:GC_IndonesiaCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 	if = {
 		limit = { tag = USA }
 		hidden_effect = {
@@ -201,7 +201,7 @@ TNO_fopo_remove_indonesia_tab = {
 		}
 	}
 	if = {
-		limit = { tag = JAP }
+		limit = { tag = NIP }
 		hidden_effect = {
 			INS = { 
 				diplomatic_relation = {
@@ -259,201 +259,201 @@ TNO_fopo_remove_indonesia_tab = {
 }
 
 # Add/remove South African War
-TNO_fopo_add_saw_tab = {
+SDP_fopo_add_saw_tab = {
 	set_temp_variable = { conflict_id = token:GC_SAW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_saw_tab = {
+SDP_fopo_remove_saw_tab = {
 	set_temp_variable = { conflict_id = token:GC_SAW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Jamaican Referendum
-TNO_fopo_add_jamaican_referendum_tab = {
+SDP_fopo_add_jamaican_referendum_tab = {
 	set_temp_variable = { conflict_id = token:GC_JamaicanReferendum }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_jamaican_referendum_tab = {
+SDP_fopo_remove_jamaican_referendum_tab = {
 	set_temp_variable = { conflict_id = token:GC_JamaicanReferendum }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Jamaican Crisis
 
-TNO_fopo_add_jamaican_crisis_tab = {
+SDP_fopo_add_jamaican_crisis_tab = {
 	set_temp_variable = { conflict_id = token:GC_JamaicanCrisis }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_jamaican_crisis_tab = {
+SDP_fopo_remove_jamaican_crisis_tab = {
 	set_temp_variable = { conflict_id = token:GC_JamaicanCrisis }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Iran Civil War
 
-TNO_fopo_add_iran_civil_war_tab = {
+SDP_fopo_add_iran_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_IranCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_iran_civil_war_tab = {
+SDP_fopo_remove_iran_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_IranCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
-# Add/remove Malayan Civil War
+# Add/remove 大陆作战
 
-TNO_fopo_add_malaysia_civil_war_tab = {
+SDP_fopo_add_malaysia_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalayanCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_malaysia_civil_war_tab = {
+SDP_fopo_remove_malaysia_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalayanCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Congo Civil War
-TNO_fopo_add_congo_civil_war_tab = {
+SDP_fopo_add_congo_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_CongoCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_congo_civil_war_tab = {
+SDP_fopo_remove_congo_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_CongoCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 
 # Add/remove West African Crisis
-TNO_fopo_add_wac_tab = {
+SDP_fopo_add_wac_tab = {
 	set_temp_variable = { conflict_id = token:GC_WAC }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_wac_tab = {
+SDP_fopo_remove_wac_tab = {
 	set_temp_variable = { conflict_id = token:GC_WAC }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove angola Civil War
-TNO_fopo_add_angola_civil_war_tab = {
+SDP_fopo_add_angola_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_AngolaCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_angola_civil_war_tab = {
+SDP_fopo_remove_angola_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_AngolaCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Ba'athism Support
-TNO_fopo_add_baathism_support_tab = {
+SDP_fopo_add_baathism_support_tab = {
 	set_temp_variable = { conflict_id = token:GC_OilCrisis }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_baathism_support_tab = {
+SDP_fopo_remove_baathism_support_tab = {
 	set_temp_variable = { conflict_id = token:GC_OilCrisis }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Iberian Wars
-TNO_fopo_add_IBW_tab = {
+SDP_fopo_add_IBW_tab = {
 	set_temp_variable = { conflict_id = token:GC_IberianWars }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_IBW_tab = {
+SDP_fopo_remove_IBW_tab = {
 	set_temp_variable = { conflict_id = token:GC_IberianWars }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Sri Lanka Crisis
-TNO_fopo_add_srilanka_crisis_tab = {
+SDP_fopo_add_srilanka_crisis_tab = {
 	# set_temp_variable = { conflict_id = token: }
-	# TNO_add_fopo_conflict_tab = yes
+	# SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_srilanka_crisis_tab = {
+SDP_fopo_remove_srilanka_crisis_tab = {
 	# set_temp_variable = { conflict_id = token: }
-	# TNO_add_fopo_conflict_tab = yes
+	# SDP_add_fopo_conflict_tab = yes
 }
 
 # Add/remove Trinidad Black Power Revolution
-TNO_fopo_add_trinidad_bpr_tab = {
+SDP_fopo_add_trinidad_bpr_tab = {
 	set_temp_variable = { conflict_id = token:GC_TrinidadRev }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_trinidad_bpr_tab = {
+SDP_fopo_remove_trinidad_bpr_tab = {
 	set_temp_variable = { conflict_id = token:GC_TrinidadRev }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove CA_Conference Reunification
-TNO_fopo_add_ca_conference_tab = {
+SDP_fopo_add_ca_conference_tab = {
 	set_temp_variable = { conflict_id = token:GC_Turkestan }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_ca_conference_tab = {
+SDP_fopo_remove_ca_conference_tab = {
 	set_temp_variable = { conflict_id = token:GC_Turkestan }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Mozambican Civil War
-TNO_fopo_add_mozambique_civil_war_tab = {
+SDP_fopo_add_mozambique_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_MozambiqueCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_mozambique_civil_war_tab = {
+SDP_fopo_remove_mozambique_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_MozambiqueCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Philippines
-TNO_fopo_add_philippines_tab = {
+SDP_fopo_add_philippines_tab = {
 	set_temp_variable = { conflict_id = token:GC_BalintawakBlitz }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_philippines_tab = {
+SDP_fopo_remove_philippines_tab = {
 	set_temp_variable = { conflict_id = token:GC_BalintawakBlitz }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Malayan Reconstruction
 
-TNO_fopo_add_malayan_reconstruction_tab = {
+SDP_fopo_add_malayan_reconstruction_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalayanReconsturction }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_malayan_reconstruction_tab = {
+SDP_fopo_remove_malayan_reconstruction_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalayanReconsturction }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove The War for the Philippines
 
-TNO_fopo_add_war_for_philippines_tab = {
+SDP_fopo_add_war_for_philippines_tab = {
 	set_temp_variable = { conflict_id = token:GC_PhilippinesWar }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_war_for_philippines_tab = {
+SDP_fopo_remove_war_for_philippines_tab = {
 	set_temp_variable = { conflict_id = token:GC_PhilippinesWar }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Mengjiang Conflift
 
-TNO_fopo_add_mengjiang_conflict_tab = {
+SDP_fopo_add_mengjiang_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_Mengjiang }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_mengjiang_conflict_tab = {
+SDP_fopo_remove_mengjiang_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_Mengjiang }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove the SAF Reconstruction Mechanic
 
-TNO_fopo_add_saf_reconstruction_conflict_tab = {
+SDP_fopo_add_saf_reconstruction_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_SAWReconstruction }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_saf_reconstruction_conflict_tab = {
+SDP_fopo_remove_saf_reconstruction_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_SAWReconstruction }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 	hidden_effect = {
 		remove_mission = USA_the_african_quagmire
 		set_country_flag = USA_SAF_WAR_Insurgency_Pulled_Out
@@ -463,9 +463,9 @@ TNO_fopo_remove_saf_reconstruction_conflict_tab = {
 }
 
 # Add/remove the Madagascar Civil War
-TNO_fopo_add_madagascar_conflict_tab = {
+SDP_fopo_add_madagascar_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalagasyCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 	MAD_setup_proxy_array = yes
 	if = {
 		limit = {
@@ -479,13 +479,13 @@ TNO_fopo_add_madagascar_conflict_tab = {
 		}
 	}
 }
-TNO_fopo_remove_madagascar_conflict_tab = {
+SDP_fopo_remove_madagascar_conflict_tab = {
 	set_temp_variable = { conflict_id = token:GC_MalagasyCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove philippines reconstruction
-TNO_fopo_add_philippines_reconstruction_tab = {
+SDP_fopo_add_philippines_reconstruction_tab = {
 	custom_effect_tooltip = PHI_fopo_begin_reconstruction_tt
 	hidden_effect = {
 		if = {
@@ -504,82 +504,82 @@ TNO_fopo_add_philippines_reconstruction_tab = {
 		}
 		else_if = {
 			limit = {
-				original_tag = JAP
+				original_tag = NIP
 			}
 			activate_mission = JAP_PHI_recon_timeout
 		}
 	}
 	set_temp_variable = { conflict_id = token:GC_PhilippinesReconstruction }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_philippines_reconstruction_tab = {
+SDP_fopo_remove_philippines_reconstruction_tab = {
 	set_temp_variable = { conflict_id = token:GC_PhilippinesReconstruction }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
-# Add/remove Mano Campaign
-TNO_fopo_add_mano_campaign_tab = {
+# Add/remove 马来亚之战
+SDP_fopo_add_mano_campaign_tab = {
 	set_temp_variable = { conflict_id = token:GC_ManoCamapign }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_mano_campaign_tab = {
+SDP_fopo_remove_mano_campaign_tab = {
 	set_temp_variable = { conflict_id = token:GC_ManoCamapign }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 #Orungu
-TNO_fopo_add_orungu_campaign_tab = {
+SDP_fopo_add_orungu_campaign_tab = {
 	set_temp_variable = { conflict_id = token:GC_Orungu }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_orungu_campaign_tab = {
+SDP_fopo_remove_orungu_campaign_tab = {
 	set_temp_variable = { conflict_id = token:GC_Orungu }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 # SAW Withdrawal
-TNO_fopo_add_saw_withdrawal_tab = {
+SDP_fopo_add_saw_withdrawal_tab = {
 	custom_effect_tooltip = SGR_SAW_conclude_tt
 	set_temp_variable = { conflict_id = token:GC_SAWWithdrawal }
-	TNO_add_fopo_conflict_tab = yes
-	TNO_fopo_remove_saw_tab = yes
+	SDP_add_fopo_conflict_tab = yes
+	SDP_fopo_remove_saw_tab = yes
 	hidden_effect = {
 		set_variable = { GER_withdrawal_timer_var = 365 }
 		# activate_mission = GER_withdrawal_deadline
 	}
 	set_variable = { saw_withdrawal = 1 }
 }
-TNO_fopo_remove_saw_withdrawal_tab = {
+SDP_fopo_remove_saw_withdrawal_tab = {
 	set_temp_variable = { conflict_id = token:GC_SAWWithdrawal }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # West African Reconstruction Add/remove
-TNO_fopo_add_wafr_reconstruction_tab = {
+SDP_fopo_add_wafr_reconstruction_tab = {
 	set_temp_variable = { conflict_id = token:GC_WACReconstruction }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_wafr_reconstruction_tab = {
+SDP_fopo_remove_wafr_reconstruction_tab = {
 	set_temp_variable = { conflict_id = token:GC_WACReconstruction }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Puerto Plata Invasion Add/remove
-TNO_fopo_add_puerto_plata_tab = {
+SDP_fopo_add_puerto_plata_tab = {
 	set_temp_variable = { conflict_id = token:GC_PuertoPlata }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_puerto_plata_tab = {
+SDP_fopo_remove_puerto_plata_tab = {
 	set_temp_variable = { conflict_id = token:GC_PuertoPlata }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # French Reclamation
-TNO_fopo_add_french_reclamation_tab = {
+SDP_fopo_add_french_reclamation_tab = {
 	if = {
 		limit = { NOT = { has_global_flag = FFR_reclamation_happening } }
 		set_global_flag = FFR_reclamation_happening
 	}
 	set_temp_variable = { conflict_id = token:GC_FranceCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 	if = {
 		limit = { tag = USA }
 		set_variable = { USA_FFR_Reclamation_Modifier_command_power_gain = 0 }
@@ -588,13 +588,13 @@ TNO_fopo_add_french_reclamation_tab = {
 		USA_FFR_reclamation_dynamic_modifier_calculate = yes
 	}
 }
-TNO_fopo_add_french_reclamation_civil_war_tab = {
+SDP_fopo_add_french_reclamation_civil_war_tab = {
 	if = {
 		limit = { NOT = { has_global_flag = FFR_reclamation_civil_war_happening } }
 		set_global_flag = FFR_reclamation_civil_war_happening
 	}
 	set_temp_variable = { conflict_id = token:GC_FranceCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 	if = {
 		limit = { tag = USA }
 		set_variable = { USA_FFR_Reclamation_Modifier_command_power_gain = 0 }
@@ -603,7 +603,7 @@ TNO_fopo_add_french_reclamation_civil_war_tab = {
 		USA_FFR_reclamation_dynamic_modifier_calculate = yes
 	}
 }
-TNO_fopo_remove_french_reclamation_any_tab = {
+SDP_fopo_remove_french_reclamation_any_tab = {
 	if = {
 		limit = { tag = USA }
 		clear_variable = USA_FFR_Reclamation_Modifier_command_power_gain
@@ -611,17 +611,17 @@ TNO_fopo_remove_french_reclamation_any_tab = {
 		remove_dynamic_modifier = { modifier = USA_FFR_Reclamation_Modifier }
 	}
 	set_temp_variable = { conflict_id = token:GC_FranceCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Colombian Civil War Add/remove
-TNO_fopo_add_colombian_civil_war_tab = {
+SDP_fopo_add_colombian_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_ColombiaCW }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_colombian_civil_war_tab = {
+SDP_fopo_remove_colombian_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_ColombiaCW }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 COL_load_border_clash_states_array = {
 	add_to_array = { COL.COL_border_clash_states = 1662 }
@@ -647,36 +647,36 @@ COL_set_civil_war_timer = {
 }
 
 # Reichsstaat African Cabal Add/remove
-TNO_fopo_add_reichsstaat_african_cabal_tab = {
+SDP_fopo_add_reichsstaat_african_cabal_tab = {
 	set_temp_variable = { conflict_id = token:GC_ReichsstaatCabal }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_reichsstaat_african_cabal_tab = {
+SDP_fopo_remove_reichsstaat_african_cabal_tab = {
 	set_temp_variable = { conflict_id = token:GC_ReichsstaatCabal }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Iceland Referendum
-TNO_fopo_add_iceland_referendum_tab = {
+SDP_fopo_add_iceland_referendum_tab = {
 	set_temp_variable = { conflict_id = token:GC_IcelandElections }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_iceland_referendum_tab = {
+SDP_fopo_remove_iceland_referendum_tab = {
 	set_temp_variable = { conflict_id = token:GC_IcelandElections }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # Add/remove Channel Crisis
-TNO_fopo_add_channel_crisis_tab = {
+SDP_fopo_add_channel_crisis_tab = {
 	set_temp_variable = { conflict_id = token:GC_ChannelCrisis }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_channel_crisis_tab = {
+SDP_fopo_remove_channel_crisis_tab = {
 	set_temp_variable = { conflict_id = token:GC_ChannelCrisis }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
-TNO_bargraph_backround_adjust = {
+SDP_bargraph_backround_adjust = {
 	set_variable = { ICE.ICE_OFNSUPPORT_BG = ICE.ICE_OFNSUPPORT }
 	add_to_variable = { ICE.ICE_OFNSUPPORT_BG = 1 }
 
@@ -985,8 +985,8 @@ ICEPROXY_cycle_end = {
 			}
 
 		ICELAND_bargraph_add_to_100 = yes
-		TNO_bargraph_backround_adjust = yes
-		TNO_ICELAND_calculate_winner_prediction = yes
+		SDP_bargraph_backround_adjust = yes
+		SDP_ICELAND_calculate_winner_prediction = yes
 	}
 }
 
@@ -1011,10 +1011,10 @@ ICELAND_bargraph_add_to_100 = {
 	set_variable = { ICE.ICE_INDSUPPORT = ANTIOFN_SHIT }
 	set_variable = { ICE.ICE_ANTIOFNSUPPORT = IND_SHIT }
 
-	TNO_bargraph_backround_adjust = yes
+	SDP_bargraph_backround_adjust = yes
 }
 
-TNO_ICELAND_calculate_winner_prediction = {
+SDP_ICELAND_calculate_winner_prediction = {
 	ICE = {
 		clr_country_flag = ICELAND_PROXY_OFN
 		clr_country_flag = ICELAND_PROXY_IND_OFN
@@ -1178,7 +1178,7 @@ ICEINFIL_Caught_Countdown = {
 	}
 }
 
-TNO_ICELAND_calculate_winner = {
+SDP_ICELAND_calculate_winner = {
 	clr_country_flag = ICELAND_PROXY_OFN
 	clr_country_flag = ICELAND_PROXY_IND_OFN
 	clr_country_flag = ICELAND_PROXY_NO_LEAD
@@ -1502,24 +1502,24 @@ TNO_ICELAND_calculate_winner = {
 	}
 }
 # England Influence Battle Add/remove
-TNO_fopo_add_england_influence_battle_tab = {
+SDP_fopo_add_england_influence_battle_tab = {
 	set_temp_variable = { conflict_id = token:GC_EnglandInfluenceBattle }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 }
-TNO_fopo_remove_england_influence_battle_tab = {
+SDP_fopo_remove_england_influence_battle_tab = {
 	set_temp_variable = { conflict_id = token:GC_EnglandInfluenceBattle }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 }
 
 # HAITIAN CIVIL WAR
-TNO_fopo_add_haitian_civil_war_tab = {
+SDP_fopo_add_haitian_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_Haitian_Civil_War }
-	TNO_add_fopo_conflict_tab = yes
+	SDP_add_fopo_conflict_tab = yes
 	hidden_effect = {
-		set_country_flag = TNO_HCW_base_phase
-		clr_country_flag = TNO_HCW_buildup_phase
-		clr_country_flag = TNO_HCW_interventionism_phase
-		clr_country_flag = TNO_HCW_disengagement_phase
+		set_country_flag = SDP_HCW_base_phase
+		clr_country_flag = SDP_HCW_buildup_phase
+		clr_country_flag = SDP_HCW_interventionism_phase
+		clr_country_flag = SDP_HCW_disengagement_phase
 
 		clear_array = USA.HAI_map_array
 		clear_array = HAI_map_x
@@ -1556,9 +1556,9 @@ TNO_fopo_add_haitian_civil_war_tab = {
 		set_variable = { 1882:HCW_Divided_Control = 50 }
 
 		set_variable = { HAI_selected_state = 1880 }
-		TNO_HCW_Draw_Pie_Chart = yes
+		SDP_HCW_Draw_Pie_Chart = yes
 
-		TNO_HCW_Calculate_Frame = yes
+		SDP_HCW_Calculate_Frame = yes
 		set_variable = { HAI_involvement = 5 }
 		set_variable = { HAI_weariness = 0 }
 		set_variable = { HAI.HCW_HAI_professionalism = 0 }
@@ -1567,7 +1567,7 @@ TNO_fopo_add_haitian_civil_war_tab = {
 		set_variable = { HAI.HAI_training_infantry_countdown = 120 }
 		set_variable = { global.HCW_locked_states = 0 }
 
-		TNO_HCW_calc_values = yes
+		SDP_HCW_calc_values = yes
 
 		1728 = { set_variable = { ROOT.HAI_selected_random_state_tick_govt = THIS } }
 		1880 = { set_variable = { ROOT.HAI_selected_random_state_tick_comm = THIS } }
@@ -1578,14 +1578,14 @@ TNO_fopo_add_haitian_civil_war_tab = {
 	}
 }
 
-TNO_fopo_remove_haitian_civil_war_tab = {
+SDP_fopo_remove_haitian_civil_war_tab = {
 	set_temp_variable = { conflict_id = token:GC_Haitian_Civil_War }
-	TNO_remove_fopo_conflict_tab = yes
+	SDP_remove_fopo_conflict_tab = yes
 	hidden_effect = {
-		clr_country_flag = TNO_HCW_base_phase
-		clr_country_flag = TNO_HCW_buildup_phase
-		clr_country_flag = TNO_HCW_interventionism_phase
-		clr_country_flag = TNO_HCW_disengagement_phase
+		clr_country_flag = SDP_HCW_base_phase
+		clr_country_flag = SDP_HCW_buildup_phase
+		clr_country_flag = SDP_HCW_interventionism_phase
+		clr_country_flag = SDP_HCW_disengagement_phase
 
 		clear_array = USA.HAI_map_array
 		clear_array = HAI_map_x

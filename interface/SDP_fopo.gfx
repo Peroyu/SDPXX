@@ -1,0 +1,77 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_fopo_frontlines_btn"
+		texturefile = "gfx/interface/fopo/chart_history_type_button.png"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_homefront_btn"
+		texturefile = "gfx/interface/fopo/chart_history_type_button.png"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_small_button"
+		texturefile = "gfx/interface/fopo/tab_small.png"
+		noOfFrames = 2
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_SDP_fopo_Background"
+		texturefile = "gfx/interface/fopo/waroverview_bg_tiled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_fopo_conflict_status"
+		texturefile = "gfx/interface/fopo/conference_action_header.dds"
+	}
+
+	spriteType = {
+		name = "GFX_BoP_Base_Vertical_Divider_Full"
+		texturefile = "gfx/interface/fopo/GFX_BoP_Base_Vertical_Divider_Full.dds"
+	}
+
+	spriteType = {
+		name = "GFX_BoP_Decision_Divider"
+		texturefile = "gfx/interface/fopo/GFX_BoP_Decision_Divider.dds"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_crisis_box"
+		texturefile = "gfx/interface/fopo/fopo_gui_box.dds"
+	}
+
+	spriteType = {
+		name = "GFX_custom_global_conflicts"
+		texturefile = "gfx/interface/fopo/GFX_custom_global_conflicts.png"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_fake_background_frame"
+		textureFile = "gfx/interface/fopo/decision_item_bg_single.dds"
+	}
+	spriteType = {
+		name = "GFX_fopo_fake_mission_frame"
+		textureFile = "gfx/interface/fopo/decision_item_bg_single.dds"
+	}
+	###################################################
+	spriteType = {
+		name = "GFX_fopo_malaysia_sidebar"
+		textureFile = "gfx/interface/fopo/icons/GFX_fopo_malaysia_civil_war_icon_jap.png"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_malaysia_civil_war_icon_jap"
+		textureFile = "gfx/interface/fopo/cate/GFX_fopo_malaysia_civil_war_icon_jap.png"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_philippines_blitz_icon_jap"
+		textureFile = "gfx/interface/fopo/cate/GFX_fopo_mano_campaign_jap.png"
+	}
+}

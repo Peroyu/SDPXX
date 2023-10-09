@@ -31,30 +31,66 @@
 #		Channel Crisis GUI
 
 scripted_gui = {
+	SDP_fopo ={
+		window_name = "SDP_fopo_window"
+		context_type = Player_context
+		parent_window_token = politics_tab
+		visible = {
+			any_country = {
+				has_country_flag = FOPO_ENABLE
+			}
+		}
+		
+		effects = {
+			enter_SDP_fopo_window_button_click = {
+				if = {
+				   limit = {
+					 NOT = { has_country_flag = open_SDP_fopo_window_main }
+					}
+					set_country_flag = open_SDP_fopo_window_main
+				}
+				else = {
+					clr_country_flag = open_SDP_fopo_window_main
+				}
+			}
+		}
+	}
+	SDP_fopo_window ={
+		window_name = "SDP_fopo_window_main"
+		context_type = Player_context
+		visible = {
+			has_country_flag = open_SDP_fopo_window_main
+		}
+		
+		effects = {
+			enter_SDP_fopo_window_close_button_click = {
+				clr_country_flag = open_SDP_fopo_window_main
+			}
+	    }
+	}
 	#################################################
 	##=|        Base Global Conflicts GUI        |=##
 	##======================| |====================##
 	#################################################
-	TNO_fopo_container = {
-		window_name = "TNO_fopo_container"
+	SDP_fopo_container = {
+		window_name = "SDP_fopo_container"
 		context_type = player_context
 		parent_window_name = powerbalanceview
-
-		visible = { check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts } }
+		
 		ai_enabled = { always = no }
 
 		dynamic_lists = {
 			conflict_tabs = {
-				array = TNO_active_conflicts
+				array = SDP_active_conflicts
 				index = conflict_idx
 				value = conflict_id
-				entry_container = TNO_fopo_conflict_tab
+				entry_container = SDP_fopo_conflict_tab
 			}
 			# conflict_guis = {
 			# 	array = world_conflict_guis
 			# 	index = conflict_idx
 			# 	value = conflict_id
-			# 	entry_container = [Get_TNO_fopo_conflict_guis]
+			# 	entry_container = [Get_SDP_fopo_conflict_guis]
 			# }
 		}
 
@@ -71,10 +107,10 @@ scripted_gui = {
 			}
 
 			frontlines_btn_click = {
-				set_variable = { TNO_fopo_selected_front = 1 }
+				set_variable = { SDP_fopo_selected_front = 1 }
 			}
 			homefront_btn_click = {
-				set_variable = { TNO_fopo_selected_front = 2 }
+				set_variable = { SDP_fopo_selected_front = 2 }
 			}
 		}
 
@@ -92,26 +128,26 @@ scripted_gui = {
 			}
 
 			frontlines_btn_visible = {
-				TNO_fopo_should_display_homefront = yes
+				SDP_fopo_should_display_homefront = yes
 			}
 			homefront_btn_visible = {
-				TNO_fopo_should_display_homefront = yes
+				SDP_fopo_should_display_homefront = yes
 			}
 			conflict_status_visible = {
-				TNO_fopo_should_display_homefront = no
+				SDP_fopo_should_display_homefront = no
 			}
 			conflict_title_visible = {
-				TNO_fopo_should_display_homefront = no
+				SDP_fopo_should_display_homefront = no
 			}
 			info_tab_visible = {
-				TNO_fopo_show_info_tab = yes
+				SDP_fopo_show_info_tab = yes
 			}
 
 			frontlines_btn_click_enabled = {
-				check_variable = { TNO_fopo_selected_front = 2 }
+				check_variable = { SDP_fopo_selected_front = 2 }
 			}
 			homefront_btn_click_enabled = {
-				check_variable = { TNO_fopo_selected_front = 1 }
+				check_variable = { SDP_fopo_selected_front = 1 }
 			}
 		}
 
@@ -131,27 +167,27 @@ scripted_gui = {
 	#################################################
 	#               No Conflicts GUI                #
 	#################################################
-	TNO_fopo_no_conflict = {
-		window_name = "TNO_fopo_no_conflict"
+	SDP_fopo_no_conflict = {
+		window_name = "SDP_fopo_no_conflict"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
-			check_variable = { TNO_active_conflicts^num = 0 }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_active_conflicts^num = 0 }
 		}
 	}
 
 	#################################################
 	#             Generic Conflicts GUI             #
 	#################################################
-	TNO_fopo_generic_conflict = {
-		window_name = "TNO_fopo_generic_conflict"
+	SDP_fopo_generic_conflict = {
+		window_name = "SDP_fopo_generic_conflict"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = { # pain
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			NOT = {
 				AND = {
 					OR = {
@@ -178,7 +214,7 @@ scripted_gui = {
 				AND = { check_variable = { selected_conflict_id = token:GC_Haitian_Civil_War } tag = USA }
 				check_variable = { selected_conflict_id = token:GC_MalagasyCW }
 				check_variable = { selected_conflict_id = token:GC_ChannelCrisis }
-				check_variable = { TNO_active_conflicts^num = 0 }
+				check_variable = { SDP_active_conflicts^num = 0 }
 			}
 		}
 
@@ -195,13 +231,13 @@ scripted_gui = {
 	#################################################
 	#          Generic Conflict Topbar GUI          #
 	#################################################
-	TNO_fopo_generic_conflict_topbar = {
-		window_name = "TNO_fopo_generic_conflict_topbar"
+	SDP_fopo_generic_conflict_topbar = {
+		window_name = "SDP_fopo_generic_conflict_topbar"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			OR = {
 				check_variable = { selected_conflict_id = token:GC_WAC }
 				check_variable = { selected_conflict_id = token:GC_SAW }
@@ -211,14 +247,14 @@ scripted_gui = {
 
 		triggers = {
 			info_tab_visible = {
-				TNO_fopo_show_info_tab = yes
+				SDP_fopo_show_info_tab = yes
 			}
 		}
 
 		properties = {
 			topbar = {
 				image = "[Get_fopo_topbar]"
-				frame = TNO_fopo_selected_front
+				frame = SDP_fopo_selected_front
 			}
 			seal = {
 				image = "[Get_fopo_seal]"
@@ -234,13 +270,13 @@ scripted_gui = {
 	#################################################
 	#           Indonesian Civil War GUI            #
 	#################################################
-	TNO_Indonesian_Civil_War_GUI = {
-		window_name = "TNO_Indonesian_Civil_War_GUI"
+	SDP_Indonesian_Civil_War_GUI = {
+		window_name = "SDP_Indonesian_Civil_War_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_IndonesiaCW }
 		}
 
@@ -271,13 +307,13 @@ scripted_gui = {
 	#################################################
 	#            Jamaican Referendum GUI            #
 	#################################################
-	TNO_Jamaican_Referendum_GUI = {
-		window_name = "TNO_Jamaican_Referendum_GUI"
+	SDP_Jamaican_Referendum_GUI = {
+		window_name = "SDP_Jamaican_Referendum_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_JamaicanReferendum }
 		}
 
@@ -308,11 +344,11 @@ scripted_gui = {
 
 		effects = {
 			add_jam_btn_click = {
-				TNO_increase_jamaica_indep_chance_low = yes
+				SDP_increase_jamaica_indep_chance_low = yes
 			}
 
 			add_wif_btn_click = {
-				TNO_decrease_jamaica_indep_chance_low = yes
+				SDP_decrease_jamaica_indep_chance_low = yes
 				log = "[?WIN.WIN_jamaica_favor]"
 			}
 		}
@@ -336,13 +372,13 @@ scripted_gui = {
 	#################################################
 	#              Jamaican Crisis GUI              #
 	#################################################
-	TNO_Jamaican_Crisis_GUI = {
-		window_name = "TNO_Jamaican_Crisis_GUI"
+	SDP_Jamaican_Crisis_GUI = {
+		window_name = "SDP_Jamaican_Crisis_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_JamaicanCrisis }
 		}
 
@@ -366,18 +402,18 @@ scripted_gui = {
 
 		effects = {
 			add_violence_btn_click = {
-				TNO_increase_crisis_violence_med = yes
+				SDP_increase_crisis_violence_med = yes
 			}
 
 			lower_violence_btn_click = {
-				TNO_decrease_crisis_violence_med = yes
+				SDP_decrease_crisis_violence_med = yes
 			}
 			add_fervor_btn_click = {
-				TNO_increase_fervor_med = yes
+				SDP_increase_fervor_med = yes
 			}
 
 			lower_fervor_btn_click = {
-				TNO_decrease_fervor_med = yes
+				SDP_decrease_fervor_med = yes
 			}
 		}
 
@@ -403,13 +439,13 @@ scripted_gui = {
 	#################################################
 	#                Trinidad BPR GUI               #
 	#################################################
-	TNO_Trinidad_BPR_GUI = {
-		window_name = "TNO_Trinidad_BPR_GUI"
+	SDP_Trinidad_BPR_GUI = {
+		window_name = "SDP_Trinidad_BPR_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_TrinidadRev }
 		}
 
@@ -426,13 +462,13 @@ scripted_gui = {
 	#################################################
 	#                Turkes Kenes GUI               #
 	#################################################
-	TNO_CA_Conference_Unification_1_GUI = {
-		window_name = "TNO_CA_Conference_Unification_1_GUI"
+	SDP_CA_Conference_Unification_1_GUI = {
+		window_name = "SDP_CA_Conference_Unification_1_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_Turkestan }
 		}
 
@@ -440,7 +476,7 @@ scripted_gui = {
 			conference_seats = {
 				array = TRK.CA_Conference_seat_x
 				change_scope = no
-				entry_container = TNO_CA_Conference_dot
+				entry_container = SDP_CA_Conference_dot
 				index = seat_idx
 			}
 		}
@@ -475,13 +511,13 @@ scripted_gui = {
 	#################################################
 	#              Philippines War GUI              #
 	#################################################
-	TNO_Philippines_Prep_GUI = {
-		window_name = "TNO_Philippines_Prep_GUI"
+	SDP_Philippines_Prep_GUI = {
+		window_name = "SDP_Philippines_Prep_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PhilippinesWar } tag = JAP
 		}
 
@@ -517,13 +553,13 @@ scripted_gui = {
 		}
 	}
 
-	TNO_Philippines_Prep_GUI_USA = {
-		window_name = "TNO_Philippines_Prep_GUI_USA"
+	SDP_Philippines_Prep_GUI_USA = {
+		window_name = "SDP_Philippines_Prep_GUI_USA"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_BalintawakBlitz }
 		}
 
@@ -538,13 +574,13 @@ scripted_gui = {
 	#################################################
 	#         Philippines Reconstruction GUI        #
 	#################################################
-	TNO_Philippines_Reconstruction_GUI = {
-		window_name = "TNO_Philippines_Reconstruction_GUI"
+	SDP_Philippines_Reconstruction_GUI = {
+		window_name = "SDP_Philippines_Reconstruction_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PhilippinesReconstruction }
 		}
 
@@ -597,13 +633,13 @@ scripted_gui = {
 	#################################################
 	#      South Africa US Reconstruction GUI       #
 	#################################################
-	TNO_SAF_US_Reconstruction_GUI = {
-		window_name = "TNO_SAF_US_Reconstruction_GUI"
+	SDP_SAF_US_Reconstruction_GUI = {
+		window_name = "SDP_SAF_US_Reconstruction_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_SAWReconstruction } tag = USA
 		}
 
@@ -724,13 +760,13 @@ scripted_gui = {
 	#################################################
 	#          South Africa Withdrawal GUI          #
 	#################################################
-	TNO_SAW_Withdrawal_GUI = {
-		window_name = "TNO_SAW_Withdrawal_GUI"
+	SDP_SAW_Withdrawal_GUI = {
+		window_name = "SDP_SAW_Withdrawal_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_SAWWithdrawal }
 		}
 
@@ -772,13 +808,13 @@ scripted_gui = {
 	#################################################
 	#         West Africa Reconstruction GUI        #
 	#################################################
-	TNO_Free_France_Reconstruction_GUI = {
-		window_name = "TNO_Free_France_Reconstruction_GUI"
+	SDP_Free_France_Reconstruction_GUI = {
+		window_name = "SDP_Free_France_Reconstruction_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_WACReconstruction }
 		}
 
@@ -818,13 +854,13 @@ scripted_gui = {
 	#################################################
 	#        Puerto Plata Invasion GUI (USA)        #
 	#################################################
-	TNO_Puerto_Plata_Invasion_GUI_USA = {
-		window_name = "TNO_Puerto_Plata_Invasion_GUI_USA"
+	SDP_Puerto_Plata_Invasion_GUI_USA = {
+		window_name = "SDP_Puerto_Plata_Invasion_GUI_USA"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = USA
 		}
 
@@ -957,13 +993,13 @@ scripted_gui = {
 		}
 	}
 
-	TNO_Puerto_Plata_GUI_USA = {
-		window_name = "TNO_Puerto_Plata_GUI_USA"
+	SDP_Puerto_Plata_GUI_USA = {
+		window_name = "SDP_Puerto_Plata_GUI_USA"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PuertoPlata }
 			tag = USA
 		}
@@ -1003,13 +1039,13 @@ scripted_gui = {
 	#################################################
 	#        Puerto Plata Invasion GUI (IBR)        #
 	#################################################
-	TNO_Puerto_Plata_Invasion_GUI_IBR = {
-		window_name = "TNO_Puerto_Plata_Invasion_GUI_IBR"
+	SDP_Puerto_Plata_Invasion_GUI_IBR = {
+		window_name = "SDP_Puerto_Plata_Invasion_GUI_IBR"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = IBR
 		}
 
@@ -1090,13 +1126,13 @@ scripted_gui = {
 	#################################################
 	#        Puerto Plata Invasion GUI (GER)        #
 	#################################################
-	TNO_Puerto_Plata_Invasion_GUI_GER = {
-		window_name = "TNO_Puerto_Plata_Invasion_GUI_GER"
+	SDP_Puerto_Plata_Invasion_GUI_GER = {
+		window_name = "SDP_Puerto_Plata_Invasion_GUI_GER"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_PuertoPlata } tag = GER
 		}
 
@@ -1178,33 +1214,33 @@ scripted_gui = {
 	#################################################
 	#             French Reclamation GUI            #
 	#################################################
-	TNO_FrenchReclamation_DecisionGUI = {
-		window_name = "TNO_FrenchReclamation_DecisionGUI"
+	SDP_FrenchReclamation_DecisionGUI = {
+		window_name = "SDP_FrenchReclamation_DecisionGUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_FranceCW }
 		}
 
 		dynamic_lists = {
-			TNO_FrenchReclamation_Focus_Gridbox = {
+			SDP_FrenchReclamation_Focus_Gridbox = {
 				array = FFR.FrenchReclamation_Focus
 				change_scope = no
-				entry_container= TNO_FrenchReclamation_Focus_Gridbox_EntryContainer
+				entry_container= SDP_FrenchReclamation_Focus_Gridbox_EntryContainer
 				index = i
 			}
 		}
 
 		triggers = {
-			TNO_FrenchReclamation_Focus_Stored_Bar_Empty_visible = {
+			SDP_FrenchReclamation_Focus_Stored_Bar_Empty_visible = {
 				check_variable = { FFR.FrenchReclamation_Focus_Stored = 0 }
 			}
-			TNO_FrenchReclamation_Focus_Bar_Empty_visible = {
+			SDP_FrenchReclamation_Focus_Bar_Empty_visible = {
 				check_variable = { FFR.FrenchReclamation_Focus^i = 0 }
 			}
-			TNO_FrenchReclamation_Focus_Stored_Button_USA_visible = {
+			SDP_FrenchReclamation_Focus_Stored_Button_USA_visible = {
 				OR = {
 					tag = USA
 					AND = {
@@ -1213,14 +1249,14 @@ scripted_gui = {
 					}
 				}
 			}
-			TNO_FrenchReclamation_Focus_Stored_Button_USA_click_enabled = {
+			SDP_FrenchReclamation_Focus_Stored_Button_USA_click_enabled = {
 				check_variable = { FFR.FrenchReclamation_Focus_Stored < 5 }
 				has_political_power > 29.99
 			}
-			TNO_FrenchReclamation_Focus_Stored_Button_GER_visible = {
+			SDP_FrenchReclamation_Focus_Stored_Button_GER_visible = {
 				tag = GER
 			}
-			TNO_FrenchReclamation_Button_Usual_USA_visible = {
+			SDP_FrenchReclamation_Button_Usual_USA_visible = {
 				OR = {
 					tag = USA
 					AND = {
@@ -1229,21 +1265,21 @@ scripted_gui = {
 					}
 				}
 			}
-			TNO_FrenchReclamation_Button_Usual_USA_click_enabled = {
+			SDP_FrenchReclamation_Button_Usual_USA_click_enabled = {
 				check_variable = { FFR.FrenchReclamation_Focus_Stored > 0 }
 				check_variable = { FFR.FrenchReclamation_Focus^i < 5 }
 			}
-			TNO_FrenchReclamation_Button_Usual_GER_visible = {
+			SDP_FrenchReclamation_Button_Usual_GER_visible = {
 				tag = GER
 			}
 		}
 
 		effects = {
-			TNO_FrenchReclamation_Focus_Stored_Button_USA_click = {
+			SDP_FrenchReclamation_Focus_Stored_Button_USA_click = {
 				add_to_variable = { FFR.FrenchReclamation_Focus_Stored = 1 }
 				add_political_power = -30
 			}
-			TNO_FrenchReclamation_Button_Usual_USA_click = {
+			SDP_FrenchReclamation_Button_Usual_USA_click = {
 				add_to_variable = { FFR.FrenchReclamation_Focus_Stored = -1 }
 				add_to_variable = { FFR.FrenchReclamation_Focus^i = 1 }
 				FFR_reclamation_dynamic_modifier_calculate = yes
@@ -1251,8 +1287,8 @@ scripted_gui = {
 		}
 
 		properties = {
-			TNO_FrenchReclamation_Focus_Stored_Bar = { frame = FFR.FrenchReclamation_Focus_Stored }
-			TNO_FrenchReclamation_Focus_Bar = { frame = FFR.FrenchReclamation_Focus^i }
+			SDP_FrenchReclamation_Focus_Stored_Bar = { frame = FFR.FrenchReclamation_Focus_Stored }
+			SDP_FrenchReclamation_Focus_Bar = { frame = FFR.FrenchReclamation_Focus^i }
 			sidebar = {
 				image = "[Get_fopo_sidebar]"
 			}
@@ -1265,13 +1301,13 @@ scripted_gui = {
 	#################################################
 	#             Iceland Elections GUI             #
 	#################################################
-	TNO_Iceland_Congress_Mechanic = {
-		window_name = "TNO_Iceland_Congress_Mechanic"
+	SDP_Iceland_Congress_Mechanic = {
+		window_name = "SDP_Iceland_Congress_Mechanic"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_IcelandElections }
 		}
 
@@ -1318,13 +1354,13 @@ scripted_gui = {
 	#################################################
 	#             Haitian Civil War GUI             #
 	#################################################
-	TNO_Haitian_War_GUI_USA = {
-		window_name = "TNO_Haitian_War_GUI_USA"
+	SDP_Haitian_War_GUI_USA = {
+		window_name = "SDP_Haitian_War_GUI_USA"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_Haitian_Civil_War }
 			tag = USA
 			is_ai = no
@@ -1333,7 +1369,7 @@ scripted_gui = {
 		dynamic_lists = {
 			haiti_map_grid = {
 				array = HAI_map_array
-				entry_container = TNO_Haitian_War_GUI_Map_Entry
+				entry_container = SDP_Haitian_War_GUI_Map_Entry
 				value = hai_v
 				index = hai_i
 			}
@@ -1353,19 +1389,19 @@ scripted_gui = {
 			}
 
 			haiti_involvement_bar_visible = {
-				NOT = { has_country_flag = TNO_HCW_disengagement_phase }
+				NOT = { has_country_flag = SDP_HCW_disengagement_phase }
 				check_variable = {haiti_active_tab = 0}
 			}
 			haiti_involvement_bar_red_visible = {
-				has_country_flag = TNO_HCW_disengagement_phase
+				has_country_flag = SDP_HCW_disengagement_phase
 				check_variable = {haiti_active_tab = 0}
 			}
 			haiti_involvement_bar_overlay_visible = {
-				NOT = { has_country_flag = TNO_HCW_disengagement_phase }
+				NOT = { has_country_flag = SDP_HCW_disengagement_phase }
 				check_variable = {haiti_active_tab = 0}
 			}
 			haiti_involvement_bar_overlay_inverted_visible = {
-				has_country_flag = TNO_HCW_disengagement_phase
+				has_country_flag = SDP_HCW_disengagement_phase
 				check_variable = {haiti_active_tab = 0}
 			}
 			haiti_signal_lost_pie_visible = {
@@ -1468,7 +1504,7 @@ scripted_gui = {
 		effects = {
 			haiti_map_button_click = {
 				set_variable = { HAI_selected_state = hai_v }
-				TNO_HCW_Draw_Pie_Chart = yes
+				SDP_HCW_Draw_Pie_Chart = yes
 			}
 		}
 
@@ -1538,13 +1574,13 @@ scripted_gui = {
 	#################################################
 	#               Madagaskar War GUI              #
 	#################################################
-	TNO_Madagascar_GUI = {
-		window_name = "TNO_Madagascar_GUI"
+	SDP_Madagascar_GUI = {
+		window_name = "SDP_Madagascar_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_MalagasyCW }
 			OR = {
 				tag = USA
@@ -1888,13 +1924,13 @@ scripted_gui = {
 	#################################################
 	#               Channel Crisis GUI              #
 	#################################################
-	TNO_Channel_Crisis_GUI = {
-		window_name = "TNO_Channel_Crisis_GUI"
+	SDP_Channel_Crisis_GUI = {
+		window_name = "SDP_Channel_Crisis_GUI"
 		context_type = player_context
 		parent_window_name = powerbalanceview
 
 		visible = {
-			check_variable = { TNO_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
+			check_variable = { SDP_BoP_SelectedTab = token:BoP_Tab_GlobalConflicts }
 			check_variable = { selected_conflict_id = token:GC_ChannelCrisis }
 			is_ai = no #might try making the ai directly interact later, moving ai buttons to decisions for now
 		}
@@ -1904,7 +1940,7 @@ scripted_gui = {
 				array = ENG.cc_negotiations_concessions_array
 				index = ENG.cc_negotiations_concessions_array_idx
 				value = ENG.cc_negotiations_concessions_array_val
-				entry_container = TNO_cc_negotiations_entry
+				entry_container = SDP_cc_negotiations_entry
 			}
 		}
 

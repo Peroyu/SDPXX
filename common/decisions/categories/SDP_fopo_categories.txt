@@ -12,10 +12,10 @@ USA_foreign_policy_category = {
 	}
 
 	# visible = {
-	# 	check_variable = { TNO_active_conflicts^num > 0 }
+	# 	check_variable = { SDP_active_conflicts^num > 0 }
 	# }
 	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 
 	on_map_area = {
@@ -28,7 +28,7 @@ USA_foreign_policy_category = {
 		target_array = IRQ.controlled_states
 		target_array = YEM.controlled_states
 		target_trigger = {
-			TNO_fopo_baathism_support_selected = yes
+			SDP_fopo_baathism_support_selected = yes
 			FROM = {
 				owner = {
 					has_war = yes
@@ -61,10 +61,10 @@ GER_foreign_policy_category = {
 	}
 
 	# visible = {
-	# 	check_variable = { TNO_active_conflicts^num > 0 }
+	# 	check_variable = { SDP_active_conflicts^num > 0 }
 	# }
 	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 
 	on_map_area = {
@@ -77,7 +77,7 @@ GER_foreign_policy_category = {
 		target_array = GUL.controlled_states
 		target_array = PAL.controlled_states
 		target_trigger = {
-			TNO_fopo_baathism_support_selected = yes
+			SDP_fopo_baathism_support_selected = yes
 			FROM = {
 				is_capital = yes
 				owner = {
@@ -105,14 +105,14 @@ JAP_foreign_policy_category = {
 	icon = GFX_JAP_decision_category_gaimusho
 
 	allowed = {
-		original_tag = JAP
+		original_tag = NIP
 	}
 
 	# visible = {
-	# 	check_variable = { TNO_active_conflicts^num > 0 }
+	# 	check_variable = { SDP_active_conflicts^num > 0 }
 	# }
-	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# visible_when_empty = yes
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 
 	on_map_area = {
@@ -125,7 +125,7 @@ JAP_foreign_policy_category = {
 		target_array = OMA.controlled_states
 		target_array = OMI.controlled_states
 		target_trigger = {
-			TNO_fopo_baathism_support_selected = yes
+			SDP_fopo_baathism_support_selected = yes
 			FROM = {
 				owner = {
 					has_war = yes
@@ -149,10 +149,10 @@ BRA_foreign_policy_category = {
 	}
 
 	# visible = {
-	# 	check_variable = { TNO_active_conflicts^num > 0 }
+	# 	check_variable = { SDP_active_conflicts^num > 0 }
 	# }
 	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 }
 
@@ -164,10 +164,10 @@ IBR_foreign_policy_category = {
 	}
 
 	# visible = {
-	# 	check_variable = {TNO_active_conflicts^num > 0 }
+	# 	check_variable = {SDP_active_conflicts^num > 0 }
 	# }
 	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 }
 
@@ -179,9 +179,9 @@ ENG_foreign_policy_category = {
 	}
 
 	# visible = {
-	# 	check_variable = {TNO_active_conflicts^num > 0 }
+	# 	check_variable = {SDP_active_conflicts^num > 0 }
 	# }
 	#visible_when_empty = yes
-	# scripted_gui = TNO_fopo_container
+	# scripted_gui = SDP_fopo_container
 	# priority = 100010
 }
