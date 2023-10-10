@@ -1,6 +1,6 @@
 capital = 658 
 
-obb = "ALB_1947"  
+obb = "empty"  
 
 set_research_slots = 2 
 

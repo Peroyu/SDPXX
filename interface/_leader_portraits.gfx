@@ -941,6 +941,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "WED_portrait_Juan_Arevalo"
+		texturefile = "gfx/leaders/Latin_America/WED_portrait_Juan_Arevalo.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_VEN_Romulo_Bello"
 		texturefile = "gfx/leaders/Latin_America/GFX_portrait_VEN_Romulo_Bello.png"		
 	}
