@@ -946,6 +946,21 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_SAR_revolutionary_government"
+		texturefile = "gfx/leaders/Latin_America/GFX_portrait_SAR_revolutionary_government.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NIC_Anastasio_Garcia"
+		texturefile = "gfx/leaders/Latin_America/GFX_portrait_NIC_Anastasio_Garcia.png"		
+	}
+
+	spriteType = {
+		name = "portrait_HOD_Cafias_Andino"
+		texturefile = "gfx/leaders/Latin_America/portrait_HOD_Cafias_Andino.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_VEN_Romulo_Bello"
 		texturefile = "gfx/leaders/Latin_America/GFX_portrait_VEN_Romulo_Bello.png"		
 	}

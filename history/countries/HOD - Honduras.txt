@@ -8,21 +8,25 @@ set_war_support = 0.2
 set_stability = 0.3 
 
 set_politics = {
-	ruling_party = reactionism  
+	ruling_party = movement_communism  
 	last_election = "1947.1.1"
 	election_frequency = 48  
 	elections_allowed = no   
 }
 
 set_popularities = {
-	reactionism = 100
+	Liberalism = 22
+	movement_communism = 28
+	conservatism = 30
+	reactionism = 10
+	nationalism = 10
 }
 create_country_leader = {
 	name = "HOD_Cafias_Andino"  # 
 	desc = "/"  # 
 	picture = portrait_HOD_Cafias_Andino  # 
-	expire = "1952.4.30"  # 
-	ideology = despotism # 
+	expire = "1962.4.30"  # 
+	ideology = FFFFF_FFF # 
 	traits = {  # 
 		#
 	}

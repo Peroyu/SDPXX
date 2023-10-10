@@ -15,6 +15,16 @@ set_politics = {
 }
 
 set_popularities = {
-	reactionism = 100
+	movement_communism = 10
+	conservatism = 32
+	reactionism = 30
+	nationalism = 8
 }
-
+create_country_leader = {
+	name = "NIC_Anastasio_Garcia"   
+	desc = ""  
+	picture = GFX_portrait_NIC_Anastasio_Garcia   
+	expire = "1959.4.5"   
+	ideology = despotism 
+	traits = {  }
+}
