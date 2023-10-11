@@ -1,0 +1,216 @@
+###########################
+### Jamaica Referendum  ###
+###########################
+JAP_foreign_policy_category = {
+	NIP_chongqing_decsion = {
+		icon = decision_generic_prepare_civil_war
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion1 = {
+		icon = decision_generic_prepare_civil_war
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion2 = {
+		icon = decision_generic_army_support
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion3 = {
+		icon = decision_generic_air
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion4 = {
+		icon = decision_generic_operation
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion5 = {
+		icon = decision_hol_draw_up_staff_plans
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	NIP_chongqing_decsion6 = {
+		icon = decision_hol_draw_up_staff_plans
+
+		visible = {
+			SDP_fopo_malaysia_selected = yes
+		}
+		available = {
+			SDP_JAP_interventions_not_blocked = yes
+		}
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		days_remove = 14
+		fire_only_once = no
+		days_re_enable = 0
+
+		complete_effect = {
+			CMA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = NIP
+				}
+			}
+		}
+	}
+	
+}

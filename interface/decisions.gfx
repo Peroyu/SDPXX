@@ -76,8 +76,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/MMA_gongshukmt.dds"
 	}
 	spriteType = {
-		name = "decision_generic_form_nation"
-		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
+		name = "decision_generic_army_support"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_army_support.dds"
+	}
+	spriteType = {
+		name = "decision_generic_air"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_air.dds"
 	}
 	spriteType = {
 		name = "decision_generic_form_nation"

@@ -1,0 +1,49 @@
+SDP_debug = {
+	SDP_debug_1 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_country_flag = USA_aid_MLY
+			set_country_flag = JAP_aid_SHO
+			SDP_fopo_add_malaysia_civil_war_tab = yes
+		}
+	
+		
+		ai_will_do = {
+				base = 100#ai点选这个决议的意愿
+				}
+	}
+    SDP_debug_2 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			SDP_fopo_add_philippines_tab = yes
+		}
+	
+		
+		ai_will_do = {
+				base = 100#ai点选这个决议的意愿
+				}
+	}
+    
+}

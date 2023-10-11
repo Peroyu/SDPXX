@@ -452,8 +452,8 @@ TUR = {
 	color_ui = rgb { 191 227 100 }
 }
 RAS = {
-	color = rgb { 191 227 100 }
-	color_ui = rgb { 191 227 100 }
+	color = rgb { 218 239 163 }
+	color_ui = rgb { 218 239 163 }
 }
 TRU = {
 	color = rgb { 255 188 147 }
@@ -518,4 +518,20 @@ KAI = {
 ATJ = {
 	color = rgb{  206 115 229 }
 	color_ui = rgb{  206 115 229  }
+}
+HOD = {
+	color = rgb{  140 78 79 }
+	color_ui = rgb{ 140 78 79  }
+}
+NIC = {
+	color = rgb{  255 222 117 }
+	color_ui = rgb{   255 222 117  }
+}
+SAR = {
+	color = rgb{ 160 185 218 }
+	color_ui = rgb{  160 185 218  }
+}
+WED = {
+	color = rgb{ 140 111 78 }
+	color_ui = rgb{ 140 111 78  }
 }

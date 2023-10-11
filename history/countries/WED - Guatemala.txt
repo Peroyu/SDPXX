@@ -1,0 +1,36 @@
+capital = 658 
+
+oob = "empty"  
+
+set_research_slots = 2 
+
+set_war_support = 0.2 
+set_stability = 0.3 
+
+set_politics = {
+	ruling_party = Liberalism  
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+
+set_popularities = {
+	communism = 12
+	social_democracy = 18
+	Liberalism = 10
+	movement_communism = 30
+	conservatism = 10
+	reactionism = 10
+	nationalism = 10
+}
+
+create_country_leader = {
+	name = "WED_Juan_Arevalo"  # 
+	desc = "/"  # 
+	picture = WED_portrait_Juan_Arevalo  # 
+	expire = "1992.4.30"  # 
+	ideology = social_liberalism # 
+	traits = {  # 
+		#
+	}
+}

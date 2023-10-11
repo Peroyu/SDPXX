@@ -51,7 +51,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}	
- 
+			
 		containerWindowType = {
 			name = "chart_explanation"
 			position = { x = 18 y = 116 }
@@ -94,7 +94,7 @@ guiTypes = {
 				position = { x= -55 y = -4}
 			}
 		}
-
+		
 		containerWindowType = {
 			name = "exile_info_container"
 			position = { x = -145 y = 241 }
@@ -154,7 +154,29 @@ guiTypes = {
 				format = centre				
 			}		
 
-			
+			containerWindowType = {
+				name = "power_balance_button"
+				position = { x = 273 y = 160 }
+				clipping = no
+
+				buttonType = {
+					name = "show_power_balance"
+					position = { x = 9 y = 4 }
+					quadTextureSprite = "GFX_fopo_small_button"
+				}
+				
+				
+
+				instantTextboxType = {
+					name = "fopo_name"
+					position = { x = 39 y = 12 }
+					font = "hoi_16mbs"
+					text = "fopo_tt"
+					maxWidth = 245
+					maxHeight = 20
+				}
+			}	
+		
 		
 	}
 			
