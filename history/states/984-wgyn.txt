@@ -1,0 +1,23 @@
+
+state={
+	id=984
+	name="STATE_984"
+
+	history={
+		add_core_of = FWI
+		add_core_of = VEN
+		owner = FWI
+		victory_points = {
+			13258 1 
+		}
+
+	}
+
+	provinces={
+		13258 13259 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

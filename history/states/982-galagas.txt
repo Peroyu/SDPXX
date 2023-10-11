@@ -1,0 +1,24 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		13257 
+	}
+	history={
+		owner = VEN
+		buildings = {
+          industrial_complex = 5
+		  infrastructure = 5
+		  arms_factory = 3
+		}
+		add_core_of = VEN
+		victory_points = {
+			13257 20
+		}
+
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=city
+}
