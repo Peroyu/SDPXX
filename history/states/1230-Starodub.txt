@@ -1,0 +1,28 @@
+state = {
+	id = 1230
+	name = "STATE_1230" # Starodub
+	manpower = 381354
+
+	state_category = two
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = {
+			315 2 #Starodub
+		}
+		victory_points = {
+			371 1
+		}
+		victory_points = {
+			11298 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		315 343 371 11229 11298 11325 
+	}
+}

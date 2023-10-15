@@ -20,7 +20,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "诺罗敦·西哈努克"
+	name = "CAB_Sihanouk"
 	desc = "/"  
 	picture = "portrait_CAB_Sihanouk"  
 	expire = "1992.7.10"  

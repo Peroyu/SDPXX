@@ -31,7 +31,7 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "卡米耶·胡斯曼"  # 
+	name = "BEL_Camille_Huysmans"  # 
 	desc = "/"  # 
 	picture = "GFX_BEL_Camille_Huysmans"  # 
 	expire = "1968.2.25"  # 
@@ -40,7 +40,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "朱利安·拉豪特"  # 
+	name = "BEL_Julien_Lahaut"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_BEL_Julien_Lahaut"  # 
 	expire = "1968.2.25"  # 

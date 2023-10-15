@@ -1,0 +1,18 @@
+state = {
+	id = 712
+	name = "STATE_712" #Kyzylorda
+	manpower = 78221
+	state_category = one
+
+	history = {
+		owner = TRU
+		add_core_of = TRU
+		buildings = {
+			infrastructure = 1
+		}		
+	}
+
+	provinces = {
+		4686 10148 10601
+	}
+}

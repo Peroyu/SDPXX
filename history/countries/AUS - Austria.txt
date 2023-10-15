@@ -43,7 +43,7 @@ create_country_leader = {
 	}
 
 create_country_leader = {
-		name = "卡尔·伦纳"   
+		name = "AUS_Luna"   
 		desc = "AUS_Luna_desc"  
 		picture = "gfx/leaders/EU/AUS_Luna.png"   
 		expire = "1959.4.5"   

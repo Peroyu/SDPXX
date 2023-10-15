@@ -1,32 +1,28 @@
-
-state={
-	id=413
-	name="STATE_413"
-	manpower = 797356
-	resources={
-		oil=28 # was: 42
+state = {
+	id = 413
+	name = "STATE_413"
+	resources = {
+		oil = 42
 	}
-	
-	state_category = rural
-	
 
-	history={
+	history = {
 		owner = PER
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
+			industrial_complex = 1
 			5005 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			7953 1 
+			7953 5
 		}
 		add_core_of = PER
 	}
 
-	provinces={
-		1922 5005 5089 7953 
+	provinces = {
+		1922 1956 5005 7953 14607 14608
 	}
-
-	local_supplies=0.0 
+	manpower = 994830
+	state_category = two
 }

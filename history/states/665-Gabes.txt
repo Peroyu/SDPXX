@@ -1,26 +1,27 @@
-state={
-	id=665
-	name="STATE_665"
+state = {
+	id = 665
+	name = "STATE_665"
 
-	history={
+	history = {
 		owner = TUN
+		add_claim_by = ROF
 		add_core_of = TUN
-		victory_points = {
-			7005 1 
-		}
 		buildings = {
 			infrastructure = 2
-
 		}
+		victory_points = { #Gabès
+			7005 2
+		}
+		start_resistance = yes
+		set_resistance = 14
+		set_compliance = 28
 	}
-	
-	state_category = pastoral
 
-	provinces={
-		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179 
+	state_category = one
+
+	provinces = {
+		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179
 	}
-	manpower=427824
-	buildings_max_level_factor=1.000
-
-	local_supplies=0.0 
+	manpower = 467824
 }
+

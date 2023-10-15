@@ -24,7 +24,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "迪马瑟·埃斯蒂梅"  # 
+	name = "HAI_Estime"  # 
 	desc = ""  # 
 	picture = "portrait_HAI_Estime"  # 
 	expire = "1956.6.6"  # 

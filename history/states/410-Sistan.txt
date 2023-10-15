@@ -1,25 +1,23 @@
+state = {
+	id = 410
+	name = "STATE_410"
 
-state={
-	id=410
-	name="STATE_410"
-	manpower = 341053
-	
-	state_category = rural
-
-	history={
+	local_supplies = 6.0 
+	history = {
 		owner = PER
-		victory_points = {
-			10782 1 
-		}
 		buildings = {
 			infrastructure = 1
+			arms_factory = 1
 		}
-		add_core_of = PER 
+		add_core_of = PER
+		victory_points = {
+			2070 2
+		}
 	}
 
-	provinces={
-		1889 2039 2070 4891 10782 13082 
+	provinces = {
+		2039 2070 4891 10782 12895 13082
 	}
-
-	local_supplies=6.0 
+	manpower = 310062
+	state_category = one
 }

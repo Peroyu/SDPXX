@@ -48,7 +48,7 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "贾瓦拉哈尔·尼赫鲁"
+	name = "Jawaharlal_Nehru"
 	desc = "nihelu_desc"  
 	picture = "RAJ_Portrait_Jawaharlal_Nehru"  
 	expire = "1952.7.10"  

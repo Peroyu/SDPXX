@@ -1,27 +1,21 @@
-
-state={
-	id=412
-	name="STATE_412"
-	manpower = 918619
-	resources={
-		oil=10 # was: 12
+state = {
+	id = 412
+	name = "STATE_412"
+	resources = {
+		oil = 12
 	}
 
-
-	state_category = rural
-	history={
+	history = {
 		owner = PER
 		victory_points = {
-			8117 3 
+			7982 3
 		}
 		victory_points = {
-			7982 3 
-		}
-		victory_points = {
-			12832 1
+			8117 5
 		}
 		buildings = {
 			infrastructure = 1
+			dockyard = 1
 			7982 = {
 				naval_base = 4
 			}
@@ -32,9 +26,9 @@ state={
 		add_core_of = PER
 	}
 
-	provinces={
-		4959 4966 7982 8117 10797 10881 12780 12832 12863 
+	provinces = {
+		1889 4959 4966 5089 7982 8117 10797 10881 12832
 	}
-
-	local_supplies=0.0 
+	manpower = 1231959
+	state_category = three
 }

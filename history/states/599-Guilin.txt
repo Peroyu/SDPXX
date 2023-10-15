@@ -1,0 +1,26 @@
+state = { #Guilin
+	id = 599
+	name = "STATE_599"
+	manpower = 4685200
+	state_category = four
+	resources = {
+		steel = 18
+		tungsten = 10
+	}
+	history = {
+		owner = GDC
+		add_core_of = GDC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10404 5
+		}
+		victory_points = {
+			4152 1
+		}
+	}
+	provinces = {
+		1023 4152 7128 7168 7210 10404 12407
+	}
+}

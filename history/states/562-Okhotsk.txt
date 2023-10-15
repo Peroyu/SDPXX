@@ -1,0 +1,24 @@
+state = {
+	id = 562
+	name = "STATE_562" # Okhotsk
+	manpower = 126961
+	state_category = wasteland
+
+	history = {
+		owner = RUS
+		victory_points = {
+			12518 2
+		}
+		buildings = {
+			infrastructure = 1
+			12518 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = RUS
+	}
+
+	provinces = {
+		 1865 4810 10540 10598 12518 12551 12683
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 1210
+	name = "STATE_1210" #Dushanbe
+	provinces = {
+		1384 12250 14745 14746
+	}
+	resources = {
+		steel = 10
+	}
+	history = {
+		owner = TRU
+		add_core_of = TRK
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1384 1
+		}
+	}
+	manpower = 421000
+	state_category = two
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 923
+	name = "STATE_923"
+
+	history = {
+		owner = ETA
+		add_core_of = ETA
+		victory_points = { 13554 1 } #Aksum
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		2072 13554
+	}
+	manpower = 1132200
+	state_category = one
+}

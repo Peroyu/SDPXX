@@ -1,19 +1,13 @@
+state = {
+	id = 476
+	name = "STATE_476"
 
-state={
-	id=476
-	name="STATE_476"
-	manpower = 1663331
-	
-	state_category = rural
-
-	resources={
-		oil=8
-	}
-	
-	history={
+	local_supplies = 8.0 
+	history = {
 		owner = MEX
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 			air_base = 2
 			10889 = {
 				naval_base = 2
@@ -21,17 +15,16 @@ state={
 		}
 		add_core_of = MEX
 		victory_points = {
-			10889 1
+			13451 2
 		}
 		victory_points = {
-			2021 3
+			10889 1
 		}
 	}
 
-	provinces={
-		2021 8236 10773 10889 12712 
+	provinces = {
+		2021 8236 10773 10889 12712 13445 13448 13451 13452
 	}
-	
-
-	local_supplies=8.0 
+	manpower = 1663331
+	state_category = two
 }

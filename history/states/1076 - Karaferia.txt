@@ -1,0 +1,36 @@
+state = {
+	id = 1076
+	name = "STATE_1076"
+	manpower = 97040
+	state_category = one
+
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 4
+			3844 = {
+				bunker = 2
+			}
+			3980 = {
+				bunker = 2
+			}
+		}
+                victory_points = {
+			3980 1
+		}
+                victory_points = {
+			966 1
+		}
+                victory_points = {
+			3844 2
+		}
+		victory_points = {
+			841 1
+		}
+	}
+
+	provinces = {
+		841 966 3844 3980
+	}
+}

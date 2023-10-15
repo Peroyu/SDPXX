@@ -26,7 +26,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "巴拿马临时政府"  # 
+	name = "PAC_temprorey_gov"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_PAC_temprorey_gov"  # 
 	expire = "1981.4.8"  # 

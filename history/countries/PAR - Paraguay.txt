@@ -22,7 +22,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "伊希尼奥·莫里尼戈"
+	name = "PAR_Higinio_Morínigo"
 	desc = "/"  
 	picture = "portrait_PAR_Higinio_Morínigo"  
 	expire = "1992.7.10"  

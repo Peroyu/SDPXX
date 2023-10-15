@@ -24,7 +24,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "胡志明"  # 
+	name = "VNN_Ho_chi_ming"  # 
 	desc = "/"  # 
 	picture = "portrait_VNN_Ho_chi_ming"  # 
 	expire = "1965.6.6"  # 

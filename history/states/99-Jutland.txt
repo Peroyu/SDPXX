@@ -1,21 +1,20 @@
-state= {
-	id=99
-	name="STATE_99"
+state = {
+	id = 99
+	name = "STATE_99"
 	manpower = 1672235
-	resources={
-		aluminium=6 # was: 10
+	resources = {
+		aluminium = 10
 	}
-	
-	state_category = town
 
-	history=
-	{
+	state_category = four
+
+	history = {
 		owner = DEN
 		victory_points = {
-			6364 3 
+			6364 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 3
 			air_base = 2
 			394 = {
@@ -24,12 +23,13 @@ state= {
 			6364 = {
 				naval_base = 1
 			}
+			3277 = {
+				bunker = 1
+			}
 		}
 		add_core_of = DEN
 	}
-	provinces=
-	{
-316 332 394 399 3206 3277 3341 6235 6364 11251 	}
-
-	local_supplies=0.0 
+	provinces = {
+		316 394 399 3206 3277 3341 6235 6364
+	}
 }

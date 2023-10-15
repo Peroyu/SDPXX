@@ -1,0 +1,34 @@
+state = {
+	id = 163
+	name = "STATE_163"
+	manpower = 240000
+
+	local_supplies = 4.0 
+	state_category = three
+
+	history = {
+		owner = CRT
+		victory_points = {
+			3924 5
+		}
+		#victory_points = { #Šibenik
+		#	3943 1
+		#}
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			3924 = {
+				naval_base = 3
+			}
+			3943 = {
+				naval_base = 1
+			}
+		}
+
+		add_core_of = CRT
+	}
+
+	provinces = {
+		3924 3943 3974 11901
+	}
+}

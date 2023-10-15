@@ -26,7 +26,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "毛诺·佩卡拉"  
+	name = "Mauno_Pekala"  
 	desc = "Mauno_Pekala_desc"  
 	picture = "gfx/leaders/EU/Mauno_Pekala.png"  
 	expire = "1967.4.23"  

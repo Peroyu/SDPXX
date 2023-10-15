@@ -34,7 +34,7 @@ country_event = {
 set_variable = { var = FactionStatus value = 1 }
 # 
 create_country_leader = {
-	name = "扬·克里斯蒂安·史末资"  # 
+	name = "DOS_jan_smuts"  # 
 	desc = "/"  # 
 	picture = portrait_DOS_jan_smuts
 	expire = "1948.5.2"  # 

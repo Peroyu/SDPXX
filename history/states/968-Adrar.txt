@@ -1,0 +1,22 @@
+state = {
+	id = 968
+	name = "STATE_968"
+
+	history = {
+		owner = ROF
+		add_claim_by = ROF
+		add_core_of = MRT
+		buildings = {
+			infrastructure = 1
+		}
+		start_resistance = yes
+		set_resistance = 13
+		set_compliance = 9
+	}
+
+	provinces = {
+		8035 10779 10814
+	}
+	manpower = 53100
+	state_category = wasteland
+}

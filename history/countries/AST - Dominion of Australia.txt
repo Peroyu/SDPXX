@@ -28,7 +28,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "罗伯特·戈登·孟席斯"  
+	name = "AST_Robert_Gordon_Menzies"  
 	desc = "/"  
 	picture = portrait_AST_Robert_Gordon_Menzies 
 	expire = "1956.3.9"

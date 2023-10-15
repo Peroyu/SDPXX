@@ -25,7 +25,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "艾哈迈德·苏加诺"
+	name = "Soekarno"
 	desc = "/"  
 	picture = "IND_portrait_Soekarno"  
 	expire = "1952.7.10"  

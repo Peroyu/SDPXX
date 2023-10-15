@@ -1,0 +1,27 @@
+state = {
+	id = 830 # Patani/Pattani
+	name = "STATE_830"
+	manpower = 161700
+	state_category = one
+	resources = { #historically major mining state
+		tungsten = 20
+	}
+
+	history = {
+		owner = THA
+		buildings = {
+			infrastructure = 2
+#			12131 = { # Pattani Landing Zone - currently disabled
+#				naval_base = 1
+#			}
+		}
+#		victory_points = {
+#			12131 1 # Pattani - 3
+#		}
+		add_core_of = THA
+	}
+
+	provinces = {
+		1279 4297 12131
+	}
+}

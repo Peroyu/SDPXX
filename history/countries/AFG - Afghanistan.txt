@@ -45,7 +45,7 @@ add_ideas = {
 	national_supremacy
  }
 create_country_leader = {
-	name = "穆罕默德·查希尔沙"  # 
+	name = "AFG_Zahir_Shah"  # 
 	desc = "/"  # 
 	picture = AFG_portrait_Zahir_Shah  # 
 	expire = "1952.4.30"  # 

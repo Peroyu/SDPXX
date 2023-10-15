@@ -46,7 +46,7 @@ add_ideas = {
 }
 # 设置领导人
 create_country_leader = {
-	name = "哈里·S·杜鲁门"  # 领导人名称
+	name = "USA_Truman"  # 领导人名称
 	desc = "USA_Truman_desc"  # 人物介绍
 	picture = "portrait_USA_Harry_Truman"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
@@ -56,7 +56,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "厄普顿·辛克莱尔"  # 领导人名称
+	name = "USA_sinclare"  # 领导人名称
 	desc = ""  # 人物介绍
 	picture = ""  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
@@ -66,7 +66,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "埃尔默·本森"  # 领导人名称
+	name = "USA_bansen"  # 领导人名称
 	desc = ""  # 人物介绍
 	picture = ""  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
@@ -76,7 +76,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "托马斯·杜威"  # 领导人名称
+	name = "USA_duewll"  # 领导人名称
 	desc = ""  # 人物介绍
 	picture = "GFX_portrait_USA_Thomas_Dewey_SDP"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间

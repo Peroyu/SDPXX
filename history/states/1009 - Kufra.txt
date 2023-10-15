@@ -1,0 +1,18 @@
+state = {
+	id = 1009
+	name = "STATE_1009"
+	manpower = 26841
+	state_category = wasteland
+
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		7076
+	}
+}

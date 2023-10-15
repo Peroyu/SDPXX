@@ -1,0 +1,22 @@
+state = {
+	id = 1313
+	name = "STATE_1313"
+	manpower = 215403
+	state_category = three
+	
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+                victory_points = {
+			14793 1
+		}
+	}
+	
+	provinces = {
+		14793
+	}
+}

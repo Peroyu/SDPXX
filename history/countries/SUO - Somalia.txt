@@ -22,7 +22,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "默罕默德·阿里·夏尔"  # 
+	name = "SUO_Mohanmoud_Ali_Shaire"  # 
 	desc = "/"  # 
 	picture = "GFX_SUO_Mohanmoud_Ali_Shaire"  # 
 	expire = "1965.6.6"  # 

@@ -1,24 +1,21 @@
+state = {
+	id = 678
+	name = "STATE_678"
 
-state={
-	id=678
-	name="STATE_678"
-
-	history={
+	history = {
 		owner = SAU
-		buildings = {
-			infrastructure = 0
-
-		}
 		add_core_of = SAU
-		add_claim_by = TUR
-
+		add_claim_by = JBS
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
-	provinces={
-		5093 7995 8004 8060 10923 12727 12813 12870 
+	impassable = yes
+
+	provinces = {
+		5081
 	}
-	manpower=4200
-	buildings_max_level_factor=1.000
-	state_category=wasteland
-	local_supplies=0.000
+	manpower = 9376
+	state_category = wasteland
 }

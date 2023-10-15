@@ -21,7 +21,7 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "占领委员会"  # 
+	name = "a"  # 
 	desc = "/"  # 
 	picture = "/"  # 
 	expire = "1956.6.6"  # 

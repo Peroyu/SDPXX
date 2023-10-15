@@ -1,0 +1,30 @@
+state = { # Xiamen
+	id = 802
+	name = "STATE_802"
+	manpower = 177000
+	state_category = two
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+		add_claim_by = FJN
+		victory_points = {
+			7071 1
+		}
+
+		buildings = {
+			infrastructure = 3
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		start_resistance = yes
+		set_resistance = 25
+		set_compliance = 40
+	}
+	provinces = {
+		7071
+	}
+}

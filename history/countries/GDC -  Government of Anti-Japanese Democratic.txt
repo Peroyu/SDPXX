@@ -118,7 +118,7 @@ set_variable = { var = global.CHI_Hu_Nan_control value = 62 }
 set_variable = { var = global.CHI_Zhe_Jiang_control value = 30 }
 #########################################################
 create_country_leader = {
-		name = "李立三"   
+		name = "GDC_Li_Lisan"   
 		desc = "GDC_Li_Lisan_desc"  
 		picture = "gfx/leaders/GDC/GFX_portrait_GDC_Li_Lisan.png"   
 		expire = "1950.1.1.1"   
@@ -126,7 +126,7 @@ create_country_leader = {
 		traits = {  }
 	}
 create_country_leader = {
-		name = "杨匏安"   
+		name = "GDC_Yang_Paoan"   
 		desc = "GDC_Yang_Paoan_desc"  
 		picture = "gfx/leaders/GDC/portrait_GDC_Yang_Paoan.png"   
 		expire = "1950.1.1.1"   
@@ -134,7 +134,7 @@ create_country_leader = {
 		traits = {  }
 	}
 create_country_leader = {
-		name = "何香凝"   
+		name = "GDC_He_Xiangning"   
 		desc = "GDC_He_Xiangning_desc"  
 		picture = "gfx/leaders/GDC/GFX_portrait_GDC_He_Xiangning.png"   
 		expire = "1950.1.1.1"   
@@ -142,7 +142,7 @@ create_country_leader = {
 		traits = {  }
 	}
 create_country_leader = {
-		name = "李济深"   
+		name = "GDC_Li_Jishen"   
 		desc = "POLITICS_LI_JISHEN_DESC"  
 		picture = "gfx/leaders/GDC/portrait_Li_Jishen.png"   
 		expire = "1960.1.1.1"   
@@ -150,7 +150,7 @@ create_country_leader = {
 		traits = {  }
 	}
 create_country_leader = {
-		name = "两广立法会执行委员会"   
+		name = "Central_Council"   
 		desc = "POLITICS_council_GDC_DESC"  
 		picture = "gfx/leaders/GDC/portrait_Central_Council.png"   
 		expire = "1960.1.1.1"   

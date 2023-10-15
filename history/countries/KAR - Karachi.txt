@@ -42,7 +42,7 @@ add_ideas = {
 	national_supremacy
  }
 create_country_leader = {
-	name = "米尔·汗·艾哈迈德扎伊"  # 
+	name = "KAR_Mir_Ahmadzai"  # 
 	desc = "/"  # 
 	picture = "GFX_KAR_portrait_Mir_Ahmadzai"  # 
 	expire = "1956.6.6"  # 

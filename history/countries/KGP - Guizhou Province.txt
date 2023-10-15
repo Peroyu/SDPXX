@@ -41,7 +41,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "谷正纲"  # 领导人名称
+	name = "KGP_Gu_ZhengGang"  # 领导人名称
 	desc = "KGP_Gu_ZhengGang_desc"  # 人物介绍
 	picture = "KGP_portrait_Gu_ZhengGang"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间

@@ -30,7 +30,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "安塔纳斯·斯涅齐库斯"  
+	name = "LIT_Antanas_Snieckus"  
 	desc = "LIT_Antanas_Snieckus_desc"  
 	picture = "gfx/leaders/SOV/Antanas_Snieckus.png"  
 	expire = "1974.1.22"  

@@ -1,0 +1,25 @@
+
+state={
+	id=992
+	name="STATE_992"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 2
+
+		}
+                victory_points = {
+			1065 2
+		}
+
+	}
+
+	provinces={
+		1065 7107
+	}
+	manpower=400030
+	state_category=two
+}

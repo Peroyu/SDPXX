@@ -48,7 +48,7 @@ add_ideas = {
 
  set_country_flag = INDIA_civilwar_participants
 create_country_leader = {
-	name = "温斯顿·丘吉尔"
+	name = "CAN_chillchil"
 	desc = "/"  
 	picture = "portrait_CAN_chillchil"  
 	expire = "1962.7.10"  

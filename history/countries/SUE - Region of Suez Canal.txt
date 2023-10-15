@@ -28,7 +28,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "苏伊士运河管理总局"  
+	name = "Suez_Canal_Authority"  
 	desc = "/"  
 	picture = "GFX_portrait_Suez_Canal_Authority"  
 	expire = "1966.4.30"  

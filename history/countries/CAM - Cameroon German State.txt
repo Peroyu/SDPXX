@@ -29,7 +29,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "威廉三世"  # 
+	name = "Friedrich_William_III"  # 
 	desc = "/"  # 
 	picture = "CAM_portrait_Friedrich_William_III"  # 
 	expire = "1976.3.10"  # 

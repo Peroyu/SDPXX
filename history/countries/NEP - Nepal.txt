@@ -23,7 +23,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "特里布万·比尔·沙阿"  # 
+	name = "NEP_Tribhuvan"  # 
 	desc = "/"  # 
 	picture = "Portrait_NEP_Tribhuvan"  # 
 	expire = "1976.4.30"  # 

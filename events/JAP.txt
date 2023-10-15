@@ -231,7 +231,7 @@ country_event = {
 	JAP.2 FROM = [From.GetName]" }
 	title = JAP.2.t
 	desc = JAP.2.d
-	picture = gFx_JAP.1
+	picture = gFx_JAP2
 	
 	is_triggered_only = yes
 	

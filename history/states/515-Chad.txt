@@ -1,0 +1,27 @@
+state = {
+	id = 515
+	name = "STATE_515" #Chad
+	manpower = 482000
+	state_category = one
+
+	local_supplies = 3.0 
+	history = {
+		owner = ROF
+		add_claim_by = ROF
+		add_core_of = WAD
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13213 1
+		}
+		start_resistance = yes
+		set_resistance = 13
+		set_compliance = 7
+	}
+
+	provinces = {
+		3123 13212 13213 13138
+	}
+}
+

@@ -1,0 +1,32 @@
+state = {
+	id = 765
+	name = "STATE_765"
+	manpower = 570000
+
+	state_category = four
+
+	resources = {
+		chromium = 8
+	}
+
+	history = {
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+		}
+
+		add_core_of = YUG
+
+		add_core_of = ALB
+		victory_points = {
+			9874 3
+		}
+                victory_points = {
+			9849 1
+		}
+	}
+
+	provinces = {
+		9849 9874 14798 14799
+	}
+}

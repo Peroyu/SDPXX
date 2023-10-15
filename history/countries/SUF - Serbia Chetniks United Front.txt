@@ -33,7 +33,7 @@ add_ideas = {
 }
 # 设置领导人
 create_country_leader = {
-	name = "亚历山大·兰科维奇"  # 领导人名称
+	name = "SUF_Aleksandar_Rankovic"  # 领导人名称
 	desc = "SUF_Aleksandar_Rankovic_desc"  # 人物介绍
 	picture = "gfx/leaders/SUF/GFX_portrait_SUF_Aleksandar_Rankovic.png"  # 人物头像
 	expire = "1983.8.19"  # 逝世时间

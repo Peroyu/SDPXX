@@ -1,0 +1,45 @@
+state = {
+	id = 1000
+	name = "STATE_1000"
+
+	history = {
+		owner = TUR
+		victory_points = {
+			10472 2
+		}
+		victory_points = {
+			13671 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			789 = {
+				bunker = 1
+			}
+			10472 = {
+				bunker = 3
+			}
+			12376 = {
+				bunker = 1
+			}
+			13672 = {
+				bunker = 1
+			}
+			13671 = {
+				bunker = 1
+			}
+
+			6991 = {
+				bunker = 1
+			}
+		}
+		add_core_of = TUR
+		add_core_of = ARM
+	}
+
+	provinces = {
+		789 6991 10472 12376 13671 13672
+	}
+	manpower = 402400
+	state_category = one
+}

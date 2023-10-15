@@ -1,0 +1,24 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	manpower = 112950
+
+	state_category = one
+
+	history = {
+		owner = FID
+		add_core_of = FID
+		add_claim_by = RAJ
+		victory_points = {
+			4435 2
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		4435
+	}
+}

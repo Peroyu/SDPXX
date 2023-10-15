@@ -1,0 +1,26 @@
+state = {
+	id = 565
+	name = "STATE_565" # Bodaybo
+	manpower = 195325
+	state_category = two
+	local_supplies = 10.0 
+	resources = {
+		steel = 32
+		chromium = 12
+	}
+
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RUS
+		victory_points = {
+			10583 1
+		}
+	}
+
+	provinces = {
+		7759 10583 10654 12506 12575 
+	}
+}

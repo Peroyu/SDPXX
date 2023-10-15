@@ -1,0 +1,18 @@
+state = {
+	id = 1266
+	name = "STATE_1266"
+
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RUS
+	}
+
+	provinces = {
+		6750 9705 9722 11693 11694
+	}
+	manpower = 111313
+	state_category = two
+}

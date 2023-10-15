@@ -28,7 +28,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "卡尔·萨雷"  
+	name = "EST_Karl_Sare"  
 	desc = "EST_Karl_Sare_desc"  
 	picture = "gfx/leaders/SOV/Karl_Sare.png"  
 	expire = "1987.3.14"   

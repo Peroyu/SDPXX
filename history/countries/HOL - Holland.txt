@@ -31,7 +31,7 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "威廉·德里斯"  # 
+	name = "HOL_Willem_Drees"  # 
 	desc = "/"  # 
 	picture = "GFX_HOL_Willem_Drees"  # 
 	expire = "1988.6.6"  # 

@@ -29,7 +29,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "礼萨·巴列维"  # 
+	name = "PER_Reza_Pahlavi"  # 
 	desc = "/"  # 
 	picture = Reza_Pahlavi # 
 	expire = "1983.5.16"  # 

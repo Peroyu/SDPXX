@@ -1,0 +1,28 @@
+state = {
+	id = 225
+	name = "STATE_225" # Sumy
+	manpower = 1539022
+
+	state_category = four
+
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			11462 3
+		}
+		victory_points = {
+			3557 2
+		}
+		victory_points = {
+			11397 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		501 522 3455 3520 3557 11397 11462 
+	}
+}

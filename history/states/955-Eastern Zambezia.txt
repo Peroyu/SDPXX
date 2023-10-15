@@ -1,0 +1,21 @@
+
+state = {
+	id = 955
+	name = "STATE_955"
+	resources = {
+		chromium = 12
+	}
+	history = {
+		owner = RHO
+		add_claim_by = RHO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		5221 13645 13719 13720
+	}
+	manpower = 190240
+	state_category = wasteland
+}

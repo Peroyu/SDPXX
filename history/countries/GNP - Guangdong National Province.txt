@@ -95,7 +95,7 @@ GNP_8604
 GNP_trouble_situation
 }
 create_country_leader = {
-		name = "彭东原"   
+		name = "RCR_Peng_Dongyuan"   
 		desc = "RCR_Peng_Dongyuan_desc"  
 		picture = "gfx/leaders/CHI/Portrait_GNP_Peng_Dongyuan.png"   
 		expire = "1989.1.7"   

@@ -1,0 +1,26 @@
+state = {
+	id = 1066
+	name = "STATE_1066"
+	manpower = 4534240
+	local_supplies = 3.0
+	state_category = four
+	history = {
+		set_demilitarized_zone = yes
+		owner = RCR
+		add_core_of = FJN
+		add_claim_by = RCR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+		victory_points = {
+			7027 3
+		}
+		start_resistance = yes
+		set_resistance = 60
+		set_compliance = 25
+	}
+	provinces = {
+		1094 1166 4169 7027 7131 10069 11986
+	}
+}

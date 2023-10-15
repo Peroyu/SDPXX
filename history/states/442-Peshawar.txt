@@ -1,27 +1,26 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	manpower = 5054900
 
-state={
-	id=442
-	name="STATE_442"
+	local_supplies = 5.0 
+	state_category = three
 
-	history={
-		victory_points = {
-			12763 3 
-		}
+	history = {
 		owner = AFG
+		add_core_of = AFG
+		add_core_of = DEH
+		add_claim_by = BHC
+		add_claim_by = PRF
+		victory_points = { 12717 1 } #Peshawar
 		buildings = {
+			industrial_complex = 3
 			infrastructure = 2
-			air_base = 3
-
+			air_base = 1
 		}
-		add_core_of = PAK
-
 	}
 
-	provinces={
-		1978 4558 4998 7975 12717 12763 4990 1107 7903
+	provinces = {
+		1978 4558 4998 12717 12763
 	}
-	manpower=4684400
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=5.000
 }

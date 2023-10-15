@@ -23,9 +23,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "加夫列尔·冈萨雷斯·魏地拉"
+	name = "CHL_Gabriel_Videla"
 	desc = "/"  
-	picture = "portrait_CHL_Gabriel_Videla"  
+	picture = "portrait_"  
 	expire = "1992.7.10"  
 	ideology = authoritarian_democracy
 	traits = { 

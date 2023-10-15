@@ -1,0 +1,29 @@
+state = {
+	id = 1233 
+	name = "STATE_1233" #Elisavetgrad
+	manpower = 229041
+
+	state_category = three
+
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			3452 2 #Elisavetgrad
+		}
+		victory_points = {
+			3468 1 #
+		}
+		victory_points = {
+			6597 1 #
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		409 434 3403 3452 3468 6451 6478 6597 9573
+	}
+}

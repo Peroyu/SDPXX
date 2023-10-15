@@ -1,0 +1,28 @@
+state = { #Central Shanxi
+	id = 1072
+	name = "STATE_1072"
+	manpower = 3518000
+	state_category = four
+	history = {
+		owner = JIN
+		add_core_of = JIN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			air_base = 2
+			4174 = { bunker = 5 }
+			10838 = { bunker = 3 }
+			1962 = { bunker = 2 }
+			1115 = { bunker = 2 }
+		}
+		victory_points = {
+			4174 10
+		}
+		victory_points = {
+			1962 1
+		}
+	}
+	provinces = {
+		1115 1962 4174 10838
+	}
+}

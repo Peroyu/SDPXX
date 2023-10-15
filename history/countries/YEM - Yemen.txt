@@ -24,7 +24,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "艾哈迈德·本·叶海亚"  # 
+	name = "YEM_Ahmad_bin_Yahya"  # 
 	desc = "/"  # 
 	picture = "Potrait_YEM_Ahmad_bin_Yahya"  # 
 	expire = "1952.3.16"  # 

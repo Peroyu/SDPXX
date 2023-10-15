@@ -1,0 +1,23 @@
+state = {
+	id = 1087
+	name = "STATE_1087"
+	manpower = 400401
+	state_category = four
+
+	history = {
+		owner = BLR
+		add_core_of = BLR
+		victory_points = {
+			9289 2
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+
+	provinces = {
+		342 3350 3378 6319 6373 9289 
+	}
+}

@@ -1,32 +1,32 @@
+state = {
+	id = 464
+	name = "STATE_464"
+	manpower = 678946
 
-state={
-	id=464
-	name="STATE_464"
-	manpower = 490912
-	
-	state_category = rural
+	state_category = six
 
-	history={
+	local_supplies = 11.0 
+	history = {
 		owner = CAN
 		victory_points = {
-			7361 3
+			7361 8
+		}
+		victory_points = {
+			4360 2
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 3
 			7361 = {
-				naval_base = 4
-
+				naval_base = 6
 			}
+			dockyard = 3
 		}
 		add_core_of = CAN
 	}
 
-	provinces={
-		1354 4360 4430 4623 7304 7361 7644 10244 
+	provinces = {
+		1354 4360 4430 4623 7304 7361 7644 10244
 	}
-	
-
-	local_supplies=11.0 
 }

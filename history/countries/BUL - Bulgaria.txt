@@ -33,7 +33,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "明乔·涅伊切夫"  
+	name = "BUL_Mincho_Nejchev"  
 	desc = "BUL_Mincho_Nejchev_desc"  
 	picture = "Portrait_BUL_Mincho_Nejchev"  
 	expire = "1950.7.2"  
@@ -41,7 +41,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "格奥尔基·季米特洛夫"  
+	name = "BUL_Georgi_Dimitrov"  
 	desc = "BUL_Georgi_Dimitrov_desc"  
 	picture = "gfx\leaders\EU\Georgi_Dimitrov.png"  
 	expire = "1950.7.2"  

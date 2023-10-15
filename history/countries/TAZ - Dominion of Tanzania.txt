@@ -27,7 +27,7 @@ set_popularities = {
 set_variable = { var = FactionStatus value = 1 }
 # 
 create_country_leader = {
-	name = "爱德华·诺塞"  # 
+	name = "s"  # 
 	desc = "/"  # 
 	picture = "/"  # 
 	expire = "1960.5.22"  # 

@@ -1,0 +1,20 @@
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		5014 6826 10811
+	}
+	manpower=503040
+	state_category=one
+}

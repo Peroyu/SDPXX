@@ -32,7 +32,7 @@ country_event = {
 	days = 399
 }
 create_country_leader = {
-	name = "埃蒙·德瓦莱拉"  
+	name = "Eamonn_de_Valera"  
 	desc = "Eamonn_de_Valera_desc"  
 	picture = "gfx/leaders/IRE/Eamonn_de_Valera.png"  
 	expire = "1975.8.29"  

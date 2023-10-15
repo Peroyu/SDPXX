@@ -1,0 +1,25 @@
+state = {
+	id = 1209
+	name = "STATE_1209" #Samarkand
+	provinces = {
+		4629 10671 7682 11687 1919 1216 
+	}
+	resources = {
+		steel = 7
+		tungsten = 8
+	}
+	history = {
+		owner = TRU
+		add_core_of = TRU
+		add_claim_by = TRK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			10671 3
+		}
+	}
+	manpower = 816781
+	state_category = three
+}

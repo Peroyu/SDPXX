@@ -1,0 +1,24 @@
+state = {
+	id = 892
+	name = "STATE_892"
+	manpower = 429470
+	resources = {
+		oil = 14
+	}
+	state_category = one
+
+	history = {
+		owner = KEN
+		add_claim_by = KEN
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+		}
+                victory_points = {
+			12941 1
+		}
+	}
+	provinces = {
+		8133 10761 10976 11014 12927 12941
+	}
+}

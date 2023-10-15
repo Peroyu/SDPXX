@@ -43,7 +43,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "刘志丹"  # 
+	name = "liuzhidan"  # 
 	desc = "/"  # 
 	picture = CHI_portrait_liuzhidan  # 
 	expire = "1952.4.30"  # 

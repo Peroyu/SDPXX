@@ -27,7 +27,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "马里亚諾·奧斯皮納·佩雷斯"
+	name = "COL_Mariano_Perez"
 	desc = "/"  
 	picture = "portrait_COL_Mariano_Perez"  
 	expire = "1962.7.10"  

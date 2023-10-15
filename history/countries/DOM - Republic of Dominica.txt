@@ -25,7 +25,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "拉斐尔·特鲁希略·莫利纳"  # 
+	name = "DOM_Rafael_Trujillo_Molina"  # 
 	desc = "/"  # 
 	picture = "portrait_DOM_Rafael_Trujillo_Molina"  # 
 	expire = "1956.6.6"  # 

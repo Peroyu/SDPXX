@@ -1,0 +1,30 @@
+state = {
+	id = 657
+	name = "STATE_657" # Blagovechtchensk
+	manpower = 308380
+	resources = {
+		steel = 24
+	}
+
+
+	state_category = two
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = {
+			7763 2
+		}
+		victory_points = {
+			12660 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		1730 1845 7691 7763 7785 7851 10678 12543 12657 12660 
+	}
+}

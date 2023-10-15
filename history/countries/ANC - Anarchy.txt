@@ -18,7 +18,7 @@ set_popularities = {
 	restorativeism = 100
    }
 create_country_leader = {
-	name = "无集权政府"  # 
+	name = ""  # 
 	desc = "/"  # 
 	picture = anarchy_Portrait_GFX  # 
 	expire = "1980.4.30"  # 

@@ -1,0 +1,24 @@
+state = {
+	id = 326
+	name = "STATE_326"
+	manpower = 1143516
+	state_category = five
+	history = {
+		owner = GNP
+		add_core_of = GNP
+		victory_points = {
+			10062 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			10062 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces = {
+		10062
+	}
+}

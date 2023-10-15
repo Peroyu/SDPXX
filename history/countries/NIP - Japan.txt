@@ -39,6 +39,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_variable = { var = SDP_economic_v value = 21 }#60
+set_variable = { var = SDP_education_v value = 21 }#50
+set_variable = { var = SDP_industry_v value = 29 }#60
+set_variable = { var = SDP_agriculture_v value = 16 }#60
+set_variable = { var = SDP_science_v value = 32 }#50
+set_variable = { var = SDP_politics_v value = 22 }#60
 #####################################################start_tech
 set_technology = {
 	### Infantry ###
@@ -170,11 +176,11 @@ set_technology = {
 set_country_flag = ASIA_attend_southasia_conference
 set_popularities = {
 	reactionism = 12
-	nationalism = 25
-	restorativeism = 13
+	nationalism = 19
+	restorativeism = 8
 	conservatism = 15
 	movement_communism = 20
-	Liberalism = 9
+	Liberalism = 20
 	social_democracy = 6
 }
 add_ideas = {
@@ -213,7 +219,30 @@ create_country_leader = {
 		ideology = Zenkoku_isseini
 		traits = {  }
 	}
-
+create_country_leader = {
+		name = "NIP_Takao_Saito"   
+		desc = ""  
+		picture = ""   
+		expire = "1949.1.7"   
+		ideology = social_liberalism
+		traits = {  }
+	}
+create_country_leader = {
+		name = "NIP_Ichirp_Hatoyama"   
+		desc = ""  
+		picture = ""   
+		expire = "1959.1.7"   
+		ideology = Progressive_Conservatusm
+		traits = {  }
+	}
+create_country_leader = {
+		name = "NIP_Koiso_Kuniaki"   
+		desc = ""  
+		picture = ""   
+		expire = "1959.1.7"   
+		ideology = ultranationalism
+		traits = {  }
+	}
 	recruit_character = NIP_Nagano_Osami
 	recruit_character = NIP_Koga_Mineichi
 	recruit_character = NIP_Yamamoto_Isoroku

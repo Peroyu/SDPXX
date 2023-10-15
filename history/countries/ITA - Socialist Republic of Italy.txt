@@ -85,7 +85,7 @@ set_variable = { var = SDP_ita_14 value = 12 }
 set_variable = { var = SDP_ita_15 value = 12 }
 
 create_country_leader = {
-	name = "吉亚科莫·马泰奥蒂"
+	name = "Giacomo_Matteotti"
 	desc = "Giacomo_Matteotti_desc"
 	picture = "gfx\leaders\EU\Giacomo_Matteotti.png"
 	expire = "1965.1.1"

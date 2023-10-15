@@ -28,7 +28,7 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "胡安·庇隆"  # 
+	name = "ARG_Juan_Peron"  # 
 	desc = "ARG_Juan_Peron_desc"  # 
 	picture = "GFX_ARG_portrait_Juan_Peron"  # 
 	expire = "1974.6.6"  # 

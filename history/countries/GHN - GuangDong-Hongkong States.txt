@@ -29,7 +29,7 @@ GNP_Hong_Kong
 }
 recruit_character = GNP_Yang_Liuxvm
 create_country_leader = {
-		name = "田中久一"   
+		name = "JAP_Tanaka_Hisakazu"   
 		desc = ""  
 		picture = "portrait_JAP_Tanaka_Hisakazu"   
 		expire = "1989.1.7"   

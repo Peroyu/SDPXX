@@ -15,6 +15,10 @@ FJN = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
 }
+KEN = {
+	color = rgb { 205 133 35 }
+	color_ui = rgb { 205 133 35 }
+}
 KHN = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
@@ -76,6 +80,18 @@ CAB = {
 	color_ui = rgb { 196  117  149 } 
 }
 CAM = {
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
+}
+SWA = {
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
+}
+TAZ = {
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
+}
+GEA = {
 	color = rgb { 92 92 92 }
 	color_ui = rgb { 92 92 92 }
 }
@@ -359,6 +375,10 @@ SOV = {
 	color = rgb { 193 42 37 }
 	color_ui = rgb { 193 42 37 }
 }
+RUS = {
+	color = rgb { 193 42 37 }
+	color_ui = rgb { 193 42 37 }
+}
 SAU = {
 	color = rgb { 123 147 54 }
 	color_ui = rgb { 123 147 54 }
@@ -408,8 +428,8 @@ ROM = {
 	color_ui = rgb { 114 51 33 }
 }
 TRA = {
-	color = rgb { 114 51 33 }
-	color_ui = rgb { 114 51 33 }
+	color = rgb { 172 78 52 }
+	color_ui = rgb { 172 78 52 }
 }
 FIN = {
 	color = rgb { 222 247 255 }

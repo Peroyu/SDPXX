@@ -24,7 +24,7 @@ set_popularities = {
 
  
 create_country_leader = {
-	name = "法鲁克一世"  
+	name = "Farouk_I"  
 	desc = "/"  
 	picture = "EGY_Farouk_I"   
 	expire = "1962.7.2"  

@@ -1,38 +1,44 @@
+state = {
+	id = 105
+	name = "STATE_105" # Montenegro
+	manpower = 370000
 
-state={
-	id=105
-	name="STATE_105"
-	resources={
-		chromium=20.000
-		aluminium=70.000
+	local_supplies = 3.0
+
+	state_category = two
+
+	resources = {
+		chromium = 36
+		aluminium = 112
 	}
 
-	history={
-		victory_points = {
-			9809 3 
-		}
+	history = {
 		owner = YUG
-		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+
 			9809 = {
 				naval_base = 1
-
 			}
-
 		}
-		add_core_of = MOT
-		add_claim_by = YUG
 
+		add_core_of = YUG
+		add_core_of = MON
+
+		victory_points = {
+			9809 2
+		}
+		
+		victory_points = { #Cetinje
+			9821 1
+		}
+		
 	}
 
-	provinces={
-		937 6913 9809 9821 11858 
+	provinces = {
+		9821 9809 14685
 	}
-	manpower=895500
-	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=3.0 
 }

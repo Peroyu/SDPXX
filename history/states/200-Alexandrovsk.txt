@@ -1,0 +1,22 @@
+state = {
+	id = 200
+	name = "STATE_200" # Zaporozhe
+	manpower = 513306
+	state_category = four
+
+	history = {
+		owner = UKR
+		victory_points = {
+			11405 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = UKR
+	}
+
+	provinces = {
+		11452 11405 
+	}
+}

@@ -1,26 +1,44 @@
+
 state={
 	id=172
 	name="STATE_172"
+	resources={
+		steel=12.000
+	}
 
+	local_supplies = 4.0 
 	history={
 		owner = FOI
-		add_core_of = NAV
 		victory_points = {
-			3933 1
+			740 3
 		}
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			740 = {
+				naval_base = 1
+
+			}
+			3737 = {
+				bunker = 1
+
+			}
+			3931 = {
+				bunker = 1
+
+			}
+
 		}
 		add_core_of = FOI
+		add_core_of = BAS
 
 	}
 
 	provinces={
-		932 3737 3931 3933 9857 
+		740 932 3735 3737 3931 3933 6756 9857
 	}
-	manpower=359880
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-
-	local_supplies=4.0 
+	manpower=1794880
+	state_category=six
 }

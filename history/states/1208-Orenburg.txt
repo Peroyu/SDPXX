@@ -1,0 +1,29 @@
+state = {
+	id = 1208
+	name = "STATE_1208"
+	manpower = 171726
+
+
+	state_category = five
+
+
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		} 
+		add_core_of = RUS
+		set_state_flag = renamed_state_kipchak
+		victory_points = {
+			12128 4
+		}
+		set_resistance = 0
+		set_compliance = 75
+	}
+
+	provinces = {
+		3563 4322 1254 12128 1210 9420 12298
+	}
+}

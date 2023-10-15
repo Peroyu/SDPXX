@@ -21,7 +21,7 @@ set_popularities = {
 	restorativeism = 6
 }
 create_country_leader = {
-	name = "路易斯·蒙巴顿"
+	name = "CAN_Louis_Mountbatten"
 	desc = "/"  
 	picture = portrait_CAN_Louis_Mountbatten  
 	expire = "1965.1.1.1"  

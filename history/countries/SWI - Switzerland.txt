@@ -36,7 +36,7 @@ every_country = {
 	}
 }
 create_country_leader = {
-	name = "联邦国会"  
+	name = "SWI_Federal_Council"  
 	desc = "SWI_Federal_Council_desc"  
 	picture = "gfx\leaders\EU\SWI_Federal_Council.png"  
 	expire = "1962.12.5"  

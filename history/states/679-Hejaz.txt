@@ -1,23 +1,29 @@
+state = {
+	id = 679
+	name = "STATE_679"
 
-state={
-	id=679
-	name="STATE_679"
-
-	history={
+	history = {
 		owner = TUR
-		
-		add_core_of = NEJ
+		add_core_of = HEJ
 		add_core_of = TUR
 		victory_points = {
-			7934 1 
+			12883 1
+		}
+		victory_points = {
+			5037 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12883 = {
+				naval_base = 2
+			}
 		}
 	}
 
-	provinces={
-		1033 2027 2033 2095 4981  7934 8092 10748 10835 12101  11976
+	provinces = {
+		4981 5037 12883
 	}
-	manpower=1511000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=0.000
+	manpower = 754141
+	state_category = two
 }

@@ -28,7 +28,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "马科斯·瓦菲阿迪斯"  
+	name = "GRE_Markos_Vafeiadis"  
 	desc = "GRE_Markos_Vafeiadis_desc"  
 	picture = "GRE_Markos"  
 	expire = "1992.5.1"  

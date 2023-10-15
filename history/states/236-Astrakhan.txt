@@ -1,26 +1,28 @@
-
-state={
-	id=236
-	name="STATE_236"
-	manpower = 647208
-	
-	state_category = rural
-
-	history={
-		owner = SOV
-		victory_points = {
-			9753 3 
-		}
+state = {
+	id = 236
+	name = "STATE_236"
+	local_supplies=6.0 
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_claim_by = TRM
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			air_base = 3
+			industrial_complex = 2
+			arms_factory = 1
+			9753 = {
+				bunker = 1
+			}
 		}
-		add_core_of = SOV
+		victory_points = {
+			9753 5
+		}
 	}
-
-	provinces={
-		618 757 3435 3461 3487 6486 6516 6620 9440 9455 9592 9753 11429 11579 11736 
+		
+	provinces = {
+		757 6516 6486 9455 11429 6620 9592 9753 11736 618 3435
 	}
-
-	local_supplies=0.0 
+	manpower = 609594
+	state_category = four
 }

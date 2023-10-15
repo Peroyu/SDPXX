@@ -1,8 +1,3 @@
--- Kaiserreich defines
--- Commented out items are under re-evaluation
-
--- Links
--- Vanilla is "http://www.hoi4wiki.com/"
 
 -- Career Profile
 NDefines.NCareerProfile.MOD_STATISTICS_GROUP = "kaiserreich_career_profile"
@@ -12,11 +7,10 @@ NDefines.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "KAISERREICH_CAREER_PROFILE"
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla is 1949.1.1.1
 NDefines.NGame.HANDS_OFF_START_TAG = "BHU"									-- Vanilla is URG
 NDefines.NGame.DECISION_ALERT_TIMEOUT_DAYS = 60								-- Vanilla is 30
-NDefines.NCountry.BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.0				-- Vanilla is 0.15
+	
 NDefines.NCountry.MIN_STABILITY = -1.0										-- Vanilla is 0.0
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 5									-- Vanilla is 20
 NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.5						-- Vanilla is 2
-NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1						-- Vanilla is 0.2
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1              -- Vanilla is 0.5
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.1								-- Vanilla is 0.05
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 32								-- Vanilla is 24
@@ -46,8 +40,7 @@ NDefines.NDiplomacy.MAX_OPINION_VALUE = 200									-- Vanilla is 100
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200								-- Vanilla is -100
 NDefines.NDiplomacy.VERY_GOOD_OPINION = 100									-- Vanilla is 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -100									-- Vanilla is -50
-NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0									-- Vanilla is -100
-NDefines.NDiplomacy.PEACE_SCORE_SCALE_FACTOR = 2.15							-- Vanilla is 1.35
+NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0									-- Vanilla is 1.35
 
 -- World Tension
 NDefines.NCountry.CIVIL_WAR_INVOLVEMENT_MIN_TENSION = 0						-- Vanilla is 0.5
@@ -76,6 +69,8 @@ NDefines.NDiplomacy.OPINION_FOR_DEMO_FROM_WT_GENERATION = 0					-- Vanilla is -2
 NDefines.NAI.MAX_THREAT_FOR_FIRST_YEAR_CIVILIAN_MODE = 30					-- Vanilla is 60
 
 -- Peace Conferences
+NDefines.NDiplomacy.PEACE_SCORE_SCALE_FACTOR = 2.15							-- Vanilla is 1.35
+NDefines.NDiplomacy.PEACE_SCORE_DISTRIBUTION = { 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2 } -- Vanilla is 0.2 in the first five turns
 NDefines.NAI.PEACE_AI_EVALUATE_OTHER_ALWAYS = true							-- Vanilla is false
 
 -- Volunteers
@@ -84,6 +79,10 @@ NDefines.NAI.SEND_VOLUNTEER_EVAL_CONTAINMENT_FACTOR = 0						-- Vanilla is 0.1
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0						-- Vanilla is 30
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.025					-- Vanilla is 0.05
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.025						-- Vanilla is 0.05
+-- Graphics
+NDefines.NGraphics.POLITICAL_GRID_SMALL_BOX_LIMIT = 8						-- Vanilla is 6
+NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 11						-- Vanilla is 10
+NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 11	
 
 -- General AI
 NDefines.NAI.RESEARCH_BONUS_FACTOR = 1.5									-- Vanilla is 0.9
@@ -143,10 +142,6 @@ NDefines.NAI.COMMUNISTS_BEFRIEND_COMMUNISTS = 50							-- Vanilla is 25
 NDefines.NAI.COMMUNISTS_ALLY_COMMUNISTS = 25								-- Vanilla is 0
 NDefines.NAI.COMMUNISTS_ANTAGONIZE_COMMUNISTS = -25							-- Vanilla is -10
 
--- Battleplan AI
-NDefines.NAI.HOUR_BAD_COMBAT_REEVALUATE = 42								-- Vanilla is 100
-NDefines.NAI.PLAN_ACTIVATION_SUPERIORITY_AGGRO = 1.2						-- Vanilla is 1.0
-
 -- Combat AI
 NDefines.NAI.FORTIFIED_RATIO_TO_CONSIDER_A_FRONT_FORTIFIED = 0.3			-- Vanilla is 0.5
 NDefines.NAI.HEAVILY_FORTIFIED_RATIO_TO_CONSIDER_A_FRONT_FORTIFIED = 0.3	-- Vanilla is 0.5
@@ -159,9 +154,7 @@ NDefines.NAI.MAX_FULLY_TRAINED_SHIP_RATIO_FOR_TRAINING = 0.99				-- Vanilla is 0
 
 -- Production AI
 NDefines.NAI.REFIT_SHIP_PERCENTAGE_OF_FORCES = 0.25							-- Vanilla is 0.1
-NDefines.NAI.DESIRE_USE_XP_TO_UPGRADE_AIR_EQUIPMENT = 1.5					-- Vanilla is 1 - AI more eagerly upgrades its planes, they are much more important than doctrines
-NDefines.NAI.UPGRADE_PERCENTAGE_OF_FORCES = 0.25							-- Vanilla is 0.1
-NDefines.NAI.UPGRADES_DEFICIT_LIMIT_DAYS = 180							    -- Vanilla is 50
+NDefines.NAI.DESIRE_USE_XP_TO_UPGRADE_AIR_EQUIPMENT = 1.5							    -- Vanilla is 50
 
 -- Research AI
 NDefines.NAI.MAX_AHEAD_RESEARCH_PENALTY = 1.5				                -- Vanilla is 2 - AI will take tech with smaller ahead of time penalties

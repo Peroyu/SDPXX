@@ -61,7 +61,7 @@ set_technology = {
 	basic_machine_tools = 1
 }
 create_country_leader = {
-	name = "保大皇帝"
+	name = "VIN_pao_dai_dei"
 	desc = "/"  
 	picture = portrait_VIN_pao_dai_dei  
 	expire = "1952.7.10"  

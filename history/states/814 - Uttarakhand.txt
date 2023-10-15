@@ -1,0 +1,21 @@
+state = {
+	id = 814
+	name = "STATE_814"
+	manpower = 3814368
+
+	state_category = two
+
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		add_claim_by = FID
+		victory_points = { 5157 1 } #Dehradun
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1898 3989 5002 5157 10021
+	}
+}

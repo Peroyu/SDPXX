@@ -24,7 +24,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "昂山"
+	name = "BUR_Aung_San"
 	desc = "/"  
 	picture = "BUR_Aung_San"  
 	expire = "1952.7.10"  

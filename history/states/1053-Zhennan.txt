@@ -1,0 +1,21 @@
+state = {
+	id = 1053
+	name = "STATE_1053"
+	manpower = 493000
+	state_category = two
+	resources = {
+		tungsten = 2
+		rubber = 5
+	}
+	history = {
+		owner = GDC
+
+		add_core_of = GDC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1469 4121 4656
+	}
+}

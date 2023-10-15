@@ -1,0 +1,31 @@
+state={
+	id=89
+	name="STATE_89"
+	resources = {
+		oil = 11
+	}
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = UKR
+		victory_points = {
+			11411 5
+		}
+		victory_points = {
+			3743 2
+		}
+
+
+	}
+
+	provinces={
+		11411 11550 9425 3743
+	}
+	manpower=3613206
+	state_category=four
+}

@@ -50,7 +50,7 @@ add_ideas = {
  }
 
 create_country_leader = {
-	name = "苏巴斯·钱德拉·鲍斯"
+	name = "FID_Bose"
 	desc = "/"  
 	picture = "portrait_FID_Bose"  
 	expire = "1962.7.10"  

@@ -1,0 +1,19 @@
+state = {
+	id = 924
+	name = "STATE_924"
+
+	history = {
+		owner = ETA
+		add_core_of = ETA
+		victory_points = { 13556 2 } #Asosa
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		2009 13556
+	}
+	manpower = 279600
+	state_category = wasteland
+}

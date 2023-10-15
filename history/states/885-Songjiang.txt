@@ -1,0 +1,25 @@
+state = {
+	id = 885
+	name = "STATE_885"
+	manpower = 5218500
+
+	state_category = four
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			12412 15
+		}
+	}
+
+	provinces = {
+		783 3791 6811 7670 9766 10376 10433 10503 11906 12355 12412 12482
+	}
+}

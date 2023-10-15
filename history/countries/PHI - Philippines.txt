@@ -24,7 +24,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "曼努埃尔·阿库纳"
+	name = "PHI_Manuel_Acuna"
 	desc = "/"  
 	picture = "portrait_PHI_Manuel_Acuna"  
 	expire = "1952.7.10"  

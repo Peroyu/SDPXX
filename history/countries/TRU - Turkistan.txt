@@ -22,7 +22,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "罗季恩·马利诺夫斯基"
+	name = "TRU_Rodian_Malinovsky"
 	desc = "/"  
 	picture = "gfx/leaders/SOV/TRU_portrait_Rodian_Malinovsky.png"  
 	expire = "1967.7.10"  

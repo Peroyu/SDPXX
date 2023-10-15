@@ -41,7 +41,7 @@ add_ideas = {
 	national_supremacy
  }
 create_country_leader = {
-	name = "默罕默德·阿巴斯·汗·阿巴西"  # 
+	name = "PUN_mohanmod"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_PUN_mohanmod"  # 
 	expire = "1956.6.6"  # 

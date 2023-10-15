@@ -1,0 +1,17 @@
+state = {
+	id = 1039
+	name = "STATE_1039"
+	history = {
+		owner = FWI
+		add_core_of = FWI
+		add_core_of = GYA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		8107
+	}
+	manpower = 2120
+	state_category = wasteland
+}

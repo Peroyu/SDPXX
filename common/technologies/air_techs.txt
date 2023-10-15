@@ -40,6 +40,8 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
+			mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		sub_technologies = {
@@ -68,6 +70,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_light_fighter_and_modules
 		}
 		
 		ai_will_do = {
@@ -114,6 +117,8 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
+mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		sub_technologies = {
@@ -162,6 +167,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_light_fighter_and_modules
 		}
 		
 		ai_will_do = {
@@ -246,6 +252,8 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
+mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		sub_technologies = {
@@ -300,6 +308,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_light_fighter_and_modules
 		}
 		
 		ai_will_do = {
@@ -369,6 +378,8 @@ technologies = {
 			light_air
 			light_fighter
 			air_equipment
+mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		sub_technologies = {
@@ -417,6 +428,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_light_fighter_and_modules
 		}
 		
 		ai_will_do = {
@@ -473,42 +485,10 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
+		mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 
-		ai_will_do = {
-			factor = 1
-			
-		}
-	}
-
-	
-	
-	jet_fighter1 = {
-
-		enable_equipments = {
-				jet_fighter_equipment_1
-		}
-			
-		path = {
-			leads_to_tech = jet_fighter2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1951
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = @1951 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-		sub_technologies = {
-			cv_jet_fighter1
-		}
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -535,6 +515,7 @@ technologies = {
 			naval_air
 			air_equipment
 			jet_technology
+			mio_cat_all_light_fighter_and_modules
 		}
 		
 		ai_will_do = {
@@ -565,26 +546,8 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	cv_jet_fighter2 = {
-
-		enable_equipments = {
-			cv_jet_fighter_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1957
-		
-		categories = {
-			naval_air
-			air_equipment
-			jet_technology
+		mio_cat_all_light_fighter_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -619,6 +582,8 @@ technologies = {
 			light_air
 			cas_bomber
 			air_equipment
+mio_cat_all_cas_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -640,6 +605,7 @@ technologies = {
 			naval_air
 			air_equipment
 			cas_bomber
+mio_cat_all_cas_and_modules
 		}
 		
 		ai_will_do = {
@@ -732,6 +698,8 @@ technologies = {
 			light_air
 			cas_bomber
 			air_equipment
+mio_cat_all_cas_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -752,6 +720,7 @@ technologies = {
 			naval_air
 			air_equipment
 			cas_bomber
+mio_cat_all_cas_and_modules
 		}
 		
 		ai_will_do = {
@@ -814,6 +783,8 @@ technologies = {
 			light_air
 			cas_bomber
 			air_equipment
+mio_cat_all_cas_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -834,6 +805,7 @@ technologies = {
 			naval_air
 			air_equipment
 			cas_bomber
+mio_cat_all_cas_and_modules
 		}
 		
 		ai_will_do = {
@@ -867,6 +839,8 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
+			mio_cat_all_cas_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 
 		ai_will_do = {
@@ -887,6 +861,9 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
+			cas_bomber
+mio_cat_all_cas_and_modules
+
 		}
 
 		ai_will_do = {
@@ -922,6 +899,8 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
+			mio_cat_all_cas_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 
 		ai_will_do = {
@@ -942,6 +921,8 @@ technologies = {
 		categories = {
 			light_air
 			jet_technology
+			cas_bomber
+mio_cat_all_cas_and_modules
 		}
 
 		ai_will_do = {
@@ -976,6 +957,8 @@ technologies = {
 			naval_air
 			naval_bomber
 			air_equipment
+mio_cat_all_naval_bomber_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1012,6 +995,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_naval_bomber_and_modules
 		}
 		
 		ai_will_do = {
@@ -1105,6 +1089,8 @@ technologies = {
 			naval_air
 			air_equipment
 			naval_bomber
+mio_cat_all_naval_bomber_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1148,6 +1134,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_naval_bomber_and_modules
 		}
 		
 		ai_will_do = {
@@ -1212,6 +1199,8 @@ technologies = {
 			naval_air
 			naval_bomber
 			air_equipment
+mio_cat_all_naval_bomber_and_modules
+			mio_cat_all_light_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1255,6 +1244,7 @@ technologies = {
 		categories = {
 			naval_air
 			air_equipment
+mio_cat_all_naval_bomber_and_modules
 		}
 		
 		ai_will_do = {
@@ -1315,6 +1305,7 @@ technologies = {
 			medium_air
 			tactical_bomber
 			air_equipment
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1344,31 +1335,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	heavy_fighter_improve = {
-	
-		path = {
-			leads_to_tech = heavy_fighter2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1939
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = @1939 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
+		mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1398,6 +1365,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_heavy_fighter
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1427,96 +1395,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	jet_heavy_fighter_improve = {
-
-		dependencies = {
-			jet_engines = 1
-		}
-		
-		path = {
-			leads_to_tech = jet_heavy_fighter1
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = jet_tactical_bomber1
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1948
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = @1948 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	jet_heavy_fighter1 = {
-
-		enable_equipments = {
-			jet_heavy_fighter_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = jet_heavy_fighter2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1951
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = @1951 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	jet_heavy_fighter2 = {
-
-		enable_equipments = {
-			jet_heavy_fighter_equipment_2
-		}
-		dependencies = {
-			jet_engines_improve1 = 1
-		}
-		
-		research_cost = 2
-		start_year = 1957
-		folder = {
-			name = air_techs_folder
-			position = { x = -2 y = @1957 }
-		}
-		
-		categories = {
-			medium_air
-			air_equipment
-			cat_heavy_fighter
+		mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1545,6 +1424,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_scout_plane
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1590,6 +1470,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_scout_plane
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1616,6 +1497,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_scout_plane
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1641,6 +1523,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_scout_plane
+			
 		}
 		
 		ai_will_do = {
@@ -1667,6 +1550,7 @@ technologies = {
 			medium_air
 			air_equipment
 			cat_scout_plane
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1722,6 +1606,7 @@ technologies = {
 			medium_air
 			tactical_bomber
 			air_equipment
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1802,6 +1687,7 @@ technologies = {
 			medium_air
 			tactical_bomber
 			air_equipment
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1855,6 +1741,7 @@ technologies = {
 			medium_air
 			tactical_bomber
 			air_equipment
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1905,6 +1792,7 @@ technologies = {
 			medium_air
 			jet_technology
 			tactical_bomber
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1935,6 +1823,7 @@ technologies = {
 			medium_air
 			jet_technology
 			tactical_bomber
+mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1964,6 +1853,7 @@ technologies = {
 		categories = {
 			heavy_air
 			air_equipment
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -1996,6 +1886,7 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+mio_cat_all_heavy_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2071,6 +1962,7 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+mio_cat_all_heavy_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2115,6 +2007,7 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+			mio_cat_all_heavy_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2154,6 +2047,7 @@ technologies = {
 		categories = {
 			heavy_air
 			air_equipment
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2194,6 +2088,7 @@ technologies = {
 			heavy_air
 			air_equipment
 			cat_strategic_bomber
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2234,6 +2129,7 @@ technologies = {
 		categories = {
 			heavy_air
 			jet_technology
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2266,6 +2162,7 @@ technologies = {
 		categories = {
 			heavy_air
 			jet_technology
+			mio_cat_all_medium_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2301,6 +2198,7 @@ technologies = {
 			heavy_air
 			jet_technology
 			cat_strategic_bomber
+mio_cat_all_heavy_aircraft_and_modules
 		}
 		
 		ai_will_do = {
@@ -2337,6 +2235,7 @@ technologies = {
 			heavy_air
 			jet_technology
 			cat_strategic_bomber
+			mio_cat_all_heavy_aircraft_and_modules
 		}
 		
 		ai_will_do = {

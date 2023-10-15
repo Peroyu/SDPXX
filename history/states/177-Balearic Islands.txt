@@ -1,19 +1,14 @@
-state=
-{
-	id=177
-	name="STATE_177"
+state = {
+	id = 177
+	name = "STATE_177"
 	manpower = 365500
-	
-	state_category = rural
-	
-	history=
-	{
-		victory_points = {
-			9793 1
-		}
+
+	state_category = two
+
+	history = {
 		owner = FOI
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			air_base = 1
 			9793 = {
 				naval_base = 2
@@ -23,10 +18,9 @@ state=
 			}
 		}
 		add_core_of = FOI
+		add_core_of = CAT
 	}
-	provinces=
-	{
-7114 9793 9845 	}
-
-	local_supplies=0.0 
+	provinces = {
+		7114 9793 9845
+	}
 }

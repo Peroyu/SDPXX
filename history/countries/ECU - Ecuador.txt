@@ -17,7 +17,7 @@ set_popularities = {
 	reactionism = 20
 }
 create_country_leader = {
-	name = "何塞·瓦伊拉"  # 
+	name = "ECU_Jose_Velasco"  # 
 	desc = ""  # 
 	picture = "portrait_ECU_Jose_Velasco"  # 
 	expire = "1956.6.6"  # 

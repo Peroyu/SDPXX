@@ -27,7 +27,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "托马斯·蒙赫"
+	name = "BOL_Tomas_Monje"
 	desc = "/"  
 	picture = "portrait_BOL_Tomas_Monje"  
 	expire = "1962.7.10"  

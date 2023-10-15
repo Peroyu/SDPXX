@@ -42,7 +42,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "兹德涅克·菲尔林格"  
+	name = "CZE_Zdenek_Fierlinger"  
 	desc = "CZE_Zdenek_Fierlinger_desc"   
 	picture = "GFX_portrait_CZE_Zdenek_Fierlinger"   
 	expire = "1956.6.6"  
@@ -51,7 +51,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "克莱门特·哥特瓦尔德"  
+	name = "CZE_Klement_Gottwald"  
 	desc = "CZE_Klement_Gottwald_desc"   
 	picture = "GFX_portrait_Klement_Gottwald"   
 	expire = "1956.6.6"  

@@ -60,7 +60,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "霍尔洛·乔巴山"  # 
+	name = "MON_Choibarsan"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_MON_Choibarsan"  # 
 	expire = "1961.2.13"  # 

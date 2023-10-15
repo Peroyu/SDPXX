@@ -34,7 +34,7 @@ country_event = {
 	days = 150
 }
 create_country_leader = {
-	name = "奥托·布劳恩"  # 
+	name = "otto"  # 
 	desc = "otto_desc"  # 
 	picture = "portrait_DZG_otto.dds"  # 
 	expire = "1999.3.16"  # 
@@ -44,7 +44,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "奥托·布劳恩"  # 
+	name = "otto"  # 
 	desc = "otto_desc"  # 
 	picture = "portrait_DZG_otto_afterwar"  # 
 	expire = "1999.3.16"  # 

@@ -1,0 +1,23 @@
+state = {
+	id = 998
+	name = "STATE_998"
+	manpower = 156564
+
+	state_category = two
+
+	history = {
+		owner = AZB
+		add_core_of = AZB
+		add_core_of = ARM
+		victory_points = {
+			9715 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1757 7738 7809 9715 14771
+	}
+}

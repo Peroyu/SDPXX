@@ -1,0 +1,19 @@
+state = {
+	id = 1042
+	name = "STATE_1042" #Osh
+	provinces = {
+		4542 4923 2058 12430 12581 14741 14742
+	}
+	history = {
+		owner = TRU
+		add_core_of = TRU
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2058 1
+		}		
+	}
+	manpower = 48256
+	state_category = one
+}

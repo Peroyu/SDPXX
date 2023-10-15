@@ -1,26 +1,25 @@
+state = {
+	id = 237
+	name = "STATE_237"
 
-state={
-	id=237
-	name="STATE_237"
-	manpower = 169620
-	
-	state_category = rural
-
-	history={
-		owner = SOV
+	history = {
+		owner = RUS
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1			
 		}
-		add_core_of = SOV
-		add_core_of = KAL
+		add_core_of = RUS
+		add_core_of = KLY
 		victory_points = {
-			11724 1
+			6794 5
 		}
 	}
 
-	provinces={
-		481 742 745 759 3413 3439 3475 3597 3726 3746 3774 6463 6758 6760 6791 6794 9426 9442 9594 9720 9722 9735 9739 11416 11566 11706 11724 11727 
+	local_supplies = 8.0 
+	provinces = {
+		481 498 745 759 3413 3746 3774 3777 6765 6794 9426 9442 9581 9739 11416 11447 11566 11724 3487 3475 3439 6463 3597 9594 6791 9720 742 3461 3726 6758 6760 9440 9735 11579 11706  
 	}
-
-	local_supplies=0.0 
+	manpower = 312835
+	state_category = two
 }

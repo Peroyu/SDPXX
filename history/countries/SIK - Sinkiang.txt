@@ -44,7 +44,7 @@ private_health_insurance
 	national_supremacy
 }
 create_country_leader = {
-	name = "盛世才"  
+	name = "SIK_Sheng_Shicai"  
 	desc = "SIK_Sheng_Shicai_desc"  
 	picture = "gfx\leaders\CHI\SIK_Sheng_Shicai.png"  # 人物头像
 	expire = "1985.1.1"  

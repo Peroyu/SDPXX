@@ -1,29 +1,31 @@
+state = {
+	id = 153
+	name = "STATE_153"
+	manpower = 348985
 
-state={
-	id=153
-	name="STATE_153"
-	manpower = 1655340
-	
-	state_category = town
+	local_supplies = 12.0 
+	state_category = three
 
-	history={
+	history = {
 		owner = AUS
 		victory_points = {
-			673 5 
+			673 2
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 3
+			673 = {
+				bunker = 1
+			}
 		}
 		add_core_of = AUS
-
-		
+		#victory_points = { #Kufstein
+		#	11634 1
+		#}
 	}
 
-	provinces={
-		668 671 673 3675 6673 6678 6680 9633 9636 11618 11634 
+	provinces = {
+		671 673 6678 9633 9636 11618 11634
 	}
-
-	local_supplies=12.0 
 }

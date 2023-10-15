@@ -30,7 +30,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "约翰·卢埃林"  # 
+	name = "CAN_John_Llewellin"  # 
 	desc = "/"  # 
 	picture = portrait_CAN_John_Llewellin
 	expire = "1962.9.2"  # 

@@ -28,7 +28,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "吕运亨"   
+	name = "KOR_Yeo_Un_hyeong"   
 	desc = "/"   
 	picture = "Portrait_KOR_Yeo_Un_hyeong"   
 	expire = "1956.9.30"  
@@ -39,7 +39,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "金九"   
+	name = "KOR_Gim_Gu"   
 	desc = "/"   
 	picture = "Portrait_KOR_Gim_Gu"   
 	expire = "1950.9.30"  

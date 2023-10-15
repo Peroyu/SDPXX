@@ -1,24 +1,27 @@
+state = {
+	id = 490
+	name = "STATE_490"
+	resources = {
+		oil = 3
+	}
 
-state={
-	id=490
-	name="STATE_490"
-	manpower = 70020
-	
-	state_category = pastoral
-
-	history={
+	history = {
 		owner = PRU
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 			air_base = 1
 		}
+		add_core_of = ECU
 		add_core_of = PRU
+		victory_points = {
+			8149 1
+		}
 	}
 
-	provinces={
-		8149 10942 
+	provinces = {
+		8149 10942 12869 13347 13360 13362 13371 13540
 	}
-
-	local_supplies=6.0 
+	manpower = 70020
+	state_category = one
 }

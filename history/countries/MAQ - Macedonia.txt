@@ -28,7 +28,7 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "安多诺夫-琴托法"  # 
+	name = "MAQ_ANTONOV"  # 
 	desc = "/"  # 
 	picture = "Portrait_MAQ_ANTONOV"  # 
 	expire = "1956.6.6"  # 

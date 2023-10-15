@@ -20,9 +20,9 @@ add_ideas = {
 
 }
 create_country_leader = {
-	name = "马科斯·希门尼斯"  # 
+	name = "VEN_Marcos_Jimenez"  # 
 	desc = "/"  # 
-	picture = "GFX_portrait_VEN_Marcos_Jiménez"  # 
+	picture = "GFX_portrait_VEN_Marcos_Jimenez"  # 
 	expire = "1953.4.30"  # 
 	ideology = despotism # 
 	traits = {  # 

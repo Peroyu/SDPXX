@@ -28,7 +28,7 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "米洛万·吉拉斯"  # 
+	name = "YUG_Milovan_Dilas"  # 
 	desc = "/"  # 
 	picture = "Portrait_YUG_Milovan_Dilas"  # 
 	expire = "1956.6.6"  # 

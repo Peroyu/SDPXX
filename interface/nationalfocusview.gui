@@ -277,6 +277,27 @@ guiTypes = {
 					spriteType ="GFX_tiled_window_transparent"
 				}
 			
+				containerWindowType = {
+					name = "filter_grid_container"
+					position = { x= 0 y = 10 }
+					size = { width = 105 height = 380 }
+					
+					verticalScrollbar = "right_vertical_slider"
+					
+					background = {
+						name = "Background"
+						spriteType ="GFX_tiled_window_transparent"
+						alwaystransparent = yes
+					}
+					
+					gridboxtype = {
+						name = "grid"
+						position = { x = 20 y = 0 }
+						size = { width = 80 height = 100%% }
+						slotsize = { width = 45 height = 45 }
+						max_slots_horizontal = 1
+					}
+				}
 			
 			}
 		}
@@ -343,6 +364,20 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 			vertical_alignment = center 			
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "viewing_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = {  x=110 y=30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType ={
+			name ="viewing_flag_border"
+			quadTextureSprite = "GFX_diplo_countrylist_flag_frame"
+			position = { x= 105 y = 25 }
 			alwaystransparent = yes
 		}
 	}

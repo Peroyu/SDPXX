@@ -31,7 +31,7 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "卡米耶·胡斯曼"  # 
+	name = "BEL_Camille_Huysmans"  # 
 	desc = "/"  # 
 	picture = "GFX_BEL_Camille_Huysmans"  # 
 	expire = "1968.2.25"  # 

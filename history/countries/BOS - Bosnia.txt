@@ -28,7 +28,7 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "米兰·戈尔基奇"  # 
+	name = "YUG_gorgyki"  # 
 	desc = "/"  # 
 	picture = "Portrait_YUG_gorgyki"  # 
 	expire = "1956.6.6"  # 

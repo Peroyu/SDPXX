@@ -3,28 +3,25 @@ state={
 	id=677
 	name="STATE_677"
 
+	local_supplies = 4.0 
 	history={
 		owner = TUR
+		add_core_of = TUR
+		add_core_of = SYR
 		victory_points = {
-			12473 3 
-		}
-		victory_points = {
-			1056 1 
+			12473 8
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
-		add_core_of = TUR
 
 	}
 
 	provinces={
-		1056 1072 1088 7140 7671 10087 12473 
+		901 1606 1634 2013 3942 6883 7140 7671 9823 10882 11871 12473 13741 13743
 	}
-	manpower=1325594
-	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=2.0 
+	manpower=995075
+	state_category=four
 }

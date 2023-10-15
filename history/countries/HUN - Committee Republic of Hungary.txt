@@ -55,7 +55,7 @@ HUN_brocken_policy
 victor_of_the_revolutionary_war
 }
 create_country_leader = {
-	name = "阿尔帕德·萨卡希奇" 
+	name = "HUN_Szakasits" 
 	desc = "HUN_Szakasits_desc" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 
@@ -64,7 +64,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "纳吉·伊姆雷" 
+	name = "HUN_naji" 
 	desc = "" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 
@@ -73,7 +73,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "伊姆雷·贝拉" 
+	name = "HUN_bella" 
 	desc = "" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 

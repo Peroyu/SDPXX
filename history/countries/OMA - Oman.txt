@@ -23,7 +23,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "赛义德·泰穆尔"  # 
+	name = "saiyide_OMA"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_saiyide_OMA"  # 
 	expire = "1952.3.16"  # 

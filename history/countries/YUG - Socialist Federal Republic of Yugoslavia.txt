@@ -30,7 +30,7 @@ set_popularities = {
 
  
 create_country_leader = {
-	name = "巴尔干重建委员会"   
+	name = "YUG_Balkan_R_C"   
 	desc = "YUG_Balkan_R_C_desc"  
 	picture = "gfx/leaders/EU/YUG_Balkan_R_C.png"   
 	expire = "1956.9.7"   

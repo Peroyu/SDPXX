@@ -1,13 +1,13 @@
-state={
-	id=706
-	name="STATE_706"
+state = {
+	id = 706
+	name = "STATE_706"
 	manpower = 186637
-	
-	state_category = small_island
 
-	history={
+	state_category = one_island
+
+	history = {
 		owner = ROF
-		add_core_of = MAD
+		add_core_of = MAG
 		buildings = {
 			infrastructure = 2
 			13017 = {
@@ -16,9 +16,7 @@ state={
 		}
 	}
 
-	provinces={
-		13017 
+	provinces = {
+		13017
 	}
-
-	local_supplies=0.0 
 }

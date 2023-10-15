@@ -1,0 +1,24 @@
+
+state={
+	id=858
+	name="STATE_858"
+
+	local_supplies = 3.0 
+	history={
+		owner = FID
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = FID
+		add_claim_by = TIB
+		add_claim_by = XKS
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1996 10810 12730
+	}
+	manpower=42000
+	state_category = one
+}

@@ -45,7 +45,7 @@ add_ideas = {
  
  }
 create_country_leader = {
-	name = "阿萨夫·贾赫七世"  # 
+	name = "Ahmadzai"  # 
 	desc = "/"  # 
 	picture = "GFX_HYD_portrait_Ahmadzai"  # 
 	expire = "1956.6.6"  # 

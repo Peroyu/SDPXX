@@ -1,0 +1,21 @@
+state = {
+	id = 733
+	name = "STATE_733"
+	manpower = 31739
+	state_category = zero_island
+
+	history = {
+		owner = CYN
+		add_core_of = CYN
+
+		buildings = {
+			infrastructure = 2
+			12251 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		10321 12251
+	}
+}

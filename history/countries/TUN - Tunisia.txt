@@ -26,7 +26,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "哈比卜·布尔吉巴"  # 
+	name = "TUN_Bourguiba"  # 
 	desc = "/"  # 
 	picture = "GFX_portrait_TUN_Bourguiba"  # 
 	expire = "1953.4.30"  # 

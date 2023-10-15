@@ -1,0 +1,19 @@
+state = {
+	id = 1058
+	name = "STATE_1058"
+	manpower = 7520500
+	local_supplies = 1.0 
+	state_category = two
+	history = {
+		owner = FNC
+		add_core_of = HBA
+		add_claim_by = FNC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10446 2 }
+	}
+	provinces = {
+		4158 4519 4547 7459 7568 10434 10446 12426
+	}
+}

@@ -1,25 +1,27 @@
-state={
-	id=689
-	name="STATE_689"
-	manpower = 1075000
-	
-	state_category = town
+state = {
+	id = 689
+	name = "STATE_689"
+	manpower = 1136100
 
-	history={
-		add_core_of = FWI
+	state_category = four
+
+	history = {
 		owner = FWI
-		victory_points = {
-			12304 1 
-		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 1
 			12304 = {
 				naval_base = 1
 			}
 		}
+		victory_points = {
+			12304 8
+		}
+		add_core_of = FWI
+		add_core_of = JAM
 	}
-	
-	provinces={ 12304 12477 }
 
-	local_supplies=0.0 
+	provinces = { 12304 12477 }
 }

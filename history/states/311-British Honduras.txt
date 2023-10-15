@@ -1,0 +1,32 @@
+
+state={
+	id=311
+	name="STATE_311"
+
+	history={
+		owner = FWI
+		buildings = {
+			infrastructure = 1
+			2077 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = FWI
+		add_claim_by = WED
+		victory_points = {
+			2077 3
+		}
+		
+
+	}
+
+	provinces={
+		2077 13447 14635 14636 14637 
+	}
+	manpower=60342
+	buildings_max_level_factor=1.000
+	state_category=one
+	local_supplies=0.000
+}

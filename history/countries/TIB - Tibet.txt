@@ -18,7 +18,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "达波扎西南杰"  
+	name = "TIB_Namgyal"  
 	desc = "/"  
 	picture = "GFX_TIB_Namgyal"  
 	expire = "1985.1.1"  

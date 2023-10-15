@@ -1,0 +1,24 @@
+state = {
+	id = 571
+	name = "STATE_571" # Omsk
+	manpower = 1317157
+
+	state_category = four
+	local_supplies = 8.0 
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			10696 5
+		}
+		add_core_of = RUS
+		add_claim_by = TRM
+	}
+
+	provinces = {
+		10696 12546 14744 
+	}
+}

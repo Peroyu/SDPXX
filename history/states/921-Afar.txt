@@ -1,0 +1,19 @@
+state = {
+	id = 921
+	name = "STATE_921"
+
+	history = {
+		owner = ETA
+		add_core_of = ETA
+		victory_points = { 5097 2 } #Awsa
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		5041 5097
+	}
+	manpower = 318000
+	state_category = wasteland
+}

@@ -1,30 +1,26 @@
+state = {
+	id = 394
+	name = "STATE_394"
+	manpower = 814000
+	state_category = nine
 
-state={
-	id=394
-	name="STATE_394"
-	manpower = 2939004
-	state_category = city
-	
-	resources={
-		steel=53 # was: 84
+	resources = {
+		steel = 36
 	}
 
-	history={
+	history = {
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 6
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 7
 		}
 		add_core_of = USA
 		victory_points = {
-			12357 5 
+			1760 1
 		}
-
 	}
 
-	provinces={
-		703 926 1560 1760 1849 3699 4029 4166 4738 4834 7776 7829 9657 9678 10341 10526 12357 12456 
+	provinces = {
+		1760 3699 4029 7829 10341 10526
 	}
-
-	local_supplies=0.0 
 }
