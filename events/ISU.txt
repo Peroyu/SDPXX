@@ -179,12 +179,15 @@ country_event = {
 			transfer_state = 34
 			transfer_state = 6
 			transfer_state = 8
+			transfer_state = 741
 			
 		}
 		HOL = {
 			transfer_state = 35
 			transfer_state = 36
 			transfer_state = 7
+			transfer_state = 866
+			transfer_state = 978
 		}
 		name = ISU_event.2.a
 		
@@ -197,12 +200,15 @@ country_event = {
 		FRA = {
 			transfer_state = 34
 			transfer_state = 8
+			transfer_state = 741
 		}
 		HOL = {
 			transfer_state = 35
 			transfer_state = 36
 			transfer_state = 7
 			transfer_state = 6
+			transfer_state = 978
+			transfer_state = 866
 		}
 		name = ISU_event.2.b
 		
@@ -219,7 +225,7 @@ country_event = {
 		}
 		BEL = {
 			set_cosmetic_tag = BEL_waas
-			
+			transfer_state = 741
 			transfer_state = 34
 			transfer_state = 8
 			
@@ -228,6 +234,8 @@ country_event = {
 			transfer_state = 35
 			transfer_state = 36
 			transfer_state = 7
+			transfer_state = 978
+			transfer_state = 866
 		}
 		name = ISU_event.2.c
 		
@@ -242,10 +250,13 @@ country_event = {
 			transfer_state = 35
 			transfer_state = 36
 			transfer_state = 7
+			transfer_state = 978
+			transfer_state = 866
 		}
 		FRA = {
 			transfer_state = 34
 			transfer_state = 8
+			transfer_state = 741
 		}
 		FLA = {
 			transfer_state = 6
@@ -263,6 +274,7 @@ country_event = {
 			set_cosmetic_tag = BEL_waas
 			transfer_state = 34
 			transfer_state = 8
+			transfer_state = 741
 			
 		}
 		HOL = {
@@ -270,6 +282,8 @@ country_event = {
 			transfer_state = 36
 			transfer_state = 7
 			transfer_state = 6
+			transfer_state = 978
+			transfer_state = 866
 		}
 		name = ISU_event.3.a
 		
@@ -283,11 +297,14 @@ country_event = {
 			transfer_state = 34
 			transfer_state = 8
 			transfer_state = 6
+			transfer_state = 741
 		}
 		HOL = {
 			transfer_state = 35
 			transfer_state = 36
 			transfer_state = 7
+			transfer_state = 978
+			transfer_state = 866
 			
 		}
 		name = ISU_event.3.b

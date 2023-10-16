@@ -137,7 +137,7 @@
 		x = 6
 		y = 3
 		completion_reward = {
-		   set_capital = { state = 842 }
+		   set_capital = { state = 650 }
 		   country_event = {
                id = CJF_dh.3
 			   days = 1
@@ -836,11 +836,11 @@ shared_focus = {
 		x = 6
 		y = 0
 		completion_reward = {
-			add_state_core = 854
-			add_state_core = 855
+			add_state_core = 1052
 			add_state_core = 603
-			add_state_core = 748
-			add_state_core = 841
+			add_state_core = 1051
+			add_state_core = 816
+			add_state_core = 325
 			custom_effect_tooltip = CJF_improve_ourselves
 			country_event = {
                id = CJF_Cp.1

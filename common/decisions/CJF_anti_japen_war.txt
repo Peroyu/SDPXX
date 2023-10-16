@@ -2,10 +2,10 @@ CJF_anti_japen_war_decision_categories = {
 	attack_chongqing = {
 	    icon = decision_generic_prepare_civil_war
 		available = {
-		   controls_state = 842
+		   controls_state = 650
 		}
 		cancel_trigger = {
-			owns_state = 842
+			owns_state = 650
 		}
 		visible = {
 		   has_war_with = CMA
@@ -17,9 +17,8 @@ CJF_anti_japen_war_decision_categories = {
 		 	 
                 
 		}
-        complete_effect = {                   
-            add_state_core = 842   
-			transfer_state = 842
+        complete_effect = {      
+			transfer_state = 650
             country_event = {
             id = CJF_chongqing.2
             days = 1					
@@ -30,8 +29,8 @@ CJF_anti_japen_war_decision_categories = {
 	over_japnese_threaten = {
 	    icon = decision_generic_prepare_civil_war
 		available = {
-		   controls_state = 855
-		   owns_state = 842
+		   controls_state = 1049
+		   owns_state = 650
 		   has_completed_focus = CJF_stop_enemy
 		}
 		allowed = {

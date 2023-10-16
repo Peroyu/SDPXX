@@ -1,4 +1,4 @@
-﻿capital = 889
+﻿capital = 592
 
 set_oob = "GNP_1947"
 
