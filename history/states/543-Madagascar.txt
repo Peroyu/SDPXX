@@ -7,7 +7,7 @@ state={
 		rubber = 23
 	}
 	history={
-		owner = ROF
+		owner = MAD
 		add_core_of = MAG
 		victory_points = {
 			5128 3 

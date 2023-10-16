@@ -1,15 +1,17 @@
-capital = 658 # 
+capital = 325 # 
 
-obb = "SWA_1947"  # 
+oob = "empty"  # 
 
-set_research_slots = 2 # 
+set_research_slots = 3 # 
 
-set_war_support = 0.2 # 
-set_stability = 0.3 # 
+set_war_support = 0.4 # 
+set_stability = 0.5 # 
 
-# 
+CAM = {
+	puppet = SWA
+}
 set_politics = {
-	ruling_party = restoratveism # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -18,17 +20,21 @@ add_ideas = {
 broken_entents
 }
 set_popularities = {
- restoratveism = 64
- reactionism = 36
+ Liberalism = 12
+ movement_communism = 16
+ conservatism = 29
+ reactionism = 23
+ nationalism = 10
+ restorativeism = 10
 }
 
 # 
 create_country_leader = {
-	name = "s"  # 
+	name = "CAM_Max_Bastian"  # 
 	desc = "/"  # 
-	picture = "/"  # 
-	expire = "1965.6.6"  # 
-	ideology = restoratveism # 
+	picture = portrait_CAM_Max_Bastian
+	expire = "1962.9.2"  # 
+	ideology = authoritarian_democracy # 
 	traits = {  # 
 		#
 	}

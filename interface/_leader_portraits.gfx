@@ -1098,7 +1098,23 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_CAM_Paul_Lettow_Vorbeck"
+		texturefile = "gfx/leaders/EN/portrait_CAM_Paul_Lettow_Vorbeck.png"		
+	}
+
+	spriteType = {
+		name = "portrait_CAM_Max_Bastian"
+		texturefile = "gfx/leaders/EN/portrait_CAM_Max_Bastian.png"		
+	}
+
+
+	spriteType = {
 		name = "GFX_portrait_Gibrator_Canal_Authority"
 		texturefile = "gfx/leaders/EU/GFX_portrait_Gibrator_Canal_Authority.png"		
+	}
+
+	spriteType = {
+		name = "portrait_SDP_coders"
+		texturefile = "gfx/leaders/custom/portrait_SDP_coders.dds"		
 	}
 }

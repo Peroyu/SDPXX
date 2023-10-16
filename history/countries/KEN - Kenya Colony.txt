@@ -7,8 +7,8 @@ set_research_slots = 3 #
 set_war_support = 0.4 # 
 set_stability = 0.5 # 
 
-CAM = {
-	puppet = TAZ
+CAN = {
+	puppet = KEN
 }
 set_politics = {
 	ruling_party = conservatism # 
@@ -30,9 +30,9 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "CAM_Paul_Lettow_Vorbeck"  # 
+	name = "CAN_Philip_Mitchell"  # 
 	desc = "/"  # 
-	picture = portrait_CAM_Paul_Lettow_Vorbeck
+	picture = portrait_CAN_Philip_Mitchell
 	expire = "1962.9.2"  # 
 	ideology = authoritarian_democracy # 
 	traits = {  # 

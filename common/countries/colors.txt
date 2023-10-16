@@ -7,6 +7,10 @@ ANC = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
 }
+SDP = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 GDC = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }
@@ -80,26 +84,30 @@ CAB = {
 	color_ui = rgb { 196  117  149 } 
 }
 CAM = {
-	color = rgb { 92 92 92 }
-	color_ui = rgb { 92 92 92 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
 }
 SWA = {
-	color = rgb { 92 92 92 }
-	color_ui = rgb { 92 92 92 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
 }
 TAZ = {
-	color = rgb { 92 92 92 }
-	color_ui = rgb { 92 92 92 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
 }
 GEA = {
-	color = rgb { 92 92 92 }
-	color_ui = rgb { 92 92 92 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
 }
 CMA = {
 	color = rgb { 67 86 19 } 
 	color_ui = rgb { 67 86 19 }
 }
 CAN = {
+	color = rgb { 162 89 71 } 
+	color_ui = rgb { 162 89 71 } 
+}
+MAL = {
 	color = rgb { 162 89 71 } 
 	color_ui = rgb { 162 89 71 } 
 }
@@ -136,8 +144,8 @@ SWE = {
 	color_ui = rgb { 71 96 147 }
 }
 COG = {
-	color = rgb { 143 107 45 }
-	color_ui = rgb { 143 107 45 }
+	color = rgb { 120 120 120 }
+	color_ui = rgb { 120 120 120 }
 }
 COS = {
 	color = rgb { 152  130  191 }
@@ -172,8 +180,8 @@ NIG = {
 	color_ui = rgb { 185 158 69 }
 }
 RHO = {
-	color = rgb { 111 73 54 }
-	color_ui = rgb { 111 73 54 }
+	color = rgb { 155 124 99 }
+	color_ui = rgb { 155 124 99 }
 }
 DOS = {
 	color = rgb { 200 158 48 }
@@ -364,6 +372,10 @@ DOM = {
 	color_ui = rgb  { 137 91 198 }
 }
 ROF = {
+	color = rgb { 70 170 186 }
+	color_ui = rgb  { 70 170 186 }
+}
+FRC = {
 	color = rgb { 70 170 186 }
 	color_ui = rgb  { 70 170 186 }
 }

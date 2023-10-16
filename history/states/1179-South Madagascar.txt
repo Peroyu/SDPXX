@@ -7,7 +7,7 @@ state={
 		rubber = 15
 	}
 	history={
-		owner = ROF
+		owner = MAD
 		add_core_of = MAG
 		buildings = {
 			infrastructure = 2
