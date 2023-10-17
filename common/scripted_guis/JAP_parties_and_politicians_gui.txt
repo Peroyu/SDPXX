@@ -1,0 +1,11 @@
+scripted_gui = {
+	JAP_parties_and_politicians_gui ={
+		window_name = "JAP_parties_and_politicians_gui"
+		context_type = decision_category
+		visible = {
+			tag = NIP
+		}
+		
+		
+	}
+}

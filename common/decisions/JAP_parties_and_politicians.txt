@@ -1,0 +1,3 @@
+JAP_parties_and_politicians = {
+	    
+    }

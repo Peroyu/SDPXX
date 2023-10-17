@@ -1,0 +1,19 @@
+JAP_parties_and_politicians = {
+	    icon = decision_category_jap_pacific_guardian
+	    picture = 
+		available = {
+			tag = NIP
+		}
+		visible = {
+           		tag = NIP
+        }
+		cancel_trigger = {
+          
+        }
+	scripted_gui = JAP_parties_and_politicians_gui
+        priority = 10000
+		allowed = { 
+			original_tag = NIP 
+		}
+		visible_when_empty = yes
+    }

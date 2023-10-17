@@ -1,4 +1,4 @@
-﻿add_namespace = JAP
+﻿add_namespace = NIP
 add_namespace = ASIA_southeast_asia_conference
 country_event = {
     id = ASIA_southeast_asia_conference.1
@@ -226,9 +226,9 @@ country_event = {
 	
 }
 country_event = {
-    id = JAP.2
+    id = NIP.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	JAP.2 FROM = [From.GetName]" }
+	NIP.2 FROM = [From.GetName]" }
 	title = JAP.2.t
 	desc = JAP.2.d
 	picture = gFx_JAP2

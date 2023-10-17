@@ -1,0 +1,67 @@
+guitypes = {
+	containerwindowtype = {
+		name = "JAP_parties_and_politicians_gui"
+		position = { x = 0 y = 0 }
+		size = { width = 429 height = 900 }
+		iconType = {
+			name = "GFX_rikkenminsento"
+			spriteType = "GFX_rikkenminsento_icon"
+			position = { x = 10 y = 27 }
+		}
+		iconType = {
+			name = "GFX_Seiyukai"
+			spriteType = "GFX_Seiyukai_icon"
+			position = { x = 384 y = 185 }
+		}
+		iconType = {
+			name = "GFX_guizuyuan"
+			spriteType = "GFX_guizuyuan_icon"
+			position = { x = 384 y = 780 }
+		}
+		iconType = {
+			name = "GFX_yizna"
+			spriteType = "GFX_yizna_icon"
+			position = { x = 10 y = 430 }
+		}
+		instantTextBoxType = {
+			name = "rikkenminsento_desc"
+			position = { x = 130 y = 18 }
+			text = "NIP_rikkenminsento_desc"
+			font = "hoi_18"
+			maxwidth = 370
+			maxheight = 100
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "Seiyukai_desc"
+			position = { x = 10 y = 158 }
+			text = "NIP_Seiyukai_desc"
+			font = "hoi_18"
+			maxwidth = 370
+			maxheight = 300
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "yizanhui_desc"
+			position = { x = 130 y = 398 }
+			text = "NIP_yiznahui_desc"
+			font = "hoi_18"
+			maxwidth = 370
+			maxheight = 500
+			format = left
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "house_lord_desc"
+			position = { x = 10 y = 758 }
+			text = "NIP_house_lord_desc"
+			font = "hoi_18"
+			maxwidth = 370
+			maxheight = 600
+			format = left
+			fixedsize = yes
+		}
+	}
+}

@@ -17,871 +17,445 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 50
 			 country_event = {
-				id = NIP.7
-				days = 1
-			 }
-			}
-	}
-	focus = {
-		id = NIP_Continental_operations_resumed
-		icon = GFX_NIP_Continental_operations_resumed
-		cost = 6.00
-		x = 23
-		y = 0
-		available = {
-			has_global_flag = ASIA_CHI_NIP_WAR
-		}
-		completion_reward = { 
-			 custom_effect_tooltip = NIP_01
-			 add_ideas = NIP_continental_war
-			 army_experience = 50
-			}
-	}
-	focus = {
-		id = NIP_base_camp_celebration
-		icon = GFX_NIP_base_camp_celebration
-		cost = 6.00
-		prerequisite = {
-			focus = NIP_1947_meeting
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			 country_event = {
 				id = NIP.2
 				days = 1
 			 }
-			 custom_effect_tooltip = NIP_02
 			}
-		x = 8
+	}
+	focus = {
+		id = NIP_ignore_neo_system_compaign
+		icon = GFX_NIP_ignore_neo_system_compaign
+		cost = 3
+		x = 4
 		y = 1
-
-	}
-	focus = {
-		id = NIP_future_target
-		icon = GFX_NIP_future_target
-		cost = 6.00
 		prerequisite = {
-			focus = NIP_base_camp_celebration
-		}
-		available = {
-			has_war = no
+			focus = NIP_1947_meeting
 		}
 		completion_reward = { 
-			 custom_effect_tooltip = NIP_03
-			 navy_experience = 30
-			 add_stability = 0.05
+			
 			}
-		x = 6
-		y = 2
-
 	}
 	focus = {
-		id = NIP_to_the_west
-		icon = GFX_NIP_to_the_west
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_future_target
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			 custom_effect_tooltip = NIP_04
-			 RCR = {
-				random_owned_controlled_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-				}
-				random_owned_controlled_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-				}
-			 }
-			}
+		id = NIP_stop_industrial_regulation
+		icon = GFX_NIP_stop_industrial_regulation
+		cost = 3
 		x = 4
 		y = 3
-
-	}
-	focus = {
-		id = NIP_the_east_wall
-		icon = GFX_NIP_the_east_wall
-		cost = 6.00
 		prerequisite = {
-			focus = NIP_to_the_west
-		}
-		available = {
-			has_war = no
+			focus = NIP_ignore_neo_system_compaign
 		}
 		completion_reward = { 
-			 
+			
 			}
-		x = 2
-		y = 4
-
 	}
 	focus = {
-		id = NIP_establish_federation_base
-		icon = GFX_NIP_establish_federation_base
-		cost = 6.00
+		id = NIP_continue_Sangyohokokukai
+		icon = GFX_NIP_continue_Sangyohokokukai
+		cost = 3
+		x = 2
+		y = 2
 		prerequisite = {
-			focus = NIP_to_the_west
-		}
-		available = {
-			has_war = no
+			focus = NIP_ignore_neo_system_compaign
 		}
 		completion_reward = { 
-			add_political_power = 50
+			
+			}
+	}
+	focus = {
+		id = NIP_house_of_lords_league
+		icon = GFX_NIP_house_of_lords_league
+		cost = 4
+		x = 3
+		y = 4
+		prerequisite = {
+			focus = NIP_continue_Sangyohokokukai
 		}
+		prerequisite = {
+			focus = NIP_stop_industrial_regulation
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_relax_moblization
+		icon = GFX_NIP_relax_moblization
+		cost = 3
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = NIP_continue_Sangyohokokukai
+		}
+		prerequisite = {
+			focus = NIP_house_of_lords_league
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_check_war_budget
+		icon = GFX_NIP_check_war_budget
+		cost = 3
+		x = 6
+		y = 2
+		prerequisite = {
+			focus = NIP_ignore_neo_system_compaign
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_reduce_budget
+		icon = GFX_NIP_reduce_budget
+		cost = 3
 		x = 5
 		y = 4
-
-	}
-	focus = {
-		id = NIP_to_the_South
-		icon = GFX_NIP_to_the_South
-		cost = 8.00
 		prerequisite = {
-			focus = NIP_future_target
+			focus = NIP_check_war_budget
 		}
-		available = {
-			has_war = no
+		prerequisite = {
+			focus = NIP_stop_industrial_regulation
 		}
 		completion_reward = { 
-			add_political_power = 50
-			add_ideas = NIP_South_Plan
-		}
-		x = 7
-		y = 3
-
-	}
-	focus = {
-		id = NIP_increase_vietnam
-		icon = GFX_NIP_increase_vietnam
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_to_the_South
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			VNN = {
-				random_owned_controlled_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes 
-					}
-				}
-				random_owned_controlled_state = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = infrastructure
-						level = 1
-						instant_build = yes 
-					}
-				}
+			
 			}
-		}
-		x = 7
-		y = 4
-
 	}
 	focus = {
-		id = NIP_Unique_economic_circle
-		icon = GFX_NIP_Unique_economic_circle
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_increase_vietnam
-		}
-		prerequisite = {
-			focus = NIP_establish_federation_base
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			add_political_power = 50
-			add_ideas = NIP_South_Plan_1
-		}
+		id = NIP_compromise_with_rikkenmissnto
+		icon = GFX_NIP_compromise_with_rikkenmissnto
+		cost = 3
 		x = 6
 		y = 5
-
-	}
-	focus = {
-		id = NIP_the_national_problem
-		icon = GFX_NIP_the_national_problem
-		cost = 8.00
 		prerequisite = {
-			focus = NIP_base_camp_celebration
+			focus = NIP_reduce_budget
 		}
-		available = {
-			has_war = no
+		prerequisite = {
+			focus = NIP_check_war_budget
 		}
 		completion_reward = { 
-			custom_effect_tooltip = NIP_05
-			add_political_power = 30
-			add_stability = -0.1
-		}
-		x = 10
-		y = 2
-
-	}
-	focus = {
-		id = NIP_the_failed_army
-		icon = GFX_NIP_the_failed_army
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_the_national_problem
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			custom_effect_tooltip = NIP_06
-			add_political_power = -30
-			add_popularity = { 
-				ideology = movement_communism 
-				popularity = 0.05
-				}
-			add_popularity = { 
-				ideology = reactionism 
-				popularity = -0.03 
-				}
-		}
-		x = 10
-		y = 3
-
-	}
-	focus = {
-		id = NIP_reconstruce_balance
-		icon = GFX_NIP_reconstruce_balance
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_the_failed_army
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			custom_effect_tooltip = NIP_07
-			country_event = {
-				id = NIP.3
-				days = 1
+			
 			}
-			add_popularity = { 
-				ideology = Liberalism 
-				popularity = 0.03
-				}
-			add_popularity = { 
-				ideology = conservatism 
-				popularity = -0.05
-				}
-		}
-		x = 10
-		y = 4
-
 	}
 	focus = {
-		id = NIP_decrease_millta_influence
-		icon = GFX_NIP_decrease_millta_influence
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_the_failed_army
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			country_event = {
-				id = NIP.4
-				days = 1
-			}
-			add_stability = 0.06
-			add_war_support = -0.1
-			army_experience = -30
-		}
-		x = 13
-		y = 4
-
-	}
-	focus = {
-		id = NIP_party_s_policy
-		icon = GFX_NIP_party_s_policy
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_decrease_millta_influence
-		}
-		prerequisite = {
-			focus = NIP_reconstruce_balance
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			add_popularity = { 
-				ideology = movement_communism 
-				popularity = 0.05
-				}
-			add_ideas = NIP_party_politic_revival
-		}
-		x = 11
-		y = 5
-
-	}
-	focus = {
-		id = NIP_imperal_parliament_restart
-		icon = GFX_NIP_imperal_parliament_restart
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_party_s_policy
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			add_political_power = 100
-		}
-		x = 10
+		id = NIP_prepare_23th_election
+		icon = GFX_NIP_prepare_23th_election
+		cost = 5
+		x = 4
 		y = 6
-
-	}
-	focus = {
-		id = NIP_limit_Taisei_yokusankai
-		icon = GFX_NIP_limit_Taisei_yokusankai
-		cost = 8.00
 		prerequisite = {
-			focus = NIP_party_s_policy
+			focus = NIP_compromise_with_rikkenmissnto
 		}
-		available = {
-			has_war = no
+		prerequisite = {
+			focus = NIP_relax_moblization
 		}
 		completion_reward = { 
-			custom_effect_tooltip = NIP_09
-			add_popularity = {
-				ideology = nationalism
-				popularity = -0.03
+			
 			}
-			add_popularity = {
-				ideology = reactionism
-				popularity = -0.05
-			}
-		}
-		x = 13
-		y = 6
-
 	}
 	focus = {
-		id = NIP_coperate_with_Rikkenminseito
-		icon = GFX_NIP_coperate_with_Rikkenminseito
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_imperal_parliament_restart
-		}
-		prerequisite = {
-			focus = NIP_limit_Taisei_yokusankai
-		}
-		available = {
-			has_war = no
-		}
-		completion_reward = { 
-			add_popularity = {
-				ideology = Liberalism
-				popularity = 0.05
-			}
-			add_political_power = 50
-		}
-		x = 11
+		id = NIP_view_taisenyisankui
+		icon = GFX_NIP_view_taisenyisankui
+		cost = 3
+		x = 4
 		y = 7
-
-	}
-	focus = {
-		id = NIP_navy_resourse
-		icon = GFX_NIP_navy_resourse
-		cost = 7.00
 		prerequisite = {
-			focus = NIP_party_s_policy
-		}
-		available = {
-			has_war = no
+			focus = NIP_prepare_23th_election
 		}
 		completion_reward = { 
-			add_ideas = NIP_navy_investment
-			navy_experience = 60
-		}
-		x = 16
-		y = 6
-
+			
+			}
 	}
 	focus = {
-		id = NIP_yamato
-		icon = GFX_NIP_yamato
-		cost = 8.00
+		id = NIP_condemn_national_socialism
+		icon = GFX_NIP_condemn_national_socialism
+		cost = 3
+		x = 3
+		y = 8
 		prerequisite = {
-			focus = NIP_navy_resourse
-		}
-		available = {
-			has_war = no
+			focus = NIP_view_taisenyisankui
 		}
 		completion_reward = { 
-			country_event = {
-				id = NIP.5
-				days = 1
+			
 			}
-		}
-		x = 16
-		y = 7
-
 	}
 	focus = {
-		id = NIP_assault_war
-		icon = GFX_NIP_assault_war
-		cost = 8.00
+		id = NIP_appointment_reform_bureaucracy
+		icon = GFX_NIP_appointment_reform_bureaucracy
+		cost = 3
+		x = 5
+		y = 8
 		prerequisite = {
-			focus = NIP_Continental_operations_resumed
+			focus = NIP_view_taisenyisankui
 		}
 		completion_reward = { 
-			army_experience = 30
-			swap_ideas = {
-				add_idea = NIP_continental_war_1
-				remove_idea = NIP_continental_war
+			
 			}
-		}
-		x = 21
-		y = 1
-
 	}
 	focus = {
-		id = NIP_remoblization
-		icon = GFX_NIP_remoblization
-		cost = 8.00
+		id = NIP_cabinet_of_lords_fate
+		icon = GFX_NIP_cabinet_of_lords_fate
+		cost = 5
+		x = 4
+		y = 9
 		prerequisite = {
-			focus = NIP_assault_war
+			focus = NIP_appointment_reform_bureaucracy
 		}
-		
+		prerequisite = {
+			focus = NIP_condemn_national_socialism
+		}
 		completion_reward = { 
-			add_manpower = 30000
-			add_political_power = 30
-			every_army_leader = {
-				add_attack = 1			
+			
 			}
-		}
-		x = 19
-		y = 2
-
 	}
 	focus = {
-		id = NIP_authorized_base_camp
-		icon = GFX_NIP_authorized_base_camp
-		cost = 8.00
+		id = NIP_release_chaebol_pressure
+		icon = GFX_NIP_release_chaebol_pressure
+		cost = 3
+		x = 6
+		y = 10
 		prerequisite = {
-			focus = NIP_assault_war
+			focus = NIP_cabinet_of_lords_fate
 		}
 		completion_reward = { 
-			add_popularity = {
-				ideology = nationalism 
-				popularity = 0.04
+			
 			}
-			add_popularity = {
-				ideology = reactionism 
-				popularity = 0.02
-			}
-			swap_ideas = {
-				add_idea = NIP_continental_war_2
-				remove_idea = NIP_continental_war_1
-			}
-		}
-		x = 22
-		y = 2
-
 	}
 	focus = {
-		id = NIP_Deep_ditch_high_barrier
-		icon = GFX_NIP_Deep_ditch_high_barrier
-		cost = 8.00
+		id = NIP_emperor_agency
+		icon = GFX_NIP_emperor_agency
+		cost = 4
+		x = 6
+		y = 11
 		prerequisite = {
-			focus = NIP_Continental_operations_resumed
+			focus = NIP_release_chaebol_pressure
 		}
 		completion_reward = { 
-			add_war_support = 0.1
-			swap_ideas = {
-				add_idea = NIP_continental_war_3
-				remove_idea = NIP_continental_war_2
+			
 			}
-		}
-		x = 25
-		y = 1
-
 	}
 	focus = {
-		id = NIP_armed_chinese_leagues
-		icon = GFX_NIP_armed_chinese_leagues
-		cost = 6.00
+		id = NIP_limit_people_movement
+		icon = GFX_NIP_limit_people_movement
+		cost = 3
+		x = 4
+		y = 10
 		prerequisite = {
-			focus = NIP_Deep_ditch_high_barrier
+			focus = NIP_cabinet_of_lords_fate
 		}
 		completion_reward = { 
-			RCR = {
-				add_ideas = RCR_NIPEN_chief
-				random_owned_controlled_state = {
-					prioritize = { 195 }
-					limit = { valid_state_for_spawning_friendly_unit = yes }
-					create_unit = {
-						division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
-						owner = RCR
-					}
-				}
-				random_owned_controlled_state = {
-					prioritize = { 195 }
-					limit = { valid_state_for_spawning_friendly_unit = yes }
-					create_unit = {
-						division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
-						owner = RCR
-					}
-				}
+			
 			}
-		}
-		x = 24
-		y = 2
-
 	}
 	focus = {
-		id = NIP_strengthen_regional_milltery
-		icon = GFX_NIP_strengthen_regional_milltery
-		cost = 5.00
+		id = NIP_overly_patriotic
+		icon = GFX_NIP_overly_patriotic
+		cost = 4
+		x = 4
+		y = 11
 		prerequisite = {
-			focus = NIP_the_east_wall
-		}
-		available = {
-			has_war = no
+			focus = NIP_limit_people_movement
 		}
 		completion_reward = { 
-			FNC = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2000
-					producer = NIP
-				}
+			
 			}
-			MAN = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2000
-					producer = NIP
-				}
-			}
-			add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = -4000
-				}
-		}
+	}
+	focus = {
+		id = NIP_listen_soilders
+		icon = GFX_NIP_listen_soilders
+		cost = 3
 		x = 2
+		y = 10
+		prerequisite = {
+			focus = NIP_cabinet_of_lords_fate
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_continue_disarmament
+		icon = GFX_NIP_continue_disarmament
+		cost = 4
+		x = 2
+		y = 11
+		prerequisite = {
+			focus = NIP_listen_soilders
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_contitutionalism
+		icon = GFX_NIP_contitutionalism
+		cost = 4
+		x = 4
+		y = 12
+		prerequisite = {
+			focus = NIP_continue_disarmament
+		}
+		prerequisite = {
+			focus = NIP_overly_patriotic
+		}
+		prerequisite = {
+			focus = NIP_emperor_agency
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_prepare_south_ocean_meeting
+		icon = GFX_NIP_prepare_south_ocean_meeting
+		cost = 3
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = NIP_1947_meeting
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_ya_wan_transport_invest
+		icon = GFX_NIP_ya_wan_transport_invest
+		cost = 5
+		x = 9
+		y = 2
+		prerequisite = {
+			focus = NIP_prepare_south_ocean_meeting
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_construct_cam_ranh_bay
+		icon = GFX_NIP_construct_cam_ranh_bay
+		cost = 5
+		x = 14
+		y = 2
+		prerequisite = {
+			focus = NIP_prepare_south_ocean_meeting
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_delegation_south_ocean
+		icon = GFX_NIP_delegation_south_ocean
+		cost = 3
+		x = 12
+		y = 3
+		prerequisite = {
+			focus = NIP_construct_cam_ranh_bay
+		}
+		prerequisite = {
+			focus = NIP_ya_wan_transport_invest
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_through_malacca
+		icon = GFX_NIP_through_malacca
+		cost = 3
+		x = 12
+		y = 4
+		prerequisite = {
+			focus = NIP_delegation_south_ocean
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_militarilise_regional
+		icon = GFX_NIP_militarilise_regional
+		cost = 3
+		x = 10
 		y = 5
-
-	}
-	focus = {
-		id = NIP_concern_amercia
-		icon = GFX_NIP_concern_amercia
-		cost = 5.00
 		prerequisite = {
-			focus = NIP_Unique_economic_circle
-		}
-		prerequisite = {
-			focus = NIP_strengthen_regional_milltery
+			focus = NIP_through_malacca
 		}
 		completion_reward = { 
-			USA = {
-				country_event = {
-					id = NIP.5
-					days = 7
-				}
+			
 			}
-		}
-		x = 4
+	}
+	focus = {
+		id = NIP_lower_continent_units
+		icon = GFX_NIP_lower_continent_units
+		cost = 3
+		x = 10
 		y = 6
-
-	}
-	focus = {
-		id = NIP_to_south_ocean
-		icon = GFX_NIP_to_south_ocean
-		cost = 5.00
 		prerequisite = {
-			focus = NIP_concern_amercia
-		}
-		available = {
-			has_war = no
+			focus = NIP_militarilise_regional
 		}
 		completion_reward = { 
-			swap_ideas = {
-				add_idea = NIP_South_Plan_2
-				remove_idea = NIP_South_Plan_1
+			
 			}
-		}
-		x = 4
-		y = 7
-
 	}
 	focus = {
-		id = NIP_Showa_Demokurashi
-		icon = GFX_NIP_Showa_Demokurashi
-		cost = 5.00
+		id = NIP_establish_south_ocean_center
+		icon = GFX_NIP_establish_south_ocean_center
+		cost = 3
+		x = 13
+		y = 7
 		prerequisite = {
-			focus = NIP_coperate_with_Rikkenminseito
-		}
-		available = {
-			has_war = no
+			focus = NIP_militarilise_regional
 		}
 		completion_reward = { 
-			add_stability = 0.1
-		}
+			
+			}
+	}
+	focus = {
+		id = NIP_pan_asia_eco_connection
+		icon = GFX_NIP_pan_asia_eco_connection
+		cost = 3
 		x = 11
 		y = 8
-
-	}
-	focus = {
-		id = NIP_call_america
-		icon = GFX_NIP_call_america
-		cost = 6.00
 		prerequisite = {
-			focus = NIP_Deep_ditch_high_barrier
+			focus = NIP_establish_south_ocean_center
+		}
+		prerequisite = {
+			focus = NIP_lower_continent_units
 		}
 		completion_reward = { 
-			air_experience = 30
-			add_ideas = NIP_america_bombers
-		}
-		x = 27
-		y = 2
-
+			
+			}
 	}
 	focus = {
-		id = NIP_Stuc_in_quagmire
-		icon = GFX_NIP_Stuc_in_quagmire
-		cost = 8.00
+		id = NIP_dream_of_co_prosperity
+		icon = GFX_NIP_dream_of_co_prosperity
+		cost = 5
+		x = 11
+		y = 9
 		prerequisite = {
-			focus = NIP_armed_chinese_leagues
-		}
-		prerequisite = {
-			focus = NIP_authorized_base_camp
-		}
-		prerequisite = {
-			focus = NIP_call_america
-		}
-		prerequisite = {
-			focus = NIP_remoblization
+			focus = NIP_pan_asia_eco_connection
 		}
 		completion_reward = { 
-			add_popularity = {
-				ideology = nationalism 
-				popularity = 0.1
+			
 			}
-			add_popularity = {
-				ideology = reactionism 
-				popularity = 0.1
-			}
-			swap_ideas = {
-				add_idea = NIP_continental_war_4
-				remove_idea = NIP_continental_war_3
-				}
-			custom_effect_tooltip = NIP_08
-		}
-		x = 23
-		y = 3
-
 	}
 	focus = {
-		id = NIP_china_Dispatch_troops
-		icon = GFX_NIP_china_Dispatch_troops
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_Stuc_in_quagmire
-		}
-		completion_reward = { 
-			army_experience = 30
-			add_war_support = 0.2
-			add_ideas = NIP_dispatch_troops
-		}
-		x = 23
-		y = 4
-
-	}
-	focus = {
-		id = NIP_Three_Light_Policy
-		icon = GFX_NIP_Three_Light_Policy
-		cost = 7.00
-		prerequisite = {
-			focus = NIP_china_Dispatch_troops
-		}
-		completion_reward = { 
-			add_political_power = -50
-			add_popularity = {
-				ideology = nationalism 
-				popularity = 0.11
-			}
-			add_popularity = {
-				ideology = reactionism 
-				popularity = 0.07
-			}
-			add_ideas = NIP_Three_Light_Policy_idea
-		}
-		x = 21
+		id = NIP_canton_trade
+		icon = GFX_NIP_canton_trade
+		cost = 3
+		x = 13
 		y = 5
-
-	}
-	focus = {
-		id = NIP_bombers
-		icon = GFX_NIP_bombers
-		cost = 7.00
 		prerequisite = {
-			focus = NIP_china_Dispatch_troops
+			focus = NIP_construct_cam_ranh_bay
+		}
+		prerequisite = {
+			focus = NIP_through_malacca
 		}
 		completion_reward = { 
-			swap_ideas = {
-				add_idea = NIP_america_bombers_1
-				remove_idea = NIP_america_bombers
+			
 			}
-			set_party_name = { 
-				ideology = Liberalism 
-				name = NIP_Liberalism_party_USA 
-				}
-		}
-		x = 25
-		y = 5
-
 	}
-	focus = {
-		id = NIP_Close_eyes_and_listen
-		icon = GFX_NIP_Close_eyes_and_listen
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_bombers
-		}
-		prerequisite = {
-			focus = NIP_Three_Light_Policy
-		}
-		completion_reward = { 
-			add_stability = 0.1
-			add_war_support = 0.2
-		}
-		x = 23
-		y = 6
-
-	}
-	focus = {
-		id = NIP_Authorized_US_Air_Corps
-		icon = GFX_NIP_Authorized_US_Air_Corps
-		cost = 6.00
-		prerequisite = {
-			focus = NIP_Close_eyes_and_listen
-		}
-		completion_reward = { 
-			swap_ideas = {
-				add_idea = NIP_america_bombers_2
-				remove_idea = NIP_america_bombers_1
-			}
-			add_popularity = {
-				ideology = nationalism 
-				popularity = 0.1
-			}
-			CJF = {
-				country_event = {
-					id = NIP.6
-					days = 10
-				}
-			}
-		}
-		x = 22
-		y = 7
-
-	}
-	focus = {
-		id = NIP_No_mercy
-		icon = GFX_NIP_No_mercy
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_Close_eyes_and_listen
-		}
-		completion_reward = { 
-			swap_ideas = {
-				add_idea = NIP_Three_Light_Policy_idea_1
-				remove_idea = NIP_Three_Light_Policy_idea
-			}
-		}
-		x = 24
-		y = 7
-
-	}
-	focus = {
-		id = NIP_Terror_policy
-		icon = GFX_NIP_Terror_policy
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_Close_eyes_and_listen
-		}
-		completion_reward = { 
-			swap_ideas = {
-				add_idea = NIP_Three_Light_Policy_idea_2
-				remove_idea = NIP_Three_Light_Policy_idea_1
-			}
-		}
-		x = 26
-		y = 7
-
-	}
-	focus = {
-		id = NIP_Necessary_evil
-		icon = GFX_NIP_Necessary_evil
-		cost = 8.00
-		prerequisite = {
-			focus = NIP_Close_eyes_and_listen
-		}
-		completion_reward = {
-			add_popularity = {
-				ideology = nationalism 
-				popularity = 0.07
-			} 
-			add_popularity = {
-				ideology = reactionism 
-				popularity = 0.05
-			}
-			add_political_power = 50
-		}
-		x = 20
-		y = 7
-
-	}
-	focus = {
-		id = NIP_crazy_soldiers
-		icon = GFX_NIP_crazy_soldiers
-		cost = 10.00
-		prerequisite = {
-			focus = NIP_No_mercy
-		}
-		prerequisite = {
-			focus = NIP_Authorized_US_Air_Corps
-		}
-		prerequisite = {
-			focus = NIP_Terror_policy
-		}
-		prerequisite = {
-			focus = NIP_Necessary_evil
-		}
-		completion_reward = { 
-			custom_effect_tooltip = NIP_10
-
-		}
-		x = 23
-		y = 8
-
-	}
-}
+}	

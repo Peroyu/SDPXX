@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_hol_bernhard.dds"
 	}
 	spriteType = {
+		name = "decision_category_jap_pacific_guardian"
+		texturefile = "gfx/interface/decisions/categories/decision_category_jap_pacific_guardian.dds"
+	}
+	spriteType = {
 		name = "decision_category_jap_intervene_in_china"
 		texturefile = "gfx/interface/decisions/categories/decision_category_jap_intervene_in_china.dds"
 	}

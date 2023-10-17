@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_rikkenminsento_icon"
+		texturefile = "gfx/interface/scripted_gui/NIP/GFX_rikkenminsento_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_Seiyukai_icon"
+		texturefile = "gfx/interface/scripted_gui/NIP/GFX_Seiyukai_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_yizna_icon"
+		texturefile = "gfx/interface/scripted_gui/NIP/GFX_yizna_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_guizuyuan_icon"
+		texturefile = "gfx/interface/scripted_gui/NIP/GFX_guizuyuan_icon.png"
+	}
+}

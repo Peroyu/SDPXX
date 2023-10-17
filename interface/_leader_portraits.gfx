@@ -1118,6 +1118,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_CAN_Philip_Mitchell"
+		texturefile = "gfx/leaders/EN/portrait_CAN_Philip_Mitchell.png"		
+	}
+
+	spriteType = {
 		name = "portrait_CAM_Bernhard_Rogge"
 		texturefile = "gfx/leaders/EN/portrait_CAM_Bernhard_Rogge.png"		
 	}
