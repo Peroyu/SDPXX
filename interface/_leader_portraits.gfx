@@ -736,6 +736,11 @@
 		name = "GFX_portrait_NIP_Yamamoto_Isoroku"
 		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Yamamoto_Isoroku.png"		
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_NIP_Nashimotonomiya_Morimasao"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Nashimotonomiya_Morimasao.png"		
+	}
 	#####################SouthEastAsia#######################
 	
 	spriteType = {

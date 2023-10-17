@@ -20,8 +20,8 @@ state = {
 				naval_base = 1
 			}
 		}
+		add_core_of = TAT
 		add_core_of = FWI
-		add_core_of = TRI
 		victory_points = {
 			3284 5
 		}
