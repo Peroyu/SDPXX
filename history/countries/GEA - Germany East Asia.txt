@@ -1,0 +1,41 @@
+capital = 325 # 
+
+oob = "empty"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.4 # 
+set_stability = 0.5 # 
+
+CAM = {
+	puppet = GEA
+}
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+add_ideas = {
+broken_entents
+}
+set_popularities = {
+ Liberalism = 10
+ movement_communism = 5
+ conservatism = 50
+ reactionism = 20
+ nationalism = 5
+ restorativeism = 10
+}
+
+# 
+create_country_leader = {
+	name = "CAM_Bernhard_Rogge"  # 
+	desc = "/"  # 
+	picture = portrait_CAM_Bernhard_Rogge
+	expire = "1962.9.2"  # 
+	ideology = authoritarian_democracy # 
+	traits = {  # 
+		#
+	}
+}

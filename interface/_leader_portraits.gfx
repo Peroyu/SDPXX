@@ -1107,6 +1107,15 @@ spriteType = {
 		texturefile = "gfx/leaders/EN/portrait_CAM_Max_Bastian.png"		
 	}
 
+	spriteType = {
+		name = "GFX_portrait_ROF_Henri_Blehaut"
+		texturefile = "gfx/leaders/EN/GFX_portrait_ROF_Henri_Blehaut.png"		
+	}
+
+	spriteType = {
+		name = "portrait_CAM_Bernhard_Rogge"
+		texturefile = "gfx/leaders/EN/portrait_CAM_Bernhard_Rogge.png"		
+	}
 
 	spriteType = {
 		name = "GFX_portrait_Gibrator_Canal_Authority"
