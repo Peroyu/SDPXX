@@ -1,8 +1,13 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_CAN_germany_government_in_exil"
+		texturefile = "gfx/interface/ideas/CAN/GFX_idea_CAN_germany_government_in_exil.png"
+	}
     spriteType = {
 		name = "GFX_idea_VEN_oil_1"
 		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_oil_1.png"
 	}
+
     spriteType = {
 		name = "GFX_idea_VEN_af"
 		texturefile = "gfx/interface/ideas/VEN/GFX_idea_VEN_af.png"

@@ -9,7 +9,7 @@ set_stability = 0.1 #
 
 # 
 set_politics = {
-	ruling_party = nationalism # 
+	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -29,11 +29,11 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "Friedrich_William_III"  # 
+	name = "CAM_Leopold_burkner"  # 
 	desc = "/"  # 
-	picture = "CAM_portrait_Friedrich_William_III"  # 
+	picture = "portrait_CAM_Leopold_burkner"  # 
 	expire = "1976.3.10"  # 
-	ideology = Casselism # 
+	ideology = despotism # 
 	traits = {  # 
 		#
 	}

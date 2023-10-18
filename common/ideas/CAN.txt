@@ -1,0 +1,38 @@
+ ideas = {
+     country = {
+		CAN_germany_government_in_exil = {
+		 name = CAN_germany_government_in_exil
+		 picture = GFX_CAN_germany_government_in_exil
+         allowed = {
+			always = no
+		 }
+		 removal_cost = -1
+		 targeted_modifier = {
+			
+			tag = GEA
+		
+			trade_cost_for_target_factor = -0.5
+		 }
+		 targeted_modifier = {
+			
+			tag = TAZ
+			trade_cost_for_target_factor = -0.5
+		 }
+		 targeted_modifier = {
+			tag = CAM
+			trade_cost_for_target_factor = -0.5
+		 }
+		 targeted_modifier = {
+			
+			tag = SWA
+			trade_cost_for_target_factor = -0.5
+		 }
+		 targeted_modifier = {
+			
+			tag = COG
+			trade_cost_for_target_factor = -0.5
+		 }
+		}
+	 }
+   }
+

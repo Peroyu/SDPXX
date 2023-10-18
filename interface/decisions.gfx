@@ -68,6 +68,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_spr_the_inevitable_civil_war.png"
 	}
 	spriteType = {
+		name = "decision_cat_picture_plot_against_boris"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_plot_against_boris.png"
+	}
+	spriteType = {
 		name = "GFX_decisions_CJF_anti_japen_war"
 		texturefile = "gfx/interface/decisions/decisions_CJF_anti_japen_war.dds"
 	}
@@ -154,6 +158,10 @@ spriteTypes = {
 	spriteType = {
 		name = "decision_SWI_elect_confederation_president"
 		texturefile = "gfx/interface/decisions/politics/decision_SWI_elect_confederation_president.dds"
+	}
+	spriteType = {
+		name = "decision_generic_decision"
+		texturefile = "gfx/interface/decisions/politics/decision_generic_decision.dds"
 	}
 	spriteType = {
 		name = "decision_generic_fundraising"

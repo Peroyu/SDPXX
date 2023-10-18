@@ -1,0 +1,18 @@
+JAP_co_goovernment = {
+	    icon = decision_category_jap_pacific_guardian
+	    picture = decision_cat_picture_plot_against_boris
+		available = {
+			tag = NIP
+		}
+		visible = {
+           		tag = NIP
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { 
+			original_tag = NIP 
+		}
+		visible_when_empty = yes
+    }

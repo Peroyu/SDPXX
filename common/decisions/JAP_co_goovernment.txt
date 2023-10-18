@@ -1,0 +1,194 @@
+JAP_co_goovernment = {
+	JAP_indoor_meeting_seiyo = {
+		icon = decision_hol_exchange_intelligence_data
+		fire_only_once = no
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_meeting_teio_seiyo = {
+		icon = decision_hol_exchange_intelligence_data
+		fire_only_once = no
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_meeting_seiyo_seiyo = {
+		icon = decision_hol_exchange_intelligence_data
+		fire_only_once = no
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_meeting_rikken_seiyo = {
+		icon = decision_hol_exchange_intelligence_data
+		fire_only_once = no
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_seiyo_focus_1 = {
+		icon = decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_seiyo_focus_2 = {
+		icon = decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_seiyo_focus_3 = {
+		icon = decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+	JAP_seiyo_focus_4 = {
+		icon = decision_generic_decision
+		fire_only_once = yes
+		available = {
+			tag = NIP
+		}
+		allowed = {
+				original_tag = NIP
+			
+		}
+		visible = {
+			
+		}
+		cost = 20
+		days_remove = 10
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		remove_effect = {
+		}
+	}
+    }

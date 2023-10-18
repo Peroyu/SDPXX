@@ -35,6 +35,7 @@ set_politics = {
 
 add_ideas = {
 broken_entents
+CAN_germany_government_in_exil
 }
 set_popularities = {
  communism = 2
