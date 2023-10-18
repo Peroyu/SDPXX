@@ -109,14 +109,11 @@ JAP_co_goovernment = {
 			
 		}
 		cost = 20
-		days_remove = 10
 		complete_effect = {
-			
+			set_country_flag = NIP_party_government_is_dealing_south_ocean
 		}
 		cancel_trigger = {
 			
-		}
-		remove_effect = {
 		}
 	}
 	JAP_seiyo_focus_2 = {
@@ -133,14 +130,11 @@ JAP_co_goovernment = {
 			
 		}
 		cost = 20
-		days_remove = 10
 		complete_effect = {
-			
+			set_country_flag = NIP_party_government_is_dealing_tax
 		}
 		cancel_trigger = {
 			
-		}
-		remove_effect = {
 		}
 	}
 	JAP_seiyo_focus_3 = {
@@ -157,14 +151,11 @@ JAP_co_goovernment = {
 			
 		}
 		cost = 20
-		days_remove = 10
 		complete_effect = {
-			
+			set_country_flag = NIP_party_government_is_dealing_remoblisation
 		}
 		cancel_trigger = {
 			
-		}
-		remove_effect = {
 		}
 	}
 	JAP_seiyo_focus_4 = {
@@ -181,14 +172,11 @@ JAP_co_goovernment = {
 			
 		}
 		cost = 20
-		days_remove = 10
 		complete_effect = {
-			
+			set_country_flag = NIP_party_government_is_dealing_caifa
 		}
 		cancel_trigger = {
 			
-		}
-		remove_effect = {
 		}
 	}
     }

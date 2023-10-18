@@ -24,6 +24,12 @@ spriteTypes = {
 		name = "GFX_idea_NIP_Ugaki_Kazushige"
 		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ugaki_Kazushige.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Ichiro_Hatoyama"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ichiro_Hatoyama.png"
+	}
+
 	##############MMA#########################
 	spriteType = {
 		name = "GFX_idea_MMA_Linjing"

@@ -1,0 +1,636 @@
+focus_tree = {
+	id = NIP_focus_1
+	country = {
+		factor = 0
+	}
+	default = no
+	focus = {
+		id = NIP_return_to_seiyo_kai
+		icon = GFX_NIP_return_to_seiyo_kai
+		cost = 1.00
+		x = 21
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_organise_party_government
+		icon = GFX_NIP_organise_party_government
+		prerequisite = { 
+			focus = NIP_return_to_seiyo_kai
+		}
+		cost = 2
+		x = 21
+		y = 1
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_communication_Rikken_Seiyukai
+		icon = GFX_NIP_communication_Rikken_Seiyukai
+		prerequisite = { 
+			focus = NIP_organise_party_government
+		}
+		cost = 2
+		x = 19
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_give_way_to_Rikkenminseito
+		icon = GFX_NIP_give_way_to_Rikkenminseito
+		prerequisite = { 
+			focus = NIP_organise_party_government
+		}
+		cost = 2
+		x = 23
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_turn_the_tide
+		icon = GFX_NIP_turn_the_tide
+		prerequisite = { 
+			focus = NIP_give_way_to_Rikkenminseito
+		}
+		prerequisite = { 
+			focus = NIP_communication_Rikken_Seiyukai
+		}
+		cost = 2
+		x = 21
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_vote_for_Seiyukai
+		icon = GFX_NIP_vote_for_Seiyukai
+		prerequisite = { 
+			focus = NIP_turn_the_tide
+		}
+		cost = 2
+		x = 18
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_money_for_minseito
+		icon = GFX_NIP_vote_for_Seiyukai
+		prerequisite = { 
+			focus = NIP_turn_the_tide
+		}
+		cost = 2
+		x = 24
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_legacy_of_revlot
+		icon = GFX_NIP_legacy_of_revlot
+		prerequisite = { 
+			focus = NIP_turn_the_tide
+		}
+		cost = 2
+		x = 21
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Kyodo_naikaku_undo
+		icon = GFX_NIP_Kyodo_naikaku_undo
+		prerequisite = { 
+			focus = NIP_legacy_of_revlot
+		}
+		cost = 5
+		x = 21
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+
+	#######################southocean#######################
+	focus = {
+		id = NIP_deal_south_ocean_policy
+		icon = GFX_NIP_deal_south_ocean_policy
+		prerequisite = { 
+			focus = NIP_Kyodo_naikaku_undo
+		}
+		allow_branch = {
+			 has_country_flag = NIP_party_government_is_dealing_south_ocean
+		}
+		cost = 3
+		x = 3
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Penetrating_Borneo_Resources
+		icon = GFX_NIP_Penetrating_Borneo_Resources
+		prerequisite = { 
+			focus = NIP_deal_south_ocean_policy
+		}
+		cost = 3
+		x = 6
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Stabilize_the_Batavia_regime
+		icon = GFX_NIP_Stabilize_the_Batavia_regime
+		prerequisite = { 
+			focus = NIP_Penetrating_Borneo_Resources
+		}
+		cost = 4
+		x = 6
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_deal_with_south_ocean_gnq
+		icon = GFX_NIP_deal_with_south_ocean_gnq
+		prerequisite = { 
+			focus = NIP_deal_south_ocean_policy
+		}
+		cost = 3
+		x = 0
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_navy_in_south_ocean
+		icon = GFX_NIP_navy_in_south_ocean
+		prerequisite = { 
+			focus = NIP_deal_with_south_ocean_gnq
+		}
+		cost = 4
+		x = 0
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_imperial_eco_sphere
+		icon = GFX_NIP_imperial_eco_sphere
+		prerequisite = { 
+			focus = NIP_navy_in_south_ocean
+		}
+		prerequisite = { 
+			focus = NIP_Stabilize_the_Batavia_regime
+		}
+		cost = 4
+		x = 3
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Meeting_with_Aung_San
+		icon = GFX_NIP_Meeting_with_Aung_San
+		prerequisite = { 
+			focus = NIP_imperial_eco_sphere
+		}
+		cost = 4
+		x = 3
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Support_FINA
+		icon = GFX_NIP_Support_FINA
+		prerequisite = { 
+			focus = NIP_imperial_eco_sphere
+		}
+		cost = 5
+		x = 3
+		y = 11
+		completion_reward = { 
+			
+			}
+	}
+	######################################tax######################
+	focus = {
+		id = NIP_Review_budget_proposals
+		icon = GFX_NIP_Review_budget_proposals
+		prerequisite = { 
+			focus = NIP_Kyodo_naikaku_undo
+		}
+		allow_branch = {
+			 has_country_flag = NIP_party_government_is_dealing_tax
+		}
+		cost = 3
+		x = 18
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Abolish_the_war_budget
+		icon = GFX_NIP_Abolish_the_war_budget
+		prerequisite = { 
+			focus = NIP_Review_budget_proposals
+		}
+		cost = 4
+		x = 18
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Cooperate_with_Ugaki_faction
+		icon = GFX_NIP_Cooperate_with_Ugaki_faction
+		prerequisite = { 
+			focus = NIP_Review_budget_proposals
+		}
+		cost = 5
+		x = 15
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Control_local_officers
+		icon = GFX_NIP_Control_local_officers
+		prerequisite = { 
+			focus = NIP_Review_budget_proposals
+		}
+		cost = 5
+		x = 21
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Reconciling_land_sea_disputes
+		icon = GFX_NIP_Reconciling_land_sea_disputes
+		prerequisite = { 
+			focus = NIP_Review_budget_proposals
+		}
+		cost = 5
+		x = 18
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Cut_miscellaneous_expenses
+		icon = GFX_NIP_Cut_miscellaneous_expenses
+		prerequisite = { 
+			focus = NIP_Review_budget_proposals
+		}
+		prerequisite = { 
+			focus = NIP_Reconciling_land_sea_disputes
+		}
+		cost = 5
+		x = 15
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Navy_construction_on_demand
+		icon = GFX_NIP_Navy_construction_on_demand
+		prerequisite = { 
+			focus = NIP_Control_local_officers
+		}
+		prerequisite = { 
+			focus = NIP_Reconciling_land_sea_disputes
+		}
+		cost = 5
+		x = 21
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_cut_armed_fee
+		icon = GFX_NIP_cut_armed_fee
+		prerequisite = { 
+			focus = NIP_Navy_construction_on_demand
+		}
+		prerequisite = { 
+			focus = NIP_Cut_miscellaneous_expenses
+		}
+		cost = 3
+		x = 18
+		y = 11
+		completion_reward = { 
+			
+			}
+	}
+	#####################################remobalisation##########################
+	focus = {
+		id = NIP_Demobilization_proposal
+		icon = GFX_NIP_Demobilization_proposal
+		prerequisite = { 
+			focus = NIP_Kyodo_naikaku_undo
+		}
+		allow_branch = {
+			 has_country_flag = NIP_party_government_is_dealing_remoblisation
+		}
+		cost = 3
+		x = 30
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Base_camp_meeting
+		icon = GFX_NIP_Base_camp_meeting
+		prerequisite = { 
+			focus = NIP_Demobilization_proposal
+		}
+		cost = 3
+		x = 30
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Emphasis_on_the_End_War_Edict
+		icon = GFX_NIP_Emphasis_on_the_End_War_Edict
+		prerequisite = { 
+			focus = NIP_Base_camp_meeting
+		}
+		cost = 4
+		x = 27
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Abolition_civil_requisition_orders
+		icon = GFX_NIP_Abolition_civil_requisition_orders
+		prerequisite = { 
+			focus = NIP_Emphasis_on_the_End_War_Edict
+		}
+		cost = 4
+		x = 27
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Come_up_with_Nanyang_Resolution
+		icon = GFX_NIP_Come_up_with_Nanyang_Resolution
+		prerequisite = { 
+			focus = NIP_Base_camp_meeting
+		}
+		cost = 4
+		x = 33
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Marginalized_Industries
+		icon = GFX_NIP_Marginalized_Industries
+		prerequisite = { 
+			focus = NIP_Come_up_with_Nanyang_Resolution
+		}
+		cost = 3
+		x = 33
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_end_of_rationing
+		icon = GFX_NIP_end_of_rationing
+		prerequisite = { 
+			focus = NIP_Marginalized_Industries
+		}
+		prerequisite = { 
+			focus = NIP_Come_up_with_Nanyang_Resolution
+		}
+		cost = 5
+		x = 30
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Empowering_the_press
+		icon = GFX_NIP_Empowering_the_press
+		prerequisite = { 
+			focus = NIP_end_of_rationing
+		}
+		cost = 5
+		x = 30
+		y = 11
+		completion_reward = { 
+			
+			}
+	}
+	#################################cheee##########################
+	focus = {
+		id = NIP_Review_chaebol_proposals
+		icon = GFX_NIP_Review_chaebol_proposals
+		prerequisite = { 
+			focus = NIP_Kyodo_naikaku_undo
+		}
+		allow_branch = {
+			 has_country_flag = NIP_party_government_is_dealing_caifa
+		}
+		cost = 3
+		x = 42
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Chaebol_wartime_status_quo
+		icon = GFX_NIP_Chaebol_wartime_status_quo
+		prerequisite = { 
+			focus = NIP_Review_chaebol_proposals
+		}
+		cost = 4
+		x = 39
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Divestment_national_policy_companies
+		icon = GFX_NIP_Divestment_national_policy_companies
+		prerequisite = { 
+			focus = NIP_Chaebol_wartime_status_quo
+		}
+		cost = 4
+		x = 39
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_advice_Mitsui_Group
+		icon = GFX_NIP_advice_Mitsui_Group
+		prerequisite = { 
+			focus = NIP_Review_chaebol_proposals
+		}
+		cost = 4
+		x = 45
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Negotiate_with_Mitsubishi
+		icon = GFX_NIP_Negotiate_with_Mitsubishi
+		prerequisite = { 
+			focus = NIP_advice_Mitsui_Group
+		}
+		cost = 4
+		x = 45
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Memories_he_Nakajima_Cabinet
+		icon = GFX_NIP_Memories_he_Nakajima_Cabinet
+		prerequisite = { 
+			focus = NIP_Divestment_national_policy_companies
+		}
+		prerequisite = { 
+			focus = NIP_Negotiate_with_Mitsubishi
+		}
+		cost = 3
+		x = 42
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Restore_financial_independence
+		icon = GFX_NIP_Restore_financial_independence
+		prerequisite = { 
+			focus = NIP_Memories_he_Nakajima_Cabinet
+		}
+		cost = 2
+		x = 39
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Gain_sympathy_from_international_capital
+		icon = GFX_NIP_Gain_sympathy_from_international_capital
+		prerequisite = { 
+			focus = NIP_Memories_he_Nakajima_Cabinet
+		}
+		cost = 2
+		x = 45
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Takahashi_Finance_restarts
+		icon = GFX_NIP_Takahashi_Finance_restarts
+		prerequisite = { 
+			focus = NIP_Restore_financial_independence
+		}
+		prerequisite = { 
+			focus = NIP_Gain_sympathy_from_international_capital
+		}
+		cost = 2
+		x = 42
+		y = 11
+		completion_reward = { 
+			
+			}
+	}
+	##############################################################
+	focus = {
+		id = NIP_The_paradise_of_constitutional_government
+		icon = GFX_NIP_The_paradise_of_constitutional_government
+		prerequisite = { 
+			focus = NIP_Takahashi_Finance_restarts
+		}
+		prerequisite = { 
+			focus = NIP_Empowering_the_press
+		}
+		prerequisite = { 
+			focus = NIP_cut_armed_fee
+		}
+		prerequisite = { 
+			focus = NIP_Support_FINA
+		}
+		allow_branch = {
+			AND = {
+				has_completed_focus = NIP_Takahashi_Finance_restarts
+				has_completed_focus = NIP_Empowering_the_press
+				has_completed_focus = NIP_cut_armed_fee
+				has_completed_focus = NIP_Support_FINA
+			}
+			
+		}
+		cost = 2
+		x = 21
+		y = 12
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_The_fate_supra_parliamentary_cabinets
+		icon = GFX_NIP_The_fate_supra_parliamentary_cabinets
+		prerequisite = { 
+			focus = NIP_The_paradise_of_constitutional_government
+		}
+		cost = 4
+		x = 21
+		y = 13
+		completion_reward = { 
+			
+			}
+	}
+}	

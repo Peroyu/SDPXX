@@ -251,9 +251,9 @@ country_event = {
 	
 }
 country_event = {
-    id = JAP.3
+    id = NIP.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	JAP.3 FROM = [From.GetName]" }
+	NIP.3 FROM = [From.GetName]" }
 	title = JAP.3.t
 	desc = JAP.3.d
 	picture = gFx_JAP.1
@@ -270,7 +270,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		load_focus_tree = NIP_focus_1
 		name = JAP.3.a
 	}
 	

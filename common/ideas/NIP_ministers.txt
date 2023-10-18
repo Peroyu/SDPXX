@@ -16,6 +16,21 @@ ideas = {
 				noble
 			}
 		}
+		NIP_Ichiro_Hatoyama = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Ichiro_Hatoyama"
+			}
+			traits = {
+				head_of_government
+				
+			}
+		}
 		
 
 	}
