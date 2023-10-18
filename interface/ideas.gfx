@@ -608,6 +608,11 @@ spriteTypes = {
 		name = "GFX_idea_TUR_Sultan_army"
 		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_Sultan_army.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_imperial_honor"
+		texturefile = "gfx/interface/ideas/TUR/GFX_idea_TUR_imperial_honor.png"
+	}
 	### ECONOMY LAWS
 	spriteType = {
 		name = "GFX_idea_undisturbed_isolation"

@@ -24,8 +24,7 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "TUR_Sefik_Aker
-"  # 
+	name = "TUR_Sefik_Aker"  # 
 	desc = "/"  # 
 	picture = "Portrait_TUR_Sefik_Aker"  # 
 	expire = "1952.3.16"  # 

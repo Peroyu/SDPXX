@@ -88,5 +88,20 @@ ideas = {
 		Liberalism_drift = 0.01
 			}
 		}
+		TUR_imperial_honor = {
+		    name = TUR_imperial_honor
+			picture = GFX_TUR_imperial_honor
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.05
+				political_power_factor = 0.15
+				fuel_gain_factor = 0.15
+			}
+		}
 	}
 }	

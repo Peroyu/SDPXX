@@ -8,20 +8,14 @@ state={
 		owner = SUE
 		add_claim_by = EGY
 		add_core_of = SUE
-		set_demilitarized_zone = yes
-                victory_points = {
-			12049 1 
-		}
+                
 		buildings = {
 			infrastructure = 2
-			12049 = {
-				naval_base = 2
-			}
 		}
 	}
 
 	provinces={
-		1112 1155 4161 10002 10099 11922 11979 12049 12073 
+		1112  4161 10002 10099 11922 11979  12073 
 	}
 	manpower=75359
 	buildings_max_level_factor=1.000
