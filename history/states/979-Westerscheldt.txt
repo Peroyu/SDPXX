@@ -9,7 +9,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = HOL
+		owner = RCL
+		add_core_of = RCL
 		add_core_of = HOL
 
 		buildings = {

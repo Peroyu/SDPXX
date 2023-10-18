@@ -368,6 +368,8 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	
+
 	spriteType = {
 		name = "GFX_idea_espionage_tab"
 		texturefile = "gfx/interface/idea_espionage_tab.dds"
