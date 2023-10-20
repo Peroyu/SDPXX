@@ -7,7 +7,7 @@ state = {
 
 	local_supplies = 3.0 
 	history = {
-		owner = FWI
+		owner = GUY
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state = {
 			4982 5
 		}
 		add_core_of = FWI
-		add_core_of = GYA
+		add_core_of = GUY
 	}
 
 	provinces = {

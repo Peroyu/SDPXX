@@ -9,6 +9,7 @@
  SDP_peace_GDC_GNP_D:0"在刚刚结束的两广战争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n广州回到了他原本的主人手中"
  SDP_peace_india_D:0"在争夺印度次大陆命运的斗争中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!"
  SDP_peace_MMA_SHA_D:0"在刚刚结束的西北危机中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n中国军队再一次踏入了渭河谷地。"
+ SDP_peace_VEN_GUY_D:0"在委内瑞拉对埃塞奎博河以西的争斗中\n§Y[winning_country.GetNameWithFlag]§!击败了§Y[losing_country.GetNameWithFlag]§!\n自1897年，委内瑞拉首次战胜了大不列颠"
  ###战争结语###
  SDP_WARPEACE_DEFAULT_T:0"战争即地狱"
  SDP_peace_CJF_CMA_T:0"来者死无葬身之地"
@@ -19,3 +20,4 @@
  SDP_peace_AFG_RAJ_T:0"如果他们悔过自新，谨守拜功，完纳天课，他们就是你们的教胞。我为有知识的民众解释许多迹象。——《古兰经》"
  SDP_peace_MMA_SHA_T:0"北极汉家终不改，东山盗寇莫相侵。"
  SDP_peace_SHA_MMA_T:0"车占花心，无可奈何，困毙九宫格。"
+ SDP_peace_VEN_GUY_T:0"§Y感谢上帝，我们生活在一块应有尽有的土地上。可这里的一切都是酸的，我们注定如此。\n——《佩德罗·巴拉莫》§!"

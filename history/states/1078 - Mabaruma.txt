@@ -4,9 +4,9 @@ state = {
 
 	local_supplies = 2.0 
 	history = {
-		owner = FWI
+		owner = GUY
 		add_core_of = FWI
-		add_core_of = GYA
+		add_core_of = GUY
 		add_claim_by = VEN
 		buildings = {
 			infrastructure = 2

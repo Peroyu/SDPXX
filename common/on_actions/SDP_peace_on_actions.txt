@@ -935,6 +935,32 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				if = { #委圭战争#
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = VEN
+							}
+						}
+						ROOT = {
+							original_tag = GUY
+						}
+					}
+
+					every_country = {
+						limit = {
+							has_war_with = GUY
+						}
+						white_peace = GUY
+					}
+
+					VEN = {
+						transfer_state = 1079
+						transfer_state = 1078
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}

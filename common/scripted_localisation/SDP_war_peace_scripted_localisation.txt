@@ -14,6 +14,7 @@ defined_text = { #战争总结
 					NOT = { original_tag = KTR }
 					NOT = { original_tag = MMA }
 					NOT = { original_tag = SBA }
+					NOT = { original_tag = VEN }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -23,7 +24,7 @@ defined_text = { #战争总结
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
 					NOT = { original_tag = SHA }
-
+                    NOT = { original_tag = GUY }
 				}
 			}
 		}
@@ -109,6 +110,17 @@ defined_text = { #战争总结
 		}
 		localization_key = SDP_peace_india_D
 	}
+	text = { # SA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = VEN
+			}
+			event_target:losing_country = {
+				original_tag = GUY
+			}
+		}
+		localization_key = SDP_peace_VEN_GUY_D
+	}
 }
 defined_text = { #战争结语
 	name = Getwarpeacet
@@ -126,6 +138,7 @@ defined_text = { #战争结语
 					NOT = { original_tag = MMA }
 					NOT = { original_tag = KTR }
 					NOT = { original_tag = SBA }
+					NOT = { original_tag = VEN }
 				}
 				event_target:losing_country = {
 					NOT = { original_tag = CMA }
@@ -135,6 +148,7 @@ defined_text = { #战争结语
 					NOT = { original_tag = FID }
 					NOT = { original_tag = CYN }
 					NOT = { original_tag = SHA }
+					NOT = { original_tag = GUY }
 				}
 			}
 		}
@@ -219,5 +233,16 @@ defined_text = { #战争结语
 			}
 		}
 		localization_key = SDP_peace_RAJ_FID_T
+	}
+	text = { # SA
+		trigger = {
+			event_target:winning_country = {
+				original_tag = VEN
+			}
+			event_target:losing_country = {
+				original_tag = GUY
+			}
+		}
+		localization_key = SDP_peace_VEN_GUY_T
 	}
 }
