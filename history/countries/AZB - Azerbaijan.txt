@@ -1,4 +1,4 @@
-capital = 229 # 
+capital = 990 # 
 
 obb = "AZB_1947"  # 
 

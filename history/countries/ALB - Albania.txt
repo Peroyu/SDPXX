@@ -26,9 +26,9 @@ set_popularities = {
 	nationalism = 12
 }
 create_country_leader = {
-	name = "ALB_hoxha"  
-	desc = "ALB_hoxha_desc"  
-	picture = "gfx/leaders/EU/ALB_hoxha.png"
+	name = "ALB_Ali_Kelmendi"  
+	desc = "ALB_Ali_Kelmendi_desc"  
+	picture = "gfx/leaders/EU/ALB_Ali_Kelmendi.png"
 	expire = "1985.6.6"  
 	ideology = leninism
 	traits = {  

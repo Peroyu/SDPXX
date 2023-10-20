@@ -11,7 +11,9 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
-
+CAN = {
+	puppet = MAL
+}
 set_popularities = {
 	communism = 6
 	Liberalism = 10

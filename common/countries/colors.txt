@@ -36,8 +36,8 @@ AFG = {
 	color_ui = rgb { 71 100 59 }
 }
 ALB = {
-	color = rgb { 92 33 33 }
-	color_ui = rgb { 92 33 33 }
+	color = rgb { 168 28 35 }
+	color_ui = rgb {168 28 35 }
 }
 USA = {
 	color = rgb { 0 120 206 }
@@ -72,8 +72,8 @@ BRA = {
 	color_ui = rgb { 76  145  63 }
 }
 BUL = {
-	color = rgb { 83 182 90 }
-	color_ui = rgb { 83 182 90 }
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 51 155 0 }
 }
 BUR = {
 	color = rgb { 191  196  107 }
@@ -160,12 +160,12 @@ CUB = {
 	color_ui = rgb { 198 197 91 }
 }
 CZE = {
-	color = rgb { 224 201 224 }
-	color_ui = rgb { 224 201 224 }
+	color = rgb { 195 34 45}
+	color_ui = rgb {  195 34 45 }
 }
 DZG = {
-	color = rgb { 145 56 36 } 
-	color_ui = rgb { 145 56 36 } 
+	color = rgb {  195 34 45} 
+	color_ui = rgb {  195 34 45 } 
 }
 DJF = {
 	color = rgb { 100 149 155 } 
@@ -196,8 +196,8 @@ ENG = {
 	color_ui = rgb { 195 73 104 } 
 }
 EST = {
-	color = rgb{208 216 221}
-	color_ui = rgb {208 216 221}
+	color = rgb{50 135 175}
+	color_ui = rgb {50 135 175}
 }
 ETA = {
 	color = rgb{ 176 113 156 }
@@ -220,8 +220,8 @@ GEO = {
 	color_ui = rgb  { 149 87 87 }
 }
 GER = {
-	color = rgb  { 145 56 36 } 
-	color_ui = rgb  { 145 56 36 } 
+	color = rgb  {  195 34 45 } 
+	color_ui = rgb  {  195 34 45 } 
 }
 GIB = {
 	color = rgb{ 154 111 105 }
@@ -284,8 +284,8 @@ LAO = {
 	color_ui = rgb  { 196 163 255 }
 }
 LAT = {
-	color = rgb{ 206 196 195 }
-	color_ui = rgb  { 206 196 195 }
+	color = rgb{  75 77 186  }
+	color_ui = rgb  {  75 77 186  }
 }
 LIB = {
 	color = rgb{ 2  71  122 }
@@ -356,8 +356,8 @@ PUN = {
 	color_ui = rgb  { 71 100 59 }
 }
 RCL = {
-	color = rgb{ 226 113 85 }
-	color_ui = rgb { 226 113 85 }
+	color = rgb{  195 34 45 }
+	color_ui = rgb { 195 34 45 }
 }
 SUE = {
 	color = rgb { 236 185 75 }
@@ -416,8 +416,8 @@ SLO = {
 	color_ui = rgb { 128 53 43 } #  
 }
 YUG = {
-	color = rgb { 89 127 208 } 
-	color_ui = rgb { 89 127 208 }
+	color = rgb {  195 34 45} 
+	color_ui = rgb {  195 34 45}
 }
 GRE = {
 	color = rgb { 100 208 220 }
@@ -428,8 +428,8 @@ ITA = {
 	color_ui = rgb { 66 102 36 } #  
 }
 LIT = {
-	color = rgb { 161 116 80 }
-	color_ui = rgb { 161 116 80 } 
+	color = rgb { 154 69 116  }
+	color_ui = rgb { 154 69 116  } 
 }
 POL = {
 	color = rgb { 211 99 99 }
@@ -452,8 +452,8 @@ SUO = {
 	color_ui = rgb { 126 112 83 }
 }
 BLR = {
-	color = rgb{ 250 229 226 }
-	color_ui = rgb { 250 229 226 }
+	color = rgb{ 239 238 215 }
+	color_ui = rgb {239 238 215}
 }
 UKR = {
 	color = rgb{ 218 139 125 }
