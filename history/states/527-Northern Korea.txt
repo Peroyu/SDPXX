@@ -10,9 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = NIP
+		owner = JKR
 		add_core_of = KOR
-		add_core_of = NIP
+		add_core_of = JKR
 		add_dynamic_modifier = { modifier = JAP_korean_military_administration }
 		buildings = {
 			infrastructure = 2

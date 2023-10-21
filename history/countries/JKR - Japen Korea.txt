@@ -1,0 +1,109 @@
+﻿capital = 525
+
+set_oob = "JKR_1947"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+recruit_character = MAN_Bao_Wenyue
+
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons2 = 1
+	infantry_weapons1 = 1
+	infantry_strike_force_1 = 1
+	infantry_at = 1
+	infantry_heavy_weapens_1 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	motorised_infantry_0 = 1
+
+	#support#
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+
+	#artillery#
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_antitank = 1
+	Anti_Material_Weapon = 1
+	antitank1 = 1
+
+	#armor#
+	basic_light_tank_chassis = 1
+	super_light_armor = 1
+
+	#air#
+	early_fighter = 1
+	fighter1 = 1
+	fighter1_improve = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+
+	#navy#
+	early_destroyer = 1
+	basic_destroyer = 1
+	improved_destroyer = 1
+	early_light_cruiser = 1
+
+	#techss#
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	
+	#industry#
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	fuel_silos = 1
+}	
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	no_health_system
+	land_based_taxation
+	child_labor_allowed
+	oligarchy
+	regulatory_bodies
+	women_own_property
+	mercantilism
+	outlawed_dissent
+	poor_laws
+	no_schools
+	total_separation
+	professional_army
+	tenant_farmers
+	secret_police
+	charitable_health_system
+	national_supremacy
+##########
+}
+set_popularities = {
+	communism = 10
+	movement_communism = 10
+	Liberalism = 5
+	conservatism = 25
+	reactionism = 26
+	nationalism = 24
+}
+create_country_leader = {
+		name = "JKR_Endo_Ryusaku"   
+		desc = "JKR_Endo_Ryusaku_desc"  
+		picture = "gfx/leaders/JAP/portrait_JKR_Endo_Ryusaku.png"   
+		expire = "1989.1.7"   
+		ideology = authoritarian_democracy 
+		traits = {  }
+	}

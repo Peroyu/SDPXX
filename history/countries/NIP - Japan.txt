@@ -22,7 +22,9 @@ add_to_faction = MAN
 add_to_faction = MEN
 add_to_faction = SHA
 add_to_faction = GNP
-
+NIP = {
+	puppet = JKR
+}
 if = {
 	limit = { has_tech_sharing_feature = yes }
 	every_country = {

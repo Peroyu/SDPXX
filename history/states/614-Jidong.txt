@@ -8,9 +8,9 @@ state = { # Jidong
 	}
 
 	history = {
-		owner = NIP
-		add_core_of = HBA
-		add_claim_by = FNC
+		owner = FNC
+		add_core_of = FNC
+		add_claim_by = HBA
 		buildings = {
 			infrastructure = 2
 			6969 = {

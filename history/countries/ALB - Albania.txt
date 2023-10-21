@@ -18,10 +18,12 @@ add_ideas = {
     HUN_inflluence
 }
 set_popularities = {
-	communism = 37
-	committee_communism = 20
-	moderate_socialism = 9
-	social_democracy = 9
+	communism = 10
+	committee_communism = 10
+	moderate_socialism = 5
+	social_democracy = 15
+	Liberalism = 25
+	movement_communism = 10
 	reactionism = 13
 	nationalism = 12
 }
