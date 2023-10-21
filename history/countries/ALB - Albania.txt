@@ -8,7 +8,7 @@ set_war_support = 0.2
 set_stability = 0.3 
 
 set_politics = {
-	ruling_party = communism  
+	ruling_party = Liberalism  
 	last_election = "1947.1.1"
 	election_frequency = 48  
 	elections_allowed = no   
@@ -26,11 +26,11 @@ set_popularities = {
 	nationalism = 12
 }
 create_country_leader = {
-	name = "ALB_Ali_Kelmendi"  
-	desc = "ALB_Ali_Kelmendi_desc"  
-	picture = "gfx/leaders/EU/ALB_Ali_Kelmendi.png"
+	name = "ALB_fan_noli"  
+	desc = "ALB_fan_noli_desc"  
+	picture = "gfx/leaders/EU/ALB_fan_noli.png"
 	expire = "1985.6.6"  
-	ideology = leninism
+	ideology = social_liberalism
 	traits = {  
 	}
 }
