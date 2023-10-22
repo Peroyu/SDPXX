@@ -13,6 +13,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+set_variable = { SDP_welcome_splash_variable = 1 }
 set_popularities = {
  	communism = 2
 	committee_communism = 1

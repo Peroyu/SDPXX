@@ -24,5 +24,15 @@ spriteTypes = {
 		name = "GFX_MMA_intro"
 		texturefile = "gfx/interface/welcome_GUI/GFX_MMA_intro.png"
 	}
+
+	spriteType = {
+		name = "GFX_IRE_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_IRE_intro.png"
+	}
+
+	spriteType = {
+		name = "GFX_NIP_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_NIP_intro.png"
+	}
 	
 }
