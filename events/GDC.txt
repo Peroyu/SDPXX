@@ -217,15 +217,11 @@ country_event = {
 			set_nationality = KHN 
 		promote_leader = yes 
             
-			840 = {
-                set_demilitarized_zone = no
-            }
-            838 = {
+			602 = {
                 set_demilitarized_zone = no
             }
 			KHN = {
-				transfer_state = 840
-				transfer_state = 838
+				transfer_state = 602
 				give_military_access = GDC
 				load_oob = KHN_1947
 			}
@@ -244,12 +240,12 @@ country_event = {
 					has_country_flag = CHI_Hu_Nan_rural_base
 				}
 			}
-			750 = {
+			1013 = {
 				set_demilitarized_zone = no
 			}
 			KHN = {
 
-				transfer_state = 750
+				transfer_state = 1013
 			}
 		}
 		name = GDCintro.8.a

@@ -1,0 +1,199 @@
+shared_focus = {
+		id = IRE_Reborn_Ireland
+		icon = GFX_IRE_Reborn_Ireland
+		cost = 3
+		available_if_capitulated = no
+		x = 10
+		y = 0
+	}
+#################
+shared_focus = {
+        id = IRE_The_evil_of_the_colonizers
+		icon = GFX_IRE_The_evil_of_the_colonizers
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 1
+		prerequisite = {
+		       focus = IRE_Reborn_Ireland
+	    }
+
+    }
+shared_focus = {
+        id = IRE_The_legacy_of_the_Great_Famine
+		icon = GFX_IRE_The_legacy_of_the_Great_Famine
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 2
+		prerequisite = {
+		    focus = IRE_The_evil_of_the_colonizers
+	    }
+
+    }
+shared_focus = {
+        id = IRE_The_price_of_freedom
+		icon = GFX_IRE_The_price_of_freedom
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		prerequisite = {
+		       focus = IRE_The_legacy_of_the_Great_Famine
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Helplessness_under_confrontation
+		icon = GFX_IRE_Helplessness_under_confrontation
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 4
+		
+		prerequisite = {
+		       focus = IRE_The_price_of_freedom
+	    }
+
+    }
+###########################################
+shared_focus = {
+        id = IRE_Soul_of_a_pioneer
+		icon = GFX_IRE_Soul_of_a_pioneer
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 1
+		prerequisite = {
+		       focus = IRE_Reborn_Ireland
+	    }
+
+    }
+shared_focus = {
+        id = IRE_the_establishment_under_independence
+		icon = GFX_IRE_the_establishment_under_independence
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 2
+		prerequisite = {
+		       focus = IRE_Soul_of_a_pioneer
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Reformists_under_liberal_progress
+		icon = GFX_IRE_Reformists_under_liberal_progress
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 3
+		prerequisite = {
+		       focus = IRE_the_establishment_under_independence
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Radicals_under_extremism
+		icon = GFX_IRE_Radicals_under_extremism
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 4
+		prerequisite = {
+		       focus = IRE_Reformists_under_liberal_progress
+	    }
+
+    }
+############################################
+shared_focus = {
+        id = IRE_Blood_of_the_Resisters
+		icon = GFX_IRE_Blood_of_the_Resisters
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 1
+		prerequisite = {
+		    focus = IRE_Reborn_Ireland
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Both_sides_of_the_ocean
+		icon = GFX_IRE_Both_sides_of_the_ocean
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		prerequisite = {
+		    focus = IRE_Blood_of_the_Resisters
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Continental_Europe
+		icon = GFX_IRE_Continental_Europe
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 3
+		prerequisite = {
+		    focus = IRE_Both_sides_of_the_ocean
+	    }
+
+    }
+shared_focus = {
+        id = IRE_North_America
+		icon = GFX_IRE_North_America
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 4
+		prerequisite = {
+		    focus = IRE_Continental_Europe
+	    }
+
+    }
+########################################
+shared_focus = {
+        id = IRE_Ireland_on_the_stage
+		icon = GFX_IRE_Ireland_on_the_stage
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 5
+		prerequisite = {
+		    focus = IRE_North_America
+	    }
+		prerequisite = {
+		    focus = IRE_Radicals_under_extremism
+		}
+		prerequisite = {
+		    focus = IRE_Helplessness_under_confrontation
+		}
+
+    }
+shared_focus = {
+        id = IRE_Dublin_Olympics
+		icon = GFX_IRE_Dublin_Olympics
+		cost = 6
+		available_if_capitulated = no
+		x = 10
+		y = 6
+		prerequisite = {
+		    focus = IRE_Ireland_on_the_stage
+	    }
+
+    }
+shared_focus = {
+        id = IRE_Olympic_celebrations
+		icon = GFX_IRE_Olympic_celebrations
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 6
+		prerequisite = {
+		    focus = IRE_Dublin_Olympics
+	    }
+
+    }

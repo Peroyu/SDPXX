@@ -2034,8 +2034,8 @@ spriteTypes = {
 	}
 ####################################################
 	SpriteType = {
-	name = "GFX_focus_generic_air_defense"
-	texturefile = "gfx/interface/goals/focus_generic_air_defense.dds"			
+	name = "GFX_IRE_Reborn_Ireland"
+	texturefile = "gfx/interface/goals/GFX_IRE_Reborn_Ireland.dds"			
 	}	
 	
 	SpriteType = {

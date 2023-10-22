@@ -1,0 +1,13 @@
+focus_tree = {
+	id = IRE_open
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = IRE  
+		}	
+	}
+	default = no
+    shared_focus = IRE_Reborn_Ireland
+}
+
