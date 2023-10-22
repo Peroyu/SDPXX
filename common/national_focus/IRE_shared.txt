@@ -191,7 +191,7 @@ shared_focus = {
 		cost = 1
 		available_if_capitulated = no
 		x = 10
-		y = 6
+		y = 7
 		prerequisite = {
 		    focus = IRE_Dublin_Olympics
 	    }
