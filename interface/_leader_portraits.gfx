@@ -664,6 +664,12 @@
 		name = "GFX_portrait_ITA_Antonio_Gramsci"
 		texturefile = "gfx/leaders/EU/GFX_portrait_ITA_Antonio_Gramsci.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_GRE_Georgios_Papandreou"
+		texturefile = "gfx/leaders/EU/Portrait_GRE_Georgios_Papandreou.png"		
+	}
+	########################################################################
 	
 	spriteType = {
 		name = "BUR_Aung_San"
