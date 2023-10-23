@@ -44,7 +44,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 912
+				state = 600
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -80,7 +80,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 912
+				state = 600
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -116,7 +116,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 912
+				state = 600
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -152,13 +152,10 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Jiang_Xi_rural_base
-            912 = {
+            1045 = {
                 set_demilitarized_zone = yes
             }
-            913 = {
-                set_demilitarized_zone = yes
-            }
-            915 = {
+            1044 = {
                 set_demilitarized_zone = yes
             }
 		}
@@ -171,7 +168,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 912
+				state = 600
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -482,9 +479,6 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Hu_Nan_rural_base
-            750 = {
-                set_demilitarized_zone = yes
-            }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
@@ -536,7 +530,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 918
+				state = 596
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -572,7 +566,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 918
+				state = 596
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -608,7 +602,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 918
+				state = 596
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -644,13 +638,13 @@ GDC_guerrilla_area = {
             }
             custom_effect_tooltip = CHI_v_control_guerrilla_area_increase
             set_country_flag = CHI_Zhe_Jiang_rural_base
-            918 = {
+            1068 = {
                 set_demilitarized_zone = yes
             }
-            919 = {
+            1067 = {
                 set_demilitarized_zone = yes
             }
-            920 = {
+            1069 = {
                 set_demilitarized_zone = yes
             }
 		}
@@ -663,7 +657,7 @@ GDC_guerrilla_area = {
         on_map_mode = map_only
         highlight_states = {
 			highlight_state_targets = {
-				state = 918
+				state = 596
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）
@@ -755,7 +749,7 @@ GDC_guerrilla_area = {
         fire_only_once = yes
         highlight_states = {
 			highlight_state_targets = {
-				state = 912
+				state = 600
 			}
 			highlight_color_while_active = 3 #点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2 #悬停时高亮边框的颜色（不设置则为白色）

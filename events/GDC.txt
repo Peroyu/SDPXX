@@ -217,11 +217,15 @@ country_event = {
 			set_nationality = KHN 
 		promote_leader = yes 
             
-			602 = {
+			1323 = {
+                set_demilitarized_zone = no
+            }
+			1324 = {
                 set_demilitarized_zone = no
             }
 			KHN = {
-				transfer_state = 602
+				transfer_state = 1323
+				transfer_state = 1324
 				give_military_access = GDC
 				load_oob = KHN_1947
 			}

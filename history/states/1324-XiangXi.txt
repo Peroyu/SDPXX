@@ -1,0 +1,18 @@
+state = { #Xiangjiang
+	id = 1324
+	name = "STATE_1324" # Hunan
+	manpower = 293700
+
+
+	history = {
+		set_demilitarized_zone = yes
+		owner = RCR
+		add_core_of = KHN
+		add_claim_by = RCR
+	}
+
+	provinces = {
+		7665 12310 10377 12053 12017 4480
+	}
+	state_category = two
+}
