@@ -107,7 +107,7 @@ CAN = {
 	color = rgb { 162 89 71 } 
 	color_ui = rgb { 162 89 71 } 
 }
-MAL = {
+MLT = {
 	color = rgb { 162 89 71 } 
 	color_ui = rgb { 162 89 71 } 
 }

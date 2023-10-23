@@ -929,4 +929,9 @@ spriteTypes = {
 		name = "GFX_CHI_rural_baes_influce"
 		texturefile = "gfx/interface/dynamic_ideas/GFX_CHI_rural_baes_influce.png"
 	}
+
+	spriteType = {
+		name = "GFX_GRE_Free_city"
+		texturefile = "gfx/interface/dynamic_ideas/GFX_GRE_Free_city.png"
+	}
 }
