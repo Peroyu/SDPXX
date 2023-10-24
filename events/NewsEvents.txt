@@ -230,19 +230,15 @@ news_event = {
             set_nationality = MNL
             set_nationality = MLY
             MNL = {
-                transfer_state = 847
-                transfer_state = 961
-                add_state_core = 847
-                add_state_core = 961
-                add_state_core = 962
-                add_state_core = 963
+                transfer_state = 999
+                add_state_core = 999
                 load_oob = "MNL_collapse"
             }
             MLY = {
-                transfer_state = 962
-                transfer_state = 963
-                add_state_core = 962
-                add_state_core = 963
+                transfer_state = 751
+                transfer_state = 846
+                add_state_core = 751
+                add_state_core = 846
                 declare_war_on = { target = MNL type = take_state }
                 load_oob = "MLY_collapse"
             }

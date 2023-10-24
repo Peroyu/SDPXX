@@ -299,6 +299,44 @@ country_event = {
 	
 }
 country_event = {
+    id = JAP.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.1 FROM = [From.GetName]" }
+	title = JAP.1.t
+	desc = JAP.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			KOR = {
+				transfer_state = 1326
+				add_state_core = 1326
+				declare_war_on = {
+					target = JKR
+				}
+			}
+		    every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = Pacific.2
+				days = 1
+			}
+		}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.4.a
+	}
+	
+}
+country_event = {
     id = JAP.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.4 FROM = [From.GetName]" }
