@@ -1,6 +1,6 @@
 JAP_election_decision = {
 	    icon = decision_category_jap_pacific_guardian
-	    picture = decision_cat_picture_plot_against_boris
+	    picture = decision_cat_picture_JAP_election_decision
 		available = {
 			tag = NIP
 		}
