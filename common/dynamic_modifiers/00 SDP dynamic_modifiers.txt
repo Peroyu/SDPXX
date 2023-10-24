@@ -23,7 +23,12 @@ CHI_spy_encourage_steams = {
 	icon = GFX_CHI_spy_center
 	compliance_growth = 0.3
 }
-
+GRE_Free_city = {
+	enable = {
+		alway = yes
+	}
+	icon = GFX_GRE_Free_city
+}
 MMA_gongye_dynamic_modifier = {
     enable = { 
 	    always = yes 

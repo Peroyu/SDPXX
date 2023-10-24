@@ -26,11 +26,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mauno_Pekala"  
-	desc = "Mauno_Pekala_desc"  
-	picture = "gfx/leaders/EU/Mauno_Pekala.png"  
+	name = "FIN_Rafael_Paasio"  
+	desc = "FIN_Rafael_Paasio_desc"  
+	picture = "gfx/leaders/EU/Portrait_FIN_Rafael_Paasio.png"  
 	expire = "1967.4.23"  
-	ideology = left_social_democracy 
+	ideology = centrist_marxism 
 	traits = { 
 		
  	}

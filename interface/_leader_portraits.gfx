@@ -664,6 +664,12 @@
 		name = "GFX_portrait_ITA_Antonio_Gramsci"
 		texturefile = "gfx/leaders/EU/GFX_portrait_ITA_Antonio_Gramsci.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_GRE_Georgios_Papandreou"
+		texturefile = "gfx/leaders/EU/Portrait_GRE_Georgios_Papandreou.png"		
+	}
+	########################################################################
 	
 	spriteType = {
 		name = "BUR_Aung_San"
@@ -806,6 +812,11 @@
 	spriteType = {
 		name = "portrait_LIB_William_Tubman"
 		texturefile = "gfx/leaders/EN/portrait_LIB_William_Tubman.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_Andrew_Cunningham"
+		texturefile = "gfx/leaders/EN/GFX_portrait_CAN_Andrew_Cunningham.png"		
 	}
 ########################USA########################	
 	spriteType = {

@@ -10,9 +10,10 @@ state = {
 	}
 
 	history = {
-		owner = VNN
+		owner = VIN
 		add_core_of = VNN
 		add_core_of = VIN
+		set_demilitarized_zone = yes
 		victory_points = {
 			4075 15 # Hanoi (+Haiphong)
 		}

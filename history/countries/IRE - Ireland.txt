@@ -13,6 +13,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+set_variable = { SDP_welcome_splash_variable = 1 }
 set_popularities = {
  	communism = 2
 	committee_communism = 1
@@ -32,9 +33,9 @@ country_event = {
 	days = 399
 }
 create_country_leader = {
-	name = "Eamonn_de_Valera"  
-	desc = "Eamonn_de_Valera_desc"  
-	picture = "gfx/leaders/IRE/Eamonn_de_Valera.png"  
+	name = "IRE_Sean_O_Cley"  
+	desc = "IRE_Sean_O_Cley_desc"  
+	picture = "gfx/leaders/IRE/Portrait_IRE_Sean_O_Cley.png"  
 	expire = "1975.8.29"  
 	ideology = FFFFF_FFF
 	traits = {  }

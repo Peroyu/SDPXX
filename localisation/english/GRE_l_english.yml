@@ -2,19 +2,21 @@
  GRE_Markos_Vafeiadis_desc:0"§Y出生日期§!:1906年1月28日\n-----------\n出生于小亚细亚，马科斯·瓦菲阿迪斯直到1924年那场臭名昭著的人口交换才前往希腊本土，在1925年，他加入了希腊共产党，也正因为他多次参加工人运动而在1927年被迫从希腊军队中退伍，不久后入狱。\n1938年，他被选举为希腊共产党总书记，领导和指挥希腊各地的地下社会主义组织和工人组织，1939年第二次大革命战争爆发后再次进入希腊军队服役，在士兵工作方面成就颇丰。\n1944年，国际联军巴尔干半岛攻势一举摧毁了罗马尼亚和多瑙河的协约国战线，马科斯·瓦菲阿迪斯所在部队也因此向南调动至希腊国内休整，当祖国阵线和共产党推翻了保加利亚沙皇后，希腊共产党在他的指挥下也迅速发动萨洛尼卡起义，建立“希腊人民解放军”以希腊北部为基地向南进攻。\n当国际社会主义运动在巴尔干实现胜利的时候，雅典工人三次起义解放雅典，大英帝国希腊远征军在希腊革命者和国际联军的夹击下在伊庇鲁斯和萨洛尼卡全军覆没，希腊全国落入希腊人民解放军掌控，在卫城下，马科斯·瓦菲阿迪斯宣布希腊社会主义共和国的建立，并检阅了取得胜利的人民解放军和工人战士，而他，也作为社会主义希腊唯一而不可挑战的领袖而登上最崇高的地位。"
  GRE_communism_party:0"希腊共产党"
  GRE_committee_communism_party:0"希腊共产党"
- GRE_movement_communism_party:0""
+ GRE_movement_communism_party:0"希腊自由党"
  GRE_moderate_socialism_party:0"希腊共产党"
- GRE_social_democracy_party:0""
- GRE_Liberalism_party:0""
- GRE_conservatism_party:0""
- GRE_reactionism_party:0""
- GRE_nationalism_party:0""
- GRE_restorativeism_party:0"" 
+ GRE_social_democracy_party:0"希腊民主社会党"
+ GRE_Liberalism_party:0"希腊自由党"
+ GRE_conservatism_party:0"希腊自由党"
+ GRE_reactionism_party:0"国王支持者"
+ GRE_nationalism_party:0"国王支持者"
+ GRE_restorativeism_party:0"国王支持者" 
  GRE_Markos_Vafeiadis:"马科斯·瓦菲阿迪斯"
+ GRE_Georgios_Papandreou:"乔治奥斯·帕潘德里欧"
  #国策
  
  #idea
- 
+ GRE_Free_city:"自由城市"
+ GRE_Free_city_desc:"这座城市在国际联军的保护下，虽然被认为是希腊的领土，但由于其重要的战略价值而成为中立的自由城市。"
  #决议
  
  #event

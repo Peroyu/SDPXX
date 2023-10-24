@@ -470,33 +470,42 @@ country_event = {
 	
 	immediate = {
 
-		YUG = { 
-			set_cosmetic_tag = SAB
-			set_politics = { 
-				ruling_party = conservatism
-			}
-			create_country_leader = {
-				name = "雨果·桑伊"   
-				desc = "HUN_hugo_desc"  
-				picture = "Portrait_HUN_Hugo"   
-				expire = "1956.9.7"   
-				ideology = system_revolutionism
-				traits = {  }
-			}
+		SER = {
+			transfer_state = 107
+			transfer_state = 108
+			transfer_state = 767
+			transfer_state = 765
+			transfer_state = 1269
+			add_state_core = 107
+			add_state_core = 108
+			add_state_core = 767
+			add_state_core = 765
+			add_state_core = 1269
 		}
 		BOS = {
+			transfer_state = 1142
+			transfer_state = 1143
+			transfer_state = 1145
 			transfer_state = 104
-			transfer_state = 804
+			transfer_state = 1141
 		}
 		MOT = {
+			transfer_state = 1097
 			transfer_state = 105
+			transfer_state = 1270
+			add_state_core = 1097
+			add_state_core= 105
+			add_state_core = 1270
 		}
 		BUL = {
-			transfer_state = 184
+			transfer_state = 841
+			add_state_core = 841
 		}
 		MAQ = {
+			transfer_state = 1271
 			transfer_state = 106
-			transfer_state = 731
+			add_state_core = 1271
+			add_state_core = 106
 		}
     }
 	

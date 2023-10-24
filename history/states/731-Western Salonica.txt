@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = YUG
+		owner = GRE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -23,8 +23,6 @@ state = {
 			9837 1 #Florina
 		}
 		add_core_of = GRE
-		add_core_of = YUG
-		add_core_of = MAQ
 	}
 
 	provinces = {
