@@ -213,6 +213,12 @@ on_actions = {
 							days = 1  id = GDCintro.7 
 							}
 					}
+					NIP = {
+						country_event = {
+							id = JAP.4
+							days = 1
+						}
+					}
 					GHN = {
 						transfer_state = 326
 						add_state_core = 326
@@ -224,45 +230,6 @@ on_actions = {
 						}
 					}
 
-					set_global_flag = skip_default_capitulation
-				}
-				if = { # MMA beats SHA (Shaan Xi attack xibei crisis) 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = MMA
-								is_in_faction_with = MMA
-								is_subject_of = MMA
-							}
-						}
-						ROOT = {
-							original_tag = SHA
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-					}
-
-					MMA = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-						country_event = {
-							id = SBA.3
-							days = 1
-						}
-						set_autonomy = {
-							target = KTR
-							autonomy_state = autonomy_free
-						}
-					}
-					SHA = {
-						every_unit_leader = {
-							set_nationality = NIP
-						}
-					}
 					set_global_flag = skip_default_capitulation
 				}
 
