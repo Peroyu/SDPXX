@@ -257,6 +257,7 @@ country_event = {
 				add_state_core = 1326
 				declare_war_on = {
 					target = JKR
+					type = annex_everything
 				}
 			}
 		    every_country = {
@@ -300,6 +301,7 @@ country_event = {
 				transfer_state = 857
 				declare_war_on = {
 					target = VIN
+					type = annex_everything
 				}
 			}
 			every_country = {
