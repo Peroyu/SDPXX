@@ -1,4 +1,5 @@
 ﻿add_namespace = NIP
+add_namespace = JAP
 add_namespace = ASIA_southeast_asia_conference
 country_event = {
     id = ASIA_southeast_asia_conference.1
