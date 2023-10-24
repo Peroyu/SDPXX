@@ -31,6 +31,6 @@ create_country_leader = {
 	desc = "POR_Antonio_Salazar_desc"  
 	picture = "gfx/leaders/EN/POR_Antonio_Salazar.png"  
 	expire = "1967.3.18"  
-	ideology = state_capitalism 
+	ideology =  classical_corporatism
 	traits = {  }
 }

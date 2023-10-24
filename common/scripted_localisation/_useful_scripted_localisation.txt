@@ -365,7 +365,12 @@ defined_text = {
 		}
 		localization_key = neo_socialism
     }
-
+	text = {
+		trigger = {
+			has_country_leader_ideology = classical_corporatism
+		}
+		localization_key = classical_corporatism
+    }
 	##########################################################
 
 	text = {
