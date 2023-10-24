@@ -387,6 +387,10 @@ SOV = {
 	color = rgb { 193 42 37 }
 	color_ui = rgb { 193 42 37 }
 }
+SER = {
+	color = rgb { 110 133 200 }
+	color_ui = rgb { 110 133 200 }
+}
 RUS = {
 	color = rgb { 193 42 37 }
 	color_ui = rgb { 193 42 37 }
