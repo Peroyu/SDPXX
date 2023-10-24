@@ -5,6 +5,11 @@ shared_focus = {
 		available_if_capitulated = no
 		x = 10
 		y = 0
+		completion_reward = {   
+		    add_political_power = 100
+			add_stability = 0.1
+			country_event = { id = IRE.1 days = 1 }
+		}
 	}
 #################
 shared_focus = {
@@ -17,7 +22,12 @@ shared_focus = {
 		prerequisite = {
 		       focus = IRE_Reborn_Ireland
 	    }
-
+        completion_reward = {   
+			swap_ideas = {
+			    remove_idea = IRE_The_evil_of_the_colonizers_1
+			    add_idea = IRE_The_evil_of_the_colonizers_2
+			}
+		}
     }
 shared_focus = {
         id = IRE_The_legacy_of_the_Great_Famine
@@ -29,7 +39,13 @@ shared_focus = {
 		prerequisite = {
 		    focus = IRE_The_evil_of_the_colonizers
 	    }
-
+        completion_reward = {   
+			swap_ideas = {
+			    remove_idea = IRE_The_evil_of_the_colonizers_2
+			    add_idea = IRE_The_evil_of_the_colonizers_3
+			}
+			country_event = { id = IRE.5 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_The_price_of_freedom
@@ -41,7 +57,13 @@ shared_focus = {
 		prerequisite = {
 		       focus = IRE_The_legacy_of_the_Great_Famine
 	    }
-
+        completion_reward = {   
+			swap_ideas = {
+			    remove_idea = IRE_The_evil_of_the_colonizers_3
+			    add_idea = IRE_The_evil_of_the_colonizers_4
+			}
+			country_event = { id = IRE.6 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_Helplessness_under_confrontation
@@ -52,9 +74,12 @@ shared_focus = {
 		y = 4
 		
 		prerequisite = {
-		       focus = IRE_The_price_of_freedom
+		    focus = IRE_The_price_of_freedom
 	    }
-
+        completion_reward = {   
+		    add_political_power = 15
+			country_event = { id = IRE.7 days = 1 }
+		}
     }
 ###########################################
 shared_focus = {
@@ -65,9 +90,14 @@ shared_focus = {
 		x = 12
 		y = 1
 		prerequisite = {
-		       focus = IRE_Reborn_Ireland
+		    focus = IRE_Reborn_Ireland
 	    }
-
+		completion_reward = {
+           swap_ideas = {
+			    remove_idea = IRE_Soul_of_a_pioneer_1
+			    add_idea = IRE_Soul_of_a_pioneer_2
+			}
+		}
     }
 shared_focus = {
         id = IRE_the_establishment_under_independence
@@ -77,9 +107,15 @@ shared_focus = {
 		x = 12
 		y = 2
 		prerequisite = {
-		       focus = IRE_Soul_of_a_pioneer
+		    focus = IRE_Soul_of_a_pioneer
 	    }
-
+        completion_reward = {   
+		    add_political_power = 10
+            add_popularity = { ideology = conservatism popularity = 0.05 }
+			add_popularity = { ideology = movement_communism popularity = 0.05 }
+			add_popularity = { ideology = Liberalism popularity = 0.05 }
+			country_event = { id = IRE.8 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_Reformists_under_liberal_progress
@@ -89,9 +125,14 @@ shared_focus = {
 		x = 12
 		y = 3
 		prerequisite = {
-		       focus = IRE_the_establishment_under_independence
+		    focus = IRE_the_establishment_under_independence
 	    }
-
+        completion_reward = {   
+		    add_political_power = 10
+            add_popularity = { ideology = moderate_socialism popularity = 0.05 }
+			add_popularity = { ideology = social_democracy popularity = 0.05 }
+			country_event = { id = IRE.9 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_Radicals_under_extremism
@@ -101,9 +142,21 @@ shared_focus = {
 		x = 12
 		y = 4
 		prerequisite = {
-		       focus = IRE_Reformists_under_liberal_progress
+		    focus = IRE_Reformists_under_liberal_progress
 	    }
-
+        completion_reward = {   
+		    add_political_power = 10
+            add_popularity = { ideology = communism popularity = 0.01 }
+			add_popularity = { ideology = committee_communism popularity = 0.01 }
+			add_popularity = { ideology = reactionism popularity = 0.01 }
+			add_popularity = { ideology = nationalism popularity = 0.01 }
+			add_popularity = { ideology = restorativeism popularity = 0.01 }
+			country_event = { id = IRE.10 days = 1 }
+			swap_ideas = {
+			    remove_idea = IRE_Ulster_1
+			    add_idea = IRE_Ulster_2
+			}
+		}
     }
 ############################################
 shared_focus = {
@@ -116,7 +169,10 @@ shared_focus = {
 		prerequisite = {
 		    focus = IRE_Reborn_Ireland
 	    }
-
+        completion_reward = {   
+		    add_war_support = 0.2
+			add_stability = -0.15
+		}
     }
 shared_focus = {
         id = IRE_Both_sides_of_the_ocean
@@ -128,7 +184,13 @@ shared_focus = {
 		prerequisite = {
 		    focus = IRE_Blood_of_the_Resisters
 	    }
-
+        completion_reward = {   
+		    swap_ideas = {
+			    remove_idea = IRE_Both_sides_of_the_ocean_1
+			    add_idea = IRE_Both_sides_of_the_ocean_2
+			}
+			country_event = { id = IRE.2 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_Continental_Europe
@@ -140,7 +202,10 @@ shared_focus = {
 		prerequisite = {
 		    focus = IRE_Both_sides_of_the_ocean
 	    }
-
+        completion_reward = {   
+		    add_stability = 0.05
+			country_event = { id = IRE.3 days = 1 }
+		}
     }
 shared_focus = {
         id = IRE_North_America
@@ -152,7 +217,10 @@ shared_focus = {
 		prerequisite = {
 		    focus = IRE_Continental_Europe
 	    }
-
+        completion_reward = {   
+		    add_political_power = 50
+			country_event = { id = IRE.3 days = 1 }
+		}
     }
 ########################################
 shared_focus = {

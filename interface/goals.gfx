@@ -2035,28 +2035,69 @@ spriteTypes = {
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"
-	texturefile = "gfx/interface/goals/GFX_IRE_Reborn_Ireland.dds"			
+	texturefile = "gfx/interface/goals/IRE/IRE_Reborn_Ireland.dds"			
 	}	
-	
 	SpriteType = {
-	name = "GFX_focus_generic_coastal_fort"
-	texturefile = "gfx/interface/goals/focus_generic_coastal_fort.dds"			
-	}	
-	
-	SpriteType = {
-	name = "GFX_focus_generic_paratrooper"
-	texturefile = "gfx/interface/goals/focus_generic_paratrooper.dds"			
-	}	
-	
-	SpriteType = {
-	name = "GFX_focus_generic_diplomatic_treaty"
-	texturefile = "gfx/interface/goals/focus_generic_diplomatic_treaty.dds"			
-	}	
-	
-	SpriteType = {
-	name = "GFX_focus_NZL_bob_semple_tank"
-	texturefile = "gfx/interface/goals/focus_NZL_bob_semple_tank.dds"			
+	name = "GFX_IRE_The_evil_of_the_colonizers"
+	texturefile = "gfx/interface/goals/IRE/IRE_The_evil_of_the_colonizers.dds"			
 	}
+	SpriteType = {
+	name = "GFX_IRE_The_legacy_of_the_Great_Famine"
+	texturefile = "gfx/interface/goals/IRE/IRE_The_legacy_of_the_Great_Famine.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_The_price_of_freedom"
+	texturefile = "gfx/interface/goals/IRE/IRE_The_price_of_freedom.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Helplessness_under_confrontation"
+	texturefile = "gfx/interface/goals/IRE/IRE_Helplessness_under_confrontation.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Soul_of_a_pioneer"
+	texturefile = "gfx/interface/goals/IRE/IRE_Soul_of_a_pioneer.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_the_establishment_under_independence"
+	texturefile = "gfx/interface/goals/IRE/IRE_the_establishment_under_independence.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Reformists_under_liberal_progress"
+	texturefile = "gfx/interface/goals/IRE/IRE_Reformists_under_liberal_progress.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Radicals_under_extremism"
+	texturefile = "gfx/interface/goals/IRE/IRE_Radicals_under_extremism.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Blood_of_the_Resisters"
+	texturefile = "gfx/interface/goals/IRE/IRE_Blood_of_the_Resisters.dds"			
+	}
+	SpriteType = {
+	name = "IRE_Both_sides_of_the_ocean"
+	texturefile = "gfx/interface/goals/IRE/IRE_Both_sides_of_the_ocean.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Continental_Europe"
+	texturefile = "gfx/interface/goals/IRE/IRE_Continental_Europe.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_North_America"
+	texturefile = "gfx/interface/goals/IRE/IRE_North_America.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Ireland_on_the_stage"
+	texturefile = "gfx/interface/goals/IRE/IRE_Ireland_on_the_stage.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Dublin_Olympics"
+	texturefile = "gfx/interface/goals/IRE/IRE_Dublin_Olympics.dds"			
+	}
+	SpriteType = {
+	name = "GFX_IRE_Olympic_celebrations"
+	texturefile = "gfx/interface/goals/IRE/IRE_Olympic_celebrations.dds"			
+	}
+	
 	
 	SpriteType = {
 		name = "GFX_goal_unknown"
