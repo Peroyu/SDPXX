@@ -504,14 +504,14 @@ country_event = {
 		start_border_war = {
 			change_state_after_war = no
 			attacker = {
-				state = 616
+				state = 348
 				num_provinces = 2
 				on_win = MMA_dip.2
 				on_lose = MMA_dip.3
 			}
 						
 			defender = {
-				state = 746
+				state = 616
 				num_provinces = 2
 			}
 		}
@@ -529,7 +529,7 @@ country_event = {
 	
 	immediate = {
 	 hidden_effect = {
-			transfer_state = 746
+			transfer_state = 616
 			
 		}
     }
