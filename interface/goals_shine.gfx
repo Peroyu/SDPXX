@@ -901,11 +901,11 @@ spriteTypes = {
 	}	
 #########################################
 	SpriteType = {
-		name = "GFX_focus_generic_cryptologic_bomb_shine"
-		texturefile = "gfx/interface/goals/focus_generic_cryptologic_bomb.dds"			
+		name = "GFX_IRE_Reborn_Ireland_shine"
+		texturefile = "gfx/interface/goals/IRE/IRE_Reborn_Ireland.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_cryptologic_bomb.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_Reborn_Ireland.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -918,7 +918,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_cryptologic_bomb.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_Reborn_Ireland.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -933,11 +933,11 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_socialist_science_shine"
-		texturefile = "gfx/interface/goals/focus_generic_socialist_science.dds"			
+		name = "GFX_IRE_the_establishment_under_independence_shine"
+		texturefile = "gfx/interface/goals/IRE/IRE_the_establishment_under_independence.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_socialist_science.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_the_establishment_under_independence.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -950,7 +950,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_socialist_science.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_the_establishment_under_independence.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -965,11 +965,11 @@ spriteTypes = {
 	}		
 	
 	SpriteType = {
-		name = "GFX_focus_generic_italy_first_shine"
-		texturefile = "gfx/interface/goals/focus_generic_italy_first.dds"			
+		name = "GFX_IRE_Radicals_under_extremism_shine"
+		texturefile = "gfx/interface/goals/IRE/IRE_Radicals_under_extremism.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_italy_first.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_Radicals_under_extremism.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -982,7 +982,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_italy_first.dds"			
+			animationmaskfile = "gfx/interface/goals/IRE/IRE_Radicals_under_extremism.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
