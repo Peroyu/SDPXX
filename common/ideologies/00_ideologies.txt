@@ -384,7 +384,7 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	nationalism = { 
+	Nationalism = { 
 		types = {	
 			Casselism = { can_be_randomly_selected = no }		
 			ultranationalism = { can_be_randomly_selected = no }
