@@ -1,0 +1,58 @@
+TUR_decision_categories = {
+	TUR_rename_Constantinepol = {
+
+		icon = decision__unions_support
+		##############################################################################
+		#决议图标的定义格式：														 #
+		#spriteType = {																 #
+		#	name = "GFX_decision_随便写即可"										 #
+		#	texturefile = "gfx/ak_decisions/decision_随便写即可.dds"				 #
+		#	legacy_lazy_load = no													 #
+		#}																			 #
+		#随便写的部分没什么硬性要求，但是在决议自己的icon页面一定要原封不动把它填进来#
+		#icon = <随便写即可>														 #
+		##############################################################################
+		
+		fire_only_once = yes
+
+		available = {
+			
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 773
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+
+		visible = {
+			#什么条件下决议可见（每一帧检测一次）
+		}
+		
+		##########################################################
+
+		
+		complete_effect = {
+			custom_effect_tooltip = TUR_decision_tt_1
+			773 = {
+				set_state_name = "Islampul"
+			}
+			
+			hidden_effect = {
+				
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+}

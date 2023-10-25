@@ -227,6 +227,12 @@
  JAP_election_decision_desc:"经过明治初期的自由民权运动后，明治天皇于1881年10月12日（明治14年）颁布了名为“立国会谕”的圣旨。 八年后，随着1889年2月11日明治宪法和众议院选举法（1889年2月11日第3号法）的颁布，次年1890年（明治23年），举行第一次大选举行众议院议员选举（同年7月），众议院代表公开选举产生。\n对于大正民主的信仰者来说，帝国议会众议院是民主主义精神的最高代表，众议院中席位的变动则直接的反映了帝国议会和帝国社会中政治力量的变化，1925年普选法通过后更是如此，毫无疑问，握有很大一部分组阁影响力的众议院将会通过选票和辩论决定接下来四年内日本帝国的政治生态。\n---------------\n§Y立宪民政党§!在众议院拥有§Y[?NIP.NIP_RK_seats]§!席位，影响力为§Y[?NIP.NIP_RK_influence]%§!\n§C立宪政友会§!在众议院拥有§Y[?NIP.NIP_ST_seats]§!席位，影响力为§Y[?NIP.NIP_ST_influence]%§!\n§O大政翼赞会§!在众议院拥有§Y[?NIP.NIP_RS_seats]§!席位，影响力为§Y[?NIP.NIP_RS_influence]%§!\n§R大政翼赞会-国社派§!在众议院拥有§Y[?NIP.NIP_NS_seats]§!席位，影响力为§Y[?NIP.NIP_NS_influence]%§!\n§g无所属派议员§!在众议院中拥有§Y[?NIP.NIP_NP_seats]§!席位，影响力为§Y[?NIP.NIP_NP_influence]%§!\n下一次众议院总选举为§Y第二十三回众议员总选举§!"
  JAP_paranoia_system:"战争偏执" 
  SOV_paranoia_value_text: "£SOV_paranoia_text_icon 战争偏执度：[GetParanoiaValueColor][?SOV_paranoia]%§![GetParanoiaWeeklyModifier]"
+ JAP_Hokkaido_election:"北海道选举结果揭晓"
+ JAP_Nishi_Nihon_election:"西日本选举结果揭晓"
+ JAP_Tokai_election:"东海选举结果揭晓"
+ JAP_Higashi_nihon_election:"东日本选举结果揭晓"
+ JAP_Shikoku_election:"四国选举结果揭晓"
+ JAP_Kyushu_election:"九州选举结果揭晓"
  #event
  CHI_continental_operation_began:"中日战争再次全面爆发"
  NIP_Rival_services:"帝国军种对立"

@@ -210,7 +210,6 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
 		name = JAP.2.a
 	}
 	
@@ -227,7 +226,18 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+			set_politics = {
+				ruling_party = conservatism
+			}
+			retire_country_leader = yes
+		    create_country_leader = {
+				name = "NIP_Hirohito"   
+				desc = "NIP_Hirohito_desc"  
+				picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
+				expire = "1989.1.7"   
+				ideology = Guided_democracy
+				traits = {  }
+			}
 		}
     }
 	
@@ -279,6 +289,7 @@ country_event = {
 	}
 	
 }
+
 country_event = {
     id = JAP.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -323,8 +334,88 @@ country_event = {
 	}
 	
 }
+######################################################
 country_event = {
-    id = JAP.5
+    id = JAP.2  #北海道地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.2 FROM = [From.GetName]" }
+	title = JAP.2.t
+	desc = JAP.2.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.2.b
+
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.2.c
+	}
+	
+}
+country_event = {
+    id = JAP.3  #西日本地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.3 FROM = [From.GetName]" }
+	title = JAP.3.t
+	desc = JAP.3.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.c
+	}
+	
+}
+country_event = {
+    id = JAP.5  #东海地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.5 FROM = [From.GetName]" }
 	title = JAP.5.t
@@ -346,10 +437,24 @@ country_event = {
 		
 		name = JAP.5.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.5.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.5.c
+	}
 	
 }
 country_event = {
-    id = JAP.6
+    id = JAP.6  #九州地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.6 FROM = [From.GetName]" }
 	title = JAP.6.t
@@ -371,10 +476,24 @@ country_event = {
 		
 		name = JAP.6.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.6.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.6.c
+	}
 	
 }
 country_event = {
-    id = JAP.7
+    id = JAP.7  #四国地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.7 FROM = [From.GetName]" }
 	title = JAP.7.t
@@ -396,5 +515,59 @@ country_event = {
 		
 		name = JAP.7.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.7.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.7.c
+	}
 	
 }
+country_event = {
+    id = JAP.8  #东日本地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.8 FROM = [From.GetName]" }
+	title = JAP.8.t
+	desc = JAP.8.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.c
+	}
+	
+}
+###################################################

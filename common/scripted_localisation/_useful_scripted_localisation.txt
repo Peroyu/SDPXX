@@ -315,6 +315,12 @@ defined_text = {
 		localization_key = christian_conservatism
     }
 
+	text = {
+		trigger = {
+			has_country_leader_ideology = Guided_democracy
+		}
+		localization_key = Guided_democracy
+    }
 	################################################
 
 	text = {

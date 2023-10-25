@@ -293,6 +293,7 @@ ideologies = {
 			christian_conservatism = { can_be_randomly_selected = no }
 			conservatism_revolutionarist = { can_be_randomly_selected = no }
 			New_nation_system = {can_be_randomly_selected = no}
+			Guided_democracy = {can_be_randomly_selected = no}
 		}
 		
 		dynamic_faction_names = {
