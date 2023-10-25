@@ -22,9 +22,9 @@ set_popularities = {
 	restorativeism = 6
 }
 create_country_leader = {
-	name = "ROF_Jules_Marcel_de_Coppet"  # 
+	name = "ROF_Pierre_De_Chevigne"  # 
 	desc = "/"  # 
-	picture = "GFX_portrait_ROF_Jules_Marcel_de_Coppet"  # 
+	picture = "GFX_portrait_ROF_Pierre_De_Chevigne"  # 
 	expire = "1959.3.16"  # 
 	ideology = despotism # 
 	traits = {  # 

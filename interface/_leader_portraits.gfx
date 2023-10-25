@@ -818,6 +818,11 @@
 		name = "GFX_portrait_CAN_Andrew_Cunningham"
 		texturefile = "gfx/leaders/EN/GFX_portrait_CAN_Andrew_Cunningham.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ROF_Pierre_De_Chevigne"
+		texturefile = "gfx/leaders/EN/GFX_portrait_ROF_Pierre_De_Chevigne.png"		
+	}
 ########################USA########################	
 	spriteType = {
 		name = "portrait_USA_Harry_Truman"
