@@ -1,0 +1,26 @@
+on_actions = {
+	on_startup = {
+		effect = {
+
+			#Setup the Ottoman mechanics
+			every_state = {
+				limit = {
+					OR = {
+						OTT_is_conservative_state = yes
+						OTT_is_turkish_nationalist_state = yes
+						OTT_is_arab_nationalist_state = yes
+						OTT_is_independent_state = yes
+					}
+				}
+				# Calculate amount of added deputies
+				set_variable = { deputy_calculator = state_population_k }
+				divide_variable = { deputy_calculator = 100 }
+				round_variable = deputy_calculator
+			}
+		}
+	}
+
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	
+}
+

@@ -47,7 +47,10 @@ TUR_decision_categories = {
 			}
 			
 			hidden_effect = {
-				
+				set_victory_points = {
+					province = 9833
+					name = "Islampul"
+				}
 			}
 		}
 		
