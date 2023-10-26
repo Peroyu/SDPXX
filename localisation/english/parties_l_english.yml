@@ -3,13 +3,12 @@
  communism:0"集中社会主义"###########
  communism_noun:"集中社会主义"
  communism_desc:0"革命国家"
- leninism:0"马克思-列宁主义"
- Bolshevism:0"布尔什维主义"
+ leninism:0"列宁主义"
+ Bolshevism:0"列宁主义"
  military_socialism:0"军政共产主义"
  Jacobinism:0"雅各宾共产主义"
  luxembourgism:0"卢森堡主义"
  De_Leonism:0"德莱昂主义"
- Mao_thought:0"毛泽东思想"
  
  committee_communism:0"经典社会主义"###########
  committee_communism_noun:"经典社会主义"
@@ -21,6 +20,7 @@
  left_wing_communism:0"左翼共产主义"
  republic_marxism:"共和-马克思主义"
  Neo_Marxism:"新马克思主义"
+ committee_communism_subtype:"委员会共产主义"
  
  moderate_socialism:0"左翼激进主义"#########
  moderate_socialism_noun:"左翼激进主义"
@@ -29,9 +29,11 @@
  revolutionary_syndicalism:0"革命工团主义"
  reformed_socialism:0"修正社会主义"
  centrist_marxism:0"中派马克思主义"
- left_social_democracy:0"左翼社会民主主义"
+ National_socialism:"民族社会主义"
+ christian_socialism:"基督教社会主义"
+ left_social_democracy:0"民主社会主义"
  moderate_socialist:"温和社会主义"
- anarchism:"经典无政府主义"
+ anarchism:"无政府主义"
  
  social_democracy:0"社会改良主义"##############
  social_democracy_noun:"社会改良主义"
