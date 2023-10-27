@@ -72,6 +72,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_plot_against_boris.png"
 	}
 	spriteType = {
+		name = "decision_cat_picture_JAP_election_decision"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_JAP_election_decision.png"
+	}
+	spriteType = {
 		name = "GFX_decisions_CJF_anti_japen_war"
 		texturefile = "gfx/interface/decisions/decisions_CJF_anti_japen_war.dds"
 	}

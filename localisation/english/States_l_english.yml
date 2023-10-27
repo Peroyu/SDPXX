@@ -2372,7 +2372,7 @@
  STATE_772_BULGARIAN: "多布鲁贾"
  STATE_772_ENDONYM: "[772.Controller.GetStateName_772]"
  STATE_772_ROMANIAN: "多布罗加"
- STATE_773: "君士坦丁堡"
+ STATE_773:0 "君士坦丁堡"
  STATE_773_BULGARIAN: "沙皇格勒"
  STATE_773_ENDONYM: "[773.Controller.GetStateName_773]"
  STATE_773_GREEK: "君士坦丁堡"

@@ -1,0 +1,241 @@
+JAP_election_decision = {
+    JAP_Hokkaido_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 20
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.2
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+    JAP_Nishi_Nihon_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 30
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.3
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+    JAP_Tokai_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 40
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.3
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+    JAP_Higashi_nihon_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 60
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.8
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+    JAP_Shikoku_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 70
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.7 
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+    JAP_Kyushu_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = JAP_election_flag
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 80
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			country_event = {
+                id = JAP.6
+                days = 1
+            }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}

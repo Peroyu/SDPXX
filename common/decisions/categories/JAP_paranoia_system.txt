@@ -1,0 +1,21 @@
+JAP_paranoia_system = {
+
+	priority = 101
+
+	icon = JAP_paranoia
+
+	scripted_gui = jap_paranoia_system_ui
+
+	allowed = {
+		original_tag = NIP
+	}
+
+	visible = {
+		OR = {
+			has_war = yes
+			is_debug = yes
+		}
+	}
+
+	visible_when_empty = yes
+}

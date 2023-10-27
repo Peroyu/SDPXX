@@ -1,4 +1,5 @@
 ﻿add_namespace = NIP
+add_namespace = JAP
 add_namespace = ASIA_southeast_asia_conference
 country_event = {
     id = ASIA_southeast_asia_conference.1
@@ -72,6 +73,12 @@ country_event = {
 		ATJ = {
 			transfer_state = 672
 			add_state_core = 672
+			transfer_state = 1023
+			add_state_core = 1023
+			transfer_state = 1022
+			add_state_core = 1022
+			transfer_state = 1021
+			add_state_core = 1021
 			give_military_access = NIP
 			add_ideas = NIP_nanyang_insititution
 		}
@@ -80,6 +87,14 @@ country_event = {
 			add_state_core = 335
 			transfer_state = 667
 			add_state_core = 667
+			transfer_state = 1020
+			add_state_core = 1020
+			transfer_state = 1019
+			add_state_core = 1019
+			transfer_state = 1018
+			add_state_core = 1018
+			transfer_state = 1017
+			add_state_core = 1017
 			give_military_access = NIP
 			add_ideas = NIP_nanyang_insititution
 		}
@@ -92,6 +107,9 @@ country_event = {
 		KAI = {
 			transfer_state = 334
 			add_state_core = 334
+			transfer_state = 1016
+			add_state_core = 1016
+
 			give_military_access = NIP
 			add_ideas = NIP_nanyang_insititution
 		}
@@ -145,6 +163,12 @@ country_event = {
 		SUM = {
 			transfer_state = 672
 			add_state_core = 672
+			transfer_state = 1023
+			add_state_core = 1023
+			transfer_state = 1022
+			add_state_core = 1022
+			transfer_state = 1021
+			add_state_core = 1021
 			add_ideas = NIP_nanyang_insititution
 			give_military_access = NIP
 		}
@@ -163,65 +187,6 @@ country_event = {
 		}
 		set_global_flag = ENT_RUN
 		name = ASIA_southeast_asia_conference.2.c
-	}
-	
-}
-country_event = {
-    id = JAP.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	JAP.1 FROM = [From.GetName]" }
-	title = JAP.1.t
-	desc = JAP.1.d
-	picture = gFx_JAP.1
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-			set_nationality = JKR
-			set_nationality = KOR
-		    KOR = {
-				transfer_state = 893
-				transfer_state = 892
-				load_oob = "KOR_collapse"
-				
-				}
-			JKR = {
-				transfer_state = 890
-				transfer_state = 891
-				transfer_state = 894
-				transfer_state = 895
-				transfer_state = 896
-				transfer_state = 897
-				transfer_state = 525
-				transfer_state = 527
-				load_oob = "JKR_collapse"
-				add_to_faction = JAP
-				declare_war_on = { target = KOR type = annex_everything }
-				}
-			JAP = {
-				set_autonomy = {
-					target = JKR
-					autonomy_state = autonomy_colony
-				}
-			}
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		every_country = {
-			limit = {
-				is_ai = no
-			}
-			news_event = {
-				id = Pacific.2
-				days = 1
-			}
-		}
-		name = JAP.1.a
 	}
 	
 }
@@ -245,7 +210,6 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
 		name = JAP.2.a
 	}
 	
@@ -262,7 +226,18 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+			set_politics = {
+				ruling_party = conservatism
+			}
+			retire_country_leader = yes
+		    create_country_leader = {
+				name = "NIP_Hirohito"   
+				desc = "NIP_Hirohito_desc"  
+				picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
+				expire = "1989.1.7"   
+				ideology = Guided_democracy
+				traits = {  }
+			}
 		}
     }
 	
@@ -276,11 +251,96 @@ country_event = {
 	
 }
 country_event = {
+    id = JAP.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.1 FROM = [From.GetName]" }
+	title = JAP.1.t
+	desc = JAP.1.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			KOR = {
+				transfer_state = 1326
+				add_state_core = 1326
+				declare_war_on = {
+					target = JKR
+					type = annex_everything
+				}
+			}
+		    every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = Pacific.2
+				days = 1
+			}
+		}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.4.a
+	}
+	
+}
+
+country_event = {
     id = JAP.4
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.4 FROM = [From.GetName]" }
 	title = JAP.4.t
 	desc = JAP.4.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    857 = {
+				set_demilitarized_zone = no
+			}
+			671 = {
+				set_demilitarized_zone = no
+			}
+			VNN = {
+				transfer_state = 857
+				declare_war_on = {
+					target = VIN
+					type = annex_everything
+				}
+			}
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = Pacific.9
+					days = 1
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.4.a
+	}
+	
+}
+######################################################
+country_event = {
+    id = JAP.2  #北海道地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.2 FROM = [From.GetName]" }
+	title = JAP.2.t
+	desc = JAP.2.d
 	picture = gFx_JAP.1
 	
 	is_triggered_only = yes
@@ -296,12 +356,66 @@ country_event = {
 		   base = 100
 		}
 		
-		name = JAP.4.a
+		name = JAP.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.2.b
+
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.2.c
 	}
 	
 }
 country_event = {
-    id = JAP.5
+    id = JAP.3  #西日本地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.3 FROM = [From.GetName]" }
+	title = JAP.3.t
+	desc = JAP.3.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.c
+	}
+	
+}
+country_event = {
+    id = JAP.5  #东海地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.5 FROM = [From.GetName]" }
 	title = JAP.5.t
@@ -323,10 +437,24 @@ country_event = {
 		
 		name = JAP.5.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.5.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.5.c
+	}
 	
 }
 country_event = {
-    id = JAP.6
+    id = JAP.6  #九州地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.6 FROM = [From.GetName]" }
 	title = JAP.6.t
@@ -348,10 +476,24 @@ country_event = {
 		
 		name = JAP.6.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.6.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.6.c
+	}
 	
 }
 country_event = {
-    id = JAP.7
+    id = JAP.7  #四国地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	JAP.7 FROM = [From.GetName]" }
 	title = JAP.7.t
@@ -373,5 +515,59 @@ country_event = {
 		
 		name = JAP.7.a
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.7.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.7.c
+	}
 	
 }
+country_event = {
+    id = JAP.8  #东日本地区选举
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.8 FROM = [From.GetName]" }
+	title = JAP.8.t
+	desc = JAP.8.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.8.c
+	}
+	
+}
+###################################################

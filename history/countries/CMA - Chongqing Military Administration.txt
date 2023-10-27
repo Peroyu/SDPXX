@@ -7,6 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 	tech_mountaineers = 1
 }
+add_manpower = 60000
 set_war_support = 0.4
 set_stability = 0.5
 set_technology = {

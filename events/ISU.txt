@@ -188,6 +188,7 @@ country_event = {
 			transfer_state = 7
 			transfer_state = 866
 			transfer_state = 978
+			transfer_state = 979
 		}
 		name = ISU_event.2.a
 		
@@ -209,6 +210,7 @@ country_event = {
 			transfer_state = 6
 			transfer_state = 978
 			transfer_state = 866
+			transfer_state = 979
 		}
 		name = ISU_event.2.b
 		
@@ -236,6 +238,7 @@ country_event = {
 			transfer_state = 7
 			transfer_state = 978
 			transfer_state = 866
+			transfer_state = 979
 		}
 		name = ISU_event.2.c
 		
@@ -252,6 +255,7 @@ country_event = {
 			transfer_state = 7
 			transfer_state = 978
 			transfer_state = 866
+			transfer_state = 979
 		}
 		FRA = {
 			transfer_state = 34
@@ -284,6 +288,7 @@ country_event = {
 			transfer_state = 6
 			transfer_state = 978
 			transfer_state = 866
+			transfer_state = 979
 		}
 		name = ISU_event.3.a
 		
@@ -305,6 +310,7 @@ country_event = {
 			transfer_state = 7
 			transfer_state = 978
 			transfer_state = 866
+			transfer_state = 979
 			
 		}
 		name = ISU_event.3.b

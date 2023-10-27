@@ -9,7 +9,6 @@ state = { #Xiangjiang
 	}
 
 	history = {
-		set_demilitarized_zone = yes
 		owner = RCR
 		add_core_of = KHN
 		add_claim_by = RCR

@@ -1,0 +1,14 @@
+TUR_decision_categories = {
+	    icon = decision_category_SWI_absolute_neutrality
+		available = {
+	        
+		}
+		visible = {
+          tag = TUR 
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { original_tag = TUR }
+    }

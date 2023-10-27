@@ -30,9 +30,7 @@ focus_tree = {
 	initial_show_position = {
 		focus = industrial_effort
 	}
-	allow_branch = {
-		has_country_flag = I_have_focus_tree
-	}
+	
 	focus = {
 		id = NOFOCUS_FOR_YOU
 		icon = GFX_NOFOCUS_FOR_YOU
@@ -40,7 +38,9 @@ focus_tree = {
 		y = 0
 		cost = 10
 		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
+		allow_branch = {
+			has_country_flag = I_have_focus_tree
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {

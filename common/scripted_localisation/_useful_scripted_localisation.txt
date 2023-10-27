@@ -98,6 +98,13 @@ defined_text = {
 		}
 		localization_key = Neo_Marxism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = committee_communism_subtype
+		}
+		localization_key = committee_communism_subtype
+    }
 	######################################################
 	text = {
 		trigger = {
@@ -137,6 +144,20 @@ defined_text = {
 			has_country_leader_ideology = anarchism
 		}
 		localization_key = anarchism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = National_socialism
+		}
+		localization_key = National_socialism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_socialism
+		}
+		localization_key = christian_socialism
     }
 	##########################################################
 	text = {
@@ -315,6 +336,12 @@ defined_text = {
 		localization_key = christian_conservatism
     }
 
+	text = {
+		trigger = {
+			has_country_leader_ideology = Guided_democracy
+		}
+		localization_key = Guided_democracy
+    }
 	################################################
 
 	text = {
@@ -365,7 +392,12 @@ defined_text = {
 		}
 		localization_key = neo_socialism
     }
-
+	text = {
+		trigger = {
+			has_country_leader_ideology = classical_corporatism
+		}
+		localization_key = classical_corporatism
+    }
 	##########################################################
 
 	text = {

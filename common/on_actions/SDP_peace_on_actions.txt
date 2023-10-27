@@ -213,6 +213,12 @@ on_actions = {
 							days = 1  id = GDCintro.7 
 							}
 					}
+					NIP = {
+						country_event = {
+							id = JAP.4
+							days = 1
+						}
+					}
 					GHN = {
 						transfer_state = 326
 						add_state_core = 326
@@ -224,45 +230,6 @@ on_actions = {
 						}
 					}
 
-					set_global_flag = skip_default_capitulation
-				}
-				if = { # MMA beats SHA (Shaan Xi attack xibei crisis) 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = MMA
-								is_in_faction_with = MMA
-								is_subject_of = MMA
-							}
-						}
-						ROOT = {
-							original_tag = SHA
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-					}
-
-					MMA = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-						country_event = {
-							id = SBA.3
-							days = 1
-						}
-						set_autonomy = {
-							target = KTR
-							autonomy_state = autonomy_free
-						}
-					}
-					SHA = {
-						every_unit_leader = {
-							set_nationality = NIP
-						}
-					}
 					set_global_flag = skip_default_capitulation
 				}
 
@@ -332,22 +299,22 @@ on_actions = {
 						}
 					}
 					CJF = {
-						transfer_state = 911
-						transfer_state = 907
-						transfer_state = 908
+						transfer_state = 1049
+						add_state_core = 1049
 						transfer_state = 620
-						transfer_state = 910
-						transfer_state = 909
+						add_state_core = 620
+						transfer_state = 1048
+						add_state_core = 1048
 						transfer_state = 606
-						transfer_state = 749
-						transfer_state = 921
-						transfer_state = 922
-						transfer_state = 924
-						transfer_state = 613
-						transfer_state = 837
-						transfer_state = 625
+						add_state_core = 606
+						transfer_state = 1050
+						add_state_core = 1050
+						transfer_state = 1047
+						add_state_core = 1047
 						transfer_state = 598
-						transfer_state = 931
+						add_state_core = 598
+						transfer_state = 613
+						add_state_core = 613
 					}
 
 					set_global_flag = skip_default_capitulation
@@ -379,7 +346,29 @@ on_actions = {
 							transfer_troops = no
 						}
 					}
-
+					CJF = {
+						set_autonomy = {
+							target = HBA
+							autonomy_state = autonomy_integrated_puppet
+						}
+					}
+					HBA = {
+						transfer_state = 1058
+						transfer_state = 1059
+						transfer_state = 607
+						transfer_state = 1060
+						transfer_state = 597
+						transfer_state = 1064
+						transfer_state = 1065
+						transfer_state = 1061
+						transfer_state = 1062
+						transfer_state = 1063
+						transfer_state = 611
+						transfer_state = 614
+						transfer_state = 609
+						transfer_state = 608
+						set_cosmetic_tag = HBA_kmt
+					}
 					set_global_flag = skip_default_capitulation
 				}
 
@@ -502,7 +491,7 @@ on_actions = {
 							transfer_troops = no
 						}
 						set_cosmetic_tag = KOR_temgov
-						set_capital = { state = 890 }
+						set_capital = { state = 525 }
 						set_politics = { 
 							ruling_party = conservatism
 						}

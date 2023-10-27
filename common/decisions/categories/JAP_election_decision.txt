@@ -1,0 +1,19 @@
+JAP_election_decision = {
+	    icon = decision_category_jap_pacific_guardian
+	    picture = decision_cat_picture_JAP_election_decision
+		available = {
+			tag = NIP
+		}
+		visible = {
+           		tag = NIP
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { 
+			original_tag = NIP 
+		}
+		scripted_gui = JAP_election_decision_gui
+		visible_when_empty = yes
+    }

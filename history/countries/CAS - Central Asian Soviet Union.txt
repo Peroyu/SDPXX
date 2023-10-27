@@ -1,4 +1,4 @@
-capital =  # 首都地块
+capital = 589 # 首都地块
 
 obb = "CAS_1947"  # 军队文件
 

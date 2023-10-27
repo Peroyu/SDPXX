@@ -34,6 +34,10 @@ CJF_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
+HBA_kmt = {
+ color = rgb { 100 149 155 }
+ color_ui = rgb { 100 149 155 }
+}
 JIN_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }

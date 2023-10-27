@@ -1,5 +1,73 @@
 ideas = {
 	country = {
+		ott_vilayet_stability_idea = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ott_vilayet_stability_idea"
+				add_dynamic_modifier = { modifier = vilayet_stability_dynamic_modifier }
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea ott_vilayet_stability_idea"
+				remove_dynamic_modifier = { modifier = vilayet_stability_dynamic_modifier }
+				every_state = {
+					force_enable_resistance = { occupier = TUR clear = yes }
+					if = {
+						limit = {
+							is_core_of = TUR
+							is_controlled_by = TUR
+							has_resistance = yes
+						}
+						cancel_resistance = yes
+					}
+					if = {
+						limit = { has_dynamic_modifier = { modifier = autonomous_region } }
+						remove_dynamic_modifier = { modifier = autonomous_region }
+					}
+					if = {
+						limit = { has_dynamic_modifier = { modifier = vilayet } }
+						remove_dynamic_modifier = { modifier = vilayet }
+					}
+					if = {
+						limit = { has_dynamic_modifier = { modifier = high_revolt_risk } }
+						remove_dynamic_modifier = { modifier = high_revolt_risk }
+					}
+					if = {
+						limit = { has_dynamic_modifier = { modifier = very_high_revolt_risk } }
+						remove_dynamic_modifier = { modifier = very_high_revolt_risk }
+					}
+					if = {
+						limit = {
+							check_variable = { corruption = 2 }
+							has_state_flag = OTT_corruption_applied
+						}
+						clr_state_flag = OTT_corruption_applied
+						add_state_modifier = {
+							modifier = {
+								local_building_slots_factor = 0.20
+								local_manpower = 0.50
+							}
+						}
+					}
+					else_if = {
+						limit = {
+							check_variable = { corruption = 1 }
+							has_state_flag = OTT_corruption_applied
+						}
+						clr_state_flag = OTT_corruption_applied
+						add_state_modifier = {
+							modifier = {
+								local_building_slots_factor = 0.10
+								local_manpower = 0.25
+							}
+						}
+					}
+				}
+			}
+			picture = OTT_Sublime_Porte
+			allowed = { always = no }
+			modifier = {
+				custom_modifier_tooltip = ott_vilayet_stability_tooltip
+			}
+		}
 		TUR_Ahmet_IV = {
 		    name = TUR_Ahmet_IV
 			picture = GFX_TUR_Ahmet_IV

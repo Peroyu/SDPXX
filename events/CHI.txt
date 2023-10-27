@@ -346,10 +346,14 @@ country_event = {
 		}
 		hidden_effect = {
 			GDC = {
-				transfer_state = 900
+				transfer_state = 728
+				transfer_state = 591
+			}
+			HBA = {
+				transfer_state = 744
+				transfer_state = 996
 			}
 			CJF = {
-				transfer_state = 743
 				country_event = {
 					id = CHIpeace.4
 					days = 1
@@ -430,11 +434,16 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			
 			GDC = {
-				transfer_state = 900
+				transfer_state = 728
+				transfer_state = 591
+			}
+			HBA = {
+				transfer_state = 744
+				transfer_state = 996
 			}
 			CJF = {
-				transfer_state = 743
 				country_event = {
 					id = CHIpeace.4
 					days = 1
@@ -509,11 +518,18 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			524 = {
+				set_demilitarized_zone = yes
+			}
 			GDC = {
-				transfer_state = 900
+				transfer_state = 728
+				transfer_state = 591
+			}
+			HBA = {
+				transfer_state = 744
+				transfer_state = 996
 			}
 			CJF = {
-				transfer_state = 743
 				country_event = {
 					id = CHIpeace.4
 					days = 1

@@ -58,6 +58,7 @@ ideologies = {
 			left_wing_communism = { can_be_randomly_selected = no } 
 			republic_marxism = { can_be_randomly_selected = no } 
 			Neo_Marxism = { can_be_randomly_selected = no } 
+			committee_communism_subtype = { can_be_randomly_selected = no } 
 		}
 		
 		dynamic_faction_names = {
@@ -106,6 +107,8 @@ ideologies = {
 			left_social_democracy = { can_be_randomly_selected = no } 
 			moderate_socialist = { can_be_randomly_selected = no }
 			anarchism = { can_be_randomly_selected = no }
+			National_socialism = {can_be_randomly_selected = no}
+			christian_socialism = {can_be_randomly_selected = no}
 		}
 		
 		dynamic_faction_names = {
@@ -293,6 +296,7 @@ ideologies = {
 			christian_conservatism = { can_be_randomly_selected = no }
 			conservatism_revolutionarist = { can_be_randomly_selected = no }
 			New_nation_system = {can_be_randomly_selected = no}
+			Guided_democracy = {can_be_randomly_selected = no}
 		}
 		
 		dynamic_faction_names = {
@@ -345,6 +349,7 @@ ideologies = {
 		  Peronismo = { can_be_randomly_selected = no }
 		  Zenkoku_isseini = { can_be_randomly_selected = no }
 		  neo_socialism = { can_be_randomly_selected = no }
+		  classical_corporatism = { can_be_randomly_selected = no }
 		  neo_people_idea = { can_be_randomly_selected = no }
 		}
 		
@@ -383,7 +388,7 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	nationalism = { 
+	Nationalism = { 
 		types = {	
 			Casselism = { can_be_randomly_selected = no }		
 			ultranationalism = { can_be_randomly_selected = no }
