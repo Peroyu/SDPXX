@@ -14,6 +14,7 @@
  TUR_nationalism_party:0"突厥之家"
  TUR_restorativeism_party:0"永恒之国"
  Liberalism_drift:"社会自由主义支持度增长"
+ TUR_tt_1:"我们将对南亚次大陆发动一场快速军事打击以拯救我们的穆斯林教友"
  #国策
  
  #idea
@@ -37,7 +38,20 @@
  TUR_rename_Constantinepol_desc:"现在政权已被有福的高洁之士们掌握了，法蒂赫苏丹穆罕默德二世的意愿将在今天执行：“将君士坦丁堡更名为伊斯兰堡”，这会是许多伟大事业的开端。"
  TUR_decision_tt_1:"这将解锁穆罕默德联盟执政国策的下一阶段……"
  Islampul:"伊斯兰堡"
+ TUR_rise_generals_india:"火线提拔志愿军将领"
+ TUR_send_guns_india:"向前线输送军火"
+ TUR_breakthrough_india:"重点地区突破"
+ TUR_air_force_assistance_india:"为盟友提供空军支援"
+ TUR_train_soildiers_india:"士兵特别适应性训练"
+ TUR_block_ports_india:"封锁印度港口"
+ TUR_send_workers_india:"派遣工兵辅助作业"
+ TUR_protect_musilin_india:"武装保卫穆斯林世界"
 
+
+
+
+
+ ######
  OTT_Population_Istanbul: "主流文化：§Y土耳其§!、希腊、亚美尼亚\n主流宗教：§Y伊斯兰教逊尼派§!、东正教会"
  OTT_Population_Istanbul_desc: "闪亮辉煌的科斯坦丁尼耶是我们伟大帝国的首都，也是我们苏丹和哈里发的权力中心，数世纪来作为欧洲和中东人民和文明的大熔炉闻名于世。虽然居民主要都是土耳其人，但是也有不少希腊人和亚美尼亚人住在这里，城中的居民都可以从通过此地的贸易路线获得数不尽的利益。\n\n而城内居民的政治观点又是十分分裂的，大部分土耳其人都支持集权化改革，可是不少少数民族都害怕随后可能到来的土耳其化会剥夺他们的特殊地位。但是，两方的共同点就是都看不起安纳托利亚的农民，而当地居民和资产阶级间的隔阂也随之扩大。"
  OTT_Population_Edirne: "主流文化：§Y土耳其§!、希腊、保加利亚\n主流宗教：§Y伊斯兰教逊尼派§!、东正教会"

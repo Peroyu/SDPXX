@@ -100,6 +100,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_air.dds"
 	}
 	spriteType = {
+		name = "decision_ETH_chitet"
+		texturefile = "gfx/interface/decisions/milltary/decision_ETH_chitet.dds"
+	}
+	spriteType = {
+		name = "decision_generic_naval"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_naval.dds"
+	}
+	spriteType = {
+		name = "decision_generic_police_action"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_police_action.dds"
+	}
+	spriteType = {
 		name = "decision_generic_form_nation"
 		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
 	}

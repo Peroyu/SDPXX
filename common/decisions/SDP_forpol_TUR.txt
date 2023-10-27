@@ -1,0 +1,352 @@
+###########################
+###india civilwar ###
+###########################
+TUR_foreign_policy_category_puerto_plata = {
+	TUR_rise_generals_india = {
+
+		icon = decision_generic_police_action
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+	
+		cost = 20
+		days_remove = 10
+		days_re_enable = 50
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_send_guns_india = {
+
+		icon = decision_generic_trucks
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+	
+		cost = 10
+		days_remove = 10
+		days_re_enable = 30
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_breakthrough_india = {
+
+		icon = decision_generic_police_action
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+	
+		cost = 10
+		days_remove = 20
+		days_re_enable = 60
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_air_force_assistance_india = {
+
+		icon = decision_generic_air
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+	
+		cost = 10
+		days_remove = 20
+		days_re_enable = 30
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_train_soildiers_india = {
+
+		icon = decision_generic_police_action
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+		fire_only_once = yes
+	
+		cost = 10
+		days_remove = 20
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_block_ports_india = {
+
+		icon = decision_generic_naval
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+	
+		cost = 10
+		days_remove = 20
+		days_re_enable = 80
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_send_workers_india = {
+
+		icon = decision_generic_trucks
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+		}
+	
+		cost = 10
+		days_remove = 80
+		days_re_enable = 120
+		
+		modifier = {
+			#填入修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		targeted_modifier = {
+			#填入具有目标性的修正效果，在决议点选后、移除前作用于root作用域
+		}
+		
+		
+		complete_effect = {
+			#完成（点选）决议时触发的效果
+		}
+		
+		remove_effect = {
+			#决议移除（读条完毕）时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+
+	TUR_protect_musilin_india = {
+
+		icon = decision_ETH_chitet
+
+		available = {
+			SDP_fopo_philippines_selected = yes
+			has_country_flag = TUR_We_can_intervention_india
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_philippines_selected = yes
+			
+		}
+		fire_only_once = yes
+	
+		cost = 10
+		
+		
+		
+		complete_effect = {
+			custom_effect_tooltip = TUR_tt_1
+		}
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	
+}

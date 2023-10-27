@@ -9,6 +9,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_power_balance = {
+	id = BoP_Tab_GlobalConflicts_TUR
+}
 set_popularities = {
 	Nationalism = 2
 	reactionism = 10

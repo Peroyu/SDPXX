@@ -74,4 +74,14 @@ spriteTypes = {
 		name = "GFX_fopo_philippines_blitz_icon_jap"
 		textureFile = "gfx/interface/fopo/cate/GFX_fopo_mano_campaign_jap.png"
 	}
+
+	spriteType = {
+		name = "GFX_fopo_philippines_blitz_icon_us"
+		textureFile = "gfx/interface/fopo/cate/GFX_fopo_mano_campaign_jap.png"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_philippines_blitz_sidebar"
+		textureFile = "gfx/interface/fopo/icons/GFX_fopo_philippines_blitz_sidebar.png"
+	}
 }
