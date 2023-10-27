@@ -34,6 +34,7 @@
  left_social_democracy:0"民主社会主义"
  moderate_socialist:"温和社会主义"
  anarchism:"无政府主义"
+ left_wing_nationalsim:"左翼民族主义"
  
  social_democracy:0"社会改良主义"##############
  social_democracy_noun:"社会改良主义"
@@ -58,6 +59,7 @@
  trade_liberalism:0"贸易自由主义"
  islam_progressive:"伊斯兰民主主义"
  radical_liberalism:"激进自由主义"
+ Liberal_conservatism:"自由保守主义"
  
  movement_communism:0"社会保守主义"##########
  movement_communism_noun:"社会保守主义"
@@ -113,6 +115,7 @@
  Fundamentalism:0"教权主义"
  tribalism:0"归真主义"
  Wahhabiya:"瓦哈比主义"
+ Salafism:"萨拉菲主义"
  Anarchy_social:"回归原始"
  
  

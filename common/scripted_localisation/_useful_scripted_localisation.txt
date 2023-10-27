@@ -159,6 +159,13 @@ defined_text = {
 		}
 		localization_key = christian_socialism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = left_wing_nationalsim
+		}
+		localization_key = left_wing_nationalsim
+    }
 	##########################################################
 	text = {
 		trigger = {
@@ -224,7 +231,12 @@ defined_text = {
     }
 	
 	##############################################################
-	
+	text = {
+		trigger = {
+			has_country_leader_ideology = Liberal_conservatism
+		}
+		localization_key = Liberal_conservatism
+    }
 	
 	text = {
 		trigger = {
@@ -900,5 +912,12 @@ defined_text = {
 			has_country_leader_ideology = Anarchy_social
 		}
 		localization_key = Anarchy_social
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Salafism
+		}
+		localization_key = Salafism
     }
 }

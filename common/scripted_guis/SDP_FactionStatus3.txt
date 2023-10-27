@@ -1,0 +1,14 @@
+scripted_gui = {
+    SDP_faction_islam_status_icon = {
+		context_type = player_context 
+		parent_window_token = politics_tab
+		window_name = "SDP_faction_islam_status_icon"
+		visible = {
+		check_variable = { var = FactionStatus value = 3 compare = equals }
+		}
+		trigger = {
+			check_variable = { var = FactionStatus value = 3 compare = equals }
+		}
+
+	}
+}
