@@ -52,6 +52,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_military_operation.dds"
 	}
 	spriteType = {
+		name = "decision_category_hol_war_on_pacifism"
+		texturefile = "gfx/interface/decisions/categories/decision_category_hol_war_on_pacifism.dds"
+	}
+	spriteType = {
 		name = "GFX_decisions_GDC_hunger"
 		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
 	}

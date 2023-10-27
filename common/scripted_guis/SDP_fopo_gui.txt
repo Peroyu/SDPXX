@@ -72,7 +72,8 @@ scripted_gui = {
 		parent_window_name = powerbalanceview
 		
 		ai_enabled = { always = no }
-
+		
+	
 		dynamic_lists = {
 			conflict_tabs = {
 				array = SDP_active_conflicts

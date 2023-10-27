@@ -51,10 +51,10 @@ guiTypes = {
 			name ="paranoia_text"
 			position = { x = @PARANOIA_TEXT_X y = @PARANOIA_TEXT_Y }
 			font = "hoi_18mbs"
-			text = "SOV_paranoia_value_text"
+			text = "JAP_paranoia_value_text"
 			format = center
 			maxWidth = 400
-			pdx_tooltip = SOV_paranoia_text_tooltip
+			pdx_tooltip = JAP_paranoia_text_tooltip
 		}
 
 		#Tooltip
@@ -63,7 +63,7 @@ guiTypes = {
 			position = { x = @PARANOIA_PARANOIAMETER_BG_X y = @PARANOIA_PARANOIAMETER_BG_Y }
 			maxwidth = 230
 			maxHeight = 185
-			pdx_tooltip = SOV_paranoia_bg_tooltip
+			pdx_tooltip = JAP_paranoia_bg_tooltip
 		}
 
 	}

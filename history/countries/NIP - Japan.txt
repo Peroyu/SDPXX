@@ -22,6 +22,8 @@ add_to_faction = MAN
 add_to_faction = MEN
 add_to_faction = SHA
 add_to_faction = GNP
+
+
 NIP = {
 	puppet = JKR
 }
@@ -185,6 +187,7 @@ set_technology = {
 }
 
 #########################################################
+set_country_flag = SOV_paranoia_system_active_flag
 set_country_flag = ASIA_attend_southasia_conference
 set_popularities = {
 	reactionism = 12
