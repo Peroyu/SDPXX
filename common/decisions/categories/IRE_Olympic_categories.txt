@@ -1,0 +1,15 @@
+IRE_Olympic_categories = {
+	    icon = GFX_IRE_Olympic_categories
+	    picture = GFX_decisions_IRE_Olympic_categories
+		available = {
+	        
+		}
+		visible = {
+           NOT = { has_country_flag = IRE_Olympic_over }
+        }
+		cancel_trigger = {
+          
+        }
+        priority = 10000
+		allowed = { original_tag = IRE }
+    }

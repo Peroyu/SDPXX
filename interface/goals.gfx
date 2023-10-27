@@ -2074,7 +2074,7 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/IRE/IRE_Blood_of_the_Resisters.dds"			
 	}
 	SpriteType = {
-	name = "IRE_Both_sides_of_the_ocean"
+	name = "GFX_IRE_Both_sides_of_the_ocean"
 	texturefile = "gfx/interface/goals/IRE/IRE_Both_sides_of_the_ocean.dds"			
 	}
 	SpriteType = {

@@ -26,10 +26,13 @@ set_popularities = {
 	nationalism = 15
 }
 add_ideas = {
+IRE_The_evil_of_the_colonizers_1
+IRE_Soul_of_a_pioneer_1
+IRE_Blood_of_the_Resisters_1
 participant_of_the_revolutionary_war
 }
 country_event = {
-	id = IRE.1
+	id = IRE_boom.1
 	days = 399
 }
 create_country_leader = {

@@ -1,0 +1,198 @@
+ideas = {
+    country = {
+        IRE_Dublin_Olympics = {
+            name = IRE_Dublin_Olympics
+            picture = GFX_IRE_Dublin_Olympics
+			allowed = { 
+			   always = yes
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = 0.1
+			opinion_gain_monthly_factor = 1
+			industrial_capacity_factory = 0.05
+			line_change_production_efficiency_factor = 0.1
+			}
+	    
+		}
+		IRE_The_evil_of_the_colonizers_1 = {
+            name = IRE_The_evil_of_the_colonizers
+            picture = GFX_IRE_The_evil_of_the_colonizers
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	 
+		}
+		IRE_The_evil_of_the_colonizers_2 = {
+            name = IRE_The_evil_of_the_colonizers
+            picture = GFX_IRE_The_evil_of_the_colonizers
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.01
+			stability_factor = -0.1
+			}
+	    
+		}
+		IRE_The_evil_of_the_colonizers_3 = {
+            name = IRE_The_evil_of_the_colonizers
+            picture = GFX_IRE_The_evil_of_the_colonizers
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.01
+			stability_factor = -0.1
+			monthly_population = -0.1
+			}
+	    
+		}
+		IRE_The_evil_of_the_colonizers_4 = {
+            name = IRE_The_evil_of_the_colonizers
+            picture = GFX_IRE_The_evil_of_the_colonizers
+			allowed = { 
+			   always = no
+			}
+			available = {
+			  
+			}
+            removal_cost = -1
+            modifier = {
+			  political_power_gain = -0.01
+			  stability_factor = -0.1
+			  monthly_population = -0.1
+			  industrial_capacity_factory = -0.1
+			  production_factory_efficiency_gain_factor = -0.1
+			  line_change_production_efficiency_factor = -0.1
+			  production_factory_start_efficiency_factor = -0.1
+			  production_factory_max_efficiency_factor = -0.1
+			}
+	    
+		}
+		IRE_Soul_of_a_pioneer_1 = {
+            name = IRE_Soul_of_a_pioneer
+            picture = GFX_IRE_Soul_of_a_pioneer
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		IRE_Soul_of_a_pioneer_2 = {
+            name = IRE_Soul_of_a_pioneer
+            picture = GFX_IRE_Soul_of_a_pioneer
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			consumer_goods_factor = -0.05
+			stability_factor = 0.05
+			}
+	    
+		}
+		IRE_Blood_of_the_Resisters_1 = {
+            name = IRE_Blood_of_the_Resisters
+            picture = GFX_IRE_Blood_of_the_Resisters
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			}
+	    
+		}
+		IRE_Blood_of_the_Resisters_2 = {
+            name = IRE_Blood_of_the_Resisters
+            picture = GFX_IRE_Blood_of_the_Resisters
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			war_support_factor = 0.2
+			stability_factor = -0.15
+			}
+	    
+		}
+		IRE_Blood_of_the_Resisters_3 = {
+            name = IRE_Blood_of_the_Resisters
+            picture = GFX_IRE_Blood_of_the_Resisters
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            targeted_modifier = {
+		        tag = CAN
+				tag = ENG
+		        attack_bonus_against = 0.2
+	        }
+		}
+		IRE_Ulster_1 = {
+            name = IRE_Ulster
+            picture = GFX_IRE_Ulster
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_cost = 0.5
+			stability_factor = -0.05
+			}
+	    
+		}
+		IRE_Ulster_2 = {
+            name = IRE_Ulster
+            picture = GFX_IRE_Ulster
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			stability_factor = -0.05
+			}
+	    
+		}
+	}
+}

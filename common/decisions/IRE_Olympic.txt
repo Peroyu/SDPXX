@@ -1,0 +1,39 @@
+IRE_Olympic_categories = {                               
+	Bid_Olympics = {
+	    icon = decision_Bid_Olympics
+		available = {
+		   
+		}
+		visible = {
+		   
+		}
+        is_good = no    
+		fire_only_once = yes               
+        days_mission_timeout = 40              
+        timeout_effect = { 
+		 	country_event = {
+                id = IRE_bid_Olympic.1
+                days = 1					
+            } 
+        }
+	Build_venues_1 = {
+	    icon = decision_Build_venues_1
+		available = {
+		  
+		}
+		allowed = {
+		
+		}   
+		cancel_trigger = {
+			
+		}
+		visible = {
+		  
+		}
+        is_good = no    
+		fire_only_once = yes                         
+        complete_effect = {     
+	
+        }
+    }
+}
