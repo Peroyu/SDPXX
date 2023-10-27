@@ -146,7 +146,7 @@ CJF_drug_trade = {
 
             highlight_states = {
 			    highlight_state_targets = {
-				    state = 747
+				    state = 72
 			    }
 			    highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
 			    highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
@@ -196,7 +196,7 @@ CJF_drug_trade = {
             on_map_mode = map_only
             highlight_states = {
 			    highlight_state_targets = {
-				    state = 601
+				    state = 858
 			    }
 			    highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
 			    highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
