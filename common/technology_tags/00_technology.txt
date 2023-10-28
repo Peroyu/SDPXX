@@ -153,6 +153,11 @@ technology_folders = {
 	industry_folder = {
 		ledger = civilian
 	}
+	electronics_folder = {
+		ledger = civilian
+	}
+	
+	#dictrines
 	land_doctrine_folder = {
 		ledger = army
 		doctrine = yes
@@ -165,10 +170,13 @@ technology_folders = {
 		ledger = air
 		doctrine = yes
 	}
-	electronics_folder = {
-		ledger = civilian
+	special_forces_doctrine_folder = {
+		available = {
+			has_dlc = "Arms Against Tyranny"
+		}
+		ledger = hidden #For now
+		doctrine = yes
 	}
-	#secret_weapons_folder
 }
 
  
