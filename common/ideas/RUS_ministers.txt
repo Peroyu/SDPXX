@@ -1,0 +1,90 @@
+
+ideas = {
+	head_of_government = { ### Head of Government ###
+		RUS_Nikolai_Osinsky = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Nikolai_Osinsky"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		
+
+	}
+	person_of_dip = { ### person of dip ###
+		RUS_Georgy_safarov = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Georgy_safarov"
+			}
+			traits = {
+				person_of_dip
+			}
+		}
+		
+	}
+	person_of_arm = { ### person of arm ###
+		RUS_Genrikh_Yagoda = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Genrikh_Yagoda"
+			}
+			traits = {
+				person_of_arm
+			}
+		}
+		
+	}
+	person_of_eco = { ### person of eco ###
+		RUS_Ordzhonikidze = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ordzhonikidze"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		
+	}
+	chief_of_staff = {
+		RUS_Ieronim_Uborevich = {
+			allowed = { original_tag = RUS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea RUS_Ieronim_Uborevich"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
+		
+	}
+}	

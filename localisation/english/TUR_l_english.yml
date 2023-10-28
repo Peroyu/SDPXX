@@ -15,9 +15,17 @@
  TUR_restorativeism_party:0"永恒之国"
  Liberalism_drift:"社会自由主义支持度增长"
  TUR_tt_1:"我们将对南亚次大陆发动一场快速军事打击以拯救我们的穆斯林教友"
+ TUR_Riza_Tevfik:"里扎·特夫菲克"
+ TUR_Huseyin_Cahit_Yalcln:"侯赛因·卡希特·亚尔钦"
+ TUR_Mustafa_Sabri_Efendi:"穆斯塔法·萨布里·埃芬迪"
+ TUR_Mehmed_Cavid_Bey:"穆罕默德·贾维特贝伊"
+ TUR_Sehzade_Omer_Faruk:"欧麦尔法鲁克王子"
+ great_mufuti:"大穆夫提"
  #国策
  
  #idea
+ ott_vilayet_stability_idea: "帝国的稳定"
+ ott_vilayet_stability_idea_desc: "从叙利亚的沙漠到库尔德山区与塞浦路斯的丘陵，奥斯曼帝国控制着她辽阔帝国的臣民们。但是这些民众并不喜欢被科斯坦丁尼耶直接统治，而且他们还常常会破坏各个地区的稳定。\n\n我们维拉耶的动乱（£resistance_texticon §Y动荡度§!）越严重，我们所承受的惩罚就越大。\n\n§L以下数值将先计算各地区的数值，随后将结果累加到全帝国的总数值中，该数值将动态更新：§!\n§G低§!：£stability_texticon §R-1%§!\n§Y中§!：£stability_texticon §R-2.5%§!\n§R高§!：£stability_texticon §R-5%§!"
  TUR_Ahmet_IV:"艾哈迈德四世"
  TUR_Ahmet_IV_desc:"我们的苏丹正统治这我们的国家，尽管有时不是直接的。"
  TUR_Ottoman_USA_pact:"《奥斯曼—美国友好互助通商条约》"

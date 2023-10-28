@@ -213,6 +213,55 @@ spriteTypes = {
 		name = "GFX_idea_GDC_Chen_Yun"
 		texturefile = "gfx/interface/ministers/GDC/GFX_idea_GDC_Chen_Yun_s.png"
 	}
-	
+	################RUS########################
+	spriteType = {
+		name = "GFX_idea_RUS_Ieronim_Uborevich"
+		texturefile = "gfx/interface/ministers/RUS/GFX_idea_RUS_Ieronim_Uborevich.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_Nikolai_Osinsky"
+		texturefile = "gfx/interface/ministers/RUS/GFX_idea_RUS_Nikolai_Osinsky.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_Georgy_safarov"
+		texturefile = "gfx/interface/ministers/RUS/GFX_idea_RUS_Georgy_safarov.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_Genrikh_Yagoda"
+		texturefile = "gfx/interface/ministers/RUS/GFX_idea_RUS_Genrikh_Yagoda.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_Ordzhonikidze"
+		texturefile = "gfx/interface/ministers/RUS/GFX_idea_RUS_Ordzhonikidze.png"
+	}
+	#####TUR########################
+	spriteType = {
+		name = "GFX_idea_TUR_Sehzade_Omer_Faruk"
+		texturefile = "gfx/interface/ministers/TUR/GFX_idea_TUR_Sehzade_Omer_Faruk.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_Mustafa_Sabri_Efendi"
+		texturefile = "gfx/interface/ministers/TUR/GFX_idea_TUR_Mustafa_Sabri_Efendi.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_Huseyin_Cahit_Yalcln"
+		texturefile = "gfx/interface/ministers/TUR/GFX_idea_TUR_Huseyin_Cahit_Yalcln.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_Riza_Tevfik"
+		texturefile = "gfx/interface/ministers/TUR/GFX_idea_TUR_Riza_Tevfik.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_Mehmed_Cavid_Bey"
+		texturefile = "gfx/interface/ministers/TUR/GFX_idea_TUR_Mehmed_Cavid_Bey.png"
+	}
 }
 

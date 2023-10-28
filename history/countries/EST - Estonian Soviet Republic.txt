@@ -9,7 +9,7 @@ set_stability = 0.8
 
 
 set_politics = {
-	ruling_party = communism 
+	ruling_party = social_democracy 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -18,20 +18,23 @@ add_ideas = {
 loser_of_the_revolutionary_war
 }
 set_popularities = {
- 	moderate_socialism = 3
- 	committee_communism = 14
- 	communism = 33
- 	conservatism = 2
- 	nationalism = 27
- 	reactionism = 21
+	Liberalism = 25
+	conservatism = 8
+	movement_communism = 12
+	##Social Democrats##
+	social_democracy = 20
+	moderate_socialism = 13
+	##commic##
+	committee_communism = 10
+	communism = 12
 }
 
 
 create_country_leader = {
-	name = "EST_Karl_Sare"  
-	desc = "EST_Karl_Sare_desc"  
-	picture = "gfx/leaders/SOV/Karl_Sare.png"  
+	name = "EST_Theodor_Pool"  
+	desc = "EST_Theodor_Pool_desc"  
+	picture = "gfx/leaders/SOV/Portrait_EST_Theodor_Pool.png"  
 	expire = "1987.3.14"   
-	ideology = leninism 
+	ideology = radical_reformism 
 	traits = {  }
 }

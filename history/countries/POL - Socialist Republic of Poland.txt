@@ -26,9 +26,9 @@ set_popularities = {
 	nationalism = 12
 }
 create_country_leader = {
-		name = "POL_Marceli_Nowotko"   
-		desc = "POL_Marceli_Nowotko_desc"  
-		picture = "gfx/leaders/EU/Marceli_Nowotko.png"   
+		name = "POL_Pawel_Finder"   
+		desc = "POL_Pawel_Finder_desc"  
+		picture = "gfx/leaders/EU/Portrait_POL_Pawel_Finder.png"   
 		expire = "1959.4.5"   
 		ideology = Bolshevism
 		traits = {  }

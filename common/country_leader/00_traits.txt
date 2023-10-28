@@ -246,7 +246,9 @@ leader_traits = {
 		trade_opinion_factor = 0.2
 		global_building_slots_factor = 0.01
 	}
-
+	great_mufuti = {
+		random = no
+	}
 	###########################JAP#########
 	noble = {
 		random = no

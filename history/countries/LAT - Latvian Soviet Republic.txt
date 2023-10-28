@@ -32,9 +32,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "LAT_Jan_Rudzutaks"  
-	desc = "LAT_Jan_Rudzutaks_desc"  
-	picture = "gfx/leaders/SOV/Jan_Rudzutaks.png"  
+	name = "LAT_Vilis_Lacis"  
+	desc = "LAT_Vilis_Lacis_desc"  
+	picture = "gfx/leaders/SOV/Portrait_LAT_Vilis_Lacis.png"  
 	expire = "1957.6.3"  
 	ideology = leninism 
 	traits = {  }
