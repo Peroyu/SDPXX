@@ -14,7 +14,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_movement_communism_group"
-		texturefile = "gfx/interface/ideologies/movement_communism_group.png"
+		texturefile = "gfx/interface/ideologies/movement_communism_group.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_moderate_socialism_group"
@@ -39,22 +39,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_restorativeism_group"
 		texturefile = "gfx/interface/ideologies/Restorativeism_group.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_Three_Principles_of_the_People"
-		texturefile = "gfx/interface/ideologies/Three_Principles_of_the_People.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_Three_Principles_of_the_People_consititution"
-		texturefile = "gfx/interface/ideologies/Three_Principles_of_the_People.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_New_Three_Principles_of_the_People"
-		texturefile = "gfx/interface/ideologies/New_Three_Principles_of_the_People.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_democratic_socialism"
-		texturefile = "gfx/interface/ideologies/democratic_socialism.dds"
 	}
 	
 }
