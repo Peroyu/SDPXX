@@ -415,7 +415,7 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.1
-				nationalism_drift = 0.01
+				Nationalism_drift = 0.01
 				monthly_population = -0.08
 			}
 		}

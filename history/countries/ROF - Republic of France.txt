@@ -70,7 +70,7 @@ set_technology = {
 	construction1 = 1
 }
 set_popularities = {
- nationalism = 14
+ Nationalism = 14
  reactionism = 24
  conservatism = 32
  liberalism = 28

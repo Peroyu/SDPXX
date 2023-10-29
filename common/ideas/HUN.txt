@@ -22,7 +22,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.05
-				nationalism_drift = 0.01
+				Nationalism_drift = 0.01
 				autonomy_gain = -0.05
 				custom_effect_tooltip = HUN_dominion_name_ours
 			}

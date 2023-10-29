@@ -23,7 +23,7 @@ committee_communism = 20
 moderate_socialism = 9
 social_democracy = 9
 reactionism = 13
-nationalism = 12
+Nationalism = 12
 }
 
 create_country_leader = {

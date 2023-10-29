@@ -148,8 +148,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_eng_trade_unions_support.dds"
 	}
 	spriteType = {
-		name = "decision_generic_nationalism"
-		texturefile = "gfx/interface/decisions/decision_generic_nationalism.dds"
+		name = "decision_generic_Nationalism"
+		texturefile = "gfx/interface/decisions/decision_generic_Nationalism.dds"
 	}
 	spriteType = {
 		name = "decision_generic_prepare_civil_war"

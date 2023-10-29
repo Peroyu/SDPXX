@@ -22,7 +22,7 @@ set_popularities = {
 	reactionism = 30
 	Liberalism = 12
 	conservatism = 10
-	nationalism = 15
+	Nationalism = 15
 }
 
 # 设置领导人

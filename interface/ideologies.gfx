@@ -33,7 +33,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/reactionism_group.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_nationalism_group"
+		name = "GFX_ideology_Nationalism_group"
 		texturefile = "gfx/interface/ideologies/Nationalism_group.dds"
 	}
 	spriteType = {

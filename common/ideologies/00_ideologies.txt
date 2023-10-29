@@ -396,6 +396,7 @@ ideologies = {
 			ultranationalism = { can_be_randomly_selected = no }
 			recolonialism = { can_be_randomly_selected = no }
 			Churchillism = { can_be_randomly_selected = no }
+			Neo_system = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

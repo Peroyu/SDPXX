@@ -92,7 +92,7 @@ set_popularities = {
  movement_communism = 7
  conservatism = 2
  reactionism = 5
- nationalism = 7
+ Nationalism = 7
  restorativeism = 8
 }
 recruit_character = GDC_Chiang_Ching_Kuo

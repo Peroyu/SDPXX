@@ -24,7 +24,7 @@ set_popularities = {
  committee_communism = 10
  social_democracy = 20
  movement_communism = 8
-	nationalism = 12
+	Nationalism = 12
 }
 # 
 create_country_leader = {

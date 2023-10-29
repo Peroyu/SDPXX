@@ -254,11 +254,29 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_politics = {
+			ruling_party = Nationalism
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "NIP_Hirohito"   
+			desc = "NIP_Hirohito_desc"  
+			picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
+			expire = "1989.1.7"   
+			ideology = Neo_system
+			traits = {  }
+		}
 		load_focus_tree = NIP_focus_2
 		name = JAP.3.b
 	}
-	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		load_focus_tree = NIP_focus_3
+		name = JAP.3.c
+	}
 }
 country_event = {
     id = JAP.1

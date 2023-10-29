@@ -191,7 +191,7 @@ set_country_flag = SOV_paranoia_system_active_flag
 set_country_flag = ASIA_attend_southasia_conference
 set_popularities = {
 	reactionism = 12
-	nationalism = 19
+	Nationalism = 19
 	restorativeism = 8
 	conservatism = 15
 	movement_communism = 20
@@ -255,7 +255,7 @@ create_country_leader = {
 		desc = ""  
 		picture = ""   
 		expire = "1959.1.7"   
-		ideology = ultranationalism
+		ideology = ultraNationalism
 		traits = {  }
 	}
 	recruit_character = NIP_Nagano_Osami

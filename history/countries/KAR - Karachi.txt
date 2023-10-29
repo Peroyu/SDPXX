@@ -18,7 +18,7 @@ set_country_flag = INDIA_civilwar_participants
 set_popularities = {
  conservatism = 14
  reactionism = 40
- nationalism = 20
+ Nationalism = 20
  restorativeism = 10
  movement_communism = 16
  

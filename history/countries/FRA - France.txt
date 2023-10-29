@@ -25,7 +25,7 @@ set_popularities = {
 	Liberalism = 4
 	movement_communism = 2
 	reactionism = 3
-	nationalism = 5
+	Nationalism = 5
 }
 set_variable = { var = FactionStatus value = 2}
 ########################

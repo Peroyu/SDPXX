@@ -26,7 +26,7 @@ set_popularities = {
 	movement_communism = 1
 	conservatism = 2
 	reactionism = 7
-	nationalism = 20
+	Nationalism = 20
 }
 
 create_country_leader = {

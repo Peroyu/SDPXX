@@ -6620,7 +6620,7 @@ leader_traits = {
 		fascism_drift = 0.05
 	}
 
-	father_of_polish_nationalism = {
+	father_of_polish_Nationalism = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.1

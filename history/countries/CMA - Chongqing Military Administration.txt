@@ -103,7 +103,7 @@ set_popularities = {
 	conservatism = 8
 	Liberalism = 5
 	reactionism = 42
-	nationalism = 13
+	Nationalism = 13
 	restorativeism = 10
 }
 declare_war_on = {

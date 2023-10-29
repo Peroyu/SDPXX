@@ -18,7 +18,7 @@ set_popularities = {
 	movement_communism = 30
 	conservatism = 32
 	reactionism = 30
-	nationalism = 8
+	Nationalism = 8
 }
 create_country_leader = {
 	name = "NIC_Anastasio_Garcia"   

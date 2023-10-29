@@ -16,7 +16,7 @@ set_politics = {
 } 
 set_popularities = {
  communism = 43
- nationalism = 27
+ Nationalism = 27
  conservatism = 16
  moderate_socialism = 10
  Liberalism = 4

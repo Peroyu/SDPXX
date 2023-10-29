@@ -19,7 +19,7 @@ set_popularities = {
 	social_democracy = 2
 	communism = 5
 	reactionism = 13
-	nationalism = 2
+	Nationalism = 2
 	restorativeism = 10
 }
 

@@ -97,7 +97,7 @@ set_popularities = {
 	Liberalism = 5
 	conservatism = 25
 	reactionism = 26
-	nationalism = 24
+	Nationalism = 24
 }
 create_country_leader = {
 		name = "JKR_Endo_Ryusaku"   

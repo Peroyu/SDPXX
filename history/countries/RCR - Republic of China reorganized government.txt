@@ -57,7 +57,7 @@ set_popularities = {
 	conservatism = 24
 	Liberalism = 10
 	reactionism = 26
-	nationalism = 10
+	Nationalism = 10
 	restorativeism = 5
 }
 #####################################################start_tech

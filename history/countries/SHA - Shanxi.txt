@@ -50,7 +50,7 @@ set_popularities = {
 	conservatism = 18
 	Liberalism = 7
 	reactionism = 40
-	nationalism = 18
+	Nationalism = 18
 	restorativeism = 5
 }
 create_country_leader = {

@@ -20,7 +20,7 @@ broken_entents
 set_popularities = {
  reactionism = 7
  conservatism = 20
- nationalism = 14
+ Nationalism = 14
  Liberalism = 30
  restorativeism = 5
  social_democracy = 7

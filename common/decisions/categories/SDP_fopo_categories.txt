@@ -97,7 +97,7 @@ GER_foreign_policy_category = {
 						limit = { tag = PAL }
 						OR = {
 							has_government = communist
-							has_government = ultranationalism
+							has_government = ultraNationalism
 						}
 					}
 				}

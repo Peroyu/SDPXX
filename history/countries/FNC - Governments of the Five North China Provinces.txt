@@ -65,7 +65,7 @@ set_popularities = {
 	social_democracy = 7
 	conservatism = 9
 	reactionism = 20
-	nationalism = 23
+	Nationalism = 23
 	restorativeism = 20
 }
 add_ideas = {

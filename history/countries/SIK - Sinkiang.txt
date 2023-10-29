@@ -20,7 +20,7 @@ set_popularities = {
 	movement_communism = 30
 	reactionism = 10
 	conservatism = 20
-	nationalism = 20
+	Nationalism = 20
 }
 add_ideas = {
 export_focus

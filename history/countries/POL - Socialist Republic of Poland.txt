@@ -23,7 +23,7 @@ set_popularities = {
 	social_democracy = 16
 	Liberalism = 14
 	conservatism = 8
-	nationalism = 12
+	Nationalism = 12
 }
 create_country_leader = {
 		name = "POL_Pawel_Finder"   
