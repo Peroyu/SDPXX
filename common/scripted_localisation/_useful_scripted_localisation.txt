@@ -876,12 +876,14 @@ defined_text = {
 		}
 		localization_key = Churchillism
     }
+	
 	text = {
 		trigger = {
-			has_country_leader_ideology = Neo_system
+			has_country_leader_ideology = Neo_national_system
 		}
-		localization_key = Neo_system
+		localization_key = Neo_national_system
     }
+
 	################################################
 
 	text = {

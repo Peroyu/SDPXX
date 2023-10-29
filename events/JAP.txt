@@ -257,13 +257,16 @@ country_event = {
 		set_politics = {
 			ruling_party = Nationalism
 		}
+		set_party_name = { ideology = Nationalism long_name = NIP_Nationalism_party_1_long name = NIP_Nationalism_party_1 }
+		set_party_name = { ideology = reactionism long_name = NIP_reactionism_party_1_long name = NIP_reactionism_party_1 }
+
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "NIP_Hirohito"   
 			desc = "NIP_Hirohito_desc"  
 			picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
 			expire = "1989.1.7"   
-			ideology = Neo_system
+			ideology = Casselism
 			traits = {  }
 		}
 		load_focus_tree = NIP_focus_2
