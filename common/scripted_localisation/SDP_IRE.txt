@@ -1,0 +1,133 @@
+defined_text = {
+	name = Get_SDP_IRE_picture
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_1.id
+		}
+		localization_key = SDP_IRE_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_2.id
+		}
+		localization_key = SDP_IRE_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_3.id
+		}
+		localization_key = SDP_IRE_3
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_4.id
+		}
+		localization_key = SDP_IRE_4
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_5.id
+		}
+		localization_key = SDP_IRE_5
+	}
+	text = {
+		trigger = {
+		 AND = {
+			has_country_flag = SDP_IRE_6.id
+			check_variable = { var = SDP_IRE_6_1 value = SDP_IRE_6_0 compare = greater_than }
+			}
+		}
+		localization_key = SDP_IRE_6
+	}
+	text = {
+		trigger = {
+		 AND = {
+			has_country_flag = SDP_IRE_6.id
+			check_variable = { var = SDP_IRE_6_0 value = SDP_IRE_6_1 compare = greater_than }
+			}
+		}
+		localization_key = SDP_IRE_6_n
+	}
+	text = {
+		trigger = {
+			has_country_flag = SDP_IRE_7.id
+		}
+		localization_key = SDP_IRE_7
+	}
+}
+defined_text = {
+	name = GFX_SDP_IRE_3
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_3_1 value = SDP_IRE_3_0_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_3
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_3_0 value = SDP_IRE_3_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_3_0
+	}
+}
+defined_text = {
+	name = GFX_SDP_IRE_4
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_4_1 value = SDP_IRE_4_0 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_4
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_4_0 value = SDP_IRE_4_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_4_0
+	}
+}
+defined_text = {
+	name = GFX_SDP_IRE_5
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_5_1 value = SDP_IRE_5_0 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_5
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_5_0 value = SDP_IRE_5_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_5_0
+	}
+}
+defined_text = {
+	name = GFX_SDP_IRE_6
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_6_1 value = SDP_IRE_6_0 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_6
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_6_0 value = SDP_IRE_6_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_6_0
+	}
+}
+defined_text = {
+	name = GFX_SDP_IRE_7
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_7_1 value = SDP_IRE_7_0 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_7
+	}
+	text = {
+		trigger = {
+			check_variable = { var = SDP_IRE_7_0 value = SDP_IRE_7_1 compare = greater_than }
+		}
+		localization_key = GFX_SDP_IRE_7_0
+	}
+}
+

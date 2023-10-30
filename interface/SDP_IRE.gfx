@@ -1,0 +1,60 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_SDP_IRE_intro"
+		texturefile = "gfx/interface/IRE/SDP_IRE_intro.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_1"
+		texturefile = "gfx/interface/IRE/SDP_IRE_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_2"
+		texturefile = "gfx/interface/IRE/SDP_IRE_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_3"
+		texturefile = "gfx/interface/IRE/SDP_IRE_3.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_4"
+		texturefile = "gfx/interface/IRE/SDP_IRE_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_5"
+		texturefile = "gfx/interface/IRE/SDP_IRE_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_6"
+		texturefile = "gfx/interface/IRE/SDP_IRE_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_7"
+		texturefile = "gfx/interface/IRE/SDP_IRE_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_8"
+		texturefile = "gfx/interface/IRE/SDP_IRE_8.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_3_0"
+		texturefile = "gfx/interface/IRE/SDP_IRE_3_0.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_4_0"
+		texturefile = "gfx/interface/IRE/SDP_IRE_4_0.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_5_0"
+		texturefile = "gfx/interface/IRE/SDP_IRE_5_0.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_6_0"
+		texturefile = "gfx/interface/IRE/SDP_IRE_6_0.dds"
+	}
+	spriteType = {
+		name = "GFX_SDP_IRE_7_0"
+		texturefile = "gfx/interface/IRE/SDP_IRE_7_0.dds"
+	}
+	
+}

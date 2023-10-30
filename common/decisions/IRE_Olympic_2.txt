@@ -1,0 +1,84 @@
+IRE_Olympic_2_categories = {                               
+    Olympics_timeout = {
+	    icon = decision_Olympics
+		available = {
+		  always = no
+		}
+		activation = {
+		   has_country_flag = IRE_Build_start
+		}
+		visible = {
+		  has_country_flag = IRE_Build_start
+		}
+        is_good = no
+		fire_only_once = yes               
+        days_mission_timeout = 450              
+        timeout_effect = { 
+		
+        }
+	}
+	Build_venues_1_true={
+	    icon = decision_generic_decision   
+		visible = {
+		  hsa_country_flag = SDP_IRE_1.id
+		}                        
+        complete_effect = {
+        }
+    }
+	Build_venues_2_true={
+	    icon = decision_generic_decision  
+		visible = {
+		  hsa_country_flag = SDP_IRE_2.id
+		}                       
+        complete_effect = {
+        }
+    }
+	Build_venues_3_true={
+	    icon = decision_generic_decision   
+		visible = {
+		  hsa_country_flag = SDP_IRE_3.id
+		}                        
+        complete_effect = {
+        }
+    }
+	Build_venues_4_true={
+	    icon = decision_generic_decision  
+		visible = {
+		  hsa_country_flag = SDP_IRE_4.id
+		}                           
+        complete_effect = {
+        }
+    }
+	Build_venues_5_true={
+	    icon = decision_generic_decision  
+		visible = {
+		  hsa_country_flag = SDP_IRE_5.id
+		}                          
+        complete_effect = {
+        }
+    }
+	Build_venues_6_true={
+	    icon = decision_generic_decision  
+		visible = {
+		  hsa_country_flag = SDP_IRE_6.id
+		}                          
+        complete_effect = {
+        }
+    }
+	Build_venues_7_true={
+	    icon = decision_generic_decision   
+		visible = {
+		  hsa_country_flag = SDP_IRE_1.id
+		}                       
+        complete_effect = {
+        }
+    }
+	Build_venues_8_true={
+	    icon = decision_generic_decision  
+		visible = {
+		  hsa_country_flag = SDP_IRE_8.id
+		}                        
+        complete_effect = {
+        }
+    }
+}
