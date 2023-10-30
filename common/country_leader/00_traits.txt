@@ -246,7 +246,9 @@ leader_traits = {
 		trade_opinion_factor = 0.2
 		global_building_slots_factor = 0.01
 	}
-
+	great_mufuti = {
+		random = no
+	}
 	###########################JAP#########
 	noble = {
 		random = no
@@ -6618,7 +6620,7 @@ leader_traits = {
 		fascism_drift = 0.05
 	}
 
-	father_of_polish_nationalism = {
+	father_of_polish_Nationalism = {
 		random = no
 		sprite = 13
 		political_power_factor = 0.1

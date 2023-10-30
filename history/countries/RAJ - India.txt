@@ -20,7 +20,7 @@ set_popularities = {
 	movement_communism =  11
 	conservatism = 16
 	reactionism = 4
-	nationalism = 11
+	Nationalism = 11
 	restorativeism = 12
 }
 declare_war_on = {

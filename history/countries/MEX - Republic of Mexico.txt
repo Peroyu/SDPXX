@@ -23,7 +23,7 @@ set_popularities = {
 	conservatism = 33
 	movement_communism = 13
 	reactionism= 17
-	nationalism = 3
+	Nationalism = 3
 }
 
 # 设置领导人

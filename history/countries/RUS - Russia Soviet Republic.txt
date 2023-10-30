@@ -34,9 +34,11 @@ set_variable = { var = SDP_science_v value = 32 }#50
 set_variable = { var = SDP_politics_v value = 48 }#60
 ########################
  add_ideas = {
-		SOV_Malenkov
-		SOV_Molotov
-		SOV_Stalin
+		RUS_Nikolai_Osinsky
+		RUS_Georgy_safarov
+		RUS_Genrikh_Yagoda
+		RUS_Ordzhonikidze
+		RUS_Ieronim_Uborevich
 		###########
 		SOV_legacy_of_the_second_revolutionary_war
 		SOV_great_red_october

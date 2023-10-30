@@ -20,7 +20,7 @@ set_popularities = {
 	moderate_socialism = 14
 	liberalism = 5
 	conservatism = 4
-	nationalism = 3
+	Nationalism = 3
 	reactionism = 5
 	movement_communism = 5
 }

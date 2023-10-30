@@ -21,7 +21,7 @@ set_popularities = {
 	movement_communism = 20
 	conservatism = 40
 	reactionism = 10
-	nationalism = 4
+	Nationalism = 4
 	restorativeism = 6
 }
 

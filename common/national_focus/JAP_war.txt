@@ -1,0 +1,749 @@
+focus_tree = {
+	id = NIP_focus_3
+	country = {
+		factor = 0
+	}
+	default = no
+	focus = {
+		id = NIP_the_war_begin
+		icon = GFX_NIP_the_war_begin
+		cost = 1.00
+		x = 24
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_reconstruct_base_camp
+		icon = GFX_NIP_reconstruct_base_camp
+		prerequisite = { 
+			focus = NIP_the_war_begin
+		}
+		cost = 2
+		x = 24
+		y = 1
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_war_outside_the_war
+		icon = GFX_NIP_war_outside_the_war
+		prerequisite = { 
+			focus = NIP_reconstruct_base_camp
+		}
+		cost = 2
+		x = 12
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_special_loan_fees
+		icon = GFX_NIP_special_loan_fees
+		prerequisite = { 
+			focus = NIP_war_outside_the_war
+		}
+		cost = 2
+		x = 6
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_simplify_loan_laws
+		icon = GFX_NIP_simplify_loan_laws
+		prerequisite = { 
+			focus = NIP_special_loan_fees
+		}
+		cost = 2
+		x = 6
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_use_central_store_fees
+		icon = GFX_NIP_use_central_store_fees
+		prerequisite = { 
+			focus = NIP_simplify_loan_laws
+		}
+		cost = 2
+		x = 5
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_reorgnise_planning_department
+		icon = GFX_NIP_reorgnise_planning_department
+		prerequisite = { 
+			focus = NIP_war_outside_the_war
+		}
+		cost = 2
+		x = 18
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_mobalise_national_industry
+		icon = GFX_NIP_mobalise_national_industry
+		prerequisite = { 
+			focus = NIP_reorgnise_planning_department
+		}
+		cost = 2
+		x = 18
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_mobalise_countryside_soldiers
+		icon = GFX_NIP_mobalise_countryside_soldiers
+		prerequisite = { 
+			focus = NIP_mobalise_national_industry
+		}
+		cost = 2
+		x = 19
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_senkin_bank_official
+		icon = GFX_NIP_senkin_bank_official
+		prerequisite = { 
+			focus = NIP_special_loan_fees
+		}
+		prerequisite = { 
+			focus = NIP_reorgnise_planning_department
+		}
+		cost = 2
+		x = 12
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_jitian_washington_trip
+		icon = GFX_NIP_jitian_washington_trip
+		prerequisite = { 
+			focus = NIP_senkin_bank_official
+		}
+		cost = 2
+		x = 12
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_communicate_with_wallstreat
+		icon = GFX_NIP_communicate_with_wallstreat
+		prerequisite = { 
+			focus = NIP_jitian_washington_trip
+		}
+		cost = 2
+		x = 9
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_stable_japen_yuan
+		icon = GFX_NIP_stable_japen_yuan
+		prerequisite = { 
+			focus = NIP_communicate_with_wallstreat
+		}
+		prerequisite = { 
+			focus = NIP_use_central_store_fees
+		}
+		cost = 2
+		x = 6
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_ensure_japen_yuan_sphere
+		icon = GFX_NIP_ensure_japen_yuan_sphere
+		prerequisite = { 
+			focus = NIP_stable_japen_yuan
+		}
+		cost = 2
+		x = 3
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_restart_gold_production_law
+		icon = GFX_NIP_restart_gold_production_law
+		prerequisite = { 
+			focus = NIP_stable_japen_yuan
+		}
+		cost = 2
+		x = 9
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_japen_america_cooperate
+		icon = GFX_NIP_japen_america_cooperate
+		prerequisite = { 
+			focus = NIP_restart_gold_production_law
+		}
+		prerequisite = { 
+			focus = NIP_ensure_japen_yuan_sphere
+		}
+		cost = 2
+		x = 6
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_speech_in_congress
+		icon = GFX_NIP_speech_in_congress
+		prerequisite = { 
+			focus = NIP_jitian_washington_trip
+		}
+		cost = 2
+		x = 15
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_national_industry
+		icon = GFX_NIP_national_industry
+		prerequisite = { 
+			focus = NIP_mobalise_countryside_soldiers
+		}
+		prerequisite = { 
+			focus = NIP_speech_in_congress
+		}
+		cost = 2
+		x = 18
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_national_spirit_movement
+		icon = GFX_NIP_national_spirit_movement
+		prerequisite = { 
+			focus = NIP_national_industry
+		}
+		cost = 2
+		x = 15
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_to_public_movement
+		icon = GFX_NIP_to_public_movement
+		prerequisite = { 
+			focus = NIP_national_industry
+		}
+		cost = 2
+		x = 21
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_remenber_china_event
+		icon = GFX_NIP_remenber_china_event
+		prerequisite = { 
+			focus = NIP_to_public_movement
+		}
+		prerequisite = { 
+			focus = NIP_national_spirit_movement
+		}
+		cost = 2
+		x = 18
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = NIP_war_intside_the_war
+		icon = GFX_NIP_war_intside_the_war
+		prerequisite = { 
+			focus = NIP_reconstruct_base_camp
+		}
+		cost = 2
+		x = 33
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_continent_event
+		icon = GFX_NIP_continent_event
+		prerequisite = { 
+			focus = NIP_war_intside_the_war
+		}
+		cost = 2
+		x = 33
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_reorgnise_china_army
+		icon = GFX_NIP_reorgnise_china_army
+		prerequisite = { 
+			focus = NIP_continent_event
+		}
+		cost = 2
+		x = 27
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_broade_prepared_army
+		icon = GFX_NIP_broade_prepared_army
+		prerequisite = { 
+			focus = NIP_continent_event
+		}
+		cost = 2
+		x = 33
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_chaoxianggong_work
+		icon = GFX_NIP_chaoxianggong_work
+		prerequisite = { 
+			focus = NIP_broade_prepared_army
+		}
+		prerequisite = { 
+			focus = NIP_reorgnise_china_army
+		}
+		cost = 2
+		x = 30
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_north_china_defence
+		icon = GFX_NIP_north_china_defence
+		prerequisite = { 
+			focus = NIP_chaoxianggong_work
+		}
+		cost = 2
+		x = 33
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_intigrate_beijing
+		icon = GFX_NIP_intigrate_beijing
+		prerequisite = { 
+			focus = NIP_north_china_defence
+		}
+		cost = 2
+		x = 33
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_south_china_defence
+		icon = GFX_NIP_south_china_defence
+		prerequisite = { 
+			focus = NIP_chaoxianggong_work
+		}
+		cost = 2
+		x = 27
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_intigrate_nanjing
+		icon = GFX_NIP_intigrate_nanjing
+		prerequisite = { 
+			focus = NIP_south_china_defence
+		}
+		cost = 2
+		x = 27
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_prepare_war_mood
+		icon = GFX_NIP_prepare_war_mood
+		prerequisite = { 
+			focus = NIP_intigrate_nanjing
+		}
+		prerequisite = { 
+			focus = NIP_intigrate_beijing
+		}
+		cost = 2
+		x = 30
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_to_battlefield
+		icon = GFX_NIP_to_battlefield
+		prerequisite = { 
+			focus = NIP_prepare_war_mood
+		}
+		cost = 2
+		x = 30
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_new_tax_in_zhongdao_industry
+		icon = GFX_NIP_new_tax_in_zhongdao_industry
+		prerequisite = { 
+			focus = NIP_continent_event
+		}
+		cost = 2
+		x = 39
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_hand_out_war_ding
+		icon = GFX_NIP_hand_out_war_ding
+		prerequisite = { 
+			focus = NIP_new_tax_in_zhongdao_industry
+		}
+		cost = 2
+		x = 39
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_buy_victory_ship
+		icon = GFX_NIP_buy_victory_ship
+		prerequisite = { 
+			focus = NIP_new_tax_in_zhongdao_industry
+		}
+		cost = 2
+		x = 45
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_ensure_ocean_lifeline
+		icon = GFX_NIP_ensure_ocean_lifeline
+		prerequisite = { 
+			focus = NIP_buy_victory_ship
+		}
+		prerequisite = { 
+			focus = NIP_hand_out_war_ding
+		}
+		cost = 2
+		x = 42
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_japen_america_trade
+		icon = GFX_NIP_japen_america_trade
+		prerequisite = { 
+			focus = NIP_ensure_ocean_lifeline
+		}
+		cost = 2
+		x = 42
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_cloth_to_guns
+		icon = GFX_NIP_cloth_to_guns
+		prerequisite = { 
+			focus = NIP_japen_america_trade
+		}
+		cost = 2
+		x = 42
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_over_ocean
+		icon = GFX_NIP_over_ocean
+		prerequisite = { 
+			focus = NIP_cloth_to_guns
+		}
+		cost = 2
+		x = 42
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+
+	####
+	focus = {
+		id = NIP_war_and_war
+		icon = GFX_NIP_war_and_war
+		prerequisite = { 
+			focus = NIP_over_ocean
+			focus = NIP_to_battlefield
+			focus = NIP_remenber_china_event
+			focus = NIP_japen_america_cooperate
+		}
+		cost = 2
+		x = 24
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_battle_department_congress
+		icon = GFX_NIP_battle_department_congress
+		prerequisite = { 
+			focus = NIP_war_and_war
+		}
+		cost = 2
+		x = 24
+		y = 11
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_sponges_squeeze
+		icon = GFX_NIP_sponges_squeeze
+		prerequisite = { 
+			focus = NIP_battle_department_congress
+		}
+		cost = 2
+		x = 15
+		y = 12
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_news_limitation
+		icon = GFX_NIP_news_limitation
+		prerequisite = { 
+			focus = NIP_sponges_squeeze
+		}
+		cost = 2
+		x = 15
+		y = 13
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_buy_songs
+		icon = GFX_NIP_buy_songs
+		prerequisite = { 
+			focus = NIP_news_limitation
+		}
+		cost = 2
+		x = 12
+		y = 14
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_good_in_news
+		icon = GFX_NIP_good_in_news
+		prerequisite = { 
+			focus = NIP_buy_songs
+		}
+		cost = 2
+		x = 12
+		y = 15
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_remenber_st_war
+		icon = GFX_NIP_remenber_st_war
+		prerequisite = { 
+			focus = NIP_news_limitation
+		}
+		cost = 2
+		x = 18
+		y = 14
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_to_lord_and_country
+		icon = GFX_NIP_to_lord_and_country
+		prerequisite = { 
+			focus = NIP_remenber_st_war
+		}
+		cost = 2
+		x = 18
+		y = 15
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_japen_america_milltary_cooperate
+		icon = GFX_NIP_japen_america_milltary_cooperate
+		prerequisite = { 
+			focus = NIP_battle_department_congress
+		}
+		cost = 2
+		x = 24
+		y = 12
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_allow_continent_airbase
+		icon = GFX_NIP_allow_continent_airbase
+		prerequisite = { 
+			focus = NIP_japen_america_milltary_cooperate
+		}
+		cost = 2
+		x = 24
+		y = 13
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_three_clear
+		icon = GFX_NIP_three_clear
+		prerequisite = { 
+			focus = NIP_battle_department_congress
+		}
+		cost = 2
+		x = 33
+		y = 12
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_milltary_tax
+		icon = GFX_NIP_milltary_tax
+		prerequisite = { 
+			focus = NIP_three_clear
+		}
+		cost = 2
+		x = 33
+		y = 13
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_badness
+		icon = GFX_NIP_badness
+		prerequisite = { 
+			focus = NIP_milltary_tax
+		}
+		cost = 2
+		x = 30
+		y = 14
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_to_red
+		icon = GFX_NIP_to_red
+		prerequisite = { 
+			focus = NIP_badness
+		}
+		cost = 2
+		x = 30
+		y = 15
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_plant_sakura
+		icon = GFX_NIP_plant_sakura
+		prerequisite = { 
+			focus = NIP_milltary_tax
+		}
+		cost = 2
+		x = 36
+		y = 14
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_japen_china_well
+		icon = GFX_NIP_japen_china_well
+		prerequisite = { 
+			focus = NIP_plant_sakura
+		}
+		cost = 2
+		x = 36
+		y = 15
+		completion_reward = { 
+			
+			}
+	}
+}	

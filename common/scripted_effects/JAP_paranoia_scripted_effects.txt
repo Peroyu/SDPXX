@@ -1,0 +1,353 @@
+
+#####
+##### PARANOIA SYSTEM #####
+#####
+
+SOV_paranoia_very_low_increase_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_very_low_increase_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_very_low_increase }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_low_increase_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_low_increase_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_low_increase }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_medium_increase_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_medium_increase_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_medium_increase }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_high_increase_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_high_increase_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_high_increase }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_very_high_increase_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_very_high_increase_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_very_high_increase }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_low_decrease_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_low_decrease_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_low_decrease }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_medium_decrease_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_medium_decrease_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_medium_decrease }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_high_decrease_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_high_decrease_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_high_decrease }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_very_high_decrease_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		custom_effect_tooltip = SOV_paranoia_very_high_decrease_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_paranoia_very_high_decrease }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+	}
+}
+
+SOV_paranoia_increase_based_on_unit_leader_level_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		#custom_effect_tooltip = SOV_paranoia_increase_based_on_unit_leader_level_effect_tt
+		add_to_variable = { SOV_paranoia = SOV_unit_leader_level }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+		clear_variable = SOV_unit_leader_level
+	}
+}
+
+SOV_paranoia_decrease_based_on_unit_leader_level_effect = {
+	if = {
+		limit = {
+			has_country_flag = SOV_paranoia_system_active_flag
+		}
+		#custom_effect_tooltip = SOV_paranoia_decrease_based_on_unit_leader_level_effect_tt
+		subtract_from_variable = { SOV_paranoia = SOV_unit_leader_level }
+		SOV_paranoia_clamp_and_update_ui_effect = yes
+		clear_variable = SOV_unit_leader_level
+	}
+}
+
+SOV_paranoia_modifier_increase_effect = { #Called on_weekly to apply the modifier
+	custom_effect_tooltip = SOV_paranoia_modifier_increase_effect_tt
+	set_temp_variable = { SOV_paranoia_total_weekly_modifier_increase = SOV_paranoia_modifier_increase } #Get default weekly modifier increase value
+	multiply_temp_variable = { SOV_paranoia_total_weekly_modifier_increase = SOV_paranoia_weekly_modifiers_amount } #Multiply default weekly modifier increase by the number of active weekly modifiers
+	add_to_variable = { SOV_paranoia = SOV_paranoia_total_weekly_modifier_increase } #Apply the result and add to Paranoia
+	SOV_paranoia_clamp_and_update_ui_effect = yes
+}
+
+SOV_paranoia_modifier_update_gui_tooltip = { #Only updates the tooltip in the decision GUI
+	ROOT = { set_variable = { SOV_paranoia_weekly_modifier_ui = SOV_paranoia_modifier_increase } } #Get default weekly modifier increase value
+	ROOT = { multiply_variable = { SOV_paranoia_weekly_modifier_ui = SOV_paranoia_weekly_modifiers_amount } } #Multiply default weekly modifier increase by the number of active weekly modifiers
+}
+
+SOV_paranoia_clamp_and_update_ui_effect = {
+	clamp_variable = {
+		var = SOV_paranoia
+		min = 0
+		max = 100
+	}
+	SOV_update_ui_effect = yes
+}
+
+SOV_paranoia_increase_purge_counter_regular = {
+	add_to_variable = { SOV_regular_purge_counter = 1 }
+	add_to_variable = { SOV_total_purge_counter = 1 }
+}
+
+SOV_paranoia_increase_purge_counter_great = {
+	add_to_variable = { SOV_great_purge_counter = 1 }
+	add_to_variable = { SOV_total_purge_counter = 1 }
+}
+
+SOV_initiate_paranoia_effect = { #PARANOIA SYSTEM STARTS, GOOD LUCK COMRADE
+	set_country_flag = SOV_paranoia_system_active_flag #Uh oh...
+
+	#Stalin gets paranoid
+	add_country_leader_trait = stalin_political_paranoia
+
+	#NKVD chiefs will make Political Paranoia worse
+	remove_trait = {
+		character = SOV_genrikh_yagoda
+		slot = political_advisor
+		trait = head_of_the_nkvd_yagoda_initial
+	}
+	add_trait = {
+		character = SOV_genrikh_yagoda
+		slot = political_advisor
+		trait = head_of_the_nkvd_yagoda
+	}
+
+	remove_trait = {
+		character = SOV_nikolay_yezhov
+		slot = political_advisor
+		trait = head_of_the_nkvd_yezhov_initial
+	}
+	add_trait = {
+		character = SOV_nikolay_yezhov
+		slot = political_advisor
+		trait = head_of_the_nkvd_yezhov
+	}
+
+	remove_trait = {
+		character = SOV_lavrenty_beriya
+		slot = political_advisor
+		trait = head_of_the_nkvd_beriya_initial
+	}
+	add_trait = {
+		character = SOV_lavrenty_beriya
+		slot = political_advisor
+		trait = head_of_the_nkvd_beriya
+	}
+}
+
+SOV_remove_paranoia_effect = { # NO MORE PARANOIA, COMRADES
+	custom_effect_tooltip = SOV_stalins_cult_of_personality_tt
+	set_variable = { SOV_paranoia = 0 }
+	set_variable = { SOV_paranoia_modifier_increase = 0 }
+	SOV_paranoia_clamp_and_update_ui_effect = yes
+	clr_country_flag = SOV_paranoia_system_active_flag
+	clr_country_flag = SOV_paranoia_modifier_active_flag
+	if = {
+		limit = {
+			has_country_leader_with_trait = stalin_political_paranoia_advanced
+		}
+		remove_country_leader_trait = stalin_political_paranoia_advanced
+	}
+	else_if = {
+		limit = {
+			has_country_leader_with_trait = stalin_political_paranoia
+		}
+		remove_country_leader_trait = stalin_political_paranoia
+	}
+
+	#No more paranoia from NKVD chiefs
+	hidden_effect = {
+		if = {
+			limit = {
+				has_character = SOV_genrikh_yagoda
+			}
+
+			#Remove old trait
+			if = {
+				limit = {
+					SOV_genrikh_yagoda = {
+						has_trait = head_of_the_nkvd_yagoda_initial
+					}
+				}
+				remove_trait = {
+					character = SOV_genrikh_yagoda
+					trait = head_of_the_nkvd_yagoda_initial
+					slot = political_advisor
+				}
+			}
+			else_if = {
+				limit = {
+					SOV_genrikh_yagoda = {
+						has_trait = head_of_the_nkvd_yagoda
+					}
+				}
+				remove_trait = {
+					character = SOV_genrikh_yagoda
+					trait = head_of_the_nkvd_yagoda
+					slot = political_advisor
+				}
+			}
+
+			#Add final trait
+			add_trait = {
+				character = SOV_genrikh_yagoda
+				trait = head_of_the_nkvd_yagoda_no_paranoia
+				slot = political_advisor
+			}
+			set_can_be_fired_in_advisor_role = {
+				character = SOV_genrikh_yagoda 
+				value = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_character = SOV_nikolay_yezhov
+			}
+
+			#Remove old trait
+			if = {
+				limit = {
+					SOV_nikolay_yezhov = {
+						has_trait = head_of_the_nkvd_yezhov_initial
+					}
+				}
+				remove_trait = {
+					character = SOV_nikolay_yezhov
+					trait = head_of_the_nkvd_yezhov_initial
+					slot = political_advisor
+				}
+			}
+			else_if = {
+				limit = {
+					SOV_nikolay_yezhov = {
+						has_trait = head_of_the_nkvd_yezhov
+					}
+				}
+				remove_trait = {
+					character = SOV_nikolay_yezhov
+					trait = head_of_the_nkvd_yezhov
+					slot = political_advisor
+				}
+			}
+			
+			#Add final trait
+			add_trait = {
+				character = SOV_nikolay_yezhov
+				trait = head_of_the_nkvd_yezhov_no_paranoia
+				slot = political_advisor
+			}
+			set_can_be_fired_in_advisor_role = {
+				character = SOV_nikolay_yezhov 
+				value = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_character = SOV_lavrenty_beriya
+			}
+
+			#Remove old trait
+			if = {
+				limit = {
+					SOV_lavrenty_beriya = {
+						has_trait = head_of_the_nkvd_beriya_initial
+					}
+				}
+				remove_trait = {
+					character = SOV_lavrenty_beriya
+					trait = head_of_the_nkvd_beriya_initial
+					slot = political_advisor
+				}
+			}
+			else_if = {
+				limit = {
+					SOV_lavrenty_beriya = {
+						has_trait = head_of_the_nkvd_beriya
+					}
+				}
+				remove_trait = {
+					character = SOV_lavrenty_beriya
+					trait = head_of_the_nkvd_beriya
+					slot = political_advisor
+				}
+			}
+			
+			#Add final trait
+			add_trait = {
+				character = SOV_lavrenty_beriya
+				trait = head_of_the_nkvd_beriya_no_paranoia
+				slot = political_advisor
+			}
+			set_can_be_fired_in_advisor_role = {
+				character = SOV_lavrenty_beriya 
+				value = yes
+			}
+		}
+	}
+}

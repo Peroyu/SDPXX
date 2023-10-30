@@ -149,7 +149,7 @@ shared_focus = {
             add_popularity = { ideology = communism popularity = 0.01 }
 			add_popularity = { ideology = committee_communism popularity = 0.01 }
 			add_popularity = { ideology = reactionism popularity = 0.01 }
-			add_popularity = { ideology = nationalism popularity = 0.01 }
+			add_popularity = { ideology = Nationalism popularity = 0.01 }
 			add_popularity = { ideology = restorativeism popularity = 0.01 }
 			country_event = { id = IRE.10 days = 1 }
 			swap_ideas = {

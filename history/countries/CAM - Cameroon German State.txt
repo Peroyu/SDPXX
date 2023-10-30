@@ -19,7 +19,7 @@ add_ideas = {
 broken_entents
 }
 set_popularities = {
- nationalism = 19
+ Nationalism = 19
  reactionism = 16
  restorativeism = 36
  conservatism = 9

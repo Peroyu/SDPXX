@@ -17,7 +17,7 @@ set_politics = {
 # 
 set_popularities = {
 	reactionism = 25
- nationalism = 24
+ Nationalism = 24
  restorativeism = 16
  Liberalism = 14
  conservatism = 12
@@ -30,7 +30,7 @@ create_country_leader = {
 	desc = "/"  # 
 	picture = "GFX_portrait_TUN_Bourguiba"  # 
 	expire = "1953.4.30"  # 
-	ideology = revolutionary_nationalism # 
+	ideology = revolutionary_Nationalism # 
 	traits = {  # 
 		#
 	}

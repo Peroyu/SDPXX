@@ -9,6 +9,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+set_power_balance = {
+	id = BoP_Tab_GlobalConflicts_TUR
+}
+set_variable = { var = FactionStatus value = 3}
 set_popularities = {
 	Nationalism = 2
 	reactionism = 10
@@ -20,6 +24,28 @@ set_popularities = {
 	moderate_socialism = 8
 }
 add_ideas = {
+	universal_suffrage
+	multicultural
+	state_religion
+	mass_conscription
+	militarized_police
+	censorship
+	regulatory_bodies
+	compulsory_primary_school
+	no_womens_rights
+	poor_laws
+	tenant_farmers
+	land_based_taxation
+	free_trade_policy
+	public_schools
+	charitable_health_system
+	#####
+	TUR_Riza_Tevfik
+	TUR_Sehzade_Omer_Faruk
+	TUR_Huseyin_Cahit_Yalcln
+	TUR_Mustafa_Sabri_Efendi
+	TUR_Mehmed_Cavid_Bey
+	######
 	TUR_Ahmet_IV
 	TUR_Ottoman_honor
 	TUR_plan_of_cultural_revival

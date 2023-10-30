@@ -55,7 +55,7 @@ CHI_international_bought = {
 		
 		highlight_states = {
 			highlight_state_targets = {
-				state = 756
+				state = 1083
 			}
 			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
 			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）

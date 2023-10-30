@@ -1,0 +1,463 @@
+﻿add_namespace = CJF_Dai_Jitap
+country_event = {
+    id = CJF_Dai_Jitap.1  #陈立夫亲自前往重庆党部进行盘点，发现吃空饷问题很严重，在沦陷时期大批两面派闲杂人等冒领党费，决定必须要严加惩处。
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.1 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.1.t
+	desc = CJF_Dai_Jitap.1.d
+	picture = GFX_CJF_Dai_Jitap_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.1.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.2  #新加入的kmt党员向孙文画像和戴季陶画像宣誓，一大批路名改名为中山路，四川广汉作为戴季陶的诞生地也改名传贤县，城市也开始出现他们的塑像。
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.2 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.2.t
+	desc = CJF_Dai_Jitap.2.d
+	picture = GFX_CJF_Dai_Jitap_2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.2.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.3  #新选举戴之后的kmt中央监察委员会主席，邵元冲/居正。
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.3 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.3.t
+	desc = CJF_Dai_Jitap.3.d
+	picture = GFX_CJF_Dai_Jitap_3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.3.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.4  #kmt某处党部分发孙文文集，书记长进行讲授，并要求背诵
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.4 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.4.t
+	desc = CJF_Dai_Jitap.4.d
+	picture = GFX_CJF_Dai_Jitap_4
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.4.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.5  #四川某县党部被选出来的精英接受潜伏培训后前往湖北发展kmt地下抵抗组织，同家人道别
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.5 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.5.t
+	desc = CJF_Dai_Jitap.5.d
+	picture = GFX_CJF_Dai_Jitap_5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.5.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.6  #重庆某中学学生积极响应知识青年从军的号召，加入三青团，负责接收工作的团长马鹤凌带领他们宣誓。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.6 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.6.t
+	desc = CJF_Dai_Jitap.6.d
+	picture = GFX_CJF_Dai_Jitap_6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.6.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.7 #乡村农民之间的互助（大嘘）
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.6 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.7.t
+	desc = CJF_Dai_Jitap.7.d
+	picture = GFX_CJF_Dai_Jitap_7
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.7.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.8 #乡绅长老审判一桩儿子殴打父亲的案件，对儿子予以处罚，村民纷纷附和罚得好
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.8 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.8.t
+	desc = CJF_Dai_Jitap.8.d
+	picture = GFX_CJF_Dai_Jitap_8
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.8.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.9 #某村农民在民团团丁的指导下耕作，训练，读书的日常。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.9 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.9.t
+	desc = CJF_Dai_Jitap.9.d
+	picture = GFX_CJF_Dai_Jitap_9
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.9.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.10 #新编的抗日戏剧公演，文艺评论家们一片好评
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.10 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.10.t
+	desc = CJF_Dai_Jitap.10.d
+	picture = GFX_CJF_Dai_Jitap_10
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.10.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.11 #村民们选举乡贤代表参与国民参政会
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.11 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.11.t
+	desc = CJF_Dai_Jitap.11.d
+	picture = GFX_CJF_Dai_Jitap_11
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.11.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.12 #中国民主政团同盟青年党籍的李璜被行政院长朱家骅聘请为经济部长，四川本地势力纷纷前来道贺
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.12 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.12.t
+	desc = CJF_Dai_Jitap.12.d
+	picture = GFX_CJF_Dai_Jitap_12
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.12.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.13 #在自己的勉仁中学视察教务的梁漱溟参议员正因自己多次提案被无视怏怏不乐，北大的老校长蒋梦麟来，告知他戴总裁亲自审议了他的提案，很认可，并希望聘请他到农业复兴委员会任职。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.13 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.13.t
+	desc = CJF_Dai_Jitap.13.d
+	picture = GFX_CJF_Dai_Jitap_13
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.13.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.14 #朱家骅听取民盟内部和参政会的意见，青年党一派认为要将投资重点放在城市现代化，但梁漱溟等乡建保守派希望对农村的建设加以支持。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.14 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.14.t
+	desc = CJF_Dai_Jitap.14.d
+	picture = GFX_CJF_Dai_Jitap_14
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.14.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.15 #张子雄正在号召机器厂工会的工人参与罢工，反对因为战备延长工时，但突然有宪兵来宣布，他们的集会是不允许的，张子雄被逮捕了，但厂长和董事们也因为劳动工时过高遭到了罚款，工会现在是协调劳资，合力抗战的地方。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.15 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.15.t
+	desc = CJF_Dai_Jitap.15.d
+	picture = GFX_CJF_Dai_Jitap_15
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.15.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.16 #重庆路面上突然出现了不少宪兵，不仅管辖醉酒打架斗殴之类的治安问题，还抓捕了很多日本间谍，一切显得井井有条（大嘘）
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.16 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.16.t
+	desc = CJF_Dai_Jitap.16.d
+	picture = GFX_CJF_Dai_Jitap_16
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.16.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.17 #戴季陶在参政会表态，要完全贯彻三民主义，将国民革命进行到底。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.17 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.17.t
+	desc = CJF_Dai_Jitap.17.d
+	picture = GFX_CJF_Dai_Jitap_17
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.17.a
+	}
+	
+}
+
+country_event = {
+    id = CJF_Dai_Jitap.18 #李石曾向法公社转达新的国民政府的外交方针，即希望法国方面给予更丰厚的援助，作为瓷担当桥头堡，抵抗霓虹的报酬。
+
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_Dai_Jitap.18 FROM = [From.GetName]" }
+	title = CJF_Dai_Jitap.18.t
+	desc = CJF_Dai_Jitap.18.d
+	picture = GFX_CJF_Dai_Jitap_18
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CJF_Dai_Jitap.18.a
+	}
+	
+}

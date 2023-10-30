@@ -23,7 +23,7 @@ set_popularities = {
 	movement_communism = 31
 	conservatism = 10
 	reactionism = 10
-	nationalism = 15
+	Nationalism = 15
 }
 add_ideas = {
 IRE_The_evil_of_the_colonizers_1

@@ -33,7 +33,7 @@ guiTypes = {
 			gridboxtype = {
 				name = "decision_grid"
 				position = { x = 550 y = 80 }
-				size = { width = 100%% height = 1 }
+				size = { width = 100%% height = 800 }
 				slotsize = { width = 502 height = 40 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"

@@ -74,7 +74,7 @@ set_popularities = {
 	conservatism = 6
 	movement_communism = 5
 	reactionism = 4
-	nationalism = 2
+	Nationalism = 2
 }
 set_variable = { var = GDC.GDC_crop_gain value = 5 }
 set_variable = { var = GDC.GDC_crop_reserves value = 130 }

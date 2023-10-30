@@ -12,3 +12,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/factions/faction_isu.dds"
 	}
 }
+spriteTypes = {
+    spriteType = {
+		name = "GFX_faction_islam"
+		texturefile = "gfx/interface/factions/GFX_faction_islam.png"
+	}
+}

@@ -29,7 +29,7 @@ set_popularities = {
  movement_communism = 30
  conservatism = 13
  reactionism = 8
- nationalism = 7
+ Nationalism = 7
  restorativeism = 4
 }
 country_event = {

@@ -25,7 +25,7 @@ set_popularities = {
  movement_communism = 1.2
  conservatism = 4.8
  reactionism = 17.5
- nationalism = 18.5
+ Nationalism = 18.5
  restorativeism = 4
 }
 add_ideas = {

@@ -52,6 +52,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_military_operation.dds"
 	}
 	spriteType = {
+		name = "decision_category_hol_war_on_pacifism"
+		texturefile = "gfx/interface/decisions/categories/decision_category_hol_war_on_pacifism.dds"
+	}
+	spriteType = {
 		name = "GFX_decisions_GDC_hunger"
 		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
 	}
@@ -96,6 +100,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/milltary/decision_generic_air.dds"
 	}
 	spriteType = {
+		name = "decision_ETH_chitet"
+		texturefile = "gfx/interface/decisions/milltary/decision_ETH_chitet.dds"
+	}
+	spriteType = {
+		name = "decision_generic_naval"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_naval.dds"
+	}
+	spriteType = {
+		name = "decision_generic_police_action"
+		texturefile = "gfx/interface/decisions/milltary/decision_generic_police_action.dds"
+	}
+	spriteType = {
 		name = "decision_generic_form_nation"
 		texturefile = "gfx/interface/decisions/politics/decision_generic_form_nation.dds"
 	}
@@ -132,8 +148,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_eng_trade_unions_support.dds"
 	}
 	spriteType = {
-		name = "decision_generic_nationalism"
-		texturefile = "gfx/interface/decisions/decision_generic_nationalism.dds"
+		name = "decision_generic_Nationalism"
+		texturefile = "gfx/interface/decisions/decision_generic_Nationalism.dds"
 	}
 	spriteType = {
 		name = "decision_generic_prepare_civil_war"

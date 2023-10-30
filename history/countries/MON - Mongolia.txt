@@ -51,7 +51,7 @@ set_technology = {
 }
 set_popularities = {
  communism = 36
- nationalism = 23
+ Nationalism = 23
  restorativeism = 21
  moderate_socialism = 11
  Liberalism = 5

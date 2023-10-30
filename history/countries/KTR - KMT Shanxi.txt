@@ -23,7 +23,7 @@ set_popularities = {
 	reactionism = 3
 	Liberalism = 10
 	movement_communism = 13
-	nationalism = 10
+	Nationalism = 10
 }
 add_ideas = {
 	private_health_insurance

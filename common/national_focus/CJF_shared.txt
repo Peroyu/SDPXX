@@ -2509,7 +2509,10 @@ shared_focus = {
 	x = 9
 	y = 10
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.7 
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2525,7 +2528,10 @@ shared_focus = {
 	x = 7
 	y = 11
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.8
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2538,7 +2544,10 @@ shared_focus = {
 	x = 7
 	y = 12
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.9
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2564,7 +2573,10 @@ shared_focus = {
 	x = 9
 	y = 13
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.10
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2619,7 +2631,10 @@ shared_focus = {
 	x = 3
 	y = 11
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.15
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2632,7 +2647,10 @@ shared_focus = {
 	x = 3
 	y = 12
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.16
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2658,7 +2676,10 @@ shared_focus = {
 	x = 1
 	y = 10
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.11
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2671,7 +2692,10 @@ shared_focus = {
 	x = 1
 	y = 11
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.12
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2684,7 +2708,10 @@ shared_focus = {
 	x = 1
 	y = 12
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.13
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2697,7 +2724,10 @@ shared_focus = {
 	x = 1
 	y = 13
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.14
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2740,7 +2770,10 @@ shared_focus = {
 	x = 12
 	y = 10
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.1
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2753,7 +2786,10 @@ shared_focus = {
 	x = 11
 	y = 11
 	completion_reward = {
-		
+		country_event = {
+			id =  CJF_Dai_Jitap.2
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2779,7 +2815,10 @@ shared_focus = {
 	x = 13
 	y = 11
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.3
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2792,7 +2831,10 @@ shared_focus = {
 	x = 14
 	y = 12
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.5
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2808,7 +2850,10 @@ shared_focus = {
 	x = 12
 	y = 12
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.4
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2840,7 +2885,10 @@ shared_focus = {
 	x = 12
 	y = 14
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.6 
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2859,7 +2907,10 @@ shared_focus = {
 	x = 7
 	y = 15
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.17 
+			days = 1
+		}
 	}
 }
 shared_focus = {
@@ -2927,7 +2978,10 @@ shared_focus = {
 	x = 7
 	y = 19
 	completion_reward = {
-		
+		country_event = {
+			id = CJF_Dai_Jitap.18
+			days = 1
+		}
 	}
 }
 shared_focus = {

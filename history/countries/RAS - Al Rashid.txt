@@ -19,7 +19,7 @@ set_popularities = {
  reactionism = 50
  restorativeism = 25
  conservatism = 15
- nationalism = 10
+ Nationalism = 10
 }
 
 # 

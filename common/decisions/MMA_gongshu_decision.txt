@@ -187,7 +187,7 @@ MMA_gongshu_decision_categories = {
 		   days_re_enable = 50
 	}
 	MMA_gongshu2 = {
-	       icon = decision_generic_nationalism
+	       icon = decision_generic_Nationalism
 	       
 		    available = {
 			
@@ -206,7 +206,7 @@ MMA_gongshu_decision_categories = {
 		   days_re_enable = 30
 	}
 	MMA_gongshu3 = {
-	        icon = decision_generic_nationalism
+	        icon = decision_generic_Nationalism
 	       
 		    available = {
 			

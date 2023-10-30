@@ -476,8 +476,8 @@ defined_text = {
 		localization_key = JAP_GZCW_PW_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_BalintawakBlitz } tag = USA }
-		localization_key = USA_PHI_PW_1_desc
+		trigger = { check_variable = { selected_conflict_id = token:GC_BalintawakBlitz } tag = TUR }
+		localization_key = TUR_PHI_PW_1_desc
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_BalintawakBlitz } tag = NIP }
@@ -1282,7 +1282,7 @@ defined_text = {
 	}
 
 	text = { # Balintawak Blitz USA
-		trigger = { check_variable = { conflict_id = token:GC_BalintawakBlitz } tag = USA }
+		trigger = { check_variable = { conflict_id = token:GC_BalintawakBlitz } tag = TUR }
 		localization_key = "GFX_fopo_philippines_blitz_icon_us"
 	}
 

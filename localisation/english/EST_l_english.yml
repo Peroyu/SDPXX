@@ -1,15 +1,16 @@
 ﻿l_english:
  EST_communism_party:0"爱沙尼亚共产党（布尔什维克）"
  EST_committee_communism_party:0"爱沙尼亚共产党（布尔什维克）"
- EST_movement_communism_party:0"共和国党"
+ EST_movement_communism_party:0"爱沙尼亚中心党"
  EST_moderate_socialism_party:0"爱沙尼亚共产党（布尔什维克）"
- EST_social_democracy_party:0"爱沙尼亚社会工人党"
- EST_Liberalism_party:0"爱沙尼亚社会工人党"
- EST_conservatism_party:0"共和国党"
- EST_reactionism_party:0"森林兄弟"
- EST_nationalism_party:0"森林兄弟"
+ EST_social_democracy_party:0"爱沙尼亚工党"
+ EST_Liberalism_party:0"爱沙尼亚工党"
+ EST_conservatism_party:0"爱沙尼亚中心党"
+ EST_reactionism_party:0"爱沙尼亚中心党"
+ EST_Nationalism_party:0"爱沙尼亚中心党"
  EST_restorativeism_party:0"森林兄弟"
  EST_Karl_Sare:"卡尔·萨雷"
+ EST_Theodor_Pool:"特奥多尔·普尔"
  #国策
  
  #idea

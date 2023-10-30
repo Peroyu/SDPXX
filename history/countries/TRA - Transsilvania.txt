@@ -29,9 +29,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Ana_poker"  
-	desc = "Ana_poker_desc"  
-	picture = "gfx\leaders\EU\Ana_poker.png"  
+	name = "ROM_Iosif_Chisinevschi"  
+	desc = "ROM_Iosif_Chisinevschi_desc"  
+	picture = "gfx\leaders\EU\Portrait_ROM_Iosif_Chisinevschi.png"  
 	expire = "1952.3.16"  
 	ideology = Spartacus 
 	traits = {  }

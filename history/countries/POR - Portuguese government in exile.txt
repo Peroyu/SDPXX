@@ -18,7 +18,7 @@ add_ideas = {
 onlooker_of_the_revolutionary_war
 }
 set_popularities = {
- nationalism = 17
+ Nationalism = 17
  reactionism = 56
  conservatism = 12
  Liberalism = 8

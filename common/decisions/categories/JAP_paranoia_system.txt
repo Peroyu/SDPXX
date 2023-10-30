@@ -2,7 +2,7 @@ JAP_paranoia_system = {
 
 	priority = 101
 
-	icon = JAP_paranoia
+	icon = decision_category_hol_war_on_pacifism
 
 	scripted_gui = jap_paranoia_system_ui
 

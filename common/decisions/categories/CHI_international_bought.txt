@@ -12,10 +12,11 @@ CHI_international_bought = {
 			tag = MMA
 		tag = CJF
 		}
+		MMA = {
+			has_country_leader = { ruling_only = yes name = "MMA_Ma_Hongkui" }
+		}
 	}
-	MMA = {
-		has_country_leader = { ruling_only = yes name = "MMA_Ma_Hongkui" }
-	}
+	
     priority = {
 		base = 1
 		

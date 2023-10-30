@@ -1,0 +1,14 @@
+guiTypes ={
+	containerWindowType = {
+		name = "SDP_faction_islam_status_icon"
+		Orientation = CENTER_UP
+		position = { x =-660 y = 30 }
+		iconType = { 
+			name = "SDP_faction_islam_status_icon"
+			position =  { x = 405  y =275}  
+			spriteType = "GFX_faction_islam"
+			
+		} 
+		pdx_tooltip = SDP_islam_faction_desc
+	}
+}
