@@ -9,7 +9,7 @@ set_stability = 0.5 #
 
 # 
 set_politics = {
-	ruling_party = reactionism # 
+	ruling_party = Nationalism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -23,8 +23,8 @@ set_popularities = {
  Liberalism = 17
  movement_communism = 6
  conservatism = 29
- reactionism = 23
- Nationalism = 7
+ reactionism = 3
+ Nationalism = 27
 }
 # 
 create_country_leader = {

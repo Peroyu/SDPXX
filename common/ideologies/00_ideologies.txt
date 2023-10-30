@@ -348,7 +348,7 @@ ideologies = {
 		  Bonapartism ={can_be_randomly_selected = no }						
 		  military_system = { can_be_randomly_selected = no }			
 		  state_capitalism = { can_be_randomly_selected = no }
-		  Peronismo = { can_be_randomly_selected = no }
+		  
 		  Zenkoku_isseini = { can_be_randomly_selected = no }
 		  neo_socialism = { can_be_randomly_selected = no }
 		  classical_corporatism = { can_be_randomly_selected = no }
@@ -397,6 +397,7 @@ ideologies = {
 			recolonialism = { can_be_randomly_selected = no }
 			Churchillism = { can_be_randomly_selected = no }
 			Neo_national_system = { can_be_randomly_selected = no }
+			Peronismo = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
