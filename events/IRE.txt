@@ -1,4 +1,253 @@
 ﻿add_namespace = IRE
+add_namespace = IRE_bid_Olympic
+add_namespace = IRE_Build_venues
+country_event = {
+    id = IRE_bid_Olympic.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_bid_Olympic.1 FROM = [From.GetName]" }
+	title = IRE_bid_Olympic.1.t
+	desc = IRE_bid_Olympic.1.d
+	picture = GFX_IRE.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_bid_Olympic.1.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.1 FROM = [From.GetName]" }
+	title = IRE_Build_venues.1.t
+	desc = IRE_Build_venues.1.d
+	picture = GFX_IRE.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  country_event = {
+                id = IRE_Build_venues.2
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.1.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.2FROM = [From.GetName]" }
+	title = IRE_Build_venues.2.t
+	desc = IRE_Build_venues.2.d
+	picture = GFX_IRE.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  country_event = {
+                id = IRE_Build_venues.3
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.2.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.3 FROM = [From.GetName]" }
+	title = IRE_Build_venues.3.t
+	desc = IRE_Build_venues.3.d
+	picture = GFX_IRE.3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  country_event = {
+                id = IRE_Build_venues.4
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_variable = { var = SDP_IRE_3_1 value = 1 }
+		set_variable = { var = SDP_IRE_3_0 value = 0 }
+		name = IRE_bid_Olympic.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		set_variable = { var = SDP_IRE_3_1 value = 0 }
+		set_variable = { var = SDP_IRE_3_0 value = 1 }
+		name = IRE_bid_Olympic.3.b
+	}
+}
+country_event = {
+    id = IRE_Build_venues.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.4 FROM = [From.GetName]" }
+	title = IRE_Build_venues.4.t
+	desc = IRE_Build_venues.4.d
+	picture = GFX_IRE.4
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  country_event = {
+                id = IRE_Build_venues.5
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_variable = { var = SDP_IRE_4_1 value = 1 }
+		set_variable = { var = SDP_IRE_4_0 value = 0 }
+		name = IRE_bid_Olympic.4.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		set_variable = { var = SDP_IRE_4_1 value = 0 }
+		set_variable = { var = SDP_IRE_4_0 value = 1 }
+		name = IRE_bid_Olympic.4.b
+	}
+}
+country_event = {
+    id = IRE_Build_venues.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.5 FROM = [From.GetName]" }
+	title = IRE_Build_venues.5.t
+	desc = IRE_Build_venues.5.d
+	picture = GFX_IRE.5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  country_event = {
+                id = IRE_Build_venues.6
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.5.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.6 FROM = [From.GetName]" }
+	title = IRE_Build_venues.6.t
+	desc = IRE_Build_venues.6.d
+	picture = GFX_IRE.6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		   country_event = {
+                id = IRE_Build_venues.7
+                days = 1					
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_variable = { var = SDP_IRE_6_1 value = 1 }
+		set_variable = { var = SDP_IRE_6_0 value = 0 }
+		name = IRE_bid_Olympic.6.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		set_variable = { var = SDP_IRE_6_1 value = 0 }
+		set_variable = { var = SDP_IRE_6_0 value = 1 }
+		name = IRE_bid_Olympic.6.b
+	}
+}
+country_event = {
+    id = IRE_Build_venues.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.7 FROM = [From.GetName]" }
+	title = IRE_Build_venues.7.t
+	desc = IRE_Build_venues.7.d
+	picture = GFX_IRE.7
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_variable = { var = SDP_IRE_7_1 value = 1 }
+		set_variable = { var = SDP_IRE_7_0 value = 0 }
+		name = IRE_bid_Olympic.7.a
+		set_country_flag = IRE_Build_start
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		set_variable = { var = SDP_IRE_7_1 value = 0 }
+		set_variable = { var = SDP_IRE_7_0 value = 1 }
+		name = IRE_bid_Olympic.7.b
+		set_country_flag = IRE_Build_start
+	}
+}
 country_event = {
     id = IRE.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

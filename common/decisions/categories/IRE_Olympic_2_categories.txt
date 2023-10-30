@@ -1,0 +1,10 @@
+IRE_Olympic_2_categories = {
+	    icon = GFX_IRE_Olympic_categories
+	    picture = GFX_decisions_IRE_Olympic_categories
+		visible = {
+            has_country_flag = IRE_Build_start
+        }
+		scripted_gui = SDP_IRE
+        priority = 1000
+		allowed = { original_tag = IRE }
+    }
