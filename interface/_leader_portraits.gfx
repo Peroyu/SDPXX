@@ -849,6 +849,11 @@ spriteType = {
 		name = "EGY_Farouk_I"
 		texturefile = "gfx/leaders/East_Mediterranean/EGY_Farouk_I.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_ALG_Ahmed_Ben_Messali_Hadj"
+		texturefile = "gfx/leaders/East_Mediterranean/Portrait_ALG_Ahmed_Ben_Messali_Hadj.png"		
+	}
 	
 	spriteType = {
 		name = "Reza_Pahlavi"

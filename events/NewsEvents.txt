@@ -165,6 +165,36 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.5
+
+    picture = GFX_global_5
+    title = global.5.t
+    desc = global.5.d
+    immediate = { 
+        hidden_effect = {
+            513 = {
+            set_demilitarized_zone = no
+            }
+           ALG = {
+            transfer_state = 513
+            declare_war_on = {
+                target = ROF 
+                type = take_state_focus 
+            }
+           }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.5.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1

@@ -9,6 +9,7 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
+		set_demilitarized_zone = yes
 		victory_points = { 1126 1 } #Laghouat
 		victory_points = { 10731 1 } #Colomb-Bechar
 		start_resistance = yes

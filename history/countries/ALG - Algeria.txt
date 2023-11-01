@@ -1,0 +1,55 @@
+capital = 267 # 
+
+set_oob = "empty"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.7 # 
+set_stability = 0.3 # 
+
+set_politics = {
+	ruling_party = moderate_socialism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+set_popularities = {
+conservatism = 8
+ reactionism = 10
+ moderate_socialism = 30
+ communism = 3
+ Liberalism = 2
+ committee_communism = 5
+ social_democracy = 20
+ movement_communism = 2
+	Nationalism = 20
+}
+
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }
+create_country_leader = {
+	name = "ALG_Ahmed_Ben_Messali_Hadj"  # 
+	desc = "/"  # 
+	picture = Portrait_ALG_Ahmed_Ben_Messali_Hadj  # 
+	expire = "1952.4.30"  # 
+	ideology = left_wing_nationalsim# 
+	traits = {  # 
+		#
+	}
+}

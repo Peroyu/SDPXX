@@ -7,6 +7,10 @@ ANC = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
 }
+ALG = {
+	color = rgb { 149 170 129  }
+	color_ui = rgb { 149 170 129 }
+}
 SDP = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
