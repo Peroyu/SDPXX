@@ -840,6 +840,11 @@
 	}
 	
 ######################EastMediterranean################
+spriteType = {
+	name = "MOR_portrait_Mohammed_V"
+	texturefile = "gfx/leaders/East_Mediterranean/MOR_portrait_Mohammed_V.png"		
+}
+
 	spriteType = {
 		name = "EGY_Farouk_I"
 		texturefile = "gfx/leaders/East_Mediterranean/EGY_Farouk_I.png"		

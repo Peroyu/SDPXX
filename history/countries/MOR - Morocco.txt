@@ -25,10 +25,10 @@ set_popularities = {
 
 # 
 create_country_leader = {
-	name = "Abd_Karim"  # 
+	name = "MOR_Mohammed_V"  # 
 	desc = "/"  # 
-	picture = MOR_portrait_Abd_Karim  # 
-	expire = "1961.2.13"  # 
+	picture = MOR_portrait_Mohammed_V  # 
+	expire = "1982.2.13"  # 
 	ideology = despotism # 
 	traits = {  # 
 		#
