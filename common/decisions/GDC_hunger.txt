@@ -158,7 +158,7 @@ GDC_hunger = {
             custom_effect_tooltip = GDC_hunger_relive_2
           }
           ai_will_do = {
-					base = 5
+					base = 100
 					}
         } 
     hunger_decrease_rural_supply = {

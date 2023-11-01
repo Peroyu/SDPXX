@@ -143,13 +143,13 @@ CHI_reuni = {
 	FNC_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
 		  allowed = {
-			original_tag = FNC
+			original_tag = RCR
 		  }
           available = {
 			has_war = no  
-		    tag = FNC
+		    tag = RCR
 		    any_enemy_country = {		  
-		     	controls_state = 908 
+		     	controls_state = 1048 
             }
 		  }
 		  ai_will_do = {

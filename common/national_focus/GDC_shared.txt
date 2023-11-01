@@ -1338,7 +1338,7 @@ shared_focus = {
 			
 		}
 		completion_reward = {
-			set_capital = { state = 889 }
+			set_capital = { state = 592 }
 			add_political_power = 50
 			country_event = { days = 1 id = GDCcp.8 }
 			
