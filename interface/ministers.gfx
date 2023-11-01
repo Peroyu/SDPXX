@@ -30,6 +30,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ichiro_Hatoyama.png"
 	}
 
+	spriteType = {
+		name = "GFX_idea_NIP_Ichiro_Kono"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Ichiro_Kono.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Seiichi_Omura"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Seiichi_Omura.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Yoshijiro_Umezu"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Yoshijiro_Umezu.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Jotaro_Kawakami"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Jotaro_Kawakami.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Okinori_Kaya"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Okinori_Kaya.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Tetsuzan_Nagata"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Tetsuzan_Nagata.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Yosuke_Matsuoka"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Yosuke_Matsuoka.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Shigenori_Togo"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Shigenori_Togo.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NIP_Hiranuma_Kiichiro"
+		texturefile = "gfx/interface/ministers/JAP/GFX_idea_NIP_Hiranuma_Kiichiro.png"
+	}
+
 	##############MMA#########################
 	spriteType = {
 		name = "GFX_idea_MMA_Linjing"

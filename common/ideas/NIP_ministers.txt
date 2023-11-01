@@ -31,7 +31,21 @@ ideas = {
 				
 			}
 		}
-		
+		NIP_Hiranuma_Kiichiro = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Hiranuma_Kiichiro"
+			}
+			traits = {
+				head_of_government
+				
+			}
+		}
 
 	}
 	person_of_dip = { ### person of dip ###
@@ -48,6 +62,20 @@ ideas = {
 			traits = {
 				person_of_dip
 				USA_officer
+			}
+		}
+		NIP_Yosuke_Matsuoka = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Yosuke_Matsuoka"
+			}
+			traits = {
+				person_of_dip
 			}
 		}
 		
@@ -68,6 +96,34 @@ ideas = {
 				tegaoke
 			}
 		}
+		NIP_Okinori_Kaya = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Okinori_Kaya"
+			}
+			traits = {
+				person_of_arm
+			}
+		}
+		NIP_Seiichi_Omura = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Seiichi_Omura"
+			}
+			traits = {
+				person_of_arm
+			}
+		}
 		
 	}
 	person_of_eco = { ### person of eco ###
@@ -84,6 +140,48 @@ ideas = {
 			traits = {
 				person_of_eco
 				economic_centralized
+			}
+		}
+		NIP_Ichiro_Kono = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Ichiro_Kono"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		NIP_Jotaro_Kawakami = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Jotaro_Kawakami"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		NIP_Shigenori_Togo = {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Shigenori_Togo"
+			}
+			traits = {
+				person_of_eco
 			}
 		}
 		
@@ -105,6 +203,35 @@ ideas = {
 				
 			}
 		}
-		
+		NIP_Yoshijiro_Umezu	= {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Yoshijiro_Umezu"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
+		NIP_Tetsuzan_Nagata	= {
+			allowed = { original_tag = NIP }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea NIP_Tetsuzan_Nagata"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
 	}
 }	
