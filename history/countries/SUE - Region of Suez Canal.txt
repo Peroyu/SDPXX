@@ -14,7 +14,8 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+give_military_access = TUR
+give_military_access = EGY
 set_popularities = {
 	reactionism = 10
 	conservatism = 25

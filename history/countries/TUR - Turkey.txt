@@ -9,6 +9,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+give_guarantee = GRE
+give_guarantee = GEO
+give_guarantee = AZB
+give_guarantee = AFG
 set_power_balance = {
 	id = BoP_Tab_GlobalConflicts_TUR
 }

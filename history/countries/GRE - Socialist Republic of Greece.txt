@@ -29,7 +29,7 @@ set_popularities = {
 
 add_ideas = {
 	loser_of_the_revolutionary_war
-    HUN_inflluence
+
 }
 create_country_leader = {
 	name = "GRE_Georgios_Papandreou"  

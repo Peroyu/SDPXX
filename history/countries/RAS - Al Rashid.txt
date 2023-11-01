@@ -7,7 +7,9 @@ set_research_slots = 2 #
 set_war_support = 0.3 # 
 set_stability = 0.4 # 
 
-# 
+TUR = {
+	puppet = RAS
+}
 set_politics = {
 	ruling_party = reactionism # 
 	last_election = "1947.1.1"

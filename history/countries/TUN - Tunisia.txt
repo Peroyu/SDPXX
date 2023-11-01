@@ -14,7 +14,9 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+TUR = {
+	puppet = TUN
+}
 set_popularities = {
 	reactionism = 25
  Nationalism = 24
