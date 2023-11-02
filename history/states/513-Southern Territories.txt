@@ -3,13 +3,13 @@ state = {
 	name = "STATE_513" #Desert
 
 	history = {
-		owner = ROF
-		add_claim_by = ROF
+		owner = ALG
+		controller = ROF
 		add_core_of = ALG
 		buildings = {
 			infrastructure = 1
 		}
-		set_demilitarized_zone = yes
+		start_resistance = yes
 		victory_points = { 1126 1 } #Laghouat
 		victory_points = { 10731 1 } #Colomb-Bechar
 		start_resistance = yes
