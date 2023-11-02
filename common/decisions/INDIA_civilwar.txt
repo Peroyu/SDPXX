@@ -195,11 +195,23 @@ INDIA_civilwar = {
             tag = RAJ
 		}
         cost = 10
-        days_remove = 20
-        remove_effect = {
-			country_event = { 
-							days = 1  id = indu_civilwar.1
-							}
+        complete_effect = {
+			RAJ = {
+                transfer_state = 429
+                transfer_state = 425
+                transfer_state = 868
+                transfer_state = 1034
+                white_peace = CYN
+            }
+            FID = {
+                transfer_state = 424
+                transfer_state = 423
+                transfer_state = 320
+                transfer_state = 867
+                transfer_state = 1095
+                white_peace = CYN
+            }
+            CYN = { clr_country_flag = INDIA_civilwar_participants }
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
