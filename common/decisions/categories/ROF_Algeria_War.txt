@@ -1,0 +1,20 @@
+ROF_Algeria_War = {
+    icon = decision_category_eng_organize_the_blackshirts
+    picture = decision_cat_picture_chi_infiltration
+    allowed = {
+		original_tag = ROF
+		
+	}
+    visible = {
+		
+		tag = ROF
+		has_country_flag = Algeria_War
+		
+	}
+	scripted_gui = ROF_Algeria_War_gui
+    priority = {
+		base = 1
+		
+	}
+	visible_when_empty = yes
+}

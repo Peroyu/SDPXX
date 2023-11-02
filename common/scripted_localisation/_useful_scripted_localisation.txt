@@ -166,6 +166,13 @@ defined_text = {
 		}
 		localization_key = left_wing_nationalsim
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = mass_socialism
+		}
+		localization_key = mass_socialism
+    }
 	##########################################################
 	text = {
 		trigger = {

@@ -1,0 +1,59 @@
+ROF_Algeria_War = {
+    ROF_Algiria_update = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_country_flag = Algeria_War
+		}
+		
+		days_mission_timeout = 15
+		is_good = no
+
+		cancel_trigger = {
+			check_variable = { #检查变量大小
+				var = ROF.Algeria_war_process
+				value = 85
+				compare = greater_than
+			}
+		}
+		
+		cancel_effect = {
+			ROF = {
+				clr_country_flag = Algeria_War
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+				    id = global.5
+					days = 180
+				}
+			}
+		}
+
+		timeout_effect = {
+			add_to_variable = {	ROF.Algeria_war_process = 5	}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}

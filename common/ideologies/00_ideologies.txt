@@ -110,6 +110,7 @@ ideologies = {
 			National_socialism = {can_be_randomly_selected = no}
 			christian_socialism = {can_be_randomly_selected = no}
 			left_wing_nationalsim = {can_be_randomly_selected = no}
+			mass_socialism = {can_be_randomly_selected = no}
 		}
 		
 		dynamic_faction_names = {

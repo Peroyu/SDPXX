@@ -1,0 +1,15 @@
+scripted_gui = {
+
+	ROF_Algeria_War_gui = {
+		context_type = decision_category
+		window_name = "ROF_Algeria_War_gui_window"
+
+		properties = {
+		    ROF_Algeria_war_process_incident = {
+				frame = ROF.Algeria_war_process
+			}
+		}
+	}
+	
+}
+

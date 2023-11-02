@@ -24,6 +24,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_usa_intervention_mandate.dds"
 	}
 	spriteType = {
+		name = "decision_category_eng_organize_the_blackshirts"
+		texturefile = "gfx/interface/decisions/categories/decision_category_eng_organize_the_blackshirts.dds"
+	}
+	spriteType = {
 		name = "decision_category_hol_bernhard"
 		texturefile = "gfx/interface/decisions/categories/decision_category_hol_bernhard.dds"
 	}
@@ -230,6 +234,10 @@ spriteTypes = {
 	spriteType = {
 		name = "decision_cat_picture_spr_civil_war_offensives"
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_spr_civil_war_offensives.dds"
+	}
+	spriteType = {
+		name = "decision_cat_picture_chi_infiltration"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_chi_infiltration.dds"
 	}
 	spriteType = {
 		name = "GFX_JAP_FLAG"

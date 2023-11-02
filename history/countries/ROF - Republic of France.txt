@@ -6,7 +6,8 @@ set_research_slots = 3 #
 
 set_war_support = 0.3 
 set_stability = 0.4 
-
+set_country_flag = Algeria_War
+set_variable = { ROF.Algeria_war_process = 54 }
 ROF = {
 	puppet = FRC
 	puppet = MAD
