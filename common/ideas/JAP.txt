@@ -12,6 +12,17 @@ ideas = {
 				resistance_target = 0.2
 			}
 		}
+		NIP_Hiroto = {
+		    name = NIP_Hiroto 
+			picture = GFX_NIP_Hiroto 
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
 		NIP_Victory_in_the_bubble = {
 		    name = NIP_Victory_in_the_bubble
 			picture = GFX_NIP_Victory_in_the_bubble

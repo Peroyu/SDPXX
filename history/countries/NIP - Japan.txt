@@ -221,15 +221,16 @@ add_ideas = {
 	NIP_Isao_Kawada
 	NIP_Ugaki_Kazushige
 	#######
+	NIP_Hiroto
 	NIP_Victory_in_the_bubble
 	NIP_Rival_services_N
 	NIP_pan_Asia_dream
 	NIP_politic_warn
 }
 create_country_leader = {
-		name = "NIP_Hirohito"   
+		name = "NIP_Tokugawa_Iemasa"   
 		desc = "NIP_Hirohito_desc"  
-		picture = "gfx/leaders/JAP/portrait_NIP_Hirohito.png"   
+		picture = "gfx/leaders/JAP/portrait_NIP_Tokugawa_Iemasa.png"   
 		expire = "1989.1.7"   
 		ideology = Zenkoku_isseini
 		traits = {  }

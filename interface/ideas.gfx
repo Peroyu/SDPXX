@@ -902,6 +902,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_politic_warn.png"
 	}
 
+	spriteType = {
+		name = "GFX_idea_NIP_Hiroto"
+		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_Hiroto.png"
+	}
 	###################################################3
 
 	spriteType = {
