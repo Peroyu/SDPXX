@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ parliament_gui_decision_category:0 "两广立法会"
+ parliament_gui_decision_category_desc:0 "大革命结束，民国建立以来，作为1927年国民大革命心脏地带的两广地区一直引以为豪于自己冠绝全国的民主机制，在民国建立的十年里，由于这样相对完备且普及的地区自治民主机制的存在，广西，广东两省成为了一度受到打击和警惕的左派组织的庇护所，等到抗日战争爆发，两广的民主机制虽然被战争的烈焰所破坏，但战前经由最后一次普选带来的‘长期议会’构成了中国南部最有力且最坚强的领导核心，即便在这个中华民族生死存亡的关键时刻，仍然坚持着革命的遗产。\n立法会是左右两广政局的最关键因素，立法会中的席位将反应两广政治态势和力量分布的变化，请注意，如果没有来自立法会的直接支持，那么您在行政过程中将寸步难行。"
+ semicircle_parliament_gui_title:0 "两广立法会党派席位分布"
+ parliament_main_icon_tt:0 "[GetParliamentSeatName] - [GetParliamentPartyName]"
+ parliament_seat_text:0 "席位 [?temp_seat|Y0]"
+ parliament_member_text:0 "[GetParliamentPartyName] - [?parliament_seat_array^parliament_member_index] 个席位"
+ party_1_text:0 "§R中国共产党-莫斯科派§!"
+ party_2_text:0 "§R中国共产党-巴黎派§!"
+ party_3_text:0 "§Y中国国民党-农工派§!"
+ party_4_text:0 "§G中国国民党-正统派§!"
+ party_5_text:0 "§C中国民主政团同盟§!"
