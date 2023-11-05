@@ -12,7 +12,7 @@ state={
 
 		}
 		add_core_of = YUG
-		add_core_of = MON
+		add_core_of = MOT
 	}
 	state_category=two
 	manpower=18423

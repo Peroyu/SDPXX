@@ -3,8 +3,7 @@ state = {
 	name = "STATE_513" #Desert
 
 	history = {
-		owner = ALG
-		controller = ROF
+		owner = ROF
 		add_core_of = ALG
 		buildings = {
 			infrastructure = 1
@@ -12,9 +11,7 @@ state = {
 		start_resistance = yes
 		victory_points = { 1126 1 } #Laghouat
 		victory_points = { 10731 1 } #Colomb-Bechar
-		start_resistance = yes
-		set_resistance = 8
-		set_compliance = 20
+
 	}
 
 	provinces = {

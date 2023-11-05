@@ -19,12 +19,11 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		901 = { set_demilitarized_zone = yes}
+		816 = { set_demilitarized_zone = yes}
 		325 = { set_demilitarized_zone = yes}
-		747 = { set_demilitarized_zone = yes}
+		1051 = { set_demilitarized_zone = yes}
 		603 = { set_demilitarized_zone = yes}
-		748 = { set_demilitarized_zone = yes}
-		841 = { set_demilitarized_zone = yes}
+		1052 = { set_demilitarized_zone = yes}
 		country_event = {
 			id = KMTcivilwar.2
 			days = 5
@@ -141,12 +140,12 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			GDC = {
+				transfer_state = 1052
+				transfer_state = 1051
 				transfer_state = 603
-				transfer_state = 748
-				transfer_state = 841
+				add_state_core = 1052
+				add_state_core = 1051
 				add_state_core = 603
-				add_state_core = 748
-				add_state_core = 841
 			}
 			country_event = {
 				id = KMTcivilwar.7
@@ -169,8 +168,8 @@ country_event = {
 		}
 		
 		603 = { set_demilitarized_zone = no}
-		748 = { set_demilitarized_zone = no}
-		841 = { set_demilitarized_zone = no}
+		1051 = { set_demilitarized_zone = no}
+		1052 = { set_demilitarized_zone = no}
 		name = KMTcivilwar.4.a
 	}
 	
@@ -196,11 +195,19 @@ country_event = {
 		   base = 50
 		}
 		name = KMTcivilwar.5.a #戴季陶赢下
+		325 = { set_demilitarized_zone = no}
+		816 = { set_demilitarized_zone = no}
 		set_variable = { CJF.RED = 1 }
 	}
 	option = { 
 	    ai_chance = {
 		   base = 50
+		}
+		GDC = {
+		transfer_state = 325
+				transfer_state = 816
+				add_state_core = 325
+				add_state_core = 816
 		}
 		name = KMTcivilwar.5.b
 	}
@@ -463,8 +470,8 @@ country_event = {
 				days = 12
 			}
 			TIB = {
-				transfer_state = 601
-				transfer_state = 604
+				transfer_state = 748
+				transfer_state = 693
 			}
 		}
     }
@@ -473,10 +480,11 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		SHA = {
-			transfer_state = 938
-			transfer_state = 939
-			set_cosmetic_tag = SHA_federal
+		RCR = {
+			declare_war_on = { target = KTR type = annex_everything }
+		}
+		FNC = {
+			declare_war_on = { target = KTR type = annex_everything }
 		}
 		name = KMTcivilwar.12.a 
 	}
@@ -498,6 +506,12 @@ country_event = {
 				id = KMTcivilwar.14
 				days = 12
 			}
+			KGP = {
+				load_oob = KGP_1947
+				transfer_state = 603
+				transfer_state = 1052
+				transfer_state = 1051
+			}
 		}
     }
 	
@@ -505,12 +519,10 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		KGP = {
-			set_cosmetic_tag = KGP_japen
-			transfer_state = 748
-			transfer_state = 603
-			transfer_state = 841
+		RCR = {
+			declare_war_on = { target = KGP type = annex_everything }
 		}
+		
 		name = KMTcivilwar.13.a 
 	}
 	
@@ -528,7 +540,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			GNP = {
-				annex_country = { target = GDC transfer_troops = no }
+				declare_war_on = { target = GDC type = annex_everything }
 			}
 			country_event = {
 				id = KMTcivilwar.15
@@ -541,18 +553,8 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		GDC = {
-			set_cosmetic_tag = GDC_japen
-			transfer_state = 839
-			transfer_state = 899
-			transfer_state = 599
-			transfer_state = 898
-			transfer_state = 594
-			transfer_state = 957
-		}
 		MEN = {
-			transfer_state = 756
-			transfer_state = 616
+			transfer_state = 348
 		}
 		MMA = {
 			set_cosmetic_tag = MMA_nokmt
@@ -573,8 +575,24 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			RCR = {
-				annex_country = { target = CJF transfer_troops = no }
+			XKS = {
+				transfer_state = 601
+				add_state_core = 601
+			}
+			DJF = {
+				transfer_state = 816
+				add_state_core = 816
+				transfer_state = 325
+				add_state_core = 325
+			}
+			CMA = {
+				transfer_state = 1049
+				load_oob = CMA_1947
+				declare_war_on = { target = CJF type = annex_everything }
+				declare_war_on = { target = DJF type = annex_everything }
+			}
+			NIP = {
+				add_to_faction = CMA
 			}
 		}
     }
@@ -582,27 +600,6 @@ country_event = {
 	option = { 
 	    ai_chance = {
 		   base = 100
-		}
-		CJF = {
-			set_cosmetic_tag = CJF_japen
-			transfer_state = 753
-			transfer_state = 751
-			transfer_state = 605
-			transfer_state = 857
-			transfer_state = 856
-			transfer_state = 859
-			transfer_state = 858
-			transfer_state = 842
-			transfer_state = 854
-			transfer_state = 855
-			transfer_state = 752
-		}
-		
-		DJF = {
-			set_cosmetic_tag = DJF_japen
-			transfer_state = 325
-			transfer_state = 747
-			transfer_state = 901
 		}
 		SIK = {
 			set_cosmetic_tag = SIK_1

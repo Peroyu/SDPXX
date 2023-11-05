@@ -126,35 +126,6 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
-				if = { # CMA beats CJF (Chong Qing attact) 
-					limit = {
-						FROM = {
-								original_tag = CMA
-							
-						}
-						ROOT = {
-							OR = {
-								original_tag = CJF
-								is_in_faction_with = CJF
-							}
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-					}
-
-					CMA = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-						set_cosmetic_tag = CMA_1
-						
-					}
-
-					set_global_flag = skip_default_capitulation
-				}
 				if = { # KHN beats HNN (Hunan attack) 
 				limit = {
 					FROM = {
@@ -434,208 +405,169 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 
-				if = { # CHI beat JIN
+	
+				if = { # RCR beat KTR
 					limit = {
 						FROM = {
 							OR = {
-								original_tag = CJF
-								is_in_faction_with = CJF
+								original_tag = RCR
+								is_in_faction_with = RCR
 							}
 						}
 						ROOT = {
-							original_tag = MEN
-						}
-					}
-
-					every_country = {
-						limit = {
-							has_war_with = JIN
-						}
-						white_peace = JIN
-					}
-
-					JIN = {
-						set_cosmetic_tag = JIN_kmt
-					}
-
-					CJF = {
-						add_to_faction = JIN
-					}
-
-					set_global_flag = skip_default_capitulation
-				}
-
-				if = { # KOR beat JKR
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = KOR
-								is_in_faction_with = KOR
-							}
-						}
-						ROOT = {
-							original_tag = JKR
-						}
-					}
-
-					every_country = {
-						limit = {
-							has_war_with = KOR
-						}
-						white_peace = KOR
-					}
-
-					KOR = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-						set_cosmetic_tag = KOR_temgov
-						set_capital = { state = 525 }
-						set_politics = { 
-							ruling_party = conservatism
-						}
-
-					}
-
-					set_global_flag = skip_default_capitulation
-				}
-
-				if = { # JAP beats CHI (China lost GAW) 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = NIP
-								is_in_faction_with = NIP
-							}
-						}
-						ROOT = {
-							original_tag = CJF
-							is_in_faction_with = CJF
+							original_tag = KTR
 						}
 					}
 
 					FROM = {
 						white_peace = ROOT
 					}
-
-					MMA = {
-						if = {
-						limit = {
-							country_exists = GDC
-							}
-						annex_country = { target = GDC transfer_troops = yes }
-						}
-						if = {
-						limit = {
-							country_exists = CJF
-							}
-						annex_country = { target = CJF transfer_troops = yes }
-						}
-						if = {
-						limit = {
-							country_exists = DJF
-							}
-						annex_country = { target = DJF transfer_troops = yes }
-						}
-						if = {
-						limit = {
-							country_exists = KHN
-							}
-						annex_country = { target = KHN transfer_troops = yes }
-						}
-						if = {
-						limit = {
-							country_exists = SIK
-							}
-						annex_country = { target = SIK transfer_troops = yes }
-						}
-						if = {
-						limit = {
-							country_exists = KTR
-							}
-						annex_country = { target = KTR transfer_troops = yes }
-						}
-						set_cosmetic_tag = FCH
-					}
-					
 					NIP = {
-						set_autonomy = {
-							target = CJF
-							autonomy_state = autonomy_puppet
-						}
-						set_autonomy = {
-							target = GDC
-							autonomy_state = autonomy_puppet
-						}
-						set_autonomy = {
-							target = DJF
-							autonomy_state = autonomy_puppet
-						}
-						set_autonomy = {
-							target = GNP
-							autonomy_state = autonomy_puppet
-						}
-						set_autonomy = {
-							target = KGP
-							autonomy_state = autonomy_puppet
-						}
-					}
-					CJF = {
-						set_cosmetic_tag = CJF_japen
-						transfer_state = 753
-						transfer_state = 751
-						transfer_state = 605
-						transfer_state = 857
-						transfer_state = 856
-						transfer_state = 859
-						transfer_state = 858
-						transfer_state = 842
-						transfer_state = 854
-						transfer_state = 855
-						transfer_state = 752
-					}
-					GDC = {
-						set_cosmetic_tag = GDC_japen
-						transfer_state = 839
-						transfer_state = 899
-						transfer_state = 599
-						transfer_state = 898
-						transfer_state = 594
-					}
-					DJF = {
-						set_cosmetic_tag = DJF_japen
-						transfer_state = 325
-						transfer_state = 747
-						transfer_state = 901
-					}
-					KGP = {
-						set_cosmetic_tag = KGP_japen
-						transfer_state = 748
-						transfer_state = 603
-					}
-					TIB = {
-						transfer_state = 601
-						transfer_state = 604
+						add_to_faction = SHA
 					}
 					SHA = {
-						transfer_state = 938
-						transfer_state = 939
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_cosmetic_tag = SHA_federal
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RCR beat DJG
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CMA
+								is_in_faction_with = CMA
+							}
+						}
+						ROOT = {
+							original_tag = DJF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					RCR = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					DJF = {
+						transfer_state = 325
+						transfer_state = 816
+						set_cosmetic_tag = DJF_japen
+					}
+					NIP = {
+						add_to_faction = DJF
+					}
+					
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RCR beat GDC
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = GNP
+								is_in_faction_with = GNP
+							}
+						}
+						ROOT = {
+							original_tag = GDC
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
 					}
 					GNP = {
-						transfer_state = 889
-						transfer_state = 592
-						transfer_state = 728
-						transfer_state = 593
-						transfer_state = 591
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
 					}
-					news_event = {
-						id = chi_news.4
-						days = 1
+					NIP = {
+						add_to_faction = GDC
+					}
+					GDC = {
+						transfer_state = 1055
+						transfer_state = 1054
+						transfer_state = 1053
+						transfer_state = 1056
+						transfer_state = 594
+						transfer_state = 599
+						set_cosmetic_tag = GDC_japen
+					}
+					
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RCR beat CJF
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CMA
+								is_in_faction_with = CMA
+							}
+						}
+						ROOT = {
+							original_tag = CJF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					
+					CMA = {
+						set_cosmetic_tag = CMA_1
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					NIP = {
+						add_to_faction = CMA
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # RCR beat CJF
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = RCR
+								is_in_faction_with = RCR
+							}
+						}
+						ROOT = {
+							original_tag = KGP
+						}
+					}
 
+					FROM = {
+						white_peace = ROOT
+					}
+					RCR = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					KGP = {
+						set_cosmetic_tag = KGP_japen
+						transfer_state = 1051
+						transfer_state = 603
+						transfer_state = 1052
+					}
+					NIP = {
+						add_to_faction = KGP
+					}
+					set_global_flag = skip_default_capitulation
+				}
 				###### INDIA_civilwar #######
 				if = { # RAJ beat HYD
 					limit = {

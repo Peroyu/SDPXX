@@ -12,6 +12,11 @@
 		id = CJF_By_the_Jialing_River
 		icon = GFX_CJF_By_the_Jialing_River
 		cost = 2
+		bypass = {
+			NOT = {
+				country_exists = CMA
+			}
+		}
 		prerequisite = {
 			focus = CJF_darkest_hour
 		}
@@ -32,6 +37,11 @@
 		cost = 2
 		prerequisite = {
 			focus = CJF_By_the_Jialing_River
+		}
+		bypass = {
+			NOT = {
+				country_exists = CMA
+			}
 		}
 		completion_reward = {
 		    add_timed_idea = {
@@ -68,6 +78,11 @@
 		prerequisite = {
 			focus = CJF_darkest_hour
 		}
+		bypass = {
+			NOT = {
+				country_exists = CMA
+			}
+		}
 		x = 7
 		y = 1
 		completion_reward = {
@@ -86,6 +101,11 @@
 		cost = 2
 		prerequisite = {
 			focus = CJF_gather_supplies
+		}
+		bypass = {
+			NOT = {
+				country_exists = CMA
+			}
 		}
 		completion_reward = {
 			army_experience = 50
@@ -1608,7 +1628,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-		854 = {
+		661 = {
 			prioritize = { 195 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1616,12 +1636,12 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		855 = {
+		799 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
 				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
-				owner = CJF
+				owner = KTR
 			}
 		}
 		add_war_support = 0.02
@@ -1637,7 +1657,7 @@ shared_focus = {
 	x = 14
 	y = 1
 	completion_reward = {
-		841 = {
+		1049 = {
 			prioritize = { 195 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1645,7 +1665,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		748 = {
+		650 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1672,10 +1692,8 @@ shared_focus = {
 	}
 	available = {
 		country_exists = KTR
-		has_global_flag = CHI_xibei_crisis_is_over
 	}
 	completion_reward = {
-		annex_country = { target = KTR transfer_troops = yes }
 		add_war_support = 0.05
 		add_state_core = 938
 		add_state_core = 939
@@ -1706,7 +1724,7 @@ shared_focus = {
 	x = 14
 	y = 4
 	completion_reward = {
-	  938 = {
+	  661 = {
 			prioritize = { 195 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1726,7 +1744,7 @@ shared_focus = {
 	x = 14
 	y = 5
 	completion_reward = {
-	939 = {
+	661 = {
 			prioritize = { 195 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1748,7 +1766,7 @@ shared_focus = {
 		}
 	}
 	completion_reward = {
-		748 = {
+		1049 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1756,7 +1774,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		854 = {
+		1049 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1764,7 +1782,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		854 = {
+		650 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1772,7 +1790,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		855 = {
+		650 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1780,7 +1798,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		748 = {
+		1052 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1788,7 +1806,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		841 = {
+		1052 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1819,7 +1837,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		842 = {
+		1051 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1835,7 +1853,7 @@ shared_focus = {
 				owner = CJF
 			}
 		}
-		841 = {
+		1051 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1901,7 +1919,7 @@ shared_focus = {
 	x = 18
 	y = 3
 	completion_reward = {
-	 748 = {
+	 650 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1924,7 +1942,7 @@ shared_focus = {
 		date > 1949.1.1
 	}
 	completion_reward = {
-	  748 = {
+	  1052 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1947,7 +1965,7 @@ shared_focus = {
 		date > 1949.1.1
 	}
 	completion_reward = {
-	 748 = {
+	 650 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
@@ -1983,7 +2001,7 @@ shared_focus = {
 		date > 1948.1.1
 	}
 	completion_reward = {
-	 859 = {
+	 605 = {
 			prioritize = { 219 }
 			limit = { valid_state_for_spawning_friendly_unit = yes }
 			create_unit = {
