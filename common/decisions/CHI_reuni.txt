@@ -42,8 +42,10 @@ CHI_reuni = {
 			original_tag = NIP
 		  }
           available = {
+			country_exists = FNC
 			NOT = {
 				has_war_with = CJF
+
 			}
               tag = NIP		  
 		      check_variable = {

@@ -6,7 +6,11 @@ ROF_Algeria_War = {
 		fire_only_once = no
 
 		available = {
-			always = no
+			check_variable = { #检查变量大小
+				var = ROF.Algeria_war_process
+				value = 85
+				compare = greater_than
+			}
 		}
 
 		visible = {
@@ -24,28 +28,19 @@ ROF_Algeria_War = {
 		
 		days_mission_timeout = 15
 		is_good = no
-
-		cancel_trigger = {
-			check_variable = { #检查变量大小
-				var = ROF.Algeria_war_process
-				value = 85
-				compare = greater_than
+		complete_effect = {
+			country_event = {
+				id = ENT.2
+				days = 1
 			}
+			clr_country_flag = Algeria_War
+		}
+		cancel_trigger = {
+			
 		}
 		
 		cancel_effect = {
-			ROF = {
-				clr_country_flag = Algeria_War
-			}
-			every_country = {
-				limit = {
-					is_ai = no
-				}
-				news_event = {
-				    id = global.5
-					days = 180
-				}
-			}
+			
 		}
 
 		timeout_effect = {
@@ -56,4 +51,5 @@ ROF_Algeria_War = {
 			base = 100#ai点选这个任务的意愿
 		}
 	}
+	
 }

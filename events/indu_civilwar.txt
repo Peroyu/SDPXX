@@ -116,20 +116,17 @@ country_event = {
 	    ai_chance = {
 		   base = 90
 		}
-		news_event = {
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
                 id = indu.4
                 days = 1
             }
+		}
+	
 		name = indu_civilwar.3.a
-	}
-	option = { 
-	    ai_chance = {
-		   base = 00
-		}
-		CYN = {
-			declare_war_on = { target = RAJ type = take_state }
-		}
-		name = indu_civilwar.3.b
 	}
 	
 }

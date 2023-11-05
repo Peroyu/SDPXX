@@ -438,6 +438,7 @@ country_event = {
 			GDC = {
 				transfer_state = 728
 				transfer_state = 591
+				transfer_state = 524
 			}
 			HBA = {
 				transfer_state = 744
@@ -524,6 +525,7 @@ country_event = {
 			GDC = {
 				transfer_state = 728
 				transfer_state = 591
+				transfer_state = 524
 			}
 			HBA = {
 				transfer_state = 744

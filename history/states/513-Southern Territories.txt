@@ -5,6 +5,7 @@ state = {
 	history = {
 		owner = ROF
 		add_core_of = ALG
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
 		}

@@ -94,3 +94,40 @@ country_event = {
 	
 	
 }
+country_event = {
+    id = ENT.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.2 FROM = [From.GetName]" }
+	title = ENT.2.t
+	desc = ENT.2.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    513 = {
+				set_demilitarized_zone = no
+				}
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		leave_faction = yes
+		every_country = {
+			limit = { is_ai = no }
+			news_event = {
+				id = global.5
+				days = 1
+			}
+		}
+		name = ENT.1.a
+	}
+	
+	
+}

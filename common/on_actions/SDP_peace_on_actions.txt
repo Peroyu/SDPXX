@@ -568,6 +568,77 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				######Algeria lose#########
+				if = { # 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ROF
+								is_in_faction_with = ROF
+							}
+						}
+						ROOT = {
+							original_tag = ALG
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					ROF = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ALG
+								is_in_faction_with = ALG
+							}
+						}
+						ROOT = {
+							original_tag = ROF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					ROF = {
+						transfer_state = 911
+					}
+			ALG = {
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 805
+				transfer_state = 514
+				white_peace = ROF
+			}
+			805 = {
+				set_demilitarized_zone = yes
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = global.6
+					days = 1
+				}
+			}
+
+
+					set_global_flag = skip_default_capitulation
+				}
 				###### INDIA_civilwar #######
 				if = { # RAJ beat HYD
 					limit = {
@@ -747,7 +818,58 @@ on_actions = {
 
 
 				###south sea
+				if = { # MNL beat MLY
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = VNN
+							is_in_faction_with = VNN
+						}
+					}
+					ROOT = {
+						original_tag = VIN
+					}
+				}
 
+				FROM = {
+					white_peace = ROOT
+				}
+
+				VNN = {
+					annex_country = {
+						target = VIN
+						transfer_troops = no
+					}
+				}
+
+				set_global_flag = skip_default_capitulation
+				}
+				if = { # MNL beat MLY
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = VIN
+							is_in_faction_with = VIN
+						}
+					}
+					ROOT = {
+						original_tag = VNN
+					}
+				}
+
+				FROM = {
+					white_peace = ROOT
+				}
+
+				VIN = {
+					annex_country = {
+						target = VNN
+						transfer_troops = no
+					}
+				}
+
+				set_global_flag = skip_default_capitulation
+			}
 				if = { # MNL beat MLY
 					limit = {
 						FROM = {

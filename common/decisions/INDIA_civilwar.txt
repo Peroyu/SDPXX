@@ -62,7 +62,9 @@ INDIA_civilwar = {
         available = {
 			tag = FID
          
-
+            FID = {
+               has_country_flag = INDIA_civilwar_participants 
+            }
              CYN = {
                     NOT = { has_country_flag = INDIA_civilwar_participants }
                 }
@@ -177,7 +179,9 @@ INDIA_civilwar = {
         icon = 
         fire_only_once = yes
         available = {
+
 			CYN = {
+                has_country_flag = INDIA_civilwar_participants
 					NOT = { controls_state = 429}
 					NOT = { controls_state = 425}
 					NOT = { controls_state = 424}
@@ -278,10 +282,16 @@ INDIA_civilwar = {
 		}
         cost = 0
         remove_effect = {
-			news_event = {
-                id = indu.3
-                days = 1
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = indu.3
+                    days = 1
+                }
             }
+			
             clr_country_flag = INDIA_civilwar_participants
 		}
         ai_will_do = {
@@ -313,10 +323,16 @@ INDIA_civilwar = {
 		}
         cost = 0
         remove_effect = {
-			news_event = {
-                id = indu.1
-                days = 1
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = indu.1
+                    days = 1
+                }
             }
+			
 		}
         ai_will_do = {
 			base = 100#ai点选这个决议的意愿
@@ -388,7 +404,9 @@ INDIA_civilwar = {
 			has_war = no
             NOT = { country_exists = PUN }
             NOT = { country_exists = KAR }
-        
+        FID = {
+            has_country_flag = INDIA_civilwar_participants
+        }
                 AFG = {
                     NOT = {
                     has_country_flag = INDIA_civilwar_participants
