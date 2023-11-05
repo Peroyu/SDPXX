@@ -176,6 +176,7 @@ news_event = {
             set_demilitarized_zone = no
             }
            ALG = {
+            load_oob = "ALG_1947"
             transfer_state = 513
             declare_war_on = {
                 target = ROF 

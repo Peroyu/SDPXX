@@ -300,6 +300,7 @@ country_event = {
 					target = JKR
 					type = annex_everything
 				}
+				load_oob = "KOR_collapse"
 			}
 		    every_country = {
 			limit = { is_ai = no }
@@ -345,6 +346,7 @@ country_event = {
 					target = VIN
 					type = annex_everything
 				}
+				load_oob = "VNN_1947"
 			}
 			every_country = {
 				limit = { is_ai = no }
