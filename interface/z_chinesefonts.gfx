@@ -6,7 +6,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_16"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -15,7 +15,7 @@ bitmapfonts = {
 			"gfx/fonts/vic_22_bl"
 			"gfx/fonts/Arial_20"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 		
 	bitmapfont_override = {
@@ -25,7 +25,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_18_cryllic"	
 			"gfx/fonts/Arial_16"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -34,7 +34,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_24"
 			"gfx/fonts/Arial_20"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	
 	bitmapfont_override = {
 		name = "messagelog"
@@ -42,7 +42,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_16_bold"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 		
 	bitmapfont_override = {
@@ -51,7 +51,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_16_bold"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -60,7 +60,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_14"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -69,7 +69,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_14_bold"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -78,7 +78,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_14_bold"
 			"gfx/fonts/Arial_14"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -87,7 +87,7 @@ bitmapfonts = {
 			"gfx/fonts/garamond_14"
 			"gfx/fonts/Arial_14"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -96,7 +96,7 @@ bitmapfonts = {
 			"gfx/fonts/vic_18"
 			"gfx/fonts/Arial_16"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -105,7 +105,7 @@ bitmapfonts = {
 			"gfx/fonts/vic_18s"
 			"gfx/fonts/Arial_16"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -114,7 +114,7 @@ bitmapfonts = {
 			"gfx/fonts/vic_22"
 			"gfx/fonts/Arial_20"	
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
 			
 	bitmapfont_override = {
@@ -123,7 +123,7 @@ bitmapfonts = {
 			"gfx/fonts/vic_36"	
 			"gfx/fonts/Arial_26"		
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -133,7 +133,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_16mbs_cryllic"
 			"gfx/fonts/Arial_14s"
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -143,7 +143,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_18_cryllic"	
 			"gfx/fonts/Arial_16"	
 		}	
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -153,7 +153,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_18_cryllic"	
 			"gfx/fonts/Arial_16"		
 		}			
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -163,7 +163,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_18mbs_cryllic"
 			"gfx/fonts/Arial_16s"	
 		}	
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -172,7 +172,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_20b"
 			"gfx/fonts/Arial_16"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 		
 	bitmapfont_override = {
@@ -181,7 +181,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_20bs"		
 			"gfx/fonts/Arial_16s"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -191,7 +191,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_16typewriter"
 			"gfx/fonts/Arial_14b"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}		
 	
 	bitmapfont_override = {
@@ -201,7 +201,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_16typewriter_inverted"
 			"gfx/fonts/Arial_14b"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
 	
 	bitmapfont_override = {
@@ -211,7 +211,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_22typewriter"
 			"gfx/fonts/Arial_20b"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
     
 	bitmapfont_override = {
@@ -221,7 +221,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_22typewriter_inverted"
 			"gfx/fonts/Arial_20b"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
 	
 	bitmapfont_override = {
@@ -230,7 +230,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_24header"		
 			"gfx/fonts/Arial_20s"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -239,7 +239,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_30header"
 			"gfx/fonts/Arial_26s"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}			
 	
 	bitmapfont_override = {
@@ -248,7 +248,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_36header"
 			"gfx/fonts/Arial_26s"	
 		}	
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -257,7 +257,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_22tech"		
 			"gfx/fonts/Arial_20"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -266,7 +266,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_33"	
 			"gfx/fonts/Arial_26"		
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -275,7 +275,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_arrow_font"	
 			"gfx/fonts/Arial_26"	
 		}		
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -284,7 +284,7 @@ bitmapfonts = {
 			"gfx/fonts/Arial12"
 			"gfx/fonts/Arial_14"
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 		bitmapfont_override = {
@@ -293,7 +293,7 @@ bitmapfonts = {
 			"gfx/fonts/Arial12"
 			"gfx/fonts/Arial_14"
 		}
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}	
 	
 	bitmapfont_override = {
@@ -303,7 +303,7 @@ bitmapfonts = {
 			"gfx/fonts/hoi_16tooltip3"
 			"gfx/fonts/Arial_14"					
 		}			
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
 
 	bitmapfont_override = {
@@ -312,7 +312,7 @@ bitmapfonts = {
 			"gfx/fonts/32"
 		}
 		color = 0xff000000
-		languages = { "l_english" } 
+		languages = { "l_simp_chinese" } 
 	}
 
 	bitmapfont = {
@@ -321,7 +321,7 @@ bitmapfonts = {
 			"gfx/fonts/22"
 		}
 		color = 0xff000000	
-		languages = { "l_english" } 
+		languages = { "l_simp_chinese" } 
 	}
 
 	bitmapfont = {
@@ -330,7 +330,7 @@ bitmapfonts = {
 			"gfx/fonts/22"
 		}
 		color = 0xff000000	
-		languages = { "l_english" } 
+		languages = { "l_simp_chinese" } 
 	}
 
 	bitmapfont = {
@@ -339,7 +339,7 @@ bitmapfonts = {
 			"gfx/fonts/14"
 		}
 		color = 0xff000000	
-		languages = { "l_english" } 
+		languages = { "l_simp_chinese" } 
 	}
 	
 	bitmapfont_override = {
@@ -355,7 +355,7 @@ bitmapfonts = {
 			"gfx/fonts/mapfont_chn_6"	
 			"gfx/fonts/mapfont_chn_7"	
 		}			
-	languages = { "l_english" } 
+	languages = { "l_simp_chinese" } 
 	}
 	
 	}
