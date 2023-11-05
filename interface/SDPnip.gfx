@@ -44,4 +44,16 @@ spriteTypes = {
 		name = "GFX_wusuoshu_icon_i"
 		texturefile = "gfx/interface/scripted_gui/NIP/GFX_wusuoshu_icon_i.png"
 	}
+	spriteType = {
+		name = "GFX_wusuoshu_icon_i"
+		texturefile = "gfx/interface/scripted_gui/NIP/GFX_wusuoshu_icon_i.png"
+	}
+	spriteType = {
+		name = "SDP_JAP_change_main"
+		texturefile = "gfx/interface/NIP/SDP_JAP_change_main.dds"
+	}
+	spriteType = {
+		name = "enter_SDP_JAP_change_button"
+		texturefile = "gfx/interface/NIP/enter_SDP_JAP_change_button.dds"
+	}
 }

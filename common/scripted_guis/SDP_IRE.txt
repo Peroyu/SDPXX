@@ -97,4 +97,36 @@ scripted_gui = {
         }
 		
 	}
+	SDP_IRE_change ={
+		window_name = "SDP_IRE_change_window"
+		context_type = Player_context
+		parent_window_token = politics_tab
+		visible = {
+			tag = IRE
+		}
+		
+		effects = {
+			enter_SDP_IRE_change_button_click = {
+				if = {
+				   limit = {
+				     NOT = { has_country_flag = open_SDP_IRE_change_window_main }
+					}
+					set_country_flag = open_SDP_IRE_change_window_main
+				}
+				else = {
+				    clr_country_flag = open_SDP_IRE_change_window_main
+				}
+			}
+		}
+	}
+	SDP_IRE_change_main ={
+		window_name = "SDP_IRE_change_main"
+		context_type = Player_context
+		visible = {
+		 AND = {
+		    tag = IRE
+			has_country_flag = open_SDP_IRE_change_window_main
+			}
+		}
+    }
 }
