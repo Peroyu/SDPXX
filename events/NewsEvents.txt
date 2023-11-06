@@ -172,15 +172,7 @@ news_event = {
     desc = global.5.d
     immediate = { 
         hidden_effect = {
-            ALG = {
-                load_oob = ALG_1947
-                add_manpower = 1000000
-                transfer_state = 513
-                declare_war_on = {
-                    target = ROF 
-                    type = take_state_focus 
-                }
-            }
+           
         }
 	}
     is_triggered_only = yes

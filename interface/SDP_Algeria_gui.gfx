@@ -11,4 +11,40 @@ spriteTypes = {
 		
 	}
 
+	progressbartype = {
+		name = "GFX_ROF_Algeria_dakar_influence_incident"
+		textureFile1 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_line1.png"
+		textureFile2 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_background.png"
+		size = { x = 370 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+        alwaystransparent = yes
+		steps = 200
+		
+	}
+
+	progressbartype = {
+		name = "GFX_ROF_Algeria_ALG_influence_incident"
+		textureFile1 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_line3.png"
+		textureFile2 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_background.png"
+		size = { x = 370 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+        alwaystransparent = yes
+		steps = 200
+		
+	}
+
+	progressbartype = {
+		name = "GFX_ROF_Algeria_AIS_influence_incident"
+		textureFile1 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_line2.png"
+		textureFile2 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_background.png"
+		size = { x = 370 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+        alwaystransparent = yes
+		steps = 200
+		
+	}
+
 }

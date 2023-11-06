@@ -4069,6 +4069,8 @@
  STATE_1325_ENDONYM: "[1325.Controller.GetStateName_1325]"
  STATE_1326: "蔚山"
  STATE_1326_ENDONYM: "[1326.Controller.GetStateName_1326]"
+ STATE_1327: "图古尔特"
+ STATE_1327_ENDONYM: "[1327.Controller.GetStateName_1327]"
  STATE_1320_RUSSIAN: "霍京"
  STATE_1320_UKRAINIAN: "霍京"
  STATE_1320_POLISH: "霍齐姆"

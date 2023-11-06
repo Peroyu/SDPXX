@@ -12,4 +12,33 @@ guiTypes = {
 		}
 
 	}
+
+
+	containerWindowType = {
+		name = "ALG_Algeria_War_gui_gui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 0 }
+		
+		iconType = {
+			name = "ROF_Algeria_dakar_influence"
+			spriteType = "GFX_ROF_Algeria_dakar_influence_incident"
+			position = { x= 120	 y = -230 }
+			pdx_tooltip = "ROF_Algeria_dakar_influence"
+		}
+
+		iconType = {
+			name = "ROF_Algeria_ALG_influence"
+			spriteType = "GFX_ROF_Algeria_ALG_influence_incident"
+			position = { x= 120	 y = -150 }
+			pdx_tooltip = "ROF_Algeria_ALG_influence"
+		}
+
+		iconType = {
+			name = "ROF_Algeria_AIS_influence"
+			spriteType = "GFX_ROF_Algeria_AIS_influence_incident"
+			position = { x= 120	 y = -70 }
+			pdx_tooltip = "ROF_Algeria_AIS_influence"
+		}
+
+	}
 }
