@@ -60,7 +60,7 @@ guiTypes ={
 			name = "enter_SDP_IRE_change_button"
 			position = { x = 400  y =400 } #你的按钮位置（在窗口中）
 			quadTextureSprite = "enter_SDP_IRE_change_button"
-            pdx_tooltip = "SDP_IRE_change_button_tooltip"
+            pdx_tooltip = "SDP_portrait_change_button_tooltip"
 			clicksound = click_default
 		} 
 
