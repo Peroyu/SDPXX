@@ -47,4 +47,16 @@ spriteTypes = {
 		
 	}
 
+	progressbartype = {
+		name = "GFX_CW_Algeria_balance"
+		textureFile1 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_line.png"
+		textureFile2 = "gfx/interface/scripted_gui/ROF/ROF_Algeria_war_process_line2.png"
+		size = { x = 370 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+        alwaystransparent = yes
+		steps = 100
+		
+	}
+
 }

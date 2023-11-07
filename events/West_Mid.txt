@@ -1,0 +1,37 @@
+add_namespace = West_Mid
+country_event = {
+    id = West_Mid.1  #奥兰登陆
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	West_Mid.1 FROM = [From.GetName]" }
+	title = West_Mid.1.t
+	desc = West_Mid.1.d
+	picture = GFX_West_Mid1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    COA = {
+				transfer_state = 805
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = global.7
+				days = 1
+			}
+		}
+		name = West_Mid.1.a
+	}
+	
+	
+}

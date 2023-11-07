@@ -1,37 +1,6 @@
 add_namespace = ENT
 add_namespace = IRE
 country_event = {
-    id = IRE.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	IRE.1 FROM = [From.GetName]" }
-	title = IRE.1.t
-	desc = IRE.1.d
-	picture = GFX_IRE1
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 50
-		}
-		every_country = {
-			limit = {
-				id = global.1
-				days = 1
-			}
-		}
-		name = IRE.1.a
-	}
-	
-	
-}
-country_event = {
     id = ENT.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	ENT.1 FROM = [From.GetName]" }

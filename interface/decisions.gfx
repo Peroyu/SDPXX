@@ -136,6 +136,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/economy/decision_ger_mefo_bills.dds"
 	}
 	spriteType = {
+		name = "decision_generic_construction"
+		texturefile = "gfx/interface/decisions/economy/decision_generic_construction.dds"
+	}
+	spriteType = {
 		name = "decision_recruit_operative"
 		texturefile = "gfx/interface/decisions/decision_recruit_operative.dds"
 	}
