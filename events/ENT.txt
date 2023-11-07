@@ -241,3 +241,68 @@ country_event = {
 	
 	
 }
+country_event = {
+    id = ENT.5  #阿尔及尔停火
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.5 FROM = [From.GetName]" }
+	title = ENT.5.t
+	desc = ENT.5.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_global_flag = ALG_algeria_war_is_over
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = global.6
+					days = 1
+				}
+			}
+			805 = {
+				set_demilitarized_zone = yes
+			}
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		if = {
+			limit = {
+				country_exists = ALG
+			}
+			ALG = {
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 805
+				transfer_state = 514
+				white_peace = ROF
+			}
+		}
+		else_if = {
+			limit = {
+				country_exists = AIS
+			}
+			ALG = {
+				transfer_state = 459
+				transfer_state = 805
+				white_peace = ROF
+			}
+			AIS = {
+				transfer_state = 460
+				white_peace = ROF
+			}
+		}
+		name = ENT.5.a
+	}
+	
+	
+	
+}

@@ -72,12 +72,12 @@ ALG_Algeria_War = {
 			OR = {
 			check_variable = { #检查变量大小
 				var = global.Algeria_ALG_influence
-				value = 80
+				value = 40
 				compare = greater_than
 			}
 			check_variable = { #检查变量大小
 				var = global.Algeria_AIS_influence
-				value = 80
+				value = 40
 				compare = greater_than
 			}
 			
@@ -113,6 +113,46 @@ ALG_Algeria_War = {
 		
 		ai_will_do = {
 			base = 100#ai点选这个任务的意愿
+		}
+	}
+	ALG_Algeria_peace = {
+
+		icon = decision_generic_prepare_civil_war
+		
+		fire_only_once = yes
+
+		available = {
+			tag = ROF
+			NOT = {
+				has_full_control_of_state = 805	
+				has_full_control_of_state = 459	
+				has_full_control_of_state = 460
+			}
+		}
+		
+		allowed = {
+			original_tag = PUM#满足内部条件，才允许进一步读取和检测这个决议（仅在读取存档和开局时检查）
+		}
+	
+		visible = {
+			tag = ROF
+			has_war_with = ALG
+		}
+	
+		cost = 10
+		
+	
+		complete_effect = {
+			ALG = {
+				country_event = {
+					id = ENT.5 
+					days = 1
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 10000000
 		}
 	}
 }

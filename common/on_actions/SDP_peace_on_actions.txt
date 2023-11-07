@@ -596,49 +596,7 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
-				if = { # 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = ALG
-								is_in_faction_with = ALG
-							}
-						}
-						ROOT = {
-							original_tag = ROF
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-					}
-
-					ROF = {
-						transfer_state = 911
-					}
-			ALG = {
-				transfer_state = 459
-				transfer_state = 460
-				transfer_state = 805
-				transfer_state = 514
-				white_peace = ROF
-			}
-			805 = {
-				set_demilitarized_zone = yes
-			}
-			every_country = {
-				limit = {
-					is_ai = no
-				}
-				news_event = {
-					id = global.6
-					days = 1
-				}
-			}
-
-
-					set_global_flag = skip_default_capitulation
-				}
+				
 				###### INDIA_civilwar #######
 				if = { # RAJ beat HYD
 					limit = {
