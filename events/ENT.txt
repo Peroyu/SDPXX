@@ -286,7 +286,11 @@ country_event = {
 				transfer_state = 460
 				transfer_state = 805
 				transfer_state = 514
+				
 				white_peace = ROF
+			}
+			ROF = {
+				transfer_state = 911
 			}
 		}
 		else_if = {
@@ -296,11 +300,15 @@ country_event = {
 			ALG = {
 				transfer_state = 459
 				transfer_state = 805
+				transfer_state = 514
 				white_peace = ROF
 			}
 			AIS = {
 				transfer_state = 460
 				white_peace = ROF
+			}
+			ROF = {
+				transfer_state = 911
 			}
 		}
 		805 = {

@@ -1,10 +1,10 @@
 focus_tree = {
-	id = IRE_open
+	id = AIS_open
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-		    tag = ALG  
+		    tag = AIS  
 		}	
 	}
 	default = no

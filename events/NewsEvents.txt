@@ -1207,3 +1207,33 @@ news_event = {
 		name = ISU.13.a
 	}
 }
+news_event = {
+	id = ISU.14
+
+    picture = GFX_ISU_14
+    title = ISU.14.t
+    desc = ISU.14.d
+    immediate = { 
+        hidden_effect = {
+           SWI = {
+            set_politics = { 
+                ruling_party = moderate_socialism
+            }
+            add_popularity = {
+                ideology = moderate_socialism
+                popularity = 0.2
+              }
+              set_cosmetic_tag = SWI_rev
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.14.a
+	}
+}

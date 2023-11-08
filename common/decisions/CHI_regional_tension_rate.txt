@@ -345,7 +345,7 @@ CHI_regional_tension_rate = {
 		}
 		
 		ai_will_do = {
-			base = 0
+			base = 50
 			modifier = {
 				factor = 20
 				or = {
