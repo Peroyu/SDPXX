@@ -14,10 +14,10 @@ state = {
 		add_core_of = ROF
 		add_core_of = SEN
 		victory_points = {
-			4948 10 #Dakar
+			4948 25 #Dakar
 		}
 		victory_points = {
-			12710 1 #Saint Louis
+			12710 5 #Saint Louis
 		}
 		buildings = {
 			infrastructure = 2

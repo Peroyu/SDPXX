@@ -1,0 +1,313 @@
+defined_text = {
+	name = ALG_dakar_influence_tt
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_dakar_influence_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_dakar_influence_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 120
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_dakar_influence_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 120
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 160
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_dakar_influence_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 160
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_dakar_influence
+			value = 200
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_dakar_influence_tt_5
+	}
+}
+defined_text = {
+	name = ALG_ALG_influence_tt
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_ALG_influence_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_ALG_influence_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var =global.Algeria_ALG_influence
+			value = 120
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_ALG_influence_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 120
+			compare = greater_than
+		    }
+			check_variable = {
+		    var =global.Algeria_ALG_influence
+			value = 160
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_ALG_influence_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_ALG_influence
+			value = 160
+			compare = greater_than
+		    }
+			check_variable = {
+		    var =global.Algeria_ALG_influence
+			value = 200
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_ALG_influence_tt_5
+	}
+}
+defined_text = {
+	name = ALG_AIS_influence_tt
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_AIS_influence_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_AIS_influence_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 120
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_AIS_influence_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 120
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 160
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_AIS_influence_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 160
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.Algeria_AIS_influence
+			value = 200
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = ALG_AIS_influence_tt_5
+	}
+}
+
+defined_text = {
+	name = CW_Algeria_balance_number_tt
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 0
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 20
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CW_Algeria_balance_number_tt_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 20
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 40
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CW_Algeria_balance_number_tt_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 40
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 60
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CW_Algeria_balance_number_tt_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 60
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 80
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CW_Algeria_balance_number_tt_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 80
+			compare = greater_than
+		    }
+			check_variable = {
+		    var = global.CW_Algeria_balance_number
+			value = 100
+			compare = less_than_or_equals
+		    }
+		}
+		localization_key = CW_Algeria_balance_number_tt_5
+	}
+}

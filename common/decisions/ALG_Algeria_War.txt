@@ -1,0 +1,623 @@
+ALG_Algeria_War = {
+	ROF_strike = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			check_variable = { #检查变量大小
+				var = ROF.Algeria_war_process
+				value = 85
+				compare = greater_than
+			}
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_country_flag = Algeria_War
+		}
+		
+		days_mission_timeout = 7
+		is_good = no
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		timeout_effect = {
+			add_to_variable = {	global.Algeria_dakar_influence = 10	}
+			custom_effect_tooltip = ROF_dakar_increase
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	ALG_strike = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			check_variable = { #检查变量大小
+				var = ROF.Algeria_war_process
+				value = 85
+				compare = greater_than
+			}
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_country_flag = Algeria_War
+		}
+		
+		days_mission_timeout = 7
+		is_good = no
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		timeout_effect = {
+			add_to_variable = {	global.Algeria_ALG_influence = 10	}
+			custom_effect_tooltip = ROF_ALG_increase
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_anounce_adjusted_jing = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 10
+		days_remove = 7
+		days_re_enable = 7
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 15	}
+			custom_effect_tooltip = ROF_AIS_increase
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_broden_voice = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 25
+		days_remove = 7
+		days_re_enable = 7
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 25	}
+			custom_effect_tooltip = ROF_AIS_increase
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_anti_left_voice = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = yes
+
+		available = {
+			has_country_flag = Algeria_War
+			NOT = {
+				has_country_flag = has_chosen
+			}
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 10
+		days_remove = 14
+		complete_effect = {
+			set_country_flag = has_chosen
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 10	}
+			add_to_variable = {	global.Algeria_ALG_influence = -5	}
+			custom_effect_tooltip = ROF_AIS_increase
+			custom_effect_tooltip = ROF_ALG_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_anti_imperalism_voice = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = yes
+
+		available = {
+			has_country_flag = Algeria_War
+			NOT = {
+				has_country_flag = has_chosen
+			}
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 10
+		days_remove = 14
+		complete_effect = {
+			set_country_flag = has_chosen
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 10	}
+			add_to_variable = {	global.Algeria_dakar_influence = -5	}
+			custom_effect_tooltip = ROF_AIS_increase
+			custom_effect_tooltip = ROF_dakar_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_to_countryside_and_tradition = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 20
+		days_remove = 28
+		days_re_enable = 7
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 20	}
+			custom_effect_tooltip = ROF_AIS_increase
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_to_critisize_rof = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 20
+		days_remove = 14
+		days_re_enable = 28
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 20	}
+			custom_effect_tooltip = ROF_AIS_increase
+			add_to_variable = {	global.Algeria_dakar_influence = -15	}
+			custom_effect_tooltip = ROF_dakar_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_to_critisize_officers = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 25
+		days_remove = 14
+		days_re_enable = 28
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 15	}
+			custom_effect_tooltip = ROF_AIS_increase
+			add_to_variable = {	global.Algeria_dakar_influence = -25	}
+			custom_effect_tooltip = ROF_dakar_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_to_critisize_alg = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 20
+		days_remove = 14
+		days_re_enable = 28
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 20	}
+			custom_effect_tooltip = ROF_AIS_increase
+			add_to_variable = {	global.Algeria_ALG_influence = -15	}
+			custom_effect_tooltip = ROF_ALG_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_to_critisize_factories = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 25
+		days_remove = 14
+		days_re_enable = 28
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_to_variable = {	global.Algeria_AIS_influence = 15	}
+			custom_effect_tooltip = ROF_AIS_increase
+			add_to_variable = {	global.Algeria_ALG_influence = -25	}
+			custom_effect_tooltip = ROF_ALG_decrease
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	AIS_moblisation_musilins = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = yes
+
+		available = {
+			tag = AIS
+			AIS = {
+				has_war_with = ROF
+			}
+		}
+
+		visible = {
+			tag = AIS
+			AIS = {
+				has_war_with = ROF
+			}
+		}
+		
+		
+		cost = 7
+		days_remove = 7
+		modifier = {
+			
+		}
+		complete_effect = {
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			set_country_flag = AIS_we_have_focus_tree
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	ROF_alger_meeting = {
+
+		icon = decision_generic_prepare_civil_war
+		
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_country_flag = Algeria_War
+			OR = {
+			check_variable = { #检查变量大小
+				var = global.Algeria_ALG_influence
+				value = 40
+				compare = greater_than
+			}
+			check_variable = { #检查变量大小
+				var = global.Algeria_AIS_influence
+				value = 40
+				compare = greater_than
+			}
+			
+		}
+		NOT = {
+			check_variable = { #检查变量大小
+				var = global.Algeria_dakar_influence
+				value = 120
+				compare = greater_than
+			}
+		}
+		}
+		
+		days_mission_timeout = 10
+		is_good = no
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		timeout_effect = {
+			country_event = {
+				id = ENT.4
+				days = 1
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	ALG_Algeria_peace = {
+
+		icon = decision_generic_prepare_civil_war
+		
+		fire_only_once = yes
+
+		available = {
+			tag = ROF
+			NOT = {
+				has_full_control_of_state = 805	
+			}
+			NOT = {
+				has_full_control_of_state = 459	
+			}
+			NOT = {
+				has_full_control_of_state = 460
+			}
+		}
+		
+		allowed = {
+			original_tag = ROF
+		}
+	
+		visible = {
+			tag = ROF
+			has_war_with = ALG
+		}
+	
+		cost = 10
+		
+	
+		complete_effect = {
+			ALG = {
+				country_event = {
+					id = ENT.5 
+					days = 1
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 10000000
+		}
+	}
+}

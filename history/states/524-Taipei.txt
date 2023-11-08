@@ -6,10 +6,8 @@ state = {
 	state_category = eight
 	history = {
 		owner = NIP
-		add_core_of = NIP
-		add_core_of = TAI
-		add_claim_by = QIE
-		add_claim_by = FNG
+		add_claim_by = CJF
+		add_claim_by = GDC
 		add_dynamic_modifier = { modifier = JAP_model_colony }
 		buildings = {
 			infrastructure = 3

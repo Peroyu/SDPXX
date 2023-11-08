@@ -44,7 +44,7 @@ ROF_Algeria_War = {
 		}
 
 		timeout_effect = {
-			add_to_variable = {	ROF.Algeria_war_process = 5	}
+			add_to_variable = {	ROF.Algeria_war_process = 3	}
 		}
 		
 		ai_will_do = {

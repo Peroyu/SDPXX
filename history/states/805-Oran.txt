@@ -6,6 +6,7 @@ state = {
 		owner = ROF
 		add_core_of = ROF
 		add_core_of = ALG
+		add_core_of = AIS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

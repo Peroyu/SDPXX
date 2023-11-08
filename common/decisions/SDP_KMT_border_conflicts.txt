@@ -97,9 +97,9 @@ SDP_KMT_army_reform = {
         }
         available = {
             ROOT = {
-                has_full_control_of_state = 855
+                has_full_control_of_state = 1049
             }
-            855 = {
+            1049 = {
                 has_ROOT_at_least_1_div_in_current_state_scope = yes
             }
         }
@@ -112,7 +112,7 @@ SDP_KMT_army_reform = {
         }   
         target_trigger = {
             FROM = {
-                owns_state = 911
+                owns_state = 1049
             }
             
         }
