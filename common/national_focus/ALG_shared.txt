@@ -1,0 +1,194 @@
+shared_focus = {
+		id = ALG_two_sun
+		icon = GFX_ALG_two_sun
+		cost = 5
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = ALG_negotiation
+		icon = GFX_ALG_negotiation
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		prerequisite = {
+		    focus = ALG_two_sun
+	    }
+		completion_reward = {   
+
+		}
+	}
+###########################################
+shared_focus = {
+        id = ALG_insult_to_excess
+		icon = GFX_ALG_insult_to_excess
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 1
+		mutually_exclusive = {
+		   focus = ALG_stiff
+		}
+		prerequisite = {
+		    focus = ALG_negotiation
+	    }
+		completion_reward = {
+           
+		}
+    }
+shared_focus = {
+        id = ALG_Jahannam
+		icon = GFX_ALG_Jahannam
+		cost = 1
+		available_if_capitulated = no
+		x = 7
+		y = 2
+		prerequisite = {
+		    focus = ALG_insult_to_excess
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+shared_focus = {
+        id = ALG_Marek
+		icon = GFX_ALG_Marek
+		cost = 1
+		available_if_capitulated = no
+		x = 7
+		y = 3
+		prerequisite = {
+		    focus = ALG_Jahannam
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+shared_focus = {
+        id = ALG_fund
+		icon = GFX_ALG_fund
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 4
+		prerequisite = {
+		    focus = ALG_Marek
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+	shared_focus = {
+        id = ALG_Iris_Fall
+		icon = GFX_ALG_Iris_Fall
+		cost = 5
+		available_if_capitulated = no
+		x = 10
+		y = 5
+		prerequisite = {
+		   focus = ALG_professoriate
+		}
+		prerequisite = {
+		   focus = ALG_AIS
+		}
+		prerequisite = {
+		    focus = ALG_fund
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+	shared_focus = {
+        id = ALG_black_flag
+		icon = GFX_ALG_black_flag
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 6
+		prerequisite = {
+		    focus = ALG_Iris_Fall
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+############################################
+shared_focus = {
+        id = ALG_stiff
+		icon = GFX_ALG_stiff
+		cost = 2
+		available_if_capitulated = no
+		x = 13
+		y = 1
+		mutually_exclusive = {
+		    focus = ALG_insult_to_excess
+		}
+		prerequisite = {
+		    focus = ALG_negotiation
+	    }
+        completion_reward = { 
+           
+		}
+    }
+shared_focus = {
+        id = ALG_Ebad
+		icon = GFX_ALG_Ebad
+		cost = 1
+		available_if_capitulated = no
+		x = 13
+		y = 3
+		prerequisite = {
+		    focus = ALG_Jahannam
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+shared_focus = {
+        id = ALG_AIS
+		icon = GFX_ALG_AIS
+		cost = 2
+		available_if_capitulated = no
+		x = 13
+		y = 4
+		prerequisite = {
+		    focus = ALG_Ebad
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+##############################
+shared_focus = {
+        id = ALG_sufi
+		icon = GFX_sufi
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		prerequisite = {
+		    focus = ALG_Jahannam
+	    }
+        completion_reward = {   
+		    
+		}
+    }
+shared_focus = {
+        id = ALG_professoriate
+		icon = GFX_ALG_professoriate
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 4
+		prerequisite = {
+		    focus = ALG_sufi
+	    }
+        completion_reward = {   
+		   
+		}
+    }
