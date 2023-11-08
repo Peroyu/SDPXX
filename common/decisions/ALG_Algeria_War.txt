@@ -97,6 +97,30 @@ ALG_Algeria_War = {
 			base = 100#ai点选这个任务的意愿
 		}
 	}
+	AIS_chosen_AIS = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_country_flag = Algeria_War
+		}
+
+		visible = {
+			has_country_flag = Algeria_War
+		}
+		
+		
+		cost = 0
+		complete_effect = {
+			set_country_flag = chosen_AIS
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
 	AIS_anounce_adjusted_jing = {
 
 		icon = decision_ETH_chitet
@@ -109,6 +133,7 @@ ALG_Algeria_War = {
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -147,6 +172,7 @@ ALG_Algeria_War = {
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -188,6 +214,7 @@ ALG_Algeria_War = {
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -195,6 +222,7 @@ ALG_Algeria_War = {
 		days_remove = 14
 		complete_effect = {
 			set_country_flag = has_chosen
+			set_country_flag = AIS_anti_left
 		}
 		cancel_trigger = {
 			
@@ -230,6 +258,7 @@ ALG_Algeria_War = {
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -237,6 +266,7 @@ ALG_Algeria_War = {
 		days_remove = 14
 		complete_effect = {
 			set_country_flag = has_chosen
+			set_country_flag = AIS_anti_rof
 		}
 		cancel_trigger = {
 			
@@ -269,6 +299,7 @@ ALG_Algeria_War = {
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -305,10 +336,12 @@ ALG_Algeria_War = {
 
 		available = {
 			has_country_flag = Algeria_War
+			has_country_flag = AIS_anti_rof
 		}
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -347,10 +380,12 @@ ALG_Algeria_War = {
 
 		available = {
 			has_country_flag = Algeria_War
+			has_country_flag = AIS_anti_rof
 		}
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -389,10 +424,12 @@ ALG_Algeria_War = {
 
 		available = {
 			has_country_flag = Algeria_War
+			has_country_flag = AIS_anti_left
 		}
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		
@@ -431,10 +468,12 @@ ALG_Algeria_War = {
 
 		available = {
 			has_country_flag = Algeria_War
+			has_country_flag = AIS_anti_left
 		}
 
 		visible = {
 			has_country_flag = Algeria_War
+			has_country_flag = chosen_AIS
 		}
 		
 		

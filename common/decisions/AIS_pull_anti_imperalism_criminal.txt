@@ -1,0 +1,276 @@
+AIS_pull_anti_imperalism_criminal = {
+    AIS_train_soildiers = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 15
+		days_remove = 7
+		days_re_enable = 7
+		complete_effect = {
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			add_command_power = 50
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	AIS_one_man_strike = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 0
+		complete_effect = {
+			add_command_power = -10
+			ROF = {
+				add_war_support = -0.02
+				add_manpower = -35
+			}
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	AIS_borden_strike = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 0
+		complete_effect = {
+			add_command_power = -25
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -5
+				producer = AIS
+			}
+			ROF = {
+				add_war_support = -0.05
+				add_manpower = -50
+				add_stablity = -0.05
+			}
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	AIS_attack_railways = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 0
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_command_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -15
+				producer = AIS
+			}
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		remove_effect = {
+			459 = {
+				damage_building = {
+					type = infrastructure
+					damage = 1
+				}
+			}
+			ROF = {
+				add_manpower = -15
+				add_stablity = -0.02
+			}
+		}
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	AIS_attack_arms_factories = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 0
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_command_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -15
+				producer = AIS
+			}
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+		remove_effect = {
+			459 = {
+				damage_building = {
+					type = arms_factory
+					damage = 1
+				}
+			}
+			ROF = {
+				add_manpower = -15
+				add_stablity = -0.02
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	AIS_attack_factories = {
+
+		icon = decision_ETH_chitet
+		
+		fire_only_once = no
+
+		available = {
+			has_war_with = ROF
+		}
+
+		visible = {
+			
+		}
+		
+		
+		cost = 0
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_command_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -15
+				producer = AIS
+			}
+			
+		}
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			
+		}
+		remove_effect = {
+			459 = {
+				damage_building = {
+					type = industrial_complex
+					damage = 1
+				}
+			}
+			ROF = {
+				add_manpower = -15
+				add_stablity = -0.02
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}
+

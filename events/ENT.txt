@@ -75,6 +75,47 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = ROF_AIS_agree
+				}
+				ALG = {
+					transfer_state = 513
+					transfer_state = 1327
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = ROF_AIS_refuse
+				}
+				ALG = {
+					transfer_state = 513
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+					
+				}
+				AIS = {
+					transfer_state = 1327
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+				}
+			}
+			leave_faction = yes
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = global.5
+					days = 1
+				}
+			}
 		    513 = {
 				set_demilitarized_zone = no
 				}
@@ -89,48 +130,29 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
-		if = {
-			limit = {
-				has_country_flag = ROF_AIS_agree
-			}
-			ALG = {
-				transfer_state = 513
-				transfer_state = 1327
-				country_event = {
-					id = ENT.3
-					days = 1
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				has_country_flag = ROF_AIS_refuse
-			}
-			ALG = {
-				transfer_state = 513
-				country_event = {
-					id = ENT.3
-					days = 1
-				}
-				
-			}
-			AIS = {
-				transfer_state = 1327
-				country_event = {
-					id = ENT.3
-					days = 1
-				}
-			}
-		}
-		leave_faction = yes
-		every_country = {
-			limit = { is_ai = no }
-			news_event = {
-				id = global.5
-				days = 1
-			}
-		}
+		
 		name = ENT.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		ALG = {
+			change_tag_from = ROOT
+		}
+		name = ENT.1.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		trigger = {
+			country_exists = AIS
+		}
+		AIS = {
+			change_tag_from = ROOT
+		}
+		name = ENT.1.c
 	}
 	
 	
@@ -168,6 +190,18 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = AIS
+				}
+				country_event = {
+					id = AIS.1
+					days = 20
+				}
+			}
+		}
+		
 		declare_war_on = {
 			target = ROF 
 			type = take_state_focus 

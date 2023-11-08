@@ -480,6 +480,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_CHIpeace5.png"
 	}
 	spriteType = {
+		name = "GFX_AIS_1"
+		texturefile = "gfx/event_pictures/GFX_AIS_1.png"
+	}
+	spriteType = {
+		name = "GFX_AIS_2"
+		texturefile = "gfx/event_pictures/GFX_AIS_2.png"
+	}
+	spriteType = {
+		name = "GFX_AIS_3"
+		texturefile = "gfx/event_pictures/GFX_AIS_3.png"
+	}
+	spriteType = {
 		name = "GFX_chi_news5"
 		texturefile = "gfx/event_pictures/news/GFX_chi_news5.png"
 	}
