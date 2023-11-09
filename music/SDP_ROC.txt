@@ -1,7 +1,7 @@
 music_station = "SDP_ROC"
 
 music = {
-	song = "La_Internationale"
+	song = "SDP_roc_1"
 	chance = {
 		modifier = {
 			factor = 1
