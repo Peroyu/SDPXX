@@ -2155,7 +2155,7 @@ shared_focus = {
 	icon = GFX_CJF_Guangzhou_conference
 	cost = 3
 	available = {
-		GDC = { has_full_control_of_state = 889 }
+		GDC = { has_full_control_of_state = 592 }
 	}
 	prerequisite = {
 		focus = CJF_chemical_defence
@@ -2213,7 +2213,7 @@ shared_focus = {
 	x = 20
 	y = 6
 	available = {
-		has_full_control_of_state = 908
+		has_full_control_of_state = 1048
 	}
 	completion_reward = {
 	}
