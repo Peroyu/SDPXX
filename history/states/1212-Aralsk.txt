@@ -5,8 +5,8 @@ state = {
 		4300 4374 4581 7243 
 	}
 	history = {
-		owner = CAS
-		add_core_of = CAS
+		owner = TRU
+		add_core_of = TRU
 		add_claim_by = KYR
 		buildings = {
 			infrastructure = 1

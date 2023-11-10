@@ -624,13 +624,13 @@ ALG_Algeria_War = {
 		available = {
 			tag = ROF
 			NOT = {
-				has_full_control_of_state = 805	
+				controls_state = 805	
 			}
 			NOT = {
-				has_full_control_of_state = 459	
+				controls_state = 459	
 			}
 			NOT = {
-				has_full_control_of_state = 460
+				controls_state = 460
 			}
 		}
 		

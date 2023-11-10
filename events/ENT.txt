@@ -282,6 +282,7 @@ country_event = {
 				}
 			}
 			ALG = {
+				set_capital = { state = 459 }
 				transfer_state = 459
 				transfer_state = 460
 				transfer_state = 805
@@ -298,12 +299,14 @@ country_event = {
 				country_exists = AIS
 			}
 			ALG = {
+				set_capital = { state = 459 }
 				transfer_state = 459
 				transfer_state = 805
 				transfer_state = 514
 				white_peace = ROF
 			}
 			AIS = {
+				set_capital = { state = 460 }
 				transfer_state = 460
 				white_peace = ROF
 			}
