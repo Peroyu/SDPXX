@@ -1,0 +1,33 @@
+capital = 407
+
+set_research_slots = 2
+
+set_war_support = 0.8 
+set_stability = 0.7 
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 40
+	committee_communism = 17
+	moderate_socialism = 25
+	Nationalism = 8
+   	restorativeism = 10
+}
+
+
+create_country_leader = {
+	name = ""
+	desc = "/"  
+	picture = "gfx/leaders/SOV/.png"  
+	expire = "1967.7.10"  
+	ideology = military_socialism
+	traits = { 
+		
+	}
+}
