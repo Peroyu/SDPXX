@@ -1,0 +1,258 @@
+shared_focus = {
+		id = TUR_oil_must_run
+		icon = GFX_TUR_oil_must_run
+		cost = 5
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_Kirkuk_oil
+		icon = GFX_TUR_Kirkuk_oil
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 1
+		prerequisite = {
+		    focus = TUR_oil_must_run
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_mobalisation_Baku
+		icon = GFX_TUR_mobalisation_Baku
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 1
+		prerequisite = {
+		    focus = TUR_oil_must_run
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_develop_Ahmed
+		icon = GFX_TUR_develop_Ahmed
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 1
+		prerequisite = {
+		    focus = TUR_oil_must_run
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_remobalize_imperal_oil
+		icon = GFX_TUR_remobalize_imperal_oil
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 2
+		prerequisite = {
+		    focus = TUR_develop_Ahmed
+	    }
+		prerequisite = {
+		    focus = TUR_mobalisation_Baku
+	    }
+		prerequisite = {
+		    focus = TUR_Kirkuk_oil
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_out_of_check
+		icon = GFX_TUR_out_of_check
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 3
+		prerequisite = {
+		    focus = TUR_remobalize_imperal_oil
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_establish_arab_guard
+		icon = GFX_TUR_establish_arab_guard
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 4
+		prerequisite = {
+		    focus = TUR_out_of_check
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_kill_saud
+		icon = GFX_TUR_kill_saud
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 5
+		prerequisite = {
+		    focus = TUR_establish_arab_guard
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_the_dessert
+		icon = GFX_TUR_the_dessert
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 6
+		prerequisite = {
+		    focus = TUR_kill_saud
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_wisdom_of_ottoman
+		icon = GFX_TUR_wisdom_of_ottoman
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		prerequisite = {
+		    focus = TUR_remobalize_imperal_oil
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_establish_oil_army
+		icon = GFX_TUR_establish_oil_army
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 4
+		prerequisite = {
+		    focus = TUR_wisdom_of_ottoman
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_send_turkish_labour
+		icon = GFX_TUR_send_turkish_labour
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 5
+		prerequisite = {
+		    focus = TUR_establish_oil_army
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_input_indian
+		icon = GFX_TUR_input_indian
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 6
+		prerequisite = {
+		    focus = TUR_send_turkish_labour
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_experience_from_USA
+		icon = GFX_TUR_experience_from_USA
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 3
+		prerequisite = {
+		    focus = TUR_remobalize_imperal_oil
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_Gulf_exploration
+		icon = GFX_TUR_Gulf_exploration
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 4
+		prerequisite = {
+		    focus = TUR_experience_from_USA
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_deep_sea_oil
+		icon = GFX_TUR_deep_sea_oil
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 5
+		prerequisite = {
+		    focus = TUR_Gulf_exploration
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_eagal_over_sea
+		icon = GFX_TUR_eagal_over_sea
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 6
+		prerequisite = {
+		    focus = TUR_deep_sea_oil
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = TUR_black_blood
+		icon = GFX_TUR_black_blood
+		cost = 4
+		available_if_capitulated = no
+		x = 8
+		y = 7
+		prerequisite = {
+		    focus = TUR_eagal_over_sea
+	    }
+		prerequisite = {
+		    focus = TUR_input_indian
+	    }
+		completion_reward = {   
+
+		}
+	}
