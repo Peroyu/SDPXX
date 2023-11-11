@@ -512,7 +512,43 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 
-	
+				if = { # CHI beat MEN
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CJF
+								is_in_faction_with = CJF
+							}
+						}
+						ROOT = {
+							original_tag = TIB
+						}
+					}
+
+					every_country = {
+						limit = {
+							has_war_with = TIB
+						}
+						white_peace = TIB
+					}
+
+					CJF = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					TIB = {
+						transfer_state = 322
+						transfer_state = 1086
+						set_cosmetic_tag = TIB_kmt
+					}
+					NIP = {
+						add_to_faction = SHA
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
 				if = { # RCR beat KTR
 					limit = {
 						FROM = {

@@ -35,19 +35,6 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 10
-		}
-		trigger = {
-			tag = KAS
-		}
-		SIK = {
-			transfer_state = 881
-			add_state_core = 881
-		}
-		name = XKS_op.0.a
-	}
-	option = { 
-	    ai_chance = {
 		   base = 100
 		}
 		name = XKS_op.0.b

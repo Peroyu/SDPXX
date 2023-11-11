@@ -46,6 +46,10 @@ KTR_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
+TIB_kmt = {
+ color = rgb { 100 149 155 }
+ color_ui = rgb { 100 149 155 }
+}
 MEN_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
