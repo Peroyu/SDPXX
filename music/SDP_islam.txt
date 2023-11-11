@@ -1,0 +1,10 @@
+music_station = "SDP_islam"
+
+music = {
+	song = "La_Internationale"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

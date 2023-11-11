@@ -89,4 +89,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/musicplayer/GFX_SDP_ROC_music_station_pic.dds"
 		noOfFrames = 2
 	}	
+
+	spriteType = {
+		name = "GFX_SDP_islam_music_station_pic"
+		texturefile = "gfx/interface/topbar/musicplayer/GFX_SDP_islam_music_station_pic.dds"
+		noOfFrames = 2
+	}	
+
+	spriteType = {
+		name = "GFX_SDP_Entente_music_station_pic"
+		texturefile = "gfx/interface/topbar/musicplayer/GFX_SDP_Entente_music_station_pic.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_SDP_USA_music_station_pic"
+		texturefile = "gfx/interface/topbar/musicplayer/GFX_SDP_USA_music_station_pic.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_SDP_japan_music_station_pic"
+		texturefile = "gfx/interface/topbar/musicplayer/GFX_SDP_japan_music_station_pic.dds"
+		noOfFrames = 2
+	}
 }

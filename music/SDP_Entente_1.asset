@@ -1,0 +1,5 @@
+music = {
+	name = "SDP_Entente_1"
+	file = "SDP_Entente_1.ogg"
+	volume = 0.65
+}

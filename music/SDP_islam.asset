@@ -1,0 +1,5 @@
+music = {
+	name = "SDP_islam_1"
+	file = "SDP_islam_1.ogg"
+	volume = 0.65
+}
