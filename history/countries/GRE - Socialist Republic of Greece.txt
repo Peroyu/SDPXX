@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	loser_of_the_revolutionary_war
+	onlooker_of_the_revolutionary_war
 
 }
 create_country_leader = {
