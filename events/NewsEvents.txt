@@ -1237,3 +1237,99 @@ news_event = {
 		name = ISU.14.a
 	}
 }
+news_event = {
+	id = ISU.15
+
+    picture = GFX_ISU_15
+    title = ISU.15.t
+    desc = ISU.15.d
+    immediate = { 
+        hidden_effect = {
+           FOI = {
+            set_politics = { 
+                ruling_party = reactionism
+            }
+            add_popularity = {
+                ideology = reactionism
+                popularity = 0.2
+              }
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.15.a
+	}
+}
+news_event = {
+	id = ISU.16
+
+    picture = GFX_ISU_16
+    title = ISU.16.t
+    desc = ISU.16.d
+    immediate = { 
+        hidden_effect = {
+           
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.16.a
+	}
+}
+news_event = {
+	id = ISU.17
+
+    picture = GFX_ISU_17
+    title = ISU.17.t
+    desc = ISU.17.d
+    immediate = { 
+        hidden_effect = {
+           FOI = {
+            set_cosmetic_tag = SPA_R
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.17.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Spain_Civilwar_Super_Event_Visible
+	}
+}
+news_event = {
+	id = ISU.18
+
+    picture = GFX_ISU_18
+    title = ISU.18.t
+    desc = ISU.18.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.18.a
+	}
+}

@@ -219,6 +219,10 @@ FOI = {
 	color = rgb{ 196 163 94 }
 	color_ui = rgb{ 196 163 94 }
 }
+SPR = {
+	color = rgb{ 196 163 94 }
+	color_ui = rgb{ 196 163 94 }
+}
 FWI = {
 	color = rgb { 155 139 222 }
 	color_ui = rgb { 155 139 222 }
