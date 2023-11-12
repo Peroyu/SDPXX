@@ -13,20 +13,20 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 40
+	communism = 30
 	committee_communism = 17
-	moderate_socialism = 25
+	moderate_socialism = 35
 	Nationalism = 8
    	restorativeism = 10
 }
 
 
 create_country_leader = {
-	name = ""
+	name = "BUK_Fayzulla_Xo_jayev"
 	desc = "/"  
-	picture = "gfx/leaders/SOV/.png"  
+	picture = "gfx/leaders/SOV/Portrait_BUK_Fayzulla_Xo_jayev.png"  
 	expire = "1967.7.10"  
-	ideology = military_socialism
+	ideology = Bolshevism
 	traits = { 
 		
 	}

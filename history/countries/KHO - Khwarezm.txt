@@ -22,11 +22,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = ""
+	name = "KHO_Nedirbay_Aytakov"
 	desc = "/"  
-	picture = "gfx/leaders/SOV/.png"  
+	picture = "gfx/leaders/SOV/Portrait_KHO_Nedirbay_Aytakov.png"  
 	expire = "1967.7.10"  
-	ideology = military_socialism
+	ideology = Bolshevism
 	traits = { 
 		
 	}
