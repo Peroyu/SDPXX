@@ -19,6 +19,22 @@ country_event = {
 	days = 940
 }
 add_ideas = {
+	graduated_taxation
+	compulsory_primary_school
+	single_party_state
+	cooperative_ownership
+	women_in_the_workplace
+	protectionism
+	censorship
+	total_social_pension
+	public_schools
+	state_atheism
+	peasant_levies
+	collectivized_agriculture
+	militarized_police
+	public_health_insurance
+	national_supremacy
+
 victor_of_the_revolutionary_war
 }
 set_popularities = {

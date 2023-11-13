@@ -66,6 +66,7 @@ shared_focus = {
 		x = 10
 		y = 4
 		select_effect = { 
+			country_event = { id = HUN.1 days = 687 }
 			news_event = {
 				id = HUN_SLO.1   days = 276 
 				}
@@ -77,6 +78,7 @@ shared_focus = {
 		news_event = {
 	       id = HUN_SLO.2   days = 288
 		   }
+
 		}
 		}
 		prerequisite = {

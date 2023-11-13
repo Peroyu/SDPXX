@@ -1106,7 +1106,203 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 			}
+
+			##################Balkan Crisis####################
+			if = { #HUN beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = HUN
+								is_in_faction_with = HUN
+							}
+						}
+						ROOT = {
+							original_tag = ROM
+						}
+					}
+
+					every_country = {
+						limit = {
+							has_war_with = ROM
+						}
+						white_peace = RPM
+					}
+					HUN = {
+						set_autonomy = {
+							target = TRA
+							autonomy_state = autonomy_puppet
+						}
+						set_autonomy = {
+							target = ROM
+							autonomy_state = autonomy_puppet
+						}
+					}
+					ROM = {
+						drop_cosmetic_tag = yes
+					}
+					TRA = {
+						transfer_state = 713
+						transfer_state = 1320
+						transfer_state = 78
+						transfer_state = 79
+						transfer_state = 1222
+					}
+					BUL = {
+						transfer_state = 772
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #SER beat LEBA
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = SER
+								is_in_faction_with = SER
+							}
+						}
+						ROOT = {
+							original_tag = SUF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					SER = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #BOS beat LEBA
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = BOS
+								is_in_faction_with = BOS
+							}
+						}
+						ROOT = {
+							original_tag = LBA
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					BOS = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #CRT beat CRR
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CRT
+								is_in_faction_with = CRT
+							}
+						}
+						ROOT = {
+							original_tag = CRR
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					CRT = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #HUN beat SLO
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = HUN
+								is_in_faction_with = HUN
+							}
+						}
+						ROOT = {
+							original_tag = SLO
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					HUN = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ROM beat HUN
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ROM
+								is_in_faction_with = ROM
+							}
+						}
+						ROOT = {
+							OR = {
+								original_tag = HUN
+								is_in_faction_with = HUN
+							}
+							
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ROM = {
+						transfer_state = 82
+						transfer_state = 1114
+						transfer_state = 83
+						transfer_state = 1115
+						transfer_state = 1116
+						transfer_state = 789
+						transfer_state = 1118
+						transfer_state = 1112
+						transfer_state = 1117
+						transfer_state = 76
+					}
+					SLO = {
+						transfer_state = 664
+						transfer_state = 1135
+						transfer_state = 1123
+						transfer_state = 1136
+						transfer_state = 1122
+					}
+					CRR = {
+						annex_country = {
+							target = CRT
+							transfer_troops = no
+						}
+					}
+					LBA = {
+						annex_country = {
+							target = BOS
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+			}
 		}
 	}
 }
-}
+

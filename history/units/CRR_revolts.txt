@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Crotia millita"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = JIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Crotia guard 1"
+		location = 11901
+		division_template = "Crotia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Crotia guard 2"
+		location = 3974
+		division_template = "Crotia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+
+    division = {
+		name = "Crotia millita 7"
+		location = 11901
+		division_template = "Crotia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    division = {
+		name = "Crotia millita 6"
+		location = 3974
+		division_template = "Crotia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    division = {
+		name = "Crotia millita 10"
+		location = 6889
+		division_template = "Crotia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    
+}
+

@@ -1,0 +1,38 @@
+Balkan_Crisis_Debug = {
+    icon = 
+    picture = 
+    allowed = {
+		OR = {
+			original_tag = HUN
+			original_tag = ROM
+			original_tag = SUF
+			original_tag = CRR
+			original_tag = LBA
+			original_tag = BUL
+		}
+			
+		
+		
+		
+	}
+    visible = {
+		has_global_flag = Balkan_Crisis_began
+		OR = {
+			tag = HUN
+			tag = rom
+			tag = SUF
+			tag = CRR
+			tag = LBA
+			tag = BUL
+		}
+		
+	}
+    priority = {
+		base = 1
+		
+	}
+	visible_when_empty = yes
+}
+
+
+

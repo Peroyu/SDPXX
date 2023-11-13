@@ -1317,9 +1317,37 @@ news_event = {
     desc = ISU.19.d
     immediate = { 
         hidden_effect = {
+            HUN = {
+                transfer_state = 1123
+                transfer_state = 1135 
+                transfer_state = 664
+                leave_faction = yes
+            }
+            1123 = {
+                set_demilitarized_zone = yes
+            }
+            1135 = {
+                set_demilitarized_zone = yes
+            }
+            664 = {
+                set_demilitarized_zone = yes
+            }
             SLO = {
                 set_cosmetic_tag = SLO_anti
+                load_oob = SLO_rebeline
+                leave_faction = yes
             }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.20
+					days = 19
+				}
+			}
+
         }
 	}
     is_triggered_only = yes
@@ -1340,10 +1368,31 @@ news_event = {
     desc = ISU.20.d
     immediate = { 
         hidden_effect = {
+            HUN = {
+                set_autonomy = {
+                    target = ROM
+                    autonomy_state = autonomy_free
+                }
+            }
             ROM = {
                 annex_country = { target = TRA transfer_troops = yes }
                 set_cosmetic_tag = ROM_unit
             }
+            HUN = {
+                create_faction = 巴尔干防卫阵线
+                add_to_faction = SER
+                add_to_faction = BOS
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.23
+					days = 15
+				}
+			}
         }
 	}
     is_triggered_only = yes
@@ -1364,7 +1413,55 @@ news_event = {
     desc = ISU.21.d
     immediate = { 
         hidden_effect = {
-         
+            SUF = {
+                transfer_state = 1269
+                add_state_core = 1269
+                transfer_state = 765
+                add_state_core = 765
+                transfer_state = 108
+                add_state_core = 108
+                add_state_core = 767
+                add_state_core = 107
+                add_state_core = 841
+                load_oob = SUF_revolts
+                declare_war_on = { target = SER type = take_state }
+            }
+            LAB = {
+                transfer_state = 1143
+                add_state_core = 1143
+                transfer_state = 1145
+                add_state_core = 1145
+                add_state_core = 1142
+                add_state_core = 1141
+                add_state_core = 104
+                load_oob = LAB_revolts
+                declare_war_on = { target = BOS type = take_state }
+            }
+            CRR = {
+                transfer_state = 1098
+                add_state_core = 1098
+                transfer_state = 163
+                add_state_core = 163
+                add_state_core = 103
+                add_state_core = 1099
+                add_state_core = 1105
+                add_state_core = 109
+                add_state_core = 1102
+                add_state_core = 794
+                add_state_core = 1128
+                load_oob = CRR_revolts
+                declare_war_on = { target = CRT type = take_state }
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = Balkan.2
+					days = 3
+				}
+			}
         }
 	}
     is_triggered_only = yes
@@ -1396,5 +1493,44 @@ news_event = {
 
 	option = {
 		name = ISU.22.a
+	}
+}
+news_event = {
+	id = ISU.23
+
+    picture = GFX_ISU_23
+    title = ISU.23.t
+    desc = ISU.23.d
+    immediate = { 
+        hidden_effect = {
+            SLO = {
+                declare_war_on = { target = HUN type = take_state }
+            }
+            ROM = {
+                transfer_state = 1113
+                transfer_state = 84
+                transfer_state = 1116
+                declare_war_on = { target = HUN type = take_state }
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.21
+					days = 7
+				}
+			}
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.23.a
 	}
 }

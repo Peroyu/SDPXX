@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Motonegolo guard"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = JIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Motonegolo rev-guard 1"
+		location = 9809
+		division_template = "Motonegolo guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Motonegolo rev-guard 2"
+		location = 9809
+		division_template = "Motonegolo guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+
+    division = {
+		name = "Motonegolo rev-guard 3"
+		location = 9809
+		division_template = "Motonegolo guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    division = {
+		name = "Motonegolo rev-guard 4"
+		location = 6913
+		division_template = "Motonegolo guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    
+}
+

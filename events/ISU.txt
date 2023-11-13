@@ -487,6 +487,8 @@ country_event = {
 			add_state_core = 767
 			add_state_core = 765
 			add_state_core = 1269
+			load_oob = SER_guards
+			give_military_access = HUN
 		}
 		BOS = {
 			transfer_state = 1142
@@ -494,6 +496,8 @@ country_event = {
 			transfer_state = 1145
 			transfer_state = 104
 			transfer_state = 1141
+			load_oob = BOS_guards
+			give_military_access = HUN
 		}
 		MOT = {
 			transfer_state = 1097
@@ -502,6 +506,8 @@ country_event = {
 			add_state_core = 1097
 			add_state_core= 105
 			add_state_core = 1270
+			load_oob = MOT_guards
+			give_military_access = HUN
 		}
 		BUL = {
 			transfer_state = 841
@@ -512,6 +518,9 @@ country_event = {
 			transfer_state = 106
 			add_state_core = 1271
 			add_state_core = 106
+			load_oob = MAQ_guards
+			give_military_access = HUN
+			give_military_access = BUL
 		}
     }
 	
@@ -526,6 +535,10 @@ country_event = {
 			news_event = {
 				id = HUN_BAL.1
 				days = 1
+			}
+			news_event = {
+				id = ISU.19
+				days = 61
 			}
 		}
 		name = HUN.1.a
@@ -553,6 +566,7 @@ country_event = {
 					id = ISU.9
 					days = 1
 				}
+				
 			}
 		}
     }

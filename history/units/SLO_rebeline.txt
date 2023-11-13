@@ -1,0 +1,73 @@
+﻿division_template = {
+	name = "slovakia millita"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = JIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "slovakia guard"
+		location = 3484
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "slovakia's own"
+		location = 11539
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "slovakia's own 1"
+		location = 581
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "slovakia's own 2"
+		location = 1119
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "slovakia's own 3"
+		location = 3550
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "slovakia's own 4"
+		location = 11536
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "slovakia's own 5"
+		location = 6586
+		division_template = "slovakia millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+	
+	
+}
+
