@@ -892,31 +892,7 @@ news_event = {
     desc = ISU.1.d
     immediate = { 
         hidden_effect = {
-            ISU = {
-                add_to_faction = SOV
-                add_to_faction = FRA
-                add_to_faction = ITA
-                add_to_faction = RCL
-                add_to_faction = GER
-                add_to_faction = AUS
-                add_to_faction = HUN
-                add_to_faction = POL
-                add_to_faction = UKR
-                add_to_faction = BLR
-                add_to_faction = EST
-                add_to_faction = GRE
-                add_to_faction = LIT
-                add_to_faction = LAT
-                add_to_faction = YUG
-                add_to_faction = CAS
-                add_to_faction = TRU
-                add_to_faction = MON
-                add_to_faction = BUL
-                add_to_faction = FIN
-                add_to_faction = CZE
-                add_to_faction = DZG
-                add_to_faction = SLO
-            }
+            
         }
 	}
     is_triggered_only = yes
@@ -1331,5 +1307,68 @@ news_event = {
 
 	option = {
 		name = ISU.18.a
+	}
+}
+news_event = {
+	id = ISU.19
+
+    picture = GFX_ISU_19
+    title = ISU.19.t
+    desc = ISU.19.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.19.a
+	}
+}
+news_event = {
+	id = ISU.20
+
+    picture = GFX_ISU_20
+    title = ISU.20.t
+    desc = ISU.20.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.20.a
+	}
+}
+news_event = {
+	id = ISU.21
+
+    picture = GFX_ISU_21
+    title = ISU.21.t
+    desc = ISU.21.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.21.a
 	}
 }
