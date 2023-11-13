@@ -10,6 +10,14 @@ RAJ_INDIA = {
  color = rgb { 143 172 39 }
  color_ui = rgb { 143 172 39 }
 }
+ROM_unit = {
+ color = rgb { 189 134 70 }
+ color_ui = rgb { 189 134 70 }
+}
+SLO_anti = {
+	color = rgb { 46 123 195 }
+	color_ui = rgb { 46 123 195 }
+   }
 CJF_japen = {
  color = rgb { 205 152 123 }
  color_ui = rgb { 205 152 123 }

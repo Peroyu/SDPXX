@@ -1,0 +1,36 @@
+capital = 319 
+
+obb = "LAB_1947"  
+
+set_research_slots = 2 
+
+set_war_support = 0.67 
+set_stability = 0.45 
+
+
+set_politics = {
+	ruling_party = communism 
+	last_election = "1947.1.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+set_popularities = {
+ communism = 31
+ committee_communism = 18
+ moderate_socialism = 21
+ Liberalism = 0
+ movement_communism = 7
+ conservatism = 3
+ reactionism = 2
+ Nationalism = 18
+}
+
+
+create_country_leader = {
+	name = "CRR_Ante_Ciliga"  
+	desc = "CRR_Ante_Ciliga_desc"  
+	picture = "CRR_Ante_Ciliga_portrait"  
+	expire = "1979.4.12"  
+	ideology = leninism 
+	traits = { }
+}

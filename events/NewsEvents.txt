@@ -1317,7 +1317,9 @@ news_event = {
     desc = ISU.19.d
     immediate = { 
         hidden_effect = {
-         
+            SLO = {
+                set_cosmetic_tag = SLO_anti
+            }
         }
 	}
     is_triggered_only = yes
@@ -1338,7 +1340,10 @@ news_event = {
     desc = ISU.20.d
     immediate = { 
         hidden_effect = {
-         
+            ROM = {
+                annex_country = { target = TRA transfer_troops = yes }
+                set_cosmetic_tag = ROM_unit
+            }
         }
 	}
     is_triggered_only = yes
