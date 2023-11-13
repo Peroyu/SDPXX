@@ -1372,3 +1372,24 @@ news_event = {
 		name = ISU.21.a
 	}
 }
+news_event = {
+	id = ISU.22
+
+    picture = GFX_ISU_22
+    title = ISU.22.t
+    desc = ISU.22.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.22.a
+	}
+}
