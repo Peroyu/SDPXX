@@ -25,6 +25,21 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	KHN_Wang_Shijie={
+		name = "KHN_Wang_Shijie"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KHN_Wang_Shijie
+				small = GFX_portrait_KHN_Wang_Shijie
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			trsits = {}
+			expire = "1962.1.1.1"
+		}
+		
+	}
 	GDC_Peng_Dehuai={
 		name = "GDC_Peng_Dehuai"
 		portraits = {

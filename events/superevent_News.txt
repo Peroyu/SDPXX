@@ -235,3 +235,25 @@ news_event = {
 		#}
 	}
 }
+news_event = {
+	id = ISU.28
+
+    picture = GFX_ISU_28
+    title = ISU.28.t
+    desc = ISU.28.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = ISU.28.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Germany_Crisis_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}

@@ -359,6 +359,21 @@ country_event = {
 		set_politics = { 
 			ruling_party = committee_communism
 		}
+		random_list = { 
+			70 = { 
+			 } 
+			 30 = { 
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = ISU.24
+						days = 70
+					}
+				} 
+			} 
+		}
 		name = ISU_event.3.b
 		
 	}

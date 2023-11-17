@@ -1153,7 +1153,6 @@ news_event = {
         hidden_effect = {
             ENG = {
                 set_cosmetic_tag = ENG_UK
-                retire_country_leader = yes
             }
             random_list = { 
                 40 = { 
@@ -1368,6 +1367,7 @@ news_event = {
     desc = ISU.20.d
     immediate = { 
         hidden_effect = {
+            set_global_flag = Balkan_Crisis_began
             HUN = {
                 set_autonomy = {
                     target = ROM
@@ -1462,6 +1462,23 @@ news_event = {
 					days = 3
 				}
 			}
+            random_list = { 
+				70 = { 
+					
+				} 
+				30 = { 
+					every_country = {
+						limit = {
+							is_ai = no
+		
+						}
+						news_event = {
+							id =  ISU.26
+							days = 15
+						}
+					}
+				} 
+			}
         }
 	}
     is_triggered_only = yes
@@ -1482,6 +1499,12 @@ news_event = {
     desc = ISU.22.d
     immediate = { 
         hidden_effect = {
+            ISU = {
+                add_to_faction = HUN
+                add_to_faction = SER
+                add_to_faction = BOS
+                load_oob = ISU_Balkan_intervnen
+            }
          
         }
 	}
@@ -1532,5 +1555,140 @@ news_event = {
 
 	option = {
 		name = ISU.23.a
+	}
+}
+news_event = {
+	id = ISU.24
+
+    picture = GFX_ISU_24
+    title = ISU.24.t
+    desc = ISU.24.d
+    immediate = { 
+        hidden_effect = {
+                AUS = {
+                    set_cosmetic_tag = FOL
+                    annex_country = { target = CZE transfer_troops = yes }
+                }
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.24.a
+	}
+}
+news_event = {
+	id = ISU.25
+
+    picture = GFX_ISU_25
+    title = ISU.25.t
+    desc = ISU.25.d
+    immediate = { 
+        hidden_effect = {
+                AUS = {
+                    set_cosmetic_tag = DF_AUS
+                }
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.25.a
+	}
+}
+news_event = {
+	id = ISU.26
+
+    picture = GFX_ISU_26
+    title = ISU.26.t
+    desc = ISU.26.d
+    immediate = { 
+        hidden_effect = {
+           
+            BUL = {
+                create_faction = 巴尔干解放阵线
+                add_to_faction = ROM
+                add_to_faction = LAB
+                add_to_faction = SUF
+                add_to_faction = CRR
+                add_to_faction = MAQ
+            }  
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.26.a
+	}
+}
+news_event = {
+	id = ISU.27
+
+    picture = GFX_ISU_27
+    title = ISU.27.t
+    desc = ISU.27.d
+    immediate = { 
+        hidden_effect = {
+           ISU = {
+            declare_war_on = { target = HUN type = take_state }
+            declare_war_on = { target = ROM type = take_state }
+            declare_war_on = { target = LAB type = take_state }
+            declare_war_on = { target = SUF type = take_state }
+            declare_war_on = { target = CRR type = take_state }
+            load_oob = ISU_Balkan_intervnen
+            add_manpower = 1700000
+            add_equipment_to_stockpile = {
+                type = tac_bomber_equipment_2
+                amount = 56
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = CAS_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = CAS_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_3
+                amount = 72
+                producer = ISU
+            }
+           }
+            
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.27.a
 	}
 }

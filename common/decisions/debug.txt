@@ -62,5 +62,50 @@ SDP_debug = {
 		
 	
 	}
+	SDP_debug_4 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_politics = {
+				ruling_party = Liberalism
+			}
+			set_capital = { state = 602 }
+			set_cosmetic_tag = KHN_zizhi
+		}
+	
+		
+	
+	}
+	SDP_debug_5 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_cosmetic_tag = CHI_fdr
+			set_capital = { state = 613 }
+		}
+	
+		
+	
+	}
     
 }

@@ -184,6 +184,26 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_23.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_24"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_24.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_25"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_25.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_26"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_26.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_27"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_27.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_28"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_28.png"
+	}
+	spriteType = {
 		name = "GFX_USA_4"
 		texturefile = "gfx/event_pictures/news/GFX_USA_4.png"
 	}

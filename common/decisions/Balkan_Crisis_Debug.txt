@@ -19,6 +19,16 @@ Balkan_Crisis_Debug = {
 		################################################################################################
 		
 		activation = {
+			HUN = {
+				has_war = yes
+			}
+			BUL = {
+				has_war = no
+			}
+			ISU = {
+				has_war = no
+			}
+			has_global_flag = Balkan_Crisis_began
 		}
 		
 		days_mission_timeout = 90
@@ -29,16 +39,33 @@ Balkan_Crisis_Debug = {
 		}
 		
 		timeout_effect = {
-			every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id =  ISU.22
-					days = 7
-				}
+			random_list = { 
+				70 = { 
+					every_country = {
+						limit = {
+							is_ai = no
+		
+						}
+						news_event = {
+							id =  ISU.27
+							days = 15
+						}
+					}
+				} 
+				30 = { 
+					every_country = {
+						limit = {
+							is_ai = no
+		
+						}
+						news_event = {
+							id =  ISU.22
+							days = 7
+						}
+					}
+				} 
 			}
+			
 		}
 		
 		ai_will_do = {
@@ -126,45 +153,6 @@ Balkan_Crisis_Debug = {
 			base = 100#ai点选这个决议的意愿
 		}
 	}
-	SUF_attack_maq = {
-
-		icon = 
-		
-		
-		fire_only_once = yes
-
-		available = {
-			tag = SUF
-			NOT = {
-				country_exists = SER
-			}
-		}
-		
-		allowed = {
-			original_tag = SUF
-		}
-		
-		
-		visible = {
-			#什么条件下决议可见（每一帧检测一次）
-		}
-		
-		
-		cost = 35
-		days_remove = 15
-		war_with_on_remove = MAQ
-
-		remove_effect = {
-			declare_war_on = { target = MAQ type = take_state }
-			HUN = {
-				add_to_faction = MAQ
-			}
-		}
-		
-		ai_will_do = {
-			base = 100#ai点选这个决议的意愿
-		}
-	}
 	LBA_attack_sarareo = {
 
 		icon =
@@ -203,6 +191,51 @@ Balkan_Crisis_Debug = {
 		timeout_effect = {
 			#任务读条走到头时触发的效果
 		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	HUN_peace_with_BUL = {
+
+		icon =
+		
+		fire_only_once = yes
+
+		available = {
+			tag = HUN
+			NOT = { 
+				 ROM = {
+				has_war_with = HUN
+			}
+			}
+		}
+
+		allowed = {
+			original_tag = HUN
+		}
+		
+		
+		visible = {
+			tag = HUN
+		}
+		
+		
+		cost = 20
+		days_remove = 5
+		complete_effect = {
+			BUL = {
+				leave_faction = yes
+			}
+			every_country = {
+				limit = {
+					has_war_with = BUL
+				}
+				white_peace = BUL
+			}
+		}
+		
+		
 		
 		ai_will_do = {
 			base = 100#ai点选这个任务的意愿

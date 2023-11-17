@@ -60,4 +60,9 @@ spriteTypes = {
 		name = "GFX_SPEVENT_Spain_Civilwar_Super_Event_Visible"
 		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Spain_Civilwar_Super_Event_Visible.png"
 	}
+
+	spriteType = {
+		name = "GFX_SPEVENT_Germany_Crisis_Super_Event_Visible"
+		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Germany_Crisis_Super_Event_Visible.png"
+	}
 }

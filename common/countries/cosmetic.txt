@@ -18,6 +18,14 @@ SLO_anti = {
 	color = rgb { 46 123 195 }
 	color_ui = rgb { 46 123 195 }
    }
+   KHN_zizhi = {
+	color = rgb { 142 183 191 }
+	color_ui = rgb { 142 183 191  }
+   }
+   CHI_fdr = {
+	color = rgb { 142 183 191 }
+	color_ui = rgb { 142 183 191  }
+   }
 CJF_japen = {
  color = rgb { 205 152 123 }
  color_ui = rgb { 205 152 123 }

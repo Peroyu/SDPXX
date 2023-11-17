@@ -1301,6 +1301,222 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				if = { #ISU beat SLO
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = SLO
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = ROM
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = SER
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = LBA
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = SUF
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = HUN
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = CRT
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = CRR
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = BOS
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}
