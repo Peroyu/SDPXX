@@ -395,6 +395,10 @@ ROF = {
 	color = rgb { 70 170 186 }
 	color_ui = rgb  { 70 170 186 }
 }
+ALF = {
+	color = rgb { 70 170 186 }
+	color_ui = rgb  { 70 170 186 }
+}
 FRC = {
 	color = rgb { 70 170 186 }
 	color_ui = rgb  { 70 170 186 }

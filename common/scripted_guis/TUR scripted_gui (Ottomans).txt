@@ -469,7 +469,11 @@ scripted_gui = {
 			house_icon = {
 				frame = current_house_icon_frame
 			}
+			House_icon_pie = { 
+				frame = current_house_icon_frame 
+			}
 		}
+		
 	}
 
 	ott_syria_tooltip_ui = {

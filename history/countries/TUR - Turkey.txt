@@ -50,6 +50,7 @@ add_ideas = {
 	TUR_Mustafa_Sabri_Efendi
 	TUR_Mehmed_Cavid_Bey
 	######
+	ott_parliament_idea 
 	TUR_Ahmet_IV
 	TUR_Ottoman_honor
 	TUR_plan_of_cultural_revival
@@ -69,6 +70,8 @@ SAU = {
 	}
 }
 
+set_variable = { var = representatives_support value = 100 }
+set_variable = { var = representatives_total value = 275 }
 
 ### Unrest ###
 773 = {	#Konstantiniyye

@@ -476,7 +476,7 @@ OTT_evaluate_parliament_support = {
 }
 
 OTT_recalc_congress_icon_frames = {
-	OTT = {
+	TUR = {
 		if = {
 			limit = { has_idea = ott_parliament_idea }
 			set_variable = { current_house_icon_frame = representatives_support }
@@ -493,6 +493,7 @@ OTT_recalc_congress_icon_frames = {
 			clear_variable = current_house_icon_frame
 		}
 	}
+	
 }
 
 OTT_calc_coalition_strength = {

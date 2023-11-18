@@ -60,5 +60,29 @@ spriteTypes = {
 		name = "GFX_OTT_purge_disloyal_elements"
 		texturefile = "gfx/interface/gui/ottoman/OTT_purge_disloyal_elements.png"
 	}
+	spriteType = {
+		name = "GFX_decision_category_usa_congress_senate_ui"
+		texturefile = "gfx/interface/decisions/decision_category_usa_congress_senate_ui.dds"
+		noOfFrames = 21
+	}
+	spriteType = {
+		name = "GFX_decision_category_usa_congress_house_ui"
+		texturefile = "gfx/interface/decisions/decision_category_usa_congress_house_ui.dds"
+		noOfFrames = 21
+	}
+
+	progressbartype = {
+		name = "GFX_UKR_PS_o_ohlendorf_pie"
+		texturefile1 = "gfx/interface/powerstruggle_gui/o_ohlendorf_pie.dds"
+		texturefile2 = "gfx/interface/powerstruggle_gui/o_pie_blank.dds"
+		size = { x = 220 y = 220 }
+		effectfile = "gfx/FX/progress_radial.lua"
+	}
+
+	spritetype = {
+		name = "GFX_UKR_PS_core_overlay_brautigam"
+		texturefile = "gfx/interface/powerstruggle_gui/core_overlay_brautigam.dds"
+		alwaystransparent = yes
+	}
 }
 

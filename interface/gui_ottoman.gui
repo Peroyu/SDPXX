@@ -288,31 +288,27 @@ guiTypes = {
 				format = center
 				fixedsize = yes
 				maxWidth = 180
+
 			}
+			containerWindowType = {
+			name = "political_pie_chart"
+			position = { x= 237 y = 10 }
+			size = { width=300 height=300 }
+			clipping = no
+
+			iconType = {
+				name = "chart"
+				spriteType = "GFX_political_chart"
+				position = { x = 28 y = 4}
+			}
+			
+			
+		}
+				
 		}
 
-		### right side - parties
-		containerWindowType = {
-			name = "parties_container"
-			position = { x = 223 y = 5 }
+		
 
-			instantTextBoxType = {
-				name ="major_parties_textbox"
-				position = { x = 0 y = 0 }
-				font = "hoi_24header"
-				text = "[OTT.OTT_congress_major_parties]"
-				format = left
-				maxWidth = 280
-			}
-			instantTextBoxType = {
-				name ="minor_parties_textbox"
-				position = { x = 0 y = 80 }
-				font = "hoi_24header"
-				text = "[OTT.OTT_congress_minor_parties]"
-				format = left
-				maxWidth = 280
-			}
-		}
 	}
 
 	containerWindowType = {

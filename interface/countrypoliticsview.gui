@@ -84,7 +84,7 @@ guiTypes = {
 
 			iconType = {
 				name = "chart"
-				spriteType = "GFX_political_chart"
+				spriteType = ""
 				position = { x = 28 y = 4}
 			}
 			

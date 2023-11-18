@@ -75,10 +75,21 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			ALF = {
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 805
+				add_state_core = 459
+				add_state_core = 805
+				add_state_core = 460
+				load_oob = "ALF_collpase"
+				add_manpower = 50000
+			}
 			if = {
 				limit = {
 					has_country_flag = ROF_AIS_agree
 				}
+				
 				ALG = {
 					transfer_state = 513
 					transfer_state = 1327
@@ -203,7 +214,7 @@ country_event = {
 		}
 		
 		declare_war_on = {
-			target = ROF 
+			target = ALF 
 			type = take_state_focus 
 		}
 		name = ENT.3.a
@@ -241,85 +252,6 @@ country_event = {
 		set_country_flag = ROF_AIS_refuse
 		name = ENT.4.b
 	}
-	
-	
-}
-country_event = {
-    id = ENT.5  #阿尔及尔停火
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	ENT.5 FROM = [From.GetName]" }
-	title = ENT.5.t
-	desc = ENT.5.d
-	picture = GFX_ENT
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-			set_global_flag = ALG_algeria_war_is_over
-			every_country = {
-				limit = {
-					is_ai = no
-				}
-				news_event = {
-					id = global.6
-					days = 1
-				}
-			}
-			
-			
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 50
-		}
-		if = {
-			limit = {
-				NOT = {
-					country_exists = AIS
-				}
-			}
-			ALG = {
-				set_capital = { state = 459 }
-				transfer_state = 459
-				transfer_state = 460
-				transfer_state = 805
-				transfer_state = 514
-				
-				white_peace = ROF
-			}
-			ROF = {
-				transfer_state = 911
-			}
-		}
-		else_if = {
-			limit = {
-				country_exists = AIS
-			}
-			ALG = {
-				set_capital = { state = 459 }
-				transfer_state = 459
-				transfer_state = 805
-				transfer_state = 514
-				white_peace = ROF
-			}
-			AIS = {
-				set_capital = { state = 460 }
-				transfer_state = 460
-				white_peace = ROF
-			}
-			ROF = {
-				transfer_state = 911
-			}
-		}
-		805 = {
-			set_demilitarized_zone = yes
-		}
-		name = ENT.5.a
-	}
-	
 	
 	
 }
