@@ -336,6 +336,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_CJF_kmtda3.png"
 	}
 	spriteType = {
+		name = "GFX_FedCHI1"
+		texturefile = "gfx/event_pictures/GFX_FedCHI1.png"
+	}
+	spriteType = {
 		name = "GFX_RUSevent_1"
 		texturefile = "gfx/event_pictures/GFX_RUSevent_1.png"
 	}
