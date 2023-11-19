@@ -228,6 +228,32 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.8
+
+    picture = GFX_global_8
+    title = global.8.t
+    desc = global.8.d
+    immediate = { 
+        hidden_effect = {
+           TUR = {
+            annex_country = {
+                target = MLT
+                transfer_troops = no
+            }
+           }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.8.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1
