@@ -613,6 +613,81 @@ news_event = {
 	}
 }
 news_event = {
+	id = HUN_BAL.2
+
+    picture = GFX_HUN_BAL_2
+    title = HUN_BAL.2.t
+    desc = HUN_BAL.2.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = HUN_BAL.2.a
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+            }
+            OR = {
+                has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+            }
+        }
+	}
+    option = {
+		name = HUN_BAL.2.b
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+            }
+            OR = {
+                has_government = restorativeism
+                has_government = reactionism
+                has_government = Nationalism
+            }
+        }
+	}
+    option = {
+		name = HUN_BAL.2.h
+        trigger = {
+                tag = TUR
+           
+        }
+	}
+    option = {
+		name = HUN_BAL.2.n
+        trigger = {
+                tag = HUN
+           
+        }
+	}
+    option = {
+		name = HUN_BAL.2.m
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+                OR = {
+                    has_government = restorativeism
+                    has_government = reactionism
+                    has_government = Nationalism
+                    has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+                }
+            }
+           
+           
+        }
+	}
+}
+news_event = {
 	id = LaAme.1
 
     picture = GFX_LaAme_1
@@ -1676,7 +1751,7 @@ news_event = {
             declare_war_on = { target = LAB type = take_state }
             declare_war_on = { target = SUF type = take_state }
             declare_war_on = { target = CRR type = take_state }
-            load_oob = ISU_Balkan_intervnen
+            load_oob = ISU_Balkan_crisis
             add_manpower = 1700000
             add_equipment_to_stockpile = {
                 type = tac_bomber_equipment_2
@@ -1738,5 +1813,27 @@ news_event = {
 
 	option = {
 		name = ISU.29.a
+	}
+}
+news_event = {
+	id = ISU.30
+    picture = GFX_ISU_30
+    title = ISU.30.t
+    desc = ISU.30.d
+    immediate = { 
+        hidden_effect = {
+          BUL = {
+            load_oob = "BUL_1947"
+          }   
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.30.a
 	}
 }

@@ -11,13 +11,13 @@ DIPLOMACY_GUARANTEE_ENABLE_TRIGGER_OVERRIDES_GAME = {
 	}
 }
 
+
 DIPLOMACY_GUARANTEE_ENABLE_TRIGGER = {
 	custom_trigger_tooltip = {
 		tooltip =  SDP_Diplomacy_Block
 		always = no
 	}
 }
-
 DIPLOMACY_REVOKE_GUARANTEE_ENABLE_TRIGGER = {
 	custom_trigger_tooltip = {
 		tooltip =  SDP_Diplomacy_Block

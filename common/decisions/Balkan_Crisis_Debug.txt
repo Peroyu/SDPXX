@@ -40,30 +40,83 @@ Balkan_Crisis_Debug = {
 		
 		timeout_effect = {
 			random_list = { 
-				70 = { 
-					every_country = {
-						limit = {
-							is_ai = no
-		
-						}
-						news_event = {
-							id =  ISU.27
-							days = 15
+				if = {
+					limit = {
+						BUL = {
+							has_war_with = HUN
 						}
 					}
-				} 
-				30 = { 
-					every_country = {
-						limit = {
-							is_ai = no
-		
-						}
-						news_event = {
-							id =  ISU.22
-							days = 7
+					50 = { 
+						every_country = {
+							limit = {
+								is_ai = no
+			
+							}
+							news_event = {
+								id =  ISU.30
+								days = 15
+							}
 						}
 					}
-				} 
+					20 = { 
+						every_country = {
+							limit = {
+								is_ai = no
+			
+							}
+							news_event = {
+								id =  ISU.27
+								days = 15
+							}
+						}
+					} 
+					30 = { 
+						every_country = {
+							limit = {
+								is_ai = no
+			
+							}
+							news_event = {
+								id =  ISU.22
+								days = 7
+							}
+						}
+					} 
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							BUL = {
+								has_war_with = HUN
+							}
+						}
+					}
+					70 = { 
+						every_country = {
+							limit = {
+								is_ai = no
+			
+							}
+							news_event = {
+								id =  ISU.27
+								days = 15
+							}
+						}
+					} 
+					30 = { 
+						every_country = {
+							limit = {
+								is_ai = no
+			
+							}
+							news_event = {
+								id =  ISU.22
+								days = 7
+							}
+						}
+					} 
+				}
+				
 			}
 			
 		}
@@ -206,8 +259,8 @@ Balkan_Crisis_Debug = {
 			tag = HUN
 			NOT = { 
 				 ROM = {
-				has_war_with = HUN
-			}
+					has_war_with = HUN
+				}
 			}
 		}
 
