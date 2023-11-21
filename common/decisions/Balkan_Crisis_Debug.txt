@@ -39,13 +39,16 @@ Balkan_Crisis_Debug = {
 		}
 		
 		timeout_effect = {
-			random_list = { 
+			 ISU = {
+				add_ideas = ISU_Balkan_crisis
+			 }
 				if = {
 					limit = {
 						BUL = {
-							has_war_with = HUN
+							has_war= yes
 						}
 					}
+					random_list = {
 					50 = { 
 						every_country = {
 							limit = {
@@ -82,15 +85,15 @@ Balkan_Crisis_Debug = {
 							}
 						}
 					} 
+					}
 				}
-				else_if = {
+				if = {
 					limit = {
-						NOT = {
-							BUL = {
-								has_war_with = HUN
-							}
+						BUL = {
+							has_war = no
 						}
 					}
+					random_list = {
 					70 = { 
 						every_country = {
 							limit = {
@@ -119,7 +122,7 @@ Balkan_Crisis_Debug = {
 				
 			}
 			
-		}
+		}0
 		
 		ai_will_do = {
 			base = 100#ai点选这个任务的意愿
@@ -218,7 +221,7 @@ Balkan_Crisis_Debug = {
 		}
 
 		visible = {
-			tag = LBA
+			tag = LAB
 		}
 		################################################################################################
 		#特别补充：																					   #
@@ -227,7 +230,7 @@ Balkan_Crisis_Debug = {
 		################################################################################################
 		
 		activation = {
-			tag = LBA
+			tag = LAB
 			has_war_with = BOS
 		}
 		
@@ -235,6 +238,7 @@ Balkan_Crisis_Debug = {
 		is_good = no
 		
 		complete_effect = {
+			declare_war_on = { target = HUN type = annex_everything }
 			annex_country = {
 				target = BOS
 				transfer_troops = no

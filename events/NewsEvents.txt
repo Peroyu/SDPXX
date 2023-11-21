@@ -1600,11 +1600,12 @@ news_event = {
     desc = ISU.22.d
     immediate = { 
         hidden_effect = {
+            set_global_flag = Balkan_ISU_support_HUN_flag
             ISU = {
                 add_to_faction = HUN
                 add_to_faction = SER
                 add_to_faction = BOS
-                load_oob = ISU_Balkan_intervnen
+                load_oob = ISU_Balkan_crisis
             }
          
         }
@@ -1745,12 +1746,15 @@ news_event = {
     desc = ISU.27.d
     immediate = { 
         hidden_effect = {
+            set_global_flag = Balkan_ISU_support_ISU_flag
            ISU = {
-            declare_war_on = { target = HUN type = take_state }
-            declare_war_on = { target = ROM type = take_state }
-            declare_war_on = { target = LAB type = take_state }
-            declare_war_on = { target = SUF type = take_state }
-            declare_war_on = { target = CRR type = take_state }
+            declare_war_on = { target = HUN type = annex_everything }
+            declare_war_on = { target = ROM type = annex_everything }
+            declare_war_on = { target = LAB type = annex_everything }
+            declare_war_on = { target = SUF type = annex_everything }
+            declare_war_on = { target = CRR type = annex_everything }
+            declare_war_on = { target = CRT type = annex_everything }
+            declare_war_on = { target = SLO type = annex_everything }
             load_oob = ISU_Balkan_crisis
             add_manpower = 1700000
             add_equipment_to_stockpile = {
@@ -1822,6 +1826,7 @@ news_event = {
     desc = ISU.30.d
     immediate = { 
         hidden_effect = {
+            set_global_flag = Balkan_ISU_support_BUL_flag
           BUL = {
             load_oob = "BUL_1947"
           }   

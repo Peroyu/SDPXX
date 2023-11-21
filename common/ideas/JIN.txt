@@ -102,6 +102,7 @@ ideas = {
 				is_subject = no
 			}
 			modifier = {
+				ai_focus_aggressive_factor = 1000
 				ai_call_ally_desire_factor = -100000000
 			}
 		}
