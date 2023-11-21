@@ -712,3 +712,45 @@ country_event = {
 	name = GER.3.b
 	}
 }
+country_event = {
+    id = HUN.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.2 FROM = [From.GetName]" }
+	title = HUN.2.t
+	desc = HUN.2.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HUN
+		HUN = {
+			NOT = {
+				has_war_with = ROM
+			}
+		}
+		NOT = {
+			country_exists = SLO
+		}
+	}
+	immediate = {
+	    hidden_effect = {
+			SLO = {
+				drop_cosmetic_tag = yes
+				transfer_state = 1123
+				transfer_state = 1135
+				transfer_state = 664
+				transfer_state = 70
+				transfer_state = 1120
+				transfer_state = 1121
+				transfer_state = 1119
+			}
+		}
+    }
+	option = { 
+	    name = HUN.2.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}

@@ -1601,11 +1601,8 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_ISU_support_HUN_flag
-            ISU = {
-                add_to_faction = HUN
-                add_to_faction = SER
-                add_to_faction = BOS
-                load_oob = ISU_Balkan_crisis
+            HUN = {
+                load_oob = HUN_1947
             }
          
         }

@@ -1210,7 +1210,11 @@ on_actions = {
 			if = { #HUN beat ROM
 					limit = {
 						FROM = {
+							OR = {
 								original_tag = HUN
+								is_in_faction_with = HUN
+							}
+								
 						}
 						ROOT = {
 							original_tag = ROM
@@ -1221,7 +1225,7 @@ on_actions = {
 						limit = {
 							has_war_with = ROM
 						}
-						white_peace = RPM
+						white_peace = ROM
 					}
 					HUN = {
 						set_autonomy = {
@@ -1236,9 +1240,15 @@ on_actions = {
 							target = SLO
 							transfer_troops = no
 						}
+						annex_country = {
+							target = ROM
+							transfer_troops = no
+						}
 					}
 					ROM = {
 						drop_cosmetic_tag = yes
+						transfer_state = 81
+						transfer_state = 46
 					}
 					TRA = {
 						transfer_state = 713
@@ -1256,8 +1266,8 @@ on_actions = {
 					limit = {
 						FROM = {
 							OR = {
-								original_tag = SER
-								is_in_faction_with = SER
+								original_tag = HUN
+								is_in_faction_with = HUN
 							}
 						}
 						ROOT = {
@@ -1280,12 +1290,12 @@ on_actions = {
 					limit = {
 						FROM = {
 							OR = {
-								original_tag = BOS
-								is_in_faction_with = BOS
+								original_tag = HUN
+								is_in_faction_with = HUN
 							}
 						}
 						ROOT = {
-							original_tag = LBA
+							original_tag = LAB
 						}
 					}
 
