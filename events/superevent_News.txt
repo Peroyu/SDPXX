@@ -236,6 +236,57 @@ news_event = {
 	}
 }
 news_event = {
+	id = Balkan.3 #第二次巴尔干危机
+
+    picture = GFX_Balkan_war_3
+    title = Balkan.3.t
+    desc = Balkan.3.d
+    immediate = { 
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = HUN_BAL.2
+					days = 210
+				}
+			}
+		}
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = Balkan.3.a
+        #set_global_flag = Super_Event_Visible
+		#set_global_flag = Balkan_war_2nd_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}
+news_event = {
+	id = Balkan.4 #巴尔干联邦崩溃
+
+    picture = GFX_Balkan_war_4
+    title = Balkan.4.t
+    desc = Balkan.4.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = Balkan.4.a
+        #set_global_flag = Super_Event_Visible
+		#set_global_flag = Balkan_war_2nd_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}
+news_event = {
 	id = ISU.28
 
     picture = GFX_ISU_28

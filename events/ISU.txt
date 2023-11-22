@@ -758,3 +758,303 @@ country_event = {
 		}
 	}
 }
+country_event = {
+    id = HUN.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.3 FROM = [From.GetName]" }
+	title = HUN.3.t
+	desc = HUN.3.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	option = { 
+	    name = HUN.3.a
+	    ai_chance = {
+		   base = 100
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.39
+				days = 1
+			}
+			news_event = {
+				id = Balkan.4
+				days = 395
+			}
+		}
+		BAL = {
+			transfer_state = 784
+			transfer_state = 1111
+			transfer_state = 109
+			transfer_state = 1099
+			transfer_state = 1105
+			transfer_state = 1206
+			transfer_state = 103
+			transfer_state = 163
+			transfer_state = 1098
+			transfer_state = 1270
+			transfer_state = 1142
+			transfer_state = 1143
+			transfer_state = 1145
+			transfer_state = 104
+			transfer_state = 1141
+			transfer_state = 107
+			transfer_state = 108
+			transfer_state = 1269
+			transfer_state = 767
+			transfer_state = 841
+			transfer_state = 1128
+			transfer_state = 794
+			transfer_state = 1102
+			transfer_state = 1106
+			transfer_state = 155
+			transfer_state = 1136
+			transfer_state = 1123
+			transfer_state = 1135
+			transfer_state = 664
+			transfer_state = 70
+			transfer_state = 1120
+			transfer_state = 1119
+			transfer_state = 1121
+			transfer_state = 1122
+			transfer_state = 73
+			transfer_state = 1109
+			transfer_state = 43
+			transfer_state = 1107
+			transfer_state = 45
+			transfer_state = 875
+			transfer_state = 1114
+			transfer_state = 1108
+			transfer_state = 154
+			transfer_state = 1110
+			transfer_state = 73
+			transfer_state = 1117
+			transfer_state = 1118
+			transfer_state = 1112
+			transfer_state = 76
+			transfer_state = 789
+			transfer_state = 84
+			transfer_state = 1116
+			transfer_state = 1113
+			transfer_state = 1115
+			transfer_state = 83
+			transfer_state = 82
+			transfer_state = 1114
+			transfer_state = 81
+			transfer_state = 46
+			transfer_state = 713
+			transfer_state = 1320
+			transfer_state = 78
+			transfer_state = 79
+			transfer_state = 1222
+			transfer_state = 772
+			transfer_state = 765
+				}
+	}
+	option = { 
+	    name = HUN.3.b
+		trigger = {
+			NOT = {
+				country_exists = CZE
+			}
+
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.25
+				days = 1
+			}
+		}
+		AUS = {
+			set_cosmetic_tag = DF_AUS
+				transfer_state = 784
+			transfer_state = 1111
+			transfer_state = 109
+			transfer_state = 1099
+			transfer_state = 1105
+			transfer_state = 1206
+			transfer_state = 103
+			transfer_state = 163
+			transfer_state = 1098
+			transfer_state = 1270
+			transfer_state = 1142
+			transfer_state = 1143
+			transfer_state = 1145
+			transfer_state = 104
+			transfer_state = 1141
+			transfer_state = 107
+			transfer_state = 108
+			transfer_state = 1269
+			transfer_state = 767
+			transfer_state = 841
+			transfer_state = 1128
+			transfer_state = 794
+			transfer_state = 1102
+			transfer_state = 1106
+			transfer_state = 155
+			transfer_state = 1136
+			transfer_state = 1123
+			transfer_state = 1135
+			transfer_state = 664
+			transfer_state = 70
+			transfer_state = 1120
+			transfer_state = 1119
+			transfer_state = 1121
+			transfer_state = 1122
+			transfer_state = 73
+			transfer_state = 1109
+			transfer_state = 43
+			transfer_state = 1107
+			transfer_state = 45
+			transfer_state = 875
+			transfer_state = 1114
+			transfer_state = 1108
+			transfer_state = 154
+			transfer_state = 1110
+			transfer_state = 73
+			transfer_state = 1117
+			transfer_state = 1118
+			transfer_state = 1112
+			transfer_state = 76
+			transfer_state = 789
+			transfer_state = 84
+			transfer_state = 1116
+			transfer_state = 1113
+			transfer_state = 1115
+			transfer_state = 83
+			transfer_state = 82
+			transfer_state = 1114
+			transfer_state = 81
+			transfer_state = 46
+			transfer_state = 713
+			transfer_state = 1320
+			transfer_state = 78
+			transfer_state = 79
+			transfer_state = 1222
+			transfer_state = 772
+		}
+	    ai_chance = {
+		   base = 100
+		}
+	}
+	option = { 
+	    name = HUN.3.c
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.35
+				days = 50
+			}
+		}
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+
+country_event = {
+    id = HUN.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.4 FROM = [From.GetName]" }
+	title = HUN.4.t
+	desc = HUN.4.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	option = { 
+	    name = HUN.4.a
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+			has_global_flag = Balkan_ISU_support_HUN_flag
+		}
+		ISU = {
+			add_to_faction = HUN
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = ISU.34
+				days = 222
+			}
+		}
+	}
+	option = { 
+	    name = HUN.4.b
+	    ai_chance = {
+		   base = 100
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = Balkan.3
+				days = 20
+			}
+		}
+	}
+}
+
+country_event = {
+    id = HUN.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.5 FROM = [From.GetName]" }
+	title = HUN.5.t
+	desc = HUN.5.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.38
+					days = 1
+				}
+				news_event = {
+					id = ISU.35
+					days = 50
+				}
+			}
+		}
+    }
+	option = { 
+	    name = HUN.5.a
+	    ai_chance = {
+		   base = 100
+		}
+		
+		
+	}
+}

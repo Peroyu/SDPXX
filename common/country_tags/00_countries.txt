@@ -1,5 +1,6 @@
 #################by澳洲白茶＆Authoria＆KasuganoSora################
 FRA = "countries/France.txt"
+BAL = "countries/France.txt"
 COA = "countries/France.txt"
 MAN = "countries/Manchukuo.txt"
 FNC = "countries/Governments of the Five North China Provinces.txt"

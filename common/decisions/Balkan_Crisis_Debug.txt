@@ -39,6 +39,7 @@ Balkan_Crisis_Debug = {
 		}
 		
 		timeout_effect = {
+			clr_global_flag = Balkan_Crisis_began
 			 ISU = {
 				add_ideas = ISU_Balkan_crisis
 			 }
@@ -122,7 +123,7 @@ Balkan_Crisis_Debug = {
 				
 			}
 			
-		}0
+		}
 		
 		ai_will_do = {
 			base = 100#ai点选这个任务的意愿
@@ -156,6 +157,9 @@ Balkan_Crisis_Debug = {
 		is_good = no
 		
 		complete_effect = {
+			SER = {
+				declare_war_on = { target = HUN type = annex_everything }
+			}
 			annex_country = {
 				target = SER
 				transfer_troops = no
@@ -233,11 +237,10 @@ Balkan_Crisis_Debug = {
 			tag = LAB
 			has_war_with = BOS
 			NOT = {
-				OR = {
 					has_global_flag = Balkan_ISU_support_BUL_flag
             has_global_flag = Balkan_ISU_support_ISU_flag
             has_global_flag = Balkan_ISU_support_HUN_flag
-				}
+				
 			}
 		}
 		

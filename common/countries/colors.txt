@@ -11,6 +11,10 @@ ANC = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
 }
+BAL = {
+	color = rgb { 255 189 84  }
+	color_ui = rgb { 255 189 84 }
+}
 ALG = {
 	color = rgb { 149 170 129  }
 	color_ui = rgb { 149 170 129 }

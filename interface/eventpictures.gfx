@@ -284,6 +284,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_32.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_34"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_34.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_39"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_39.png"
+	}
+	spriteType = {
+		name = "GFX_Balkan_war_4"
+		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_4.png"
+	}
+	spriteType = {
 		name = "GFX_ISU_33"
 		texturefile = "gfx/event_pictures/news/GFX_ISU_33.png"
 	}

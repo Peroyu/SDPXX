@@ -1689,9 +1689,7 @@ news_event = {
     desc = ISU.25.d
     immediate = { 
         hidden_effect = {
-                AUS = {
-                    set_cosmetic_tag = DF_AUS
-                }
+                
                 
         }
 	}
@@ -1848,6 +1846,12 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_BAL_win
+            ISU = {
+                country_event = {
+                    id = HUN.5
+                    days = 21
+                }
+            }
         }
 	}
     trigger = {
@@ -1884,6 +1888,12 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_HUN_win
+            ISU = {
+                country_event = {
+                    id = HUN.4
+                    days = 7
+                }
+            }
         }
 	}
     trigger = {
@@ -1920,6 +1930,12 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_ISU_win
+            ISU = {
+                country_event = {
+                    id = HUN.3
+                    days = 7
+                }
+            }
         }
 	}
     trigger = {
@@ -1946,5 +1962,152 @@ news_event = {
 
 	option = {
 		name = ISU.33.a
+	}
+}
+news_event = {
+	id = ISU.34
+    picture = GFX_ISU_34
+    title = ISU.34.t
+    desc = ISU.34.d
+    immediate = { 
+        hidden_effect = {
+              
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.34.a
+	}
+}
+
+news_event = {
+	id = ISU.35
+    picture = GFX_ISU_35
+    title = ISU.35.t
+    desc = ISU.35.d
+    immediate = { 
+        hidden_effect = {
+           HUN = {
+            set_politics = { 
+                ruling_party = reactionism
+            }
+           } 
+           every_country = {
+            limit = {
+                is_ai = no
+            }
+            news_event = {
+                id = ISU.36
+                days = 65
+            }
+           }  
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.35.a
+	}
+}
+news_event = {
+	id = ISU.36
+    picture = GFX_ISU_36
+    title = ISU.36.t
+    desc = ISU.36.d
+    immediate = { 
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = ISU.37
+                    days = 30
+                }
+               }  
+            
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.36.a
+	}
+}
+news_event = {
+	id = ISU.37
+    picture = GFX_ISU_37
+    title = ISU.37.t
+    desc = ISU.37.d
+    immediate = { 
+        hidden_effect = { 
+           HUN = {
+            set_politics = { 
+                ruling_party = social_democracy
+            }
+           }  
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.37.a
+	}
+}
+news_event = {
+	id = ISU.38
+    picture = GFX_ISU_38
+    title = ISU.38.t
+    desc = ISU.38.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.38.a
+	}
+}
+news_event = {
+	id = ISU.39
+    picture = GFX_ISU_39
+    title = ISU.39.t
+    desc = ISU.39.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.39.a
 	}
 }

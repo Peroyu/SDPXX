@@ -117,6 +117,28 @@ units = {
 
 	}
 	division = {
+		name = "Hungarian Infantry 12"
+		location = 9617
+		division_template = "Hungarian Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Hungarian Infantry 13"
+		location = 3617
+		division_template = "Hungarian Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Hungarian Infantry 14"
+		location = 6720
+		division_template = "Hungarian Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+
+	division = {
 		name = "Hungarian Armor 1"
 		location = 684
 		division_template = "Hungarian Armor"		# Provincial militia unit (poor equipment and training)
@@ -137,7 +159,20 @@ units = {
 		start_equipment_factor = 1
 
 	}
+division = {
+		name = "Hungarian Armor 4"
+		location = 9656
+		division_template = "Hungarian Armor"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
 
+	}
+	division = {
+		name = "Hungarian Armor 5"
+		location = 3730
+		division_template = "Hungarian Armor"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
     
 }
 
