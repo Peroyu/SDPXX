@@ -2098,7 +2098,11 @@ news_event = {
     desc = ISU.39.d
     immediate = { 
         hidden_effect = { 
-          
+          BAL = {
+            annex_country = { target = MOT transfer_troops = yes }
+            annex_country = { target = BUL transfer_troops = yes }
+            annex_country = { target = MAQ transfer_troops = yes }
+          }
         }
 	}
     is_triggered_only = yes
