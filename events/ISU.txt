@@ -727,6 +727,10 @@ country_event = {
 		HUN = {
 			NOT = {
 				has_war_with = ROM
+				has_global_flag = Balkan_HUN_win
+			}
+			NOT = {
+				has_war_with = ISU
 			}
 		}
 		NOT = {

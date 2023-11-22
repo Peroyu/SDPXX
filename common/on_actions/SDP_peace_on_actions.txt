@@ -1278,6 +1278,12 @@ on_actions = {
 					FROM = {
 						white_peace = ROOT
 					}
+					HUN = {
+						set_autonomy = {
+							target = SER
+							autonomy_state = autonomy_puppet
+						}
+					}
 					SER = {
 						annex_country = {
 							target = ROOT
@@ -1301,6 +1307,12 @@ on_actions = {
 
 					FROM = {
 						white_peace = ROOT
+					}
+					HUN = {
+						set_autonomy = {
+							target = BOS
+							autonomy_state = autonomy_puppet
+						}
 					}
 					BOS = {
 						annex_country = {

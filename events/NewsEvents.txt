@@ -1839,3 +1839,111 @@ news_event = {
 		name = ISU.30.a
 	}
 }
+news_event = {
+	id = ISU.31
+    picture = GFX_ISU_31
+    title = ISU.31.t
+    desc = ISU.31.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_BAL_win
+        }
+	}
+    trigger = {
+        is_ai = no
+        OR = {
+            has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+        }
+        country_exists = HUN
+        country_exists = ROM
+        ROM = {
+            has_cosmetic_tag = ROM_unit
+            NOT = {
+                has_war_with = HUN
+            }
+           
+        }
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.31.a
+	}
+}
+news_event = {
+	id = ISU.32
+    picture = GFX_ISU_32
+    title = ISU.32.t
+    desc = ISU.32.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_HUN_win
+        }
+	}
+    trigger = {
+        is_ai = no
+        OR = {
+            has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+        }
+        country_exists = HUN
+        country_exists = ROM
+        ROM = {
+            
+            NOT = {
+                has_cosmetic_tag = ROM_unit
+            }
+           
+        }
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.32.a
+	}
+}
+news_event = {
+	id = ISU.33
+    picture = GFX_ISU_33
+    title = ISU.33.t
+    desc = ISU.33.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_ISU_win
+        }
+	}
+    trigger = {
+        is_ai = no
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            NOT = {
+                country_exists = HUN
+                country_exists = ROM
+                country_exists = CRT
+                country_exists = CRR
+                country_exists = SUF
+                country_exists = SER
+                country_exists = LAB
+                country_exists = BOS
+                country_exists = SLO
+            }
+      
+       
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.33.a
+	}
+}

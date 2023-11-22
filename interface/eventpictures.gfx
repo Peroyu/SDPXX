@@ -276,6 +276,18 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_30.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_31"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_31.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_32"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_32.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_33"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_33.png"
+	}
+	spriteType = {
 		name = "GFX_Triple_entent_2"
 		texturefile = "gfx/event_pictures/news/GFX_Triple_entent_2.png"
 	}
