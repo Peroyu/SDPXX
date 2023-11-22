@@ -1224,6 +1224,9 @@ on_actions = {
 					every_country = {
 						limit = {
 							has_war_with = ROM
+							NOT = {
+								tag = ISU
+							}
 						}
 						white_peace = ROM
 					}
@@ -1390,6 +1393,9 @@ on_actions = {
 					every_country = {
 						limit = {
 							has_war_with = HUN
+							NOT = {
+								tag = ISU
+							}
 						}
 						white_peace = HUN
 					}
@@ -1617,9 +1623,7 @@ on_actions = {
 						}
 					}
 
-					FROM = {
-						white_peace = ROOT
-					}
+					
 					ISU = {
 						annex_country = {
 							target = HUN

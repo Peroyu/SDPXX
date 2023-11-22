@@ -232,6 +232,13 @@ Balkan_Crisis_Debug = {
 		activation = {
 			tag = LAB
 			has_war_with = BOS
+			NOT = {
+				OR = {
+					has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+				}
+			}
 		}
 		
 		days_mission_timeout = 74

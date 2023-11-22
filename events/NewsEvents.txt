@@ -1752,6 +1752,7 @@ news_event = {
             declare_war_on = { target = CRR type = annex_everything }
             declare_war_on = { target = CRT type = annex_everything }
             declare_war_on = { target = SLO type = annex_everything }
+            declare_war_on = { target = SER type = annex_everything }
             load_oob = ISU_Balkan_crisis
             add_manpower = 1700000
             add_equipment_to_stockpile = {
