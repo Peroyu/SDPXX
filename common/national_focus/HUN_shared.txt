@@ -66,7 +66,7 @@ shared_focus = {
 		x = 10
 		y = 4
 		select_effect = { 
-			country_event = { id = HUN.1 days = 10 }
+			country_event = { id = HUN.1 days = 488 }
 			
 			every_country = {
 				limit = {
