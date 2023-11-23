@@ -1484,6 +1484,12 @@ news_event = {
                 add_to_faction = SER
                 add_to_faction = BOS
             }
+            ISU = {
+                country_event = {
+                    id = HUN.6
+                    days = 85
+                }
+            }
             every_country = {
 				limit = {
 					is_ai = no
@@ -1846,6 +1852,7 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_BAL_win
+            set_global_flag = Balkan_has_result
             ISU = {
                 country_event = {
                     id = HUN.5
@@ -1870,6 +1877,10 @@ news_event = {
             }
            
         }
+        NOT = {
+            has_global_flag = Balkan_has_result
+        }
+        
     }
     
     fire_only_once = yes
@@ -1887,7 +1898,18 @@ news_event = {
     desc = ISU.32.d
     immediate = { 
         hidden_effect = {
+            HUN = {
+                set_autonomy = {
+                    target = TRA
+                    autonomy_state = autonomy_puppet
+                }
+                set_autonomy = {
+                    target = ROM
+                    autonomy_state = autonomy_puppet
+                }
+            }
             set_global_flag = Balkan_HUN_win
+            set_global_flag = Balkan_has_result
             ISU = {
                 country_event = {
                     id = HUN.4
@@ -1905,6 +1927,13 @@ news_event = {
         }
         country_exists = HUN
         country_exists = ROM
+        NOT = {
+            country_exists = CRR
+            country_exists = SUF
+            has_global_flag = Balkan_has_result
+            country_exists = LAB
+        }
+        
         ROM = {
             
             NOT = {
@@ -1930,6 +1959,7 @@ news_event = {
     immediate = { 
         hidden_effect = {
             set_global_flag = Balkan_ISU_win
+            set_global_flag = Balkan_has_result
             ISU = {
                 country_event = {
                     id = HUN.3
@@ -1951,6 +1981,7 @@ news_event = {
                 country_exists = LAB
                 country_exists = BOS
                 country_exists = SLO
+                has_global_flag = Balkan_has_result
             }
       
        
@@ -1986,7 +2017,7 @@ news_event = {
 }
 
 news_event = {
-	id = ISU.35
+	id = ISU.35 #匈牙利反动军人集团夺权
     picture = GFX_ISU_35
     title = ISU.35.t
     desc = ISU.35.d
@@ -2002,7 +2033,7 @@ news_event = {
                 is_ai = no
             }
             news_event = {
-                id = ISU.36
+                id = ISU.37
                 days = 65
             }
            }  
@@ -2019,36 +2050,7 @@ news_event = {
 	}
 }
 news_event = {
-	id = ISU.36
-    picture = GFX_ISU_36
-    title = ISU.36.t
-    desc = ISU.36.d
-    immediate = { 
-        hidden_effect = {
-            every_country = {
-                limit = {
-                    is_ai = no
-                }
-                news_event = {
-                    id = ISU.37
-                    days = 30
-                }
-               }  
-            
-        }
-	}
-    is_triggered_only = yes
-    
-    fire_only_once = yes
-
-    major = yes
-
-	option = {
-		name = ISU.36.a
-	}
-}
-news_event = {
-	id = ISU.37
+	id = ISU.37 #第二次多瑙河行动
     picture = GFX_ISU_37
     title = ISU.37.t
     desc = ISU.37.d
@@ -2072,13 +2074,21 @@ news_event = {
 	}
 }
 news_event = {
-	id = ISU.38
+	id = ISU.38 #国际调停巴尔干战争
     picture = GFX_ISU_38
     title = ISU.38.t
     desc = ISU.38.d
     immediate = { 
         hidden_effect = { 
-          
+          ISU = {
+            add_to_faction = SUF
+            add_to_faction = ROM
+            add_to_faction = HUN
+            add_to_faction = SUF
+            add_to_faction = LAB
+            add_to_faction = CRR
+            add_to_faction = BUL
+          }
         }
 	}
     is_triggered_only = yes
@@ -2113,5 +2123,65 @@ news_event = {
 
 	option = {
 		name = ISU.39.a
+	}
+}
+news_event = {
+	id = ISU.40
+    picture = GFX_ISU_40
+    title = ISU.40.t
+    desc = ISU.40.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.40.a
+	}
+}
+news_event = {
+	id = ISU.41
+    picture = GFX_ISU_41
+    title = ISU.41.t
+    desc = ISU.41.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.41.a
+	}
+}
+news_event = {
+	id = ISU.42
+    picture = GFX_ISU_42
+    title = ISU.42.t
+    desc = ISU.42.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.42.a
 	}
 }

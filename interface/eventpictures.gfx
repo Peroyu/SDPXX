@@ -292,6 +292,34 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_39.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_40"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_40.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_41"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_41.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_42"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_42.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_38"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_38.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_35"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_35.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_37"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_37.png"
+	}
+	spriteType = {
+		name = "GFX_Balkan_war_3"
+		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_3.png"
+	}
+	spriteType = {
 		name = "GFX_Balkan_war_4"
 		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_4.png"
 	}

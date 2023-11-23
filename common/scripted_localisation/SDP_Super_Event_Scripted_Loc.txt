@@ -78,6 +78,13 @@ defined_text = { #SUPER EVENT PICTURES
         }
         localization_key = "GFX_SPEVENT_Germany_Crisis_Super_Event_Visible"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Balkan_war_2nd_Super_Event_Visible"
+    }
     
    
 }
@@ -159,6 +166,13 @@ defined_text = { #SUPER EVENT TITLES
             has_global_flag = Germany_Crisis_Super_Event_Visible
         }
         localization_key = "GER_Civilwar_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_TITLE"
     }
 
     
@@ -243,6 +257,13 @@ defined_text = { #SUPER EVENT QUOTES
             has_global_flag = Germany_Crisis_Super_Event_Visible
         }
         localization_key = "GER_Civilwar_Super_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Super_Event_TEXT"
     }
     
    
@@ -330,6 +351,14 @@ defined_text = { #SUPER EVENT BUTTONS
     }
 
     
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_BUTTON"
+    }
+
+    
     
 }
 
@@ -410,6 +439,13 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = Germany_Crisis_Super_Event_Visible
         }
         localization_key = "GER_Civilwar_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_DESC"
     }
     
 }

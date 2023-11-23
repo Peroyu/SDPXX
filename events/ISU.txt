@@ -727,7 +727,7 @@ country_event = {
 		HUN = {
 			NOT = {
 				has_war_with = ROM
-				has_global_flag = Balkan_HUN_win
+			
 			}
 			NOT = {
 				has_war_with = ISU
@@ -735,6 +735,9 @@ country_event = {
 		}
 		NOT = {
 			country_exists = SLO
+		}
+		NOT = {
+			has_global_flag = Balkan_HUN_win
 		}
 	}
 	immediate = {
@@ -960,9 +963,82 @@ country_event = {
 				id = ISU.35
 				days = 50
 			}
+			news_event = {
+				id = ISU.42
+				days = 1
+			}
+		}
+		SER = {
+			transfer_state = 107
+			transfer_state = 767
+			transfer_state = 108
+			transfer_state = 1269
+			transfer_state = 765
+			transfer_state = 1097
+			transfer_state = 105
+			transfer_state = 1270
+		}
+		ROM = {
+			transfer_state = 81
+			transfer_state = 46
+			transfer_state = 772
+			transfer_state = 1222
+			transfer_state = 78
+			transfer_state = 79
+			transfer_state = 713
+			transfer_state = 1320
+			transfer_state = 1116
+			transfer_state = 84
+			transfer_state = 1113
+			transfer_state = 82
+			transfer_state = 1114
+			transfer_state = 83
+			transfer_state = 1115
+			transfer_state = 1112
+		}
+		HUN = {
+			transfer_state = 789
+			transfer_state = 76
+			transfer_state = 1117
+			transfer_state = 1118
+			transfer_state = 73
+			transfer_state = 1110
+			transfer_state = 154
+			transfer_state = 1108
+			transfer_state = 875
+			transfer_state = 45
+			transfer_state = 1107
+			transfer_state = 43
+			transfer_state = 1109
+			transfer_state = 1122
+			transfer_state = 1136
+			transfer_state = 784
+			transfer_state = 155
+			transfer_state = 1111
+			transfer_state = 1106
+		}
+		CRT = {
+			transfer_state = 1128
+			transfer_state = 794
+			transfer_state = 1102
+			transfer_state = 109
+			transfer_state = 1099
+			transfer_state = 103
+			transfer_state = 1105
+			transfer_state = 1206
+			transfer_state = 1145
+			transfer_state = 163
+			transfer_state = 1098
+		}
+		BOS = {
+			transfer_state = 1142
+			transfer_state = 1143
+			transfer_state = 1145
+			transfer_state = 1141
+			transfer_state = 104
 		}
 	    ai_chance = {
-		   base = 100
+		   base = 130
 		}
 	}
 }
@@ -1002,6 +1078,10 @@ country_event = {
 				id = ISU.34
 				days = 222
 			}
+			news_event = {
+				id = ISU.40
+				days = 1
+			}
 		}
 	}
 	option = { 
@@ -1016,6 +1096,10 @@ country_event = {
 			news_event = {
 				id = Balkan.3
 				days = 20
+			}
+			news_event = {
+				id = ISU.41
+				days = 1
 			}
 		}
 	}
@@ -1055,6 +1139,80 @@ country_event = {
 		   base = 100
 		}
 		
+		
+	}
+}
+
+country_event = {
+    id = HUN.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.6 FROM = [From.GetName]" }
+	title = HUN.6.t
+	desc = HUN.6.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	option = { 
+	    name = HUN.6.a
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+			BUL = {
+				has_war= yes
+			}
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+
+			}
+			news_event = {
+				id =  ISU.30
+				days = 15
+			}
+		}
+	}
+	option = { 
+	    name = HUN.6.b
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+
+			}
+			news_event = {
+				id =  ISU.22
+				days = 15
+			}
+		}
+		
+	}
+	option = { 
+	    name = HUN.6.c
+	    ai_chance = {
+		   base = 200
+		}
+		add_ideas = ISU_Balkan_crisis
+		every_country = {
+			limit = {
+				is_ai = no
+
+			}
+			news_event = {
+				id =  ISU.27
+				days = 15
+			}
+		}
 		
 	}
 }

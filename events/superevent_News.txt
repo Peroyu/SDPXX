@@ -257,8 +257,8 @@ news_event = {
 
 	option = {
 		name = Balkan.3.a
-        #set_global_flag = Super_Event_Visible
-		#set_global_flag = Balkan_war_2nd_Super_Event_Visible
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Balkan_war_2nd_Super_Event_Visible
 		#hidden_effect = {
 		#	sound_effect = "Balkan_war_voice"
 		#}

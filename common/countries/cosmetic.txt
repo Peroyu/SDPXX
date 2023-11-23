@@ -146,3 +146,13 @@ SHN_haixia = {
 	color = rgb  { 242 151 130 }
 	color_ui = rgb  { 242 151 130 }
    }
+
+   SER_hun_peppt = {
+	color = rgb  {131 70 55 }
+	color_ui = rgb  { 131 70 55 }
+   }
+
+   BOS_hun_peppt = {
+	color = rgb  { 147 63 42 }
+	color_ui = rgb  { 147 63 42 }
+   }
