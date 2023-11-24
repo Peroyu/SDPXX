@@ -480,6 +480,27 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.10
+    picture = GFX_Pacific_10
+    title = Pacific.10.t
+    desc = Pacific.10.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.10.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1
@@ -2183,5 +2204,36 @@ news_event = {
 
 	option = {
 		name = ISU.42.a
+	}
+}
+
+news_event = {
+	id = ISU.43
+    picture = GFX_ISU_35
+    title = ISU.43.t
+    desc = ISU.43.d
+    immediate = { 
+        hidden_effect = { 
+            every_country = {
+				news_event = {
+					id = HUN_BAL.2
+					days = 70
+				}
+			}
+            HUN = {
+                set_politics = { 
+                    ruling_party = reactionism
+                }
+               } 
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.43.a
 	}
 }

@@ -245,8 +245,8 @@ news_event = {
 		hidden_effect = {
 			every_country = {
 				news_event = {
-					id = HUN_BAL.2
-					days = 210
+					id = ISU.43
+					days = 32
 				}
 			}
 		}
