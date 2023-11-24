@@ -461,20 +461,6 @@ scripted_gui = {
 		}
 	}
 
-	ott_congress_decision_ui = {
-		context_type = decision_category
-		window_name = "ott_congress_decision_ui_window"
-
-		properties = {
-			house_icon = {
-				frame = current_house_icon_frame
-			}
-			House_icon_pie = { 
-				frame = current_house_icon_frame 
-			}
-		}
-		
-	}
 
 	ott_syria_tooltip_ui = {
 		context_type = decision_category

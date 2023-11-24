@@ -1854,3 +1854,4 @@ OTT_mutasarrifate_abolishment_effect = {
 		}
 	}
 }
+

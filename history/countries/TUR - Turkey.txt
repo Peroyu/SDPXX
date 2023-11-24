@@ -16,7 +16,15 @@ give_guarantee = AFG
 set_power_balance = {
 	id = BoP_Tab_GlobalConflicts_TUR
 }
+
+set_variable = { TUR.jap_display = 23 }
+set_variable = { TUR.zhu_display = 55 }
+set_variable = { TUR.chi_display = 90 }
+set_variable = { var = representatives_support value = 0 }
+set_variable = { var = representatives_total value = 275 }
 set_variable = { var = FactionStatus value = 3}
+OTT_recalc_congress_icon_frames = yes
+
 set_popularities = {
 	Nationalism = 2
 	reactionism = 10

@@ -25,7 +25,7 @@ TUR_decision_categories = {
 		cancel_trigger = {
           
         }
-		scripted_gui = ott_congress_decision_ui
+		scripted_gui = TUR_Parties_congress_gui
         priority = 10000
 		allowed = { original_tag = TUR }
 		visible_when_empty = yes

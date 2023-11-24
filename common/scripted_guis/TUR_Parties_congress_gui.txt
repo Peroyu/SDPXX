@@ -1,0 +1,19 @@
+scripted_gui = {
+
+	TUR_Parties_congress_gui = {
+		context_type = decision_category
+		window_name = "TUR_Parties_congress_gui_Window"
+
+		properties = {
+			japanese_pie = {
+				frame = TUR.jap_display
+			}
+			zhujin_pie = {
+				frame = TUR.zhu_display
+			}
+			chinese_pie = {
+				frame = TUR.chi_display
+			}
+		}
+	}
+}
