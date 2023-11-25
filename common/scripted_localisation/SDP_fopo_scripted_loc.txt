@@ -380,16 +380,12 @@ defined_text = {
 		localization_key = SGR_pacific_war_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = USA }
-		localization_key = USA_IRCW_aid_iran_category_desc
+		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = FRA }
+		localization_key = GC_IranCW_desc
 	}
 	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = GER }
-		localization_key = SGR_ircw_category_desc
-	}
-	text = {
-		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = NIP }
-		localization_key = JAP_ircw_category_desc
+		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } tag = TUR }
+		localization_key = GC_IranCW_desc
 	}
 	text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_MalayanCW } tag = USA }
@@ -718,7 +714,7 @@ defined_text = {
 		trigger = { check_variable = { selected_conflict_id = token:GC_IndonesiaCW } }
 		localization_key = "GFX_fopo_indonesia_sidebar"
 	}
-	text = { # Iran Civil War
+	text = { # 阿尔及利亚博弈
 		trigger = { check_variable = { selected_conflict_id = token:GC_IranCW } }
 		localization_key = "GFX_fopo_iran_sidebar"
 	}
@@ -896,21 +892,13 @@ defined_text = {
 		trigger = { check_variable = { conflict_id = token:GC_MalayanCW } tag = NIP }
 		localization_key = "GFX_fopo_malaysia_civil_war_icon_jap"
 	}
-	text = { # Iran Civil War, USA post-coalition collapse
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = USA has_global_flag = SDP_IRA_collapsed_coalition }
-		localization_key = "GFX_fopo_iran_civil_war_icon_us"
-	}
-	text = { # Iran Civil War, USA pre-coalition collapse
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = USA }
-		localization_key = "GFX_fopo_iran_civil_war_icon_us_early"
+	text = { # 阿尔及利亚
+		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = FRA }
+		localization_key = "GFX_fopo_iran_civil_war_icon_FRA"
 	}
 	text = { # Iran Civil War, Germany
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = GER }
-		localization_key = "GFX_fopo_iran_civil_war_icon_ger"
-	}
-	text = { # Iran Civil War, Japan
-		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = NIP }
-		localization_key = "GFX_fopo_iran_civil_war_icon_jap"
+		trigger = { check_variable = { conflict_id = token:GC_IranCW } tag = TUR }
+		localization_key = "GFX_fopo_iran_civil_war_icon_TUR"
 	}
 	text = { # Jamaica Referendum
 		trigger = { check_variable = { conflict_id = token:GC_JamaicanReferendum } }

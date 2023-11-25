@@ -1,0 +1,79 @@
+﻿add_namespace = AIS
+country_event = {
+    id = AIS.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.1 FROM = [From.GetName]" }
+	title = AIS.1.t
+	desc = AIS.1.d
+	picture = GFX_AIS_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = AIS.2
+				days = 15
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = AIS.1.a
+	}
+}
+country_event = {
+    id = AIS.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.2 FROM = [From.GetName]" }
+	title = AIS.2.t
+	desc = AIS.2.d
+	picture = GFX_AIS_2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			country_event = {
+				id = AIS.3
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = AIS.2.a
+	}
+}
+country_event = {
+    id = AIS.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.3 FROM = [From.GetName]" }
+	title = AIS.3.t
+	desc = AIS.3.d
+	picture = GFX_AIS_3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = AIS.3.a
+	}
+}

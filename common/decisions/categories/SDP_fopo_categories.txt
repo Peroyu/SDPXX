@@ -163,11 +163,11 @@ BRA_foreign_policy_category = {
 	# priority = 100010
 }
 
-IBR_foreign_policy_category = {
+FRA_foreign_policy_category = {
 	icon = GFX_IBR_decision_category_iberia_coa
 
 	allowed = {
-		original_tag = IBR
+		original_tag = FRA
 	}
 
 	# visible = {

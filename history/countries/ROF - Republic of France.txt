@@ -1,6 +1,7 @@
 capital = 272 
 
-obb = "ROF_1947"  # 
+set_oob = "ROF_1947"  # 
+set_naval_oob = "ROF_naval"  #
 
 set_research_slots = 3 # 
 
@@ -8,6 +9,9 @@ set_war_support = 0.3
 set_stability = 0.4 
 set_country_flag = Algeria_War
 set_variable = { ROF.Algeria_war_process = 54 }
+set_variable = { global.Algeria_dakar_influence = 50 }
+set_variable = { global.Algeria_ALG_influence = 10 }
+set_variable = { global.Algeria_AIS_influence = 10 }
 ROF = {
 	puppet = FRC
 	puppet = MAD
@@ -23,50 +27,86 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons2 = 1
 	infantry_weapons1 = 1
+	improved_infantry_weapons_2 = 1
+	improved_infantry_weapons_3 = 1
 	infantry_strike_force_1 = 1
 	infantry_at = 1
+	infantry_strike_force_2 = 1
 	infantry_heavy_weapens_1 = 1
 	support_weapons = 1
 	support_weapons2 = 1
-	support_weapons3 = 1
 	motorised_infantry_0 = 1
 
 	#support#
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	basic_train = 1
+	basic_diesel_locomotive = 1
 
 	#artillery#
 	gw_artillery = 1
 	artillery1 = 1
 	interwar_artillery = 1
+	basic_howitzer = 1
+	rocket_artillery_base = 1
+	rocket_artillery_base_2 = 1
 	interwar_antiair = 1
+	antiair1 = 1
+	aa_lmg = 1
+	antiair2 = 1
 	interwar_antitank = 1
 	Anti_Material_Weapon = 1
+	antitank1 = 1
 
 	#armor#
 	basic_light_tank_chassis = 1
 	basic_light_tank_chassis_improve = 1
 	basic_medium_tank_chassis = 1
+	mechanised_infantry = 1
+	mechanised_infantry_recon = 1
 	super_light_armor = 1
 
 	#air#
 	early_fighter = 1
 	fighter1 = 1
+	fighter1_improve = 1
+	fighter2 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	naval_bomber_improve = 1
+	naval_bomber3 = 1
 	early_bomber = 1
+	heavy_fighter_improve = 1
+	heavy_fighter1 = 1
+	tactical_bomber1 = 1
+	scout_plane1 = 1
+	transport_plane1 = 1
 
 	#navy#
 	early_destroyer = 1
+	Pre_dreadnought_battleship = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_submarine = 1
+	transport = 1
+	landing_craft = 1
 	Pre_dreadnought_battleship = 1
 
 	#techss#
 	electronic_mechanical_engineering = 1
 	radio = 1
 	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
 	
 	#industry#
 	basic_machine_tools = 1
-	improved_machine_tools = 1
 	fuel_silos = 1
 	construction1 = 1
 }
@@ -95,4 +135,21 @@ add_ideas = {
 	ROF_rebeline_in_desert
 	ROF_conspiracy
 	ROF_attitude_to_islan_1
+	###
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
 }

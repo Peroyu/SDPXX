@@ -12,3 +12,21 @@ TUR_decision_categories = {
         priority = 10000
 		allowed = { original_tag = TUR }
     }
+
+
+	TUR_parliament_categories = {
+	    icon = usa_congress
+		available = {
+	        
+		}
+		visible = {
+          tag = TUR 
+        }
+		cancel_trigger = {
+          
+        }
+		scripted_gui = TUR_Parties_congress_gui
+        priority = 10000
+		allowed = { original_tag = TUR }
+		visible_when_empty = yes
+    }

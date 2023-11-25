@@ -1,0 +1,96 @@
+﻿division_template = {
+	name = "Bulgaria Infantry"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = BUL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	 recon = { x = 0 y = 1 } 
+ }
+}
+division_template = {
+	name = "Bulgaria Armor"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = BUL_ARM_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Bulgaria Infantry 1"
+		location = 949
+		division_template = "Bulgaria Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Infantry 2"
+		location = 11832
+		division_template = "Bulgaria Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Infantry 3"
+		location = 9783
+		division_template = "Bulgaria Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Infantry 4"
+		location = 893
+		division_template = "Bulgaria Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Infantry 5"
+		location = 9617
+		division_template = "Bulgaria Infantry"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Armor 1"
+		location = 949
+		division_template = "Bulgaria Armor"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Bulgaria Armor 2"
+		location = 9610
+		
+		division_template = "Bulgaria Armor"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	
+
+    
+}
+

@@ -10,9 +10,29 @@ RAJ_INDIA = {
  color = rgb { 143 172 39 }
  color_ui = rgb { 143 172 39 }
 }
+ROM_unit = {
+ color = rgb { 189 134 70 }
+ color_ui = rgb { 189 134 70 }
+}
+SLO_anti = {
+	color = rgb { 46 123 195 }
+	color_ui = rgb { 46 123 195 }
+   }
+   KHN_zizhi = {
+	color = rgb { 142 183 191 }
+	color_ui = rgb { 142 183 191  }
+   }
+   CHI_fdr = {
+	color = rgb { 142 183 191 }
+	color_ui = rgb { 142 183 191  }
+   }
 CJF_japen = {
  color = rgb { 205 152 123 }
  color_ui = rgb { 205 152 123 }
+}
+SPA_R = {
+ color = rgb { 151 106 52 }
+ color_ui = rgb { 151 106 52 }
 }
 GDC_japen = {
  color = rgb { 175 122 93 }
@@ -43,6 +63,10 @@ JIN_kmt = {
  color_ui = rgb { 100 149 155 }
 }
 KTR_kmt = {
+ color = rgb { 100 149 155 }
+ color_ui = rgb { 100 149 155 }
+}
+TIB_kmt = {
  color = rgb { 100 149 155 }
  color_ui = rgb { 100 149 155 }
 }
@@ -121,4 +145,14 @@ BOR_wenlai = {
 SHN_haixia = {
 	color = rgb  { 242 151 130 }
 	color_ui = rgb  { 242 151 130 }
+   }
+
+   SER_hun_peppt = {
+	color = rgb  {131 70 55 }
+	color_ui = rgb  { 131 70 55 }
+   }
+
+   BOS_hun_peppt = {
+	color = rgb  { 147 63 42 }
+	color_ui = rgb  { 147 63 42 }
    }

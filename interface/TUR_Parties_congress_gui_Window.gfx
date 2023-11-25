@@ -1,0 +1,38 @@
+spriteTypes = {
+	progressbartype = {
+		name = GFX_GNG_Japanese_Pie
+		textureFile1 = "gfx/interface/scripted_gui/TUR/japanese_pie_full.dds"
+		textureFile2 = "gfx/interface/scripted_gui/TUR/chinese_symbol.dds"
+		size = { 
+			x = 180
+			y = 180
+		}
+		effectFile = "gfx/FX/progress_radial.lua"
+		steps = 90
+	}
+
+	progressbartype = {
+		name = GFX_GNG_Chinese_Pie
+		textureFile1 = "gfx/interface/scripted_gui/TUR/chinese_pie_full.dds"
+		textureFile2 = "gfx/interface/scripted_gui/TUR/chinese_symbol.dds"
+		size = { 
+			x = 180
+			y = 180
+		}
+		effectFile = "gfx/FX/progress_radial.lua"
+		steps = 90
+	}
+
+	progressbartype = {
+		name = GFX_GNG_Zhujin_Pie
+		textureFile1 = "gfx/interface/scripted_gui/TUR/zhujin_pie_full.dds"
+		textureFile2 = "gfx/interface/scripted_gui/TUR/chinese_symbol.dds"
+		size = { 
+			x = 180
+			y = 180
+		}
+		effectFile = "gfx/FX/progress_radial.lua"
+		steps = 90
+	}
+
+}

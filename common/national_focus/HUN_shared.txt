@@ -66,17 +66,19 @@ shared_focus = {
 		x = 10
 		y = 4
 		select_effect = { 
-			news_event = {
-				id = HUN_SLO.1   days = 276 
-				}
+			country_event = { id = HUN.1 days = 488 }
+			
 			every_country = {
 				limit = {
 					is_ai = no
 				}
-		
 		news_event = {
-	       id = HUN_SLO.2   days = 288
+				id = HUN_SLO.1   days = 276 
+				}
+		news_event = {
+	       id = HUN_SLO.2   days = 320
 		   }
+
 		}
 		}
 		prerequisite = {

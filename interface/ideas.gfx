@@ -703,6 +703,11 @@ spriteTypes = {
 		name = "GFX_idea_all_eye_sights"
 		texturefile = "gfx/interface/ideas/ISU/GFX_idea_all_eye_sights.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_ISU_Balkan_crisis"
+		texturefile = "gfx/interface/ideas/ISU/GFX_idea_ISU_Balkan_crisis.png"
+	}
 ############################SOV################################
 	spriteType = {
 		name = "GFX_idea_SOV_great_red_october"

@@ -20,11 +20,6 @@ news_event = {
 			}
 			CAN = {
 				dismantle_faction = yes
-				puppet = NIG
-				puppet = RHO
-				puppet = AST
-				puppet = NZL
-				puppet = MAL
 			}
 
 		}
@@ -39,9 +34,9 @@ news_event = {
 		name = Triple_entent.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = Triple_entent_crush_Super_Event_Visible
-			hidden_effect = {
-				sound_effect = "Triple_entent_crush_war_voice"
-			}
+			#hidden_effect = {
+			#	sound_effect = "Triple_entent_crush_war_voice"
+			#}
 	}
 }
 news_event = {
@@ -64,9 +59,9 @@ news_event = {
 		name = Triple_entent.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = The_UK_Super_Event_Visible
-			hidden_effect = {
-				sound_effect = "The_UK_voice"
-			}
+			#hidden_effect = {
+			#	sound_effect = "The_UK_voice"
+			#}
 	}
 }
 news_event = {
@@ -87,9 +82,9 @@ news_event = {
 		name = CHI_war.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = CHI_second_continent_war_Super_Event_Visible
-		hidden_effect = {
-			sound_effect = "second_continent_war_voice"
-			}
+		#hidden_effect = {
+		#	sound_effect = "second_continent_war_voice"
+		#	}
 	}
 }
 news_event = {
@@ -207,10 +202,10 @@ news_event = {
 	option = {
 		name = ISU.2.a
         set_global_flag = Super_Event_Visible
-		set_global_flag = ISU_conference_Super_Event_Visible
-		hidden_effect = {
-		sound_effect = "ISU_conference_voice"
-		}
+		set_global_flag = ISU_conference_Super_Event_Visible_1
+		#hidden_effect = {
+		#	sound_effect = "ISU_conference_voice"
+		#}
 	}
 }
 news_event = {
@@ -230,6 +225,79 @@ news_event = {
 		name = Balkan.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = Balkan_war_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}
+news_event = {
+	id = Balkan.3 #第二次巴尔干危机
+
+    picture = GFX_Balkan_war_3
+    title = Balkan.3.t
+    desc = Balkan.3.d
+    immediate = { 
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = ISU.43
+					days = 32
+				}
+			}
+		}
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = Balkan.3.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Balkan_war_2nd_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}
+news_event = {
+	id = Balkan.4 #巴尔干联邦崩溃
+
+    picture = GFX_Balkan_war_4
+    title = Balkan.4.t
+    desc = Balkan.4.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = Balkan.4.a
+        #set_global_flag = Super_Event_Visible
+		#set_global_flag = Balkan_war_2nd_Super_Event_Visible
+		#hidden_effect = {
+		#	sound_effect = "Balkan_war_voice"
+		#}
+	}
+}
+news_event = {
+	id = ISU.28
+
+    picture = GFX_ISU_28
+    title = ISU.28.t
+    desc = ISU.28.d
+    immediate = { 
+
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = ISU.28.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Germany_Crisis_Super_Event_Visible
 		#hidden_effect = {
 		#	sound_effect = "Balkan_war_voice"
 		#}

@@ -1,5 +1,20 @@
 ideas = {
 	country = {
+		ott_parliament_idea = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ott_parliament_idea"
+				add_dynamic_modifier = { modifier = parliament_dynamic_modifier }
+			}
+			on_remove = {
+				log = "[GetDateText]: [Root.GetName]: remove idea ott_parliament_idea"
+				remove_dynamic_modifier = { modifier = parliament_dynamic_modifier }
+			}
+			picture = OTT_autocracy_idea
+			allowed = { always = no }
+			modifier = {
+				custom_modifier_tooltip = ott_parliament_tooltip
+			}
+		}
 		ott_vilayet_stability_idea = {
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea ott_vilayet_stability_idea"

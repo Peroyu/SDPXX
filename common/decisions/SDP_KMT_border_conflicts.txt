@@ -97,9 +97,9 @@ SDP_KMT_army_reform = {
         }
         available = {
             ROOT = {
-                has_full_control_of_state = 855
+                has_full_control_of_state = 1049
             }
-            855 = {
+            1049 = {
                 has_ROOT_at_least_1_div_in_current_state_scope = yes
             }
         }
@@ -112,7 +112,7 @@ SDP_KMT_army_reform = {
         }   
         target_trigger = {
             FROM = {
-                owns_state = 911
+                owns_state = 1049
             }
             
         }
@@ -123,7 +123,7 @@ SDP_KMT_army_reform = {
             start_border_war = {
 				change_state_after_war = no
 				attacker = {
-					state = 855
+					state = 1049
 					num_provinces = 4
 					on_win = wtt_border_conflict_won_attacker.1
 					on_lose = wtt_border_conflict_lost_attacker.1
@@ -131,7 +131,7 @@ SDP_KMT_army_reform = {
 				}
 				
 				defender = {
-					state = 911
+					state = 620
 					num_provinces = 4
 					on_win = wtt_border_conflict_won_defender.1
 					on_lose = wtt_border_conflict_lost_defender.1
@@ -152,9 +152,9 @@ SDP_KMT_army_reform = {
         }
         available = {
             ROOT = {
-                has_full_control_of_state = 748
+                has_full_control_of_state = 661
             }
-            748 = {
+            661 = {
                 has_ROOT_at_least_1_div_in_current_state_scope = yes
             }
         }
@@ -167,7 +167,7 @@ SDP_KMT_army_reform = {
         }   
         target_trigger = {
             FROM = {
-                owns_state = 750
+                owns_state = 620
             }
             
         }
@@ -178,16 +178,16 @@ SDP_KMT_army_reform = {
             start_border_war = {
 				change_state_after_war = no
 				attacker = {
-					state = 748
-					num_provinces = 4
+					state = 661
+					num_provinces = 1
 					on_win = wtt_border_conflict_won_attacker.1
 					on_lose = wtt_border_conflict_lost_attacker.1
 					on_cancel = wtt_border_conflict_canceled_attacker.1
 				}
 				
 				defender = {
-					state = 750
-					num_provinces = 4
+					state = 620
+					num_provinces = 1
 					on_win = wtt_border_conflict_won_defender.1
 					on_lose = wtt_border_conflict_lost_defender.1
 					on_cancel = wtt_border_conflict_canceled_defender.1

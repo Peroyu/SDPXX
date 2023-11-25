@@ -84,4 +84,21 @@ spriteTypes = {
 		name = "GFX_fopo_philippines_blitz_sidebar"
 		textureFile = "gfx/interface/fopo/icons/GFX_fopo_philippines_blitz_sidebar.png"
 	}
+
+	spriteType = {
+		name = "GFX_fopo_iran_sidebar"
+		textureFile = "gfx/interface/fopo/icons/GFX_fopo_iran_sidebar.png"
+	}
+
+
+	spriteType = {
+		name = "GFX_fopo_iran_civil_war_icon_FRA"
+		textureFile = "gfx/interface/fopo/cate/GFX_fopo_iran_civil_war_icon_FRA.png"
+	}
+
+	spriteType = {
+		name = "GFX_fopo_iran_civil_war_icon_TUR"
+		textureFile = "gfx/interface/fopo/cate/GFX_fopo_iran_civil_war_icon_FRA.png"
+	}
+
 }

@@ -24,7 +24,7 @@ guiTypes = {
         iconType = {
 			name ="SDP_superevent_picture_icon"
 			position = { x = 380 y = 140 }
-			alwaystransparent = yes
+			alwaystransparent = no
 		}
 		
 

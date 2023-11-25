@@ -172,14 +172,70 @@ news_event = {
     desc = global.5.d
     immediate = { 
         hidden_effect = {
-            513 = {
-            set_demilitarized_zone = no
+           
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.5.a
+	}
+}
+news_event = {
+	id = global.6
+
+    picture = GFX_global_6
+    title = global.6.t
+    desc = global.6.d
+    immediate = { 
+        hidden_effect = {
+           
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.6.a
+	}
+}
+news_event = {
+	id = global.7
+
+    picture = GFX_global_7
+    title = global.7.t
+    desc = global.7.d
+    immediate = { 
+        hidden_effect = {
+           random_list = {
+            60 = {
+                every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = global.9
+						days = 52
+					}
+				}
             }
-           ALG = {
-            transfer_state = 513
-            declare_war_on = {
-                target = ROF 
-                type = take_state_focus 
+            40 = {
+                every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = global.8
+						days = 32
+					}
+				}
             }
            }
         }
@@ -191,7 +247,74 @@ news_event = {
     major = yes
 
 	option = {
-		name = global.5.a
+		name = global.7.a
+	}
+}
+news_event = {
+	id = global.8
+
+    picture = GFX_global_8
+    title = global.8.t
+    desc = global.8.d
+    immediate = { 
+        hidden_effect = {
+           CAN = {
+            annex_country = {
+                target = MLT
+                transfer_troops = yes
+            }
+           }
+           TUR = {
+            transfer_state = 116
+           }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.8.a
+	}
+}
+news_event = {
+	id = global.9
+
+    picture = GFX_global_9
+    title = global.9.t
+    desc = global.9.d
+    immediate = { 
+        hidden_effect = {
+            MLT = {
+                leave_faction = yes
+              }
+                FRA = {
+                    declare_war_on = { target = MLT type = annex_everything }
+                    add_ideas = ISU_Balkan_crisis
+                }
+                    if = {
+                        limit = {
+                            FRA = {
+                            has_country_flag = ITA_help_us
+                            }
+                        }
+                        ITA = {
+                            declare_war_on = { target = MLT type = annex_everything }
+                            add_ideas = ISU_Balkan_crisis
+                        }
+                    }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.9.a
 	}
 }
 news_event = {
@@ -421,6 +544,27 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.10
+    picture = GFX_Pacific_10
+    title = Pacific.10.t
+    desc = Pacific.10.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.10.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1
@@ -517,6 +661,7 @@ news_event = {
 	}
 	option = {
 		name = HUN_SLO.1.b
+        trigger = {{tag = HUN}}
 	}
 }
 news_event = {
@@ -551,6 +696,81 @@ news_event = {
 
 	option = {
 		name = HUN_BAL.1.a
+	}
+}
+news_event = {
+	id = HUN_BAL.2
+
+    picture = GFX_HUN_BAL_2
+    title = HUN_BAL.2.t
+    desc = HUN_BAL.2.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = HUN_BAL.2.a
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+            }
+            OR = {
+                has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+            }
+        }
+	}
+    option = {
+		name = HUN_BAL.2.b
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+            }
+            OR = {
+                has_government = restorativeism
+                has_government = reactionism
+                has_government = Nationalism
+            }
+        }
+	}
+    option = {
+		name = HUN_BAL.2.h
+        trigger = {
+                tag = TUR
+           
+        }
+	}
+    option = {
+		name = HUN_BAL.2.n
+        trigger = {
+                tag = HUN
+           
+        }
+	}
+    option = {
+		name = HUN_BAL.2.m
+        trigger = {
+            NOT = {
+                tag = TUR
+                tag = HUN
+                OR = {
+                    has_government = restorativeism
+                    has_government = reactionism
+                    has_government = Nationalism
+                    has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+                }
+            }
+           
+           
+        }
 	}
 }
 news_event = {
@@ -859,31 +1079,7 @@ news_event = {
     desc = ISU.1.d
     immediate = { 
         hidden_effect = {
-            ISU = {
-                add_to_faction = SOV
-                add_to_faction = FRA
-                add_to_faction = ITA
-                add_to_faction = RCL
-                add_to_faction = GER
-                add_to_faction = AUS
-                add_to_faction = HUN
-                add_to_faction = POL
-                add_to_faction = UKR
-                add_to_faction = BLR
-                add_to_faction = EST
-                add_to_faction = GRE
-                add_to_faction = LIT
-                add_to_faction = LAT
-                add_to_faction = YUG
-                add_to_faction = CAS
-                add_to_faction = TRU
-                add_to_faction = MON
-                add_to_faction = BUL
-                add_to_faction = FIN
-                add_to_faction = CZE
-                add_to_faction = DZG
-                add_to_faction = SLO
-            }
+            
         }
 	}
     is_triggered_only = yes
@@ -1144,7 +1340,6 @@ news_event = {
         hidden_effect = {
             ENG = {
                 set_cosmetic_tag = ENG_UK
-                retire_country_leader = yes
             }
             random_list = { 
                 40 = { 
@@ -1172,5 +1367,939 @@ news_event = {
 
 	option = {
 		name = ISU.13.a
+	}
+}
+news_event = {
+	id = ISU.14
+
+    picture = GFX_ISU_14
+    title = ISU.14.t
+    desc = ISU.14.d
+    immediate = { 
+        hidden_effect = {
+            ISU = {
+                add_to_faction = SWI
+            }
+           SWI = {
+            set_politics = { 
+                ruling_party = moderate_socialism
+            }
+            add_popularity = {
+                ideology = moderate_socialism
+                popularity = 0.2
+              }
+              set_cosmetic_tag = SWI_rev
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.14.a
+	}
+}
+news_event = {
+	id = ISU.15
+
+    picture = GFX_ISU_15
+    title = ISU.15.t
+    desc = ISU.15.d
+    immediate = { 
+        hidden_effect = {
+           FOI = {
+            set_politics = { 
+                ruling_party = reactionism
+            }
+            add_popularity = {
+                ideology = reactionism
+                popularity = 0.2
+              }
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.15.a
+	}
+}
+news_event = {
+	id = ISU.16
+
+    picture = GFX_ISU_16
+    title = ISU.16.t
+    desc = ISU.16.d
+    immediate = { 
+        hidden_effect = {
+           
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.16.a
+	}
+}
+news_event = {
+	id = ISU.17
+
+    picture = GFX_ISU_17
+    title = ISU.17.t
+    desc = ISU.17.d
+    immediate = { 
+        hidden_effect = {
+           FOI = {
+            set_cosmetic_tag = SPA_R
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.17.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Spain_Civilwar_Super_Event_Visible
+	}
+}
+news_event = {
+	id = ISU.18
+
+    picture = GFX_ISU_18
+    title = ISU.18.t
+    desc = ISU.18.d
+    immediate = { 
+        hidden_effect = {
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.18.a
+	}
+}
+news_event = {
+	id = ISU.19
+
+    picture = GFX_ISU_19
+    title = ISU.19.t
+    desc = ISU.19.d
+    immediate = { 
+        hidden_effect = {
+            HUN = {
+                transfer_state = 1123
+                transfer_state = 1135 
+                transfer_state = 664
+                leave_faction = yes
+            }
+            1123 = {
+                set_demilitarized_zone = yes
+            }
+            1135 = {
+                set_demilitarized_zone = yes
+            }
+            664 = {
+                set_demilitarized_zone = yes
+            }
+            SLO = {
+                set_cosmetic_tag = SLO_anti
+                load_oob = SLO_rebeline
+                leave_faction = yes
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.20
+					days = 19
+				}
+			}
+
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.19.a
+	}
+}
+news_event = {
+	id = ISU.20
+
+    picture = GFX_ISU_20
+    title = ISU.20.t
+    desc = ISU.20.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_Crisis_began
+            HUN = {
+                set_autonomy = {
+                    target = ROM
+                    autonomy_state = autonomy_free
+                }
+            }
+            ROM = {
+                annex_country = { target = TRA transfer_troops = yes }
+                set_cosmetic_tag = ROM_unit
+            }
+            HUN = {
+                create_faction = 巴尔干防卫阵线
+                add_to_faction = SER
+                add_to_faction = BOS
+            }
+            ISU = {
+                country_event = {
+                    id = HUN.6
+                    days = 85
+                }
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.23
+					days = 15
+				}
+			}
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.20.a
+	}
+}
+news_event = {
+	id = ISU.21
+
+    picture = GFX_ISU_21
+    title = ISU.21.t
+    desc = ISU.21.d
+    immediate = { 
+        hidden_effect = {
+            SUF = {
+                transfer_state = 1269
+                add_state_core = 1269
+                transfer_state = 765
+                add_state_core = 765
+                transfer_state = 108
+                add_state_core = 108
+                add_state_core = 767
+                add_state_core = 107
+                add_state_core = 841
+                load_oob = SUF_revolts
+                declare_war_on = { target = SER type = take_state }
+            }
+            LAB = {
+                transfer_state = 1143
+                add_state_core = 1143
+                transfer_state = 1145
+                add_state_core = 1145
+                add_state_core = 1142
+                add_state_core = 1141
+                add_state_core = 104
+                load_oob = LAB_revolts
+                declare_war_on = { target = BOS type = take_state }
+            }
+            CRR = {
+                transfer_state = 1098
+                add_state_core = 1098
+                transfer_state = 163
+                add_state_core = 163
+                add_state_core = 103
+                add_state_core = 1099
+                add_state_core = 1105
+                add_state_core = 109
+                add_state_core = 1102
+                add_state_core = 794
+                add_state_core = 1128
+                load_oob = CRR_revolts
+                declare_war_on = { target = CRT type = take_state }
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = Balkan.2
+					days = 3
+				}
+			}
+            random_list = { 
+				70 = { 
+					
+				} 
+				30 = { 
+					every_country = {
+						limit = {
+							is_ai = no
+		
+						}
+						news_event = {
+							id =  ISU.26
+							days = 15
+						}
+					}
+				} 
+			}
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.21.a
+	}
+}
+news_event = {
+	id = ISU.22
+
+    picture = GFX_ISU_22
+    title = ISU.22.t
+    desc = ISU.22.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_ISU_support_HUN_flag
+            HUN = {
+                load_oob = HUN_1947
+            }
+         
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.22.a
+	}
+}
+news_event = {
+	id = ISU.23
+
+    picture = GFX_ISU_23
+    title = ISU.23.t
+    desc = ISU.23.d
+    immediate = { 
+        hidden_effect = {
+            SLO = {
+                declare_war_on = { target = HUN type = take_state }
+            }
+            ROM = {
+                transfer_state = 1113
+                transfer_state = 84
+                transfer_state = 1116
+                declare_war_on = { target = HUN type = take_state }
+            }
+            every_country = {
+				limit = {
+					is_ai = no
+
+				}
+				news_event = {
+					id = ISU.21
+					days = 7
+				}
+			}
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.23.a
+	}
+}
+news_event = {
+	id = ISU.24
+
+    picture = GFX_ISU_24
+    title = ISU.24.t
+    desc = ISU.24.d
+    immediate = { 
+        hidden_effect = {
+                AUS = {
+                    set_cosmetic_tag = FOL
+                    annex_country = { target = CZE transfer_troops = yes }
+                }
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.24.a
+	}
+}
+news_event = {
+	id = ISU.25
+
+    picture = GFX_ISU_25
+    title = ISU.25.t
+    desc = ISU.25.d
+    immediate = { 
+        hidden_effect = {
+                
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.25.a
+	}
+}
+news_event = {
+	id = ISU.26
+
+    picture = GFX_ISU_26
+    title = ISU.26.t
+    desc = ISU.26.d
+    immediate = { 
+        hidden_effect = {
+           
+            BUL = {
+                create_faction = 巴尔干解放阵线
+                add_to_faction = ROM
+                add_to_faction = LAB
+                add_to_faction = SUF
+                add_to_faction = CRR
+                add_to_faction = MAQ
+            }  
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.26.a
+	}
+}
+news_event = {
+	id = ISU.27
+
+    picture = GFX_ISU_27
+    title = ISU.27.t
+    desc = ISU.27.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_ISU_support_ISU_flag
+           ISU = {
+            declare_war_on = { target = HUN type = annex_everything }
+            declare_war_on = { target = ROM type = annex_everything }
+            declare_war_on = { target = LAB type = annex_everything }
+            declare_war_on = { target = SUF type = annex_everything }
+            declare_war_on = { target = CRR type = annex_everything }
+            declare_war_on = { target = CRT type = annex_everything }
+            declare_war_on = { target = SLO type = annex_everything }
+            declare_war_on = { target = SER type = annex_everything }
+            load_oob = ISU_Balkan_crisis
+            add_manpower = 1700000
+            add_equipment_to_stockpile = {
+                type = tac_bomber_equipment_2
+                amount = 56
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = CAS_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = CAS_equipment_3
+                amount = 72
+                producer = ISU
+            }
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_3
+                amount = 72
+                producer = ISU
+            }
+           }
+            
+                
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.27.a
+	}
+}
+news_event = {
+	id = ISU.29
+    picture = GFX_ISU_29
+    title = ISU.29.t
+    desc = ISU.29.d
+    immediate = { 
+        hidden_effect = {
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.29.a
+	}
+}
+news_event = {
+	id = ISU.30
+    picture = GFX_ISU_30
+    title = ISU.30.t
+    desc = ISU.30.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_ISU_support_BUL_flag
+          BUL = {
+            load_oob = "BUL_1947"
+          }   
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.30.a
+	}
+}
+news_event = {
+	id = ISU.31
+    picture = GFX_ISU_31
+    title = ISU.31.t
+    desc = ISU.31.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_BAL_win
+            set_global_flag = Balkan_has_result
+            ISU = {
+                country_event = {
+                    id = HUN.5
+                    days = 21
+                }
+            }
+        }
+	}
+    trigger = {
+        is_ai = no
+        OR = {
+            has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+        }
+        country_exists = HUN
+        country_exists = ROM
+        ROM = {
+            has_cosmetic_tag = ROM_unit
+            NOT = {
+                has_war_with = HUN
+            }
+           
+        }
+        NOT = {
+            has_global_flag = Balkan_has_result
+        }
+        
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.31.a
+	}
+}
+news_event = {
+	id = ISU.32
+    picture = GFX_ISU_32
+    title = ISU.32.t
+    desc = ISU.32.d
+    immediate = { 
+        hidden_effect = {
+            HUN = {
+                set_autonomy = {
+                    target = TRA
+                    autonomy_state = autonomy_puppet
+                }
+                set_autonomy = {
+                    target = ROM
+                    autonomy_state = autonomy_puppet
+                }
+            }
+            set_global_flag = Balkan_HUN_win
+            set_global_flag = Balkan_has_result
+            ISU = {
+                country_event = {
+                    id = HUN.4
+                    days = 7
+                }
+            }
+        }
+	}
+    trigger = {
+        is_ai = no
+        OR = {
+            has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+        }
+        country_exists = HUN
+        country_exists = ROM
+        NOT = {
+            country_exists = CRR
+            country_exists = SUF
+            has_global_flag = Balkan_has_result
+            country_exists = LAB
+        }
+        
+        ROM = {
+            
+            NOT = {
+                has_cosmetic_tag = ROM_unit
+            }
+           
+        }
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.32.a
+	}
+}
+news_event = {
+	id = ISU.33
+    picture = GFX_ISU_33
+    title = ISU.33.t
+    desc = ISU.33.d
+    immediate = { 
+        hidden_effect = {
+            set_global_flag = Balkan_ISU_win
+            set_global_flag = Balkan_has_result
+            ISU = {
+                country_event = {
+                    id = HUN.3
+                    days = 7
+                }
+            }
+        }
+	}
+    trigger = {
+        is_ai = no
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            NOT = {
+                country_exists = HUN
+                country_exists = ROM
+                country_exists = CRT
+                country_exists = CRR
+                country_exists = SUF
+                country_exists = SER
+                country_exists = LAB
+                country_exists = BOS
+                country_exists = SLO
+                has_global_flag = Balkan_has_result
+            }
+      
+       
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.33.a
+	}
+}
+news_event = {
+	id = ISU.34
+    picture = GFX_ISU_34
+    title = ISU.34.t
+    desc = ISU.34.d
+    immediate = { 
+        hidden_effect = {
+              
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.34.a
+	}
+}
+
+news_event = {
+	id = ISU.35 #匈牙利反动军人集团夺权
+    picture = GFX_ISU_35
+    title = ISU.35.t
+    desc = ISU.35.d
+    immediate = { 
+        hidden_effect = {
+           HUN = {
+            set_politics = { 
+                ruling_party = reactionism
+            }
+           } 
+           every_country = {
+            limit = {
+                is_ai = no
+            }
+            news_event = {
+                id = ISU.37
+                days = 65
+            }
+           }  
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.35.a
+	}
+}
+news_event = {
+	id = ISU.37 #第二次多瑙河行动
+    picture = GFX_ISU_37
+    title = ISU.37.t
+    desc = ISU.37.d
+    immediate = { 
+        hidden_effect = { 
+           HUN = {
+            set_politics = { 
+                ruling_party = social_democracy
+            }
+           }  
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.37.a
+	}
+}
+news_event = {
+	id = ISU.38 #国际调停巴尔干战争
+    picture = GFX_ISU_38
+    title = ISU.38.t
+    desc = ISU.38.d
+    immediate = { 
+        hidden_effect = { 
+          ISU = {
+            add_to_faction = SUF
+            add_to_faction = ROM
+            add_to_faction = HUN
+            add_to_faction = SUF
+            add_to_faction = LAB
+            add_to_faction = CRR
+            add_to_faction = BUL
+          }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.38.a
+	}
+}
+news_event = {
+	id = ISU.39
+    picture = GFX_ISU_39
+    title = ISU.39.t
+    desc = ISU.39.d
+    immediate = { 
+        hidden_effect = { 
+          BAL = {
+            annex_country = { target = MOT transfer_troops = yes }
+            annex_country = { target = BUL transfer_troops = yes }
+            annex_country = { target = MAQ transfer_troops = yes }
+          }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.39.a
+	}
+}
+news_event = {
+	id = ISU.40
+    picture = GFX_ISU_40
+    title = ISU.40.t
+    desc = ISU.40.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.40.a
+	}
+}
+news_event = {
+	id = ISU.41
+    picture = GFX_ISU_41
+    title = ISU.41.t
+    desc = ISU.41.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.41.a
+	}
+}
+news_event = {
+	id = ISU.42
+    picture = GFX_ISU_42
+    title = ISU.42.t
+    desc = ISU.42.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.42.a
+	}
+}
+
+news_event = {
+	id = ISU.43
+    picture = GFX_ISU_35
+    title = ISU.43.t
+    desc = ISU.43.d
+    immediate = { 
+        hidden_effect = { 
+            every_country = {
+				news_event = {
+					id = HUN_BAL.2
+					days = 70
+				}
+			}
+            HUN = {
+                set_politics = { 
+                    ruling_party = reactionism
+                }
+               } 
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.43.a
 	}
 }

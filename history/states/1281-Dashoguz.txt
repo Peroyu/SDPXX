@@ -8,8 +8,8 @@ state = {
 
 	local_supplies = 1.0 
 	history = {
-		owner = TRU
-		add_core_of = TRU
+		owner = KHO
+		add_core_of = KHO
 		buildings = {
 			infrastructure = 1
 		}

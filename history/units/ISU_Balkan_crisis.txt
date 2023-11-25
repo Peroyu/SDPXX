@@ -1,0 +1,164 @@
+﻿division_template = {
+	name = "Internationale Infantry"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = FRA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	 recon = { x = 0 y = 1 } 
+ }
+}
+division_template = {
+	name = "Internationale Middium Armor"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = FRA_ARM_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	 recon = { x = 0 y = 1 } 
+ }
+}
+division_template = {
+	name = "Internationale Modern Armor"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = FRA_ARM_01
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	 recon = { x = 0 y = 1 } 
+ }
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		location = 3700
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 3700
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 3700
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9661
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 3700
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11630
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11630
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11630
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9692
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 14805
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 6600
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 6600
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 6600
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9635
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 657
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 13826
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Middium Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Middium Armor"		
+		start_equipment_factor = 1
+	}
+	
+
+    
+}
+

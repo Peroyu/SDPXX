@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "islam millita"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = JIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "algeria guard"
+		location = 5053
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "algeria's own"
+		location = 12888
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		name = "algeria's own 1"
+		location = 4903
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "algeria's own 2"
+		location = 5035
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	division = {
+		name = "algeria's own 3"
+		location = 5035
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+	
+	
+}
+

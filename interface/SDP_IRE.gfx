@@ -56,5 +56,12 @@ spriteTypes = {
 		name = "GFX_SDP_IRE_7_0"
 		texturefile = "gfx/interface/IRE/SDP_IRE_7_0.dds"
 	}
-	
+	spriteType = {
+		name = "enter_SDP_IRE_change_button"
+		texturefile = "gfx/interface/IRE/enter_SDP_IRE_change_button.dds"
+	}
+	spriteType = {
+		name = "SDP_IRE_change_main"
+		texturefile = "gfx/interface/IRE/SDP_IRE_change_main.dds"
+	}
 }

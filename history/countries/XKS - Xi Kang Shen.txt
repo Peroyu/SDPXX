@@ -1,4 +1,4 @@
-capital = 752 # 首都地块
+capital = 601 # 首都地块
 
 set_oob = "XKS_1947"  # 军队文件
 

@@ -10,17 +10,14 @@ scripted_gui = {
 
 		properties = {
 			SDP_superevent_picture_icon = {
-				image = "[ROOT.Getsupereventview]"
+				image = "[Getsupereventview]"
 			}
 		}
-
-
 		properties = {
 			Super_Event_Image_Default = {
-				image = "[get_my_superevent_texture]"
+				image = "[Getsupereventview]"
 			}
 		}
-
 		effects = {
 			Super_Event_Close_click = {
 				clr_global_flag = Super_Event_Visible
@@ -43,6 +40,8 @@ scripted_gui = {
 							has_global_flag = Triple_entent_crush_Super_Event_Visible
 
 							has_global_flag = KMT_crush_Super_Event_Visible
+
+							has_global_flag = Spain_Civilwar_Super_Event_Visible
 							
 						
 					}
@@ -61,6 +60,8 @@ scripted_gui = {
 					clr_global_flag = Triple_entent_crush_Super_Event_Visible
 
 					clr_global_flag = KMT_crush_Super_Event_Visible
+
+					clr_global_flag = Spain_Civilwar_Super_Event_Visible
 
 				}
 			}

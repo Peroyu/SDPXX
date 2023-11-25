@@ -12,9 +12,9 @@ state = {
 		owner = ROF
 		add_core_of = ROF
 		add_core_of = ALG
-
+		add_core_of = AIS
 		victory_points = {	#Alger
-			1145 30
+			1145 15
 		}
 
 		buildings = {

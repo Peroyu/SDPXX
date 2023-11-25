@@ -35,19 +35,6 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 10
-		}
-		trigger = {
-			tag = KAS
-		}
-		SIK = {
-			transfer_state = 881
-			add_state_core = 881
-		}
-		name = XKS_op.0.a
-	}
-	option = { 
-	    ai_chance = {
 		   base = 100
 		}
 		name = XKS_op.0.b
@@ -247,14 +234,14 @@ country_event = {
 		name = XKS_sichuan.1.a
 		XKS = {
 		    remove_state_core = 601
-			remove_state_core = 752
-			add_state_claim = 601
-			add_state_claim = 752
+			remove_state_core = 693
+			remove_state_core = 748
 		}
 		CJF = {
 		    annex_country = { target = XKS transfer_troops = yes }
 			add_state_core = 601
-			add_state_core = 752
+			add_state_core = 748
+			add_state_core = 693
 		}
 		CJF = { set_cosmetic_tag = SNG }
 		

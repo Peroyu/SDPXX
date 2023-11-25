@@ -1,0 +1,48 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TUR_Parties_congress_gui_Window"
+		size = { width = 500 height = 650 }
+		position = { x = 0 y = 0 }
+
+
+		
+		iconType = {
+			name = "chinese_pie"
+			spriteType = "GFX_GNG_Chinese_Pie"
+			position = { x = 5 y = 208 }
+		}
+		iconType = {
+			name = "zhujin_pie"
+			spriteType = "GFX_GNG_Zhujin_Pie"
+			position = { x = 5 y = 208 }
+		}
+		iconType = { 
+			name = "japanese_pie"
+			spriteType = "GFX_GNG_Japanese_Pie"
+			position = { x = 5 y = 208 }
+		}
+	
+		instantTextboxType = {
+			name = "TUR_Senate_number"
+			position = { x = 175  y = 200 }#你的文本位置（相对于窗口）
+			font = "hoi_20bs"
+			text = "TUR_Senate_number_desc"
+			maxWidth = 320
+			maxHeight = 300
+			format = center 
+		}
+			
+		iconType = {
+			name ="house_icon"
+			spriteType = "GFX_decision_category_usa_congress_house_ui"
+			position = { x = 24 y = 0 }
+			scale = 2.5
+		}	
+				
+				
+				
+
+				
+				
+		}
+	}

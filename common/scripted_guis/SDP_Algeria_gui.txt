@@ -10,6 +10,24 @@ scripted_gui = {
 			}
 		}
 	}
+
+
+	ALG_Algeria_War_gui = {
+		context_type = decision_category
+		window_name = "ALG_Algeria_War_gui_gui_window"
+
+		properties = {
+		    ROF_Algeria_dakar_influence = {
+				frame = global.Algeria_dakar_influence
+			}
+			ROF_Algeria_ALG_influence = {
+				frame = global.Algeria_ALG_influence
+			}
+			ROF_Algeria_AIS_influence = {
+				frame = global.Algeria_AIS_influence
+			}
+		}
+	}
 	
 }
 

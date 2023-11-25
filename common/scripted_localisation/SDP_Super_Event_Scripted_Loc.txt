@@ -10,9 +10,9 @@ defined_text = { #SUPER EVENT PICTURES
 
     text = { 
         trigger = {
-            has_global_flag = ISU_conference_Super_Event_Visible
+            has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
-        localization_key = "GFX_SPEVENT_Super_Event_Image_ISU_conferrence"
+        localization_key = "GFX_SPEVENT_Super_Event_Image_Triple_entent_crush"
     }
 
     text = { 
@@ -43,12 +43,7 @@ defined_text = { #SUPER EVENT PICTURES
         localization_key = "GFX_SPEVENT_Super_Event_Image_Dai_Jitao"
     }
 
-    text = { 
-        trigger = {
-            has_global_flag = Triple_entent_crush_Super_Event_Visible
-        }
-        localization_key = "GFX_SPEVENT_Super_Event_Image_Triple_entent_crush"
-    }
+    
 
     text = { 
         trigger = {
@@ -63,7 +58,33 @@ defined_text = { #SUPER EVENT PICTURES
         }
         localization_key = "GFX_SPEVENT_Super_Event_Image_UK"
     }
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible_1
+        }
+        localization_key = "GFX_SPEVENT_Super_Event_Image_ISU_conferrence"
+    }
 
+    text = { 
+        trigger = {
+            has_global_flag = Spain_Civilwar_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Spain_Civilwar_Super_Event_Visible"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Germany_Crisis_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Germany_Crisis_Super_Event_Visible"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_Balkan_war_2nd_Super_Event_Visible"
+    }
     
    
 }
@@ -79,9 +100,9 @@ defined_text = { #SUPER EVENT TITLES
 
     text = { 
         trigger = {
-            has_global_flag = ISU_conference_Super_Event_Visible
+            has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
-        localization_key = "ISU_conference_Super_Event_TITLE"
+        localization_key = "Triple_entent_crush_Super_Event_TITLE"
     }
 
     text = { 
@@ -112,12 +133,7 @@ defined_text = { #SUPER EVENT TITLES
         localization_key = "Dai_Jitao_Super_Event_TITLE"
     }
 
-    text = { 
-        trigger = {
-            has_global_flag = Triple_entent_crush_Super_Event_Visible
-        }
-        localization_key = "Triple_entent_crush_Super_Event_TITLE"
-    }
+    
 
     text = { 
         trigger = {
@@ -132,6 +148,34 @@ defined_text = { #SUPER EVENT TITLES
         }
         localization_key = "UK_Super_Event_TITLE"
     }
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible_1
+        }
+        localization_key = "ISU_conference_Super_Event_TITLE"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = Spain_Civilwar_Super_Event_Visible
+        }
+        localization_key = "Spain_Civilwar_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Germany_Crisis_Super_Event_Visible
+        }
+        localization_key = "GER_Civilwar_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_TITLE"
+    }
+
+    
    
 }
 
@@ -147,10 +191,11 @@ defined_text = { #SUPER EVENT QUOTES
 
     text = { 
         trigger = {
-            has_global_flag = ISU_conference_Super_Event_Visible
+            has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
-        localization_key = "ISU_conference_Super_Super_Event_TEXT"
+        localization_key = "Triple_entent_crush_Super_Event_TEXT"
     }
+
 
     text = { 
         trigger = {
@@ -180,13 +225,7 @@ defined_text = { #SUPER EVENT QUOTES
         localization_key = "Dai_Jitao_Super_Event_TEXT"
     }
 
-    text = { 
-        trigger = {
-            has_global_flag = Triple_entent_crush_Super_Event_Visible
-        }
-        localization_key = "Triple_entent_crush_Super_Event_TEXT"
-    }
-
+   
     text = { 
         trigger = {
             has_global_flag = KMT_crush_Super_Event_Visible
@@ -200,6 +239,33 @@ defined_text = { #SUPER EVENT QUOTES
         }
         localization_key = "UK_Super_Event_TEXT"
     }
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible_1
+        }
+        localization_key = "ISU_conference_Super_Super_Event_TEXT"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = Spain_Civilwar_Super_Event_Visible
+        }
+        localization_key = "Spain_Civilwar_Super_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Germany_Crisis_Super_Event_Visible
+        }
+        localization_key = "GER_Civilwar_Super_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Super_Event_TEXT"
+    }
+    
    
 }
 
@@ -215,10 +281,11 @@ defined_text = { #SUPER EVENT BUTTONS
 
     text = { 
         trigger = {
-            has_global_flag = ISU_conference_Super_Event_Visible
+            has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
-        localization_key = "ISU_conference_Super_Event_BUTTON"
+        localization_key = "Triple_entent_crush_Super_Event_BUTTON"
     }
+
 
     text = { 
         trigger = {
@@ -248,13 +315,7 @@ defined_text = { #SUPER EVENT BUTTONS
         localization_key = "Dai_Jitao_Super_Event_BUTTON"
     }
 
-    text = { 
-        trigger = {
-            has_global_flag = Triple_entent_crush_Super_Event_Visible
-        }
-        localization_key = "Triple_entent_crush_Super_Event_BUTTON"
-    }
-
+    
     text = { 
         trigger = {
             has_global_flag = KMT_crush_Super_Event_Visible
@@ -268,6 +329,36 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "UK_Super_Event_BUTTON"
     }
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible_1
+        }
+        localization_key = "ISU_conference_Super_Event_BUTTON"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Spain_Civilwar_Super_Event_Visible
+        }
+        localization_key = "Spain_Civilwar_Super_Event_BUTTON"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Germany_Crisis_Super_Event_Visible
+        }
+        localization_key = "GER_Civilwar_Super_Event_BUTTON"
+    }
+
+    
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_BUTTON"
+    }
+
+    
     
 }
 
@@ -283,11 +374,11 @@ defined_text = { #SUPER EVENT BUTTONS
 
     text = { 
         trigger = {
-            has_global_flag = ISU_conference_Super_Event_Visible
+            has_global_flag = Triple_entent_crush_Super_Event_Visible
         }
-        localization_key = "ISU_conference_Super_Event_DESC"
+        localization_key = "Triple_entent_crush_Super_Event_DESC"
     }
-
+    
     text = { 
         trigger = {
             has_global_flag = Balkan_war_Super_Event_Visible
@@ -318,13 +409,6 @@ defined_text = { #SUPER EVENT BUTTONS
 
     text = { 
         trigger = {
-            has_global_flag = Triple_entent_crush_Super_Event_Visible
-        }
-        localization_key = "Triple_entent_crush_Super_Event_DESC"
-    }
-
-    text = { 
-        trigger = {
             has_global_flag = KMT_crush_Super_Event_Visible
         }
         localization_key = "KMT_crush_Super_Event_DESC"
@@ -335,6 +419,33 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = The_UK_Super_Event_Visible
         }
         localization_key = "UK_Super_Event_DESC"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = ISU_conference_Super_Event_Visible_1
+        }
+        localization_key = "ISU_conference_Super_Event_DESC"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = Spain_Civilwar_Super_Event_Visible
+        }
+        localization_key = "Spain_Civilwar_Super_Event_DESC"
+    }
+
+
+    text = { 
+        trigger = {
+            has_global_flag = Germany_Crisis_Super_Event_Visible
+        }
+        localization_key = "GER_Civilwar_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Balkan_war_2nd_Super_Event_Visible
+        }
+        localization_key = "Balkan_war_2nd_Super_Event_DESC"
     }
     
 }

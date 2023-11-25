@@ -1,5 +1,5 @@
 capital = 827
-
+oob = "VIN_1947" 
 set_research_slots = 4 
 
 set_war_support = 0.8 
@@ -20,7 +20,24 @@ set_popularities = {
 	Liberalism = 12
 	reactionism = 30
 }
-
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }
 set_technology = {
 	### Infantry ###
 	infantry_weapons = 1

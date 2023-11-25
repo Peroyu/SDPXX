@@ -1,0 +1,13 @@
+focus_tree = {
+	id = AIS_open
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = AIS  
+		}	
+	}
+	default = no
+    shared_focus = ALG_two_sun
+}
+

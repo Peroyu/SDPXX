@@ -37,10 +37,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  country_event = {
-                id = IRE_Build_venues.2
-                days = 1					
-            }
+		  
 		}
     }
 	
@@ -48,7 +45,10 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		country_event = {
+                id = IRE_Build_venues.2
+                days = 1					
+            }
 		name = IRE_Build_venues.1.a
 	}
 }
@@ -64,10 +64,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  country_event = {
-                id = IRE_Build_venues.3
-                days = 1					
-            }
+		  
 		}
     }
 	
@@ -75,7 +72,10 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		country_event = {
+                id = IRE_Build_venues.3
+                days = 1					
+            }
 		name = IRE_Build_venues.2.a
 	}
 }
@@ -91,10 +91,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  country_event = {
-                id = IRE_Build_venues.4
-                days = 1					
-            }
+		  
 		}
     }
 	
@@ -104,6 +101,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_3_1 value = 1 }
 		set_variable = { var = SDP_IRE_3_0 value = 0 }
+		country_event = {
+                id = IRE_Build_venues.4
+                days = 1					
+            }
 		name = IRE_bid_Olympic.3.a
 	}
 	option = { 
@@ -112,6 +113,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_3_1 value = 0 }
 		set_variable = { var = SDP_IRE_3_0 value = 1 }
+		country_event = {
+                id = IRE_Build_venues.4
+                days = 1					
+            }
 		name = IRE_bid_Olympic.3.b
 	}
 }
@@ -127,10 +132,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  country_event = {
-                id = IRE_Build_venues.5
-                days = 1					
-            }
+		  
 		}
     }
 	
@@ -140,6 +142,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_4_1 value = 1 }
 		set_variable = { var = SDP_IRE_4_0 value = 0 }
+		country_event = {
+                id = IRE_Build_venues.5
+                days = 1					
+            }
 		name = IRE_bid_Olympic.4.a
 	}
 	option = { 
@@ -148,6 +154,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_4_1 value = 0 }
 		set_variable = { var = SDP_IRE_4_0 value = 1 }
+		country_event = {
+                id = IRE_Build_venues.5
+                days = 1					
+            }
 		name = IRE_bid_Olympic.4.b
 	}
 }
@@ -163,10 +173,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  country_event = {
-                id = IRE_Build_venues.6
-                days = 1					
-            }
+		  
 		}
     }
 	
@@ -174,7 +181,10 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		country_event = {
+                id = IRE_Build_venues.6
+                days = 1					
+            }
 		name = IRE_Build_venues.5.a
 	}
 }
@@ -190,10 +200,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		   country_event = {
-                id = IRE_Build_venues.7
-                days = 1					
-            }
+		   
 		}
     }
 	
@@ -203,6 +210,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_6_1 value = 1 }
 		set_variable = { var = SDP_IRE_6_0 value = 0 }
+		country_event = {
+                id = IRE_Build_venues.7
+                days = 1					
+            }
 		name = IRE_bid_Olympic.6.a
 	}
 	option = { 
@@ -211,6 +222,10 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_6_1 value = 0 }
 		set_variable = { var = SDP_IRE_6_0 value = 1 }
+		country_event = {
+                id = IRE_Build_venues.7
+                days = 1					
+            }
 		name = IRE_bid_Olympic.6.b
 	}
 }

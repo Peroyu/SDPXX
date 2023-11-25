@@ -8,4 +8,36 @@ scripted_gui = {
 		
 		
 	}
+	SDP_JAP_change ={
+		window_name = "SDP_JAP_change_window"
+		context_type = Player_context
+		parent_window_token = politics_tab
+		visible = {
+			tag = NIP
+		}
+		
+		effects = {
+			enter_SDP_JAP_change_button_click = {
+				if = {
+				   limit = {
+				     NOT = { has_country_flag = open_SDP_JAP_change_window_main }
+					}
+					set_country_flag = open_SDP_JAP_change_window_main
+				}
+				else = {
+				    clr_country_flag = open_SDP_JAP_change_window_main
+				}
+			}
+		}
+	}
+	SDP_JAP_change_main ={
+		window_name = "SDP_JAP_change_main"
+		context_type = Player_context
+		visible = {
+		 AND = {
+		    tag = NIP
+			has_country_flag = open_SDP_JAP_change_window_main
+			}
+		}
+    }
 }

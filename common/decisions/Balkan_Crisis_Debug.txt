@@ -1,0 +1,184 @@
+Balkan_Crisis_Debug = {
+    SUF_attack_belgraid = {
+
+		icon =
+		
+		fire_only_once = yes
+
+		available = {
+			controls_state = 107
+		}
+
+		visible = {
+			tag = SUF
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			tag = SUF
+			has_war_with = SER
+		}
+		
+		days_mission_timeout = 50
+		is_good = no
+		
+		complete_effect = {
+			SER = {
+				declare_war_on = { target = HUN type = annex_everything }
+			}
+			annex_country = {
+				target = SER
+				transfer_troops = no
+			}
+		}
+		
+		timeout_effect = {
+			#任务读条走到头时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	SUF_annex_MOT = {
+
+		icon = 
+		
+		
+		fire_only_once = yes
+
+		available = {
+			tag = SUF
+			NOT = {
+				country_exists = SER
+			}
+		}
+		
+		allowed = {
+			original_tag = SUF
+		}
+		
+		
+		visible = {
+			#什么条件下决议可见（每一帧检测一次）
+		}
+		
+		
+		cost = 20
+		days_remove = 5
+		war_with_on_remove = MAQ
+
+		remove_effect = {
+			annex_country = { target = MOT transfer_troops = yes }
+			add_state_core = 1097
+			add_state_core = 105
+			add_state_core = 1270
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	LBA_attack_sarareo = {
+
+		icon =
+		
+		fire_only_once = yes
+
+		available = {
+			controls_state = 104
+			controls_state = 1142
+		}
+
+		visible = {
+			tag = LAB
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			tag = LAB
+			has_war_with = BOS
+			NOT = {
+					has_global_flag = Balkan_ISU_support_BUL_flag
+            has_global_flag = Balkan_ISU_support_ISU_flag
+            has_global_flag = Balkan_ISU_support_HUN_flag
+				
+			}
+		}
+		
+		days_mission_timeout = 74
+		is_good = no
+		
+		complete_effect = {
+			declare_war_on = { target = HUN type = annex_everything }
+			annex_country = {
+				target = BOS
+				transfer_troops = no
+			}
+		}
+		
+		timeout_effect = {
+			#任务读条走到头时触发的效果
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	HUN_peace_with_BUL = {
+
+		icon =
+		
+		fire_only_once = yes
+
+		available = {
+			tag = HUN
+			NOT = { 
+				 ROM = {
+					has_war_with = HUN
+				}
+			}
+		}
+
+		allowed = {
+			original_tag = HUN
+		}
+		
+		
+		visible = {
+			tag = HUN
+		}
+		
+		
+		cost = 20
+		days_remove = 5
+		complete_effect = {
+			BUL = {
+				leave_faction = yes
+			}
+			every_country = {
+				limit = {
+					has_war_with = BUL
+				}
+				white_peace = BUL
+			}
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}
+
+
+

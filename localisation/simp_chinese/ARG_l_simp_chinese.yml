@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ ARG_communism_party:0 "民主联盟-阿根廷共产党"
+ ARG_committee_communism_party:0 "民主联盟-阿根廷社会党"
+ ARG_movement_communism_party:0 "基督教民主党"
+ ARG_moderate_socialism_party:0 "庇隆主义党（劳工联合会）"
+ ARG_social_democracy_party:0 "庇隆主义党（更新委员会）"
+ ARG_Liberalism_party:0 "民主联盟-激进公民联盟"
+ ARG_conservatism_party:0 "庇隆主义党（独立党）"
+ ARG_reactionism_party:0 "庇隆主义党（独立党）"
+ ARG_Nationalism_party:0 "阿根廷武装力量"
+ ARG_restorativeism_party:0 "阿根廷武装力量"
+ ARG_Juan_Peron: "胡安·庇隆"

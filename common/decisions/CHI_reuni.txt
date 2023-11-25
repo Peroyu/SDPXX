@@ -42,8 +42,10 @@ CHI_reuni = {
 			original_tag = NIP
 		  }
           available = {
+			country_exists = FNC
 			NOT = {
 				has_war_with = CJF
+
 			}
               tag = NIP		  
 		      check_variable = {
@@ -146,7 +148,7 @@ CHI_reuni = {
 			original_tag = RCR
 		  }
           available = {
-			has_war = no  
+			has_war = yes  
 		    tag = RCR
 		    any_enemy_country = {		  
 		     	controls_state = 1048 

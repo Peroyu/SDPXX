@@ -1,37 +1,6 @@
 add_namespace = ENT
 add_namespace = IRE
 country_event = {
-    id = IRE.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	IRE.1 FROM = [From.GetName]" }
-	title = IRE.1.t
-	desc = IRE.1.d
-	picture = GFX_IRE1
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		    
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 50
-		}
-		every_country = {
-			limit = {
-				id = global.1
-				days = 1
-			}
-		}
-		name = IRE.1.a
-	}
-	
-	
-}
-country_event = {
     id = ENT.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	ENT.1 FROM = [From.GetName]" }
@@ -90,6 +59,198 @@ country_event = {
 			}
 		}
 		name = ENT.1.a
+	}
+	
+	
+}
+country_event = {
+    id = ENT.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.2 FROM = [From.GetName]" }
+	title = ENT.2.t
+	desc = ENT.2.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			ALF = {
+				transfer_state = 459
+				transfer_state = 460
+				transfer_state = 805
+				add_state_core = 459
+				add_state_core = 805
+				add_state_core = 460
+				load_oob = "ALF_collpase"
+				add_manpower = 50000
+			}
+			if = {
+				limit = {
+					has_country_flag = ROF_AIS_agree
+				}
+				
+				ALG = {
+					transfer_state = 513
+					transfer_state = 1327
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = ROF_AIS_refuse
+				}
+				ALG = {
+					transfer_state = 513
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+					
+				}
+				AIS = {
+					transfer_state = 1327
+					country_event = {
+						id = ENT.3
+						days = 1
+					}
+				}
+			}
+			leave_faction = yes
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = global.5
+					days = 1
+				}
+			}
+		    513 = {
+				set_demilitarized_zone = no
+				}
+				1327 = {
+					set_demilitarized_zone = no
+					}
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = ENT.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		ALG = {
+			change_tag_from = ROOT
+		}
+		name = ENT.1.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		trigger = {
+			country_exists = AIS
+		}
+		AIS = {
+			change_tag_from = ROOT
+		}
+		name = ENT.1.c
+	}
+	
+	
+}
+country_event = {
+    id = ENT.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.3 FROM = [From.GetName]" }
+	title = ENT.3.t
+	desc = ENT.3.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			if = {
+				limit = {
+					tag = ALG
+				}
+				load_oob = "ALG_collpase"
+				add_manpower = 1000000
+			}
+			if = {
+				limit = {
+					tag = AIS
+				}
+				load_oob = "AIS_collpase"
+				add_manpower = 1000000
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = AIS
+				}
+				country_event = {
+					id = AIS.1
+					days = 20
+				}
+			}
+		}
+		
+		declare_war_on = {
+			target = ALF 
+			type = take_state_focus 
+		}
+		name = ENT.3.a
+	}
+	
+	
+}
+country_event = {
+    id = ENT.4  #阿尔及尔会议
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.4 FROM = [From.GetName]" }
+	title = ENT.4.t
+	desc = ENT.4.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		set_country_flag = ROF_AIS_agree
+		name = ENT.4.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		set_country_flag = ROF_AIS_refuse
+		name = ENT.4.b
 	}
 	
 	

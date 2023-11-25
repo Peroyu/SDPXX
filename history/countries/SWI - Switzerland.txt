@@ -43,3 +43,11 @@ create_country_leader = {
 	ideology = FFFFF_FFF 
 	traits = {  }
 }
+create_country_leader = {
+	name = "SWI_Ernst_Nobs"  
+	desc = "SWI_Ernst_Nobs_desc"  
+	picture = "gfx\leaders\EU\Portrait_SWI_Ernst_Nobs.png"  
+	expire = "1962.12.5"  
+	ideology = reformed_socialism 
+	traits = {  }
+}

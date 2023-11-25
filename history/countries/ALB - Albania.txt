@@ -14,7 +14,7 @@ set_politics = {
 	elections_allowed = no   
 }
 add_ideas = {
-	loser_of_the_revolutionary_war
+	onlooker_of_the_revolutionary_war
    
 }
 set_popularities = {

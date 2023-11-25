@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Serbia guard"				# Represents local militia groups (generally poorly-equipped )
+	division_names_group = JIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+
+### OOB ###
+units = {
+	### Provincial Forces ###
+	division = {
+		name = "Serbia rev-guard 1"
+		location = 11586
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Serbia rev-guard 2"
+		location = 11586
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+
+    division = {
+		name = "Serbia rev-guard 3"
+		location = 11586
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    division = {
+		name = "Serbia rev-guard 4"
+		location = 11887
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    division = {
+		name = "Serbia rev-guard 5"
+		location = 11887
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Serbia rev-guard 6"
+		location = 3939
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Serbia rev-guard 7"
+		location = 937
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Serbia rev-guard 8"
+		location = 9890
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Serbia rev-guard 9"
+		location = 9602
+		division_template = "Serbia guard"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 1
+
+	}
+    
+}
+

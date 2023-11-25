@@ -1,0 +1,25 @@
+﻿add_namespace = FedCHI
+country_event = {
+    id = FedCHI.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	FedCHI.1 FROM = [From.GetName]" }
+	title = FedCHI.1.t
+	desc = FedCHI.1.d
+	picture = GFX_FedCHI1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = FedCHI.1.a
+	}
+}

@@ -1,0 +1,49 @@
+units = {
+	
+	
+
+	##### IJN Naval Forces (CO: Nagano) #####
+	### Rengo Kantai (Combined Fleet) (CO: Yamamoto) ###
+	fleet = {
+		name = "ROF_fleet_1"			
+		naval_base = 4948  
+		task_force = {				
+			name = "ROF_main_ship_fleet"
+			location = 4948 
+			ship = { name = "Condorcet" definition = Pre_dreadnought_battleship equipment = { Pre_dreadnought_battleship_1 = {amount = 1 owner = ROF version_name = "Danton-class" } } }
+			ship = { name = "Diderot" definition = Pre_dreadnought_battleship equipment = { Pre_dreadnought_battleship_1 = {amount = 1 owner = ROF version_name = "Danton-class" } } }
+			ship = { name = "Courbet" definition = battleship equipment = { battleship_1 = {amount = 1 owner = ROF version_name = "Courbet-class" } } }
+			ship = { name = "Chevalier Paul" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = ROF version_name = "La Motte-Picquet-class" } } }
+			ship = { name = "Maillé Brézé" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = ROF version_name = "La Motte-Picquet-class" } } }
+			ship = { name = "Milan" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = ROF version_name = "La Motte-Picquet-class" } } }
+			ship = { name = "Épervier" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = ROF version_name = "La Motte-Picquet-class" } } }
+		}
+
+		task_force = {				
+			name = "ROF_ship_fleet"
+			location = 4948 
+			ship = { name = "Bison" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = ROF version_name = "Guépard-class" } } }
+			ship = { name = "Guépard" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = ROF version_name = "Guépard-class" } } }
+			ship = { name = "Lion" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = ROF version_name = "Guépard-class" } } }
+			ship = { name = "Valmy" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = ROF version_name = "Guépard-class" } } }
+			ship = { name = "Jaguar" definition = destroyer equipment = { destroyer_1  = {amount = 1 owner = ROF version_name = "Chacal-class" } } }
+			ship = { name = "Panthère" definition = destroyer equipment = { destroyer_1  = {amount = 1 owner = ROF version_name = "Chacal-class" } } }
+			ship = { name = "Tigre" definition = destroyer equipment = { destroyer_1  = {amount = 1 owner = ROF version_name = "Chacal-class" } } }
+			ship = { name = "S-1" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-2" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-3" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-4" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-5" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-6" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+		}
+
+		task_force = {				
+			name = "ROF_ship_fleet"
+			location = 7132 
+			ship = { name = "S-7" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-8" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-9" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+			ship = { name = "S-10" definition = submarine equipment = { submarine_1  = {amount = 1 owner = ROF version_name = "S-class" } } }
+		}
+	}
+}

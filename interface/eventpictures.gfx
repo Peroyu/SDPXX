@@ -8,6 +8,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_news_event_001.png"
 	}
 	spriteType = {
+		name = "GFX_global_7"
+		texturefile = "gfx/event_pictures/news/GFX_global_7.png"
+	}
+	spriteType = {
+		name = "GFX_global_6"
+		texturefile = "gfx/event_pictures/news/GFX_global_6.png"
+	}
+	spriteType = {
 		name = "GFX_global_5"
 		texturefile = "gfx/event_pictures/news/GFX_global_5.png"
 	}
@@ -140,6 +148,62 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_9.png"
 	}
 	spriteType = {
+		name = "GFX_ISU_15"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_15.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_16"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_16.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_17"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_17.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_18"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_18.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_19"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_19.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_20"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_20.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_21"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_21.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_22"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_22.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_23"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_23.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_24"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_24.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_25"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_25.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_26"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_26.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_27"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_27.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_28"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_28.png"
+	}
+	spriteType = {
 		name = "GFX_USA_4"
 		texturefile = "gfx/event_pictures/news/GFX_USA_4.png"
 	}
@@ -200,12 +264,88 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_global_4.png"
 	}
 	spriteType = {
+		name = "GFX_global_8"
+		texturefile = "gfx/event_pictures/news/GFX_global_8.png"
+	}
+	spriteType = {
+		name = "GFX_HUN_BAL_2"
+		texturefile = "gfx/event_pictures/news/GFX_HUN_BAL_2.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_30"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_30.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_31"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_31.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_32"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_32.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_34"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_34.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_39"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_39.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_40"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_40.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_41"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_41.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_42"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_42.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_38"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_38.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_35"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_35.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_37"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_37.png"
+	}
+	spriteType = {
+		name = "GFX_Balkan_war_3"
+		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_3.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_10"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_10.png"
+	}
+	spriteType = {
+		name = "GFX_global_9"
+		texturefile = "gfx/event_pictures/news/GFX_global_9.png"
+	}
+	spriteType = {
+		name = "GFX_Balkan_war_4"
+		texturefile = "gfx/event_pictures/news/GFX_Balkan_war_4.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_33"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_33.png"
+	}
+	spriteType = {
 		name = "GFX_Triple_entent_2"
 		texturefile = "gfx/event_pictures/news/GFX_Triple_entent_2.png"
 	}
 	spriteType = {
 		name = "GFX_Triple_entent_3"
 		texturefile = "gfx/event_pictures/news/GFX_Triple_entent_3.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_29"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_29.png"
 	}
 	spriteType = {
 		name = "GFX_Pacific_9"
@@ -270,6 +410,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CJF_kmtda3"
 		texturefile = "gfx/event_pictures/GFX_CJF_kmtda3.png"
+	}
+	spriteType = {
+		name = "GFX_FedCHI1"
+		texturefile = "gfx/event_pictures/GFX_FedCHI1.png"
 	}
 	spriteType = {
 		name = "GFX_RUSevent_1"
@@ -470,6 +614,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CHIpeace5"
 		texturefile = "gfx/event_pictures/GFX_CHIpeace5.png"
+	}
+	spriteType = {
+		name = "GFX_AIS_1"
+		texturefile = "gfx/event_pictures/GFX_AIS_1.png"
+	}
+	spriteType = {
+		name = "GFX_AIS_2"
+		texturefile = "gfx/event_pictures/GFX_AIS_2.png"
+	}
+	spriteType = {
+		name = "GFX_AIS_3"
+		texturefile = "gfx/event_pictures/GFX_AIS_3.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_14"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_14.png"
 	}
 	spriteType = {
 		name = "GFX_chi_news5"

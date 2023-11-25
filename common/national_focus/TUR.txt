@@ -1,0 +1,13 @@
+focus_tree = {
+	id = TUR_oil
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = TUR  
+		}	
+	}
+	default = no
+    shared_focus = TUR_oil_must_run
+}
+

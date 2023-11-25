@@ -9,7 +9,7 @@ BoP_Tab_GlobalConflicts_GER = { decision_category = GER_foreign_policy_category 
 BoP_Tab_GlobalConflicts_USA = { decision_category = USA_foreign_policy_category }
 BoP_Tab_GlobalConflicts_NIP = { decision_category = JAP_foreign_policy_category }
 BoP_Tab_GlobalConflicts_BRA = { decision_category = BRA_foreign_policy_category }
-BoP_Tab_GlobalConflicts_IBR = { decision_category = IBR_foreign_policy_category }
+BoP_Tab_GlobalConflicts_FRA = { decision_category = FRA_foreign_policy_category }
 BoP_Tab_GlobalConflicts_ENG = { decision_category = ENG_foreign_policy_category }
 BoP_Tab_GlobalConflicts_TUR = { decision_category = TUR_foreign_policy_category_puerto_plata }
 ## South American Cold War ##

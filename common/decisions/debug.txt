@@ -19,9 +19,7 @@ SDP_debug = {
 		}
 	
 		
-		ai_will_do = {
-				base = 100#ai点选这个决议的意愿
-				}
+	
 	}
     SDP_debug_2 = {
 
@@ -41,9 +39,73 @@ SDP_debug = {
 		}
 	
 		
-		ai_will_do = {
-				base = 100#ai点选这个决议的意愿
-				}
+		
+	}
+	SDP_debug_3 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			SDP_fopo_add_iran_civil_war_tab = yes
+			set_variable = { global.CW_Algeria_balance_number = 50 }
+		}
+	
+		
+	
+	}
+	SDP_debug_4 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_politics = {
+				ruling_party = Liberalism
+			}
+			set_capital = { state = 602 }
+			set_cosmetic_tag = KHN_zizhi
+		}
+	
+		
+	
+	}
+	SDP_debug_5 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_cosmetic_tag = CHI_fdr
+			set_capital = { state = 613 }
+		}
+	
+		
+	
 	}
     
 }

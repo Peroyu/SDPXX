@@ -716,10 +716,10 @@ GDC_guerrilla_area = {
                 country_exists = FJN
             }
             OR = {
-                has_country_leader = { ruling_only = yes name = "李立三" }
+                has_country_leader = { ruling_only = yes name = "李济深" }
                 has_country_leader = { ruling_only = yes name = "杨匏安" }
                 has_country_leader = { ruling_only = yes name = "何香凝" }
-                has_country_leader = { ruling_only = yes name = "李济深" }
+                has_country_leader = { ruling_only = yes name = "李立三" }
             }
             check_variable = { #检查变量大小
 	            var = global.CHI_Fu_Jian_control
@@ -829,7 +829,7 @@ GDC_guerrilla_area = {
                 country_exists = KHN
             }
             OR = {
-                has_country_leader = { ruling_only = yes name = "李立三" }
+                 has_country_leader = { ruling_only = yes name = "李立三" }
                 has_country_leader = { ruling_only = yes name = "杨匏安" }
                 has_country_leader = { ruling_only = yes name = "何香凝" }
                 has_country_leader = { ruling_only = yes name = "李济深" }

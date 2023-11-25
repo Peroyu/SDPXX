@@ -176,8 +176,8 @@ OTT_is_egyptian_state = {
 
 OTT_has_unique_rebellion_event = {
 	has_state_flag = ott_unique_rebellion_event #set via on_startup, OTT file
-	is_owned_and_controlled_by = TUR
-	TUR = {
+	is_owned_and_controlled_by = OTT
+	OTT = {
 		has_idea = ott_vilayet_stability_idea
 		OTT_cairo_pact_defeated = no
 	}
@@ -261,17 +261,7 @@ OTT_can_centralise_medium = {
 	}
 }
 
-OTT_cairo_pact_defeated = {
-	OR = {
-		NOT = { country_exists = EGY }
-		EGY = { is_subject = yes }
-	}
-	OR = {
-		NOT = { country_exists = PER }
-		NOT = { PER = { has_war_with = OTT } }
-		PER = { is_subject = yes }
-	}
-}
+
 
 OTT_is_conservative_state = {
 	OR = {

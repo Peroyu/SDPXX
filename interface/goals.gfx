@@ -2032,6 +2032,11 @@ spriteTypes = {
 		name = "GFX_NIP_crazy_soldiers"
 		texturefile = "gfx/interface/goals/NIP/GFX_NIP_crazy_soldiers.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_NIP_ignore_neo_system_compaign"
+		texturefile = "gfx/interface/goals/NIP/GFX_NIP_ignore_neo_system_compaign.png"			
+	}
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"
@@ -2098,7 +2103,24 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/IRE/IRE_Olympic_celebrations.dds"			
 	}
 	
-	
+	###############3TUR####################################
+
+
+	SpriteType = {
+		name = "GFX_TUR_wisdom_of_ottoman"
+		texturefile = "gfx/interface/goals/TUR/GFX_TUR_wisdom_of_ottoman.png"			
+		}
+
+
+
+
+
+
+
+
+
+
+
 	SpriteType = {
 		name = "GFX_goal_unknown"
 		texturefile = "gfx/interface/goals/goal_unknown.dds"

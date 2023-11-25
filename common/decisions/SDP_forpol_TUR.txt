@@ -348,5 +348,41 @@ TUR_foreign_policy_category_puerto_plata = {
 			base = 100#ai点选这个决议的意愿
 		}
 	}
+
+
+
+	##########
+	TUR_ = {
+
+		icon = decision_ETH_chitet
+
+		available = {
+			SDP_fopo_add_iran_civil_war_tab = yes
+		}
+		
+		allowed = {
+			original_tag = TUR
+		}
+		
+		
+		
+		visible = {
+			SDP_fopo_add_iran_civil_war_tab = yes
+			
+		}
+		fire_only_once = yes
+	
+		cost = 10
+		
+		
+		
+		complete_effect = {
+		}
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
 	
 }

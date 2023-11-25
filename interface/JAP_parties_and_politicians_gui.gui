@@ -64,4 +64,29 @@ guitypes = {
 			fixedsize = yes
 		}
 	}
+	containerWindowType = {#主窗口
+		name = "SDP_JAP_change_window"
+		Orientation = CENTER_UP
+		position = { x =-500 y = -135 }
+		buttonType = { 
+			name = "enter_SDP_JAP_change_button"
+			position = { x = 400  y =400 } #你的按钮位置（在窗口中）
+			quadTextureSprite = "enter_SDP_JAP_change_button"
+            pdx_tooltip = "SDP_portrait_change_button_tooltip"
+			clicksound = click_default
+		} 
+
+	}
+	containerWindowType = {#主窗口
+		name = "SDP_JAP_change_main"
+		position = { x = -963 y = 122 }
+		Orientation = CENTER_UP
+		size = { width = 500 height = 500 }
+		moveable = no
+		background = {
+			name = "SDP_JAP_change_main"
+			quadTextureSprite = "SDP_JAP_change_main"
+			pdx_tooltip = "SDP_JAP_change_main_tooltip"
+		}
+	}
 }
