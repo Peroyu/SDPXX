@@ -1,0 +1,13 @@
+guiTypes = { 
+
+	containerWindowType = {
+		name = "SDP_world_tension_scripted_gui"
+		position = { x = 0 y = 0 }
+		size = { width = 1197 height = 805 }
+		orientation = center
+		
+		
+		
+		
+	}
+}
