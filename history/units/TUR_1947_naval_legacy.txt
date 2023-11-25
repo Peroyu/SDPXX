@@ -1,0 +1,72 @@
+﻿units= {
+
+	### Marine Francaise (CO: Darlan) ###
+	# Admiralty North (CO: Castex) #
+	fleet = {
+		name = "Ottoman Fleet"			
+		naval_base = 9833 # Dunkerque
+		task_force = {				
+			name = "Ottoman Mediterranean Navy"					# CO: Le Bigot	
+			location = 9833 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Sultan Murad-i Rabi" definition = battleship equipment = { battleship_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "Sultan Osman-i Evvel" definition = battleship equipment = { battleship_2  = { amount = 1 owner = TUR } } }	
+			ship = { name = "Sultan Mehmed-i Hamis" definition = battleship equipment = { battleship_2  = { amount = 1 owner = TUR } } }		
+			ship = { name = "Sultan Selim-i Evvel" definition = battle_cruiser equipment = { battle_cruiser_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "Sultan II. Mehmed" definition = battle_cruiser equipment = { battle_cruiser_2  = { amount = 1 owner = TUR } } }
+
+
+			ship = { name = "Mecidiye" definition = heavy_cruiser equipment = { heavy_cruiser_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "II. Murad" definition = heavy_cruiser equipment = { heavy_cruiser_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "III. Mehmed" definition = heavy_cruiser equipment = { heavy_cruiser_2  = { amount = 1 owner = TUR } } }
+
+
+			ship = { name = "Hamidiye" definition = light_cruiser equipment = { light_cruiser_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "Peyk-i Şevket" definition = light_cruiser equipment = { light_cruiser_1  = { amount = 1 owner = TUR } } }	
+			ship = { name = "Berk-i Satvet" definition = light_cruiser equipment = { light_cruiser_1  = { amount = 1 owner = TUR } } }		
+			ship = { name = "Kaptan Paşa" definition = light_cruiser equipment = { light_cruiser_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "Tanzimat" definition = light_cruiser equipment = { light_cruiser_1  = { amount = 1 owner = TUR } } }		
+			ship = { name = "Khayr al-Din Barbarus" definition = light_cruiser equipment = { light_cruiser_2  = { amount = 1 owner = TUR } } }
+
+			ship = { name = "D-3" definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-8" definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = TUR } } }	
+			ship = { name = "D-11" definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = TUR } } }		
+			ship = { name = "D-15" definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-17" definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = TUR } } }		
+			ship = { name = "D-21" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-22" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-23" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }	
+			ship = { name = "D-24" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-25" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "D-27" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }	
+			ship = { name = "D-28" definition = destroyer equipment = { destroyer_2  = { amount = 1 owner = TUR } } }
+		}
+		
+		task_force = {				
+			name = "Ottoman Mediterranean Submarine"					# CO: Le Bigot	
+			location = 9833 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "S-11" definition = submarine equipment = { submarine_1  = { amount = 1 owner = TUR } } }
+			ship = { name = "S-17" definition = submarine equipment = { submarine_1  = { amount = 1 owner = TUR } } }	
+			ship = { name = "S-18" definition = submarine equipment = { submarine_1  = { amount = 1 owner = TUR } } }		
+			ship = { name = "S-13" definition = submarine equipment = { submarine_1  = { amount = 1 owner = TUR } } }
+
+			ship = { name = "S-19" definition = submarine equipment = { submarine_1  = { amount = 1 owner = TUR } } }
+
+			ship = { name = "S-22" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "S-23" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }	
+			ship = { name = "S-28" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }		
+			ship = { name = "S-29" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "S-25" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }		
+			ship = { name = "S-26" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+
+			ship = { name = "S-27" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "S-30" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }	
+			ship = { name = "S-32" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }		
+			ship = { name = "S-33" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+			ship = { name = "S-37" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }		
+			ship = { name = "S-35" definition = submarine equipment = { submarine_2  = { amount = 1 owner = TUR } } }
+		}
+				
+	}
+}

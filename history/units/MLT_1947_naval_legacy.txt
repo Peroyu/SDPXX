@@ -1,0 +1,43 @@
+﻿units= {
+
+	### Marine Francaise (CO: Darlan) ###
+	# Admiralty North (CO: Castex) #
+	fleet = {
+		name = "test nord"			
+		naval_base = 12003 # Dunkerque
+		task_force = {				
+			name = "Royal Mediterranean Navy"					# CO: Le Bigot	
+			location = 12003 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { battleship_1  = { amount = 1 owner = MLT } } }	
+			ship = { name = "HMS Valiant" definition = battleship equipment = { battleship_1  = { amount = 1 owner = MLT } } }
+			ship = { name = "HMS Barham" definition = battleship equipment = { battleship_1  = { amount = 1 owner = MLT } } }				
+			ship = { name = "HMS Renown" definition = battle_cruiser equipment = { battle_cruiser_1  = { amount = 1 owner = MLT } } }		
+			ship = { name = "HMS Illustrious" definition = carrier equipment = { carrier_2 = {amount = 1 owner = MLT  } }}	
+			ship = { name = "HMS Glorious" definition = carrier equipment = { carrier_1 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Shropshire" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = MLT  } }}	
+			ship = { name = "HMS Devonshire" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Sussex" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Galatea" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MLT  } }}	
+			ship = { name = "HMS Penelope" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Arethusa" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = MLT  } }}
+
+			ship = { name = "HMS Agincourt" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Aisne" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}	
+			ship = { name = "HMS Barrosa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Corunna" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Dunkirk" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Jutland" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Danae" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Demon" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Dervish" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Delight" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Desperate" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Desire" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Diana" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+			ship = { name = "HMS Voyager" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = MLT  } }}
+		}
+		
+				
+	}
+}

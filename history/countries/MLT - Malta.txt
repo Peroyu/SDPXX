@@ -1,10 +1,130 @@
 capital = 116
 
 set_research_slots = 2
-
+set_naval_oob = "MLT_1947_naval_legacy"
+set_oob = "MLT_1947"
+set_air_oob = "MLT_1947_air_legacy"
 set_war_support = 0.8 
 set_stability = 0.7 
+add_manpower = 78000
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons2 = 1
+	infantry_weapons1 = 1
+	infantry_strike_force_1 = 1
+	infantry_at = 1
+	infantry_heavy_weapens_1 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	motorised_infantry_0 = 1
 
+	#support#
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+
+	#artillery#
+	gw_artillery = 1
+	artillery1 = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	Anti_Material_Weapon = 1
+
+	#armor#
+	basic_light_tank_chassis = 1
+	basic_light_tank_chassis_improve = 1
+	basic_medium_tank_chassis = 1
+	super_light_armor = 1
+
+	#air#
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+
+	#air#
+	early_fighter = 1
+	fighter1 = 1
+	fighter1_improve = 1
+	fighter2 = 1
+	fighter3 = 1
+	cv_early_fighter = 1
+	cv_fighter1 = 1
+	cv_fighter2 = 1
+	CAS1 = 1
+	cv_CAS1 = 1
+	CAS2 = 1
+	cv_CAS2 = 1
+	CAS_improve1 = 1
+	naval_bomber1 = 1
+	naval_bomber2 = 1
+	cv_naval_bomber1 = 1
+	cv_naval_bomber2 = 1
+	naval_bomber_improve = 1
+	naval_bomber3 = 1
+	early_bomber = 1
+	heavy_fighter_improve = 1
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	tactical_bomber1 = 1
+	scout_plane1 = 1
+	scout_plane3 = 1
+	transport_plane1 = 1
+
+	#navy#
+	early_destroyer = 1
+	basic_destroyer = 1
+	improved_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	improved_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	improved_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	improved_battleship = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	improved_submarine = 1
+	advanced_submarine = 1
+	transport = 1
+	landing_craft = 1
+	Pre_dreadnought_battleship = 1
+	basic_battlecruiser = 1
+	
+
+	#techss#
+	electronic_mechanical_engineering = 1
+	radio = 1
+	mechanical_computing = 1
+	
+	#industry#
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	fuel_silos = 1
+}
+add_ideas = {
+private_health_insurance
+	proportional_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	censorship
+	wage_controls
+	protectionism
+	public_schools
+	freedom_of_conscience
+	for_conscription
+	freeholders
+	militarized_police
+	private_health_insurance
+	national_supremacy
+}
 set_politics = {
 	ruling_party = conservatism # 
 	last_election = "1947.1.1"
