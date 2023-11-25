@@ -235,11 +235,14 @@ news_event = {
     desc = global.8.d
     immediate = { 
         hidden_effect = {
-           TUR = {
+           CAN = {
             annex_country = {
                 target = MLT
-                transfer_troops = no
+                transfer_troops = yes
             }
+           }
+           TUR = {
+            transfer_state = 116
            }
         }
 	}
@@ -597,6 +600,7 @@ news_event = {
 	}
 	option = {
 		name = HUN_SLO.1.b
+        trigger = {{tag = HUN}}
 	}
 }
 news_event = {

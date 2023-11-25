@@ -9,7 +9,7 @@ set_stability = 0.8
 
  
 set_politics = {
-	ruling_party = social_democracy  
+	ruling_party = committee_communism  
 	last_election = "1946.1.1"
 	election_frequency = 48 
 	elections_allowed = no 
@@ -32,11 +32,11 @@ set_popularities = {
   conservatism = 6
   movement_communism = 15
   ##Social Democrats##
-  social_democracy = 38
-  moderate_socialism = 15
+  social_democracy = 10
+  moderate_socialism = 18
   ##commic##
-  committee_communism = 15
-  communism = 5
+  committee_communism = 30
+  communism = 15
 }
 set_variable = { var = SDP_ita_1_L value = 45 }
 set_variable = { var = SDP_ita_2_L value = 47 }
@@ -83,7 +83,16 @@ set_variable = { var = SDP_ita_12 value = 8 }
 set_variable = { var = SDP_ita_13 value = 10 }
 set_variable = { var = SDP_ita_14 value = 12 }
 set_variable = { var = SDP_ita_15 value = 12 }
-
+create_country_leader = {
+	name = "ITA_Pietro_Nenni"
+	desc = "ITA_Pietro_Nenni_desc"
+	picture = "gfx\leaders\EU\Portrait_ITA_Pietro_Nenni.png"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+		
+	}
+}
 create_country_leader = {
 	name = "Giacomo_Matteotti"
 	desc = "Giacomo_Matteotti_desc"

@@ -14,6 +14,9 @@ scripted_gui = {
 			chinese_pie = {
 				frame = TUR.chi_display
 			}
+			house_icon = {
+				frame = current_house_icon_frame
+			}
 		}
 	}
 }
