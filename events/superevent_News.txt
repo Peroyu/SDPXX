@@ -20,11 +20,6 @@ news_event = {
 			}
 			CAN = {
 				dismantle_faction = yes
-				puppet = NIG
-				puppet = RHO
-				puppet = AST
-				puppet = NZL
-				puppet = MAL
 			}
 
 		}
