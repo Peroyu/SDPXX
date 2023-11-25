@@ -214,7 +214,30 @@ news_event = {
     desc = global.7.d
     immediate = { 
         hidden_effect = {
-           
+           random_list = {
+            60 = {
+                every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = global.9
+						days = 52
+					}
+				}
+            }
+            40 = {
+                every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = global.8
+						days = 32
+					}
+				}
+            }
+           }
         }
 	}
     is_triggered_only = yes
@@ -254,6 +277,44 @@ news_event = {
 
 	option = {
 		name = global.8.a
+	}
+}
+news_event = {
+	id = global.9
+
+    picture = GFX_global_9
+    title = global.9.t
+    desc = global.9.d
+    immediate = { 
+        hidden_effect = {
+            MLT = {
+                leave_faction = yes
+              }
+                FRA = {
+                    declare_war_on = { target = MLT type = annex_everything }
+                    add_ideas = ISU_Balkan_crisis
+                }
+                    if = {
+                        limit = {
+                            FRA = {
+                            has_country_flag = ITA_help_us
+                            }
+                        }
+                        ITA = {
+                            declare_war_on = { target = MLT type = annex_everything }
+                            add_ideas = ISU_Balkan_crisis
+                        }
+                    }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.9.a
 	}
 }
 news_event = {
@@ -1316,6 +1377,9 @@ news_event = {
     desc = ISU.14.d
     immediate = { 
         hidden_effect = {
+            ISU = {
+                add_to_faction = SWI
+            }
            SWI = {
             set_politics = { 
                 ruling_party = moderate_socialism
@@ -1832,8 +1896,6 @@ news_event = {
     immediate = { 
         hidden_effect = {
           
-            
-                
         }
 	}
     is_triggered_only = yes

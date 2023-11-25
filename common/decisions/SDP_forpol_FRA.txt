@@ -114,6 +114,7 @@ FRA_foreign_policy_category = {
 		
 		complete_effect = {
 			custom_effect_tooltop = FRA_ALG_tt_3
+			set_country_flag = ITA_help_us
 		}
 		
 		
