@@ -39,4 +39,12 @@ MMA_gongye_dynamic_modifier = {
 	industrial_capacity_factory = MMA_chanchu
 	
 }
+IRE_Financial_burden = {
+    enable = { 
+	    always = yes 
+	}
+    icon = GFX_IRE_Financial_burden
+    consumer_goods_factor = IRE_Financial_burden_var
+	political_power_gain = IRE_Financial_burden_pp_var
+}
 
