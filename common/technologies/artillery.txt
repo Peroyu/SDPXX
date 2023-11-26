@@ -40,7 +40,6 @@ technologies = {
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -90,7 +89,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-			mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -162,7 +160,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -210,7 +207,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -276,7 +272,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -324,7 +319,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-			mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -393,7 +387,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -435,7 +428,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -480,7 +472,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -508,7 +499,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -536,7 +526,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -559,7 +548,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			artillery
-mio_cat_all_artillery_equipment
 		}
 
 		ai_will_do = {
@@ -618,7 +606,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -651,7 +638,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -694,7 +680,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -729,7 +714,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -778,7 +762,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -803,11 +786,6 @@ mio_cat_all_artillery_equipment
 				factor = 2
 				tag = SOV
 			}
-		}
-
-		categories = {
-			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -843,7 +821,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -887,7 +864,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -922,7 +898,6 @@ mio_cat_all_artillery_equipment
 
 		categories = {
 			rocketry
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -993,7 +968,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1036,7 +1010,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1062,7 +1035,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 	
@@ -1087,7 +1059,6 @@ mio_cat_all_artillery_equipment
 			air_equipment
 			plane_modules_tech
 			cat_air_guns
-			mio_cat_all_artillery_equipment
 		}
 		
 		ai_will_do = {
@@ -1161,7 +1132,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1231,7 +1201,6 @@ mio_cat_all_artillery_equipment
 			air_equipment
 			plane_modules_tech
 			cat_air_guns
-			mio_cat_all_artillery_equipment
 		}
 		
 		ai_will_do = {
@@ -1289,7 +1258,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-		mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1328,7 +1296,29 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-		mio_cat_all_artillery_equipment
+		}
+	}
+
+	aa_hmg_1 = {
+
+		
+		
+		research_cost = 1
+		start_year = 1945
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @1945 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_guns
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1380,7 +1370,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1454,8 +1443,18 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-		mio_cat_all_artillery_equipment
 		}
+	}
+
+	AAM = {
+
+		research_cost = 1
+
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @1954 }
 		}
 
 		ai_will_do = {
@@ -1524,7 +1523,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1555,7 +1553,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_air
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1596,7 +1593,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1626,7 +1622,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1710,7 +1705,22 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-		mio_cat_all_artillery_equipment
+		}
+	}
+
+	Bazooka_1 = {
+		
+		path = {
+			leads_to_tech = Bazooka_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = @1942 }
 		}
 
 		ai_will_do = {
@@ -1744,7 +1754,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1770,7 +1779,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1795,7 +1803,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1868,7 +1875,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -1941,7 +1947,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -2033,7 +2038,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -2135,12 +2139,22 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-		mio_cat_all_artillery_equipment
 		}
 	}
 
-	SWE_bofors_antitank_gun = {
-
+	antitank6 = {
+		path = {
+			leads_to_tech = antitank7
+			research_cost_coeff = 1
+		}
+		
+		enable_equipment_modules = {
+			tank_medium_cannon_2
+		}
+		enable_equipments = {
+			anti_tank_equipment_5
+		}
+		start_year = 1954
 		research_cost = 1
 		folder = {
 			name = artillery_folder
@@ -2154,7 +2168,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 
@@ -2205,7 +2218,32 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
+		}
+	}
+
+	recoilless_gun_coldwar = {
+		path = {
+			leads_to_tech = anti_tank_missile
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		enable_equipments = {
+			recoilless_gun_equipemnt_2
+		}
+		start_year = 1954
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = @1954 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
 		}
 	}
 
@@ -2250,7 +2288,6 @@ mio_cat_all_artillery_equipment
 		categories = {
 			artillery
 			cat_anti_tank
-			mio_cat_all_artillery_equipment
 		}
 	}
 

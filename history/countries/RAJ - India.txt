@@ -10,6 +10,9 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+1946.10.1 = {
+add_named_threat = { threat = 5 name = RAJ_threat_civilwar }
+}
 set_country_flag = INDIA_civilwar_participants
 set_popularities = {
 	communism = 5

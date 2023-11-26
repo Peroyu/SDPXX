@@ -1,0 +1,147 @@
+﻿units= {
+
+	### Marine Francaise (CO: Darlan) ###
+	# Admiralty North (CO: Castex) #
+	fleet = {
+		name = "test nord"			
+		naval_base = 911 # Dunkerque
+		task_force = {				
+			name = "1ère Région Navale"					# CO: Le Bigot	
+			location = 911 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Robespierre" definition = battleship equipment = { battleship_3  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Lafayette" definition = battleship equipment = { battleship_3  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Jean-Paul Marat" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = FRA } } }	
+			ship = { name = "Jacques-René Hébert" definition = battle_cruiser equipment = { battle_cruiser_2 = { amount = 1 owner = FRA } } }
+
+			ship = { name = "Jean-Jacques Rousseau" definition = heavy_cruiser  equipment = { heavy_cruiser_3  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Georges Auguste Couthon" definition = heavy_cruiser  equipment = { heavy_cruiser_3  = { amount = 1 owner = FRA } } }	
+			ship = { name = "Paul Lafargue" definition = heavy_cruiser  equipment = { heavy_cruiser_3  = { amount = 1 owner = FRA } } }	
+
+
+			ship = { name = "Louis Auguste Blanqui" definition = heavy_cruiser  equipment = { heavy_cruiser_2  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Louis Eugène Varlin" definition = heavy_cruiser  equipment = { heavy_cruiser_2  = { amount = 1 owner = FRA } } }	
+			ship = { name = "Édouard Vaillant" definition = heavy_cruiser  equipment = { heavy_cruiser_2  = { amount = 1 owner = FRA } } }	
+			
+			ship = { name = "Marseillaise" definition = light_cruiser  equipment = { light_cruiser_3  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Victor Hugo" definition = light_cruiser  equipment = { light_cruiser_3  = { amount = 1 owner = FRA } } }	
+			ship = { name = "Gloire" definition = light_cruiser  equipment = { light_cruiser_2  = { amount = 1 owner = FRA } } }	
+
+			ship = { name = "Le Malin" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Le Terrible" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "L'Indomptable" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}
+			ship = { name = "Le Triomphant" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Vauquelin" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Kersaint" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}
+			ship = { name = "Le Mars" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}
+			ship = { name = "Foudroyant" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Le Fantasque" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Bison" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}
+		}	
+
+		task_force = {				
+			name = "1ère Région Navale"					# CO: Le Bigot	
+			location = 3552 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Le Hardi" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Casque" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Le Téméraire" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+
+			ship = { name = "Q 333" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 330" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 120" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 130" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 121" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 122" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 110" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 115" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 290" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 292" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+
+
+		
+		}	
+				
+	}
+	fleet = {
+		name = "test nord"			
+		naval_base = 575 # Dunkerque
+		task_force = {				
+			name = "1ère Région Navale"					# CO: Le Bigot	
+			location = 575 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Charles Fourier" definition = battleship equipment = { battleship_2  = { amount = 1 owner = FRA} } }		
+			ship = { name = "Étienne Cabet" definition = battleship equipment = { battleship_2  = { amount = 1 owner = FRA } } }		
+			ship = { name = "François-Noël Babeuf" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FRA } } }	
+			ship = { name = "Saint-Simon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FRA } } }
+		
+			ship = { name = "Louis Blanc" definition = light_cruiser  equipment = { light_cruiser_2  = { amount = 1 owner = FRA } } }	
+			ship = { name = "Jules Guesde" definition = light_cruiser  equipment = { light_cruiser_2  = { amount = 1 owner = FRA } } }	
+			
+			ship = { name = "Maillé Brézé" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Cassard" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Tartu" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}
+			ship = { name = "L'Adroit" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Brestois" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "L'Alcyon" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+
+		
+		}	
+
+		task_force = {				
+			name = "1ère Région Navale"					# CO: Le Bigot	
+			location = 3552 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Valmy" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Verdun" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Vauban" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+
+			ship = { name = "Q 165" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 166" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 160" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 152" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 180" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 190" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 195" definition = submarine  equipment = { submarine_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 205" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 210" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 220" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 222" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 221" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 227" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+
+
+		
+		}	
+				
+	}
+
+	fleet = {
+		name = "test nord"			
+		naval_base = 575 # Dunkerque
+		task_force = {				
+			name = "1ère Région Navale"					# CO: Le Bigot	
+			location = 3552 # Dunkerque			
+			# 11e Légère Division des Contre-Torpilleurs
+			ship = { name = "Jeanne d'Arc" definition = heavy_cruiser  equipment = { heavy_cruiser_2  = { amount = 1 owner = FRA } } }	
+			
+			ship = { name = "Louis Charles Delescluze" definition = light_cruiser  equipment = { light_cruiser_2  = { amount = 1 owner = FRA } } }		
+			ship = { name = "Eugène Pottier" definition = light_cruiser  equipment = { light_cruiser_2  = { amount = 1 owner = FRA } } }
+
+			ship = { name = "L'Adroit" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "L'Aventurier" definition = destroyer  equipment = { destroyer_1  = { amount = 1 owner = FRA } }}	
+			ship = { name = "L'Opiniâtre" definition = destroyer  equipment = { destroyer_2  = { amount = 1 owner = FRA } }}	
+
+			ship = { name = "Q 545" definition = submarine  equipment = { submarine_3  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 535" definition = submarine  equipment = { submarine_3  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 530" definition = submarine  equipment = { submarine_3  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 512" definition = submarine  equipment = { submarine_3  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 541" definition = submarine  equipment = { submarine_3  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 228" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 230" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}	
+			ship = { name = "Q 201" definition = submarine  equipment = { submarine_2  = { amount = 1 owner = FRA } }}
+		
+		}	
+				
+	}
+}

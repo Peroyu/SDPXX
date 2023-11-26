@@ -1,0 +1,79 @@
+guiTypes = { 
+
+	containerWindowType = {
+		name = "SDP_world_tension_scripted_gui"
+		position = { x = 0 y = 0 }
+		size = { width = 1300 height = 805 }
+		orientation = center
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_poster"
+			spriteType = "GFX_SDP_World_tension_poster"		
+			position = { x = -532 y = -222  }
+		}
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_WORLDMAP"
+			spriteType = "GFX_SDP_World_tension_WORLDMAP"		
+			position = { x = -40 y = -118  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_WORLDMAP_desc"
+		}
+
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_Europe_1"
+			spriteType = "GFX_SDP_World_tension_Europe_1"		
+			position = { x = -40 y = 95  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_Europe_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_SA_1"
+			spriteType = "GFX_SDP_World_tension_SA_1"		
+			position = { x = -40 y = 163  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_SA_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_USA_1"
+			spriteType = "GFX_SDP_World_tension_USA_1"		
+			position = { x = 84 y = 95  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_USA_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_AF_1"
+			spriteType = "GFX_SDP_World_tension_AF_1"		
+			position = { x = 84 y = 163  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_AF_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_EA_1"
+			spriteType = "GFX_SDP_World_tension_EA_1"		
+			position = { x = 208 y = 95  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_EA_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_SEA_1"
+			spriteType = "GFX_SDP_World_tension_SEA_1"		
+			position = { x = 208 y = 163  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_SEA_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_ME_1"
+			spriteType = "GFX_SDP_World_tension_ME_1"		
+			position = { x = 332 y = 95  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_ME_1_desc"
+		}
+
+		iconType = {#图片窗口，无效果
+			name = "SDP_World_tension_cold_1"
+			spriteType = "GFX_SDP_World_tension_cold_1"		
+			position = { x = 332 y = 163  }#你的图片位置（相对于窗口）
+			pdx_tooltip = "SDP_World_tension_cold_1_desc"
+		}
+		
+		
+	}
+}

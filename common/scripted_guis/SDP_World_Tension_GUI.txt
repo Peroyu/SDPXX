@@ -1,0 +1,11 @@
+scripted_gui = {
+	SDP_World_Tension_GUI = {
+		context_type = player_context
+		parent_window_name = "world_tension_popup"
+		window_name = "SDP_world_tension_scripted_gui"
+
+		triggers = {
+			
+		}
+	}
+}

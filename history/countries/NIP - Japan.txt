@@ -14,6 +14,10 @@ set_air_oob = "JAP_1947_air_legacy"
 set_power_balance = {
 	id = BoP_Tab_GlobalConflicts_NIP
 }
+1946.8.1 = {
+add_named_threat = { threat = 5 name = JAP_threat_5_war }
+}
+
 set_country_flag = FOPO_ENABLE
 create_faction = "大东亚共荣圈"
 add_to_faction = RCR

@@ -1,0 +1,15 @@
+﻿l_simp_chinese:
+ WORLD_TENSION_SDP_NAME: "世界局势"
+ SDP_World_tension_WORLDMAP_desc: "当今世界"
+
+ JAP_threat_5_war: "五号作战的终结"
+ RAJ_threat_civilwar: "印度内战"
+ 
+ SDP_World_tension_Europe_1_desc: "第二次大革命战争刚刚结束，全体欧洲劳动者正在展望着新时代的来临"
+ SDP_World_tension_USA_1_desc: "目前的美国总统是哈里·S·杜鲁门"
+ SDP_World_tension_EA_1_desc: "目前，日本帝国已经将中华民国几乎击败，他们已经开始筹划着建立自己的亚洲新秩序"
+ SDP_World_tension_ME_1_desc: "奥斯曼帝国的中东霸权仍然稳定无虞"
+ SDP_World_tension_SA_1_desc: "南美洲风平浪静"
+ SDP_World_tension_AF_1_desc: "殖民者仍然控制着阿非利加大陆的大部分区域，黑暗大陆仍未获得光明"
+ SDP_World_tension_SEA_1_desc: "殖民者在欧洲的失败引动了南亚和南洋的独立斗争，这片区域大部已经陷入混乱"
+ SDP_World_tension_cold_1_desc: "冷战尚未爆发"

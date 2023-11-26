@@ -43,8 +43,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			dd_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -77,8 +75,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			dd_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -142,8 +138,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			dd_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -176,8 +170,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			dd_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_destroyer_and_modules
 		}
 	}
 
@@ -209,8 +201,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			cl_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     basic_light_cruiser = {
@@ -241,8 +231,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			cl_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     improved_light_cruiser = {
@@ -273,8 +261,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			cl_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     advanced_light_cruiser = {
@@ -301,8 +287,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			cl_tech
-			mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -332,8 +316,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			cl_tech
-mio_cat_tech_all_screen_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     
@@ -367,8 +349,6 @@ mio_cat_tech_all_screen_ship_and_modules
 		categories = {
 			naval_equipment
 			ca_tech
-mio_cat_tech_all_capital_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     basic_heavy_cruiser = {
@@ -399,8 +379,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			ca_tech
-mio_cat_tech_all_capital_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     improved_heavy_cruiser = {
@@ -430,8 +408,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			ca_tech
-mio_cat_tech_all_capital_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
     advanced_heavy_cruiser = {
@@ -460,8 +436,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			ca_tech
-mio_cat_tech_all_capital_ship_and_modules
-			mio_cat_tech_all_cruiser_and_modules
 		}
 	}
 
@@ -493,7 +467,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bc_tech
-mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 	basic_battlecruiser = {
@@ -524,7 +497,59 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bc_tech
-		mio_cat_tech_all_capital_ship_and_modules
+		}
+	}
+    Large_Cruisers = {
+
+		enable_equipments = { 
+			Large_Cruisers_1
+		}
+		
+		
+		research_cost = 6
+
+		start_year = 1946
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = @1946 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	missle_Cruisers = {
+
+		enable_equipments = { 
+			missle_Cruisers_1
+		}
+		dependencies = {
+			improved_rocket_engines_1 = 1
+		}
+		
+		research_cost = 7
+
+		start_year = 1958
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = @1958 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
 		}
 	}
 
@@ -555,7 +580,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bb_tech
-mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
     basic_battleship = {
@@ -585,7 +609,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bb_tech
-mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
     improved_battleship = {
@@ -614,7 +637,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bb_tech
-mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
 
@@ -649,11 +671,59 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			bb_tech
-		mio_cat_tech_all_capital_ship_and_modules
 		}
 	}
-	
-	
+	nuclear_battleship_engine = {
+		dependencies = {
+			nuclear_reactor2 = 1
+		}
+		path = {
+			leads_to_tech = heavy_nuclear_battleship 
+			research_cost_coeff =1
+		}
+		
+		research_cost = 6
+		start_year = 1952
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	heavy_nuclear_battleship = {
+
+		enable_equipments = { 
+			nuclear_battleship_1
+		}
+		
+		
+		
+		research_cost = 6
+		start_year = 1962
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 6 y = @1962 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
 	heavy_battleship = {
 
 		enable_equipments = { 
@@ -679,8 +749,7 @@ mio_cat_tech_all_capital_ship_and_modules
 		
 		categories = {
 			naval_equipment
-			shbb_tech
-mio_cat_tech_all_capital_ship_and_modules
+			bb_tech
 		}
 	}
 	heavy_battleship_1 = {
@@ -704,8 +773,7 @@ mio_cat_tech_all_capital_ship_and_modules
 		
 		categories = {
 			naval_equipment
-			shbb_tech
-		mio_cat_tech_all_capital_ship_and_modules
+			bb_tech
 		}
 	}
     
@@ -744,7 +812,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-			mio_cat_tech_all_carrier_and_modules
 		}
 	}
 	CVF = {
@@ -770,7 +837,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-			mio_cat_tech_all_carrier_and_modules
 		}
 	}
     basic_carrier = {
@@ -844,7 +910,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-			mio_cat_tech_all_carrier_and_modules
 		}
 	}
 	carrier_atomic_engine = {
@@ -886,7 +951,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-			mio_cat_tech_all_carrier_and_modules
 		}
 	}
 	carrier_atomic = {
@@ -920,7 +984,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-			mio_cat_tech_all_carrier_and_modules
 		}
 	}
     advanced_carrier = {
@@ -959,7 +1022,6 @@ mio_cat_tech_all_capital_ship_and_modules
 		categories = {
 			naval_equipment
 			cv_tech
-mio_cat_tech_all_carrier_and_modules
 		}
 	}
 
@@ -1020,7 +1082,6 @@ mio_cat_tech_all_carrier_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
@@ -1056,7 +1117,6 @@ mio_cat_tech_all_carrier_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
@@ -1086,7 +1146,6 @@ mio_cat_tech_all_carrier_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-			mio_cat_tech_all_submarine_and_modules
 		}
 	}
     advanced_submarine_1 = {
@@ -1112,7 +1171,6 @@ mio_cat_tech_all_carrier_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-			mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
@@ -1148,7 +1206,6 @@ mio_cat_tech_all_carrier_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-mio_cat_tech_all_submarine_and_modules
 		}
 	}
     advanced_submarine_big = {
@@ -1188,14 +1245,12 @@ mio_cat_tech_all_submarine_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-		mio_cat_tech_all_submarine_and_modules
 		}
 	}
-	
-	improved_submarine = {
+	atomic_submarine_engine = {
 
-		enable_equipments = { 
-			submarine_3
+	dependencies = {
+		nuclear_reactor2 = 1
 	}
 		
 		path = {
@@ -1224,11 +1279,40 @@ mio_cat_tech_all_submarine_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-		mio_cat_tech_all_submarine_and_modules
 		}
 	}
+	nuclear_submarine = {
+
+		enable_equipments = { 
+			nuclear_submarine_1
+		}
+		sub_technologies = {
+			SSBN
+		}
+			research_cost = 4
 	
-	advanced_submarine = {
+			start_year = 1962
+			
+			folder = {
+				name = mtgnavalfolder
+				position = { x = 9 y = @1962 }
+			}
+			
+			ai_will_do = {
+				factor = 1
+				
+				modifier = {
+					factor = 5
+					tag = GER
+				}
+			}
+			
+			categories = {
+				naval_equipment
+				ss_tech
+			}
+		}
+		SSBN = {
 
 			enable_equipments = {
 				SSBN_1
@@ -1277,14 +1361,67 @@ mio_cat_tech_all_submarine_and_modules
 		categories = {
 			naval_equipment
 			ss_tech
-		mio_cat_tech_all_submarine_and_modules
 		}
 	}
 
-	
+	transport = {
 
-	######## JAPAN FOCUS TREE UNLOCK ########
-	torpedo_cruiser = {
+		transport_capacity = -0.5
+		naval_invasion_capacity = 10
+		
+		path = {
+			leads_to_tech = landing_craft 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1921
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = @1921 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0.5
+				NOT = { has_war = yes }
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+	}
+	
+	landing_craft = {
+
+		invasion_preparation = -0.5
+		amphibious_invasion_defence = 0.15
+		naval_invasion_capacity = 40
+
+		path = {
+			leads_to_tech = tank_landing_craft 
+			research_cost_coeff = 1
+		}
 
 		enable_equipments = {
 			floating_harbor_equipment_1

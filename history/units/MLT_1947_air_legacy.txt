@@ -1,0 +1,52 @@
+﻿
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	
+
+	# 2 Rengo Kokutai -- Taiwan
+	116 = {
+		# 12 Kokutai -- Nakajima A4N1
+		cv_fighter_equipment_0 = {
+			owner = "MLT" 
+			amount = 72
+		}
+		# 13 Kokutai -- Mitsubishi B2M2
+		cv_nav_bomber_equipment_1 = {
+			owner = "MLT" 
+			amount = 48
+		}
+		cv_CAS_equipment_1 = {
+			owner = "MLT" 
+			amount = 60
+		}
+		# Kanoya Kokutai -- Aichi D1A2
+		cv_CAS_equipment_1 = {
+			owner = "MLT" 
+			amount = 60
+		}
+	}
+
+	"HMS Glorious"  = { 
+		cv_fighter_equipment_0 =  { owner = "MLT" amount = 10 } # historical 24
+		cv_fighter_equipment_0 =  { owner = "MLT" amount = 8 } # historical 24
+		cv_CAS_equipment_1 = { owner = "MLT" amount = 10 } 	# historical 12
+		cv_CAS_equipment_1 = { owner = "MLT" amount = 2 } 	# historical 12
+	}
+			
+	"HMS Illustrious"  = { 
+		cv_fighter_equipment_0 =  { owner = "MLT" amount = 10 } # historical 16
+		cv_fighter_equipment_0 =  { owner = "MLT" amount = 2 } # historical 16
+		cv_CAS_equipment_1 = { owner = "MLT" amount = 10 } # historical 16
+		cv_CAS_equipment_1 = { owner = "MLT" amount = 2 } # historical 16
+		cv_nav_bomber_equipment_1 =  { owner = "MLT" amount = 10 } # historical 28
+		cv_nav_bomber_equipment_1 =  { owner = "MLT" amount = 10 } # historical 28
+	}
+		
+			
+}
+
+
