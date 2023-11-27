@@ -183,6 +183,15 @@ victor_of_the_revolutionary_war
 
 }
 create_country_leader = {
+	name = "HUN_Rakosi_Matyas" 
+	desc = "HUN_Rakosi_Matyas_desc" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Rakosi_Matyas.png"
+	expire = "1999.5.3"  # 
+	ideology = leninism
+	traits = {  
+	}
+}
+create_country_leader = {
 	name = "HUN_Szakasits" 
 	desc = "HUN_Szakasits_desc" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
@@ -194,7 +203,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "HUN_naji" 
 	desc = "" 
-	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
+	picture = "gfx/leaders/HUN/portrait_HUN_naji.png"
 	expire = "1999.5.3"  # 
 	ideology = left_social_democracy
 	traits = {  
@@ -206,6 +215,15 @@ create_country_leader = {
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 
 	ideology = Casselism
+	traits = {  
+	}
+}
+create_country_leader = {
+	name = "HUN_Karoly_Bartha" 
+	desc = "" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Karoly_Bartha.png"
+	expire = "1999.5.3"  # 
+	ideology = despotism
 	traits = {  
 	}
 }

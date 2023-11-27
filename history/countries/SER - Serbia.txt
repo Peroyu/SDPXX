@@ -34,3 +34,11 @@ create_country_leader = {
 	ideology = system_revolutionism
 	traits = {  }
 }
+create_country_leader = {
+	name = "HUN_hugo_songyi"   
+	desc = "HUN_hugo_desc"  
+	picture = "Portrait_HUN_Hugo"   
+	expire = "1956.9.7"   
+	ideology = despotism
+	traits = {  }
+}
