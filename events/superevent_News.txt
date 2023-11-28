@@ -17,9 +17,25 @@ news_event = {
 					id = Pacific.4
 					days = 39
 				}
+				news_event = {
+					id = Triple_entent.3
+					days = 75
+				}
+				news_event = {
+					id = global.10
+					days = 395
+				}
 			}
 			CAN = {
 				dismantle_faction = yes
+				set_autonomy = {
+					target = KEN
+					autonomy_state = autonomy_free 
+				}
+				set_autonomy = {
+					target = RHO
+					autonomy_state = autonomy_free 
+				}
 			}
 
 		}

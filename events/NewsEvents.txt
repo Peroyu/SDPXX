@@ -318,6 +318,42 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.10
+
+    picture = GFX_global_10
+    title = global.10.t
+    desc = global.10.d
+    immediate = { 
+        hidden_effect = {
+            USA = {
+                create_faction = "集体安全条约组织"
+                add_to_faction = CAN
+                add_to_faction = PHI
+                add_to_faction = AST
+                add_to_faction = NZL
+            }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = USA.4
+                    days = 63
+                }
+            }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.10.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1
@@ -562,6 +598,69 @@ news_event = {
 
 	option = {
 		name = Pacific.10.a
+	}
+}
+news_event = {
+	id = Pacific.11
+    picture = GFX_Pacific_11
+    title = Pacific.11.t
+    desc = Pacific.11.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.11.a
+	}
+}
+news_event = {
+	id = Pacific.12
+    picture = GFX_Pacific_12
+    title = Pacific.12.t
+    desc = Pacific.12.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.12.a
+	}
+}
+news_event = {
+	id = Pacific.13
+    picture = GFX_Pacific_13
+    title = Pacific.13.t
+    desc = Pacific.13.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.13.a
 	}
 }
 news_event = {

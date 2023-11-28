@@ -1,0 +1,56 @@
+
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	Base Global Conflicts GUI
+#		No Conflicts GUI
+#		Generic Conflicts GUI
+#		Generic Conflict Topbar GUI
+#
+#	Conflict-Specific GUIs
+#		Indonesian Civil War GUI
+#		Jamaican Referendum GUI
+#		Jamaican Crisis GUI
+#		Trinidad BPR GUI
+#		Turkes Kenes GUI
+#		Philippines War GUI
+#		Philippines Reconstruction GUI
+#		South Africa US Reconstruction GUI
+#		South Africa Withdrawal GUI
+#		West Africa Reconstruction GUI
+#		Puerto Plata Invasion GUI
+#		French Reclamation GUI
+#		Iceland Elections GUI
+#		Haitian Civil War GUI
+#		Madagaskar War GUI
+#		Channel Crisis GUI
+
+scripted_gui = {
+	SDP_economic ={
+		window_name = "SDP_economic_main"
+		context_type = player_context
+		parent_window_token = construction_tab
+		visible = {
+			always = yes
+		}
+		
+		properties = {
+			# Buttons
+
+			# Line Segment Stuff
+			line_segment = {
+				frame = segment_value
+			}
+
+			vbar = {
+				y = social_tab_econ_graph_vbar_offsets^vbar_idx
+			}
+			vbar_light = {
+				y = social_tab_econ_graph_vbar_offsets^vbar_idx
+			}
+			vbar_label = {
+				y = social_tab_econ_graph_vbar_offsets^vbar_idx 
+			}
+		}
+	}
+
+}
