@@ -13,6 +13,10 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	Cautious = {
+		random = no
+		political_power_factor = -0.05
+	}
 	########MMA###########
 	MMAlaw_master = {
 		random = no
