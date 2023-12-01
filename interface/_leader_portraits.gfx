@@ -265,6 +265,11 @@
 		name = "GFX_portrait_CJF_Zhao_Dengyu"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Zhao_Dengyu.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_Zhang_Xveliang"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CHI_Zhang_Xveliang.png"		
+	}
 	###############################################
 	
 	spriteType = {

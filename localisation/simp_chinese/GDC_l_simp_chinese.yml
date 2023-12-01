@@ -408,6 +408,8 @@
  GDC_go_to_zhusanjiao: "进军广州"
  GDC_milltary_reform: "军事改革的步伐"
  GDC_milltary_reform_desc: ""
+ GDC_Qiong_Ya_team: "召集琼崖纵队"
+ GDC_Guangzhou_bay_war: "发起广州湾战役"
  GDC_anti_siege_war_decision_categories:0 "五号作战的余波"
  GDC_anti_siege_war_decision_categories_desc:0 "上一次，由于致命的灾难，我们不得不暂停军事行动，国民革命军不得不安于困守广西，今天，危机的阴影已略微消散，而我们终于再一次得到机会向东完成上一次反攻未成的工业，这一次，我们的目标不仅仅是两广，更是全中国。"
  defend_ourselves:0 "保卫根据地"

@@ -74,13 +74,7 @@ units = {
 		start_equipment_factor = 0.6
 	}
 
-	division = {
-		name = "2 Corse"
-		location = 7132
-		division_template = "Garnison Coloniale"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
+
 
 	division = {
 		name = "3 d'Alger 4"
@@ -89,13 +83,7 @@ units = {
 		start_equipment_factor = 0.3
 		location = 10078
 	}
-	division = {
-		name = "4 d'Alger 3"
-		division_template = "Division d'Infanterie Régulière"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3
-		location = 10078
-	}
+
 	division = {
 		name = "5 d'Alger 2"
 		division_template = "Division d'Infanterie Régulière"
@@ -103,20 +91,8 @@ units = {
 		start_equipment_factor = 0.3
 		location = 1145
 	}
-	division = {
-		name = "6 d'Alger 1"
-		division_template = "Division Blindée"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-		location = 1145
-	}
-	division = {
-		name = "7 d'Alger 1"
-		division_template = "Division Blindée"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.4
-		location = 1145
-	}
+	
+	
 	division = {
 		name = "8 d'Alger 1"
 		division_template = "Division Blindée"

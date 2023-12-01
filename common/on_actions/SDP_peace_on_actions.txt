@@ -338,6 +338,60 @@ on_actions = {
 					set_global_flag = skip_default_capitulation
 				}
 
+				if = { # CHI beat JKR
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = CJF
+							is_in_faction_with = CJF
+						}
+					}
+					ROOT = {
+						original_tag = JKR
+					}
+				}
+
+				FROM = {
+					white_peace = ROOT
+				}
+
+				KOR = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					set_cosmetic_tag = KOR_temgov
+				}
+
+				set_global_flag = skip_default_capitulation
+			}
+
+			if = { # CHI beat JKR
+				limit = {
+					FROM = {
+							original_tag = KOR
+						
+					}
+					ROOT = {
+						original_tag = JKR
+					}
+				}
+
+				FROM = {
+					white_peace = ROOT
+				}
+
+				KOR = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					set_cosmetic_tag = KOR_temgov
+				}
+
+				set_global_flag = skip_default_capitulation
+			}
+
 				if = { # CHI beat RCR
 					limit = {
 						FROM = {
@@ -808,6 +862,7 @@ on_actions = {
 						set_capital = { state = 459 }
 						transfer_state = 514
 						white_peace = ALF
+						set_cosmetic_tag = ALG_temgov
 					}
 					ROF = {
 						transfer_state = 911
@@ -1020,13 +1075,62 @@ on_actions = {
 					}
 					ORI = {
 						transfer_state = 426
+						transfer_state = 889
+						
+						transfer_state = 436
+						transfer_state = 1093
 					}
 					AFG = {
 						add_to_faction = BAG
 						add_to_faction = ORI
 					}
 					
-
+					if = {
+						limit = {
+							
+							NOT = {
+							CYN = {
+									has_country_flag = INDIA_civilwar_participants
+								}
+							}
+							MIS = {
+								transfer_state = 425
+								transfer_state = 1034
+							}
+							CYN = {
+								transfer_state = 423
+							}
+							MRD = {
+								transfer_state = 320
+								transfer_state = 1095
+							}
+							TAV = {
+								transfer_state = 867
+							}
+							RAJ = {
+								transfer_state = 429
+								transfer_state = 868
+							}
+							HYD = {
+								transfer_state = 424
+							}
+						}
+					}
+					if = {
+						limit = {
+							NOT = {
+								country_exists = HYD
+							}
+						}
+						HYD = {
+							transfer_state = 427
+							transfer_state = 893
+							set_cosmetic_tag = HYD_muslim
+						}
+						AFG = {
+							add_to_faction = HYD
+						}
+					}
 					set_global_flag = skip_default_capitulation
 				}
 				if = { # RAJ beat FID

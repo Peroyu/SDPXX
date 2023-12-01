@@ -55,6 +55,14 @@ AFG = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }
 }
+BAG = {
+	color = rgb { 71 100 59 }
+	color_ui = rgb { 71 100 59 }
+}
+ORI = {
+	color = rgb { 71 100 59 }
+	color_ui = rgb { 71 100 59 }
+}
 ALB = {
 	color = rgb { 168 28 35 }
 	color_ui = rgb {168 28 35 }
@@ -75,9 +83,21 @@ AZB = {
 	color = rgb { 255 229 118 }
 	color_ui = rgb { 255 229 118 }
 }
-BAG = {
+GUI = {
 	color = rgb { 58 120 35 }
 	color_ui = rgb { 58 120 35 }
+}
+MIS = {
+	color = rgb { 178 101 96 }
+	color_ui = rgb { 178 101 96 }
+}
+MRD = {
+	color = rgb { 118 94 76 }
+	color_ui = rgb { 118 94 76 }
+}
+TAV = {
+	color = rgb { 194 203 91 }
+	color_ui = rgb { 194 203 91 }
 }
 BOL = {
 	color = rgb { 255  180  136 }

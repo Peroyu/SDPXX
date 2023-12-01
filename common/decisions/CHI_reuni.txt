@@ -148,7 +148,7 @@ CHI_reuni = {
 			original_tag = FNC
 		  }
           available = {
-			has_war = yes  
+			has_war = no  
 		    tag = FNC
 			NOT = {
 				RCR = {		  
@@ -161,7 +161,7 @@ CHI_reuni = {
 			factor = 10000
 		  }
 		  visible = {
-			tag = RCR
+			tag = FNC
 			
 		  }
 		  fire_only_once = yes                  
