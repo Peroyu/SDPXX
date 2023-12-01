@@ -122,7 +122,21 @@ units = {
 		division_template = "Division Blindée"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
-		location = 7132
+		location = 1967
+	}
+	division = {
+		name = "8 d'Alger 2"
+		division_template = "Division Blindée"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+		location = 10731
+	}
+	division = {
+		name = "8 d'Alger 3"
+		division_template = "Division Blindée"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+		location = 5035
 	}
 	
 }

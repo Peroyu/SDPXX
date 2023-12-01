@@ -1,0 +1,21 @@
+state = { #Gannan
+	id = 1329
+	name = "STATE_1329"
+	manpower = 65000
+	state_category = two
+	local_supplies = 3.0
+
+
+	history = {	
+		owner = ROF
+		add_core_of = AIS
+		add_core_of = ALG
+		set_demilitarized_zone = yes
+		victory_points = { 1126 1 } #Laghouat
+		victory_points = { 10731 1 } #Colomb-Bechar
+	}
+
+	provinces = {
+		1958 8088 10731 12711 12842 2049 1967 1126
+	} 
+}

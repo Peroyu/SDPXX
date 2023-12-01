@@ -81,9 +81,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "VNN_Ho_chi_ming"  # 
+	name = "VNN_XIE_Qiu_Shou"  # 
 	desc = "/"  # 
-	picture = "portrait_VNN_Ho_chi_ming"  # 
+	picture = "portrait_VNN_XIE_Qiu_Shou"  # 
 	expire = "1965.6.6"  # 
 	ideology = Bolshevism
 	traits = {  

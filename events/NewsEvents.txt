@@ -756,11 +756,6 @@ news_event = {
 
 	option = {
 		name = HUN_SLO.1.a
-		trigger = {Not = {tag = HUN}}
-	}
-	option = {
-		name = HUN_SLO.1.b
-        trigger = {{tag = HUN}}
 	}
 }
 news_event = {

@@ -680,7 +680,11 @@
 		texturefile = "gfx/leaders/EU/CRR_Ante_Ciliga_portrait.png"		
 	}
 	########################################################################
-	
+	spriteType = {
+		name = "portrait_VNN_XIE_Qiu_Shou"
+		texturefile = "gfx/leaders/ASIA/portrait_VNN_XIE_Qiu_Shou.png"		
+	}
+
 	spriteType = {
 		name = "BUR_Aung_San"
 		texturefile = "gfx/leaders/ASIA/BUR_Aung_San.png"		

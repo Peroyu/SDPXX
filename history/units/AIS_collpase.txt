@@ -23,14 +23,14 @@ units = {
 	}
 	division = {
 		name = "algeria's own"
-		location = 12888
+		location = 5053
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
 		name = "algeria's own 1"
-		location = 4903
+		location = 12034
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
@@ -38,7 +38,7 @@ units = {
 
 	division = {
 		name = "algeria's own 2"
-		location = 5035
+		location = 12034
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
@@ -46,7 +46,7 @@ units = {
 
 	division = {
 		name = "algeria's own 3"
-		location = 5035
+		location = 7166
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 

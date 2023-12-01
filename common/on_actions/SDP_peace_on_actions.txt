@@ -801,12 +801,12 @@ on_actions = {
 						}
 					}
 					ALG = {
+						annex_country = {
+							target = ALF
+							transfer_troops = no
+						}
 						set_capital = { state = 459 }
-						transfer_state = 459
-						transfer_state = 460
-						transfer_state = 805
 						transfer_state = 514
-						
 						white_peace = ALF
 					}
 					ROF = {
@@ -822,11 +822,14 @@ on_actions = {
 						transfer_state = 459
 						transfer_state = 805
 						transfer_state = 514
+						transfer_state = 1329
+						transfer_state = 1331
 						white_peace = ALF
 					}
 					AIS = {
 						set_capital = { state = 460 }
 						transfer_state = 460
+						transfer_state = 1330
 						white_peace = ALF
 					}
 					ROF = {

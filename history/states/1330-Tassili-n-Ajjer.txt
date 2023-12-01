@@ -1,9 +1,9 @@
 state = { #Gannan
-	id = 1327
-	name = "STATE_1327"
-	manpower = 40000
+	id = 1330
+	name = "STATE_1330"
+	manpower = 25000
 	state_category = one
-	local_supplies = 3.0
+	local_supplies = 1.0
 
 
 	history = {	
@@ -14,6 +14,6 @@ state = { #Gannan
 	}
 
 	provinces = {
-		5053      12888 10059 12034 1141 9943
+		4970 5035 4903 8061 8077
 	} 
 }

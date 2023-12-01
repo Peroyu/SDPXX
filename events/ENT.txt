@@ -79,11 +79,11 @@ country_event = {
 				transfer_state = 459
 				transfer_state = 460
 				transfer_state = 805
-				add_state_core = 459
-				add_state_core = 805
-				add_state_core = 460
+				transfer_state = 1329
+				transfer_state = 1330
+				transfer_state = 1331
 				load_oob = "ALF_collpase"
-				add_manpower = 50000
+				add_manpower = 25000
 			}
 			if = {
 				limit = {
@@ -93,6 +93,7 @@ country_event = {
 				ALG = {
 					transfer_state = 513
 					transfer_state = 1327
+					transfer_state = 1328
 					country_event = {
 						id = ENT.3
 						days = 1
@@ -105,6 +106,7 @@ country_event = {
 				}
 				ALG = {
 					transfer_state = 513
+					transfer_state = 1328
 					country_event = {
 						id = ENT.3
 						days = 1
@@ -194,6 +196,7 @@ country_event = {
 				load_oob = "AIS_collpase"
 				add_manpower = 1000000
 			}
+			
 		}
     }
 	
@@ -202,6 +205,16 @@ country_event = {
 		   base = 50
 		}
 		hidden_effect = {
+			if = {
+				limit = {
+					tag = ALG
+					NOT = {
+						country_exists = AIS 
+					}
+				}
+				load_oob = "AIS_collpase"
+				add_manpower = 1000000
+			}
 			if = {
 				limit = {
 					tag = AIS
