@@ -978,7 +978,9 @@ news_event = {
     title = chi_news.3.t
     desc = chi_news.3.d
     immediate = { 
-
+        hidden_effect = {
+            set_global_flag = CHI_war_over
+        }
 	}
     is_triggered_only = yes
  

@@ -248,7 +248,12 @@ on_actions = {
 				FROM = {
 					white_peace = ROOT
 				}
-
+				every_country = {
+					limit = {
+						has_war_with = KOR
+					}
+					white_peace = KOR
+				}
 				KOR = {
 					annex_country = {
 						target = ROOT
@@ -274,7 +279,12 @@ on_actions = {
 				FROM = {
 					white_peace = ROOT
 				}
-
+				every_country = {
+					limit = {
+						has_war_with = KOR
+					}
+					white_peace = KOR
+				}
 				KOR = {
 					annex_country = {
 						target = ROOT
@@ -481,22 +491,47 @@ on_actions = {
 					}
 
 					CJF = {
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
+						set_autonomy = {
+							target = TIB
+							autonomy_state = autonomy_puppet
 						}
 					}
 					TIB = {
-						transfer_state = 322
-						transfer_state = 1086
 						set_cosmetic_tag = TIB_kmt
-					}
-					NIP = {
-						add_to_faction = SHA
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # CHI beat MEN
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = CHI
+								is_in_faction_with = CHI
+							}
+						}
+						ROOT = {
+							original_tag = TIB
+						}
+					}
 
+					every_country = {
+						limit = {
+							has_war_with = TIB
+						}
+						white_peace = TIB
+					}
+
+					CHI = {
+						set_autonomy = {
+							target = TIB
+							autonomy_state = autonomy_puppet
+						}
+					}
+					TIB = {
+						set_cosmetic_tag = TIB_kmt
+					}
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # RCR beat KTR
 					limit = {
 						FROM = {
@@ -995,6 +1030,7 @@ on_actions = {
 									has_idea = INDIA_no_allies 
 								}
 							}
+						}
 							MIS = {
 								transfer_state = 425
 								transfer_state = 1034
@@ -1017,7 +1053,7 @@ on_actions = {
 								transfer_state = 424
 							}
 						}
-					}
+					
 					if = {
 						limit = {
 							NOT = {

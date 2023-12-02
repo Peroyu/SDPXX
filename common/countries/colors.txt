@@ -171,6 +171,10 @@ CJF = {
 	color = rgb { 100 149 155 }
 	color_ui = rgb { 100 149 155 }
 }
+CHI = {
+	color = rgb { 100 149 155 }
+	color_ui = rgb { 100 149 155 }
+}
 COL = {
 	color = rgb { 222  187  91 }
 	color_ui = rgb { 222  187  91 }

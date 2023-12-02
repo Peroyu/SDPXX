@@ -368,6 +368,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_29.png"
 	}
 	spriteType = {
+		name = "GFX_chi_vic_3"
+		texturefile = "gfx/event_pictures/news/GFX_chi_vic_3.png"
+	}
+	spriteType = {
 		name = "GFX_Pacific_9"
 		texturefile = "gfx/event_pictures/news/GFX_Pacific_9.png"
 	}
@@ -399,6 +403,7 @@ spriteTypes = {
 		name = "GFX_ISU_event5"
 		texturefile = "gfx/event_pictures/GFX_ISU_event5.png"
 	}
+	
 	spriteType = {
 		name = "GFX_CJFcp41"
 		texturefile = "gfx/event_pictures/GFX_CJFcp41.png"

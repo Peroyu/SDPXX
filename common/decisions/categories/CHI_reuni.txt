@@ -30,3 +30,32 @@ CHI_reuni = {
 	scripted_gui = war_escalation_decision_ui
 	visible_when_empty = yes
 }
+
+CHI_xingxianguoda = {
+	icon = decision_category_SWI_absolute_neutrality
+	picture = 
+
+	allowed = { 
+		OR = {
+		original_tag = CJF
+		original_tag = GDC
+		original_tag = MMA
+		original_tag = HAB
+		}
+	}
+	visible = {
+		CJF = {
+			owns_state = 613
+			has_war = no
+		}
+		OR = {
+			tag = CJF
+			tag = GDC
+			tag = MMA
+			tag = HAB
+			}
+		}
+	priority = 1000
+
+	visible_when_empty = yes
+}

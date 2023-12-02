@@ -12,6 +12,7 @@ CHI_reunification = {
 				OR = {
 					original_tag = CJF
 					original_tag = GDC
+					original_tag = CHI
 				}
 			}
 			visible = {

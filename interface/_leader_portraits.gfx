@@ -439,7 +439,11 @@
 		texturefile = "gfx/leaders/GDC/GFX_portrait_KHN_Wang_Shijie.png"		
 	}
 	###############################################################
-	
+	spriteType = {
+		name = "Portrait_CHI_council"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_council.png"		
+	}
+
 	spriteType = {
 		name = "GFX_TIB_Namgyal"
 		texturefile = "gfx/leaders/CHI/TIB_Namgyal.png"		

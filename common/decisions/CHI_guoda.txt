@@ -1,0 +1,76 @@
+
+CHI_xingxianguoda = {
+	
+	CHI_election_parters = {
+
+		icon = PUM_decision#决议的图标
+		
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			#什么条件下任务可见
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			tag = CJF
+			has_global_flag = CHI_return_home
+			has_government = movement_communism
+		}
+		
+		days_mission_timeout = 90
+		is_good = no
+		
+		timeout_effect = {
+			CHI = {
+				annex_country = { target = MAN transfer_troops = yes }
+				annex_country = { target = CJF transfer_troops = yes }
+				annex_country = { target = GDC transfer_troops = yes }
+				annex_country = { target = MMA transfer_troops = yes }
+				annex_country = { target = SIK transfer_troops = yes }
+				annex_country = { target = HBA transfer_troops = yes }
+				annex_country = { target = JIN transfer_troops = yes }
+			}
+			clr_global_flag = CHI_return_home
+			every_country = {
+				limit = {
+					is_ai = no
+					OR = {
+						tag = CJF
+						tag = GDC
+						tag = MMA
+						tag = HAB
+						}
+				}
+				country_event = {
+					id = CHIpeace.6
+					days = 0
+				}
+
+				
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = CHI_war.3
+					days = 5
+				}
+
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}

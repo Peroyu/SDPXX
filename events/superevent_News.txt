@@ -121,6 +121,7 @@ news_event = {
 		name = CHI_war.1.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = CHI_second_continent_war_Super_Event_Visible
+
 		#hidden_effect = {
 		#	sound_effect = "second_continent_war_voice"
 		#	}
@@ -153,7 +154,7 @@ news_event = {
 }
 news_event = {
 	id = CHI_war.3
-    picture = GFX_chi_vic_1
+    picture = GFX_chi_vic_3
     title = CHI_war.3.t
     desc = CHI_war.3.d
     immediate = { 
