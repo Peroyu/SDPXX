@@ -213,7 +213,10 @@ INDIA_civilwar = {
                 transfer_state = 1095
                 white_peace = CYN
             }
-            CYN = { clr_country_flag = INDIA_civilwar_participants }
+            CYN = { 
+                clr_country_flag = INDIA_civilwar_participants 
+                remove_ideas =  INDIA_no_allies
+            }
 		}
         ai_will_do = {
 			base = 100000

@@ -94,113 +94,7 @@ on_actions = {
 
 				######### -------------- #########
 				
-				if = { # CJF beats CMA (Chong Qing attact) 
-					limit = {
-						FROM = {
-							OR = {
-								original_tag = NIP
-								is_in_faction_with = NIP
-							}
-						}
-						ROOT = {
-							original_tag = CJF
-							is_in_faction_with = CJF
-						}
-					}
-
-					FROM = {
-						white_peace = ROOT
-					}
-					GNP = {
-						annex_country = {
-							target = GDC
-							transfer_troops = no
-						}
-					}
-					NIP = {
-						add_to_faction = GDC
-					}
-					GDC = {
-						transfer_state = 1055
-						transfer_state = 1054
-						transfer_state = 1053
-						transfer_state = 1056
-						transfer_state = 594
-						transfer_state = 599
-						set_cosmetic_tag = GDC_japen
-					}
-					
-					RCR = {
-						annex_country = {
-							target = KGP
-							transfer_troops = no
-						}
-					}
-					KGP = {
-						set_cosmetic_tag = KGP_japen
-						transfer_state = 1051
-						transfer_state = 603
-						transfer_state = 1052
-					}
-					NIP = {
-						add_to_faction = KGP
-					}
-					CMA = {
-						set_cosmetic_tag = CMA_1
-						annex_country = {
-							target = CJF
-							transfer_troops = no
-						}
-					}
-					NIP = {
-						add_to_faction = CMA
-					}
-					DJF = {
-						transfer_state = 325
-						transfer_state = 816
-						set_cosmetic_tag = DJF_japen
-					}
-					NIP = {
-						add_to_faction = DJF
-					}
-					NIP = {
-						add_to_faction = SHA
-					}
-					SHA = {
-						transfer_state = 799
-						transfer_state = 622
-						set_cosmetic_tag = SHA_federal
-					}
-					XKS = {
-						transfer_state = 601
-					}
-					MEN = {
-						transfer_state = 348
-					}
-					MMA = {
-						set_cosmetic_tag = FCH
-						annex_country = {
-							target = SIK
-							transfer_troops = yes
-						}
-						
-					}
-					TIB = {
-						transfer_state = 353
-						transfer_state = 748
-						transfer_state = 693
-					}
-					every_country = {
-						limit = {
-							is_ai = no
-						}
-						news_event = {
-							id = chi_news.4
-							days = 1
-						}
-					}
-					set_global_flag = skip_default_capitulation
-				}
+				
 				if = { # CJF beats CMA (Chong Qing attact) 
 					limit = {
 						FROM = {
@@ -1084,13 +978,21 @@ on_actions = {
 						add_to_faction = BAG
 						add_to_faction = ORI
 					}
-					
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = indu.1
+							days = 1
+						}
+					}
 					if = {
 						limit = {
 							
-							NOT = {
 							CYN = {
-									has_country_flag = INDIA_civilwar_participants
+								NOT = {
+									has_idea = INDIA_no_allies 
 								}
 							}
 							MIS = {

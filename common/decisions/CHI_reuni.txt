@@ -1,4 +1,233 @@
 CHI_reuni = {
+	MMA_int_stop = {
+
+		icon = decision_hol_exchange_intelligence_data
+		
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			tag = MMA
+		}
+			
+		activation = {
+			tag = MMA
+			MMA = {
+				has_war_with = NIP
+			}
+			NOT = {
+				country_exists = CJF
+			}
+			any_country = {
+				OR = {
+					original_tag = NIP
+					is_in_faction_with = NIP
+				}
+				controls_state = 650
+			}
+		}
+		
+		days_mission_timeout = 10
+		is_good = no
+		
+		complete_effect = {
+			#任务的available被满足时触发的条件，同时任务会终止
+		}
+		
+		
+		cancel_trigger = {
+			
+		}
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			hidden_effect = {
+				SHA = {
+					transfer_state = 622
+					transfer_state = 799
+					set_cosmetic_tag = SHA_federal
+				}
+				NIP = {
+					add_to_faction = SHA
+					add_to_faction = JIN
+				}
+				CMA = {
+					transfer_state = 605
+					transfer_state = 661
+					transfer_state = 788
+					set_cosmetic_tag = CMA_1
+				}
+				TIB = {
+					transfer_state = 353
+				}
+				every_country = {
+					limit = {
+						has_war_with = MMA
+					}
+					white_peace = MMA
+				}
+				every_country = {
+					limit = {
+						has_war_with = SIK
+					}
+					white_peace = SIK
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = chi_news.4
+						days = 2
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	CJF_ROC_Crush = {
+
+		icon = decision_hol_exchange_intelligence_data
+		
+		fire_only_once = no
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			tag = CJF
+		}
+			
+		activation = {
+			tag = CJF
+			CJF = {
+				has_war_with = NIP
+			}
+			NOT = {
+				country_exists = CMA
+			}
+			any_country = {
+				OR = {
+					original_tag = NIP
+					is_in_faction_with = NIP
+				}
+				controls_state = 650
+			}
+		}
+		
+		days_mission_timeout = 10
+		is_good = no
+		
+		complete_effect = {
+			#任务的available被满足时触发的条件，同时任务会终止
+		}
+		
+		
+		cancel_trigger = {
+			any_country = {
+				OR = {
+					original_tag = CJF
+					is_in_faction_with = CJF
+				}
+				controls_state = 650
+			}
+		}
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			custom_effect_tooltip = CJF_Crush_tt
+			hidden_effect = {
+				TIB = {
+					transfer_state = 748
+					transfer_state = 693
+
+				}
+				XKS = {
+					transfer_state = 601
+
+				}
+				DJF = {
+					transfer_state = 816
+					transfer_state = 325
+				}
+				KGP = {
+					transfer_state = 603
+					transfer_state = 1051
+					transfer_state = 1052
+				}
+				CMA = {
+					transfer_state = 650
+					transfer_state = 1049
+					declare_war_on = { target = CJF type = annex_everything }
+					declare_war_on = { target = DJF type = annex_everything }
+					declare_war_on = { target = KGP type = annex_everything }
+				}
+				NIP = {
+					add_to_faction = CMA
+				}
+				MMA = {
+					country_event = {
+						id = MMA.9
+						days = 5
+					}
+				}
+				if = {
+					limit = {
+						GDC = {
+							NOT = {
+								controls_state = 592
+								controls_state = 594
+								controls_state = 599
+							}
+						}
+					}
+					RCR = {
+						annex_country = {
+							target = GDC
+							transfer_troops = no
+						}
+					}
+					GNP = {
+						transfer_state = 800
+					transfer_state = 593
+					transfer_state = 592
+					transfer_state = 1012
+					transfer_state = 801
+					}
+					GDC = {
+						transfer_state = 1056
+					transfer_state = 1053
+					transfer_state = 594
+					transfer_state = 599
+					transfer_state = 1055
+					transfer_state = 1054
+					set_cosmetic_tag = GDC_japen
+					}
+					NIP = {
+						add_to_faction = GDC
+						add_to_faction = GNP
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
 	MMA_attack_MEN = { 
 	      icon = decision_hol_exchange_intelligence_data
 		  allowed = {

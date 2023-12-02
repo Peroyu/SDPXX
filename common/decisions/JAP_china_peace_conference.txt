@@ -5,7 +5,7 @@ JAP_china_peace_conference = {
 			fire_only_once = yes
 			available = {
 				NOT = { country_exists = FNC }
-				
+				NOT = { country_exists = RCR }
 			}
 			allowed = {
 				original_tag = NIP
@@ -34,6 +34,7 @@ JAP_china_peace_conference = {
 			available = {
 				NOT = { country_exists = FNC }
 				NOT = { country_exists = MEN }
+				NOT = { country_exists = RCR }
 				MAN = {
 					is_in_faction_with = CJF
 				}
@@ -65,6 +66,7 @@ JAP_china_peace_conference = {
 			available = {
 				NOT = { country_exists = FNC }
 				NOT = { country_exists = MEN }
+				NOT = { country_exists = RCR }
 				NOT = { country_exists = JKR }
 				MAN = {
 					is_in_faction_with = CJF

@@ -53,17 +53,7 @@ units = {
 		division_template = "Chuton-chi Shidan"
 	}
 
-	division = {
-		name = "Kihei Shidan 7"
-		location = 1376 #Osaka
-		division_template = "Chuton-chi Shidan"
-	}
-
-	division = {
-		name = "Kihei Shidan 8"
-		location = 12215 #Osaka
-		division_template = "Chuton-chi Shidan"
-	}
+	
 
 
 }

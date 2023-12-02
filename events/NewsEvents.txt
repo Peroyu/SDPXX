@@ -54,6 +54,9 @@ news_event = {
                 transfer_state = 546
                 transfer_state = 1182
                 transfer_state = 879
+		transfer_state = 956
+                transfer_state = 871
+                transfer_state = 955
             }
            
         }
@@ -193,7 +196,30 @@ news_event = {
     desc = global.6.d
     immediate = { 
         hidden_effect = {
-           
+            random_list = {
+                60 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = global.8
+                            days = 32
+                        }
+                    }
+                }
+                40 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.29
+                            days = 55
+                        }
+                    }
+                }
+               }
         }
 	}
     is_triggered_only = yes
@@ -1930,6 +1956,16 @@ news_event = {
     desc = ISU.27.d
     immediate = { 
         hidden_effect = {
+            if = {
+                limit = {
+                    BUL = {
+                        is_faction_leader = yes
+                    }
+                }
+                BUL = {
+                    dismantle_faction = yes
+                }
+            }
             set_global_flag = Balkan_ISU_support_ISU_flag
            ISU = {
             declare_war_on = { target = HUN type = annex_everything }
@@ -1989,7 +2025,16 @@ news_event = {
     desc = ISU.29.d
     immediate = { 
         hidden_effect = {
-          
+            CAN = {
+                set_autonomy = {
+                    target = MLT
+                    autonomy_state = autonomy_free 
+                }
+            }
+          FRA = {
+            declare_war_on = { target = MLT type = annex_everything }
+            add_ideas = ISU_Balkan_crisis
+          }
         }
 	}
     is_triggered_only = yes

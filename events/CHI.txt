@@ -270,9 +270,9 @@ country_event = {
 				limit = {
 					has_country_flag = CHI_Zhe_Jiang_rural_base
 				}
-				transfer_state = 918
-				transfer_state = 919
-				transfer_state = 920
+				transfer_state = 1067
+				transfer_state = 1069
+				transfer_state = 1068
 			}
 		  }
 		  all_state = {

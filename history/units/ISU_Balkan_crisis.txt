@@ -108,6 +108,26 @@ units = {
 		start_equipment_factor = 1
 	}
 	division = {
+		location = 11630
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11630
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11630
+		division_template = "Internationale Modern Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 9692
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
 		location = 14805
 		division_template = "Internationale Infantry"		
 		start_equipment_factor = 1
@@ -157,7 +177,31 @@ units = {
 		division_template = "Internationale Middium Armor"		
 		start_equipment_factor = 1
 	}
-	
+	division = {
+		location = 657
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 13826
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Infantry"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Middium Armor"		
+		start_equipment_factor = 1
+	}
+	division = {
+		location = 11564
+		division_template = "Internationale Middium Armor"		
+		start_equipment_factor = 1
+	}
 
     
 }
