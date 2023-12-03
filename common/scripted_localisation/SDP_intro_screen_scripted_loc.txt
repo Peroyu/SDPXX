@@ -6,6 +6,7 @@ defined_text = { #Any commented out GFX means the intro screen is ready but is w
 	text = { trigger = { original_tag = MMA }  localization_key = "GFX_MMA_intro" }
     text = { trigger = { original_tag = IRE }  localization_key = "GFX_IRE_intro"}
 	text = { trigger = { original_tag = NIP }  localization_key = "GFX_NIP_intro"}
+	text = { trigger = { original_tag = ITA }  localization_key = "GFX_ITA_intro"}
 	text = { localization_key = "GFX_SDP_default_intro" }
 }
 
@@ -25,6 +26,8 @@ defined_text = {
 	text = { trigger = { original_tag = IRE }  localization_key = IRE_country_intro_header }
 
 	text = { trigger = { original_tag = NIP }  localization_key = NIP_country_intro_header }
+
+	text = { trigger = { original_tag = ITA }  localization_key = ITA_country_intro_header }
 }
 
 defined_text = {
@@ -44,6 +47,8 @@ defined_text = {
 	text = { trigger = { original_tag = IRE }  localization_key = IRE_country_intro_content }
 
 	text = { trigger = { original_tag = NIP }  localization_key = NIP_country_intro_content }
+
+	text = { trigger = { original_tag = ITA }  localization_key = ITA_country_intro_content }
 }
 
 defined_text = {
