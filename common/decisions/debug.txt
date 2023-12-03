@@ -107,5 +107,25 @@ SDP_debug = {
 		
 	
 	}
+	SDP_debug_6 = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			}
+		allowed = {
+			is_debug = yes
+			}
+		visible = {
+			}
+	
+		complete_effect = {
+			set_variable = {global.ASIA_meeting_elect_var = 1}
+		}
+	
+		
+	
+	}
     
 }

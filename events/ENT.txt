@@ -39,6 +39,7 @@ country_event = {
 			ruling_party = conservatism
 		}
 		leave_faction = yes
+
 		create_country_leader = {
 			name = "埃尼达尔·马兰"  # 领导人名称
 			desc = ""  # 人物介绍
