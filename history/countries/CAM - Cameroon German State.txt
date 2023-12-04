@@ -14,7 +14,10 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-
+country_event = {
+	id = ENT.5
+	days = 88
+}
 add_ideas = {
 broken_entents
 }

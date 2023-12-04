@@ -151,6 +151,10 @@ MLT = {
 	color = rgb { 162 89 71 } 
 	color_ui = rgb { 162 89 71 } 
 }
+MAG = {
+	color = rgb { 100 173 171 } 
+	color_ui = rgb { 100 173 171 } 
+}
 CAR = {
 	color = rgb { 210 215 60 } 
 	color_ui = rgb { 210 215 60 } 
@@ -422,6 +426,10 @@ DOM = {
 ROF = {
 	color = rgb { 70 170 186 }
 	color_ui = rgb  { 70 170 186 }
+}
+MAD = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb  { 125 125 125 }
 }
 ALF = {
 	color = rgb { 70 170 186 }

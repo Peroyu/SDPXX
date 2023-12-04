@@ -313,6 +313,12 @@ news_event = {
     desc = global.9.d
     immediate = { 
         hidden_effect = {
+            CAN = {
+                set_autonomy = {
+                    target = MLT
+                    autonomy_state = autonomy_free
+                }
+            }
             MLT = {
                 leave_faction = yes
               }
@@ -700,7 +706,6 @@ news_event = {
                 create_faction = 南大西洋公约组织
                 add_to_faction = SWA
                 add_to_faction = RHO
-                add_to_faction = MAD
             }
            
         }
@@ -714,6 +719,72 @@ news_event = {
 
 	option = {
 		name = Pacific.14.a
+	}
+}
+news_event = {
+	id = Pacific.15
+    picture = GFX_Pacific_15
+    title = Pacific.15.t
+    desc = Pacific.15.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.15.a
+	}
+}
+news_event = {
+	id = Pacific.16
+    picture = GFX_Pacific_16
+    title = Pacific.16.t
+    desc = Pacific.16.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.16.a
+	}
+}
+news_event = {
+	id = Pacific.17
+    picture = GFX_Pacific_17
+    title = Pacific.17.t
+    desc = Pacific.17.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.17.a
 	}
 }
 news_event = {

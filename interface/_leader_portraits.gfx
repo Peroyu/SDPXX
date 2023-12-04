@@ -690,6 +690,11 @@
 	}
 	########################################################################
 	spriteType = {
+		name = "portrait_MAG_Jacques_Rabemananjara"
+		texturefile = "gfx/leaders/ASIA/portrait_MAG_Jacques_Rabemananjara.png"		
+	}
+
+	spriteType = {
 		name = "portrait_VNN_XIE_Qiu_Shou"
 		texturefile = "gfx/leaders/ASIA/portrait_VNN_XIE_Qiu_Shou.png"		
 	}

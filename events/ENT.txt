@@ -269,3 +269,68 @@ country_event = {
 	
 	
 }
+country_event = {
+    id = ENT.5  #马达加斯加
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.5 FROM = [From.GetName]" }
+	title = ENT.5.t
+	desc = ENT.5.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = Pacific.16
+				days = 1
+			}
+		}
+		MAG = {
+			transfer_state = 543
+			transfer_state = 1177
+			annex_country = { target = MAD transfer_troops = yes }
+			load_oob = MAG_revolts
+		}
+		name = ENT.5.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		name = ENT.5.b
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			news_event = {
+				id = Pacific.15
+				days = 1
+			}
+		}
+		MAD = {
+			leave_faction = yes
+		}
+		MAG = {
+			transfer_state = 543
+			transfer_state = 1177
+			set_cosmetic_tag = MAG_REV
+			declare_war_on = { target = MAD type = annex_everything }
+			load_oob = MAG_revolts
+		}
+	}
+	
+	
+}

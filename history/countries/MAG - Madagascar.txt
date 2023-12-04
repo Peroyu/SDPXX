@@ -1,0 +1,52 @@
+capital = 543 # 
+
+set_oob = "empty"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.7 # 
+set_stability = 0.3 # 
+
+
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+set_popularities = {
+	social_democracy = 20
+ restorativeism = 20
+ reactionism = 14
+ Nationalism = 16
+ conservatism = 30
+}
+
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }
+create_country_leader = {
+	name = "MAG_Jacques_Rabemananjara"  # 
+	desc = "/"  # 
+	picture = portrait_MAG_Jacques_Rabemananjara  # 
+	expire = "1962.4.30"  # 
+	ideology = revolutionary_nationalism # 
+	traits = {  # 
+		#
+	}
+}
