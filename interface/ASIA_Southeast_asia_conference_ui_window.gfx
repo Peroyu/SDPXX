@@ -1,0 +1,19 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_Map_of_SEA"
+		texturefile = "gfx/interface/scripted_gui/GFX_Map_of_SEA.png"
+	}
+
+	spriteType = {
+		name = "GFX_ASIA_North_Borno"
+		texturefile = "gfx/interface/scripted_gui/GFX_ASIA_North_Borno.png"
+	}
+
+	
+	spriteType = {
+		name = "GFX_ASIA_picture_North_Borno"
+		texturefile = "gfx/interface/scripted_gui/GFX_ASIA_picture_North_Borno.png"
+	}
+	
+}

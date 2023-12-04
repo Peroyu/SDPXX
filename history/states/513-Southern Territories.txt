@@ -11,13 +11,12 @@ state = {
 			infrastructure = 1
 		}
 		start_resistance = yes
-		victory_points = { 1126 1 } #Laghouat
-		victory_points = { 10731 1 } #Colomb-Bechar
+		
 
 	}
- 
-	provinces = {
-		1126 1967 2049 10731 12711 12842  1958 8088 9960 13074 12018
+   
+	provinces = { 
+		          13074 12018 3991 7008 4150
 	}
 	manpower = 62354
 	state_category = wasteland

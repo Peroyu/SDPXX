@@ -219,6 +219,29 @@ country_event = {
 	}
 }
 country_event = {
+    id = MMA.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	MMA.9 FROM = [From.GetName]" }
+	title = MMA.9.t
+	desc = MMA.9.d
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			annex_country = { target = CJF transfer_troops = yes }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_cosmetic_tag = FCH
+		name = MMA.9.a
+	}
+}
+country_event = {
     id = MMA_gongshu.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	MMA_gongshu.1 FROM = [From.GetName]" }

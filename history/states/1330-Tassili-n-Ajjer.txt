@@ -1,0 +1,19 @@
+state = { #Gannan
+	id = 1330
+	name = "STATE_1330"
+	manpower = 25000
+	state_category = one
+	local_supplies = 1.0
+
+
+	history = {	
+		owner = ROF
+		add_core_of = AIS
+		add_core_of = ALG
+		set_demilitarized_zone = yes
+	}
+
+	provinces = {
+		4970 5035 4903 8061 8077
+	} 
+}

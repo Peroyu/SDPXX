@@ -5,7 +5,11 @@ JAP_china_peace_conference = {
 			NOT = { country_exists = FNC }
 		}
 		visible = {
-           		NOT = { country_exists = FNCA }
+           		NOT = { 
+					country_exists = FNC 
+					has_global_flag = CHI_war_over
+				}
+				
         }
 		cancel_trigger = {
           

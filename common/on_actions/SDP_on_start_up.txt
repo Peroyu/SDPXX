@@ -1,8 +1,28 @@
 
 on_actions = {
+	on_daily = {
+				set_variable = {  increase_production_capacity = SDP_industry_v }
+				divide_variable = { increase_production_capacity = 1000 }
+				multiply_variable = { Economic_num = increase_production_capacity }
+				
+	}
 	on_startup = {
 		effect = {
 			
+			
+			every_country = {
+				set_variable = {  SDP_GDP_number = 13.106 }
+				set_variable = {  increase_production_capacity = SDP_industry_v }
+				divide_variable = { increase_production_capacity = 1000 }
+
+				#
+				set_variable = {  Economic_civilian_num = 5 }
+				set_variable = {  Economic_millita_num = 4.5 }
+				multiply_variable = { Economic_civilian_num = num_of_civilian_factories }
+				multiply_variable = { Economic_millita_num = num_of_military_factories }
+				set_variable = {  Economic_num = Economic_civilian_num }
+				add_to_variable = { Economic_num = Economic_millita_num }
+			}
 			every_country = {
 				limit = {
 					is_ai = no
@@ -20,230 +40,8 @@ on_actions = {
 					days = 79
 				}
 			}
-			#han
-			set_variable = { 605.nationality = 1 }
-			set_variable = { 856.nationality = 1 }
-			set_variable = { 857.nationality = 1 }
-			set_variable = { 858.nationality = 1 }
-			set_variable = { 859.nationality = 1 }
-			set_variable = { 842.nationality = 1 }
-			set_variable = { 854.nationality = 1 }
-			set_variable = { 855.nationality = 1 }
-			set_variable = { 911.nationality = 1 }
-			set_variable = { 907.nationality = 1 }
-			set_variable = { 908.nationality = 1 }
-			set_variable = { 620.nationality = 1 }
-			set_variable = { 602.nationality = 1 }
-			set_variable = { 909.nationality = 1 }
-			set_variable = { 914.nationality = 1 }
-			set_variable = { 600.nationality = 1 }
-			set_variable = { 913.nationality = 1 }
-			set_variable = { 912.nationality = 1 }
-			set_variable = { 888.nationality = 1 }
-			set_variable = { 915.nationality = 1 }
-			set_variable = { 749.nationality = 1 }
-			set_variable = { 606.nationality = 1 }
-			set_variable = { 910.nationality = 1 }
-			set_variable = { 922.nationality = 1 }
-			set_variable = { 921.nationality = 1 }
-			set_variable = { 596.nationality = 1 }
-			set_variable = { 924.nationality = 1 }
-			set_variable = { 613.nationality = 1 }
-			set_variable = { 837.nationality = 1 }
-			set_variable = { 925.nationality = 1 }
-			set_variable = { 598.nationality = 1 }
-			set_variable = { 931.nationality = 1 }
-			set_variable = { 923.nationality = 1 }
-			set_variable = { 902.nationality = 1 }
-			set_variable = { 905.nationality = 1 }
-			set_variable = { 904.nationality = 1 }
-			set_variable = { 607.nationality = 1 }
-			set_variable = { 903.nationality = 1 }
-			set_variable = { 906.nationality = 1 }
-			set_variable = { 597.nationality = 1 }
-			set_variable = { 927.nationality = 1 }
-			set_variable = { 928.nationality = 1 }
-			set_variable = { 743.nationality = 1 }
-			set_variable = { 836.nationality = 1 }
-			set_variable = { 929.nationality = 1 }
-			set_variable = { 930.nationality = 1 }
-			set_variable = { 614.nationality = 1 }
-			set_variable = { 852.nationality = 1 }
-			set_variable = { 608.nationality = 1 }
-			set_variable = { 835.nationality = 1 }
-			set_variable = { 615.nationality = 1 }
-			set_variable = { 940.nationality = 1 }
-			set_variable = { 938.nationality = 1 }
-			set_variable = { 939.nationality = 1 }
-			set_variable = { 744.nationality = 1 }
-			set_variable = { 941.nationality = 1 }
-			set_variable = { 622.nationality = 1 }
-			set_variable = { 958.nationality = 1 }
-			set_variable = { 960.nationality = 1 }
-			set_variable = { 942.nationality = 1 }
-			set_variable = { 838.nationality = 1 }
-			set_variable = { 889.nationality = 1 }
-			set_variable = { 884.nationality = 1 }
-			set_variable = { 839.nationality = 1 }
-			set_variable = { 885.nationality = 1 }
-			set_variable = { 900.nationality = 1 }
-			set_variable = { 592.nationality = 1 }
-			set_variable = { 593.nationality = 1 }
-			set_variable = { 851.nationality = 1 }
-			set_variable = { 853.nationality = 1 }
-			set_variable = { 609.nationality = 1 }
-			set_variable = { 610.nationality = 1 }
-			set_variable = { 716.nationality = 1 }
-			set_variable = { 745.nationality = 1 }
-			set_variable = { 715.nationality = 1 }
-			set_variable = { 328.nationality = 1 }
-			set_variable = { 714.nationality = 1 }
-			set_variable = { 283.nationality = 1 }
-			set_variable = { 899.nationality = 1 }
-			set_variable = { 926.nationality = 1 }
-			set_variable = { 937.nationality = 1 }
-			set_variable = { 959.nationality = 1 }
-
-			set_variable = { 109.nationality = 5 }
-
-
-
-			set_variable = { 155.nationality = 2 }
-			set_variable = { 154.nationality = 2 }
-			set_variable = { 43.nationality = 2 }
-			set_variable = { 76.nationality = 2 }
-
-
-			set_variable = { 70.nationality = 4 }
-			set_variable = { 71.nationality = 4 }
-			set_variable = { 73.nationality = 4 }
-
-
-			set_variable = { 866.nationality = 6 }
-
-
-
-			set_variable = { 31.nationality = 7 }
-			set_variable = { 22.nationality = 7 }
-			set_variable = { 21.nationality = 7 }
-			set_variable = { 25.nationality = 7 }
-			set_variable = { 26.nationality = 7 }
-			set_variable = { 20.nationality = 7 }
-			set_variable = { 32.nationality = 7 }
-
-
-			set_variable = { 735.nationality = 8 }
-
-			set_variable = { 15.nationality = 9 }
-			set_variable = { 29.nationality = 9 }
-			set_variable = { 785.nationality = 9 }
-			set_variable = { 18.nationality = 9 }
-			set_variable = { 16.nationality = 9 }
-			set_variable = { 30.nationality = 9 }
-			set_variable = { 24.nationality = 9 }
-			set_variable = { 27.nationality = 9 }
-			set_variable = { 17.nationality = 9 }
-			set_variable = { 28.nationality = 9 }
-			set_variable = { 23.nationality = 9 }
-			set_variable = { 19.nationality = 9 }
-
-
-			set_variable = { 806.nationality = 10 }
-			set_variable = { 172.nationality = 10 }
-			set_variable = { 792.nationality = 10 }
-
-
-			set_variable = { 165.nationality = 11 }
-
-
-			set_variable = { 166.nationality = 12 }
-			set_variable = { 794.nationality = 12 }
-			set_variable = { 167.nationality = 12 }
-
-
-			set_variable = { 790.nationality = 13 }
-
-
-			set_variable = { 174.nationality = 14 }
-
-
-			set_variable = { 791.nationality = 15 }
-			set_variable = { 176.nationality = 15 }
-			set_variable = { 793.nationality = 15 }
-			set_variable = { 41.nationality = 15 }
-			set_variable = { 788.nationality = 15 }
-			set_variable = { 170.nationality = 15 }
-
-
-			set_variable = { 171.nationality = 16 }
-
-
-			set_variable = { 180.nationality = 17 }
-			set_variable = { 181.nationality = 17 }
-			set_variable = { 112.nationality = 17 }
-			set_variable = { 795.nationality = 17 }
-			set_variable = { 179.nationality = 17 }
-
-
-			set_variable = { 175.nationality = 18 }
-			set_variable = { 168.nationality = 18 }
-			set_variable = { 789.nationality = 18 }
-			set_variable = { 169.nationality = 18 }
-			set_variable = { 173.nationality = 18}
-
-
-			set_variable = { 14.nationality = 19 }
-
-
-			set_variable = { 34.nationality = 20 }
-
-
-			set_variable = { 6.nationality = 21 }
-
-
-			set_variable = { 36.nationality = 22 }
-			set_variable = { 35.nationality = 22 }
-			set_variable = { 7.nationality = 22 }
-
-
-			set_variable = { 51.nationality = 23 }
-			set_variable = { 42.nationality = 23 }
-			set_variable = { 865.nationality = 23 }
-			set_variable = { 8.nationality = 23 }
-
-
-			set_variable = { 50.nationality = 24 }
-
-
-			set_variable = { 54.nationality = 25 }
-			set_variable = { 53.nationality = 25 }
-			set_variable = { 52.nationality = 25 }
-
-
-			set_variable = { 65.nationality = 26 }
-			set_variable = { 60.nationality = 26 }
-
-
-			set_variable = { 66.nationality = 27 }
-			set_variable = { 67.nationality = 27 }
-
-
-			set_variable = { 64.nationality = 28 }
-			set_variable = { 61.nationality = 28 }
-			set_variable = { 62.nationality = 28 }
-			set_variable = { 63.nationality = 28 }
-			set_variable = { 68.nationality = 28 }
-			set_variable = { 85.nationality = 28 }
-			set_variable = { 5.nationality = 28 }
-			set_variable = { 763.nationality = 28 }
-
-
-			set_variable = { 59.nationality = 29 }
-			set_variable = { 56.nationality = 29 }
-			set_variable = { 57.nationality = 29 }
-
+				
 			
-            set_variable = { 58.nationality = 31 }
 		}
 	}
 	on_weekly_IRE = {

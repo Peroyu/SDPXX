@@ -1,4 +1,126 @@
 GDC_guerrilla_area = {
+    GDC_Guangzhou_bay_war = {
+
+		icon = decision_generic_prepare_civil_war
+			
+		fire_only_once = yes
+
+		available = {
+		    tag = GDC
+		}
+		
+		allowed = {
+			original_tag = GDC
+		}
+		
+		
+		
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 728
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+
+		visible = {
+			tag = GDC
+		}
+	
+		cost = 30
+		days_remove = 15	
+		
+		complete_effect = {
+			add_command_power = -30
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -500
+                producer = GDC
+            }
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		cancel_effect = {
+			#决议被打断时触发的效果（这个效果与其他效果不同，它不会在鼠标悬停于决议上方时显示出来）
+		}
+
+		remove_effect = {
+            army_experience = 30
+			transfer_state = 728
+            custom_effect_tooltip = CHI_v_regional_tension_increase
+		    add_to_variable = { global.CHI_huanan_regional_tension = 5 }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+    GDC_Qiong_Ya_team = {
+
+		icon = decision_generic_prepare_civil_war
+			
+		fire_only_once = yes
+
+		available = {
+		    tag = GDC
+		}
+		
+		allowed = {
+			original_tag = GDC
+		}
+		
+		
+		
+		on_map_mode = map_and_decisions_view
+		
+		highlight_states = {
+			highlight_state_targets = {
+				state = 591
+			}
+			highlight_color_while_active = 3#点击激活决议后高亮边框的颜色（不设置则为白色）
+			highlight_color_before_active = 2#悬停时高亮边框的颜色（不设置则为白色）
+		}
+
+		visible = {
+			tag = GDC
+		}
+	
+		cost = 30
+		days_remove = 15	
+		
+		complete_effect = {
+			add_command_power = -30
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = -500
+                producer = GDC
+            }
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		cancel_effect = {
+			#决议被打断时触发的效果（这个效果与其他效果不同，它不会在鼠标悬停于决议上方时显示出来）
+		}
+
+		remove_effect = {
+            army_experience = 30
+			transfer_state = 591
+            custom_effect_tooltip = CHI_v_regional_tension_increase
+		    add_to_variable = { global.CHI_huanan_regional_tension = 3 }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
     GDC_anti_infultrate = {
         icon = decision_generic_prepare_civil_war
         cost = 50

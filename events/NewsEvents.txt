@@ -74,6 +74,9 @@ news_event = {
                 transfer_state = 546
                 transfer_state = 1182
                 transfer_state = 879
+		transfer_state = 956
+                transfer_state = 871
+                transfer_state = 955
             }
            
         }
@@ -213,7 +216,30 @@ news_event = {
     desc = global.6.d
     immediate = { 
         hidden_effect = {
-           
+            random_list = {
+                60 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = global.8
+                            days = 32
+                        }
+                    }
+                }
+                40 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.29
+                            days = 55
+                        }
+                    }
+                }
+               }
         }
 	}
     is_triggered_only = yes
@@ -335,6 +361,42 @@ news_event = {
 
 	option = {
 		name = global.9.a
+	}
+}
+news_event = {
+	id = global.10
+
+    picture = GFX_global_10
+    title = global.10.t
+    desc = global.10.d
+    immediate = { 
+        hidden_effect = {
+            USA = {
+                create_faction = "集体安全条约组织"
+                add_to_faction = CAN
+                add_to_faction = PHI
+                add_to_faction = AST
+                add_to_faction = NZL
+            }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = USA.4
+                    days = 63
+                }
+            }
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.10.a
 	}
 }
 news_event = {
@@ -585,6 +647,96 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.11
+    picture = GFX_Pacific_11
+    title = Pacific.11.t
+    desc = Pacific.11.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.11.a
+	}
+}
+news_event = {
+	id = Pacific.12
+    picture = GFX_Pacific_12
+    title = Pacific.12.t
+    desc = Pacific.12.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.12.a
+	}
+}
+news_event = {
+	id = Pacific.13
+    picture = GFX_Pacific_13
+    title = Pacific.13.t
+    desc = Pacific.13.d
+    immediate = { 
+        hidden_effect = {
+
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.13.a
+	}
+}
+news_event = {
+	id = Pacific.14
+    picture = GFX_Pacific_14
+    title = Pacific.14.t
+    desc = Pacific.14.d
+    immediate = { 
+        hidden_effect = {
+            DOS = {
+                create_faction = 南大西洋公约组织
+                add_to_faction = SWA
+                add_to_faction = RHO
+                add_to_faction = MAD
+            }
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.14.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1
@@ -677,11 +829,6 @@ news_event = {
 
 	option = {
 		name = HUN_SLO.1.a
-		trigger = {Not = {tag = HUN}}
-	}
-	option = {
-		name = HUN_SLO.1.b
-        trigger = {{tag = HUN}}
 	}
 }
 news_event = {
@@ -878,7 +1025,9 @@ news_event = {
     title = chi_news.3.t
     desc = chi_news.3.d
     immediate = { 
-
+        hidden_effect = {
+            set_global_flag = CHI_war_over
+        }
 	}
     is_triggered_only = yes
  
@@ -1856,6 +2005,16 @@ news_event = {
     desc = ISU.27.d
     immediate = { 
         hidden_effect = {
+            if = {
+                limit = {
+                    BUL = {
+                        is_faction_leader = yes
+                    }
+                }
+                BUL = {
+                    dismantle_faction = yes
+                }
+            }
             set_global_flag = Balkan_ISU_support_ISU_flag
            ISU = {
             declare_war_on = { target = HUN type = annex_everything }
@@ -1915,7 +2074,16 @@ news_event = {
     desc = ISU.29.d
     immediate = { 
         hidden_effect = {
-          
+            CAN = {
+                set_autonomy = {
+                    target = MLT
+                    autonomy_state = autonomy_free 
+                }
+            }
+          FRA = {
+            declare_war_on = { target = MLT type = annex_everything }
+            add_ideas = ISU_Balkan_crisis
+          }
         }
 	}
     is_triggered_only = yes
@@ -2321,5 +2489,25 @@ news_event = {
 
 	option = {
 		name = ISU.43.a
+	}
+}
+news_event = {
+	id = ISU.44
+    picture = GFX_ISU_44
+    title = ISU.44.t
+    desc = ISU.44.d
+    immediate = { 
+        hidden_effect = { 
+           
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.44.a
 	}
 }

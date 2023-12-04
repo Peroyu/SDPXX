@@ -265,6 +265,11 @@
 		name = "GFX_portrait_CJF_Zhao_Dengyu"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Zhao_Dengyu.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_Zhang_Xveliang"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CHI_Zhang_Xveliang.png"		
+	}
 	###############################################
 	
 	spriteType = {
@@ -434,7 +439,11 @@
 		texturefile = "gfx/leaders/GDC/GFX_portrait_KHN_Wang_Shijie.png"		
 	}
 	###############################################################
-	
+	spriteType = {
+		name = "Portrait_CHI_council"
+		texturefile = "gfx/leaders/CHI/Portrait_CHI_council.png"		
+	}
+
 	spriteType = {
 		name = "GFX_TIB_Namgyal"
 		texturefile = "gfx/leaders/CHI/TIB_Namgyal.png"		
@@ -680,7 +689,11 @@
 		texturefile = "gfx/leaders/EU/CRR_Ante_Ciliga_portrait.png"		
 	}
 	########################################################################
-	
+	spriteType = {
+		name = "portrait_VNN_XIE_Qiu_Shou"
+		texturefile = "gfx/leaders/ASIA/portrait_VNN_XIE_Qiu_Shou.png"		
+	}
+
 	spriteType = {
 		name = "BUR_Aung_San"
 		texturefile = "gfx/leaders/ASIA/BUR_Aung_San.png"		

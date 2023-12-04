@@ -16,76 +16,55 @@ units = {
 	### Provincial Forces ###
 	division = {
 		name = "algeria guard"
-		location = 12018
+		location = 4150
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "algeria's own"
-		location = 1958
-		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.4
-
-	}
-	division = {
-		name = "algeria's own 1"
-		location = 12711
-		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.4
-
-	}
-
-	division = {
-		name = "algeria's own 2"
-		location = 4903
-		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.4
-
-	}
-
-	division = {
-		name = "algeria's own 3"
-		location = 5053
-		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
-		start_equipment_factor = 0.4
-
-	}
-	division = {
-		name = "algeria's own 4"
 		location = 9960
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
-		name = "algeria's own 5"
+		name = "algeria's own 1"
 		location = 13074
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
-		name = "algeria's own 6"
-		location = 1126
+		name = "algeria's own 22"
+		location = 4116
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
-		name = "algeria's own 7"
-		location = 8061
+		name = "algeria's own 23"
+		location = 13074
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
-		name = "algeria's own 8"
-		location = 1126
+		name = "algeria's own 70"
+		location = 9964
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
+	division = {
+		name = "algeria's own 71"
+		location = 12018
+		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.4
+
+	}
+
+	
 	
 }
 

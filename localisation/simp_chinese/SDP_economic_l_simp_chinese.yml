@@ -1,6 +1,2 @@
 ﻿l_simp_chinese:
- SDP_economic_window_intro_text: "经济圈"
- COUNTRYLIST_LABEL_data: "参与的经济体"
- COUNTRYLIST_DATA: "经济圈数据"
- CHI_economic_sphere_title: "中华民国经济圈"
- JAP_economic_sphere_title: "共荣圈经济圈"
+ country_GDP_txt: "经济总量 §YRUB[?ROOT.SDP_GDP_number]B§!"

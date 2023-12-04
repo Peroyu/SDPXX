@@ -270,9 +270,9 @@ country_event = {
 				limit = {
 					has_country_flag = CHI_Zhe_Jiang_rural_base
 				}
-				transfer_state = 918
-				transfer_state = 919
-				transfer_state = 920
+				transfer_state = 1067
+				transfer_state = 1069
+				transfer_state = 1068
 			}
 		  }
 		  all_state = {
@@ -507,7 +507,7 @@ country_event = {
 	
 	option = { 
 	    ai_chance = {
-		   base = 50
+		   base = 100
 		}
 		every_country = {
 			limit = {
@@ -584,6 +584,11 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_global_flag = CHI_return_home
+			country_event = {
+				id = CHIpeace.5
+				days = 25
+			}
 		}
     }
 	
@@ -608,7 +613,22 @@ country_event = {
 				days = 1
 			}
 		}
-		set_capital = { state = 908 }
+		if = {
+			limit = {
+				has_government = social_democracy
+			}
+			set_capital = { state = 1048 }
+		}
+		if = {
+			limit = {
+				OR = {
+					has_government = movement_communism
+					has_government = conservatism
+				}
+				
+			}
+			set_capital = { state = 613 }
+		}
 		name = CHIpeace.4.a
 	}
 	
@@ -633,6 +653,36 @@ country_event = {
 		   base = 50
 		}
 		name = CHIpeace.5.a
+	}
+	
+}
+country_event = {
+    id = CHIpeace.6 #国大开幕
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIpeace.6 FROM = [From.GetName]" }
+	title = CHIpeace.6.t
+	desc = CHIpeace.6.d
+	picture = GFX_CHIpeace5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			is_ai = yes
+		}
+		CHI = {
+			change_tag_from = ROOT
+		}
+		name = CHIpeace.6.a
 	}
 	
 }

@@ -3,56 +3,42 @@ scripted_gui = {
         context_type = decision_category
         window_name = "ASIA_Southeast_asia_conference_ui_window"
         triggers = {
-            JAP_FLAG_visible = {
-                OR = {
-                JAP = {has_country_flag = ASIA_attend_southasia_conference}
+            ASIA_North_Borno_visible = {
+                check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 1
+	                compare = equals
                 }
             }
-            USA_FLAG_visible = {
-                OR = {
-                USA = {has_country_flag = ASIA_attend_southasia_conference}
+            ASIA_picture_North_Borno_visible = {
+                check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 1
+	                compare = equals
                 }
             }
-            RCR_FLAG_visible = {
-                OR = {
-                RCR = {has_country_flag = ASIA_attend_southasia_conference}
+            ASIA_default_visible = {
+                check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 0
+	                compare = equals
                 }
             }
-            CAN_FLAG_visible = {
-                OR = {
-                CAN = {has_country_flag = ASIA_attend_southasia_conference}
+        }
+        effects = {
+            ASIA_add_button_click = {
+                ROOT = {
+                    add_to_variable = { ASIA_election_input_num = 10 }
+                    add_political_power = -10
                 }
             }
-            OCE_FLAG_visible = {
-                OR = {
-                OCE = {has_country_flag = ASIA_attend_southasia_conference}
+            ASIA_decrease_button_click = {
+                ROOT = {
+                    add_to_variable = { ASIA_election_input_num = -10 }
+                    add_political_power = 10
                 }
             }
-            ROF_FLAG_visible = {
-                OR = {
-                ROF = {has_country_flag = ASIA_attend_southasia_conference}
-                }
-            }
-            BOR_FLAG_visible = {
-                OR = {
-                BOR = {has_country_flag = ASIA_attend_southasia_conference}
-                }
-            }
-            AST_FLAG_visible = {
-                OR = {
-                AST = {has_country_flag = ASIA_attend_southasia_conference}
-                }
-            }
-            THA_FLAG_visible = {
-                OR = {
-                THA = {has_country_flag = ASIA_attend_southasia_conference}
-                }
-            }
-            PHI_FLAG_visible = {
-                OR = {
-                PHI = {has_country_flag = ASIA_attend_southasia_conference}
-                }
-            }
+            
         }
     }
 }

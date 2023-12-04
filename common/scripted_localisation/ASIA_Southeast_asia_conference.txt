@@ -1,0 +1,66 @@
+defined_text = {
+	name = ASIA_election_name
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 1
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 2
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 3
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_3
+	}
+}
+defined_text = {
+	name = ASIA_election_name_desc
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 1
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_1_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 2
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_2_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { #检查变量大小
+	                var = global.ASIA_meeting_elect_var
+	                value = 3
+	                compare = equals
+                }
+		}
+		localization_key = ASIA_election_name_3_desc
+	}
+}

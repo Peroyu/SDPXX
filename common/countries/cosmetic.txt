@@ -106,6 +106,10 @@ MAN_kmt = {
  color = rgb {100 149 155 }
  color_ui = rgb {100 149 155 }
 }
+HYD_muslim = {
+	color = rgb {235 179 81 }
+	color_ui = rgb {235 179 81 }
+   }
 MMA_nokmt = {
 	color = rgb {175 143 126 }
 	color_ui = rgb {175 143 126 }

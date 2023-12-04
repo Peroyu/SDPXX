@@ -114,6 +114,23 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CHI_Zhang_Xveliang={
+		name = "CHI_Zhang_Xveliang"
+		portraits = {
+			army={
+				small = GFX_portrait_CHI_Zhang_Xveliang
+				large = GFX_portrait_CHI_Zhang_Xveliang
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 	CJF_Hu_Lian={
 		name = "CJF_Hu_Lian"
 		portraits = {

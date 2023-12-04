@@ -185,9 +185,7 @@ INDIA_civilwar = {
 					NOT = { controls_state = 429}
 					NOT = { controls_state = 425}
 					NOT = { controls_state = 424}
-					NOT = { controls_state = 423}
                     NOT = { controls_state = 320}
-                    NOT = { controls_state = 867}
                     NOT = { controls_state = 1034}
                     NOT = { controls_state = 1095}
 					}
@@ -215,10 +213,13 @@ INDIA_civilwar = {
                 transfer_state = 1095
                 white_peace = CYN
             }
-            CYN = { clr_country_flag = INDIA_civilwar_participants }
+            CYN = { 
+                clr_country_flag = INDIA_civilwar_participants 
+                remove_ideas =  INDIA_no_allies
+            }
 		}
         ai_will_do = {
-			base = 100#ai点选这个决议的意愿
+			base = 100000
 		}
     }
     INDIA_RAJ_anounce_uni = {

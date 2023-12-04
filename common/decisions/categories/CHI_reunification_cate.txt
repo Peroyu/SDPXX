@@ -7,6 +7,7 @@ CHI_reunification = {
 		original_tag = CJF
 		original_tag = GDC
 		original_tag = MMA
+		original_tag = CHI
 		}
 	}
 	available = {
@@ -16,6 +17,7 @@ CHI_reunification = {
 		}
 	}
 	visible = {
+		has_global_flag = CHI_war_over
 		NOT = {
 			country_exists = RCR
 		}
@@ -23,6 +25,7 @@ CHI_reunification = {
 			tag = CJF
 			tag = GDC
 			tag = MMA
+			tag = CHI
 			}
 		}
 	priority = 1000

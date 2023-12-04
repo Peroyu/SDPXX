@@ -76,8 +76,28 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_GFX_jap_vic_1_uni.png"
 	}
 	spriteType = {
+		name = "GFX_Pacific_11"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_11.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_12"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_12.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_13"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_13.png"
+	}
+	spriteType = {
+		name = "GFX_global_10"
+		texturefile = "gfx/event_pictures/news/GFX_global_10.png"
+	}
+	spriteType = {
 		name = "GFX_chi_vic_2"
 		texturefile = "gfx/event_pictures/news/GFX_GFX_chi_vic_2_uni.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_44"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_44.png"
 	}
 	spriteType = {
 		name = "GFX_chi_vic_1"
@@ -348,6 +368,14 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news/GFX_ISU_29.png"
 	}
 	spriteType = {
+		name = "GFX_chi_vic_3"
+		texturefile = "gfx/event_pictures/news/GFX_chi_vic_3.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_14"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_14.png"
+	}
+	spriteType = {
 		name = "GFX_Pacific_9"
 		texturefile = "gfx/event_pictures/news/GFX_Pacific_9.png"
 	}
@@ -375,6 +403,11 @@ spriteTypes = {
 		name = "GFX_dh8"
 		texturefile = "gfx/event_pictures/GFX_dh8.png"
 	}
+	spriteType = {
+		name = "GFX_ISU_event5"
+		texturefile = "gfx/event_pictures/GFX_ISU_event5.png"
+	}
+	
 	spriteType = {
 		name = "GFX_CJFcp41"
 		texturefile = "gfx/event_pictures/GFX_CJFcp41.png"
