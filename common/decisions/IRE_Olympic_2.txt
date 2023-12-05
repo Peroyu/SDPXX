@@ -1,6 +1,6 @@
 IRE_Olympic_2_categories = {                               
     Olympics_timeout = {
-	    icon = decision_Olympics
+	    icon = decision_generic_decision
 		available = {
 		  always = no
 		}
@@ -17,68 +17,1156 @@ IRE_Olympic_2_categories = {
 		
         }
 	}
-	Build_venues_1_true={
+	###############################
+	Build_venues_1_true_01={
 	    icon = decision_generic_decision   
 		visible = {
-		  hsa_country_flag = SDP_IRE_1.id
+		  has_country_flag = SDP_IRE_1.id
 		}                        
-        complete_effect = {
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_1 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
+		cost = 20
+		days_remove = 30
     }
-	Build_venues_2_true={
-	    icon = decision_generic_decision  
-		visible = {
-		  hsa_country_flag = SDP_IRE_2.id
-		}                       
-        complete_effect = {
-        }
-    }
-	Build_venues_3_true={
+	Build_venues_1_true_02={
 	    icon = decision_generic_decision   
 		visible = {
-		  hsa_country_flag = SDP_IRE_3.id
+		  has_country_flag = SDP_IRE_1.id
 		}                        
-        complete_effect = {
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
         }
+		cost = 20
+		days_remove = 30
     }
-	Build_venues_4_true={
-	    icon = decision_generic_decision  
-		visible = {
-		  hsa_country_flag = SDP_IRE_4.id
-		}                           
-        complete_effect = {
-        }
-    }
-	Build_venues_5_true={
-	    icon = decision_generic_decision  
-		visible = {
-		  hsa_country_flag = SDP_IRE_5.id
-		}                          
-        complete_effect = {
-        }
-    }
-	Build_venues_6_true={
-	    icon = decision_generic_decision  
-		visible = {
-		  hsa_country_flag = SDP_IRE_6.id
-		}                          
-        complete_effect = {
-        }
-    }
-	Build_venues_7_true={
+	Build_venues_1_true_03={
 	    icon = decision_generic_decision   
 		visible = {
-		  hsa_country_flag = SDP_IRE_1.id
-		}                       
-        complete_effect = {
-        }
-    }
-	Build_venues_8_true={
-	    icon = decision_generic_decision  
-		visible = {
-		  hsa_country_flag = SDP_IRE_8.id
+		  has_country_flag = SDP_IRE_1.id
 		}                        
-        complete_effect = {
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_1_true_04
+					has_decision = Build_venues_1_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
         }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_1_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_1.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_1_true_03
+					has_decision = Build_venues_1_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_1_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_1.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_1_true_03
+					has_decision = Build_venues_1_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_1_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_1.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_1_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_1_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_1.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_1_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	############################################
+	Build_venues_2_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_2 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_2_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_2_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_2_true_04
+					has_decision = Build_venues_2_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_2_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_2_true_03
+					has_decision = Build_venues_2_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_2_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_2_true_03
+					has_decision = Build_venues_2_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_2_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_2.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_2_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_2_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_1.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_1_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_3_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_3 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_3_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_3_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_3_true_04
+					has_decision = Build_venues_3_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_3_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_3_true_03
+					has_decision = Build_venues_3_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_3_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_3_true_03
+					has_decision = Build_venues_3_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_3_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_3_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_3_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_3.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_3_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_4_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_4 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_4_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_4_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_4_true_04
+					has_decision = Build_venues_4_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_4_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_4_true_03
+					has_decision = Build_venues_4_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_4_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_4_true_03
+					has_decision = Build_venues_4_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_4_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_4_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_4_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_4.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_4_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_5_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_5 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_5_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_5_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_5_true_04
+					has_decision = Build_venues_5_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_5_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_5_true_03
+					has_decision = Build_venues_5_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_5_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_5_true_03
+					has_decision = Build_venues_5_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_5_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_5_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_5_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_5.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_5_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_6_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_6 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_6_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_6_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_6_true_04
+					has_decision = Build_venues_6_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_6_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_6_true_03
+					has_decision = Build_venues_6_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_6_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_6_true_03
+					has_decision = Build_venues_6_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_6_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_6_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_6_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_6.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_6_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_7_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_7 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_7_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_7_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_7_true_04
+					has_decision = Build_venues_7_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_7_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_7_true_03
+					has_decision = Build_venues_7_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_7_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_7_true_03
+					has_decision = Build_venues_7_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_7_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_7_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_7_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_7.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_7_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
+    }
+	#############################################
+	Build_venues_8_true_01={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		num_of_civilian_factory_available_for_projects>1
+		}
+		modifier = {
+		civilian_factory_use = 1
+		}
+        remove_effect = {
+		add_to_variable = { var = SDP_IRE_8 value = 10 }
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_8_true_02={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	Build_venues_8_true_03={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_8_true_04
+					has_decision = Build_venues_8_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_8_true_04={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_8_true_03
+					has_decision = Build_venues_8_true_05
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = -0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = -0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_8_true_05={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		 NOT = {
+				OR = {
+					has_decision = Build_venues_8_true_03
+					has_decision = Build_venues_8_true_04
+				}
+			}
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_to_variable = { var = IRE_Financial_burden_pp_var value = 0.1}
+        }
+		cost = 50
+		days_remove = 30
+    }
+	Build_venues_8_true_06={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_8_true_07
+            }
+		}
+		modifier = {
+		  political_power_gain = -0.1
+		}
+        remove_effect = {
+		  add_political_power = 50
+        }
+		days_remove = 30
+    }
+	Build_venues_8_true_07={
+	    icon = decision_generic_decision   
+		visible = {
+		  has_country_flag = SDP_IRE_8.id
+		}                        
+		available = {
+		 NOT = {
+            has_decision = Build_venues_8_true_06
+            }
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.1 }
+		add_offsite_building = { 
+			type = industrial_complex 
+			level = 2
+		  }
+        }
+		cost = 100
+		days_remove = 60
     }
 }

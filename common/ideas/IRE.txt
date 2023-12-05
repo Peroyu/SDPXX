@@ -209,20 +209,6 @@ ideas = {
 			}
 	    
 		}
-		IRE_Financial_burden_1 = {
-            name = IRE_Financial_burden
-            picture = GFX_IRE_Financial_burden
-			allowed = { 
-			   always = no
-			}
-			available = {
-			    
-			}
-            removal_cost = -1
-            modifier = {
-			
-			}
-	    
-		}
+		
 	}
 }

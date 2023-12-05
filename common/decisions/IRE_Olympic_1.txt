@@ -13,10 +13,16 @@ IRE_Olympic_1_categories = {
 		 	country_event = {
                 id = IRE_bid_Olympic.1
                 days = 1					
-            } 
+            }
+            news_event = {
+			    id = global.1
+				days = 1
+            }			
 			set_country_flag = IRE_Build_start_0
 			add_ideas = IRE_Olympic_village_1
-			add_ideas = IRE_Financial_burden_1
+            add_dynamic_modifier = {
+			    modifier = IRE_Financial_burden 
+		    }
         }
 	}
 	Build_venues_1 = {

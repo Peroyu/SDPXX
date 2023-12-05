@@ -47,13 +47,9 @@ IRE_Soul_of_a_pioneer_1
 IRE_Blood_of_the_Resisters_1
 participant_of_the_revolutionary_war
 }
-set_variable = { var = SDP_IRE_1 value = 0 }
-set_variable = { var = SDP_IRE_2 value = 0 }
-set_variable = { var = SDP_IRE_3 value = 50 }
-set_variable = { var = SDP_IRE_4 value = 0 }
-set_variable = { var = SDP_IRE_5 value = 20 }
-set_variable = { var = SDP_IRE_6 value = 0 }
-set_variable = { var = SDP_IRE_7 value = 0 }
+
+set_variable = { var = IRE_Financial_burden_var value = 0}
+set_variable = { var = IRE_Financial_burden_pp_var value = 0 }
 country_event = {
 	id = IRE_boom.1
 	days = 399

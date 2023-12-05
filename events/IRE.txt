@@ -13,7 +13,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		
+		    
 		}
     }
 	
@@ -105,7 +105,7 @@ country_event = {
                 id = IRE_Build_venues.4
                 days = 1					
             }
-		name = IRE_bid_Olympic.3.a
+		name = IRE_Build_venues.3.a
 	}
 	option = { 
 	    ai_chance = {
@@ -117,7 +117,7 @@ country_event = {
                 id = IRE_Build_venues.4
                 days = 1					
             }
-		name = IRE_bid_Olympic.3.b
+		name = IRE_Build_venues.3.b
 	}
 }
 country_event = {
@@ -146,7 +146,7 @@ country_event = {
                 id = IRE_Build_venues.5
                 days = 1					
             }
-		name = IRE_bid_Olympic.4.a
+		name = IRE_Build_venues.4.a
 	}
 	option = { 
 	    ai_chance = {
@@ -158,7 +158,7 @@ country_event = {
                 id = IRE_Build_venues.5
                 days = 1					
             }
-		name = IRE_bid_Olympic.4.b
+		name = IRE_Build_venues.4.b
 	}
 }
 country_event = {
@@ -214,7 +214,7 @@ country_event = {
                 id = IRE_Build_venues.7
                 days = 1					
             }
-		name = IRE_bid_Olympic.6.a
+		name = IRE_Build_venues.6.a
 	}
 	option = { 
 	    ai_chance = {
@@ -226,7 +226,7 @@ country_event = {
                 id = IRE_Build_venues.7
                 days = 1					
             }
-		name = IRE_bid_Olympic.6.b
+		name = IRE_Build_venues.6.b
 	}
 }
 country_event = {
@@ -250,7 +250,7 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_7_1 value = 1 }
 		set_variable = { var = SDP_IRE_7_0 value = 0 }
-		name = IRE_bid_Olympic.7.a
+		name = IRE_Build_venues.7.a
 		set_country_flag = IRE_Build_start
 	}
 	option = { 
@@ -259,7 +259,7 @@ country_event = {
 		}
 		set_variable = { var = SDP_IRE_7_1 value = 0 }
 		set_variable = { var = SDP_IRE_7_0 value = 1 }
-		name = IRE_bid_Olympic.7.b
+		name = IRE_Build_venues.7.b
 		set_country_flag = IRE_Build_start
 	}
 }
@@ -551,6 +551,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+		 
 		}
     }
 	
@@ -558,7 +559,48 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_variable = { var = SDP_IRE_1 value = 0 }
+         set_variable = { var = SDP_IRE_2 value = 0 }
+         set_variable = { var = SDP_IRE_3 value = 50 }
+         set_variable = { var = SDP_IRE_4 value = 0 }
+         set_variable = { var = SDP_IRE_5 value = 20 }
+         set_variable = { var = SDP_IRE_6 value = 0 }
+         set_variable = { var = SDP_IRE_7 value = 0 }
+		    clamp_variable = {
+            var = SDP_IRE_1
+            min = 0
+            max = 100
+            }
+            clamp_variable = {
+            var = SDP_IRE_2
+            min = 0
+            max = 100
+            }
+     	    clamp_variable = {
+            var = SDP_IRE_3
+            min = 0
+            max = 100
+            }
+			clamp_variable = {
+            var = SDP_IRE_4
+            min = 0
+            max = 100
+            }
+			clamp_variable = {
+            var = SDP_IRE_5
+            min = 0
+            max = 100
+            }
+			clamp_variable = {
+            var = SDP_IRE_6
+            min = 0
+            max = 100
+            }
+			clamp_variable = {
+            var = SDP_IRE_7
+            min = 0
+            max = 100
+            }
 		name = IRE.13.a
 	}
 }

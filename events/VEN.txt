@@ -1,4 +1,99 @@
 ﻿add_namespace = VLP
+add_namespace = VENwar
+country_event = {
+    id = VENwar.1#公投
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	VENwar.1 FROM = [From.GetName]" }
+	title = VENwar.1.t
+	desc = VENwar.1.d
+	picture = GFX_VLP_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 news_event = {
+			id = LaAme.2
+			days=1
+		 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+		 id = VENwar.2
+		 days = 10
+		}
+		name = VENwar.1.a
+	}
+	
+}
+country_event = {
+    id = VENwar.2#开战
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	VENwar. FROM = [From.GetName]" }
+	title = VENwar.2.t
+	desc = VENwar.2.d
+	picture = GFX_VLP_2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 news_event = {
+			id = LaAme.3
+			days=1
+		 }
+		 declare_war_on = {
+			target = GUY #国家ID
+			type = annex_everything #战争目的
+		 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = VENwar.2.a
+	}
+	
+}
+country_event = {
+    id = VENwar.3#战胜
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	VENwar.3 FROM = [From.GetName]" }
+	title = VENwar.3.t
+	desc = VENwar.3.d
+	picture = GFX_VENwar_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 news_event = {
+			id = LaAme.4
+			days=1
+		 }
+		 GUY = { set_cosmetic_tag = GUA }
+		 VEN = { puppet = GUY }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = VENwar.3.a
+	}
+	
+}
+
 country_event = {
     id = VLP.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -27,6 +122,7 @@ country_event = {
 	}
 	
 }
+
 country_event = {
     id = VLP.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

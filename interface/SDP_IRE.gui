@@ -2,7 +2,7 @@ guiTypes ={
 	containerWindowType = {#主窗口
 		name = "SDP_IRE_window_main"
 		position = { x = 0 y = 0 }
-		size = { width = 500 height = 600 }
+		size = { width = 500 height = 700 }
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_SDP_IRE_intro"
@@ -14,12 +14,12 @@ guiTypes ={
 		}
 		buttonType = { 
 			name = "SDP_IRE_2"
-			position = { x = 200 y = 0 } 
+			position = { x = 190 y = 0 } 
 			quadTextureSprite = "GFX_SDP_IRE_2"
 		}
 		buttonType = { 
 			name = "SDP_IRE_3"
-			position = { x = 400 y =0 } 
+			position = { x = 380 y =0 } 
 			quadTextureSprite = "GFX_SDP_IRE_3"
 		}
 		buttonType = { 
@@ -29,12 +29,12 @@ guiTypes ={
 		}
 		buttonType = { 
 			name = "SDP_IRE_5"
-			position = { x = 200 y =200 } 
+			position = { x = 190 y =200 } 
 			quadTextureSprite = "GFX_SDP_IRE_5"
 		}
 		buttonType = { 
 			name = "SDP_IRE_6"
-			position = { x = 400 y =200 } 
+			position = { x = 380 y =200 } 
 			quadTextureSprite = "GFX_SDP_IRE_6"
 		}
 		buttonType = { 
@@ -44,13 +44,22 @@ guiTypes ={
 		}
         instantTextboxType = {
 			name = "SDP_IRE_intro"
-			position = { x = 0 y = 500 }
+			position = { x = 0 y = 600 }
 			font = "hoi_18b"
 			text = "SDP_IRE_intro"
 			maxWidth = 500
 			maxHeight = 500
 			format = center
-	    }		
+	    }
+        instantTextboxType = {
+			name = "SDP_IRE_intro_x"
+			position = { x = 0 y = 550 }
+			font = "hoi_18b"
+			text = "SDP_IRE_intro_x"
+			maxWidth = 500
+			maxHeight = 200
+			format = center
+	    }				
 	}
 	containerWindowType = {#主窗口
 		name = "SDP_IRE_change_window"
