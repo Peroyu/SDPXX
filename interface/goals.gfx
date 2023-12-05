@@ -1984,6 +1984,34 @@ SpriteType = {
 	name = "GFX_NIP_dream_of_co_prosperity"
 	texturefile = "gfx/interface/goals/NIP/GFX_NIP_dream_of_co_prosperity.png"			
 }
+SpriteType = {
+	name = "GFX_NIP_return_to_seiyo_kai"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_4.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_turn_the_tide"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_5.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_organise_party_government"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_Review_budget_proposals"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_6.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_Control_local_officers"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_7.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_Gain_sympathy_from_international_capital"
+	texturefile = "gfx/interface/goals/generic/GFX_Economic_3.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_Empowering_the_press"
+	texturefile = "gfx/interface/goals/generic/GFX_education_1.png"			
+}
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"

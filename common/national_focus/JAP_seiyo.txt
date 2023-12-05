@@ -114,6 +114,12 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_legacy_of_revlot
 		}
+		prerequisite = { 
+			focus = NIP_money_for_minseito
+		}
+		prerequisite = { 
+			focus = NIP_vote_for_Seiyukai
+		}
 		cost = 5
 		x = 21
 		y = 5
@@ -128,9 +134,6 @@ focus_tree = {
 		icon = GFX_NIP_deal_south_ocean_policy
 		prerequisite = { 
 			focus = NIP_Kyodo_naikaku_undo
-		}
-		allow_branch = {
-			 has_country_flag = NIP_party_government_is_dealing_south_ocean
 		}
 		cost = 3
 		x = 3
@@ -224,7 +227,7 @@ focus_tree = {
 		id = NIP_Support_FINA
 		icon = GFX_NIP_Support_FINA
 		prerequisite = { 
-			focus = NIP_imperial_eco_sphere
+			focus = NIP_Meeting_with_Aung_San
 		}
 		cost = 5
 		x = 3
@@ -239,9 +242,6 @@ focus_tree = {
 		icon = GFX_NIP_Review_budget_proposals
 		prerequisite = { 
 			focus = NIP_Kyodo_naikaku_undo
-		}
-		allow_branch = {
-			 has_country_flag = NIP_party_government_is_dealing_tax
 		}
 		cost = 3
 		x = 18
@@ -293,7 +293,7 @@ focus_tree = {
 		id = NIP_Reconciling_land_sea_disputes
 		icon = GFX_NIP_Reconciling_land_sea_disputes
 		prerequisite = { 
-			focus = NIP_Review_budget_proposals
+			focus = NIP_Abolish_the_war_budget
 		}
 		cost = 5
 		x = 18
@@ -306,7 +306,7 @@ focus_tree = {
 		id = NIP_Cut_miscellaneous_expenses
 		icon = GFX_NIP_Cut_miscellaneous_expenses
 		prerequisite = { 
-			focus = NIP_Review_budget_proposals
+			focus = NIP_Cooperate_with_Ugaki_faction
 		}
 		prerequisite = { 
 			focus = NIP_Reconciling_land_sea_disputes
@@ -356,9 +356,6 @@ focus_tree = {
 		icon = GFX_NIP_Demobilization_proposal
 		prerequisite = { 
 			focus = NIP_Kyodo_naikaku_undo
-		}
-		allow_branch = {
-			 has_country_flag = NIP_party_government_is_dealing_remoblisation
 		}
 		cost = 3
 		x = 30
@@ -439,7 +436,7 @@ focus_tree = {
 			focus = NIP_Marginalized_Industries
 		}
 		prerequisite = { 
-			focus = NIP_Come_up_with_Nanyang_Resolution
+			focus = NIP_Abolition_civil_requisition_orders
 		}
 		cost = 5
 		x = 30
@@ -467,9 +464,6 @@ focus_tree = {
 		icon = GFX_NIP_Review_chaebol_proposals
 		prerequisite = { 
 			focus = NIP_Kyodo_naikaku_undo
-		}
-		allow_branch = {
-			 has_country_flag = NIP_party_government_is_dealing_caifa
 		}
 		cost = 3
 		x = 42
@@ -603,15 +597,6 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = NIP_Support_FINA
-		}
-		allow_branch = {
-			AND = {
-				has_completed_focus = NIP_Takahashi_Finance_restarts
-				has_completed_focus = NIP_Empowering_the_press
-				has_completed_focus = NIP_cut_armed_fee
-				has_completed_focus = NIP_Support_FINA
-			}
-			
 		}
 		cost = 2
 		x = 21
