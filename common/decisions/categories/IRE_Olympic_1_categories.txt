@@ -1,5 +1,5 @@
 IRE_Olympic_1_categories = {
-	    icon = GFX_IRE_Olympic_categories
+	    icon = decision_category_generic_propaganda
 	    picture = GFX_decisions_IRE_Olympic_categories
 		visible = {
            

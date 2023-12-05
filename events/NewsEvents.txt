@@ -981,6 +981,69 @@ news_event = {
 	}
 }
 news_event = {
+	id = LaAme.2
+
+    picture = GFX_LaAme_2
+    title = LaAme.2.t
+    desc = LaAme.2.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+    immediate = {
+        hidden_effect = {
+            
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.2.a
+	}
+}
+news_event = {
+	id = LaAme.3
+
+    picture = GFX_LaAme_3
+    title = LaAme.3.t
+    desc = LaAme.3.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+    immediate = {
+        hidden_effect = {
+            
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.3.a
+	}
+}
+news_event = {
+	id = LaAme.4
+
+    picture = GFX_LaAme_4
+    title = LaAme.4.t
+    desc = LaAme.4.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+    immediate = {
+        hidden_effect = {
+            
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.4.a
+	}
+}
+news_event = {
 	id = chi_news.1
 
     picture = GFX_SHA_news
