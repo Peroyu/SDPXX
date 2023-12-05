@@ -1980,6 +1980,10 @@ SpriteType = {
 	name = "GFX_NIP_continue_disarmament"
 	texturefile = "gfx/interface/goals/NIP/GFX_NIP_continue_disarmament.png"			
 }
+SpriteType = {
+	name = "GFX_NIP_dream_of_co_prosperity"
+	texturefile = "gfx/interface/goals/NIP/GFX_NIP_dream_of_co_prosperity.png"			
+}
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"
