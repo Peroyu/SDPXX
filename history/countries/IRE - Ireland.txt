@@ -1,6 +1,6 @@
 capital = 325 
 
-obb = "IRE_1947"  
+oob = "IRE_1947"  
 
 set_research_slots = 3 
 
@@ -26,6 +26,22 @@ set_popularities = {
 	Nationalism = 15
 }
 add_ideas = {
+	universal_suffrage
+	peasant_levies
+	cultural_exclusion
+	total_separation
+	militarized_police
+	censorship
+	regulatory_bodies
+	restricted_child_labor
+	womens_suffrage
+	old_age_pension
+	commercial_agriculture
+	protectionism
+	graduated_taxation
+	private_schools
+	private_health_insurance
+	#
 IRE_The_evil_of_the_colonizers_1
 IRE_Soul_of_a_pioneer_1
 IRE_Blood_of_the_Resisters_1

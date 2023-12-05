@@ -1,0 +1,33 @@
+capital = 48
+
+set_research_slots = 3
+
+set_war_support = -0.1 
+set_stability = 0.1 
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1925.6.1"
+	election_frequency = 48 
+	elections_allowed = no  
+}
+
+set_popularities = {
+	communism = 40
+	committee_communism = 17
+	moderate_socialism = 25
+	Nationalism = 8
+   	restorativeism = 10
+}
+
+
+create_country_leader = {
+	name = "BAL_Christian_Rakovsky"
+	desc = "/"  
+	picture = "gfx/leaders/EU/Portrait_BAL_Christian_Rakovsky.png"  
+	expire = "1967.7.10"  
+	ideology = Bolshevism
+	traits = { 
+		
+	}
+}

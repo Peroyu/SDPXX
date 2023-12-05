@@ -904,9 +904,27 @@ country_event = {
 				days = 1
 			}
 		}
+		BUL = {
+			transfer_state = 772
+		}
+		UKR = {
+			transfer_state = 1222
+			transfer_state = 78
+			transfer_state = 1320
+		}
 		AUS = {
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "AUS_Friedrich_Adler"   
+				desc = "AUS_Friedrich_Adler_desc"  
+				picture = "gfx/leaders/EU/Portrait_AUS_Friedrich_Adler.png"   
+				expire = "1959.4.5"   
+				ideology = Austro_Marxism 
+				traits = {  }
+			}
 			set_cosmetic_tag = DF_AUS
 				transfer_state = 784
+				transfer_state = 765
 			transfer_state = 1111
 			transfer_state = 109
 			transfer_state = 1099
@@ -966,10 +984,7 @@ country_event = {
 			transfer_state = 81
 			transfer_state = 46
 			transfer_state = 713
-			transfer_state = 1320
-			transfer_state = 78
 			transfer_state = 79
-			transfer_state = 1222
 			transfer_state = 772
 		}
 	    ai_chance = {
@@ -1018,6 +1033,7 @@ country_event = {
 			transfer_state = 83
 			transfer_state = 1115
 			transfer_state = 1112
+			set_cosmetic_tag = ROM_fre
 		}
 		HUN = {
 			transfer_state = 789
@@ -1052,6 +1068,7 @@ country_event = {
 			transfer_state = 1145
 			transfer_state = 163
 			transfer_state = 1098
+			set_cosmetic_tag = CRT_fre
 		}
 		BOS = {
 			transfer_state = 1142
@@ -1059,6 +1076,16 @@ country_event = {
 			transfer_state = 1145
 			transfer_state = 1141
 			transfer_state = 104
+		}
+		SLO = {
+			transfer_state = 1123
+			transfer_state = 1135
+			transfer_state = 664
+			transfer_state = 70
+			transfer_state = 1120
+			transfer_state = 1121
+			transfer_state = 1119
+			set_cosmetic_tag = SLO_fre
 		}
 	    ai_chance = {
 		   base = 130

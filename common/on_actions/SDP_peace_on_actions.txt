@@ -1773,6 +1773,65 @@ on_actions = {
 					}
 					set_global_flag = skip_default_capitulation
 				}
+				if = { #MAG beat MAD
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MAG
+								is_in_faction_with = MAG
+							}
+						}
+						ROOT = {
+							original_tag = MAD
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					MAG = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						drop_cosmetic_tag = yes
+					}
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = Pacific.17
+							days = 1
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #MAD beat MAG
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MAD
+								is_in_faction_with = MAD
+							}
+						}
+						ROOT = {
+							original_tag = MAG
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					MAD = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						
+					}
+					set_global_flag = skip_default_capitulation
+				}
 			}
 		}
 	}

@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "Infantry Division"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	}
+	support = {
+		
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		motorized_infantry = { x = 0 y = 0 }
+		motorized_infantry = { x = 0 y = 1 }
+		motorized_infantry = { x = 0 y = 2 }
+		motorized_infantry = { x = 1 y = 0 }
+		motorized_infantry = { x = 1 y = 1 }
+		motorized_infantry = { x = 1 y = 2 }
+		motorized_infantry = { x = 2 y = 0 }
+		motorized_infantry = { x = 2 y = 1 }
+		motorized_infantry = { x = 2 y = 2 }
+		motorized_infantry = { x = 2 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+	
+units = {
+	division = {
+		name = "1st Southern Battalion"
+		location = 11293
+		division_template = "Infantry Division"		 
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Northern Battalion"
+		location = 11293
+		division_template = "Infantry Division"		 
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Eastern Battalion"
+		location = 11293
+		division_template = "Infantry Division"		 
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Western Battalion"
+		location = 11293
+		division_template = "Infantry Division"		 
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1st An Garda Síochána"
+		location = 3396
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2nd An Garda Síochána"
+		location = 7394
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3rd An Garda Síochána"
+		location = 7394
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Ulster Special"
+		location = 3379
+		division_template = "Infantry Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+}

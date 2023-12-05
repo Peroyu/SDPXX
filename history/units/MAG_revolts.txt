@@ -1,0 +1,95 @@
+﻿
+division_template = {
+	name = "Madagascar Guard"			# Represents: 2xRgt colonial forces and, usually with old equipment
+	division_names_group = FRA_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "Madagascar Guard Corse"
+		location = 14364
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Madagascar Guard Corse 1"
+		location = 14336
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 2"
+		location = 14346
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Madagascar Guard Corse 3"
+		location = 14365
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 4"
+		location = 5185
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 5"
+		location = 14367
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 6"
+		location = 14350
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 7"
+		location = 14353
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 5"
+		location = 14367
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 6"
+		location = 14350
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Guard Corse 7"
+		location = 14353
+		division_template = "Madagascar Guard"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	
+}

@@ -1,0 +1,69 @@
+﻿
+division_template = {
+	name = "Garnison Coloniale"			# Represents: 2xRgt colonial forces and, usually with old equipment
+	division_names_group = FRA_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Division de Cavalerie Coloniale"
+	division_names_group = FRA_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "Madagascar Corse"
+		location = 14406
+		division_template = "Garnison Coloniale"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Madagascar Corse 1"
+		location = 14406
+		division_template = "Garnison Coloniale"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Corse 2"
+		location = 14406
+		division_template = "Garnison Coloniale"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		name = "Madagascar Corse 3"
+		location = 14373
+		division_template = "Division de Cavalerie Coloniale"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Madagascar Corse 4"
+		location = 14373
+		division_template = "Division de Cavalerie Coloniale"		# 
+		start_experience_factor = 0.5		
+		start_equipment_factor = 0.6
+	}
+
+	
+}
