@@ -1928,7 +1928,58 @@ spriteTypes = {
 			texturefile = "gfx/interface/goals/generic/GFX_Laws.png"			
 	}
 
+	SpriteType = {
+		name = "GFX_NIP_ya_wan_transport_invest"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
+}
 
+SpriteType = {
+	name = "GFX_NIP_delegation_south_ocean"
+	texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
+}
+
+SpriteType = {
+	name = "GFX_NIP_canton_trade"
+	texturefile = "gfx/interface/goals/NIP/GFX_NIP_canton_trade.png"			
+}
+
+SpriteType = {
+	name = "GFX_NIP_militarilise_regional"
+	texturefile = "gfx/interface/goals/NIP/GFX_NIP_militarilise_regional.png"			
+}
+
+SpriteType = {
+	name = "GFX_NIP_lower_continent_units"
+	texturefile = "gfx/interface/goals/generic/GFX_millitary_1.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_through_malacca"
+	texturefile = "gfx/interface/goals/NIP/GFX_NIP_through_malacca.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_listen_soilders"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_emperor_agency"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_overly_patriotic"
+	texturefile = "gfx/interface/goals/generic/GFX_politic_3.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_establish_south_ocean_center"
+	texturefile = "gfx/interface/goals/generic/GFX_millitary_2.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_pan_asia_eco_connection"
+	texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
+}
+SpriteType = {
+	name = "GFX_NIP_continue_disarmament"
+	texturefile = "gfx/interface/goals/NIP/GFX_NIP_continue_disarmament.png"			
+}
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"
