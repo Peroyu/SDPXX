@@ -406,6 +406,72 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.11
+
+    picture = GFX_global_11
+    title = global.11.t
+    desc = global.11.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.11.a
+        trigger = {
+            OR = {
+                has_government = Liberalism
+                has_government = movement_communism
+                has_government = conservatism
+                has_government = reactionism
+                has_government = Nationalism  
+                has_government = restorativeism
+            }
+
+        }
+	}
+    option = {
+		name = global.11.b
+        trigger = {
+            OR = {
+                has_government = communism
+                has_government = committee_communism
+                has_government = moderate_socialism
+                has_government = social_democracy
+            }
+        }
+	}
+}
+news_event = {
+	id = global.12
+
+    picture = GFX_global_12
+    title = global.12.t
+    desc = global.12.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.12.a
+        
+	}
+    
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1

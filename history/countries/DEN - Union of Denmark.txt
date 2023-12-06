@@ -14,6 +14,10 @@ set_politics = {
 	election_frequency = 48  
 	elections_allowed = no   
 }
+country_event = {
+	id = ENT.6
+	days = 90
+}
 add_ideas = {
 	onlooker_of_the_revolutionary_war
 }

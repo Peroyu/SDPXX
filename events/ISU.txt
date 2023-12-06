@@ -125,6 +125,10 @@ country_event = {
 				days = 20
 			}
 			news_event = {
+				id = global.11
+				days = 45
+			}
+			news_event = {
 				id = ISU.3
 				days = 450
 			}

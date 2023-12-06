@@ -179,6 +179,10 @@ CHI = {
 	color = rgb { 100 149 155 }
 	color_ui = rgb { 100 149 155 }
 }
+ICE = {
+	color = rgb { 96 107 141 }
+	color_ui = rgb { 96 107 141 }
+}
 COL = {
 	color = rgb { 222  187  91 }
 	color_ui = rgb { 222  187  91 }

@@ -334,3 +334,40 @@ country_event = {
 	
 	
 }
+country_event = {
+    id = ENT.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.6 FROM = [From.GetName]" }
+	title = ENT.6.t
+	desc = ENT.6.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		ICE = {
+			transfer_state = 100
+		}
+		every_country = {
+			limit = { 
+				is_ai = no
+			}
+			news_event = {
+				id = global.12
+				days = 1
+			}
+		}
+		name = ENT.6.a
+	}
+	
+	
+}
