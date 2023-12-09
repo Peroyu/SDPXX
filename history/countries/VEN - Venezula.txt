@@ -26,21 +26,21 @@ VEN_Democratic_Action_Party
 VEN_sas
 VEN_oil_1
 #######
-single_party_state
-multicultural
-total_separation
-peasant_levies
-national_guard
-censorship
-regulatory_bodies
-compulsory_primary_school
-women_in_the_workplace
-poor_laws
-tenant_farmers
 land_based_taxation
+restricted_child_labor
+single_party_state
+regulatory_bodies
+women_in_the_workplace
 mercantilism
-private_schools
+right_of_assembly
+poor_laws
+public_schools
+freedom_of_conscience
+mass_conscription
+tenant_farmers
+militarized_police
 private_health_insurance
+national_supremacy
 }
 create_country_leader = {
 	name = "VEN_Romulo_Bello"  # 

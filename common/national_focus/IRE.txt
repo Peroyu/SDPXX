@@ -1,5 +1,5 @@
 focus_tree = {
-	id = IRE_open
+	id = IRE_new
 	country = {
 		factor = 0
 		modifier = {
@@ -8,6 +8,18 @@ focus_tree = {
 		}	
 	}
 	default = no
-    shared_focus = IRE_Reborn_Ireland
+    shared_focus = IRE_1
+}
+focus_tree = {
+	id = IRE_lefttree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = IRE  
+		}	
+	}
+	default = no
+    shared_focus = IRE_6
 }
 

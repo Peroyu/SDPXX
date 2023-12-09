@@ -1,293 +1,202 @@
-shared_focus = {
-		id = IRE_Reborn_Ireland
+shared_focus = {#第一个
+		id = IRE_1
 		icon = GFX_IRE_Reborn_Ireland
-		cost = 5
+		cost = 4
 		available_if_capitulated = no
 		x = 10
 		y = 0
 		completion_reward = {   
 		    add_political_power = 100
 			add_stability = 0.1
-			country_event = { id = IRE.1 days = 1 }
 		}
 	}
-#################
-shared_focus = {
-        id = IRE_The_evil_of_the_colonizers
-		icon = GFX_IRE_The_evil_of_the_colonizers
-		cost = 5
+shared_focus = {#第二个
+        id = IRE_2
+		icon = GFX_IRE_2
+		cost = 4
 		available_if_capitulated = no
 		x = 10
 		y = 1
 		prerequisite = {
-		       focus = IRE_Reborn_Ireland
+		    focus = IRE_1
 	    }
         completion_reward = {   
-			swap_ideas = {
-			    remove_idea = IRE_The_evil_of_the_colonizers_1
-			    add_idea = IRE_The_evil_of_the_colonizers_2
-			}
+		    add_ideas = idea_IRE_plan_1
 		}
     }
-shared_focus = {
-        id = IRE_The_legacy_of_the_Great_Famine
-		icon = GFX_IRE_The_legacy_of_the_Great_Famine
-		cost = 5
+shared_focus = {#第三行左边
+        id = IRE_3
+		icon = GFX_IRE_3
+		cost = 1
 		available_if_capitulated = no
-		x = 10
+		x = 8
 		y = 2
-		prerequisite = {
-		    focus = IRE_The_evil_of_the_colonizers
-	    }
-        completion_reward = {   
-			swap_ideas = {
-			    remove_idea = IRE_The_evil_of_the_colonizers_2
-			    add_idea = IRE_The_evil_of_the_colonizers_3
-			}
-			country_event = { id = IRE.5 days = 1 }
-		}
-    }
-shared_focus = {
-        id = IRE_The_price_of_freedom
-		icon = GFX_IRE_The_price_of_freedom
-		cost = 5
-		available_if_capitulated = no
-		x = 10
-		y = 3
-		prerequisite = {
-		       focus = IRE_The_legacy_of_the_Great_Famine
-	    }
-        completion_reward = {   
-			swap_ideas = {
-			    remove_idea = IRE_The_evil_of_the_colonizers_3
-			    add_idea = IRE_The_evil_of_the_colonizers_4
-			}
-			country_event = { id = IRE.6 days = 1 }
-		}
-    }
-shared_focus = {
-        id = IRE_Helplessness_under_confrontation
-		icon = GFX_IRE_Helplessness_under_confrontation
-		cost = 5
-		available_if_capitulated = no
-		x = 10
-		y = 4
-		
-		prerequisite = {
-		    focus = IRE_The_price_of_freedom
-	    }
-        completion_reward = {   
-		    add_political_power = 15
-			country_event = { id = IRE.7 days = 1 }
-		}
-    }
-###########################################
-shared_focus = {
-        id = IRE_Soul_of_a_pioneer
-		icon = GFX_IRE_Soul_of_a_pioneer
-		cost = 5
-		available_if_capitulated = no
-		x = 12
-		y = 1
-		prerequisite = {
-		    focus = IRE_Reborn_Ireland
-	    }
 		completion_reward = {
-           swap_ideas = {
-			    remove_idea = IRE_Soul_of_a_pioneer_1
-			    add_idea = IRE_Soul_of_a_pioneer_2
+		 swap_ideas = {
+			    remove_idea = idea_IRE_plan_1
+			    add_idea = idea_IRE_plan_2
 			}
 		}
+		prerequisite = {
+		    focus = IRE_2
+	    }
+        mutually_exclusive = {
+		    focus=IRE_4
+		}
     }
-shared_focus = {
-        id = IRE_the_establishment_under_independence
-		icon = GFX_IRE_the_establishment_under_independence
-		cost = 5
+shared_focus = {#第三行右边
+        id = IRE_4
+		icon = GFX_IRE_4
+		cost = 1
 		available_if_capitulated = no
 		x = 12
 		y = 2
 		prerequisite = {
-		    focus = IRE_Soul_of_a_pioneer
+		    focus = IRE_2
 	    }
-        completion_reward = {   
-		    add_political_power = 10
-            add_popularity = { ideology = conservatism popularity = 0.05 }
-			add_popularity = { ideology = movement_communism popularity = 0.05 }
-			add_popularity = { ideology = Liberalism popularity = 0.05 }
-			country_event = { id = IRE.8 days = 1 }
+		mutually_exclusive = {
+		    focus=IRE_3
 		}
-    }
-shared_focus = {
-        id = IRE_Reformists_under_liberal_progress
-		icon = GFX_IRE_Reformists_under_liberal_progress
-		cost = 5
-		available_if_capitulated = no
-		x = 12
-		y = 3
-		prerequisite = {
-		    focus = IRE_the_establishment_under_independence
-	    }
-        completion_reward = {   
-		    add_political_power = 10
-            add_popularity = { ideology = moderate_socialism popularity = 0.05 }
-			add_popularity = { ideology = social_democracy popularity = 0.05 }
-			country_event = { id = IRE.9 days = 1 }
-		}
-    }
-shared_focus = {
-        id = IRE_Radicals_under_extremism
-		icon = GFX_IRE_Radicals_under_extremism
-		cost = 5
-		available_if_capitulated = no
-		x = 12
-		y = 4
-		prerequisite = {
-		    focus = IRE_Reformists_under_liberal_progress
-	    }
-        completion_reward = {   
-		    add_political_power = 10
-            add_popularity = { ideology = communism popularity = 0.01 }
-			add_popularity = { ideology = committee_communism popularity = 0.01 }
-			add_popularity = { ideology = reactionism popularity = 0.01 }
-			add_popularity = { ideology = Nationalism popularity = 0.01 }
-			add_popularity = { ideology = restorativeism popularity = 0.01 }
-			country_event = { id = IRE.10 days = 1 }
-			swap_ideas = {
-			    remove_idea = IRE_Ulster_1
-			    add_idea = IRE_Ulster_2
+        completion_reward = {
+		 swap_ideas = {
+			    remove_idea = idea_IRE_plan_1
+			    add_idea = idea_IRE_plan_3
 			}
+		}
+    }
+shared_focus = {#第四行
+        id = IRE_5
+		icon = GFX_IRE_5
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		prerequisite = {focus = IRE_3 OR = IRE_4}
+		select_effect = {
+		country_event = { id = IRE.1 days = 7 }
 		}
     }
 ############################################
-shared_focus = {
-        id = IRE_Blood_of_the_Resisters
-		icon = GFX_IRE_Blood_of_the_Resisters
+shared_focus = {#左线第一个
+        id = IRE_6
+		icon = GFX_IRE_6
+		cost = -1
+		x = 0 
+		y = 0
+		available = {
+			always = no
+		}
+		completion_reward = {
+		add_political_power = 50
+		}
+    }
+	shared_focus = {#左线第二行左
+        id = IRE_8
+		icon = GFX_IRE_8
 		cost = 5
-		available_if_capitulated = no
-		x = 8
+		x = -1
 		y = 1
-		prerequisite = {
-		    focus = IRE_Reborn_Ireland
-	    }
-        completion_reward = { 
-            swap_ideas = {
-			    remove_idea = IRE_Blood_of_the_Resisters_1
-			    add_idea = IRE_Blood_of_the_Resisters_2
-			}		
-		    add_war_support = 0.2
-			add_stability = -0.15
+		prerequisite = {focus = IRE_6}
+		completion_reward = {
+		  
+		}
+    }
+shared_focus = {#左线第二行右
+        id = IRE_9
+		icon = GFX_IRE_9
+		cost = 5
+		x = 1
+		y = 1
+		prerequisite = {focus = IRE_6}
+		completion_reward = {
+		 
 		}
     }
 shared_focus = {
-        id = IRE_Both_sides_of_the_ocean
-		icon = GFX_IRE_Both_sides_of_the_ocean
+        id = IRE_10
+		icon = GFX_IRE_10
 		cost = 5
-		available_if_capitulated = no
-		x = 8
+		x = -2
 		y = 2
-		prerequisite = {
-		    focus = IRE_Blood_of_the_Resisters
-	    }
-        completion_reward = {   
-		    swap_ideas = {
-			    remove_idea = IRE_Blood_of_the_Resisters_2
-			    add_idea = IRE_Blood_of_the_Resisters_3
-			}
-			country_event = { id = IRE.2 days = 1 }
-			add_opinion_modifier = { 
-			    target = CAN 
-			    modifier = -20
-		    }
+		prerequisite = {focus = IRE_8}
+		prerequisite = {focus = IRE_9}
+		completion_reward = {
+		 
 		}
-    }
+	}
 shared_focus = {
-        id = IRE_Continental_Europe
-		icon = GFX_IRE_Continental_Europe
+        id = IRE_11
+		icon = GFX_IRE_11
 		cost = 5
-		available_if_capitulated = no
-		x = 8
+		x = 0
+		y = 2
+		prerequisite = {focus = IRE_8}
+		prerequisite = {focus = IRE_9}
+		completion_reward = {
+		 
+		}
+	}
+shared_focus = {
+        id = IRE_12
+		icon = GFX_IRE_12
+		cost = 5
+		x = 2
+		y = 2
+		prerequisite = {focus = IRE_8}
+		prerequisite = {focus = IRE_9}
+		completion_reward = {
+		 
+		}
+	}
+shared_focus = {
+        id = IRE_13
+		icon = GFX_IRE_13
+		cost = 5
+		x = -1
 		y = 3
-		prerequisite = {
-		    focus = IRE_Both_sides_of_the_ocean
-	    }
-        completion_reward = {   
-		    add_stability = 0.05
-			country_event = { id = IRE.3 days = 1 }
+		prerequisite = {focus = IRE_10}
+		prerequisite = {focus = IRE_11}
+		prerequisite = {focus = IRE_12}
+		completion_reward = {
+		 swap_ideas = {
+			    remove_idea = idea_IRE_plan_1
+			    add_idea = idea_IRE_plan_3
+			}
 		}
-    }
+	}
 shared_focus = {
-        id = IRE_North_America
-		icon = GFX_IRE_North_America
+        id = IRE_14
+		icon = GFX_IRE_14
 		cost = 5
-		available_if_capitulated = no
-		x = 8
+		x = 1
+		y = 3
+		prerequisite = {focus = IRE_10}
+		prerequisite = {focus = IRE_11}
+		prerequisite = {focus = IRE_12}
+		completion_reward = {
+		 swap_ideas = {
+			    remove_idea = idea_IRE_plan_1
+			    add_idea = idea_IRE_plan_3
+			}
+		}
+	}
+shared_focus = {
+        id = IRE_15
+		icon = GFX_IRE_15
+		cost = 5
+		x = 0
 		y = 4
-		prerequisite = {
-		    focus = IRE_Continental_Europe
-	    }
-        completion_reward = {   
-		    add_political_power = 50
-			country_event = { id = IRE.4 days = 1 }
-		}
-    }
-########################################
-shared_focus = {
-        id = IRE_Ireland_on_the_stage
-		icon = GFX_IRE_Ireland_on_the_stage
-		cost = 5
-		available_if_capitulated = no
-		x = 10
-		y = 5
-		prerequisite = {
-		    focus = IRE_North_America
-	    }
-		prerequisite = {
-		    focus = IRE_Radicals_under_extremism
-		}
-		prerequisite = {
-		    focus = IRE_Helplessness_under_confrontation
-		}
-        completion_reward = {   
-		    add_political_power = 100
-			add_stability = 0.1
-			country_event = { id = IRE.11 days = 1 }
-		}
-    }
-shared_focus = {
-        id = IRE_Dublin_Olympics
-		icon = GFX_IRE_Dublin_Olympics
-		cost = 5
-		available_if_capitulated = no
-		x = 10
-		y = 6
-		prerequisite = {
-		    focus = IRE_Ireland_on_the_stage
-	    }
-        completion_reward = {   
-		    add_ideas = IRE_Dublin_Olympics
-		    add_political_power = 100
-			country_event = { id = IRE.12 days = 1 }
-		}
-    }
-shared_focus = {
-        id = IRE_Olympic_celebrations
-		icon = GFX_IRE_Olympic_celebrations
-		cost = 5
-		available_if_capitulated = no
-		x = 10
-		y = 7
-		prerequisite = {
-		    focus = IRE_Dublin_Olympics
-	    }
-        completion_reward = {   
-		    add_political_power = 100
-			add_stability = 0.2
-			country_event = { id = IRE.13 days = 1 }
-			add_building_construction = {
-			    type = industrial_complex 
-			    level = 3 
-			    province = 11293 
-			    instant_build = yes
-		    }
-		}
+		prerequisite = {focus = IRE_13}
+		prerequisite = {focus = IRE_14}
+	}
+############################################
+shared_focus = {#右线第一个
+        id = IRE_7
+		icon = GFX_IRE_7
+		cost = -1
+		x = 14
+		y = 4
+		available = {
+			always = no
+		}	
     }

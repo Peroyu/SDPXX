@@ -209,6 +209,239 @@ ideas = {
 			}
 	    
 		}
-		
+		idea_IRE_plan_1 = {
+		    name = idea_IRE_plan
+            picture = GFX_idea_IRE_plan
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			production_speed_buildings_factor = 0.2
+			political_power_gain = -0.05
+			}
+		}
+		idea_IRE_plan_2 = {
+		    name = idea_IRE_plan
+            picture = GFX_idea_IRE_plan
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			production_speed_buildings_factor = 0.2
+			political_power_gain = -0.05
+			consumer_goods_factor = -0.1
+			production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		idea_IRE_plan_3 = {
+		    name = idea_IRE_plan
+            picture = GFX_idea_IRE_plan
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			production_speed_buildings_factor = 0.2
+			political_power_gain = -0.05
+			production_speed_buildings_factor = 0.3
+			industrial_capacity_factory = 0.15
+			}
+		}
+
+		idea_IRE_eco_1 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_2 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_3 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_4 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_5 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_6 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_7 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
+		idea_IRE_eco_8 = {
+		   name = idea_IRE_eco
+            picture = GFX_idea_IRE_eco
+			allowed = { 
+			   always = no
+			}
+			available = {
+			    
+			}
+            removal_cost = -1
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = 0.2
+			consumer_goods_factor = 0.35
+			industrial_capacity_factory = 0.05
+			production_speed_infrastructure_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_max_efficiency_factor = -0.1
+			min_export = -0.2
+			trade_opinion_factor = -0.35
+			}
+		}
 	}
 }
