@@ -121,9 +121,9 @@ country_event = {
 country_event = {
     id = VENwar.5#eeeeeeeeeeee
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	VENwar.4 FROM = [From.GetName]" }
-	title = VENwar.4.t
-	desc = VENwar.4.d
+	VENwar.5 FROM = [From.GetName]" }
+	title = VENwar.5.t
+	desc = VENwar.5.d
 	picture = GFX_VENwar_1
 	
 	is_triggered_only = yes
@@ -144,7 +144,7 @@ country_event = {
 		   base = 100
 		}
 		
-		name = VENwar.4.a
+		name = VENwar.5.a
 	}
 	
 }
