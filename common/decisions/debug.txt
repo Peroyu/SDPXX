@@ -127,5 +127,27 @@ SDP_debug = {
 		
 	
 	}
-    
+    SDP_debug_IRE_lefttree = {
+
+		icon = decision_generic_political_discourse
+		fire_only_once = no
+		available = {
+			is_debug = yes
+			tag = IRE
+			}
+		allowed = {
+			is_debug = yes
+			tag = IRE
+			}
+		visible = {
+		    tag = IRE
+			}
+	
+		complete_effect = {
+			load_focus_tree = IRE_lefttree
+		}
+	
+		
+	
+	}
 }

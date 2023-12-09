@@ -14,7 +14,11 @@ IRE_Olympic_2_categories = {
 		fire_only_once = yes               
         days_mission_timeout = 450              
         timeout_effect = { 
-		
+		  clr_country_flag = IRE_Build_start
+		  country_event = {
+		   id = IRE_bid_Olympic.2
+		   days = 1
+		  }
         }
 	}
 	###############################

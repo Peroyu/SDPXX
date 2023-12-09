@@ -122,6 +122,7 @@ scripted_gui = {
 	SDP_IRE_change_main ={
 		window_name = "SDP_IRE_change_main"
 		context_type = Player_context
+		parent_window_token = politics_tab
 		visible = {
 		 AND = {
 		    tag = IRE

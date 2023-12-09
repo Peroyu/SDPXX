@@ -26,6 +26,30 @@ country_event = {
 	}
 }
 country_event = {
+    id = IRE_bid_Olympic.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_bid_Olympic.2 FROM = [From.GetName]" }
+	title = IRE_bid_Olympic.2.t
+	desc = IRE_bid_Olympic.2.d
+	picture = GFX_IRE.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_bid_Olympic.2.a
+	}
+}
+country_event = {
     id = IRE_Build_venues.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	IRE_Build_venues.1 FROM = [From.GetName]" }
@@ -269,7 +293,7 @@ country_event = {
 	IRE.1 FROM = [From.GetName]" }
 	title = IRE.1.t
 	desc = IRE.1.d
-	picture = GFX_IRE.1
+	picture = GFX_IREevent_1
 	
 	is_triggered_only = yes
 	
@@ -282,8 +306,20 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		complete_national_focus = IRE_6
+		set_country_flag = IRE_left
 		name = IRE.1.a
+		load_focus_tree = IRE_lefttree
+		add_ideas = idea_IRE_eco_1
+	}
+	option = { 
+	    ai_chance = {
+		   base = 0
+		}
+		complete_national_focus = IRE_7
+		set_country_flag = IRE_right
+		name = IRE.1.b
+		add_ideas = idea_IRE_eco_1
 	}
 }
 country_event = {

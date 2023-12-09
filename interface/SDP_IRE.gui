@@ -76,7 +76,7 @@ guiTypes ={
 	}
 	containerWindowType = {#主窗口
 		name = "SDP_IRE_change_main"
-		position = { x = -963 y = 122 }
+		position = { x = -272 y = 44 }
 		Orientation = CENTER_UP
 		size = { width = 500 height = 500 }
 		moveable = no

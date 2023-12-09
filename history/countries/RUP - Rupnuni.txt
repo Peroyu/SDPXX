@@ -1,0 +1,49 @@
+﻿capital = 1079
+
+oob = "RUP_1947"
+
+set_war_support = 0.9
+set_stability = 0.3
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 5
+	Liberalism = 4
+	movement_communism = 6
+	conservatism = 10
+	conservatism = 55
+	moderate_socialism = 10
+	reactionism = 10
+}
+add_ideas = {
+#######
+land_based_taxation
+child_labor_allowed
+autocracy
+no_workers_rights
+women_own_property
+isolationism
+right_of_assembly
+no_social_security
+no_schools
+freedom_of_conscience
+great_conscription
+tenant_farmers
+no_home_affairs
+charitable_health_system
+national_supremacy
+}
+create_country_leader = {
+	name = "RUP_Council"  # 
+	desc = "RUP_Council_desc"  # 
+	picture = "GFX_portrait_RUP_Council"  # 
+	expire = "1980.4.30"  # 
+	ideology = revolutionary_nationalism # 
+	traits = {  # 
+		#
+	}
+}
