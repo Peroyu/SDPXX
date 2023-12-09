@@ -232,7 +232,7 @@ add_ideas = {
 }
 create_country_leader = {
 		name = "NIP_Tokugawa_Iemasa"   
-		desc = "NIP_Hirohito_desc"  
+		desc = "NIP_Tokugawa_Iemasa_desc"  
 		picture = "gfx/leaders/JAP/portrait_NIP_Tokugawa_Iemasa.png"   
 		expire = "1989.1.7"   
 		ideology = Zenkoku_isseini
