@@ -17,7 +17,7 @@ set_power_balance = {
 1946.8.1 = {
 add_named_threat = { threat = 5 name = JAP_threat_5_war }
 }
-
+set_variable = { var = FactionStatus value = 4}
 set_country_flag = FOPO_ENABLE
 create_faction = "大东亚共荣圈"
 add_to_faction = RCR
