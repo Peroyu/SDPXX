@@ -7,7 +7,7 @@ guiTypes ={
 			name = "SDP_faction_isu_status"
 			position =  { x = 405  y =275}  
 			spriteType = "GFX_faction_isu"
-			
+			pdx_tooltip = SDP_isu_faction_desc
 		} 
 	}
 }
