@@ -34,21 +34,8 @@ scripted_gui = {
 		}
 		
 		properties = {
-			# Buttons
-
-			# Line Segment Stuff
-			line_segment = {
-				frame = segment_value
-			}
-
-			vbar = {
-				y = social_tab_econ_graph_vbar_offsets^vbar_idx
-			}
-			vbar_light = {
-				y = social_tab_econ_graph_vbar_offsets^vbar_idx
-			}
-			vbar_label = {
-				y = social_tab_econ_graph_vbar_offsets^vbar_idx 
+		    SDP_economic_main_line = {
+				frame = ROOT.GDP
 			}
 		}
 	}

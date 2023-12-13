@@ -9,20 +9,6 @@ on_actions = {
 	on_startup = {
 		effect = {
 			
-			
-			every_country = {
-				set_variable = {  SDP_GDP_number = 13.106 }
-				set_variable = {  increase_production_capacity = SDP_industry_v }
-				divide_variable = { increase_production_capacity = 1000 }
-
-				#
-				set_variable = {  Economic_civilian_num = 5 }
-				set_variable = {  Economic_millita_num = 4.5 }
-				multiply_variable = { Economic_civilian_num = num_of_civilian_factories }
-				multiply_variable = { Economic_millita_num = num_of_military_factories }
-				set_variable = {  Economic_num = Economic_civilian_num }
-				add_to_variable = { Economic_num = Economic_millita_num }
-			}
 			every_country = {
 				limit = {
 					is_ai = no

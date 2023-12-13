@@ -1,4 +1,0 @@
-Eco_change_start = {
-		
-	
-}
