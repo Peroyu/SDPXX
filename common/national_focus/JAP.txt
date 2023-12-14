@@ -90,7 +90,10 @@ focus_tree = {
 			focus = NIP_house_of_lords_league
 		}
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP.102
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -177,7 +180,10 @@ focus_tree = {
 			focus = NIP_view_taisenyisankui
 		}
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP.101
+				days = 1
+			}
 			}
 	}
 	focus = {

@@ -602,3 +602,53 @@ country_event = {
 	
 }
 ###################################################
+country_event = {
+    id = JAP.101  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.101 FROM = [From.GetName]" }
+	title = JAP.101.t
+	desc = JAP.101.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.101.a
+	}
+	
+}
+country_event = {
+    id = JAP.102  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.102 FROM = [From.GetName]" }
+	title = JAP.102.t
+	desc = JAP.102.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.102.a
+	}
+	
+}
