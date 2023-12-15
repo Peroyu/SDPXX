@@ -49,7 +49,7 @@ JAP_election_decision = {
 		}
 
 		visible = {
-			has_country_flag = JAP_election_flag
+			
 		}
 		activation = {
 			has_country_flag = JAP_election_flag
@@ -89,7 +89,7 @@ JAP_election_decision = {
 		}
 
 		visible = {
-			has_country_flag = JAP_election_flag
+			
 		}
 		activation = {
 			has_country_flag = JAP_election_flag
@@ -129,7 +129,7 @@ JAP_election_decision = {
 		}
 
 		visible = {
-			has_country_flag = JAP_election_flag
+			
 		}
 		activation = {
 			has_country_flag = JAP_election_flag
@@ -169,7 +169,7 @@ JAP_election_decision = {
 		}
 
 		visible = {
-			has_country_flag = JAP_election_flag
+			
 		}
 		activation = {
 			has_country_flag = JAP_election_flag
@@ -209,7 +209,7 @@ JAP_election_decision = {
 		}
 
 		visible = {
-			has_country_flag = JAP_election_flag
+			
 		}
 		activation = {
 			has_country_flag = JAP_election_flag
@@ -232,6 +232,72 @@ JAP_election_decision = {
                 id = JAP.6
                 days = 1
             }
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+
+	JAP_final_election = {
+
+		icon = decision__unions_support
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			
+		}
+		activation = {
+			has_country_flag = JAP_election_flag
+		}
+		
+		days_mission_timeout = 90
+		is_good = yes
+		
+		complete_effect = {
+			
+		}
+		
+		
+		cancel_effect = {
+			#任务终止时触发的效果
+		}
+
+		timeout_effect = {
+			set_variable = { JAP_eletion_party_support = NIP_ST_seats }
+			add_to_variable = { JAP_eletion_party_support = NIP_RK_seats }
+			set_variable = { JAP_eletion_guomin_support = NIP_RS_seats }
+			add_to_variable = { JAP_eletion_guomin_support = NIP_NS_seats }
+			if = {
+				limit = {
+					check_variable = { #检查变量大小
+					var = NIP.JAP_eletion_party_support
+					value = NIP.JAP_eletion_guomin_support
+					compare = greater_than
+					}
+				}
+				country_event = {
+					id = NIP.6 
+					days = 5
+				}
+			}
+			if = {
+				limit = {
+					check_variable = { #检查变量大小
+					var = NIP.JAP_eletion_party_support
+					value = NIP.JAP_eletion_guomin_support
+					compare = less_than 
+					}
+				}
+				country_event = {
+					id = NIP.7
+					days = 5
+				}
+			}
 		}
 		
 		ai_will_do = {

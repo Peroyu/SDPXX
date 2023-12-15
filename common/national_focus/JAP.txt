@@ -154,7 +154,10 @@ focus_tree = {
 			focus = NIP_relax_moblization
 		}
 		completion_reward = { 
-			
+			country_event = {
+				id = NIP.4
+				days = 1
+			}
 			}
 	}
 	focus = {
