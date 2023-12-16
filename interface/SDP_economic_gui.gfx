@@ -32,4 +32,8 @@ spriteTypes = {
 		name = "GFX_econ_graph_horizontal_bar"
 		texturefile = "gfx/interface/line_graph/graph_horizontal_bar.dds"
 	}
+	spriteType = {
+		name = "GFX_econ_graph_horizontal_bar"
+		texturefile = "gfx/interface/line_graph/graph_horizontal_bar.dds"
+	}
 }
