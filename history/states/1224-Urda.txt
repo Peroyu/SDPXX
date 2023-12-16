@@ -8,9 +8,8 @@ state = {
 
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
-		add_claim_by = TRM
+		owner = CAS
+		add_core_of = CAS
 		buildings = {
 			infrastructure = 1
 		} 

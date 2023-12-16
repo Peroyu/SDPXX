@@ -34,5 +34,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress_radial.lua"
 		steps = 90
 	}
-
+    spriteType = {
+		name = "GFX_piechart_frame"
+		texturefile = "gfx/interface/GFX_piechart_frame.dds"
+	}
 }

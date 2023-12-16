@@ -4,7 +4,8 @@ state={
 
 	local_supplies = 4.0 
 	history={
-		owner = TRU
+		owner = TKM
+		add_core_of = TKM
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

@@ -5,8 +5,8 @@ state = {
 		4482 4549 4958 5003 7560 10742
 	}
 	history = {
-		owner = TRU
-		add_claim_by = AFG
+		owner = TKM
+		add_core_of = TKM
 		buildings = {
 			infrastructure = 2
 		}

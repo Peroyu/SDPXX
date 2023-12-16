@@ -1,0 +1,16 @@
+soundeffect = {
+	name = Balkan_war_voice
+	falloff = "falloff_distance"
+	loop = no
+	sounds = {
+		sound = Balkan_war_voice
+	} 
+	max_audible = 2
+	max_audible_behaviour = fail
+	is3d = yes
+	volume = 0.4
+}
+sound = {
+	name = "Balkan_war_voice"
+	file = "superevent/Balkan_war_voice.wav"
+}

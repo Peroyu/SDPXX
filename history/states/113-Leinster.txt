@@ -1,33 +1,32 @@
-state = {
-	id = 113
-	name = "STATE_113" # Leinster
-	manpower = 1357600
-	resources = {
-		aluminium = 2
-		steel = 3
+
+state={
+	id=113
+	name="STATE_113"
+	resources={
+		aluminium=2.000
+		steel=3.000
 	}
 
-	state_category = five
-
-	history = {
+	history={
 		owner = IRE
 		victory_points = {
-			11293 20
+			11293 20 
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 4
+			infrastructure = 2
+			industrial_complex = 2
 			air_base = 3
 
-			11293 = {
-				naval_base = 6
-			}
 		}
 		add_core_of = IRE
+
 	}
 
-	provinces = {
-		285 303 369 3342 3359 7377 11293 11303
+	provinces={
+		285 303 369 3342 3359 7377 11303 
 	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=five
+	local_supplies=0.000
 }
