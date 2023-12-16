@@ -7,6 +7,7 @@ guiTypes ={
 			name = "SDP_faction_xieyue"
 			position =  { x = 400  y =273}  
 			spriteType = "GFX_faction_xieyue"
+			pdx_tooltip = SDP_xieyue_faction_desc
 			
 		} 
 	}

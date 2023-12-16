@@ -97,11 +97,11 @@ add_ideas = {
 	national_supremacy
  }
 create_country_leader = {
-	name = "AIS"  # 
+	name = "AIS_Abdelbaki_Sahraoui"  # 
 	desc = "/"  # 
-	picture = Portrait_ALG_Ahmed_Ben_Messali_Hadj  # 
+	picture = Portrait_AIS_Abdelbaki_Sahraoui  # 
 	expire = "1952.4.30"  # 
-	ideology = Salafism # 
+	ideology = Fundamentalism # 
 	traits = {  # 
 		#
 	}

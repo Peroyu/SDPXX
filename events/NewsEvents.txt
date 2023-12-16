@@ -472,6 +472,29 @@ news_event = {
     
 }
 news_event = {
+	id = global.13
+
+    picture = GFX_global_13
+    title = global.13.t
+    desc = global.13.d
+    immediate = { 
+        hidden_effect = {
+            
+        }
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.13.a
+        
+	}
+    
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1

@@ -1,0 +1,233 @@
+update_economy_tab = {
+	hidden_effect = {
+		update_econ_sliders = yes
+		economic_centralization_calculation = yes
+		calculate_funding_effects_display = yes
+		calculate_total_income = yes
+		calculate_civilian_expenditures = yes
+		calculate_military_expenditures = yes
+		calculate_debt_expenditures = yes
+		calculate_total_expenditures = yes
+		validate_maximal_minimal_positions = yes
+		calculate_total_budget = yes #includes deficit calculation
+
+		update_all_econ_pie_charts = yes
+
+		econ_rerender_gdp_graph = yes
+		econ_rerender_debt_graph = yes
+
+		TNO_update_policy_effectiveness = yes #I don't think this is actually needed any more. Maybe it is. Hopefully it isn't.... # Spoilers, it's necessary because funding effects are done at the end of the month by laws and we need to update that
+		calculate_deficit_to_GDP_ratio = yes
+		calculate_debt_to_GDP_ratio = yes
+		calculate_deficit_to_debt_ratio = yes
+		calculate_deficit_effects_display = yes
+		calculate_debt_ceiling = yes
+		calculate_debt_effect_on_GDP_growth = yes
+
+		calculate_nominal_GDP_growth = yes
+
+		#calculate_central_bank_effect = yes
+		calculate_total_inflation = yes
+		calculate_real_gdp_growth = yes
+
+		calculate_inflation_effect = yes
+		calculate_display_variables = yes
+
+		reload_gdpc = yes
+
+		update_credit_rating_calculation = yes
+
+		force_update_dynamic_modifier = yes
+
+		update_econ_centralization_pos = yes
+		calculate_poverty_dampener_effect = yes
+	}
+}
+econ_update_graph_monthly = {
+
+add_to_array = { econ_graph_months = ROOT.econ_graph_month }
+add_to_array = { gdp_numbers = gdp }
+
+set_temp_variable = { debt_to_gdp = national_debt }
+multiply_temp_variable = { debt_to_gdp = 100 }
+divide_temp_variable = { debt_to_gdp = gdp }
+add_to_array = { debt_to_gdp_numbers = debt_to_gdp }
+
+add_to_array = { inflation_numbers = clamped_inflation_rate }
+
+if = {
+	limit = {
+		check_variable = { econ_graph_months^num > 17 }
+	}
+	remove_from_array = { array = econ_graph_months index = 0 }
+	remove_from_array = { array = gdp_numbers index = 0 }
+	remove_from_array = { array = debt_to_gdp_numbers index = 0 }
+	remove_from_array = { array = inflation_numbers index = 0 }
+}
+
+if = {
+	limit = {
+		is_ai = no
+	}
+	econ_rerender_gdp_graph = yes
+}
+}
+econ_rerender_gdp_graph = {
+	# Find the maximum and minimum GDP values for the graph
+	clear_array = GDP_y_label
+	set_temp_variable = { min = gdp_numbers^0 }
+	set_temp_variable = { max = gdp_numbers^0 }
+	for_loop_effect = {
+		start = 0
+		end = gdp_numbers^num
+		value = i
+
+		if = {
+			limit = { check_variable = { gdp_numbers^i > max } }
+			set_temp_variable = { max = gdp_numbers^i }
+		}
+		if = {
+			limit = { check_variable = { gdp_numbers^i < min } }
+			set_temp_variable = { min = gdp_numbers^i }
+		}
+	}
+
+	# Simplified version of the range-finding code from Brazil
+	# Feel free to move or modify
+	# Our range is (min value / 1.1) - (max value * 1.1)
+	multiply_temp_variable = { max = 1.1 }
+	divide_temp_variable = { min = 1.1 }
+
+
+	set_temp_variable = { range = max }
+	subtract_from_temp_variable = { range = min }
+
+	# Divide the range into 5 equally sized chunks
+	set_temp_variable = { display_increment = range }
+	divide_temp_variable = { display_increment = 4 }
+
+	set_temp_variable = { gdp_band_display = min }
+	for_loop_effect = {
+		end = 5
+		add_to_array = { GDP_y_label = gdp_band_display index = 0 }
+		add_to_temp_variable = { gdp_band_display = display_increment }
+	}
+
+	divide_temp_variable = { range = 100 }
+
+	# Get all segments Progress Bar values
+	clear_array = gdp_graph_frames
+	for_loop_effect = {
+		start = 0
+		end = 16
+		value = i
+
+		set_temp_variable = { j = i }
+		add_to_temp_variable = { j = 1 }
+
+		set_temp_variable = { hi = gdp_numbers^j }
+		set_temp_variable = { lo = gdp_numbers^i }
+
+
+		subtract_from_temp_variable = { hi = min }
+		subtract_from_temp_variable = { lo = min }
+		divide_temp_variable = { hi = range }
+		divide_temp_variable = { lo = range }
+
+		round_temp_variable = hi
+		round_temp_variable = lo
+
+		set_temp_variable = { endpoints = lo }
+		multiply_temp_variable = { endpoints = 1000 }
+		add_to_temp_variable = { endpoints = hi }
+		add_to_array = { gdp_graph_frames = endpoints }
+	}
+
+	add_to_variable = { TNO_economy_GUI_dirty = 1 }
+}
+
+econ_rerender_inflation_graph = {
+	clear_array = inflation_y_label
+	# Find the maximum and minimum inflation values for the graph
+	set_temp_variable = { min = inflation_numbers^0 }
+	set_temp_variable = { max = inflation_numbers^0 }
+	for_loop_effect = {
+		start = 0
+		end = inflation_numbers^num
+		value = i
+
+		if = {
+			limit = { check_variable = { inflation_numbers^i > max } }
+			set_temp_variable = { max = inflation_numbers^i }
+		}
+		if = {
+			limit = { check_variable = { inflation_numbers^i < min } }
+			set_temp_variable = { min = inflation_numbers^i }
+		}
+	}
+
+	# Simplified version of the range-finding code from Brazil
+	# Feel free to move or modify
+	# Our range is (min value / 1.1) - (max value * 1.1)
+	multiply_temp_variable = { max = 1.1 }
+	divide_temp_variable = { min = 1.1 }
+
+	if = {
+		limit = { check_variable = { min = max } }
+		add_to_temp_variable = { max = 0.05 }
+		subtract_from_temp_variable = { min = 0.05 }
+	}
+	if = {
+		limit = { check_variable = { min = 0 } }
+		set_temp_variable = { to_sub = max }
+		multiply_temp_variable = { to_sub = 0.1 }
+		subtract_from_temp_variable = { min = to_sub }
+	}
+
+	set_temp_variable = { range = max }
+	subtract_from_temp_variable = { range = min }
+
+	# Divide the range into 5 equally sized chunks
+	set_temp_variable = { display_increment = range }
+	divide_temp_variable = { display_increment = 4 }
+
+	set_temp_variable = { inflation_band_display = min }
+	for_loop_effect = {
+		end = 5
+		add_to_array = { inflation_y_label = inflation_band_display index = 0 }
+		add_to_temp_variable = { inflation_band_display = display_increment }
+	}
+
+	divide_temp_variable = { range = 100 }
+
+	# Get all segments Progress Bar values
+	clear_array = inflation_graph_frames
+	for_loop_effect = {
+		start = 0
+		end = 16
+		value = i
+
+		set_temp_variable = { j = i }
+		add_to_temp_variable = { j = 1 }
+
+		set_temp_variable = { hi = inflation_numbers^j }
+		set_temp_variable = { lo = inflation_numbers^i }
+
+
+		subtract_from_temp_variable = { hi = min }
+		subtract_from_temp_variable = { lo = min }
+		divide_temp_variable = { hi = range }
+		divide_temp_variable = { lo = range }
+
+		round_temp_variable = hi
+		round_temp_variable = lo
+
+		set_temp_variable = { endpoints = lo }
+		multiply_temp_variable = { endpoints = 1000 }
+		add_to_temp_variable = { endpoints = hi }
+		add_to_array = { inflation_graph_frames = endpoints }
+
+	}
+
+	add_to_variable = { TNO_economy_GUI_dirty = 1 }
+}

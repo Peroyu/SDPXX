@@ -17,7 +17,7 @@ set_power_balance = {
 1946.8.1 = {
 add_named_threat = { threat = 5 name = JAP_threat_5_war }
 }
-
+set_variable = { var = FactionStatus value = 4}
 set_country_flag = FOPO_ENABLE
 create_faction = "大东亚共荣圈"
 add_to_faction = RCR
@@ -37,16 +37,16 @@ if = {
 		add_to_tech_sharing_group = NIPan_research
 	}
 }
-set_variable = { NIP.NIP_RK_seats = 73 }
-set_variable = { NIP.NIP_RK_influence = 28 }
-set_variable = { NIP.NIP_ST_seats = 92 }
-set_variable = { NIP.NIP_ST_influence = 18 }
-set_variable = { NIP.NIP_RS_seats = 252 }
-set_variable = { NIP.NIP_RS_influence = 32 }
-set_variable = { NIP.NIP_NS_seats = 20 }
-set_variable = { NIP.NIP_NS_influence = 12 }
+set_variable = { NIP.NIP_RK_seats = 87 }
+
+set_variable = { NIP.NIP_ST_seats = 136 }
+
+set_variable = { NIP.NIP_RS_seats = 175 }
+
+set_variable = { NIP.NIP_NS_seats = 43 }
+
 set_variable = { NIP.NIP_NP_seats = 29}
-set_variable = { NIP.NIP_NP_influence = 21 }
+
 
 set_country_flag = NIP_economic_sphere
 set_variable = { SDP_welcome_splash_variable = 1 }

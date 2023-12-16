@@ -1,4 +1,168 @@
 defined_text = {
+	name = econ_graph_year
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = econ_graph_months^i }
+			divide_temp_variable = { months = 12 }
+			subtract_from_temp_variable = { months = 0.49 }
+			round_temp_variable = months
+			set_temp_variable = { year = 60 }
+			add_to_temp_variable = { year = months }
+		}
+		localization_key = econ_year
+	}
+}
+
+defined_text = {
+	name = GetCurrency
+	# text = {
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	tag = GER
+	# 		# 	check_variable = { ECON_SPHERE_LEADER = GER }
+	# 			ROOT = {
+	# 				OR = {
+	# 					tag = GER
+	# 					check_variable = { ECON_SPHERE_LEADER = GER }
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_REICHSMARK
+	# }
+
+	# text = {
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	tag = JAP
+	# 		# 	check_variable = { ECON_SPHERE_LEADER = JAP }
+	# 			ROOT = {
+	# 				OR = {
+	# 					tag = JAP
+	# 					check_variable = { ECON_SPHERE_LEADER = JAP }
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_YEN
+	# }
+
+	# text = { # ask about coding this in for all russian folks
+	# 	trigger = {
+	# 		# OR = {
+	# 		# 	is_russian_nation = yes
+	# 		# 	is_kazakh_nation = yes
+	# 			ROOT = {
+	# 				OR = {
+	# 					is_russian_nation = yes
+	# 					is_kazakh_nation = yes
+	# 				}
+	# 			}
+	# 		#}
+	# 	}
+
+	# 	localization_key = CURRENCY_RUBLE
+	# }
+
+	text = {
+		localization_key = CURRENCY_USD
+	}
+}
+
+defined_text = {
+	name = line_graph_first_data_label
+	text = {
+		trigger = {
+			set_temp_variable = { segment_idx = -1 }
+		}
+		localization_key = line_graph_data_label
+	}
+}
+defined_text = {
+	name = econ_graph_month
+	text = {
+		trigger = {
+			set_temp_variable = { i = segment_idx }
+			add_to_temp_variable = { i = 1 }
+			set_temp_variable = { months = econ_graph_months^i }
+			modulo_temp_variable = { months = 12 }
+			check_variable = { months = 0 }
+		}
+		localization_key = econ_month_0
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 1 }
+		}
+		localization_key = econ_month_1
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 2 }
+		}
+		localization_key = econ_month_2
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 3 }
+		}
+		localization_key = econ_month_3
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 4 }
+		}
+		localization_key = econ_month_4
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 5 }
+		}
+		localization_key = econ_month_5
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 6 }
+		}
+		localization_key = econ_month_6
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 7 }
+		}
+		localization_key = econ_month_7
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 8 }
+		}
+		localization_key = econ_month_8
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 9 }
+		}
+		localization_key = econ_month_9
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 10 }
+		}
+		localization_key = econ_month_10
+	}
+	text = {
+		trigger = {
+			check_variable = { months = 11 }
+		}
+		localization_key = econ_month_11
+	}
+}
+
+defined_text = {
 	name = GeteconomicsphereBackground
 
   

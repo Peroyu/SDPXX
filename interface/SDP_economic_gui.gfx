@@ -1,0 +1,39 @@
+
+spriteTypes = {	
+
+	progressbartype = {
+		name = GFX_econ_line_graph_segment_green
+		steps = 1000000
+		color = { 0.010 0.100 0.25 0.0 }
+		colortwo = { 0.52 0.92 0.56 1 }
+		# Image has width 10, height 100, line width 2.5px
+		size = { 
+			x = 10
+			y = 100
+		}
+		effectFile = "gfx/FX/line_graph_2.lua"
+	}
+	progressbartype = {   
+		name = "GFX_Econ_Line_Segment_GDP"
+		textureFile1 = "gfx/interface/line_graph/graph_line_full_green.dds"
+		textureFile2 = "gfx/interface/line_graph/graph_line_empty.dds"
+		size = {
+			x = 10
+			y = 200
+		}
+		effectFile = "gfx/FX/line_graph.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_econ_line_graph_bg"
+		texturefile = "gfx/interface/line_graph/line_graph_chart.dds"
+	}
+	spriteType = {
+		name = "GFX_econ_graph_horizontal_bar"
+		texturefile = "gfx/interface/line_graph/graph_horizontal_bar.dds"
+	}
+	spriteType = {
+		name = "GFX_econ_graph_horizontal_bar"
+		texturefile = "gfx/interface/line_graph/graph_horizontal_bar.dds"
+	}
+}

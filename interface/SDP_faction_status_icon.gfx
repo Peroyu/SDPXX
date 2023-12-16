@@ -4,7 +4,10 @@ spriteTypes = {
 		name = "GFX_faction_xieyue"
 		texturefile = "gfx/interface/factions/faction_xieyue.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_faction_sphere"
+		texturefile = "gfx/interface/factions/GFX_faction_sphere.png"
+	}
 }
 spriteTypes = {
     spriteType = {

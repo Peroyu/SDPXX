@@ -232,6 +232,111 @@ country_event = {
 		   base = 100
 		}
 		 hidden_effect = {
+			
+		}
+		
+		name = JAP.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		load_focus_tree = NIP_focus_3
+		name = JAP.3.c
+	}
+}
+country_event = {
+    id = NIP.4 #选举开始
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	NIP.4 FROM = [From.GetName]" }
+	title = JAP.4.t
+	desc = JAP.4.d
+	picture = gFx_JAP4
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = NIP.5
+			days = 200
+		}
+		name = JAP.4.a
+	}
+	
+}
+country_event = {
+    id = NIP.5 #议员洗牌
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	NIP.5 FROM = [From.GetName]" }
+	title = JAP.5.t
+	desc = JAP.5.d
+	picture = gFx_JAP5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_country_flag = JAP_election_flag
+		    set_variable = { NIP.NIP_RK_seats = 0 }
+
+set_variable = { NIP.NIP_ST_seats = 0 }
+
+set_variable = { NIP.NIP_RS_seats = 0 }
+
+set_variable = { NIP.NIP_NS_seats = 0 }
+
+set_variable = { NIP.NIP_NP_seats = 0}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+
+		custom_effect_tooltip = NIP_election_tt_1
+		name = JAP.5.a
+	}
+	
+}
+country_event = {
+    id = NIP.6 #民党组阁
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	NIP.6 FROM = [From.GetName]" }
+	title = JAP.6.t
+	desc = JAP.6.d
+	picture = gFx_JAP5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.11 
+					days = 5
+				}
+			}
 			set_politics = {
 				ruling_party = conservatism
 			}
@@ -244,40 +349,73 @@ country_event = {
 				ideology = Guided_democracy
 				traits = {  }
 			}
-		}
-		load_focus_tree = NIP_focus_1
-		name = JAP.3.a
-	}
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		set_politics = {
-			ruling_party = Nationalism
-		}
-		set_party_name = { ideology = Nationalism long_name = NIP_Nationalism_party_1_long name = NIP_Nationalism_party_1 }
-		set_party_name = { ideology = reactionism long_name = NIP_reactionism_party_1_long name = NIP_reactionism_party_1 }
+			load_focus_tree = NIP_focus_1
+			
+set_variable = { NIP.JAP_eletion_guomin_support = 0 }
 
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "NIP_Kiichiro_Hiranuma"   
-			desc = "NIP_Kiichiro_Hiranuma_desc"  
-			picture = "gfx/leaders/JAP/portrait_NIP_Kiichiro_Hiranuma.png"   
-			expire = "1989.1.7"   
-			ideology = Casselism
-			traits = {  }
+set_variable = { NIP.JAP_eletion_guomin_support = 0}
 		}
-		load_focus_tree = NIP_focus_2
-		name = JAP.3.b
-	}
+    }
+	
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
+
 		
-		load_focus_tree = NIP_focus_3
-		name = JAP.3.c
+		name = JAP.6.a
 	}
+	
+}
+country_event = {
+    id = NIP.7 #国民组阁
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	NIP.7 FROM = [From.GetName]" }
+	title = JAP.7.t
+	desc = JAP.7.d
+	picture = gFx_JAP5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.13
+					days = 5
+				}
+			}
+			set_politics = {
+				ruling_party = Nationalism
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "NIP_Kiichiro_Hiranuma"   
+				desc = "NIP_Kiichiro_Hiranuma_desc"  
+				picture = "gfx/leaders/JAP/portrait_NIP_Kiichiro_Hiranuma.png"   
+				expire = "1989.1.7"   
+				ideology = Casselism
+				traits = {  }
+			}
+			load_focus_tree = NIP_focus_2
+			set_variable = { NIP.JAP_eletion_guomin_support = 0 }
+
+set_variable = { NIP.JAP_eletion_guomin_support = 0}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+
+		
+		name = JAP.7.a
+	}
+	
 }
 country_event = {
     id = JAP.1
@@ -367,18 +505,18 @@ country_event = {
 }
 ######################################################
 country_event = {
-    id = JAP.2  #北海道地区选举
+    id = JAP.10  #北海道地区选举
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	JAP.2 FROM = [From.GetName]" }
-	title = JAP.2.t
-	desc = JAP.2.d
+	JAP.10 FROM = [From.GetName]" }
+	title = JAP.10.t
+	desc = JAP.10.d
 	picture = gFx_JAP.1
 	
 	is_triggered_only = yes
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    clr_country_flag = JAP_election_flag
 		}
     }
 	
@@ -386,23 +524,68 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
-		name = JAP.2.a
+		custom_effect_tooltip =  NIP_election_tt_3
+		add_to_variable = {
+			NIP.NIP_RK_seats = 1
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 1
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 3
+		}
+		name = JAP.10.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
-		name = JAP.2.b
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 3
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 6
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 2
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 6
+		}
+		name = JAP.10.b
 
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
-		name = JAP.2.c
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 8
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 4
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 4
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 3
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 3
+		}
+		name = JAP.10.c
 	}
 	
 }
@@ -426,21 +609,66 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_3
+		add_to_variable = {
+			NIP.NIP_RK_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 60
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 28
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 8
+		}
 		name = JAP.3.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 30
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 30
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 54
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 2
+		}
 		name = JAP.3.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 40
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 45
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 16
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 10
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 17
+		}
 		name = JAP.3.c
 	}
 	
@@ -465,21 +693,67 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		custom_effect_tooltip =  NIP_election_tt_3
 		
+		add_to_variable = {
+			NIP.NIP_RK_seats = 16
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 14
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 32
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 5
+		}
 		name = JAP.5.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 15
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 18
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 7
+		}
 		name = JAP.5.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 24
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 22
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 10
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 4
+		}
 		name = JAP.5.c
 	}
 	
@@ -504,21 +778,67 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		custom_effect_tooltip =  NIP_election_tt_3
 		
+		add_to_variable = {
+			NIP.NIP_RK_seats = 16
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 38
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 3
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 2
+		}
 		name = JAP.6.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 15
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 18
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 19
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 7
+		}
 		name = JAP.6.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 28
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 22
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 1
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 0
+		}
 		name = JAP.6.c
 	}
 	
@@ -543,21 +863,67 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		custom_effect_tooltip =  NIP_election_tt_3
 		
+		add_to_variable = {
+			NIP.NIP_RK_seats = 3
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 12
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 3
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 2
+		}
 		name = JAP.7.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 4
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 8
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 10
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 2
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 1
+		}
 		name = JAP.7.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 9
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 8
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 1
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 2
+		}
 		name = JAP.7.c
 	}
 	
@@ -582,23 +948,187 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		custom_effect_tooltip =  NIP_election_tt_3
 		
+		add_to_variable = {
+			NIP.NIP_RK_seats = 17
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 65
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 25
+		}
 		name = JAP.8.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_4
+		add_to_variable = {
+			NIP.NIP_RK_seats = 32
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 33
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 45
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 20
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 17
+		}
 		name = JAP.8.b
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip =  NIP_election_tt_2
+		add_to_variable = {
+			NIP.NIP_RK_seats = 44
+		}
+		add_to_variable = {
+			NIP.NIP_ST_seats = 55
+		}
+		add_to_variable = {
+			NIP.NIP_RS_seats = 40
+		}
+		add_to_variable = {
+			NIP.NIP_NS_seats = 5
+		}
+		add_to_variable = {
+			NIP.NIP_NP_seats = 2
+		}
 		name = JAP.8.c
 	}
 	
 }
 ###################################################
+country_event = {
+    id = JAP.101  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.101 FROM = [From.GetName]" }
+	title = JAP.101.t
+	desc = JAP.101.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.101.a
+	}
+	
+}
+country_event = {
+    id = JAP.102  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.102 FROM = [From.GetName]" }
+	title = JAP.102.t
+	desc = JAP.102.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.103
+			days = 45
+		}
+		name = JAP.102.a
+	}
+	
+}
+country_event = {
+    id = JAP.103  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.103 FROM = [From.GetName]" }
+	title = JAP.103.t
+	desc = JAP.103.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			country_event = {
+				id = JAP.104  
+				days = 23
+			}
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.10
+					days = 16
+				}
+			}
+		}
+		
+		name = JAP.103.a
+	}
+	
+}
+country_event = {
+    id = JAP.104  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.104 FROM = [From.GetName]" }
+	title = JAP.104.t
+	desc = JAP.104.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.104.a
+	}
+	
+}

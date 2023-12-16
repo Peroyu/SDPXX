@@ -944,6 +944,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_AIS_Abdelbaki_Sahraoui"
+		texturefile = "gfx/leaders/East_Mediterranean/Portrait_AIS_Abdelbaki_Sahraoui.png"		
+	}
+
+	spriteType = {
 		name = "anarchy_Portrait_GFX"
 		texturefile = "gfx/leaders/anarchy_Portrait_GFX.png"		
 	}
