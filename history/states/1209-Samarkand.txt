@@ -9,9 +9,8 @@ state = {
 		tungsten = 8
 	}
 	history = {
-		owner = TRU
-		add_core_of = TRU
-		add_claim_by = TRK
+		owner = BUK
+		add_core_of = BUK
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

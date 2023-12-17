@@ -98,9 +98,8 @@ news_event = {
 		name = Balkan.2.a
         set_global_flag = Super_Event_Visible
 		set_global_flag = Balkan_war_Super_Event_Visible
-		#hidden_effect = {
-		#	sound_effect = "Balkan_war_voice"
-		#}
+     	play_song = "BALKAN_WAR_VOICE"
+
 	}
 }
 news_event = {

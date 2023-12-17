@@ -5,7 +5,6 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 
 
-		
 		iconType = {
 			name = "chinese_pie"
 			spriteType = "GFX_GNG_Chinese_Pie"
@@ -44,5 +43,5 @@ guiTypes = {
 
 				
 				
-		}
 	}
+}

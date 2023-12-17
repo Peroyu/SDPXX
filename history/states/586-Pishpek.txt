@@ -11,7 +11,7 @@ state = {
 
 	history = {
 		owner = TRU
-		add_core_of = KYR
+		add_core_of = TRU
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
