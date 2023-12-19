@@ -2,3 +2,28 @@ music = {
 	name = "BALKAN_WAR_VOICE"
 	file = "Balkan_war_voice.ogg"
 }
+
+music = {
+	name = "second_continent_war_voice"
+	file = "second_continent_war_voice.ogg"
+}
+
+music = {
+	name = "Sun_Fo_voice"
+	file = "Sun_Fo_voice.ogg"
+}
+
+music = {
+	name = "ISU_conference_voice"
+	file = "ISU_conference_voice.ogg"
+}
+
+music = {
+	name = "The_UK_VOICE"
+	file = "The_UK_VOICE.ogg"
+}
+
+music = {
+	name = "Triple_entent_crush_VOICE"
+	file = "Triple_entent_crush_VOICE.ogg"
+}

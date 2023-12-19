@@ -6,3 +6,33 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+music = {
+	song = "second_continent_war_voice"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "Sun_Fo_voice"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "ISU_conference_voice"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "The_UK_VOICE"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}
+music = {
+	song = "Triple_entent_crush_VOICE"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

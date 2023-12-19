@@ -10,7 +10,26 @@ soundeffect = {
 	is3d = yes
 	volume = 0.4
 }
+
 sound = {
 	name = "Balkan_war_voice"
 	file = "superevent/Balkan_war_voice.wav"
+}
+
+soundeffect = {
+	name = second_continent_war_voice
+	falloff = "falloff_distance"
+	loop = no
+	sounds = {
+		sound = second_continent_war_voice
+	} 
+	max_audible = 2
+	max_audible_behaviour = fail
+	is3d = yes
+	volume = 0.4
+}
+
+sound = {
+	name = "second_continent_war_voice"
+	file = "superevent/second_continent_war_voice.wav"
 }
