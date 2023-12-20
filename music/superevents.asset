@@ -27,3 +27,8 @@ music = {
 	name = "Triple_entent_crush_VOICE"
 	file = "Triple_entent_crush_VOICE.ogg"
 }
+
+music = {
+	name = "west_mid_crisis_voice"
+	file = "west_mid_crisis_voice.ogg"
+}

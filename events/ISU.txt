@@ -176,6 +176,10 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		ISU = {
+			add_to_faction = BEL
+			add_to_faction = HOL
+		}
 		set_nationality = BEL
 		set_nationality = HOL
 		BEL = {
@@ -202,6 +206,9 @@ country_event = {
 		   base = 30
 		}
 		set_nationality = HOL
+		ISU = {
+			add_to_faction = HOL
+		}
 		FRA = {
 			transfer_state = 34
 			transfer_state = 8
@@ -226,6 +233,11 @@ country_event = {
 		set_nationality = BEL
 		set_nationality = HOL
 		set_nationality = FLA
+		ISU = {
+			add_to_faction = BEL
+			add_to_faction = HOL
+			add_to_faction = FLA
+		}
 		FLA = {
 			transfer_state = 6
 		}
@@ -253,6 +265,10 @@ country_event = {
 		}
 		set_nationality = HOL
 		set_nationality = FLA
+		ISU = {
+			add_to_faction = HOL
+			add_to_faction = FLA
+		}
 		HOL = {
 			transfer_state = 35
 			transfer_state = 36
@@ -278,6 +294,10 @@ country_event = {
 		}
 		set_nationality = HOL
 		set_nationality = BEL
+		ISU = {
+			add_to_faction = BEL
+			add_to_faction = HOL
+		}
 		BEL = {
 			set_cosmetic_tag = BEL_waas
 			transfer_state = 34
@@ -302,6 +322,9 @@ country_event = {
 		   base = 10
 		}
 		set_nationality = HOL
+		ISU = {
+			add_to_faction = HOL
+		}
 		FRA = {
 			transfer_state = 34
 			transfer_state = 8

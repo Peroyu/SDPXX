@@ -195,7 +195,15 @@ news_event = {
     desc = global.5.d
     immediate = { 
         hidden_effect = {
-           
+           every_country = {
+            limit = {
+                is_ai = no
+            }
+            news_event = {
+                id = sp_event.2
+                days = 200
+            }
+           }
         }
 	}
     is_triggered_only = yes
@@ -333,12 +341,6 @@ news_event = {
     desc = global.9.d
     immediate = { 
         hidden_effect = {
-            CAN = {
-                set_autonomy = {
-                    target = MLT
-                    autonomy_state = autonomy_free
-                }
-            }
             MLT = {
                 leave_faction = yes
               }
@@ -1555,6 +1557,22 @@ news_event = {
     desc = ISU.6.d
     immediate = { 
         hidden_effect = {
+            random_list = {
+                60 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.44
+                            days = 345
+                        }
+                    }
+                }
+                40 = {
+
+                }
+            }
             
         }
 	}
@@ -2721,7 +2739,9 @@ news_event = {
     desc = ISU.44.d
     immediate = { 
         hidden_effect = { 
-           
+           ISU = {
+            add_to_faction = ENG
+           }
         }
 	}
     is_triggered_only = yes
