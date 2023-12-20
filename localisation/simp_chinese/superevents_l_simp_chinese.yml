@@ -11,6 +11,7 @@
  Spain_Civilwar_Super_Event_TITLE: "第二次西班牙内战"
  GER_Civilwar_Super_Event_TITLE: "德意志大叛乱"
  Balkan_war_2nd_Super_Event_TITLE: "第二次巴尔干危机"
+ west_mid_crisis_Super_Event_TITLE: "西地中海危机"
 
 
  CHI_second_continent_war_Super_Event_TEXT: "用我们的血肉筑起新的长城\n——田汉"
@@ -25,6 +26,7 @@
  Spain_Civilwar_Super_Super_Event_TEXT: "致所有的西班牙人，西班牙万岁!\n——弗朗西斯科·佛朗哥"
  GER_Civilwar_Super_Super_Event_TEXT: "我认为消灭他们是完全正当的行为，如果不这样做的话，那被杀的就是我们自己了。——赫尔曼·戈林"
  Balkan_war_2nd_Super_Super_Event_TEXT: "起来，匈牙利人，祖国正在召唤！是时候了，现在干，还不算太晚！——裴多菲·山陀尔"
+ west_mid_crisis_Super_Event_TEXT: "我们可以做许多白日梦，可以失败，可以哭泣，但也可以光芒万丈。——让·保罗·萨特"
 
 
  CHI_second_continent_war_Super_Event_BUTTON: "起来！起来！"
@@ -39,6 +41,7 @@
  Spain_Civilwar_Super_Event_BUTTON: "统一，伟大，自由"
  GER_Civilwar_Super_Event_BUTTON: "没有祖国，你什么也不是"
  Balkan_war_2nd_Super_Event_BUTTON: "匈牙利，我亲爱的祖国！"
+ west_mid_crisis_Super_Event_BUTTON: "他人即地狱"
 
 
  CHI_second_continent_war_Super_Event_DESC: "五十七名战士，拒绝了我每人赏洋三十元的建议，他们齐向我大喊：我们的战斗目的，是要确保我们以及子孙不做日本帝国主义的奴隶，为了争取民族的生存，争取人类的光明，我们一定以必死的决心去执行战斗任务，钱要来干什么？……他们满挂着手榴弹，爬入城的西北角，城外，另有大军佯攻，居然凭他们的英勇，把敌人全部解决了！"
@@ -53,3 +56,4 @@
  Spain_Civilwar_Super_Event_DESC: "没有谁能像一座孤岛，\n在大海里独踞，\n每个人都像一块小小的泥土，\n连接成整个陆地。\如果有一块泥土被海水冲去，\n欧洲就会失去一角。\n这如同一座山岬，\n也如同你的朋友和你自己。\n无论谁死了，\n都是自己的一部分在死去。"
  GER_Civilwar_Super_Event_DESC: "我们沉默地看着窗外，感到非常孤独。从学校周围的群众中升起了一阵仇恨的浪潮。这是两个人种之间的仇恨，一种人对另一种人从肉体上感到厌恶。他们彼此憎恨到这种程度，以致谁看到谁都觉得恶心。\n我们瞪大眼睛瞧着群众——我们没有瞧那些武装起来的个人，因为他们更危险。但是，使我们印象更深的，却是这一大群没有眼睛的黑压压的群众"
  Balkan_war_2nd_Super_Event_DESC: "即使布达佩斯陷落了，马扎尔人也还有广大的下匈牙利草原。这个地方好像是故意为进行骑兵游击战争而创造的。在这里的沼泽地中，有许多几乎无法接近的地方，马扎尔人能够在这里坚守下去。马扎尔人几乎人人都是优秀的骑手，他们具有进行这种游击战争的一切特质。以密集队形前进在这里是不可能的；而分散为流动队，就必然遭到覆灭。"
+ west_mid_crisis_Super_Event_DESC: "企图改变世界秩序的去殖民，根本就是一个全然混乱无序的纲领。但它不可能是一个神奇的操作、自然的撼动或者和睦谅解的结果。大家都知道，去殖民是一个历史的过程，也就是说，只有当我们认清那赋予它内容与形式的历史化运动，它才能被理解，才能找到自己的可理解性，使自身变成透明。"

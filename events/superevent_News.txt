@@ -2,6 +2,7 @@ add_namespace = CHI_war
 add_namespace = ISU
 add_namespace = Balkan
 add_namespace = Triple_entent
+add_namespace = sp_event
 news_event = {
 	id = ISU.2
 
@@ -78,7 +79,29 @@ news_event = {
 		}
 	}
 }
+news_event = {
+	id = sp_event.2
 
+    picture = GFX_sp_event_2
+    title = sp_event.2.t
+    desc = sp_event.2.d
+    immediate = { 
+	
+		
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = sp_event.2.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = west_mid_crisis_Super_Event_Visible
+		hidden_effect = {
+			play_song = "west_mid_crisis_voice"
+		}
+	}
+}
 news_event = {
 	id = Triple_entent.2
     picture = GFX_Triple_entent_2
@@ -152,7 +175,6 @@ news_event = {
 
 	}
 }
-
 news_event = {
 	id = CHI_war.2
     picture = GFX_chi_vic_1
@@ -245,7 +267,6 @@ news_event = {
 		
 	}
 }
-
 news_event = {
 	id = Balkan.3 #第二次巴尔干危机
 
