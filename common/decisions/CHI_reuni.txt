@@ -299,6 +299,7 @@ CHI_reuni = {
 		  }
 		  fire_only_once = yes                  
           remove_effect = { 
+			add_ideas = CHI_sourthwest_crisis
 		     declare_war_on = {
 			   target = CJF
 			   type = annex_everything 

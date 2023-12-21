@@ -342,22 +342,12 @@ news_event = {
         hidden_effect = {
             MLT = {
                 leave_faction = yes
-              }
-                FRA = {
-                    declare_war_on = { target = MLT type = annex_everything }
-                    add_ideas = ISU_Balkan_crisis
+                country_event = {
+                    id = ENT.7
+                    days = 10
                 }
-                    if = {
-                        limit = {
-                            FRA = {
-                            has_country_flag = ITA_help_us
-                            }
-                        }
-                        ITA = {
-                            declare_war_on = { target = MLT type = annex_everything }
-                            add_ideas = ISU_Balkan_crisis
-                        }
-                    }
+              }
+                
         }
 	}
     is_triggered_only = yes
@@ -384,6 +374,7 @@ news_event = {
                 add_to_faction = PHI
                 add_to_faction = AST
                 add_to_faction = NZL
+                add_to_faction = GEA
             }
             every_country = {
                 limit = {
@@ -642,29 +633,11 @@ news_event = {
     desc = Pacific.6.d
     immediate = { 
         hidden_effect = {
-            random_list = { 
-                40 = { 
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = Pacific.7
-                            days = 105
-                        }
-                    }
-                } 
-                60 = { 
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = Pacific.8
-                            days = 105
-                        }
-                    }
-                } 
+            CAN = {
+                release_puppet = SHN
+            }
+            NIP = {
+                add_to_faction = SHN
             }
         }
 

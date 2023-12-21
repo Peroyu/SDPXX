@@ -371,3 +371,43 @@ country_event = {
 	
 	
 }
+country_event = {
+    id = ENT.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ENT.7 FROM = [From.GetName]" }
+	title = ENT.7.t
+	desc = ENT.7.d
+	picture = GFX_ENT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+				FRA = {
+                    declare_war_on = { target = MLT type = annex_everything }
+                    add_ideas = ISU_Balkan_crisis
+                }
+                    if = {
+                        limit = {
+                            FRA = {
+                            has_country_flag = ITA_help_us
+                            }
+                        }
+                        ITA = {
+                            declare_war_on = { target = MLT type = annex_everything }
+                            add_ideas = ISU_Balkan_crisis
+                        }
+                    }
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = ENT.7.a
+	}
+	
+	
+}
