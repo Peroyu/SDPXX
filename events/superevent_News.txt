@@ -49,6 +49,10 @@ news_event = {
 					id = global.10
 					days = 395
 				}
+				news_event = {
+					id = global.14
+					days = 215
+				}
 			}
 			CAN = {
 				dismantle_faction = yes
