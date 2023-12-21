@@ -1,7 +1,5 @@
 capital =  # 首都地块
 
-obb = "CUB_1947"  # 军队文件
-
 set_research_slots = 2
  # 设定科研槽
 
@@ -27,11 +25,11 @@ set_popularities = {
 
 # 设置领导人
 create_country_leader = {
-	name = "CUB_Fulgencio_Batista"  # 领导人名称
+	name = "TKM_Batyrov_Shadja_Batyrovich"  # 领导人名称
 	desc = ""  # 人物介绍
-	picture = "CUB_portrait_Fulgencio_Batista"  # 人物头像
+	picture = "portrait_TKM_Batyrov_Shadja_Batyrovich"  # 人物头像
 	expire = "1985.1.1"  # 逝世时间
-	ideology = despotism # 意识形态
+	ideology = Bolshevism # 意识形态
 	traits = {  # 人物特性
 		#
 	}

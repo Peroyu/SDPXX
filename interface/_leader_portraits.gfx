@@ -730,6 +730,10 @@
 		name = "GFX_portrait_MON_Choibarsan"
 		texturefile = "gfx/leaders/SOV/MON_Choibarsan.png"		
 	}
+	spriteType = {
+		name = "portrait_TKM_Batyrov_Shadja_Batyrovich"
+		texturefile = "gfx/leaders/SOV/portrait_TKM_Batyrov_Shadja_Batyrovich.png"		
+	}
 	#####################JAP##############################
 	spriteType = {
 		name = "portrait_SHA_Mitsuru_Ushijima"
