@@ -276,7 +276,7 @@ CHI_reuni = {
 				has_war_with = CJF
 
 			}
-              tag = NIP		  
+            tag = NIP		  
 		      check_variable = {
 				var = global.chi_uni_nuon
 				value = 7
@@ -365,7 +365,7 @@ CHI_reuni = {
 				target = SIK
 				type = annex_everything 
 			   } 
-			add_to_variable = {global.chi_uni_nuon = 1}
+			add_to_variable = {global.chi_uni_nuon = 2}
 		   } 
           	 
 		  cost = 1
@@ -395,6 +395,7 @@ CHI_reuni = {
 		  }
 		  fire_only_once = yes                  
           remove_effect = { 
+			add_to_variable = { global.chi_uni_nuon = 1 }
 			FNC = {
 		     declare_war_on = {
 			   target = CJF

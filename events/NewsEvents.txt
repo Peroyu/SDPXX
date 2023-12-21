@@ -67,7 +67,6 @@ news_event = {
                 transfer_state = 918
                 transfer_state = 1032
                 transfer_state = 899
-                transfer_state = 549
                 transfer_state = 969
                 transfer_state = 547
                 transfer_state = 925
@@ -2597,9 +2596,10 @@ news_event = {
     desc = ISU.37.d
     immediate = { 
         hidden_effect = { 
+           
            HUN = {
             set_politics = { 
-                ruling_party = social_democracy
+                ruling_party = communism
             }
            }  
         }
@@ -2625,7 +2625,6 @@ news_event = {
             add_to_faction = SUF
             add_to_faction = ROM
             add_to_faction = HUN
-            add_to_faction = SUF
             add_to_faction = LAB
             add_to_faction = CRR
             add_to_faction = BUL
