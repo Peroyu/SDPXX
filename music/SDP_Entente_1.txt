@@ -2,7 +2,52 @@ music_station = "SDP_Entente"
 
 
 music = {
-	song = "La_Internationale"
+	song = "SDP_Entente_1"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_Entente_2"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_Entente_3"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_Entente_4"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_Entente_5"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_Entente_6"
 	chance = {
 		modifier = {
 			factor = 1

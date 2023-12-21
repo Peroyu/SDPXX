@@ -3,3 +3,33 @@ music = {
 	file = "SDP_Entente_1.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "SDP_Entente_2"
+	file = "SDP_Entente_2.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "SDP_Entente_3"
+	file = "SDP_Entente_3.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "SDP_Entente_4"
+	file = "SDP_Entente_4.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "SDP_Entente_5"
+	file = "SDP_Entente_5.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "SDP_Entente_6"
+	file = "SDP_Entente_6.ogg"
+	volume = 0.65
+}
