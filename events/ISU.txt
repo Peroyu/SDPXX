@@ -845,6 +845,9 @@ country_event = {
 				days = 395
 			}
 		}
+		ISU = {
+			add_to_faction = BAL
+		}
 		BAL = {
 			transfer_state = 784
 			transfer_state = 1111
