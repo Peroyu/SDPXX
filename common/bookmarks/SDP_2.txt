@@ -5,7 +5,7 @@ bookmarks = {
 		date = 1947.1.1.12
 		picture = "GFX_bookmark_SDP_East_Asia"
 		default_country = "CJF"
-		default = yes
+		default = NO
 		
 		"MMA"={
 			history = "MMA_GATHERING_STORM_DESC"
@@ -67,18 +67,6 @@ bookmarks = {
 			NIP_Showa_Demokurashi
 			NIP_1947_meeting
 			NIP_Continental_operations_resumed
-			}
-		}
-		"XKS"={
-			minor = yes
-			history = "XKS_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			 Light_up_the_mountains
-			 Check_Chuankang_highway
-			Control_poppy
 			}
 		}
 	}

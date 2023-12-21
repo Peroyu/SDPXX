@@ -4,12 +4,11 @@ bookmarks = {
 		desc = "SDP_South_Asia_DESC"
 		date = 1947.1.1.12
 		picture = "GFX_bookmarks_SDP_South_Asia"
-		default_country = "RAJ"
+		default_country = "IRE"
 		default = yes
 		
-		"ALG"={
-			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = conservatism
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
 				
@@ -18,18 +17,16 @@ bookmarks = {
 			 
 			}
 		}
-		"FID"={
-			history = "FID_GATHERING_STORM_DESC"
-			ideology = communism
+		"IRE"={
+			history = "IRE_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"AFG"={
-			history = "AFG_GATHERING_STORM_DESC"
-			ideology = conservatism
+		"ICE"={
+			history = "ICE_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
 			 	
@@ -37,9 +34,8 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"CYN"={
-			history = "CYN_GATHERING_STORM_DESC"
-			ideology = reactionism
+		"CAN"={
+			history = "AIS_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
 			}
