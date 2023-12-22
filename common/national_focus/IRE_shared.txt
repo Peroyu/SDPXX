@@ -12,7 +12,7 @@ shared_focus = {#第一个
 	}
 shared_focus = {#第二个
         id = IRE_2
-		icon = GFX_IRE_2
+		icon = GFX_IRE_Soul_of_a_pioneer
 		cost = 4
 		available_if_capitulated = no
 		x = 10
@@ -66,7 +66,7 @@ shared_focus = {#第三行右边
     }
 shared_focus = {#第四行
         id = IRE_5
-		icon = GFX_IRE_5
+		icon = GFX_IRE_North_America
 		cost = 1
 		available_if_capitulated = no
 		x = 10
@@ -79,9 +79,9 @@ shared_focus = {#第四行
 ############################################
 shared_focus = {#左线第一个
         id = IRE_6
-		icon = GFX_IRE_6
+		icon = GFX_IRE_Continental_Europe
 		cost = -1
-		x = 0 
+		x = -6 
 		y = 0
 		available = {
 			always = no
@@ -93,8 +93,8 @@ shared_focus = {#左线第一个
 	shared_focus = {#左线第二行左
         id = IRE_8
 		icon = GFX_IRE_8
-		cost = 5
-		x = -1
+		cost = -7
+		x = -7
 		y = 1
 		prerequisite = {focus = IRE_6}
 		completion_reward = {
@@ -109,9 +109,9 @@ shared_focus = {#左线第一个
     }
 shared_focus = {#左线第二行右
         id = IRE_9
-		icon = GFX_IRE_9
+		icon = GFX_IRE_The_price_of_freedom
 		cost = 5
-		x = 1
+		x = -5
 		y = 1
 		prerequisite = {focus = IRE_6}
 		completion_reward = {
@@ -123,7 +123,7 @@ shared_focus = {
         id = IRE_10
 		icon = GFX_IRE_10
 		cost = 5
-		x = -2
+		x = -8
 		y = 2
 		prerequisite = {focus = IRE_8}
 		prerequisite = {focus = IRE_9}
@@ -150,7 +150,7 @@ shared_focus = {
         id = IRE_11
 		icon = GFX_IRE_11
 		cost = 5
-		x = 0
+		x = -6
 		y = 2
 		prerequisite = {focus = IRE_8}
 		prerequisite = {focus = IRE_9}
@@ -163,7 +163,7 @@ shared_focus = {
         id = IRE_12
 		icon = GFX_IRE_12
 		cost = 5
-		x = 2
+		x = -4
 		y = 2
 		prerequisite = {focus = IRE_8}
 		prerequisite = {focus = IRE_9}
@@ -183,7 +183,7 @@ shared_focus = {
         id = IRE_13
 		icon = GFX_IRE_13
 		cost = 5
-		x = -1
+		x = -7
 		y = 3
 		prerequisite = {focus = IRE_10}
 		prerequisite = {focus = IRE_11}
@@ -207,7 +207,7 @@ shared_focus = {
         id = IRE_14
 		icon = GFX_IRE_14
 		cost = 5
-		x = 1
+		x = -5
 		y = 3
 		prerequisite = {focus = IRE_10}
 		prerequisite = {focus = IRE_11}
@@ -224,7 +224,7 @@ shared_focus = {
         id = IRE_15
 		icon = GFX_IRE_15
 		cost = 5
-		x = 0
+		x = -6
 		y = 4
 		prerequisite = {focus = IRE_13}
 		prerequisite = {focus = IRE_14}

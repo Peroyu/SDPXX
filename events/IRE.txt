@@ -595,48 +595,6 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		set_variable = { var = SDP_IRE_1 value = 0 }
-         set_variable = { var = SDP_IRE_2 value = 0 }
-         set_variable = { var = SDP_IRE_3 value = 50 }
-         set_variable = { var = SDP_IRE_4 value = 0 }
-         set_variable = { var = SDP_IRE_5 value = 20 }
-         set_variable = { var = SDP_IRE_6 value = 0 }
-         set_variable = { var = SDP_IRE_7 value = 0 }
-		    clamp_variable = {
-            var = SDP_IRE_1
-            min = 0
-            max = 100
-            }
-            clamp_variable = {
-            var = SDP_IRE_2
-            min = 0
-            max = 100
-            }
-     	    clamp_variable = {
-            var = SDP_IRE_3
-            min = 0
-            max = 100
-            }
-			clamp_variable = {
-            var = SDP_IRE_4
-            min = 0
-            max = 100
-            }
-			clamp_variable = {
-            var = SDP_IRE_5
-            min = 0
-            max = 100
-            }
-			clamp_variable = {
-            var = SDP_IRE_6
-            min = 0
-            max = 100
-            }
-			clamp_variable = {
-            var = SDP_IRE_7
-            min = 0
-            max = 100
-            }
 		name = IRE.13.a
 	}
 }
