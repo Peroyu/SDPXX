@@ -936,7 +936,6 @@ on_actions = {
 
 					FROM = {
 						white_peace = ROOT
-						annex = ROOT
 					}
 					RAJ = {
 						set_cosmetic_tag = RIJ
@@ -1709,8 +1708,8 @@ on_actions = {
 							original_tag = HUN
 						}
 					}
-					FROM = {
-						white_peace = ROOT
+					ISU = {
+						white_peace = HUN
 					}
 					ISU = {
 						annex_country = {
@@ -1719,6 +1718,10 @@ on_actions = {
 						}
 						annex_country = {
 							target = CRT
+							transfer_troops = no
+						}
+						annex_country = {
+							target = ROM
 							transfer_troops = no
 						}
 					}

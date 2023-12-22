@@ -133,6 +133,10 @@ country_event = {
 				days = 450
 			}
 			news_event = {
+				id = ISU.45
+				days = 390
+			}
+			news_event = {
 				id = ISU.12
 				days = 1000
 			}

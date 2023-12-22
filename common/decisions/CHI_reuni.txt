@@ -318,8 +318,8 @@ CHI_reuni = {
 			   }   
 		   } 
           	 
-		  cost = 1
-		  days_remove = 10
+		  cost = 0
+	  days_remove = 10
         }
 	MAN_add_war = {
 	      icon = decision_hol_exchange_intelligence_data
