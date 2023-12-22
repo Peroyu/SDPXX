@@ -64,4 +64,8 @@ spriteTypes = {
 		name = "SDP_IRE_change_main"
 		texturefile = "gfx/interface/IRE/SDP_IRE_change_main.dds"
 	}
+	spriteType = {
+		name = "GFX_IRE_Ulster"
+		texturefile = "gfx/interface/ideas/GFX_IRE_Ulster.dds"
+	}
 }
