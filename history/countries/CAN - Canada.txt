@@ -27,7 +27,6 @@ add_to_faction = OCE
 add_to_faction = SHN
 add_to_faction = BOR
 add_to_faction = MAD
-add_to_faction = MLT
 set_politics = {
 	ruling_party = conservatism 
 	last_election = "1947.1.1"

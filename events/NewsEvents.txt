@@ -341,7 +341,6 @@ news_event = {
     immediate = { 
         hidden_effect = {
             MLT = {
-                leave_faction = yes
                 country_event = {
                     id = ENT.7
                     days = 10
@@ -2334,12 +2333,6 @@ news_event = {
     desc = ISU.29.d
     immediate = { 
         hidden_effect = {
-            CAN = {
-                set_autonomy = {
-                    target = MLT
-                    autonomy_state = autonomy_free 
-                }
-            }
           FRA = {
             declare_war_on = { target = MLT type = annex_everything }
             add_ideas = ISU_Balkan_crisis

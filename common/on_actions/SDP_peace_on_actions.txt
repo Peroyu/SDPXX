@@ -1724,6 +1724,10 @@ on_actions = {
 							target = ROM
 							transfer_troops = no
 						}
+						annex_country = {
+							target = CRR
+							transfer_troops = no
+						}
 					}
 					set_global_flag = skip_default_capitulation
 				}
