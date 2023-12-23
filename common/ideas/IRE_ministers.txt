@@ -1,0 +1,154 @@
+
+ideas = {
+	head_of_government = { ### Head of Government ###
+		IRE_Eamonn_deValera = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Eamonn_deValera"
+			}
+			traits = {
+				head_of_government
+				IRE_old_stuff
+			}
+		}
+		
+
+	}
+	person_of_dip = { ### person of dip ###
+	IRE_Eamonn_deValera_dip = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Eamonn_deValera_dip"
+			}
+			traits = {
+				person_of_dip
+				Naturaus
+			}
+		}
+		IRE_Sean_MacBride = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Sean_MacBride"
+			}
+			traits = {
+				person_of_dip
+				IRE_love_socialist
+			}
+		}
+		
+	}
+	person_of_arm = { ### person of arm ###
+		IRE_John_Francis_Lemass = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_John_Francis_Lemass"
+			}
+			traits = {
+				person_of_arm
+				Swinging_doer
+			}
+		}
+		IRE_William_Norton = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_William_Norton"
+			}
+			traits = {
+				person_of_arm
+				Honorary_leader
+			}
+		}
+		
+	}
+	person_of_eco = { ### person of eco ###
+		IRE_Frank_Aiken = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Frank_Aiken"
+			}
+			traits = {
+				person_of_eco
+				humanitarian
+			}
+		}
+		IRE_Patrick_McGilligan = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Patrick_McGilligan"
+			}
+			traits = {
+				person_of_eco
+				lavish_investors
+			}
+		}
+		
+	}
+	chief_of_staff = {
+		IRE_Oscar_Trainor = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Oscar_Trainor"
+			}
+			traits = {
+				chief_of_staff
+				war_heroes
+			}
+		}
+		IRE_Thomas_O_Higgins = {
+			allowed = { original_tag = IRE }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea IRE_Thomas_O_Higgins"
+			}
+			traits = {
+				chief_of_staff
+				successful_antisocial
+			}
+		}
+		
+	}
+}	

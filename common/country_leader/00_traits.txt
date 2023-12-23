@@ -13,6 +13,47 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	IRE_old_stuff = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.1
+	}
+	IRE_love_socialist = {
+		random = no
+		custom_modifier_tooltip = IRE_socialist_love_tt
+	}
+	#########
+	successful_antisocial = {
+		random = no
+		stability_factor = -0.05
+		war_support_factor = -0.1
+	}
+	Naturaus = {
+		random = no
+		stability_factor = 0.05
+		opinion_gain_monthly_factor = -0.2
+	}
+	Swinging_doer = {
+		random = no
+		political_power_factor = 0.05
+	}
+	Honorary_leader = {
+		random = no
+		stability_factor = 0.05
+	}
+	lavish_investors = {
+		random = no
+		consumer_goods_factor = 0.05
+		production_speed_buildings_factor = 0.05
+	}
+	war_heroes = {
+		random = no
+		war_support_factor = 0.1
+	}
+	humanitarian = {
+		random = no
+		trade_opinion_factor = 0.1
+	}
 	Cautious = {
 		random = no
 		political_power_factor = -0.05

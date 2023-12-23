@@ -26,6 +26,12 @@ set_popularities = {
 	Nationalism = 15
 }
 add_ideas = {
+	IRE_Eamonn_deValera
+	IRE_Eamonn_deValera_dip
+	IRE_John_Francis_Lemass
+	IRE_Frank_Aiken
+	IRE_Oscar_Trainor
+	###
 	universal_suffrage
 	peasant_levies
 	cultural_exclusion

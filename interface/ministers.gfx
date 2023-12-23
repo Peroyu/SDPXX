@@ -1,4 +1,41 @@
 spriteTypes = {
+	################IRE####################
+	spriteType = {
+		name = "GFX_idea_IRE_Eamonn_deValera"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Eamonn_deValera.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Eamonn_deValera_dip"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Eamonn_deValera.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Sean_MacBride"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Sean_MacBride.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_John_Francis_Lemass"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_John_Francis_Lemass.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_William_Norton"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_William_Norton.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Frank_Aiken"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Frank_Aiken.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Patrick_McGilligan"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Patrick_McGilligan.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Oscar_Trainor"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Oscar_Trainor.png"
+	}
+	spriteType = {
+		name = "GFX_idea_IRE_Thomas_O_Higgins"
+		texturefile = "gfx/interface/ministers/IRE/GFX_idea_IRE_Thomas_O_Higgins.png"
+	}
 	################JAP#####################
 	spriteType = {
 		name = "GFX_idea_NIP_Tokugawa_Iemasa"
