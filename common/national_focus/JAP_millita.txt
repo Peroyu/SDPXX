@@ -4,5 +4,438 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
-	
+	focus = {
+		id = NIP_millita_establish_of_government
+		icon = GFX_NIP_millita_establish_of_government
+		cost = 1.00
+		x = 12
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_chozenshugi
+		icon = GFX_NIP_millita_chozenshugi
+		prerequisite = { 
+			focus = NIP_millita_establish_of_government
+		}
+		cost = 2
+		x = 12
+		y = 1
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_intimidating_parties
+		icon = GFX_NIP_millita_intimidating_parties
+		prerequisite = { 
+			focus = NIP_millita_chozenshugi
+		}
+		cost = 2
+		x = 8
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_Supplementary_Arms_Budget
+		icon = GFX_NIP_Supplementary_Arms_Budget
+		prerequisite = { 
+			focus = NIP_millita_intimidating_parties
+		}
+		cost = 2
+		x = 4
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Organize_financial_institutions
+		icon = GFX_NIP_millitas_Organize_financial_institutions
+		prerequisite = { 
+			focus = NIP_millita_intimidating_parties
+		}
+		cost = 2
+		x = 8
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_bribe_parliamentarians
+		icon = GFX_NIP_millitas_bribe_parliamentarians
+		prerequisite = { 
+			focus = NIP_millitas_Organize_financial_institutions
+		}
+		prerequisite = { 
+			focus = NIP_Supplementary_Arms_Budget
+		}
+		cost = 2
+		x = 6
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Reset_meeting_of_ministers
+		icon = GFX_NIP_millitas_Reset_meeting_of_ministers
+		prerequisite = { 
+			focus = NIP_millitas_bribe_parliamentarians
+		}
+		cost = 2
+		x = 6
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_party_public_loyalty_and_concern_for_the_country
+		icon = GFX_NIP_millitas_party_public_loyalty_and_concern_for_the_country
+		prerequisite = { 
+			focus = NIP_millitas_Reset_meeting_of_ministers
+		}
+		cost = 2
+		x = 6
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Dont_be_arrogant_wanton
+		icon = GFX_NIP_millitas_Dont_be_arrogant_wanton
+		prerequisite = { 
+			focus = NIP_millitas_party_public_loyalty_and_concern_for_the_country
+		}
+		cost = 2
+		x = 9
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Promote_military_spirit
+		icon = GFX_NIP_millitas_Promote_military_spirit
+		prerequisite = { 
+			focus = NIP_millitas_party_public_loyalty_and_concern_for_the_country
+		}
+		cost = 2
+		x = 6
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Be_strict_politics
+		icon = GFX_NIP_millitas_Be_strict_politics
+		prerequisite = { 
+			focus = NIP_millitas_party_public_loyalty_and_concern_for_the_country
+		}
+		cost = 2
+		x = 3
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_the_meaning_of_national_security
+		icon = GFX_NIP_millitas_the_meaning_of_national_security
+		prerequisite = { 
+			focus = NIP_millitas_Be_strict_politics
+		}
+		prerequisite = { 
+			focus = NIP_millitas_Promote_military_spirit
+		}
+		cost = 2
+		x = 8
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_Eliminate_party_and_political_strife
+		icon = GFX_NIP_millitas_Eliminate_party_and_political_strife
+		prerequisite = { 
+			focus = NIP_millitas_Dont_be_arrogant_wanton
+		}
+		prerequisite = { 
+			focus = NIP_millitas_Promote_military_spirit
+		}
+		cost = 2
+		x = 5
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millitas_The_direction_of_power
+		icon = GFX_NIP_millitas_The_direction_of_power
+		prerequisite = { 
+			focus = NIP_millitas_Eliminate_party_and_political_strife
+		}
+		prerequisite = { 
+			focus = NIP_millitas_the_meaning_of_national_security
+		}
+		cost = 2
+		x = 6
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = NIP_millita_Sea_Lord
+		icon = GFX_NIP_millita_Sea_Lord
+		prerequisite = { 
+			focus = NIP_millita_chozenshugi
+		}
+		cost = 2
+		x = 16
+		y = 2
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Garrison_in_Nanyang
+		icon = GFX_NIP_millita_Garrison_in_Nanyang
+		prerequisite = { 
+			focus = NIP_millita_Sea_Lord
+		}
+		cost = 2
+		x = 16
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Promote_East_Asian_collaboration
+		icon = GFX_NIP_millita_Promote_East_Asian_collaboration
+		prerequisite = { 
+			focus = NIP_millita_Sea_Lord
+		}
+		cost = 2
+		x = 20
+		y = 3
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Marugo_plan
+		icon = GFX_NIP_millita_Marugo_plan
+		prerequisite = { 
+			focus = NIP_millita_Promote_East_Asian_collaboration
+		}
+		prerequisite = { 
+			focus = NIP_millita_Garrison_in_Nanyang
+		}
+		cost = 2
+		x = 18
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Guaranteed_Western_Pacific_Contact
+		icon = GFX_NIP_millita_Guaranteed_Western_Pacific_Contact
+		prerequisite = { 
+			focus = NIP_millita_Marugo_plan
+		}
+		cost = 2
+		x = 18
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Se_up_Greater_East_Asia_Province
+		icon = GFX_NIP_millita_Se_up_Greater_East_Asia_Province
+		prerequisite = { 
+			focus = NIP_millita_Guaranteed_Western_Pacific_Contact
+		}
+		cost = 2
+		x = 18
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_great_aisa_idea
+		icon = GFX_NIP_millita_great_aisa_idea
+		prerequisite = { 
+			focus = NIP_millita_Se_up_Greater_East_Asia_Province
+		}
+		cost = 2
+		x = 15
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_nippon_china_corperate
+		icon = GFX_NIP_millita_nippon_china_corperate
+		prerequisite = { 
+			focus = NIP_millita_great_aisa_idea
+		}
+		cost = 2
+		x = 15
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_nippon_vetnam_relation
+		icon = GFX_NIP_millita_nippon_vetnam_relation
+		prerequisite = { 
+			focus = NIP_millita_Se_up_Greater_East_Asia_Province
+		}
+		cost = 2
+		x = 18
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_with_aung_san
+		icon = GFX_NIP_millita_with_aung_san
+		prerequisite = { 
+			focus = NIP_millita_Se_up_Greater_East_Asia_Province
+		}
+		cost = 2
+		x = 21
+		y = 7
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_leagcy_of_nanyang_meeting
+		icon = GFX_NIP_millita_leagcy_of_nanyang_meeting
+		prerequisite = { 
+			focus = NIP_millita_with_aung_san
+		}
+		prerequisite = { 
+			focus = NIP_millita_nippon_vetnam_relation
+		}
+		cost = 2
+		x = 19
+		y = 8
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Absolute_Resources_Defense_Circle
+		icon = GFX_NIP_millita_Absolute_Resources_Defense_Circle
+		prerequisite = { 
+			focus = NIP_millita_leagcy_of_nanyang_meeting
+		}
+		prerequisite = { 
+			focus = NIP_millita_nippon_china_corperate
+		}
+		cost = 2
+		x = 18
+		y = 9
+		completion_reward = { 
+			
+			}
+	}
+
+	##
+	focus = {
+		id = NIP_millita_we_wrong
+		icon = GFX_NIP_millita_we_wrong
+		prerequisite = { 
+			focus = NIP_millita_chozenshugi
+		}
+		cost = 2
+		x = 12
+		y = 4
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Punishing_civil_servants
+		icon = GFX_NIP_millita_Punishing_civil_servants
+		prerequisite = { 
+			focus = NIP_millita_we_wrong
+		}
+		cost = 2
+		x = 14
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Expose_defeat
+		icon = GFX_NIP_millita_Expose_defeat
+		prerequisite = { 
+			focus = NIP_millita_we_wrong
+		}
+		cost = 2
+		x = 10
+		y = 5
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = NIP_millita_Territory_bombing_plan
+		icon = GFX_NIP_millita_Territory_bombing_plan
+		prerequisite = { 
+			focus = NIP_millita_Expose_defeat
+		}
+		prerequisite = { 
+			focus = NIP_millita_Punishing_civil_servants
+		}
+		cost = 2
+		x = 12
+		y = 6
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = NIP_millita_Eradicate_he_consequences
+		icon = GFX_NIP_millita_Eradicate_he_consequences
+		prerequisite = { 
+			focus = NIP_millitas_The_direction_of_power
+		}
+		prerequisite = { 
+			focus = NIP_millita_Territory_bombing_plan
+		}
+		prerequisite = { 
+			focus = NIP_millita_Absolute_Resources_Defense_Circle
+		}
+		cost = 2
+		x = 12
+		y = 10
+		completion_reward = { 
+			
+			}
+	}
 }	
