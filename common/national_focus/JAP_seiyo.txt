@@ -11,7 +11,10 @@ focus_tree = {
 		x = 21
 		y = 0
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP.201
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -24,7 +27,10 @@ focus_tree = {
 		x = 21
 		y = 1
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP.202
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -62,11 +68,17 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_communication_Rikken_Seiyukai
 		}
+		available = {
+			has_country_flag = NIP_seiyo_minsenton_corperate
+			}
 		cost = 2
 		x = 21
 		y = 3
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP.301
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -120,11 +132,24 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_vote_for_Seiyukai
 		}
+		available = {
+			has_country_flag = NIP_seiyo_givernment_established
+		}
 		cost = 5
 		x = 21
 		y = 5
 		completion_reward = { 
-			
+			hidden_effect = {
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = Pacific.12
+						days = 1
+					}
+				}
+			}
 			}
 	}
 

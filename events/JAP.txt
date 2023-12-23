@@ -250,7 +250,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		load_focus_tree = NIP_focus_1
 		name = JAP.3.b
 	}
 	option = { 
@@ -284,7 +284,7 @@ country_event = {
 		}
 		country_event = {
 			id = NIP.5
-			days = 200
+			days = 100
 		}
 		name = JAP.4.a
 	}
@@ -359,7 +359,7 @@ country_event = {
 				traits = {  }
 			}
 			load_focus_tree = NIP_focus_1
-			
+			set_variable = { NIP.JAP_seiyo_givernment_stablity = 10}
 set_variable = { NIP.JAP_eletion_guomin_support = 0 }
 
 set_variable = { NIP.JAP_eletion_guomin_support = 0}
@@ -1139,5 +1139,576 @@ country_event = {
 		
 		name = JAP.104.a
 	}
+	
+}
+country_event = {
+    id = JAP.201  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.201 FROM = [From.GetName]" }
+	title = JAP.201.t
+	desc = JAP.201.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.201.a
+	}
+	
+}
+country_event = {
+    id = JAP.202  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.202 FROM = [From.GetName]" }
+	title = JAP.202.t
+	desc = JAP.202.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = 2
+		}
+		set_country_flag = NIP_seiyo_minsenton_corperate
+		name = JAP.202.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		country_event = {
+			id = JAP.203
+			days = 15
+		}
+		name = JAP.202.b
+	}
+	
+	
+}
+country_event = {
+    id = JAP.203  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.203 FROM = [From.GetName]" }
+	title = JAP.203.t
+	desc = JAP.203.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = JAP.204
+				days = 7
+			}
+			country_event = {
+				id = JAP.205
+				days = 8
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.203.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.204  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.204 FROM = [From.GetName]" }
+	title = JAP.204.t
+	desc = JAP.204.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = JAP.204.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.205  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.205 FROM = [From.GetName]" }
+	title = JAP.205.t
+	desc = JAP.205.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = -20
+		}
+		name = JAP.205.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.206  #
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.206 FROM = [From.GetName]" }
+	title = JAP.206.t
+	desc = JAP.206.d
+	picture = gFx_JAP.1
+	fire_only_once = yes
+	trigger = {
+		tag = NIP
+			check_variable = { #检查变量大小
+				var = NIP.JAP_seiyo_givernment_stablity
+				value = 0
+				compare = less_than
+			}
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		load_focus_tree = NIP_focus_4
+			set_party_name = { ideology = reactionism long_name = NIP_reactionism_party_millitas_long name = NIP_reactionism_party_millitas }
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "NIP_Yamanashi_Katsunoshin"   
+				desc = "NIP_Tokugawa_Iemasa_desc"  
+				picture = "gfx/leaders/JAP/portrait_NIP_Yamanashi_Katsunoshin.png"   
+				expire = "1964.1.7"   
+				ideology = Zenkoku_isseini
+				traits = {  }
+			}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.18
+					days = 1
+				}
+			}
+			clr_variable = { NIP.JAP_seiyo_givernment_stablity = 10}
+		}
+		name = JAP.206.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.301  #协力内阁开始
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.301 FROM = [From.GetName]" }
+	title = JAP.301.t
+	desc = JAP.301.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = JAP.302
+				days = 2
+			}
+			country_event = {
+				id = JAP.303
+				days = 3
+			}
+			country_event = {
+				id = JAP.304
+				days = 5
+			}
+			country_event = {
+				id = JAP.305
+				days = 15
+			}
+		}
+		name = JAP.301.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.302  #内相人选
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.302 FROM = [From.GetName]" }
+	title = JAP.302.t
+	desc = JAP.302.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = 2
+		}
+		hidden_effect = {
+		}
+		name = JAP.302.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.303  #大相人选
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.303 FROM = [From.GetName]" }
+	title = JAP.303.t
+	desc = JAP.303.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		 
+		hidden_effect = {
+		}
+		name = JAP.303.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			add_to_variable = {
+				NIP.JAP_seiyo_givernment_stablity = -2
+			}
+		}
+		name = JAP.303.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			add_to_variable = {
+				NIP.JAP_seiyo_givernment_stablity = -4
+			}
+		}
+		name = JAP.303.c
+	}
+	
+	
+}
+country_event = {
+    id = JAP.304  #外相人选
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.304 FROM = [From.GetName]" }
+	title = JAP.304.t
+	desc = JAP.304.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			add_to_variable = {
+				NIP.JAP_seiyo_givernment_stablity = -4
+			}
+		}
+		name = JAP.304.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			
+		}
+		name = JAP.304.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			add_to_variable = {
+				NIP.JAP_seiyo_givernment_stablity = -2
+			}
+		}
+		name = JAP.304.c
+	}
+	
+	
+}
+
+country_event = {
+    id = JAP.305  #海军
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.305 FROM = [From.GetName]" }
+	title = JAP.305.t
+	desc = JAP.305.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = 2
+		}
+		country_event = {
+			id = JAP.306
+			days = 7
+		}
+		name = JAP.305.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.306  #宇垣一成
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.306 FROM = [From.GetName]" }
+	title = JAP.306.t
+	desc = JAP.306.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.307
+			days = 5
+		}
+		name = JAP.306.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.308
+			days = 5
+		}
+		name = JAP.306.b
+	}
+	
+	
+}
+country_event = {
+    id = JAP.307  #军部拒绝
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.307 FROM = [From.GetName]" }
+	title = JAP.307.t
+	desc = JAP.307.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.310
+			days = 5
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = -4
+		}
+		name = JAP.307.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.308  #下村定
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.308 FROM = [From.GetName]" }
+	title = JAP.308.t
+	desc = JAP.308.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.309
+			days = 5
+		}
+		name = JAP.308.a
+	}
+	
+	
+}
+country_event = {
+    id = JAP.309  #下村定
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.309 FROM = [From.GetName]" }
+	title = JAP.309.t
+	desc = JAP.309.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_country_flag = NIP_seiyo_givernment_established
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = -5
+		}
+		name = JAP.309.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = JAP.310
+			days = 5
+		}
+		name = JAP.309.b
+	}
+	
+	
+}
+country_event = {
+    id = JAP.310  #东久迩宫
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP.310 FROM = [From.GetName]" }
+	title = JAP.310.t
+	desc = JAP.310.d
+	picture = gFx_JAP.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = {
+			NIP.JAP_seiyo_givernment_stablity = -2
+		}
+		name = JAP.310.a
+		set_country_flag = NIP_seiyo_givernment_established
+	}
+	
 	
 }
