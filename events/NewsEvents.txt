@@ -896,6 +896,28 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.18
+    picture = GFX_Pacific_18
+    title = Pacific.18.t
+    desc = Pacific.18.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.18.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1
