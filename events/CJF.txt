@@ -596,6 +596,53 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = CJF_chengongbo.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.24 FROM = [From.GetName]" }
+	title = CJF_chengongbo.24.t
+	desc = CJF_chengongbo.24.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_political_power = 50
+		name = CJF_chengongbo.24.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = industry
+		}
+		name = CJF_chengongbo.24.b 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+		}
+		name = CJF_chengongbo.24.c 
+	}
+	
+}
 #########################################################
 country_event = {
     id = CJF_chongqing.1
