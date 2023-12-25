@@ -957,6 +957,14 @@ on_actions = {
 						transfer_state = 428
 						add_state_core = 428
 					}
+					PUN = {
+						transfer_state = 440
+						transfer_state = 815
+					}
+					RJP = {
+						transfer_state = 433
+						transfer_state = 1094
+					}
 					AFG = {
 						create_faction = 南亚伊斯兰联盟
 						add_to_faction = GUI
@@ -990,6 +998,7 @@ on_actions = {
 					FID = {
 						clr_country_flag = INDIA_civilwar_participants
 					}
+					
 					BAG = {
 						transfer_state = 430
 						transfer_state = 431
@@ -1056,7 +1065,9 @@ on_actions = {
 					if = {
 						limit = {
 							NOT = {
-								country_exists = HYD
+								427 = {
+									is_owned_and_controlled_by = HYD 
+								}
 							}
 						}
 						HYD = {

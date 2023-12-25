@@ -154,6 +154,8 @@ focus_tree = {
 			focus = NIP_relax_moblization
 		}
 		completion_reward = { 
+			add_political_power = 30
+			custom_effect_tooltip = JAP_election_tt_10
 			country_event = {
 				id = NIP.4
 				days = 1
