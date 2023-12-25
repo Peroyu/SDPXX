@@ -8,6 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GFX_IREevent_1.dds"
 	}
 	spriteType = {
+		name = "GFX_IRE_bid_Olympic_1"
+		texturefile = "gfx/event_pictures/GFX_IRE_bid_Olympic_1.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_001"
 		texturefile = "gfx/event_pictures/news/GFX_news_event_001.png"
 	}

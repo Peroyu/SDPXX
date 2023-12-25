@@ -11,7 +11,7 @@ bookmarks = {
 			history = "ENG_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
-				
+			
 			}
 			focuses = {
 			 
@@ -21,8 +21,13 @@ bookmarks = {
 			history = "IRE_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
+			 IRE_Soul_of_a_pioneer_1
+			 IRE_Blood_of_the_Resisters_1
+			 IRE_Ulster_1
+			 participant_of_the_revolutionary_war
 			}
 			focuses = {
+			 IRE_1
 			}
 		}
 		"ICE"={

@@ -7,7 +7,7 @@ country_event = {
 	IRE_bid_Olympic.1 FROM = [From.GetName]" }
 	title = IRE_bid_Olympic.1.t
 	desc = IRE_bid_Olympic.1.d
-	picture = GFX_IRE.1
+	picture = GFX_IRE_bid_Olympic_1
 	
 	is_triggered_only = yes
 	
@@ -322,7 +322,7 @@ country_event = {
 		add_ideas = idea_IRE_eco_1
 	}
 }
-country_event = {
+country_event = {##狂欢之前
     id = IRE.2
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	IRE.2 FROM = [From.GetName]" }

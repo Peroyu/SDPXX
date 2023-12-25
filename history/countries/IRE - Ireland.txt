@@ -50,6 +50,7 @@ add_ideas = {
 	#
 IRE_Soul_of_a_pioneer_1
 IRE_Blood_of_the_Resisters_1
+IRE_Ulster_1
 participant_of_the_revolutionary_war
 }
 
@@ -57,7 +58,7 @@ set_variable = { var = IRE_Financial_burden_var value = 0}
 set_variable = { var = IRE_Financial_burden_pp_var value = 0 }
 set_variable = { var = SDP_IRE_1 value = -16 }
 set_variable = { var = SDP_IRE_2 value = -16 }
-set_variable = { var = SDP_IRE_3 value = 34 }
+set_variable = { var = SDP_IRE_3 value = 4 }
 set_variable = { var = SDP_IRE_4 value = -16 }
 set_variable = { var = SDP_IRE_5 value = 4 }
 set_variable = { var = SDP_IRE_6 value = -16 }

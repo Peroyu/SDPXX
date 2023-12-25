@@ -89,7 +89,7 @@ ideas = {
 		}
 		IRE_Soul_of_a_pioneer_1 = {
             name = IRE_Soul_of_a_pioneer
-            picture = GFX_IRE_Soul_of_a_pioneer
+            picture = IRE_Soul_of_a_pioneer
 			allowed = { 
 			   always = no
 			}
@@ -103,7 +103,7 @@ ideas = {
 		}
 		IRE_Soul_of_a_pioneer_2 = {
             name = IRE_Soul_of_a_pioneer
-            picture = GFX_IRE_Soul_of_a_pioneer
+            picture = IRE_Soul_of_a_pioneer
 			allowed = { 
 			   always = no
 			}
@@ -119,7 +119,7 @@ ideas = {
 		}
 		IRE_Blood_of_the_Resisters_1 = {
             name = IRE_Blood_of_the_Resisters
-            picture = GFX_IRE_Blood_of_the_Resisters
+            picture = IRE_Blood_of_the_Resisters
 			allowed = { 
 			   always = no
 			}
@@ -133,7 +133,7 @@ ideas = {
 		}
 		IRE_Blood_of_the_Resisters_2 = {
             name = IRE_Blood_of_the_Resisters
-            picture = GFX_IRE_Blood_of_the_Resisters
+            picture = IRE_Blood_of_the_Resisters
 			allowed = { 
 			   always = no
 			}
@@ -149,7 +149,7 @@ ideas = {
 		}
 		IRE_Blood_of_the_Resisters_3 = {
             name = IRE_Blood_of_the_Resisters
-            picture = GFX_IRE_Blood_of_the_Resisters
+            picture = IRE_Blood_of_the_Resisters
 			allowed = { 
 			   always = no
 			}
@@ -165,7 +165,7 @@ ideas = {
 		}
 		IRE_Ulster_1 = {
             name = IRE_Ulster
-            picture = GFX_IRE_Ulster
+            picture = IRE_Ulster
 			allowed = { 
 			   always = no
 			}
@@ -181,7 +181,7 @@ ideas = {
 		}
 		IRE_Ulster_2 = {
             name = IRE_Ulster
-            picture = GFX_IRE_Ulster
+            picture = IRE_Ulster
 			allowed = { 
 			   always = no
 			}
@@ -190,6 +190,7 @@ ideas = {
 			}
             removal_cost = -1
             modifier = {
+			political_power_cost = 0.1
 			stability_factor = -0.05
 			}
 	    
