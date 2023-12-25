@@ -235,6 +235,7 @@ shared_focus = {
 			}
 		 remove_ideas = idea_IRE_invest_2
 		 remove_ideas = idea_IRE_market_2
+		 load_focus_tree = IRE_third
 		}
 	}
 ############################################
@@ -247,4 +248,126 @@ shared_focus = {#右线第一个
 		available = {
 			always = no
 		}	
+    }
+###########################################
+shared_focus = {#第一个
+		id = IRE_16
+		icon = GFX_Economic_2
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		completion_reward = {   
+		    add_political_power = 50
+			1332 = {
+		   add_extra_state_shared_building_slots = 1
+		   add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		    }
+		  }
+		}
+	}
+shared_focus = {#第二个
+        id = IRE_17
+		icon = GFX_IRE_Helplessness_under_confrontation
+		cost = 4
+		available_if_capitulated = no
+		x = 10
+		y = 1
+		prerequisite = {
+		    focus = IRE_16
+	    }
+        completion_reward = {   
+		  add_opinion_modifier = { 
+			target = USA 
+			modifier = 20
+		  }
+ 		  add_opinion_modifier = { 
+			target = FRA 
+			modifier = 20
+		  }
+		  add_opinion_modifier = { 
+			target = SOV 
+			modifier = 20
+		  }
+		  add_political_power = 100
+		  FRA = {
+		  trade_opinion_factor = 0.2
+		  }
+		}
+    }
+shared_focus = {#第三行左边
+        id = IRE_18
+		icon = GFX_politic_7
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		completion_reward = {
+		 add_manpower = -1000
+		 swap_ideas = {
+			    remove_idea = IRE_Ulster_1
+			    add_idea = IRE_Ulster_2
+			} 
+		}
+		prerequisite = {
+		    focus = IRE_17
+	    }
+    }
+shared_focus = {#第三行右边
+        id = IRE_19
+		icon = GFX_politic_2
+		cost = 1
+		available_if_capitulated = no
+		x = 12
+		y = 2
+		prerequisite = {
+		    focus = IRE_17
+	    }
+        completion_reward = {
+          add_popularity = {
+			ideology = movement_communism
+			popularity = 0.05
+		  }
+		  add_war_support = 0.05
+		  add_stability = 0.05
+		}
+    }
+shared_focus = {#第四行
+        id = IRE_20
+		icon = GFX_IRE_North_America
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 3
+		prerequisite = {focus = IRE_18 AND = IRE_19}
+		completion_reward = {
+		country_event = { id = IRE.2 days = 7 }
+		1332 = {
+		   add_extra_state_shared_building_slots = 1
+		   add_building_construction = {
+			type = dockyard
+			level = 1
+			instant_build = yes
+		    }
+		  }
+		}
+    }
+shared_focus = {#第四行
+        id = IRE_21
+		icon = GFX_IRE_Ireland_on_the_stage
+		cost = 5
+		available_if_capitulated = no
+		x = 10
+		y = 4
+		prerequisite = {focus = IRE_20}
+		select_effect = {
+		country_event = { id = IRE.3 days = 1 }
+		news_event = { id = IREnews.2 day = 1}
+		}
+		completion_reward = {
+		 country_event = { id = IRE.4 days = 10 }
+		}
     }

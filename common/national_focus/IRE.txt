@@ -22,4 +22,16 @@ focus_tree = {
 	default = no
     shared_focus = IRE_6
 }
+focus_tree = {
+	id = IRE_third
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = IRE  
+		}	
+	}
+	default = no
+    shared_focus = IRE_16
+}
 
