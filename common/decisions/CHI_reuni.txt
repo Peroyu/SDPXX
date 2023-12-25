@@ -84,6 +84,10 @@ CHI_reuni = {
 					}
 					news_event = {
 						id = chi_news.4
+						days = 12
+					}
+					news_event = {
+						id = Pacific.19
 						days = 2
 					}
 				}
@@ -150,6 +154,15 @@ CHI_reuni = {
 		timeout_effect = {
 			custom_effect_tooltip = CJF_Crush_tt
 			hidden_effect = {
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = chi_news.7
+						days = 1
+					}
+				}
 				TIB = {
 					transfer_state = 748
 					transfer_state = 693
