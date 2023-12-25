@@ -1,4 +1,28 @@
 spriteTypes = {
+    spriteType = {
+		name = "GFX_IRE_hidden_1"
+		texturefile = "gfx/event_pictures/GFX_IRE_hidden_1.dds"
+	}
+	spriteType = {
+		name = "IRE_hidden_2"
+		texturefile = "gfx/event_pictures/IRE_hidden_2.dds"
+	}
+	spriteType = {
+		name = "IRE_hidden_3"
+		texturefile = "gfx/event_pictures/IRE_hidden_3.dds"
+	}
+	spriteType = {
+		name = "IRE_hidden_4"
+		texturefile = "gfx/event_pictures/IRE_hidden_4.dds"
+	}
+	spriteType = {
+		name = "IRE_hidden_5"
+		texturefile = "gfx/event_pictures/IRE_hidden_5.dds"
+	}
+	spriteType = {
+		name = "IRE_hidden_6"
+		texturefile = "gfx/event_pictures/IRE_hidden_6.dds"
+	}
 	spriteType = {
 		name = "GFX_news_event_001"
 		texturefile = "gfx/event_pictures/news/GFX_news_event_001.png"

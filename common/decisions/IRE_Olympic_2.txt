@@ -34,7 +34,12 @@ IRE_Olympic_2_categories = {
 		civilian_factory_use = 1
 		}
         remove_effect = {
-		add_to_variable = { var = SDP_IRE_1 value = 10 }
+		add_to_variable = { var = SDP_IRE_1 value = 120 }
+		clamp_variable = {
+          var = SDP_IRE_1
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -179,6 +184,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_2 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_2
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -323,6 +333,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_3 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_3
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -467,6 +482,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_4 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_4
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -611,6 +631,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_5 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_5
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -755,6 +780,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_6 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_6
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -899,6 +929,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_7 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_7
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20
@@ -1043,6 +1078,11 @@ IRE_Olympic_2_categories = {
 		}
         remove_effect = {
 		add_to_variable = { var = SDP_IRE_8 value = 10 }
+		clamp_variable = {
+          var = SDP_IRE_8
+          min = 0
+          max = 100
+        }
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
         }
 		cost = 20

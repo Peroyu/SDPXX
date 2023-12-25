@@ -51,6 +51,44 @@ news_event = {
 	}
 }
 news_event = {
+	id = IREnews.3
+
+    picture = GFX_IRE_3
+    title = IREnews.3.t
+    desc = IREnews.3.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = IREnews.3.a
+	}
+}
+news_event = {
+	id = IREnews.4
+
+    picture = GFX_IRE_4
+    title = IREnews.4.t
+    desc = IREnews.4.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = IREnews.4.a
+	}
+}
+news_event = {
 	id = Triple_entent.3
 
     picture = GFX_Triple_entent_3

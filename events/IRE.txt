@@ -1,6 +1,152 @@
 ﻿add_namespace = IRE
 add_namespace = IRE_bid_Olympic
 add_namespace = IRE_Build_venues
+add_namespace = IRE_hidden
+country_event = {
+    id = IRE_hidden.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.1 FROM = [From.GetName]" }
+	title = IRE_hidden.1.t
+	desc = IRE_hidden.1.d
+	picture = GFX_IRE_hidden_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_hidden.1.a
+	}
+}
+country_event = {
+    id = IRE_hidden.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.2 FROM = [From.GetName]" }
+	title = IRE_hidden.2.t
+	desc = IRE_hidden.2.d
+	picture = IRE_hidden_2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_hidden.2.a
+	}
+}
+country_event = {
+    id = IRE_hidden.3 #惨案#
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.3 FROM = [From.GetName]" }
+	title = IRE_hidden.3.t
+	desc = IRE_hidden.3.d
+	picture = IRE_hidden_3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = { id = IRE_hidden.4 days = 5 }
+		name = IRE_hidden.3.a
+	}
+}
+country_event = {
+    id = IRE_hidden.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.4 FROM = [From.GetName]" }
+	title = IRE_hidden.4.t
+	desc = IRE_hidden.4.d
+	picture = IRE_hidden_4
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = { id = IRE_hidden.5 days = 5 }
+		name = IRE_hidden.4.a
+	}
+}
+country_event = {
+    id = IRE_hidden.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.5 FROM = [From.GetName]" }
+	title = IRE_hidden.5.t
+	desc = IRE_hidden.5.d
+	picture = IRE_hidden_5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = { id = IRE_hidden.6 days = 5 }
+		name = IRE_hidden.5.a
+	}
+}
+country_event = {
+    id = IRE_hidden.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_hidden.6 FROM = [From.GetName]" }
+	title = IRE_hidden.6.t
+	desc = IRE_hidden.6.d
+	picture = IRE_hidden_6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_hidden.6.a
+	}
+}
+####################################
 country_event = {
     id = IRE_bid_Olympic.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -61,7 +207,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		  
+		  		
 		}
     }
 	
@@ -276,6 +422,48 @@ country_event = {
 		set_variable = { var = SDP_IRE_7_0 value = 0 }
 		name = IRE_Build_venues.7.a
 		set_country_flag = IRE_Build_start
+		set_variable = { var = SDP_IRE_1 value = 0 }
+		clamp_variable = {
+          var = SDP_IRE_1
+          min = 0
+          max = 100
+        }
+        set_variable = { var = SDP_IRE_2 value = 0 }
+        set_variable = { var = SDP_IRE_3 value = 5 }
+        set_variable = { var = SDP_IRE_4 value = 0 }
+        set_variable = { var = SDP_IRE_5 value = 5 }
+        set_variable = { var = SDP_IRE_6 value = 0 }
+        set_variable = { var = SDP_IRE_7 value = 0 }
+clamp_variable = {
+var = SDP_IRE_2
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_3
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_4
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_5
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_6
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_7
+min = -20
+max = 100
+}
 	}
 	option = { 
 	    ai_chance = {
@@ -285,6 +473,74 @@ country_event = {
 		set_variable = { var = SDP_IRE_7_0 value = 1 }
 		name = IRE_Build_venues.7.b
 		set_country_flag = IRE_Build_start
+		set_variable = { var = SDP_IRE_1 value = 0 }
+		clamp_variable = {
+          var = SDP_IRE_1
+          min = 0
+          max = 100
+        }
+        set_variable = { var = SDP_IRE_2 value = 0 }
+        set_variable = { var = SDP_IRE_3 value = 5 }
+        set_variable = { var = SDP_IRE_4 value = 0 }
+        set_variable = { var = SDP_IRE_5 value = 5 }
+        set_variable = { var = SDP_IRE_6 value = 0 }
+        set_variable = { var = SDP_IRE_7 value = 0 }
+		
+clamp_variable = {
+var = SDP_IRE_2
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_3
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_4
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_5
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_6
+min = -20
+max = 100
+}
+clamp_variable = {
+var = SDP_IRE_7
+min = -20
+max = 100
+}
+	}
+}
+country_event = {
+    id = IRE_Build_venues.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.8 FROM = [From.GetName]" }
+	title = IRE_Build_venues.8.t
+	desc = IRE_Build_venues.8.d
+	picture = GFX_IRE_Build_venues.8
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_1 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.8.a
 	}
 }
 country_event = {
@@ -364,7 +620,8 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		country_event = { id = IRE_hidden.3 days = 1 }
+		news_event = { id = IREnews.3 day = 1}
 		name = IRE.3.a
 	}
 }
@@ -460,29 +717,7 @@ country_event = {
 		name = IRE.7.a
 	}
 }
-country_event = {
-    id = IRE.8
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	IRE.8 FROM = [From.GetName]" }
-	title = IRE.8.t
-	desc = IRE.8.d
-	picture = GFX_IRE.8
-	
-	is_triggered_only = yes
-	
-	immediate = {
-	    hidden_effect = {
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		
-		name = IRE.8.a
-	}
-}
+
 country_event = {
     id = IRE.9
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

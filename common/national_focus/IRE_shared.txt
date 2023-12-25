@@ -73,6 +73,9 @@ shared_focus = {#第四行
 		y = 3
 		prerequisite = {focus = IRE_3 OR = IRE_4}
 		select_effect = {
+		  hidden_effect = {
+		    country_event = { id = IRE_hidden.1 days = 35 }
+		  }
 		country_event = { id = IRE.1 days = 7 }
 		}
     }
@@ -93,7 +96,7 @@ shared_focus = {#左线第一个
 	shared_focus = {#左线第二行左
         id = IRE_8
 		icon = GFX_IRE_8
-		cost = -7
+		cost = 7
 		x = -7
 		y = 1
 		prerequisite = {focus = IRE_6}
@@ -342,9 +345,15 @@ shared_focus = {#第四行
 		available_if_capitulated = no
 		x = 10
 		y = 3
-		prerequisite = {focus = IRE_18 AND = IRE_19}
+		prerequisite = {focus = IRE_18}
+		prerequisite = {focus = IRE_19}
+		select_effect = {
+		  hidden_effect = {
+		    country_event = { id = IRE_hidden.2 days = 35 }
+		  }
+		  country_event = { id = IRE.2 days = 25 }
+		}
 		completion_reward = {
-		country_event = { id = IRE.2 days = 7 }
 		1332 = {
 		   add_extra_state_shared_building_slots = 1
 		   add_building_construction = {
@@ -368,6 +377,8 @@ shared_focus = {#第四行
 		news_event = { id = IREnews.2 day = 1}
 		}
 		completion_reward = {
+		 hidden_effect = {
 		 country_event = { id = IRE.4 days = 10 }
+		 }
 		}
     }

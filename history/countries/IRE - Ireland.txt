@@ -1,11 +1,11 @@
-capital = 325 
+capital = 1332 
 
 oob = "IRE_1947"  
 
 set_research_slots = 3 
 
-set_war_support = 0.6 
-set_stability = 0.4 
+set_war_support = 0.4 
+set_stability = 0.3 
 
 set_politics = {
 	ruling_party = movement_communism 
@@ -56,52 +56,7 @@ participant_of_the_revolutionary_war
 
 set_variable = { var = IRE_Financial_burden_var value = 0}
 set_variable = { var = IRE_Financial_burden_pp_var value = 0 }
-set_variable = { var = SDP_IRE_1 value = -16 }
-set_variable = { var = SDP_IRE_2 value = -16 }
-set_variable = { var = SDP_IRE_3 value = 4 }
-set_variable = { var = SDP_IRE_4 value = -16 }
-set_variable = { var = SDP_IRE_5 value = 4 }
-set_variable = { var = SDP_IRE_6 value = -16 }
-set_variable = { var = SDP_IRE_7 value = -16 }
-clamp_variable = {
-var = SDP_IRE_1
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_2
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_3
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_4
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_5
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_6
-min = -20
-max = 100
-}
-clamp_variable = {
-var = SDP_IRE_7
-min = -20
-max = 100
-}           
-country_event = {
-	id = IRE_boom.1
-	days = 399
-}
+          
 create_country_leader = {
 	name = "IRE_Sean_O_Cley"  
 	desc = "IRE_Sean_O_Cley_desc"  
