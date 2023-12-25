@@ -65,3 +65,4 @@ create_country_leader = {
 	ideology = FFFFF_FFF
 	traits = {  }
 }
+recruit_character = IRE_Hugo_MacNeill

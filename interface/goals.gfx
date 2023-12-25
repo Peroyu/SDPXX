@@ -2077,6 +2077,24 @@ SpriteType = {
 	name = "GFX_IRE_Olympic_celebrations"
 	texturefile = "gfx/interface/goals/IRE/IRE_Olympic_celebrations.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_IRE_11"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_14"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_4.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_13"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_16"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_8.png"			
+	}
 	
 	###############3TUR####################################
 
