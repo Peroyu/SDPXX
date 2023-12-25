@@ -55,6 +55,10 @@ AFG = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }
 }
+RJP = {
+	color = rgb { 71 100 59 }
+	color_ui = rgb { 71 100 59 }
+}
 BAG = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }
@@ -84,8 +88,8 @@ AZB = {
 	color_ui = rgb { 255 229 118 }
 }
 GUI = {
-	color = rgb { 58 120 35 }
-	color_ui = rgb { 58 120 35 }
+	color = rgb { 71 100 59 }
+	color_ui = rgb { 71 100 59 }
 }
 MIS = {
 	color = rgb { 178 101 96 }
