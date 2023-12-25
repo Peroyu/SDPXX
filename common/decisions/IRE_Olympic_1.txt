@@ -8,16 +8,22 @@ IRE_Olympic_1_categories = {
 		}
         is_good = no    
 		fire_only_once = yes               
-        days_mission_timeout = 40              
+        days_mission_timeout = 30              
         timeout_effect = { 
 		 	country_event = {
                 id = IRE_bid_Olympic.1
                 days = 1					
             }
-            news_event = {
-			    id = global.1
-				days = 1
-            }			
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = global.1
+					days = 20
+				}
+			}
+           			
 			set_country_flag = IRE_Build_start_0
 			add_ideas = IRE_Olympic_village_1
             add_dynamic_modifier = {
