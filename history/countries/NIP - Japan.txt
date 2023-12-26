@@ -230,6 +230,15 @@ add_ideas = {
 	NIP_pan_Asia_dream
 	NIP_politic_warn
 }
+
+			create_country_leader = {
+				name = "NIP_Yamanashi_Katsunoshin"   
+				desc = "NIP_Tokugawa_Iemasa_desc"  
+				picture = "gfx/leaders/JAP/portrait_NIP_Yamanashi_Katsunoshin.png"   
+				expire = "1964.1.7"   
+				ideology = Zenkoku_isseini
+				traits = {  }
+			}
 create_country_leader = {
 		name = "NIP_Tokugawa_Iemasa"   
 		desc = "NIP_Tokugawa_Iemasa_desc"  

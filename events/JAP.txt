@@ -1329,14 +1329,6 @@ country_event = {
 		load_focus_tree = NIP_focus_4
 			set_party_name = { ideology = reactionism long_name = NIP_reactionism_party_millitas_long name = NIP_reactionism_party_millitas }
 			retire_country_leader = yes
-			create_country_leader = {
-				name = "NIP_Yamanashi_Katsunoshin"   
-				desc = "NIP_Tokugawa_Iemasa_desc"  
-				picture = "gfx/leaders/JAP/portrait_NIP_Yamanashi_Katsunoshin.png"   
-				expire = "1964.1.7"   
-				ideology = Zenkoku_isseini
-				traits = {  }
-			}
 		hidden_effect = {
 			every_country = {
 				limit = {

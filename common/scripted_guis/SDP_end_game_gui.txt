@@ -33,6 +33,13 @@ scripted_gui = {
 			CJF_chen_final_screen_text_visible = {
 				has_country_flag = CJF_chen_final_screen
 			}
+
+			GDC_final_screen_picture_visible = {
+				has_country_flag = GDC_final_screen
+			}
+			GDC_final_screen_text_visible = {
+				has_country_flag = GDC_final_screen
+			}
 		}
    }
 }

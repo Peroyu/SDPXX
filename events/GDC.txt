@@ -1821,6 +1821,7 @@ country_event = { #选举
 		}
     }
 	option = {
+		
 		trigger = {
 			has_country_flag = GDC_He_Xiangning_election
 			check_variable = { #检查变量大小
@@ -1836,6 +1837,8 @@ country_event = { #选举
 			tree = GDC_He_Xiangning_national_focus_tree
 			keep_completed = no
 		}
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = GDC_final_screen
 		name = GDCcp.12.a
 	}
 	option = {
@@ -1854,6 +1857,8 @@ country_event = { #选举
 			tree = GDC_Li_Jishen_national_focus_tree
 			keep_completed = no
 		}
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = GDC_final_screen
 		name = GDCcp.12.b
 	}
 	option = {
@@ -1868,6 +1873,8 @@ country_event = { #选举
 		set_politics = {  
 			ruling_party = committee_communism
 		}
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = GDC_final_screen
 		name = GDCcp.12.c
 	}
 	option = {
@@ -1882,6 +1889,8 @@ country_event = { #选举
 		set_politics = {  
 			ruling_party = communism
 		}
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = GDC_final_screen
 		name = GDCcp.12.e
 	}
 		

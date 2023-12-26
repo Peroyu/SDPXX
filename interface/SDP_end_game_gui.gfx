@@ -20,4 +20,9 @@ spritetypes = {
 		texturefile = "gfx/interface/endgamegui/GFX_CJF_chen_final_screen_picture.png"
 	}
 
+	SpriteType = {
+		name = "GFX_GDC_final_screen_picture"
+		texturefile = "gfx/interface/endgamegui/GFX_GDC_final_screen_picture.png"
+	}
+
 }
