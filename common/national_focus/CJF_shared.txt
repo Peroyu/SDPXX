@@ -1699,8 +1699,22 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_war_support = 0.05
-		add_state_core = 938
-		add_state_core = 939
+		1049 = {
+			prioritize = { 195 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
+		650 = {
+			prioritize = { 219 }
+			limit = { valid_state_for_spawning_friendly_unit = yes }
+			create_unit = {
+				division = "division_template = \"Bubing Juntuán\" start_experience_factor = 0.1"
+				owner = CJF
+			}
+		}
 	}
 }
 shared_focus = {

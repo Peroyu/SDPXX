@@ -87,6 +87,10 @@ AZB = {
 	color = rgb { 255 229 118 }
 	color_ui = rgb { 255 229 118 }
 }
+ETR = {
+	color = rgb { 225 116 116 }
+	color_ui = rgb { 225 116 116 }
+}
 GUI = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }

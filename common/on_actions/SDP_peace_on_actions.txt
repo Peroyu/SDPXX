@@ -127,6 +127,38 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # ETR beats SIK 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ETR
+								is_in_faction_with = ETR
+							}
+						}
+						ROOT = {
+							original_tag = SIK
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					ETR = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					RUS = {
+						set_autonomy = {
+							target = ETR
+							autonomy_state = autonomy_puppet
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # KHN beats HNN (Hunan attack) 
 				limit = {
 					FROM = {
