@@ -261,6 +261,15 @@ country_event = {
 		load_focus_tree = NIP_focus_3
 		name = JAP.3.c
 	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = IRE_final_screen
+		name = JAP.3.g
+	}
 }
 country_event = {
     id = NIP.4 #选举开始

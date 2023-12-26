@@ -1,0 +1,38 @@
+scripted_gui = {
+	SDP_end_game_gui ={
+		window_name = "SDP_end_game_gui_window_main"
+		context_type = Player_context
+		visible = {
+			has_country_flag = open_SDP_SDP_end_game_gui
+		}
+	
+	    effects = {
+			enter_SDP_end_game_gui_close_button_click = {
+				clr_country_flag = open_SDP_SDP_end_game_gui
+			}
+	    }
+
+		triggers = {
+			IRE_final_screen_picture_visible = {
+				has_country_flag = IRE_final_screen
+			}
+			IRE_final_screen_text_visible = {
+				has_country_flag = IRE_final_screen
+			}
+
+			CJF_sunfo_final_screen_picture_visible = {
+				has_country_flag = CJF_sunfo_final_screen
+			}
+			CJF_sunfo_final_screen_text_visible = {
+				has_country_flag = CJF_sunfo_final_screen
+			}
+
+			CJF_chen_final_screen_picture_visible = {
+				has_country_flag = CJF_chen_final_screen
+			}
+			CJF_chen_final_screen_text_visible = {
+				has_country_flag = CJF_chen_final_screen
+			}
+		}
+   }
+}

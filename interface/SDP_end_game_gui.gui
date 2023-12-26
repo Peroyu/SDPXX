@@ -1,0 +1,78 @@
+guiTypes ={
+	
+	containerWindowType = {#主窗口
+		name = "SDP_end_game_gui_window_main"
+		position = { x = -100 y = 200 }
+		Orientation = CENTER_UP
+		size = { width = 600 height = 615 }
+		moveable = yes
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_SDP_end_game_gui_window_main_plain"
+		}
+		buttonType = { 
+			name = "enter_SDP_end_game_gui_close_button"
+			position = { x = 500 y = 10 } 
+			quadTextureSprite = "GFX_cancel_transfer_button"
+			clicksound = click_default
+			pdx_tooltip = "SDP_close_end_game_gui_tt"
+		} 
+		instantTextboxType = {
+			name = "SDP_end_game_gui_title"
+			position = { x = 20 y = 100 }
+			font = "hoi_20b"
+			text = "SDP_end_game_gui_title_text"
+			maxWidth = 500
+			maxHeight = 500
+			format = center
+	    }
+
+		iconType = {#图片窗口，无效果
+			name = "IRE_final_screen_picture"
+			spriteType = "GFX_IRE_final_screen_picture"		
+			position = { x = 14 y = 390 }#你的图片位置（相对于窗口）
+		}
+
+		instantTextboxType = {
+			name = "IRE_final_screen_text"
+			position = { x = 45 y = 150 }
+			font = "hoi_18mbs"
+			text = "IRE_final_screen_text"
+			maxWidth = 450
+			maxHeight = 500
+			format = center
+	    }
+
+		iconType = {#图片窗口，无效果
+			name = "CJF_sunfo_final_screen_picture"
+			spriteType = "GFX_CJF_sunfo_final_screen_picture"		
+			position = { x = 14 y = 390 }#你的图片位置（相对于窗口）
+		}
+
+		instantTextboxType = {
+			name = "CJF_sunfo_final_screen_text"
+			position = { x = 45 y = 150 }
+			font = "hoi_18mbs"
+			text = "CJF_sunfo_final_screen_text"
+			maxWidth = 450
+			maxHeight = 500
+			format = center
+	    }
+
+		iconType = {#图片窗口，无效果
+			name = "CJF_chen_final_screen_picture"
+			spriteType = "GFX_CJF_chen_final_screen_picture"		
+			position = { x = 14 y = 390 }#你的图片位置（相对于窗口）
+		}
+
+		instantTextboxType = {
+			name = "CJF_chen_final_screen_text"
+			position = { x = 45 y = 150 }
+			font = "hoi_18mbs"
+			text = "CJF_chen_final_screen_text"
+			maxWidth = 450
+			maxHeight = 500
+			format = center
+	    }
+	}
+}

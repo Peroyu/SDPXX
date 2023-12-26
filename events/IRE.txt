@@ -142,7 +142,8 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = IRE_final_screen
 		name = IRE_hidden.6.a
 	}
 }
