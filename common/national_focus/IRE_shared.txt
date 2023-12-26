@@ -78,6 +78,9 @@ shared_focus = {#第四行
 		  }
 		country_event = { id = IRE.1 days = 7 }
 		}
+		completion_reward = {
+			custom_effect_tooltip = IRE_effect_costom_2
+			}
     }
 ############################################
 shared_focus = {#左线第一个
@@ -260,7 +263,13 @@ shared_focus = {#第一个
 		available_if_capitulated = no
 		x = 10
 		y = 0
-		completion_reward = {   
+		completion_reward = {  
+			hidden_effect = {
+				country_event = {
+					id = IRE.7
+					days = 1
+				}
+			} 
 		    add_political_power = 50
 			1332 = {
 		   add_extra_state_shared_building_slots = 1
@@ -304,7 +313,7 @@ shared_focus = {#第二个
 shared_focus = {#第三行左边
         id = IRE_18
 		icon = GFX_politic_7
-		cost = 1
+		cost = 2
 		available_if_capitulated = no
 		x = 8
 		y = 2
@@ -322,7 +331,7 @@ shared_focus = {#第三行左边
 shared_focus = {#第三行右边
         id = IRE_19
 		icon = GFX_politic_2
-		cost = 1
+		cost = 2
 		available_if_capitulated = no
 		x = 12
 		y = 2
@@ -330,6 +339,8 @@ shared_focus = {#第三行右边
 		    focus = IRE_17
 	    }
         completion_reward = {
+			
+			country_event = { id = IRE.2 days = 1 }
           add_popularity = {
 			ideology = movement_communism
 			popularity = 0.05
@@ -341,7 +352,7 @@ shared_focus = {#第三行右边
 shared_focus = {#第四行
         id = IRE_20
 		icon = GFX_IRE_North_America
-		cost = 1
+		cost = 3
 		available_if_capitulated = no
 		x = 10
 		y = 3
@@ -349,9 +360,8 @@ shared_focus = {#第四行
 		prerequisite = {focus = IRE_19}
 		select_effect = {
 		  hidden_effect = {
-		    country_event = { id = IRE_hidden.2 days = 35 }
+		    
 		  }
-		  country_event = { id = IRE.2 days = 25 }
 		}
 		completion_reward = {
 		1332 = {
@@ -367,18 +377,15 @@ shared_focus = {#第四行
 shared_focus = {#第四行
         id = IRE_21
 		icon = GFX_IRE_Ireland_on_the_stage
-		cost = 5
+		cost = 7
 		available_if_capitulated = no
 		x = 10
 		y = 4
 		prerequisite = {focus = IRE_20}
 		select_effect = {
-		country_event = { id = IRE.3 days = 1 }
-		news_event = { id = IREnews.2 day = 1}
+			
 		}
 		completion_reward = {
-		 hidden_effect = {
-		 country_event = { id = IRE.4 days = 10 }
-		 }
+			custom_effect_tooltip = IRE_effect_costom_1
 		}
     }

@@ -154,8 +154,6 @@ add_ideas = {
 	private_schools
 	private_health_insurance
 	#
-IRE_Soul_of_a_pioneer_1
-IRE_Blood_of_the_Resisters_1
 IRE_Ulster_1
 participant_of_the_revolutionary_war
 }

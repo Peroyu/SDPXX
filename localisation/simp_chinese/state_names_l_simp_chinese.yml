@@ -4079,6 +4079,8 @@
  STATE_1330_ENDONYM: "[1330.Controller.GetStateName_1330]"
  STATE_1331: "撒哈拉阿特拉斯"
  STATE_1331_ENDONYM: "[1331.Controller.GetStateName_1331]"
+ STATE_1332: "都柏林"
+ STATE_1332_ENDONYM: "[1332.Controller.GetStateName_1332]"
  STATE_1320_RUSSIAN: "霍京"
  STATE_1320_UKRAINIAN: "霍京"
  STATE_1320_POLISH: "霍齐姆"

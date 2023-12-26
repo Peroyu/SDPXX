@@ -2096,6 +2096,14 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/generic/GFX_politic_8.png"			
 	}
 	
+	SpriteType = {
+		name = "GFX_IRE_4"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_3.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_3"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
+	}
 	###############3TUR####################################
 
 

@@ -15,9 +15,10 @@ IRE_Olympic_2_categories = {
         days_mission_timeout = 450              
         timeout_effect = { 
 		  clr_country_flag = IRE_Build_start
-		  country_event = {
-		   id = IRE_bid_Olympic.2
-		   days = 1
+		  custom_effect_tooltip = IRE_effect_costom_3
+		  hidden_effect = {
+			country_event = { id = IRE_hidden.2 days = 7 }
+			country_event = { id = IRE.3 days = 8 }
 		  }
         }
 	}
