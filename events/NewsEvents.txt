@@ -34,7 +34,7 @@ news_event = {
 news_event = {
 	id = IREnews.2
 
-    picture = GFX_IRE_2
+    picture = GFX_IREnews_2
     title = IREnews.2.t
     desc = IREnews.2.d
     immediate = { 
