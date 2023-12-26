@@ -12,7 +12,7 @@ IRE_Olympic_2_categories = {
 		}
         is_good = no
 		fire_only_once = yes               
-        days_mission_timeout = 510              
+        days_mission_timeout = 480              
         timeout_effect = { 
 		  clr_country_flag = IRE_Build_start
 		  custom_effect_tooltip = IRE_effect_costom_3
