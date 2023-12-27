@@ -283,34 +283,21 @@ news_event = {
     desc = global.6.d
     immediate = { 
         hidden_effect = {
-            random_list = {
-                60 = {
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = global.8
-                            days = 32
-                        }
-                    }
-                }
-                40 = {
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = ISU.29
-                            days = 55
-                        }
-                    }
-                }
-               }
+            
         }
 	}
-    is_triggered_only = yes
- 
+    trigger = {
+        is_ai = no
+        OR = {
+            country_exists = ALG
+            country_exists = AIS
+        }
+        NOT = {
+            country_exists = ALF
+            country_exists = COA
+        }
+        
+    }
     fire_only_once = yes
 
     major = yes
@@ -327,30 +314,25 @@ news_event = {
     desc = global.7.d
     immediate = { 
         hidden_effect = {
-           random_list = {
-            60 = {
-                every_country = {
-					limit = {
-						is_ai = no
-					}
-					news_event = {
-						id = global.9
-						days = 52
-					}
-				}
-            }
-            40 = {
-                every_country = {
-					limit = {
-						is_ai = no
-					}
-					news_event = {
-						id = global.8
-						days = 32
-					}
-				}
-            }
-           }
+                COA = {
+                    transfer_state = 805
+                    add_state_core = 805
+                    load_oob = "COA_algeria"
+                    if = {
+                        limit = {
+                            country_exists = AIS
+                        }
+                        declare_war_on = { target = AIS type = annex_everything } 
+                    }
+                    if = {
+                        limit = {
+                            country_exists = ALG
+                        }
+                        declare_war_on = { target = ALG type = annex_everything }
+                    }
+                    declare_war_on = { target = ALF type = annex_everything } 
+                }
+           
         }
 	}
     is_triggered_only = yes
@@ -589,6 +571,38 @@ news_event = {
 
 	option = {
 		name = global.15.a
+        
+	}
+    
+}
+news_event = {
+	id = global.16
+
+    picture = GFX_global_16
+    title = global.16.t
+    desc = global.16.d
+    immediate = { 
+        hidden_effect = {
+           
+        }
+	}
+    trigger = {
+        is_ai = no
+       country_exists = COA
+       NOT = {
+        country_exists = ALF
+        country_exists = ALG
+        country_exists = AIS
+       }
+        
+    }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.16.a
         
 	}
     
@@ -2485,6 +2499,30 @@ news_event = {
           FRA = {
             declare_war_on = { target = MLT type = annex_everything }
             add_ideas = ISU_Balkan_crisis
+            116 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"normal\" start_experience_factor = 0.1"
+					owner = FRA
+				}
+			}
+			116 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"normal\" start_experience_factor = 0.1"
+					owner = FRA
+				}
+			}
+			116 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"normal\" start_experience_factor = 0.1"
+					owner = FRA
+				}
+			}
           }
         }
 	}

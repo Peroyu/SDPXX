@@ -129,13 +129,17 @@ CHI_reuni = {
 			NOT = {
 				country_exists = CMA
 			}
-			any_country = {
-				OR = {
-					original_tag = NIP
-					is_in_faction_with = NIP
+			OR = {
+				any_country = {
+					OR = {
+						original_tag = NIP
+						is_in_faction_with = NIP
+					}
+					controls_state = 650
 				}
-				controls_state = 650
+				surrender_progress > 0.8
 			}
+			
 		}
 		
 		days_mission_timeout = 5
