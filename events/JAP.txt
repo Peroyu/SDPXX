@@ -267,7 +267,7 @@ country_event = {
 		}
 		
 		set_country_flag = open_SDP_SDP_end_game_gui
-		set_country_flag = IRE_final_screen
+		set_country_flag = GDC_final_screen
 		name = JAP.3.g
 	}
 }
@@ -1328,6 +1328,10 @@ country_event = {
 		}
 		load_focus_tree = NIP_focus_4
 			set_party_name = { ideology = reactionism long_name = NIP_reactionism_party_millitas_long name = NIP_reactionism_party_millitas }
+			
+			set_politics = {
+				ruling_party = reactionism
+			}
 			retire_country_leader = yes
 		hidden_effect = {
 			every_country = {

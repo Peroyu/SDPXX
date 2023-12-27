@@ -193,6 +193,9 @@ news_event = {
     desc = global.3.d
     immediate = { 
         hidden_effect = {
+            CAN = {
+                kill_country_leader = yes
+            }
             every_country = {
                 limit = {
                     is_ai = no
