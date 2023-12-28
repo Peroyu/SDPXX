@@ -219,6 +219,57 @@ country_event = {
 	}
 }
 country_event = {
+    id = IRE_bid_Olympic.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_bid_Olympic.3 FROM = [From.GetName]" }
+	title = IRE_bid_Olympic.3.t
+	desc = IRE_bid_Olympic.3.d
+	picture = GFX_IREoly3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = IRE_bid_Olympic.4
+				days = 8
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_bid_Olympic.3.a
+	}
+}
+country_event = {
+    id = IRE_bid_Olympic.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_bid_Olympic.4 FROM = [From.GetName]" }
+	title = IRE_bid_Olympic.4.t
+	desc = IRE_bid_Olympic.4.d
+	picture = GFX_IREoly3
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_bid_Olympic.4.a
+	}
+}
+country_event = {
     id = IRE_Build_venues.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	IRE_Build_venues.1 FROM = [From.GetName]" }

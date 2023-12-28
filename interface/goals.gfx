@@ -2120,6 +2120,18 @@ SpriteType = {
 		name = "GFX_IRE_15"
 		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
 	}
+	SpriteType = {
+		name = "GFX_IRE_10"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_6.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_12"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_7.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_8"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_8.png"			
+	}
 	###############3TUR####################################
 
 

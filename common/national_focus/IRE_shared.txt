@@ -368,6 +368,10 @@ shared_focus = {#第四行
 		  }
 		}
 		completion_reward = {
+			country_event = {
+				id = IRE_bid_Olympic.3
+				days = 1
+			}
 		1332 = {
 		   add_extra_state_shared_building_slots = 1
 		   add_building_construction = {
