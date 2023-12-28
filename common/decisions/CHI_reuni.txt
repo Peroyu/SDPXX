@@ -129,7 +129,6 @@ CHI_reuni = {
 			NOT = {
 				country_exists = CMA
 			}
-			OR = {
 				any_country = {
 					OR = {
 						original_tag = NIP
@@ -137,8 +136,7 @@ CHI_reuni = {
 					}
 					controls_state = 650
 				}
-				surrender_progress > 0.8
-			}
+			
 			
 		}
 		

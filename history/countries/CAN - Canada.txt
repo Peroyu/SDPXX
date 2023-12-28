@@ -50,10 +50,19 @@ set_popularities = {
  Nationalism = 5
  restorativeism = 4
 }
-
+create_country_leader = {
+	name = "CAN_Louis_Laurent"  # 
+	desc = "CAN_Louis_Laurent_desc"  # 
+	picture = "gfx\leaders\EN\Portrait_CAN_Louis_Laurent.png"  # 
+	expire = "1976.3.10"  # 
+	ideology = authoritarian_democracy # 
+	traits = {  # 
+		#
+	}
+}
 
 create_country_leader = {
-	name = "爱德华八世"  # 
+	name = "CAN_Edward_VIII"  # 
 	desc = "CAN_Edward_VIII_desc"  # 
 	picture = "gfx\leaders\EN\CAN_Edward_VIII.png"  # 
 	expire = "1976.3.10"  # 
