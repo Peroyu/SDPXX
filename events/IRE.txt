@@ -606,6 +606,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
 		}
     }
 	
@@ -615,6 +616,188 @@ country_event = {
 		}
 		
 		name = IRE_Build_venues.8.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.9   #奥运村
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.9 FROM = [From.GetName]" }
+	title = IRE_Build_venues.9.t
+	desc = IRE_Build_venues.9.d
+	picture = GFX_IRE_Build_venues.9
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_2 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.9.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.10   #赛马场
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.10 FROM = [From.GetName]" }
+	title = IRE_Build_venues.10.t
+	desc = IRE_Build_venues.10.d
+	picture = GFX_IRE_Build_venues.10
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_3 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.10.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.11   #靶场
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.11 FROM = [From.GetName]" }
+	title = IRE_Build_venues.11.t
+	desc = IRE_Build_venues.11.d
+	picture = GFX_IRE_Build_venues.11
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_4 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.11.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.12   #河
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.12 FROM = [From.GetName]" }
+	title = IRE_Build_venues.12.t
+	desc = IRE_Build_venues.12.d
+	picture = GFX_IRE_Build_venues.12
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_5 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.12.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.13   #河
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.13 FROM = [From.GetName]" }
+	title = IRE_Build_venues.13.t
+	desc = IRE_Build_venues.13.d
+	picture = GFX_IRE_Build_venues.13
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_6 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.13.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.14   #球
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.14 FROM = [From.GetName]" }
+	title = IRE_Build_venues.14.t
+	desc = IRE_Build_venues.14.d
+	picture = GFX_IRE_Build_venues.14
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_7 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.14.a
+	}
+}
+country_event = {
+    id = IRE_Build_venues.15   #车
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	IRE_Build_venues.15 FROM = [From.GetName]" }
+	title = IRE_Build_venues.15.t
+	desc = IRE_Build_venues.15.d
+	picture = GFX_IRE_Build_venues.15
+	
+	fire_only_once = yes
+	
+	trigger = { check_variable = { SDP_IRE_8 = 100 } }
+	
+	immediate = {
+	    hidden_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = IRE_Build_venues.15.a
 	}
 }
 country_event = {

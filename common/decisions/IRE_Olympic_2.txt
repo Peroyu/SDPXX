@@ -35,7 +35,7 @@ IRE_Olympic_2_categories = {
 		civilian_factory_use = 1
 		}
         remove_effect = {
-		add_to_variable = { var = SDP_IRE_1 value = 120 }
+		add_to_variable = { var = SDP_IRE_1 value = 10 }
 		clamp_variable = {
           var = SDP_IRE_1
           min = 0
@@ -45,6 +45,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_1_true_02={
 	    icon = decision_generic_decision   
@@ -194,6 +197,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_2_true_02={
 	    icon = decision_generic_decision   
@@ -343,6 +349,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_3_true_02={
 	    icon = decision_generic_decision   
@@ -492,6 +501,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_4_true_02={
 	    icon = decision_generic_decision   
@@ -641,6 +653,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_5_true_02={
 	    icon = decision_generic_decision   
@@ -790,6 +805,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_6_true_02={
 	    icon = decision_generic_decision   
@@ -939,6 +957,9 @@ IRE_Olympic_2_categories = {
         }
 		cost = 20
 		days_remove = 30
+		ai_will_do = {
+			base = 100
+		}
     }
 	Build_venues_7_true_02={
 	    icon = decision_generic_decision   

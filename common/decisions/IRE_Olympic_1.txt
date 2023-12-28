@@ -25,9 +25,11 @@ IRE_Olympic_1_categories = {
 			}
            			
 			set_country_flag = IRE_Build_start_0
-			add_ideas = IRE_Olympic_village_1
             add_dynamic_modifier = {
 			    modifier = IRE_Financial_burden 
+		    }
+			add_dynamic_modifier = {
+			    modifier = IRE_Olympic_village 
 		    }
         }
 	}
