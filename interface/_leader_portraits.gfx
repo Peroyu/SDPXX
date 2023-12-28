@@ -694,6 +694,12 @@
 	}
 	########################################################################
 	spriteType = {
+		name = "Portrait_ETR_Alihantora"
+		texturefile = "gfx/leaders/ASIA/Portrait_ETR_Alihantora.png"		
+	}
+
+
+	spriteType = {
 		name = "portrait_MAG_Jacques_Rabemananjara"
 		texturefile = "gfx/leaders/ASIA/portrait_MAG_Jacques_Rabemananjara.png"		
 	}

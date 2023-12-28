@@ -98,7 +98,7 @@ guiTypes = {
 			name = "SDP_version"
 			position = { x = -1500 y = 290 }
 			font = "hoi_24header"
-			text = "0.03 - “自由与和平”"
+			text = "0.03 - “风吹麦浪”"
 			maxWidth = 500
 			maxHeight = 500
 			format = center
