@@ -929,9 +929,6 @@ on_actions = {
 						transfer_state = 911
 					}
 				}
-				805 = {
-					set_demilitarized_zone = yes
-				}
 
 					set_global_flag = skip_default_capitulation
 				}
@@ -1734,6 +1731,30 @@ on_actions = {
 						}
 						ROOT = {
 							original_tag = ROM
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat ROM
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = BOS
 						}
 					}
 
