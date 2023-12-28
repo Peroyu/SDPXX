@@ -2104,6 +2104,22 @@ SpriteType = {
 		name = "GFX_IRE_3"
 		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
 	}
+	SpriteType = {
+		name = "GFX_IRE_18"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_7.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_19"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_20"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_15"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
+	}
 	###############3TUR####################################
 
 

@@ -31,25 +31,4 @@ IRE_Olympic_1_categories = {
 		    }
         }
 	}
-	Build_venues_1 = {
-	    icon = decision_generic_decision
-		available = {
-		  
-		}
-		allowed = {
-		
-		}   
-		
-		visible = {
-		  has_country_flag = IRE_Build_start_0
-		}
-        is_good = no    
-		fire_only_once = yes                         
-        complete_effect = {     
-	      country_event = {
-                id = IRE_Build_venues.1
-                days = 1					
-            }
-        }
-    }
 }

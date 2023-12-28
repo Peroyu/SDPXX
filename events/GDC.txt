@@ -198,6 +198,7 @@ country_event = {
 			remove_ideas = GDC_Iron_Cage_2
 		}
 		name = GDCintro.7.a
+		custom_effect_tooltip = SDP_national_focus_changed_tt
 		custom_effect_tooltip = CHI_v_regional_tension_decrease
 		add_to_variable = { global.CHI_huanan_regional_tension = -20 }
 	}

@@ -824,10 +824,14 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_dh.3.a 
-		load_focus_tree = {
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		hidden_effect = {
+			load_focus_tree = {
 		        tree = CJF_second
 		        keep_completed = no
 		    }
+		}
+		
 		custom_effect_tooltip = CHI_v_regional_tension_decrease_plus
 		add_to_variable = { global.CHI_xinan_regional_tension = -30 }
 		annex_country = { target = KGP transfer_troops = yes }

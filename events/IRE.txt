@@ -184,7 +184,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip = IRE_effect_tt_00
+		hidden_effect = {
+			country_event = {
+                id = IRE_Build_venues.1
+                days = 1					
+            }
+		}
 		name = IRE_bid_Olympic.1.a
 	}
 }
@@ -582,7 +588,11 @@ country_event = {
 		complete_national_focus = IRE_6
 		set_country_flag = IRE_left
 		name = IRE.1.a
-		load_focus_tree = IRE_lefttree
+		hidden_effect = {
+			load_focus_tree = IRE_lefttree
+		}
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		
 		add_ideas = idea_IRE_eco_1
 	}
 	option = { 
@@ -592,6 +602,7 @@ country_event = {
 		complete_national_focus = IRE_7
 		set_country_flag = IRE_right
 		name = IRE.1.b
+		custom_effect_tooltip = SDP_national_focus_changed_tt
 		add_ideas = idea_IRE_eco_1
 	}
 }

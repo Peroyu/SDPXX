@@ -241,7 +241,11 @@ shared_focus = {
 			}
 		 remove_ideas = idea_IRE_invest_2
 		 remove_ideas = idea_IRE_market_2
-		 load_focus_tree = IRE_third
+		 hidden_effect = {
+			load_focus_tree = IRE_third
+		 }
+		
+		 custom_effect_tooltip = SDP_national_focus_changed_tt
 		}
 	}
 ############################################
@@ -259,7 +263,7 @@ shared_focus = {#右线第一个
 shared_focus = {#第一个
 		id = IRE_16
 		icon = GFX_Economic_2
-		cost = 4
+		cost = 5
 		available_if_capitulated = no
 		x = 10
 		y = 0
@@ -284,7 +288,7 @@ shared_focus = {#第一个
 shared_focus = {#第二个
         id = IRE_17
 		icon = GFX_IRE_Helplessness_under_confrontation
-		cost = 4
+		cost = 5
 		available_if_capitulated = no
 		x = 10
 		y = 1
@@ -312,8 +316,8 @@ shared_focus = {#第二个
     }
 shared_focus = {#第三行左边
         id = IRE_18
-		icon = GFX_politic_7
-		cost = 2
+		icon = GFX_IRE_18
+		cost = 3
 		available_if_capitulated = no
 		x = 8
 		y = 2
@@ -330,8 +334,8 @@ shared_focus = {#第三行左边
     }
 shared_focus = {#第三行右边
         id = IRE_19
-		icon = GFX_politic_2
-		cost = 2
+		icon = GFX_IRE_19
+		cost = 3
 		available_if_capitulated = no
 		x = 12
 		y = 2
@@ -351,7 +355,7 @@ shared_focus = {#第三行右边
     }
 shared_focus = {#第四行
         id = IRE_20
-		icon = GFX_IRE_North_America
+		icon = GFX_IRE_20
 		cost = 3
 		available_if_capitulated = no
 		x = 10

@@ -1595,7 +1595,9 @@ on_actions = {
 							
 						}
 					}
-
+					HUN = {
+						dismantle_faction = yes
+					}
 					every_country = {
 						limit = {
 							has_war_with = HUN
@@ -1654,7 +1656,9 @@ on_actions = {
 							
 						}
 					}
-
+					HUN = {
+						dismantle_faction = yes
+					}
 					every_country = {
 						limit = {
 							has_war_with = HUN
@@ -1827,6 +1831,9 @@ on_actions = {
 						ROOT = {
 							original_tag = HUN
 						}
+					}
+					HUN = {
+						dismantle_faction = yes
 					}
 					ISU = {
 						white_peace = HUN
