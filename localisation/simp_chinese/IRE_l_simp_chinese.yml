@@ -106,6 +106,8 @@
  IRE_Build_venues.7.a: "建又有啥坏处，反正不是咱们的钱还能为国争光。"
  IRE_Build_venues.7.b: "还是用公路吧，或者直接让他们围着都柏林骑一圈？"
  IRE_Build_venues.8.t: "主场馆建设完成"
+ IRE_Build_venues.8.d: "经过全面整修和改造，落成于1884年的克罗克公园体育场已经完成了作为奥运会主会场的初步准备，它将作为本次奥运会的主会场，开幕式会场和足球，田径项目的举办地。"
+ IRE_Build_venues.8.a: "奥林匹克万岁！"
  Olympics_timeout: "奥运场馆建设倒计时"
  SDP_IRE_intro: "[Get_SDP_IRE_picture]"
  SDP_IRE_intro_x: "点击场馆图片来查看建设进度"
