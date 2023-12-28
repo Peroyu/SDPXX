@@ -910,7 +910,13 @@ guiTypes = {
 		pdx_tooltip = "SDP_delayed_tooltip"
 		pdx_tooltip_delayed = "SDP_delayed_tooltip_tt"
 	}
-
+	iconType = { # UGLY AMERICAN NEW -- JAPA
+	name = "country_selection_new_ugly_2"
+	position = { x = 916 y = 49 }
+	spriteType = "GFX_country_selection_new_big_shine"
+	pdx_tooltip = "SDP_delayed_tooltip"
+	pdx_tooltip_delayed = "SDP_delayed_tooltip_tt"
+}
 	
 	}
 
