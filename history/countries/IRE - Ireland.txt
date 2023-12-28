@@ -153,9 +153,11 @@ add_ideas = {
 	graduated_taxation
 	private_schools
 	private_health_insurance
-	#
-IRE_Ulster_1
-participant_of_the_revolutionary_war
+	###
+	IRE_Soul_of_a_pioneer_1
+    IRE_Blood_of_the_Resisters_1
+    IRE_Ulster_1
+    participant_of_the_revolutionary_war
 }
 
 set_variable = { var = IRE_Financial_burden_var value = 0}

@@ -47,4 +47,13 @@ IRE_Financial_burden = {
     consumer_goods_factor = IRE_Financial_burden_var
 	political_power_gain = IRE_Financial_burden_pp_var
 }
+IRE_Olympic_village = {
+    enable = { 
+	    always = yes 
+	}
+    icon = GFX_IRE_Olympic_village
+    consumer_goods_factor = IRE_IRE_Olympic_village_var
+	political_power_gain = IRE_IRE_Olympic_village_pp_var
+	production_speed_buildings_factor = IRE_IRE_Olympic_village_b_var
+}
 
