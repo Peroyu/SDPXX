@@ -1,5 +1,9 @@
  spriteTypes = {
-
+	spriteType = {
+		name = "GFX_portrait_IRE_Hugo_MacNeill"
+		texturefile = "gfx/leaders/IRE/GFX_portrait_IRE_Hugo_MacNeill.png"		
+	}
+	#
 	spriteType = {
 		name = "Portrait_CPC_Mao_Zedong"
 		texturefile = "gfx/leaders/GDC/portrait_GDC_Mao_Zedong.dds"		
@@ -1204,4 +1208,5 @@ spriteType = {
 		name = "portrait_SDP_coders"
 		texturefile = "gfx/leaders/custom/portrait_SDP_coders.dds"		
 	}
+
 }

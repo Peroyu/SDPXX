@@ -2077,7 +2077,49 @@ SpriteType = {
 	name = "GFX_IRE_Olympic_celebrations"
 	texturefile = "gfx/interface/goals/IRE/IRE_Olympic_celebrations.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_IRE_11"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_14"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_4.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_13"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_16"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_8.png"			
+	}
 	
+	SpriteType = {
+		name = "GFX_IRE_4"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_3.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_3"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_18"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_7.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_19"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_20"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_IRE_15"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
+	}
 	###############3TUR####################################
 
 

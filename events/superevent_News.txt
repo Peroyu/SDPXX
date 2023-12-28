@@ -33,7 +33,48 @@ news_event = {
     title = sp_event.2.t
     desc = sp_event.2.d
     immediate = { 
-	
+		hidden_effect = {
+			random_list = {
+                60 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = global.8
+                            days = 32
+                        }
+                    }
+                }
+                40 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.29
+                            days = 55
+                        }
+                    }
+                }
+               }
+			if = {
+				limit = {
+					ALF = {
+						has_war = yes
+					}
+				}
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = global.7
+						days = 1
+					}
+				}
+			}
+		}
 		
 	}
     fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
@@ -246,6 +287,27 @@ news_event = {
         set_global_flag = Super_Event_Visible
 		set_global_flag = KMT_crush_Super_Event_Visible
 			
+		
+	}
+}
+news_event = {
+	id = CHI_war.7
+    picture = GFX_chi_failed
+    title = CHI_war.7.t
+    desc = CHI_war.7.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = CHI_war.7.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = KMT_crush_Super_Event_Visible	
 		
 	}
 }

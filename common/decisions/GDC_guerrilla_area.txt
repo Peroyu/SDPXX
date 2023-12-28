@@ -54,6 +54,19 @@ GDC_guerrilla_area = {
 			transfer_state = 728
             custom_effect_tooltip = CHI_v_regional_tension_increase
 		    add_to_variable = { global.CHI_huanan_regional_tension = 5 }
+            custom_effect_tooltip = GDC_costom_effect_0
+            start_border_war = {
+                change_state_after_war = yes
+                attacker = {
+                    state = 593
+                    num_provinces = 1
+                }
+                            
+                defender = {
+                    state = 728
+                    num_provinces = 1
+                }
+            }
 		}
 		
 		ai_will_do = {
@@ -100,6 +113,7 @@ GDC_guerrilla_area = {
                 amount = -500
                 producer = GDC
             }
+            
 		}
 		
 		cancel_trigger = {
@@ -115,6 +129,22 @@ GDC_guerrilla_area = {
 			transfer_state = 591
             custom_effect_tooltip = CHI_v_regional_tension_increase
 		    add_to_variable = { global.CHI_huanan_regional_tension = 3 }
+            591 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
+			591 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Yubei Juntuán\" start_experience_factor = 0.1"
+					owner = GDC
+				}
+			}
 		}
 		
 		ai_will_do = {

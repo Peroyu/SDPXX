@@ -1,0 +1,19 @@
+characters = {
+	IRE_Hugo_MacNeill={
+		name = "IRE_Hugo_MacNeill"
+		portraits = {
+			army={
+				small = GFX_portrait_IRE_Hugo_MacNeill
+				large = GFX_portrait_IRE_Hugo_MacNeill
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

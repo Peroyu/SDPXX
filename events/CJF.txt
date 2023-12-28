@@ -596,6 +596,53 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = CJF_chengongbo.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CJF_chengongbo.24 FROM = [From.GetName]" }
+	title = CJF_chengongbo.24.t
+	desc = CJF_chengongbo.24.d
+	picture = GFX_GDCintro
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_political_power = 50
+		name = CJF_chengongbo.24.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_tech_bonus = {
+			name = industry_bonus
+			bonus = 1.0
+			ahead_reduction = 2
+			uses = 1
+			category = industry
+		}
+		name = CJF_chengongbo.24.b 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+		}
+		name = CJF_chengongbo.24.c 
+	}
+	
+}
 #########################################################
 country_event = {
     id = CJF_chongqing.1
@@ -777,10 +824,14 @@ country_event = {
 		   base = 100
 		}
 		name = CJF_dh.3.a 
-		load_focus_tree = {
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		hidden_effect = {
+			load_focus_tree = {
 		        tree = CJF_second
 		        keep_completed = no
 		    }
+		}
+		
 		custom_effect_tooltip = CHI_v_regional_tension_decrease_plus
 		add_to_variable = { global.CHI_xinan_regional_tension = -30 }
 		annex_country = { target = KGP transfer_troops = yes }

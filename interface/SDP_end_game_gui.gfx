@@ -1,0 +1,28 @@
+spritetypes = {
+	SpriteType = {
+		name = "GFX_SDP_end_game_gui_window_main_plain"
+		texturefile = "gfx/interface/GFX_SDP_end_game_gui_window_main_plain.png"
+	}
+
+
+	SpriteType = {
+		name = "GFX_IRE_final_screen_picture"
+		texturefile = "gfx/interface/endgamegui/GFX_IRE_final_screen_picture.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_sunfo_final_screen_picture"
+		texturefile = "gfx/interface/endgamegui/GFX_CJF_sunfo_final_screen_picture.png"
+	}
+
+	SpriteType = {
+		name = "GFX_CJF_chen_final_screen_picture"
+		texturefile = "gfx/interface/endgamegui/GFX_CJF_chen_final_screen_picture.png"
+	}
+
+	SpriteType = {
+		name = "GFX_GDC_final_screen_picture"
+		texturefile = "gfx/interface/endgamegui/GFX_GDC_final_screen_picture.png"
+	}
+
+}

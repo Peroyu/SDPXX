@@ -92,6 +92,16 @@ division_template = {
 
 ##### OOB #####
 units = {
+	#hainan Homengun - North Japan Army
+	division = { # "7 'Kuma' Hohei Shidan"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11981 #Asahigawa
+		division_template = "Hohei Shidan"
+		start_experience_factor = 0.3
+	}
 
 	#Kita Homengun - North Japan Army
 	division = { # "7 'Kuma' Hohei Shidan"

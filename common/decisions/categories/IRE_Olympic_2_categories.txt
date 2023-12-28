@@ -1,5 +1,5 @@
 IRE_Olympic_2_categories = {
-	    icon = decision_category_generic_propaganda
+	    icon = decision_category_olympics
 	    picture = GFX_decisions_IRE_Olympic_categories
 		visible = {
             has_country_flag = IRE_Build_start

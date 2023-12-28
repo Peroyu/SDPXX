@@ -30,6 +30,19 @@ CHI_xingxianguoda = {
 		is_good = no
 		
 		timeout_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = CJF
+						is_owned_by = GDC
+						is_owned_by = MAN
+						is_owned_by = JIN
+						is_owned_by = MMA
+						is_owned_by = SIK
+					}
+				}
+				add_core_of = CHI
+			}
 			CHI = {
 				annex_country = { target = MAN transfer_troops = yes }
 				annex_country = { target = CJF transfer_troops = yes }
@@ -52,7 +65,7 @@ CHI_xingxianguoda = {
 				}
 				country_event = {
 					id = CHIpeace.6
-					days = 0
+					days = 1
 				}
 
 				

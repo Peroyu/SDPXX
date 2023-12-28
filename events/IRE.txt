@@ -46,7 +46,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip = IRE_costom_effect_1
 		name = IRE_hidden.2.a
 	}
 }
@@ -62,7 +62,15 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = global.13
+					days = 5
+				}
+			}
 		}
     }
 	
@@ -134,7 +142,15 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		    every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = global.15
+					days = 1
+				}
+			}
 		}
     }
 	
@@ -142,7 +158,8 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		set_country_flag = open_SDP_SDP_end_game_gui
+		set_country_flag = IRE_final_screen
 		name = IRE_hidden.6.a
 	}
 }
@@ -167,7 +184,13 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		custom_effect_tooltip = IRE_effect_tt_00
+		hidden_effect = {
+			country_event = {
+                id = IRE_Build_venues.1
+                days = 1					
+            }
+		}
 		name = IRE_bid_Olympic.1.a
 	}
 }
@@ -565,7 +588,11 @@ country_event = {
 		complete_national_focus = IRE_6
 		set_country_flag = IRE_left
 		name = IRE.1.a
-		load_focus_tree = IRE_lefttree
+		hidden_effect = {
+			load_focus_tree = IRE_lefttree
+		}
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		
 		add_ideas = idea_IRE_eco_1
 	}
 	option = { 
@@ -575,6 +602,7 @@ country_event = {
 		complete_national_focus = IRE_7
 		set_country_flag = IRE_right
 		name = IRE.1.b
+		custom_effect_tooltip = SDP_national_focus_changed_tt
 		add_ideas = idea_IRE_eco_1
 	}
 }
@@ -613,6 +641,13 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			every_country = {
+				limit = { is_ai = no }
+				news_event = {
+					id = IREnews.2
+					days = 1
+				}
+			}
 		}
     }
 	
@@ -620,8 +655,12 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		country_event = { id = IRE_hidden.3 days = 1 }
-		news_event = { id = IREnews.3 day = 1}
+		hidden_effect = {
+			country_event = { id = IRE_hidden.3 days = 0 }
+			
+		}
+		custom_effect_tooltip = IRE_costom_effect_2
+		
 		name = IRE.3.a
 	}
 }
@@ -713,7 +752,22 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		
+		swap_ideas = {
+			add_idea = IRE_Sean_MacBride
+			remove_idea = IRE_Eamonn_deValera_dip
+		}
+		swap_ideas = {
+			add_idea = IRE_William_Norton
+			remove_idea = IRE_John_Francis_Lemass
+		}
+		swap_ideas = {
+			add_idea = IRE_Patrick_McGilligan
+			remove_idea = IRE_Frank_Aiken
+		}
+		swap_ideas = {
+			add_idea = IRE_Thomas_O_Higgins
+			remove_idea = IRE_Oscar_Trainor
+		}
 		name = IRE.7.a
 	}
 }

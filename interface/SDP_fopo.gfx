@@ -1,4 +1,8 @@
 spriteTypes = {
+	textSpriteType = {
+		name = "GFX_big_button_232"
+		texturefile = "gfx/interface/big_button_232.dds"
+	}
 
     spriteType = {
 		name = "GFX_fopo_frontlines_btn"
