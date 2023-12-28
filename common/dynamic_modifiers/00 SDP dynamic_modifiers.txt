@@ -55,5 +55,9 @@ IRE_Olympic_village = {
     consumer_goods_factor = IRE_IRE_Olympic_village_var
 	political_power_gain = IRE_IRE_Olympic_village_pp_var
 	production_speed_buildings_factor = IRE_IRE_Olympic_village_b_var
+	production_factory_start_efficiency_factor = IRE_IRE_Olympic_village_s_var
+	industrial_capacity_factory = IRE_IRE_Olympic_village_c_var
+	production_factory_efficiency_gain_factor = IRE_IRE_Olympic_village_g_var
+	line_change_production_efficiency_factor = IRE_IRE_Olympic_village_m_var
 }
 

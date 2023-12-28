@@ -185,6 +185,12 @@ country_event = {
 		   base = 100
 		}
 		custom_effect_tooltip = IRE_effect_tt_00
+		add_dynamic_modifier = {
+			    modifier = IRE_Financial_burden 
+		    }
+		add_dynamic_modifier = {
+			    modifier = IRE_Olympic_village 
+		    }
 		hidden_effect = {
 			country_event = {
                 id = IRE_Build_venues.1
@@ -607,6 +613,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_pp_var value = 0.1 }
 		}
     }
 	
@@ -633,6 +640,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_b_var value = 0.1 }
 		}
     }
 	
@@ -659,6 +667,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_var value = -0.05 }
 		}
     }
 	
@@ -685,6 +694,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_s_var value = 0.05 }
 		}
     }
 	
@@ -711,6 +721,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.1 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_c_var value = 0.1 }
 		}
     }
 	
@@ -723,7 +734,7 @@ country_event = {
 	}
 }
 country_event = {
-    id = IRE_Build_venues.13   #河
+    id = IRE_Build_venues.13   #球
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	IRE_Build_venues.13 FROM = [From.GetName]" }
 	title = IRE_Build_venues.13.t
@@ -737,6 +748,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_g_var value = 0.05 }
 		}
     }
 	
@@ -749,7 +761,7 @@ country_event = {
 	}
 }
 country_event = {
-    id = IRE_Build_venues.14   #球
+    id = IRE_Build_venues.14   #车
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	IRE_Build_venues.14 FROM = [From.GetName]" }
 	title = IRE_Build_venues.14.t
@@ -763,6 +775,7 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		add_to_variable = { var = IRE_IRE_Olympic_village_m_var value = 0.05 }
 		}
     }
 	
@@ -774,32 +787,7 @@ country_event = {
 		name = IRE_Build_venues.14.a
 	}
 }
-country_event = {
-    id = IRE_Build_venues.15   #车
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	IRE_Build_venues.15 FROM = [From.GetName]" }
-	title = IRE_Build_venues.15.t
-	desc = IRE_Build_venues.15.d
-	picture = GFX_IRE_Build_venues.15
-	
-	fire_only_once = yes
-	
-	trigger = { check_variable = { SDP_IRE_8 = 100 } }
-	
-	immediate = {
-	    hidden_effect = {
-		add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
-		}
-    }
-	
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		
-		name = IRE_Build_venues.15.a
-	}
-}
+
 country_event = {
     id = IRE.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event

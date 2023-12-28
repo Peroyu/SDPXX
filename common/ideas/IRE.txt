@@ -126,24 +126,9 @@ ideas = {
 			}
 	    
 		}
-		IRE_Olympic_village_1 = {
-            name = IRE_Olympic_village
-            picture = GFX_IRE_Olympic_village
-			allowed = { 
-			   always = no
-			}
-			available = {
-			    
-			}
-            removal_cost = -1
-            modifier = {
-			
-			}
-	    
-		}
 		idea_IRE_plan_1 = {
 		    name = idea_IRE_plan
-            picture = GFX_idea_IRE_plan
+            picture = idea_IRE_plan
 			allowed = { 
 			   always = no
 			}
@@ -158,7 +143,7 @@ ideas = {
 		}
 		idea_IRE_plan_2 = {
 		    name = idea_IRE_plan
-            picture = GFX_idea_IRE_plan
+            picture = idea_IRE_plan
 			allowed = { 
 			   always = no
 			}
@@ -175,7 +160,7 @@ ideas = {
 		}
 		idea_IRE_plan_3 = {
 		    name = idea_IRE_plan
-            picture = GFX_idea_IRE_plan
+            picture = idea_IRE_plan
 			allowed = { 
 			   always = no
 			}
