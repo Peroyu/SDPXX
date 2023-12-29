@@ -532,6 +532,10 @@ on_actions = {
 					MEN = {
 						transfer_state = 348
 					}
+					NIP = {
+						add_to_faction = SHA
+						add_to_faction = JIN
+					}
 					SHA = {
 						set_cosmetic_tag = SHA_xibei
 						transfer_state = 799
@@ -549,6 +553,9 @@ on_actions = {
 							id = CHIpeace.7
 							days = 62
 						}
+					}
+					TIB = {
+						transfer_state = 353
 					}
 					set_global_flag = skip_default_capitulation
 				}
@@ -1766,6 +1773,30 @@ on_actions = {
 						}
 						ROOT = {
 							original_tag = SLO
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					ISU = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				if = { #ISU beat SLO
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ISU
+								is_in_faction_with = ISU
+							}
+						}
+						ROOT = {
+							original_tag = CRT
 						}
 					}
 
