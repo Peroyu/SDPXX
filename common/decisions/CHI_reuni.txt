@@ -14,6 +14,7 @@ CHI_reuni = {
 		}
 			
 		activation = {
+			has_global_flag = CHI_china_lose_flag
 			tag = MMA
 			MMA = {
 				has_war_with = NIP
@@ -163,6 +164,7 @@ CHI_reuni = {
 		}
 
 		timeout_effect = {
+			
 			custom_effect_tooltip = CJF_Crush_tt
 			hidden_effect = {
 				every_country = {
@@ -202,12 +204,23 @@ CHI_reuni = {
 				NIP = {
 					add_to_faction = CMA
 				}
-				MMA = {
-					country_event = {
-						id = MMA.9
-						days = 5
+				if = {
+					limit = {
+						MMA = {
+							NOT = {
+								has_cosmetic_tag = MMA_nokmt
+							}
+						}
+					}
+					set_global_flag = CHI_china_lose_flag
+					MMA = {
+						country_event = {
+							id = MMA.9
+							days = 5
+						}
 					}
 				}
+				
 				if = {
 					limit = {
 						GDC = {

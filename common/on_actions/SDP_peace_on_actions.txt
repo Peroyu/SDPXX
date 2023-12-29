@@ -503,7 +503,55 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # NIP beat MMA
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = MEN
+								is_in_faction_with = MEN
+							}
+						}
+						ROOT = {
+							original_tag = MMA
+						}
+					}
 
+					every_country = {
+						limit = {
+							has_war_with = MMA
+						}
+						white_peace = MMA
+					}
+					
+					every_country = {
+						limit = {
+							has_war_with = SIK
+						}
+						white_peace = SIK
+					}
+					MEN = {
+						transfer_state = 348
+					}
+					SHA = {
+						set_cosmetic_tag = SHA_xibei
+						transfer_state = 799
+						transfer_state = 622
+						transfer_state = 283
+						transfer_state = 774
+					}
+					MMA = {
+						leave_faction = yes
+						set_cosmetic_tag = MMA_nokmt
+					}
+					SIK = {
+						leave_faction = yes
+						country_event = {
+							id = CHIpeace.7
+							days = 62
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # CHI beat MEN
 					limit = {
 						FROM = {
