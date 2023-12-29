@@ -232,6 +232,7 @@ CHI_reuni = {
 					transfer_state = 801
 					}
 					GDC = {
+						kill_country_leader = yes
 						transfer_state = 1056
 					transfer_state = 1053
 					transfer_state = 594
