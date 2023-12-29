@@ -792,6 +792,7 @@ country_event = {
 		}
 		NOT = {
 			has_global_flag = Balkan_HUN_win
+			has_global_flag = HUN_in_balkan_crisis
 		}
 	}
 	immediate = {

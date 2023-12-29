@@ -2314,6 +2314,7 @@ news_event = {
             SLO = {
                 declare_war_on = { target = HUN type = take_state }
             }
+		set_global_flag = HUN_in_balkan_crisis
             ROM = {
                 transfer_state = 1113
                 transfer_state = 84
@@ -2613,6 +2614,7 @@ news_event = {
     desc = ISU.32.d
     immediate = { 
         hidden_effect = {
+		clr_global_flag = HUN_in_balkan_crisis
             HUN = {
                 set_autonomy = {
                     target = TRA
