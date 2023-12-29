@@ -1300,3 +1300,40 @@ country_event = {
 		
 	}
 }
+country_event = {
+    id = HUN.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN.7 FROM = [From.GetName]" }
+	title = HUN.7.t
+	desc = HUN.7.d
+	picture = GFX_CHIwar.1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BUL
+		NOT = {
+			country_exists = LAB
+			country_exists = CRR
+			country_exists = SUF
+		}
+		
+	}
+	immediate = {
+	    hidden_effect = {
+			dismantle_faction = yes
+			every_country = {
+				limit = {
+					has_war_with = BUL
+				}
+				white_peace = BUL
+			}
+		}
+    }
+	option = { 
+	    name = HUN.7.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
