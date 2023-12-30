@@ -1,5 +1,29 @@
 ﻿add_namespace = AIS
 country_event = {
+    id = AIS.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.0 FROM = [From.GetName]" }
+	title = AIS.0.t
+	desc = AIS.0.d
+	picture = GFX_AIS_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		load_focus_tree = AIS_country
+		name = AIS.0.a
+	}
+}
+country_event = {
     id = AIS.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	AIS.1 FROM = [From.GetName]" }
@@ -75,5 +99,39 @@ country_event = {
 		}
 		
 		name = AIS.3.a
+	}
+}
+country_event = {
+    id = AIS.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.4 FROM = [From.GetName]" }
+	title = AIS.4.t
+	desc = AIS.4.d
+	picture = GFX_AIS_4
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		complete_national_focus = AIS_academys
+		name = AIS.4.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = {
+			ruling_party = reactionism
+		}
+		complete_national_focus = AIS_Emir_State
+		name = AIS.4.b
 	}
 }

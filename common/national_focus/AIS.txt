@@ -1,0 +1,23 @@
+focus_tree = {
+	id = AIS_open
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = AIS  
+		}	
+	}
+	default = no
+    shared_focus = AIS_black_flag_rise
+}
+focus_tree = {
+	id = AIS_country
+	country = {
+		factor = 0	
+	}
+	default = no
+    shared_focus = AIS_begin_of_islam_rev
+	shared_focus = AIS_national_economy
+	shared_focus = AIS_reorganization_millitary
+}
+

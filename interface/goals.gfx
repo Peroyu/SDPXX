@@ -1,6 +1,17 @@
 spriteTypes = {	
 
-	#### Generic goal icons
+	#### Generic goal icons##
+
+
+
+
+
+	##########AIS########################
+	SpriteType = {
+		name = "GFX_AIS_Empty_settlements"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_1.png"			
+	}
+	#############################################
 	SpriteType = {
 	name = "GFX_GDC_decrease_land_rent_fee"
 	texturefile = "gfx/interface/goals/GDC/GFX_GDC_decrease_land_rent_fee.png"			

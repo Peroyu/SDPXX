@@ -1,0 +1,1771 @@
+	shared_focus = {
+		id = AIS_black_flag_rise
+		icon = GFX_AIS_black_flag_rise
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 0
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_to_true_lord
+		icon = GFX_AIS_to_true_lord
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 1
+		prerequisite = {
+		    focus = AIS_black_flag_rise
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_see_other_land
+		icon = GFX_AIS_see_other_land
+		cost = 2
+		available_if_capitulated = no
+		x = 14
+		y = 2
+		prerequisite = {
+		    focus = AIS_to_true_lord
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_overworld_friend
+		icon = GFX_AIS_overworld_friend
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 3
+		prerequisite = {
+		    focus = AIS_see_other_land
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_seek_for_tunisia
+		icon = GFX_AIS_seek_for_tunisia
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 4
+		prerequisite = {
+		    focus = AIS_overworld_friend
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_overworld_fighters
+		icon = GFX_AIS_overworld_fighters
+		cost = 2
+		available_if_capitulated = no
+		x = 16
+		y = 3
+		prerequisite = {
+		    focus = AIS_see_other_land
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Maghreb_Jihad
+		icon = GFX_AIS_Maghreb_Jihad
+		cost = 2
+		available_if_capitulated = no
+		x = 16
+		y = 4
+		prerequisite = {
+		    focus = AIS_overworld_fighters
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_our_fate
+		icon = GFX_AIS_our_fate
+		cost = 2
+		available_if_capitulated = no
+		x = 14
+		y = 5
+		prerequisite = {
+		    focus = AIS_Maghreb_Jihad
+	    }
+		prerequisite = {
+		    focus = AIS_seek_for_tunisia
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_our_hometown
+		icon = GFX_AIS_our_hometown
+		cost = 4
+		available_if_capitulated = no
+		x = 14
+		y = 6
+		prerequisite = {
+		    focus = AIS_our_fate
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_ride_south_desert
+		icon = GFX_AIS_to_true_lord
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 2
+		prerequisite = {
+		    focus = AIS_to_true_lord
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_over_camel
+		icon = GFX_AIS_over_camel
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 3
+		prerequisite = {
+		    focus = AIS_ride_south_desert
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_for_money
+		icon = GFX_AIS_for_money
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 4
+		prerequisite = {
+		    focus = AIS_over_camel
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_other_waR
+		icon = GFX_AIS_other_waR
+		cost = 2
+		available_if_capitulated = no
+		x = 4
+		y = 3
+		prerequisite = {
+		    focus = AIS_ride_south_desert
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Empty_settlements
+		icon = GFX_AIS_Empty_settlements
+		cost = 2
+		available_if_capitulated = no
+		x = 4
+		y = 4
+		prerequisite = {
+		    focus = AIS_other_waR
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_for_the_lord
+		icon = GFX_AIS_for_the_lord
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 5
+		prerequisite = {
+		    focus = AIS_Empty_settlements
+	    }
+		prerequisite = {
+		    focus = AIS_for_money
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_they_will_die
+		icon = GFX_AIS_they_will_die
+		cost = 4
+		available_if_capitulated = no
+		x = 6
+		y = 6
+		prerequisite = {
+		    focus = AIS_for_the_lord
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_the_long_night
+		icon = GFX_AIS_the_long_night
+		cost = 5
+		available_if_capitulated = no
+		x = 10
+		y = 7
+		prerequisite = {
+		    focus = AIS_they_will_die
+	    }
+		prerequisite = {
+		    focus = AIS_our_hometown
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_go_for_tommorow
+		icon = GFX_AIS_go_for_tommorow
+		cost = 1
+		available_if_capitulated = no
+		x = 10
+		y = 8
+		prerequisite = {
+		    focus = AIS_the_long_night
+	    }
+		completion_reward = {   
+
+		}
+	}
+
+	###########################################
+	shared_focus = {
+		id = AIS_begin_of_islam_rev
+		icon = GFX_AIS_begin_of_islam_rev
+		cost = 1
+		available_if_capitulated = no
+		x = 5
+		y = 0
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Jurists_politics
+		icon = GFX_AIS_Jurists_politics
+		cost = 2
+		available_if_capitulated = no
+		x = 2
+		y = 1
+		prerequisite = {
+		    focus = AIS_begin_of_islam_rev
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_reorganise_regions
+		icon = GFX_AIS_reorganise_regionss
+		cost = 4
+		available_if_capitulated = no
+		x = 2
+		y = 2
+		prerequisite = {
+		    focus = AIS_Jurists_politics
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_religious_policies
+		icon = GFX_AIS_religious_policies
+		cost = 4
+		available_if_capitulated = no
+		x = 2
+		y = 3
+		prerequisite = {
+		    focus = AIS_reorganise_regions
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Summoning_Ulema
+		icon = GFX_AIS_Summoning_Ulema
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 1
+		prerequisite = {
+		    focus = AIS_begin_of_islam_rev
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Constituent_assembly
+		icon = GFX_AIS_Constituent_assembly
+		cost = 4
+		available_if_capitulated = no
+		x = 5
+		y = 2
+		prerequisite = {
+		    focus = AIS_Summoning_Ulema
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_All_Maghreb_Muslims
+		icon = GFX_AIS_All_Maghreb_Muslims
+		cost = 4
+		available_if_capitulated = no
+		x = 5
+		y = 3
+		prerequisite = {
+		    focus = AIS_Constituent_assembly
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_post_colony_diplomacy
+		icon = GFX_AIS_post_colony_diplomacy
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 1
+		prerequisite = {
+		    focus = AIS_begin_of_islam_rev
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_seek_for_islam_world
+		icon = GFX_AIS_seek_for_islam_world
+		cost = 4
+		available_if_capitulated = no
+		x = 8
+		y = 2
+		prerequisite = {
+		    focus = AIS_post_colony_diplomacy
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_reorganise_oversea_jihad
+		icon = GFX_AIS_reorganise_oversea_jihad
+		cost = 4
+		available_if_capitulated = no
+		x = 8
+		y = 3
+		prerequisite = {
+		    focus = AIS_seek_for_islam_world
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Countdow_founding_country
+		icon = GFX_AIS_Countdow_founding_country
+		cost = 5
+		available_if_capitulated = no
+		x = 5
+		y = 4
+		prerequisite = {
+		    focus = AIS_reorganise_oversea_jihad
+	    }
+		prerequisite = {
+		    focus = AIS_All_Maghreb_Muslims
+	    }
+		prerequisite = {
+		    focus = AIS_religious_policies
+	    }
+		completion_reward = {   
+			country_event = {
+				id = AIS.4
+				days = 1
+			}
+		}
+	}
+	####################埃米尔国##########################
+	shared_focus = {
+		id = AIS_Emir_State
+		icon = GFX_AIS_Emir_State
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 5
+		allow_branch = {
+			has_completed_focus = AIS_Countdow_founding_country
+			has_government = reactionism
+		}
+		prerequisite = {
+		    focus = AIS_Countdow_founding_country
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_return_to_dream
+		icon = GFX_AIS_return_to_dream
+		cost = 2
+		available_if_capitulated = no
+		x = 8
+		y = 6
+		prerequisite = {
+		    focus = AIS_Emir_State
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_equal_society
+		icon = GFX_AIS_equal_society
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 7
+		prerequisite = {
+		    focus = AIS_return_to_dream
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Legislative_issues
+		icon = GFX_AIS_Legislative_issues
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 8
+		prerequisite = {
+		    focus = AIS_equal_society
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Inquisition
+		icon = GFX_AIS_Inquisition
+		cost = 2
+		available_if_capitulated = no
+		x = 14
+		y = 8
+		prerequisite = {
+		    focus = AIS_equal_society
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Legislative_Council
+		icon = GFX_AIS_Legislative_Council
+		cost = 4
+		available_if_capitulated = no
+		x = 12
+		y = 9
+		prerequisite = {
+		    focus = AIS_Inquisition
+	    }
+		prerequisite = {
+		    focus = AIS_Legislative_issues
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Shari_a
+		icon = GFX_AIS_Shari_a
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 10
+		prerequisite = {
+		    focus = AIS_Legislative_Council
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_ottoman_exp
+		icon = GFX_AIS_ottoman_exp
+		cost = 2
+		available_if_capitulated = no
+		x = 14
+		y = 10
+		prerequisite = {
+		    focus = AIS_Legislative_Council
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Maghreb_Discipline
+		icon = GFX_AIS_Maghreb_Discipline
+		cost = 6
+		available_if_capitulated = no
+		x = 12
+		y = 11
+		prerequisite = {
+		    focus = AIS_ottoman_exp
+	    }
+		prerequisite = {
+		    focus = AIS_Shari_a
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_election_emile
+		icon = GFX_AIS_election_emile
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 7
+		prerequisite = {
+		    focus = AIS_return_to_dream
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_conflicts_of_us
+		icon = GFX_AIS_conflicts_of_us
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 7
+		prerequisite = {
+		    focus = AIS_return_to_dream
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_The_scriptures_are_insights
+		icon = GFX_AIS_The_scriptures_are_insights
+		cost = 2
+		available_if_capitulated = no
+		x = 3
+		y = 8
+		mutually_exclusive = { focus = AIS_The_scriptures_are_truth }
+		prerequisite = {
+		    focus = AIS_conflicts_of_us
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Unified_annotation
+		icon = GFX_AIS_Unified_annotation
+		cost = 4
+		available_if_capitulated = no
+		x = 3
+		y = 9
+		prerequisite = {
+		    focus = AIS_The_scriptures_are_insights
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Identify_hidden_dangers
+		icon = GFX_AIS_Identify_hidden_dangers
+		cost = 4
+		available_if_capitulated = no
+		x = 3
+		y = 10
+		prerequisite = {
+		    focus = AIS_Unified_annotation
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_The_scriptures_are_truth
+		icon = GFX_AIS_The_scriptures_are_truth
+		cost = 2
+		available_if_capitulated = no
+		x = 7
+		y = 8
+		mutually_exclusive = { focus = AIS_The_scriptures_are_insights }
+		prerequisite = {
+		    focus = AIS_conflicts_of_us
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Critique_tampering
+		icon = GFX_AIS_Critique_tampering
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 9
+		prerequisite = {
+		    focus = AIS_The_scriptures_are_truth
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Exert_influence 
+		icon = GFX_AIS_Exert_influence
+		cost = 4
+		available_if_capitulated = no
+		x = 7
+		y = 10
+		prerequisite = {
+		    focus = AIS_Critique_tampering
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Prelude_to_the_Shari_ah_revolution
+		icon = GFX_AIS_Prelude_to_the_Shari_ah_revolution
+		cost = 6
+		available_if_capitulated = no
+		x = 5
+		y = 11
+		prerequisite = {
+		    focus = AIS_Exert_influence
+			focus = AIS_Identify_hidden_dangers
+	    }
+		completion_reward = {   
+
+		}
+	}
+	####################伊斯兰国##########################
+	shared_focus = {
+		id = AIS_academys
+		icon = GFX_AIS_academys
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 5
+		allow_branch = {
+			has_completed_focus = AIS_Countdow_founding_country
+			has_government = restorativeism
+		}
+		prerequisite = {
+		    focus = AIS_Countdow_founding_country
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_first_islam_republic
+		icon = GFX_AIS_first_islam_republic
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 6
+		prerequisite = {
+		    focus = AIS_academys
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Decentralized_state
+		icon = GFX_AIS_Decentralized_state
+		cost = 4
+		available_if_capitulated = no
+		x = 11
+		y = 7
+		prerequisite = {
+		    focus = AIS_first_islam_republic
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_mosque_center
+		icon = GFX_AIS_mosque_center
+		cost = 2
+		available_if_capitulated = no
+		x = 10
+		y = 8
+		prerequisite = {
+		    focus = AIS_Decentralized_state
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_priest_center
+		icon = GFX_AIS_priest_center
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 8
+		prerequisite = {
+		    focus = AIS_Decentralized_state
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_regional_mosque
+		icon = GFX_AIS_regional_mosque
+		cost = 4
+		available_if_capitulated = no
+		x = 11
+		y = 9
+		prerequisite = {
+		    focus = AIS_priest_center
+	    }
+		prerequisite = {
+		    focus = AIS_mosque_center
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_regional_islam
+		icon = GFX_AIS_regional_islam
+		cost = 4
+		available_if_capitulated = no
+		x = 11
+		y = 10
+		prerequisite = {
+		    focus = AIS_regional_mosque
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_our_promise
+		icon = GFX_AIS_our_promise
+		cost = 4
+		available_if_capitulated = no
+		x = 11
+		y = 11
+		prerequisite = {
+		    focus = AIS_regional_islam
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_smooth_conflicts
+		icon = GFX_AIS_smooth_conflicts
+		cost = 4
+		available_if_capitulated = no
+		x = 8
+		y = 7
+		prerequisite = {
+		    focus = AIS_first_islam_republic
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_sarafi_problem
+		icon = GFX_AIS_sarafi_problem
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 8
+		prerequisite = {
+		    focus = AIS_smooth_conflicts
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_sufi_problem
+		icon = GFX_AIS_sufi_problem
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 9
+		prerequisite = {
+		    focus = AIS_sarafi_problem
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_conflicts_problem
+		icon = GFX_AIS_conflicts_problem
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 10
+		prerequisite = {
+		    focus = AIS_sufi_problem
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_united_frontier
+		icon = GFX_AIS_united_frontier
+		cost = 1
+		available_if_capitulated = no
+		x = 8
+		y = 11
+		prerequisite = {
+		    focus = AIS_conflicts_problem
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_regional_farming_group
+		icon = GFX_AIS_regional_farming_group
+		cost = 4
+		available_if_capitulated = no
+		x = 5
+		y = 7
+		prerequisite = {
+		    focus = AIS_first_islam_republic
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_our_farmers
+		icon = GFX_AIS_our_farmers
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 8
+		prerequisite = {
+		    focus = AIS_regional_farming_group
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_reorg_countryside_education
+		icon = GFX_AIS_reorg_countryside_education
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 10
+		prerequisite = {
+		    focus = AIS_regional_farming_group
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_in_cities
+		icon = GFX_AIS_in_cities
+		cost = 2
+		available_if_capitulated = no
+		x = 4
+		y = 8
+		prerequisite = {
+		    focus = AIS_regional_farming_group
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_smooth_politics
+		icon = GFX_AIS_smooth_politics
+		cost = 2
+		available_if_capitulated = no
+		x = 3
+		y = 9
+		prerequisite = {
+		    focus = AIS_in_cities
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Armed_sheriff
+		icon = GFX_AIS_Armed_sheriff
+		cost = 2
+		available_if_capitulated = no
+		x = 5
+		y = 9
+		prerequisite = {
+		    focus = AIS_in_cities
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_free_jihad
+		icon = GFX_AIS_free_jihad
+		cost = 2
+		available_if_capitulated = no
+		x = 4
+		y = 10
+		prerequisite = {
+		    focus = AIS_Armed_sheriff
+	    }
+		prerequisite = {
+		    focus = AIS_smooth_politics
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Steady_progress
+		icon = GFX_AIS_Steady_progress
+		cost = 2
+		available_if_capitulated = no
+		x = 6
+		y = 11
+		prerequisite = {
+		    focus = AIS_free_jihad
+	    }
+		prerequisite = {
+		    focus = AIS_reorg_countryside_education
+	    }
+		completion_reward = {   
+
+		}
+	}
+	###
+	shared_focus = {
+		id = AIS_national_economy
+		icon = GFX_AIS_national_economy
+		cost = 4
+		available = {
+			has_completed_focus = AIS_Countdow_founding_country
+		}
+		available_if_capitulated = no
+		x = 16
+		y = 0
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_invest_overseas
+		icon = GFX_AIS_invest_overseas
+		cost = 4
+		available_if_capitulated = no
+		x = 25
+		y = 1
+		prerequisite = {
+		    focus = AIS_national_economy
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_try_on_Maghreb
+		icon = GFX_AIS_try_on_Maghreb
+		cost = 2
+		available_if_capitulated = no
+		x = 27
+		y = 2
+		prerequisite = {
+		    focus = AIS_invest_overseas
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_trade_with_suez
+		icon = GFX_AIS_trade_with_suez
+		cost = 5
+		available_if_capitulated = no
+		x = 28
+		y = 3
+		prerequisite = {
+		    focus = AIS_try_on_Maghreb
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_with_Muslim_Brotherhood
+		icon = GFX_AIS_with_Muslim_Brotherhood
+		cost = 4
+		available_if_capitulated = no
+		x = 28
+		y = 4
+		prerequisite = {
+		    focus = AIS_trade_with_suez
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Outpost_battles
+		icon = GFX_AIS_Outpost_battles
+		cost = 2
+		available_if_capitulated = no
+		x = 28
+		y = 5
+		prerequisite = {
+		    focus = AIS_with_Muslim_Brotherhood
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_trade_with_mor
+		icon = GFX_AIS_trade_with_mor
+		cost = 5
+		available_if_capitulated = no
+		x = 26
+		y = 3
+		prerequisite = {
+		    focus = AIS_try_on_Maghreb
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_to_morroco
+		icon = GFX_AIS_to_morroco
+		cost = 4
+		available_if_capitulated = no
+		x = 26
+		y = 4
+		prerequisite = {
+		    focus = AIS_trade_with_mor
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_our_factions
+		icon = GFX_AIS_our_factions
+		cost = 2
+		available_if_capitulated = no
+		x = 26
+		y = 5
+		prerequisite = {
+		    focus = AIS_to_morroco
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_trade_to_othercountry
+		icon = GFX_AIS_trade_to_othercountry
+		cost = 4
+		available_if_capitulated = no
+		x = 21
+		y = 1
+		prerequisite = {
+		    focus = AIS_national_economy
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_to_Sahel
+		icon = GFX_AIS_to_Sahel
+		cost = 4
+		available_if_capitulated = no
+		x = 24
+		y = 2
+		prerequisite = {
+		    focus = AIS_trade_to_othercountry
+	    }
+		prerequisite = {
+		    focus = AIS_invest_overseas
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Sahel_Fund
+		icon = GFX_AIS_to_Sahel
+		cost = 5
+		available_if_capitulated = no
+		x = 24
+		y = 3
+		prerequisite = {
+		    focus = AIS_to_Sahel
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Sahel_jihad
+		icon = GFX_AIS_Sahel_jihad
+		cost = 4
+		available_if_capitulated = no
+		x = 24
+		y = 4
+		prerequisite = {
+		    focus = AIS_Sahel_Fund
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Plant_palm_trees
+		icon = GFX_AIS_Plant_palm_trees
+		cost = 4
+		available_if_capitulated = no
+		x = 24
+		y = 5
+		prerequisite = {
+		    focus = AIS_Sahel_jihad
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_trade_to_us
+		icon = GFX_AIS_trade_to_us
+		cost = 4
+		available_if_capitulated = no
+		x = 22
+		y = 2
+		prerequisite = {
+		    focus = AIS_trade_to_othercountry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_over_medite
+		icon = GFX_AIS_over_medite
+		cost = 2
+		available_if_capitulated = no
+		x = 22
+		y = 3
+		prerequisite = {
+		    focus = AIS_trade_to_us
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_possiblity_overseainvest
+		icon = GFX_AIS_possiblity_overseainvest
+		cost = 4
+		available_if_capitulated = no
+		x = 22
+		y = 4
+		prerequisite = {
+		    focus = AIS_over_medite
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_possiblity_usa
+		icon = GFX_AIS_possiblity_usa
+		cost = 4
+		available_if_capitulated = no
+		x = 22
+		y = 5
+		prerequisite = {
+		    focus = AIS_possiblity_overseainvest
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_trade_to_ottoman
+		icon = GFX_AIS_trade_to_ottoman
+		cost = 4
+		available_if_capitulated = no
+		x = 20
+		y = 2
+		prerequisite = {
+		    focus = AIS_trade_to_othercountry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_over_libya
+		icon = GFX_AIS_over_libya
+		cost = 2
+		available_if_capitulated = no
+		x = 20
+		y = 3
+		prerequisite = {
+		    focus = AIS_trade_to_ottoman
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_over_egypet
+		icon = GFX_AIS_over_egypet
+		cost = 5
+		available_if_capitulated = no
+		x = 20
+		y = 4
+		prerequisite = {
+		    focus = AIS_over_libya
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_with_egypet
+		icon = GFX_AIS_with_egypet
+		cost = 6
+		available_if_capitulated = no
+		x = 20
+		y = 5
+		prerequisite = {
+		    focus = AIS_over_egypet
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_on_the_stage
+		icon = GFX_AIS_on_the_stage
+		cost = 5
+		available_if_capitulated = no
+		x = 24
+		y = 6
+		prerequisite = {
+		    focus = AIS_with_egypet
+	    }
+		prerequisite = {
+		    focus = AIS_possiblity_usa
+	    }
+		prerequisite = {
+		    focus = AIS_Plant_palm_trees
+	    }
+		prerequisite = {
+		    focus = AIS_our_factions
+	    }
+		prerequisite = {
+		    focus = AIS_Outpost_battles
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_national_modernisation
+		icon = GFX_AIS_national_modernisation
+		cost = 4
+		available_if_capitulated = no
+		x = 14
+		y = 1
+		prerequisite = {
+		    focus = AIS_national_economy
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Regulate_pastoral_areas
+		icon = GFX_AIS_Regulate_pastoral_areas
+		cost = 2
+		available_if_capitulated = no
+		x = 17
+		y = 2
+		prerequisite = {
+		    focus = AIS_national_modernisation
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_new_pastroral_techs
+		icon = GFX_AIS_new_pastroral_techs
+		cost = 2
+		available_if_capitulated = no
+		x = 17
+		y = 3
+		prerequisite = {
+		    focus = AIS_Regulate_pastoral_areas
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_encourage_farming
+		icon = GFX_AIS_encourage_farming
+		cost = 2
+		available_if_capitulated = no
+		x = 16
+		y = 4
+		prerequisite = {
+		    focus = AIS_new_pastroral_techs
+	    }
+		prerequisite = {
+		    focus = AIS_fix_industry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Consolidating_food
+		icon = GFX_AIS_Consolidating_food
+		cost = 5
+		available_if_capitulated = no
+		x = 18
+		y = 4
+		prerequisite = {
+		    focus = AIS_new_pastroral_techs
+	    }
+		prerequisite = {
+		    focus = AIS_fix_industry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_fix_farming_industry
+		icon = GFX_AIS_fix_farming_industry
+		cost = 2
+		available_if_capitulated = no
+		x = 17
+		y = 5
+		prerequisite = {
+		    focus = AIS_Consolidating_food
+	    }
+		prerequisite = {
+		    focus = AIS_encourage_farming
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_costline_invest
+		icon = GFX_AIS_costline_invest
+		cost = 2
+		available_if_capitulated = no
+		x = 15
+		y = 2
+		prerequisite = {
+		    focus = AIS_national_modernisation
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_fix_industry
+		icon = GFX_AIS_fix_industry
+		cost = 5
+		available_if_capitulated = no
+		x = 15
+		y = 3
+		prerequisite = {
+		    focus = AIS_costline_invest
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_cancel_industry_tax
+		icon = GFX_AIS_cancel_industry_tax
+		cost = 4
+		available_if_capitulated = no
+		x = 15
+		y = 4
+		prerequisite = {
+		    focus = AIS_fix_industry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_fix_third_industry
+		icon = GFX_AIS_fix_third_industry
+		cost = 5
+		available_if_capitulated = no
+		x = 15
+		y = 5
+		prerequisite = {
+		    focus = AIS_cancel_industry_tax
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_oil_plan
+		icon = GFX_AIS_oil_plan
+		cost = 4
+		available_if_capitulated = no
+		x = 12
+		y = 2
+		prerequisite = {
+		    focus = AIS_national_modernisation
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_set_Oil_refineries
+		icon = GFX_AIS_set_Oil_refineries
+		cost = 5
+		available_if_capitulated = no
+		x = 11
+		y = 3
+		prerequisite = {
+		    focus = AIS_oil_plan
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_ottoman_techs
+		icon = GFX_AIS_ottoman_techs
+		cost = 4
+		available_if_capitulated = no
+		x = 11
+		y = 4
+		prerequisite = {
+		    focus = AIS_set_Oil_refineries
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_tube_to_libia
+		icon = GFX_AIS_tube_to_libia
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 3
+		prerequisite = {
+		    focus = AIS_oil_plan
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_oil_establishments
+		icon = GFX_AIS_oil_establishments
+		cost = 4
+		available_if_capitulated = no
+		x = 13
+		y = 4
+		prerequisite = {
+		    focus = AIS_tube_to_libia
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_new_oil
+		icon = GFX_AIS_new_oil
+		cost = 2
+		available_if_capitulated = no
+		x = 12
+		y = 5
+		prerequisite = {
+		    focus = AIS_oil_establishments
+	    }
+		prerequisite = {
+		    focus = AIS_ottoman_techs
+	    }
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_new_economy
+		icon = GFX_AIS_new_economy
+		cost = 5
+		available_if_capitulated = no
+		x = 15
+		y = 6
+		prerequisite = {
+		    focus = AIS_fix_third_industry
+	    }
+		prerequisite = {
+		    focus = AIS_new_oil
+	    }
+		prerequisite = {
+		    focus = AIS_fix_farming_industry
+	    }
+		completion_reward = {   
+
+		}
+	}
+	###############################################################
+	shared_focus = {
+		id = AIS_reorganization_millitary
+		icon = GFX_AIS_reorganization_millitary
+		cost = 2
+		available = {
+			has_completed_focus = AIS_Countdow_founding_country
+		}
+		available_if_capitulated = no
+		x = 20
+		y = 8
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Islamic_Revolutionary_Guard_Corps
+		icon = GFX_AIS_Islamic_Revolutionary_Guard_Corps
+		cost = 4
+		prerequisite = {
+		    focus = AIS_reorganization_millitary
+	    }
+		available_if_capitulated = no
+		x = 20
+		y = 9
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_information_department
+		icon = GFX_AIS_information_department
+		cost = 4
+		prerequisite = {
+		    focus = AIS_Islamic_Revolutionary_Guard_Corps
+	    }
+		available_if_capitulated = no
+		x = 23
+		y = 10
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_national_department
+		icon = GFX_AIS_national_department
+		cost = 4
+		prerequisite = {
+		    focus = AIS_information_department
+	    }
+		available_if_capitulated = no
+		x = 23
+		y = 11
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_oversea_department
+		icon = GFX_AIS_oversea_department
+		cost = 4
+		prerequisite = {
+		    focus = AIS_national_department
+	    }
+		available_if_capitulated = no
+		x = 23
+		y = 12
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_engineer_department
+		icon = GFX_AIS_engineer_department
+		cost = 4
+		prerequisite = {
+		    focus = AIS_Islamic_Revolutionary_Guard_Corps
+	    }
+		available_if_capitulated = no
+		x = 20
+		y = 10
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_ottoman_weapons
+		icon = GFX_AIS_ottoman_weapons
+		cost = 5
+		prerequisite = {
+		    focus = AIS_engineer_department
+	    }
+		available_if_capitulated = no
+		x = 20
+		y = 11
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_logistic_department
+		icon = GFX_AIS_logistic_department
+		cost = 6
+		prerequisite = {
+		    focus = AIS_ottoman_weapons
+	    }
+		available_if_capitulated = no
+		x = 20
+		y = 12
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_flayAF
+		icon = GFX_AIS_flayAF
+		cost = 5
+		prerequisite = {
+		    focus = AIS_logistic_department
+	    }
+		available_if_capitulated = no
+		x = 20
+		y = 13
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Islamic_Revolutionary_headquarters
+		icon = GFX_AIS_Islamic_Revolutionary_headquarters
+		cost = 4
+		prerequisite = {
+		    focus = AIS_Islamic_Revolutionary_Guard_Corps
+	    }
+		available_if_capitulated = no
+		x = 17
+		y = 10
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Independent_Jihadist_Brigade
+		icon = GFX_AIS_Independent_Jihadist_Brigade
+		cost = 5
+		prerequisite = {
+		    focus = AIS_Islamic_Revolutionary_headquarters
+	    }
+		available_if_capitulated = no
+		x = 17
+		y = 11
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_Secure_communications
+		icon = GFX_AIS_Secure_communications
+		cost = 5
+		prerequisite = {
+		    focus = AIS_Independent_Jihadist_Brigade
+	    }
+		available_if_capitulated = no
+		x = 17
+		y = 12
+		completion_reward = {   
+
+		}
+	}
+	shared_focus = {
+		id = AIS_new_officers
+		icon = GFX_AIS_new_officers
+		cost = 5
+		prerequisite = {
+		    focus = AIS_Secure_communications
+	    }
+		available_if_capitulated = no
+		x = 17
+		y = 13
+		completion_reward = {   
+
+		}
+	}
