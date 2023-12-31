@@ -538,6 +538,15 @@ news_event = {
             274 = {
                 set_demilitarized_zone = yes
             }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = global.17
+                    days = 99
+                }
+            }
         }
 	}
     is_triggered_only = yes
@@ -603,6 +612,33 @@ news_event = {
 
 	option = {
 		name = global.16.a
+        
+	}
+    
+}
+news_event = {
+	id = global.17
+
+    picture = GFX_global_17
+    title = global.17.t
+    desc = global.17.d
+    immediate = { 
+        hidden_effect = {
+           OGC = {
+            transfer_state = 274
+            transfer_state = 877
+            add_state_core = 274
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.17.a
         
 	}
     

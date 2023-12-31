@@ -95,6 +95,10 @@ GUI = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }
 }
+OGC = {
+	color = rgb { 132 102 94 }
+	color_ui = rgb { 132 102 94 }
+}
 MIS = {
 	color = rgb { 178 101 96 }
 	color_ui = rgb { 178 101 96 }

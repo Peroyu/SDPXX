@@ -1,0 +1,36 @@
+capital = 658 
+
+oob = "empty"  
+
+set_research_slots = 2 
+
+set_war_support = 0.2 
+set_stability = 0.3 
+
+set_politics = {
+	ruling_party = moderate_socialism  
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+   
+}
+set_popularities = {
+	communism = 10
+	moderate_socialism = 25
+	Liberalism = 25
+	movement_communism = 10
+	conservatism = 10
+	reactionism = 10
+	Nationalism = 10
+}
+create_country_leader = {
+	name = "OGC_ENKELUMA"  
+	desc = "OGC_ENKELUMA_desc"  
+	picture = "gfx/leaders/AFRICA/OGC_ENKELUMA.png"
+	expire = "1985.6.6"  
+	ideology = left_wing_nationalsim
+	traits = {  
+	}
+}

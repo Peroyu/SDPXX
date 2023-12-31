@@ -191,7 +191,12 @@
 		    focus = AIS_other_waR
 	    }
 		completion_reward = {   
-
+			add_war_support = 0.05
+			add_stability = 0.05
+			1327 = {
+				add_extra_state_shared_building_slots = 2
+			}
+			add_manpower = -3500
 		}
 	}
 	shared_focus = {
