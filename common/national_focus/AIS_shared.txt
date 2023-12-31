@@ -20,7 +20,9 @@
 		    focus = AIS_black_flag_rise
 	    }
 		completion_reward = {   
-
+			add_manpower = 5000
+			add_war_support = 0.05
+			custom_effect_tooltip = AIS_custom_effect_tt_1
 		}
 	}
 	shared_focus = {
