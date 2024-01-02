@@ -135,3 +135,99 @@ country_event = {
 		name = AIS.4.b
 	}
 }
+country_event = {
+    id = AIS.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.5 FROM = [From.GetName]" }
+	title = AIS.5.t
+	desc = AIS.5.d
+	picture = GFX_AIS_5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		declare_war_on = { target = ALG type = annex_everything }
+		name = AIS.5.a
+	}
+}
+country_event = {
+    id = AIS.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.6 FROM = [From.GetName]" }
+	title = AIS.6.t
+	desc = AIS.6.d
+	picture = GFX_AIS_6
+	
+	trigger = {
+		tag = AIS
+		NOT = {
+			country_exists = ALG
+			country_exists = ALF
+			country_exists = COA
+		}
+	}
+	fire_only_once = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			load_focus_tree = {
+				tree = AIS_country
+				keep_completed = no
+			}
+		}
+		
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		name = AIS.6.a
+	}
+}
+country_event = {
+    id = AIS.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.7 FROM = [From.GetName]" }
+	title = AIS.7.t
+	desc = AIS.7.d
+	picture = GFX_AIS_6
+	
+	trigger = {
+		tag = AIS
+		country_exists = COA
+		AIS = {
+			has_war_with = COA
+		}
+		
+	}
+	fire_only_once = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		hidden_effect = {
+			complete_national_focus = AIS_black_flag_rise
+		}
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		name = AIS.7.a
+	}
+}

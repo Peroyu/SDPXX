@@ -924,6 +924,60 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AIS
+								is_in_faction_with = AIS
+							}
+						}
+						ROOT = {
+							original_tag = ALG
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					AIS = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # 
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = ALG
+								is_in_faction_with = ALG
+							}
+						}
+						ROOT = {
+							original_tag = AIS
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					ALG = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+
+					set_global_flag = skip_default_capitulation
+				}
 				##
 				if = { # 
 					limit = {
@@ -982,6 +1036,10 @@ on_actions = {
 						transfer_state = 460
 						transfer_state = 1330
 						white_peace = ALF
+						country_event = {
+							id = 
+							days = 20
+						}
 					}
 					ROF = {
 						transfer_state = 911

@@ -96,6 +96,8 @@ add_ideas = {
 	charitable_health_system
 	national_supremacy
  }
+ complete_national_focus = ALG_negotiation
+ complete_national_focus = ALG_insult_to_excess
 create_country_leader = {
 	name = "AIS_Abdelbaki_Sahraoui"  # 
 	desc = "/"  # 
