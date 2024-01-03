@@ -16,6 +16,9 @@ state = {
 		victory_points = { #Celje
 			596 1
 		}
+		 add_dynamic_modifier = {
+                        modifier =AUS_slovenia_revolts
+                    }
 	}
 
 	provinces = {

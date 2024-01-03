@@ -980,4 +980,9 @@ spriteTypes = {
 		name = "GFX_GRE_Free_city"
 		texturefile = "gfx/interface/dynamic_ideas/GFX_GRE_Free_city.png"
 	}
+
+	spriteType = {
+		name = "GFX_AUS_slovenia_revolts"
+		texturefile = "gfx/interface/dynamic_ideas/GFX_AUS_slovenia_revolts.png"
+	}
 }

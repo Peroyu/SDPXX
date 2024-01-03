@@ -29,6 +29,13 @@ GRE_Free_city = {
 	}
 	icon = GFX_GRE_Free_city
 }
+AUS_slovenia_revolts = {
+	enable = {
+		alway = yes
+	}
+	compliance_gain = -0.1
+	icon = GFX_AUS_slovenia_revolts
+}
 MMA_gongye_dynamic_modifier = {
     enable = { 
 	    always = yes 
