@@ -7,10 +7,19 @@ set_research_slots = 2 #
 set_war_support = 0.7 # 
 set_stability = 0.3 # 
 
-
+create_country_leader = {
+	name = "ALG_Ahmed_Ben_Messali_Hadj"  # 
+	desc = "/"  # 
+	picture = Portrait_ALG_Ahmed_Ben_Messali_Hadj  # 
+	expire = "1952.4.30"  # 
+	ideology = left_wing_nationalsim# 
+	traits = {  # 
+		#
+	}
+}
 
 set_politics = {
-	ruling_party = moderate_socialism # 
+	ruling_party = military_socialism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -69,15 +78,10 @@ set_technology = {
 	construction1 = 1
 }
 set_popularities = {
-conservatism = 8
- reactionism = 10
- moderate_socialism = 30
- communism = 3
- Liberalism = 2
- committee_communism = 5
+ moderate_socialism = 20
+ communism = 30
+ committee_communism = 30
  social_democracy = 20
- movement_communism = 2
-	Nationalism = 20
 }
 
 add_ideas = {
