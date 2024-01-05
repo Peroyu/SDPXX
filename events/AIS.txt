@@ -113,7 +113,8 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			
+			set_variable = { var = AIS.AIS_emir_state_support value = party_popularity@reactionism }
+			set_variable = { var = AIS.AIS_islam_republic_support value = party_popularity@restorativeism }
 		}
     }
 	
@@ -121,12 +122,26 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		trigger = {
+			check_variable = { #检查变量大小
+				var = AIS.AIS_islam_republic_support
+				value = AIS.AIS_emir_state_support
+				compare = greater_than_or_equals
+			}
+		}
 		complete_national_focus = AIS_academys
 		name = AIS.4.a
 	}
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+				var = AIS.AIS_islam_republic_support
+				value = AIS.AIS_emir_state_support
+				compare = less_than
+			}
 		}
 		set_politics = {
 			ruling_party = reactionism
