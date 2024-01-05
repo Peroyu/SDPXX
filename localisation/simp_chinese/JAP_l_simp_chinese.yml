@@ -201,7 +201,7 @@
  NIP_Memories_he_Nakajima_Cabinet_desc: ""
  NIP_Restore_financial_independence: "恢复金融独立"
  NIP_Restore_financial_independence_desc: ""
- NIP_Gain_sympathy_from_international_capital: "放任财阀产业"
+ NIP_Gain_sympathy_from_international_capital: "铁道还元法案"
  NIP_Gain_sympathy_from_international_capital_desc: ""
  NIP_Takahashi_Finance_restarts: "控制财政赤字"
  NIP_Takahashi_Finance_restarts_desc: ""
@@ -209,6 +209,7 @@
  NIP_The_paradise_of_constitutional_government_desc: ""
  NIP_The_fate_supra_parliamentary_cabinets: "超议会制内阁的宿命"
  NIP_The_fate_supra_parliamentary_cabinets_desc: ""
+
  NIP_continue_walk: "继续前进"
  NIP_continue_walk_desc: ""
  NIP_organise_yokusan_government: "翼赞内阁之组建"
@@ -323,6 +324,7 @@
  NIP_Amend_Public_Security_Police_Law_desc: ""
  NIP_National_yuksan: "国民翼赞"
  NIP_National_yuksan_desc: ""
+
  NIP_the_war_begin: "烽火再起"
  NIP_the_war_begin_desc: ""
  NIP_reconstruct_base_camp: "重建大本营"
@@ -389,7 +391,7 @@
  NIP_to_battlefield_desc: ""
  NIP_new_tax_in_zhongdao_industry: "中岛制造厂的新生意"
  NIP_new_tax_in_zhongdao_industry_desc: ""
- NIP_hand_out_war_ding: "下发战时订单"
+ NIP_hand_out_war_ding: "《陆运统制令》"
  NIP_hand_out_war_ding_desc: ""
  NIP_buy_victory_ship: "订购胜利轮"
  NIP_buy_victory_ship_desc: ""
