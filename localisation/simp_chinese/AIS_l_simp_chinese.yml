@@ -294,6 +294,10 @@
  AIS_custom_effect_tt_7: "§G我们将吸引更多政治力量加入我们的阵线§!\n§G并稳定我们的政坛状况§!"
  AIS_custom_effect_tt_8: "达喀尔政府已经从阿尔及利亚撤退，而现在，我们便必须回过头来对付这些不信真主的民族主义者了……"
  AIS_custom_effect_tt_9: "§R决战之时已至……§!"
+ AIS_custom_effect_tt_10: "我们将以自己的方式向§G穆斯林世界§!投射影响力"
+
+ AIS_modifier_effects_tooltips_tt_1: "将提高对§O社会自由主义§!和§C社会保守主义§!国家的外交接纳"
+ AIS_modifier_effects_tooltips_tt_2: "将提高对§R左翼激进主义§!，§g威权保守主义§!和§B专制国家主义§!国家的外交接纳"
 
  AIS_idea_economic_crisis: "经济严重危机"
  AIS_idea_economic_crisis_desc: "我们的物资储备并不足以稳固市场，资金更是严重短缺，粮棉金圆战线必须尽快被打通以确保前线能继续运作。"
@@ -306,3 +310,10 @@
  AIS_idea_money: "没收法国人财产"
  AIS_idea_preparing: "准备下一场攻势"
  AIS_idea_AIS_Maghreb_Jihad: "黑旗之下"
+ AIS_idea_begining_of_islam_rev: "伊斯兰革命的始源地"
+ AIS_idea_constructing_country: "建国进行时"
+ AIS_idea_law_building: "立法制度化筹备"
+ AIS_idea_law_building_2: "落实法制框架"
+ AIS_idea_regional_reorgnise: "地方运行恢复"
+ AIS_idea_diplimacy_1: "包容性的外交政策"
+ AIS_idea_diplimacy: "倾向性的外交政策"

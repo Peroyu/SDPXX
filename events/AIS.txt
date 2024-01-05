@@ -324,3 +324,49 @@ country_event = {
 		name = AIS.11.a
 	}
 }
+country_event = {
+    id = AIS.12 #全马格里布穆斯林大会的邀请
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.12 FROM = [From.GetName]" }
+	title = AIS.12.t
+	desc = AIS.12.d
+	picture = GFX_AIS_10
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = AIS.12.a
+	}
+}
+country_event = {
+    id = AIS.13 #“麻烦事”归来
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	AIS.13 FROM = [From.GetName]" }
+	title = AIS.13.t
+	desc = AIS.13.d
+	picture = GFX_AIS_10
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = AIS.13.a
+	}
+}

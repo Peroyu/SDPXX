@@ -645,7 +645,8 @@ shared_focus = {
 		x = 5
 		y = 0
 		completion_reward = {   
-
+			add_ideas = AIS_idea_begining_of_islam_rev
+			add_ideas = AIS_idea_constructing_country
 		}
 	}
 	shared_focus = {
@@ -659,7 +660,7 @@ shared_focus = {
 		    focus = AIS_begin_of_islam_rev
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_law_building
 		}
 	}
 	shared_focus = {
@@ -673,7 +674,10 @@ shared_focus = {
 		    focus = AIS_Jurists_politics
 	    }
 		completion_reward = {   
-
+			swap_ideas = {
+				remove_idea = AIS_idea_law_building_1
+				add_idea = AIS_idea_law_building
+			}
 		}
 	}
 	shared_focus = {
@@ -687,7 +691,10 @@ shared_focus = {
 		    focus = AIS_reorganise_regions
 	    }
 		completion_reward = {   
-
+			swap_ideas = {
+				remove_idea = AIS_idea_law_building_2
+				add_idea = AIS_idea_law_building_1
+			}
 		}
 	}
 	shared_focus = {
@@ -701,7 +708,7 @@ shared_focus = {
 		    focus = AIS_begin_of_islam_rev
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_regional_reorgnise
 		}
 	}
 	shared_focus = {
@@ -715,7 +722,10 @@ shared_focus = {
 		    focus = AIS_Summoning_Ulema
 	    }
 		completion_reward = {   
-
+			swap_ideas = {
+				remove_idea = AIS_idea_regional_reorgnise_1
+				add_idea = AIS_idea_regional_reorgnise
+			}
 		}
 	}
 	shared_focus = {
@@ -728,8 +738,27 @@ shared_focus = {
 		prerequisite = {
 		    focus = AIS_Constituent_assembly
 	    }
-		completion_reward = {   
-
+		completion_reward = { 
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			custom_effect_tooltip = AIS_custom_effect_tt_10
+			TUR = {
+				country_event = {
+					id = AIS.12
+					days = 1
+				}
+			}
+			EGY = {
+				country_event = {
+					id = AIS.12
+					days = 1
+				}
+			}
+			RIF = {
+				country_event = {
+					id = AIS.12
+					days = 1
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -743,7 +772,15 @@ shared_focus = {
 		    focus = AIS_begin_of_islam_rev
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_diplimacy
+			add_opinion_modifier = {
+				target = USA
+				modifier = general_intersted
+			}
+			add_opinion_modifier = {
+				target = RUS
+				modifier = general_intersted
+			}
 		}
 	}
 	shared_focus = {
@@ -757,7 +794,10 @@ shared_focus = {
 		    focus = AIS_post_colony_diplomacy
 	    }
 		completion_reward = {   
-
+			swap_ideas = {
+				remove_idea = AIS_idea_diplimacy_1
+				add_idea = AIS_idea_diplimacy
+			}
 		}
 	}
 	shared_focus = {
@@ -771,7 +811,13 @@ shared_focus = {
 		    focus = AIS_seek_for_islam_world
 	    }
 		completion_reward = {   
-
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			TUR = {
+				country_event = {
+					id =  AIS.13
+					days = 1
+				}
+			}
 		}
 	}
 	shared_focus = {

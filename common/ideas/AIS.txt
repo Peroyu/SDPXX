@@ -137,6 +137,140 @@ ideas = {
 
 			}
 		}
+		AIS_idea_begining_of_islam_rev = {
+		    name = AIS_idea_begining_of_islam_rev
+			picture = AIS_idea_begining_of_islam_rev
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				drift_defence_factor = 0.15
+			}
+		}
+		AIS_idea_constructing_country = {
+		    name = AIS_idea_constructing_country
+			picture = AIS_idea_constructing_country
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.01
+				war_support_factor = -0.15
+				drift_defence_factor = 0.05
+			}
+		}
+		AIS_idea_law_building = {
+		    name = AIS_idea_law_building
+			picture = AIS_idea_law_building
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.01
+				stability_factor = -0.05
+				drift_defence_factor = 0.1
+				reactionism_drift = 0.1
+				Nationalism_drift = 0.1
+				restorativeism_drift = 0.1
+			}
+		}
+		AIS_idea_law_building_1 = {
+		    name = AIS_idea_law_building
+			picture = AIS_idea_law_building
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.01
+				drift_defence_factor = 0.05
+				reactionism_drift = 0.2
+				Nationalism_drift = 0.1
+				restorativeism_drift = 0.1
+
+			}
+		}
+		AIS_idea_law_building_2 = {
+		    name = AIS_idea_law_building_2
+			picture = AIS_idea_law_building
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.03
+				drift_defence_factor = 0.4
+				reactionism_drift = 0.2
+				Nationalism_drift = 0.1
+				restorativeism_drift = 0.1
+				conservatism_drift = 0.1
+				movement_communism_drift = 0.1
+				production_speed_buildings_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		AIS_idea_regional_reorgnise = {
+		    name = AIS_idea_regional_reorgnise
+			picture = AIS_idea_regional_reorgnise
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.01
+				stability_factor = 0.05
+				reactionism_drift = 0.15
+				required_garrison_factor = -0.1
+			}
+		}
+		AIS_idea_regional_reorgnise_1 = {
+		    name = AIS_idea_regional_reorgnise
+			picture = AIS_idea_regional_reorgnise
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.03
+				stability_factor = 0.15
+				reactionism_drift = 0.15
+				required_garrison_factor = -0.2
+				compliance_growth = 0.1
+				conservatism_drift = 0.15
+				Nationalism_drift = 0.1
+			}
+		}
+		AIS_idea_diplimacy = {
+		    name = AIS_idea_diplimacy
+			picture = AIS_idea_diplimacy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				custom_modifier_tooltip = AIS_modifier_effects_tooltips_tt_1
+
+			}
+		}
+		AIS_idea_diplimacy_1 = {
+		    name = AIS_idea_diplimacy_1
+			picture = AIS_idea_diplimacy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				custom_modifier_tooltip = AIS_modifier_effects_tooltips_tt_2
+
+			}
+		}
 		AIS_idea_to_constantine = {
 			name = AIS_idea_to_constantine
 			picture = GFX_AIS_idea_to_constantine

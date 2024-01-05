@@ -775,7 +775,7 @@ shared_focus = {
 			modifier = general_intersted
 		}
 		add_opinion_modifier = {
-			target = SOV
+			target = RUS
 			modifier = general_intersted
 		}
 
