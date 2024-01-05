@@ -1,0 +1,159 @@
+ideas = {
+	country = {
+		AIS_idea_economic_crisis = {
+		    name = AIS_idea_economic_crisis
+			picture = GFX_AIS_idea_economic_crisis
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		AIS_idea_economic_crisis_1 = {
+		    name = AIS_idea_economic_crisis_1
+			picture = GFX_AIS_idea_economic_crisis_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.05
+			}
+		}
+		AIS_idea_economic_crisis_2 = {
+		    name = AIS_idea_economic_crisis_1
+			picture = GFX_AIS_idea_economic_crisis_1
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = ALG
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.05
+				political_power_gain = 0.05
+				army_org_factor = 0.1
+				conscription_factor = -0.02
+			}
+		}
+		AIS_idea_army_in_shadow = {
+		    name = AIS_idea_army_in_shadow
+			picture = GFX_AIS_idea_army_in_shadow
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				land_reinforce_rate = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				training_time_army_factor = -0.1
+			}
+		}
+		AIS_idea_money = {
+		    name = AIS_idea_money
+			picture = GFX_AIS_idea_money
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		AIS_idea_preparing = {
+		    name = AIS_idea_preparing
+			picture = GFX_AIS_idea_preparing
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				planning_speed = 0.1
+				max_planning = 0.1
+				army_org_factor = 0.1
+			}
+		}
+		AIS_idea_AIS_Maghreb_Jihad = {
+		    name = AIS_idea_AIS_Maghreb_Jihad
+			picture = AIS_idea_AIS_Maghreb_Jihad
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				army_org_factor = 0.15
+				motorized_attack_factor =0.05
+				conscription_factor = 0.05
+			}
+		}
+		AIS_idea_AIS_Maghreb_Jihad_1 = {
+		    name = AIS_idea_AIS_Maghreb_Jihad
+			picture = AIS_idea_AIS_Maghreb_Jihad
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				army_org_factor = 0.2
+				motorized_attack_factor =0.07
+				conscription_factor = 0.05
+				experience_loss_factor = 0.1
+				breakthrough_factor = 0.05
+			}
+		}
+		AIS_idea_AIS_Maghreb_Jihad_2 = {
+		    name = AIS_idea_AIS_Maghreb_Jihad
+			picture = AIS_idea_AIS_Maghreb_Jihad
+			allowed = { always = no }
+			available = {
+				is_subject = no
+				has_war_with = COA
+			}
+			modifier = {
+				army_org_factor = 0.2
+				motorized_attack_factor =0.07
+				conscription_factor = 0.05
+				experience_loss_factor = 0.12
+				breakthrough_factor = 0.02
+				army_core_defence_factor = 0.1
+				motorized_defence_factor = 0.1
+
+			}
+		}
+		AIS_idea_to_constantine = {
+			name = AIS_idea_to_constantine
+			picture = GFX_AIS_idea_to_constantine
+			allowed = {
+			   always = no
+			}
+			available = {
+				is_subject = no
+				has_war_with = ALF
+			}
+			removal_cost = -1
+			targeted_modifier = {
+			   
+			   tag = ALF
+			   defense_bonus_against = 0.2
+			   attack_bonus_against = 0.2
+			}
+		   }
+	}
+}	

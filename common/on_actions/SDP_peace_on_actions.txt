@@ -1037,7 +1037,7 @@ on_actions = {
 						transfer_state = 1330
 						white_peace = ALF
 						country_event = {
-							id = 
+							id = AIS.5
 							days = 20
 						}
 					}

@@ -6,7 +6,8 @@ shared_focus = {
 	x = 6
 	y = 0
 	completion_reward = {   
-
+		add_political_power = 100
+		custom_effect_tooltip = AIS_custom_effect_tt_2
 	}
 }
 shared_focus = {
@@ -20,7 +21,7 @@ shared_focus = {
 		focus = ALG_two_sun
 	}
 	completion_reward = {   
-
+		custom_effect_tooltip = AIS_custom_effect_tt_3
 	}
 }
 ###########################################
@@ -38,7 +39,9 @@ shared_focus = {
 		focus = ALG_negotiation
 	}
 	completion_reward = {
-	   
+		add_stability = 0.05
+		custom_effect_tooltip = ROF_AIS_increase
+		custom_effect_tooltip = AIS_custom_effect_tt_5
 	}
 }
 shared_focus = {
@@ -52,7 +55,11 @@ shared_focus = {
 		focus = ALG_insult_to_excess
 	}
 	completion_reward = {   
-		
+		country_event = {
+			id = AIS.8
+			days = 1
+		}
+		custom_effect_tooltip = AIS_custom_effect_tt_6
 	}
 }
 shared_focus = {
@@ -66,7 +73,16 @@ shared_focus = {
 		focus = ALG_Jahannam
 	}
 	completion_reward = {   
-		
+		add_political_power = 100
+		custom_effect_tooltip = AIS_custom_effect_tt_1
+		every_state = {
+			limit = {
+				is_controlled_by = ALF
+			}
+			add_dynamic_modifier = {
+				modifier =AIS_regional_revolts
+			}
+		}
 	}
 }
 shared_focus = {
@@ -80,7 +96,10 @@ shared_focus = {
 		focus = ALG_Marek
 	}
 	completion_reward = {   
-		
+		swap_ideas = {
+			add_idea = AIS_idea_economic_crisis_1
+			remove_idea = AIS_idea_economic_crisis
+		}
 	}
 }
 shared_focus = {
@@ -100,7 +119,7 @@ shared_focus = {
 		focus = ALG_fund
 	}
 	completion_reward = {   
-		
+		add_ideas = AIS_idea_to_constantine
 	}
 }
 shared_focus = {
@@ -110,11 +129,18 @@ shared_focus = {
 	available_if_capitulated = no
 	x = 6
 	y = 6
+	available = {
+		owns_state = 460
+	}
 	prerequisite = {
 		focus = ALG_Iris_Fall
 	}
 	completion_reward = {   
-		
+		custom_effect_tooltip = AIS_custom_effect_tt_8
+		swap_ideas = {
+			add_idea = AIS_idea_economic_crisis_2
+			remove_idea = AIS_idea_economic_crisis_1
+		}
 	}
 }
 ############################################
@@ -132,7 +158,7 @@ shared_focus = {
 		focus = ALG_negotiation
 	}
 	completion_reward = { 
-	   
+		custom_effect_tooltip = AIS_custom_effect_tt_4
 	}
 }
 shared_focus = {
@@ -142,11 +168,20 @@ shared_focus = {
 	available_if_capitulated = no
 	x = 9
 	y = 3
+	available = {
+		has_completed_focus = ALG_sufi
+		has_completed_focus = ALG_Marek
+	}
 	prerequisite = {
 		focus = ALG_Jahannam
 	}
 	completion_reward = {   
-		
+		add_equipment_to_stockpile = {
+			type = infantry_equipment 
+			amount = 500
+			producer = AIS
+		}
+		add_manpower = 50000
 	}
 }
 shared_focus = {
@@ -160,7 +195,14 @@ shared_focus = {
 		focus = ALG_Ebad
 	}
 	completion_reward = {   
-		
+		custom_effect_tooltip = AIS_custom_effect_tt_7
+		set_politics = { 
+			ruling_party = conservatism
+		}
+		set_party_name = { ideology = conservatism long_name = AIS_conservatism_party_front_long name = AIS_conservatism_party_front } 
+		set_party_name = { ideology = Nationalism long_name = AIS_conservatism_party_front_long name = AIS_conservatism_party_front } 
+		set_party_name = { ideology = reactionism long_name = AIS_conservatism_party_front_long name = AIS_conservatism_party_front } 
+		set_party_name = { ideology = restorativeism long_name = AIS_conservatism_party_front_long name = AIS_conservatism_party_front } 
 	}
 }
 ##############################
@@ -174,8 +216,35 @@ shared_focus = {
 	prerequisite = {
 		focus = ALG_Jahannam
 	}
-	completion_reward = {   
-		
+	completion_reward = {  
+		country_event = {
+			id = AIS.9
+			days = 1
+		} 
+		random_owned_controlled_state = {
+			prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+					owner = AIS
+				}
+		}
+		random_owned_controlled_state = {
+			prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+					owner = AIS
+				}
+		}
+		random_owned_controlled_state = {
+			prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+					owner = AIS
+				}
+		}
 	}
 }
 shared_focus = {
@@ -188,8 +257,13 @@ shared_focus = {
 	prerequisite = {
 		focus = ALG_sufi
 	}
-	completion_reward = {   
-	   
+	completion_reward = {  
+		custom_effect_tooltip = AIS_custom_effect_tt_1 
+		add_equipment_to_stockpile = {
+			type = infantry_equipment 
+			amount = 2000
+			producer = AIS
+		}
 	}
 }
 ##############
@@ -223,7 +297,15 @@ shared_focus = {
 		    focus = AIS_to_true_lord
 	    }
 		completion_reward = {   
-
+			add_equipment_to_stockpile = {
+				type = 	artillery_equipment
+				amount = 15
+				producer = TUR
+			}
+			country_event = {
+				id = AIS.10
+				days = 1
+			}
 		}
 	}
 	shared_focus = {
@@ -237,7 +319,9 @@ shared_focus = {
 		    focus = AIS_see_other_land
 	    }
 		completion_reward = {   
-
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			add_political_power = 50
+			add_command_power = 15
 		}
 	}
 	shared_focus = {
@@ -251,7 +335,15 @@ shared_focus = {
 		    focus = AIS_overworld_friend
 	    }
 		completion_reward = {   
-
+			add_equipment_to_stockpile = {
+				type = 	support_equipment
+				amount = 15
+				producer = TUN
+			}
+			country_event = {
+				id = AIS.11
+				days = 1
+			}
 		}
 	}
 	shared_focus = {
@@ -265,7 +357,31 @@ shared_focus = {
 		    focus = AIS_see_other_land
 	    }
 		completion_reward = {   
-
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam millita\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
 		}
 	}
 	shared_focus = {
@@ -279,7 +395,7 @@ shared_focus = {
 		    focus = AIS_overworld_fighters
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_AIS_Maghreb_Jihad
 		}
 	}
 	shared_focus = {
@@ -296,7 +412,10 @@ shared_focus = {
 		    focus = AIS_seek_for_tunisia
 	    }
 		completion_reward = {   
-
+			swap_ideas = {
+				add_idea = AIS_idea_AIS_Maghreb_Jihad_1
+				remove_idea = AIS_idea_AIS_Maghreb_Jihad
+			}
 		}
 	}
 	shared_focus = {
@@ -310,7 +429,11 @@ shared_focus = {
 		    focus = AIS_our_fate
 	    }
 		completion_reward = {   
-
+			add_manpower = 5000
+			swap_ideas = {
+				add_idea = AIS_idea_AIS_Maghreb_Jihad_2
+				remove_idea = AIS_idea_AIS_Maghreb_Jihad_1
+			}
 		}
 	}
 	shared_focus = {
@@ -324,7 +447,15 @@ shared_focus = {
 		    focus = AIS_to_true_lord
 	    }
 		completion_reward = {   
-
+			add_manpower = 5000
+			1327 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes 
+					province = 12888
+				}
+			}
 		}
 	}
 	shared_focus = {
@@ -338,7 +469,44 @@ shared_focus = {
 		    focus = AIS_ride_south_desert
 	    }
 		completion_reward = {   
-
+			set_technology = {
+				camelry = 1
+			}
+			division_template = {
+				name = "islam camelry"
+				regiments = {
+					camelry = { x = 0 y = 0 }
+					camelry = { x = 0 y = 1 }
+					camelry = { x = 0 y = 2 }
+					camelry = { x = 0 y = 3 }
+				}
+				support = { 
+				} 
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam camelry\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam camelry\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 195 }
+					limit = { valid_state_for_spawning_friendly_unit = yes }
+					create_unit = {
+						division = "division_template = \"islam camelry\" start_experience_factor = 0.1"
+						owner = AIS
+					}
+			}
 		}
 	}
 	shared_focus = {
@@ -351,8 +519,16 @@ shared_focus = {
 		prerequisite = {
 		    focus = AIS_over_camel
 	    }
-		completion_reward = {   
-
+		completion_reward = { 
+			add_timed_idea = { idea = AIS_idea_money days = 90 }   
+			1327 = {
+				add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes 
+		}
+			}
 		}
 	}
 	shared_focus = {
@@ -366,7 +542,7 @@ shared_focus = {
 		    focus = AIS_ride_south_desert
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_army_in_shadow
 		}
 	}
 	shared_focus = {
@@ -402,7 +578,15 @@ shared_focus = {
 		    focus = AIS_for_money
 	    }
 		completion_reward = {   
-
+			army_experience = 30
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_manpower = 3000
+			add_equipment_to_stockpile = {
+				type = 	infantry_equipment
+				amount = 1000
+				producer = AIS
+			}
 		}
 	}
 	shared_focus = {
@@ -416,7 +600,7 @@ shared_focus = {
 		    focus = AIS_for_the_lord
 	    }
 		completion_reward = {   
-
+			add_ideas = AIS_idea_preparing
 		}
 	}
 	shared_focus = {
@@ -433,7 +617,8 @@ shared_focus = {
 		    focus = AIS_our_hometown
 	    }
 		completion_reward = {   
-
+			add_political_power = 50
+			custom_effect_tooltip = AIS_custom_effect_tt_1
 		}
 	}
 	shared_focus = {
@@ -447,7 +632,7 @@ shared_focus = {
 		    focus = AIS_the_long_night
 	    }
 		completion_reward = {   
-
+			custom_effect_tooltip = AIS_custom_effect_tt_9
 		}
 	}
 

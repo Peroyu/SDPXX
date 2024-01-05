@@ -1,4 +1,18 @@
 technologies = {
+	camelry = {
+		
+		enable_subunits = {
+			camelry
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	@1933 = 0
 	@1936 = 4

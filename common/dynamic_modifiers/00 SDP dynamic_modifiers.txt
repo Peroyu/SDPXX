@@ -36,6 +36,16 @@ AUS_slovenia_revolts = {
 	compliance_gain = -0.1
 	icon = GFX_AUS_slovenia_revolts
 }
+AIS_regional_revolts = {
+	enable = {
+		ROOT = {
+			is_controlled_by = ALF
+		}
+	}
+	resistance_growth = 0.3
+	resistance_target = 0.3
+	icon = GFX_AUS_slovenia_revolts
+}
 MMA_gongye_dynamic_modifier = {
     enable = { 
 	    always = yes 

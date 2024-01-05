@@ -173,6 +173,13 @@ defined_text = {
 		}
 		localization_key = mass_socialism
     }
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = agriculture_socialism
+		}
+		localization_key = agriculture_socialism
+    }
 	##########################################################
 	text = {
 		trigger = {
@@ -625,6 +632,13 @@ defined_text = {
 			has_country_leader_ideology = anarchism
 		}
 		localization_key = anarchism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = agriculture_socialism
+		}
+		localization_key = agriculture_socialism
     }
 	##########################################################
 	text = {

@@ -9,15 +9,16 @@ set_stability = 0.4 #
 
 # 
 set_politics = {
-	ruling_party = committee_communism # 
+	ruling_party = moderate_socialism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = { 
- committee_communism = 30
- communism = 29
+ committee_communism = 19
+ communism = 15
+ moderate_socialism = 25
  social_democracy = 20
  Liberalism = 10
  reactionism = 8
@@ -137,6 +138,14 @@ set_technology = {
 	construction2 = 1
 }
 # 
+create_country_leader = {
+	name = "CRT_Vladko_Macek"   
+	desc = "CRT_Vladko_Macek_desc"  
+	picture = "gfx/leaders/EU/Portrait_CRT_Vladko_Macek.png"   
+	expire = "1956.9.7"   
+	ideology = agriculture_socialism
+	traits = {  }
+}
 create_country_leader = {
 	name = "YUG_Edvard_Kardelj"   
 	desc = "YUG_Edvard_Kardelj_desc"  
