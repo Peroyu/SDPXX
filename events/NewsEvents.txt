@@ -633,6 +633,29 @@ news_event = {
     
 }
 news_event = {
+	id = global.18
+
+    picture = GFX_SPA_1
+    title = SPA.1.t
+    desc = SPA.1.d
+    immediate = { 
+        hidden_effect = {
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = SPA.1.a
+        
+	}
+    
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1
