@@ -1211,6 +1211,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_YUG_Rodoljub_Colakovic"
+		texturefile = "gfx/leaders/EU/Portrait_YUG_Rodoljub_Colakovic.png"		
+	}
+
+	spriteType = {
 		name = "portrait_SDP_coders"
 		texturefile = "gfx/leaders/custom/portrait_SDP_coders.dds"		
 	}

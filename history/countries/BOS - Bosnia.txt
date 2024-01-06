@@ -28,9 +28,9 @@ set_popularities = {
 }
 # 
 create_country_leader = {
-	name = "YUG_gorgyki"  # 
+	name = "YUG_Rodoljub_Colakovic"  # 
 	desc = "/"  # 
-	picture = "Portrait_YUG_gorgyki"  # 
+	picture = "Portrait_YUG_Rodoljub_Colakovic"  # 
 	expire = "1956.6.6"  # 
 	ideology =  democratic_socialism # 
 	traits = {  # 
