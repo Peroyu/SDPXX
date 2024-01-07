@@ -15,9 +15,7 @@ set_politics = {
 	elections_allowed = no  # 
 }
 
-HUN = {
-	puppet = CRT
-}
+
 HUN = {
 	puppet = ROM
 }

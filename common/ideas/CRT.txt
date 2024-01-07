@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		CRT_wire_to_be_break = {
+		    name = CRT_wire_to_be_break
+			picture = CRT_wire_to_be_break
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		CRT_dream_to_yugaslavia = {
+		    name = CRT_dream_to_yugaslavia
+			picture = CRT_dream_to_yugaslavia
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = -0.15
+				war_support_factor = 0.2
+				mobilization_speed = 0.1
+				non_core_manpower = 0.05
+				compliance_growth = 0.05
+			}
+		}
+		CRT_connection_with_hungarian = {
+		    name = CRT_connection_with_hungarian
+			picture = CRT_connection_with_hungarian
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.1
+			}
+			targeted_modifier = {
+			
+				tag = HUN
+			
+				trade_cost_for_target_factor = -0.5
+			 }
+		}
+	}
+}	

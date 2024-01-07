@@ -14,15 +14,25 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
+set_variable = { var = SDP_economic_v value = 22 }#60
+set_variable = { var = SDP_education_v value = 29 }#50
+set_variable = { var = SDP_industry_v value = 21 }#60
+set_variable = { var = SDP_agriculture_v value = 30 }#60
+set_variable = { var = SDP_science_v value = 25 }#50
+set_variable = { var = SDP_politics_v value = 25 }#60
 # 
+set_variable = { var = FactionStatus value = 2}
 set_popularities = { 
- committee_communism = 19
- communism = 15
- moderate_socialism = 25
- social_democracy = 20
- Liberalism = 10
- reactionism = 8
- Nationalism = 3
+ committee_communism = 18
+ communism = 8
+ moderate_socialism = 42
+ movement_communism = 3
+ conservatism = 2
+ social_democracy = 12
+ Liberalism = 5
+ reactionism = 1
+ Nationalism = 4
+ restorativeism = 5
 }
 set_technology = {
 	### Infantry ###
@@ -147,14 +157,35 @@ create_country_leader = {
 	traits = {  }
 }
 create_country_leader = {
-	name = "YUG_Edvard_Kardelj"   
-	desc = "YUG_Edvard_Kardelj_desc"  
-	picture = "gfx/leaders/EU/Edvard_Kardelj.png"   
+	name = "CRT_Vladko_Macek"   
+	desc = "CRT_Vladko_Macek_desc"  
+	picture = "gfx/leaders/EU/Portrait_CRT_Vladko_Macek.png"   
+	expire = "1956.9.7"   
+	ideology = social_reformism
+	traits = {  }
+}
+create_country_leader = {
+	name = "CRT_Milan_Gorkic"   
+	desc = "CRT_Milan_Gorkic_desc"  
+	picture = "gfx/leaders/EU/Portrait_YUG_gorgyki.png"   
 	expire = "1956.9.7"   
 	ideology = democratic_socialism
 	traits = {  }
 }
+create_country_leader = {
+	name = "CRT_tito"   
+	desc = "CRT_tito_desc"  
+	picture = "gfx/leaders/EU/Portrait_YUG_tito.png"   
+	expire = "1956.9.7"   
+	ideology = military_socialism
+	traits = {  }
+}
 add_ideas = {
+	CRT_wire_to_be_break
+	CRT_dream_to_yugaslavia
+	CRT_connection_with_hungarian
+	victor_of_the_revolutionary_war
+	#####
 graduated_taxation
 	compulsory_primary_school
 	single_party_state
@@ -170,5 +201,4 @@ graduated_taxation
 	secret_police
 	public_health_insurance
 	ethnostate
-HUN_inflluence
 }

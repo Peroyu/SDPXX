@@ -916,7 +916,21 @@ spriteTypes = {
 		name = "GFX_idea_USA_ghost_of_Jim_crow"
 		texturefile = "gfx/interface/ideas/USA/GFX_idea_USA_ghost_of_Jim_crow.png"
 	}
+	#######################CRT
+	spriteType = {
+		name = "GFX_idea_CRT_dream_to_yugaslavia"
+		texturefile = "gfx/interface/ideas/CRT/GFX_idea_CRT_dream_to_yugaslavia.png"
+	}
 
+	spriteType = {
+		name = "GFX_idea_CRT_wire_to_be_break"
+		texturefile = "gfx/interface/ideas/CRT/GFX_idea_CRT_wire_to_be_break.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CRT_connection_with_hungarian"
+		texturefile = "gfx/interface/ideas/CRT/GFX_idea_CRT_connection_with_hungarian.png"
+	}
 	######################NIP#########################################3
 
 	spriteType = {
