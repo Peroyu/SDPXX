@@ -50,6 +50,8 @@ scripted_gui = {
 							has_global_flag = Germany_Crisis_Super_Event_Visible
 
 							has_global_flag = Balkan_war_2nd_Super_Event_Visible
+
+							has_global_flag = Africa_crisis_Super_Event_Visible
 						}
 						
 					}
@@ -78,6 +80,8 @@ scripted_gui = {
 					clr_global_flag = Germany_Crisis_Super_Event_Visible
 
 					clr_global_flag = Balkan_war_2nd_Super_Event_Visible
+
+					clr_global_flag = Africa_crisis_Super_Event_Visible
 
 				}
 			}
