@@ -931,6 +931,23 @@ spriteTypes = {
 		name = "GFX_idea_CRT_connection_with_hungarian"
 		texturefile = "gfx/interface/ideas/CRT/GFX_idea_CRT_connection_with_hungarian.png"
 	}
+	#####################YUG####################################
+	spriteType = {
+		name = "GFX_idea_YUG_torist_threats"
+		texturefile = "gfx/interface/ideas/idea_yug_local_militias.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_democrats_supports"
+		texturefile = "gfx/interface/ideas/idea_yug_federal_defense_council.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_broken_country"
+		texturefile = "gfx/interface/ideas/idea_ICE_thungur_hnifur.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_broken_committee"
+		texturefile = "gfx/interface/ideas/spr_subvert_soviet_control.dds"
+	}
 	######################NIP#########################################3
 
 	spriteType = {

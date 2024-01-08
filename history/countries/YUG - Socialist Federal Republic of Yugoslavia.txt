@@ -30,20 +30,33 @@ add_ideas = {
 	public_health_insurance
 	ethnostate
 	
-victor_of_the_revolutionary_war
-HUN_inflluence
+	loser_of_the_revolutionary_war
+YUG_torist_threats
+YUG_broken_committee
+YUG_broken_country
+YUG_democrats_supports
 }
 set_popularities = {
-	committee_communism = 23
-	communism = 31
-	moderate_socialism = 9
-	liberalism = 5
+	committee_communism = 20
+	communism = 23
+	moderate_socialism = 8
+	liberalism = 15
 	conservatism = 4
-	Nationalism = 13
-	reactionism = 10
-	movement_communism = 5
+	Nationalism = 3
+	reactionism = 5
+	movement_communism = 10
+	social_democracy = 5
+	restorativeism = 7
 }
 
+set_variable = { var = FactionStatus value = 2 }
+
+set_variable = { var = SDP_economic_v value = 15 }#60
+set_variable = { var = SDP_education_v value = 15 }#50
+set_variable = { var = SDP_industry_v value = 25 }#60
+set_variable = { var = SDP_agriculture_v value = 25 }#60
+set_variable = { var = SDP_science_v value = 25 }#50
+set_variable = { var = SDP_politics_v value = 12 }#60
  
 create_country_leader = {
 	name = "YUG_Balkan_R_C"   
@@ -51,5 +64,29 @@ create_country_leader = {
 	picture = "gfx/leaders/EU/YUG_Balkan_R_C.png"   
 	expire = "1956.9.7"   
 	ideology = United_Interim_Government
+	traits = {  }
+}
+create_country_leader = {
+	name = "YUG_Joseph_Dudas"   
+	desc = "YUG_Joseph_Dudas_desc"  
+	picture = "gfx/leaders/EU/YUG_Joseph_Dudas.png"   
+	expire = "1956.9.7"   
+	ideology = Jacobinism
+	traits = {  }
+}
+create_country_leader = {
+	name = "YUG_Ivan_Goshniak"   
+	desc = "YUG_Ivan_Goshniak_desc"  
+	picture = "gfx/leaders/EU/YUG_Ivan_Goshniak.png"   
+	expire = "1956.9.7"   
+	ideology = parliamentary_communism
+	traits = {  }
+}
+create_country_leader = {
+	name = "YUG_Dragisa_Cvetkovic"   
+	desc = "YUG_Dragisa_Cvetkovic_desc"  
+	picture = "gfx/leaders/EU/YUG_Dragisa_Cvetkovic.png"   
+	expire = "1956.9.7"   
+	ideology = FFFFF_FFF
 	traits = {  }
 }
