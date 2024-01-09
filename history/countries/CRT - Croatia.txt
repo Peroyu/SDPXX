@@ -13,6 +13,8 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
+set_variable = { SDP_welcome_splash_variable = 1 }
+###
 set_variable = { var = SDP_economic_v value = 22 }#60
 set_variable = { var = SDP_education_v value = 29 }#50
 set_variable = { var = SDP_industry_v value = 21 }#60
