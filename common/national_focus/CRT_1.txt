@@ -265,7 +265,7 @@ focus_tree = {
 			focus = CRT_problem_of_centralism
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_tito" } 
+			has_government = communism
 		}
 		completion_reward = { 
 			swap_ideas = {
@@ -288,7 +288,7 @@ focus_tree = {
 			focus = CRT_industry_and_city
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_tito" } 
+			has_government = communism
 		}
 		completion_reward = { 
 			if = {
@@ -321,7 +321,7 @@ focus_tree = {
 			focus = CRT_problem_of_centralism
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_Milan_Gorkic" } 
+			has_government = committee_communism
 		}
 		completion_reward = { 
 			swap_ideas = {
@@ -344,7 +344,7 @@ focus_tree = {
 			focus = CRT_problem_of_centralism
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_Milan_Gorkic" } 
+			has_government = committee_communism
 		}
 		completion_reward = { 
 			if = {
@@ -429,7 +429,7 @@ focus_tree = {
 			focus = CRT_farmers_country
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+			has_government = social_democracy
 		}
 		completion_reward = { 
 			add_timed_idea = { idea = CRT_reorg_army days = 180 } 
@@ -446,7 +446,7 @@ focus_tree = {
 			focus = CRT_NOVJ
 		}
 		available = {
-			has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+			has_government = social_democracy
 		}
 		completion_reward = { 
 			swap_ideas = {
@@ -463,7 +463,7 @@ focus_tree = {
 			x = 12
 			y = 12
 			available = {
-				has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+				has_government = social_democracy
 			}
 			prerequisite = {
 				focus = CRT_hungary_croatia_banner
