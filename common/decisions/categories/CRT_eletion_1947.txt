@@ -1,0 +1,20 @@
+CRT_eletion_1947 = {
+    icon = decision_category_eng_organize_the_blackshirts
+    picture = CRT_eletion_1947_pictures
+    allowed = {
+			original_tag = CRT
+		
+		
+		
+	}
+    visible = {
+			tag = CRT
+			has_completed_focus = CRT_restart_eletion
+		
+	}
+    priority = {
+		base = 1
+		
+	}
+	visible_when_empty = yes
+}

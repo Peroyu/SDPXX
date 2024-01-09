@@ -1,0 +1,39 @@
+CRT_eletion_1947 = {
+    CRT_1947_election_ongoing = {
+
+		icon = 
+		
+		fire_only_once = yes
+
+		available = {
+			always = no
+		}
+
+		visible = {
+			has_completed_focus = CRT_restart_eletion
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_completed_focus = CRT_restart_eletion
+		}
+		
+		days_mission_timeout = 180
+		is_good = yes
+
+		timeout_effect = {
+			country_event = {
+				id = CRT.3
+				days = 1
+			}
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+}

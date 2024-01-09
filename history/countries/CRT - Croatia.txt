@@ -6,8 +6,7 @@ set_research_slots = 3 #
 
 set_war_support = 0.3 # 
 set_stability = 0.4 # 
-
-# 
+set_country_flag = CRT_national_chaos_flag
 set_politics = {
 	ruling_party = moderate_socialism # 
 	last_election = "1947.1.1"

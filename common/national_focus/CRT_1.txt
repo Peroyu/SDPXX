@@ -1,0 +1,478 @@
+focus_tree = {
+	id = CRT_FOCUSTREE_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRT
+		}
+	}
+	default = no
+	focus = {
+		id = CRT_1947
+		icon = CRT_1947
+		cost = 1.00
+		x = 8
+		y = 0
+		completion_reward = { 
+			add_stability = 0.05
+			country_event = {
+				id = CRT.1
+				days = 1
+			}
+			}
+	}
+	focus = {
+		id = CRT_one_evening
+		icon = CRT_one_evening
+		cost = 1
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = CRT_1947
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_wire_to_be_break_1
+				remove_idea = CRT_wire_to_be_break
+			}
+			}
+	}
+	focus = {
+		id = CRT_restart_eletion
+		icon = CRT_restart_eletion
+		cost = 4
+		x = 8
+		y = 2
+		prerequisite = {
+			focus = CRT_one_evening
+		}
+		completion_reward = { 
+			unlock_decision_category_tooltip = CRT_eletion_1947
+			add_stability = 0.05
+			add_war_support = 0.1
+			country_event = {
+				id = CRT.2
+				days = 1
+			}
+			}
+	}
+	focus = {
+		id = CRT_our_independence
+		icon = CRT_our_independence
+		cost = 5
+		x = 10
+		y = 3
+		mutually_exclusive = { focus = CRT_future_of_white_fort }
+		prerequisite = {
+			focus = CRT_restart_eletion
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_wire_to_be_break_0
+				remove_idea = CRT_wire_to_be_break
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_green_officers
+		icon = CRT_green_officers
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = CRT_our_independence
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_dream_to_yugaslavia_0
+				remove_idea = CRT_dream_to_yugaslavia
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_war_anti_imperalism
+		icon = CRT_war_anti_imperalism
+		cost = 5
+		x = 10
+		y = 5
+		prerequisite = {
+			focus = CRT_green_officers
+		}
+		completion_reward = { 
+			remove_ideas = CRT_dream_to_yugaslavia_0
+			add_ideas = CRT_idea_our_land
+			}
+	}
+	focus = {
+		id = CRT_liberty_and_freedom
+		icon = CRT_liberty_and_freedom
+		cost = 5
+		x = 10
+		y = 6
+		prerequisite = {
+			focus = CRT_war_anti_imperalism
+		}
+		completion_reward = { 
+			add_popularity = {
+				ideology = social_democracy
+				popularity = 0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_future_of_white_fort
+		icon = CRT_future_of_white_fort
+		cost = 5
+		x = 6
+		y = 3
+		mutually_exclusive = { focus = CRT_our_independence }
+		prerequisite = {
+			focus = CRT_restart_eletion
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_wire_to_be_break_2
+				remove_idea = CRT_wire_to_be_break_1
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_croatia_serbia_language
+		icon = CRT_croatia_serbia_language
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = CRT_future_of_white_fort
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_dream_to_yugaslavia_1
+				remove_idea = CRT_dream_to_yugaslavia
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.08
+			}
+			}
+	}
+	focus = {
+		id = CRT_the_war_anti_lord
+		icon = CRT_the_war_anti_lord
+		cost = 5
+		x = 6
+		y = 5
+		prerequisite = {
+			focus = CRT_croatia_serbia_language
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_wire_to_be_break_3
+				remove_idea = CRT_wire_to_be_break_2
+			}
+			add_popularity = {
+				ideology = social_democracy
+				popularity = -0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_party_and_borthers
+		icon = CRT_party_and_borthers
+		cost = 5
+		x = 6
+		y = 6
+		prerequisite = {
+			focus = CRT_the_war_anti_lord
+		}
+		completion_reward = { 
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.05
+			}
+			}
+	}
+	focus = {
+		id = CRT_HUN_influences
+		icon = CRT_HUN_influences
+		cost = 4
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = CRT_party_and_borthers
+			focus = CRT_liberty_and_freedom
+		}
+		completion_reward = { 
+			country_event = {
+				id = CRT.4
+				days = 1
+			}
+			}
+	}
+	focus = {
+		id = CRT_dawn_of_revolutionists
+		icon = CRT_dawn_of_revolutionists
+		cost = 4
+		x = 4
+		y = 9
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRT_HUN_influences
+		}
+		completion_reward = { 
+			custom_effect_tooltip = CRT_effect_tooltip_1
+			}
+	}
+	focus = {
+		id = CRT_problem_of_centralism
+		icon = CRT_problem_of_centralism
+		cost = 5
+		x = 4
+		y = 10
+		prerequisite = {
+			focus = CRT_dawn_of_revolutionists
+		}
+		completion_reward = { 
+			country_event = {
+				id = CRT.5
+				days = 1
+			}
+			add_ideas = CRT_idea_land_problem
+			}
+	}
+	focus = {
+		id = CRT_industry_and_city
+		icon = CRT_industry_and_city
+		cost = 6
+		x = 3
+		y = 11
+		prerequisite = {
+			focus = CRT_problem_of_centralism
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_tito" } 
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_idea_land_problem_L1
+				remove_idea = CRT_idea_land_problem
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			}
+	}
+	focus = {
+		id = CRT_centralise_party
+		icon = CRT_centralise_party
+		cost = 5
+		x = 3
+		y = 12
+		prerequisite = {
+			focus = CRT_industry_and_city
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_tito" } 
+		}
+		completion_reward = { 
+			if = {
+				limit = {
+					has_idea = CRT_dream_to_yugaslavia_1
+				}
+				swap_ideas = {
+					add_idea = CRT_dream_to_yugaslavia_L
+					remove_idea = CRT_dream_to_yugaslavia_1
+				}
+			}
+			if = {
+				limit = {
+					has_idea = CRT_dream_to_yugaslavia_0
+				}
+				swap_ideas = {
+					add_idea = CRT_dream_to_yugaslavia_L
+					remove_idea = CRT_dream_to_yugaslavia_0
+				}
+			}
+			}
+	}
+	focus = {
+		id = CRT_moderate_policy
+		icon = CRT_moderate_policy
+		cost = 6
+		x = 5
+		y = 11
+		prerequisite = {
+			focus = CRT_problem_of_centralism
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_Milan_Gorkic" } 
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_idea_land_problem_R1
+				remove_idea = CRT_idea_land_problem
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.1
+			}
+			}
+	}
+	focus = {
+		id = CRT_yugaslavia_Policy
+		icon = CRT_yugaslavia_Policy
+		cost = 5
+		x = 5
+		y = 12
+		prerequisite = {
+			focus = CRT_problem_of_centralism
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_Milan_Gorkic" } 
+		}
+		completion_reward = { 
+			if = {
+				limit = {
+					has_idea = CRT_dream_to_yugaslavia_1
+				}
+				swap_ideas = {
+					add_idea = CRT_dream_to_yugaslavia_R
+					remove_idea = CRT_dream_to_yugaslavia_1
+				}
+			}
+			if = {
+				limit = {
+					has_idea = CRT_dream_to_yugaslavia_0
+				}
+				swap_ideas = {
+					add_idea = CRT_dream_to_yugaslavia_R
+					remove_idea = CRT_dream_to_yugaslavia_0
+				}
+			}
+			}
+	}
+	focus = {
+		id = CRT_old_trace
+		icon = CRT_old_trace
+		cost = 4
+		x = 8
+		y = 9
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = CRT_HUN_influences
+		}
+		completion_reward = { 
+			custom_effect_tooltip = CRT_effect_tooltip_2
+			}
+	}
+	focus = {
+		id = CRT_the_chaos
+		icon = CRT_the_chaos
+		cost = 4
+		x = 8
+		y = 10
+		prerequisite = {
+			focus = CRT_old_trace
+		}
+		completion_reward = { 
+			custom_effect_tooltip = CRT_effect_tooltip_4
+			hidden_effect = {
+				country_event = {
+					id = CRT.6
+					days = 1
+				}
+			}
+			
+			}
+	}
+	focus = {
+		id = CRT_farmers_country
+		icon = CRT_farmers_country
+		cost = 4
+		x = 12
+		y = 9
+		prerequisite = {
+			focus = CRT_HUN_influences
+		}
+		available = {
+			always = no
+		}
+		completion_reward = { 
+			custom_effect_tooltip = CRT_effect_tooltip_3
+			}
+	}
+	focus = {
+		id = CRT_NOVJ
+		icon = CRT_NOVJ
+		cost = 7
+		x = 12
+		y = 10
+		prerequisite = {
+			focus = CRT_farmers_country
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+		}
+		completion_reward = { 
+			add_timed_idea = { idea = CRT_reorg_army days = 180 } 
+			add_stablity = 0.15
+			}
+	}
+	focus = {
+		id = CRT_hungary_croatia_banner
+		icon = CRT_hungary_croatia_banner
+		cost = 5
+		x = 12
+		y = 11
+		prerequisite = {
+			focus = CRT_NOVJ
+		}
+		available = {
+			has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+		}
+		completion_reward = { 
+			swap_ideas = {
+				add_idea = CRT_banners_between_hungary_and_croatia
+				remove_idea = CRT_connection_with_hungarian
+			}
+			}
+	
+		}
+		focus = {
+			id = CRT_to_budapez
+			icon = CRT_to_budapez
+			cost = 1
+			x = 12
+			y = 12
+			available = {
+				has_country_leader = { ruling_only = yes name = "CRT_Vladko_Macek" } 
+			}
+			prerequisite = {
+				focus = CRT_hungary_croatia_banner
+			}
+			completion_reward = { 
+				swap_ideas = {
+					add_idea = CRT_banners_between_hungary_and_croatia_0
+					remove_idea = CRT_banners_between_hungary_and_croatia
+				}
+				}
+		}
+}	

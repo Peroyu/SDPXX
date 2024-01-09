@@ -1,0 +1,576 @@
+﻿add_namespace = CRT
+country_event = {
+    id = CRT.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.1 FROM = [From.GetName]" }
+	title = CRT.1.t
+	desc = CRT.1.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CRT.1.a
+	}
+	
+}
+country_event = {
+    id = CRT.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.2 FROM = [From.GetName]" }
+	title = CRT.2.t
+	desc = CRT.2.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		 
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = CRT.7
+			days = 7
+		}
+		name = CRT.2.a
+	}
+	
+}
+country_event = {
+    id = CRT.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.3 FROM = [From.GetName]" }
+	title = CRT.3.t
+	desc = CRT.3.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    clr_country_flag = CRT_national_chaos_flag
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+				var = CRT.communism_support_in_1947
+				value = 0.05
+				compare = greater_than 
+			}
+		}
+		set_politics = { 
+			ruling_party = committee_communism
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		set_party_name = { ideology = moderate_socialism long_name = CRT_left_radicalism_party name = CRT_left_radicalism_party_long }
+		complete_national_focus = CRT_dawn_of_revolutionists
+		name = CRT.3.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+			AND = {
+				check_variable = { #检查变量大小
+				var = CRT.communism_support_in_1947
+				value = -0.05
+				compare = greater_than_or_equals 
+			}
+			check_variable = { #检查变量大小
+				var = CRT.communism_support_in_1947
+				value = 0.05
+				compare = less_than_or_equals 
+			}
+			}
+			
+		}
+		add_ideas = CRT_broken_wire
+		complete_national_focus = CRT_old_trace
+		name = CRT.3.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+				var = CRT.communism_support_in_1947
+				value = -0.05
+				compare = less_than  
+			}
+		}
+		complete_national_focus = CRT_farmers_country
+		set_politics = { 
+			ruling_party = social_democracy
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.2
+		}
+		name = CRT.3.c
+	}
+	
+}
+country_event = {
+    id = CRT.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.4 FROM = [From.GetName]" }
+	title = CRT.4.t
+	desc = CRT.4.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.1
+		}
+		name = CRT.4.a
+	}
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.1
+		}
+		name = CRT.4.b
+	}
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = CRT.4.c
+	}
+	
+}
+country_event = {
+    id = CRT.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.5 FROM = [From.GetName]" }
+	title = CRT.5.t
+	desc = CRT.5.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_politics = { 
+			ruling_party = communism
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		name = CRT.5.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.1
+		}
+		name = CRT.5.b
+	}
+	
+}
+country_event = {
+    id = CRT.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.6 FROM = [From.GetName]" }
+	title = CRT.6.t
+	desc = CRT.6.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = CRT.13
+			days = 15
+		}
+		name = CRT.6.a
+	}
+	
+}
+country_event = {
+    id = CRT.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.7 FROM = [From.GetName]" }
+	title = CRT.7.t
+	desc = CRT.7.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.8
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.05
+		}
+		name = CRT.7.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CRT.7.b
+	}
+}
+country_event = {
+    id = CRT.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.8 FROM = [From.GetName]" }
+	title = CRT.8.t
+	desc = CRT.8.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.9
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.05
+		}
+		name = CRT.8.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CRT.8.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = Liberalism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = movement_communism
+			popularity = 0.02
+		}
+		name = CRT.8.c
+	}
+}
+country_event = {
+    id = CRT.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.9 FROM = [From.GetName]" }
+	title = CRT.9.t
+	desc = CRT.9.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.10
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.03
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		name = CRT.9.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.05
+		}
+		name = CRT.9.b
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = -0.05
+		}
+		name = CRT.9.c
+	}
+}
+country_event = {
+    id = CRT.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.10 FROM = [From.GetName]" }
+	title = CRT.10.t
+	desc = CRT.10.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.11
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = -0.05
+		}
+		name = CRT.10.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CRT.10.b
+	}
+}
+country_event = {
+    id = CRT.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.11 FROM = [From.GetName]" }
+	title = CRT.11.t
+	desc = CRT.11.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.12
+				days = 20
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.05
+		}
+		name = CRT.11.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CRT.11.b
+	}
+}
+country_event = {
+    id = CRT.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.12 FROM = [From.GetName]" }
+	title = CRT.12.t
+	desc = CRT.12.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = committee_communism
+			popularity = 0.05
+		}
+		name = CRT.12.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_popularity = {
+			ideology = social_democracy
+			popularity = 0.05
+		}
+		name = CRT.12.b
+	}
+}
+country_event = {
+    id = CRT.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.13 FROM = [From.GetName]" }
+	title = CRT.13.t
+	desc = CRT.13.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    country_event = {
+				id = CRT.14
+				days = 15
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = CRT.13.a
+	}
+}
+country_event = {
+    id = CRT.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CRT.14 FROM = [From.GetName]" }
+	title = CRT.14.t
+	desc = CRT.14.d
+	picture = gFx_CRT
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		   
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		
+		name = CRT.14.a
+	}
+}
