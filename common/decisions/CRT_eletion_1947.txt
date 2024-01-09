@@ -1,7 +1,7 @@
 CRT_eletion_1947 = {
     CRT_1947_election_ongoing = {
 
-		icon = 
+		icon = decision_generic_decision
 		
 		fire_only_once = yes
 

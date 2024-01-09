@@ -1,6 +1,6 @@
 CRT_eletion_1947 = {
-    icon = decision_category_eng_organize_the_blackshirts
-    picture = CRT_eletion_1947_pictures
+    icon = decision_category_SOV_permanent_revolution
+    picture = decision_cat_picture_soviet_national_academy_of_sciences
     allowed = {
 			original_tag = CRT
 		

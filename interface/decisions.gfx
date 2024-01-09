@@ -36,6 +36,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_hol_bernhard.dds"
 	}
 	spriteType = {
+		name = "decision_category_SOV_permanent_revolution"
+		texturefile = "gfx/interface/decisions/categories/decision_category_SOV_permanent_revolution.dds"
+	}
+	spriteType = {
+		name = "decision_cat_picture_soviet_national_academy_of_sciences"
+		texturefile = "gfx/interface/decisions/pictures/decision_category_jap_pacific_guardian.dds"
+	}
+	spriteType = {
 		name = "decision_category_jap_pacific_guardian"
 		texturefile = "gfx/interface/decisions/categories/decision_category_jap_pacific_guardian.dds"
 	}
