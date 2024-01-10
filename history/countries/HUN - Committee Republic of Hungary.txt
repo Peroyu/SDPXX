@@ -15,7 +15,7 @@ set_politics = {
 	elections_allowed = no  # 
 }
 
-
+set_variable = { SDP_welcome_splash_variable = 1 }
 HUN = {
 	puppet = ROM
 }
