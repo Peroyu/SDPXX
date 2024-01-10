@@ -50,6 +50,14 @@ spriteTypes = {
 		name = "GFX_CRT_yugaslavia_Policy"
 		texturefile = "gfx/interface/goals/generic/GFX_politic_6.png"			
 	}
+	SpriteType = {
+		name = "GFX_CRT_croatia_serbia_language"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_10.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_party_and_borthers"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_9.png"			
+	}
 
 	##########AIS########################
 	SpriteType = {
