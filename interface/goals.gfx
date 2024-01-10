@@ -1,9 +1,55 @@
 spriteTypes = {	
 
 	#### Generic goal icons##
-
-
-	
+	#########CRT##################
+	SpriteType = {
+		name = "GFX_CRT_HUN_influences"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_problem_of_centralism"
+		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_war_anti_imperalism"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_restart_eletion"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_4.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_one_evening"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_the_war_anti_lord"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_3.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_liberty_and_freedom"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_centralise_party"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_hungary_croatia_banner"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_industry_and_city"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_4.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_moderate_policy"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_yugaslavia_Policy"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_6.png"			
+	}
 
 	##########AIS########################
 	SpriteType = {
