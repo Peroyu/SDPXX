@@ -477,4 +477,21 @@ characters = {
 			ledger = civilian
 		}
 	}
+	KTR_Li_Huchen={
+		name = "KTR_Li_Huchen"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Li_Huchen
+				large = GFX_portrait_KTR_Li_Huchen
+			}
+		}
+		corps_commander={
+			traits={ career_officer  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
 }

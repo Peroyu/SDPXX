@@ -48,4 +48,5 @@ recruit_character = KTR_Tang_Shu
 recruit_character = CJF_Li_xingzhong
 recruit_character = CJF_Liu_Ruming
 recruit_character = CJF_Zhao_Dengyu
+recruit_character = KTR_Li_Huchen
 
