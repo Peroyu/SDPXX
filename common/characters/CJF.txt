@@ -494,4 +494,21 @@ characters = {
 			logistics_skill=3
 		}
 	}
+	KTR_Ji_Hongchang={
+		name = "KTR_Ji_Hongchang"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Ji_Hongchang
+				large = GFX_portrait_KTR_Ji_Hongchang
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 }

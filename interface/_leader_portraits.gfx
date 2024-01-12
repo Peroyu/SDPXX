@@ -83,6 +83,11 @@
 		name = "GFX_portrait_KTR_Wu_Zhonghao"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Wu_Zhonghao.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Ji_Hongchang"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Ji_Hongchang.png"		
+	}
 	#####################################################################
 	
 	spriteType = {
