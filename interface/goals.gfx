@@ -58,7 +58,22 @@ spriteTypes = {
 		name = "GFX_CRT_party_and_borthers"
 		texturefile = "gfx/interface/goals/generic/GFX_politic_9.png"			
 	}
-
+	SpriteType = {
+		name = "GFX_CRT_1947"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_1947.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_future_of_white_fort"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_future_of_white_fort.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_our_independence"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_our_independence.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_green_officers"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_green_officers.png"			
+	}
 	##########AIS########################
 	SpriteType = {
 		name = "GFX_AIS_Empty_settlements"
