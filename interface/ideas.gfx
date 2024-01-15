@@ -858,6 +858,18 @@ spriteTypes = {
 		name = "GFX_idea_GDC_none_pact_peace"
 		texturefile = "gfx/interface/ideas/GDC/GDC_none_pact_peace.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GDC_wang_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_wang_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_cage_bird_ecnomy_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_cage_bird_ecnomy_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_huangpu_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_huangpu_idea.png"
+	}
 	
 ####################HUN#########################
 

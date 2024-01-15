@@ -142,6 +142,40 @@ characters = {
 			logistics_skill=1
 		}
 	}
+	KHN_Huang_Gonglve={
+		name = "KHN_Huang_Gonglve"
+		portraits = {
+			army={
+				small = GFX_portrait_KHN_Huang_Gonglve
+				large = GFX_portrait_KHN_Huang_Gonglve
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	KHN_Xiao_Jinguang={
+		name = "KHN_Xiao_Jinguang"
+		portraits = {
+			army={
+				small = GFX_portrait_KHN_Xiao_Jinguang
+				large = GFX_portrait_KHN_Xiao_Jinguang
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
 	GDC_Xve_Yue={
 		name = "GDC_Xve_Yue"
 		portraits = {

@@ -254,4 +254,55 @@ characters = {
 			expire = "1999.1.1.1"
 		}
 	}
+	KTR_Zuo_Quan={
+		name = "KTR_Zuo_Quan"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Zuo_Quan
+				large = GFX_portrait_KTR_Zuo_Quan
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	KTR_Guan_Linzheng={
+		name = "KTR_Guan_Linzheng"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Guan_Linzheng
+				large = GFX_portrait_KTR_Guan_Linzheng
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	KTR_Tong_Linge={
+		name = "KTR_Tong_Linge"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Tong_Linge
+				large = GFX_portrait_KTR_Tong_Linge
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 }
