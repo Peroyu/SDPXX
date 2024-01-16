@@ -1,4 +1,25 @@
 spriteTypes = {
+	################CRT####################
+	spriteType = {
+		name = "GFX_idea_CRT_Milan_Gorkic"
+		texturefile = "gfx/interface/ministers/CRT/GFX_idea_CRT_Milan_Gorkic.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CRT_Josep_Smodraka"
+		texturefile = "gfx/interface/ministers/CRT/GFX_idea_CRT_Josep_Smodraka.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CRT_Josep_Broz"
+		texturefile = "gfx/interface/ministers/CRT/GFX_idea_CRT_Josep_Broz.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CRT_Vladimir_Bakarich"
+		texturefile = "gfx/interface/ministers/CRT/GFX_idea_CRT_Vladimir_Bakarich.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CRT_Yuraj_Shutaiy"
+		texturefile = "gfx/interface/ministers/CRT/GFX_idea_CRT_Yuraj_Shutaiy.png"
+	}
 	################IRE####################
 	spriteType = {
 		name = "GFX_idea_IRE_Eamonn_deValera"
