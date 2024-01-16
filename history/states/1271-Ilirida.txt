@@ -12,7 +12,6 @@ state={
 
 		}
 		add_core_of = YUG
-		add_claim_by = SER
 		add_claim_by = ALB
                 victory_points = {
 			833 1

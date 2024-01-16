@@ -1,0 +1,290 @@
+
+	shared_focus = {
+		id = YUG_focus_0
+		icon = GFX_YUG_focus_0
+		cost = 1.00
+		x = 9
+		y = 0
+
+	}
+	shared_focus = {
+		id = YUG_focus_22
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 13
+		y = 7
+        prerequisite = {
+			focus = YUG_focus_21
+		}
+	}
+	shared_focus = {
+		id = YUG_focus_2
+		icon = GFX_YUG_focus_2
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_0
+		}
+		x = 7
+		y = 1
+
+	}
+	shared_focus = {
+		id = YUG_focus_5
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_2
+		}
+		x = 7
+		y = 2
+
+	}
+	shared_focus = {
+		id = YUG_focus_1
+		icon = GFX_YUG_focus_1
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_0
+		}
+		x = 9
+		y = 1
+
+	}
+	shared_focus = {
+		id = YUG_focus_4
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_1
+		}
+		x = 9
+		y = 2
+
+	}
+	shared_focus = {
+		id = YUG_focus_3
+		icon = GFX_YUG_focus_3
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_0
+		}
+		x = 11
+		y = 1
+
+	}
+	shared_focus = {
+		id = YUG_focus_6
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = YUG_focus_3
+		}
+		x = 11
+		y = 2
+
+	}
+	shared_focus = {
+		id = YUG_focus_7
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = YUG_focus_4
+		}
+		prerequisite = {
+			focus = YUG_focus_6
+		}
+		prerequisite = {
+			focus = YUG_focus_5
+		}
+		x = 9
+		y = 3
+        completion_reward = {
+		unlock_decision_tooltip = YUG_Infighting_categories
+		}
+	}
+	shared_focus = {
+		id = YUG_focus_10
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_7
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_9
+			focus = YUG_focus_8
+		}
+		x = 7
+		y = 4
+
+	}
+	shared_focus = {
+		id = YUG_focus_9
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_7
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_8
+			focus = YUG_focus_10
+		}
+		x = 11
+		y = 4
+
+	}
+	shared_focus = {
+		id = YUG_focus_17
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_9
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_20
+		}
+		x = 11
+		y = 5
+
+	}
+	shared_focus = {
+		id = YUG_focus_18
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_17
+		}
+		x = 11
+		y = 6
+
+	}
+	shared_focus = {
+		id = YUG_focus_19
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_18
+		}
+		x = 11
+		y = 7
+
+	}
+	shared_focus = {
+		id = YUG_focus_8
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_7
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_9
+			focus = YUG_focus_10
+		}
+		x = 9
+		y = 4
+
+	}
+	shared_focus = {
+		id = YUG_focus_11
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_8
+		}
+		x = 9
+		y = 5
+
+	}
+	shared_focus = {
+		id = YUG_focus_12
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_11
+		}
+		x = 9
+		y = 6
+
+	}
+	shared_focus = {
+		id = YUG_focus_13
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_12
+		}
+		x = 9
+		y = 7
+
+	}
+	shared_focus = {
+		id = YUG_focus_14
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_10
+		}
+		x = 7
+		y = 5
+
+	}
+	shared_focus = {
+		id = YUG_focus_15
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_14
+		}
+		x = 7
+		y = 6
+
+	}
+	shared_focus = {
+		id = YUG_focus_16
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_15
+		}
+		x = 7
+		y = 7
+
+	}
+	shared_focus = {
+		id = YUG_focus_20
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_9
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_17
+		}
+		x = 13
+		y = 5
+
+	}
+	shared_focus = {
+		id = YUG_focus_21
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_20
+		}
+		x = 13
+		y = 6
+
+	}
+	shared_focus = {
+		id = YUG_focus_23
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = YUG_focus_22
+			focus = YUG_focus_19
+			focus = YUG_focus_13
+			focus = YUG_focus_16
+		}
+		x = 9
+		y = 8
+
+	}

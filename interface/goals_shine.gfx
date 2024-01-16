@@ -1315,11 +1315,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_japanese_imperial_glory_shine"
-		texturefile = "gfx/interface/goals/focus_generic_japanese_imperial_glory.dds"			
+		name = "GFX_YUG_focus_1_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_1.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_japanese_imperial_glory.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_1.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1332,7 +1332,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_japanese_imperial_glory.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_1.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1347,11 +1347,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_support_the_left_right_shine"
-		texturefile = "gfx/interface/goals/focus_generic_support_the_left_right.dds"			
+		name = "GFX_YUG_focus_2_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_2.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_support_the_left_right.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_2.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1364,7 +1364,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_support_the_left_right.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_2.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1379,11 +1379,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_polish_deal_shine"
-		texturefile = "gfx/interface/goals/focus_generic_polish_deal.dds"			
+		name = "GFX_YUG_focus_3_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_3.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_polish_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_3.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1396,7 +1396,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_polish_deal.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_3.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1411,11 +1411,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_air_defense_shine"
-		texturefile = "gfx/interface/goals/focus_generic_air_defense.dds"			
+		name = "GFX_Economic_3_shine"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_air_defense.dds"			
+			animationmaskfile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1428,7 +1428,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_air_defense.dds"			
+			animationmaskfile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1443,11 +1443,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_coastal_fort_shine"
-		texturefile = "gfx/interface/goals/focus_generic_coastal_fort.dds"			
+		name = "GFX_YUG_focus_6_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_coastal_fort.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1460,7 +1460,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_coastal_fort.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1475,11 +1475,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_paratrooper_shine"
-		texturefile = "gfx/interface/goals/focus_generic_paratrooper.dds"			
+		name = "GFX_YUG_focus_6_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_paratrooper.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1492,7 +1492,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_paratrooper.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

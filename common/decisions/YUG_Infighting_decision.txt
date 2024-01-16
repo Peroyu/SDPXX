@@ -1,0 +1,69 @@
+YUG_Infighting_categories = {                               
+	YUG_Infighting_01={
+	    icon = decision_SWI_elect_confederation_president   
+		visible = {  
+		}                        
+		available = {
+		}
+		modifier = {
+		}
+        remove_effect = {
+		 hidden_effect = {
+		    SDP = {
+			  
+			    add_popularity = {
+			        ideology = communism 
+			        popularity = 0.01 
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 10
+		days_remove = 1
+		days_re_enable = 20
+		ai_will_do = {
+			base = 100
+		}
+    }
+	YUG_Infighting_02={
+	    icon = decision_eng_propaganda_campaigns   
+		visible = {
+		  
+		}                        
+		available = {
+		
+		}
+		modifier = {
+		}
+        remove_effect = {
+		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+        }
+		cost = 20
+		days_remove = 30
+    }
+	YUG_Infighting_03={
+	    icon = decision_SWI_dismiss_council   
+		visible = {
+		  
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		}
+        remove_effect = {
+		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
+		  add_offsite_building = { 
+			type = industrial_complex 
+			level = 1
+		  }
+        }
+		cost = 50
+		days_remove = 30
+    }
+}

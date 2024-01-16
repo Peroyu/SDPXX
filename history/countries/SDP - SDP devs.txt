@@ -15,18 +15,15 @@ set_politics = {
 	elections_allowed = no  # 
 }
 set_popularities = {
-	communism = 15
-	committee_communism = 15
-	moderate_socialism = 10
-	social_democracy = 10
-	Liberalism = 10
-	movement_communism = 10
-	conservatism = 10
-	reactionism = 10
-	Nationalism = 8
-	restorativeism = 2
+	communism = 35
+	committee_communism = 33
+	moderate_socialism = 17
+	social_democracy = 15
 }
-
+set_variable = { var = global.var_HUN value = party_popularity@communism }
+set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
 add_ideas = {
 	
  }

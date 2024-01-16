@@ -1,0 +1,13 @@
+focus_tree = {
+	id = YUG
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	default = no
+	shared_focus = YUG_focus_0
+}
+
