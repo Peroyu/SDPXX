@@ -101,3 +101,6 @@ recruit_character = KHN_Zhang_Zhen
 recruit_character = CJF_Cai_Shenxi
 recruit_character = KTR_Wu_Zhonghao
 recruit_character = KHN_Wang_Shijie
+recruit_character = KHN_Xiao_Jinguang
+recruit_character = KHN_Huang_Gonglve
+

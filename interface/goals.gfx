@@ -59,20 +59,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
 	}
 	SpriteType = {
-		name = "GFX_CRT_hungary_croatia_banner"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
-	}
-	SpriteType = {
 		name = "GFX_CRT_industry_and_city"
 		texturefile = "gfx/interface/goals/generic/GFX_Economic_4.png"			
 	}
 	SpriteType = {
 		name = "GFX_CRT_moderate_policy"
 		texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
-	}
-	SpriteType = {
-		name = "GFX_CRT_yugaslavia_Policy"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_6.png"			
 	}
 	SpriteType = {
 		name = "GFX_CRT_croatia_serbia_language"
@@ -82,7 +74,30 @@ spriteTypes = {
 		name = "GFX_CRT_party_and_borthers"
 		texturefile = "gfx/interface/goals/generic/GFX_politic_9.png"			
 	}
-
+	SpriteType = {
+		name = "GFX_CRT_1947"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_1947.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_future_of_white_fort"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_future_of_white_fort.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_our_independence"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_our_independence.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_green_officers"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_green_officers.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_the_chaos"
+		texturefile = "gfx/interface/goals/CRT/GFX_CRT_the_chaos.png"			
+	}
+	SpriteType = {
+		name = "GFX_CRT_NOVJ"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_7.png"			
+	}
 	##########AIS########################
 	SpriteType = {
 		name = "GFX_AIS_Empty_settlements"

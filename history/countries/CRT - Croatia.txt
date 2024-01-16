@@ -187,6 +187,12 @@ add_ideas = {
 	CRT_connection_with_hungarian
 	victor_of_the_revolutionary_war
 	#####
+	CRT_Milan_Gorkic
+	CRT_Josep_Smodraka
+	CRT_Josep_Broz
+	CRT_Vladimir_Bakarich
+	CRT_Yuraj_Shutaiy
+	###
 graduated_taxation
 	compulsory_primary_school
 	single_party_state

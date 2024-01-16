@@ -1,0 +1,92 @@
+ideas = {
+	head_of_government = { ### Head of Government ###
+		CRT_Milan_Gorkic = {
+			allowed = { original_tag = CRT }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRT_Milan_Gorkic"
+			}
+			traits = {
+				head_of_government
+				old_revolutionalists
+			}
+		}
+	}
+	person_of_dip = { ### person of dip ###
+		CRT_Josep_Smodraka = {
+			allowed = { original_tag = CRT }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRT_Josep_Smodraka"
+			}
+			traits = {
+				person_of_dip
+				official_diplomacy
+			}
+		}
+
+	}
+	chief_of_staff = {
+		CRT_Josep_Broz = {
+			allowed = { original_tag = CRT }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRT_Josep_Broz"
+			}
+			traits = {
+				chief_of_staff
+				Guerrilla_fighters
+			}
+		}
+	}
+	person_of_arm = { ### 内政部长 ###
+		
+		CRT_Vladimir_Bakarich = {
+			allowed = { original_tag = MMA }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRT_Vladimir_Bakarich"
+			}
+			traits = {
+				person_of_arm
+				revolutionary_guard
+			}
+		}
+
+	}
+	person_of_eco = { ### person of eco ###
+		
+		CRT_Yuraj_Shutaiy = {
+			allowed = { original_tag = CRT }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRT_Yuraj_Shutaiy"
+			}
+			traits = {
+				person_of_eco
+				farmers_own
+			}
+		}
+
+	}
+}	
