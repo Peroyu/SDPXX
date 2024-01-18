@@ -5,7 +5,13 @@
 		cost = 1.00
 		x = 9
 		y = 0
-
+        completion_reward = {
+			swap_ideas = {
+			  remove_idea = YUG_torist_threats #国家精神ID
+			  add_idea = YUG_torist_threats_1 #国家精神ID
+		    }
+			custom_effect_tooltip = YUG_tooltip_1
+		}
 	}
 	shared_focus = {
 		id = YUG_focus_22
@@ -17,7 +23,7 @@
 			focus = YUG_focus_21
 		}
 	}
-	shared_focus = {
+	shared_focus = {#波斯尼亚
 		id = YUG_focus_2
 		icon = GFX_YUG_focus_2
 		cost = 2.00
@@ -26,6 +32,9 @@
 		}
 		x = 7
 		y = 1
+		completion_reward = {
+		country_event = { id = YUG.1 days = 1 }
+		}
 
 	}
 	shared_focus = {
@@ -39,7 +48,7 @@
 		y = 2
 
 	}
-	shared_focus = {
+	shared_focus = {#塞尔维亚
 		id = YUG_focus_1
 		icon = GFX_YUG_focus_1
 		cost = 2.00
@@ -48,6 +57,9 @@
 		}
 		x = 9
 		y = 1
+		completion_reward = {
+		country_event = { id = YUG.2 days = 1 }
+		}
 
 	}
 	shared_focus = {
@@ -61,7 +73,7 @@
 		y = 2
 
 	}
-	shared_focus = {
+	shared_focus = {#马其顿
 		id = YUG_focus_3
 		icon = GFX_YUG_focus_3
 		cost = 2.00
@@ -70,6 +82,9 @@
 		}
 		x = 11
 		y = 1
+		completion_reward = {
+		country_event = { id = YUG.3 days = 1 }
+		}
 
 	}
 	shared_focus = {

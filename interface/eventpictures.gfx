@@ -1,5 +1,17 @@
 spriteTypes = {
     spriteType = {
+		name = "GFX_YUG_1"
+		texturefile = "gfx/event_pictures/GFX_YUG_1.dds"
+	}
+	spriteType = {
+		name = "GFX_YUG_2"
+		texturefile = "gfx/event_pictures/GFX_YUG_2.dds"
+	}
+	spriteType = {
+		name = "GFX_YUG_3"
+		texturefile = "gfx/event_pictures/GFX_YUG_3.dds"
+	}
+    spriteType = {
 		name = "GFX_IRE_hidden_1"
 		texturefile = "gfx/event_pictures/GFX_IRE_hidden_1.dds"
 	}

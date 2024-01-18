@@ -13,6 +13,7 @@ ideas = {
 				mobilization_speed = -0.1
 			}
 		}
+	################################################
 		YUG_torist_threats = {
 		    name = YUG_torist_threats
 			picture = YUG_torist_threats
@@ -31,6 +32,25 @@ ideas = {
 				restorativeism_drift = 0.01
 			}
 		}
+		YUG_torist_threats_1 = {
+		    name = YUG_torist_threats
+			picture = YUG_torist_threats
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				required_garrison_factor = 0.25
+				resistance_growth = 0.1
+				supply_consumption_factor = 0.05
+				attrition = 0.1
+				Nationalism_drift = 0.01
+				reactionism_drift = 0.01
+				restorativeism_drift = 0.01
+			}
+		}
+	####################################################
 		YUG_broken_country = {
 		    name = YUG_broken_country
 			picture = YUG_broken_country
