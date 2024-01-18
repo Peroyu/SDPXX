@@ -1441,11 +1441,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_Economic_3_shine"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
+		name = "GFX_YUG_focus_0_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1458,7 +1458,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1505,11 +1505,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_YUG_focus_6_shine"
-		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
+		name = "GFX_YUG_focus_5_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_5.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_5.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1522,7 +1522,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_6.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_5.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1537,11 +1537,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_generic_diplomatic_treaty_shine"
-		texturefile = "gfx/interface/goals/focus_generic_diplomatic_treaty.dds"			
+		name = "GFX_YUG_focus_7_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_7.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_diplomatic_treaty.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_7.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1554,7 +1554,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_diplomatic_treaty.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_7.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1569,11 +1569,11 @@ SpriteType = {
 	}	
 	
 	SpriteType = {
-		name = "GFX_focus_NZL_bob_semple_tank_shine"
-		texturefile = "gfx/interface/goals/focus_NZL_bob_semple_tank.dds"			
+		name = "GFX_YUG_focus_4_shine"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_4.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_NZL_bob_semple_tank.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_4.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1586,7 +1586,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_NZL_bob_semple_tank.dds"			
+			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_4.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

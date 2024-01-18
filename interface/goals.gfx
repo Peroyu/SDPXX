@@ -2,7 +2,7 @@ spriteTypes = {
     ####YUG#######
 	SpriteType = {
 		name = "GFX_YUG_focus_0"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_3.dds"			
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
 	}
 	SpriteType = {
 		name = "GFX_YUG_focus_1"
@@ -23,6 +23,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_YUG_focus_4"
 		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_4.dds"			
+	}
+	SpriteType = {
+		name = "GFX_YUG_focus_5"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_5.dds"			
+	}
+	SpriteType = {
+		name = "GFX_YUG_focus_7"
+		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_7.dds"			
 	}
 	#### Generic goal icons##
 	#########CRT##################
