@@ -511,4 +511,72 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CJF_He_Yingqin={
+		name = "CJF_He_Yingqin"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_He_Yingqin
+				large = GFX_portrait_CJF_He_Yingqin
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	CJF_Wanglingji={
+		name = "CJF_Wanglingji"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Wanglingji
+				large = GFX_portrait_CJF_Wanglingji
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	CJF_Fu_zuoyi={
+		name = "CJF_Fu_zuoyi"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Fu_zuoyi
+				large = GFX_portrait_CJF_Fu_zuoyi
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	CJF_Xia_Wei={
+		name = "CJF_Xia_Wei"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Xia_Wei
+				large = GFX_portrait_CJF_Xia_Wei
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 }

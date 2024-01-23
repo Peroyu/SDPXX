@@ -251,6 +251,26 @@
 	}
 
 	spriteType = {
+		name = "GFX_portrait_CJF_He_Yingqin"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_He_Yingqin.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Wanglingji"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Wanglingji.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Fu_zuoyi"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Fu_zuoyi.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CJF_Xia_Wei"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Xia_Wei.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_CJF_Chen_Zhang"
 		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Chen_Zhang.png"		
 	}
@@ -822,6 +842,16 @@
 	spriteType = {
 		name = "GFX_portrait_NIP_Nashimotonomiya_Morimasao"
 		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Nashimotonomiya_Morimasao.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Ugaki_Kazushige"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Ugaki_Kazushige.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Nagumo_Chuichi"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Nagumo_Chuichi.png"		
 	}
 	#####################SouthEastAsia#######################
 	

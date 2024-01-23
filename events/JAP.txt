@@ -1,6 +1,32 @@
 ﻿add_namespace = NIP
 add_namespace = JAP
 add_namespace = ASIA_southeast_asia_conference
+add_namespace = JKR
+country_event = {
+    id = JKR.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JKR.1 FROM = [From.GetName]" }
+	title = JKR.1.t
+	desc = JKR.1.d
+	picture = JKR
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		retire_country_leader = yes
+		name = JKR.1.a
+	}
+	
+}
 country_event = {
     id = ASIA_southeast_asia_conference.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
