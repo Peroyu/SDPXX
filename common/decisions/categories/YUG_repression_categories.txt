@@ -1,0 +1,14 @@
+YUG_repression_categories = {
+	    icon = decision_category_olympics
+	    picture = GFX_decisions_IRE_Olympic_categories
+        priority = 10000
+		visible = {
+            OR = {
+			has_completed_focus = YUG_focus_12
+			has_completed_focus = YUG_focus_10
+			has_completed_focus = YUG_focus_17
+			has_completed_focus = YUG_focus_20
+			}
+		}
+		allowed = { original_tag = YUG }
+    }

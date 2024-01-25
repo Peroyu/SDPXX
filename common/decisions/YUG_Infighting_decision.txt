@@ -1,6 +1,112 @@
-YUG_Infighting_categories = {                               
+YUG_Infighting_categories = {  
+    YUG_Infighting_001 = { 
+        priority = 1000000	
+	    icon = decision_eng_trade_unions_support
+		visible = { has_completed_focus = YUG_focus_10 }
+		activation = { has_completed_focus = YUG_focus_10 }
+		available = { always = no }
+        is_good = no    
+		fire_only_once = no               
+        days_mission_timeout = 30             
+        timeout_effect = {                      
+		 hidden_effect = {
+		    SDP = {
+			    add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.06 
+		        }
+				add_popularity = {
+			        ideology = moderate_socialism 
+			        popularity = 0.06 
+		        }
+			    add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.06 
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+			add_days_mission_timeout = {
+			mission = YUG_Infighting_001
+			days = 30
+		    }
+		  }	
+		}
+    } 
+    YUG_Infighting_002 = { 
+        priority = 1000000	
+	    icon = decision_eng_trade_unions_support
+		visible = { has_completed_focus = YUG_focus_8 }
+		activation = { has_completed_focus = YUG_focus_8 }
+		available = { always = no }
+        is_good = no                   
+        days_mission_timeout = 30  		
+        timeout_effect = {                      
+		 hidden_effect = {
+		    SDP = {
+			    add_popularity = {
+			        ideology = communism 
+			        popularity = 0.06 
+		        }
+				add_popularity = {
+			        ideology = moderate_socialism 
+			        popularity = 0.06 
+		        }
+			    add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.06 
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+			add_days_mission_timeout = {
+			mission = YUG_Infighting_002
+			days = 30
+		    }
+		  }	
+		}
+    }
+    YUG_Infighting_003 = { 
+        priority = 1000000	
+	    icon = decision_eng_trade_unions_support
+		visible = { has_completed_focus = YUG_focus_9 }
+		activation = { has_completed_focus = YUG_focus_9 }
+		available = { always = no }
+        is_good = no    
+		fire_only_once = no               
+        days_mission_timeout = 30             
+        timeout_effect = {                      
+		 hidden_effect = {
+		    SDP = {
+			    add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.07 
+		        }
+				add_popularity = {
+			        ideology = communism 
+			        popularity = 0.07
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+			add_days_mission_timeout = {
+			mission = YUG_Infighting_003
+			days = 30
+		    }
+		  }	
+		}
+    }	
 	YUG_Infighting_01={
-	    icon = decision_SWI_elect_confederation_president   
+	    icon = decision_eng_trade_unions_support   
 		visible = {  
 		}                        
 		available = {
@@ -13,7 +119,7 @@ YUG_Infighting_categories = {
 			  
 			    add_popularity = {
 			        ideology = communism 
-			        popularity = 0.01 
+			        popularity = 0.06 
 		        }
 				set_variable = { var = global.var_HUN value = party_popularity@communism }
                 set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
@@ -24,14 +130,14 @@ YUG_Infighting_categories = {
 		  }
         }
 		cost = 10
-		days_remove = 1
+		days_remove = 10
 		days_re_enable = 20
 		ai_will_do = {
-			base = 100
+			base = 30
 		}
     }
 	YUG_Infighting_02={
-	    icon = decision_eng_propaganda_campaigns   
+	    icon = decision_eng_trade_unions_support   
 		visible = {
 		  
 		}                        
@@ -41,13 +147,27 @@ YUG_Infighting_categories = {
 		modifier = {
 		}
         remove_effect = {
-		add_to_variable = { var = IRE_Financial_burden_var value = -0.02 }
+		    hidden_effect = {
+		    SDP = {
+			  
+			    add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.06 
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
         }
-		cost = 20
-		days_remove = 30
+		cost = 10
+		days_remove = 10
+		days_re_enable = 20
     }
 	YUG_Infighting_03={
-	    icon = decision_SWI_dismiss_council   
+	    icon = decision_eng_trade_unions_support   
 		visible = {
 		  
 		}                        
@@ -57,13 +177,291 @@ YUG_Infighting_categories = {
 		modifier = {
 		}
         remove_effect = {
-		  add_to_variable = { var = IRE_Financial_burden_var value = 0.05 }
-		  add_offsite_building = { 
-			type = industrial_complex 
-			level = 1
+		    hidden_effect = {
+		    SDP = {
+			  
+			    add_popularity = {
+			        ideology = moderate_socialism 
+			        popularity = 0.05 
+		        }
+				add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.05
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
 		  }
         }
-		cost = 50
-		days_remove = 30
+		cost = 10
+		days_remove = 10
+		days_re_enable = 20
+    }
+	YUG_Infighting_04={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_11
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		compliance_gain = 0.1
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.08
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 20
+		days_remove = 70
+		days_re_enable = 100
+    }
+	YUG_Infighting_05={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_13
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		political_power_gain = -0.05
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.1
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+		  add_manpower = 1000
+        }
+		cost = 30
+		days_remove = 14
+		days_re_enable = 60
+    }
+	YUG_Infighting_06={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_14
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		stability_weekly = 0.005
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = communism 
+			        popularity = 0.1
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 20
+		days_remove = 35
+		days_re_enable = 30
+    }
+	YUG_Infighting_07={
+	    icon = decision_generic_factory   
+		visible = {
+		  has_completed_focus = YUG_focus_15
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		production_speed_buildings_factor = 0.15
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = communism 
+			        popularity = 0.20
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 30
+		days_remove = 70
+		days_re_enable = 100
+    }
+	YUG_Infighting_08={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_17
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = communism 
+			        popularity = 0.04
+		        }
+				add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.04
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 20
+		days_remove = 14
+		days_re_enable = 30
+    }
+	YUG_Infighting_09={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_18
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		production_speed_rail_way_factor = 0.1
+		research_speed_factor = 0.05
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = communism 
+			        popularity = 0.12
+		        }
+				add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.12
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 30
+		days_remove = 70
+		days_re_enable = 100
+    }
+	YUG_Infighting_10={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_20
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.04
+		        }
+				add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.04
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 20
+		days_remove = 14
+		days_re_enable = 30
+    }
+	YUG_Infighting_11={
+	    icon = decision_eng_trade_unions_support   
+		visible = {
+		  has_completed_focus = YUG_focus_21
+		}                        
+		available = {
+		 
+		}
+		modifier = {
+		stability_weekly = 0.005
+		}
+        remove_effect = {
+		    hidden_effect = {
+		    SDP = {
+			  
+				add_popularity = {
+			        ideology = committee_communism 
+			        popularity = 0.04
+		        }
+				add_popularity = {
+			        ideology = social_democracy 
+			        popularity = 0.06
+		        }
+				set_variable = { var = global.var_HUN value = party_popularity@communism }
+                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
+                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
+                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
+			  
+			}
+		  }
+        }
+		cost = 30
+		days_remove = 70
+		days_re_enable = 100
     }
 }
