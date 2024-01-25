@@ -957,6 +957,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Potrait_YEM_Yehaiya"
+		texturefile = "gfx/leaders/East_Mediterranean/Potrait_YEM_Yehaiya.png"		
+	}
+
+	spriteType = {
 		name = "Portrait_ALG_Ahmed_Ben_Messali_Hadj"
 		texturefile = "gfx/leaders/East_Mediterranean/Portrait_ALG_Ahmed_Ben_Messali_Hadj.png"		
 	}

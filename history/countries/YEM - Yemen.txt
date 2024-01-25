@@ -24,7 +24,11 @@ set_popularities = {
  Nationalism = 10
 }
 
-# 
+country_event = {
+	id = JKR.1
+	days = 400
+}
+
 create_country_leader = {
 	name = "YEM_Ahmad_bin_Yahya"  # 
 	desc = "/"  # 
@@ -35,3 +39,15 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "YEM_Yehaiya"  # 
+	desc = "/"  # 
+	picture = "Potrait_YEM_Yehaiya"  # 
+	expire = "1952.3.16"  # 
+	ideology = despotism # 
+	traits = {  # 
+		#
+	}
+}
+
