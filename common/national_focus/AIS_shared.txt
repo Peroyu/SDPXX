@@ -438,7 +438,7 @@ shared_focus = {
 	}
 	shared_focus = {
 		id = AIS_ride_south_desert
-		icon = GFX_AIS_to_true_lord
+		icon = GFX_AIS_ride_south_desert
 		cost = 2
 		available_if_capitulated = no
 		x = 16

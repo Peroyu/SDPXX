@@ -1442,10 +1442,10 @@ SpriteType = {
 	
 	SpriteType = {
 		name = "GFX_YUG_focus_0_shine"
-		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
+		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"				
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
+			texturefile = "gfx/interface/goals/generic/GFX_meeting.png"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1458,7 +1458,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
+			texturefile = "gfx/interface/goals/generic/GFX_meeting.png"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

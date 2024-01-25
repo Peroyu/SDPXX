@@ -99,11 +99,23 @@ set_popularities = {
 	reactionism = 26
 	Nationalism = 24
 }
+country_event = {
+	id = JKR.1
+	days = 30
+}
 create_country_leader = {
-		name = "JKR_Endo_Ryusaku"   
-		desc = "JKR_Endo_Ryusaku_desc"  
-		picture = "gfx/leaders/JAP/portrait_JKR_Endo_Ryusaku.png"   
-		expire = "1989.1.7"   
-		ideology = authoritarian_democracy 
-		traits = {  }
-	}
+	name = "JKR_Ayao_Kishimoto"   
+	desc = "JKR_Ayao_Kishimoto_desc"  
+	picture = "gfx/leaders/JAP/portrait_JKR_Ayao_Kishimoto.png"   
+	expire = "1989.1.7"   
+	ideology = authoritarian_democracy 
+	traits = {  }
+}
+create_country_leader = {
+	name = "JKR_abe_xinxing"   
+	desc = "JKR_abe_xinxing_desc"  
+	picture = "gfx/leaders/JAP/portrait_JKR_abe_xinxing.png"   
+	expire = "1989.1.7"   
+	ideology = authoritarian_democracy 
+	traits = {  }
+}

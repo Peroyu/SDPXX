@@ -2,7 +2,7 @@ spriteTypes = {
     ####YUG#######
 	SpriteType = {
 		name = "GFX_YUG_focus_0"
-		texturefile = "gfx/interface/goals/YUG/GFX_YUG_focus_0.dds"			
+		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
 	}
 	SpriteType = {
 		name = "GFX_YUG_focus_1"
@@ -114,6 +114,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AIS_to_true_lord"
 		texturefile = "gfx/interface/goals/AIS/GFX_AIS_to_true_lord.png"			
+	}
+	SpriteType = {
+		name = "GFX_AIS_ride_south_desert"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_3.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_insult_to_excess"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_2.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_negotiation"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_11.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_fund"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_7.png"			
+	}
+	SpriteType = {
+		name = "GFX_AIS_Maghreb_Jihad"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
 	}
 	#############################################
 	SpriteType = {

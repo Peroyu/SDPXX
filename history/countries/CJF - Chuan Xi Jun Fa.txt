@@ -303,4 +303,7 @@ recruit_character = CJF_Xv_ChongZhi
 recruit_character = CJF_Lv_Chao
 recruit_character = CHI_Zhang_Xveliang
 recruit_character = CJF_Song_Xilian
+recruit_character = CJF_He_Yingqin
+recruit_character = CJF_Xia_Wei
+recruit_character = CJF_Fu_zuoyi
 

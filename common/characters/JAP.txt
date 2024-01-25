@@ -55,6 +55,24 @@ characters = {
 		}
 
     }
+	NIP_Ugaki_Kazushige = {
+		name = "NIP_Ugaki_Kazushige" 
+		portraits = {
+			army={
+				small = GFX_portrait_NIP_Ugaki_Kazushige
+				large = GFX_portrait_NIP_Ugaki_Kazushige
+			}
+		}
+		field_marshal={
+			traits={  }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+
+    }
 	NIP_Nashimotonomiya_Morimasao = {
 		name = "NIP_Nashimotonomiya_Morimasao" 
 		portraits = {
