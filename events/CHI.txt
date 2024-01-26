@@ -47,6 +47,9 @@ country_event = {
 	}
 	immediate = {
 	    hidden_effect = {
+			NIP = {
+
+			}
 			all_state = {
 				limit = {
 					is_demilitarized_zone = yes
@@ -311,6 +314,64 @@ country_event = {
     }
 	option = { 
 	    name = CHIwar.5.a
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+country_event = {
+    id = CHIwar.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.6 FROM = [From.GetName]" }
+	title = CHIwar.6.t
+	desc = CHIwar.6.d
+	picture = GFX_CHIwar6
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			load_focus_tree = NIP_focus_3
+		}
+    }
+	option = { 
+	    name = CHIwar.6.a
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+country_event = {
+    id = CHIwar.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.7 FROM = [From.GetName]" }
+	title = CHIwar.7.t
+	desc = CHIwar.7.d
+	picture = GFX_CHIwar6
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.22
+					days = 1
+				}
+			}
+		}
+    }
+	option = { 
+	    name = CHIwar.7.a
+		
 	    ai_chance = {
 		   base = 100
 		}

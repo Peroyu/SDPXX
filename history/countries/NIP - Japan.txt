@@ -205,7 +205,7 @@ add_ideas = {
 	wealth_voting
 	regulatory_bodies
 	women_own_property
-	isolationism
+	mercantilism
 	outlawed_dissent
 	wage_controls
 	public_schools

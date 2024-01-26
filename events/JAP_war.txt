@@ -1,0 +1,166 @@
+add_namespace = JAP_mainlandwar
+country_event = {
+    id = JAP_mainlandwar.1  #大本营会议
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.1 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.1.t
+	desc = JAP_mainlandwar.1.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.1.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.1.b
+	}
+	
+}
+country_event = {
+    id = JAP_mainlandwar.2  #经济会议
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.2 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.2.t
+	desc = JAP_mainlandwar.2.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.2.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.2.b
+	}
+	
+}
+country_event = {
+    id = JAP_mainlandwar.3  #简化条例
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.3 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.3.t
+	desc = JAP_mainlandwar.3.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.3.a
+	}
+	
+}
+country_event = {
+    id = JAP_mainlandwar.4  #正金银行汇兑业务
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.4 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.4.t
+	desc = JAP_mainlandwar.4.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+		custom_effect_tooltip = NIP_war_effect_tt_4
+		name = JAP_mainlandwar.4.a
+	}
+	
+}
+country_event = {
+    id = JAP_mainlandwar.5  #外相随团成员搭乘前往美国的轮船
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.5 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.5.t
+	desc = JAP_mainlandwar.5.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.5.a
+	}
+	
+}
+country_event = {
+    id = JAP_mainlandwar.6  #大本营会议
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.6 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.6.t
+	desc = JAP_mainlandwar.6.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.6.a
+	}
+	
+}

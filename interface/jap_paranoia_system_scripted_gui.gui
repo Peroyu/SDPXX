@@ -54,7 +54,7 @@ guiTypes = {
 			text = "JAP_paranoia_value_text"
 			format = center
 			maxWidth = 400
-			pdx_tooltip = JAP_paranoia_text_tooltip
+			pdx_tooltip = JAP_paranoia_text_tooltip_default
 		}
 
 		#Tooltip

@@ -11,11 +11,10 @@ JAP_paranoia_system = {
 	}
 
 	visible = {
-		OR = {
-			has_war = yes
-			is_debug = yes
-		}
+		has_completed_focus = NIP_the_war_begin
 	}
-
+	available = {
+		has_completed_focus = NIP_the_war_begin
+	}
 	visible_when_empty = yes
 }
