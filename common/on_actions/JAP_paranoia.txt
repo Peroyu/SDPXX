@@ -43,10 +43,7 @@ on_actions = {
 				limit = {
 					NIP_economic_crush_war = yes
 				}
-				country_event = {
-					id = JAP_mainlandwar.11 
-					days = 1
-				}
+				NIP_war_debuff_calculation = yes
 			}
 		}
 	}

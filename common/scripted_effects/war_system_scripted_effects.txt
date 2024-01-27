@@ -28,3 +28,14 @@ NIP_war_buff_calculation = {
 		
 	
 }
+NIP_war_debuff_calculation = {
+		
+	set_variable = {
+		THIS.NIP_war_debuff_num = NIP.SOV_paranoia_main_paranoiameter
+	}
+	divide_variable = {
+		THIS.NIP_war_debuff_num = -15
+	}
+	
+
+}

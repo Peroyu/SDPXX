@@ -99,3 +99,14 @@ NIP_war_economy = {
 	production_factory_efficiency_gain_factor = NIP_war_economy_var
 	line_change_production_efficiency_factor = NIP_war_economy_var
 }
+NIP_no_more_war = {
+    enable = { 
+		NIP_economic_crush_war = yes
+	}
+    icon = GFX_NIP_war_economy
+	army_attack_factor = NIP_war_debuff_num
+	army_org_factor = NIP_war_debuff_num
+	breakthrough_factor = NIP_war_debuff_num
+	dig_in_speed_factor = NIP_war_debuff_num
+	planning_speed  = NIP_war_debuff_num
+}
