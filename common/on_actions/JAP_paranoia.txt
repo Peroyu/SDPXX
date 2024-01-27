@@ -15,12 +15,22 @@ on_actions = {
 				}
 				add_to_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
 				add_to_variable = {NIP.NIP_war_economy_var = -0.04}
+				clamp_variable = {
+					var = NIP.SOV_paranoia
+					min = 0
+					max = 100
+				}
+				clamp_variable = {
+					var = NIP.SOV_paranoia_main_paranoiameter
+					min = 0
+					max = 21
+				}
 			}
 			if = { #If other modifiers affect Paranoia, then use the same flag with different values, which will work as a multiplier
 				limit = {
 					check_variable = { #检查变量大小
 						var = NIP.SOV_paranoia_main_paranoiameter
-						value = 20
+						value = 18
 						compare = greater_than_or_equals
 					}
 				}
@@ -39,6 +49,11 @@ on_actions = {
 			add_to_variable = { #设置变量的数值
 					var = NIP.SOV_paranoia
 					value = NIP.war_severity_change
+				}
+				clamp_variable = {
+					var = NIP.SOV_paranoia
+					min = 0
+					max = 100
 				}
 		}
 	}

@@ -144,6 +144,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/politics/decision_eng_propaganda_campaigns.dds"
 	}
 	spriteType = {
+		name = "decision_generic_civil_support"
+		texturefile = "gfx/interface/decisions/politics/decision_generic_civil_support.dds"
+	}
+	spriteType = {
 		name = "decision_ger_mefo_bills"
 		texturefile = "gfx/interface/decisions/economy/decision_ger_mefo_bills.dds"
 	}
