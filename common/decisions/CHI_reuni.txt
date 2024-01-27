@@ -172,7 +172,7 @@ CHI_reuni = {
 						is_ai = no
 					}
 					news_event = {
-						id = chi_news.7
+						id = CHI_war.7
 						days = 1
 					}
 				}

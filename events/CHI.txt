@@ -48,7 +48,10 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			NIP = {
-
+				country_event = {
+					id = CHIwar.6
+					days = 14
+				}
 			}
 			all_state = {
 				limit = {
@@ -234,23 +237,44 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			if = {
+				limit = {
+					GDC = {
+						is_ai = no
+					}
+				}
+				add_ideas = GDC_anti_japen_ai_bonus
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = KHN
+						is_core_of = FJN
+					}
+				}
+				add_core_of = GDC
+			}
 		  GDC = {
+			
 			set_cosmetic_tag = GDC_csg
 			if = {
 				limit = {
 					country_exists = JXP
 				}
+				
 				annex_country = { target = JXP transfer_troops = yes }
 				JXP = {
 					every_unit_leader = {
 						set_nationality = GDC
 					}
 				}
+				
 			}
 			if = {
 				limit = {
 					country_exists = FJN
 				}
+				
 				annex_country = { target = FJN transfer_troops = yes }
 				FJN = {
 					every_unit_leader = {
@@ -262,6 +286,7 @@ country_event = {
 				limit = {
 					country_exists = KHN
 				}
+				
 				annex_country = { target = KHN transfer_troops = yes }
 				KHN = {
 					every_unit_leader = {
@@ -276,6 +301,10 @@ country_event = {
 				transfer_state = 1067
 				transfer_state = 1069
 				transfer_state = 1068
+				add_state_core = 1067
+				add_state_core = 1069
+				add_state_core = 1068
+
 			}
 		  }
 		  all_state = {

@@ -1,0 +1,187 @@
+﻿add_namespace = SHA
+add_namespace = SBA
+add_namespace = SOVM
+country_event = {
+    id = SBA.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.100 FROM = [From.GetName]" }
+	title = SBA.100.t
+	desc = SBA.100.d
+	picture = GFX_SHA.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		
+		promote_leader = yes 
+		
+		600 = {
+			set_demilitarized_zone = no
+		}
+	   FJN = {
+		transfer_state = 600
+	   }
+	   KHN = {
+		transfer_state = 1325
+	   }
+	}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { global.CHI_huazhong_regional_tension = 10 }
+            custom_effect_tooltip = CHI_v_regional_tension_increase 
+		name = SBA.100.a
+		if = {
+			limit = {
+				GDC = {
+					has_country_flag = CHI_Jiang_Xi_rural_base
+				}
+			}
+			
+			   KHN = {
+				
+				transfer_state = 1045
+				
+			   }
+			1045 = {
+                set_demilitarized_zone = no
+            }
+		}
+	}   
+}
+country_event = {
+    id = SBA.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SBA.101 FROM = [From.GetName]" }
+	title = SBA.101.t
+	desc = SBA.101.d
+	picture = GFX_SHA.2
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_nationality = FJN 
+            1046 = {set_demilitarized_zone = no}
+			1066 = {set_demilitarized_zone = no}
+            595 = {set_demilitarized_zone = no }
+            FJN = {
+                transfer_state = 595
+             
+                transfer_state = 1046
+                
+                transfer_state = 1066
+            }
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		add_to_variable = { global.CHI_huanan_regional_tension = 10 }
+            custom_effect_tooltip = CHI_v_regional_tension_increase
+		name = SBA.101.a
+		if = {
+			limit = {
+				GDC = {
+					has_country_flag = CHI_Fu_Jian_rural_base
+				}
+			}
+			
+		}
+	}   
+}
+
+
+
+
+
+
+
+###########################old#################################
+country_event = {
+    id = SHA.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	SHA.1 FROM = [From.GetName]" }
+	title = SHA.1.t
+	desc = SHA.1.d
+	picture = GFX_SHA.1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 65
+                    compare = greater_than_or_equals
+            }
+		}
+		CJF = {
+			add_to_faction = JIN
+		}
+		name = SHA.1.a
+	}
+
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 30
+                    compare = greater_than_or_equals
+            }
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 65
+                    compare = less_than
+            }
+		}
+		name = SHA.1.b
+		random_list = { 
+			60 = { 
+				CJF = {
+					add_to_faction = JIN
+				}
+			} 
+			40 = { 
+				NIP = {
+					add_to_faction = JIN
+				}
+			} 
+		}
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		trigger = {
+			check_variable = { #检查变量大小
+                    var = global.JIN_percent
+                    value = 30
+                    compare = less_than
+            }
+		}
+		name = SHA.1.c 
+			NIP = {
+				add_to_faction = JIN
+			}
+	}
+	
+}
