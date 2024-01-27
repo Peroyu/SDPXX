@@ -79,7 +79,7 @@ IRE_Olympic_village = {
 }
 NIP_war_paranoia = {
     enable = { 
-	    always = yes 
+	  NIP_economic_crush_war = no
 	}
     icon = GFX_NIP_war_paranoia
     army_attack_factor = NIP.NIP_war_buff_num
@@ -92,7 +92,7 @@ NIP_war_economy = {
 	    always = yes 
 	}
     icon = GFX_NIP_war_economy
-	consumer_goods_factor = NIP_war_economy_var
+	mobilization_speed = NIP_war_economy_var
 	production_speed_buildings_factor = NIP_war_economy_var
 	production_factory_start_efficiency_factor = NIP_war_economy_var
 	industrial_capacity_factory = NIP_war_economy_var

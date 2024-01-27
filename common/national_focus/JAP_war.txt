@@ -368,6 +368,8 @@ focus_tree = {
 		x = 33
 		y = 2
 		completion_reward = { 
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
 			custom_effect_tooltip = NIP_war_effect_tt_5
 			add_to_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
@@ -385,6 +387,8 @@ focus_tree = {
 		x = 33
 		y = 3
 		completion_reward = { 
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			add_ideas = NIP_continent_base_camp_1
 			country_event = {
 				id = JAP_mainlandwar.6 
@@ -402,6 +406,7 @@ focus_tree = {
 		x = 27
 		y = 4
 		completion_reward = { 
+			
 			swap_ideas = {
 				add_idea = NIP_continent_base_camp_2
 				remove_idea = NIP_continent_base_camp_1
@@ -444,6 +449,8 @@ focus_tree = {
 		x = 33
 		y = 4
 		completion_reward = { 
+			add_to_variable = {NIP.SOV_paranoia = 60}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			swap_ideas = {
 				add_idea = mass_conscription
 				remove_idea = national_militia
@@ -483,7 +490,7 @@ focus_tree = {
 				id = JAP_mainlandwar.7
 				days = 1
 			}
-			add_to_variable = {NIP.SOV_paranoia = 20}
+			add_to_variable = {NIP.SOV_paranoia = 40}
 			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
@@ -500,6 +507,8 @@ focus_tree = {
 			add_war_support = 0.05
 			add_command_power = 50
 			custom_effect_tooltip = AIS_custom_effect_tt_1
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -514,6 +523,8 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 75
 			add_offsite_building = { type = industrial_complex  level = 1 }
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -529,6 +540,8 @@ focus_tree = {
 			add_war_support = 0.05
 			add_command_power = 50
 			custom_effect_tooltip = AIS_custom_effect_tt_1
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -543,6 +556,8 @@ focus_tree = {
 		completion_reward = { 
 			add_political_power = 75
 			add_offsite_building = { type = arms_factory   level = 1 }
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -576,7 +591,7 @@ focus_tree = {
 		x = 30
 		y = 9
 		completion_reward = { 
-			add_to_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
+			add_to_variable = {NIP.SOV_paranoia = 100}
 			custom_effect_tooltip = NIP_war_effect_tt_8
 			custom_effect_tooltip = NIP_war_effect_tt_10
 			}
@@ -653,6 +668,7 @@ focus_tree = {
 		x = 42
 		y = 6
 		completion_reward = { 
+
 			swap_ideas = {
 				remove_idea = NIP_logistic_corperation_1
 				add_idea = NIP_logistic_corperation_2
@@ -752,6 +768,8 @@ focus_tree = {
 		x = 24
 		y = 11
 		completion_reward = { 
+			add_to_variable = {NIP.SOV_paranoia = 40}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			country_event = {
 				id = JAP_mainlandwar.10
 				days = 1

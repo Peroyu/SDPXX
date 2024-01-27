@@ -264,3 +264,28 @@ country_event = {
 	}
 	
 }
+country_event = {
+    id = JAP_mainlandwar.11  #战时经济崩溃
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	JAP_mainlandwar.11 FROM = [From.GetName]" }
+	title = JAP_mainlandwar.11.t
+	desc = JAP_mainlandwar.11.d
+	picture = GFX_JAP_mainlandwar
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    add_ideas = NIP_no_more_war
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = JAP_mainlandwar.11.a
+	}
+	
+}

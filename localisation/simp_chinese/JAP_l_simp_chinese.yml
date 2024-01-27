@@ -456,6 +456,9 @@
  NIP_north_china_defence_2_dec: "发起第二次中条山战役"
  NIP_south_china_defence_1_dec: "向华南移交装备"
  NIP_south_china_defence_2_dec: "发动反攻"
+ NIP_no_more_war: "战意不再"
+ NIP_economic_crush_war_tt: "国民经济已经崩溃"
+ NIP_country_manpower: "乡村人力支持"
 
  NIP_millita_establish_of_government: "幕僚内阁之成"
  NIP_millita_establish_of_government_desc: ""
