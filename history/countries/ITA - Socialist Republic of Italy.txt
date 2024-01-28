@@ -3,7 +3,7 @@ capital = 2
 oob = "ITA_1947"  
 set_naval_oob = "ITA_1947_naval_legacy"
 set_research_slots = 4  
-
+set_country_flag = may_send_volunteers
 set_war_support = 0.5 
 set_stability = 0.8  
 set_variable = { SDP_welcome_splash_variable = 1 }

@@ -1,21 +1,322 @@
 division_template = {
-	name = "normal"				# 
+	name = "Division d'Infanterie"				# 
 	division_names_group = FRA_INF_01
 									# 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+	division_names_group = FRA_MNT_01
+	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
+	# 1st/2nd Rgts -- regular mountain infantry, 3rd Rgt -- Chausseurs Alpins (elites)
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+division_template = {
+	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
+	division_names_group = FRA_MOT_01
+	# Note: All motorized are frontline (highest experience, latest equip) 
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+division_template = {
+	name = "Division de Cavalerie" 	# Division de Cavalerie
+	division_names_group = FRA_CAV_01
+	# Note: Transformed to DLC, DLM divisions, 1936-40
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+division_template = {
+	name = "Division Légère Mécanique" 	# Division Légère Mécanique
+	division_names_group = FRA_MEC_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }		# Souma tanks
+		medium_armor = { x = 0 y = 1 }		# Hotchkiss tanks
+		medium_armor = { x = 1 y = 0 }		# Souma (Med.) tanks
+		medium_armor = { x = 1 y = 1 }		# Hotchkiss tanks
+		motorized = { x = 2 y = 0 }			# 1x3 Dragoons Rgt.
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }      		# Recon Group consisted of 42 ACs + motorcycles
+	}
+}
+division_template = {
+	name = "Brigade de Chars de Combat" 		# Regiment de Chars de Combat, independent armor regiments
+	# Usual tanks: FT-17, R-35, H-35, H-39
+	division_names_group = FRA_ARM_02
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Brigade Cuirassée" 			# Brigade Cuirassée, precursor to Division Cuirassée de Reserve
+	# Usual tanks: B1, B1bis
+	division_names_group = FRA_ARM_02
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		heavy_armor = { x = 2 y = 0 }
+		heavy_armor = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
 	}
 }
 ### OOB ###
 units = {
 	division = {
-		name = "revelation 1"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
 		location = 11506
-		division_template = "normal"		# 
+		division_template = "Division d'Infanterie"		# 
 		start_experience_factor = 0.8		
 	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9503
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 75
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 115
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 516
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 150
+		}
+		location = 6488
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 77
+		}
+		location = 692
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 78
+		}
+		location = 11834
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 79
+		}
+		location = 6613
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = 11516
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 9498
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11506
+		division_template = "Division Légère Mécanique"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9503
+		division_template = "Division Légère Mécanique"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11483
+		division_template = "Division Légère Mécanique"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5291
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 512
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 3655
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 564
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 11542
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 6377
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 3535
+		division_template = "Division d'Infanterie Motorisée"		# 
+		start_experience_factor = 0.8		
+	}
+}

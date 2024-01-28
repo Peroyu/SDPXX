@@ -183,6 +183,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_global_flag = CHI_second_war_ing
 			every_country = {
 				limit = {
 					is_ai = no
@@ -425,6 +426,7 @@ country_event = {
 	    ai_chance = {
 		   base = 1
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no
@@ -514,6 +516,7 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no
@@ -599,6 +602,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no
