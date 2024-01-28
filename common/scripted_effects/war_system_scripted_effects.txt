@@ -23,7 +23,7 @@ NIP_war_buff_calculation = {
 			THIS.NIP_war_buff_num = NIP.SOV_paranoia_main_paranoiameter
 		}
 		divide_variable = {
-			THIS.NIP_war_buff_num = 80
+			THIS.NIP_war_buff_num = 30
 		}
 		
 	
@@ -34,7 +34,7 @@ NIP_war_debuff_calculation = {
 		THIS.NIP_war_debuff_num = NIP.SOV_paranoia_main_paranoiameter
 	}
 	divide_variable = {
-		THIS.NIP_war_debuff_num = -15
+		THIS.NIP_war_debuff_num = -30
 	}
 	
 
