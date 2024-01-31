@@ -160,7 +160,7 @@
 	}
 	shared_focus = {
 		id = YUG_focus_10
-		icon = GFX_goal_unknown
+		icon = GFX_IRE_18
 		cost = 5.00
 		prerequisite = {
 			focus = YUG_focus_7
@@ -194,7 +194,7 @@
 	}
 	shared_focus = {
 		id = YUG_focus_9
-		icon = GFX_goal_unknown
+		icon = GFX_IRE_16
 		cost = 5.00
 		prerequisite = {
 			focus = YUG_focus_7
@@ -353,7 +353,7 @@
 	}
 	shared_focus = {
 		id = YUG_focus_8
-		icon = GFX_goal_unknown
+		icon = GFX_NIP_Empowering_the_press
 		cost = 5.00
 		prerequisite = {
 			focus = YUG_focus_7
@@ -387,7 +387,7 @@
 	}
 	shared_focus = {
 		id = YUG_focus_11
-		icon = GFX_goal_unknown
+		icon = GFX_YUG_focus_11
 		cost = 5.00
 		prerequisite = {
 			focus = YUG_focus_8

@@ -2147,6 +2147,10 @@ SpriteType = {
 	name = "GFX_NIP_Empowering_the_press"
 	texturefile = "gfx/interface/goals/generic/GFX_education_1.png"			
 }
+SpriteType = {
+	name = "GFX_YUG_focus_11"
+	texturefile = "gfx/interface/goals/generic/GFX_education_2.png"			
+}
 ####################################################
 	SpriteType = {
 	name = "GFX_IRE_Reborn_Ireland"
