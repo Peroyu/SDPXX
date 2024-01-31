@@ -77,4 +77,36 @@ IRE_Olympic_village = {
 	production_factory_efficiency_gain_factor = IRE_IRE_Olympic_village_g_var
 	line_change_production_efficiency_factor = IRE_IRE_Olympic_village_m_var
 }
-
+NIP_war_paranoia = {
+    enable = { 
+	  NIP_economic_crush_war = no
+	}
+    icon = GFX_NIP_war_paranoia
+    army_attack_factor = NIP.NIP_war_buff_num
+	army_org_factor = NIP.NIP_war_buff_num
+	dig_in_speed_factor = NIP.NIP_war_buff_num
+	breakthrough_factor = NIP.NIP_war_buff_num
+}
+NIP_war_economy = {
+    enable = { 
+	    always = yes 
+	}
+    icon = GFX_NIP_war_economy
+	mobilization_speed = NIP_war_economy_var
+	production_speed_buildings_factor = NIP_war_economy_var
+	production_factory_start_efficiency_factor = NIP_war_economy_var
+	industrial_capacity_factory = NIP_war_economy_var
+	production_factory_efficiency_gain_factor = NIP_war_economy_var
+	line_change_production_efficiency_factor = NIP_war_economy_var
+}
+NIP_no_more_war = {
+    enable = { 
+		NIP_economic_crush_war = yes
+	}
+    icon = GFX_NIP_war_economy
+	army_attack_factor = NIP_war_debuff_num
+	army_org_factor = NIP_war_debuff_num
+	breakthrough_factor = NIP_war_debuff_num
+	dig_in_speed_factor = NIP_war_debuff_num
+	planning_speed  = NIP_war_debuff_num
+}

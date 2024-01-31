@@ -1,0 +1,10 @@
+NIP_economic_crush_war = {
+	custom_trigger_tooltip = {
+		tooltip = NIP_economic_crush_war_tt
+		check_variable = { #检查变量大小
+						var = NIP.NIP_war_economy_var
+						value = -0.4
+						compare = less_than_or_equals
+					}
+	}
+}

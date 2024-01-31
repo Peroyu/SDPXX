@@ -7,11 +7,11 @@ scripted_gui = {
 		properties = {
 
 			paranoia_main_paranoiameter = {
-				frame = SOV_paranoia_main_paranoiameter
+				frame = NIP.SOV_paranoia_main_paranoiameter
 			}
 
 			paranoia_main_needle = {
-				frame = SOV_paranoia_main_paranoiameter
+				frame = NIP.SOV_paranoia_main_paranoiameter
 			}
 		}
 	}

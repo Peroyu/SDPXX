@@ -40,5 +40,8 @@ spriteTypes = {
 		name = "GFX_ideology_restorativeism_group"
 		texturefile = "gfx/interface/ideologies/Restorativeism_group.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_ideology_United_Interim_Government"
+		texturefile = "gfx/interface/ideologies/GFX_ideology_United_Interim_Government.png"
+	}
 }

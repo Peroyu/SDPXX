@@ -11,7 +11,11 @@ focus_tree = {
 		x = 24
 		y = 0
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_1
+			unlock_decision_category_tooltip = JAP_paranoia_system
+			set_variable = {NIP.SOV_paranoia = 52}
+			set_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
+			add_political_power = -50
 			}
 	}
 	focus = {
@@ -20,11 +24,25 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_the_war_begin
 		}
-		cost = 2
+		cost = 3
 		x = 24
 		y = 1
 		completion_reward = { 
-			
+			custom_effect_tooltip = CHI_war_added
+			add_to_variable = {global.chi_uni_nuon = 1}
+			custom_effect_tooltip = NIP_war_effect_tt_2
+			add_dynamic_modifier = {
+			    modifier = NIP_war_paranoia 
+		    }
+			add_dynamic_modifier = {
+			    modifier = NIP_war_economy 
+		    }
+			custom_effect_tooltip = NIP_effects_tooltip_war_tt_2
+			set_variable = {NIP.NIP_war_economy_var = -0.06}
+			country_event = {
+				id = JAP_mainlandwar.1
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -37,7 +55,11 @@ focus_tree = {
 		x = 12
 		y = 2
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_3
+			country_event = {
+				id = JAP_mainlandwar.2
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -46,11 +68,13 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_war_outside_the_war
 		}
-		cost = 2
+		cost = 4
 		x = 6
 		y = 3
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_4
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			add_politic_power = 75
 			}
 	}
 	focus = {
@@ -59,11 +83,16 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_special_loan_fees
 		}
-		cost = 2
+		cost = 3
 		x = 6
 		y = 4
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_4
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			country_event = {
+				id = JAP_mainlandwar.3
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -72,11 +101,13 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_simplify_loan_laws
 		}
-		cost = 2
+		cost = 3
 		x = 5
 		y = 5
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_4
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+
 			}
 	}
 	focus = {
@@ -89,7 +120,9 @@ focus_tree = {
 		x = 18
 		y = 3
 		completion_reward = { 
-			
+			add_ideas = NIP_economic_planning_depart
+			add_to_variable = {NIP.NIP_war_economy_var = -0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_5
 			}
 	}
 	focus = {
@@ -102,7 +135,12 @@ focus_tree = {
 		x = 18
 		y = 4
 		completion_reward = { 
-			
+			swap_ideas = {
+				add_idea = protectionism
+				remove_idea = mercantilism
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
 			}
 	}
 	focus = {
@@ -115,7 +153,9 @@ focus_tree = {
 		x = 19
 		y = 5
 		completion_reward = { 
-			
+			add_manpower = 1500000
+			add_ideas = NIP_country_manpower
+			custom_effect_tooltip = NIP_war_effect_tt_6
 			}
 	}
 	focus = {
@@ -127,11 +167,16 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_reorgnise_planning_department
 		}
-		cost = 2
+		cost = 3
 		x = 12
 		y = 4
 		completion_reward = { 
-			
+			add_politic_power = 50
+			custom_effect_tooltip = NIP_war_effect_tt_7
+			country_event = {
+				id = JAP_mainlandwar.4 
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -140,11 +185,14 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_senkin_bank_official
 		}
-		cost = 2
+		cost = 4
 		x = 12
 		y = 5
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP_mainlandwar.5
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -153,11 +201,14 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_jitian_washington_trip
 		}
-		cost = 2
+		cost = 3
 		x = 9
 		y = 6
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP_mainlandwar.8
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -169,11 +220,14 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_use_central_store_fees
 		}
-		cost = 2
+		cost = 3
 		x = 6
 		y = 7
 		completion_reward = { 
-			
+			add_stablity = 0.06
+			add_war_support = 0.09
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
 			}
 	}
 	focus = {
@@ -182,11 +236,13 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_stable_japen_yuan
 		}
-		cost = 2
+		cost = 3
 		x = 3
 		y = 8
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
+			add_political_power = 50
 			}
 	}
 	focus = {
@@ -195,11 +251,12 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_stable_japen_yuan
 		}
-		cost = 2
+		cost = 4
 		x = 9
 		y = 8
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
 			}
 	}
 	focus = {
@@ -215,7 +272,8 @@ focus_tree = {
 		x = 6
 		y = 9
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
 			}
 	}
 	focus = {
@@ -228,7 +286,10 @@ focus_tree = {
 		x = 15
 		y = 6
 		completion_reward = { 
-			
+			country_event = {
+				id = JAP_mainlandwar.9
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -244,7 +305,12 @@ focus_tree = {
 		x = 18
 		y = 7
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
+			swap_ideas = {
+				add_idea = NIP_economic_planning_depart_1
+				remove_idea = NIP_economic_planning_depart
+			}
 			}
 	}
 	focus = {
@@ -253,11 +319,12 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_national_industry
 		}
-		cost = 2
+		cost = 4
 		x = 15
 		y = 8
 		completion_reward = { 
-			
+			add_political_power = 50
+			custom_effect_tooltip = AIS_custom_effect_tt_1
 			}
 	}
 	focus = {
@@ -266,11 +333,12 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_national_industry
 		}
-		cost = 2
+		cost = 4
 		x = 21
 		y = 8
 		completion_reward = { 
-			
+			add_political_power = 50
+			custom_effect_tooltip = AIS_custom_effect_tt_1
 			}
 	}
 	focus = {
@@ -286,7 +354,7 @@ focus_tree = {
 		x = 18
 		y = 9
 		completion_reward = { 
-			
+			custom_effect_tooltip = AIS_custom_effect_tt_1
 			}
 	}
 	#
@@ -300,6 +368,12 @@ focus_tree = {
 		x = 33
 		y = 2
 		completion_reward = { 
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+			add_to_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
+			custom_effect_tooltip = NIP_war_effect_tt_8
 			
 			}
 	}
@@ -309,11 +383,17 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_war_intside_the_war
 		}
-		cost = 2
+		cost = 4
 		x = 33
 		y = 3
 		completion_reward = { 
-			
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+			add_ideas = NIP_continent_base_camp_1
+			country_event = {
+				id = JAP_mainlandwar.6 
+				days = 1
+			}
 			}
 	}
 	focus = {
@@ -322,11 +402,41 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_continent_event
 		}
-		cost = 2
+		cost = 3
 		x = 27
 		y = 4
 		completion_reward = { 
 			
+			swap_ideas = {
+				add_idea = NIP_continent_base_camp_2
+				remove_idea = NIP_continent_base_camp_1
+			}
+			743 = {
+				prioritize = { 195 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hohei Shidan\" start_experience_factor = 0.1"
+					owner = NIP
+				}
+			}
+			743 = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hohei Shidan\" start_experience_factor = 0.1"
+					owner = NIP
+				}
+			}
+			743 = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Kihei Shidan\" start_experience_factor = 0.1"
+					owner = NIP
+				}
+			}
+			add_to_variable = {NIP.SOV_paranoia = 20}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -335,11 +445,16 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_continent_event
 		}
-		cost = 2
+		cost = 3
 		x = 33
 		y = 4
 		completion_reward = { 
-			
+			add_to_variable = {NIP.SOV_paranoia = 60}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+			swap_ideas = {
+				add_idea = mass_conscription
+				remove_idea = national_militia
+			}
 			}
 	}
 	focus = {
@@ -351,11 +466,32 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_reorgnise_china_army
 		}
-		cost = 2
+		cost = 4
 		x = 30
 		y = 5
 		completion_reward = { 
-			
+			745 = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Hohei Shidan\" start_experience_factor = 0.1"
+					owner = NIP
+				}
+			}
+			745 = {
+				prioritize = { 219 }
+				limit = { valid_state_for_spawning_friendly_unit = yes }
+				create_unit = {
+					division = "division_template = \"Kihei Shidan\" start_experience_factor = 0.1"
+					owner = NIP
+				}
+			}
+			country_event = {
+				id = JAP_mainlandwar.7
+				days = 1
+			}
+			add_to_variable = {NIP.SOV_paranoia = 40}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -364,11 +500,15 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_chaoxianggong_work
 		}
-		cost = 2
+		cost = 3
 		x = 33
 		y = 6
 		completion_reward = { 
-			
+			add_war_support = 0.05
+			add_command_power = 50
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -377,11 +517,14 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_north_china_defence
 		}
-		cost = 2
+		cost = 4
 		x = 33
 		y = 7
 		completion_reward = { 
-			
+			add_political_power = 75
+			add_offsite_building = { type = industrial_complex  level = 1 }
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -390,11 +533,15 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_chaoxianggong_work
 		}
-		cost = 2
+		cost = 3
 		x = 27
 		y = 6
 		completion_reward = { 
-			
+			add_war_support = 0.05
+			add_command_power = 50
+			custom_effect_tooltip = AIS_custom_effect_tt_1
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -403,11 +550,14 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_south_china_defence
 		}
-		cost = 2
+		cost = 4
 		x = 27
 		y = 7
 		completion_reward = { 
-			
+			add_political_power = 75
+			add_offsite_building = { type = arms_factory   level = 1 }
+			add_to_variable = {NIP.SOV_paranoia = 30}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -419,11 +569,16 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_intigrate_beijing
 		}
-		cost = 2
+		cost = 3
 		x = 30
 		y = 8
 		completion_reward = { 
-			
+			swap_ideas = {
+				remove_idea = NIP_continent_base_camp_2
+				add_idea = NIP_continent_base_camp_3
+			}
+			add_to_variable = {NIP.SOV_paranoia = 40}
+			custom_effect_tooltip = NIP_war_effect_tt_9
 			}
 	}
 	focus = {
@@ -432,11 +587,13 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_prepare_war_mood
 		}
-		cost = 2
+		cost = 4
 		x = 30
 		y = 9
 		completion_reward = { 
-			
+			add_to_variable = {NIP.SOV_paranoia = 100}
+			custom_effect_tooltip = NIP_war_effect_tt_8
+			custom_effect_tooltip = NIP_war_effect_tt_10
 			}
 	}
 	focus = {
@@ -445,11 +602,22 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_continent_event
 		}
-		cost = 2
+		cost = 5
 		x = 39
 		y = 4
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = -0.05}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+			add_equipment_to_stockpile = {
+				type = fighter_equipment 
+				amount = 200
+				producer = NIP
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment
+				amount = 100
+				producer = NIP
+			}
 			}
 	}
 	focus = {
@@ -458,11 +626,13 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_new_tax_in_zhongdao_industry
 		}
-		cost = 2
+		cost = 4
 		x = 39
 		y = 5
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
+
 			}
 	}
 	focus = {
@@ -471,11 +641,18 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_new_tax_in_zhongdao_industry
 		}
-		cost = 2
+		cost = 4
 		x = 45
 		y = 5
 		completion_reward = { 
-			
+			add_equipment_to_stockpile = {
+				type = convey
+				amount = 40
+				producer = USA
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+			add_ideas = NIP_logistic_corperation_1
 			}
 	}
 	focus = {
@@ -487,11 +664,15 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_hand_out_war_ding
 		}
-		cost = 2
+		cost = 3
 		x = 42
 		y = 6
 		completion_reward = { 
-			
+
+			swap_ideas = {
+				remove_idea = NIP_logistic_corperation_1
+				add_idea = NIP_logistic_corperation_2
+			}
 			}
 	}
 	focus = {
@@ -504,7 +685,8 @@ focus_tree = {
 		x = 42
 		y = 7
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = 0.01}
+			custom_effect_tooltip = NIP_war_effect_tt_4
 			}
 	}
 	focus = {
@@ -513,11 +695,22 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_japen_america_trade
 		}
-		cost = 2
+		cost = 4
 		x = 42
 		y = 8
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+			add_equipment_to_stockpile = {
+				type = infantry_equipment 
+				amount = 4000
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment 
+				amount = 400
+				producer = USA
+			}
 			}
 	}
 	focus = {
@@ -530,7 +723,18 @@ focus_tree = {
 		x = 42
 		y = 9
 		completion_reward = { 
-			
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+			add_equipment_to_stockpile = {
+				type = medium_tank_equipment 
+				amount = 200
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment 
+				amount = 200
+				producer = USA
+			}
 			}
 	}
 
@@ -548,7 +752,10 @@ focus_tree = {
 		x = 24
 		y = 10
 		completion_reward = { 
-			
+			custom_effect_tooltip = NIP_war_effect_tt_8
+			add_to_variable = {NIP.SOV_paranoia_main_paranoiameter = 1}
+			add_to_variable = {NIP.NIP_war_economy_var = 0.02}
+			custom_effect_tooltip = NIP_war_effect_tt_4
 			}
 	}
 	focus = {
@@ -557,11 +764,16 @@ focus_tree = {
 		prerequisite = { 
 			focus = NIP_war_and_war
 		}
-		cost = 2
+		cost = 3
 		x = 24
 		y = 11
 		completion_reward = { 
-			
+			add_to_variable = {NIP.SOV_paranoia = 40}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+			country_event = {
+				id = JAP_mainlandwar.10
+				days = 1
+			}
 			}
 	}
 	focus = {

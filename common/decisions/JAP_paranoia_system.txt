@@ -1,0 +1,439 @@
+JAP_paranoia_system = {
+	JAP_national_to_public_dec = {
+
+		icon = decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_to_public_movement
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_to_public_movement
+		}
+		
+		
+		cost = 50
+		days_remove = 150
+		days_re_enable = 30
+		
+		modifier = {
+			production_speed_infrastructure_factor = 0.05
+			production_speed_arms_factory_factor = 0.06
+			industrial_capacity_factory = 0.05
+		}
+		
+		
+		complete_effect = {
+			add_to_variable = {NIP.SOV_paranoia = 15}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	JAP_national_to_public_1_dec = {
+
+		icon = decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_to_public_movement
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_to_public_movement
+		}
+		
+		
+		cost = 50
+		days_remove = 150
+		days_re_enable = 30
+		
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+		
+		
+		complete_effect = {
+			add_to_variable = {NIP.SOV_paranoia = 15}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	JAP_national_spirit_dec = {
+
+		icon =decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_national_spirit_movement
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_national_spirit_movement
+		}
+		
+		
+		cost = 50
+		days_remove = 150
+		days_re_enable = 30
+		
+		modifier = {
+			experience_loss_factor = 0.05
+			army_infantry_attack_factor = 0.1
+			army_artillery_attack_factor = 0.1
+		}
+		
+		
+		complete_effect = {
+			add_to_variable = {NIP.SOV_paranoia = 20}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	JAP_national_spirit_1_dec = {
+
+		icon = decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_national_spirit_movement
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_national_spirit_movement
+		}
+		
+		
+		cost = 50
+		days_remove = 150
+		days_re_enable = 30
+		
+		modifier = {
+			production_factory_max_efficiency_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+			line_change_production_efficiency_factor = 0.05
+		}
+		
+		
+		complete_effect = {
+			add_to_variable = {NIP.SOV_paranoia = 10}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_remenber_china_1_dec = {
+
+		icon = decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_remenber_china_event
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_remenber_china_event
+		}
+		
+		
+		cost = 20
+		days_remove = 50
+		days_re_enable = 100
+		
+		modifier = {
+			civilian_factory_use = 1
+			army_org_factor = 0.05
+			army_morale_factor = 0.1
+		}
+		
+		complete_effect = {
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		cancel_trigger = {
+			#满足什么条件会立刻取消（中断）此决议，会立刻打断正在读条的决议
+		}
+		
+		cancel_effect = {
+			#决议被打断时触发的效果（这个效果与其他效果不同，它不会在鼠标悬停于决议上方时显示出来）
+		}
+
+		remove_effect = {
+			add_to_variable = {NIP.SOV_paranoia = 25}
+			custom_effect_tooltip = NIP_war_effect_tt_9
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_north_china_defence_1_dec = {
+
+		icon = decision_generic_civil_support
+	
+		available = {
+			has_completed_focus = NIP_north_china_defence
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_north_china_defence
+		}
+		
+		fire_only_once = yes
+		cost = 50
+		
+		complete_effect = {
+			add_command_power = -30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = FNC
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_north_china_defence_1_dec = {
+
+		icon = decision_generic_prepare_civil_war
+	
+		available = {
+			has_completed_focus = NIP_north_china_defence
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_north_china_defence
+		}
+		
+		fire_only_once = yes
+		cost = 50
+		
+		complete_effect = {
+			add_command_power = -30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = FNC
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_north_china_defence_2_dec = {
+
+		icon = decision_generic_prepare_civil_war
+	
+		available = {
+			has_completed_focus = NIP_north_china_defence
+			any_enemy_country = {
+				controls_state = 607
+			}
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_north_china_defence
+		}
+		
+		fire_only_once = yes
+		cost = 50
+		days_remove = 75
+		
+		targeted_modifier = {
+			tag = MMA
+			attack_bonus_against = 0.2
+		}
+		targeted_modifier = {
+			tag = CJF
+			attack_bonus_against = 0.2
+		}
+
+		complete_effect = {
+			add_command_power = -30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = FNC
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_south_china_defence_1_dec = {
+
+		icon = decision_generic_prepare_civil_war
+	
+		available = {
+			has_completed_focus = NIP_south_china_defence
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_south_china_defence
+		}
+		
+		fire_only_once = yes
+		cost = 50
+		
+		complete_effect = {
+			add_command_power = -30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = RCR
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+	NIP_south_china_defence_2_dec = {
+
+		icon = decision_generic_prepare_civil_war
+	
+		available = {
+			has_completed_focus = NIP_south_china_defence
+			any_enemy_country = {
+				controls_state = 1048
+			}
+		}
+		
+		allowed = {
+			original_tag = NIP
+		}
+		
+		
+		visible = {
+			has_completed_focus = NIP_south_china_defence
+		}
+		
+		fire_only_once = yes
+		cost = 50
+		days_remove = 75
+		
+		targeted_modifier = {
+			tag = CJF
+			attack_bonus_against = 0.2
+		}
+		targeted_modifier = {
+			tag = GDC
+			attack_bonus_against = 0.2
+		}
+
+		complete_effect = {
+			add_command_power = -30
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = RCR
+			}
+			add_to_variable = {NIP.NIP_war_economy_var = -0.03}
+			custom_effect_tooltip = NIP_war_effect_tt_5
+		}
+		
+		
+		
+		ai_will_do = {
+			base = 100#ai点选这个决议的意愿
+		}
+	}
+}

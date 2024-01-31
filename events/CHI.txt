@@ -47,6 +47,12 @@ country_event = {
 	}
 	immediate = {
 	    hidden_effect = {
+			NIP = {
+				country_event = {
+					id = CHIwar.6
+					days = 14
+				}
+			}
 			all_state = {
 				limit = {
 					is_demilitarized_zone = yes
@@ -177,6 +183,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			set_global_flag = CHI_second_war_ing
 			every_country = {
 				limit = {
 					is_ai = no
@@ -231,23 +238,44 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			if = {
+				limit = {
+					GDC = {
+						is_ai = no
+					}
+				}
+				add_ideas = GDC_anti_japen_ai_bonus
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = KHN
+						is_core_of = FJN
+					}
+				}
+				add_core_of = GDC
+			}
 		  GDC = {
+			
 			set_cosmetic_tag = GDC_csg
 			if = {
 				limit = {
 					country_exists = JXP
 				}
+				
 				annex_country = { target = JXP transfer_troops = yes }
 				JXP = {
 					every_unit_leader = {
 						set_nationality = GDC
 					}
 				}
+				
 			}
 			if = {
 				limit = {
 					country_exists = FJN
 				}
+				
 				annex_country = { target = FJN transfer_troops = yes }
 				FJN = {
 					every_unit_leader = {
@@ -259,6 +287,7 @@ country_event = {
 				limit = {
 					country_exists = KHN
 				}
+				
 				annex_country = { target = KHN transfer_troops = yes }
 				KHN = {
 					every_unit_leader = {
@@ -273,6 +302,10 @@ country_event = {
 				transfer_state = 1067
 				transfer_state = 1069
 				transfer_state = 1068
+				add_state_core = 1067
+				add_state_core = 1069
+				add_state_core = 1068
+
 			}
 		  }
 		  all_state = {
@@ -317,6 +350,64 @@ country_event = {
 	}
 }
 country_event = {
+    id = CHIwar.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.6 FROM = [From.GetName]" }
+	title = CHIwar.6.t
+	desc = CHIwar.6.d
+	picture = GFX_CHIwar6
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			load_focus_tree = NIP_focus_3
+		}
+    }
+	option = { 
+	    name = CHIwar.6.a
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+country_event = {
+    id = CHIwar.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	CHIwar.7 FROM = [From.GetName]" }
+	title = CHIwar.7.t
+	desc = CHIwar.7.d
+	picture = GFX_CHIwar6
+	
+	
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.22
+					days = 1
+				}
+			}
+		}
+    }
+	option = { 
+	    name = CHIwar.7.a
+		
+	    ai_chance = {
+		   base = 100
+		}
+	}
+}
+country_event = {
     id = CHIpeace.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	CHIpeace.1 FROM = [From.GetName]" }
@@ -335,6 +426,7 @@ country_event = {
 	    ai_chance = {
 		   base = 1
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no
@@ -424,6 +516,7 @@ country_event = {
 	    ai_chance = {
 		   base = 50
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no
@@ -509,6 +602,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
+		clr_global_flag = CHI_second_war_ing
 		every_country = {
 			limit = {
 				is_ai = no

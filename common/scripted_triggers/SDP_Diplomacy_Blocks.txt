@@ -137,7 +137,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 	if = {
 		limit = {
 			ROOT = {
-				has_country_flag = may_send_volunteers_to_@FROM
+				has_country_flag = may_send_volunteers
 			}
 			custom_trigger_tooltip = {
 				tooltip = has_proxy_war

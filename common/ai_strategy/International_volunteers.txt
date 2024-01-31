@@ -1,0 +1,265 @@
+China_mainland_war_rus_support = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = GDC
+		has_global_flag = CHI_second_war_ing
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GDC"
+		value = 100
+	}
+}
+China_mainland_war_fra_support = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = GDC
+		has_global_flag = CHI_second_war_ing
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GDC"
+		value = 100
+	}
+}
+China_mainland_war_ita_support = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = GDC
+		has_global_flag = CHI_second_war_ing
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GDC"
+		value = 100
+	}
+}
+China_mainland_war_ukr_support = {
+	allowed = {
+		original_tag = UKR
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = GDC
+		has_global_flag = CHI_second_war_ing
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GDC"
+		value = 100
+	}
+}
+China_mainland_war_aus_support = {
+	allowed = {
+		original_tag = AUS
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = GDC
+		has_global_flag = CHI_second_war_ing
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "GDC"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GDC"
+		value = 100
+	}
+}
+China_mainland_war_rus_support_cjf = {
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = CJF
+		has_global_flag = CHI_second_war_ing
+		CJF = {
+			has_government = social_democracy
+		}
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CJF"
+		value = 100
+	}
+}
+China_mainland_war_fra_support_cjf = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = CJF
+		has_global_flag = CHI_second_war_ing
+		CJF = {
+			has_government = social_democracy
+		}
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CJF"
+		value = 100
+	}
+}
+China_mainland_war_aus_support_cjf = {
+	allowed = {
+		original_tag = AUS
+	}
+	enable = {
+		is_in_faction_with = ISU
+		country_exists = CJF
+		has_global_flag = CHI_second_war_ing
+		CJF = {
+			has_government = social_democracy
+		}
+	}
+
+	abort = {
+		NOT = {
+			has_global_flag = CHI_second_war_ing
+		}
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = "CJF"
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CJF"
+		value = 100
+	}
+}

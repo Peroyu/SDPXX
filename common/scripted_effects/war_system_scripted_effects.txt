@@ -1,0 +1,41 @@
+NIP_war_severity_calculation = {
+	if = {
+		limit = {
+			OR = {
+				has_war_with = CJF
+				has_war_with = GDC
+				has_war_with = MMA
+				has_war_with = KTR
+			}
+		}
+		set_variable = {
+			THIS.war_severity_change = NIP.casualties
+		}
+		divide_variable = {
+			THIS.war_severity_change = 100000
+		}
+		
+	}
+}
+NIP_war_buff_calculation = {
+		
+		set_variable = {
+			THIS.NIP_war_buff_num = NIP.SOV_paranoia_main_paranoiameter
+		}
+		divide_variable = {
+			THIS.NIP_war_buff_num = 30
+		}
+		
+	
+}
+NIP_war_debuff_calculation = {
+		
+	set_variable = {
+		THIS.NIP_war_debuff_num = NIP.SOV_paranoia_main_paranoiameter
+	}
+	divide_variable = {
+		THIS.NIP_war_debuff_num = -30
+	}
+	
+
+}

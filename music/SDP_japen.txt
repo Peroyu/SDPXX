@@ -72,3 +72,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_japan_9"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
