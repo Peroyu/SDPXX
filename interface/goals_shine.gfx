@@ -1634,11 +1634,11 @@ SpriteType = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_generic_production_shine"
-		texturefile = "gfx/interface/goals/goal_generic_production.dds"			
+		name = "GFX_education_2_shine"
+		texturefile = "gfx/interface/goals/generic/GFX_education_2.png"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"			
+			animationmaskfile = "gfx/interface/goals/generic/GFX_education_2.png"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -1651,7 +1651,7 @@ SpriteType = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_generic_production.dds"			
+			animationmaskfile = "gfx/interface/goals/generic/GFX_education_2.png"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

@@ -1,0 +1,91 @@
+
+ideas = {
+	head_of_government = { ### Head of Government ###
+		TUR_Riza_Tevfik = {
+			allowed = { original_tag = YUG }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TUR_Riza_Tevfik"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		
+
+	}
+	person_of_dip = { ### person of dip ###
+		TUR_Huseyin_Cahit_Yalcln = {
+			allowed = { original_tag = YUG }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TUR_Huseyin_Cahit_Yalcln"
+			}
+			traits = {
+				person_of_dip
+			}
+		}
+		
+	}
+	person_of_arm = { ### person of arm ###
+		TUR_Mustafa_Sabri_Efendi = {
+			allowed = { original_tag = YUG }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TUR_Mustafa_Sabri_Efendi"
+			}
+			traits = {
+				person_of_arm
+				great_mufuti
+			}
+		}
+		
+	}
+	person_of_eco = { ### person of eco ###
+	TUR_Mehmed_Cavid_Bey = {
+			allowed = { original_tag = YUG }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TUR_Mehmed_Cavid_Bey"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		
+	}
+	chief_of_staff = {
+		TUR_Sehzade_Omer_Faruk = {
+			allowed = { original_tag = TUR }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TUR_Sehzade_Omer_Faruk"
+			}
+			traits = {
+				chief_of_staff
+				
+			}
+		}
+		
+	}
+}	

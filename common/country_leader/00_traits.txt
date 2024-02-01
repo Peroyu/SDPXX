@@ -13,6 +13,21 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+    Magyars = {
+	    random = no
+		drift_defence_factor = 0.5
+		opinion_gain_monthly_factor = 0.2
+	}
+	Centralize = {
+	    random = no
+		global_building_slots_factor = 0.2
+	}
+	croats = {
+	    random = no
+		army_org_factor = 0.05
+		training_time_factor = -0.1
+	}
+    ###########
 	IRE_old_stuff = {
 		random = no
 		political_power_factor = 0.05

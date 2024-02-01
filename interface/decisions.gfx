@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_eng_organize_the_blackshirts.dds"
 	}
 	spriteType = {
+		name = "decision_eng_trade_unions_support"
+		texturefile = "gfx/interface/decisions/categories/decision_eng_trade_unions_support.dds"
+	}
+	spriteType = {
 		name = "decision_category_olympics"
 		texturefile = "gfx/interface/decisions/categories/decision_category_olympics.dds"
 	}

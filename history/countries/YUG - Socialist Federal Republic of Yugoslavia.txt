@@ -14,7 +14,16 @@ set_politics = {
 	elections_allowed = no   
 }
 set_variable = { SDP_welcome_splash_variable = 1 }
-
+1142 = { set_demilitarized_zone = yes }
+1141 = { set_demilitarized_zone = yes }
+1269 = { set_demilitarized_zone = yes }
+767 = { set_demilitarized_zone = yes }
+841 = { set_demilitarized_zone = yes }
+108 = { set_demilitarized_zone = yes }
+1270 = { set_demilitarized_zone = yes }
+105 = { set_demilitarized_zone = yes }
+1097 = { set_demilitarized_zone = yes }
+765 = { set_demilitarized_zone = yes }
 add_ideas = {
 	graduated_taxation
 	compulsory_primary_school
