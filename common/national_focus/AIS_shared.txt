@@ -275,7 +275,7 @@ shared_focus = {
 		x = 20
 		y = 0
 		available = {
-			has_war_with = COA
+			has_war_with = ALG
 		}
 		prerequisite = {
 		    focus = AIS_black_flag_rise

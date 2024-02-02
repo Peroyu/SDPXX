@@ -1,4 +1,4 @@
-capital = 104 
+capital = 107 
 
 obb = "YUG_1947"  
 

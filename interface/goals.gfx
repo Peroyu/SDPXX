@@ -116,6 +116,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AIS/GFX_AIS_to_true_lord.png"			
 	}
 	SpriteType = {
+		name = "GFX_AIS_over_camel"
+		texturefile = "gfx/interface/goals/AIS/GFX_AIS_over_camel.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_AIS"
+		texturefile = "gfx/interface/goals/AIS/GFX_ALG_AIS.png"			
+	}
+	SpriteType = {
 		name = "GFX_AIS_ride_south_desert"
 		texturefile = "gfx/interface/goals/generic/GFX_millitary_3.png"			
 	}
@@ -134,6 +142,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AIS_Maghreb_Jihad"
 		texturefile = "gfx/interface/goals/generic/GFX_politic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_AIS_other_waR"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_4.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_professoriate"
+		texturefile = "gfx/interface/goals/generic/GFX_millitary_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_ALG_stiff"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_9.png"			
 	}
 	#############################################
 	SpriteType = {

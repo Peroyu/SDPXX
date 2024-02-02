@@ -496,8 +496,8 @@ SLO = {
 	color_ui = rgb { 128 53 43 } #  
 }
 YUG = {
-	color = rgb {  195 34 45} 
-	color_ui = rgb {  195 34 45}
+	color = rgb { 195 34 45} 
+	color_ui = rgb { 195 34 45}
 }
 GRE = {
 	color = rgb { 100 208 220 }

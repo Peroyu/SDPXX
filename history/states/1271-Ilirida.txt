@@ -11,8 +11,8 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = YUG
-		add_claim_by = ALB
+		add_core_of = MAQ
+		add_claim_by = YUG
                 victory_points = {
 			833 1
 		}
