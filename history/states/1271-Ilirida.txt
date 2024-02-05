@@ -6,7 +6,7 @@ state={
 		833 867
 	}
 	history={
-		owner = YUG
+		owner = MAQ
 		buildings = {
 			infrastructure = 2
 

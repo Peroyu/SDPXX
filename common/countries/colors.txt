@@ -68,8 +68,8 @@ ORI = {
 	color_ui = rgb { 71 100 59 }
 }
 ALB = {
-	color = rgb { 168 28 35 }
-	color_ui = rgb {168 28 35 }
+	color = rgb { 112 133 224}
+	color_ui = rgb {112 133 224 }
 }
 USA = {
 	color = rgb { 0 120 206 }
@@ -216,8 +216,16 @@ COS = {
 	color_ui = rgb { 152  130  191 }
 }
 CRT = {
-	color = rgb {169 100 119}
-	color_ui = rgb { 169 100 119 }
+	color = rgb { 112 133 224}
+	color_ui = rgb {  112 133 224 }
+}
+BOS = {
+	color = rgb { 112 133 224}
+	color_ui = rgb {  112 133 224 }
+}
+SLV = {
+	color = rgb { 112 133 224}
+	color_ui = rgb {  112 133 224 }
 }
 CUB = {
 	color = rgb { 198 197 91 }
@@ -496,8 +504,12 @@ SLO = {
 	color_ui = rgb { 128 53 43 } #  
 }
 YUG = {
-	color = rgb { 195 34 45} 
-	color_ui = rgb { 195 34 45}
+	color = rgb { 112 133 224} 
+	color_ui = rgb {  112 133 224}
+}
+MAQ = {
+	color = rgb { 112 133 224} 
+	color_ui = rgb {  112 133 224}
 }
 GRE = {
 	color = rgb { 100 208 220 }

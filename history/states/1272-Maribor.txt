@@ -7,14 +7,14 @@ state = {
 	state_category = three
 	
 	history = {
-		owner = AUS
-		add_claim_by = SLO
+		owner = SLV
+		add_claim_by = AUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 		} 
-		add_core_of = AUS
+		add_core_of = SLV
 		victory_points = { #Maribor
 			665 3
 		}

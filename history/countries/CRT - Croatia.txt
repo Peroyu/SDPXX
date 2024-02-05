@@ -3,7 +3,9 @@ capital = 109 #
 oob = "CRT_1947"  # 
 
 set_research_slots = 3 # 
-
+YUG = {
+	puppet = CRT
+}
 set_war_support = 0.3 # 
 set_stability = 0.4 # 
 set_country_flag = CRT_national_chaos_flag

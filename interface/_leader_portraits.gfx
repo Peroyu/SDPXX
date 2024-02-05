@@ -319,6 +319,16 @@
 		name = "GFX_portrait_KTR_Tong_Linge"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Tong_Linge.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Sun_Lianzhong"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Sun_Lianzhong.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Wei_Yechou"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Wei_Yechou.png"		
+	}
 	###############################################
 	
 	spriteType = {

@@ -305,4 +305,38 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	KTR_Sun_Lianzhong={
+		name = "KTR_Sun_Lianzhong"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Sun_Lianzhong
+				large = GFX_portrait_KTR_Sun_Lianzhong
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	KTR_Wei_Yechou={
+		name = "KTR_Wei_Yechou"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Wei_Yechou
+				large = GFX_portrait_KTR_Wei_Yechou
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 }

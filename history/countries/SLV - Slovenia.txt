@@ -7,10 +7,10 @@ set_research_slots = 2
 set_war_support = 0.2 
 set_stability = 0.3 
 YUG = {
-	puppet = ALB
+	puppet = SLV
 }
 set_politics = {
-	ruling_party = Liberalism  
+	ruling_party = communism  
 	last_election = "1947.1.1"
 	election_frequency = 48  
 	elections_allowed = no   
@@ -29,12 +29,4 @@ set_popularities = {
 	reactionism = 13
 	Nationalism = 12
 }
-create_country_leader = {
-	name = "ALB_fan_noli"  
-	desc = "ALB_fan_noli_desc"  
-	picture = "gfx/leaders/EU/ALB_fan_noli.png"
-	expire = "1985.6.6"  
-	ideology = social_liberalism
-	traits = {  
-	}
-}
+
