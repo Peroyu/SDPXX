@@ -52,6 +52,7 @@ recruit_character = KTR_Li_Huchen
 recruit_character = KTR_Ji_Hongchang
 recruit_character = KTR_Sun_Lianzhong
 recruit_character = KTR_Wei_Yechou
+recruit_character = KTR_Liu_Zhidan
 recruit_character = KTR_Zuo_Quan
 recruit_character = KTR_Guan_Linzheng
 recruit_character = KTR_Tong_Linge

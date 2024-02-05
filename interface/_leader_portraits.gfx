@@ -329,6 +329,11 @@
 		name = "GFX_portrait_KTR_Wei_Yechou"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Wei_Yechou.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_KTR_Liu_Zhidan"
+		texturefile = "gfx/leaders/MMA/CHI_portrait_liuzhidan.png"		
+	}
 	###############################################
 	
 	spriteType = {

@@ -339,4 +339,21 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	KTR_Liu_Zhidan={
+		name = "KTR_Liu_Zhidan"
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Liu_Zhidan
+				large = GFX_portrait_KTR_Liu_Zhidan
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
 }
