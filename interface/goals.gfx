@@ -124,6 +124,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AIS/GFX_ALG_AIS.png"			
 	}
 	SpriteType = {
+		name = "GFX_AIS_seek_for_tunisia"
+		texturefile = "gfx/interface/goals/AIS/GFX_AIS_seek_for_tunisia.png"			
+	}
+	SpriteType = {
 		name = "GFX_AIS_ride_south_desert"
 		texturefile = "gfx/interface/goals/generic/GFX_millitary_3.png"			
 	}

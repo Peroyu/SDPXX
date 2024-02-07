@@ -579,4 +579,21 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CJF_Yu_Xvezhong={
+		name = "CJF_Yu_Xvezhong"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Yu_Xvezhong
+				large = GFX_portrait_CJF_Yu_Xvezhong
+			}
+		}
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 }

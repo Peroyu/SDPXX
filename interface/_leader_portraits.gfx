@@ -301,6 +301,11 @@
 	}
 
 	spriteType = {
+		name = "GFX_portrait_CJF_Yu_Xvezhong"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_CJF_Yu_Xvezhong.png"		
+	}
+
+	spriteType = {
 		name = "GFX_portrait_KTR_Li_Huchen"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Li_Huchen.png"		
 	}
