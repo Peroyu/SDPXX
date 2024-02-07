@@ -9,6 +9,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+TUR_parliament_gui_initial = YES
 give_guarantee = GRE
 give_guarantee = GEO
 give_guarantee = AZB
@@ -17,8 +18,8 @@ set_power_balance = {
 	id = BoP_Tab_GlobalConflicts_TUR
 }
 
-set_variable = { TUR.jap_display = 23 }
-set_variable = { TUR.zhu_display = 55 }
+set_variable = { TUR.jap_display = 46 }
+set_variable = { TUR.zhu_display = 90 }
 set_variable = { TUR.chi_display = 90 }
 set_variable = { var = representatives_support value = 0 }
 set_variable = { var = representatives_total value = 275 }

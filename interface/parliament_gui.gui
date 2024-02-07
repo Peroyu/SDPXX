@@ -1,4 +1,5 @@
 guiTypes = {
+	
 	containerWindowType = {
         name = "parliament_gui_container"
         position = { x = 0 y = 0 }

@@ -26,6 +26,7 @@ TUR_decision_categories = {
           
         }
 		scripted_gui = TUR_Parties_congress_gui
+		scripted_gui = TUR_parliament_gui
         priority = 10000
 		allowed = { original_tag = TUR }
 		visible_when_empty = yes

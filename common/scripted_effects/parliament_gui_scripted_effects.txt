@@ -2,21 +2,21 @@
 parliament_gui_initial = {
 	# 简单地说，一个数组存储一个事物列表，用于存储聚会列表和座位列表。
     #parliament_seat_array存储每个政党的席位号码列表 
-	add_to_array = { parliament_seat_array = 20 } # Party A
-	add_to_array = { parliament_seat_array = 50 } # Party A
-	add_to_array = { parliament_seat_array = 45 } # Party B
-	add_to_array = { parliament_seat_array = 75 } # Party C
-	add_to_array = { parliament_seat_array = 10 } # Party D
+	add_to_array = { ROOT.parliament_seat_array = 20 } # Party A
+	add_to_array = { ROOT.parliament_seat_array = 50 } # Party A
+	add_to_array = { ROOT.parliament_seat_array = 45 } # Party B
+	add_to_array = { ROOT.parliament_seat_array = 75 } # Party C
+	add_to_array = { ROOT.parliament_seat_array = 10 } # Party D
 
 	# parliament member array存储参与方列表
 
 #这基本上为每一方分配一个id，因此甲方=1，乙方=2，等等（必须从1开始，并且是有序的）
 	
-	add_to_array = { parliament_member_array = 1 } # Party A
-	add_to_array = { parliament_member_array = 2 } # Party B
-	add_to_array = { parliament_member_array = 3 } # Party C
-	add_to_array = { parliament_member_array = 4 } # Party D
-	add_to_array = { parliament_member_array = 5 } # Party A
+	add_to_array = { ROOT.parliament_member_array = 1 } # Party A
+	add_to_array = { ROOT.parliament_member_array = 2 } # Party B
+	add_to_array = { ROOT.parliament_member_array = 3 } # Party C
+	add_to_array = { ROOT.parliament_member_array = 4 } # Party D
+	add_to_array = { ROOT.parliament_member_array = 5 } # Party A
 
 	# Set up the positions of the dots for the semicircle parliament
 	parliament_gui_positions = yes
@@ -24,7 +24,36 @@ parliament_gui_initial = {
 	# Modify what shows up in the gui
 	reload_parliament_gui = yes
 }
+TUR_parliament_gui_initial = {
+	# 简单地说，一个数组存储一个事物列表，用于存储聚会列表和座位列表。
+    #parliament_seat_array存储每个政党的席位号码列表 
+	add_to_array = { ROOT.parliament_seat_array = 20 } # Party A
+	add_to_array = { ROOT.parliament_seat_array = 50 } # Party A
+	add_to_array = { ROOT.parliament_seat_array = 45 } # Party B
+	add_to_array = { ROOT.parliament_seat_array = 40 } # Party C
+	add_to_array = { ROOT.parliament_seat_array = 10 } # Party D
+	add_to_array = { ROOT.parliament_seat_array = 35 } # Party E
+	add_to_array = { ROOT.parliament_seat_array = 25 } # Party F
 
+
+	# parliament member array存储参与方列表
+
+#这基本上为每一方分配一个id，因此甲方=1，乙方=2，等等（必须从1开始，并且是有序的）
+	
+	add_to_array = { ROOT.parliament_member_array = 1 } # Party A
+	add_to_array = { ROOT.parliament_member_array = 2 } # Party B
+	add_to_array = { ROOT.parliament_member_array = 3 } # Party C
+	add_to_array = { ROOT.parliament_member_array = 4 } # Party D
+	add_to_array = { ROOT.parliament_member_array = 5 } # Party A
+	add_to_array = { ROOT.parliament_member_array = 6 } # Party E
+	add_to_array = { ROOT.parliament_member_array = 7 } # Party F
+
+	# Set up the positions of the dots for the semicircle parliament
+	parliament_gui_positions = yes
+
+	# Modify what shows up in the gui
+	reload_parliament_gui = yes
+}
 #下面的脚本效果完成了生成gui的主要工作，它为网格中的每一方添加了席位。
 
 #每次需要更新gui时，都应该调用此函数，例如添加/减少座位时。

@@ -10,7 +10,7 @@ set_war_support = 0.3 #
 set_stability = 0.4 # 
 set_country_flag = CRT_national_chaos_flag
 set_politics = {
-	ruling_party = moderate_socialism # 
+	ruling_party = communism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -27,8 +27,8 @@ set_variable = { var = SDP_politics_v value = 25 }#60
 set_variable = { var = FactionStatus value = 2}
 set_popularities = { 
  committee_communism = 18
- communism = 8
- moderate_socialism = 42
+ communism = 28
+ moderate_socialism = 22
  movement_communism = 3
  conservatism = 2
  social_democracy = 12

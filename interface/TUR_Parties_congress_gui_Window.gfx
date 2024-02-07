@@ -1,4 +1,14 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_TUR_parliament_party_icon"
+		texturefile = "gfx/interface/GFX_TUR_parliament_party_icon.dds"
+		noOfFrames = 7 # number of parties you have in the gfx file
+	}
+	spriteType = {
+		name = "GFX_parliament_empty_button"
+		texturefile = "gfx/interface/parliament_empty_button.dds"
+	}
+
 	progressbartype = {
 		name = GFX_GNG_Japanese_Pie
 		textureFile1 = "gfx/interface/scripted_gui/TUR/japanese_pie_full.dds"

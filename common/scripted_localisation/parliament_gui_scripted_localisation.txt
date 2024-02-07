@@ -5,32 +5,87 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { v = 1 }
+			tag = GDC
 		}
 		localization_key = party_1_text
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 2 }
+			tag = GDC
 		}
 		localization_key = party_2_text
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 3 }
+			tag = GDC
 		}
 		localization_key = party_3_text
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 4 }
+			tag = GDC
 		}
 		localization_key = party_4_text
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 5 }
+			tag = GDC
 		}
 		localization_key = party_5_text
+	}
+
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			tag = TUR
+		}
+		localization_key = trparty_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			tag = TUR
+		}
+		localization_key = trparty_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+			tag = TUR
+		}
+		localization_key = trparty_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+			tag = TUR
+		}
+		localization_key = trparty_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+			tag = TUR
+		}
+		localization_key = trparty_5_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+			tag = TUR
+		}
+		localization_key = trparty_6_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+			tag = TUR
+		}
+		localization_key = trparty_7_text
 	}
 	text = {
 		localization_key = "Error"
