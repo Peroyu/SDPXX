@@ -1,4 +1,5 @@
 ﻿capital = 594
+parliament_gui_initial = YES
 set_oob = "GDC_1947"
 set_research_slots = 2
 # Starting tech

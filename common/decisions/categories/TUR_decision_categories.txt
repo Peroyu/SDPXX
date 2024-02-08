@@ -15,7 +15,7 @@ TUR_decision_categories = {
 
 
 	TUR_parliament_categories = {
-	    icon = usa_congress
+	    icon =decision_category_usa_congress
 		available = {
 	        
 		}
@@ -25,7 +25,6 @@ TUR_decision_categories = {
 		cancel_trigger = {
           
         }
-		scripted_gui = TUR_Parties_congress_gui
 		scripted_gui = TUR_parliament_gui
         priority = 10000
 		allowed = { original_tag = TUR }

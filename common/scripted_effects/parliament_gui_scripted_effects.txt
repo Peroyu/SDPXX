@@ -27,13 +27,13 @@ parliament_gui_initial = {
 TUR_parliament_gui_initial = {
 	# 简单地说，一个数组存储一个事物列表，用于存储聚会列表和座位列表。
     #parliament_seat_array存储每个政党的席位号码列表 
+	add_to_array = { ROOT.parliament_seat_array = 25 } # Party A
 	add_to_array = { ROOT.parliament_seat_array = 20 } # Party A
-	add_to_array = { ROOT.parliament_seat_array = 50 } # Party A
 	add_to_array = { ROOT.parliament_seat_array = 45 } # Party B
-	add_to_array = { ROOT.parliament_seat_array = 40 } # Party C
+	add_to_array = { ROOT.parliament_seat_array = 20 } # Party C
 	add_to_array = { ROOT.parliament_seat_array = 10 } # Party D
-	add_to_array = { ROOT.parliament_seat_array = 35 } # Party E
-	add_to_array = { ROOT.parliament_seat_array = 25 } # Party F
+	add_to_array = { ROOT.parliament_seat_array = 30 } # Party E
+	add_to_array = { ROOT.parliament_seat_array = 50 } # Party F
 
 
 	# parliament member array存储参与方列表
