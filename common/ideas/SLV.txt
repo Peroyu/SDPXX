@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		SLV_economic_pearl = {
+		    name = SLV_economic_pearl
+			picture = SLV_economic_pearl
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+				industrial_capacity_factory =0.1
+			}
+		}
+		SLV_germany_in_cities = {
+		    name = SLV_germany_in_cities
+			picture = SLV_germany_in_cities
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.15
+			}
+		}
+	}
+}	

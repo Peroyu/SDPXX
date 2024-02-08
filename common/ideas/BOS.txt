@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		BOS_nations_montain = {
+		    name = BOS_nations_montain
+			picture = BOS_nations_montain
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+		BOS_national_brocken = {
+		    name = BOS_national_brocken
+			picture = BOS_national_brocken
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_stability_factor = 0.1
+				mobilization_speed = 0.2
+				research_speed_factor = -0.05
+				conscription_factor = 0.25
+			}
+		}
+		
+		BOS_broken_country = {
+		    name = BOS_broken_country
+			picture = BOS_broken_country
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.3
+				line_change_production_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+	}
+}	

@@ -48,4 +48,8 @@ spriteTypes = {
 		name = "GFX_piechart_frame"
 		texturefile = "gfx/interface/GFX_piechart_frame.dds"
 	}
+	spriteType = {
+		name = "GFX_pie_icon"
+		texturefile = "gfx/interface/scripted_gui/TUR/GFX_pie_icon.png"
+	}
 }

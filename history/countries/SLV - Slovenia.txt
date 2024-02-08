@@ -10,14 +10,16 @@ YUG = {
 	puppet = SLV
 }
 set_politics = {
-	ruling_party = moderate_socialism  
+	ruling_party = communism
 	last_election = "1947.1.1"
 	election_frequency = 48  
 	elections_allowed = no   
 }
 add_ideas = {
 	loser_of_the_revolutionary_war
-   
+   	YUG_Federal_part
+	SLV_economic_pearl
+	SLV_germany_in_cities
 }
 set_popularities = {
 	communism = 10
@@ -35,7 +37,17 @@ create_country_leader = {
 	desc = "YUG_Edvard_Kardelj_desc"
 	picture = "gfx/leaders/EU/Portrait_YUG_Edvard_Kardelj.png"
 	expire = "1955.1.1"
-	ideology = reformed_socialism
+	ideology =Jacobinism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "德拉古廷·古斯汀契奇"
+	desc = ""
+	picture = ""
+	expire = "1955.1.1"
+	ideology = democratic_socialism
 	traits = {
 		
 	}

@@ -1,177 +1,18 @@
 ideas = {
 	country = {
-		YUG_broken_committee = {
-		    name = YUG_broken_committee
-			picture = YUG_broken_committee
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.15
-				political_power_gain = -0.1
-				mobilization_speed = -0.1
-			}
-		}
-		YUG_broken_committee_1 = {
-		    name = YUG_broken_committee
-			picture = YUG_broken_committee
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.3
-				political_power_gain = -0.15
-				mobilization_speed = -0.2
-			}
-		}
-	################################################
-		YUG_torist_threats = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
+		YUG_nationalism_influence = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
 				stability_factor = -0.1
-				required_garrison_factor = 0.25
-				resistance_growth = 0.1
-				supply_consumption_factor = 0.1
-				attrition = 0.15
 				Nationalism_drift = 0.01
-				reactionism_drift = 0.01
 				restorativeism_drift = 0.01
 			}
 		}
-		YUG_torist_threats_1 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.05
-				required_garrison_factor = 0.25
-				resistance_growth = 0.1
-				supply_consumption_factor = 0.05
-				attrition = 0.1
-				Nationalism_drift = 0.01
-				reactionism_drift = 0.01
-				restorativeism_drift = 0.01
-			}
-		}
-		YUG_torist_threats_2 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.05
-				required_garrison_factor = 0.25
-				resistance_growth = 0.1
-				supply_consumption_factor = 0.05
-				attrition = 0
-				Nationalism_drift = 0.01
-				reactionism_drift = 0.01
-				restorativeism_drift = 0.01
-			}
-		}
-		YUG_torist_threats_3 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0
-				required_garrison_factor = 0.25
-				resistance_growth = 0.1
-				supply_consumption_factor = 0.05
-				attrition = 0
-				Nationalism_drift = 0.02
-				reactionism_drift = 0.02
-				restorativeism_drift = 0.02
-			}
-		}
-		YUG_torist_threats_4 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0
-				required_garrison_factor = 0.15
-				resistance_growth = 0
-				supply_consumption_factor = 0
-				attrition = 0.15
-				Nationalism_drift = 0
-				reactionism_drift = 0
-				restorativeism_drift = 0
-			}
-		}
-		YUG_torist_threats_7 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0
-				required_garrison_factor = 0.15
-				resistance_growth = 0
-				supply_consumption_factor = 0
-				attrition = 0.15
-				Nationalism_drift = 0
-				reactionism_drift = 0
-				restorativeism_drift = 0
-			}
-		}
-		YUG_torist_threats_5 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0
-				required_garrison_factor = 0.25
-				resistance_growth = 0.05
-				supply_consumption_factor = 0
-				attrition = 0
-				Nationalism_drift = -0.03
-				reactionism_drift = -0.03
-				restorativeism_drift = -0.03
-			}
-		}
-		YUG_torist_threats_6 = {
-		    name = YUG_torist_threats
-			picture = YUG_torist_threats
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0
-				required_garrison_factor = 0
-				resistance_growth = 0
-				supply_consumption_factor = 0
-				attrition = 0
-				Nationalism_drift = 0.02
-				reactionism_drift = 0.02
-				restorativeism_drift = 0.02
-			}
-		}
-	####################################################
 		YUG_broken_country = {
 		    name = YUG_broken_country
 			picture = YUG_broken_country
@@ -180,200 +21,17 @@ ideas = {
 				is_subject = no
 			}
 			modifier = {
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.1
-	            production_factory_max_efficiency_factor = -0.1
-	            production_factory_efficiency_gain_factor = -0.1
-	            local_resources_factor = -0.15
-	            production_speed_buildings_factor = -0.15
-			}
-		}
-		YUG_broken_country_1 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.1
-	            production_factory_max_efficiency_factor = -0.1
-	            production_factory_efficiency_gain_factor = -0.1
-	            local_resources_factor = -0.15
-	            production_speed_buildings_factor = -0.15
-				research_speed_factor = 0.15
-			}
-		}
-		YUG_broken_country_2 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
 				consumer_goods_factor = 0.3
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = 0.05
-	            production_factory_max_efficiency_factor = -0.1
-	            production_factory_efficiency_gain_factor = -0.1
-	            local_resources_factor = 0
-	            production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.15
-				industry_repair_factor = 0.4
-				monthly_population = 0.1
-			}
-		}
-		YUG_broken_country_3 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = 0.05
-	            production_factory_max_efficiency_factor = 0
-	            production_factory_efficiency_gain_factor = 0
-	            local_resources_factor = 0
-	            production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.15
-				industry_repair_factor = 0.4
-				monthly_population = 0.2
-			}
-			
-		}
-		YUG_broken_country_4 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
 				industrial_capacity_factory = -0.1
-	            production_factory_max_efficiency_factor = 0
-	            production_factory_efficiency_gain_factor = 0
-	            local_resources_factor = -0.15
-	            production_speed_buildings_factor = -0.15
-				research_speed_factor = 0.1
+				industrial_capacity_dockyard = -0.1
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
 			}
 		}
-		YUG_broken_country_5 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.05
-	            production_factory_max_efficiency_factor = 0
-	            production_factory_efficiency_gain_factor = 0
-	            local_resources_factor = -0.1
-	            production_speed_buildings_factor = -0.1
-				research_speed_factor = 0.1
-				industrial_capacity_dockyard = 0.1
-			}
-		}
-		YUG_broken_country_6 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0
-				industrial_capacity_factory = -0.1
-	            production_factory_max_efficiency_factor = 0.1
-	            production_factory_efficiency_gain_factor = 0.1
-	            local_resources_factor = -0.15
-	            production_speed_buildings_factor = -0.15
-				research_speed_factor = 0.1
-			}
-		}
-		YUG_broken_country_7 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0
-				industrial_capacity_factory = 0
-	            production_factory_max_efficiency_factor = 0.1
-	            production_factory_efficiency_gain_factor = 0.1
-	            local_resources_factor = -0.05
-	            production_speed_buildings_factor = -0.05
-				research_speed_factor = 0.15
-				industrial_capacity_dockyard = 0.1
-			}
-		}
-		YUG_broken_country_8 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = 0
-	            production_factory_max_efficiency_factor = 0
-	            production_factory_efficiency_gain_factor = 0
-	            local_resources_factor = -0.15
-	            production_speed_buildings_factor = -0.15
-				industrial_capacity_dockyard = 0.1
-				research_speed_factor = 0.15
-			}
-		}
-		YUG_broken_country_9 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
-				industrial_capacity_factory = 0.05
-	            production_factory_max_efficiency_factor = 0.1
-	            production_factory_efficiency_gain_factor = 0.1
-	            local_resources_factor = -0.1
-	            production_speed_buildings_factor = -0.1
-				industrial_capacity_dockyard = 0.1
-				research_speed_factor = 0.2
-			}
-		}
-		YUG_broken_country_10 = {
-		    name = YUG_broken_country
-			picture = YUG_broken_country
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				consumer_goods_factor = 0
-				industrial_capacity_factory = 0.1
-	            production_factory_max_efficiency_factor = 0.2
-	            production_factory_efficiency_gain_factor = 0.2
-	            local_resources_factor = -0.05
-	            production_speed_buildings_factor = -0.05
-				industrial_capacity_dockyard = 0.15
-				research_speed_factor = 0.2
-			}
-		}
-     #####################################################
-		YUG_democrats_supports = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
+		YUG_yugaslavia_leader = {
+		    name = YUG_yugaslavia_leader
+			picture = YUG_yugaslavia_leader
 			allowed = { always = no }
 			available = {
 				is_subject = no
@@ -381,138 +39,35 @@ ideas = {
 			modifier = {
 				stability_factor = 0.1
 				compliance_growth = 0.05
-				conscription_factor = 0.2
-				monthly_population = 0.1
 				army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.1
+				autonomy_gain = -0.01
 			}
 		}
-		YUG_democrats_supports_1 = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
+		YUG_balkan_revolutionary_pioneer = {
+		    name = YUG_balkan_revolutionary_pioneer
+			picture = YUG_balkan_revolutionary_pioneer
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				stability_factor = 0.05
-				compliance_growth = 0.05
+				stability_factor = 0.15
+				war_support_factor = 0.15
 				conscription_factor = 0.1
-				monthly_population = 0.1
-				army_core_attack_factor = 0.05
-	            army_core_defence_factor = 0.05
-			}
-		}
-		YUG_democrats_supports_2 = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.1
-				compliance_growth = 0.05
-				conscription_factor = 0.2
-				monthly_population = 0.1
-				army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
-			}
-		}
-		YUG_democrats_supports_3 = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.15
-				compliance_growth = 0.05
-				conscription_factor = 0.2
-				monthly_population = 0.1
-				army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
-			}
-		}
-		YUG_democrats_supports_4 = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.1
-				compliance_growth = 0.05
-				conscription_factor = 0.2
-				monthly_population = 0.1
-				army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
-			}
-		}
-		YUG_democrats_supports_5 = {
-		    name = YUG_democrats_supports
-			picture = YUG_democrats_supports
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.15
-				compliance_growth = 0.05
-				conscription_factor = 0.2
-				monthly_population = 0.1
-				army_core_attack_factor = 0.1
-	            army_core_defence_factor = 0.1
-			}
-		}
-		#######################################
-		YUG_re_educate = {
-		    name = YUG_re_educate
-			picture = YUG_re_educate
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.1
-				resistance_growth = 0.05
-				Nationalism_drift = -0.05
-				reactionism_drift = -0.05
-				restorativeism_drift = -0.05
-			}
-		}
-		YUG_re_educate_1 = {
-		    name = YUG_re_educate
-			picture = YUG_re_educate
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = 0.1
-				compliance_gain = -0.1
-				required_garrison_factor = -0.15
-				resistance_growth = -0.05
-				Nationalism_drift = -0.05
-				reactionism_drift = -0.05
-				restorativeism_drift = -0.05
+				mobilization_speed = 0.1
 			}
 		}
 		#############################
-		YUG_sweat_rural = {
-		    name = YUG_sweat_rural
-			picture = YUG_sweat_rural
+		YUG_Federal_part = {
+		    name = YUG_Federal_part
+			picture = YUG_Federal_part
 			allowed = { always = no }
 			available = {
 				is_subject = no
 			}
 			modifier = {
-				stability_factor = 0.05
-				Nationalism_drift = 0.01
-				reactionism_drift = 0.01
-				restorativeism_drift = 0.01
+				custom_modifier_tooltip = YUG_modifier_tt_1
 			}
 		}
 	}

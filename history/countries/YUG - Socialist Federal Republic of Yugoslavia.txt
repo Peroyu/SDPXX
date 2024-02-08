@@ -8,7 +8,7 @@ set_war_support = 0.5
 set_stability = 0.3
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = communism
 	last_election = "1947.1.1"
 	election_frequency = 48  
 	elections_allowed = no   
@@ -144,23 +144,25 @@ add_ideas = {
 	public_health_insurance
 	ethnostate
 	
-	loser_of_the_revolutionary_war
-YUG_torist_threats
-YUG_broken_committee
-YUG_broken_country
-YUG_democrats_supports
+	YUG_Federal_part
+	YUG_balkan_revolutionary_pioneer
+	YUG_yugaslavia_leader
+	YUG_broken_country
+	YUG_nationalism_influence
+	victor_of_the_revolutionary_war
+
 }
 set_popularities = {
 	committee_communism = 20
-	communism = 23
-	moderate_socialism = 8
-	liberalism = 15
+	communism = 30
+	moderate_socialism = 10
+	liberalism = 5
 	conservatism = 4
-	Nationalism = 3
-	reactionism = 5
-	movement_communism = 10
-	social_democracy = 5
-	restorativeism = 7
+	Nationalism = 12
+	reactionism = 3
+	movement_communism = 3
+	social_democracy = 8
+	restorativeism = 5
 }
 
 set_variable = { var = FactionStatus value = 2 }
@@ -172,35 +174,30 @@ set_variable = { var = SDP_agriculture_v value = 25 }#60
 set_variable = { var = SDP_science_v value = 25 }#50
 set_variable = { var = SDP_politics_v value = 12 }#60
  
+
 create_country_leader = {
-	name = "YUG_Balkan_R_C"   
-	desc = "YUG_Balkan_R_C_desc"  
-	picture = "gfx/leaders/EU/YUG_Balkan_R_C.png"   
-	expire = "1956.9.7"   
-	ideology = United_Interim_Government
-	traits = {  }
-}
-create_country_leader = {
-	name = "YUG_Joseph_Dudas"   
-	desc = "YUG_Joseph_Dudas_desc"  
-	picture = "gfx/leaders/EU/YUG_Joseph_Dudas.png"   
+	name = "YUG_Sima_Markovic"   
+	desc = "YUG_Sima_Markovic_desc"  
+	picture = "gfx/leaders/EU/Portrait_YUG_Sima Markovic.png"   
 	expire = "1956.9.7"   
 	ideology = Jacobinism
 	traits = {  }
 }
 create_country_leader = {
-	name = "YUG_Ivan_Goshniak"   
-	desc = "YUG_Ivan_Goshniak_desc"  
-	picture = "gfx/leaders/EU/YUG_Ivan_Goshniak.png"   
-	expire = "1956.9.7"   
-	ideology = parliamentary_communism
-	traits = {  }
+	name = "杜尚·波波维奇"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  democratic_socialism # 
+	traits = {  # 
+	}
 }
 create_country_leader = {
-	name = "YUG_Dragisa_Cvetkovic"   
-	desc = "YUG_Dragisa_Cvetkovic_desc"  
-	picture = "gfx/leaders/EU/YUG_Dragisa_Cvetkovic.png"   
-	expire = "1956.9.7"   
-	ideology = FFFFF_FFF
-	traits = {  }
+	name = "科斯塔·契瓦里奇"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  ultranationalism # 
+	traits = {  # 
+	}
 }

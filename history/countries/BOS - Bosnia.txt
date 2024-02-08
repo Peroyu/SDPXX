@@ -18,23 +18,75 @@ set_politics = {
 }
 # 
 set_popularities = {
- conservatism = 10
- reactionism = 10
- moderate_socialism = 20
- communism = 8
- Liberalism = 2
- committee_communism = 10
- social_democracy = 20
- movement_communism = 8
-	Nationalism = 12
+ conservatism = 1
+ reactionism = 4
+ moderate_socialism = 15
+ communism = 30
+ Liberalism = 1
+ committee_communism = 25
+ social_democracy = 4
+ movement_communism = 5
+	Nationalism = 10
+	restorativeism = 5
 }
-# 
+add_ideas = {
+	graduated_taxation
+	compulsory_primary_school
+	single_party_state
+	cooperative_ownership
+	women_in_the_workplace
+	protectionism
+	censorship
+	total_social_pension
+	public_schools
+	freedom_of_conscience
+	peasant_levies
+	collectivized_agriculture
+	secret_police
+	public_health_insurance
+	ethnostate
+	
+	YUG_Federal_part
+	BOS_national_brocken
+	BOS_nations_montain
+	BOS_broken_country
+	loser_of_the_revolutionary_war
+
+}
+ 
 create_country_leader = {
 	name = "YUG_Rodoljub_Colakovic"  # 
-	desc = "/"  # 
+	desc = "YUG_Rodoljub_Colakovic_desc"  # 
 	picture = "Portrait_YUG_Rodoljub_Colakovic"  # 
 	expire = "1956.6.6"  # 
 	ideology =  democratic_socialism # 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "久罗·普查尔·斯塔里"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  Bolshevism # 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "沃伊斯拉夫·凯茨曼诺维奇"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  reformed_socialism # 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "科斯塔·契瓦里奇"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  ultranationalism # 
 	traits = {  # 
 	}
 }

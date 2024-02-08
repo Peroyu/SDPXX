@@ -50,11 +50,7 @@ guiTypes = {
 			size = { width = 490 height = 225 }
 			
 	
-			iconType = {
-				name = "chinese_pie"
-				spriteType = "GFX_GNG_Chinese_Pie"
-				position = { x = 5 y = 208 }
-			}
+			
 			iconType = {
 				name = "zhujin_pie"
 				spriteType = "GFX_GNG_Zhujin_Pie"
@@ -64,6 +60,11 @@ guiTypes = {
 				name = "japanese_pie"
 				spriteType = "GFX_GNG_Japanese_Pie"
 				position = { x = 5 y = 208 }
+			}
+			iconType = { 
+				name = "pie_icon"
+				spriteType = "GFX_pie_icon"
+				position = { x = 12 y = 212 }
 			}
 		
 			instantTextboxType = {

@@ -26,16 +26,16 @@ set_variable = { var = SDP_politics_v value = 25 }#60
 # 
 set_variable = { var = FactionStatus value = 2}
 set_popularities = { 
- committee_communism = 18
- communism = 28
- moderate_socialism = 22
- movement_communism = 3
+ committee_communism = 12
+ communism = 45
+ moderate_socialism = 5
+ movement_communism = 8
  conservatism = 2
  social_democracy = 12
- Liberalism = 5
+ Liberalism = 10
  reactionism = 1
- Nationalism = 4
- restorativeism = 5
+ Nationalism = 2
+
 }
 set_technology = {
 	### Infantry ###
@@ -150,15 +150,7 @@ set_technology = {
 	construction1 = 1
 	construction2 = 1
 }
-# 
-create_country_leader = {
-	name = "CRT_Vladko_Macek"   
-	desc = "CRT_Vladko_Macek_desc"  
-	picture = "gfx/leaders/EU/Portrait_CRT_Vladko_Macek.png"   
-	expire = "1956.9.7"   
-	ideology = agriculture_socialism
-	traits = {  }
-}
+
 create_country_leader = {
 	name = "CRT_Vladko_Macek"   
 	desc = "CRT_Vladko_Macek_desc"  
@@ -168,32 +160,21 @@ create_country_leader = {
 	traits = {  }
 }
 create_country_leader = {
-	name = "CRT_Milan_Gorkic"   
-	desc = "CRT_Milan_Gorkic_desc"  
-	picture = "gfx/leaders/EU/Portrait_YUG_gorgyki.png"   
-	expire = "1956.9.7"   
-	ideology = democratic_socialism
-	traits = {  }
-}
-create_country_leader = {
-	name = "CRT_tito"   
-	desc = "CRT_tito_desc"  
+	name = "CRT_Josep_Broz"   
+	desc = "CRT_Josep_Broz_desc"  
 	picture = "gfx/leaders/EU/Portrait_YUG_tito.png"   
 	expire = "1956.9.7"   
 	ideology = military_socialism
 	traits = {  }
 }
 add_ideas = {
-	CRT_wire_to_be_break
-	CRT_dream_to_yugaslavia
-	CRT_connection_with_hungarian
-	victor_of_the_revolutionary_war
+	YUG_Federal_part
+	CRT_Federalists_basement
+	CRT_alive_in_war
+	CRT_centralists_factors
+	loser_of_the_revolutionary_war
 	#####
-	CRT_Milan_Gorkic
-	CRT_Josep_Smodraka
-	CRT_Josep_Broz
-	CRT_Vladimir_Bakarich
-	CRT_Yuraj_Shutaiy
+	
 	###
 graduated_taxation
 	compulsory_primary_school
