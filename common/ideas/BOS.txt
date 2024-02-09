@@ -5,7 +5,7 @@ ideas = {
 			picture = BOS_nations_montain
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				stability_factor = -0.15
@@ -16,7 +16,7 @@ ideas = {
 			picture = BOS_national_brocken
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				stability_factor = -0.1
@@ -32,7 +32,7 @@ ideas = {
 			picture = BOS_broken_country
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				consumer_goods_factor = 0.3

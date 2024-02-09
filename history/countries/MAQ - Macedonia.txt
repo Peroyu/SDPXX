@@ -11,30 +11,54 @@ YUG = {
 }
 # 
 set_politics = {
-	ruling_party = communism # 
+	ruling_party = committee_communism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 # 
 set_popularities = {
-	conservatism = 5
-	reactionism = 10
-	moderate_socialism = 10
-	communism = 28
-	Liberalism = 2
-	committee_communism = 10
-	social_democracy = 10
-	movement_communism = 3
-	   Nationalism = 22
+	conservatism = 0
+	reactionism = 5
+	moderate_socialism = 15
+	communism = 20
+	Liberalism = 0
+	committee_communism = 30
+	social_democracy = 15
+	movement_communism = 0
+	   Nationalism = 13
+	restorativeism = 3
 }
-# 
+add_ideas = {
+	onlooker_of_the_revolutionary_war
+	YUG_Federal_part
+   	MAQ_VMRO
+	MAQ_new_leader
+}
 create_country_leader = {
 	name = "MAQ_Metodija_Satorov"  # 
 	desc = "/"  # 
 	picture = "Portrait_MAQ_Metodija_Satorov"  # 
 	expire = "1956.6.6"  # 
-	ideology =  Bolshevism # 
+	ideology =  democratic_socialism# 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "潘科·布拉什纳科夫"  # 
+	desc = "/"  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology = Bolshevism# 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "迪米塔尔·弗拉霍夫"  # 
+	desc = "/"  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology = revolutionary_syndicalism# 
 	traits = {  # 
 	}
 }

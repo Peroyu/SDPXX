@@ -5,7 +5,7 @@ ideas = {
 			picture = SLV_economic_pearl
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				production_speed_buildings_factor = 0.1
@@ -18,7 +18,7 @@ ideas = {
 			picture = SLV_germany_in_cities
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				political_power_factor = -0.1

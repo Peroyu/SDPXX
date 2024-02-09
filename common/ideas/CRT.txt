@@ -5,7 +5,7 @@ ideas = {
 			picture = CRT_Federalists_basement
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				communism_drift = 0.02
@@ -18,7 +18,7 @@ ideas = {
 			picture = CRT_alive_in_war
 			allowed = { always = no }
 			available = {
-				is_subject = no
+			
 			}
 			modifier = {
 				stability_factor = 0.15
@@ -29,7 +29,7 @@ ideas = {
 			picture = CRT_centralists_factors
 			allowed = { always = no }
 			available = {
-				is_subject = no
+				
 			}
 			modifier = {
 				stability_factor = -0.1

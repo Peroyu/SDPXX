@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		ALB_ignore_nations = {
+		    name = ALB_ignore_nations
+			picture = ALB_ignore_nations
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = -0.15
+				war_stability_factor = -0.15
+				political_power_factor = -0.15
+				autonomy_gain = 0.01
+			}
+		}
+		ALB_north_and_south = {
+		    name = ALB_north_and_south
+			picture = ALB_north_and_south
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		
+	}
+}	

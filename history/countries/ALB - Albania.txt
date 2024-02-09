@@ -17,17 +17,21 @@ set_politics = {
 }
 add_ideas = {
 	onlooker_of_the_revolutionary_war
-   
+	YUG_Federal_part
+   	ALB_ignore_nations
+	ALB_north_and_south
 }
 set_popularities = {
-	communism = 20
+	communism = 25
 	committee_communism = 20
-	moderate_socialism = 5
-	social_democracy = 5
-	Liberalism = 15
-	movement_communism = 10
-	reactionism = 13
-	Nationalism = 12
+	moderate_socialism = 15
+	social_democracy = 15
+	Liberalism = 3
+	movement_communism = 8
+	reactionism = 1
+	Nationalism = 10
+	conservatism = 1
+	restorativeism = 2
 }
 create_country_leader = {
 	name = "ALB_Koci_Xoxe"  

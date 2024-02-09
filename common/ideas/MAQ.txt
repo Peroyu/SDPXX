@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		MAQ_new_leader = {
+		    name = MAQ_new_leader
+			picture = MAQ_new_leader
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				autonomy_gain = 0.01
+			}
+		}
+		MAQ_VMRO = {
+		    name = MAQ_VMRO
+			picture = MAQ_VMRO
+			allowed = { always = no }
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.1
+				resistance_target = 0.1
+				resistance_growth = 0.15
+				required_garrison_factor = 0.1
+			}
+		}
+		
+		
+	}
+}	
