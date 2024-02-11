@@ -1,7 +1,7 @@
 ﻿capital = 300
 
 oob = "empty"
-
+Latin_America_initial_techs = yes
 set_politics = {
 	ruling_party = Liberalism
 	last_election = "1934.4.19"

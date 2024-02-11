@@ -14,7 +14,7 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+CHI_roc_initial_techs = yes
 set_popularities = {
  	communism = 2
 	committee_communism = 1

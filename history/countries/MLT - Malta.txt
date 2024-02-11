@@ -1,5 +1,5 @@
 capital = 116
-
+Britain_initial_techs = yes
 set_research_slots = 2
 set_naval_oob = "MLT_1947_naval_legacy"
 set_oob = "MLT_1947"

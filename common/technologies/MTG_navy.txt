@@ -740,7 +740,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1952 }
+			position = { x = 1 y = @1958 }
 		}
 		
 		ai_will_do = {
@@ -764,7 +764,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 1 y = @1958 }
+			position = { x = 1 y = @1964 }
 		}
 		
 		ai_will_do = {

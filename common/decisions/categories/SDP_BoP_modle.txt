@@ -1,0 +1,15 @@
+	SDP_BoP_modle = {
+	    icon =decision_category_usa_congress
+		available = {
+	        
+		}
+		visible = {
+          is_ai = no
+        }
+		cancel_trigger = {
+          
+        }
+		scripted_gui = SDP_BoP_modle_gui
+        priority = 10000
+		visible_when_empty = yes
+    }

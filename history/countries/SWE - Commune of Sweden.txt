@@ -14,6 +14,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+Europe_nowar_initial_techs = yes
 set_popularities = {
 	social_democracy = 23
 	moderate_socialism = 5

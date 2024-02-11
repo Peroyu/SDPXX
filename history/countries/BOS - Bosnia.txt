@@ -16,7 +16,7 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-# 
+Europe_subcountry_initial_techs = yes
 set_popularities = {
  conservatism = 1
  reactionism = 4

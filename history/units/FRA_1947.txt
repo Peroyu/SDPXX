@@ -127,6 +127,87 @@ units = {
 			name_order = 100
 		}
 		location = 11506
+		division_template = "Brigade Cuirassée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11506
+		division_template = "Brigade Cuirassée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9503
+		division_template = "Brigade Cuirassée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 75
+		}
+		location = 9434
+		division_template = "Brigade Cuirassée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 115
+		}
+		location = 9737
+		division_template = "Brigade Cuirassée"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1000
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 200
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 500
+		}
+		location = 9503
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 750
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1150
+		}
+		location = 9737
 		division_template = "Division d'Infanterie"		# 
 		start_experience_factor = 0.8		
 	}
@@ -224,6 +305,105 @@ units = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 81
+		}
+		location = 9498
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 620
+		}
+		location = 9503
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 546
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 557
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 132
+		}
+		location = 516
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 117
+		}
+		location = 6488
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 423
+		}
+		location = 692
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 554
+		}
+		location = 11834
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1112
+		}
+		location = 6613
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 112
+		}
+		location = 11516
+		division_template = "Division d'Infanterie"		# 
+		start_experience_factor = 0.8		
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
 		}
 		location = 9498
 		division_template = "Division d'Infanterie"		# 

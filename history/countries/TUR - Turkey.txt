@@ -9,6 +9,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+Europe_nowar_initial_techs = yes
 TUR_parliament_gui_initial = YES
 give_guarantee = GRE
 give_guarantee = GEO

@@ -4,7 +4,7 @@ obb = "empty"  # 军队文件
 
 set_research_slots = 4
  # 设定科研槽
-
+Pacific_powers_initial_techs = yes
 set_war_support = 0.6 # 设置战争支持度
 set_stability = 0.8 # 设置稳定度
 

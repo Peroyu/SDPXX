@@ -1,0 +1,19 @@
+scripted_gui = {
+    SDP_BoP_modle_gui = {
+        context_type = decision_category
+        window_name = "SDP_BoP_modle_gui_window"
+        properties = {
+		    SDP_BoP_line = {
+				frame = ROOT.line_veriable
+			}
+		}
+		properties = {
+		    SDP_BoP_left = {
+				image = "[GetSDPBoPleftview]"
+			}
+			SDP_BoP_right = {
+				image = "[GetSDPBoPrightview]"
+			}
+		}
+    }
+}

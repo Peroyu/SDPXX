@@ -13,6 +13,7 @@ set_politics = {
 	election_frequency = 48  
 	elections_allowed = no   
 }
+Europe_nowar_initial_techs = yes
 add_ideas = {
    
 }

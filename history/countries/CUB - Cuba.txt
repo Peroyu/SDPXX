@@ -1,7 +1,7 @@
 capital =  # 首都地块
 
 obb = "CUB_1947"  # 军队文件
-
+Latin_America_initial_techs = yes
 set_research_slots = 2
  # 设定科研槽
 

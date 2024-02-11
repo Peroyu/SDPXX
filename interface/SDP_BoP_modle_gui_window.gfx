@@ -1,0 +1,34 @@
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_SDP_BoP_line"
+		textureFile1 = "gfx/interface/bop/bop_bar_orange_dark.dds"
+		textureFile2 = "gfx/interface/bop/bop_bar_frame.dds"
+		size = { x = 350 y = 30 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+        alwaystransparent = yes
+		steps = 200
+		
+	}
+
+	spriteType = {
+		name = "GFX_SDP_BoP_line_background"
+		texturefile = "gfx/interface/bop/bop_background.dds"		
+	}
+
+	spriteType = {
+		name = "GFX_SDP_BoP_needle"
+		texturefile = "gfx/interface/bop/bop_needle.dds"		
+	}
+
+	spriteType = {
+		name = "GetSDPBoPleftview_debug"
+		texturefile = "gfx/interface/bop/bop_SWI_centralization_council_side.dds"		
+	}
+
+	spriteType = {
+		name = "GetSDPBoPrightview_debug"
+		texturefile = "gfx/interface/bop/bop_SWI_centralization_canton_side.dds"		
+	}
+
+}

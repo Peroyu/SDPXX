@@ -6,7 +6,7 @@ set_research_slots = 4
 
 set_war_support = 0.8 
 set_stability = 0.7 
-
+Soviet_core_initial_techs = yes
 set_country_flag = may_send_volunteers
 set_politics = {
 		ruling_party = communism  

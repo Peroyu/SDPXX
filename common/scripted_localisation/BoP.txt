@@ -1,0 +1,39 @@
+defined_text = {
+	name = GetSDPBoPleftview
+	text = {
+		trigger = {
+			is_debug = yes
+		}
+		localization_key = "GetSDPBoPleftview_debug"
+	}
+}
+defined_text = {
+	name = GetSDPBoPrightview
+	text = {
+		trigger = {
+			is_debug = yes
+	       
+		}
+		localization_key = "GetSDPBoPrightview_debug"
+	}
+}
+defined_text = {
+	name = GetSDPBoPtitle
+	text = {
+		trigger = {
+			is_debug = yes
+	       
+		}
+		localization_key = GetSDPBoPtitle_debug
+	}
+}
+defined_text = {
+	name = GetSDPBoPcondition
+	text = {
+		trigger = {
+			is_debug = yes
+	       
+		}
+		localization_key = GetSDPBoPcondition_debug
+	}
+}

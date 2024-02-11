@@ -6,7 +6,7 @@ set_research_slots = 2 #
 
 set_war_support = 0.3 # 
 set_stability = 0.4 # 
-
+Africa_and_poor_initial_tech = yes
 TUR = {
 	puppet = YEM
 }

@@ -8,7 +8,7 @@ set_war_support = 0.4 # 设置战争支持度
 set_stability = 0.5 # 设置稳定度
 
 # 设置执政党以及选举
-
+CHI_roc_initial_techs = yes
 set_politics = {
 	ruling_party = movement_communism
 	last_election = "1947.1.1"

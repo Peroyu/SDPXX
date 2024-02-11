@@ -3,7 +3,7 @@ capital = 422
 set_research_slots = 2 
 
 oob = "empty"
-
+Latin_America_initial_techs = yes
 set_war_support = 0.7
 set_stability = 0.2
 

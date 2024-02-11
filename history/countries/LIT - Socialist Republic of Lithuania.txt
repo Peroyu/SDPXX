@@ -6,7 +6,7 @@ set_research_slots = 3
 set_war_support = 0.8 
 set_stability = 0.8 
 
-
+Europe_subcountry_initial_techs = yes
 set_politics = {
 	ruling_party = communism 
 	last_election = "1947.1.1"

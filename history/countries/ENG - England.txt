@@ -15,7 +15,7 @@ set_politics = {
 	elections_allowed = no  
 }
 
-
+Britain_initial_techs = yes
 country_event = {
 	id = BRI.1
 	days = 60

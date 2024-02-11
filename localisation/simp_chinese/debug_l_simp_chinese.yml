@@ -1,3 +1,6 @@
 ﻿l_simp_chinese:
  SDP_ECO_DEBUG: "经济debug"
  SDP_ECO_DEBUG_desc: "现在你有[?ROOT.num_of_civilian_factories]个民用工厂，所以你的民用工厂生产力总量为 [?ROOT.Economic_civilian_num]\n现在你有[?ROOT.num_of_military_factories]个军用工厂，所以你从军用工厂得到的生产力为 [?ROOT.Economic_millita_num]\n所以你拥有的总生产力数目为[?Economic_num]"
+ GetSDPBoPtitle_debug: "测试权力平衡"
+ SDP_BoP_modle: "权力平衡"
+ GetSDPBoPcondition_debug: "测试状态"

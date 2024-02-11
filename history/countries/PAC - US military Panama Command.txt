@@ -6,7 +6,7 @@ set_research_slots = 3 #
 
 set_war_support = 0.4 # 
 set_stability = 0.6 # 
-
+Euro_other_colony_initial_techs = yes
 # 
 set_politics = {
 	ruling_party = reactionism # 

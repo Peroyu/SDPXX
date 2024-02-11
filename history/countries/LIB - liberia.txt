@@ -1,7 +1,7 @@
 ﻿capital = 298
 
 oob = "empty"
-
+Africa_and_poor_initial_tech = yes
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1931.1.1"

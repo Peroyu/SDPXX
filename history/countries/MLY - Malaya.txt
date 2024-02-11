@@ -20,7 +20,7 @@ set_popularities = {
 	Nationalism = 5
 }
 
-
+CHI_jap_initial_techs = yes
 create_country_leader = {
 	name = "JAP_Hisaichi_Terauchi"
 	desc = "/"  

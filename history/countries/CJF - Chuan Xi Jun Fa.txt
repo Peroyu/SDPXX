@@ -27,55 +27,7 @@ set_popularities = {
 	moderate_socialism = 5
 	communism = 2
 }
-set_technology = {
-	### Infantry ###
-	infantry_weapons = 1
-	infantry_weapons2 = 1
-	infantry_weapons1 = 1
-	infantry_strike_force_1 = 1
-	infantry_at = 1
-	infantry_heavy_weapens_1 = 1
-	support_weapons = 1
-	support_weapons2 = 1
-	motorised_infantry_0 = 1
-
-	#support#
-	tech_support = 1
-	tech_engineers = 1
-	tech_recon = 1
-
-	#artillery#
-	gw_artillery = 1
-	artillery1 = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
-	interwar_antitank = 1
-	Anti_Material_Weapon = 1
-
-	#armor#
-	basic_light_tank_chassis = 1
-	basic_light_tank_chassis_improve = 1
-	basic_medium_tank_chassis = 1
-	super_light_armor = 1
-
-	#air#
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-
-	#navy#
-	early_destroyer = 1
-
-	#techss#
-	electronic_mechanical_engineering = 1
-	radio = 1
-	mechanical_computing = 1
-	
-	#industry#
-	basic_machine_tools = 1
-	improved_machine_tools = 1
-	fuel_silos = 1
-}
+CHI_roc_initial_techs = yes
 set_variable = { var = SDP_economic_v value = 12 }#60
 set_variable = { var = SDP_education_v value = 18 }#50
 set_variable = { var = SDP_industry_v value = 16 }#60

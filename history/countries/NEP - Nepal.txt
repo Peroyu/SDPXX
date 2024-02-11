@@ -2,11 +2,11 @@ capital = 323 #
 
 obb = "NEP_1947"  # 
 
-set_research_slots = 2 # 
+set_research_slots = 1 # 
 
 set_war_support = 0.4 # 
 set_stability = 0.3 # 
-
+Africa_and_poor_initial_tech = yes
 # 
 set_politics = {
 	ruling_party = reactionism # 

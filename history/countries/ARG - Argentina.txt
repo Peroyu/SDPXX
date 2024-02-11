@@ -1,7 +1,7 @@
 capital = 278 # 
 
 obb = "empty"  # 
-
+Euro_other_colony_initial_techs = yes
 set_research_slots = 2 # 
 
 set_war_support = 0.3 # 

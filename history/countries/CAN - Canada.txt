@@ -6,7 +6,7 @@ set_research_slots = 3 #
 
 set_war_support = 0.1 # 
 set_stability = 0.1 # 
-
+Britain_initial_techs = yes
 create_faction = "协约国"
 add_to_faction = ROF
 add_to_faction = NAT

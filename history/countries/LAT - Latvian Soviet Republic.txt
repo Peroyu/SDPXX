@@ -3,7 +3,7 @@ capital = 325
 obb = "LAT_1947"  
 
 set_research_slots = 3 
-
+Europe_subcountry_initial_techs = yes
 set_war_support = 0.6 
 set_stability = 0.8 
 

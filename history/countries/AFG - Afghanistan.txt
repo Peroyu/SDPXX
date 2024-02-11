@@ -18,6 +18,7 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
+CHI_jap_initial_techs = yes
 set_country_flag = INDIA_civilwar_participants
 set_popularities = {
  restorativeism = 20

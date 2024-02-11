@@ -2,8 +2,8 @@ capital = 325 #
 
 obb = "AUT_1947"  # 
 
-set_research_slots = 4 # 
-
+set_research_slots = 2 # 
+Britain_colony_initial_techs = yes
 set_war_support = 0.1 # 
 set_stability = 0.6 # 
 

@@ -4,7 +4,7 @@ set_research_slots = 2
 
 set_war_support = 0.2
 set_stability = 0.3
-
+Latin_America_initial_techs = yes
 set_politics = {
 	ruling_party = movement_communism
 	last_election = "1925.6.1"

@@ -1,8 +1,8 @@
 ﻿capital = 284
 
 oob = "NZL_1947"
-
-
+Britain_colony_initial_techs = yes
+set_research_slots = 2 
 set_politics = {
 	ruling_party = movement_communism # 
 	last_election = "1947.1.1"

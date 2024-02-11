@@ -19,7 +19,7 @@ set_popularities = {
 	communism = 80
 	social_democracy = 20
 }
-
+Europe_nowar_initial_techs = yes
 # 设置领导人
 create_country_leader = {
 	name = "CAS_Bolkov"  # 领导人名称

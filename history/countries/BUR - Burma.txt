@@ -21,7 +21,7 @@ set_popularities = {
 	Nationalism = 10
 	restorativeism = 10
 }
-
+CHI_jap_initial_techs  = yes
 
 create_country_leader = {
 	name = "BUR_Aung_San"

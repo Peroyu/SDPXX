@@ -3,7 +3,7 @@ capital = 319 #
 set_oob = "KAS_1947"  # 
 
 set_research_slots = 2 # 
-
+CHI_jap_initial_techs = yes
 set_war_support = 0.3 # 
 set_stability = 0.5 # 
 

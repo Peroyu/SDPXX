@@ -11,6 +11,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+CHI_jap_initial_techs = yes
 declare_war_on = {
 		target = CYN
 		type = annex_everything
