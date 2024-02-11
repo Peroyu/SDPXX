@@ -10,13 +10,14 @@ defined_text = { #Any commented out GFX means the intro screen is ready but is w
 	text = { trigger = { original_tag = CRT }  localization_key = "GFX_CRT_intro"}
 	text = { trigger = { original_tag = HUN }  localization_key = "GFX_HUN_intro"}
 	text = { trigger = { original_tag = YUG }  localization_key = "GFX_YUG_intro"}
+	text = { trigger = { original_tag = SLV }  localization_key = "GFX_SLV_intro"}
 	text = { localization_key = "GFX_SDP_default_intro" }
 }
 
 defined_text = {
 	name = GetCountryIntroHeader
 
-  
+	text = { trigger = { original_tag = SLV }  localization_key = SLV_country_intro_header }
     
 	text = { trigger = { original_tag = GDC }  localization_key = GDC_country_intro_header }
 
@@ -43,7 +44,7 @@ defined_text = {
 	name = GetCountryIntroContent
 
   
-
+	text = { trigger = { original_tag = SLV }  localization_key = SLV_country_intro_content }
   
 	text = { trigger = { original_tag = GDC }  localization_key = GDC_country_intro_content }
 
