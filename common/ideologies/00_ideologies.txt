@@ -10,7 +10,7 @@ ideologies = {
 			Jacobinism = { can_be_randomly_selected = no }
 			De_Leonism = { can_be_randomly_selected = no }
 			Mao_thought = { can_be_randomly_selected = no }
-			
+			National_communism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {
@@ -59,6 +59,7 @@ ideologies = {
 			republic_marxism = { can_be_randomly_selected = no } 
 			Neo_Marxism = { can_be_randomly_selected = no } 
 			committee_communism_subtype = { can_be_randomly_selected = no } 
+			autonomy_communism = { can_be_randomly_selected = no } 
 		}
 		
 		dynamic_faction_names = {
@@ -400,6 +401,7 @@ ideologies = {
 			Churchillism = { can_be_randomly_selected = no }
 			Neo_national_system = { can_be_randomly_selected = no }
 			Peronismo = { can_be_randomly_selected = no }
+			national_syndicalism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

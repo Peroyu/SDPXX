@@ -49,6 +49,13 @@ defined_text = {
 		}
 		localization_key = Mao_thought
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = National_communism
+		}
+		localization_key = National_communism
+    }
 	###################################################
 	text = {
 		trigger = {
@@ -104,6 +111,13 @@ defined_text = {
 			has_country_leader_ideology = committee_communism_subtype
 		}
 		localization_key = committee_communism_subtype
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = autonomy_communism
+		}
+		localization_key = autonomy_communism
     }
 	######################################################
 	text = {
@@ -454,6 +468,13 @@ defined_text = {
 		localization_key = Churchillism
     }
 
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_syndicalism
+		}
+		localization_key = national_syndicalism
+    }
+
 	################################################
 
 	text = {
@@ -544,6 +565,13 @@ defined_text = {
 		}
 		localization_key = Mao_thought
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = National_communism
+		}
+		localization_key = National_communism
+    }
 	###################################################
 	text = {
 		trigger = {
@@ -592,6 +620,13 @@ defined_text = {
 			has_country_leader_ideology = Neo_Marxism
 		}
 		localization_key = Neo_Marxism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = autonomy_communism
+		}
+		localization_key = autonomy_communism
     }
 	######################################################
 	text = {
@@ -873,6 +908,13 @@ defined_text = {
 			has_country_leader_ideology = neo_socialism
 		}
 		localization_key = neo_socialism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_syndicalism
+		}
+		localization_key = national_syndicalism
     }
 
 	##########################################################

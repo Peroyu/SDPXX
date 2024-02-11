@@ -35,7 +35,7 @@ add_ideas = {
 	YUG_Federal_part
 	YUG_balkan_revolutionary_pioneer
 	YUG_yugaslavia_leader
-	YUG_broken_country
+	YUG_broken_country_sdp
 	YUG_nationalism_influence
 	victor_of_the_revolutionary_war
 
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "YUG_Sima_Markovic_desc"  
 	picture = "gfx/leaders/EU/Portrait_YUG_Sima Markovic.png"   
 	expire = "1956.9.7"   
-	ideology = Jacobinism
+	ideology = National_communism
 	traits = {  }
 }
 create_country_leader = {
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = ""  # 
 	picture = ""  # 
 	expire = "1956.6.6"  # 
-	ideology =  democratic_socialism # 
+	ideology =  autonomy_communism # 
 	traits = {  # 
 	}
 }
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = ""  # 
 	picture = ""  # 
 	expire = "1956.6.6"  # 
-	ideology =  ultranationalism # 
+	ideology =  national_syndicalism # 
 	traits = {  # 
 	}
 }

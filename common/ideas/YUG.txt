@@ -13,9 +13,9 @@ ideas = {
 				restorativeism_drift = 0.01
 			}
 		}
-		YUG_broken_country = {
+		YUG_broken_country_sdp = {
 		    name = YUG_broken_country
-			picture = YUG_broken_country
+			picture = YUG_broken_country_sdp
 			allowed = { always = no }
 			available = {
 				is_subject = no

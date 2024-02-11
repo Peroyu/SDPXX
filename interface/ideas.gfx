@@ -945,20 +945,24 @@ spriteTypes = {
 	}
 	#####################YUG####################################
 	spriteType = {
-		name = "GFX_idea_YUG_torist_threats"
-		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_torist_threats.dds"
+		name = "GFX_idea_YUG_Federal_part"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_Federal_part.png"
 	}
 	spriteType = {
-		name = "GFX_idea_YUG_democrats_supports"
-		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_democrats_supports.dds"
+		name = "GFX_idea_YUG_balkan_revolutionary_pioneer"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_balkan_revolutionary_pioneer.png"
 	}
 	spriteType = {
-		name = "GFX_idea_YUG_broken_country"
-		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_broken_country.dds"
+		name = "GFX_idea_YUG_yugaslavia_leader"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_yugaslavia_leader.png"
 	}
 	spriteType = {
-		name = "GFX_idea_YUG_broken_committee"
-		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_broken_committee.dds"
+		name = "GFX_idea_YUG_broken_country_sdp"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_broken_country_sdp.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_nationalism_influence"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_nationalism_influence.png"
 	}
 	######################NIP#########################################3
 
