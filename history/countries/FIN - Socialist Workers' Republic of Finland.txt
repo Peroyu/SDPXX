@@ -8,13 +8,13 @@ set_war_support = 0.5
 set_stability = 0.7 
 Europe_subcountry_initial_techs = yes
 set_politics = {
-	ruling_party = moderate_socialism 
+	ruling_party = social_democracy 
 	last_election = "1947.1.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 add_ideas = {
-participant_of_the_revolutionary_war
+onlooker_of_the_revolutionary_war
 }
 set_popularities = {
 	communism = 2
@@ -31,6 +31,16 @@ create_country_leader = {
 	picture = "gfx/leaders/EU/Portrait_FIN_Rafael_Paasio.png"  
 	expire = "1967.4.23"  
 	ideology = centrist_marxism 
+	traits = { 
+		
+ 	}
+}
+create_country_leader = {
+	name = "FIN_Philipp_I"  
+	desc = "FIN_Philipp_I_desc"  
+	picture = "gfx/leaders/EU/Portrait_FIN_Philipp_I.png"  
+	expire = "1967.4.23"  
+	ideology = Folkhemmet 
 	traits = { 
 		
  	}
