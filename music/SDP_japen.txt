@@ -90,3 +90,39 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_japan_11"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_japan_12"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_japan_13"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_japan_14"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
