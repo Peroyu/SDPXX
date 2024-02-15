@@ -6,10 +6,10 @@ set_research_slots = 1
 
 set_war_support = 0.3 
 set_stability = 0.4
- 
-HUN = {
+ UKR = {
 	puppet = TRA
 }
+
 Europe_subcountry_initial_techs = yes
 set_politics = {
 	ruling_party = committee_communism 
@@ -34,8 +34,7 @@ graduated_taxation
 	public_health_insurance
 	ethnostate
 
-participant_of_the_revolutionary_war
-HUN_inflluence
+loser_of_the_revolutionary_war
 }
 set_popularities = {
  communism = 33

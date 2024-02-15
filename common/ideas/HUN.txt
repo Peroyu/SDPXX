@@ -27,6 +27,20 @@ ideas = {
 				custom_effect_tooltip = HUN_dominion_name_ours
 			}
 		}
+		HUN_Hungarian_socialism = {
+		    name = HUN_Hungarian_socialism
+			picture = GFX_HUN_Hungarian_socialism
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+				social_democracy_drift = 0.01
+				Nationalism_drift = 0.01
+			}
+		}
 		HUN_protecter_in_balkan = {
 		    name = HUN_protecter_in_balkan
 			picture = GFX_HUN_protecter_in_balkan

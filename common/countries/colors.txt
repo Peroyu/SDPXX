@@ -528,8 +528,8 @@ POL = {
 	color_ui = rgb { 211 99 99 }
 }
 ROM = {
-	color = rgb { 114 51 33 }
-	color_ui = rgb { 114 51 33 }
+	color = rgb {  208 184 73 }
+	color_ui = rgb {  208 184 73 }
 }
 TRA = {
 	color = rgb { 136 59 37 }

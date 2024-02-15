@@ -36,6 +36,13 @@ AUS_slovenia_revolts = {
 	compliance_gain = -0.1
 	icon = GFX_AUS_slovenia_revolts
 }
+HUN_fuyifudingna = {
+	enable = {
+		alway = yes
+	}
+	compliance_gain = -0.1
+	icon = GFX_AUS_slovenia_revolts
+}
 AIS_regional_revolts = {
 	enable = {
 		ROOT = {

@@ -6,6 +6,7 @@ state = {
 	state_category = four
 
 	history = {
+		set_demilitarized_zone = yes
 		owner = HUN
 		victory_points = {
 			9621 1
@@ -13,6 +14,9 @@ state = {
 		victory_points = {
 			3617 5
 		}
+		 add_dynamic_modifier = {
+                        modifier =HUN_fuyifudingna
+                    }
 		buildings = {
 			infrastructure = 3
 		}

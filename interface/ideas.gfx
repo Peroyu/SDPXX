@@ -897,6 +897,11 @@ spriteTypes = {
 		name = "GFX_idea_HUN_brocken_policy"
 		texturefile = "gfx/interface/ideas/HUN/GFX_HUN_brocken_policy.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_HUN_Hungarian_socialism"
+		texturefile = "gfx/interface/ideas/HUN/GFX_idea_HUN_Hungarian_socialism.dds"
+	}
 	
 ############USA
 	spriteType = {

@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = CRT
+		owner = YUG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -17,8 +17,8 @@ state = {
 		victory_points = { #Srijemska Mitrovica
 			11580 2
 		}
-		add_core_of = CRT
-		add_claim_by = HUN
+		add_core_of = YUG
+		add_claim_by = CRT
 	}
 
 	provinces = {

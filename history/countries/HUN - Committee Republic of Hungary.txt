@@ -9,27 +9,25 @@ set_stability = 0.6 #
 set_air_oob = "HUN_1947_air_legacy"
 # 
 set_politics = {
-	ruling_party = committee_communism # 
+	ruling_party =moderate_socialism # 
 	last_election = "1946.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
 
 set_variable = { SDP_welcome_splash_variable = 1 }
-HUN = {
-	puppet = ROM
-}
+
 set_popularities = {
- Liberalism = 5
+ Liberalism = 10
   Nationalism = 20
   conservatism = 8
-  movement_communism = 2
+  movement_communism = 7
   ##Social Democrats##
-  social_democracy = 10
-  moderate_socialism = 20
+  social_democracy = 20
+  moderate_socialism = 15
   ##commic##
-  committee_communism = 23
-  communism = 12
+  committee_communism = 13
+  communism = 7
 }
 set_variable = { var = FactionStatus value = 2}
 ########################
@@ -60,11 +58,9 @@ add_ideas = {
 	ethnostate
 #########
 HUN_glory_of_great_hungary
-HUN_protecter_in_balkan
-HUN_dominion_name
 HUN_SLO_problem
-HUN_brocken_policy
-victor_of_the_revolutionary_war
+HUN_Hungarian_socialism
+participant_of_the_revolutionary_war 
 
 }
 create_country_leader = {
@@ -81,19 +77,11 @@ create_country_leader = {
 	desc = "HUN_Szakasits_desc" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 
-	ideology = democratic_socialism
+	ideology =mass_socialism
 	traits = {  
 	}
 }
-create_country_leader = {
-	name = "HUN_naji" 
-	desc = "" 
-	picture = "gfx/leaders/HUN/portrait_HUN_naji.png"
-	expire = "1999.5.3"  # 
-	ideology = left_social_democracy
-	traits = {  
-	}
-}
+
 create_country_leader = {
 	name = "HUN_bella" 
 	desc = "" 

@@ -69,5 +69,9 @@ bookmarks = {
 			NIP_Continental_operations_resumed
 			}
 		}
+		"XKS"={
+			minor = yes
+			history = "XKS_GATHERING_STORM_DESC"
+		}
 	}
 }

@@ -53,5 +53,5 @@ graduated_taxation
 	public_health_insurance
 	ethnostate
 
-	HUN_inflluence
+	loser_of_the_revolutionary_war
 }

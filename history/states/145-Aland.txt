@@ -6,7 +6,7 @@ state = {
 	state_category = one_island
 
 	history = {
-		owner = SWE
+		owner = FIN
 		buildings = {
 			infrastructure = 3
 			9228 = {
@@ -15,7 +15,7 @@ state = {
 		}
 		add_core_of = FIN
 		add_core_of = SWE
-		set_demilitarized_zone = yes
+
 	}
 
 	provinces = {

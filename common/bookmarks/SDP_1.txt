@@ -40,12 +40,13 @@ bookmarks = {
 			}
 		}
 		"CAN"={
-			history = "AIS_GATHERING_STORM_DESC"
+			history = "CAN_GATHERING_STORM_DESC"
 			available = {}
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+		
 	}
 }

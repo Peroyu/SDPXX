@@ -45,6 +45,7 @@ add_to_faction = LIT
 add_to_faction = EST
 add_to_faction = GER
 add_to_faction = CZE
+add_to_faction = ROM
 add_to_faction = AUS
 add_to_faction = KHO
 add_to_faction = TRU
