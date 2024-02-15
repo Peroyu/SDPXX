@@ -64,9 +64,9 @@ participant_of_the_revolutionary_war
 
 }
 create_country_leader = {
-	name = "HUN_Rakosi_Matyas" 
-	desc = "HUN_Rakosi_Matyas_desc" 
-	picture = "gfx/leaders/HUN/portrait_HUN_Rakosi_Matyas.png"
+	name = "HUN_kun_bela" 
+	desc = "HUN_kun_bela_desc" 
+	picture = "gfx/leaders/HUN/portrait_HUN_kun_bela.png"
 	expire = "1999.5.3"  # 
 	ideology = leninism
 	traits = {  
@@ -81,13 +81,21 @@ create_country_leader = {
 	traits = {  
 	}
 }
-
 create_country_leader = {
 	name = "HUN_bella" 
 	desc = "" 
 	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
 	expire = "1999.5.3"  # 
 	ideology = Casselism
+	traits = {  
+	}
+}
+create_country_leader = {
+	name = "HUN_Anna_Kethly" 
+	desc = "" 
+	picture = "gfx/leaders/HUN/portrait_HUN_Arpad_Szakasits.dds"
+	expire = "1999.5.3"  # 
+	ideology = FabianSocialism
 	traits = {  
 	}
 }
