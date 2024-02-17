@@ -65,7 +65,11 @@ add_ideas = {
 	CRT_centralists_factors
 	loser_of_the_revolutionary_war
 	#####
-	
+	YUG_Josep_Broz
+	YUG_Stanoye_Simic
+	YUG_Miha_Malinko
+	YUG_Boris_Kidrich
+	YUG_Ivan_Milutinovic
 	###
 graduated_taxation
 	compulsory_primary_school

@@ -31,7 +31,13 @@ add_ideas = {
 	secret_police
 	public_health_insurance
 	ethnostate
-	
+	#########
+	YUG_Pavle_Pavlovich
+	YUG_Stanoye_Simic
+	YUG_Pavley_Gregoritsch
+	YUG_Yuraj_Shutaiy
+	YUG_Ivan_Milutinovic
+	##########
 	YUG_Federal_part
 	YUG_balkan_revolutionary_pioneer
 	YUG_yugaslavia_leader
@@ -43,8 +49,8 @@ add_ideas = {
 set_popularities = {
 	committee_communism = 20
 	communism = 30
-	moderate_socialism = 10
-	liberalism = 5
+	moderate_socialism = 5
+	liberalism = 10
 	conservatism = 4
 	Nationalism = 12
 	reactionism = 3
@@ -86,6 +92,15 @@ create_country_leader = {
 	picture = ""  # 
 	expire = "1956.6.6"  # 
 	ideology =  national_syndicalism # 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "德拉戈留布·米哈伊洛维奇"  # 
+	desc = ""  # 
+	picture = ""  # 
+	expire = "1956.6.6"  # 
+	ideology =  liberal_democracy# 
 	traits = {  # 
 	}
 }

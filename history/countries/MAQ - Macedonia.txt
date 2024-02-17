@@ -34,6 +34,12 @@ add_ideas = {
 	YUG_Federal_part
    	MAQ_VMRO
 	MAQ_new_leader
+
+	YUG_Metotya_Shatorov
+	YUG_Stanoye_Simic
+	YUG_Dimittal_Vlakhov
+	YUG_Lazar_Kolishevsky
+	YUG_Ivan_Milutinovic
 }
 create_country_leader = {
 	name = "MAQ_Metodija_Satorov"  # 

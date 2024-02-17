@@ -1,0 +1,126 @@
+﻿focus_tree = {
+	id = HUN_tree_1
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	reset_on_civilwar = no
+	
+	focus = {
+		id = HUN_participants_returns
+		icon = HUN_participants_returns
+		x = 8
+		y = 0
+		cost = 0
+
+		available = {
+			always = no
+		}
+		allow_branch = {
+			has_country_flag = HUN_participants_returns
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = HUN_for_revolutionists
+		icon = HUN_for_revolutionists
+		cost = 2
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = HUN_participants_returns
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_unions_task
+		icon = HUN_unions_task
+		cost = 2
+		x = 5
+		y = 2
+		prerequisite = {
+			focus = HUN_for_revolutionists
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_party_clear
+		icon = HUN_party_clear
+		cost = 2
+		x = 11
+		y = 2
+		prerequisite = {
+			focus = HUN_for_revolutionists
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_1920_focus
+		icon = HUN_1920_focus
+		cost = 2
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = HUN_party_clear
+		}
+		prerequisite = {
+			focus = HUN_unions_task
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_release_ourselves
+		icon = HUN_release_ourselves
+		cost = 2
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = HUN_1920_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_protect_us
+		icon = HUN_protect_us
+		cost = 3
+		x = 8
+		y = 5
+		prerequisite = {
+			focus = HUN_release_ourselves
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_politic_department_conference
+		icon = HUN_politic_department_conference
+		cost = 3
+		x = 8
+		y = 6
+		prerequisite = {
+			focus = HUN_protect_us
+		}
+		completion_reward = { 
+			
+			}
+	}
+
+}

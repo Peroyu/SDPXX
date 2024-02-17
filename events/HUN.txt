@@ -1,0 +1,28 @@
+﻿add_namespace = HUN_event
+country_event = {
+    id = HUN_event.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.1 FROM = [From.GetName]" }
+	title = HUN_event.1.t
+	desc = HUN_event.1.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_country_flag = HUN_participants_returns
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		name = HUN_event.1.a
+		hidden_effect = {
+			complete_national_focus = HUN_participants_returns
+		}
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+	}
+}

@@ -22,6 +22,12 @@ add_ideas = {
    	YUG_Federal_part
 	SLV_economic_pearl
 	SLV_germany_in_cities
+
+	YUG_Edward_Cadell
+	YUG_Stanoye_Simic
+	YUG_Alia_Aliagic
+	YUG_Vlajko_Begovich
+	YUG_Ivan_Milutinovic
 }
 set_popularities = {
 	communism = 10

@@ -1,4 +1,37 @@
 spriteTypes = {	
+	#####HUN########
+	SpriteType = {
+		name = "GFX_HUN_participants_returns"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_13.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_for_revolutionists"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_17.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_unions_task"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_12.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_1920_focus"
+		texturefile = "gfx/interface/goals/HUN/HUN_SLO_left.dds"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_release_ourselves"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_18.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_party_clear"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_11.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_politic_department_conference"
+		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_protect_us"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
+	}
     ####YUG#######
 	SpriteType = {
 		name = "GFX_YUG_focus_0"

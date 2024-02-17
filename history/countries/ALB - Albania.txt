@@ -21,6 +21,12 @@ add_ideas = {
 	YUG_Federal_part
    	ALB_ignore_nations
 	ALB_north_and_south
+
+	YUG_Kochi_Zoze
+	YUG_Stanoye_Simic
+	YUG_Hoxa
+	YUG_Avni_Rustami
+	YUG_Ivan_Milutinovic
 }
 set_popularities = {
 	communism = 25

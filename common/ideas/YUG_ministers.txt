@@ -1,7 +1,7 @@
 
 ideas = {
 	head_of_government = { ### Head of Government ###
-		TUR_Riza_Tevfik = {
+		YUG_Pavle_Pavlovich = {
 			allowed = { original_tag = YUG }
 			available = {
 				custom_trigger_tooltip = {
@@ -9,25 +9,93 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TUR_Riza_Tevfik"
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Pavle_Pavlovich"
 			}
 			traits = {
 				head_of_government
 			}
 		}
-		
-
-	}
-	person_of_dip = { ### person of dip ###
-		TUR_Huseyin_Cahit_Yalcln = {
-			allowed = { original_tag = YUG }
+		YUG_Josep_Broz = {
+			allowed = { original_tag = CRT }
 			available = {
 				custom_trigger_tooltip = {
 					always = no
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TUR_Huseyin_Cahit_Yalcln"
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Josep_Broz"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		YUG_Edward_Cadell = {
+			allowed = { original_tag = SLV }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Edward_Cadell"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		YUG_Rodolyub_Cholakovich = {
+			allowed = { original_tag = BOS }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Rodolyub_Cholakovich"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		YUG_Metotya_Shatorov = {
+			allowed = { original_tag = MAQ }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Metotya_Shatorov"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+		YUG_Kochi_Zoze = {
+			allowed = { original_tag = ALB }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Kochi_Zoze"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+	}
+	person_of_dip = { ### person of dip ###
+		YUG_Stanoye_Simic = {
+			allowed = { always = YES }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Stanoye_Simic"
 			}
 			traits = {
 				person_of_dip
@@ -36,7 +104,7 @@ ideas = {
 		
 	}
 	person_of_arm = { ### person of arm ###
-		TUR_Mustafa_Sabri_Efendi = {
+		YUG_Pavley_Gregoritsch = {
 			allowed = { original_tag = YUG }
 			available = {
 				custom_trigger_tooltip = {
@@ -44,17 +112,76 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TUR_Mustafa_Sabri_Efendi"
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Pavley_Gregoritsch"
 			}
 			traits = {
 				person_of_arm
-				great_mufuti
+				
 			}
 		}
-		
+		YUG_Miha_Malinko = {
+			allowed = { original_tag = CRT }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Miha_Malinko"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		YUG_Alia_Aliagic= {
+			allowed = { original_tag = SLV}
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Alia_Aliagic"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		YUG_Dimittal_Vlakhov= {
+			allowed = { original_tag = MAQ}
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Dimittal_Vlakhov"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
+		YUG_Hoxa= {
+			allowed = { original_tag = ALB}
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Hoxa"
+			}
+			traits = {
+				person_of_arm
+				
+			}
+		}
 	}
 	person_of_eco = { ### person of eco ###
-	TUR_Mehmed_Cavid_Bey = {
+	YUG_Yuraj_Shutaiy = {
 			allowed = { original_tag = YUG }
 			available = {
 				custom_trigger_tooltip = {
@@ -62,24 +189,79 @@ ideas = {
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TUR_Mehmed_Cavid_Bey"
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Yuraj_Shutaiy"
 			}
 			traits = {
 				person_of_eco
 			}
 		}
-		
-	}
-	chief_of_staff = {
-		TUR_Sehzade_Omer_Faruk = {
-			allowed = { original_tag = TUR }
+		YUG_Boris_Kidrich = {
+			allowed = { original_tag = CRT }
 			available = {
 				custom_trigger_tooltip = {
 					always = no
 				}
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea TUR_Sehzade_Omer_Faruk"
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Boris_Kidrich"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		YUG_Vlajko_Begovich = {
+			allowed = { original_tag = SLV }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Vlajko_Begovich"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		YUG_Lazar_Kolishevsky = {
+			allowed = { original_tag = MAQ }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Lazar_Kolishevsky"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+		YUG_Avni_Rustami = {
+			allowed = { original_tag = ALB }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Avni_Rustami"
+			}
+			traits = {
+				person_of_eco
+			}
+		}
+	}
+	chief_of_staff = {
+		YUG_Ivan_Milutinovic = {
+			allowed = { always = yes }
+			available = {
+				custom_trigger_tooltip = {
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea YUG_Ivan_Milutinovic"
 			}
 			traits = {
 				chief_of_staff
