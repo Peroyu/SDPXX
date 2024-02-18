@@ -1,0 +1,19 @@
+Balkan_regional_crisis = {
+	    icon = decision_category_generic_economy
+	    picture = GFX_decisions_Balkan_regional_crisis
+		available = {
+	         tag = HUN
+		}
+		visible = {
+			tag = HUN
+			NOT = {
+				has_global_flag = Balkan_crisis_is_over
+			}
+        }
+		cancel_trigger = {
+			has_global_flag = Balkan_crisis_is_over
+        }
+        priority = 1000
+		allowed = { original_tag = HUN }
+		visible_when_empty = yes
+    }

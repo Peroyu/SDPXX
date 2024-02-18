@@ -20,6 +20,7 @@ SDP_ROC_TITLE: "民国中央广播站"
  SDP_roc_7: "毕业歌"
  SDP_roc_8: "胜利进行曲"
  SDP_roc_9: "西北青年进行曲"
+ SDP_roc_10: "國父紀念歌"
 
 SDP_islam_TITLE: "君士坦丁堡电台"
 
@@ -31,7 +32,8 @@ SDP_Entente_3: "Deutsche Musik - Die Wacht am Rhein"
 SDP_Entente_4: "Jessye Norman - Hymne à la liberté (REPRISE)"
 SDP_Entente_5: "Stabsmusikkorps Berlin Volker Wörrlein - Preußens"
 SDP_Entente_6: "Sir Charles Groves - Rule Britannia"
- 
+SDP_Entente_7: "Edwin Paling - Le pas d'acier, Op. 41 ： L'usine" 
+
 SDP_USA_TITLE: "合众国自由电台"
 
 
@@ -51,3 +53,5 @@ SDP_japan_12: "Roselia - FIRE BIRD"
 SDP_japan_13: "ChouCho - GloryStory"
 SDP_japan_14: "田中理恵 野川さくら 園崎未恵 - エーリカ"
 SDP_japan_15: "TrySail - High Free Spirits"
+SDP_japan_16: "Poppin'Party - ティアドロップス"
+SDP_japan_17: "米澤円 - 夢想歌"

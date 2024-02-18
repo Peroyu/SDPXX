@@ -54,3 +54,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_Entente_7"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

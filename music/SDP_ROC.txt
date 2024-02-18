@@ -80,3 +80,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_roc_10"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

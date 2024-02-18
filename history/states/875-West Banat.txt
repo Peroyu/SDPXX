@@ -8,7 +8,7 @@ state = {
 	history = {
 		set_demilitarized_zone = yes
 		owner = HUN
-		add_core_of = HUN
+		add_core_of = YUG
 		buildings = {
 			infrastructure = 3
 		}
