@@ -9,7 +9,8 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = 0.1
-				custom_effect_tooltip = HUN_glory_of_great_hungary_map
+				resistance_target = 0.4
+				custom_modifier_tooltip = HUN_glory_of_great_hungary_map
 			}
 		}
 		HUN_dominion_name = {
@@ -24,6 +25,7 @@ ideas = {
 				political_power_gain = -0.05
 				Nationalism_drift = 0.01
 				autonomy_gain = -0.05
+				
 				custom_effect_tooltip = HUN_dominion_name_ours
 			}
 		}
@@ -39,6 +41,7 @@ ideas = {
 				political_power_gain = 0.05
 				social_democracy_drift = 0.01
 				Nationalism_drift = 0.01
+				resistance_target = 0.3
 			}
 		}
 		HUN_protecter_in_balkan = {

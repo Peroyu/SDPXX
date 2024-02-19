@@ -2167,36 +2167,7 @@ news_event = {
     desc = ISU.19.d
     immediate = { 
         hidden_effect = {
-            HUN = {
-                transfer_state = 1123
-                transfer_state = 1135 
-                transfer_state = 664
-                leave_faction = yes
-            }
-            1123 = {
-                set_demilitarized_zone = yes
-            }
-            1135 = {
-                set_demilitarized_zone = yes
-            }
-            664 = {
-                set_demilitarized_zone = yes
-            }
-            SLO = {
-                set_cosmetic_tag = SLO_anti
-                load_oob = SLO_rebeline
-                leave_faction = yes
-            }
-            every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id = ISU.20
-					days = 19
-				}
-			}
+           
 
         }
 	}

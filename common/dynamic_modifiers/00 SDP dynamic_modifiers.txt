@@ -41,6 +41,14 @@ HUN_fuyifudingna = {
 		alway = yes
 	}
 	compliance_gain = -0.1
+	resistance_growth = 0.3
+	icon = GFX_AUS_slovenia_revolts
+}
+Balkan_resistance = {
+	enable = {
+		alway = yes
+	}
+	resistance_growth = 0.5
 	icon = GFX_AUS_slovenia_revolts
 }
 AIS_regional_revolts = {

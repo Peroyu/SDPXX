@@ -18,8 +18,7 @@ state = {
 			infrastructure = 1
 		}
 
-		add_core_of = HUN
-		# add_claim_by = ROM # will be added by focus
+		add_claim_by = HUN # will be added by focus
 		victory_points = { 11592 2 } #Resita
 	}
 

@@ -472,6 +472,134 @@ country_event = {
 	}
 }
 country_event = {
+    id = ISU_event.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.6 FROM = [From.GetName]" }
+	title = ISU_event.6.t
+	desc = ISU_event.6.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			HUN = {
+				country_event = {
+					id = HUN_event.2
+					days = 1
+				}
+			}
+			VOL = {
+				transfer_state = 45
+				transfer_state = 875
+				add_state_core = 45
+				add_state_core = 875
+				declare_war_on = {
+					target = HUN
+					type = take_state
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.6.a
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.6.b
+		YUG = {
+			country_event = {
+				id = ISU_event.7
+				days = 20
+			}
+		}
+	}
+}
+country_event = {
+    id = ISU_event.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.7 FROM = [From.GetName]" }
+	title = ISU_event.7.t
+	desc = ISU_event.7.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_autonomy = {
+			target = VOL
+			autonomy_state = autonomy_puppet
+		}
+		declare_war_on = { target = HUN type = take_claimed_state } 
+		name = ISU_event.7.a
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.7.a
+		
+	}
+}
+country_event = {
+    id = ISU_event.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.8 FROM = [From.GetName]" }
+	title = ISU_event.8.t
+	desc = ISU_event.8.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.8.a
+		transfer_state = 1114
+		transfer_state = 82
+		transfer_state = 83
+		transfer_state = 1113
+		transfer_state =  84
+		
+		hidden_effect = {
+			HUN = {
+				declare_war_on = { target = ROM type = take_claimed_state } 
+			}
+		}
+		
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.8.b
+		
+	}
+}
+country_event = {
     id = FOB.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	FOB.1 FROM = [From.GetName]" }
@@ -770,55 +898,6 @@ country_event = {
 		annex_country = { target = DZG transfer_troops = yes }
 	}
 	name = GER.3.b
-	}
-}
-country_event = {
-    id = HUN.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event
-	HUN.2 FROM = [From.GetName]" }
-	title = HUN.2.t
-	desc = HUN.2.d
-	picture = GFX_CHIwar.1
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = HUN
-		HUN = {
-			NOT = {
-				has_war_with = ROM
-			
-			}
-			NOT = {
-				has_war_with = ISU
-			}
-		}
-		NOT = {
-			country_exists = SLO
-		}
-		NOT = {
-			has_global_flag = Balkan_HUN_win
-		}
-	}
-	immediate = {
-	    hidden_effect = {
-			SLO = {
-				drop_cosmetic_tag = yes
-				transfer_state = 1123
-				transfer_state = 1135
-				transfer_state = 664
-				transfer_state = 70
-				transfer_state = 1120
-				transfer_state = 1121
-				transfer_state = 1119
-			}
-		}
-    }
-	option = { 
-	    name = HUN.2.a
-	    ai_chance = {
-		   base = 100
-		}
 	}
 }
 country_event = {

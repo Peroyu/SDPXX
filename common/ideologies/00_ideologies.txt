@@ -21,7 +21,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 83 24 17 } # Red	
+		color = { 127 0 0 } # Red	
 		
 		rules = {
 			can_create_collaboration_government = no

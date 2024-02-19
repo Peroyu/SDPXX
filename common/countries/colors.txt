@@ -507,6 +507,10 @@ YUG = {
 	color = rgb { 112 133 224} 
 	color_ui = rgb {  112 133 224}
 }
+VOL = {
+	color = rgb { 112 133 224} 
+	color_ui = rgb {  112 133 224}
+}
 MAQ = {
 	color = rgb { 112 133 224} 
 	color_ui = rgb {  112 133 224}

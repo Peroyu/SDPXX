@@ -26,3 +26,77 @@ country_event = {
 		custom_effect_tooltip = SDP_national_focus_changed_tt
 	}
 }
+country_event = {
+    id = HUN_event.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.2 FROM = [From.GetName]" }
+	title = HUN_event.2.t
+	desc = HUN_event.2.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_state = {
+			limit = {
+				is_owned_by = HUN
+				NOT = {
+					is_core_of = HUN
+				}
+			}
+			add_dynamic_modifier = {
+				modifier = Balkan_resistance
+			}
+		}
+		name = HUN_event.2.a
+	}
+}
+country_event = {
+    id = HUN_event.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.3 FROM = [From.GetName]" }
+	title = HUN_event.3.t
+	desc = HUN_event.3.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			SLO = {
+				transfer_state = 1120
+			transfer_state = 1121
+			transfer_state = 70
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+			}
+			news_event = {
+				id = ISU.19
+				days = 1
+			}
+		}
+		declare_war_on = { target = SLO type = take_claimed_state } 
+		name = HUN_event.3.a
+	}
+}

@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/categories/decision_category_usa_congress.dds"
 	}
 	spriteType = {
+		name = "decision_category_hol_secret_staff_talks"
+		texturefile = "gfx/interface/decisions/categories/decision_category_hol_secret_staff_talks.dds"
+	}
+	spriteType = {
 		name = "GFX_decisions_GDC_hunger"
 		texturefile = "gfx/interface/decisions/GFX_decisions_GDC_hunger.png"
 	}
@@ -98,6 +102,10 @@ spriteTypes = {
 	spriteType = {
 		name = "decision_cat_picture_plot_against_boris"
 		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_plot_against_boris.png"
+	}
+	spriteType = {
+		name = "decision_cat_picture_macedonian_organizations"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_picture_macedonian_organizations.dds"
 	}
 	spriteType = {
 		name = "decision_cat_picture_JAP_election_decision"
