@@ -9,7 +9,244 @@
 		}
 	}
 	reset_on_civilwar = no
-	
+
+
+	focus = {
+		id = HUN_relive_from_war
+		icon = HUN_relive_from_war
+		x = 16
+		y = 0
+		cost = 2
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = HUN_union_in_economy
+		icon = HUN_union_in_economy
+		cost = 2
+		x = 14
+		y = 1
+		prerequisite = {
+			focus = HUN_relive_from_war
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_face_brocken_economy
+		icon = HUN_face_brocken_economy
+		cost = 2
+		x = 18
+		y = 1
+		prerequisite = {
+			focus = HUN_relive_from_war
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_prepare_new_cash
+		icon = HUN_prepare_new_cash
+		cost = 4
+		x = 16
+		y = 2
+		prerequisite = {
+			focus = HUN_face_brocken_economy
+		}
+		prerequisite = {
+			focus = HUN_union_in_economy
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_from_sebia
+		icon = HUN_from_sebia
+		cost = 2
+		x = 13
+		y = 3
+		prerequisite = {
+			focus = HUN_prepare_new_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_austria_and_hungary
+		icon = HUN_austria_and_hungary
+		cost = 2
+		x = 15
+		y = 3
+		prerequisite = {
+			focus = HUN_prepare_new_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_three_year_plan
+		icon = HUN_three_year_plan
+		cost = 4
+		x = 14
+		y = 4
+		prerequisite = {
+			focus = HUN_austria_and_hungary
+		}
+		prerequisite = {
+			focus = HUN_from_sebia
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_farming_station
+		icon = HUN_farming_station
+		cost = 4
+		x = 14
+		y = 5
+		prerequisite = {
+			focus = HUN_three_year_plan
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_from_romania
+		icon = HUN_from_romania
+		cost = 2
+		x = 17
+		y = 3
+		prerequisite = {
+			focus = HUN_prepare_new_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_from_ourselves
+		icon = HUN_from_ourselves
+		cost = 2
+		x = 19
+		y = 3
+		prerequisite = {
+			focus = HUN_prepare_new_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_union_for_labour
+		icon = HUN_union_for_labour
+		cost = 4
+		x = 18
+		y = 4
+		prerequisite = {
+			focus = HUN_from_ourselves
+		}
+		prerequisite = {
+			focus = HUN_from_romania
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_minor_cash
+		icon = HUN_minor_cash
+		cost = 4
+		x = 18
+		y = 5
+		prerequisite = {
+			focus = HUN_union_for_labour
+		}
+		
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_frint
+		icon = HUN_frint
+		cost = 3
+		x = 16
+		y = 6
+		prerequisite = {
+			focus = HUN_minor_cash
+		}
+		prerequisite = {
+			focus = HUN_farming_station
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_austrian_cash
+		icon = HUN_austrian_cash
+		cost = 4
+		x = 16
+		y = 8
+		prerequisite = {
+			focus = HUN_frint
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_stable_frint
+		icon = HUN_stable_frint
+		cost = 4
+		x = 13
+		y = 9
+		prerequisite = {
+			focus = HUN_austrian_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_department_for_goods
+		icon = HUN_department_for_goods
+		cost = 4
+		x = 19
+		y = 9
+		prerequisite = {
+			focus = HUN_austrian_cash
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_war_is_over
+		icon = HUN_war_is_over
+		cost = 4
+		x = 16
+		y = 10
+		prerequisite = {
+			focus = HUN_department_for_goods
+		}
+		prerequisite = {
+			focus = HUN_stable_frint
+		}
+		completion_reward = { 
+			
+			}
+	}
+
 	focus = {
 		id = HUN_participants_returns
 		icon = HUN_participants_returns

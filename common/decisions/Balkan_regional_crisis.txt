@@ -141,7 +141,7 @@ Balkan_regional_crisis = {
             hidden_effect = {
                 HUN = {
                     country_event = {
-                        id = ISU_event.3 
+                        id = HUN_event.3
                         days = 1
                     }
                 }
@@ -241,6 +241,11 @@ Balkan_regional_crisis = {
 
 		timeout_effect = {
             hidden_effect = {
+				HUN = {
+					remove_state_core = 1118
+					remove_state_core = 1112
+					remove_state_core = 1117
+				}
                 ROM = {
                     country_event = {
                         id = ISU_event.8

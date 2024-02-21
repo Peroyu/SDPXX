@@ -2189,38 +2189,7 @@ news_event = {
     desc = ISU.20.d
     immediate = { 
         hidden_effect = {
-            set_global_flag = Balkan_Crisis_began
-            HUN = {
-                set_autonomy = {
-                    target = ROM
-                    autonomy_state = autonomy_free
-                }
-            }
-            ROM = {
-                annex_country = { target = TRA transfer_troops = yes }
-                set_cosmetic_tag = ROM_unit
-            }
-            HUN = {
-                create_faction = 巴尔干防卫阵线
-                add_to_faction = SER
-                add_to_faction = BOS
-            }
-            ISU = {
-                country_event = {
-                    id = HUN.6
-                    days = 85
-                }
-            }
-            every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id = ISU.23
-					days = 15
-				}
-			}
+    
         }
 	}
     is_triggered_only = yes
@@ -2352,26 +2321,7 @@ news_event = {
     desc = ISU.23.d
     immediate = { 
         hidden_effect = {
-            SLO = {
-                declare_war_on = { target = HUN type = take_state }
-            }
-		set_global_flag = HUN_in_balkan_crisis
-            ROM = {
-                transfer_state = 1113
-                transfer_state = 84
-                transfer_state = 1116
-                declare_war_on = { target = HUN type = take_state }
-            }
-            every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id = ISU.21
-					days = 7
-				}
-			}
+           
         }
 	}
     is_triggered_only = yes

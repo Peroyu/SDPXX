@@ -535,6 +535,10 @@ ROM = {
 	color = rgb {  208 184 73 }
 	color_ui = rgb {  208 184 73 }
 }
+TRS = {
+	color = rgb {  208 184 73 }
+	color_ui = rgb {  208 184 73 }
+}
 TRA = {
 	color = rgb { 136 59 37 }
 	color_ui = rgb { 136 59 37}

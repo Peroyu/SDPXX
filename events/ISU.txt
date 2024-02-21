@@ -483,7 +483,14 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			ROM = {
+				leave_faction = yes
+			}
+			YUG = {
+				leave_faction = yes
+			}
 			HUN = {
+				leave_faction = yes
 				country_event = {
 					id = HUN_event.2
 					days = 1
@@ -577,25 +584,34 @@ country_event = {
 		   base = 100
 		}
 		name = ISU_event.8.a
-		transfer_state = 1114
-		transfer_state = 82
-		transfer_state = 83
-		transfer_state = 1113
-		transfer_state =  84
-		
 		hidden_effect = {
-			HUN = {
-				declare_war_on = { target = ROM type = take_claimed_state } 
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.23
+					days = 1
+				}
+			}
+		}
+		TRS = {
+			transfer_state = 1114
+			transfer_state = 82
+			transfer_state = 83
+			transfer_state = 1113
+			transfer_state =  84
+			
+			declare_war_on = { target = HUN type = take_claimed_state } 
+			load_oob = "TRS_crisis"
+		}
+		ROM = {
+			country_event = {
+				id = HUN_event.4
+				days = 12
 			}
 		}
 		
-		
-	}
-	option = { 
-	    ai_chance = {
-		   base = 100
-		}
-		name = ISU_event.8.b
 		
 	}
 }
