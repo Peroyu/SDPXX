@@ -15,9 +15,11 @@
 		id = HUN_relive_from_war
 		icon = HUN_relive_from_war
 		x = 16
-		y = 0
+		y = 1
 		cost = 2
-
+		prerequisite = {
+			focus = HUN_participants_returns
+		}
 		completion_reward = {
 			
 		}
@@ -27,7 +29,7 @@
 		icon = HUN_union_in_economy
 		cost = 2
 		x = 14
-		y = 1
+		y = 2
 		prerequisite = {
 			focus = HUN_relive_from_war
 		}
@@ -40,7 +42,7 @@
 		icon = HUN_face_brocken_economy
 		cost = 2
 		x = 18
-		y = 1
+		y = 2
 		prerequisite = {
 			focus = HUN_relive_from_war
 		}
@@ -53,7 +55,7 @@
 		icon = HUN_prepare_new_cash
 		cost = 4
 		x = 16
-		y = 2
+		y = 3
 		prerequisite = {
 			focus = HUN_face_brocken_economy
 		}
@@ -69,7 +71,7 @@
 		icon = HUN_from_sebia
 		cost = 2
 		x = 13
-		y = 3
+		y = 4
 		prerequisite = {
 			focus = HUN_prepare_new_cash
 		}
@@ -82,7 +84,7 @@
 		icon = HUN_austria_and_hungary
 		cost = 2
 		x = 15
-		y = 3
+		y = 4
 		prerequisite = {
 			focus = HUN_prepare_new_cash
 		}
@@ -95,7 +97,7 @@
 		icon = HUN_three_year_plan
 		cost = 4
 		x = 14
-		y = 4
+		y = 5
 		prerequisite = {
 			focus = HUN_austria_and_hungary
 		}
@@ -111,7 +113,7 @@
 		icon = HUN_farming_station
 		cost = 4
 		x = 14
-		y = 5
+		y = 6
 		prerequisite = {
 			focus = HUN_three_year_plan
 		}
@@ -124,7 +126,7 @@
 		icon = HUN_from_romania
 		cost = 2
 		x = 17
-		y = 3
+		y = 4
 		prerequisite = {
 			focus = HUN_prepare_new_cash
 		}
@@ -137,7 +139,7 @@
 		icon = HUN_from_ourselves
 		cost = 2
 		x = 19
-		y = 3
+		y = 4
 		prerequisite = {
 			focus = HUN_prepare_new_cash
 		}
@@ -150,7 +152,7 @@
 		icon = HUN_union_for_labour
 		cost = 4
 		x = 18
-		y = 4
+		y = 5
 		prerequisite = {
 			focus = HUN_from_ourselves
 		}
@@ -166,7 +168,7 @@
 		icon = HUN_minor_cash
 		cost = 4
 		x = 18
-		y = 5
+		y = 6
 		prerequisite = {
 			focus = HUN_union_for_labour
 		}
@@ -180,7 +182,7 @@
 		icon = HUN_frint
 		cost = 3
 		x = 16
-		y = 6
+		y = 7
 		prerequisite = {
 			focus = HUN_minor_cash
 		}
@@ -196,7 +198,7 @@
 		icon = HUN_austrian_cash
 		cost = 4
 		x = 16
-		y = 8
+		y = 9
 		prerequisite = {
 			focus = HUN_frint
 		}
@@ -209,7 +211,7 @@
 		icon = HUN_stable_frint
 		cost = 4
 		x = 13
-		y = 9
+		y = 10
 		prerequisite = {
 			focus = HUN_austrian_cash
 		}
@@ -222,7 +224,7 @@
 		icon = HUN_department_for_goods
 		cost = 4
 		x = 19
-		y = 9
+		y = 10
 		prerequisite = {
 			focus = HUN_austrian_cash
 		}
@@ -235,7 +237,7 @@
 		icon = HUN_war_is_over
 		cost = 4
 		x = 16
-		y = 10
+		y = 11
 		prerequisite = {
 			focus = HUN_department_for_goods
 		}
@@ -250,7 +252,7 @@
 	focus = {
 		id = HUN_participants_returns
 		icon = HUN_participants_returns
-		x = 8
+		x = 12
 		y = 0
 		cost = 0
 
@@ -354,6 +356,147 @@
 		y = 6
 		prerequisite = {
 			focus = HUN_protect_us
+		}
+		completion_reward = { 
+			country_event = {
+				id = HUN_event.5
+				days = 1
+			}
+			}
+	}
+	focus = {
+		id = HUN_red_flag_rising
+		icon = HUN_red_flag_rising
+		cost = 1
+		x = 8
+		y = 7
+		available = {
+			always = no
+		}
+		allow_branch = {
+			has_completed_focus = HUN_politic_department_conference
+		}
+		prerequisite = {
+			focus = HUN_politic_department_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_stablity_over_all
+		icon = HUN_stablity_over_all
+		cost = 1
+		x = 8
+		y = 8
+		
+		prerequisite = {
+			focus = HUN_red_flag_rising
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_moblisation_basement
+		icon = HUN_moblisation_basement
+		cost = 3
+		x = 4
+		y = 9
+		
+		prerequisite = {
+			focus = HUN_stablity_over_all
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_smooth_people
+		icon = HUN_smooth_people
+		cost = 4
+		x = 6
+		y = 11
+		
+		prerequisite = {
+			focus = HUN_moblisation_basement
+		}
+		prerequisite = {
+			focus = HUN_cleaner_news
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_contact_union_officer
+		icon = HUN_contact_union_officer
+		cost = 3
+		x = 8
+		y = 9
+		
+		prerequisite = {
+			focus = HUN_stablity_over_all
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_cleaner_news
+		icon = HUN_cleaner_news
+		cost = 3
+		x = 8
+		y = 10
+		
+		prerequisite = {
+			focus = HUN_contact_union_officer
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_the_army
+		icon = HUN_the_army
+		cost = 4
+		x = 10
+		y = 11
+		prerequisite = {
+			focus = HUN_cleaner_news
+		}
+		prerequisite = {
+			focus = HUN_fight_to_international
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_fight_to_international
+		icon = HUN_fight_to_international
+		cost = 3
+		x = 12
+		y = 9
+		
+		prerequisite = {
+			focus = HUN_stablity_over_all
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_Operation_Cyclone
+		icon = HUN_Operation_Cyclone
+		cost = 4
+		x = 8
+		y = 12
+		prerequisite = {
+			focus = HUN_the_army
+		}
+		prerequisite = {
+			focus = HUN_smooth_people
 		}
 		completion_reward = { 
 			
