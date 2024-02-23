@@ -1150,6 +1150,50 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.23
+    picture = GFX_Pacific_23
+    title = Pacific.23.t
+    desc = Pacific.23.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.23.a
+	}
+}
+news_event = {
+	id = Pacific.24
+    picture = GFX_Pacific_24
+    title = Pacific.24.t
+    desc = Pacific.24.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.24.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1

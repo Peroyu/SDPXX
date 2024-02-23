@@ -1364,7 +1364,15 @@ on_actions = {
 						transfer_troops = no
 					}
 				}
-
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = Pacific.24
+						days = 1
+					}
+				}
 				set_global_flag = skip_default_capitulation
 				}
 				if = { # MNL beat MLY
@@ -1390,7 +1398,15 @@ on_actions = {
 						transfer_troops = no
 					}
 				}
-
+				every_country = {
+					limit = {
+						is_ai = no
+					}
+					news_event = {
+						id = Pacific.23
+						days = 1
+					}
+				}
 				set_global_flag = skip_default_capitulation
 			}
 				if = { # MNL beat MLY

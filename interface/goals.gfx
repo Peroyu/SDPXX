@@ -87,6 +87,16 @@ spriteTypes = {
 		name = "GFX_HUN_frint"
 		texturefile = "gfx/interface/goals/HUN/GFX_HUN_frint.png"			
 	}
+
+	SpriteType = {
+		name = "GFX_HUN_austria_and_hungary"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_austria_and_hungary.png"			
+	}
+
+	SpriteType = {
+		name = "GFX_HUN_from_romania"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_from_romania.png"			
+	}
     ####YUG#######
 	SpriteType = {
 		name = "GFX_YUG_focus_0"
