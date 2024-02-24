@@ -51,3 +51,15 @@ music = {
 	file = "SDP_int_8.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "SDP_int_9"
+	file = "SDP_int_9.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "SDP_int_10"
+	file = "SDP_int_10.ogg"
+	volume = 0.65
+}

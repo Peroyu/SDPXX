@@ -80,3 +80,21 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_int_9"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_int_10"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
