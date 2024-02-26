@@ -193,6 +193,40 @@ characters = {
 			logistics_skill=1
 		}
 	}
+	GDC_Cai_Tingkai={
+		name = "GDC_Cai_Tingkai"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Cai_Tingkai
+				large = GFX_portrait_GDC_Cai_Tingkai
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	GDC_Jiang_Guangnai={
+		name = "GDC_Jiang_Guangnai"
+		portraits = {
+			army={
+				small = GFX_portrait_GDC_Jiang_Guangnai
+				large = GFX_portrait_GDC_Jiang_Guangnai
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 	GDC_He_Long={
 		name = "GDC_He_Long"
 		portraits = {

@@ -41,6 +41,63 @@ characters = {
 		}
 
     }
+	KTR_Zhang_Kexia = {
+		name = "KTR_Zhang_Kexia" 
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Zhang_Kexia
+				large = GFX_portrait_KTR_Zhang_Kexia
+			}
+		}
+		
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+
+    }
+	KTR_Xian_Henghan = {
+		name = "KTR_Xian_Henghan" 
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Xian_Henghan
+				large = GFX_portrait_KTR_Xian_Henghan
+			}
+		}
+		
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+
+    }
+	KTR_Xie_Zichang = {
+		name = "KTR_Xie_Zichang" 
+		portraits = {
+			army={
+				small = GFX_portrait_KTR_Xie_Zichang
+				large = GFX_portrait_KTR_Xie_Zichang
+			}
+		}
+		
+		corps_commander={
+			traits={   }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+
+    }
 	KTR_Tang_Shu = {
 		name = "KTR_Tang_Shu" 
 		portraits = {

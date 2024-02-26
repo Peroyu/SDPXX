@@ -233,6 +233,23 @@ characters = {
 			logistics_skill=2
 		}
 	}
+	CJF_Huang_Wei={
+		name = "CJF_Huang_Wei"
+		portraits = {
+			army={
+				small = GFX_portrait_CJF_Huang_Wei
+				large = GFX_portrait_CJF_Huang_Wei
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
 	CJF_Liu_Ruming={
 		name = "CJF_Liu_Ruming"
 		portraits = {
