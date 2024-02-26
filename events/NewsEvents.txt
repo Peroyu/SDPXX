@@ -3010,3 +3010,63 @@ news_event = {
 		name = ISU.45.a
 	}
 }
+news_event = {
+	id = ISU.46
+    picture = GFX_ISU_46
+    title = ISU.46.t
+    desc = ISU.46.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.46.a
+	}
+}
+news_event = {
+	id = ISU.47
+    picture = GFX_ISU_47
+    title = ISU.47.t
+    desc = ISU.47.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.47.a
+	}
+}
+news_event = {
+	id = ISU.48
+    picture = GFX_ISU_48
+    title = ISU.48.t
+    desc = ISU.48.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.48.a
+	}
+}

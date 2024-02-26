@@ -9,7 +9,7 @@ set_stability = 0.6 #
 
 Europe_nowar_initial_techs = yes 
 set_politics = {
-	ruling_party = social_democracy # 
+	ruling_party =movement_communism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -17,20 +17,20 @@ set_politics = {
 # 
 set_popularities = {
 	communism = 10
-	social_democracy = 45
+	social_democracy = 30
 	Liberalism = 15
-	movement_communism = 5
-	conservatism = 15
+	movement_communism = 15
+	conservatism = 20
 	Nationalism = 10
 }
 
 # 
 create_country_leader = {
-	name = "portrait_Tsereteli"  # 
+	name = "GEO_Adalbert_I"  # 
 	desc = "/"  # 
 	picture = "GEO_portrait_Tsereteli"  # 
 	expire = "1952.3.16"  # 
-	ideology = social_reformism # 
+	ideology =Progressive_Conservatusm # 
 	traits = {  # 
 		#
 	}
