@@ -1,0 +1,66 @@
+capital = 41  
+
+oob = "empty"   
+
+set_research_slots = 3  
+
+set_war_support = 0.3  
+set_stability = 0.3  
+Europe_nowar_initial_techs = yes
+ 
+set_politics = {
+	ruling_party = committee_communism
+	last_election = "1947.1.1"
+	election_frequency = 48  
+	elections_allowed = no   
+}
+add_ideas = {
+	graduated_taxation
+	compulsory_primary_school
+	universal_suffrage
+	worker_protections
+	women_in_the_workplace
+	free_trade_policy
+	right_of_assembly
+	old_age_pension
+	public_schools
+	freedom_of_conscience
+	mass_conscription
+	freeholders
+	secret_police
+	public_health_insurance
+	cultural_exclusion
+}
+set_popularities = {
+	committee_communism = 18
+	communism = 12
+	moderate_socialism = 20
+	social_democracy = 25
+	liberalism = 20
+	conservatism = 1
+	Nationalism = 1
+	reactionism = 1
+	restorativeism = 1
+	movement_communism = 1
+}
+
+
+create_country_leader = {
+	name = "SPR_Dolores_Ibarruri "   
+	desc = "SPR_Dolores_Ibarruri_desc"  
+	picture = "gfx/leaders/EU/Portrait_SPR_Dolores_Ibarruri.png"   
+	expire = "1970.1.9"   
+	ideology = parliamentary_communism
+	traits = {  }
+}
+
+################
+set_variable = { var = FactionStatus value = 2 }
+################
+set_variable = { var = SDP_economic_v value = 21 }#60
+set_variable = { var = SDP_education_v value = 22 }#50
+set_variable = { var = SDP_industry_v value = 19 }#60
+set_variable = { var = SDP_agriculture_v value = 18 }#60
+set_variable = { var = SDP_science_v value = 23 }#50
+set_variable = { var = SDP_politics_v value = 30 }#60
+################

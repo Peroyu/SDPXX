@@ -2115,6 +2115,16 @@ news_event = {
     desc = ISU.15.d
     immediate = { 
         hidden_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = ISU.16
+                    days = 24
+                }
+            }
+           
            FOI = {
             set_politics = { 
                 ruling_party = reactionism
@@ -2144,7 +2154,30 @@ news_event = {
     desc = ISU.16.d
     immediate = { 
         hidden_effect = {
-           
+            random_list = {
+                55 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.17
+                            days = 25
+                        }
+                    }
+                }
+                45 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.18
+                            days = 25
+                        }
+                    }
+                }
+            }
         }
 	}
     is_triggered_only = yes
@@ -2166,6 +2199,10 @@ news_event = {
     immediate = { 
         hidden_effect = {
            FOI = {
+            country_event = {
+                id = ISU_event.9
+                days = 2
+            }
             set_cosmetic_tag = SPA_R
            }
         }
@@ -2190,6 +2227,22 @@ news_event = {
     desc = ISU.18.d
     immediate = { 
         hidden_effect = {
+            set_politics = { 
+                ruling_party = moderate_socialism
+            }
+            add_popularity = {
+                ideology = moderate_socialism
+                popularity = 0.2
+              }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = ISU.49
+                    days = 66
+                }
+            }
          
         }
 	}
@@ -3017,7 +3070,30 @@ news_event = {
     desc = ISU.46.d
     immediate = { 
         hidden_effect = { 
-          
+          random_list = {
+            60 = {
+                every_country = {
+                    limit = {
+                        is_ai = no
+                    }
+                    news_event = {
+                        id = ISU.47
+                        days = 32
+                    }
+                }
+            }
+            40 = {
+                every_country = {
+                    limit = {
+                        is_ai = no
+                    }
+                    news_event = {
+                        id = ISU.48
+                        days = 32
+                    }
+                }
+            }
+          }
         }
 	}
     is_triggered_only = yes
@@ -3037,7 +3113,21 @@ news_event = {
     desc = ISU.47.d
     immediate = { 
         hidden_effect = { 
-          
+            random_list = {
+                40 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.15
+                            days = 66
+                        }
+                    }
+                }
+                60 = {
+                }
+              }
         }
 	}
     is_triggered_only = yes
@@ -3068,5 +3158,27 @@ news_event = {
 
 	option = {
 		name = ISU.48.a
+	}
+}
+news_event = {
+	id = ISU.49
+    picture = GFX_ISU_49
+    title = ISU.49.t
+    desc = ISU.49.d
+    immediate = { 
+        hidden_effect = { 
+            ISU = {
+                add_to_faction = FOI
+             }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.49.a
 	}
 }
