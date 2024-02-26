@@ -120,3 +120,9 @@
  HUN_department_for_goods_desc: ""
  HUN_war_is_over: "结束战时记忆"
  HUN_war_is_over_desc: ""
+
+ HUN_BoP_modle: "匈牙利权力平衡"
+ GetSDPBoPtitle_HUN_1: "国际与国内之争"
+ GetSDPBoPcondition_HUN_1_A: "§R国际派§!占有优势"
+ GetSDPBoPcondition_HUN_1_B: "暂时的平衡"
+ GetSDPBoPcondition_HUN_1_C: "§O民族派§!占有优势"

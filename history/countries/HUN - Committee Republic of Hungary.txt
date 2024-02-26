@@ -14,8 +14,9 @@ set_politics = {
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-
+set_country_flag = HUN_internationale_and_national_BoP_flag
 set_variable = { SDP_welcome_splash_variable = 1 }
+set_variable = {line_veriable = 55 }
 
 set_popularities = {
  Liberalism = 10
