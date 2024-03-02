@@ -6,6 +6,13 @@ defined_text = {
 		}
 		localization_key = "GetSDPBoPleftview_debug"
 	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+		}
+		localization_key = "GetSDPBoPleftview_HUN_1"
+	}
 }
 defined_text = {
 	name = GetSDPBoPrightview
@@ -15,6 +22,13 @@ defined_text = {
 	       
 		}
 		localization_key = "GetSDPBoPrightview_debug"
+	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+		}
+		localization_key = "GetSDPBoPrightview_HUN_1"
 	}
 }
 defined_text = {
@@ -26,6 +40,13 @@ defined_text = {
 		}
 		localization_key = GetSDPBoPtitle_debug
 	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+		}
+		localization_key = GetSDPBoPtitle_HUN_1
+	}
 }
 defined_text = {
 	name = GetSDPBoPcondition
@@ -35,5 +56,56 @@ defined_text = {
 	       
 		}
 		localization_key = GetSDPBoPcondition_debug
+	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+			check_variable = {
+				var = ROOT.line_veriable
+				value = 0
+				compare = greater_than
+				}
+			check_variable = {
+				var = ROOT.line_veriable
+				value = 40
+				compare = less_than_or_equals
+				}
+		}
+		localization_key = GetSDPBoPcondition_HUN_1_A
+	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+			check_variable = {
+				var = ROOT.line_veriable
+				value = 40
+				compare = greater_than
+				}
+				check_variable = {
+					var = ROOT.line_veriable
+					value = 60
+					compare = less_than_or_equals
+					}
+		}
+		localization_key = GetSDPBoPcondition_HUN_1_B
+	}
+	text = {
+		trigger = {
+			tag = HUN
+			has_country_flag = HUN_internationale_and_national_BoP_flag
+			check_variable = {
+				var = ROOT.line_veriable
+				value = 60
+				compare = greater_than
+				}
+				check_variable = {
+					var = ROOT.line_veriable
+					value = 100
+					compare = less_than_or_equals
+					}
+		}
+		localization_key = GetSDPBoPcondition_HUN_1_C
 	}
 }

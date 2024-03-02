@@ -7,7 +7,9 @@ set_research_slots = 4
 set_war_support = 0.4 
 set_stability = 0.8 
 Soviet_core_initial_techs = yes
-#
+
+
+set_variable = { var = economic_sphere value = 1 }
 add_ideas = {
 	graduated_taxation
 	compulsory_primary_school
@@ -52,12 +54,10 @@ add_to_faction = TRU
 add_to_faction = BUK
 add_to_faction = MON
 add_to_faction = GIB
-add_to_faction = SLO
 add_to_faction = DZG
 add_to_faction = RCL
 add_to_faction = CAS
 add_to_faction = TKM
-add_to_faction = CRT
 country_event = { id = ISU_event.1 days = 1 }
 country_event = { id = ISU_event.2 days = 600 }
 set_variable = { var = FactionStatus value = 2}

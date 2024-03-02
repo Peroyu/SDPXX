@@ -146,6 +146,10 @@ country_event = {
 				id = ISU.12
 				days = 1000
 			}
+			news_event = {
+				id = ISU.46
+				days = 521
+			}
 		}
 		}
     }
@@ -483,7 +487,14 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			ROM = {
+				leave_faction = yes
+			}
+			YUG = {
+				leave_faction = yes
+			}
 			HUN = {
+				leave_faction = yes
 				country_event = {
 					id = HUN_event.2
 					days = 1
@@ -577,25 +588,88 @@ country_event = {
 		   base = 100
 		}
 		name = ISU_event.8.a
-		transfer_state = 1114
-		transfer_state = 82
-		transfer_state = 83
-		transfer_state = 1113
-		transfer_state =  84
-		
 		hidden_effect = {
-			HUN = {
-				declare_war_on = { target = ROM type = take_claimed_state } 
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.23
+					days = 1
+				}
+			}
+		}
+		TRS = {
+			transfer_state = 1114
+			transfer_state = 82
+			transfer_state = 83
+			transfer_state = 1113
+			transfer_state =  84
+			
+			declare_war_on = { target = HUN type = take_claimed_state } 
+			load_oob = "TRS_crisis"
+		}
+		ROM = {
+			country_event = {
+				id = HUN_event.4
+				days = 12
 			}
 		}
 		
 		
 	}
+}
+country_event = {
+    id = ISU_event.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.9 FROM = [From.GetName]" }
+	title = ISU_event.9.t
+	desc = ISU_event.9.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			POR = {
+				transfer_state = 1316
+			}
+			SPR = {
+				transfer_state = 170
+				transfer_state = 169
+				transfer_state = 795
+				transfer_state = 173
+				transfer_state = 168
+				transfer_state = 175
+				transfer_state = 166
+				transfer_state = 167
+				transfer_state = 165
+
+				add_state_core = 170
+				add_state_core = 169
+				add_state_core = 795
+				add_state_core = 173
+				add_state_core = 168
+				add_state_core = 175
+				add_state_core = 166
+				add_state_core = 167
+				add_state_core = 165
+				load_oob = SPR_1950
+				declare_war_on = {
+					target = FOI
+					type = annex_everything
+				}
+			}
+		}
+    }
+	
 	option = { 
 	    ai_chance = {
 		   base = 100
 		}
-		name = ISU_event.8.b
+		name = ISU_event.9.a
+		
+		
 		
 	}
 }

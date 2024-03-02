@@ -4,7 +4,7 @@
 	        
 		}
 		visible = {
-          is_ai = no
+          is_debug = yes
         }
 		cancel_trigger = {
           

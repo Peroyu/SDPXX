@@ -8,10 +8,6 @@ state = {
 	history = {
 		owner = GRE
 		add_core_of = GRE
-		 add_dynamic_modifier = {
-                        modifier =GRE_Free_city
-                    }
-		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

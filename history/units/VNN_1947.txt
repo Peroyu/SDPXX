@@ -30,6 +30,36 @@ units = {
 		}
 		location = 1073
 		division_template = "Juntuán"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = { # "1 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1157
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = { # "1 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10103
+		division_template = "Juntuán"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = { # "1 Juntuán"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1073
+		division_template = "Juntuán"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}

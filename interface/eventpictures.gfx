@@ -79,6 +79,30 @@ spriteTypes = {
 		name = "GFX_global_5"
 		texturefile = "gfx/event_pictures/news/GFX_global_5.png"
 	}
+	spriteType = {
+		name = "GFX_Pacific_23"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_23.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_24"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_24.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_46"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_46.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_47"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_47.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_49"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_49.png"
+	}
+	spriteType = {
+		name = "GFX_ISU_48"
+		texturefile = "gfx/event_pictures/news/GFX_ISU_48.png"
+	}
     spriteType = {
 		name = "GFX_HUN_SLO_1"
 		texturefile = "gfx/event_pictures/news/HUN_SLO_1.dds"

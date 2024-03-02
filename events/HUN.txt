@@ -73,9 +73,12 @@ country_event = {
 	immediate = {
 	    hidden_effect = {
 			SLO = {
+				set_cosmetic_tag = SLO_anti
 				transfer_state = 1120
 			transfer_state = 1121
 			transfer_state = 70
+			declare_war_on = { target = HUN type = take_claimed_state } 
+			load_oob = "SLO_rebeline"
 			}
 		}
     }
@@ -96,7 +99,90 @@ country_event = {
 				days = 1
 			}
 		}
-		declare_war_on = { target = SLO type = take_claimed_state } 
+		
 		name = HUN_event.3.a
+	}
+}
+country_event = {
+    id = HUN_event.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.4 FROM = [From.GetName]" }
+	title = HUN_event.4.t
+	desc = HUN_event.4.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		set_autonomy = {
+			target = TRS
+			autonomy_state = autonomy_puppet
+		}
+		declare_war_on = { target = HUN type = take_claimed_state } 
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = ISU.20
+					days = 1
+				}
+			}
+		}
+		name = HUN_event.4.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		
+		
+		name = HUN_event.4.b
+	}
+}
+country_event = {
+    id = HUN_event.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.5 FROM = [From.GetName]" }
+	title = HUN_event.5.t
+	desc = HUN_event.5.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		set_country_flag = HUN_didnt_allow_ISU
+		hidden_effect = {
+			complete_national_focus = HUN_red_flag_rising
+		}
+		custom_effect_tooltip = SDP_national_focus_changed_tt
+		name = HUN_event.5.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		
+		
+		name = HUN_event.5.b
 	}
 }

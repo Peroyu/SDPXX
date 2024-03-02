@@ -1150,6 +1150,50 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.23
+    picture = GFX_Pacific_23
+    title = Pacific.23.t
+    desc = Pacific.23.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.23.a
+	}
+}
+news_event = {
+	id = Pacific.24
+    picture = GFX_Pacific_24
+    title = Pacific.24.t
+    desc = Pacific.24.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.24.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1
@@ -2090,6 +2134,16 @@ news_event = {
     desc = ISU.15.d
     immediate = { 
         hidden_effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = ISU.16
+                    days = 24
+                }
+            }
+           
            FOI = {
             set_politics = { 
                 ruling_party = reactionism
@@ -2119,7 +2173,30 @@ news_event = {
     desc = ISU.16.d
     immediate = { 
         hidden_effect = {
-           
+            random_list = {
+                55 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.17
+                            days = 25
+                        }
+                    }
+                }
+                45 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.18
+                            days = 25
+                        }
+                    }
+                }
+            }
         }
 	}
     is_triggered_only = yes
@@ -2141,6 +2218,10 @@ news_event = {
     immediate = { 
         hidden_effect = {
            FOI = {
+            country_event = {
+                id = ISU_event.9
+                days = 2
+            }
             set_cosmetic_tag = SPA_R
            }
         }
@@ -2165,6 +2246,22 @@ news_event = {
     desc = ISU.18.d
     immediate = { 
         hidden_effect = {
+            set_politics = { 
+                ruling_party = moderate_socialism
+            }
+            add_popularity = {
+                ideology = moderate_socialism
+                popularity = 0.2
+              }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                news_event = {
+                    id = ISU.49
+                    days = 66
+                }
+            }
          
         }
 	}
@@ -2208,38 +2305,7 @@ news_event = {
     desc = ISU.20.d
     immediate = { 
         hidden_effect = {
-            set_global_flag = Balkan_Crisis_began
-            HUN = {
-                set_autonomy = {
-                    target = ROM
-                    autonomy_state = autonomy_free
-                }
-            }
-            ROM = {
-                annex_country = { target = TRA transfer_troops = yes }
-                set_cosmetic_tag = ROM_unit
-            }
-            HUN = {
-                create_faction = 巴尔干防卫阵线
-                add_to_faction = SER
-                add_to_faction = BOS
-            }
-            ISU = {
-                country_event = {
-                    id = HUN.6
-                    days = 85
-                }
-            }
-            every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id = ISU.23
-					days = 15
-				}
-			}
+    
         }
 	}
     is_triggered_only = yes
@@ -2371,26 +2437,7 @@ news_event = {
     desc = ISU.23.d
     immediate = { 
         hidden_effect = {
-            SLO = {
-                declare_war_on = { target = HUN type = take_state }
-            }
-		set_global_flag = HUN_in_balkan_crisis
-            ROM = {
-                transfer_state = 1113
-                transfer_state = 84
-                transfer_state = 1116
-                declare_war_on = { target = HUN type = take_state }
-            }
-            every_country = {
-				limit = {
-					is_ai = no
-
-				}
-				news_event = {
-					id = ISU.21
-					days = 7
-				}
-			}
+           
         }
 	}
     is_triggered_only = yes
@@ -3033,5 +3080,124 @@ news_event = {
 
 	option = {
 		name = ISU.45.a
+	}
+}
+news_event = {
+	id = ISU.46
+    picture = GFX_ISU_46
+    title = ISU.46.t
+    desc = ISU.46.d
+    immediate = { 
+        hidden_effect = { 
+          random_list = {
+            60 = {
+                every_country = {
+                    limit = {
+                        is_ai = no
+                    }
+                    news_event = {
+                        id = ISU.47
+                        days = 32
+                    }
+                }
+            }
+            40 = {
+                every_country = {
+                    limit = {
+                        is_ai = no
+                    }
+                    news_event = {
+                        id = ISU.48
+                        days = 32
+                    }
+                }
+            }
+          }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.46.a
+	}
+}
+news_event = {
+	id = ISU.47
+    picture = GFX_ISU_47
+    title = ISU.47.t
+    desc = ISU.47.d
+    immediate = { 
+        hidden_effect = { 
+            random_list = {
+                40 = {
+                    every_country = {
+                        limit = {
+                            is_ai = no
+                        }
+                        news_event = {
+                            id = ISU.15
+                            days = 66
+                        }
+                    }
+                }
+                60 = {
+                }
+              }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.47.a
+	}
+}
+news_event = {
+	id = ISU.48
+    picture = GFX_ISU_48
+    title = ISU.48.t
+    desc = ISU.48.d
+    immediate = { 
+        hidden_effect = { 
+          
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.48.a
+	}
+}
+news_event = {
+	id = ISU.49
+    picture = GFX_ISU_49
+    title = ISU.49.t
+    desc = ISU.49.d
+    immediate = { 
+        hidden_effect = { 
+            ISU = {
+                add_to_faction = FOI
+             }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.49.a
 	}
 }

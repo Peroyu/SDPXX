@@ -3,11 +3,11 @@ spriteTypes = {
 		name = "GFX_SDP_BoP_line"
 		textureFile1 = "gfx/interface/bop/bop_bar_orange_dark.dds"
 		textureFile2 = "gfx/interface/bop/bop_bar_frame.dds"
-		size = { x = 350 y = 30 }
+		size = { x = 350 y = 20 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
         alwaystransparent = yes
-		steps = 200
+		steps = 100
 		
 	}
 
@@ -29,6 +29,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GetSDPBoPrightview_debug"
 		texturefile = "gfx/interface/bop/bop_SWI_centralization_canton_side.dds"		
+	}
+
+	spriteType = {
+		name = "GetSDPBoPleftview_HUN_1"
+		texturefile = "gfx/interface/bop/GFX_GetSDPBoPleftview_HUN_1.png"		
+	}
+
+	spriteType = {
+		name = "GetSDPBoPrightview_HUN_1"
+		texturefile = "gfx/interface/bop/GFX_GetSDPBoPrightview_HUN_1.png"		
 	}
 
 }

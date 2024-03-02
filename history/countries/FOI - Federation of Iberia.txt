@@ -1,6 +1,6 @@
 capital = 41  
 
-obb = "FOI_1947"   
+set_oob = "FOI_1947"   
 
 set_research_slots = 3  
 
@@ -15,6 +15,22 @@ set_politics = {
 	elections_allowed = no   
 }
 add_ideas = {
+	per_capita_based_taxation
+	restricted_child_labor
+	universal_suffrage
+	regulatory_bodies
+	women_own_property
+	free_trade_policy
+	right_of_assembly
+	wage_controls
+	public_schools
+	total_separation
+	national_militia
+	tenant_farmers
+	national_guard
+	private_health_insurance
+	racial_segregation
+	##
 onlooker_of_the_revolutionary_war
 FOI_army
 FOI_after_war

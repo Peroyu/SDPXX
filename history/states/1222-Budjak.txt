@@ -6,7 +6,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = UKR
+		owner = ROM
 		victory_points = { 6727 1 }
 		buildings = {
 			infrastructure = 2

@@ -870,6 +870,31 @@ spriteTypes = {
 		name = "GFX_idea_GDC_huangpu_idea"
 		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_huangpu_idea.png"
 	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_B"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_B.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_G"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_G.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_X"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_X.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_Y"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_Y.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_Z"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_Z.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_KMT_CPC_N"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_N.png"
+	}
+	
 	
 ####################HUN#########################
 
