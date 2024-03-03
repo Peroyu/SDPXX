@@ -3089,30 +3089,6 @@ news_event = {
     desc = ISU.46.d
     immediate = { 
         hidden_effect = { 
-          random_list = {
-            60 = {
-                every_country = {
-                    limit = {
-                        is_ai = no
-                    }
-                    news_event = {
-                        id = ISU.47
-                        days = 32
-                    }
-                }
-            }
-            40 = {
-                every_country = {
-                    limit = {
-                        is_ai = no
-                    }
-                    news_event = {
-                        id = ISU.48
-                        days = 32
-                    }
-                }
-            }
-          }
         }
 	}
     is_triggered_only = yes
@@ -3132,21 +3108,7 @@ news_event = {
     desc = ISU.47.d
     immediate = { 
         hidden_effect = { 
-            random_list = {
-                40 = {
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = ISU.15
-                            days = 66
-                        }
-                    }
-                }
-                60 = {
-                }
-              }
+            
         }
 	}
     is_triggered_only = yes
