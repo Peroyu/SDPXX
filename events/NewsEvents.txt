@@ -13,6 +13,26 @@ add_namespace = global
 add_namespace = Triple_entent
 add_namespace = IREnews
 news_event = {
+	id = global.19
+
+    picture = GFX_global_19
+    title = global.19.t
+    desc = global.19.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.19.a
+		custom_effect_tooltip = custom_effect_global_19_tt
+	}
+}
+news_event = {
 	id = IREnews.1
 
     picture = GFX_IRE_1
