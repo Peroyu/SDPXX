@@ -36,6 +36,10 @@ country_event = {
 	id = USAelection.1
 	days = 733
 }
+news_event = {
+	id = USA.5
+	days = 1
+}
 add_ideas = {
 	USA_gov_citizens_company
 	USA_ghost_of_Jim_crow

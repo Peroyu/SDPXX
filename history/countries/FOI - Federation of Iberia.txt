@@ -105,3 +105,4 @@ set_variable = { var = SDP_agriculture_v value = 18 }#60
 set_variable = { var = SDP_science_v value = 23 }#50
 set_variable = { var = SDP_politics_v value = 30 }#60
 ################
+country_event = { id = FOI.1 days = 1 }

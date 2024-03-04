@@ -13,6 +13,26 @@ add_namespace = global
 add_namespace = Triple_entent
 add_namespace = IREnews
 news_event = {
+	id = global.19
+
+    picture = GFX_global_19
+    title = global.19.t
+    desc = global.19.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.19.a
+		custom_effect_tooltip = custom_effect_global_19_tt
+	}
+}
+news_event = {
 	id = IREnews.1
 
     picture = GFX_IRE_1
@@ -1267,6 +1287,25 @@ news_event = {
 
 	option = {
 		name = USA.4.a
+	}
+}
+news_event = {
+	id = USA.5
+
+    picture = GFX_USA_5
+    title = USA.5.t
+    desc = USA.5.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = USA.5.a
 	}
 }
 news_event = {
@@ -3053,30 +3092,6 @@ news_event = {
     desc = ISU.46.d
     immediate = { 
         hidden_effect = { 
-          random_list = {
-            60 = {
-                every_country = {
-                    limit = {
-                        is_ai = no
-                    }
-                    news_event = {
-                        id = ISU.47
-                        days = 32
-                    }
-                }
-            }
-            40 = {
-                every_country = {
-                    limit = {
-                        is_ai = no
-                    }
-                    news_event = {
-                        id = ISU.48
-                        days = 32
-                    }
-                }
-            }
-          }
         }
 	}
     is_triggered_only = yes
@@ -3096,21 +3111,7 @@ news_event = {
     desc = ISU.47.d
     immediate = { 
         hidden_effect = { 
-            random_list = {
-                40 = {
-                    every_country = {
-                        limit = {
-                            is_ai = no
-                        }
-                        news_event = {
-                            id = ISU.15
-                            days = 66
-                        }
-                    }
-                }
-                60 = {
-                }
-              }
+            
         }
 	}
     is_triggered_only = yes
