@@ -487,35 +487,19 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			ROM = {
-				leave_faction = yes
-			}
-			YUG = {
-				leave_faction = yes
-			}
-			HUN = {
-				leave_faction = yes
-				country_event = {
-					id = HUN_event.2
-					days = 1
-				}
-			}
-			VOL = {
-				transfer_state = 45
-				transfer_state = 875
-				add_state_core = 45
-				add_state_core = 875
-				declare_war_on = {
-					target = HUN
-					type = take_state
-				}
-			}
+			
 		}
     }
 	
 	option = { 
 	    ai_chance = {
 		   base = 100
+		}
+		YUG = {
+			transfer_state = 45
+			transfer_state = 875
+			add_state_core = 45
+			add_state_core = 875
 		}
 		name = ISU_event.6.a
 		
@@ -525,11 +509,11 @@ country_event = {
 		   base = 100
 		}
 		name = ISU_event.6.b
-		YUG = {
-			country_event = {
-				id = ISU_event.7
-				days = 20
-			}
+		45 = {
+			set_demilitarized_zone = no
+		}
+		875 = {
+			set_demilitarized_zone = no
 		}
 	}
 }
@@ -545,6 +529,7 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			leave_faction = yes
 		}
     }
 	
@@ -562,7 +547,7 @@ country_event = {
 	}
 	option = { 
 	    ai_chance = {
-		   base = 100
+		   base = 10
 		}
 		name = ISU_event.7.a
 		
@@ -580,6 +565,19 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			leave_faction = yes
+			
+			every_state = {
+				limit = {
+					is_owned_by = HUN
+					NOT = {
+						is_core_of = HUN
+					}
+				}
+				add_variable = {
+					ROOT.Resistance = 15
+				}
+			}
 		}
     }
 	
@@ -612,10 +610,15 @@ country_event = {
 		ROM = {
 			country_event = {
 				id = HUN_event.4
-				days = 12
+				days = 7
 			}
 		}
-		
+		ISU = {
+			country_event = {
+				id = ISU_event.10
+				days = 61
+			}
+		}
 		
 	}
 }
@@ -673,6 +676,110 @@ country_event = {
 		
 	}
 }
+country_event = {
+    id = ISU_event.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.10 FROM = [From.GetName]" }
+	title = ISU_event.10.t
+	desc = ISU_event.10.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			set_global_flag = Balkan_war_flag_west
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.10.a #国际支持匈牙利
+		
+		ROM = {
+			country_event = {
+				id = ISU_event.11
+				days = 23
+			}
+		}
+		
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.10.b #国际要求停火
+		set_global_flag = Balkan_ISU_support_ISU_flag
+		contry_event = {
+			id = ISU_event.12
+			days = 90
+		}
+		
+	}
+}
+country_event = {
+    id = ISU_event.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.11 FROM = [From.GetName]" }
+	title = ISU_event.11.t
+	desc = ISU_event.11.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			ISU = {
+				add_to_faction = HUN
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = ISU_event.11.a 
+		set_politics = {
+			ruling_party = Nationalism
+		}
+		set_cosmetic_tag = ROM_unit
+		
+	}
+	
+}
+country_event = {
+    id = ISU_event.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	ISU_event.12 FROM = [From.GetName]" }
+	title = ISU_event.12.t
+	desc = ISU_event.12.d
+	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			add_ideas = ISU_Balkan_crisis
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		declare_war_on = { target = HUN type = take_claimed_state }
+		declare_war_on = { target = SLO type = take_claimed_state }
+		declare_war_on = { target = ROM type = take_claimed_state }
+		load_oob = "ISU_Balkan_crisis"
+		name = ISU_event.12.a 
+		
+	}
+	
+}
+
 country_event = {
     id = FOB.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
@@ -992,6 +1099,9 @@ country_event = {
     }
 	option = { 
 	    name = HUN.3.a
+		trigger = {
+			always = no
+		}
 	    ai_chance = {
 		   base = 100
 		}
@@ -1199,16 +1309,16 @@ country_event = {
 				days = 1
 			}
 		}
-		SER = {
-			transfer_state = 107
-			transfer_state = 767
-			transfer_state = 108
-			transfer_state = 1269
-			transfer_state = 765
-			transfer_state = 1097
-			transfer_state = 105
-			transfer_state = 1270
-		}
+		#SER = {
+		#	transfer_state = 107
+		#	transfer_state = 767
+		#	transfer_state = 108
+		#	transfer_state = 1269
+		#	transfer_state = 765
+		#	transfer_state = 1097
+		#	transfer_state = 105
+		#	transfer_state = 1270
+		#}
 		ROM = {
 			transfer_state = 81
 			transfer_state = 46
@@ -1249,27 +1359,27 @@ country_event = {
 			transfer_state = 1111
 			transfer_state = 1106
 		}
-		CRT = {
-			transfer_state = 1128
-			transfer_state = 794
-			transfer_state = 1102
-			transfer_state = 109
-			transfer_state = 1099
-			transfer_state = 103
-			transfer_state = 1105
-			transfer_state = 1206
-			transfer_state = 1145
-			transfer_state = 163
-			transfer_state = 1098
-			set_cosmetic_tag = CRT_fre
-		}
-		BOS = {
-			transfer_state = 1142
-			transfer_state = 1143
-			transfer_state = 1145
-			transfer_state = 1141
-			transfer_state = 104
-		}
+		#CRT = {
+		#	transfer_state = 1128
+		#	transfer_state = 794
+		#	transfer_state = 1102
+		#	transfer_state = 109
+		#	transfer_state = 1099
+		#	transfer_state = 103
+		#	transfer_state = 1105
+		#	transfer_state = 1206
+		#	transfer_state = 1145
+		#	transfer_state = 163
+		#	transfer_state = 1098
+		#	set_cosmetic_tag = CRT_fre
+		#}
+		#BOS = {
+		#	transfer_state = 1142
+		#	transfer_state = 1143
+		#	transfer_state = 1145
+		#	transfer_state = 1141
+		#	transfer_state = 104
+		#}
 		SLO = {
 			transfer_state = 1123
 			transfer_state = 1135

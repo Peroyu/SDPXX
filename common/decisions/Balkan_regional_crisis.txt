@@ -30,7 +30,7 @@ Balkan_regional_crisis = {
 		activation = {
 			check_variable = { #检查变量大小
 	          var = 45.Resistance
-	          value = 40
+	          value = 70
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
@@ -60,6 +60,84 @@ Balkan_regional_crisis = {
                 ISU = {
                     country_event = {
                         id = ISU_event.6
+                        days = 1
+                    }
+                }
+            }
+			custom_effect_tooltip = HUN_balkancrisis_1_eftt
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	HUN_Vojvodina_crisis = {
+
+		icon = decision_revolt
+		
+		fire_only_once = yes
+
+		available = {
+			has_global_flag = Balkan_crisis_is_over
+		}
+
+		visible = {
+			HUN = {
+				has_war = yes
+			}
+			check_variable = { #检查变量大小
+	          var = 45.Resistance
+	          value = 70
+	          compare = greater_than
+            }
+            check_variable = { #检查变量大小
+	          var = 875.Resistance
+	          value = 40
+	          compare = greater_than
+            }
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			HUN = {
+				has_war = yes
+			}
+			check_variable = { #检查变量大小
+	          var = 45.Resistance
+	          value = 90
+	          compare = greater_than
+            }
+            check_variable = { #检查变量大小
+	          var = 875.Resistance
+	          value = 90
+	          compare = greater_than
+            }
+		}
+		
+		days_mission_timeout = 15
+		is_good = no
+		
+		complete_effect = {
+			#任务的available被满足时触发的条件，同时任务会终止
+		}
+		
+		cancel_trigger = {
+			#满足什么条件任务会立刻中止
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		timeout_effect = {
+            hidden_effect = {
+                HUN = {
+                    country_event = {
+                        id = HUN_event.6
                         days = 1
                     }
                 }
@@ -107,22 +185,22 @@ Balkan_regional_crisis = {
 		activation = {
 			check_variable = { #检查变量大小
 	          var = 1121.Resistance
-	          value = 60
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 70.Resistance
-	          value = 60
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
             var = 1120.Resistance
-            value = 60
+            value = 50
             compare = greater_than
           }
 		}
 		
-		days_mission_timeout = 30
+		days_mission_timeout = 10
 		is_good = no
 		
 		complete_effect = {
@@ -166,27 +244,27 @@ Balkan_regional_crisis = {
 		visible = {
 			check_variable = { #检查变量大小
 	          var = 1114.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 82.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 83.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 1113.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 84.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
 		}
@@ -199,32 +277,32 @@ Balkan_regional_crisis = {
 		activation = {
 			check_variable = { #检查变量大小
 	          var = 1114.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 82.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 83.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 1113.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
             check_variable = { #检查变量大小
 	          var = 84.Resistance
-	          value = 70
+	          value = 50
 	          compare = greater_than
             }
 		}
 		
-		days_mission_timeout = 30
+		days_mission_timeout = 10
 		is_good = no
 		
 		complete_effect = {
@@ -254,6 +332,56 @@ Balkan_regional_crisis = {
                 }
             }
 			custom_effect_tooltip = HUN_balkancrisis_2_eftt
+		}
+		
+		ai_will_do = {
+			base = 100#ai点选这个任务的意愿
+		}
+	}
+	HUN_peace_conferrence = {
+
+		icon = decision_revolt
+		
+		fire_only_once = yes
+
+		available = {
+			has_global_flag = Balkan_crisis_is_over
+		}
+
+		visible = {
+			has_war_with = ISU
+		}
+		################################################################################################
+		#特别补充：																					   #
+		#一个任务可以在单个国家激活，却于多个国家可见！其他可见国家见到的任务读条进度，取决于任务触发国#
+		#如可见国在100天后完成相关条件可以见到任务，那么它看到的任务也是已经进行了100天的状态。		   #
+		################################################################################################
+		
+		activation = {
+			has_war_with = ISU
+		}
+		
+		days_mission_timeout = 230
+		is_good = no
+		
+		complete_effect = {
+			#任务的available被满足时触发的条件，同时任务会终止
+		}
+		
+		cancel_trigger = {
+			#满足什么条件任务会立刻中止
+		}
+		
+		cancel_effect = {
+			
+		}
+
+		timeout_effect = {
+            white_peace = ISU
+			country_event = {
+				id = HUN_event.7
+				days = 121
+			}
 		}
 		
 		ai_will_do = {

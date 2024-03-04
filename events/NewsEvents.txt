@@ -2779,12 +2779,7 @@ news_event = {
             NOT = {
                 country_exists = HUN
                 country_exists = ROM
-                country_exists = CRT
-                country_exists = CRR
-                country_exists = SUF
-                country_exists = SER
-                country_exists = LAB
-                country_exists = BOS
+                country_exists = TRS
                 country_exists = SLO
                 has_global_flag = Balkan_has_result
             }
@@ -2828,20 +2823,8 @@ news_event = {
     desc = ISU.35.d
     immediate = { 
         hidden_effect = {
-           HUN = {
-            set_politics = { 
-                ruling_party = reactionism
-            }
-           } 
-           every_country = {
-            limit = {
-                is_ai = no
-            }
-            news_event = {
-                id = ISU.37
-                days = 65
-            }
-           }  
+            
+            
         }
 	}
     is_triggered_only = yes
@@ -3180,5 +3163,53 @@ news_event = {
 
 	option = {
 		name = ISU.49.a
+	}
+}
+news_event = {
+	id = ISU.50
+    picture = GFX_ISU_50
+    title = ISU.50.t
+    desc = ISU.50.d
+    immediate = { 
+        hidden_effect = { 
+           every_country = {
+            limit = {
+                is_ai = no
+            }
+            news_event = {
+                id = ISU.49
+                days = 99
+            }
+           }
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.50.a
+	}
+}
+news_event = {
+	id = ISU.51
+    picture = GFX_ISU_51
+    title = ISU.51.t
+    desc = ISU.51.d
+    immediate = { 
+        hidden_effect = { 
+           
+        }
+	}
+    is_triggered_only = yes
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = ISU.51.a
 	}
 }
