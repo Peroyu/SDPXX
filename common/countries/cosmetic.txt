@@ -46,6 +46,10 @@ SPA_R = {
  color = rgb { 151 106 52 }
  color_ui = rgb { 151 106 52 }
 }
+SPA_temp = {
+	color = rgb { 151 106 52 }
+	color_ui = rgb { 151 106 52 }
+   }
 GDC_japen = {
  color = rgb { 175 122 93 }
  color_ui = rgb { 175 122 93 }
