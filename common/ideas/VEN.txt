@@ -1,5 +1,14 @@
 ideas = {
 	country = {
+	    VEN_Electoral_law = {
+		    name = VEN_Electoral_law
+			picture = VEN_Electoral_law
+			available = {
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
 		VEN_af = {
 		    name = VEN_af
 			picture = VEN_af

@@ -1539,6 +1539,27 @@ news_event = {
 		name = LaAme.4.a
 	}
 }
+news_event = {#圭亚那独立
+	id = LaAme.5
+
+    picture = GFX_LaAme_5
+    title = LaAme.5.t
+    desc = LaAme.5.d
+    
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+    immediate = {
+        hidden_effect = {
+            
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.5.a
+	}
+}
 news_event = {
 	id = chi_news.1
 

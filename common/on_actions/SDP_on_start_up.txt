@@ -19,7 +19,7 @@ on_actions = {
 				}
 				news_event = {
 				    id = LaAme.1
-					days = 400
+					days = 330
 				}
 				news_event = {
 				    id = ISU.14

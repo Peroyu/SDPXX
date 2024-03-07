@@ -12,19 +12,19 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 5
-	Liberalism = 4
-	movement_communism = 6
-	conservatism = 10
-	social_democracy = 35
-	moderate_socialism = 10
-	reactionism = 30
+	communism = 4
+	Liberalism = 7
+	movement_communism = 2
+	conservatism = 15
+	social_democracy = 70
+	moderate_socialism = 2
 }
 add_ideas = {
 VEN_af
 VEN_Democratic_Action_Party
 VEN_sas
 VEN_oil_1
+VEN_Electoral_law
 #######
 land_based_taxation
 restricted_child_labor
