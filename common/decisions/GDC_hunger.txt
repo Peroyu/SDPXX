@@ -248,7 +248,14 @@ GDC_hunger = {
           complete_effect = {
                add_to_variable = { var = GDC.GDC_crop_reserves value = -100 }
           }
-          days_remove = 10
+          modifier = {
+            army_org_factor = 0.05
+	army_morale_factor = 0.1
+  army_core_attack_factor = 0.11
+	army_core_defence_factor = 0.12
+  dig_in_speed_factor = 0.12
+          }
+          days_remove = 70
           remove_effect = {
               
           }

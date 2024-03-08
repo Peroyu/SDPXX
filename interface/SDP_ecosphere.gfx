@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_economic_sphere_International_icon"
+		texturefile = "gfx/interface/economic_sphere/GFX_economic_sphere_International_icon.png"
+	}
+}

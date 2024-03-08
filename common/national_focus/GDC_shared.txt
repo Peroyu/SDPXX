@@ -269,8 +269,8 @@ shared_focus = {
 			start_border_war = {
 				change_state_after_war = no
 				attacker = {
-					state = 899
-					num_provinces = 10121
+					state = 599
+					num_provinces =7210
 					on_win =  GDC_link_mingan_conflict.1
 					
 					on_lose = GDC_link_mingan_conflict.2
@@ -278,8 +278,8 @@ shared_focus = {
 					
 				}
 				defender = {
-					state = 728
-					num_provinces = 10121
+					state = 800
+					num_provinces = 12077
 				}
 				
 			}

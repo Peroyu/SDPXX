@@ -1,10 +1,10 @@
 	HUN_BoP_modle = {
 	    icon =decision_category_usa_congress
 		available = {
-	        
+	        tag = HUN
 		}
 		visible = {
-          
+			tag = HUN
         }
 		cancel_trigger = {
           
