@@ -1,0 +1,25 @@
+﻿add_namespace = Gaitan
+country_event = {
+    id = Gaitan.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	Gaitan.1 FROM = [From.GetName]" }
+	title = Gaitan.1.t
+	desc = Gaitan.1.d
+	picture = GFX_Gaitan_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = Gaitan.1.a
+	}
+	
+}
