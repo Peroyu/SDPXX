@@ -59,6 +59,7 @@ VertexShader =
 			VS_OUTPUT Out;
 		   	Out.vPosition  = mul( WorldViewProjectionMatrix, v.vPosition );
 			Out.vTexCoord0  = v.vTexCoord;
+			Out.vTexCoord0.y = -Out.vTexCoord0.y;
 		
 			return Out;
 		}
@@ -73,7 +74,7 @@ PixelShader =
 		
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
-			if( v.vTexCoord0.x <= CurrentState / 2.f )
+			if( v.vTexCoord0.x >= 1.f - CurrentState )
 				return vFirstColor;
 			else
 				return vSecondColor;
@@ -86,24 +87,29 @@ PixelShader =
 		
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
-			float y1 = 0.5f / 20.f;
-			float y2 = CurrentState / 20.f;
-
-			float xPos = v.vTexCoord0.x - 0.04f;
-			float xPos2 = v.vTexCoord0.x;
-			float xPos3 = v.vTexCoord0.x + 0.04f;
-			float xPos4 = v.vTexCoord0.x + 0.08f;
-			float yPos = v.vTexCoord0.y / 20.f; 
-
-			float dist = abs((y2 - y1) * xPos - (1.f) * yPos + y1) / sqrt((y2 - y1) * (y2 - y1) + 1.f);
-			float dist2 = abs((y2 - y1) * xPos2 - (1.f) * yPos + y1) / sqrt((y2 - y1) * (y2 - y1) + 1.f);
-			float dist3 = abs((y2 - y1) * xPos3 - (1.f) * yPos + y1) / sqrt((y2 - y1) * (y2 - y1) + 1.f);
-			float dist4 = abs((y2 - y1) * xPos4 - (1.f) * yPos + y1) / sqrt((y2 - y1) * (y2 - y1) + 1.f);
-
-			float smallest = min(min(min(dist, dist2 - 0.0001f), dist3), dist4);
-			float sat = saturate((smallest - 0.0002f) / 0.0005f);
-
-			return tex2D(TextureOne, v.vTexCoord0.xy) * (1.f - sat) + tex2D(TextureTwo, v.vTexCoord0.xy) * (sat);
+			float2 vUVStart = v.vTexCoord0.xy;
+			vUVStart.y /= 3.f;
+			vUVStart.y += 1.f / 3.f;
+			float2 vUVMiddle = vUVStart;
+			vUVMiddle.y += 1.f/3.f;
+			float2 vUVStop = vUVMiddle;
+			vUVStop.y +=  1.f/3.f;
+			vUVStop.x += 1.f - CurrentState;
+			
+			if( v.vTexCoord0.x >= 1.f - CurrentState )
+			{
+				float4 vStartColor = tex2D( TextureOne, vUVStart );
+				float4 vMiddleColor = tex2D( TextureOne, vUVMiddle );
+				float4 vStopColor = tex2D( TextureOne, vUVStop );
+				
+				float vStartAlpha = vStartColor.a;
+				float4 vColor = lerp( vMiddleColor, vStartColor, vStartAlpha );
+				vColor = lerp( vColor, vStopColor, vStopColor.a );
+				vColor.a = vMiddleColor.a;
+				return vColor;
+			}
+			else
+				return tex2D( TextureTwo, v.vTexCoord0.xy );
 		}
 		
 	]]
@@ -129,3 +135,4 @@ Effect Texture
 	VertexShader = "VertexShader"
 	PixelShader = "PixelTexture"
 }
+

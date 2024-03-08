@@ -1,5 +1,4 @@
 Includes = {
-	"tno_functions.fxh"
 }
 
 PixelShader =
@@ -60,6 +59,7 @@ VertexShader =
 			VS_OUTPUT Out;
 		   	Out.vPosition  = mul( WorldViewProjectionMatrix, v.vPosition );
 			Out.vTexCoord0  = v.vTexCoord;
+			Out.vTexCoord0.y = -Out.vTexCoord0.y;
 		
 			return Out;
 		}
@@ -87,43 +87,29 @@ PixelShader =
 		
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
-			float value = CurrentState * 100000.f;
-			float end = mod(value, 1000.f) / 100.f;
-			float start = floor(value / 1000.f) / 100.f;
-
-			float2 vDiff = 0.5f - v.vTexCoord0;
-			float vAngle = (atan2TNO(vDiff) + 3.14159265f);
-
-			float sAngle = start * (2 * 3.14159265f);
-			float eAngle = end * (2 * 3.14159265f);
-
-			// Midpoint angle between start and end
-			float mAngle = (sAngle + eAngle) / 2.f;
-
-			// Ratio of the icon size to the entire image size
-			float ratio = 1.0f;
-
-			// Compute location of the top-left corner of the icon
-			float2 iconTopLeft = float2(0.5f, 0.5f) + 0.21 * float2(sin(mAngle), cos(mAngle)) + (1/ratio) * float2(-0.5f, -0.5f) ;
-			// Compute the position in the icon texture associated with the current pixel
-			float2 imgPos = (v.vTexCoord0 - iconTopLeft) * ratio;
-
-			// If outside of the slice defined by start/end, return empty texture
-			if (vAngle < sAngle || vAngle > eAngle + 0.02f) {
-				return float4(0, 0, 0, 0);
+			float2 vUVStart = v.vTexCoord0.xy;
+			vUVStart.y /= 3.f;
+			vUVStart.y += 1.f / 3.f;
+			float2 vUVMiddle = vUVStart;
+			vUVMiddle.y += 1.f/3.f;
+			float2 vUVStop = vUVMiddle;
+			vUVStop.y +=  1.f/3.f;
+			vUVStop.x += 1.f - CurrentState;
+			
+			if( v.vTexCoord0.x <= CurrentState )
+			{
+				float4 vStartColor = tex2D( TextureOne, vUVStart );
+				float4 vMiddleColor = tex2D( TextureOne, vUVMiddle );
+				float4 vStopColor = tex2D( TextureOne, vUVStop );
+				
+				float vStartAlpha = vStartColor.a;
+				float4 vColor = lerp( vMiddleColor, vStartColor, vStartAlpha );
+				vColor = lerp( vColor, vStopColor, vStopColor.a );
+				vColor.a = vMiddleColor.a;
+				return vColor;
 			}
-
-			float4 toRet = tex2D( TextureOne, v.vTexCoord0.xy );
-
-			// If imgPos is actually within the icon, overlay icon
-			if (imgPos.x > 0 && imgPos.x < 1 && imgPos.y > 0 && imgPos.y < 1) {
-				float4 mask = tex2D( TextureTwo, float2(imgPos.x, -imgPos.y) );
-				if (mask.a > 0) {
-					toRet.rgb *= 0.65;
-				}
-			}
-
-			return toRet;
+			else
+				return tex2D( TextureTwo, v.vTexCoord0.xy );
 		}
 		
 	]]
