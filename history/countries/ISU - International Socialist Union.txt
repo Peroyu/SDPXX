@@ -9,7 +9,8 @@ set_stability = 0.8
 Soviet_core_initial_techs = yes
 
 
-set_variable = { var = economic_sphere value = 1 }
+set_variable = { Economic_sphere = 1 }
+
 add_ideas = {
 	graduated_taxation
 	compulsory_primary_school
