@@ -108,3 +108,23 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "AIS_Abdelbaki_Sahraoui"  # 
+	desc = "/"  # 
+	picture = Portrait_AIS_Abdelbaki_Sahraoui  # 
+	expire = "1952.4.30"  # 
+	ideology = despotism # 
+	traits = {  # 
+		#
+	}
+}
+create_country_leader = {
+	name = "AIS_Abdelbaki_Sahraoui"  # 
+	desc = "/"  # 
+	picture = Portrait_AIS_Abdelbaki_Sahraoui  # 
+	expire = "1952.4.30"  # 
+	ideology = revolutionary_nationalism # 
+	traits = {  # 
+		#
+	}
+}

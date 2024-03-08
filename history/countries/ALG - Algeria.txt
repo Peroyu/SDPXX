@@ -8,7 +8,16 @@ set_war_support = 0.7 #
 set_stability = 0.3 # 
 
 
-
+create_country_leader = {
+	name = "ALG_Ahmed_Ben_Messali_Hadj"  # 
+	desc = "/"  # 
+	picture = Portrait_ALG_Ahmed_Ben_Messali_Hadj  # 
+	expire = "1952.4.30"  # 
+	ideology = left_wing_nationalsim
+	traits = {  # 
+		#
+	}
+}
 set_politics = {
 	ruling_party = moderate_socialism # 
 	last_election = "1947.1.1"
