@@ -1087,6 +1087,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "AFG_portrait_Amanullah_Khan"
+		texturefile = "gfx/leaders/East_Mediterranean/AFG_portrait_Amanullah_Khan.png"		
+	}
+
+	spriteType = {
 		name = "anarchy_Portrait_GFX"
 		texturefile = "gfx/leaders/anarchy_Portrait_GFX.png"		
 	}

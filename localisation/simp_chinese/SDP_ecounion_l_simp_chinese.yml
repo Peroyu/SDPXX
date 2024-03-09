@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ SDP_eco_union_title: "[SDP_ecounion_name]"
+ guoji_eco_union: "国际社会主义联盟经济圈"
+ gongrong_eco_union: "日本经济圈"
+ meiguo_eco_union: "美国经济圈"
+ xieyue_eco_union: "旧协约国经济圈"
+ aosiman_eco_union: "奥斯曼经济圈"
+ sailisi_eco_union: "中华民国经济圈"
+ MAPMODE_SDP_ECOUNION_MAP_MODE: "经济圈地图"
+ MAPMODE_SDP_ECOUNION_NAME: "经济圈地图"
+ MAPMODE_SDP_ECOUNION_MAP_MODE_DESCIPTION: "打开这个地图可以查看世界范围内的国家都在哪个经济圈里"
+ 

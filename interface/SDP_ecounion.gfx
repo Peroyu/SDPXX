@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_guoji_eco_union"
+		texturefile = "gfx/interface/economic_sphere/GFX_economic_sphere_International_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_gongrong_eco_union"
+		texturefile = "gfx/interface/economic_sphere/GFX_JAP_economic_sphere.png"
+	}
+
+	spriteType = {
+		name = "GFX_meiguo_eco_union"
+		texturefile = "gfx/interface/economic_sphere/GFX_idea_USA_monroe_doctrine.png"
+	}
+
+	spriteType = {
+		name = "GFX_xieyue_eco_union"
+		texturefile = "gfx/interface/economic_sphere/faction_xieyue.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aosiman_eco_union"
+		texturefile = "gfx/interface/economic_sphere/GFX_faction_islam.png"
+	}
+
+	spriteType = {
+		name = "GFX_sailisi_eco_union"
+		texturefile = "gfx/interface/economic_sphere/GFX_CHI_economic_sphere.png"
+	}
+	
+}

@@ -461,6 +461,17 @@ set_variable = { var = SDP_politics_v value = 31 }#60
 ################
 # 设置领导人
 create_country_leader = {
+	name = "TUR_Sehzade_Efend"  # 领导人名称
+	desc = "TUR_Ahmed_Nihad_desc"  # 人物介绍
+	picture = "gfx\leaders\East_Mediterranean\Portrait_TUR_Sehzade_Efend.png"  # 人物头像
+	expire = "1985.1.1"  # 逝世时间
+	ideology = islam_progressive =  # 意识形态
+	traits = {  # 人物特性
+		#
+	}
+}
+
+create_country_leader = {
 	name = "TUR_Ahmed_Nihad"  # 领导人名称
 	desc = "TUR_Ahmed_Nihad_desc"  # 人物介绍
 	picture = "gfx\leaders\East_Mediterranean\TUR_Ahmed_Nihad_Efendi.png"  # 人物头像
@@ -470,4 +481,5 @@ create_country_leader = {
 		#
 	}
 }
+
 

@@ -46,9 +46,9 @@ add_ideas = {
 	national_supremacy
  }
 create_country_leader = {
-	name = "AFG_Zahir_Shah"  # 
+	name = "AFG_Amanullah_Khan"  # 
 	desc = "/"  # 
-	picture = AFG_portrait_Zahir_Shah  # 
+	picture = AFG_portrait_Amanullah_Khan  # 
 	expire = "1952.4.30"  # 
 	ideology = despotism # 
 	traits = {  # 

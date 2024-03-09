@@ -1,0 +1,74 @@
+scripted_map_modes = {
+	SDP_eco_union_map_mode = {
+		top = { type = none }
+		bottom = { 
+			type = country
+			color = {
+				set_temp_variable = { alpha = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							has_country_flag = meiguo_eco_union		
+						}
+					}
+					set_temp_variable = { red = 0.000 } 
+					set_temp_variable = { green = 0.471 }
+					set_temp_variable = { blue = 0.808 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_country_flag = gongrong_eco_union		
+						}
+					}
+					set_temp_variable = { red = 1.000 }
+					set_temp_variable = { green = 0.718 }
+					set_temp_variable = { blue = 0.588 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_country_flag = sailisi_eco_union		
+						}
+					}
+					set_temp_variable = { red = 0.392 }
+					set_temp_variable = { green = 0.584 }
+					set_temp_variable = { blue = 0.608 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_country_flag = guoji_eco_union		
+						}
+					}
+					set_temp_variable = { red = 0.765 } 
+					set_temp_variable = { green = 0.133 }
+					set_temp_variable = { blue = 0.176 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_country_flag = aosiman_eco_union		
+						}
+					}
+					set_temp_variable = { red = 0.749 }
+					set_temp_variable = { green = 0.890 }
+					set_temp_variable = { blue = 0.392 }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_country_flag = xieyue_eco_union		
+						}
+					}
+					set_temp_variable = { red = 0.635 }
+					set_temp_variable = { green = 0.349 }
+					set_temp_variable = { blue = 0.278 }
+				}
+			}
+		}
+		far_text = country
+		near_text = country
+		update_daily = yes
+	}
+}

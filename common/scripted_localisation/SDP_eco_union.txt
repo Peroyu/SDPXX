@@ -1,0 +1,139 @@
+defined_text = {
+	name = SDP_ecounion_name
+	text = {
+		trigger = {
+			has_country_flag = guoji_eco_union
+			
+		}
+		localization_key ="国际社会主义联盟经济圈" 
+	}
+	text = {
+		trigger = {
+			has_country_flag = gongrong_eco_union
+			
+		}
+		localization_key ="日本经济圈" 
+	}
+	text = {
+		trigger = {
+			has_country_flag = meiguo_eco_union
+			
+		}
+		localization_key ="美国经济圈" 
+	}
+	text = {
+		trigger = {
+			has_country_flag = xieyue_eco_union
+			
+		}
+		localization_key ="旧协约国经济圈" 
+	}
+	text = {
+		trigger = {
+			has_country_flag = aosiman_eco_union
+			
+		}
+		localization_key ="奥斯曼经济圈" 
+	}
+	text = {
+		trigger = {
+			has_country_flag = sailisi_eco_union
+			
+		}
+		localization_key ="中华民国经济圈"
+	}
+}
+defined_text = {
+	name = SDP_eco_union_icon
+	text = {
+		trigger = {
+			has_country_flag = guoji_eco_union
+		}
+		localization_key =GFX_guoji_eco_union 
+	}
+	text = {
+		trigger = {
+			has_country_flag = gongrong_eco_union	
+		}
+		localization_key =GFX_gongrong_eco_union 
+	}
+	text = {
+		trigger = {
+			has_country_flag = meiguo_eco_union
+		}
+		localization_key =GFX_meiguo_eco_union 
+	}
+	text = {
+		trigger = {
+			has_country_flag = xieyue_eco_union
+		}
+		localization_key =GFX_xieyue_eco_union 
+	}
+	text = {
+		trigger = {
+			has_country_flag = aosiman_eco_union
+		}
+		localization_key =GFX_aosiman_eco_union 
+	}
+	text = {
+		trigger = {
+			has_country_flag = sailisi_eco_union
+		}
+		localization_key =GFX_sailisi_eco_union
+	}
+}
+
+
+defined_text = {
+	name = SDP_eco_union_icon1
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = guoji_eco_union
+            }
+		}
+		localization_key =GFX_guoji_eco_union 
+	}
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = gongrong_eco_union
+            }	
+		}
+		localization_key =GFX_gongrong_eco_union 
+	}
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = meiguo_eco_union
+            }
+		}
+		localization_key =GFX_meiguo_eco_union 
+	}
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = xieyue_eco_union
+            }
+		}
+		localization_key =GFX_xieyue_eco_union 
+	}
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = aosiman_eco_union
+            }
+		}
+		localization_key =GFX_aosiman_eco_union 
+	}
+	text = {
+		trigger = {
+			THIS = {
+                has_country_flag = sailisi_eco_union
+            }
+		}
+		localization_key =GFX_sailisi_eco_union
+	}
+}
+
+

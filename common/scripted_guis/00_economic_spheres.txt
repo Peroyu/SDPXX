@@ -1,0 +1,94 @@
+scripted_gui = {
+
+	SDP_economic_sphere_gui = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "economic_sphere_button_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		triggers = {
+			economic_sphere_button_visible = {
+				OR = {
+					has_country_flag = guoji_eco_union
+					has_country_flag = gongrong_eco_union
+					has_country_flag = meiguo_eco_union
+					has_country_flag = xieyue_eco_union
+					has_country_flag = aosiman_eco_union
+					has_country_flag = sailisi_eco_union
+				}
+			}
+		}
+
+		effects = {
+			economic_sphere_button_click = {
+				if = {
+					limit = { ROOT = { has_country_flag = economic_sphere_list_open } }
+					clear_array = ROOT.economic_sphere_list_array
+					ROOT = { clr_country_flag = economic_sphere_list_open }
+				}
+				else = {
+					for_each_loop = {
+						array = FROM.members
+						add_to_array = { ROOT.economic_sphere_list_array = v }
+					}
+					ROOT = { set_country_flag = economic_sphere_list_open }
+				}
+			}
+		}
+
+		properties = {
+			economic_sphere_button = {
+				image = "[SDP_eco_union_icon]"
+			}
+		}
+	}
+
+	economic_sphere_list = {
+		context_type = player_context
+		window_name = "economic_sphere_list_window"
+		dirty = economic_sphere_list_array^num
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			has_country_flag = economic_sphere_list_open
+		}
+
+		dynamic_lists = {
+			economic_sphere_tags_grid = {
+				array = economic_sphere_list_array
+				change_scope = yes
+
+				entry_container = economic_sphere_member_entry
+			}
+		}
+
+		triggers = {
+			major_country_overlay_visible = {
+				tag = ROOT.economic_sphere_list_array^0
+			}
+		}
+
+		effects = {
+			button_close_click = {
+				clear_array = ROOT.economic_sphere_list_array
+				clr_country_flag = economic_sphere_list_open
+			}
+		}
+
+		properties = {
+			economic_sphere_icon = {
+				image = "[?ROOT.economic_sphere_list_array^0.SDP_eco_union_icon]"
+			}
+			country_flag = {
+				image = "[This.GetFlag]"
+			}
+		}
+	}
+}
+
