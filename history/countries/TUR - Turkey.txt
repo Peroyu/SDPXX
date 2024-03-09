@@ -470,7 +470,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "TUR_Ahmed_Nihad"  # 领导人名称
 	desc = "TUR_Ahmed_Nihad_desc"  # 人物介绍
@@ -481,5 +480,8 @@ create_country_leader = {
 		#
 	}
 }
+
+
+
 
 
