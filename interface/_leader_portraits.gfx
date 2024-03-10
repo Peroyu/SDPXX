@@ -33,6 +33,11 @@
 		name = "GFX_portrait_MMA_Ma_Yuanhai"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Ma_Yuanhai.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_MMA_Ma_Chengxiang"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_MMA_Ma_Chengxiang.png"		
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_MMA_Ma_Buqing"
@@ -88,6 +93,11 @@
 		name = "GFX_portrait_KTR_Ji_Hongchang"
 		texturefile = "gfx/leaders/MMA/GFX_portrait_KTR_Ji_Hongchang.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_Yang_Jingyu"
+		texturefile = "gfx/leaders/MMA/GFX_portrait_CHI_Yang_Jingyu.png"		
+	}
 	#####################################################################
 	
 	spriteType = {
@@ -113,6 +123,11 @@
 	spriteType = {
 		name = "portrait_CJF_Chen_GongBo"
 		texturefile = "gfx/leaders/CJF/portrait_CJF_Chen_Gongbo.png"		
+	}
+
+	spriteType = {
+		name = "GFX_portrait_KOR_Gim_Gu"
+		texturefile = "gfx/leaders/CJF/GFX_portrait_KOR_Gim_Gu.png"		
 	}
 	
 	spriteType = {
@@ -220,10 +235,7 @@
 		texturefile = "gfx/leaders/CJF/Portrait_KOR_Yeo_Un_hyeong.png"		
 	}
 
-	spriteType = {
-		name = "Portrait_KOR_Gim_Gu"
-		texturefile = "gfx/leaders/CJF/Portrait_KOR_Gim_Gu.png"		
-	}
+	
 
 	spriteType = {
 		name = "GFX_portrait_CJF_Li_xingzhong"
@@ -1110,6 +1122,11 @@ spriteType = {
 	spriteType = {
 		name = "portrait_FID_Bose"
 		texturefile = "gfx/leaders/INDIA/portrait_FID_Bose.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_MAR_Jivajirao_Scindia"
+		texturefile = "gfx/leaders/INDIA/Portrait_MAR_Jivajirao_Scindia.png"		
 	}
 
 	spriteType = {

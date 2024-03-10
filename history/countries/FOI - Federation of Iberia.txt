@@ -50,7 +50,38 @@ set_popularities = {
 	movement_communism = 9
 }
 
- 
+create_country_leader = {
+	name = "FOI_Alvaro_Liminiana"  # 
+	desc = "FOI_Alvaro_Liminiana_desc"  # 
+	picture = "gfx/leaders/EU/Portrait_FOI_Alvaro_Liminiana.png"  # 
+	expire = "1980.4.30"  # 
+	ideology = liberal_democracy # 
+	traits = {  # 
+		#
+	}
+}
+
+create_country_leader = {
+	name = "FOI_Jose_Giral"  # 
+	desc = "FOI_Jose_Giral_desc"  # 
+	picture = "gfx/leaders/EU/Portrait_FOI_Jose_Giral.png"  # 
+	expire = "1980.4.30"  # 
+	ideology = social_reformism # 
+	traits = {  # 
+		FOI_Jose_Giral#
+	}
+}
+
+create_country_leader = {
+	name = "FOI_Federation_Council"  # 
+	desc = "FOI_1_desc"  # 
+	picture = "gfx/leaders/EU/FOI_1.png"  # 
+	expire = "1980.4.30"  # 
+	ideology = social_reformism # 
+	traits = {  # 
+		#
+	}
+}
 create_country_leader = {
 	name = "FOI_Indalecio_Prieto"   
 	desc = "FOI_Indalecio_Prieto_desc"  

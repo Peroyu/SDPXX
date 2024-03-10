@@ -60,6 +60,7 @@ recruit_character = MMA_Ma_Bufang
 recruit_character = MMA_Ma_Yuanhai
 recruit_character = MMA_Ma_Buqing
 recruit_character = MMA_Zhao_Sui
+recruit_character = MMA_Ma_Chengxiang
 recruit_character = MMA_Ma_Hongkui
 recruit_character = MMA_Yang_Hucheng
 

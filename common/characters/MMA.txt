@@ -41,6 +41,25 @@ characters = {
 		}
 
     }
+	MMA_Ma_Chengxiang = {
+		name = "MMA_Ma_Chengxiang" 
+		portraits = {
+			army={
+				small = GFX_portrait_MMA_Ma_Chengxiang
+				large = GFX_portrait_MMA_Ma_Chengxiang
+			}
+		}
+		
+		corps_commander={
+			traits={   }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+
+    }
 	KTR_Zhang_Kexia = {
 		name = "KTR_Zhang_Kexia" 
 		portraits = {

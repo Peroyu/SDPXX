@@ -293,7 +293,11 @@ on_actions = {
 						target = ROOT
 						transfer_troops = no
 					}
+					retire_country_leader = yes
 					set_cosmetic_tag = KOR_temgov
+					set_politics = {
+						ruling_party = conservatism
+					}
 				}
 
 				set_global_flag = skip_default_capitulation
@@ -463,6 +467,37 @@ on_actions = {
 
 					MAN = {
 						set_cosmetic_tag = MAN_kmt
+						retire_country_leader = yes
+						create_country_leader = {
+							name = "CHI_Yang_Jingyu"  # 
+							desc = "/"  # 
+							picture = GFX_portrait_CHI_Yang_Jingyu  # 
+							expire = "1952.4.30"  # 
+							ideology = revolutionary_nationalism # 
+							traits = {  # 
+								#
+							}
+						}
+						create_country_leader = {
+							name = "CHI_Yang_Jingyu"  # 
+							desc = "/"  # 
+							picture = GFX_portrait_CHI_Yang_Jingyu  # 
+							expire = "1952.4.30"  # 
+							ideology = Progressive_Conservatusm # 
+							traits = {  # 
+								#
+							}
+						}
+						create_country_leader = {
+							name = "CHI_Yang_Jingyu"  # 
+							desc = "/"  # 
+							picture = GFX_portrait_CHI_Yang_Jingyu  # 
+							expire = "1952.4.30"  # 
+							ideology = Left_Nationalism # 
+							traits = {  # 
+								#
+							}
+						}
 						
 					}
 					CJF = {

@@ -123,7 +123,13 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+			
 			news_event = {id = ISU.46 days = 1}
+			}
 		}
     }
 	
@@ -134,16 +140,7 @@ country_event = {
 		name = FOI.5.a
 		country_event = { id = FOI.6 days = 25 }
 		retire_country_leader = yes
-		create_country_leader = {
-            name = "西班牙共和国议会"  # 
-            desc = "FOI_1_desc"  # 
-            picture = "gfx/leaders/EU/FOI_1.png"  # 
-            expire = "1980.4.30"  # 
-            ideology = social_reformism # 
-            traits = {  # 
-                #
-            }
-        }
+		
 	}
 }
 country_event = {
@@ -167,25 +164,36 @@ country_event = {
 		   base = 100
 		}
 		name = FOI.6.a
+		hidden_effect = {
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+		
 		news_event = {id = ISU.47 days = 1}
+
+		}
+	}	
 		retire_country_leader = yes
-		create_country_leader = {
-            name = "何塞·基拉尔"  # 
-            desc = "FOI_Jose_Giral_desc"  # 
-            picture = "gfx/leaders/EU/Jose_Giral.png"  # 
-            expire = "1980.4.30"  # 
-            ideology = social_reformism # 
-            traits = {  # 
-                FOI_Jose_Giral#
-            }
-        }
+		
 	}
 	option = { 
 	    ai_chance = {
 		   base = 0
 		}
 		name = FOI.6.b
+		set_politics = {
+			ruling_party = liberalism
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+			
 		news_event = {id = ISU.48 days = 1}
+			}
+		}
 	}
 }
 #################################################
