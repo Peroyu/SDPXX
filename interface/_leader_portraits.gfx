@@ -1024,6 +1024,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_GEO_Adalbert_I"
+		texturefile = "gfx/leaders/East_Mediterranean/portrait_GEO_Adalbert_I.png"		
+	}
+
+	spriteType = {
 		name = "Potrait_YEM_Yehaiya"
 		texturefile = "gfx/leaders/East_Mediterranean/Potrait_YEM_Yehaiya.png"		
 	}
