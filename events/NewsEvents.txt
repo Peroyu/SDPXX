@@ -676,6 +676,146 @@ news_event = {
     
 }
 news_event = {
+	id = global.19
+
+    picture = GFX_global_19
+    title = global.19.t
+    desc = global.19.d
+    immediate = { 
+        hidden_effect = {
+          
+        }
+	}
+  trigger = {
+    is_ai = no
+    date > 1947.6.5
+  }
+    
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.19.a
+        
+	}
+    
+}
+news_event = {
+	id = global.20
+
+    picture = GFX_global_20
+    title = global.20.t
+    desc = global.20.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.20.a
+	}
+}
+news_event = {
+	id = global.21
+
+    picture = GFX_global_21
+    title = global.21.t
+    desc = global.21.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.21.a
+	}
+}
+news_event = {
+	id = global.22
+
+    picture = GFX_global_22
+    title = global.22.t
+    desc = global.22.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.22.a
+	}
+}
+news_event = {
+	id = global.23
+
+    picture = GFX_global_23
+    title = global.23.t
+    desc = global.23.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.23.a
+	}
+}
+news_event = {
+	id = global.24
+
+    picture = GFX_global_24
+    title = global.24.t
+    desc = global.24.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.24.a
+	}
+}
+news_event = {
+	id = global.25
+
+    picture = GFX_global_25
+    title = global.25.t
+    desc = global.25.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.25.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1

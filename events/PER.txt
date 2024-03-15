@@ -1,0 +1,283 @@
+add_namespace = PER
+country_event = {
+    id = PER.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.1 FROM = [From.GetName]" }
+	title = PER.1.t
+	desc = PER.1.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	trigger = {
+		tag = PER
+		date > 1948.3.5
+	}
+	
+	immediate = {
+	    hidden_effect = {
+			every_country = {
+				limit ={
+					 is_ai = no
+				}
+				news_event = {
+					id = global.20
+					days = 1
+				}
+			}
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		country_event = {
+			id = PER.2
+			days = 20
+		}
+		name = PER.1.a
+	}
+}
+country_event = {
+    id = PER.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.2 FROM = [From.GetName]" }
+	title = PER.2.t
+	desc = PER.2.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		country_event = {
+			id = PER.3
+			days = 75
+		}
+		name = PER.1.a
+	}
+}
+country_event = {
+    id = PER.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.3 FROM = [From.GetName]" }
+	title = PER.3.t
+	desc = PER.3.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		country_event = {
+			id = PER.4
+			days = 560
+		}
+		name = PER.3.a #摩萨台拉拢国际
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		country_event = {
+			id = PER.5
+			days = 600
+		}
+		name = PER.3.b #摩萨台坚信自己
+	}
+}
+country_event = {
+    id = PER.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.4 FROM = [From.GetName]" }
+	title = PER.4.t
+	desc = PER.4.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			create_country_leader = {
+				name = "PER_Reza_Pahlavi"  # 
+				desc = "/"  # 
+				picture = Reza_Pahlavi # 
+				expire = "1983.5.16"  # 
+				ideology = neo_people_idea # 
+				traits = {  # 
+					#
+				}
+			}			
+			every_country = {
+				limit ={
+					 is_ai = no
+				}
+				news_event = {
+					id = global.21
+					days = 1
+				}
+			}
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		set_politics = {
+			ruling_party = reactionism
+		}
+		name = PER.4.a 
+	}
+}
+country_event = {
+    id = PER.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.5 FROM = [From.GetName]" }
+	title = PER.5.t
+	desc = PER.5.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			create_country_leader = {
+				name = "PER_Reza_Pahlavi"  # 
+				desc = "/"  # 
+				picture = Reza_Pahlavi # 
+				expire = "1983.5.16"  # 
+				ideology = neo_people_idea # 
+				traits = {  # 
+					#
+				}
+			}			
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		set_politics = {
+			ruling_party = reactionism
+		}
+		hidden_effect = {
+			every_country = {
+				limit ={
+					 is_ai = no
+				}
+				news_event = {
+					id = global.22
+					days = 1
+				}
+			}
+		}
+		name = PER.5.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 30
+		}
+		create_country_leader = {
+			name = "PER_Mohammad_Mosaddegh"  # 
+			desc = "/"  # 
+			picture = Portrait_PER_Mohammad_Mosaddegh # 
+			expire = "1983.5.16"  # 
+			ideology = social_liberalism # 
+			traits = {  # 
+				#
+			}
+		}	
+		set_politics = {
+			ruling_party = Liberalism
+		}
+		set_cosmetic_tag = PER_rep
+		hidden_effect = {
+			every_country = {
+				limit ={
+					 is_ai = no
+				}
+				news_event = {
+					id = global.23
+					days = 1
+				}
+			}
+		}
+		country_event = {
+			id = PER.6
+			days = 150
+		}
+		name = PER.5.b 
+	}
+}
+country_event = {
+    id = PER.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.6 FROM = [From.GetName]" }
+	title = PER.6.t
+	desc = PER.6.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {		
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		set_politics = {
+			ruling_party = moderate_socialism
+		}
+		every_country = {
+			limit ={
+				 is_ai = no
+			}
+			news_event = {
+				id = global.24
+				days = 1
+			}
+		}
+		name = PER.6.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		set_politics = {
+			ruling_party = reactionism
+		}
+		every_country = {
+			limit ={
+				 is_ai = no
+			}
+			news_event = {
+				id = global.25
+				days = 1
+			}
+		}
+		name = PER.6.b
+	}
+}
