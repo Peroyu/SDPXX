@@ -1,4 +1,4 @@
-capital =  # 首都地块
+capital =  584# 首都地块
 
 set_research_slots = 2
  # 设定科研槽

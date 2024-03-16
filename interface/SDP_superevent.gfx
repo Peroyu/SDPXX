@@ -79,4 +79,9 @@ spriteTypes = {
 		name = "GFX_SPEVENT_Africa_crisis_Super_Event_Visible"
 		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Africa_crisis_Super_Event_Visible.png"
 	}
+
+	spriteType = {
+		name = "GFX_SPEVENT_Iran_crisis_Super_Event_Visible"
+		texturefile = "gfx/event_pictures/superevents/GFX_SPEVENT_Iran_crisis_Super_Event_Visible.png"
+	}
 }

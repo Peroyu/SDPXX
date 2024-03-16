@@ -222,7 +222,7 @@ country_event = {
 			}
 		}
 		country_event = {
-			id = PER.6
+			id = PER.7
 			days = 150
 		}
 		name = PER.5.b 
@@ -279,5 +279,45 @@ country_event = {
 			}
 		}
 		name = PER.6.b
+	}
+}
+country_event = {
+    id = PER.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	PER.7 FROM = [From.GetName]" }
+	title = PER.7.t
+	desc = PER.7.d
+	picture = GFX_AIS_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {		
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 20
+		}
+		
+		
+		name = PER.7.a 
+	}
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		every_country = {
+			limit ={
+				 is_ai = no
+			}
+			news_event = {
+				id = global.26
+				days = 1
+			}
+		}
+		name = PER.7.b
 	}
 }

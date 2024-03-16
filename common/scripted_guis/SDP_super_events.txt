@@ -27,6 +27,8 @@ scripted_gui = {
 						OR = {
 							has_global_flag = CHI_second_continent_war_Super_Event_Visible
 
+							has_global_flag = Iran_crisis_Super_Event_Visible
+
 							has_global_flag = ISU_conference_Super_Event_Visible_1
 
 							has_global_flag = Balkan_war_Super_Event_Visible
@@ -58,6 +60,8 @@ scripted_gui = {
 					clr_global_flag = CHI_second_continent_war_Super_Event_Visible
 
 					clr_global_flag = ISU_conference_Super_Event_Visible_1
+
+					clr_global_flag = Iran_crisis_Super_Event_Visible
 
 					clr_global_flag = Balkan_war_Super_Event_Visible
 

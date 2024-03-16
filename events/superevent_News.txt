@@ -408,3 +408,26 @@ news_event = {
 		
 	}
 }
+news_event = {
+	id = sp_event.4
+
+    picture = GFX_sp_event_4
+    title = sp_event.4.t
+    desc = sp_event.4.d
+    immediate = { 
+		hidden_effect = {
+			
+		}
+		
+	}
+    fire_only_once = yes # 只触发一次，建议与trigger - {}同用，也就是只用于自动触发的新闻，而不要在被动触发的新闻中使用
+	is_triggered_only = yes
+	
+
+	option = {
+		name = sp_event.4.a
+        set_global_flag = Super_Event_Visible
+		set_global_flag = Iran_crisis_Super_Event_Visible
+		
+	}
+}
