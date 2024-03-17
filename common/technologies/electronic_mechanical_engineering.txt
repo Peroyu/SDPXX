@@ -1488,7 +1488,7 @@ technologies = {
 	
 		folder = {
 			name = electronics_folder
-			position = { x = -3 y = @1942 }
+			position = { x = -3 y = @1945 }
 		}
 		
 		start_year = 1945
