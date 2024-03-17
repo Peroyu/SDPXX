@@ -37,6 +37,28 @@ on_actions = {
 				add_to_array = { members = THIS }
 				set_country_flag = meiguo_eco_union
 			}
+			HAI = {
+				random_country = {
+					limit = {
+						has_country_flag = meiguo_eco_union
+						has_country_flag = meiguo_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = meiguo_eco_union_shounao
+						}
+						has_country_flag = meiguo_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = meiguo_eco_union
+			}
 			PAC = {
 				random_country = {
 					limit = {
