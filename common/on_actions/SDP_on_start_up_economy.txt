@@ -1016,15 +1016,13 @@ on_actions = {
 				add_to_array = { members = THIS }
 				set_country_flag = aosiman_eco_union
 			}
+
 			CAN = {
 				set_country_flag = xieyue_eco_union
 				set_country_flag = xieyue_eco_union_shounao
 				add_to_array = { members = THIS }
 			}
-			every_country = {
-				limit = {
-					is_in_faction_with = CAN
-				}
+			ROF = {
 				random_country = {
 					limit = {
 						has_country_flag = xieyue_eco_union
@@ -1046,25 +1044,380 @@ on_actions = {
 				add_to_array = { members = THIS }
 				set_country_flag = xieyue_eco_union
 			}
-			every_country = {
-				limit = {
-					is_ai = no
+			CAM = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
 				}
-				country_event = {
-					id = color.1
-					days = 560
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
 				}
-				news_event = {
-				    id = LaAme.1
-					days = 330
-				}
-				news_event = {
-				    id = ISU.14
-					days = 79
-				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
 			}
-			
-			
+			FWI = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			MAD = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			CYN = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			RHO = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			AST = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			NZL = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			DOS = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			GEA = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			MAL = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			FRC = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			SWA = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			OCE = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			TAZ = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			NIG = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			COG = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
+			KEN = {
+				random_country = {
+					limit = {
+						has_country_flag = xieyue_eco_union
+						has_country_flag = xieyue_eco_union_shounao
+					}
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							has_country_flag = xieyue_eco_union_shounao
+						}
+						has_country_flag = xieyue_eco_union
+					} 
+					add_to_array = { PREV.members = THIS }
+					add_to_array = { THIS.members = PREV }
+				}
+				add_to_array = { members = THIS }
+				set_country_flag = xieyue_eco_union
+			}
 		}
 	}
 }
