@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+ SDP_MAPMODE_CORE_MAP_MODE:0 "显示宣称和核心"
+ SDP_MAPMODE_CORE_MAP_MODE_NAME:0 "显示宣称和核心"
+ SDP_MAPMODE_CORE_MAP_MODE_DESCRIPTION:0 "显示宣称和核心"
+ Core_Map_mode_tooltip:0 "[FROM.GETNAME]"
+ Core_Map_mode_tooltip_delayed:0 "控制者是[FROM.controller.GETNAMEWITHFLAG]\n该地块 [Core_state_status]"
+
+ SDP_Core_own:0 "§G核心地块§! §G由你完全拥有并控制§!"
+ SDP_Core_control_not_own:0 "§G核心地块§! §Y非你拥有§! §G在你控制范围下§!"
+ SDP_Core_not_control:0 "§G核心地块§! §R不在你控制范围下§!"
+ SDP_Claim_own:0 "§Y宣称地块§! §G由你完全拥有并控制§!"
+ SDP_Claim_controll_not_own:0 "§Y宣称地块§! §Y非你拥有§! §G在你控制范围下§!"
+ SDP_Claim_not_control:0 "§Y宣称地块§! §R不在你控制范围下§!"
+ SDP_Normal_control_and_own:0 "§R无核心 无宣称地块§! §G由你完全拥有并控制§!"
+ SDP_Normal_control_not_own:0 "§R无核心 无宣称地块§! §G在你控制范围下§!"
+ SDP_Normal_own_not_control:0 "§R无核心 无宣称地块§! §R不在你控制范围下§!"
+ SDP_other:0 "其他国家控制"
