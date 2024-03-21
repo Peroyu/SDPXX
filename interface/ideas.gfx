@@ -1024,6 +1024,16 @@ spriteTypes = {
 		name = "GFX_idea_NIP_Hiroto"
 		texturefile = "gfx/interface/ideas/NIP/GFX_idea_NIP_Hiroto.png"
 	}
+	#######################JIN######################
+	spriteType = {
+		name = "GFX_idea_JIN_industry_of_shanxi"
+		texturefile = "gfx/interface/ideas/JIN/GFX_idea_JIN_industry_of_shanxi.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_JIN_servive_ideal"
+		texturefile = "gfx/interface/ideas/JIN/GFX_idea_JIN_servive_ideal.png"
+	}
 	###################################################3
 
 	spriteType = {

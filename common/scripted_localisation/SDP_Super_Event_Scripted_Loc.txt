@@ -106,6 +106,13 @@ defined_text = { #SUPER EVENT PICTURES
         }
         localization_key = "GFX_SPEVENT_Iran_crisis_Super_Event_Visible"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = RCR_unify_Super_Event_Visible
+        }
+        localization_key = "GFX_SPEVENT_RCR_unify_Super_Event_Visible"
+    }
 }
 defined_text = { #SUPER EVENT TITLES
     name = get_super_event_title
@@ -213,6 +220,13 @@ defined_text = { #SUPER EVENT TITLES
             has_global_flag = Iran_crisis_Super_Event_Visible
         }
         localization_key = "Iran_crisis_Super_Event_TITLE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = RCR_unify_Super_Event_Visible
+        }
+        localization_key = "RCR_unify_Super_Event_TITLE"
     }
    
 }
@@ -323,6 +337,13 @@ defined_text = { #SUPER EVENT QUOTES
             has_global_flag = Iran_crisis_Super_Event_Visible
         }
         localization_key = "Iran_crisis_Super_Event_TEXT"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = RCR_unify_Super_Event_Visible
+        }
+        localization_key = "RCR_unify_Super_Event_TEXT"
     }
 }
 
@@ -435,6 +456,13 @@ defined_text = { #SUPER EVENT BUTTONS
         }
         localization_key = "Iran_crisis_Super_Event_BUTTON"
     }
+
+    text = { 
+        trigger = {
+            has_global_flag = RCR_unify_Super_Event_Visible
+        }
+        localization_key = "RCR_unify_Super_Event_BUTTON"
+    }
 }
 
 defined_text = { #SUPER EVENT BUTTONS
@@ -542,6 +570,13 @@ defined_text = { #SUPER EVENT BUTTONS
             has_global_flag = Iran_crisis_Super_Event_Visible
         }
         localization_key = "Iran_crisis_Super_Event_DESC"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = RCR_unify_Super_Event_Visible
+        }
+        localization_key = "RCR_unify_Super_Event_DESC"
     }
     
 }

@@ -14,6 +14,7 @@
  west_mid_crisis_Super_Event_TITLE: "西地中海危机"
  Africa_crisis_Super_Event_TITLE: "争夺非洲"
  Iran_crisis_Super_Event_TITLE: "波斯湾危机"
+ RCR_unify_Super_Event_TITLE: ""
 
 
  CHI_second_continent_war_Super_Event_TEXT: "用我们的血肉筑起新的长城\n——田汉"
@@ -31,6 +32,7 @@
  west_mid_crisis_Super_Event_TEXT: "我们可以做许多白日梦，可以失败，可以哭泣，但也可以光芒万丈。——让·保罗·萨特"
  Africa_crisis_Super_Event_TEXT: "所有的理想都是合法的。除了那些要建立在他人痛苦或信仰之上的所谓理想。——约瑟夫·康拉德"
  Iran_crisis_Super_Event_TEXT: "光明正大的政治目标，要以光明正大的手段来完成。——贾瓦拉哈尔·尼赫鲁"
+ RCR_unify_Super_Event_TEXT: ""
 
 
  CHI_second_continent_war_Super_Event_BUTTON: "起来！起来！"
@@ -48,6 +50,7 @@
  west_mid_crisis_Super_Event_BUTTON: "他人即地狱"
  Africa_crisis_Super_Event_BUTTON: "历史的第二次演绎"
  Iran_crisis_Super_Event_BUTTON: "如何出牌，操之在己"
+ RCR_unify_Super_Event_BUTTON: ""
 
 
  CHI_second_continent_war_Super_Event_DESC: "五十七名战士，拒绝了我每人赏洋三十元的建议，他们齐向我大喊：我们的战斗目的，是要确保我们以及子孙不做日本帝国主义的奴隶，为了争取民族的生存，争取人类的光明，我们一定以必死的决心去执行战斗任务，钱要来干什么？……他们满挂着手榴弹，爬入城的西北角，城外，另有大军佯攻，居然凭他们的英勇，把敌人全部解决了！"
@@ -65,3 +68,4 @@
  west_mid_crisis_Super_Event_DESC: "企图改变世界秩序的去殖民，根本就是一个全然混乱无序的纲领。但它不可能是一个神奇的操作、自然的撼动或者和睦谅解的结果。大家都知道，去殖民是一个历史的过程，也就是说，只有当我们认清那赋予它内容与形式的历史化运动，它才能被理解，才能找到自己的可理解性，使自身变成透明。"
  Africa_crisis_Super_Event_DESC: "如果桑迪普在身边，他就会负责骂英国人。他的眼睛闪闪发光，他有苦说不出来。他在英国生活的时间最长，也最不正经。[……]他用一种残酷的口吻肆意谩骂：听着，他们是人渣。[……]他们吃血，吃蹄子，吃皮毛，还和动物做爱。当你听他们说话时，你会认为是他们发明了这个世界。诗歌、科学、哲学，这些都是从我们这里学来的。"
  Iran_crisis_Super_Event_DESC: "帝国石油公司伊朗分公司将作为一家伊朗股份公司被国有化。其资金、权利和义务全部上缴国家，并解散目前负责其管理的所有委员会和委员会股东和创始人因其所拥有的股份和股份的价值而获得补偿。\n根据本法生效日的前收盘价估算，在纽约证券交易所，这笔补偿是在国家收到国有化公司的所有金钱和财产后支付的。"
+ RCR_unify_Super_Event_DESC: ""
