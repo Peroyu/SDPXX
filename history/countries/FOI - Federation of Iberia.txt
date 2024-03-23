@@ -127,7 +127,7 @@ create_country_leader = {
 	traits = {  }
 }
 ################
-set_variable = { var = FactionStatus value = 2 }
+
 ################
 set_variable = { var = SDP_economic_v value = 21 }#60
 set_variable = { var = SDP_education_v value = 22 }#50

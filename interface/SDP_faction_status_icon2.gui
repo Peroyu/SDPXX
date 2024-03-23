@@ -3,11 +3,107 @@ guiTypes ={
 		name = "SDP_faction_isu_status_icon"
 		Orientation = CENTER_UP
 		position = { x =-660 y = 30 }
-		iconType = { 
+		buttonType = { 
 			name = "SDP_faction_isu_status"
 			position =  { x = 405  y =275}  
 			spriteType = "GFX_faction_isu"
 			pdx_tooltip = SDP_isu_faction_desc
 		} 
+	}
+	containerWindowType = { 
+		name = "SDP_isu_main_window_main"
+		position = { x = 0 y = 200 }
+		Orientation = CENTER_UP
+		
+		size = { width = 1100 height = 700 }
+		moveable = yes
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_ISU_GUI_Background"
+		}
+		instantTextboxType = {
+			name = "faction_name"
+			position = { x = 450 y = 12 }
+			font = "hoi_36header"
+			text = "SDP_ISU_FACTION"
+			maxWidth = 600
+			maxHeight = 40
+			fixedsize = yes
+		}
+		buttonType = { 
+			name = "enter_SDP_isu_main_close"
+			position = { x = 1050 y =20 } 
+			quadTextureSprite = "GFX_cancel_transfer_button"
+			clicksound = click_default
+		} 
+		iconType = {
+			name = "flags_incredible"
+			quadTextureSprite ="GFX_flags_incredible"
+			position = { x= 25 y = 60 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		containerWindowType = {
+			name = "faction_grid_list_container"
+			position = { x = 580 y = 462 }
+			size = { width = 500 height = 200 }
+			margin = { top = 10 bottom = 10 }
+			Orientation = upper_left
+
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridboxtype = {
+				name = "faction_grid"
+				position = { x = 10 y = 0 }
+				size = { width = 442 height = 100%% }
+				slotsize = { width = 442 height = 1 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+	}
+
+
+	containerWindowType = {
+		name = "economic_sphere_member_entry"
+		size = { width = 500 height = 44 }
+		clipping = yes
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_diplo_countrylist_entry"
+			clicksound = click_action
+		}
+
+		iconType = {
+			name = "country_flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 9 y = 8 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "diplo_countrylist_flag_frame"
+			spriteType = "GFX_diplo_countrylist_flag_frame"
+			position = { x = 5 y = 4 }
+			alwaystransparent = yes
+		}
+
+
+		instantTextboxType = {
+			name = "name"
+			position = { x = 56 y = 6 }
+			font = "hoi_16mbs"
+			text = "[THIS.GetName]"
+			maxWidth = 110
+			maxHeight = 40
+			fixedsize = yes
+		}
 	}
 }

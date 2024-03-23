@@ -11,7 +11,9 @@ state = {
 	}
 
 	history = {
-		owner = CYN
+		owner = MIS
+		add_core_of = MIS
+
 		add_claim_by = RAJ
 		add_claim_by = FID
 		victory_points = { 8011 3 } #Bengalore

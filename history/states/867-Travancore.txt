@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = CYN
-		add_core_of = PRF
+		owner = TAV
+		add_core_of = TAV
 		add_claim_by = RAJ
 		add_claim_by = FID
 		victory_points = { 7402 3 } #Trivandrum

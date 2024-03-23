@@ -1,0 +1,12 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_ISU_GUI_Background"
+		texturefile = "gfx/interface/fopo/waroverview_bg_tiled.dds"
+	}
+
+	spriteType = {
+		name = "GFX_flags_incredible"
+		texturefile = "gfx/interface/fopo/GFX_flags_incredible.png"
+	}
+}

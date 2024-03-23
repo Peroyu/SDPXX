@@ -5,7 +5,7 @@ state={
 
 	local_supplies = 3.0 
 	history={
-		owner = FID
+		owner = ASS
 		buildings = {
 			infrastructure = 1
 
@@ -13,7 +13,7 @@ state={
 		add_claim_by = FID
 		add_claim_by = TIB
 		add_claim_by = XKS
-		add_claim_by = RAJ
+		add_claim_by = ASS
 	}
 
 	provinces={

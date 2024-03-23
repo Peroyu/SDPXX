@@ -10,9 +10,10 @@ state = {
 	}
 
 	history = {
-		owner = FID
-		add_core_of = FID
+		owner = BEN
+		add_core_of = BEN
 		add_claim_by = RAJ
+		add_claim_by = FID
 		victory_points = { 10401 1 } #Raipur
 		buildings = {
 			infrastructure = 2

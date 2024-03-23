@@ -1034,6 +1034,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_MMO_Dedan_Kimathi"
+		texturefile = "gfx/leaders/East_Mediterranean/Portrait_MMO_Dedan_Kimathi.png"		
+	}
+
+	spriteType = {
 		name = "Potrait_YEM_Yehaiya"
 		texturefile = "gfx/leaders/East_Mediterranean/Potrait_YEM_Yehaiya.png"		
 	}

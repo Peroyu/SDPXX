@@ -7,8 +7,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = KAR
-		add_core_of = KAR
+		owner = MUI
+		add_core_of = MUI
 		victory_points = { 3456 5 } #Karachi
 		buildings = {
 			infrastructure = 3

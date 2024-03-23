@@ -447,6 +447,8 @@ ideologies = {
 			Wahhabiya = { can_be_randomly_selected = no }
 			Anarchy_social = { can_be_randomly_selected = no }
 			Salafism = { can_be_randomly_selected = no }
+			Tribalism = { can_be_randomly_selected = no }
+			ethnic_nationalism = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {

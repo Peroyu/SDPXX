@@ -6,9 +6,10 @@ state = {
 	state_category = four
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = RJP
+		add_core_of = RJP
 		add_claim_by = FID
+		add_claim_by = RAJ
 		victory_points = { 2054 1 } #Jaipur
 		buildings = {
 			infrastructure = 4

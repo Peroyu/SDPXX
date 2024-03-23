@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = FID
+		owner = RAJ
 		add_core_of = FID
 		add_claim_by = RAJ
 		victory_points = { 4883 2 } #Nagpur

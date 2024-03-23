@@ -6,9 +6,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = BEN
+		add_core_of = BEN
 		add_claim_by = FID
+		add_claim_by = RAJ
 		victory_points = { 4953 1 } #Jubbalpur
 		victory_points = { 7938 2 } #Allahabad
 		buildings = {

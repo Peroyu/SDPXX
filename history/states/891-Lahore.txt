@@ -6,8 +6,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = PUN
-		add_core_of = PUN
+		owner = MUI
+		add_core_of = MUI
 
 		victory_points = { 12005 5 } #Lahore
 		buildings = {

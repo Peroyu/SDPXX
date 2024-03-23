@@ -26,10 +26,7 @@ set_popularities = {
 	Nationalism = 11
 	restorativeism = 12
 }
-declare_war_on = {
-		target = CYN
-		type = annex_everything
-	}
+
 add_ideas = {
 	private_health_insurance
 	land_based_taxation

@@ -25,7 +25,7 @@ create_country_leader = {
 	desc = "MAR_Jivajirao_Scindia_desc"  # 
 	picture = Portrait_MAR_Jivajirao_Scindia  # 
 	expire = "1956.6.6"  # 
-	ideology =  despotism # 
+	ideology =  authoritarian_democracy  # 
 	traits = {  # 
 	}
 }

@@ -1,0 +1,30 @@
+
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country =  {
+				limit = {
+					check_variable = { var = FactionStatus value = 2 compare = equals }
+				}
+				random_country = {
+					limit = {
+						check_variable = { var = FactionStatus value = 2 compare = equals }
+					}
+					add_to_array = { PREV.faction_members = THIS }
+					add_to_array = { THIS.faction_members = PREV }
+				}
+				every_country = {
+					limit ={
+						NOT = {
+							check_variable = { var = FactionStatus value = 2 compare = equals }
+						}
+						check_variable = { var = FactionStatus value = 2 compare = equals }
+					} 
+					add_to_array = { PREV.faction_members = THIS }
+					add_to_array = { THIS.faction_members = PREV }
+				}
+				add_to_array = { faction_members = THIS }
+			}
+		}
+	}
+}

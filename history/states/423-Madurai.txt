@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = CYN
-		add_core_of = PRF
+		owner = MRD
+		add_core_of = MRD
 		add_claim_by = RAJ
 		add_claim_by = FID
 		victory_points = { 1409 3 } #Madurai

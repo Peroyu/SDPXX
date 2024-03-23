@@ -9,6 +9,46 @@ scripted_gui = {
 		trigger = {
 			check_variable = { var = FactionStatus value = 2 compare = equals }
 		}
+		effects = {
+			SDP_faction_isu_status_click = {
+					for_each_loop = {
+						array = FROM.faction_members
+						add_to_array = { ROOT.faction_list_array = v }
+					}
+					ROOT = { set_country_flag = oppen_isu_gui }
+				
+			}
+		}
+	}
+	SDP_isu_main_GUI ={
+		window_name = "SDP_isu_main_window_main"
+		context_type = Player_context
+		visible = {
+			has_country_flag = oppen_isu_gui
+		}
+	
+	    effects = {
+			enter_SDP_isu_main_close_click = {
+					limit = { ROOT = check_variable = { var = FactionStatus value = 2 compare = equals } }
+					clear_array = ROOT.faction_list_array
+					ROOT = { clr_country_flag = oppen_isu_gui }
+			}
+	    }
+
+		dynamic_lists = {
+			faction_grid = {
+				array = faction_list_array
+				change_scope = yes
+
+				entry_container = economic_sphere_member_entry
+			}
+		}
+
+		properties = {
+			country_flag = {
+				image = "[This.GetFlag]"
+			}
+		}
 
 	}
 }

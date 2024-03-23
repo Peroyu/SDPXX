@@ -511,6 +511,20 @@ defined_text = {
 		}
 		localization_key = Salafism
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Tribalism
+		}
+		localization_key = Tribalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = ethnic_nationalism
+		}
+		localization_key = ethnic_nationalism
+    }
 }
 
 
@@ -996,5 +1010,19 @@ defined_text = {
 			has_country_leader_ideology = Salafism
 		}
 		localization_key = Salafism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Tribalism
+		}
+		localization_key = Tribalism
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = ethnic_nationalism
+		}
+		localization_key = ethnic_nationalism
     }
 }

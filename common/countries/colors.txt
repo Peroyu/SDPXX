@@ -15,6 +15,14 @@ BAL = {
 	color = rgb { 255 189 84  }
 	color_ui = rgb { 255 189 84 }
 }
+MUI = {
+	color = rgb { 123 163 107  }
+	color_ui = rgb {  123 163 107   }
+}
+MMO = {
+	color = rgb { 177 100 101  }
+	color_ui = rgb {177 100 101 }
+}
 ALG = {
 	color = rgb { 149 170 129  }
 	color_ui = rgb { 149 170 129 }
@@ -56,16 +64,16 @@ AFG = {
 	color_ui = rgb { 71 100 59 }
 }
 RJP = {
-	color = rgb { 71 100 59 }
-	color_ui = rgb { 71 100 59 }
+	color = rgb { 178 191 118  }
+	color_ui = rgb {  178 191 118   }
 }
 BAG = {
 	color = rgb { 71 100 59 }
 	color_ui = rgb { 71 100 59 }
 }
 ORI = {
-	color = rgb { 71 100 59 }
-	color_ui = rgb { 71 100 59 }
+	color = rgb{ 143 172 39 }   
+	color_ui = rgb { 143 172 39 }
 }
 ALB = {
 	color = rgb { 112 133 224}
@@ -92,16 +100,16 @@ ETR = {
 	color_ui = rgb { 225 116 116 }
 }
 GUI = {
-	color = rgb { 71 100 59 }
-	color_ui = rgb { 71 100 59 }
+	color = rgb { 123 163 107  }
+	color_ui = rgb {  123 163 107   }
 }
 OGC = {
 	color = rgb { 132 102 94 }
 	color_ui = rgb { 132 102 94 }
 }
 MIS = {
-	color = rgb { 178 101 96 }
-	color_ui = rgb { 178 101 96 }
+	color = rgb{ 143 172 39 }   
+	color_ui = rgb { 143 172 39 } 
 }
 MRD = {
 	color = rgb { 118 94 76 }
@@ -288,8 +296,8 @@ FWI = {
 	color_ui = rgb { 155 139 222 }
 }
 FID = {
-	color = rgb { 58 120 35 }
-	color_ui = rgb { 58 120 35 }
+	color = rgb { 170 10 10 }
+	color_ui = rgb { 200 10 10 }
 }
 GEO = {
 	color = rgb  { 149 87 87 }
@@ -320,10 +328,18 @@ HAI = {
 	color_ui = rgb { 198 178 91 }
 }
 HYD = {
-	color = rgb { 210 149 114 }
-	color_ui = rgb { 210 149 114 }
+	color = rgb{ 143 172 39 }   
+	color_ui = rgb { 143 172 39 }
 }
 RAJ = {
+	color = rgb{ 143 172 39 }   
+	color_ui = rgb { 143 172 39 }   
+}
+ASS = {
+	color = rgb{ 143 172 39 }   
+	color_ui = rgb { 143 172 39 }   
+}
+BEN = {
 	color = rgb{ 143 172 39 }   
 	color_ui = rgb { 143 172 39 }   
 }
@@ -348,8 +364,9 @@ KAR = {
 	color_ui = rgb  { 71 100 59 }
 }
 KAS = {
-	color = rgb { 71 100 59 }
-	color_ui = rgb  { 71 100 59 }
+	color = rgb { 213 193 134 }
+	color_ui = rgb { 213 193 134 }
+
 }
 BHU = {
 	color = rgb { 255 240 181 }
@@ -428,8 +445,8 @@ POR = {
 	color_ui = rgb  { 154 200 127 }
 }
 PUN = {
-	color = rgb{ 71 100 59 }
-	color_ui = rgb  { 71 100 59 }
+	color = rgb{ 255 116 17 }
+	color_ui = rgb  {   255 116 17 }
 }
 RCL = {
 	color = rgb{  195 34 45 }

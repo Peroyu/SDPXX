@@ -12,7 +12,8 @@ state = {
 	}
 
 	history = {
-		owner = FID
+		owner = ORI
+		add_core_of =  ORI
 		add_core_of = FID
 		add_claim_by = RAJ
 		victory_points = { 10088 1 } #Cuttack

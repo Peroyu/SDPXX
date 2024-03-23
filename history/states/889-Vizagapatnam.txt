@@ -10,9 +10,9 @@ state = {
 	}
 
 	history = {
-		owner = FID
-		add_core_of = FID
-		add_claim_by = RAJ
+		owner = RAJ
+		add_core_of = RAJ
+		add_claim_by = FID
 		victory_points = { 10001 1 } #Vizagapatnam
 		buildings = {
 			infrastructure = 2
