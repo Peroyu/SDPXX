@@ -7,9 +7,7 @@ set_research_slots = 2 #
 set_war_support = 0.4 # 
 set_stability = 0.5 # 
 Euro_other_colony_initial_techs = yes
-CAM = {
-	puppet = GEA
-}
+
 set_politics = {
 	ruling_party = conservatism # 
 	last_election = "1947.1.1"

@@ -8,7 +8,10 @@ set_war_support = 0.3 #
 set_stability = 0.4 # 
 
 TUR = {
-	puppet = RAS
+	set_autonomy = {
+	target = TUN
+	autonomy_state = autonomy_puppet
+}
 }
 set_politics = {
 	ruling_party = reactionism # 

@@ -22,6 +22,7 @@ add_to_faction = TAZ
 add_to_faction = KEN
 add_to_faction = AST
 add_to_faction = NZL
+add_to_faction = GEA
 add_to_faction = CYN
 add_to_faction = OCE
 add_to_faction = SHN

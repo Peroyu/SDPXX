@@ -1140,6 +1140,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "Portrait_RAJ_Mohandas_Gandhi"
+		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_Mohandas_Gandhi.png"		
+	}
+
+	spriteType = {
 		name = "Portrait_MAR_Jivajirao_Scindia"
 		texturefile = "gfx/leaders/INDIA/Portrait_MAR_Jivajirao_Scindia.png"		
 	}

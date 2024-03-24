@@ -6,9 +6,7 @@ set_research_slots = 2
 
 set_war_support = 0.2 
 set_stability = 0.3 
-YUG = {
-	puppet = SLV
-}
+
 set_variable = { SDP_welcome_splash_variable = 1 }
 Europe_subcountry_initial_techs = yes
 set_politics = {

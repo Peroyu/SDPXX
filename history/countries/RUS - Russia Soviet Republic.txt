@@ -159,6 +159,26 @@ set_technology = {
 	improved_machine_tools = 1
 	fuel_silos = 1
 }
+set_autonomy = {
+	target = CAS
+	autonomy_state = SDP_soviet_socialist_republic
+}
+set_autonomy = {
+	target = TKM
+	autonomy_state = SDP_soviet_socialist_republic
+}
+set_autonomy = {
+	target = TRU
+	autonomy_state = SDP_soviet_socialist_republic
+}
+set_autonomy = {
+	target = BUK
+	autonomy_state = SDP_soviet_socialist_republic
+}
+set_autonomy = {
+	target = KHO
+	autonomy_state = SDP_soviet_socialist_republic
+}
 create_country_leader = {
 		name = "SOV_Yakov_Sverdlov"   
 		desc = "SOV_Yakov_Sverdlov_desc"  

@@ -59,16 +59,5 @@ ideas = {
 			}
 		}
 		#############################
-		YUG_Federal_part = {
-		    name = YUG_Federal_part
-			picture = YUG_Federal_part
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				custom_modifier_tooltip = YUG_modifier_tt_1
-			}
-		}
 	}
 }	

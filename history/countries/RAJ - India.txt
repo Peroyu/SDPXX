@@ -5,7 +5,7 @@ set_war_support = 0.9
 set_stability = 0.2
 CHI_jap_initial_techs = yes
 set_politics = {
-	ruling_party = moderate_socialism
+	ruling_party = social_democracy
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
@@ -18,8 +18,8 @@ set_popularities = {
 	communism = 5
 	committee_communism = 1
 	social_democracy = 3
-	moderate_socialism = 28
-	Liberalism = 9
+	moderate_socialism = 13
+	Liberalism = 24
 	movement_communism =  11
 	conservatism = 16
 	reactionism = 4
@@ -44,15 +44,45 @@ add_ideas = {
 	national_guard
 	racial_segregation
  ######################
- INDIA_no_allies
+ 
  
  }
+ set_autonomy = {
+	target = ORI
+	autonomy_state = SDP_India_prince_state
+}
+set_autonomy = {
+	target = HYD
+	autonomy_state = SDP_India_prince_state
+}
+set_autonomy = {
+	target = BEN
+	autonomy_state = SDP_India_prince_state
+}
+set_autonomy = {
+	target = ASS
+	autonomy_state = SDP_India_prince_state
+}
+set_autonomy = {
+	target = MIS
+	autonomy_state = SDP_India_prince_state
+}
 create_country_leader = {
 	name = "Jawaharlal_Nehru"
 	desc = "nihelu_desc"  
 	picture = "RAJ_Portrait_Jawaharlal_Nehru"  
 	expire = "1952.7.10"  
 	ideology = moderate_socialist
+	traits = { 
+		
+	}
+}
+create_country_leader = {
+	name = "RAJ_Mohandas_Gandhi"
+	desc = "RAJ_Mohandas_Gandhi_desc"  
+	picture = "Portrait_RAJ_Mohandas_Gandhi"  
+	expire = "1952.7.10"  
+	ideology = Left_Nationalism
 	traits = { 
 		
 	}

@@ -59,6 +59,26 @@ set_popularities = {
 	restorativeism = 5
 }
 
+set_autonomy = {
+	target = ALB
+	autonomy_state = SDP_Yugaslavia_antonomy_republic
+}
+set_autonomy = {
+	target = CRT
+	autonomy_state = SDP_Yugaslavia_antonomy_republic
+}
+set_autonomy = {
+	target = BOS
+	autonomy_state = SDP_Yugaslavia_antonomy_republic
+}
+set_autonomy = {
+	target = MAQ
+	autonomy_state = SDP_Yugaslavia_antonomy_republic
+}
+set_autonomy = {
+	target = SLV
+	autonomy_state = SDP_Yugaslavia_antonomy_republic
+}
 set_variable = { var = FactionStatus value = 2 }
 
 set_variable = { var = SDP_economic_v value = 15 }#60

@@ -25,11 +25,13 @@ add_to_faction = FNC
 add_to_faction = MAN
 add_to_faction = MEN
 add_to_faction = GNP
+set_autonomy = {
+	target = JKR
+	autonomy_state = autonomy_wtt_imperial_protectorate
 
-
-NIP = {
-	puppet = JKR
 }
+
+
 if = {
 	limit = { has_tech_sharing_feature = yes }
 	every_country = {

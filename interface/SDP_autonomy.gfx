@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_SDP_India_prince_state_icon"
+		textureFile = "gfx/interface/autonomy/GFX_autonomy_SDP_India_prince_state_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_SDP_Yugaslavia_antonomy_republic_icon"
+		textureFile = "gfx/interface/autonomy/GFX_SDP_Yugaslavia_antonomy_republic_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_SDP_soviet_socialist_republic_icon"
+		textureFile = "gfx/interface/autonomy/soviet_republic_equal_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_SDP_state_of_china_icon"
+		textureFile = "gfx/interface/autonomy/GFX_SDP_state_of_china_icon.png"
+	}
+
+}

@@ -1,0 +1,53 @@
+capital = 891 # 
+
+set_oob = "MUI_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.7 # 
+set_stability = 0.3 # 
+
+
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+CHI_jap_initial_techs = yes
+
+set_autonomy = {
+	target = GUI
+	autonomy_state = SDP_India_prince_state
+}
+set_popularities = {
+	communism = 0
+	committee_communism = 0
+	social_democracy = 10
+	moderate_socialism = 10
+	Liberalism = 20
+	movement_communism =  10
+	conservatism = 20
+	reactionism = 20
+	Nationalism = 5
+	restorativeism = 5
+}
+
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }

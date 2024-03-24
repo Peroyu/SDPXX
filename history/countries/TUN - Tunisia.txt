@@ -16,7 +16,10 @@ set_politics = {
 }
 Europe_nowar_initial_techs = yes
 TUR = {
-	puppet = TUN
+	set_autonomy = {
+	target = TUN
+	autonomy_state = autonomy_puppet
+}
 }
 set_popularities = {
 	reactionism = 25
