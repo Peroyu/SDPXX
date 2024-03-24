@@ -1,4 +1,4 @@
-capital = 267 # 
+capital = 320 # 
 
 set_oob = "MRD_1947"  # 
 
@@ -12,7 +12,7 @@ set_autonomy = {
 }
 
 set_politics = {
-	ruling_party = reactionism # 
+	ruling_party = conservatism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
@@ -20,10 +20,16 @@ set_politics = {
 CHI_jap_initial_techs = yes
 
 set_popularities = {
- restorativeism = 20
- reactionism = 24
- Nationalism = 26
- conservatism = 30
+	communism = 5
+	committee_communism = 1
+	social_democracy = 3
+	moderate_socialism = 3
+	Liberalism = 10
+	movement_communism =  11
+	conservatism = 30
+	reactionism = 4
+	Nationalism = 11
+	restorativeism = 22
 }
 
 add_ideas = {
@@ -44,3 +50,14 @@ add_ideas = {
 	charitable_health_system
 	national_supremacy
  }
+
+ create_country_leader = {
+	name = "RAJ_Tanguturi_Panthulu"
+	desc = "RAJ_Tanguturi_Panthulu_desc"  
+	picture = "Portrait_RAJ_Tanguturi_Panthulu"  
+	expire = "1952.7.10"  
+	ideology = system_revolutionism
+	traits = { 
+		
+	}
+}

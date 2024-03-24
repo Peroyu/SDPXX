@@ -1138,6 +1138,16 @@ spriteType = {
 		name = "GFX_TIB_ka_shak"
 		texturefile = "gfx/leaders/INDIA/GFX_TIB_ka_shak.png"		
 	}
+
+	spriteType = {
+		name = "portrait_FID_Satish_Samanta"
+		texturefile = "gfx/leaders/INDIA/portrait_FID_Satish_Samanta.png"		
+	}
+
+	spriteType = {
+		name = "Portrait_RAJ_Tanguturi_Panthulu"
+		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_Tanguturi_Panthulu.png"		
+	}
 	
 	spriteType = {
 		name = "portrait_FID_Bose"

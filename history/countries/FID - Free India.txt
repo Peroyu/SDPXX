@@ -6,14 +6,13 @@ set_war_support = 0.7
 set_stability = 0.2
 
 set_politics = {
-	ruling_party = social_democracy
+	ruling_party = moderate_socialism
 	last_election = "1925.6.1"
 	election_frequency = 48 
 	elections_allowed = no  
 }
 CHI_jap_initial_techs = yes
 
-set_country_flag = INDIA_civilwar_participants
 set_popularities = {
  communism = 14.2
  committee_communism = 5.8
@@ -43,16 +42,16 @@ add_ideas = {
 	national_guard
 	racial_segregation
  ######################
- INDIA_no_allies
+
  
  }
 
 create_country_leader = {
-	name = "FID_Bose"
+	name = "FID_Satish_Samanta"
 	desc = "/"  
-	picture = "portrait_FID_Bose"  
+	picture = "portrait_FID_Satish_Samanta"  
 	expire = "1962.7.10"  
-	ideology = Left_Nationalism 
+	ideology = left_wing_nationalsim 
 	traits = { 
 		
 	}
