@@ -1,0 +1,29 @@
+﻿capital = 757
+
+oob = "empty"
+set_research_slots = 1
+
+set_war_support = 0.9 
+set_stability = 0.9 
+
+set_politics = {
+	ruling_party = restorativeism
+	last_election = "1947.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	reactionism = 20
+	restorativeism = 80
+}
+
+create_country_leader = {
+	name = "SKM_Bkra_rgyal"  
+	desc = "/"  
+	picture = "GFX_TIB_Namgyal"  
+	expire = "1985.1.1"  
+	ideology = Fundamentalism 
+	traits = {  
+		
+	}
+}

@@ -13,14 +13,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	reactionism = 20
-	restorativeism = 80
+	reactionism = 40
+	conservatism = 10
+	restorativeism = 50
 }
 
 create_country_leader = {
-	name = "TIB_Namgyal"  
+	name = "TIB_ka_shak"  
 	desc = "/"  
-	picture = "GFX_TIB_Namgyal"  
+	picture = "GFX_TIB_ka_shak"  
 	expire = "1985.1.1"  
 	ideology = Fundamentalism 
 	traits = {  

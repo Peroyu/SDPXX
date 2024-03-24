@@ -6,7 +6,7 @@ state = {
 	state_category = one
 
 	history = {
-		owner = PUN
+		owner = RAJ
 		add_core_of = PUN
 		add_claim_by = FID
 		add_claim_by = RAJ

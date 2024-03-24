@@ -1133,6 +1133,11 @@ spriteType = {
 		name = "RAJ_Portrait_Jawaharlal_Nehru"
 		texturefile = "gfx/leaders/INDIA/RAJ_Portrait_Jawaharlal_Nehru.png"		
 	}
+
+	spriteType = {
+		name = "GFX_TIB_ka_shak"
+		texturefile = "gfx/leaders/INDIA/GFX_TIB_ka_shak.png"		
+	}
 	
 	spriteType = {
 		name = "portrait_FID_Bose"

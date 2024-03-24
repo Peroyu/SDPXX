@@ -7,7 +7,12 @@ set_research_slots = 2 #
 set_war_support = 0.3 # 
 set_stability = 0.5 # 
 
-# 
+MRD = {
+set_autonomy = {
+	target = MIS
+	autonomy_state = SDP_India_prince_state
+}
+}
 set_politics = {
 	ruling_party = conservatism # 
 	last_election = "1947.1.1"
@@ -16,8 +21,16 @@ set_politics = {
 }
 # 
 set_popularities = {
- conservatism = 80
- reactionism = 20
+ communism = 0
+	committee_communism = 0
+	social_democracy = 5
+	moderate_socialism = 3
+	Liberalism = 12
+	movement_communism =  18
+	conservatism = 32
+	reactionism = 18
+	Nationalism = 5
+	restorativeism = 7
 }
 # 
 create_country_leader = {
@@ -26,6 +39,15 @@ create_country_leader = {
 	picture = "/"  # 
 	expire = "1956.6.6"  # 
 	ideology =  # 
+	traits = {  # 
+	}
+}
+create_country_leader = {
+	name = "MAR_Jivajirao_Scindia"  # 
+	desc = "MAR_Jivajirao_Scindia_desc"  # 
+	picture = Portrait_MAR_Jivajirao_Scindia  # 
+	expire = "1956.6.6"  # 
+	ideology =  authoritarian_democracy  # 
 	traits = {  # 
 	}
 }

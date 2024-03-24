@@ -6,9 +6,9 @@ state = {
 	state_category = six
 
 	history = {
-		owner = MUI
+		owner = RAJ
 		add_core_of = MUI
-
+		add_core_of = RAJ
 		victory_points = { 12005 5 } #Lahore
 		buildings = {
 			infrastructure = 3

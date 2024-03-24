@@ -16,16 +16,17 @@ set_politics = {
 }
 # 
 set_popularities = {
- conservatism = 80
- reactionism = 20
+ communism = 0
+	committee_communism = 0
+	social_democracy = 5
+	moderate_socialism = 5
+	Liberalism = 10
+	movement_communism =  15
+	conservatism = 35
+	reactionism = 20
+	Nationalism = 5
+	restorativeism = 5
+
 }
 # 
-create_country_leader = {
-	name = "MAR_Jivajirao_Scindia"  # 
-	desc = "MAR_Jivajirao_Scindia_desc"  # 
-	picture = Portrait_MAR_Jivajirao_Scindia  # 
-	expire = "1956.6.6"  # 
-	ideology =  authoritarian_democracy  # 
-	traits = {  # 
-	}
-}
+

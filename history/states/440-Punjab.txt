@@ -6,8 +6,8 @@ state = {
 	state_category = four
 
 	history = {
-		owner = PUN
-		add_core_of = PUN
+		owner = RAJ
+		add_core_of = RAJ
 		add_claim_by = FID
 		add_claim_by = PUN
 		victory_points = { 10729 1 } #Ludhiana

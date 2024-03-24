@@ -6,10 +6,10 @@ state = {
 	state_category = two
 
 	history = {
-		owner = PUN
-		add_core_of = PUN
+		owner = RAJ
+		add_core_of = RAJ
 		add_claim_by = FID
-		add_claim_by = RAJ
+		add_claim_by = PUN
 		victory_points = { 2032 1 } #Patiala
 		buildings = {
 			infrastructure = 3

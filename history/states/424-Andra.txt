@@ -6,9 +6,10 @@ state = {
 
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = MRD
+		add_claim_by = FID
 
+		add_core_of = MRD
 		add_claim_by = FID
 
 		victory_points = { 7297 1 } #Yannam

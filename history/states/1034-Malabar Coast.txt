@@ -2,8 +2,10 @@ state = {
 	id = 1034
 	name = "STATE_1034"
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = MRD
+		add_claim_by = FID
+
+		add_core_of = MRD
 		add_claim_by = FID
 		victory_points = { 7244 1 } #Mangalore
 		victory_points = { 7391 1 } #Calicut

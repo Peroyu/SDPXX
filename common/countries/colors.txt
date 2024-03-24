@@ -15,6 +15,10 @@ BAL = {
 	color = rgb { 255 189 84  }
 	color_ui = rgb { 255 189 84 }
 }
+SKM = {
+	color = rgb { 255 235 17  }
+	color_ui = rgb {  255 235 17  }
+}
 MUI = {
 	color = rgb { 123 163 107  }
 	color_ui = rgb {  123 163 107   }
@@ -112,8 +116,8 @@ MIS = {
 	color_ui = rgb { 143 172 39 } 
 }
 MRD = {
-	color = rgb { 118 94 76 }
-	color_ui = rgb { 118 94 76 }
+	color = rgb { 194 203 91 }
+	color_ui = rgb { 194 203 91 }
 }
 TAV = {
 	color = rgb { 194 203 91 }
