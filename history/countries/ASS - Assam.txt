@@ -1,0 +1,65 @@
+capital = 267 # 
+
+set_oob = "ASS_1947"  # 
+
+set_research_slots = 2 # 
+
+set_war_support = 0.7 # 
+set_stability = 0.3 # 
+RAJ = {
+set_autonomy = {
+	target = ASS
+	autonomy_state = SDP_India_prince_state
+}
+}
+
+set_politics = {
+	ruling_party = conservatism # 
+	last_election = "1947.1.1"
+	election_frequency = 48 # 
+	elections_allowed = no  # 
+}
+CHI_jap_initial_techs = yes
+
+set_popularities = {
+	communism = 5
+	committee_communism = 1
+	social_democracy = 3
+	moderate_socialism = 3
+	Liberalism = 10
+	movement_communism =  11
+	conservatism = 30
+	reactionism = 4
+	Nationalism = 11
+	restorativeism = 22
+}
+
+add_ideas = {
+	no_health_system
+	consumption_based_taxation
+	compulsory_primary_school
+	oligarchy
+	no_workers_rights
+	no_womens_rights
+	protectionism
+	censorship
+	poor_laws
+	religious_schools
+	state_religion
+	for_conscription
+	serfdom
+	no_home_affairs
+	charitable_health_system
+	national_supremacy
+ }
+
+ create_country_leader = {
+	name = "RAJ_muhammed_saadulah"
+	desc = "RAJ_muhammed_saadulah_desc"  
+	picture = "Portrait_RAJ_muhammed_saadulah"  
+	expire = "1952.7.10"  
+	ideology = system_revolutionism
+	traits = { 
+		
+	}
+}

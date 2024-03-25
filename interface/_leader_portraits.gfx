@@ -1148,6 +1148,11 @@ spriteType = {
 		name = "Portrait_RAJ_Tanguturi_Panthulu"
 		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_Tanguturi_Panthulu.png"		
 	}
+
+	spriteType = {
+		name = "Portrait_RAJ_muhammed_saadulah"
+		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_muhammed_saadulah.png"		
+	}
 	
 	spriteType = {
 		name = "portrait_FID_Bose"

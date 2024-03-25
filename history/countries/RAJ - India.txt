@@ -59,10 +59,7 @@ set_autonomy = {
 	target = BEN
 	autonomy_state = SDP_India_prince_state
 }
-set_autonomy = {
-	target = ASS
-	autonomy_state = SDP_India_prince_state
-}
+
 set_autonomy = {
 	target = RJP
 	autonomy_state = SDP_India_prince_state
