@@ -920,6 +920,11 @@
 		name = "GFX_portrait_NIP_Nagumo_Chuichi"
 		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Nagumo_Chuichi.png"		
 	}
+
+	spriteType = {
+		name = "GFX_portrait_NIP_Matsui_Iwane"
+		texturefile = "gfx/leaders/JAP/GFX_portrait_NIP_Matsui_Iwane.png"		
+	}
 	#####################SouthEastAsia#######################
 	
 	spriteType = {
