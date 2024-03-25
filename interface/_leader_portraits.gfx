@@ -1165,6 +1165,11 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_TAV_Chithira_Varma"
+		texturefile = "gfx/leaders/INDIA/portrait_TAV_Chithira_Varma.png"		
+	}
+
+	spriteType = {
 		name = "Portrait_RAJ_Mohandas_Gandhi"
 		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_Mohandas_Gandhi.png"		
 	}
