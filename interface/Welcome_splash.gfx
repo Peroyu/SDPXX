@@ -59,5 +59,10 @@ spriteTypes = {
 		name = "GFX_SLV_intro"
 		texturefile = "gfx/interface/welcome_GUI/GFX_SLV_intro.png"
 	}
+
+	spriteType = {
+		name = "GFX_RAJ_intro"
+		texturefile = "gfx/interface/welcome_GUI/GFX_RAJ_intro.png"
+	}
 	
 }

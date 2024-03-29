@@ -10,6 +10,7 @@ set_politics = {
 	election_frequency = 48 
 	elections_allowed = no  
 }
+set_variable = { SDP_welcome_splash_variable = 1 }
 1946.10.1 = {
 add_named_threat = { threat = 5 name = RAJ_threat_civilwar }
 }
@@ -44,8 +45,10 @@ add_ideas = {
 	national_guard
 	racial_segregation
  ######################
- 
- 
+ RAJ_indian_organised_legacy
+ RAJ_conflicts_between_nations
+ RAJ_conflicts_in_party
+ RAJ_colony_economy
  }
  set_autonomy = {
 	target = ORI
@@ -89,6 +92,6 @@ create_country_leader = {
 	expire = "1952.7.10"  
 	ideology = Progressive_Conservatusm
 	traits = { 
-		
+		RAJ_Mahatma
 	}
 }

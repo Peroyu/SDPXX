@@ -48,7 +48,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "FID_Satish_Samanta"
-	desc = "/"  
+	desc = "FID_Satish_Samanta_desc"  
 	picture = "portrait_FID_Satish_Samanta"  
 	expire = "1962.7.10"  
 	ideology = left_wing_nationalsim 

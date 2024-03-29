@@ -37,7 +37,12 @@ leader_traits = {
 		random = no
 		custom_modifier_tooltip = IRE_socialist_love_tt
 	}
-	
+	RAJ_Mahatma = {
+		random = no
+		political_power_factor = 0.05
+	stability_factor = 0.1
+	}
+
 	#########
 	Guerrilla_fighters = {
 		random = no

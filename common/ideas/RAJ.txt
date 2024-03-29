@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+		RAJ_indian_organised_legacy = {
+		    name = RAJ_indian_organised_legacy
+			picture = RAJ_indian_organised_legacy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_gain = 0.01
+				war_support_factor = -0.2
+				custom_modifier_tooltip = RAJ_modifier_tt_1
+			}
+		}
+		RAJ_conflicts_between_nations= {
+		    name = RAJ_conflicts_between_nations
+			picture = RAJ_conflicts_between_nations
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				monthly_population = -0.1
+			}
+		}
+		RAJ_conflicts_in_party= {
+		    name = RAJ_conflicts_in_party
+			picture = RAJ_conflicts_in_party
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.05
+				custom_modifier_tooltip = RAJ_modifier_tt_2
+			}
+		}
+		RAJ_colony_economy= {
+		    name = RAJ_colony_economy
+			picture = RAJ_colony_economy
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				mobilization_speed = -0.2
+				industrial_capacity_factory = -0.05
+				global_building_slots_factor = -0.07
+			}
+		}
+	}
+}	

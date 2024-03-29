@@ -42,7 +42,7 @@ add_ideas = {
 	charitable_health_system
 	cultural_exclusion
  ######################
- INDIA_no_allies
+ 
  
  }
 
@@ -51,6 +51,16 @@ create_country_leader = {
 	name = "CAN_chillchil"
 	desc = "/"  
 	picture = "portrait_CAN_chillchil"  
+	expire = "1962.7.10"  
+	ideology = authoritarian_democracy 
+	traits = { 
+		
+	}
+}
+create_country_leader = {
+	name = "CAN_Bruce_Fraser"
+	desc = "/"  
+	picture = "portrait_CAN_Bruce_Fraser"  
 	expire = "1962.7.10"  
 	ideology = authoritarian_democracy 
 	traits = { 

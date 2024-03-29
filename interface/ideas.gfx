@@ -898,8 +898,36 @@ spriteTypes = {
 		name = "GFX_idea_GDC_KMT_CPC_N"
 		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_KMT_CPC_N.png"
 	}
-	
-	
+	spriteType = {
+		name = "GFX_idea_GDC_Who_care_us_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_Who_care_us_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_local_crisis_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_local_crisis_idea.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GDC_minzhu_idea"
+		texturefile = "gfx/interface/ideas/GDC/GFX_idea_GDC_minzhu_idea.png"
+	}
+
+	##################RAJ########################
+	spriteType = {
+		name = "GFX_idea_RAJ_colony_economy"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_idea_RAJ_colony_economy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_conflicts_between_nations"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_idea_RAJ_conflicts_between_nations.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_indian_organised_legacy"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_idea_RAJ_indian_organised_legacy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_conflicts_in_party"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_idea_RAJ_conflicts_in_party.png"
+	}
 ####################HUN#########################
 
 	spriteType = {
