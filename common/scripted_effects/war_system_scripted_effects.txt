@@ -39,3 +39,14 @@ NIP_war_debuff_calculation = {
 	
 
 }
+FID_front_power_calculation = {
+		
+	set_variable = {
+		THIS.FID_front_power = FID.FID_front_power_num
+	}
+	divide_variable = {
+		THIS.FID_front_power = 200
+	}
+	
+
+}

@@ -46,6 +46,8 @@ add_ideas = {
 	no_home_affairs
 	charitable_health_system
 	national_supremacy
+
+	MRD_nationalities_murder
  }
 
  create_country_leader = {

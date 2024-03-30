@@ -816,6 +816,25 @@ news_event = {
 	}
 }
 news_event = {
+	id = global.26
+
+    picture = GFX_global_26
+    title = global.26.t
+    desc = global.26.d
+    immediate = { 
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = global.26.a
+	}
+}
+news_event = {
 	id = Pacific.1
 
     picture = GFX_Pacific_1

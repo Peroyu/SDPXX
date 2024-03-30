@@ -125,3 +125,14 @@ NIP_no_more_war = {
 	dig_in_speed_factor = NIP_war_debuff_num
 	planning_speed  = NIP_war_debuff_num
 }
+FID_revolutionary_front = {
+    enable = { 
+		always = yes 
+	}
+    icon = GFX_FID_revolutionary_front
+	custom_modifier_tooltip = FID_modifier_tt_1
+	army_attack_factor = FID_front_power
+	army_org_factor = FID_front_power
+	breakthrough_factor = FID_front_power
+	political_power_gain = FID_front_power
+}

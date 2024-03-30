@@ -4,12 +4,7 @@ set_research_slots = 2
 
 set_war_support = 0.8 
 set_stability = 0.7 
-RAJ = {
-	set_autonomy = {
-		target = ORI
-		autonomy_state = SDP_India_prince_state
-	}
-}
+
 set_politics = {
 	ruling_party = conservatism # 
 	last_election = "1947.1.1"
@@ -18,7 +13,7 @@ set_politics = {
 }
 # 
 set_popularities = {
- communism = 0
+ 	communism = 0
 	committee_communism = 0
 	social_democracy = 5
 	moderate_socialism = 5
@@ -32,9 +27,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "RAJ_Krushna_Gajapati"
+	name = "RAJ_Pratap_Gaekwad"
 	desc = "/"  
-	picture = "RAJ_Portrait_RAJ_Krushna_Gajapati"  
+	picture = "RAJ_Portrait_RAJ_Pratap_Gaekwad"  
 	expire = "1952.7.10"  
 	ideology = authoritarian_democracy 
 	traits = { 

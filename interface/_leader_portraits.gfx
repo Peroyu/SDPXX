@@ -1145,6 +1145,21 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "RAJ_Portrait_RAJ_Man_singh_II"
+		texturefile = "gfx/leaders/INDIA/RAJ_Portrait_RAJ_Man_singh_II.png"		
+	}
+
+	spriteType = {
+		name = "RAJ_Portrait_RAJ_Krushna_Gajapati"
+		texturefile = "gfx/leaders/INDIA/RAJ_Portrait_RAJ_Krushna_Gajapati.png"		
+	}
+
+	spriteType = {
+		name = "RAJ_Portrait_RAJ_Pratap_Gaekwad"
+		texturefile = "gfx/leaders/INDIA/RAJ_Portrait_RAJ_Pratap_Gaekwad.png"		
+	}
+
+	spriteType = {
 		name = "GFX_TIB_ka_shak"
 		texturefile = "gfx/leaders/INDIA/GFX_TIB_ka_shak.png"		
 	}

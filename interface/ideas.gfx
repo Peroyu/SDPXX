@@ -928,6 +928,14 @@ spriteTypes = {
 		name = "GFX_idea_RAJ_conflicts_in_party"
 		texturefile = "gfx/interface/ideas/RAJ/GFX_idea_RAJ_conflicts_in_party.png"
 	}
+	spriteType = {
+		name = "GFX_FID_revolutionary_front"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_FID_revolutionary_front.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MRD_nationalities_murder"
+		texturefile = "gfx/interface/ideas/RAJ/GFX_MRD_nationalities_murder.png"
+	}
 ####################HUN#########################
 
 	spriteType = {

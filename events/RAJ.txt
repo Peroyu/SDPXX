@@ -1,0 +1,29 @@
+add_namespace = RAJ
+country_event = {
+    id = RAJ.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	RAJ.1 FROM = [From.GetName]" }
+	title = RAJ.1.t
+	desc = RAJ.1.d
+	picture = GFX_RAJ_1
+	fire_only_once = yes
+	trigger = {
+		tag = RAJ
+		date > 1947.3.5
+	}
+	
+	immediate = {
+	    hidden_effect = {
+			
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = RAJ.1.a
+	}
+}

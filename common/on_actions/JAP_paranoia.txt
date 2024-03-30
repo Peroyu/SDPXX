@@ -64,5 +64,12 @@ on_actions = {
 		}
 	}
 
+	on_daily_FID = {
+		effect = {
+			FID_front_power_calculation = yes
+			
+		}
+	}
+
 	
 }

@@ -1,0 +1,29 @@
+add_namespace = FID
+country_event = {
+    id = FID.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	FID.1 FROM = [From.GetName]" }
+	title = FID.1.t
+	desc = FID.1.d
+	picture = GFX_FID_1
+	fire_only_once = yes
+	trigger = {
+		tag = FID
+		date > 1947.3.5
+	}
+	
+	immediate = {
+	    hidden_effect = {
+			
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 50
+		}
+		
+		name = FID.1.a
+	}
+}

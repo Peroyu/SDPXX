@@ -1,7 +1,12 @@
 capital = 319 # 
 
-obb = "empty"  # 
-
+oob = "empty"  # 
+RAJ = {
+	set_autonomy = {
+		target = RJP
+		autonomy_state = SDP_India_prince_state
+	}
+}
 set_research_slots = 2 # 
 
 set_war_support = 0.3 # 
@@ -28,5 +33,14 @@ set_popularities = {
 	restorativeism = 5
 
 }
-# 
+create_country_leader = {
+	name = "RAJ_Man_singh_II"
+	desc = "RAJ_Man_singh_II_desc"  
+	picture = "RAJ_Portrait_RAJ_Man_singh_II"  
+	expire = "1952.7.10"  
+	ideology = authoritarian_democracy
+	traits = { 
+		
+	}
+}
 

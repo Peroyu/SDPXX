@@ -12,7 +12,9 @@ set_politics = {
 	elections_allowed = no  
 }
 CHI_jap_initial_techs = yes
-
+ add_dynamic_modifier = {
+                        modifier =FID_revolutionary_front
+                    }
 set_popularities = {
  communism = 14.2
  committee_communism = 5.8
@@ -45,7 +47,7 @@ add_ideas = {
 
  
  }
-
+set_variable = { FID_front_power_num = 32 }
 create_country_leader = {
 	name = "FID_Satish_Samanta"
 	desc = "FID_Satish_Samanta_desc"  
