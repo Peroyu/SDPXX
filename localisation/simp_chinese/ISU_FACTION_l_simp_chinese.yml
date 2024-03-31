@@ -1,2 +1,12 @@
 ﻿l_simp_chinese:
  SDP_ISU_FACTION: "国际社会主义联盟"
+ SDP_ISU_leader_name: "现任联盟秘书长"
+ SDP_ISU_faction_list_name: "国际社会主义联盟成员列表"
+ SDP_ISU_event_list_name: "代表会议通过的决议列表"
+ SDP_ISU_vote_support_name: "赞成"
+ SDP_ISU_vote_anti_name: "反对"
+ SDP_ISU_vote_lose_name: "弃权"
+ WE_have_vote_tt: "现在不可投票"
+ SDP_events_header: "目前正在讨论的议程"
+ SDP_isu_law_header: "目前生效的联盟法律"
+ SDP_isu_modifier_header: "请求联盟援助"

@@ -21,30 +21,236 @@ guiTypes ={
 			name = "Background"
 			quadTextureSprite = "GFX_ISU_GUI_Background"
 		}
+		iconType = { 
+			name = "background_1"
+			position = { x = 24 y =60 } 
+			quadTextureSprite = "GFX_flags_incredible"
+		} 
 		instantTextboxType = {
 			name = "faction_name"
-			position = { x = 450 y = 12 }
+			position = { x = 470 y = 12 }
 			font = "hoi_36header"
 			text = "SDP_ISU_FACTION"
 			maxWidth = 600
 			maxHeight = 40
 			fixedsize = yes
 		}
+		instantTextboxType = {
+			name = "faction_list_name"
+			position = { x = 600 y = 440 }
+			font = "hoi_20bs"
+			text = "SDP_ISU_faction_list_name"
+			maxWidth = 600
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "event_list_name"
+			position = { x = 50 y = 440 }
+			font = "hoi_20bs"
+			text = "SDP_ISU_event_list_name"
+			maxWidth = 600
+			maxHeight = 40
+			fixedsize = yes
+		}
+		iconType = { 
+			name = "frame_x"
+			position = { x = 362 y =252 } 
+			quadTextureSprite = "enter_gfx_frame_x"
+		} 
+		iconType = { 
+			name = "frame_1"
+			position = { x = 357 y =250 } 
+			quadTextureSprite = "enter_gfx_frame_1"
+		} 
+		iconType = { 
+			name = "frame_y"
+			position = { x = 510 y =252 } 
+			quadTextureSprite = "enter_gfx_frame_x"
+		} 
+		iconType = { 
+			name = "frame_2"
+			position = { x = 507 y =250 } 
+			quadTextureSprite = "enter_gfx_frame_1"
+		} 
+		iconType = { 
+			name = "frame_z"
+			position = { x = 660 y =252 } 
+			quadTextureSprite = "enter_gfx_frame_x"
+		} 
+		iconType = { 
+			name = "frame_3"
+			position = { x = 655 y =250 } 
+			quadTextureSprite = "enter_gfx_frame_1"
+		} 
+		buttonType = { 
+			name = "enter_vote_support"
+			position = { x = 350 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			clicksound = click_default
+		} 
+		buttonType = { 
+			name = "enter_vote_anti"
+			position = { x = 500 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			clicksound = click_default
+		} 
+		buttonType = { 
+			name = "enter_vote_lose"
+			position = { x = 650 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			clicksound = click_default
+		} 
 		buttonType = { 
 			name = "enter_SDP_isu_main_close"
 			position = { x = 1050 y =20 } 
 			quadTextureSprite = "GFX_cancel_transfer_button"
 			clicksound = click_default
 		} 
-		iconType = {
-			name = "flags_incredible"
-			quadTextureSprite ="GFX_flags_incredible"
-			position = { x= 25 y = 60 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
+		iconType = { 
+			name = "isu_flag_frame"
+			position = { x = 527 y =105 } 
+			quadTextureSprite = "enter_large_isu_flag"
+		} 
+		iconType = { 
+			name = "large_flag_overlay"
+			position = { x = 527 y =100 } 
+			quadTextureSprite = "large_flag_overlayGFX"
+		} 
+		iconType = { 
+			name = "large_flag_frame"
+			position = { x = 522 y =100 } 
+			quadTextureSprite = "enter_large_flag_frame"
+		} 
+		
+
+		iconType = { 
+			name = "enter_non_support"
+			position = { x = 350 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			pdx_tooltip = WE_have_vote_tt
+		} 
+		iconType = { 
+			name = "enter_non_anti"
+			position = { x = 500 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			pdx_tooltip = WE_have_vote_tt
+		} 
+		iconType = { 
+			name = "enter_non_lose"
+			position = { x = 650 y =400 } 
+			quadTextureSprite = "enter_gfx_button_votes"
+			pdx_tooltip = WE_have_vote_tt
+		} 
+		instantTextboxType = {
+			name = "vote_support_name"
+			position = { x = 410 y = 408 }
+			font = "hoi_20bs"
+			text = "SDP_ISU_vote_support_name"
+			maxWidth = 40
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "vote_anti_name"
+			position = { x = 555 y = 408 }
+			font = "hoi_20bs"
+			text = "SDP_ISU_vote_anti_name"
+			maxWidth = 40
+			maxHeight = 40
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "vote_lose_name"
+			position = { x = 706 y = 408 }
+			font = "hoi_20bs"
+			text = "SDP_ISU_vote_lose_name"
+			maxWidth = 40
+			maxHeight = 40
+			fixedsize = yes
 		}
 		containerWindowType = {
-			name = "faction_grid_list_container"
+			name = "isu_modifier_container"
+			position = { x = 825 y = 110 }
+			size = { width = 255 height = 330 }
+			margin = { top = 5 bottom = 5 }
+			Orientation = upper_left
+
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+			instantTextboxType = {
+				name = "isu_modifier_header"
+				position = { x = 10 y = 5 }
+				font = "hoi_20bs"
+				text = "SDP_isu_modifier_header"
+				maxWidth = 600
+				maxHeight = 40
+				fixedsize = yes
+			}
+
+		}
+		containerWindowType = {
+			name = "isu_law_container"
+			position = { x = 20 y = 110 }
+			size = { width = 310 height = 330 }
+			margin = { top = 5 bottom = 5 }
+			Orientation = upper_left
+
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+			instantTextboxType = {
+				name = "isu_law_header"
+				position = { x = 10 y = 5 }
+				font = "hoi_20bs"
+				text = "SDP_isu_law_header"
+				maxWidth = 600
+				maxHeight = 40
+				fixedsize = yes
+			}
+
+		}
+		containerWindowType = {
+			name = "event_now_container"
+			position = { x = 325 y = 190 }
+			size = { width = 500 height = 75 }
+			margin = { top = 5 bottom = 5 }
+			Orientation = upper_left
+
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+			instantTextboxType = {
+				name = "events_header"
+				position = { x = 172 y = 5 }
+				font = "hoi_20bs"
+				text = "SDP_events_header"
+				maxWidth = 600
+				maxHeight = 40
+				fixedsize = yes
+			}
+			instantTextboxType = {
+				name = "Get_Nowevents_name"
+				position = { x = 0 y = 0 }
+				font = "hoi_20bs"
+				text = "[Get_Nowevents]"
+				maxWidth = 600
+				maxHeight = 40
+				fixedsize = yes
+			}
+		}
+		containerWindowType = {
+			name = "event_grid_list_container"
 			position = { x = 580 y = 462 }
 			size = { width = 500 height = 200 }
 			margin = { top = 10 bottom = 10 }
@@ -59,6 +265,30 @@ guiTypes ={
 
 			gridboxtype = {
 				name = "faction_grid"
+				position = { x = 10 y = 0 }
+				size = { width = 442 height = 100%% }
+				slotsize = { width = 442 height = 1 }
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+		}
+		
+		containerWindowType = {
+			name = "faction_grid_list_container"
+			position = { x = 20 y = 462 }
+			size = { width = 560 height = 200 }
+			margin = { top = 10 bottom = 10 }
+			Orientation = upper_left
+
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridboxtype = {
+				name = "event_grid"
 				position = { x = 10 y = 0 }
 				size = { width = 442 height = 100%% }
 				slotsize = { width = 442 height = 1 }
@@ -101,6 +331,29 @@ guiTypes ={
 			position = { x = 56 y = 6 }
 			font = "hoi_16mbs"
 			text = "[THIS.GetName]"
+			maxWidth = 110
+			maxHeight = 40
+			fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "event_entry"
+		size = { width = 500 height = 44 }
+		clipping = yes
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_eventlist_entry"
+			clicksound = click_action
+		}
+
+
+		instantTextboxType = {
+			name = "name"
+			position = { x = 56 y = 6 }
+			font = "hoi_16mbs"
+			text = "[Geteventsname]"
 			maxWidth = 110
 			maxHeight = 40
 			fixedsize = yes

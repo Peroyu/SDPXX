@@ -9,4 +9,46 @@ spriteTypes = {
 		name = "GFX_flags_incredible"
 		texturefile = "gfx/interface/fopo/GFX_flags_incredible.png"
 	}
+
+	spriteType = {
+		name = "enter_large_isu_flag"
+		texturefile = "gfx/interface/fopo/enter_large_isu_flag.png"
+	}
+
+	spriteType = {
+		name = "enter_gfx_frame_x"
+		texturefile = "gfx/interface/fopo/enter_gfx_frame_x.png"
+	}
+
+	spriteType = {
+		name = "GFX_Leader_pol"
+		texturefile = "gfx/interface/pol_leader_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_eventlist_entry"
+		texturefile = "gfx/interface/battle_log_battle_button.dds"
+	}
+
+	spriteType = {
+		name = "enter_gfx_button_votes"
+		texturefile = "gfx/interface/button_148x34.dds"
+	}
+
+	spriteType = {
+		name = "enter_gfx_frame_1"
+		texturefile = "gfx/interface/diplo_leader_frame.dds"
+	}
+
+	spriteType = {
+		name = "enter_large_flag_frame"
+		texturefile = "gfx/interface/large_flag_frame.dds"
+	}
+
+	spriteType = {
+		name = "large_flag_overlayGFX"
+		texturefile = "gfx/interface/flag_overlay.dds"
+	}
+
+
 }

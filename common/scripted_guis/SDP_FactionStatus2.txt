@@ -26,12 +26,37 @@ scripted_gui = {
 		visible = {
 			has_country_flag = oppen_isu_gui
 		}
-	
+		trigger = {
+			enter_non_support_visible = {
+				has_country_flag = we_have_vote
+			}
+			enter_non_anti_visible = {
+				has_country_flag = we_have_vote
+			}
+			enter_non_lose_visible = {
+				has_country_flag = we_have_vote
+			}
+		}
 	    effects = {
 			enter_SDP_isu_main_close_click = {
 					limit = { ROOT = check_variable = { var = FactionStatus value = 2 compare = equals } }
 					clear_array = ROOT.faction_list_array
 					ROOT = { clr_country_flag = oppen_isu_gui }
+			}
+			enter_vote_support_click = {
+				
+				set_country_flag = we_have_vote
+				add_to_variable = { var = support_votes value = 1 }
+			}
+			enter_vote_anti_click = {
+				
+				set_country_flag = we_have_vote
+				add_to_variable = { var = anti_votes value = 1 }
+			}
+			enter_vote_lose_click = {
+				
+				set_country_flag = we_have_vote
+				add_to_variable = { var = lose_votes value = 1 }
 			}
 	    }
 
@@ -42,12 +67,19 @@ scripted_gui = {
 
 				entry_container = economic_sphere_member_entry
 			}
+			event_grid = {
+				array = event_list_array
+				change_scope = yes
+
+				entry_container = event_entry
+			}
 		}
 
 		properties = {
 			country_flag = {
 				image = "[This.GetFlag]"
 			}
+			
 		}
 
 	}
