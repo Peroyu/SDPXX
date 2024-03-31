@@ -1,5 +1,5 @@
 capital = 2  
-
+set_country_flag = is_isu_security_leader
 oob = "ITA_1947"  
 set_naval_oob = "ITA_1947_naval_legacy"
 set_research_slots = 4  

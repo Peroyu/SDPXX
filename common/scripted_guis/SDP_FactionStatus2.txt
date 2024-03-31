@@ -4,7 +4,7 @@ scripted_gui = {
 		parent_window_token = politics_tab
 		window_name = "SDP_faction_isu_status_icon"
 		visible = {
-		check_variable = { var = FactionStatus value = 2 compare = equals }
+			check_variable = { var = FactionStatus value = 2 compare = equals }
 		}
 		trigger = {
 			check_variable = { var = FactionStatus value = 2 compare = equals }
@@ -12,11 +12,14 @@ scripted_gui = {
 		effects = {
 			SDP_faction_isu_status_click = {
 					for_each_loop = {
+						array = FROM.faction_security_leader
+						add_to_array = { ROOT.faction_security_leader_array = v }
+					}
+					for_each_loop = {
 						array = FROM.faction_members
 						add_to_array = { ROOT.faction_list_array = v }
 					}
 					ROOT = { set_country_flag = oppen_isu_gui }
-				
 			}
 		}
 	}
@@ -42,6 +45,7 @@ scripted_gui = {
 					limit = { ROOT = check_variable = { var = FactionStatus value = 2 compare = equals } }
 					clear_array = ROOT.faction_list_array
 					ROOT = { clr_country_flag = oppen_isu_gui }
+					clear_array = ROOT.faction_security_leader_array
 			}
 			enter_vote_support_click = {
 				
@@ -73,13 +77,21 @@ scripted_gui = {
 
 				entry_container = event_entry
 			}
+			faction_security_leader_grid = {
+				array = faction_security_leader_array
+				change_scope = yes
+
+				entry_container = faction_security_leader_entry
+			}
 		}
 
 		properties = {
 			country_flag = {
 				image = "[This.GetFlag]"
 			}
-			
+			leader_country_flag = {
+				image = "[This.GetFlag]"
+			}
 		}
 
 	}

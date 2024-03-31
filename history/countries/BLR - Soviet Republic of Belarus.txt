@@ -3,7 +3,7 @@ capital = 325
 obb = "BEL_1947"   
 
 set_research_slots = 3  
-
+set_variable = { var = FactionStatus value = 2}
 set_war_support = 0.5  
 set_stability = 0.7 
 Europe_subcountry_initial_techs = yes

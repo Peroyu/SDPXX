@@ -6,9 +6,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = FID
-		add_core_of = FID
-		add_claim_by = RAJ
+		owner = RAJ
+		add_core_of = RAJ
 		victory_points = { 4516 5 } #Patna
 		buildings = {
 			infrastructure = 3

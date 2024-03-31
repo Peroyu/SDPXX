@@ -3,7 +3,7 @@ capital = 219
 oob = "RUS_1947"  
 
 set_research_slots = 4
-
+set_country_flag = is_isu_security_leader
 set_war_support = 0.8 
 set_stability = 0.7 
 Soviet_core_initial_techs = yes

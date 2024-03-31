@@ -25,19 +25,6 @@ ideas = {
 				monthly_population = -0.1
 			}
 		}
-		RAJ_conflicts_in_party= {
-		    name = RAJ_conflicts_in_party
-			picture = RAJ_conflicts_in_party
-			allowed = { always = no }
-			available = {
-				is_subject = no
-			}
-			modifier = {
-				stability_factor = -0.15
-				political_power_gain = -0.05
-				custom_modifier_tooltip = RAJ_modifier_tt_2
-			}
-		}
 		RAJ_colony_economy= {
 		    name = RAJ_colony_economy
 			picture = RAJ_colony_economy

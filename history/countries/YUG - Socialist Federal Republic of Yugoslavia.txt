@@ -1,7 +1,7 @@
 capital = 107 
 
 oob = "YUG_1947"  
-
+set_country_flag = is_isu_security_leader
 set_research_slots = 4 
 
 set_war_support = 0.5
