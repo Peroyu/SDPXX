@@ -1015,6 +1015,14 @@ spriteTypes = {
 	}
 	#####################YUG####################################
 	spriteType = {
+		name = "GFX_idea_BOS_broken_country"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_broken_country_sdp.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SLV_germany_in_cities"
+		texturefile = "gfx/interface/ideas/YUG/GFX_idea_SLV_germany_in_cities.png"
+	}
+	spriteType = {
 		name = "GFX_idea_YUG_Federal_part"
 		texturefile = "gfx/interface/ideas/YUG/GFX_idea_YUG_Federal_part.png"
 	}
