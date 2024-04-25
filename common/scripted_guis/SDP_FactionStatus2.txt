@@ -28,6 +28,7 @@ scripted_gui = {
 		context_type = Player_context
 		visible = {
 			has_country_flag = oppen_isu_gui
+			tag = ISU
 		}
 		trigger = {
 			enter_non_support_visible = {
