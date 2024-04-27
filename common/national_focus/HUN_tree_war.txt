@@ -1,0 +1,239 @@
+﻿focus_tree = {
+	id = HUN_tree_war
+	
+	country = {
+		factor = 0
+		
+	}
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = HUN_burning_montains
+		icon = HUN_burning_montains
+		x = 9
+		y = 0
+		available = {
+			always = no
+		}
+		cost = 2
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = HUN_to_internationale
+		icon = HUN_to_internationale
+		cost = 5
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = HUN_burning_montains
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_defend_ourselves
+		icon = HUN_defend_ourselves
+		cost = 3
+		x = 7
+		y = 2
+		mutually_exclusive = {
+			focus = HUN_to_transivania
+		}
+		prerequisite = {
+			focus = HUN_to_internationale
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_liberty_and_nationality
+		icon = HUN_liberty_and_nationality
+		cost = 3
+		x = 7
+		y = 3
+		prerequisite = {
+			focus = HUN_defend_ourselves
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_millitary_resources
+		icon = HUN_millitary_resources
+		cost = 3
+		x = 7
+		y = 4
+		prerequisite = {
+			focus = HUN_liberty_and_nationality
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_to_transivania
+		icon = HUN_to_transivania
+		cost = 3
+		x = 11
+		y = 2
+		mutually_exclusive = {
+			focus = HUN_defend_ourselves
+		}
+		prerequisite = {
+			focus = HUN_to_internationale
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_fight_with_romanian
+		icon = HUN_fight_with_romanian
+		cost = 3
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = HUN_to_transivania
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_welcome_internationale
+		icon = HUN_welcome_internationale
+		cost = 3
+		x = 11
+		y = 4
+		prerequisite = {
+			focus = HUN_fight_with_romanian
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_the_last_chance
+		icon = HUN_the_last_chance
+		cost = 3
+		x = 9
+		y = 5
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = HUN_welcome_internationale
+			focus = HUN_millitary_resources
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_situation_unusual
+		icon = HUN_situation_unusual
+		cost = 1
+		x = 9
+		y = 6
+		allow_branch = {
+			has_completed_focus = HUN_the_last_chance
+		}
+		prerequisite = {
+			focus = HUN_the_last_chance
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_in_regional_army
+		icon = HUN_in_regional_army
+		cost = 4
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = HUN_burning_montains
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_strenghthen_millitary
+		icon = HUN_strenghthen_millitary
+		cost = 4
+		x = 1
+		y = 2
+		mutually_exclusive = {
+			focus = HUN_establish_workers_millita
+		}
+		prerequisite = {
+			focus = HUN_in_regional_army
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_strenghthen_officers
+		icon = HUN_strenghthen_officers
+		cost = 4
+		x = 1
+		y = 3
+		prerequisite = {
+			focus = HUN_strenghthen_millitary
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_establish_workers_millita
+		icon = HUN_establish_workers_millita
+		cost = 4
+		x = 5
+		y = 2
+		mutually_exclusive = {
+			focus = HUN_strenghthen_millitary
+		}
+		prerequisite = {
+			focus = HUN_in_regional_army
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_around_defence
+		icon = HUN_around_defence
+		cost = 4
+		x = 5
+		y = 3
+		prerequisite = {
+			focus = HUN_establish_workers_millita
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_to_hungarians
+		icon = HUN_to_hungarians
+		cost = 4
+		x = 13
+		y = 1
+		prerequisite = {
+			focus = HUN_burning_montains
+		}
+		completion_reward = { 
+			
+			}
+	}
+	
+}
