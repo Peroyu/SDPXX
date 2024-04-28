@@ -1,0 +1,128 @@
+﻿focus_tree = {
+	id = HUN_tree_2
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HUN
+		}
+	}
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = HUN_moderate_government
+		icon = HUN_moderate_government
+		x = 8
+		y = 0
+		
+		cost = 4
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = HUN_broad_land_reformation
+		icon = HUN_broad_land_reformation
+		cost = 4
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = HUN_moderate_government
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUNremember_1928
+		icon = HUNremember_1928
+		cost = 4
+		x = 7
+		y = 1
+		prerequisite = {
+			focus = HUN_moderate_government
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_the_words
+		icon = HUN_the_words
+		cost = 4
+		x = 6
+		y = 2
+		prerequisite = {
+			focus = HUNremember_1928
+		}
+		prerequisite = {
+			focus = HUN_broad_land_reformation
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_democratic_and_united
+		icon = HUN_democratic_and_united
+		cost = 4
+		x = 9
+		y = 1
+		prerequisite = {
+			focus = HUN_moderate_government
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_get_weapons_from_people
+		icon = HUN_get_weapons_from_people
+		cost = 4
+		x = 11
+		y = 1
+		prerequisite = {
+			focus = HUN_moderate_government
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_election_moderate
+		icon = HUN_election_moderate
+		cost = 4
+		x = 10
+		y = 2
+		prerequisite = {
+			focus = HUN_get_weapons_from_people
+		}
+		prerequisite = {
+			focus = HUN_democratic_and_united
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = HUN_our_own_path
+		icon = HUN_our_own_path
+		cost = 4
+		x = 8
+		y = 3
+		available = {
+			has_country_flag = The_radicals_win_HUN
+		}
+		prerequisite = {
+			focus = HUN_election_moderate
+		}
+		prerequisite = {
+			focus = HUN_the_words
+		}
+		completion_reward = { 
+			
+			}
+	}
+}
