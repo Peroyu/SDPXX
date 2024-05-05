@@ -5,9 +5,12 @@ obb = "empty"  # 军队文件
 set_research_slots = 4
  # 设定科研槽
 Pacific_powers_initial_techs = yes
-set_war_support = 0.6 # 设置战争支持度
-set_stability = 0.8 # 设置稳定度
-
+set_war_support = 0.2 # 设置战争支持度
+set_stability = 0.4 # 设置稳定度
+set_variable = { USA.NDrandom_mission = 0 }
+set_variable = { USA.SDrandom_mission = 0 }
+set_variable = { USA.RPrandom_mission = 0 }
+set_variable = { USA.SCrandom_mission = 0 }
 # 设置执政党以及选举
 set_politics = {
 	ruling_party = movement_communism 

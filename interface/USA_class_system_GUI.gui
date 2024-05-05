@@ -1,0 +1,17 @@
+guiTypes ={
+	containerWindowType = {#主窗口
+		name = "USA_class_system_GUI"
+		position = { x = 0 y = 0 }
+		size = { width = 300 height = 300 }
+		instantTextBoxType = {
+			name = "rikkenminsento_desc"
+			position = { x = 130 y = 18 }
+			text = "NIP_rikkenminsento_desc"
+			font = "hoi_18"
+			maxwidth = 370
+			maxheight = 100
+			format = left
+			fixedsize = yes
+		}
+	}
+}
