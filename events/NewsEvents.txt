@@ -1373,6 +1373,94 @@ news_event = {
 	}
 }
 news_event = {
+	id = Pacific.25
+    picture = GFX_Pacific_25
+    title = Pacific.25.t
+    desc = Pacific.25.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.25.a
+	}
+}
+news_event = {
+	id = Pacific.26
+    picture = GFX_Pacific_26
+    title = Pacific.26.t
+    desc = Pacific.26.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.26.a
+	}
+}
+news_event = {
+	id = Pacific.27
+    picture = GFX_Pacific_27
+    title = Pacific.27.t
+    desc = Pacific.27.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.27.a
+	}
+}
+news_event = {
+	id = Pacific.28
+    picture = GFX_Pacific_28
+    title = Pacific.28.t
+    desc = Pacific.28.d
+    immediate = { 
+        hidden_effect = {
+            
+           
+        }
+
+	}
+    is_triggered_only = yes
+ 
+    fire_only_once = yes
+
+    major = yes
+
+	option = {
+		name = Pacific.28.a
+	}
+}
+news_event = {
 	id = USA.1
 
     picture = GFX_USA_1

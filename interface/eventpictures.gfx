@@ -152,6 +152,22 @@ spriteType = {
 		texturefile = "gfx/event_pictures/news/GFX_global_21.png"
 	}
 	spriteType = {
+		name = "GFX_Pacific_25"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_25.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_26"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_26.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_27"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_27.png"
+	}
+	spriteType = {
+		name = "GFX_Pacific_28"
+		texturefile = "gfx/event_pictures/news/GFX_Pacific_28.png"
+	}
+	spriteType = {
 		name = "GFX_global_22"
 		texturefile = "gfx/event_pictures/news/GFX_global_22.png"
 	}

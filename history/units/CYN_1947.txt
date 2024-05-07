@@ -57,74 +57,33 @@ units = {
 	### Provincial Forces ###
 	division = {
 		name = "division 1"
-		location = 10019
+		location = 7260
 		division_template = "infantry division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "division 2"
-		location = 1349
+		location = 10201
 		division_template = "infantry division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "division 3"
-		location = 7177
+		location = 10229
 		division_template = "infantry division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "division 4"
-		location = 4321
+		location = 10149
 		division_template = "infantry division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
-	division = {
-		name = "division 6"
-		location = 4072
-		division_template = "infantry division"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
-	division = {
-		name = "division 5"
-		location = 7060
-		division_template = "infantry division"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
-	division = {
-		name = "cavalry division 1"
-		location = 4321
-		division_template = "cavalry division"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
-	division = {
-		name = "cavalry division 2"
-		location = 8011
-		division_template = "cavalry division"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
-	division = {
-		name = "cavalry division 3"
-		location = 7297
-		division_template = "cavalry division"		# 
-		start_experience_factor = 0.5		
-		start_equipment_factor = 0.6
-	}
-	division = {
-		name = "british own"
-		location = 10278
-		division_template = "artillery infantry division"		# 
-		start_experience_factor = 1		
-		start_equipment_factor = 1
-	}
+	
 		
 }
 ### STARTING PRODUCTION ###

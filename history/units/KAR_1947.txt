@@ -16,21 +16,21 @@ units = {
 	### Provincial Forces ###
 	division = {
 		name = "karachi guard"
-		location = 3456
+		location = 12774
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "sultan's own"
-		location = 10108
+		location = 1179
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
 	}
 	division = {
 		name = "Marri's own"
-		location = 7917
+		location = 8066
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.4
 
