@@ -1174,16 +1174,19 @@ on_actions = {
 						}
 						annex_country = {
 							target = HYD
-							transfer_troops = yes
+							transfer_troops = no
 						}
+						set_cosmetic_tag = FID_india
 					}
-
+					MRD = {
+						set_cosmetic_tag = MRD_temp
+					}
 					every_country = {
 						limit = {
 							is_ai = no
 						}
 						news_event = {
-							id = 
+							id = Pacific.28
 							days = 1
 						}
 					}
