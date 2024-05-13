@@ -2,694 +2,219 @@
 	shared_focus = {
 		id = YUG_focus_0
 		icon = GFX_YUG_focus_0
-		cost = 1.00
-		x = 9
+		cost = 5
+		x = 10
 		y = 0
         completion_reward = {
-			swap_ideas = {
-			  remove_idea = YUG_torist_threats 
-			  add_idea = YUG_torist_threats_1 
-		    }
-			custom_effect_tooltip = YUG_tooltip_1
+			country_event = { id = YUG.1 days = 1 }
+			add_political_power = 50
 		}
 	}
 	shared_focus = {
-		id = YUG_focus_22
+		id = YUG_focus_1
 		icon = GFX_goal_unknown
 		cost = 5.00
-		x = 13
-		y = 7
+		x = 10
+		y = 1
         prerequisite = {
-			focus = YUG_focus_21
+			focus = YUG_focus_0
 		}
 		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_9
-			  add_idea = YUG_broken_country_10
-		    }
-			swap_ideas = {
-			  remove_idea = YUG_democrats_supports_4
-			  add_idea = YUG_democrats_supports_5
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.06
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_13
+		    
 		}
 	}
-	shared_focus = {#波斯尼亚
+	shared_focus = {
 		id = YUG_focus_2
-		icon = GFX_YUG_focus_2
-		cost = 2.00
-		prerequisite = {
-			focus = YUG_focus_0
-		}
-		x = 7
-		y = 1
-		completion_reward = {
-		country_event = { id = YUG.1 days = 1 }
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_5
 		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
-			focus = YUG_focus_2
-		}
-		x = 7
+		cost = 5.00
+		x = 10
 		y = 2
-		completion_reward = {
-		
-		}
-
-	}
-	shared_focus = {#塞尔维亚
-		id = YUG_focus_1
-		icon = GFX_YUG_focus_1
-		cost = 2.00
-		prerequisite = {
-			focus = YUG_focus_0
-		}
-		x = 9
-		y = 1
-		completion_reward = {
-		country_event = { id = YUG.2 days = 1 }
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_4
-		icon = GFX_goal_unknown
-		cost = 2.00
-		prerequisite = {
+        prerequisite = {
 			focus = YUG_focus_1
 		}
-		x = 9
-		y = 2
 		completion_reward = {
-		add_stability = 0.05
-		add_war_support = 0.05
+		    
 		}
-
 	}
-	shared_focus = {#马其顿
-		id = YUG_focus_3
-		icon = GFX_YUG_focus_3
-		cost = 2.00
-		prerequisite = {
-			focus = YUG_focus_0
+##########################################
+shared_focus = {
+		id = YUG_focus_01
+		icon = GFX_YUG_focus_01
+		cost = 2
+		x = 2
+		y = 0
+		allow_branch = {
+		    custom_trigger_tooltip = {
+                tooltip = white_hand_tt
+                has_country_flag = YUG_WH				
+            }
 		}
-		x = 11
+        completion_reward = {
+		
+		
+		}
+	}
+shared_focus = {
+		id = YUG_focus_02
+		icon = GFX_YUG_focus_02
+		cost = 2
+		x = 0
 		y = 1
-		completion_reward = {
-		country_event = { id = YUG.3 days = 1 }
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_6
-		icon = GFX_goal_unknown
-		cost = 2.00
 		prerequisite = {
-			focus = YUG_focus_3
+			focus = YUG_focus_01
 		}
-		x = 11
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_03
+		icon = GFX_YUG_focus_03
+		cost = 2
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = YUG_focus_01
+		}
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_04
+		icon = GFX_YUG_focus_04
+		cost = 2
+		x = -1
 		y = 2
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_torist_threats_1 
-			  add_idea = YUG_torist_threats_3
-		    }
+		prerequisite = {
+			focus = YUG_focus_02
 		}
-
+		mutually_exclusive = {
+		focus = YUG_focus_05
+		}
+        completion_reward = {
+			
+		}
 	}
-	shared_focus = {
-		id = YUG_focus_7
-		icon = GFX_goal_unknown
-		cost = 10.00
+shared_focus = {
+		id = YUG_focus_05
+		icon = GFX_YUG_focus_05
+		cost = 2
+		x = 0
+		y = 2
 		prerequisite = {
-			focus = YUG_focus_4
+			focus = YUG_focus_02
 		}
+		mutually_exclusive = {
+		    focus = YUG_focus_04
+		}
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_06
+		icon = GFX_YUG_focus_06
+		cost = 2
+		x = 2
+		y = 2
 		prerequisite = {
-			focus = YUG_focus_6
+			focus = YUG_focus_03
 		}
-		prerequisite = {
-			focus = YUG_focus_5
+        completion_reward = {
+			
 		}
-		x = 9
+	}
+shared_focus = {
+		id = YUG_focus_07
+		icon = GFX_YUG_focus_07
+		cost = 2
+		x = -1
 		y = 3
+		prerequisite = {
+			focus = YUG_focus_04
+		}
         completion_reward = {
-		country_event = { id = YUG.4 days = 1 }
+			
 		}
 	}
-	shared_focus = {
-		id = YUG_focus_10
-		icon = GFX_IRE_18
-		cost = 5.00
+shared_focus = {
+		id = YUG_focus_08
+		icon = GFX_YUG_focus_08
+		cost = 2
+		x = 1
+		y = 3
 		prerequisite = {
-			focus = YUG_focus_7
+			focus = YUG_focus_05
 		}
-		mutually_exclusive = {
-			focus = YUG_focus_9
-			focus = YUG_focus_8
-		}
-		x = 7
-		y = 4
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_torist_threats_3
-			  add_idea = YUG_torist_threats_4
-		    }
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_2
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_9
-		icon = GFX_IRE_16
-		cost = 5.00
 		prerequisite = {
-			focus = YUG_focus_7
+			focus = YUG_focus_06
 		}
-		mutually_exclusive = {
-			focus = YUG_focus_8
-			focus = YUG_focus_10
-		}
-		x = 11
-		y = 4
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_torist_threats_3
-			  add_idea = YUG_torist_threats_6
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = moderate_socialism 
-			        popularity = 0.03 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.03
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_4
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_17
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_9
-		}
-		mutually_exclusive = {
-			focus = YUG_focus_20
-		}
-		x = 11
-		y = 5
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country
-			  add_idea = YUG_broken_country_5
-		    }
-			swap_ideas = {
-			  remove_idea = YUG_democrats_supports_1
-			  add_idea = YUG_democrats_supports_2
-		    }
-			remove_idea = YUG_torist_threats_6
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.04
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_10
-			custom_effect_tooltip = YUG_tooltip_7
-			custom_effect_tooltip = YUG_tooltip_11
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_18
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_17
-		}
-		x = 11
-		y = 6
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country
-			  add_idea = YUG_broken_country_5
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.05
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_10
-			custom_effect_tooltip = YUG_tooltip_12
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_19
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_18
-		}
-		x = 11
-		y = 7
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_5
-			  add_idea = YUG_broken_country_7
-		    }
-			swap_ideas = {
-			  remove_idea = YUG_democrats_supports_2
-			  add_idea = YUG_democrats_supports_3
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.06
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_10
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_8
-		icon = GFX_NIP_Empowering_the_press
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_7
-		}
-		mutually_exclusive = {
-			focus = YUG_focus_9
-			focus = YUG_focus_10
-		}
-		x = 9
-		y = 4
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_torist_threats_3
-			  add_idea = YUG_torist_threats_5
-		    }
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_3
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_11
-		icon = GFX_YUG_focus_11
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_8
-		}
-		x = 9
-		y = 5
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country
-			  add_idea = YUG_broken_country_1
-		    }
-			remove_idea = YUG_torist_threats_5
-			add_idea = YUG_re_educate
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.05 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_3
-			custom_effect_tooltip = YUG_tooltip_5
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_12
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_11
-		}
-		x = 9
-		y = 6
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_1
-			  add_idea = YUG_broken_country_2
-		    }
-			swap_ideas = {
-			  remove_idea = YUG_re_educate
-			  add_idea = YUG_re_educate_1
-		    }
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_3
-			custom_effect_tooltip = YUG_tooltip_6
-			custom_effect_tooltip = YUG_tooltip_7
-
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_13
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_12
-		}
-		x = 9
-		y = 7
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_2
-			  add_idea = YUG_broken_country_3
-		    }
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_3
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_14
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_10
-		}
-		x = 7
-		y = 5
-		completion_reward = {
-		    remove_ideas = YUG_torist_threats_4
-            add_ideas = YUG_sweat_rural
-            YUG = {
-	            add_popularity = {
-			        ideology = Nationalism 
-			        popularity = -0.1 
-		        }
-				add_popularity = {
-			        ideology = reactionism 
-			        popularity = -0.1 
-		        }
-				add_popularity = {
-			        ideology = restorativeism 
-			        popularity = -0.1 
-		        }
-			}
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_2
-			custom_effect_tooltip = YUG_tooltip_8
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_15
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_14
-		}
-		x = 7
-		y = 6
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country
-			  add_idea = YUG_broken_country_4
-		    }
-            
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_2
-			custom_effect_tooltip = YUG_tooltip_9
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_16
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_15
-		}
-		x = 7
-		y = 7
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_4
-			  add_idea = YUG_broken_country_6
-		    }
-            
-			hidden_effect = {
-			SDP = {
-	            add_popularity = {
-			        ideology = communism 
-			        popularity = 0.06 
-		        }
-			}
-			set_variable = { var = global.var_HUN value = party_popularity@communism }
-            set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-            set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-            set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			}
-			custom_effect_tooltip = YUG_tooltip_2
-			custom_effect_tooltip = YUG_tooltip_9
-		}
-
-
-	}
-	shared_focus = {
-		id = YUG_focus_20
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_9
-		}
-		mutually_exclusive = {
-			focus = YUG_focus_17
-		}
-		x = 13
-		y = 5
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country
-			  add_idea = YUG_broken_country_8
-		    }
-			swap_ideas = {
-			  remove_idea = YUG_democrats_supports_1
-			  add_idea = YUG_democrats_supports_4
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.06
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_13
-			custom_effect_tooltip = YUG_tooltip_14
-			custom_effect_tooltip = YUG_tooltip_7
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_21
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_20
-		}
-		x = 13
-		y = 6
-		completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_country_8
-			  add_idea = YUG_broken_country_9
-		    }
-			hidden_effect = {
-			 SDP = {
-			  
-			    add_popularity = {
-			        ideology = committee_communism 
-			        popularity = 0.04 
-		        }
-				add_popularity = {
-			        ideology = social_democracy 
-			        popularity = 0.06
-		        }
-				set_variable = { var = global.var_HUN value = party_popularity@communism }
-                set_variable = {var = global.var_CRT  value = party_popularity@committee_communism }
-                set_variable = {var = global.var_SER_N  value = party_popularity@moderate_socialism}
-                set_variable = {var = global.var_SER_I  value = party_popularity@social_democracy}
-			  }
-			}
-			custom_effect_tooltip = YUG_tooltip_13
-			custom_effect_tooltip = YUG_tooltip_15
-		}
-
-	}
-	shared_focus = {
-		id = YUG_focus_23
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = YUG_focus_22
-			focus = YUG_focus_19
-			focus = YUG_focus_13
-			focus = YUG_focus_16
-		}
-		x = 9
-		y = 8
         completion_reward = {
-		    swap_ideas = {
-			  remove_idea = YUG_broken_committee
-			  add_idea = YUG_broken_committee_1
-		    }
-			country_event = { id = YUG.5 days = 1 }
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_09
+		icon = GFX_YUG_focus_09
+		cost = 2
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = YUG_focus_05
+		}
+		prerequisite = {
+			focus = YUG_focus_06
+		}
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_010
+		icon = GFX_YUG_focus_010
+		cost = 4
+		x = -1
+		y = 4
+		prerequisite = { 
+		    focus = YUG_focus_07 OR = YUG_focus_08 
+		}
+        prerequisite = { 
+		    focus = YUG_focus_09 
+		}
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_011
+		icon = GFX_YUG_focus_011
+		cost = 4
+		x = 1
+		y = 4
+		prerequisite = { 
+		    focus = YUG_focus_07 OR = YUG_focus_08 
+		}
+        prerequisite = { 
+		    focus = YUG_focus_09 
+		}
+        completion_reward = {
+			
+		}
+	}
+shared_focus = {
+		id = YUG_focus_012
+		icon = GFX_YUG_focus_012
+		cost = 4
+		x = 3
+		y = 4
+		prerequisite = { 
+		    focus = YUG_focus_07 OR = YUG_focus_08 
+		}
+        prerequisite = { 
+		    focus = YUG_focus_09 
+		}
+        completion_reward = {
+			
 		}
 	}

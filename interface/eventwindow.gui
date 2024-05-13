@@ -549,7 +549,7 @@ guiTypes = {
 			position = { x=0 y=221 }	
 			size = { width = 581 height = 405 }
 			Orientation = UPPER_LEFT
-
+            verticalScrollbar = "right_vertical_slider"
 			gridBoxType = {
 				name = "options_grid"
 				position = { x = 80 y = -1 }
@@ -564,8 +564,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "event_option_entry"
 		size = { width = 300 height = 47 }
-		clipping = no
-		
+        verticalScrollbar = "right_vertical_slider"
 		background = {
 			name = "event_option_background"	
 			spriteType ="GFX_event_option_entry"
