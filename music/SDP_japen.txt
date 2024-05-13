@@ -170,3 +170,21 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "SDP_japan_20"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "SDP_japan_21"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

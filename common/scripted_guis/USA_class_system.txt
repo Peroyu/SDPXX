@@ -1,0 +1,13 @@
+scripted_gui = {
+	USA_class_system ={
+		window_name = "USA_class_system"
+		context_type = decision_category
+        window_name = "USA_class_system_GUI"
+		visible = {
+			tag = USA
+			
+		}
+		
+		
+	}
+}

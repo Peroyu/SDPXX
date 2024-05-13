@@ -11,8 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = RAJ
-		add_core_of = RAJ
+		owner = FID
+		add_core_of = FID
 
 		victory_points = { 4245 15 } #Calcutta
 		buildings = {

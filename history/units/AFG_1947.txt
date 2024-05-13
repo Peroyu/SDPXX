@@ -109,21 +109,21 @@ units = {
 	}
     division = {
 		name = "islam cavalry 4"
-		location = 10108
+		location = 10813
 		division_template = "islam cavalry"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 1
 
 	}
     division = {
 		name = "islam cavalry 5"
-		location = 10898
+		location = 7903
 		division_template = "islam cavalry"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 1
 
 	}
     division = {
 		name = "islam cavalry 6"
-		location = 4979
+		location = 1978
 		division_template = "islam cavalry"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 1
 
@@ -152,14 +152,14 @@ units = {
 	}
     division = {
 		name = "islam millita 4"
-		location = 1971
+		location = 7903
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
 	}
     division = {
 		name = "islam millita 5"
-		location = 10843
+		location = 1978
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
@@ -194,7 +194,7 @@ units = {
 	}
     division = {
 		name = "islam millita 10"
-		location = 9084
+		location = 1978
 		division_template = "islam millita"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.5
 

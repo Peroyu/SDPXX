@@ -27,35 +27,35 @@ units = {
 	### Provincial Forces ###
 	division = {
 		name = "Free India Millta 1"
-		location = 4237
+		location = 11911
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Free India Millta 2"
-		location = 7428
+		location = 1553
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Free India Millta 3"
-		location = 10001
+		location = 11929
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Free India Millta 4"
-		location = 9946
+		location = 4062
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Free India Millta 5"
-		location = 4513
+		location = 12307
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
@@ -90,7 +90,7 @@ units = {
 	}	
 	division = {
 		name = "Free India Millta 10"
-		location = 10751
+		location = 1569
 		division_template = "Free India Millta"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
@@ -105,14 +105,14 @@ units = {
 	}
 	division = {
 		name = "Free India division 2"
-		location = 10171
+		location = 4245
 		division_template = "Free India division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "Free India division 3"
-		location = 9946
+		location = 4062
 		division_template = "Free India division"		# 
 		start_experience_factor = 0.5		
 		start_equipment_factor = 0.6

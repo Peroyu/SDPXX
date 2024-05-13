@@ -1150,6 +1150,60 @@ on_actions = {
 
 					set_global_flag = skip_default_capitulation
 				}
+				if = { # FID beat RAJ
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = FID
+								is_in_faction_with = FID
+							}
+						}
+						ROOT = {
+							original_tag = RAJ
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+
+					FID = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						annex_country = {
+							target = HYD
+							transfer_troops = no
+						}
+						set_cosmetic_tag = FID_india
+						transfer_state = 889
+					}
+					every_state = {
+						limit = {
+							is_owned_by = FID
+							NOT = {
+								is_core_of = FID
+							}
+						}
+						add_core_of = FID
+					}
+					MRD = {
+						set_cosmetic_tag = MRD_temp
+					}
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = Pacific.28
+							days = 1
+						}
+					}
+					
+
+					set_global_flag = skip_default_capitulation
+				}
 				if = { # FID beat HYD
 					limit = {
 						FROM = {
@@ -1367,8 +1421,129 @@ on_actions = {
 							transfer_troops = no
 						}
 					}
+					every_country = {
+						limit = {
+							is_ai = no
+						}
+						news_event = {
+							id = indu.2
+							days = 1
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+								original_tag = FID
+							
+						}
+						ROOT = {
+							original_tag = RJP
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
 					FID = {
-						clr_country_flag = INDIA_civilwar_participants
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+								original_tag = FID
+							
+						}
+						ROOT = {
+							original_tag = BEN
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					FID = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+								original_tag = FID
+							
+						}
+						ROOT = {
+							original_tag = ASS
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					FID = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+								original_tag = FID
+							
+						}
+						ROOT = {
+							original_tag = GUI
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					FID = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					set_global_flag = skip_default_capitulation
+				}
+				if = { # RAJ beat FID
+					limit = {
+						FROM = {
+								original_tag = FID
+							
+						}
+						ROOT = {
+							original_tag = ORI
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+					}
+					FID = {
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
 					}
 
 					set_global_flag = skip_default_capitulation

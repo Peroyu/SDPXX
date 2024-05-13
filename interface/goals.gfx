@@ -5,97 +5,96 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/GFX_politic_13.png"			
 	}
 	SpriteType = {
-		name = "GFX_HUN_for_revolutionists"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_17.png"			
-	}
-	SpriteType = {
-		name = "GFX_HUN_unions_task"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_12.png"			
-	}
-	SpriteType = {
-		name = "GFX_HUN_1920_focus"
+		name = "GFX_HUN_the_Exiles"
 		texturefile = "gfx/interface/goals/HUN/HUN_SLO_left.dds"			
 	}
-	SpriteType = {
-		name = "GFX_HUN_release_ourselves"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_18.png"			
-	}
-	SpriteType = {
-		name = "GFX_HUN_party_clear"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_11.png"			
-	}
-	SpriteType = {
-		name = "GFX_HUN_politic_department_conference"
-		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
-	}
-	SpriteType = {
-		name = "GFX_HUN_protect_us"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_2.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_relive_from_war"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_15.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_union_in_economy"
-		texturefile = "gfx/interface/goals/generic/GFX_politic_21.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_face_brocken_economy"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_7.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_prepare_new_cash"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_three_year_plan"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_14.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_from_sebia"
-		texturefile = "gfx/interface/goals/generic/GFX_millitary_5.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_union_for_labour"
-		texturefile = "gfx/interface/goals/HUN/GFX_HUN_union_for_labour.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_from_ourselves"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_13.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_minor_cash"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_2.png"			
-	}
-
-	SpriteType = {
-		name = "GFX_HUN_farming_station"
-		texturefile = "gfx/interface/goals/generic/GFX_Economic_16.png"			
-	}
-
 	SpriteType = {
 		name = "GFX_HUN_frint"
 		texturefile = "gfx/interface/goals/HUN/GFX_HUN_frint.png"			
 	}
-
 	SpriteType = {
-		name = "GFX_HUN_austria_and_hungary"
+		name = "GFX_HUN_talk_with_unions"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_talk_with_unions.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_peace_broken"
+		texturefile = "gfx/interface/goals/HUN/HUN_SLO_right.dds"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_peace_slovakia"
+		texturefile = "gfx/interface/goals/HUN/HUN_SLO_s.dds"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_middle_euro_crops"
 		texturefile = "gfx/interface/goals/HUN/GFX_HUN_austria_and_hungary.png"			
 	}
-
 	SpriteType = {
-		name = "GFX_HUN_from_romania"
-		texturefile = "gfx/interface/goals/HUN/GFX_HUN_from_romania.png"			
+		name = "GFX_HUN_revive"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_1.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_the_Exiles"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_17.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_the_public_text"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_25.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_the_party"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_19.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_the_power"
+		texturefile = "gfx/interface/goals/generic/GFX_meeting.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_plan_to_home"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_24.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_pact_pressburg"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_11.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_strengthen_international_trade"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_5.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_national_price"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_7.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_give_way_to"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_9.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_over_millitary_control"
+		texturefile = "gfx/interface/goals/HUN/HUN_SLO_left.dds"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_peace_yosef_tiso"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_peace_yosef_tiso.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_no_give_way"
+		texturefile = "gfx/interface/goals/generic/GFX_politic_18.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_face_cash_crisis"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_14.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_prepare_new_cash"
+		texturefile = "gfx/interface/goals/generic/GFX_Economic_8.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_send_guards"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_send_guards.png"			
+	}
+	SpriteType = {
+		name = "GFX_HUN_peace_serbia"
+		texturefile = "gfx/interface/goals/HUN/GFX_HUN_peace_serbia.png"			
 	}
     ####YUG#######
 	SpriteType = {

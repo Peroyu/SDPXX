@@ -266,3 +266,59 @@ country_event = {
 		name = HUN_event.7.a
 	}
 }
+country_event = {
+    id = HUN_event.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.8 FROM = [From.GetName]" }
+	title = HUN_event.8.t
+	desc = HUN_event.8.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		name = HUN_event.8.a
+		load_focus_tree = {
+			tree = HUN_tree_war
+			keep_completed = no
+
+		}
+	}
+}
+country_event = {
+    id = HUN_event.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	HUN_event.9 FROM = [From.GetName]" }
+	title = HUN_event.9.t
+	desc = HUN_event.9.d
+	picture = GFX_cHUN_event
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+			
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 70
+		}
+		name = HUN_event.9.a
+		load_focus_tree = {
+			tree = HUN_tree_2
+			keep_completed = no
+
+		}
+	}
+}

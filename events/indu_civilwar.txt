@@ -6,8 +6,11 @@ country_event = {
 	title = indu_civilwar.1.t
 	desc = indu_civilwar.1.d
 	picture = gFx_JAP.1
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = RAJ
+		date > 1947.5.6
+	}
 	
 	immediate = {
 	    hidden_effect = {
@@ -19,29 +22,23 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		name = indu_civilwar.1.a
-		RAJ = {
-						transfer_state = 429
-						transfer_state = 425
-						transfer_state = 868
-						transfer_state = 1034
-						white_peace = CYN
-					}
-		FID = {
-						transfer_state = 424
-						transfer_state = 423
-						transfer_state = 320
-						transfer_state = 867
-						transfer_state = 1095
-						white_peace = CYN
-					}
-		CYN = { clr_country_flag = INDIA_civilwar_participants }
-	}
-	option = { 
-	    ai_chance = {
-		   base = 0
+		declare_war_on = {
+			target = FID
+			type = annex_everything
 		}
-		name = indu_civilwar.1.b
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.25
+					days = 1
+				}
+			}
+		}
+		name = indu_civilwar.1.a
+
 	}
 	
 }
@@ -52,47 +49,47 @@ country_event = {
 	title = indu_civilwar.2.t
 	desc = indu_civilwar.2.d
 	picture = gFx_JAP.1
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = FID
+		surrender_progress > 0.3
+	}
 	
 	immediate = {
 	    hidden_effect = {
-
+		    add_popularity = { ideology = Nationalism popularity = -0.1 }
+			add_popularity = { ideology = reactionism popularity = -0.1 }
 		}
     }
 	
 	option = { 
 	    ai_chance = {
-		   base = 80
+		   base = 100
 		}
-		if = {
-				limit = { tag = HYD }
-		CYN = {
-			set_autonomy = {
-				target = HYD
-				autonomy_state = autonomy_puppet
+		435 = {
+			create_unit = {
+				division = "division_template = \"India Millitas\" start_experience_factor = 0.1"
+				owner = RAJ
 			}
-		}
+			create_unit = {
+				division = "division_template = \"India Millitas\" start_experience_factor = 0.1"
+				owner = RAJ
+			}
+			create_unit = {
+				division = "division_template = \"India Millitas\" start_experience_factor = 0.1"
+				owner = RAJ
+			}
+			create_unit = {
+				division = "division_template = \"India Millitas\" start_experience_factor = 0.1"
+				owner = RAJ
+			}
+			create_unit = {
+				division = "division_template = \"India Millitas\" start_experience_factor = 0.1"
+				owner = RAJ
+			}
 		}
 		name = indu_civilwar.2.a
-	}
-	option = { 
-	    ai_chance = {
-		   base = 20
-		}
-		if = {
-				limit = { tag = HYD }
-		RAJ = {
-			set_autonomy = {
-				target = HYD
-				autonomy_state = autonomy_puppet
-			}
-		}
-		HYD = {
-			set_cosmetic_tag = HYD_NC
-		}
-		}
-		name = indu_civilwar.2.b
+
 	}
 	
 }
@@ -103,22 +100,80 @@ country_event = {
 	title = indu_civilwar.3.t
 	desc = indu_civilwar.3.d
 	picture = gFx_JAP.1
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = RAJ
+		surrender_progress > 0.2
+	}
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		  
 		}
     }
 	
 	option = { 
 	    ai_chance = {
-		   base = 90
+		   base = 100
 		}
-		
+		release_puppet = MRD
+		name = indu_civilwar.2.a
+
+	}
 	
-		name = indu_civilwar.3.a
+}
+country_event = {
+    id = indu_civilwar.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.3 FROM = [From.GetName]" }
+	title = indu_civilwar.3.t
+	desc = indu_civilwar.3.d
+	picture = gFx_JAP.1
+	fire_only_once = yes
+	trigger = {
+		tag = RAJ
+		surrender_progress > 0.3
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		  
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		release_puppet = HYD
+		HYD = {
+			set_politics = {
+				ruling_party = moderate_socialism
+			}
+			add_popularity = { ideology = moderate_socialism popularity = 0.2 }
+			add_popularity = { ideology = Nationalism popularity = 0.05 }
+			add_popularity = { ideology = conservatism popularity = -0.1 }
+			set_cosmetic_tag = HYD_revolution
+		}
+		FID = {
+			set_autonomy = {
+				target = HYD
+				autonomy_state = SDP_India_autonomy_state
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = Pacific.24
+					days = 1
+				}
+			}
+		}
+		name = indu_civilwar.2.a
+
 	}
 	
 }
@@ -129,44 +184,117 @@ country_event = {
 	title = indu_civilwar.4.t
 	desc = indu_civilwar.4.d
 	picture = gFx_JAP.1
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = RAJ
+		surrender_progress > 0.5
+	}
 	
 	immediate = {
 	    hidden_effect = {
-		    
+		  kill_country_leader = yes
 		}
     }
 	
 	option = { 
 	    ai_chance = {
-		   base = 90
+		   base = 100
 		}
-		every_country = {
+		hidden_effect = {
+			every_country = {
 			limit = {
 				is_ai = no
 			}
 			news_event = {
-				id = indu.5
+				id = Pacific.26
+				days = 7
+			}
+			news_event = {
+				id = Pacific.27
 				days = 1
 			}
+			}
 		}
-		white_peace = AFG
-		RAJ = {
-			annex_country = { target = KAR transfer_troops = no }
-			annex_country = { target = PUN transfer_troops = no }
+		country_event = {
+			id = indu_civilwar.5
+			days = 15
+		}
+		release_puppet = RJP
+		release_puppet = ASS
+		release_puppet = GUI
+		release_puppet = BEN
+		release_puppet = ORI
+		release_puppet = KAS
+		FID = {
+			declare_war_on = {
+				target = RJP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ASS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GUI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BEN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ORI
+				type = annex_everything
+			}
+		}
+		name = indu_civilwar.4.a
 
+	}
+	
+}
+country_event = {
+    id = indu_civilwar.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	indu_civilwar.5 FROM = [From.GetName]" }
+	title = indu_civilwar.5.t
+	desc = indu_civilwar.5.d
+	picture = gFx_JAP.1
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		MUI = {
+			transfer_state = 443
+			transfer_state = 891
 		}
 		AFG = {
-			clr_country_flag = INDIA_civilwar_participants
+			set_autonomy = {
+				target = KAS
+				autonomy_state = SDP_India_prince_state
+			}
 		}
-		FID = {
-			white_peace = AFG
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				news_event = {
+					id = indu.0
+					days = 1
+				}
+			}
 		}
-		KAS = {
-			set_cosmetic_tag = KAS_indu
-		}
-		name = indu_civilwar.3.a
+		name = indu_civilwar.5.a
+
 	}
 	
 }
