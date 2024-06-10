@@ -10,4 +10,17 @@ focus_tree = {
 	default = no
 	shared_focus = YUG_focus_0
 }
+focus_tree = {
+	id = YUG_wh
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+	default = no
+	shared_focus = YUG_focus_01
+	shared_focus = YUG_focus_0
+}
 

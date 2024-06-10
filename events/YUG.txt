@@ -145,7 +145,7 @@ country_event = {
 		   base = 100
 		}
 		name = YUG.1014.a
-		country_event = { id = YUG.1 days = 1 }
+		country_event = { id = YUG.10221 days = 1 }
 	}
 	option = { 
 	    ai_chance = {
@@ -153,6 +153,167 @@ country_event = {
 		}
 		name = YUG.1014.b
 	}
+}
+country_event = {
+    id = YUG.10221#克罗地亚：革命的躯干01
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10221 FROM = [From.GetName]" }
+	title = YUG.10221.t
+	desc = YUG.10221.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10221.a
+		country_event = { id = YUG.10222 days = 1 }
+	}
+	
+}
+country_event = {
+    id = YUG.10222#克罗地亚：革命的躯干02
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10222 FROM = [From.GetName]" }
+	title = YUG.10222.t
+	desc = YUG.10222.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10222.a
+		country_event = { id = YUG.10223 days = 1 }
+	}
+	
+}
+country_event = {
+    id = YUG.10223#克罗地亚：革命的躯干03
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10223 FROM = [From.GetName]" }
+	title = YUG.10223.t
+	desc = YUG.10223.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10223.a
+		country_event = { id = YUG.10224 days = 1 }
+	}
+	
+}
+country_event = {
+    id = YUG.10224#克罗地亚：革命的躯干04
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10224 FROM = [From.GetName]" }
+	title = YUG.10224.t
+	desc = YUG.10224.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10224.a
+		country_event = { id = YUG.10331 days = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10224.b
+	}
+}
+country_event = {
+    id = YUG.10331#斯洛文尼亚：革命的双腿01
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10331 FROM = [From.GetName]" }
+	title = YUG.10331.t
+	desc = YUG.10331.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10331.a
+		country_event = { id = YUG.10332 days = 1 }
+	}
+	
+}
+country_event = {
+    id = YUG.10332#斯洛文尼亚：革命的双腿02
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10332 FROM = [From.GetName]" }
+	title = YUG.10332.t
+	desc = YUG.10332.d
+	picture = GFX_YUG_1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10332.a
+		country_event = { id = YUG.1 days = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.10332.b
+	}
+	
 }
 ####################################
 country_event = {
@@ -176,12 +337,12 @@ country_event = {
 		   base = 100
 		}
 		name = YUG.2.a
+		country_event = { id = YUG.3 days = 1 }
 	}
 	
 }
-
 country_event = {
-    id = YUG.3#贝尔格莱德的四月
+    id = YUG.3#暗流涌动
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	YUG.3 FROM = [From.GetName]" }
 	title = YUG.3.t
@@ -201,16 +362,48 @@ country_event = {
 		   base = 100
 		}
 		name = YUG.3.a
+		country_event = { id = YUG.301 days = 1 }
 	}
 	
 }
 country_event = {
-    id = YUG.4
+    id = YUG.301#切特尼克：亦正亦邪
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.301 FROM = [From.GetName]" }
+	title = YUG.301.t
+	desc = YUG.301.d
+	picture = GFX_YUG_301
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.301.a
+		country_event = { id = YUG.3 days = 1 }
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.301.b
+	}
+	
+}
+country_event = {
+    id = YUG.4#贝尔格莱德的四月
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	YUG.4 FROM = [From.GetName]" }
 	title = YUG.4.t
 	desc = YUG.4.d
-	picture = GFX_ISU_event5
+	picture = GFX_YUG_1
 	
 	is_triggered_only = yes
 	
@@ -225,16 +418,42 @@ country_event = {
 		   base = 100
 		}
 		name = YUG.4.a
+		country_event = { id = YUG.5 days = 1 }
 	}
 	
 }
 country_event = {
-    id = YUG.5
+    id = YUG.5#刺杀：光天化日
 	immediate = {log = "[GetDateText]: [Root.GetName]: event
 	YUG.5 FROM = [From.GetName]" }
 	title = YUG.5.t
 	desc = YUG.5.d
 	picture = GFX_ISU_event5
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		  load_focus_tree = { tree = YUG_wh keep_completed = yes }  
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.5.a
+		country_event = { id = YUG.6 days = 5 }
+	}
+	
+}
+country_event = {
+    id = YUG.6#上帝，国王和白手
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.6 FROM = [From.GetName]" }
+	title = YUG.6.t
+	desc = YUG.6.d
+	picture = GFX_ISU_event6
 	
 	is_triggered_only = yes
 	
@@ -248,7 +467,7 @@ country_event = {
 	    ai_chance = {
 		   base = 100
 		}
-		name = YUG.5.a
+		name = YUG.6.a
 	}
 	
 }

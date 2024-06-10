@@ -20,7 +20,7 @@
 			focus = YUG_focus_0
 		}
 		completion_reward = {
-		    
+		    country_event = { id = YUG.2 days = 1 }
 		}
 	}
 	shared_focus = {
@@ -33,22 +33,17 @@
 			focus = YUG_focus_1
 		}
 		completion_reward = {
-		    
+		   country_event = { id = YUG.4 days = 1 }
+		   set_country_flag = YUG_WH
 		}
 	}
 ##########################################
-shared_focus = {
+    shared_focus = {
 		id = YUG_focus_01
 		icon = GFX_YUG_focus_01
 		cost = 2
 		x = 2
 		y = 0
-		allow_branch = {
-		    custom_trigger_tooltip = {
-                tooltip = white_hand_tt
-                has_country_flag = YUG_WH				
-            }
-		}
         completion_reward = {
 		
 		
