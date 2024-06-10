@@ -120,3 +120,8 @@ music = {
 	file = "SDP_japan_21.ogg"
 	volume = 0.65
 }
+music = {
+	name = "SDP_japan_22"
+	file = "SDP_japan_22.ogg"
+	volume = 0.65
+}

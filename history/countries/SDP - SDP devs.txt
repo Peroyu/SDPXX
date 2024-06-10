@@ -28,9 +28,9 @@ add_ideas = {
 	
  }
 create_country_leader = {
-	name = "SDP_coders"  # 
+	name = "SDP coders"  # 
 	desc = "/"  # 
-	picture = portrait_SDP_coders  # 
+	picture = GFX_SDP_custom_live2d  # 
 	expire = "1952.4.30"  # 
 	ideology = parliamentary_communism # 
 	traits = {  # 

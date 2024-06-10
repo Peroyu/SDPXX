@@ -1,4 +1,12 @@
  spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_SDP_custom_live2d"
+		texturefile = "gfx/leaders/custom/GFX_SDP_custom_live2d.dds"
+		noOfFrames = 16
+		animation_rate_fps = 0.025
+		looping = yes
+		play_on_show = yes
+	}
 	spriteType = {
 		name = "GFX_portrait_IRE_Hugo_MacNeill"
 		texturefile = "gfx/leaders/IRE/GFX_portrait_IRE_Hugo_MacNeill.png"		
