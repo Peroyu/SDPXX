@@ -2,8 +2,8 @@
 	frameAnimatedSpriteType = {
 		name = "GFX_SDP_custom_live2d"
 		texturefile = "gfx/leaders/custom/GFX_SDP_custom_live2d.dds"
-		noOfFrames = 16
-		animation_rate_fps = 0.025
+		noOfFrames = 78
+		animation_rate_fps = 30
 		looping = yes
 		play_on_show = yes
 	}
