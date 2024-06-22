@@ -1203,8 +1203,23 @@ spriteType = {
 	}
 
 	spriteType = {
+		name = "portrait_BEN_Udai_Pratap_Nath_Shah_Deo"
+		texturefile = "gfx/leaders/INDIA/portrait_BEN_Udai_Pratap_Nath_Shah_Deo.png"		
+	}
+
+	spriteType = {
 		name = "Portrait_RAJ_Mohandas_Gandhi"
 		texturefile = "gfx/leaders/INDIA/Portrait_RAJ_Mohandas_Gandhi.png"		
+	}
+
+	spriteType = {
+		name = "portrait_KAS_Hari_Singh"
+		texturefile = "gfx/leaders/INDIA/portrait_KAS_Hari_Singh.png"		
+	}
+
+	spriteType = {
+		name = "portrait_KAS_Hari_Singh"
+		texturefile = "gfx/leaders/INDIA/portrait_KAS_Hari_Singh.png"		
 	}
 
 	spriteType = {

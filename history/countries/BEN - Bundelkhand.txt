@@ -1,20 +1,28 @@
 capital = 319 # 
 
-set_oob = "KAS_1947"  # 
+set_oob = "empty"  # 
 
 set_research_slots = 2 # 
 CHI_jap_initial_techs = yes
 set_war_support = 0.3 # 
 set_stability = 0.5 # 
 
-set_country_flag = INDIA_civilwar_participants
+
 set_politics = {
 	ruling_party = reactionism # 
 	last_election = "1947.1.1"
 	election_frequency = 48 # 
 	elections_allowed = no  # 
 }
-
+create_country_leader = {
+	name = "BEN_Udai_Pratap_Nath_Shah_Deo"  # 
+	desc = "/"  # 
+	picture = portrait_BEN_Udai_Pratap_Nath_Shah_Deo
+	expire = "1956.6.6"  # 
+	ideology =  despotism
+	traits = {  # 
+	}
+}
 
 set_popularities = {
  conservatism = 20
@@ -23,24 +31,8 @@ set_popularities = {
  restorativeism = 30
 }
 
-create_country_leader = {
-	name = "KAS_Sheikh_Abdullah"  # 
-	desc = "/"  # 
-	picture = portrait_KAS_Sheikh_Abdullah
-	expire = "1956.6.6"  # 
-	ideology =  despotism
-	traits = {  # 
-	}
-}
-create_country_leader = {
-	name = "KAS_Hari_Singh"  # 
-	desc = "/"  # 
-	picture = portrait_KAS_Hari_Singh
-	expire = "1956.6.6"  # 
-	ideology =  despotism
-	traits = {  # 
-	}
-}
+
+
 add_ideas = {
 	no_health_system
 	consumption_based_taxation
