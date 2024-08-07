@@ -198,6 +198,72 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_Communism_picture"
+		texturefile = "gfx/texticons/GFX_Communism_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_classic_Communism_picture"
+		texturefile = "gfx/texticons/GFX_classic_Communism_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_left_radical_picture"
+		texturefile = "gfx/texticons/GFX_left_radical_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_social_democracy_picture"
+		texturefile = "gfx/texticons/GFX_social_democracy_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_reconstrcution_picture"
+		texturefile = "gfx/texticons/GFX_reconstrcution_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_liberal_picture"
+		texturefile = "gfx/texticons/GFX_liberal_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_conservative_picture"
+		texturefile = "gfx/texticons/GFX_conservative_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_autho_picture"
+		texturefile = "gfx/texticons/GFX_autho_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_deposit_picture"
+		texturefile = "gfx/texticons/GFX_deposit_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_nationalism_picture"
+		texturefile = "gfx/texticons/GFX_nationalism_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_reactionism_picture"
+		texturefile = "gfx/texticons/GFX_reactionism_picture.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_pol_power"
 		texturefile = "gfx/texticons/pol_power_20x20.dds"
 		legacy_lazy_load = no

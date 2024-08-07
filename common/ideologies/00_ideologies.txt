@@ -204,7 +204,7 @@ ideologies = {
 			liberal_democracy = { can_be_randomly_selected = no }			
 			social_liberalism = { can_be_randomly_selected = no }			
 			trade_liberalism = { can_be_randomly_selected = no }
-			United_Interim_Government = { can_be_randomly_selected = no }
+			United_Interim_Government = {color ={121 121 121} can_be_randomly_selected = no }
 			islam_progressive = { can_be_randomly_selected = no }
 			radical_liberalism = { can_be_randomly_selected = no }
 			Liberal_conservatism = { can_be_randomly_selected = no }
