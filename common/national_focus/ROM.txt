@@ -1,0 +1,13 @@
+focus_tree = {
+	id = ROM_frist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+		    tag = ROM  
+		}	
+	}
+	default = no
+    shared_focus = ROM_1
+}
+

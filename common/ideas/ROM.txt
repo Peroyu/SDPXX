@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		ROM_international_army = {
+		    name = ROM_international_army
+			picture = ROM_international_army
+			available = {
+			}
+			modifier = {
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05
+			}
+		}
+		ROM_Carol = {
+		    name = ROM_Carol
+			picture = ROM_Carol
+			available = {
+			}
+			modifier = {
+			stability_factor = -0.1
+			production_factory_start_efficiency_factor = -0.05
+			communism_drift = -0.01
+			}
+		}
+		ROM_kingdom_army = {
+		    name = ROM_kingdom_army
+			picture = ROM_kingdom_army
+			available = {
+			}
+			research_bonus = {
+			land_doctrine_research = -0.1
+			battlefield_support_tree = -0.1
+			infantry_weapons_research = -0.1
+			artillery_research = -0.1
+			armor_research = -0.1
+			}
+		}
+		ROM_economy_breakdown = {
+		    name = ROM_economy_breakdown
+			picture = ROM_economy_breakdown
+			available = {
+			}
+			modifier = {
+			consumer_goods_factor = 0.15
+			production_factory_start_efficiency_factor = -0.15
+			}
+		}
+	}
+}	
