@@ -1,0 +1,240 @@
+    shared_focus = {
+		id = ROM_1
+		icon = GFX_ROM_1
+		cost = 1
+		x = 0
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_2
+		icon = GFX_ROM_2
+		cost = 1
+		x = 0
+		y = 1
+		prerequisite = {
+	       focus =ROM_1
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_3
+		icon = GFX_ROM_3
+		cost = 1
+		x = -2
+		y = 2
+		prerequisite = {
+		focus =	ROM_2
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_4
+		icon = GFX_ROM_4
+		cost = 2
+		x = -2
+		y = 3
+		prerequisite = {
+		focus =	ROM_3
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_5
+		icon = GFX_ROM_5
+		cost = 2
+		x = -2
+		y = 4
+		prerequisite = {
+		focus =	ROM_4
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_6
+		icon = GFX_ROM_6
+		cost = 1
+		x = -2
+		y = 5
+		prerequisite = {
+		focus =	ROM_5
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_7
+		icon = GFX_ROM_7
+		cost = 1
+		x = -2
+		y = 6
+		prerequisite = {
+		focus =	ROM_6
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_8
+		icon = GFX_ROM_8
+		cost = 1
+		x = 0
+		y = 2
+		prerequisite = {
+		focus =	ROM_2
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_9
+		icon = GFX_ROM_9
+		cost = 1
+		x = 0
+		y = 3
+		prerequisite = {
+		focus =	ROM_8
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_10
+		icon = GFX_ROM_10
+		cost = 1
+		x = 0
+		y = 4
+		prerequisite = {
+		focus =	ROM_9
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_11
+		icon = GFX_ROM_11
+		cost = 1
+		x = 0
+		y = 5
+		prerequisite = {
+		focus =	ROM_10
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_12
+		icon = GFX_ROM_12
+		cost = 1
+		x = 0
+		y = 6
+		prerequisite = {
+		focus =	ROM_11
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_13
+		icon = GFX_ROM_13
+		cost = 1
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	ROM_2
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_14
+		icon = GFX_ROM_14
+		cost = 2
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =ROM_13	
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_15
+		icon = GFX_ROM_15
+		cost = 2
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	ROM_14
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_16
+		icon = GFX_ROM_16
+		cost = 2
+		x = 2
+		y = 5
+		prerequisite = {
+		focus =	ROM_15
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_17
+		icon = GFX_ROM_17
+		cost = 1
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	ROM_16
+		}
+		completion_reward = {
+			
+		}
+	}
+	shared_focus = {
+		id = ROM_18
+		icon = GFX_ROM_18
+		cost = 1
+		x = 0
+		y = 7
+		prerequisite = {
+		focus =	ROM_7
+		}
+		prerequisite = {
+		focus =	ROM_12
+		}
+		prerequisite = {
+		focus =	ROM_17
+		}
+		completion_reward = {
+			
+		}
+	}
+	
+	
+

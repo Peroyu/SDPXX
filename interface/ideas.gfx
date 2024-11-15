@@ -1,5 +1,21 @@
 spriteTypes = {
     spriteType = {
+		name = "GFX_idea_ROM_international_army"
+		texturefile = "gfx/interface/ideas/ROM/GFX_ROM_international_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_Carol"
+		texturefile = "gfx/interface/ideas/ROM/GFX_ROM_Carol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_kingdom_army"
+		texturefile = "gfx/interface/ideas/ROM/GFX_ROM_kingdom_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_economy_breakdown"
+		texturefile = "gfx/interface/ideas/ROM/GFX_ROM_economy_breakdown.dds"
+	}
+    spriteType = {
 		name = "GFX_idea_IRE_plan"
 		texturefile = "gfx/interface/ideas/IRE/GFX_IRE_plan.dds"
 	}

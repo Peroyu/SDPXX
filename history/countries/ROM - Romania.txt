@@ -54,4 +54,8 @@ graduated_taxation
 	ethnostate
 
 	loser_of_the_revolutionary_war
+	ROM_international_army
+	ROM_Carol
+	ROM_kingdom_army
+	ROM_economy_breakdown
 }
