@@ -1530,7 +1530,7 @@ technologies = {
 
 		
 		enable_equipments = {
-			anti_air_equipment_5
+			sam_missile_equipment
 		}
 
 		

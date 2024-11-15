@@ -70,6 +70,8 @@
  anti_tank_equipment_4: "战后反坦克炮"
  anti_tank_equipment_5: "五十年代反坦克炮"
  CHI_light_support_equipment: "轻型支援火力"
+ antiair6: "改良防空炮升级III"
+ antitank7: "改良反坦克炮升级III"
  CHI_zapaijun: "杂牌军动员"
  CHI_zapaijun_desc: "在漫长的军阀割据时代，各地势力都拥有一支足够庞大的陆军，现在他们依然存在，而且分散在我们战线后方的大片土地上。通过号召调动与分配，我们将会吸纳军阀的遗产并竭力于预备战争的到来，届时虽然我们的部队在质量上不足，他们一定能在数量上压制敌军。"
  CHI_zapai_infantry_subunit: "杂牌步兵营"
