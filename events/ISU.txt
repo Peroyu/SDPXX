@@ -106,12 +106,12 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
-			HUN = {
-				country_event = {
-					id = HUN_event.1
-					days = 1
-				}
-			}
+			#HUN = {
+			#	country_event = {
+			#		id = HUN_event.1
+			#		days = 1
+			#	}
+			#}
 			country_event = {
 				id = nukeEVENT.1
 				days = 450
