@@ -8,3 +8,12 @@ NIP_economic_crush_war = {
 					}
 	}
 }
+YUG_is_yugaslavia_federation = {
+	custom_trigger_tooltip = {
+		tooltip = YUG_is_yugaslavia_federation_tt
+		OR = {
+			original_tag = YUG
+			is_subject_of = YUG
+		}
+	}
+}

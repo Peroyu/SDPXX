@@ -8,9 +8,109 @@ ideas = {
 				is_subject = no
 			}
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.35
 				Nationalism_drift = 0.01
 				restorativeism_drift = 0.01
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_1 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.3
+				Nationalism_drift = 0.01
+				restorativeism_drift = 0.01
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_2 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.3
+				restorativeism_drift = 0.01
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_3 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.3
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_4 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.25
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_5 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_6 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_7 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.14
+			}
+		}
+		YUG_nationalism_influence_8 = {
+		    name = YUG_nationalism_influence
+			picture = YUG_nationalism_influence
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
 			}
 		}
 		YUG_broken_country_sdp = {
@@ -27,6 +127,35 @@ ideas = {
 				industrial_capacity_dockyard = -0.1
 				production_factory_max_efficiency_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+		YUG_broken_country_sdp3 = {
+		    name = YUG_broken_country
+			picture = YUG_broken_country_sdp
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+				line_change_production_efficiency_factor = -0.02
+				industrial_capacity_factory = -0.02
+				industrial_capacity_dockyard = -0.02
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+		YUG_broken_country_sdp4 = {
+		    name = YUG_broken_country_sdp4
+			picture = YUG_broken_country_sdp4
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.02
+				industrial_capacity_dockyard = 0.02
 			}
 		}
 		YUG_yugaslavia_leader = {
@@ -56,6 +185,71 @@ ideas = {
 				war_support_factor = 0.15
 				conscription_factor = 0.1
 				mobilization_speed = 0.1
+			}
+		}
+		YUG_national_revolution_guard = {
+		    name = YUG_national_revolution_guard
+			picture = YUG_national_revolution_guard
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.05
+				conscription_factor = 0.1
+			}
+		}
+		YUG_national_constrcution = {
+		    name = YUG_national_constrcution
+			picture = YUG_national_constrcution
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				production_speed_infrastructure_factor = 0.15
+				production_speed_railway_factor = 0.15
+			}
+		}
+		YUG_destroyed_home_to_resolve = {
+		    name = YUG_destroyed_home_to_resolve
+			picture = YUG_destroyed_home_to_resolve
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				conscription_factor = -0.3
+				mobilization_speed = -0.1
+				war_support_factor = -0.1
+				production_speed_buildings_factor = 0.25
+				consumer_goods_factor = -0.1
+			}
+		}
+		YUG_industry_supports_bosinia = {
+		    name = YUG_industry_supports_bosinia
+			picture = YUG_industry_supports_bosinia
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
+				local_resources_factor = 0.15
+			}
+		}
+		YUG_smooth_army_in_yugaslavia = {
+		    name = YUG_smooth_army_in_yugaslavia
+			picture = YUG_smooth_army_in_yugaslavia
+			allowed = { always = no }
+			available = {
+				is_subject = no
+			}
+			modifier = {
+				
 			}
 		}
 		#############################

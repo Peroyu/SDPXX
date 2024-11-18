@@ -1,5 +1,6 @@
+
 focus_tree = {
-	id = YUG
+	id = YUG_0
 	country = {
 		factor = 0
 		modifier = {
@@ -8,6 +9,7 @@ focus_tree = {
 		}
 	}
 	default = no
+	shared_focus = YUG_yugaslavia_peoples_army
 	shared_focus = YUG_focus_0
 }
 focus_tree = {
@@ -20,6 +22,7 @@ focus_tree = {
 		}
 	}
 	default = no
+	shared_focus = YUG_yugaslavia_peoples_army
 	shared_focus = YUG_focus_01
 	shared_focus = YUG_focus_0
 }

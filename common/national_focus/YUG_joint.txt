@@ -1,0 +1,656 @@
+
+joint_focus = {
+	id = YUG_yugaslavia_peoples_army
+	
+	dynamic = yes 
+	
+	icon = GFX_YUG_yugaslavia_peoples_army
+	
+	#prerequisite = { focus = }
+	#prerequisite = { focus = }
+
+	x = 20
+	y = 0
+
+	cost = 5
+
+	text_icon = NORDIC_focus_style
+
+	available = {
+
+	}
+
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+
+	ai_will_do = {
+		base = 10
+	}
+
+	completion_reward = {
+
+	}
+	completion_reward_joint_originator = {
+	}
+	completion_reward_joint_member = {
+	}
+}
+joint_focus = {
+	id = YUG_tito_plan
+	dynamic = yes 
+	icon = GFX_YUG_tito_plan
+	prerequisite = { focus = YUG_yugaslavia_peoples_army }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 2
+	y = 1
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_bobowich_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_rework_national_liberation_front
+	dynamic = yes 
+	icon = GFX_YUG_rework_national_liberation_front
+	prerequisite = { focus = YUG_tito_plan }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 2
+	y = 2
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_bobowich_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_total_management_army
+	dynamic = yes 
+	icon = GFX_YUG_total_management_army
+	prerequisite = { focus = YUG_tito_plan }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 4
+	y = 2
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_bobowich_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_inside_army
+	dynamic = yes 
+	icon = GFX_YUG_inside_army
+	prerequisite = { focus = YUG_total_management_army }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 4
+	y = 3
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_bobowich_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_united_army_man
+	dynamic = yes 
+	icon = GFX_YUG_united_army_man
+	prerequisite = { 
+		focus = YUG_bobowich_plan 
+		focus = YUG_tito_plan 
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 0
+	y = 2
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_bobowich_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_bobowich_plan
+	dynamic = yes 
+	icon = GFX_YUG_bobowich_plan
+	prerequisite = { focus = YUG_yugaslavia_peoples_army }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -2
+	y = 1
+	cost = 5
+	mutually_exclusive = {
+		focus = YUG_tito_plan
+	}
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_old_peoples_army_modole
+	dynamic = yes 
+	icon = GFX_YUG_old_peoples_army_modole
+	prerequisite = { focus = YUG_bobowich_plan }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -2
+	y = 2
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_keep_autonomos_army
+	dynamic = yes 
+	icon = GFX_YUG_keep_autonomos_army
+	prerequisite = { focus = YUG_bobowich_plan }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -4
+	y = 2
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_establish_borders_army
+	dynamic = yes 
+	icon = GFX_YUG_establish_borders_army
+	prerequisite = { focus = YUG_keep_autonomos_army }
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -4
+	y = 3
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_to_a_modern_army
+	dynamic = yes 
+	icon = GFX_YUG_to_a_modern_army
+	prerequisite = { 
+		focus = YUG_old_peoples_army_modole 
+		focus = YUG_rework_national_liberation_front
+	}
+	prerequisite = { 
+		focus = YUG_united_army_man
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 0
+	y = 4
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_the_illyria_operation
+	dynamic = yes 
+	icon = GFX_YUG_the_illyria_operation
+	prerequisite = { 
+		focus = YUG_to_a_modern_army
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -2
+	y = 5
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_study_to_russia
+	dynamic = yes 
+	icon = GFX_YUG_study_to_russia
+	prerequisite = { 
+		focus = YUG_the_illyria_operation
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -2
+	y = 6
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_army_machinical
+	dynamic = yes 
+	icon = GFX_YUG_army_machinical
+	prerequisite = { 
+		focus = YUG_study_to_russia
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -2
+	y = 7
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_the_war_operation
+	dynamic = yes 
+	icon = GFX_YUG_the_war_operation
+	prerequisite = { 
+		focus = YUG_to_a_modern_army
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 0
+	y = 5
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_dauble_uprising
+	dynamic = yes 
+	icon = GFX_YUG_dauble_uprising
+	prerequisite = { 
+		focus = YUG_the_war_operation
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 0
+	y = 6
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_quickly_and_better
+	dynamic = yes 
+	icon = GFX_YUG_quickly_and_better
+	prerequisite = { 
+		focus = YUG_dauble_uprising
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 0
+	y = 7
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_the_anti_local_operation
+	dynamic = yes 
+	icon = GFX_YUG_the_anti_local_operation
+	prerequisite = { 
+		focus = YUG_to_a_modern_army
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 2
+	y = 5
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_united_people_and_brotherhood
+	dynamic = yes 
+	icon = GFX_YUG_united_people_and_brotherhood
+	prerequisite = { 
+		focus = YUG_the_anti_local_operation
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 2
+	y = 6
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_united_yugaslavia_army
+	dynamic = yes 
+	icon = GFX_YUG_united_yugaslavia_army
+	prerequisite = { 
+		focus = YUG_united_people_and_brotherhood
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 2
+	y = 7
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_united_federation_army
+	dynamic = yes 
+	icon = GFX_YUG_united_federation_army
+	prerequisite = { 
+		focus = YUG_quickly_and_better
+		focus = YUG_united_yugaslavia_army
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = 1
+	y = 8
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}
+joint_focus = {
+	id = YUG_revolution_modern_army
+	dynamic = yes 
+	icon = GFX_YUG_revolution_modern_army
+	prerequisite = { 
+		focus = YUG_quickly_and_better
+		focus = YUG_army_machinical
+	}
+	relative_position_id = YUG_yugaslavia_peoples_army
+	x = -1
+	y = 8
+	cost = 5
+	text_icon = NORDIC_focus_style
+	available = {
+
+	}
+	joint_trigger = {
+		YUG_is_yugaslavia_federation = yes
+	}
+	ai_will_do = {
+		base = 3
+	}
+	completion_reward = {
+	
+
+	}
+	completion_reward_joint_originator = {
+	
+	}
+}

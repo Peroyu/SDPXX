@@ -444,6 +444,13 @@ country_event = {
 		}
 		name = YUG.5.a
 		country_event = { id = YUG.6 days = 5 }
+		complete_national_focus = YUG_focus_01
+		unlock_decision_category_tooltip = YUG_repression_categories
+		unlock_decision_category_tooltip = YUG_under_shadow_categories
+		set_variable = {
+			YUG.Num_investiment_completed = 0
+		}
+		add_stability = -0.15
 	}
 	
 }
@@ -468,6 +475,409 @@ country_event = {
 		   base = 100
 		}
 		name = YUG.6.a
+	}
+	
+}
+
+country_event = {
+    id = YUG.7#又一场争论
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.7 FROM = [From.GetName]" }
+	title = YUG.7.t
+	desc = YUG.7.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		complete_national_focus = YUG_focus_04
+		name = YUG.7.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		complete_national_focus = YUG_focus_05
+		name = YUG.7.b
+	}
+}
+
+country_event = {
+    id = YUG.8#在王宫内
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.8 FROM = [From.GetName]" }
+	title = YUG.8.t
+	desc = YUG.8.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.8.a
+	}
+	
+}
+country_event = {
+    id = YUG.9#谈判
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.9 FROM = [From.GetName]" }
+	title = YUG.9.t
+	desc = YUG.9.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.9.a
+	}
+	
+}
+country_event = {
+    id = YUG.10#青年军
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.10 FROM = [From.GetName]" }
+	title = YUG.10.t
+	desc = YUG.10.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		custom_effect_tooltip = YUG_focus_05_tt
+		add_to_variable = {
+			YUG.Num_spend_in_decision = 10
+		}
+		add_to_variable = {
+			YUG.Num_infantry_spend = -150
+		}
+		add_to_variable = {
+			YUG.Num_infantry_spend_at = 150
+		}
+		add_to_variable = {
+			YUG.Num_support_spend = -20
+		}
+		add_to_variable = {
+			YUG.Num_support_spend_at = 20
+		}
+		add_to_variable = {
+			YUG.Num_artillery_spend = -5
+		}
+		add_to_variable = {
+			YUG.Num_artillery_spend_at = 5
+		}
+		name = YUG.10.a
+	}
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		custom_effect_tooltip = YUG_focus_04_tt
+		add_to_variable = {
+			YUG.Num_spend_in_decision = -10
+		}
+		add_to_variable = {
+			YUG.Num_infantry_spend = 150
+		}
+		add_to_variable = {
+			YUG.Num_infantry_spend_at = -150
+		}
+		add_to_variable = {
+			YUG.Num_support_spend = 20
+		}
+		add_to_variable = {
+			YUG.Num_support_spend_at = -20
+		}
+		add_to_variable = {
+			YUG.Num_artillery_spend = 5
+		}
+		add_to_variable = {
+			YUG.Num_artillery_spend_at = -5
+		}
+		name = YUG.10.b
+	}
+}
+country_event = {
+    id = YUG.11#大喇叭
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.11 FROM = [From.GetName]" }
+	title = YUG.11.t
+	desc = YUG.11.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.11.a
+		add_popularity = {
+			ideology = Nationalism
+			popularity = 0.02
+		}
+	}
+	
+}
+country_event = {
+    id = YUG.12#小憩
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.12 FROM = [From.GetName]" }
+	title = YUG.12.t
+	desc = YUG.12.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = YUG.13
+			days = 0
+		}
+		name = YUG.12.a
+	}
+	
+}
+country_event = {
+    id = YUG.13#小憩
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.13 FROM = [From.GetName]" }
+	title = YUG.13.t
+	desc = YUG.13.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.13.a
+	}
+	
+}
+country_event = {
+    id = YUG.14#多申的发言
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.14 FROM = [From.GetName]" }
+	title = YUG.14.t
+	desc = YUG.14.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		custom_effect_tooltip = YUG_tt_01_event14
+			country_event = {
+				id = YUG.15
+				days = 7
+			}
+		
+		name = YUG.14.a
+	}
+	
+}
+country_event = {
+    id = YUG.15#多申的发言
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.15 FROM = [From.GetName]" }
+	title = YUG.15.t
+	desc = YUG.15.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		country_event = {
+			id = YUG.16
+			days = 0
+		}
+		name = YUG.15.a
+	}
+	
+}
+country_event = {
+    id = YUG.16#多申的发言
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.16 FROM = [From.GetName]" }
+	title = YUG.16.t
+	desc = YUG.16.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		if = {
+			limit = { 
+				tag = YUG
+			}
+			BOS = {
+				country_event = {
+					id = YUG.15
+					days = 7
+				}
+			}
+		}
+		name = YUG.16.a
+	}
+	
+}
+country_event = {
+    id = YUG.17#异动
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.17 FROM = [From.GetName]" }
+	title = YUG.17.t
+	desc = YUG.17.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		name = YUG.17.a
+	}
+	
+}
+country_event = {
+    id = YUG.18#真凶
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.18 FROM = [From.GetName]" }
+	title = YUG.18.t
+	desc = YUG.18.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_country_flag = YUG_under_shadow_categories_decision_6_tt
+		custom_effect_tooltip = YUG_under_shadow_categories_decision_6_tt
+		name = YUG.18.a
+	}
+	
+}
+country_event = {
+    id = YUG.19#毁灭
+	immediate = {log = "[GetDateText]: [Root.GetName]: event
+	YUG.19 FROM = [From.GetName]" }
+	title = YUG.19.t
+	desc = YUG.19.d
+	picture = GFX_ISU_event6
+	
+	is_triggered_only = yes
+	
+	immediate = {
+	    hidden_effect = {
+		    
+		}
+    }
+	
+	option = { 
+	    ai_chance = {
+		   base = 100
+		}
+		set_country_flag = YUG_under_shadow_categories_decision_8_tt
+		custom_effect_tooltip = YUG_under_shadow_categories_decision_8_tt
+		name = YUG.18.a
 	}
 	
 }

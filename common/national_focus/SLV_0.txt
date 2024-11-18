@@ -1,0 +1,207 @@
+focus_tree = {
+	id = SLV_focus_0
+	shared_focus = YUG_yugaslavia_peoples_army
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SLV
+		}
+	}
+	default = no
+	focus = {
+		id = SLV_federation_son
+		icon = GFX_SLV_federation_son
+		cost = 2
+		x = 8
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_the_door_of_europe
+		icon = GFX_SLV_the_door_of_europe
+		cost = 2
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = SLV_federation_son
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_economic_focus
+		icon = GFX_SLV_economic_focus
+		cost = 2
+		x = 8
+		y = 2
+		prerequisite = {
+			focus = SLV_the_door_of_europe
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_pull_rura_economy
+		icon = GFX_SLV_pull_rura_economy
+		cost = 5
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = SLV_economic_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_talk_with_him
+		icon = GFX_SLV_talk_with_him
+		cost = 5
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = SLV_pull_rura_economy
+		}
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = SLV_european_market
+		icon = GFX_SLV_european_market
+		cost = 5
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = SLV_economic_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_border_trades
+		icon = GFX_SLV_border_trades
+		cost = 5
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = SLV_european_market
+		}
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = SLV_oil_resources
+		icon = GFX_SLV_oil_resources
+		cost = 5
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = SLV_economic_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_industry_development
+		icon = GFX_SLV_industry_development
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = SLV_oil_resources
+		}
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = SLV_strengthen_connections
+		icon = GFX_SLV_strengthen_connections
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = SLV_economic_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_yugaslavia_network
+		icon = GFX_SLV_yugaslavia_network
+		cost = 5
+		x = 10
+		y = 4
+		prerequisite = {
+			focus = SLV_strengthen_connections
+		}
+		completion_reward = { 
+			
+			}
+	}
+	#
+	focus = {
+		id = SLV_support_belgrade
+		icon = GFX_SLV_support_belgrade
+		cost = 5
+		x = 12
+		y = 3
+		prerequisite = {
+			focus = SLV_economic_focus
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_support_technicals
+		icon = GFX_SLV_support_technicals
+		cost = 5
+		x = 12
+		y = 4
+		prerequisite = {
+			focus = SLV_support_belgrade
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = SLV_hey_slavia
+		icon = GFX_SLV_hey_slavia
+		cost = 5
+		x = 8
+		y = 5
+		prerequisite = {
+			focus = SLV_support_technicals
+		}
+		prerequisite = {
+			focus = SLV_yugaslavia_network
+		}
+		prerequisite = {
+			focus = SLV_industry_development
+		}
+		prerequisite = {
+			focus = SLV_border_trades
+		}
+		prerequisite = {
+			focus = SLV_talk_with_him
+		}
+		completion_reward = { 
+			
+			}
+	}
+}	

@@ -1,0 +1,327 @@
+focus_tree = {
+	id = CRT_focus_0
+	shared_focus = YUG_yugaslavia_peoples_army
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRT
+		}
+	}
+	default = no
+	focus = {
+		id = CRT_the_eve_in_croatia
+		icon = GFX_CRT_the_eve_in_croatia
+		cost = 1
+		x = 8
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_root_of_federation
+		icon = GFX_CRT_root_of_federation
+		cost = 1
+		x = 8
+		y = 1
+		prerequisite = {
+			focus = CRT_the_eve_in_croatia
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_1947_conference
+		icon = GFX_CRT_1947_conference
+		cost = 2
+		x = 8
+		y = 2
+		prerequisite = {
+			focus = CRT_root_of_federation
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_the_first_stop_to_europe
+		icon = GFX_CRT_the_first_stop_to_europe
+		cost = 2
+		x = 12
+		y = 3
+		prerequisite = {
+			focus = CRT_1947_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_recontrcut_ports
+		icon = GFX_CRT_recontrcut_ports
+		cost = 3
+		x = 14
+		y = 4
+		prerequisite = {
+			focus = CRT_the_first_stop_to_europe
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_chances_of_reworks
+		icon = GFX_CRT_chances_of_reworks
+		cost = 3
+		x = 14
+		y = 5
+		prerequisite = {
+			focus = CRT_recontrcut_ports
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_mobalisation_army
+		icon = GFX_CRT_mobalisation_army
+		cost = 2
+		x = 14
+		y = 6
+		prerequisite = {
+			focus = CRT_chances_of_reworks
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_recontrcut_networks
+		icon = GFX_CRT_recontrcut_networks
+		cost = 3
+		x = 12
+		y = 4
+		prerequisite = {
+			focus = CRT_the_first_stop_to_europe
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_stop_green_officers
+		icon = GFX_CRT_stop_green_officers
+		cost = 3
+		x = 12
+		y = 5
+		prerequisite = {
+			focus = CRT_recontrcut_networks
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_the_policies
+		icon = GFX_CRT_the_policies
+		cost = 3
+		x = 12
+		y = 6
+		prerequisite = {
+			focus = CRT_stop_green_officers
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_old_millitary_legacy
+		icon = GFX_CRT_old_millitary_legacy
+		cost = 2
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = CRT_1947_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_establish_millitas
+		icon = GFX_CRT_establish_millitas
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = CRT_old_millitary_legacy
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_keep_stablity
+		icon = GFX_CRT_keep_stablity
+		cost = 5
+		x = 8
+		y = 5
+		prerequisite = {
+			focus = CRT_establish_millitas
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_corperation_with_national_security
+		icon = GFX_CRT_corperation_with_national_security
+		cost = 5
+		x = 8
+		y = 6
+		prerequisite = {
+			focus = CRT_keep_stablity
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_regional_committee_reform
+		icon = GFX_CRT_regional_committee_reform
+		cost = 2
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = CRT_1947_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_report_from_locals
+		icon = GFX_CRT_report_from_locals
+		cost = 1
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = CRT_regional_committee_reform
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_reorganise_local_government
+		icon = GFX_CRT_reorganise_local_government
+		cost = 2
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = CRT_report_from_locals
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_united_left_parties
+		icon = GFX_CRT_united_left_parties
+		cost = 2
+		x = 2
+		y = 6
+		prerequisite = {
+			focus = CRT_reorganise_local_government
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_clear_the_nation
+		icon = GFX_CRT_clear_the_nation
+		cost = 2
+		x = 2
+		y = 7
+		prerequisite = {
+			focus = CRT_united_left_parties
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_presidential_idea
+		icon = GFX_CRT_presidential_idea
+		cost = 2
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = CRT_regional_committee_reform
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_revolutionary_yugaslavianism
+		icon = GFX_CRT_revolutionary_yugaslavianism
+		cost = 3
+		x = 4
+		y = 5
+		prerequisite = {
+			focus = CRT_presidential_idea
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_socialist_federation
+		icon = GFX_CRT_socialist_federation
+		cost = 3
+		x = 4
+		y = 6
+		prerequisite = {
+			focus = CRT_revolutionary_yugaslavianism
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_to_belgrade
+		icon = GFX_CRT_to_belgrade
+		cost = 5
+		x = 8
+		y = 7
+		prerequisite = {
+			focus = CRT_socialist_federation
+		}
+		prerequisite = {
+			focus = CRT_corperation_with_national_security
+		}
+		prerequisite = {
+			focus = CRT_the_policies
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = CRT_the_concerns
+		icon = GFX_CRT_the_concerns
+		cost = 5
+		x = 8
+		y = 8
+		prerequisite = {
+			focus = CRT_to_belgrade
+		}
+		completion_reward = { 
+			
+			}
+	}
+}	

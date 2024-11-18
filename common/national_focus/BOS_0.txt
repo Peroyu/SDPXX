@@ -1,0 +1,226 @@
+focus_tree = {
+	id = BOS_focus_0
+	shared_focus = YUG_yugaslavia_peoples_army
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOS
+		}
+	}
+	default = no
+	focus = {
+		id = BOS_new_years
+		icon = GFX_BOS_new_years
+		cost = 2
+		x = 4
+		y = 0
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_1947_conference
+		icon = GFX_BOS_1947_conference
+		cost = 5
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = BOS_new_years
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_resolve_muslims
+		icon = GFX_BOS_resolve_muslims
+		cost = 4
+		x = 2
+		y = 2
+		mutually_exclusive = {
+			focus = BOS_economic_reconstruction
+		}
+		prerequisite = {
+			focus = BOS_1947_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_local_history
+		icon = GFX_BOS_local_history
+		cost = 4
+		x = 2
+		y = 3
+		prerequisite = {
+			focus = BOS_resolve_muslims
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_anti_islamic_treaty
+		icon = GFX_BOS_anti_islamic_treaty
+		cost = 4
+		x = 2
+		y = 4
+		prerequisite = {
+			focus = BOS_local_history
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_ban_annoncements
+		icon = GFX_BOS_ban_annoncements
+		cost = 4
+		x = 2
+		y = 5
+		prerequisite = {
+			focus = BOS_anti_islamic_treaty
+		}
+		completion_reward = { 
+			
+			}
+	}
+
+
+	focus = {
+		id = BOS_economic_reconstruction
+		icon = GFX_BOS_economic_reconstruction
+		cost = 4
+		x = 6
+		y = 2
+		mutually_exclusive = {
+			focus = BOS_resolve_muslims
+		}
+		prerequisite = {
+			focus = BOS_1947_conference
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_defend_security
+		icon = GFX_BOS_defend_security
+		cost = 4
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = BOS_economic_reconstruction
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_transportation_network
+		icon = GFX_BOS_transportation_network
+		cost = 4
+		x = 6
+		y = 4
+		prerequisite = {
+			focus = BOS_defend_security
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_new_partners
+		icon = GFX_BOS_new_partners
+		cost = 4
+		x = 6
+		y = 5
+		prerequisite = {
+			focus = BOS_transportation_network
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_problems_is_there
+		icon = GFX_BOS_problems_is_there
+		cost = 5
+		x = 4
+		y = 6
+		prerequisite = {
+			focus = BOS_new_partners
+			focus = BOS_ban_annoncements
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_the_looks
+		icon = GFX_BOS_the_looks
+		cost = 5
+		x = 4
+		y = 7
+		prerequisite = {
+			focus = BOS_problems_is_there
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_the_aotomosphere
+		icon = GFX_BOS_the_aotomosphere
+		cost = 5
+		x = 4
+		y = 8
+		prerequisite = {
+			focus = BOS_the_looks
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_the_event_first
+		icon = GFX_BOS_the_event_first
+		cost = 5
+		x = 4
+		y = 9
+		prerequisite = {
+			focus = BOS_the_aotomosphere
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_the_decleration
+		icon = GFX_BOS_the_decleration
+		cost = 5
+		x = 4
+		y = 10
+		prerequisite = {
+			focus = BOS_the_event_first
+		}
+		completion_reward = { 
+			
+			}
+	}
+	focus = {
+		id = BOS_to_1948
+		icon = GFX_BOS_to_1948
+		cost = 5
+		x = 4
+		y = 11
+		prerequisite = {
+			focus = BOS_the_decleration
+		}
+		completion_reward = { 
+			
+			}
+	}
+}	

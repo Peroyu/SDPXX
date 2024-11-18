@@ -37,50 +37,219 @@
 		   set_country_flag = YUG_WH
 		}
 	}
+	shared_focus = {
+		id = YUG_reconstrcution_south_and_north
+		icon = GFX_YUG_reconstrcution_south_and_north
+		cost = 5
+		x = 10
+		y = 3
+        prerequisite = {
+			focus = YUG_focus_2
+		}
+		completion_reward = {
+			country_event = { id = YUG.12 days = 1 }
+			every_country = {
+				limit = {
+					YUG_is_yugaslavia_federation = yes
+				}
+				add_ideas = YUG_national_constrcution
+			}
+		}
+	}
+	shared_focus = {
+		id = YUG_croatia_reprosperity
+		icon = GFX_YUG_croatia_reprosperity
+		cost = 5
+		x = 8
+		y = 4
+        prerequisite = {
+			focus = YUG_reconstrcution_south_and_north
+		}
+		completion_reward = {
+		   CRT = {
+			add_ideas = YUG_destroyed_home_to_resolve
+		   }
+		}
+	}
+	shared_focus = {
+		id = YUG_bosinia_industrialisation
+		icon = GFX_YUG_bosinia_industrialisation
+		cost = 5
+		x = 10
+		y = 4
+        prerequisite = {
+			focus = YUG_reconstrcution_south_and_north
+		}
+		completion_reward = {
+		   BOS = {
+			add_ideas = YUG_industry_supports_bosinia
+		   }
+		}
+	}
+	shared_focus = {
+		id = YUG_serbia_industry_development
+		icon = GFX_YUG_serbia_industry_development
+		cost = 5
+		x = 12
+		y = 4
+        prerequisite = {
+			focus = YUG_reconstrcution_south_and_north
+		}
+		completion_reward = {
+		   swap_ideas = {
+			remove_idea = YUG_broken_country_sdp
+			add_idea = YUG_broken_country_sdp2
+		   }
+		}
+	}
+	shared_focus = {
+		id = YUG_economic_reconstrcution_system
+		icon = GFX_YUG_economic_reconstrcution_system
+		cost = 5
+		x = 9
+		y = 5
+        prerequisite = {
+			focus = YUG_bosinia_industrialisation
+		}
+		prerequisite = {
+			focus = YUG_serbia_industry_development
+		}
+		prerequisite = {
+			focus = YUG_croatia_reprosperity
+		}
+		completion_reward = {
+		   if = {
+			limit = {
+				has_idea = YUG_broken_country_sdp2
+			 }
+			 swap_ideas = {
+				remove_idea = YUG_broken_country_sdp2
+				add_idea = YUG_broken_country_sdp3
+			 }
+		   }
+		   else = {
+			remove_ideas = YUG_broken_country_sdp3
+		   }
+		}
+	}
+	shared_focus = {
+		id = YUG_industry_reconstrcution_system
+		icon = GFX_YUG_industry_reconstrcution_system
+		cost = 5
+		x = 11
+		y = 5
+        prerequisite = {
+			focus = YUG_bosinia_industrialisation
+		}
+		prerequisite = {
+			focus = YUG_serbia_industry_development
+		}
+		prerequisite = {
+			focus = YUG_croatia_reprosperity
+		}
+		completion_reward = {
+		    if = {
+				limit = {
+					has_idea = YUG_broken_country_sdp2
+				 }
+				 swap_ideas = {
+					remove_idea = YUG_broken_country_sdp2
+					add_idea = YUG_broken_country_sdp3
+				 }
+			   }
+			   else = {
+				remove_ideas = YUG_broken_country_sdp3
+			   }
+		}
+	}
+	shared_focus = {
+		id = YUG_national_reconstrcution_system
+		icon = GFX_YUG_industry_reconstrcution_system
+		cost = 4
+		x = 10
+		y = 6
+        prerequisite = {
+			focus = YUG_industry_reconstrcution_system
+		}
+		prerequisite = {
+			focus = YUG_economic_reconstrcution_system
+		}
+		completion_reward = {
+		   add_ideas = YUG_broken_country_sdp4
+		}
+	}
 ##########################################
     shared_focus = {
 		id = YUG_focus_01
 		icon = GFX_YUG_focus_01
 		cost = 2
-		x = 2
+		x = 4
 		y = 0
         completion_reward = {
-		
-		
+			add_stability = -0.1
+			add_war_support = 0.1
+		set_variable = {
+			YUG.Num_spend_in_decision = 50
+		}
+		set_variable = {
+			YUG.Num_infantry_spend = 500
+		}
+		set_variable = {
+			YUG.Num_infantry_spend_at = -500
+		}
+		set_variable = {
+			YUG.Num_support_spend = 50
+		}
+		set_variable = {
+			YUG.Num_support_spend_at = -50
+		}
+		set_variable = {
+			YUG.Num_artillery_spend = 10
+		}
+		set_variable = {
+			YUG.Num_artillery_spend_at = -10
+		}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_02
 		icon = GFX_YUG_focus_02
 		cost = 2
-		x = 0
-		y = 1
-		prerequisite = {
-			focus = YUG_focus_01
-		}
-        completion_reward = {
-			
-		}
-	}
-shared_focus = {
-		id = YUG_focus_03
-		icon = GFX_YUG_focus_03
-		cost = 2
 		x = 2
 		y = 1
 		prerequisite = {
 			focus = YUG_focus_01
 		}
         completion_reward = {
-			
+			add_war_support = 0.1
+			country_event = {
+				id = YUG.7
+				days = 1
+			}
+		}
+	}
+shared_focus = {
+		id = YUG_focus_03
+		icon = GFX_YUG_focus_03
+		cost = 2
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = YUG_focus_01
+		}
+        completion_reward = {
+			add_stability = 0.05
 		}
 	}
 shared_focus = {
 		id = YUG_focus_04
 		icon = GFX_YUG_focus_04
 		cost = 2
-		x = -1
+		x = 0
 		y = 2
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = YUG_focus_02
 		}
@@ -88,15 +257,40 @@ shared_focus = {
 		focus = YUG_focus_05
 		}
         completion_reward = {
-			
+			add_stability = 0.05
+			custom_effect_tooltip = YUG_focus_04_tt
+			add_to_variable = {
+				YUG.Num_spend_in_decision = 10
+			}
+			add_to_variable = {
+				YUG.Num_infantry_spend = -150
+			}
+			add_to_variable = {
+				YUG.Num_infantry_spend_at = 150
+			}
+			add_to_variable = {
+				YUG.Num_support_spend = -20
+			}
+			add_to_variable = {
+				YUG.Num_support_spend_at = 20
+			}
+			add_to_variable = {
+				YUG.Num_artillery_spend = -5
+			}
+			add_to_variable = {
+				YUG.Num_artillery_spend_at = 5
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_05
 		icon = GFX_YUG_focus_05
 		cost = 2
-		x = 0
+		x = 2
 		y = 2
+		available = {
+			always = no
+		}
 		prerequisite = {
 			focus = YUG_focus_02
 		}
@@ -104,40 +298,69 @@ shared_focus = {
 		    focus = YUG_focus_04
 		}
         completion_reward = {
-			
+			add_war_support = 0.05
+			custom_effect_tooltip = YUG_focus_05_tt
+			add_to_variable = {
+				YUG.Num_spend_in_decision = -10
+			}
+			add_to_variable = {
+				YUG.Num_infantry_spend = 150
+			}
+			add_to_variable = {
+				YUG.Num_infantry_spend_at = -150
+			}
+			add_to_variable = {
+				YUG.Num_support_spend = 20
+			}
+			add_to_variable = {
+				YUG.Num_support_spend_at = -20
+			}
+			add_to_variable = {
+				YUG.Num_artillery_spend = 5
+			}
+			add_to_variable = {
+				YUG.Num_artillery_spend_at = -5
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_06
 		icon = GFX_YUG_focus_06
 		cost = 2
-		x = 2
+		x = 4
 		y = 2
 		prerequisite = {
 			focus = YUG_focus_03
 		}
         completion_reward = {
-			
+			country_event = {
+				id = YUG.8
+				days = 1
+			}
+			add_ideas = YUG_national_revolution_guard
 		}
 	}
 shared_focus = {
 		id = YUG_focus_07
 		icon = GFX_YUG_focus_07
 		cost = 2
-		x = -1
+		x = 0
 		y = 3
 		prerequisite = {
 			focus = YUG_focus_04
 		}
         completion_reward = {
-			
+			country_event = {
+				id = YUG.9
+				days = 1
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_08
 		icon = GFX_YUG_focus_08
 		cost = 2
-		x = 1
+		x = 3
 		y = 3
 		prerequisite = {
 			focus = YUG_focus_05
@@ -146,14 +369,17 @@ shared_focus = {
 			focus = YUG_focus_06
 		}
         completion_reward = {
-			
+			country_event = {
+				id = YUG.10
+				days = 1
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_09
 		icon = GFX_YUG_focus_09
 		cost = 2
-		x = 2
+		x = 5
 		y = 3
 		prerequisite = {
 			focus = YUG_focus_05
@@ -162,15 +388,24 @@ shared_focus = {
 			focus = YUG_focus_06
 		}
         completion_reward = {
-			
+			country_event = {
+				id = YUG.11
+				days = 1
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_010
 		icon = GFX_YUG_focus_010
 		cost = 4
-		x = -1
+		x = 1
 		y = 4
+		mutually_exclusive = {
+			focus = YUG_focus_011
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_012
+		}
 		prerequisite = { 
 		    focus = YUG_focus_07 OR = YUG_focus_08 
 		}
@@ -178,15 +413,25 @@ shared_focus = {
 		    focus = YUG_focus_09 
 		}
         completion_reward = {
-			
+			add_manpower = 20000
+			add_popularity = {
+				ideology = Nationalism
+				popularity = 0.07
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_011
 		icon = GFX_YUG_focus_011
 		cost = 4
-		x = 1
+		x = 3
 		y = 4
+		mutually_exclusive = {
+			focus = YUG_focus_010
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_012
+		}
 		prerequisite = { 
 		    focus = YUG_focus_07 OR = YUG_focus_08 
 		}
@@ -194,15 +439,34 @@ shared_focus = {
 		    focus = YUG_focus_09 
 		}
         completion_reward = {
-			
+			add_political_power = 150
+			add_manpower = -5000
+			add_popularity = {
+				ideology = Nationalism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = reactionism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.05
+			}
 		}
 	}
 shared_focus = {
 		id = YUG_focus_012
 		icon = GFX_YUG_focus_012
 		cost = 4
-		x = 3
+		x = 5
 		y = 4
+		mutually_exclusive = {
+			focus = YUG_focus_010
+		}
+		mutually_exclusive = {
+			focus = YUG_focus_011
+		}
 		prerequisite = { 
 		    focus = YUG_focus_07 OR = YUG_focus_08 
 		}
@@ -210,6 +474,23 @@ shared_focus = {
 		    focus = YUG_focus_09 
 		}
         completion_reward = {
-			
+			add_manpower = 10000
+			add_political_power = 50
+			add_popularity = {
+				ideology = communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = committee_communism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = moderate_socialism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = Nationalism
+				popularity = 0.05
+			}
 		}
 	}

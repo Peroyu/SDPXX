@@ -6,25 +6,25 @@ YUG_repression_categories = {
 		icon = decision_generic_political_discourse
 
         available = {
-		 has_equipment = { infantry_equipment > 500}
-		  has_equipment = {support_equipment > 50}
-		  has_equipment = {artillery_equipment > 10}
+		 has_equipment = { infantry_equipment > YUG.Num_infantry_spend}
+		  has_equipment = {support_equipment > YUG.Num_support_spend}
+		  has_equipment = {artillery_equipment > YUG.Num_artillery_spend}
 		}
         
 		fire_only_once = yes
-		
+		cost = YUG.Num_spend_in_decision
 		remove_effect = {
 			add_equipment_to_stockpile = {
 			    type = infantry_equipment
-			    amount = -500
+			    amount = YUG.Num_infantry_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = support_equipment
-			    amount = -50
+			    amount = YUG.Num_support_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = artillery_equipment
-			    amount = -10
+			    amount = YUG.Num_artillery_spend_at
 		    }
 			1142 = { set_demilitarized_zone = no }
 			1141 = { set_demilitarized_zone = no }
@@ -36,11 +36,11 @@ YUG_repression_categories = {
 		priority = 100
 
 		icon = decision_generic_political_discourse
-
+		cost = YUG.Num_spend_in_decision
         available = {
-		  has_equipment = { infantry_equipment > 1500}
-		  has_equipment = {support_equipment > 100}
-		  has_equipment = {artillery_equipment > 30}
+			has_equipment = { infantry_equipment > YUG.Num_infantry_spend}
+			has_equipment = {support_equipment > YUG.Num_support_spend}
+			has_equipment = {artillery_equipment > YUG.Num_artillery_spend}
 		}
         
 		fire_only_once = yes
@@ -48,15 +48,15 @@ YUG_repression_categories = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 			    type = infantry_equipment
-			    amount = -1500
+			    amount = YUG.Num_infantry_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = support_equipment
-			    amount = -100
+			    amount = YUG.Num_support_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = artillery_equipment
-			    amount = -30
+			    amount = YUG.Num_artillery_spend_at
 		    }
 			1269 = { set_demilitarized_zone = no }
 			767 = { set_demilitarized_zone = no }
@@ -70,11 +70,11 @@ YUG_repression_categories = {
 		priority = 100
 
 		icon = decision_generic_political_discourse
-
+		cost = YUG.Num_spend_in_decision
         available = {
-		  has_equipment = {infantry_equipment > 500}
-		  has_equipment = {support_equipment > 50}
-		  has_equipment = {artillery_equipment > 10}
+			has_equipment = { infantry_equipment > YUG.Num_infantry_spend}
+			has_equipment = {support_equipment > YUG.Num_support_spend}
+			has_equipment = {artillery_equipment > YUG.Num_artillery_spend}
 		}
         
 		fire_only_once = yes
@@ -82,15 +82,15 @@ YUG_repression_categories = {
 		remove_effect = {
 			add_equipment_to_stockpile = {
 			    type = infantry_equipment
-			    amount = -500
+			    amount = YUG.Num_infantry_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = support_equipment
-			    amount = -50
+			    amount = YUG.Num_support_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = artillery_equipment
-			    amount = -10
+			    amount = YUG.Num_artillery_spend_at
 		    }
 			1270 = { set_demilitarized_zone = no }
 			105 = { set_demilitarized_zone = no }
@@ -104,25 +104,25 @@ YUG_repression_categories = {
 		icon = decision_generic_political_discourse
 
         available = {
-		  has_equipment = {infantry_equipment > 500}
-		  has_equipment = {support_equipment > 50}
-		  has_equipment = {artillery_equipment > 10}
+			has_equipment = { infantry_equipment > YUG.Num_infantry_spend}
+			has_equipment = {support_equipment > YUG.Num_support_spend}
+			has_equipment = {artillery_equipment > YUG.Num_artillery_spend}
 		}
         
 		fire_only_once = yes
-		
+		cost = YUG.Num_spend_in_decision
 		remove_effect = {
 			add_equipment_to_stockpile = {
 			    type = infantry_equipment
-			    amount = -500
+			    amount = YUG.Num_infantry_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = support_equipment
-			    amount = -50
+			    amount = YUG.Num_support_spend_at
 		    }
 			add_equipment_to_stockpile = {
 			    type = artillery_equipment
-			    amount = -10
+			    amount = YUG.Num_artillery_spend_at
 		    }
 			1097 = { set_demilitarized_zone = no }
 			765 = { set_demilitarized_zone = no }
