@@ -1,5 +1,9 @@
 spriteTypes = {
     spriteType = {
+		name = "GFX_idea_FWI_independence"
+		texturefile = "gfx/interface/ideas/FWI/GFX_FWI_independence.dds"
+	}
+    spriteType = {
 		name = "GFX_idea_ROM_international_army"
 		texturefile = "gfx/interface/ideas/ROM/GFX_ROM_international_army.dds"
 	}

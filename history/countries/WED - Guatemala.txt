@@ -23,7 +23,9 @@ set_popularities = {
 	reactionism = 10
 	Nationalism = 10
 }
-
+add_ideas = {
+FWI_independence
+}
 create_country_leader = {
 	name = "WED_Juan_Arevalo"  # 
 	desc = "/"  # 

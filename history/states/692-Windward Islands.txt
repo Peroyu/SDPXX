@@ -6,7 +6,7 @@ state = {
 
 	local_supplies = 4.0 
 	history = {
-		owner = FWI
+		owner = WIN
 		buildings = {
 			infrastructure = 2
 			11350 = {

@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		FWI_independence = {
+		    name = FWI_independence
+			picture = GFX_FWI_independence
+			allowed = { always = no }
+			available = {
+			}
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+	}
+}	

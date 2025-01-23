@@ -22,7 +22,9 @@ set_popularities = {
  reactionism = 17
  Nationalism = 13
 }
-
+add_ideas = {
+FWI_independence
+}
 # 
 create_country_leader = {
 	name = "FWI_india_concil"  # 

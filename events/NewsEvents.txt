@@ -23,7 +23,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -43,7 +43,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -62,7 +62,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -81,7 +81,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -100,7 +100,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -159,7 +159,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -178,7 +178,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -197,7 +197,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -229,7 +229,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -258,7 +258,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -287,7 +287,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -307,7 +307,7 @@ news_event = {
         }
 	}
     is_triggered_only = yes
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -346,7 +346,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -375,7 +375,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -402,7 +402,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -439,7 +439,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -460,7 +460,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -503,7 +503,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -526,7 +526,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -560,7 +560,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -583,7 +583,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -615,7 +615,7 @@ news_event = {
         
     }
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -642,7 +642,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -665,7 +665,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -691,7 +691,7 @@ news_event = {
     date > 1947.6.5
   }
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -712,7 +712,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -731,7 +731,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -750,7 +750,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -769,7 +769,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -788,7 +788,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -807,7 +807,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -826,7 +826,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -845,7 +845,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -864,7 +864,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -882,7 +882,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -920,7 +920,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -941,7 +941,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -967,7 +967,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -990,7 +990,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1013,7 +1013,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1034,7 +1034,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1055,7 +1055,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1076,7 +1076,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1097,7 +1097,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1118,7 +1118,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1144,7 +1144,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1166,7 +1166,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1188,7 +1188,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1210,7 +1210,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1232,7 +1232,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1254,7 +1254,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1276,7 +1276,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1298,7 +1298,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1320,7 +1320,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1342,7 +1342,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1364,7 +1364,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1386,7 +1386,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1408,7 +1408,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1430,7 +1430,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1452,7 +1452,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1471,7 +1471,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1490,7 +1490,6 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
 
     major = yes
 
@@ -1509,7 +1508,6 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
 
     major = yes
 
@@ -1528,7 +1526,6 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
 
     major = yes
 
@@ -1547,8 +1544,6 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
-
     major = yes
 
 	option = {
@@ -1566,7 +1561,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1583,7 +1578,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1600,7 +1595,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1617,7 +1612,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1692,7 +1687,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
     immediate = {
         hidden_effect = {
             VEN = {
@@ -1732,7 +1727,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
     immediate = {
         hidden_effect = {
             
@@ -1753,7 +1748,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
     immediate = {
         hidden_effect = {
             
@@ -1774,7 +1769,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
     immediate = {
         hidden_effect = {
             
@@ -1795,7 +1790,28 @@ news_event = {#圭亚那独立
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
+    immediate = {
+        hidden_effect = {
+            
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.5.a
+	}
+}
+news_event = {#西印度联邦成立
+	id = LaAme.5
+
+    picture = GFX_LaAme_5
+    title = LaAme.5.t
+    desc = LaAme.5.d
+    
+    is_triggered_only = yes
+ 
+    
     immediate = {
         hidden_effect = {
             
@@ -1816,7 +1832,7 @@ news_event = {
     
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1836,7 +1852,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1858,7 +1874,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1878,7 +1894,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1898,7 +1914,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1919,7 +1935,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1939,7 +1955,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1959,7 +1975,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1979,7 +1995,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -1999,7 +2015,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2019,7 +2035,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2039,7 +2055,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2059,7 +2075,7 @@ news_event = {
 	}
     is_triggered_only = yes
  
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2080,7 +2096,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2101,7 +2117,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2122,7 +2138,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2143,7 +2159,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2180,7 +2196,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2201,7 +2217,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2222,7 +2238,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2243,7 +2259,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2264,7 +2280,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2285,7 +2301,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2306,7 +2322,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2373,7 +2389,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2406,7 +2422,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2445,7 +2461,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2489,7 +2505,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2516,7 +2532,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2555,7 +2571,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2577,7 +2593,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2598,7 +2614,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2684,7 +2700,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2709,7 +2725,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2730,7 +2746,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2755,7 +2771,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2777,7 +2793,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2807,7 +2823,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2877,7 +2893,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2924,7 +2940,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2947,7 +2963,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -2994,7 +3010,7 @@ news_event = {
         
     }
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3055,7 +3071,7 @@ news_event = {
         }
     }
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3094,7 +3110,7 @@ news_event = {
        
     }
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3114,7 +3130,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3136,7 +3152,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3161,7 +3177,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3188,7 +3204,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3212,7 +3228,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3232,7 +3248,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3252,7 +3268,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3272,7 +3288,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3303,7 +3319,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3325,7 +3341,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3345,7 +3361,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3364,7 +3380,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3384,7 +3400,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3404,7 +3420,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3426,7 +3442,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3454,7 +3470,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3474,7 +3490,7 @@ news_event = {
 	}
     is_triggered_only = yes
     
-    fire_only_once = yes
+    
 
     major = yes
 
@@ -3497,7 +3513,7 @@ news_event = {
         date  > 1951.3.18
     }
     
-    fire_only_once = yes
+    
 
     major = yes
 

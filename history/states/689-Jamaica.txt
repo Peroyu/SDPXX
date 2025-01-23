@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = FWI
+		owner = JAM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

@@ -11,7 +11,7 @@ state = {
 
 
 	history = {
-		owner = FWI
+		owner = TAT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
