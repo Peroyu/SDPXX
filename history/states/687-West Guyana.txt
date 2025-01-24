@@ -7,7 +7,7 @@ state = {
 
 	local_supplies = 3.0 
 	history = {
-		owner = GUY
+		owner = CAN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

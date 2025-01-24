@@ -17,9 +17,21 @@ on_actions = {
 					id = color.1
 					days = 560
 				}
+				country_event = {
+					id = VENwar.1
+					days = 1600
+				}
+				country_event = {
+					id = VENwar.5
+					days = 500
+				}
 				news_event = {
 				    id = LaAme.1
 					days = 330
+				}
+				news_event = {
+				    id = LaAme.6
+					days = 138
 				}
 				news_event = {
 				    id = ISU.14

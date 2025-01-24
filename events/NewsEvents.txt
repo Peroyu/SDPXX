@@ -1803,24 +1803,76 @@ news_event = {#圭亚那独立
 	}
 }
 news_event = {#西印度联邦成立
-	id = LaAme.5
+	id = LaAme.6
 
-    picture = GFX_LaAme_5
-    title = LaAme.5.t
-    desc = LaAme.5.d
+    picture = GFX_LaAme_6
+    title = LaAme.6.t
+    desc = LaAme.6.d
     
     is_triggered_only = yes
  
     
     immediate = {
         hidden_effect = {
-            
+         set_nationality = FWI
+		 FWI = {
+			transfer_state = 311
+			add_state_core = 311
+			transfer_state = 1309
+			add_state_core = 1309
+			transfer_state = 1037
+			add_state_core = 1037
+			transfer_state = 310
+			add_state_core = 310
+			transfer_state = 689
+			add_state_core = 689
+			transfer_state = 690
+			add_state_core = 690
+			transfer_state = 308
+			add_state_core = 308
+			transfer_state = 692
+			add_state_core = 692
+			transfer_state = 691
+			add_state_core = 691
+			transfer_state = 1078
+			add_state_core = 1078
+			transfer_state = 1079
+			add_state_core = 1079
+			transfer_state = 687
+			add_state_core = 687
+			transfer_state = 1039
+			add_state_core = 1039
+			transfer_state = 1308
+			add_state_core = 1308
+			give_military_access = CAN
+		    }
         }
     }
     major = yes
 
 	option = {
-		name = LaAme.5.a
+		name = LaAme.6.a
+	}
+}
+news_event = {#鲁普努尼叛乱
+	id = LaAme.7
+
+    picture = GFX_LaAme_7
+    title = LaAme.7.t
+    desc = LaAme.7.d
+    
+    is_triggered_only = yes
+ 
+    
+    immediate = {
+        hidden_effect = {
+         
+        }
+    }
+    major = yes
+
+	option = {
+		name = LaAme.6.a
 	}
 }
 news_event = {
